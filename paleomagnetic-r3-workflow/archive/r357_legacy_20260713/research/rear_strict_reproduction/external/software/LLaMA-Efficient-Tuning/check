@@ -1,0 +1,10 @@
+import json
+
+with open("/mnt/wangyuhao/usere/training/ranksft-gold.json") as f:
+    data = json.load(f)
+
+x = 0
+for dic in data:
+    x += dic['system'][1]
+
+print(x/len(data))

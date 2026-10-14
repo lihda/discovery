@@ -1,0 +1,651 @@
+nohup: ignoring input
+[2023-12-13 10:43:29,473] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2023-12-13 10:43:31,316] [WARNING] [runner.py:203:fetch_hostfile] Unable to find hostfile, will proceed with training with local resources only.
+Detected CUDA_VISIBLE_DEVICES=2,4: setting --include=localhost:2,4
+[2023-12-13 10:43:31,395] [INFO] [runner.py:570:main] cmd = /home/wangyuhao/miniconda3/envs/llm/bin/python -u -m deepspeed.launcher.launch --world_info=eyJsb2NhbGhvc3QiOiBbMiwgNF19 --master_addr=127.0.0.1 --master_port=9941 --enable_each_rank_log=None src/train_bash.py --deepspeed ds_config3_nooff.json --stage ranksft --model_name_or_path /home/wangyuhao/self-rag/Llama-2-7b-hf --do_train --save_safetensors true --preprocessing_num_worker 10 --dataset_dir /mnt/wangyuhao/usere/training --dataset 26doc-152303 --template usere --rank_beta 1 --psg_num 2 --loss_fn bce --rank_bias 0.8 --relevant_init relevant --flash_attn true --only_rank false --finetuning_type full --lr_scheduler_type cosine --cache_dir /home/wangyuhao/huggingface/datasets/.cache --output_dir /media/wangyuhao/usere/26doc-152303-r --overwrite_output_dir --cutoff_len 4090 --freeze_lr 0.00001 --warmup_ratio 0.03 --mask_rel_token true --freeze_epoch 0 --per_device_train_batch_size 32 --gradient_accumulation_steps 2 --logging_steps 10 --save_steps 400 --learning_rate 1e-6 --num_train_epochs 2.0 --plot_loss --bf16
+[2023-12-13 10:43:33,111] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2023-12-13 10:43:34,732] [INFO] [launch.py:145:main] WORLD INFO DICT: {'localhost': [2, 4]}
+[2023-12-13 10:43:34,732] [INFO] [launch.py:151:main] nnodes=1, num_local_procs=2, node_rank=0
+[2023-12-13 10:43:34,732] [INFO] [launch.py:162:main] global_rank_mapping=defaultdict(<class 'list'>, {'localhost': [0, 1]})
+[2023-12-13 10:43:34,732] [INFO] [launch.py:163:main] dist_world_size=2
+[2023-12-13 10:43:34,732] [INFO] [launch.py:165:main] Setting CUDA_VISIBLE_DEVICES=2,4
+[2023-12-13 10:43:37,260] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2023-12-13 10:43:37,275] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2023-12-13 10:43:42,661] [INFO] [comm.py:637:init_distributed] cdb=None
+[2023-12-13 10:43:42,661] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[2023-12-13 10:43:42,702] [INFO] [comm.py:637:init_distributed] cdb=None
+12/13/2023 10:43:43 - INFO - llmtuner.tuner.core.parser - Process rank: 1, device: cuda:1, n_gpu: 1
+  distributed training: True, compute dtype: torch.bfloat16
+12/13/2023 10:43:43 - INFO - llmtuner.tuner.core.parser - Process rank: 0, device: cuda:0, n_gpu: 1
+  distributed training: True, compute dtype: torch.bfloat16
+12/13/2023 10:43:43 - INFO - llmtuner.tuner.core.parser - Training/evaluation parameters Seq2SeqTrainingArguments(
+_n_gpu=1,
+adafactor=False,
+adam_beta1=0.9,
+adam_beta2=0.999,
+adam_epsilon=1e-08,
+auto_find_batch_size=False,
+bf16=True,
+bf16_full_eval=False,
+data_seed=None,
+dataloader_drop_last=False,
+dataloader_num_workers=0,
+dataloader_pin_memory=True,
+ddp_backend=None,
+ddp_broadcast_buffers=None,
+ddp_bucket_cap_mb=None,
+ddp_find_unused_parameters=None,
+ddp_timeout=1800,
+debug=[],
+deepspeed=ds_config3_nooff.json,
+disable_tqdm=False,
+dispatch_batches=None,
+do_eval=False,
+do_predict=False,
+do_train=True,
+eval_accumulation_steps=None,
+eval_delay=0,
+eval_steps=None,
+evaluation_strategy=no,
+fp16=False,
+fp16_backend=auto,
+fp16_full_eval=False,
+fp16_opt_level=O1,
+fsdp=[],
+fsdp_config={'min_num_params': 0, 'xla': False, 'xla_fsdp_grad_ckpt': False},
+fsdp_min_num_params=0,
+fsdp_transformer_layer_cls_to_wrap=None,
+full_determinism=False,
+generation_config=None,
+generation_max_length=None,
+generation_num_beams=None,
+gradient_accumulation_steps=2,
+gradient_checkpointing=False,
+greater_is_better=None,
+group_by_length=False,
+half_precision_backend=auto,
+hub_always_push=False,
+hub_model_id=None,
+hub_private_repo=False,
+hub_strategy=every_save,
+hub_token=<HUB_TOKEN>,
+ignore_data_skip=False,
+include_inputs_for_metrics=False,
+include_tokens_per_second=False,
+jit_mode_eval=False,
+label_names=None,
+label_smoothing_factor=0.0,
+learning_rate=1e-06,
+length_column_name=length,
+load_best_model_at_end=False,
+local_rank=1,
+log_level=passive,
+log_level_replica=warning,
+log_on_each_node=True,
+logging_dir=/media/wangyuhao/usere/26doc-152303-r/runs/Dec13_10-43-42_zuchongzhi,
+logging_first_step=False,
+logging_nan_inf_filter=True,
+logging_steps=10,
+logging_strategy=steps,
+lr_scheduler_type=cosine,
+max_grad_norm=1.0,
+max_steps=-1,
+metric_for_best_model=None,
+mp_parameters=,
+no_cuda=False,
+num_train_epochs=2.0,
+optim=adamw_torch,
+optim_args=None,
+output_dir=/media/wangyuhao/usere/26doc-152303-r,
+overwrite_output_dir=True,
+past_index=-1,
+per_device_eval_batch_size=8,
+per_device_train_batch_size=32,
+predict_with_generate=False,
+prediction_loss_only=False,
+push_to_hub=False,
+push_to_hub_model_id=None,
+push_to_hub_organization=None,
+push_to_hub_token=<PUSH_TO_HUB_TOKEN>,
+ray_scope=last,
+remove_unused_columns=True,
+report_to=['tensorboard'],
+resume_from_checkpoint=None,
+run_name=/media/wangyuhao/usere/26doc-152303-r,
+save_on_each_node=False,
+save_safetensors=True,
+save_steps=400,
+save_strategy=steps,
+save_total_limit=None,
+seed=42,
+sharded_ddp=[],
+skip_memory_metrics=True,
+sortish_sampler=False,
+tf32=None,
+torch_compile=False,
+torch_compile_backend=None,
+torch_compile_mode=None,
+torchdynamo=None,
+tpu_metrics_debug=False,
+tpu_num_cores=None,
+use_cpu=False,
+use_ipex=False,
+use_legacy_prediction_loop=False,
+use_mps_device=False,
+warmup_ratio=0.03,
+warmup_steps=0,
+weight_decay=0.0,
+)
+12/13/2023 10:43:43 - INFO - llmtuner.dsets.loader - Loading dataset 26doc-152303.json...
+12/13/2023 10:43:43 - WARNING - llmtuner.dsets.utils - Checksum failed: missing SHA-1 hash value in dataset_info.json.
+12/13/2023 10:43:43 - INFO - llmtuner.tuner.core.parser - Training/evaluation parameters Seq2SeqTrainingArguments(
+_n_gpu=1,
+adafactor=False,
+adam_beta1=0.9,
+adam_beta2=0.999,
+adam_epsilon=1e-08,
+auto_find_batch_size=False,
+bf16=True,
+bf16_full_eval=False,
+data_seed=None,
+dataloader_drop_last=False,
+dataloader_num_workers=0,
+dataloader_pin_memory=True,
+ddp_backend=None,
+ddp_broadcast_buffers=None,
+ddp_bucket_cap_mb=None,
+ddp_find_unused_parameters=None,
+ddp_timeout=1800,
+debug=[],
+deepspeed=ds_config3_nooff.json,
+disable_tqdm=False,
+dispatch_batches=None,
+do_eval=False,
+do_predict=False,
+do_train=True,
+eval_accumulation_steps=None,
+eval_delay=0,
+eval_steps=None,
+evaluation_strategy=no,
+fp16=False,
+fp16_backend=auto,
+fp16_full_eval=False,
+fp16_opt_level=O1,
+fsdp=[],
+fsdp_config={'min_num_params': 0, 'xla': False, 'xla_fsdp_grad_ckpt': False},
+fsdp_min_num_params=0,
+fsdp_transformer_layer_cls_to_wrap=None,
+full_determinism=False,
+generation_config=None,
+generation_max_length=None,
+generation_num_beams=None,
+gradient_accumulation_steps=2,
+gradient_checkpointing=False,
+greater_is_better=None,
+group_by_length=False,
+half_precision_backend=auto,
+hub_always_push=False,
+hub_model_id=None,
+hub_private_repo=False,
+hub_strategy=every_save,
+hub_token=<HUB_TOKEN>,
+ignore_data_skip=False,
+include_inputs_for_metrics=False,
+include_tokens_per_second=False,
+jit_mode_eval=False,
+label_names=None,
+label_smoothing_factor=0.0,
+learning_rate=1e-06,
+length_column_name=length,
+load_best_model_at_end=False,
+local_rank=0,
+log_level=passive,
+log_level_replica=warning,
+log_on_each_node=True,
+logging_dir=/media/wangyuhao/usere/26doc-152303-r/runs/Dec13_10-43-42_zuchongzhi,
+logging_first_step=False,
+logging_nan_inf_filter=True,
+logging_steps=10,
+logging_strategy=steps,
+lr_scheduler_type=cosine,
+max_grad_norm=1.0,
+max_steps=-1,
+metric_for_best_model=None,
+mp_parameters=,
+no_cuda=False,
+num_train_epochs=2.0,
+optim=adamw_torch,
+optim_args=None,
+output_dir=/media/wangyuhao/usere/26doc-152303-r,
+overwrite_output_dir=True,
+past_index=-1,
+per_device_eval_batch_size=8,
+per_device_train_batch_size=32,
+predict_with_generate=False,
+prediction_loss_only=False,
+push_to_hub=False,
+push_to_hub_model_id=None,
+push_to_hub_organization=None,
+push_to_hub_token=<PUSH_TO_HUB_TOKEN>,
+ray_scope=last,
+remove_unused_columns=True,
+report_to=['tensorboard'],
+resume_from_checkpoint=None,
+run_name=/media/wangyuhao/usere/26doc-152303-r,
+save_on_each_node=False,
+save_safetensors=True,
+save_steps=400,
+save_strategy=steps,
+save_total_limit=None,
+seed=42,
+sharded_ddp=[],
+skip_memory_metrics=True,
+sortish_sampler=False,
+tf32=None,
+torch_compile=False,
+torch_compile_backend=None,
+torch_compile_mode=None,
+torchdynamo=None,
+tpu_metrics_debug=False,
+tpu_num_cores=None,
+use_cpu=False,
+use_ipex=False,
+use_legacy_prediction_loop=False,
+use_mps_device=False,
+warmup_ratio=0.03,
+warmup_steps=0,
+weight_decay=0.0,
+)
+12/13/2023 10:43:43 - INFO - llmtuner.dsets.loader - Loading dataset 26doc-152303.json...
+12/13/2023 10:43:43 - WARNING - llmtuner.dsets.utils - Checksum failed: missing SHA-1 hash value in dataset_info.json.
+/home/wangyuhao/miniconda3/envs/llm/lib/python3.8/site-packages/datasets/load.py:2069: FutureWarning: 'use_auth_token' was deprecated in favor of 'token' in version 2.14.0 and will be removed in 3.0.0.
+You can remove this warning by passing 'token=None' instead.
+  warnings.warn(
+/home/wangyuhao/miniconda3/envs/llm/lib/python3.8/site-packages/datasets/load.py:2069: FutureWarning: 'use_auth_token' was deprecated in favor of 'token' in version 2.14.0 and will be removed in 3.0.0.
+You can remove this warning by passing 'token=None' instead.
+  warnings.warn(
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 1/1 [00:00<00:00, 5059.47it/s]
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 1/1 [00:00<00:00, 631.39it/s]
+Generating train split: 0 examples [00:00, ? examples/s]Using custom data configuration default-808fb2ddbb74d749
+Loading Dataset Infos from /home/wangyuhao/miniconda3/envs/llm/lib/python3.8/site-packages/datasets/packaged_modules/json
+Generating train split: 462601 examples [00:14, 31888.90 examples/s]Generating train split: 462601 examples [00:14, 31403.80 examples/s]
+Found cached dataset json (/home/wangyuhao/huggingface/datasets/.cache/json/default-808fb2ddbb74d749/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96)
+Loading Dataset info from /home/wangyuhao/huggingface/datasets/.cache/json/default-808fb2ddbb74d749/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96
+instruction prompt
+input query
+output response
+instruction prompt
+input query
+output response
+[INFO|tokenization_utils_base.py:2041] 2023-12-13 10:43:59,214 >> loading file tokenizer.model
+[INFO|tokenization_utils_base.py:2041] 2023-12-13 10:43:59,214 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2041] 2023-12-13 10:43:59,214 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2041] 2023-12-13 10:43:59,214 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2041] 2023-12-13 10:43:59,214 >> loading file tokenizer_config.json
+12/13/2023 10:43:59 - INFO - llmtuner.tuner.core.loader - Using FlashAttention-2 for faster training and inference.
+[WARNING|modeling_utils.py:2499] 2023-12-13 10:43:59,224 >> The argument `trust_remote_code` is to be used with Auto classes. It has no effect here and is ignored.
+[INFO|configuration_utils.py:713] 2023-12-13 10:43:59,315 >> loading configuration file /home/wangyuhao/self-rag/Llama-2-7b-hf/config.json
+[INFO|configuration_utils.py:775] 2023-12-13 10:43:59,317 >> Model config LlamaConfig {
+  "_name_or_path": "/home/wangyuhao/self-rag/Llama-2-7b-hf",
+  "architectures": [
+    "LlamaForCausalLM"
+  ],
+  "attention_bias": false,
+  "bos_token_id": 1,
+  "eos_token_id": 2,
+  "hidden_act": "silu",
+  "hidden_size": 4096,
+  "initializer_range": 0.02,
+  "intermediate_size": 11008,
+  "max_position_embeddings": 4096,
+  "model_type": "llama",
+  "num_attention_heads": 32,
+  "num_hidden_layers": 32,
+  "num_key_value_heads": 32,
+  "pad_token_id": 0,
+  "pretraining_tp": 1,
+  "rms_norm_eps": 1e-05,
+  "rope_scaling": null,
+  "rope_theta": 10000.0,
+  "tie_word_embeddings": false,
+  "torch_dtype": "float16",
+  "transformers_version": "4.34.0",
+  "use_cache": true,
+  "vocab_size": 32000
+}
+
+12/13/2023 10:43:59 - INFO - llmtuner.tuner.core.loader - Using FlashAttention-2 for faster training and inference.
+[INFO|tokenization_utils_base.py:952] 2023-12-13 10:43:59,318 >> Assigning ['<IRRELEVANT>', '<RELEVANT>', '<BEGIN_QUERY>', '<GENERATE_SCORE>'] to the additional_special_tokens key of the tokenizer
+[INFO|tokenization_utils_base.py:952] 2023-12-13 10:43:59,318 >> Assigning <s> to the bos_token key of the tokenizer
+[INFO|tokenization_utils_base.py:952] 2023-12-13 10:43:59,318 >> Assigning </s> to the eos_token key of the tokenizer
+[INFO|tokenization_utils_base.py:952] 2023-12-13 10:43:59,318 >> Assigning <unk> to the unk_token key of the tokenizer
+[INFO|tokenization_utils_base.py:952] 2023-12-13 10:43:59,318 >> Assigning <unk> to the pad_token key of the tokenizer
+[WARNING|modeling_utils.py:2499] 2023-12-13 10:43:59,318 >> The argument `trust_remote_code` is to be used with Auto classes. It has no effect here and is ignored.
+[INFO|modeling_utils.py:2990] 2023-12-13 10:43:59,319 >> loading weights file /home/wangyuhao/self-rag/Llama-2-7b-hf/model.safetensors.index.json
+[INFO|modeling_utils.py:1220] 2023-12-13 10:43:59,319 >> Instantiating LlamaForRankCausalLM model under default dtype torch.bfloat16.
+[INFO|modeling_utils.py:3076] 2023-12-13 10:43:59,319 >> Detected DeepSpeed ZeRO-3: activating zero.init() for this model
+[INFO|configuration_utils.py:770] 2023-12-13 10:43:59,326 >> Generate config GenerationConfig {
+  "bos_token_id": 1,
+  "eos_token_id": 2,
+  "pad_token_id": 0
+}
+
+[2023-12-13 10:44:03,705] [INFO] [partition_parameters.py:347:__exit__] finished initializing model - num_params = 292, num_elems = 6.74B
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.64it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  2.24it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  2.12it/s]
+/home/wangyuhao/miniconda3/envs/llm/lib/python3.8/site-packages/transformers/generation/configuration_utils.py:362: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`. This was detected when initializing the generation config instance, which means the corresponding file may hold incorrect parameterization and should be fixed.
+  warnings.warn(
+/home/wangyuhao/miniconda3/envs/llm/lib/python3.8/site-packages/transformers/generation/configuration_utils.py:367: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`. This was detected when initializing the generation config instance, which means the corresponding file may hold incorrect parameterization and should be fixed.
+  warnings.warn(
+Init the rel_score.weight with the weights of `relevant`
+12/13/2023 10:44:04 - INFO - llmtuner.tuner.core.loader - Init the rel_score.weight with the weights of token `▁relevant (8018)`
+12/13/2023 10:44:04 - INFO - llmtuner.tuner.core.utils - Gradient checkpointing enabled.
+12/13/2023 10:44:04 - INFO - llmtuner.tuner.core.adapter - Fine-tuning method: Full
+12/13/2023 10:44:04 - INFO - llmtuner.tuner.core.loader - trainable params: 6738485248 || all params: 6738485248 || trainable%: 100.0000
+Loading checkpoint shards:  50%|█████     | 1/2 [00:04<00:04,  4.19s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.69s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.91s/it]
+[INFO|modeling_utils.py:3775] 2023-12-13 10:44:09,575 >> All model checkpoint weights were used when initializing LlamaForRankCausalLM.
+
+[INFO|modeling_utils.py:3783] 2023-12-13 10:44:09,575 >> All the weights of LlamaForRankCausalLM were initialized from the model checkpoint at /home/wangyuhao/self-rag/Llama-2-7b-hf.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use LlamaForRankCausalLM for predictions without further training.
+[INFO|configuration_utils.py:728] 2023-12-13 10:44:09,579 >> loading configuration file /home/wangyuhao/self-rag/Llama-2-7b-hf/generation_config.json
+/home/wangyuhao/miniconda3/envs/llm/lib/python3.8/site-packages/transformers/generation/configuration_utils.py:362: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`. This was detected when initializing the generation config instance, which means the corresponding file may hold incorrect parameterization and should be fixed.
+  warnings.warn(
+/home/wangyuhao/miniconda3/envs/llm/lib/python3.8/site-packages/transformers/generation/configuration_utils.py:367: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`. This was detected when initializing the generation config instance, which means the corresponding file may hold incorrect parameterization and should be fixed.
+  warnings.warn(
+[INFO|configuration_utils.py:770] 2023-12-13 10:44:09,579 >> Generate config GenerationConfig {
+  "beta": 1.0,
+  "bias": 0.8,
+  "bos_token_id": 1,
+  "enable_verify": false,
+  "eos_token_id": 2,
+  "max_length": 4096,
+  "pad_token_id": 0,
+  "psg_num": 2,
+  "rank_only": false,
+  "rel_score_id": 32002,
+  "rr_loss_fn": "bce",
+  "temperature": 0.9,
+  "top_p": 0.6,
+  "verify_score_id": 2
+}
+
+Init the rel_score.weight with the weights of `relevant`
+12/13/2023 10:44:09 - INFO - llmtuner.tuner.core.loader - Init the rel_score.weight with the weights of token `▁relevant (8018)`
+12/13/2023 10:44:09 - INFO - llmtuner.tuner.core.utils - Gradient checkpointing enabled.
+12/13/2023 10:44:09 - INFO - llmtuner.tuner.core.adapter - Fine-tuning method: Full
+12/13/2023 10:44:09 - INFO - llmtuner.tuner.core.loader - trainable params: 6738485248 || all params: 6738485248 || trainable%: 100.0000
+[INFO|tokenization_utils_base.py:952] 2023-12-13 10:44:09,610 >> Assigning [] to the additional_special_tokens key of the tokenizer
+Process #0 will write at /home/wangyuhao/huggingface/datasets/.cache/json/default-808fb2ddbb74d749/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-71f7804a416d6383_00000_of_00010.arrow
+Process #1 will write at /home/wangyuhao/huggingface/datasets/.cache/json/default-808fb2ddbb74d749/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-71f7804a416d6383_00001_of_00010.arrow
+Process #2 will write at /home/wangyuhao/huggingface/datasets/.cache/json/default-808fb2ddbb74d749/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-71f7804a416d6383_00002_of_00010.arrow
+Process #3 will write at /home/wangyuhao/huggingface/datasets/.cache/json/default-808fb2ddbb74d749/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-71f7804a416d6383_00003_of_00010.arrow
+Process #4 will write at /home/wangyuhao/huggingface/datasets/.cache/json/default-808fb2ddbb74d749/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-71f7804a416d6383_00004_of_00010.arrow
+Process #5 will write at /home/wangyuhao/huggingface/datasets/.cache/json/default-808fb2ddbb74d749/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-71f7804a416d6383_00005_of_00010.arrow
+Process #6 will write at /home/wangyuhao/huggingface/datasets/.cache/json/default-808fb2ddbb74d749/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-71f7804a416d6383_00006_of_00010.arrow
+Process #7 will write at /home/wangyuhao/huggingface/datasets/.cache/json/default-808fb2ddbb74d749/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-71f7804a416d6383_00007_of_00010.arrow
+Process #8 will write at /home/wangyuhao/huggingface/datasets/.cache/json/default-808fb2ddbb74d749/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-71f7804a416d6383_00008_of_00010.arrow
+Process #9 will write at /home/wangyuhao/huggingface/datasets/.cache/json/default-808fb2ddbb74d749/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-71f7804a416d6383_00009_of_00010.arrow
+Spawning 10 processes
+Running tokenizer on dataset (num_proc=10):   0%|          | 0/462601 [00:00<?, ? examples/s]Caching processed dataset at /home/wangyuhao/huggingface/datasets/.cache/json/default-808fb2ddbb74d749/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-71f7804a416d6383_00001_of_00010.arrow
+Caching processed dataset at /home/wangyuhao/huggingface/datasets/.cache/json/default-808fb2ddbb74d749/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-71f7804a416d6383_00000_of_00010.arrow
+Caching processed dataset at /home/wangyuhao/huggingface/datasets/.cache/json/default-808fb2ddbb74d749/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-71f7804a416d6383_00002_of_00010.arrow
+Running tokenizer on dataset (num_proc=10):   0%|          | 1000/462601 [00:00<06:44, 1141.97 examples/s]Caching processed dataset at /home/wangyuhao/huggingface/datasets/.cache/json/default-808fb2ddbb74d749/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-71f7804a416d6383_00005_of_00010.arrow
+Caching processed dataset at /home/wangyuhao/huggingface/datasets/.cache/json/default-808fb2ddbb74d749/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-71f7804a416d6383_00003_of_00010.arrow
+Running tokenizer on dataset (num_proc=10):   1%|          | 4000/462601 [00:01<01:35, 4821.10 examples/s]Caching processed dataset at /home/wangyuhao/huggingface/datasets/.cache/json/default-808fb2ddbb74d749/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-71f7804a416d6383_00004_of_00010.arrow
+Caching processed dataset at /home/wangyuhao/huggingface/datasets/.cache/json/default-808fb2ddbb74d749/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-71f7804a416d6383_00006_of_00010.arrow
+Caching processed dataset at /home/wangyuhao/huggingface/datasets/.cache/json/default-808fb2ddbb74d749/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-71f7804a416d6383_00007_of_00010.arrow
+Running tokenizer on dataset (num_proc=10):   2%|▏         | 7000/462601 [00:01<00:56, 8113.45 examples/s]Caching processed dataset at /home/wangyuhao/huggingface/datasets/.cache/json/default-808fb2ddbb74d749/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-71f7804a416d6383_00008_of_00010.arrow
+Caching processed dataset at /home/wangyuhao/huggingface/datasets/.cache/json/default-808fb2ddbb74d749/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-71f7804a416d6383_00009_of_00010.arrow
+Running tokenizer on dataset (num_proc=10):   2%|▏         | 9000/462601 [00:01<00:44, 10087.45 examples/s]Running tokenizer on dataset (num_proc=10):   2%|▏         | 11000/462601 [00:01<00:44, 10184.96 examples/s]Running tokenizer on dataset (num_proc=10):   3%|▎         | 13000/462601 [00:01<00:38, 11552.29 examples/s]Running tokenizer on dataset (num_proc=10):   3%|▎         | 16000/462601 [00:01<00:33, 13345.11 examples/s]Running tokenizer on dataset (num_proc=10):   4%|▍         | 18000/462601 [00:01<00:30, 14610.72 examples/s]Running tokenizer on dataset (num_proc=10):   5%|▍         | 21000/462601 [00:02<00:30, 14428.81 examples/s]Running tokenizer on dataset (num_proc=10):   5%|▍         | 23000/462601 [00:02<00:30, 14424.29 examples/s]Running tokenizer on dataset (num_proc=10):   6%|▌         | 26000/462601 [00:02<00:29, 14698.50 examples/s]Running tokenizer on dataset (num_proc=10):   6%|▋         | 29000/462601 [00:02<00:25, 16825.42 examples/s]Running tokenizer on dataset (num_proc=10):   7%|▋         | 31000/462601 [00:02<00:27, 15879.96 examples/s]Running tokenizer on dataset (num_proc=10):   7%|▋         | 33000/462601 [00:02<00:33, 12961.64 examples/s]Running tokenizer on dataset (num_proc=10):   8%|▊         | 36000/462601 [00:03<00:27, 15489.76 examples/s]Running tokenizer on dataset (num_proc=10):   8%|▊         | 39000/462601 [00:03<00:23, 17786.64 examples/s]Running tokenizer on dataset (num_proc=10):   9%|▉         | 41000/462601 [00:03<00:25, 16567.33 examples/s]Running tokenizer on dataset (num_proc=10):   9%|▉         | 43000/462601 [00:03<00:32, 13015.11 examples/s]Running tokenizer on dataset (num_proc=10):  10%|▉         | 45000/462601 [00:03<00:30, 13913.32 examples/s]Running tokenizer on dataset (num_proc=10):  11%|█         | 49000/462601 [00:03<00:21, 19103.93 examples/s]Running tokenizer on dataset (num_proc=10):  11%|█         | 52000/462601 [00:03<00:21, 19528.69 examples/s]Running tokenizer on dataset (num_proc=10):  12%|█▏        | 55000/462601 [00:04<00:30, 13393.30 examples/s]Running tokenizer on dataset (num_proc=10):  13%|█▎        | 59000/462601 [00:04<00:23, 17120.09 examples/s]Running tokenizer on dataset (num_proc=10):  14%|█▎        | 63000/462601 [00:04<00:28, 14076.04 examples/s]Running tokenizer on dataset (num_proc=10):  14%|█▍        | 65000/462601 [00:04<00:27, 14238.50 examples/s]Running tokenizer on dataset (num_proc=10):  15%|█▍        | 69000/462601 [00:05<00:22, 17781.77 examples/s]Running tokenizer on dataset (num_proc=10):  16%|█▌        | 73000/462601 [00:05<00:27, 14154.20 examples/s]Running tokenizer on dataset (num_proc=10):  16%|█▌        | 75000/462601 [00:05<00:25, 14932.50 examples/s]Running tokenizer on dataset (num_proc=10):  17%|█▋        | 78000/462601 [00:05<00:22, 16822.32 examples/s]Running tokenizer on dataset (num_proc=10):  18%|█▊        | 82000/462601 [00:05<00:18, 20361.08 examples/s]Running tokenizer on dataset (num_proc=10):  18%|█▊        | 85000/462601 [00:06<00:25, 14785.43 examples/s]Running tokenizer on dataset (num_proc=10):  19%|█▉        | 88000/462601 [00:06<00:21, 17189.92 examples/s]Running tokenizer on dataset (num_proc=10):  20%|█▉        | 91000/462601 [00:06<00:20, 17859.99 examples/s]Running tokenizer on dataset (num_proc=10):  20%|██        | 94000/462601 [00:06<00:25, 14373.02 examples/s]Running tokenizer on dataset (num_proc=10):  21%|██        | 97000/462601 [00:06<00:21, 16622.71 examples/s]Running tokenizer on dataset (num_proc=10):  22%|██▏       | 101000/462601 [00:07<00:21, 16763.71 examples/s]Running tokenizer on dataset (num_proc=10):  22%|██▏       | 103000/462601 [00:07<00:25, 14022.65 examples/s]Running tokenizer on dataset (num_proc=10):  23%|██▎       | 107000/462601 [00:07<00:19, 18145.06 examples/s]Running tokenizer on dataset (num_proc=10):  24%|██▍       | 111000/462601 [00:07<00:21, 16681.97 examples/s]Running tokenizer on dataset (num_proc=10):  24%|██▍       | 113000/462601 [00:07<00:24, 14526.74 examples/s]Running tokenizer on dataset (num_proc=10):  26%|██▌       | 118000/462601 [00:08<00:17, 19280.06 examples/s]Running tokenizer on dataset (num_proc=10):  26%|██▌       | 121000/462601 [00:08<00:21, 15761.31 examples/s]Running tokenizer on dataset (num_proc=10):  27%|██▋       | 123000/462601 [00:08<00:24, 13907.96 examples/s]Running tokenizer on dataset (num_proc=10):  28%|██▊       | 128000/462601 [00:08<00:17, 19247.14 examples/s]Running tokenizer on dataset (num_proc=10):  28%|██▊       | 131000/462601 [00:08<00:21, 15420.90 examples/s]Running tokenizer on dataset (num_proc=10):  29%|██▉       | 133000/462601 [00:09<00:22, 14438.01 examples/s]Running tokenizer on dataset (num_proc=10):  30%|██▉       | 137000/462601 [00:09<00:17, 18193.78 examples/s]Running tokenizer on dataset (num_proc=10):  30%|███       | 140000/462601 [00:09<00:16, 19613.47 examples/s]Running tokenizer on dataset (num_proc=10):  31%|███       | 143000/462601 [00:09<00:21, 14780.12 examples/s]Running tokenizer on dataset (num_proc=10):  32%|███▏      | 147000/462601 [00:09<00:18, 17078.98 examples/s]Running tokenizer on dataset (num_proc=10):  32%|███▏      | 150000/462601 [00:10<00:16, 18785.90 examples/s]Running tokenizer on dataset (num_proc=10):  33%|███▎      | 153000/462601 [00:10<00:20, 15088.71 examples/s]Running tokenizer on dataset (num_proc=10):  34%|███▍      | 157000/462601 [00:10<00:18, 16632.81 examples/s]Running tokenizer on dataset (num_proc=10):  34%|███▍      | 159000/462601 [00:10<00:19, 15898.42 examples/s]Running tokenizer on dataset (num_proc=10):  35%|███▍      | 161000/462601 [00:10<00:22, 13485.41 examples/s]Running tokenizer on dataset (num_proc=10):  36%|███▌      | 166000/462601 [00:11<00:16, 18217.30 examples/s]Running tokenizer on dataset (num_proc=10):  37%|███▋      | 169000/462601 [00:11<00:17, 16535.72 examples/s]Running tokenizer on dataset (num_proc=10):  37%|███▋      | 171000/462601 [00:11<00:19, 14829.40 examples/s]Running tokenizer on dataset (num_proc=10):  38%|███▊      | 176000/462601 [00:11<00:17, 16372.38 examples/s]Running tokenizer on dataset (num_proc=10):  39%|███▊      | 179000/462601 [00:11<00:16, 17063.71 examples/s]Running tokenizer on dataset (num_proc=10):  39%|███▉      | 181000/462601 [00:12<00:17, 15949.53 examples/s]Running tokenizer on dataset (num_proc=10):  40%|███▉      | 185000/462601 [00:12<00:13, 19884.68 examples/s]Running tokenizer on dataset (num_proc=10):  41%|████      | 188000/462601 [00:12<00:17, 15432.83 examples/s]Running tokenizer on dataset (num_proc=10):  41%|████      | 190000/462601 [00:12<00:18, 14898.85 examples/s]Running tokenizer on dataset (num_proc=10):  42%|████▏     | 193000/462601 [00:12<00:15, 17518.12 examples/s]Running tokenizer on dataset (num_proc=10):  42%|████▏     | 196000/462601 [00:12<00:17, 15495.85 examples/s]Running tokenizer on dataset (num_proc=10):  43%|████▎     | 198000/462601 [00:13<00:16, 15993.66 examples/s]Running tokenizer on dataset (num_proc=10):  43%|████▎     | 200000/462601 [00:13<00:15, 16517.01 examples/s]Running tokenizer on dataset (num_proc=10):  44%|████▎     | 202000/462601 [00:13<00:16, 16071.75 examples/s]Running tokenizer on dataset (num_proc=10):  44%|████▍     | 205000/462601 [00:13<00:13, 19196.85 examples/s]Running tokenizer on dataset (num_proc=10):  45%|████▍     | 208000/462601 [00:13<00:16, 15249.83 examples/s]Running tokenizer on dataset (num_proc=10):  46%|████▌     | 212000/462601 [00:13<00:15, 15893.40 examples/s]Running tokenizer on dataset (num_proc=10):  46%|████▋     | 215000/462601 [00:14<00:17, 14216.76 examples/s]Running tokenizer on dataset (num_proc=10):  47%|████▋     | 218000/462601 [00:14<00:15, 15915.49 examples/s]Running tokenizer on dataset (num_proc=10):  48%|████▊     | 221000/462601 [00:14<00:13, 18268.04 examples/s]Running tokenizer on dataset (num_proc=10):  48%|████▊     | 224000/462601 [00:14<00:12, 19573.61 examples/s]Running tokenizer on dataset (num_proc=10):  49%|████▉     | 227000/462601 [00:14<00:16, 14402.94 examples/s]Running tokenizer on dataset (num_proc=10):  50%|████▉     | 231000/462601 [00:15<00:13, 16989.87 examples/s]Running tokenizer on dataset (num_proc=10):  51%|█████     | 235000/462601 [00:15<00:15, 14288.71 examples/s]Running tokenizer on dataset (num_proc=10):  52%|█████▏    | 239000/462601 [00:15<00:13, 16949.86 examples/s]Running tokenizer on dataset (num_proc=10):  52%|█████▏    | 242000/462601 [00:15<00:12, 17431.74 examples/s]Running tokenizer on dataset (num_proc=10):  53%|█████▎    | 245000/462601 [00:16<00:15, 14374.50 examples/s]Running tokenizer on dataset (num_proc=10):  54%|█████▍    | 249000/462601 [00:16<00:13, 16339.99 examples/s]Running tokenizer on dataset (num_proc=10):  54%|█████▍    | 252000/462601 [00:16<00:11, 18080.04 examples/s]Running tokenizer on dataset (num_proc=10):  55%|█████▌    | 255000/462601 [00:16<00:13, 15107.81 examples/s]Running tokenizer on dataset (num_proc=10):  56%|█████▌    | 259000/462601 [00:16<00:13, 14993.73 examples/s]Running tokenizer on dataset (num_proc=10):  57%|█████▋    | 264000/462601 [00:17<00:11, 16974.20 examples/s]Running tokenizer on dataset (num_proc=10):  58%|█████▊    | 267000/462601 [00:17<00:10, 17887.58 examples/s]Running tokenizer on dataset (num_proc=10):  58%|█████▊    | 269000/462601 [00:17<00:12, 15039.14 examples/s]Running tokenizer on dataset (num_proc=10):  59%|█████▉    | 273000/462601 [00:17<00:10, 17878.08 examples/s]Running tokenizer on dataset (num_proc=10):  59%|█████▉    | 275000/462601 [00:17<00:11, 16958.20 examples/s]Running tokenizer on dataset (num_proc=10):  60%|██████    | 278000/462601 [00:17<00:11, 16581.96 examples/s]Running tokenizer on dataset (num_proc=10):  61%|██████    | 280000/462601 [00:18<00:11, 15645.47 examples/s]Running tokenizer on dataset (num_proc=10):  61%|██████    | 283000/462601 [00:18<00:11, 15376.42 examples/s]Running tokenizer on dataset (num_proc=10):  62%|██████▏   | 286000/462601 [00:18<00:10, 16545.47 examples/s]Running tokenizer on dataset (num_proc=10):  62%|██████▏   | 288000/462601 [00:18<00:10, 17011.49 examples/s]Running tokenizer on dataset (num_proc=10):  63%|██████▎   | 290000/462601 [00:18<00:10, 16485.16 examples/s]Running tokenizer on dataset (num_proc=10):  63%|██████▎   | 293000/462601 [00:18<00:10, 15810.88 examples/s]Running tokenizer on dataset (num_proc=10):  64%|██████▍   | 295000/462601 [00:19<00:11, 14925.05 examples/s]Running tokenizer on dataset (num_proc=10):  64%|██████▍   | 298000/462601 [00:19<00:09, 17374.41 examples/s]Running tokenizer on dataset (num_proc=10):  65%|██████▍   | 300000/462601 [00:19<00:09, 17645.21 examples/s]Running tokenizer on dataset (num_proc=10):  65%|██████▌   | 302000/462601 [00:19<00:08, 18086.91 examples/s]Running tokenizer on dataset (num_proc=10):  66%|██████▌   | 305000/462601 [00:19<00:10, 14545.75 examples/s]Running tokenizer on dataset (num_proc=10):  67%|██████▋   | 308000/462601 [00:19<00:09, 16811.67 examples/s]Running tokenizer on dataset (num_proc=10):  67%|██████▋   | 311000/462601 [00:19<00:09, 16110.61 examples/s]Running tokenizer on dataset (num_proc=10):  68%|██████▊   | 314000/462601 [00:20<00:08, 17813.79 examples/s]Running tokenizer on dataset (num_proc=10):  68%|██████▊   | 316000/462601 [00:20<00:09, 15350.10 examples/s]Running tokenizer on dataset (num_proc=10):  69%|██████▉   | 320000/462601 [00:20<00:08, 17660.08 examples/s]Running tokenizer on dataset (num_proc=10):  70%|██████▉   | 322000/462601 [00:20<00:08, 17280.23 examples/s]Running tokenizer on dataset (num_proc=10):  70%|███████   | 324000/462601 [00:20<00:10, 13267.76 examples/s]Running tokenizer on dataset (num_proc=10):  71%|███████   | 328000/462601 [00:20<00:07, 17305.33 examples/s]Running tokenizer on dataset (num_proc=10):  72%|███████▏  | 331000/462601 [00:21<00:07, 17080.56 examples/s]Running tokenizer on dataset (num_proc=10):  72%|███████▏  | 334000/462601 [00:21<00:09, 14202.79 examples/s]Running tokenizer on dataset (num_proc=10):  73%|███████▎  | 338000/462601 [00:21<00:06, 18077.75 examples/s]Running tokenizer on dataset (num_proc=10):  74%|███████▎  | 341000/462601 [00:21<00:06, 18251.96 examples/s]Running tokenizer on dataset (num_proc=10):  74%|███████▍  | 344000/462601 [00:22<00:08, 14098.84 examples/s]Running tokenizer on dataset (num_proc=10):  75%|███████▌  | 348000/462601 [00:22<00:06, 18139.21 examples/s]Running tokenizer on dataset (num_proc=10):  76%|███████▌  | 351000/462601 [00:22<00:05, 19124.34 examples/s]Running tokenizer on dataset (num_proc=10):  77%|███████▋  | 354000/462601 [00:22<00:07, 13609.64 examples/s]Running tokenizer on dataset (num_proc=10):  78%|███████▊  | 359000/462601 [00:22<00:05, 18045.70 examples/s]Running tokenizer on dataset (num_proc=10):  78%|███████▊  | 362000/462601 [00:22<00:05, 19317.52 examples/s]Running tokenizer on dataset (num_proc=10):  79%|███████▉  | 365000/462601 [00:23<00:06, 13968.91 examples/s]Running tokenizer on dataset (num_proc=10):  80%|███████▉  | 369000/462601 [00:23<00:05, 17485.26 examples/s]Running tokenizer on dataset (num_proc=10):  80%|████████  | 372000/462601 [00:23<00:04, 19615.99 examples/s]Running tokenizer on dataset (num_proc=10):  81%|████████  | 375000/462601 [00:23<00:06, 14132.79 examples/s]Running tokenizer on dataset (num_proc=10):  82%|████████▏ | 378000/462601 [00:24<00:05, 16231.39 examples/s]Running tokenizer on dataset (num_proc=10):  82%|████████▏ | 381000/462601 [00:24<00:04, 18553.57 examples/s]Running tokenizer on dataset (num_proc=10):  83%|████████▎ | 384000/462601 [00:24<00:05, 14105.41 examples/s]Running tokenizer on dataset (num_proc=10):  83%|████████▎ | 386000/462601 [00:24<00:05, 14691.58 examples/s]Running tokenizer on dataset (num_proc=10):  85%|████████▍ | 391000/462601 [00:24<00:03, 19857.62 examples/s]Running tokenizer on dataset (num_proc=10):  85%|████████▌ | 394000/462601 [00:25<00:04, 14820.61 examples/s]Running tokenizer on dataset (num_proc=10):  86%|████████▌ | 396000/462601 [00:25<00:04, 15446.90 examples/s]Running tokenizer on dataset (num_proc=10):  87%|████████▋ | 401000/462601 [00:25<00:03, 20491.78 examples/s]Running tokenizer on dataset (num_proc=10):  87%|████████▋ | 404000/462601 [00:25<00:03, 14711.75 examples/s]Running tokenizer on dataset (num_proc=10):  88%|████████▊ | 408000/462601 [00:25<00:03, 17632.57 examples/s]Running tokenizer on dataset (num_proc=10):  89%|████████▉ | 412000/462601 [00:26<00:03, 15009.95 examples/s]Running tokenizer on dataset (num_proc=10):  90%|████████▉ | 415000/462601 [00:26<00:03, 15866.02 examples/s]Running tokenizer on dataset (num_proc=10):  90%|█████████ | 418000/462601 [00:26<00:02, 17306.06 examples/s]Running tokenizer on dataset (num_proc=10):  91%|█████████ | 422000/462601 [00:26<00:02, 14967.06 examples/s]Running tokenizer on dataset (num_proc=10):  92%|█████████▏| 425000/462601 [00:26<00:02, 17145.56 examples/s]Running tokenizer on dataset (num_proc=10):  92%|█████████▏| 427260/462601 [00:27<00:02, 16560.45 examples/s]Running tokenizer on dataset (num_proc=10):  93%|█████████▎| 431520/462601 [00:27<00:01, 19911.02 examples/s]Running tokenizer on dataset (num_proc=10):  94%|█████████▍| 434520/462601 [00:27<00:01, 16922.23 examples/s]Running tokenizer on dataset (num_proc=10):  94%|█████████▍| 436520/462601 [00:27<00:01, 14037.28 examples/s]Running tokenizer on dataset (num_proc=10):  95%|█████████▌| 439520/462601 [00:27<00:01, 12998.76 examples/s]Running tokenizer on dataset (num_proc=10):  96%|█████████▌| 442520/462601 [00:28<00:01, 14614.72 examples/s]Running tokenizer on dataset (num_proc=10):  96%|█████████▌| 444780/462601 [00:28<00:01, 14227.61 examples/s]Running tokenizer on dataset (num_proc=10):  97%|█████████▋| 446780/462601 [00:28<00:01, 14537.18 examples/s]Running tokenizer on dataset (num_proc=10):  97%|█████████▋| 449040/462601 [00:28<00:01, 12308.63 examples/s]Running tokenizer on dataset (num_proc=10):  98%|█████████▊| 451301/462601 [00:28<00:00, 11705.22 examples/s]Running tokenizer on dataset (num_proc=10):  98%|█████████▊| 453561/462601 [00:29<00:00, 12336.20 examples/s]Running tokenizer on dataset (num_proc=10):  99%|█████████▊| 455821/462601 [00:29<00:00, 9668.82 examples/s] Running tokenizer on dataset (num_proc=10):  99%|█████████▉| 457081/462601 [00:29<00:00, 7484.36 examples/s]Running tokenizer on dataset (num_proc=10):  99%|█████████▉| 458081/462601 [00:29<00:00, 6972.07 examples/s]Running tokenizer on dataset (num_proc=10):  99%|█████████▉| 459081/462601 [00:30<00:00, 7338.95 examples/s]Running tokenizer on dataset (num_proc=10):  99%|█████████▉| 460081/462601 [00:30<00:00, 5534.24 examples/s]Running tokenizer on dataset (num_proc=10): 100%|█████████▉| 461081/462601 [00:30<00:00, 4960.30 examples/s]Running tokenizer on dataset (num_proc=10): 100%|█████████▉| 462341/462601 [00:30<00:00, 4637.19 examples/s]Running tokenizer on dataset (num_proc=10): 100%|██████████| 462601/462601 [00:31<00:00, 14806.53 examples/s]
+Concatenating 10 shards
+input_ids:
+[1, 18527, 29901, 7997, 11143, 365, 583, 313, 8050, 3652, 29897, 10576, 29901, 3652, 7171, 1089, 287, 3196, 1035, 324, 3076, 29889, 739, 4520, 29871, 29896, 29953, 2812, 1357, 7526, 10418, 800, 322, 2113, 9475, 29892, 3704, 4451, 11235, 28873, 10488, 322, 16684, 24441, 363, 27912, 1171, 29892, 4971, 1503, 29887, 3679, 29881, 29892, 322, 360, 824, 29889, 450, 3367, 29877, 884, 2113, 16108, 21806, 915, 9220, 297, 6124, 304, 263, 16108, 21806, 915, 7526, 363, 6407, 3080, 275, 6358, 470, 22417, 4643, 5401, 363, 278, 3652, 29889, 27912, 1171, 322, 4971, 1503, 29887, 3679, 29881, 884, 4520, 22666, 3185, 943, 2088, 789, 9220, 363, 1009, 21637, 29889, 19454, 10437, 1641, 13181, 839, 408, 263, 1375, 275, 6358, 29892, 379, 8456, 23011, 287, 278, 3652, 363, 263, 1473, 4259, 29889, 19561, 373, 278, 1473, 4259, 4689, 297, 4779, 29871, 29906, 29900, 29896, 29947, 322, 338, 731, 304, 5730, 406, 297, 29871, 29906, 29900, 29896, 29929, 29889, 2178, 9881, 23238, 526, 1641, 3971, 491, 476, 1808, 29891, 32000, 4802, 2217, 12185, 4259, 29871, 29906, 920, 1784, 23238, 2744, 14997, 344, 29901, 29871, 10576, 338, 373, 29899, 3149, 29889, 32003, 9881, 2]
+inputs:
+<s> Title: Big Little Lies (TV series) Content: series garnered several accolades. It received 16 Emmy Award nominations and won eight, including Outstanding Limited Series and acting awards for Kidman, Skarsgård, and Dern. The trio also won Golden Globe Awards in addition to a Golden Globe Award for Best Miniseries or Television Film win for the series. Kidman and Skarsgård also received Screen Actors Guild Awards for their performances. Despite originally being billed as a miniseries, HBO renewed the series for a second season. Production on the second season began in March 2018 and is set to premiere in 2019. All seven episodes are being written by Kelley<BEGIN_QUERY> big little lies season 2 how many episodesAnalyse:  Content is on-point.<RELEVANT> seven</s>
+label_ids:
+[-100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, 10576, 338, 373, 29899, 3149, 29889, 32003, 9881, 2]
+labels:
+Content is on-point.<RELEVANT> seven</s>
+classes:
+[1, 1]
+ans score:
+None
+[INFO|training_args.py:1798] 2023-12-13 10:44:41,373 >> PyTorch: setting up devices
+/home/wangyuhao/miniconda3/envs/llm/lib/python3.8/site-packages/transformers/training_args.py:1711: FutureWarning: `--push_to_hub_token` is deprecated and will be removed in version 5 of 🤗 Transformers. Use `--hub_token` instead.
+  warnings.warn(
+[INFO|training_args.py:1798] 2023-12-13 10:44:41,382 >> PyTorch: setting up devices
+/home/wangyuhao/miniconda3/envs/llm/lib/python3.8/site-packages/transformers/deepspeed.py:23: FutureWarning: transformers.deepspeed module is deprecated and will be removed in a future version. Please import deepspeed modules directly from transformers.integrations
+  warnings.warn(
+/home/wangyuhao/miniconda3/envs/llm/lib/python3.8/site-packages/transformers/training_args.py:1711: FutureWarning: `--push_to_hub_token` is deprecated and will be removed in version 5 of 🤗 Transformers. Use `--hub_token` instead.
+  warnings.warn(
+/home/wangyuhao/miniconda3/envs/llm/lib/python3.8/site-packages/transformers/deepspeed.py:23: FutureWarning: transformers.deepspeed module is deprecated and will be removed in a future version. Please import deepspeed modules directly from transformers.integrations
+  warnings.warn(
+[2023-12-13 10:44:42,387] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed info: version=0.11.1, git-hash=unknown, git-branch=unknown
+[2023-12-13 10:44:42,450] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Flops Profiler Enabled: False
+[2023-12-13 10:44:42,451] [INFO] [logging.py:96:log_dist] [Rank 0] Using client Optimizer as basic optimizer
+[2023-12-13 10:44:42,452] [INFO] [logging.py:96:log_dist] [Rank 0] Removing param_group that has no 'params' in the basic Optimizer
+[2023-12-13 10:44:42,471] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Basic Optimizer = AdamW
+[2023-12-13 10:44:42,471] [INFO] [utils.py:56:is_zero_supported_optimizer] Checking ZeRO support for optimizer=AdamW type=<class 'torch.optim.adamw.AdamW'>
+[2023-12-13 10:44:42,471] [INFO] [logging.py:96:log_dist] [Rank 0] Creating fp16 ZeRO stage 3 optimizer, MiCS is enabled False, Hierarchical params gather False
+[2023-12-13 10:44:42,471] [INFO] [logging.py:96:log_dist] [Rank 0] Creating torch.bfloat16 ZeRO stage 3 optimizer
+[2023-12-13 10:44:42,644] [INFO] [utils.py:802:see_memory_usage] Stage 3 initialize beginning
+[2023-12-13 10:44:42,645] [INFO] [utils.py:803:see_memory_usage] MA 6.67 GB         Max_MA 7.71 GB         CA 7.71 GB         Max_CA 10 GB 
+[2023-12-13 10:44:42,645] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 71.25 GB, percent = 14.2%
+[2023-12-13 10:44:42,647] [INFO] [stage3.py:126:__init__] Reduce bucket size 16777216
+[2023-12-13 10:44:42,648] [INFO] [stage3.py:127:__init__] Prefetch bucket size 15099494
+[2023-12-13 10:44:42,817] [INFO] [utils.py:802:see_memory_usage] DeepSpeedZeRoOffload initialize [begin]
+[2023-12-13 10:44:42,818] [INFO] [utils.py:803:see_memory_usage] MA 6.67 GB         Max_MA 6.67 GB         CA 7.71 GB         Max_CA 8 GB 
+[2023-12-13 10:44:42,818] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 71.26 GB, percent = 14.2%
+Parameter Offload: Total persistent parameters: 270336 in 66 params
+[2023-12-13 10:44:43,008] [INFO] [utils.py:802:see_memory_usage] DeepSpeedZeRoOffload initialize [end]
+[2023-12-13 10:44:43,009] [INFO] [utils.py:803:see_memory_usage] MA 6.42 GB         Max_MA 6.79 GB         CA 7.71 GB         Max_CA 8 GB 
+[2023-12-13 10:44:43,009] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 71.26 GB, percent = 14.2%
+[2023-12-13 10:44:43,159] [INFO] [utils.py:802:see_memory_usage] Before creating fp16 partitions
+[2023-12-13 10:44:43,160] [INFO] [utils.py:803:see_memory_usage] MA 6.42 GB         Max_MA 6.42 GB         CA 7.71 GB         Max_CA 8 GB 
+[2023-12-13 10:44:43,160] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 71.26 GB, percent = 14.2%
+[2023-12-13 10:44:53,143] [INFO] [utils.py:802:see_memory_usage] After creating fp16 partitions: 8
+[2023-12-13 10:44:53,144] [INFO] [utils.py:803:see_memory_usage] MA 6.34 GB         Max_MA 6.42 GB         CA 6.34 GB         Max_CA 8 GB 
+[2023-12-13 10:44:53,144] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 71.22 GB, percent = 14.2%
+[2023-12-13 10:44:53,293] [INFO] [utils.py:802:see_memory_usage] Before creating fp32 partitions
+[2023-12-13 10:44:53,293] [INFO] [utils.py:803:see_memory_usage] MA 6.34 GB         Max_MA 6.34 GB         CA 6.34 GB         Max_CA 6 GB 
+[2023-12-13 10:44:53,294] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 71.22 GB, percent = 14.2%
+[2023-12-13 10:44:53,464] [INFO] [utils.py:802:see_memory_usage] After creating fp32 partitions
+[2023-12-13 10:44:53,464] [INFO] [utils.py:803:see_memory_usage] MA 18.89 GB         Max_MA 19.51 GB         CA 20.78 GB         Max_CA 21 GB 
+[2023-12-13 10:44:53,465] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 71.22 GB, percent = 14.2%
+[2023-12-13 10:44:53,615] [INFO] [utils.py:802:see_memory_usage] Before initializing optimizer states
+[2023-12-13 10:44:53,616] [INFO] [utils.py:803:see_memory_usage] MA 18.89 GB         Max_MA 18.89 GB         CA 20.78 GB         Max_CA 21 GB 
+[2023-12-13 10:44:53,616] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 71.22 GB, percent = 14.2%
+[2023-12-13 10:44:53,841] [INFO] [utils.py:802:see_memory_usage] After initializing optimizer states
+[2023-12-13 10:44:53,842] [INFO] [utils.py:803:see_memory_usage] MA 43.99 GB         Max_MA 48.38 GB         CA 52.8 GB         Max_CA 53 GB 
+[2023-12-13 10:44:53,842] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 71.22 GB, percent = 14.2%
+[2023-12-13 10:44:53,842] [INFO] [stage3.py:459:_setup_for_real_optimizer] optimizer state initialized
+[2023-12-13 10:44:54,118] [INFO] [utils.py:802:see_memory_usage] After initializing ZeRO optimizer
+[2023-12-13 10:44:54,119] [INFO] [utils.py:803:see_memory_usage] MA 50.3 GB         Max_MA 50.79 GB         CA 60.91 GB         Max_CA 61 GB 
+[2023-12-13 10:44:54,119] [INFO] [utils.py:810:see_memory_usage] CPU Virtual Memory:  used = 71.23 GB, percent = 14.2%
+[2023-12-13 10:44:54,119] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Final Optimizer = AdamW
+[2023-12-13 10:44:54,119] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed using client LR scheduler
+[2023-12-13 10:44:54,119] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed LR Scheduler = None
+[2023-12-13 10:44:54,119] [INFO] [logging.py:96:log_dist] [Rank 0] step=0, skipped=0, lr=[0.0, 0.0], mom=[(0.9, 0.999), (0.9, 0.999)]
+[2023-12-13 10:44:54,120] [INFO] [config.py:968:print] DeepSpeedEngine configuration:
+[2023-12-13 10:44:54,121] [INFO] [config.py:972:print]   activation_checkpointing_config  {
+    "partition_activations": false, 
+    "contiguous_memory_optimization": false, 
+    "cpu_checkpointing": false, 
+    "number_checkpoints": null, 
+    "synchronize_checkpoint_boundary": false, 
+    "profile": false
+}
+[2023-12-13 10:44:54,121] [INFO] [config.py:972:print]   aio_config ................... {'block_size': 1048576, 'queue_depth': 8, 'thread_count': 1, 'single_submit': False, 'overlap_events': True}
+[2023-12-13 10:44:54,121] [INFO] [config.py:972:print]   amp_enabled .................. False
+[2023-12-13 10:44:54,121] [INFO] [config.py:972:print]   amp_params ................... False
+[2023-12-13 10:44:54,121] [INFO] [config.py:972:print]   autotuning_config ............ {
+    "enabled": false, 
+    "start_step": null, 
+    "end_step": null, 
+    "metric_path": null, 
+    "arg_mappings": null, 
+    "metric": "throughput", 
+    "model_info": null, 
+    "results_dir": "autotuning_results", 
+    "exps_dir": "autotuning_exps", 
+    "overwrite": true, 
+    "fast": true, 
+    "start_profile_step": 3, 
+    "end_profile_step": 5, 
+    "tuner_type": "gridsearch", 
+    "tuner_early_stopping": 5, 
+    "tuner_num_trials": 50, 
+    "model_info_path": null, 
+    "mp_size": 1, 
+    "max_train_batch_size": null, 
+    "min_train_batch_size": 1, 
+    "max_train_micro_batch_size_per_gpu": 1.024000e+03, 
+    "min_train_micro_batch_size_per_gpu": 1, 
+    "num_tuning_micro_batch_sizes": 3
+}
+[2023-12-13 10:44:54,121] [INFO] [config.py:972:print]   bfloat16_enabled ............. True
+[2023-12-13 10:44:54,121] [INFO] [config.py:972:print]   checkpoint_parallel_write_pipeline  False
+[2023-12-13 10:44:54,121] [INFO] [config.py:972:print]   checkpoint_tag_validation_enabled  True
+[2023-12-13 10:44:54,121] [INFO] [config.py:972:print]   checkpoint_tag_validation_fail  False
+[2023-12-13 10:44:54,121] [INFO] [config.py:972:print]   comms_config ................. <deepspeed.comm.config.DeepSpeedCommsConfig object at 0x7fa459d7cdf0>
+[2023-12-13 10:44:54,121] [INFO] [config.py:972:print]   communication_data_type ...... None
+[2023-12-13 10:44:54,121] [INFO] [config.py:972:print]   compression_config ........... {'weight_quantization': {'shared_parameters': {'enabled': False, 'quantizer_kernel': False, 'schedule_offset': 0, 'quantize_groups': 1, 'quantize_verbose': False, 'quantization_type': 'symmetric', 'quantize_weight_in_forward': False, 'rounding': 'nearest', 'fp16_mixed_quantize': False, 'quantize_change_ratio': 0.001}, 'different_groups': {}}, 'activation_quantization': {'shared_parameters': {'enabled': False, 'quantization_type': 'symmetric', 'range_calibration': 'dynamic', 'schedule_offset': 1000}, 'different_groups': {}}, 'sparse_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'row_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'head_pruning': {'shared_parameters': {'enabled': False, 'method': 'topk', 'schedule_offset': 1000}, 'different_groups': {}}, 'channel_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'layer_reduction': {'enabled': False}}
+[2023-12-13 10:44:54,121] [INFO] [config.py:972:print]   curriculum_enabled_legacy .... False
+[2023-12-13 10:44:54,121] [INFO] [config.py:972:print]   curriculum_params_legacy ..... False
+[2023-12-13 10:44:54,121] [INFO] [config.py:972:print]   data_efficiency_config ....... {'enabled': False, 'seed': 1234, 'data_sampling': {'enabled': False, 'num_epochs': 1000, 'num_workers': 0, 'curriculum_learning': {'enabled': False}}, 'data_routing': {'enabled': False, 'random_ltd': {'enabled': False, 'layer_token_lr_schedule': {'enabled': False}}}}
+[2023-12-13 10:44:54,121] [INFO] [config.py:972:print]   data_efficiency_enabled ...... False
+[2023-12-13 10:44:54,121] [INFO] [config.py:972:print]   dataloader_drop_last ......... False
+[2023-12-13 10:44:54,121] [INFO] [config.py:972:print]   disable_allgather ............ False
+[2023-12-13 10:44:54,121] [INFO] [config.py:972:print]   dump_state ................... False
+[2023-12-13 10:44:54,121] [INFO] [config.py:972:print]   dynamic_loss_scale_args ...... None
+[2023-12-13 10:44:54,121] [INFO] [config.py:972:print]   eigenvalue_enabled ........... False
+[2023-12-13 10:44:54,121] [INFO] [config.py:972:print]   eigenvalue_gas_boundary_resolution  1
+[2023-12-13 10:44:54,121] [INFO] [config.py:972:print]   eigenvalue_layer_name ........ bert.encoder.layer
+[2023-12-13 10:44:54,121] [INFO] [config.py:972:print]   eigenvalue_layer_num ......... 0
+[2023-12-13 10:44:54,121] [INFO] [config.py:972:print]   eigenvalue_max_iter .......... 100
+[2023-12-13 10:44:54,121] [INFO] [config.py:972:print]   eigenvalue_stability ......... 1e-06
+[2023-12-13 10:44:54,121] [INFO] [config.py:972:print]   eigenvalue_tol ............... 0.01
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   eigenvalue_verbose ........... False
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   elasticity_enabled ........... False
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   flops_profiler_config ........ {
+    "enabled": false, 
+    "recompute_fwd_factor": 0.0, 
+    "profile_step": 10, 
+    "module_depth": -1, 
+    "top_modules": 3, 
+    "detailed": true, 
+    "output_file": "flops_profiler.out"
+}
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   fp16_auto_cast ............... None
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   fp16_enabled ................. False
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   fp16_master_weights_and_gradients  False
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   global_rank .................. 0
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   grad_accum_dtype ............. None
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   gradient_accumulation_steps .. 2
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   gradient_clipping ............ 1.0
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   gradient_predivide_factor .... 1.0
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   hybrid_engine ................ enabled=False max_out_tokens=512 inference_tp_size=1 release_inference_cache=False pin_parameters=True tp_gather_partition_size=8
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   initial_dynamic_scale ........ 1
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   load_universal_checkpoint .... False
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   loss_scale ................... 1.0
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   memory_breakdown ............. False
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   mics_hierarchial_params_gather  False
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   mics_shard_size .............. -1
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   monitor_config ............... tensorboard=TensorBoardConfig(enabled=False, output_path='', job_name='DeepSpeedJobName') wandb=WandbConfig(enabled=False, group=None, team=None, project='deepspeed') csv_monitor=CSVConfig(enabled=False, output_path='', job_name='DeepSpeedJobName') enabled=False
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   nebula_config ................ {
+    "enabled": false, 
+    "persistent_storage_path": null, 
+    "persistent_time_interval": 100, 
+    "num_of_version_in_retention": 2, 
+    "enable_nebula_load": true, 
+    "load_path": null
+}
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   optimizer_legacy_fusion ...... False
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   optimizer_name ............... None
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   optimizer_params ............. None
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   pipeline ..................... {'stages': 'auto', 'partition': 'best', 'seed_layers': False, 'activation_checkpoint_interval': 0}
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   pld_enabled .................. False
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   pld_params ................... False
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   prescale_gradients ........... False
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   scheduler_name ............... None
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   scheduler_params ............. None
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   sparse_attention ............. None
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   sparse_gradients_enabled ..... False
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   steps_per_print .............. inf
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   train_batch_size ............. 128
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   train_micro_batch_size_per_gpu  32
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   use_node_local_storage ....... False
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   wall_clock_breakdown ......... False
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   weight_quantization_config ... None
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   world_size ................... 2
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   zero_allow_untested_optimizer  True
+[2023-12-13 10:44:54,122] [INFO] [config.py:972:print]   zero_config .................. stage=3 contiguous_gradients=True reduce_scatter=True reduce_bucket_size=16777216 allgather_partitions=True allgather_bucket_size=500,000,000 overlap_comm=True load_from_fp32_weights=True elastic_checkpoint=False offload_param=None offload_optimizer=None sub_group_size=500000000 cpu_offload_param=None cpu_offload_use_pin_memory=None cpu_offload=None prefetch_bucket_size=15099494 param_persistence_threshold=40960 model_persistence_threshold=sys.maxsize max_live_parameters=500000000 max_reuse_distance=500000000 gather_16bit_weights_on_model_save=True stage3_gather_fp16_weights_on_model_save=False ignore_unused_parameters=True legacy_stage1=False round_robin_gradients=False zero_hpz_partition_size=1 zero_quantized_weights=False zero_quantized_nontrainable_weights=False zero_quantized_gradients=False mics_shard_size=-1 mics_hierarchical_params_gather=False memory_efficient_linear=True pipeline_loading_checkpoint=False override_module_apply=True
+[2023-12-13 10:44:54,123] [INFO] [config.py:972:print]   zero_enabled ................. True
+[2023-12-13 10:44:54,123] [INFO] [config.py:972:print]   zero_force_ds_cpu_optimizer .. True
+[2023-12-13 10:44:54,123] [INFO] [config.py:972:print]   zero_optimization_stage ...... 3
+[2023-12-13 10:44:54,123] [INFO] [config.py:958:print_user_config]   json = {
+    "bf16": {
+        "enabled": true
+    }, 
+    "zero_optimization": {
+        "stage": 3, 
+        "overlap_comm": true, 
+        "contiguous_gradients": true, 
+        "sub_group_size": 5.000000e+08, 
+        "reduce_bucket_size": 1.677722e+07, 
+        "stage3_prefetch_bucket_size": 1.509949e+07, 
+        "stage3_param_persistence_threshold": 4.096000e+04, 
+        "stage3_max_live_parameters": 5.000000e+08, 
+        "stage3_max_reuse_distance": 5.000000e+08, 
+        "stage3_gather_16bit_weights_on_model_save": true
+    }, 
+    "gradient_accumulation_steps": 2, 
+    "gradient_clipping": 1.0, 
+    "steps_per_print": inf, 
+    "train_batch_size": 128, 
+    "train_micro_batch_size_per_gpu": 32, 
+    "wall_clock_breakdown": false, 
+    "flops_profiler": {
+        "enabled": false, 
+        "profile_step": 10, 
+        "module_depth": -1, 
+        "top_modules": 3, 
+        "detailed": true, 
+        "output_file": "flops_profiler.out"
+    }, 
+    "fp16": {
+        "enabled": false
+    }, 
+    "zero_allow_untested_optimizer": true
+}
+[INFO|trainer.py:1760] 2023-12-13 10:44:54,123 >> ***** Running training *****
+[INFO|trainer.py:1761] 2023-12-13 10:44:54,123 >>   Num examples = 462,601
+[INFO|trainer.py:1762] 2023-12-13 10:44:54,123 >>   Num Epochs = 2
+[INFO|trainer.py:1763] 2023-12-13 10:44:54,123 >>   Instantaneous batch size per device = 32
+[INFO|trainer.py:1766] 2023-12-13 10:44:54,123 >>   Total train batch size (w. parallel, distributed & accumulation) = 128
+[INFO|trainer.py:1767] 2023-12-13 10:44:54,123 >>   Gradient Accumulation steps = 2
+[INFO|trainer.py:1768] 2023-12-13 10:44:54,123 >>   Total optimization steps = 7,228
+[INFO|trainer.py:1769] 2023-12-13 10:44:54,124 >>   Number of trainable parameters = 6,738,485,248
+  0%|          | 0/7228 [00:00<?, ?it/s][WARNING|logging.py:290] 2023-12-13 10:44:58,328 >> You're using a LlamaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+[WARNING|logging.py:290] 2023-12-13 10:44:58,331 >> You're using a LlamaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+Padded sequences are less efficient in FlashAttention.
+Padded sequences are less efficient in FlashAttention.
+  0%|          | 1/7228 [00:09<18:10:18,  9.05s/it]  0%|          | 2/7228 [00:14<14:22:52,  7.16s/it]  0%|          | 3/7228 [00:20<13:15:25,  6.61s/it]  0%|          | 4/7228 [00:27<12:54:20,  6.43s/it]  0%|          | 5/7228 [00:33<12:43:15,  6.34s/it]  0%|          | 6/7228 [00:39<12:22:01,  6.16s/it]  0%|          | 7/7228 [00:45<12:20:44,  6.15s/it]  0%|          | 8/7228 [00:51<12:14:33,  6.10s/it]  0%|          | 9/7228 [00:56<12:05:03,  6.03s/it]  0%|          | 10/7228 [01:02<12:04:22,  6.02s/it]                                                    {'loss': 4.4722, 'learning_rate': 4.608294930875576e-08, 'epoch': 0.0}
+  0%|          | 10/7228 [01:04<12:04:22,  6.02s/it]  0%|          | 11/7228 [01:10<13:06:03,  6.54s/it]  0%|          | 12/7228 [01:16<12:52:23,  6.42s/it]  0%|          | 13/7228 [01:23<12:46:01,  6.37s/it]  0%|          | 14/7228 [01:29<12:33:57,  6.27s/it]  0%|          | 15/7228 [01:35<12:27:26,  6.22s/it]  0%|          | 16/7228 [01:42<13:04:01,  6.52s/it]  0%|          | 17/7228 [01:48<13:02:40,  6.51s/it]  0%|          | 18/7228 [01:55<12:54:28,  6.44s/it]  0%|          | 19/7228 [02:02<13:17:50,  6.64s/it]  0%|          | 20/7228 [02:08<13:02:24,  6.51s/it]                                                    {'loss': 4.5253, 'learning_rate': 9.216589861751152e-08, 'epoch': 0.01}
+  0%|          | 20/7228 [02:09<13:02:24,  6.51s/it]  0%|          | 21/7228 [02:15<13:24:04,  6.69s/it]  0%|          | 22/7228 [02:21<13:04:21,  6.53s/it]  0%|          | 23/7228 [02:27<12:50:34,  6.42s/it]  0%|          | 24/7228 [02:34<12:53:57,  6.45s/it]  0%|          | 25/7228 [02:41<12:56:53,  6.47s/it]  0%|          | 26/7228 [02:47<13:13:32,  6.61s/it]  0%|          | 27/7228 [02:54<12:57:25,  6.48s/it]  0%|          | 28/7228 [03:00<13:02:52,  6.52s/it]  0%|          | 29/7228 [03:06<12:48:34,  6.41s/it]  0%|          | 30/7228 [03:13<12:49:07,  6.41s/it]                                                    {'loss': 4.5181, 'learning_rate': 1.3824884792626728e-07, 'epoch': 0.01}
+  0%|          | 30/7228 [03:13<12:49:07,  6.41s/it]  0%|          | 31/7228 [03:19<12:52:07,  6.44s/it]  0%|          | 32/7228 [03:26<12:44:12,  6.37s/it]  0%|          | 33/7228 [03:32<12:31:49,  6.27s/it]  0%|          | 34/7228 [03:38<12:32:30,  6.28s/it]  0%|          | 35/7228 [03:45<12:55:09,  6.47s/it]  0%|          | 36/7228 [03:51<12:43:25,  6.37s/it]  1%|          | 37/7228 [03:57<12:35:39,  6.31s/it]  1%|          | 38/7228 [04:03<12:36:35,  6.31s/it]  1%|          | 39/7228 [04:10<12:47:02,  6.40s/it]  1%|          | 40/7228 [04:16<12:39:39,  6.34s/it]                                                    {'loss': 4.4606, 'learning_rate': 1.8433179723502305e-07, 'epoch': 0.01}
+  1%|          | 40/7228 [04:17<12:39:39,  6.34s/it]  1%|          | 41/7228 [04:24<13:21:23,  6.69s/it]  1%|          | 42/7228 [04:30<13:02:06,  6.53s/it]  1%|          | 43/7228 [04:37<13:16:17,  6.65s/it]  1%|          | 44/7228 [04:43<12:58:25,  6.50s/it]  1%|          | 45/7228 [04:49<12:33:19,  6.29s/it]  1%|          | 46/7228 [04:55<12:20:41,  6.19s/it]  1%|          | 47/7228 [05:01<12:30:51,  6.27s/it]  1%|          | 48/7228 [05:08<12:46:49,  6.41s/it]  1%|          | 49/7228 [05:15<13:01:01,  6.53s/it]  1%|          | 50/7228 [05:21<12:53:29,  6.47s/it]                                                    {'loss': 4.2864, 'learning_rate': 2.304147465437788e-07, 'epoch': 0.01}
+  1%|          | 50/7228 [05:24<12:53:29,  6.47s/it]  1%|          | 51/7228 [05:31<14:49:35,  7.44s/it]  1%|          | 52/7228 [05:37<14:09:35,  7.10s/it]  1%|          | 53/7228 [05:43<13:44:58,  6.90s/it]  1%|          | 54/7228 [05:50<13:26:54,  6.75s/it]  1%|          | 55/7228 [05:56<13:06:33,  6.58s/it]  1%|          | 56/7228 [06:02<12:49:41,  6.44s/it]  1%|          | 57/7228 [06:08<12:40:11,  6.36s/it]  1%|          | 58/7228 [06:15<12:53:45,  6.47s/it]  1%|          | 59/7228 [06:21<12:38:50,  6.35s/it]  1%|          | 60/7228 [06:27<12:30:28,  6.28s/it]                                                    {'loss': 4.2542, 'learning_rate': 2.7649769585253456e-07, 'epoch': 0.02}
+  1%|          | 60/7228 [06:31<12:30:28,  6.28s/it]  1%|          | 61/7228 [06:38<15:10:40,  7.62s/it]  1%|          | 62/7228 [06:44<14:28:22,  7.27s/it]  1%|          | 63/7228 [06:52<14:34:15,  7.32s/it]  1%|          | 64/7228 [06:58<13:56:04,  7.00s/it]  1%|          | 65/7228 [07:04<13:31:23,  6.80s/it]  1%|          | 66/7228 [07:11<13:04:06,  6.57s/it]  1%|          | 67/7228 [07:16<12:41:50,  6.38s/it]  1%|          | 68/7228 [07:23<12:32:35,  6.31s/it]  1%|          | 69/7228 [07:29<12:25:09,  6.25s/it]  1%|          | 70/7228 [07:35<12:36:20,  6.34s/it]                                                    {'loss': 3.6982, 'learning_rate': 3.225806451612903e-07, 'epoch': 0.02}
+  1%|          | 70/7228 [07:38<12:36:20,  6.34s/it]  1%|          | 71/7228 [07:44<14:02:03,  7.06s/it]  1%|          | 72/7228 [07:50<13:37:40,  6.86s/it]  1%|          | 73/7228 [07:57<13:23:26,  6.74s/it]  1%|          | 74/7228 [08:03<13:10:22,  6.63s/it]  1%|          | 75/7228 [08:10<13:04:24,  6.58s/it]  1%|          | 76/7228 [08:17<13:26:39,  6.77s/it]  1%|          | 77/7228 [08:23<13:17:46,  6.69s/it]  1%|          | 78/7228 [08:30<12:59:58,  6.55s/it]  1%|          | 79/7228 [08:36<12:48:21,  6.45s/it]  1%|          | 80/7228 [08:43<12:59:56,  6.55s/it]                                                    {'loss': 3.4288, 'learning_rate': 3.686635944700461e-07, 'epoch': 0.02}
+  1%|          | 80/7228 [08:46<12:59:56,  6.55s/it]  1%|          | 81/7228 [08:52<14:32:00,  7.32s/it]  1%|          | 82/7228 [08:58<13:53:26,  7.00s/it]  1%|          | 83/7228 [09:04<13:24:51,  6.76s/it]  1%|          | 84/7228 [09:10<12:58:33,  6.54s/it]  1%|          | 85/7228 [09:16<12:49:15,  6.46s/it]  1%|          | 86/7228 [09:23<12:53:50,  6.50s/it]  1%|          | 87/7228 [09:29<12:49:05,  6.46s/it]  1%|          | 88/7228 [09:37<13:18:45,  6.71s/it]  1%|          | 89/7228 [09:43<13:07:12,  6.62s/it]  1%|          | 90/7228 [09:49<12:54:32,  6.51s/it]                                                    {'loss': 2.7665, 'learning_rate': 4.147465437788018e-07, 'epoch': 0.02}
+  1%|          | 90/7228 [09:50<12:54:32,  6.51s/it]  1%|▏         | 91/7228 [09:56<13:01:24,  6.57s/it]  1%|▏         | 92/7228 [10:02<12:42:37,  6.41s/it]  1%|▏         | 93/7228 [10:10<13:16:33,  6.70s/it]  1%|▏         | 94/7228 [10:16<12:53:24,  6.50s/it]  1%|▏         | 95/7228 [10:22<12:44:33,  6.43s/it]  1%|▏         | 96/7228 [10:28<12:35:15,  6.35s/it]  1%|▏         | 97/7228 [10:34<12:36:52,  6.37s/it]  1%|▏         | 98/7228 [10:42<13:33:05,  6.84s/it]  1%|▏         | 99/7228 [10:49<13:22:29,  6.75s/it]  1%|▏         | 100/7228 [10:55<13:01:14,  6.58s/it]                                                     {'loss': 2.3388, 'learning_rate': 4.608294930875576e-07, 'epoch': 0.03}
+  1%|▏         | 100/7228 [10:57<13:01:14,  6.58s/it]  1%|▏         | 101/7228 [11:03<13:35:08,  6.86s/it]  1%|▏         | 102/7228 [11:09<13:28:09,  6.80s/it]  1%|▏         | 103/7228 [11:15<13:03:27,  6.60s/it]  1%|▏         | 104/7228 [11:22<12:50:27,  6.49s/it]  1%|▏         | 105/7228 [11:28<12:51:58,  6.50s/it]  1%|▏         | 106/7228 [11:34<12:40:06,  6.40s/it]  1%|▏         | 107/7228 [11:41<12:43:14,  6.43s/it]  1%|▏         | 108/7228 [11:47<12:29:15,  6.31s/it]  2%|▏         | 109/7228 [11:54<13:01:52,  6.59s/it]  2%|▏         | 110/7228 [12:01<13:16:40,  6.72s/it]                                                     {'loss': 2.1434, 'learning_rate': 5.069124423963134e-07, 'epoch': 0.03}
+  2%|▏         | 110/7228 [12:05<13:16:40,  6.72s/it]  2%|▏         | 111/7228 [12:12<15:31:01,  7.85s/it]  2%|▏         | 112/7228 [12:18<14:26:18,  7.30s/it]  2%|▏         | 113/7228 [12:24<13:41:02,  6.92s/it]  2%|▏         | 114/7228 [12:30<13:10:35,  6.67s/it]  2%|▏         | 115/7228 [12:36<12:59:58,  6.58s/it]  2%|▏         | 116/7228 [12:42<12:50:41,  6.50s/it]  2%|▏         | 117/7228 [12:49<13:06:29,  6.64s/it]  2%|▏         | 118/7228 [12:55<12:41:59,  6.43s/it]  2%|▏         | 119/7228 [13:02<12:34:44,  6.37s/it]  2%|▏         | 120/7228 [13:08<12:36:16,  6.38s/it]                                                     {'loss': 1.8703, 'learning_rate': 5.529953917050691e-07, 'epoch': 0.03}
+  2%|▏         | 120/7228 [13:12<12:36:16,  6.38s/it]  2%|▏         | 121/7228 [13:19<15:06:01,  7.65s/it]  2%|▏         | 122/7228 [13:25<14:04:59,  7.13s/it]  2%|▏         | 123/7228 [13:30<13:24:03,  6.79s/it]  2%|▏         | 124/7228 [13:37<13:10:14,  6.67s/it]  2%|▏         | 125/7228 [13:43<12:52:08,  6.52s/it]  2%|▏         | 126/7228 [13:50<12:53:11,  6.53s/it]  2%|▏         | 127/7228 [13:56<12:49:15,  6.50s/it]  2%|▏         | 128/7228 [14:03<12:55:29,  6.55s/it]  2%|▏         | 129/7228 [14:09<12:37:03,  6.40s/it]  2%|▏         | 130/7228 [14:15<12:39:47,  6.42s/it]                                                     {'loss': 1.6896, 'learning_rate': 5.990783410138249e-07, 'epoch': 0.04}
+  2%|▏         | 130/7228 [14:20<12:39:47,  6.42s/it]  2%|▏         | 131/7228 [14:26<15:08:41,  7.68s/it]  2%|▏         | 132/7228 [14:32<14:23:30,  7.30s/it]  2%|▏         | 133/7228 [14:39<13:51:02,  7.03s/it]  2%|▏         | 134/7228 [14:45<13:19:52,  6.77s/it]  2%|▏         | 135/7228 [14:51<13:08:13,  6.67s/it]  2%|▏         | 136/7228 [14:57<12:36:28,  6.40s/it]  2%|▏         | 137/7228 [15:03<12:34:34,  6.38s/it]  2%|▏         | 138/7228 [15:10<12:48:26,  6.50s/it]  2%|▏         | 139/7228 [15:16<12:31:44,  6.36s/it]  2%|▏         | 140/7228 [15:23<12:32:51,  6.37s/it]                                                     {'loss': 1.5823, 'learning_rate': 6.451612903225806e-07, 'epoch': 0.04}
+  2%|▏         | 140/7228 [15:26<12:32:51,  6.37s/it]  2%|▏         | 141/7228 [15:32<14:25:30,  7.33s/it]  2%|▏         | 142/7228 [15:38<13:43:24,  6.97s/it]  2%|▏         | 143/7228 [15:44<13:08:52,  6.68s/it]  2%|▏         | 144/7228 [15:51<13:07:53,  6.67s/it]  2%|▏         | 145/7228 [15:57<12:58:53,  6.60s/it]  2%|▏         | 146/7228 [16:03<12:39:00,  6.43s/it]  2%|▏         | 147/7228 [16:10<12:42:47,  6.46s/it]  2%|▏         | 148/7228 [16:16<12:40:29,  6.44s/it]  2%|▏         | 149/7228 [16:23<12:33:20,  6.39s/it]  2%|▏         | 150/7228 [16:29<12:28:10,  6.34s/it]                                                     {'loss': 1.4667, 'learning_rate': 6.912442396313363e-07, 'epoch': 0.04}
+  2%|▏         | 150/7228 [16:31<12:28:10,  6.34s/it]  2%|▏         | 151/7228 [16:37<13:41:07,  6.96s/it]  2%|▏         | 152/7228 [16:45<13:52:12,  7.06s/it]  2%|▏         | 153/7228 [16:51<13:22:26,  6.81s/it]  2%|▏         | 154/7228 [16:57<13:06:41,  6.67s/it]  2%|▏         | 155/7228 [17:03<12:45:52,  6.50s/it]  2%|▏         | 156/7228 [17:10<12:51:15,  6.54s/it]  2%|▏         | 157/7228 [17:16<12:48:17,  6.52s/it]  2%|▏         | 158/7228 [17:23<12:43:28,  6.48s/it]  2%|▏         | 159/7228 [17:29<12:19:59,  6.28s/it]  2%|▏         | 160/7228 [17:35<12:37:38,  6.43s/it]                                                     {'loss': 1.3503, 'learning_rate': 7.373271889400922e-07, 'epoch': 0.04}
+  2%|▏         | 160/7228 [17:36<12:37:38,  6.43s/it]  2%|▏         | 161/7228 [17:42<12:40:06,  6.45s/it]  2%|▏         | 162/7228 [17:49<13:02:33,  6.64s/it]  2%|▏         | 163/7228 [17:55<12:46:38,  6.51s/it]  2%|▏         | 164/7228 [18:01<12:41:30,  6.47s/it]  2%|▏         | 165/7228 [18:07<12:21:57,  6.30s/it]  2%|▏         | 166/7228 [18:14<12:36:50,  6.43s/it]  2%|▏         | 167/7228 [18:20<12:32:59,  6.40s/it]  2%|▏         | 168/7228 [18:27<12:32:51,  6.40s/it]  2%|▏         | 169/7228 [18:33<12:30:50,  6.38s/it]  2%|▏         | 170/7228 [18:40<13:00:30,  6.64s/it]                                                     {'loss': 1.3154, 'learning_rate': 7.834101382488479e-07, 'epoch': 0.05}
+  2%|▏         | 170/7228 [18:42<13:00:30,  6.64s/it]  2%|▏         | 171/7228 [18:48<13:31:32,  6.90s/it]  2%|▏         | 172/7228 [18:55<13:24:29,  6.84s/it]  2%|▏         | 173/7228 [19:02<13:29:44,  6.89s/it]  2%|▏         | 174/7228 [19:08<13:04:20,  6.67s/it]  2%|▏         | 175/7228 [19:14<12:40:48,  6.47s/it]  2%|▏         | 176/7228 [19:20<12:43:03,  6.49s/it][2023-12-13 11:04:24,151] [INFO] [launch.py:315:sigkill_handler] Killing subprocess 246424
+[2023-12-13 11:04:24,960] [INFO] [launch.py:315:sigkill_handler] Killing subprocess 246425
+[2023-12-13 11:04:24,960] [ERROR] [launch.py:321:sigkill_handler] ['/home/wangyuhao/miniconda3/envs/llm/bin/python', '-u', 'src/train_bash.py', '--local_rank=1', '--deepspeed', 'ds_config3_nooff.json', '--stage', 'ranksft', '--model_name_or_path', '/home/wangyuhao/self-rag/Llama-2-7b-hf', '--do_train', '--save_safetensors', 'true', '--preprocessing_num_worker', '10', '--dataset_dir', '/mnt/wangyuhao/usere/training', '--dataset', '26doc-152303', '--template', 'usere', '--rank_beta', '1', '--psg_num', '2', '--loss_fn', 'bce', '--rank_bias', '0.8', '--relevant_init', 'relevant', '--flash_attn', 'true', '--only_rank', 'false', '--finetuning_type', 'full', '--lr_scheduler_type', 'cosine', '--cache_dir', '/home/wangyuhao/huggingface/datasets/.cache', '--output_dir', '/media/wangyuhao/usere/26doc-152303-r', '--overwrite_output_dir', '--cutoff_len', '4090', '--freeze_lr', '0.00001', '--warmup_ratio', '0.03', '--mask_rel_token', 'true', '--freeze_epoch', '0', '--per_device_train_batch_size', '32', '--gradient_accumulation_steps', '2', '--logging_steps', '10', '--save_steps', '400', '--learning_rate', '1e-6', '--num_train_epochs', '2.0', '--plot_loss', '--bf16'] exits with return code = -9

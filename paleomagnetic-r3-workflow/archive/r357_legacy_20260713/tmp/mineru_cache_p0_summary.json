@@ -1,0 +1,93 @@
+{
+  "actions": {
+    "preserved_unselected": 1278,
+    "replaced": 14
+  },
+  "inputs": {
+    "base_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/mineru_cache_3244.jsonl",
+      "sha256": "6c0e3efb6e119af96207b1441f71cf66f8ee1861af8509eaeba8c54dac51e338"
+    },
+    "identity_manifest": {
+      "columns_read": [
+        "REFNO",
+        "RESULTNO",
+        "ROCKNAME"
+      ],
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_distilled_training_preflight/identity.xlsx",
+      "sha256": "7e45020df48b866096ac4bf567102f6a73ce3c12759b19c8550f78de299c72f1",
+      "unique_refnos": 1292
+    },
+    "pdf_dir": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs"
+  },
+  "mineru": {
+    "available": true,
+    "executable": "tmp/mineru_venv/bin/mineru",
+    "extra_args": [
+      "-b",
+      "pipeline",
+      "-m",
+      "ocr",
+      "-l",
+      "ch",
+      "-f",
+      "false",
+      "-t",
+      "true"
+    ],
+    "invocations": 14,
+    "work_dir": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/mineru_runs/p0"
+  },
+  "mode": "patch",
+  "output": {
+    "pages": 19301,
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/mineru_cache_p0.jsonl",
+    "records": 1292,
+    "sha256": "25f1a0375db0d14332951a77300c0e00a983a8f70056f10e2732de7325578660",
+    "source_kind_counts": {
+      "mineru_content_list": 1,
+      "mineru_content_list_with_tables": 14,
+      "missing": 120,
+      "parsed_text": 172,
+      "pdfplumber": 1,
+      "pypdf": 984
+    },
+    "source_quality_flag_counts": {
+      "glyph_or_cid_text": 1,
+      "no_extractable_text": 120,
+      "no_local_pdf": 118,
+      "no_parsed_text": 1049,
+      "none": 237,
+      "possibly_incomplete_extraction": 6,
+      "short_text": 128
+    },
+    "table_blocks_recovered": 29
+  },
+  "policies": {
+    "on_error": "skip",
+    "on_missing_pdf": "skip",
+    "on_unavailable": "fail",
+    "patch_replaces_only_successful_nonempty_extractions": true
+  },
+  "runtime_boundary": {
+    "identity_columns_only": true,
+    "labels_read": false,
+    "pmagresult_read": false,
+    "prior_evaluations_read": false,
+    "prior_predictions_read": false,
+    "source_metadata_tables_read": false
+  },
+  "schema_version": "r3_mineru_page_cache_adapter_v1",
+  "selection": {
+    "all_identity_refnos": 1292,
+    "defaulted_to_quality_gate": false,
+    "mode": "explicit_refno",
+    "quality_candidates_without_local_pdf": null,
+    "quality_gate_candidate_reason_counts": {},
+    "quality_gate_candidates": null,
+    "quality_gate_flags": [],
+    "quality_gate_reason_counts": {},
+    "selected_refnos": 14
+  },
+  "status": "PASS"
+}

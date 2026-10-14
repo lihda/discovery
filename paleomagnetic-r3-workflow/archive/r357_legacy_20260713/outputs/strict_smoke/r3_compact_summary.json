@@ -1,0 +1,32 @@
+{
+  "workflow_profile": "knowledge_strict_v1",
+  "targets": "data/targets.xlsx",
+  "page_cache": "outputs/r357_latest_full_07111019/r3_page_source_cache.jsonl",
+  "output": "outputs/strict_smoke/r3_compact.jsonl",
+  "rows": 25,
+  "score_counts": {
+    "0": 5,
+    "1": 20
+  },
+  "outcome_counts": {
+    "POSITIVE": 20,
+    "UNKNOWN": 5
+  },
+  "manual_review_rows": 14,
+  "runtime_input_columns": [
+    "REFNO",
+    "RESULTNO",
+    "ROCKNAME"
+  ],
+  "knowledge_base": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/knowledge/r357_expert_kb_v1.json",
+  "runtime_scoring_sources": [
+    "identity manifest",
+    "original paper page text",
+    "frozen expert knowledge base"
+  ],
+  "forbidden_runtime_scoring_sources": [
+    "PMAGRESULT",
+    "ROCKUNIT",
+    "R3/R5/R7 labels"
+  ]
+}

@@ -1,0 +1,306 @@
+nohup: ignoring input
+[2023-12-28 14:29:52,970] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+12/28/2023 14:29:54 - WARNING - llmtuner.tuner.core.parser - `ddp_find_unused_parameters` needs to be set as False for LoRA in DDP training.
+[INFO|training_args.py:1838] 2023-12-28 14:29:54,740 >> PyTorch: setting up devices
+/home/wangyuhao/miniconda3/envs/lm/lib/python3.11/site-packages/transformers/training_args.py:1751: FutureWarning: `--push_to_hub_token` is deprecated and will be removed in version 5 of 🤗 Transformers. Use `--hub_token` instead.
+  warnings.warn(
+12/28/2023 14:29:54 - INFO - llmtuner.tuner.core.parser - Process rank: 0, device: cuda:0, n_gpu: 1
+  distributed training: True, compute dtype: torch.bfloat16
+12/28/2023 14:29:54 - INFO - llmtuner.tuner.core.parser - Training/evaluation parameters Seq2SeqTrainingArguments(
+_n_gpu=1,
+adafactor=False,
+adam_beta1=0.9,
+adam_beta2=0.999,
+adam_epsilon=1e-08,
+auto_find_batch_size=False,
+bf16=True,
+bf16_full_eval=False,
+data_seed=None,
+dataloader_drop_last=False,
+dataloader_num_workers=0,
+dataloader_persistent_workers=False,
+dataloader_pin_memory=True,
+ddp_backend=None,
+ddp_broadcast_buffers=None,
+ddp_bucket_cap_mb=None,
+ddp_find_unused_parameters=False,
+ddp_timeout=1800,
+debug=[],
+deepspeed=None,
+disable_tqdm=False,
+dispatch_batches=None,
+do_eval=False,
+do_predict=False,
+do_train=True,
+eval_accumulation_steps=None,
+eval_delay=0,
+eval_steps=None,
+evaluation_strategy=IntervalStrategy.NO,
+fp16=False,
+fp16_backend=auto,
+fp16_full_eval=False,
+fp16_opt_level=O1,
+fsdp=[],
+fsdp_config={'min_num_params': 0, 'xla': False, 'xla_fsdp_grad_ckpt': False},
+fsdp_min_num_params=0,
+fsdp_transformer_layer_cls_to_wrap=None,
+full_determinism=False,
+generation_config=None,
+generation_max_length=None,
+generation_num_beams=None,
+gradient_accumulation_steps=1,
+gradient_checkpointing=False,
+gradient_checkpointing_kwargs=None,
+greater_is_better=None,
+group_by_length=False,
+half_precision_backend=auto,
+hub_always_push=False,
+hub_model_id=None,
+hub_private_repo=False,
+hub_strategy=HubStrategy.EVERY_SAVE,
+hub_token=<HUB_TOKEN>,
+ignore_data_skip=False,
+include_inputs_for_metrics=False,
+include_num_input_tokens_seen=False,
+include_tokens_per_second=False,
+jit_mode_eval=False,
+label_names=None,
+label_smoothing_factor=0.0,
+learning_rate=8e-07,
+length_column_name=length,
+load_best_model_at_end=False,
+local_rank=0,
+log_level=passive,
+log_level_replica=warning,
+log_on_each_node=True,
+logging_dir=/media/wangyuhao/usere/26doc-1523pos-ul4/runs/Dec28_14-29-54_zuchongzhi,
+logging_first_step=False,
+logging_nan_inf_filter=True,
+logging_steps=10,
+logging_strategy=IntervalStrategy.STEPS,
+lr_scheduler_kwargs={},
+lr_scheduler_type=SchedulerType.COSINE,
+max_grad_norm=1.0,
+max_steps=-1,
+metric_for_best_model=None,
+mp_parameters=,
+neftune_noise_alpha=None,
+no_cuda=False,
+num_train_epochs=1.5,
+optim=OptimizerNames.ADAMW_TORCH,
+optim_args=None,
+output_dir=/media/wangyuhao/usere/26doc-1523pos-ul4,
+overwrite_output_dir=True,
+past_index=-1,
+per_device_eval_batch_size=8,
+per_device_train_batch_size=1,
+predict_with_generate=False,
+prediction_loss_only=False,
+push_to_hub=False,
+push_to_hub_model_id=None,
+push_to_hub_organization=None,
+push_to_hub_token=<PUSH_TO_HUB_TOKEN>,
+ray_scope=last,
+remove_unused_columns=True,
+report_to=[],
+resume_from_checkpoint=None,
+run_name=/media/wangyuhao/usere/26doc-1523pos-ul4,
+save_on_each_node=False,
+save_only_model=False,
+save_safetensors=True,
+save_steps=400,
+save_strategy=IntervalStrategy.STEPS,
+save_total_limit=None,
+seed=42,
+skip_memory_metrics=True,
+sortish_sampler=False,
+split_batches=False,
+tf32=None,
+torch_compile=False,
+torch_compile_backend=None,
+torch_compile_mode=None,
+torchdynamo=None,
+tpu_metrics_debug=False,
+tpu_num_cores=None,
+use_cpu=False,
+use_ipex=False,
+use_legacy_prediction_loop=False,
+use_mps_device=False,
+warmup_ratio=0.03,
+warmup_steps=0,
+weight_decay=0.0,
+)
+12/28/2023 14:29:54 - INFO - llmtuner.dsets.loader - Loading dataset 26doc-1523pos.json...
+12/28/2023 14:29:54 - WARNING - llmtuner.dsets.utils - Checksum failed: missing SHA-1 hash value in dataset_info.json.
+/home/wangyuhao/miniconda3/envs/lm/lib/python3.11/site-packages/datasets/load.py:2479: FutureWarning: 'use_auth_token' was deprecated in favor of 'token' in version 2.14.0 and will be removed in 3.0.0.
+You can remove this warning by passing 'token=<use_auth_token>' instead.
+  warnings.warn(
+Using custom data configuration default-b1cd428daa2f58af
+Loading Dataset Infos from /home/wangyuhao/miniconda3/envs/lm/lib/python3.11/site-packages/datasets/packaged_modules/json
+Overwrite dataset info from restored data version if exists.
+Loading Dataset info from /home/wangyuhao/huggingface/datasets/.cache/json/default-b1cd428daa2f58af/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96
+Found cached dataset json (/home/wangyuhao/huggingface/datasets/.cache/json/default-b1cd428daa2f58af/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96)
+Loading Dataset info from /home/wangyuhao/huggingface/datasets/.cache/json/default-b1cd428daa2f58af/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96
+instruction prompt
+input query
+output response
+[INFO|tokenization_utils_base.py:2024] 2023-12-28 14:29:56,637 >> loading file tokenizer.model
+[INFO|tokenization_utils_base.py:2024] 2023-12-28 14:29:56,638 >> loading file tokenizer.json
+[INFO|tokenization_utils_base.py:2024] 2023-12-28 14:29:56,638 >> loading file added_tokens.json
+[INFO|tokenization_utils_base.py:2024] 2023-12-28 14:29:56,638 >> loading file special_tokens_map.json
+[INFO|tokenization_utils_base.py:2024] 2023-12-28 14:29:56,638 >> loading file tokenizer_config.json
+[INFO|configuration_utils.py:737] 2023-12-28 14:29:56,790 >> loading configuration file /home/wangyuhao/self-rag/Llama-2-7b-hf/config.json
+[INFO|configuration_utils.py:802] 2023-12-28 14:29:56,792 >> Model config LlamaConfig {
+  "_name_or_path": "/home/wangyuhao/self-rag/Llama-2-7b-hf",
+  "architectures": [
+    "LlamaForCausalLM"
+  ],
+  "attention_bias": false,
+  "attention_dropout": 0.0,
+  "bos_token_id": 1,
+  "eos_token_id": 2,
+  "hidden_act": "silu",
+  "hidden_size": 4096,
+  "initializer_range": 0.02,
+  "intermediate_size": 11008,
+  "max_position_embeddings": 4096,
+  "model_type": "llama",
+  "num_attention_heads": 32,
+  "num_hidden_layers": 32,
+  "num_key_value_heads": 32,
+  "pad_token_id": 0,
+  "pretraining_tp": 1,
+  "rms_norm_eps": 1e-05,
+  "rope_scaling": null,
+  "rope_theta": 10000.0,
+  "tie_word_embeddings": false,
+  "torch_dtype": "float16",
+  "transformers_version": "4.36.2",
+  "use_cache": true,
+  "vocab_size": 32000
+}
+
+[WARNING|logging.py:329] 2023-12-28 14:29:57,054 >> ==((====))==  Unsloth: Fast Llama patching release 2023.12
+   \\   /|    GPU: NVIDIA GeForce RTX 3090. Max memory: 23.691 GB
+O^O/ \_/ \    CUDA capability = 8.6. Xformers = 0.0.22.post7. FA = True.
+\        /    Pytorch version: 2.1.0+cu121. CUDA Toolkit = 12.1
+ "-____-"     bfloat16 = TRUE. Platform = Linux
+
+[INFO|modeling_utils.py:3341] 2023-12-28 14:29:57,055 >> loading weights file /home/wangyuhao/self-rag/Llama-2-7b-hf/model.safetensors.index.json
+[INFO|modeling_utils.py:1341] 2023-12-28 14:29:57,055 >> Instantiating LlamaForRankCausalLM model under default dtype torch.bfloat16.
+[INFO|configuration_utils.py:826] 2023-12-28 14:29:57,055 >> Generate config GenerationConfig {
+  "bos_token_id": 1,
+  "eos_token_id": 2,
+  "pad_token_id": 0
+}
+
+Using loss funtion binary cross entropy.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:10<00:10, 10.32s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:14<00:00,  6.44s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:14<00:00,  7.02s/it]
+[INFO|modeling_utils.py:4185] 2023-12-28 14:30:11,321 >> All model checkpoint weights were used when initializing LlamaForRankCausalLM.
+
+[WARNING|modeling_utils.py:4187] 2023-12-28 14:30:11,321 >> Some weights of LlamaForRankCausalLM were not initialized from the model checkpoint at /home/wangyuhao/self-rag/Llama-2-7b-hf and are newly initialized: ['rel_score.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[INFO|configuration_utils.py:779] 2023-12-28 14:30:11,324 >> loading configuration file /home/wangyuhao/self-rag/Llama-2-7b-hf/generation_config.json
+/home/wangyuhao/miniconda3/envs/lm/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:389: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`. This was detected when initializing the generation config instance, which means the corresponding file may hold incorrect parameterization and should be fixed.
+  warnings.warn(
+/home/wangyuhao/miniconda3/envs/lm/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:394: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`. This was detected when initializing the generation config instance, which means the corresponding file may hold incorrect parameterization and should be fixed.
+  warnings.warn(
+[INFO|configuration_utils.py:826] 2023-12-28 14:30:11,324 >> Generate config GenerationConfig {
+  "beta": 2.0,
+  "bias": 0.8,
+  "bos_token_id": 1,
+  "enable_verify": false,
+  "eos_token_id": 2,
+  "max_length": 4096,
+  "pad_token_id": 0,
+  "psg_num": 2,
+  "rank_only": false,
+  "rel_score_id": 32002,
+  "rr_loss_fn": "bce",
+  "smoothing": false,
+  "temperature": 0.9,
+  "top_p": 0.6,
+  "verify_score_id": 2
+}
+
+Init the rel_score.weight with the weights of `useful`
+12/28/2023 14:30:24 - INFO - llmtuner.tuner.core.utils - Gradient checkpointing enabled.
+12/28/2023 14:30:24 - INFO - llmtuner.tuner.core.adapter - Fine-tuning method: LoRA
+LoraConfig(peft_type=<PeftType.LORA: 'LORA'>, auto_mapping=None, base_model_name_or_path=None, revision=None, task_type=<TaskType.CAUSAL_LM: 'CAUSAL_LM'>, inference_mode=False, r=8, target_modules={'gate_proj', 'q_proj', 'down_proj', 'k_proj', 'v_proj', 'up_proj', 'o_proj'}, lora_alpha=32.0, lora_dropout=0.1, fan_in_fan_out=False, bias='none', modules_to_save=None, init_lora_weights=True, layers_to_transform=None, layers_pattern=None, rank_pattern={}, alpha_pattern={}, megatron_config=None, megatron_core='megatron.core', loftq_config={})
+[WARNING|logging.py:329] 2023-12-28 14:30:24,926 >> Unsloth 2023.12 patched 32 layers with 32 QKV layers, 32 O layers and 32 MLP layers.
+12/28/2023 14:30:25 - INFO - llmtuner.tuner.core.loader - trainable params: 19988480 || all params: 6758473728 || trainable%: 0.2958
+Process #0 will write at /home/wangyuhao/huggingface/datasets/.cache/json/default-b1cd428daa2f58af/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-a30c824a1507e128_00000_of_00010.arrow
+Process #1 will write at /home/wangyuhao/huggingface/datasets/.cache/json/default-b1cd428daa2f58af/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-a30c824a1507e128_00001_of_00010.arrow
+Process #2 will write at /home/wangyuhao/huggingface/datasets/.cache/json/default-b1cd428daa2f58af/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-a30c824a1507e128_00002_of_00010.arrow
+Process #3 will write at /home/wangyuhao/huggingface/datasets/.cache/json/default-b1cd428daa2f58af/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-a30c824a1507e128_00003_of_00010.arrow
+Process #4 will write at /home/wangyuhao/huggingface/datasets/.cache/json/default-b1cd428daa2f58af/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-a30c824a1507e128_00004_of_00010.arrow
+Process #5 will write at /home/wangyuhao/huggingface/datasets/.cache/json/default-b1cd428daa2f58af/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-a30c824a1507e128_00005_of_00010.arrow
+Process #6 will write at /home/wangyuhao/huggingface/datasets/.cache/json/default-b1cd428daa2f58af/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-a30c824a1507e128_00006_of_00010.arrow
+Process #7 will write at /home/wangyuhao/huggingface/datasets/.cache/json/default-b1cd428daa2f58af/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-a30c824a1507e128_00007_of_00010.arrow
+Process #8 will write at /home/wangyuhao/huggingface/datasets/.cache/json/default-b1cd428daa2f58af/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-a30c824a1507e128_00008_of_00010.arrow
+Process #9 will write at /home/wangyuhao/huggingface/datasets/.cache/json/default-b1cd428daa2f58af/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-a30c824a1507e128_00009_of_00010.arrow
+Loading cached processed dataset at /home/wangyuhao/huggingface/datasets/.cache/json/default-b1cd428daa2f58af/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96/cache-a30c824a1507e128_*_of_00010.arrow
+Concatenating 10 shards
+input_ids:
+[1, 18527, 29901, 7997, 11143, 365, 583, 313, 8050, 3652, 29897, 10576, 29901, 3697, 310, 29871, 29906, 29900, 29896, 29955, 29889, 319, 6047, 11294, 363, 278, 3652, 471, 5492, 373, 5087, 7412, 322, 474, 29911, 7844, 373, 4779, 29871, 29941, 29896, 29892, 29871, 29906, 29900, 29896, 29955, 29889, 450, 937, 4259, 471, 5492, 373, 3164, 29884, 29899, 764, 322, 15191, 373, 3111, 29871, 29896, 29892, 29871, 29906, 29900, 29896, 29955, 29889, 7997, 11143, 365, 583, 313, 8050, 3652, 29897, 7997, 11143, 365, 583, 338, 385, 3082, 18621, 11456, 3652, 29892, 2729, 373, 278, 9554, 310, 278, 1021, 1024, 491, 365, 16677, 3879, 29875, 442, 29891, 29892, 393, 7017, 287, 373, 6339, 29871, 29896, 29929, 29892, 29871, 29906, 29900, 29896, 29955, 29892, 373, 379, 8456, 29889, 6760, 630, 322, 3971, 491, 4699, 382, 29889, 476, 1808, 29891, 29892, 278, 3652, 29915, 9881, 29899, 1022, 275, 356, 937, 4259, 471, 10624, 491, 4581, 29899, 29924, 5666, 19918, 1318, 29889, 5124, 6970, 11143, 365, 583, 15945, 10819, 405, 23249, 27912, 1171, 29892, 830, 968, 2973, 414, 1129, 265, 322, 1383, 737, 1600, 10180, 2330, 322, 10603, 278, 5828, 310, 2211, 953, 8194, 635, 32000, 4802, 2217, 12185, 4259, 29871, 29906, 920, 1784, 23238, 32002, 32003, 9881, 2]
+inputs:
+<s> Title: Big Little Lies (TV series) Content: shows of 2017. A soundtrack for the series was released on Google Play and iTunes on March 31, 2017. The first season was released on Blu-ray and DVD on August 1, 2017. Big Little Lies (TV series) Big Little Lies is an American drama television series, based on the novel of the same name by Liane Moriarty, that premiered on February 19, 2017, on HBO. Created and written by David E. Kelley, the series' seven-episode first season was directed by Jean-Marc Vallée. ""Big Little Lies"" stars Nicole Kidman, Reese Witherspoon and Shailene Woodley and tells the story of three emotionally<BEGIN_QUERY> big little lies season 2 how many episodes<GENERATE_SCORE><RELEVANT> seven</s>
+label_ids:
+[-100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, -100, 9881, 2]
+labels:
+seven</s>
+classes:
+[1, 1]
+ans score:
+None
+[INFO|training_args.py:1838] 2023-12-28 14:30:26,523 >> PyTorch: setting up devices
+/home/wangyuhao/miniconda3/envs/lm/lib/python3.11/site-packages/transformers/training_args.py:1751: FutureWarning: `--push_to_hub_token` is deprecated and will be removed in version 5 of 🤗 Transformers. Use `--hub_token` instead.
+  warnings.warn(
+[INFO|training_args.py:1838] 2023-12-28 14:30:26,524 >> PyTorch: setting up devices
+[INFO|trainer.py:568] 2023-12-28 14:30:38,106 >> Using auto half precision backend
+[INFO|trainer.py:1706] 2023-12-28 14:30:39,855 >> ***** Running training *****
+[INFO|trainer.py:1707] 2023-12-28 14:30:39,855 >>   Num examples = 369,310
+[INFO|trainer.py:1708] 2023-12-28 14:30:39,855 >>   Num Epochs = 2
+[INFO|trainer.py:1709] 2023-12-28 14:30:39,855 >>   Instantaneous batch size per device = 1
+[INFO|trainer.py:1712] 2023-12-28 14:30:39,855 >>   Total train batch size (w. parallel, distributed & accumulation) = 1
+[INFO|trainer.py:1713] 2023-12-28 14:30:39,855 >>   Gradient Accumulation steps = 1
+[INFO|trainer.py:1714] 2023-12-28 14:30:39,855 >>   Total optimization steps = 553,965
+[INFO|trainer.py:1715] 2023-12-28 14:30:39,861 >>   Number of trainable parameters = 19,988,480
+12/28/2023 14:30:39 - WARNING - llmtuner.extras.callbacks - Previous log file in this folder will be deleted.
+  0%|          | 0/553965 [00:00<?, ?it/s][WARNING|logging.py:314] 2023-12-28 14:30:40,069 >> You're using a LlamaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+  0%|          | 1/553965 [00:01<205:18:00,  1.33s/it]  0%|          | 2/553965 [00:01<109:12:07,  1.41it/s]  0%|          | 3/553965 [00:01<77:55:54,  1.97it/s]   0%|          | 4/553965 [00:02<63:13:32,  2.43it/s]  0%|          | 5/553965 [00:02<55:41:45,  2.76it/s]  0%|          | 6/553965 [00:02<51:01:56,  3.02it/s]  0%|          | 7/553965 [00:02<47:47:42,  3.22it/s]  0%|          | 8/553965 [00:03<45:51:18,  3.36it/s]  0%|          | 9/553965 [00:03<42:12:16,  3.65it/s]  0%|          | 10/553965 [00:03<39:39:25,  3.88it/s]                                                      {'loss': 6.8653, 'learning_rate': 4.813767374691618e-10, 'epoch': 0.0}
+  0%|          | 10/553965 [00:03<39:39:25,  3.88it/s]  0%|          | 11/553965 [00:03<40:41:09,  3.78it/s]  0%|          | 12/553965 [00:04<40:10:24,  3.83it/s]  0%|          | 13/553965 [00:04<39:53:28,  3.86it/s]  0%|          | 14/553965 [00:04<40:19:41,  3.82it/s]  0%|          | 15/553965 [00:04<40:48:54,  3.77it/s]  0%|          | 16/553965 [00:05<41:00:46,  3.75it/s]  0%|          | 17/553965 [00:05<40:59:36,  3.75it/s]  0%|          | 18/553965 [00:05<40:09:55,  3.83it/s]  0%|          | 19/553965 [00:06<40:25:49,  3.81it/s]  0%|          | 20/553965 [00:06<40:07:37,  3.83it/s]                                                      {'loss': 8.295, 'learning_rate': 9.627534749383236e-10, 'epoch': 0.0}
+  0%|          | 20/553965 [00:06<40:07:37,  3.83it/s]  0%|          | 21/553965 [00:06<41:04:49,  3.75it/s]  0%|          | 22/553965 [00:06<39:12:42,  3.92it/s]  0%|          | 23/553965 [00:07<37:32:24,  4.10it/s]  0%|          | 24/553965 [00:07<37:47:47,  4.07it/s][2023-12-28 14:30:49,315] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: -9) local_rank: 0 (pid: 1511002) of binary: /home/wangyuhao/miniconda3/envs/lm/bin/python
+Traceback (most recent call last):
+  File "/home/wangyuhao/miniconda3/envs/lm/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/wangyuhao/miniconda3/envs/lm/lib/python3.11/site-packages/accelerate/commands/accelerate_cli.py", line 47, in main
+    args.func(args)
+  File "/home/wangyuhao/miniconda3/envs/lm/lib/python3.11/site-packages/accelerate/commands/launch.py", line 1008, in launch_command
+    multi_gpu_launcher(args)
+  File "/home/wangyuhao/miniconda3/envs/lm/lib/python3.11/site-packages/accelerate/commands/launch.py", line 666, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/home/wangyuhao/miniconda3/envs/lm/lib/python3.11/site-packages/torch/distributed/run.py", line 797, in run
+    elastic_launch(
+  File "/home/wangyuhao/miniconda3/envs/lm/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 134, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wangyuhao/miniconda3/envs/lm/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 264, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+========================================================
+src/train_bash.py FAILED
+--------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+--------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2023-12-28_14:30:49
+  host      : zuchongzhi
+  rank      : 0 (local_rank: 0)
+  exitcode  : -9 (pid: 1511002)
+  error_file: <N/A>
+  traceback : Signal 9 (SIGKILL) received by PID 1511002
+========================================================

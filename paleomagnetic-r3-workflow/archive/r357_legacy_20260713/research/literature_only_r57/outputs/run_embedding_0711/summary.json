@@ -1,0 +1,1031 @@
+{
+  "created_at": "2026-07-11T12:50:00",
+  "method": "target-centered paper text plus REFNO-grouped Bernoulli relevance calibration",
+  "runtime_sources": [
+    "REFNO",
+    "RESULTNO",
+    "ROCKNAME",
+    "original paper page text"
+  ],
+  "forbidden_runtime_sources": [
+    "PMAGRESULT",
+    "ROCKUNIT"
+  ],
+  "embedding_backend": "offline lexical model; Qwen endpoint returned HTTP 502",
+  "indicators": {
+    "R5": {
+      "train_rows": 2076,
+      "dev_rows": 446,
+      "test_rows": 651,
+      "accuracy_threshold": {
+        "threshold": -61.4813413252507,
+        "accuracy": 0.7443946188340808,
+        "zero_precision": 0.76,
+        "zero_recall": 0.2714285714285714
+      },
+      "precision_threshold": {
+        "threshold": -61.4813413252507,
+        "accuracy": 0.7443946188340808,
+        "zero_precision": 0.76,
+        "zero_recall": 0.2714285714285714
+      },
+      "concept_accuracy_threshold": {
+        "threshold": -0.3434909645646689,
+        "accuracy": 0.6973094170403588,
+        "zero_precision": 0.6190476190476191,
+        "zero_recall": 0.09285714285714286
+      },
+      "concept_precision_threshold": {
+        "threshold": -0.1965029693385063,
+        "accuracy": 0.6973094170403588,
+        "zero_precision": 1.0,
+        "zero_recall": 0.03571428571428571
+      },
+      "test": {
+        "all_one": {
+          "rows": 651,
+          "accuracy": 0.717357910906298,
+          "macro_f1": 0.41771019677996424,
+          "f1_0": 0.0,
+          "f1_1": 0.8354203935599285,
+          "tp": 467,
+          "tn": 0,
+          "fp": 184,
+          "fn": 0,
+          "pred_zero": 0
+        },
+        "legacy_rule": {
+          "rows": 651,
+          "accuracy": 0.7127496159754224,
+          "macro_f1": 0.46708720566283046,
+          "f1_0": 0.10526315789473684,
+          "f1_1": 0.8289112534309241,
+          "tp": 453,
+          "tn": 11,
+          "fp": 173,
+          "fn": 14,
+          "pred_zero": 25
+        },
+        "text_calibrated_accuracy": {
+          "rows": 651,
+          "accuracy": 0.7419354838709677,
+          "macro_f1": 0.5533666568656278,
+          "f1_0": 0.2631578947368421,
+          "f1_1": 0.8435754189944135,
+          "tp": 453,
+          "tn": 30,
+          "fp": 154,
+          "fn": 14,
+          "pred_zero": 44
+        },
+        "text_calibrated_precision": {
+          "rows": 651,
+          "accuracy": 0.7419354838709677,
+          "macro_f1": 0.5533666568656278,
+          "f1_0": 0.2631578947368421,
+          "f1_1": 0.8435754189944135,
+          "tp": 453,
+          "tn": 30,
+          "fp": 154,
+          "fn": 14,
+          "pred_zero": 44
+        },
+        "concept_calibrated_accuracy": {
+          "rows": 651,
+          "accuracy": 0.738863287250384,
+          "macro_f1": 0.5600931726396795,
+          "f1_0": 0.2796610169491525,
+          "f1_1": 0.8405253283302064,
+          "tp": 448,
+          "tn": 33,
+          "fp": 151,
+          "fn": 19,
+          "pred_zero": 52
+        },
+        "concept_calibrated_precision": {
+          "rows": 651,
+          "accuracy": 0.7158218125960062,
+          "macro_f1": 0.4513136853806658,
+          "f1_0": 0.07035175879396985,
+          "f1_1": 0.8322756119673618,
+          "tp": 459,
+          "tn": 7,
+          "fp": 177,
+          "fn": 8,
+          "pred_zero": 15
+        }
+      },
+      "all_with_dev_calibration": {
+        "all_one": {
+          "rows": 3173,
+          "accuracy": 0.745036243302868,
+          "macro_f1": 0.4269459996387936,
+          "f1_0": 0.0,
+          "f1_1": 0.8538919992775872,
+          "tp": 2364,
+          "tn": 0,
+          "fp": 809,
+          "fn": 0,
+          "pred_zero": 0
+        },
+        "legacy_rule": {
+          "rows": 3173,
+          "accuracy": 0.7308540813110621,
+          "macro_f1": 0.4768239922400398,
+          "f1_0": 0.11226611226611227,
+          "f1_1": 0.8413818722139673,
+          "tp": 2265,
+          "tn": 54,
+          "fp": 755,
+          "fn": 99,
+          "pred_zero": 153
+        },
+        "text_calibrated_accuracy": {
+          "rows": 3173,
+          "accuracy": 0.8537661519067129,
+          "macro_f1": 0.7627932635421313,
+          "f1_0": 0.6158940397350994,
+          "f1_1": 0.9096924873491631,
+          "tp": 2337,
+          "tn": 372,
+          "fp": 437,
+          "fn": 27,
+          "pred_zero": 399
+        },
+        "text_calibrated_precision": {
+          "rows": 3173,
+          "accuracy": 0.8537661519067129,
+          "macro_f1": 0.7627932635421313,
+          "f1_0": 0.6158940397350994,
+          "f1_1": 0.9096924873491631,
+          "tp": 2337,
+          "tn": 372,
+          "fp": 437,
+          "fn": 27,
+          "pred_zero": 399
+        },
+        "concept_calibrated_accuracy": {
+          "rows": 3173,
+          "accuracy": 0.7481878348566026,
+          "macro_f1": 0.5465093919602152,
+          "f1_0": 0.24408703878902555,
+          "f1_1": 0.8489317451314048,
+          "tp": 2245,
+          "tn": 129,
+          "fp": 680,
+          "fn": 119,
+          "pred_zero": 248
+        },
+        "concept_calibrated_precision": {
+          "rows": 3173,
+          "accuracy": 0.7434604475260006,
+          "macro_f1": 0.4525553417154872,
+          "f1_0": 0.053488372093023255,
+          "f1_1": 0.8516223113379512,
+          "tp": 2336,
+          "tn": 23,
+          "fp": 786,
+          "fn": 28,
+          "pred_zero": 51
+        }
+      },
+      "top_features": {
+        "risk_r0": [
+          [
+            "w:brittany",
+            4.168717049653122
+          ],
+          [
+            "b:massif_france",
+            4.112515355854214
+          ],
+          [
+            "w:dag",
+            4.05322701575644
+          ],
+          [
+            "b:target_kopet",
+            4.05322701575644
+          ],
+          [
+            "b:piper_geomagnetism",
+            4.05322701575644
+          ],
+          [
+            "b:kopet_dag",
+            4.05322701575644
+          ],
+          [
+            "w:spilites",
+            3.990476994627692
+          ],
+          [
+            "w:sheeted",
+            3.990476994627692
+          ],
+          [
+            "w:paimpol",
+            3.990476994627692
+          ],
+          [
+            "b:ls2_received",
+            3.990476994627692
+          ],
+          [
+            "b:dag_sediments",
+            3.990476994627692
+          ],
+          [
+            "w:norbert",
+            3.8527083075276543
+          ],
+          [
+            "w:auvray",
+            3.8527083075276543
+          ],
+          [
+            "b:structurale_des",
+            3.8527083075276543
+          ],
+          [
+            "b:spilites_paimpol",
+            3.8527083075276543
+          ],
+          [
+            "b:northern_brittany",
+            3.8527083075276543
+          ],
+          [
+            "b:norbert_bonhommet",
+            3.8527083075276543
+          ],
+          [
+            "b:microgranite_dykes",
+            3.8527083075276543
+          ],
+          [
+            "b:bernard_auvray",
+            3.8527083075276543
+          ],
+          [
+            "b:auvray_norbert",
+            3.8527083075276543
+          ],
+          [
+            "w:brioverian",
+            3.7764884021707887
+          ],
+          [
+            "b:resulted_late",
+            3.7764884021707887
+          ],
+          [
+            "b:local_remagnetization",
+            3.7764884021707887
+          ],
+          [
+            "b:cent_probability",
+            3.7764884021707887
+          ],
+          [
+            "w:spilite",
+            3.6943382121576875
+          ],
+          [
+            "w:domnonean",
+            3.6943382121576875
+          ],
+          [
+            "b:paimpol_myr",
+            3.6943382121576875
+          ],
+          [
+            "b:layered_gabbros",
+            3.6943382121576875
+          ],
+          [
+            "b:domnonean_domain",
+            3.6943382121576875
+          ],
+          [
+            "w:skiddaw",
+            3.605223784971279
+          ]
+        ],
+        "support_r1": [
+          [
+            "w:fennoscandian",
+            -3.4934563599780466
+          ],
+          [
+            "b:fennoscandian_shield",
+            -3.3589614891228483
+          ],
+          [
+            "w:palaeoproterozoic",
+            -3.2061834795518602
+          ],
+          [
+            "w:svecofennian",
+            -3.0912213922511613
+          ],
+          [
+            "w:page",
+            -2.962753137773268
+          ],
+          [
+            "w:vendian",
+            -2.94557130725078
+          ],
+          [
+            "w:karelian",
+            -2.8553036590673755
+          ],
+          [
+            "w:rapakivi",
+            -2.8169628420449406
+          ],
+          [
+            "b:diabase_dykes",
+            -2.7972655071618053
+          ],
+          [
+            "w:ash",
+            -2.7771987025015448
+          ],
+          [
+            "w:finland",
+            -2.7769091948193654
+          ],
+          [
+            "b:superior_province",
+            -2.7358971914263988
+          ],
+          [
+            "b:siberian_traps",
+            -2.714630445476539
+          ],
+          [
+            "w:ores",
+            -2.6707771698165224
+          ],
+          [
+            "w:gorbatschev",
+            -2.648152059521141
+          ],
+          [
+            "b:research_geological",
+            -2.625033417401886
+          ],
+          [
+            "w:company",
+            -2.601398529680764
+          ],
+          [
+            "w:karelia",
+            -2.601398529680764
+          ],
+          [
+            "b:remanence_triangles",
+            2.579024073871646
+          ],
+          [
+            "b:remanence_unrealistic",
+            2.579024073871646
+          ],
+          [
+            "b:remanence_versus",
+            2.579024073871646
+          ],
+          [
+            "b:remanences_directions",
+            2.579024073871646
+          ],
+          [
+            "b:remanent_magnetizationtherefore",
+            2.579024073871646
+          ],
+          [
+            "b:remanent_rtunately",
+            2.579024073871646
+          ],
+          [
+            "b:remedy_situation",
+            2.579024073871646
+          ],
+          [
+            "b:removal_outcrop",
+            2.579024073871646
+          ],
+          [
+            "b:removed_demagnetiza-",
+            2.579024073871646
+          ],
+          [
+            "b:removed_interpretation",
+            2.579024073871646
+          ],
+          [
+            "b:removed_small",
+            2.579024073871646
+          ],
+          [
+            "b:removed_van",
+            2.579024073871646
+          ]
+        ]
+      },
+      "concept_coefficients": [
+        [
+          "source_available",
+          -0.7225717542459806
+        ],
+        [
+          "pattern_unknown_attitude",
+          0.6540601542498621
+        ],
+        [
+          "pattern_structural_rescue",
+          0.3127849745523702
+        ],
+        [
+          "pattern_rotation",
+          0.2748407028963791
+        ],
+        [
+          "pattern_fold_timing",
+          0.2347504582383805
+        ],
+        [
+          "pattern_inclination_risk",
+          0.2084648366079442
+        ],
+        [
+          "pattern_flat_rescue",
+          -0.2047729526880012
+        ],
+        [
+          "type_intrusive",
+          -0.19561187199236837
+        ],
+        [
+          "pattern_no_structural_correction",
+          -0.18577922469513847
+        ],
+        [
+          "pattern_mobile_block",
+          0.17561460910627905
+        ],
+        [
+          "target_pages_ge1",
+          0.15477223733457776
+        ],
+        [
+          "exact_anchor",
+          0.09453118290702729
+        ],
+        [
+          "type_volcanic",
+          0.09375132960271751
+        ],
+        [
+          "type_sedimentary",
+          0.09186209449526028
+        ],
+        [
+          "target_pages_ge2",
+          -0.08441924866292196
+        ],
+        [
+          "type_metamorphic",
+          -0.05367406534545722
+        ],
+        [
+          "pattern_attitude_rescue",
+          -0.03971647729320524
+        ],
+        [
+          "type_unclear",
+          0.0383808655239962
+        ],
+        [
+          "pattern_field_test_rescue",
+          0.024076830682907197
+        ],
+        [
+          "target_pages_ge4",
+          -0.021784465384423343
+        ],
+        [
+          "pattern_missing_paleohorizontal",
+          3.972906514237104e-12
+        ]
+      ]
+    },
+    "R7": {
+      "train_rows": 2076,
+      "dev_rows": 446,
+      "test_rows": 651,
+      "accuracy_threshold": {
+        "threshold": -6.482609337880547,
+        "accuracy": 0.9170403587443946,
+        "zero_precision": 0.6666666666666666,
+        "zero_recall": 0.05263157894736842
+      },
+      "precision_threshold": {
+        "threshold": 5.191248628806733,
+        "accuracy": 0.9170403587443946,
+        "zero_precision": 1.0,
+        "zero_recall": 0.02631578947368421
+      },
+      "concept_accuracy_threshold": {
+        "threshold": 0.22882696364798294,
+        "accuracy": 0.9147982062780269,
+        "zero_precision": 1.0,
+        "zero_recall": 0.0
+      },
+      "concept_precision_threshold": {
+        "threshold": 0.22882696364798294,
+        "accuracy": 0.9147982062780269,
+        "zero_precision": 1.0,
+        "zero_recall": 0.0
+      },
+      "test": {
+        "all_one": {
+          "rows": 651,
+          "accuracy": 0.880184331797235,
+          "macro_f1": 0.4681372549019608,
+          "f1_0": 0.0,
+          "f1_1": 0.9362745098039216,
+          "tp": 573,
+          "tn": 0,
+          "fp": 78,
+          "fn": 0,
+          "pred_zero": 0
+        },
+        "legacy_rule": {
+          "rows": 651,
+          "accuracy": 0.8771121351766513,
+          "macro_f1": 0.5321595400646784,
+          "f1_0": 0.13043478260869565,
+          "f1_1": 0.9338842975206612,
+          "tp": 565,
+          "tn": 6,
+          "fp": 72,
+          "fn": 8,
+          "pred_zero": 14
+        },
+        "text_calibrated_accuracy": {
+          "rows": 651,
+          "accuracy": 0.880184331797235,
+          "macro_f1": 0.4681372549019608,
+          "f1_0": 0.0,
+          "f1_1": 0.9362745098039216,
+          "tp": 573,
+          "tn": 0,
+          "fp": 78,
+          "fn": 0,
+          "pred_zero": 0
+        },
+        "text_calibrated_precision": {
+          "rows": 651,
+          "accuracy": 0.880184331797235,
+          "macro_f1": 0.4681372549019608,
+          "f1_0": 0.0,
+          "f1_1": 0.9362745098039216,
+          "tp": 573,
+          "tn": 0,
+          "fp": 78,
+          "fn": 0,
+          "pred_zero": 0
+        },
+        "concept_calibrated_accuracy": {
+          "rows": 651,
+          "accuracy": 0.880184331797235,
+          "macro_f1": 0.4681372549019608,
+          "f1_0": 0.0,
+          "f1_1": 0.9362745098039216,
+          "tp": 573,
+          "tn": 0,
+          "fp": 78,
+          "fn": 0,
+          "pred_zero": 0
+        },
+        "concept_calibrated_precision": {
+          "rows": 651,
+          "accuracy": 0.880184331797235,
+          "macro_f1": 0.4681372549019608,
+          "f1_0": 0.0,
+          "f1_1": 0.9362745098039216,
+          "tp": 573,
+          "tn": 0,
+          "fp": 78,
+          "fn": 0,
+          "pred_zero": 0
+        }
+      },
+      "all_with_dev_calibration": {
+        "all_one": {
+          "rows": 3173,
+          "accuracy": 0.8978884336589978,
+          "macro_f1": 0.4730986383261375,
+          "f1_0": 0.0,
+          "f1_1": 0.946197276652275,
+          "tp": 2849,
+          "tn": 0,
+          "fp": 324,
+          "fn": 0,
+          "pred_zero": 0
+        },
+        "legacy_rule": {
+          "rows": 3173,
+          "accuracy": 0.896627797037504,
+          "macro_f1": 0.5363591004668734,
+          "f1_0": 0.1276595744680851,
+          "f1_1": 0.9450586264656616,
+          "tp": 2821,
+          "tn": 24,
+          "fp": 300,
+          "fn": 28,
+          "pred_zero": 52
+        },
+        "text_calibrated_accuracy": {
+          "rows": 3173,
+          "accuracy": 0.908288685786322,
+          "macro_f1": 0.6393654877947326,
+          "f1_0": 0.3279445727482679,
+          "f1_1": 0.9507864028411973,
+          "tp": 2811,
+          "tn": 71,
+          "fp": 253,
+          "fn": 38,
+          "pred_zero": 109
+        },
+        "text_calibrated_precision": {
+          "rows": 3173,
+          "accuracy": 0.908288685786322,
+          "macro_f1": 0.6362489969047346,
+          "f1_0": 0.32167832167832167,
+          "f1_1": 0.9508196721311475,
+          "tp": 2813,
+          "tn": 69,
+          "fp": 255,
+          "fn": 36,
+          "pred_zero": 105
+        },
+        "concept_calibrated_accuracy": {
+          "rows": 3173,
+          "accuracy": 0.8978884336589978,
+          "macro_f1": 0.4730986383261375,
+          "f1_0": 0.0,
+          "f1_1": 0.946197276652275,
+          "tp": 2849,
+          "tn": 0,
+          "fp": 324,
+          "fn": 0,
+          "pred_zero": 0
+        },
+        "concept_calibrated_precision": {
+          "rows": 3173,
+          "accuracy": 0.8978884336589978,
+          "macro_f1": 0.4730986383261375,
+          "f1_0": 0.0,
+          "f1_1": 0.946197276652275,
+          "tp": 2849,
+          "tn": 0,
+          "fp": 324,
+          "fn": 0,
+          "pred_zero": 0
+        }
+      },
+      "top_features": {
+        "risk_r0": [
+          [
+            "b:summary_kaapvaal",
+            4.304332651734194
+          ],
+          [
+            "b:provinces_africa",
+            4.304332651734194
+          ],
+          [
+            "b:maximum_observed",
+            4.304332651734194
+          ],
+          [
+            "b:lobes_fig",
+            4.304332651734194
+          ],
+          [
+            "b:layered_suite",
+            4.304332651734194
+          ],
+          [
+            "b:kan_mattsson",
+            4.304332651734194
+          ],
+          [
+            "b:host_several",
+            4.304332651734194
+          ],
+          [
+            "b:extends_south",
+            4.304332651734194
+          ],
+          [
+            "b:emplacement_bushveld",
+            4.304332651734194
+          ],
+          [
+            "b:africa_host",
+            4.304332651734194
+          ],
+          [
+            "w:webb1",
+            4.165862977469089
+          ],
+          [
+            "w:walraven",
+            4.165862977469089
+          ],
+          [
+            "w:vana-",
+            4.165862977469089
+          ],
+          [
+            "w:ug2",
+            4.165862977469089
+          ],
+          [
+            "w:syn-bushveld",
+            4.165862977469089
+          ],
+          [
+            "w:susan",
+            4.165862977469089
+          ],
+          [
+            "w:sten-a",
+            4.165862977469089
+          ],
+          [
+            "w:sharpe",
+            4.165862977469089
+          ],
+          [
+            "w:scoates",
+            4.165862977469089
+          ],
+          [
+            "w:rustenburg",
+            4.165862977469089
+          ],
+          [
+            "w:roshoop",
+            4.165862977469089
+          ],
+          [
+            "w:ripa",
+            4.165862977469089
+          ],
+          [
+            "w:pilanesberg",
+            4.165862977469089
+          ],
+          [
+            "w:omparable",
+            4.165862977469089
+          ],
+          [
+            "w:nora",
+            4.165862977469089
+          ],
+          [
+            "w:mokopane",
+            4.165862977469089
+          ],
+          [
+            "w:miscalibration",
+            4.165862977469089
+          ],
+          [
+            "w:misc",
+            4.165862977469089
+          ],
+          [
+            "w:marshalltown",
+            4.165862977469089
+          ],
+          [
+            "w:makoppa",
+            4.165862977469089
+          ]
+        ],
+        "support_r1": [
+          [
+            "b:science_all",
+            -2.5304341095101415
+          ],
+          [
+            "b:time_scale",
+            -2.4897028220514934
+          ],
+          [
+            "b:northern_margin",
+            -2.167062064578742
+          ],
+          [
+            "b:elsevier_science",
+            -2.0748252611220215
+          ],
+          [
+            "b:sampled_section",
+            -1.9355966899270403
+          ],
+          [
+            "b:triassic_jurassic",
+            -1.9355966899270403
+          ],
+          [
+            "b:tectonic_deformation",
+            -1.88264730904451
+          ],
+          [
+            "w:conformable",
+            -1.88264730904451
+          ],
+          [
+            "b:part_basin",
+            -1.864396312024878
+          ],
+          [
+            "b:polarity_time",
+            -1.864396312024878
+          ],
+          [
+            "b:along_northern",
+            -1.8269267393678468
+          ],
+          [
+            "b:equal-area_projections",
+            -1.8269267393678468
+          ],
+          [
+            "w:pacific",
+            -1.822445279931499
+          ],
+          [
+            "w:ernkaapvaalcraton",
+            1.7890849557322408
+          ],
+          [
+            "w:especi",
+            1.7890849557322408
+          ],
+          [
+            "w:este",
+            1.7890849557322408
+          ],
+          [
+            "w:estratigraf",
+            1.7890849557322408
+          ],
+          [
+            "w:estudios",
+            1.7890849557322408
+          ],
+          [
+            "w:eura",
+            1.7890849557322408
+          ],
+          [
+            "w:evenia",
+            1.7890849557322408
+          ],
+          [
+            "w:eveniaut",
+            1.7890849557322408
+          ],
+          [
+            "w:eveniauta",
+            1.7890849557322408
+          ],
+          [
+            "w:evidencefrom",
+            1.7890849557322408
+          ],
+          [
+            "w:exploitation",
+            1.7890849557322408
+          ],
+          [
+            "w:expuestas",
+            1.7890849557322408
+          ],
+          [
+            "w:fabian",
+            1.7890849557322408
+          ],
+          [
+            "w:faith",
+            1.7890849557322408
+          ],
+          [
+            "w:farm",
+            1.7890849557322408
+          ],
+          [
+            "w:fashioned",
+            1.7890849557322408
+          ],
+          [
+            "w:faure-muret",
+            1.7890849557322408
+          ]
+        ]
+      },
+      "concept_coefficients": [
+        [
+          "target_pages_ge1",
+          -0.28834318271645976
+        ],
+        [
+          "pattern_age_ambiguity",
+          0.21842786461943892
+        ],
+        [
+          "target_pages_ge2",
+          0.150213116322913
+        ],
+        [
+          "type_sedimentary",
+          -0.14911387129879877
+        ],
+        [
+          "type_volcanic",
+          -0.1288909471919089
+        ],
+        [
+          "pattern_age_rescue",
+          0.12514272692747164
+        ],
+        [
+          "type_intrusive",
+          0.11345986909271694
+        ],
+        [
+          "source_available",
+          0.09635105323629009
+        ],
+        [
+          "type_unclear",
+          0.09478164513202816
+        ],
+        [
+          "exact_anchor",
+          -0.0768427307786899
+        ],
+        [
+          "type_metamorphic",
+          0.06669753999687807
+        ],
+        [
+          "pattern_field_test_rescue",
+          0.06028728559160659
+        ],
+        [
+          "pattern_present_overprint",
+          -0.05853515754792532
+        ],
+        [
+          "pattern_pole_match_rescue",
+          0.053745313867333555
+        ],
+        [
+          "target_pages_ge4",
+          -0.04702383583062057
+        ],
+        [
+          "pattern_younger_pole",
+          0.043146320388224774
+        ],
+        [
+          "pattern_remagnetization",
+          -0.03899758049214256
+        ],
+        [
+          "pattern_reset",
+          -0.030171650301193762
+        ],
+        [
+          "pattern_primary_rescue",
+          0.0010652703488141443
+        ],
+        [
+          "pattern_pole_mismatch",
+          -1.1976027732540571e-11
+        ]
+      ]
+    }
+  }
+}

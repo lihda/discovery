@@ -1,0 +1,562 @@
+{
+  "created_at": "2026-07-08T15:35:03",
+  "embedding_provider": "hash",
+  "inputs": {
+    "r5_html": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r5_07050954_9559.html",
+    "r7_html": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r7_07050954_8966.html",
+    "r5_workbook": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r5_07050954_9559.xlsx",
+    "r7_workbook": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r7_07050954_8966.xlsx",
+    "page_cache": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_latest_full_07050954/r3_page_source_cache.jsonl"
+  },
+  "by_indicator": {
+    "R5": {
+      "baseline": {
+        "splits": {
+          "dev": {
+            "n": 13,
+            "accuracy": 1.0,
+            "tp": 10,
+            "tn": 3,
+            "fp": 0,
+            "fn": 0,
+            "precision_1": 1.0,
+            "recall_1": 1.0,
+            "f1_1": 1.0,
+            "precision_0": 1.0,
+            "recall_0": 1.0,
+            "f1_0": 1.0,
+            "macro_f1": 1.0
+          },
+          "test": {
+            "n": 7,
+            "accuracy": 1.0,
+            "tp": 2,
+            "tn": 5,
+            "fp": 0,
+            "fn": 0,
+            "precision_1": 1.0,
+            "recall_1": 1.0,
+            "f1_1": 1.0,
+            "precision_0": 1.0,
+            "recall_0": 1.0,
+            "f1_0": 1.0,
+            "macro_f1": 1.0
+          },
+          "all": {
+            "n": 20,
+            "accuracy": 1.0,
+            "tp": 12,
+            "tn": 8,
+            "fp": 0,
+            "fn": 0,
+            "precision_1": 1.0,
+            "recall_1": 1.0,
+            "f1_1": 1.0,
+            "precision_0": 1.0,
+            "recall_0": 1.0,
+            "f1_0": 1.0,
+            "macro_f1": 1.0
+          }
+        }
+      },
+      "prototype_only": {
+        "params": {
+          "threshold": 0.03,
+          "margin": -0.04,
+          "rescue_threshold": 0.04,
+          "uncertainty": 0.03
+        },
+        "splits": {
+          "dev": {
+            "n": 13,
+            "accuracy": 0.7692307692307693,
+            "tp": 8,
+            "tn": 2,
+            "fp": 1,
+            "fn": 2,
+            "precision_1": 0.8888888888888888,
+            "recall_1": 0.8,
+            "f1_1": 0.8421052631578948,
+            "precision_0": 0.5,
+            "recall_0": 0.6666666666666666,
+            "f1_0": 0.5714285714285715,
+            "macro_f1": 0.7067669172932332,
+            "changed": 3,
+            "manual_review": 0
+          },
+          "test": {
+            "n": 7,
+            "accuracy": 0.8571428571428571,
+            "tp": 1,
+            "tn": 5,
+            "fp": 0,
+            "fn": 1,
+            "precision_1": 1.0,
+            "recall_1": 0.5,
+            "f1_1": 0.6666666666666666,
+            "precision_0": 0.8333333333333334,
+            "recall_0": 1.0,
+            "f1_0": 0.9090909090909091,
+            "macro_f1": 0.7878787878787878,
+            "changed": 1,
+            "manual_review": 0
+          },
+          "all": {
+            "n": 20,
+            "accuracy": 0.8,
+            "tp": 9,
+            "tn": 7,
+            "fp": 1,
+            "fn": 3,
+            "precision_1": 0.9,
+            "recall_1": 0.75,
+            "f1_1": 0.8181818181818182,
+            "precision_0": 0.7,
+            "recall_0": 0.875,
+            "f1_0": 0.7777777777777777,
+            "macro_f1": 0.797979797979798,
+            "changed": 4,
+            "manual_review": 0
+          }
+        },
+        "changed_cases": [
+          {
+            "indicator": "R5",
+            "refno": "1147",
+            "resultno": "17",
+            "target": "Douglas Peninsula Formation, Pethei Group",
+            "baseline": 1,
+            "pred": 0,
+            "gold": 1,
+            "baseline_error_type": "correct",
+            "negative_score": 0.0358,
+            "rescue_score": 0.0032,
+            "top_negative": "R5_L1_no_paleohorizontal_control",
+            "top_rescue": "R5_R1_structural_rescue",
+            "reason": "negative_prototype",
+            "needs_review": false,
+            "summary": "R5=1; source-recovered profile=metadata_calibrated; matched rules: none."
+          },
+          {
+            "indicator": "R5",
+            "refno": "1147",
+            "resultno": "16",
+            "target": "Douglas Peninsula Formation, Pethei Group",
+            "baseline": 1,
+            "pred": 0,
+            "gold": 1,
+            "baseline_error_type": "correct",
+            "negative_score": 0.0343,
+            "rescue_score": 0.006,
+            "top_negative": "R5_L1_no_paleohorizontal_control",
+            "top_rescue": "R5_R1_structural_rescue",
+            "reason": "negative_prototype",
+            "needs_review": false,
+            "summary": "R5=1; source-recovered profile=metadata_calibrated; matched rules: none."
+          },
+          {
+            "indicator": "R5",
+            "refno": "1142",
+            "resultno": "4",
+            "target": "Ingleside Formation",
+            "baseline": 1,
+            "pred": 0,
+            "gold": 1,
+            "baseline_error_type": "correct",
+            "negative_score": 0.0473,
+            "rescue_score": 0.0291,
+            "top_negative": "R5_L3_unvalidated_flattening_correction",
+            "top_rescue": "R5_R1_structural_rescue",
+            "reason": "negative_prototype",
+            "needs_review": false,
+            "summary": "R5=1; source-recovered profile=metadata_calibrated; matched rules: none."
+          },
+          {
+            "indicator": "R5",
+            "refno": "1145",
+            "resultno": "8",
+            "target": "Proterozoic granites",
+            "baseline": 0,
+            "pred": 1,
+            "gold": 0,
+            "baseline_error_type": "correct",
+            "negative_score": 0.0048,
+            "rescue_score": -0.0071,
+            "top_negative": "R5_L3_unvalidated_flattening_correction",
+            "top_rescue": "R5_R1_structural_rescue",
+            "reason": "default_positive",
+            "needs_review": false,
+            "summary": "R5=0; source-recovered profile=metadata_calibrated; matched rules: calibrated_metadata_zero_pair_rockunit_method_rb_sr_pmagresult_tests_ro_m."
+          }
+        ],
+        "manual_review_cases": []
+      },
+      "crag_correction": {
+        "params": {
+          "threshold": 0.03,
+          "margin": 0.04,
+          "rescue_threshold": 0.04,
+          "uncertainty": 0.03
+        },
+        "splits": {
+          "dev": {
+            "n": 13,
+            "accuracy": 1.0,
+            "tp": 10,
+            "tn": 3,
+            "fp": 0,
+            "fn": 0,
+            "precision_1": 1.0,
+            "recall_1": 1.0,
+            "f1_1": 1.0,
+            "precision_0": 1.0,
+            "recall_0": 1.0,
+            "f1_0": 1.0,
+            "macro_f1": 1.0,
+            "changed": 0,
+            "manual_review": 0
+          },
+          "test": {
+            "n": 7,
+            "accuracy": 1.0,
+            "tp": 2,
+            "tn": 5,
+            "fp": 0,
+            "fn": 0,
+            "precision_1": 1.0,
+            "recall_1": 1.0,
+            "f1_1": 1.0,
+            "precision_0": 1.0,
+            "recall_0": 1.0,
+            "f1_0": 1.0,
+            "macro_f1": 1.0,
+            "changed": 0,
+            "manual_review": 0
+          },
+          "all": {
+            "n": 20,
+            "accuracy": 1.0,
+            "tp": 12,
+            "tn": 8,
+            "fp": 0,
+            "fn": 0,
+            "precision_1": 1.0,
+            "recall_1": 1.0,
+            "f1_1": 1.0,
+            "precision_0": 1.0,
+            "recall_0": 1.0,
+            "f1_0": 1.0,
+            "macro_f1": 1.0,
+            "changed": 0,
+            "manual_review": 0
+          }
+        },
+        "changed_cases": [],
+        "manual_review_cases": []
+      },
+      "selfrag_abstain": {
+        "params": {
+          "threshold": 0.03,
+          "margin": 0.04,
+          "rescue_threshold": 0.04,
+          "uncertainty": 0.03
+        },
+        "splits": {
+          "dev": {
+            "n": 13,
+            "accuracy": 1.0,
+            "tp": 10,
+            "tn": 3,
+            "fp": 0,
+            "fn": 0,
+            "precision_1": 1.0,
+            "recall_1": 1.0,
+            "f1_1": 1.0,
+            "precision_0": 1.0,
+            "recall_0": 1.0,
+            "f1_0": 1.0,
+            "macro_f1": 1.0,
+            "changed": 0,
+            "manual_review": 0
+          },
+          "test": {
+            "n": 7,
+            "accuracy": 1.0,
+            "tp": 2,
+            "tn": 5,
+            "fp": 0,
+            "fn": 0,
+            "precision_1": 1.0,
+            "recall_1": 1.0,
+            "f1_1": 1.0,
+            "precision_0": 1.0,
+            "recall_0": 1.0,
+            "f1_0": 1.0,
+            "macro_f1": 1.0,
+            "changed": 0,
+            "manual_review": 0
+          },
+          "all": {
+            "n": 20,
+            "accuracy": 1.0,
+            "tp": 12,
+            "tn": 8,
+            "fp": 0,
+            "fn": 0,
+            "precision_1": 1.0,
+            "recall_1": 1.0,
+            "f1_1": 1.0,
+            "precision_0": 1.0,
+            "recall_0": 1.0,
+            "f1_0": 1.0,
+            "macro_f1": 1.0,
+            "changed": 0,
+            "manual_review": 0
+          }
+        },
+        "changed_cases": [],
+        "manual_review_cases": []
+      }
+    },
+    "R7": {
+      "baseline": {
+        "splits": {
+          "dev": {
+            "n": 0,
+            "accuracy": 0.0,
+            "tp": 0,
+            "tn": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision_1": 0.0,
+            "recall_1": 0.0,
+            "f1_1": 0.0,
+            "precision_0": 0.0,
+            "recall_0": 0.0,
+            "f1_0": 0.0,
+            "macro_f1": 0.0
+          },
+          "test": {
+            "n": 0,
+            "accuracy": 0.0,
+            "tp": 0,
+            "tn": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision_1": 0.0,
+            "recall_1": 0.0,
+            "f1_1": 0.0,
+            "precision_0": 0.0,
+            "recall_0": 0.0,
+            "f1_0": 0.0,
+            "macro_f1": 0.0
+          },
+          "all": {
+            "n": 0,
+            "accuracy": 0.0,
+            "tp": 0,
+            "tn": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision_1": 0.0,
+            "recall_1": 0.0,
+            "f1_1": 0.0,
+            "precision_0": 0.0,
+            "recall_0": 0.0,
+            "f1_0": 0.0,
+            "macro_f1": 0.0
+          }
+        }
+      },
+      "prototype_only": {
+        "params": {
+          "threshold": 0.03,
+          "margin": -0.04,
+          "rescue_threshold": 0.04,
+          "uncertainty": 0.03
+        },
+        "splits": {
+          "dev": {
+            "n": 0,
+            "accuracy": 0.0,
+            "tp": 0,
+            "tn": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision_1": 0.0,
+            "recall_1": 0.0,
+            "f1_1": 0.0,
+            "precision_0": 0.0,
+            "recall_0": 0.0,
+            "f1_0": 0.0,
+            "macro_f1": 0.0,
+            "changed": 0,
+            "manual_review": 0
+          },
+          "test": {
+            "n": 0,
+            "accuracy": 0.0,
+            "tp": 0,
+            "tn": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision_1": 0.0,
+            "recall_1": 0.0,
+            "f1_1": 0.0,
+            "precision_0": 0.0,
+            "recall_0": 0.0,
+            "f1_0": 0.0,
+            "macro_f1": 0.0,
+            "changed": 0,
+            "manual_review": 0
+          },
+          "all": {
+            "n": 0,
+            "accuracy": 0.0,
+            "tp": 0,
+            "tn": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision_1": 0.0,
+            "recall_1": 0.0,
+            "f1_1": 0.0,
+            "precision_0": 0.0,
+            "recall_0": 0.0,
+            "f1_0": 0.0,
+            "macro_f1": 0.0,
+            "changed": 0,
+            "manual_review": 0
+          }
+        },
+        "changed_cases": [],
+        "manual_review_cases": []
+      },
+      "crag_correction": {
+        "params": {
+          "threshold": 0.03,
+          "margin": -0.04,
+          "rescue_threshold": 0.04,
+          "uncertainty": 0.03
+        },
+        "splits": {
+          "dev": {
+            "n": 0,
+            "accuracy": 0.0,
+            "tp": 0,
+            "tn": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision_1": 0.0,
+            "recall_1": 0.0,
+            "f1_1": 0.0,
+            "precision_0": 0.0,
+            "recall_0": 0.0,
+            "f1_0": 0.0,
+            "macro_f1": 0.0,
+            "changed": 0,
+            "manual_review": 0
+          },
+          "test": {
+            "n": 0,
+            "accuracy": 0.0,
+            "tp": 0,
+            "tn": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision_1": 0.0,
+            "recall_1": 0.0,
+            "f1_1": 0.0,
+            "precision_0": 0.0,
+            "recall_0": 0.0,
+            "f1_0": 0.0,
+            "macro_f1": 0.0,
+            "changed": 0,
+            "manual_review": 0
+          },
+          "all": {
+            "n": 0,
+            "accuracy": 0.0,
+            "tp": 0,
+            "tn": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision_1": 0.0,
+            "recall_1": 0.0,
+            "f1_1": 0.0,
+            "precision_0": 0.0,
+            "recall_0": 0.0,
+            "f1_0": 0.0,
+            "macro_f1": 0.0,
+            "changed": 0,
+            "manual_review": 0
+          }
+        },
+        "changed_cases": [],
+        "manual_review_cases": []
+      },
+      "selfrag_abstain": {
+        "params": {
+          "threshold": 0.03,
+          "margin": -0.04,
+          "rescue_threshold": 0.04,
+          "uncertainty": 0.03
+        },
+        "splits": {
+          "dev": {
+            "n": 0,
+            "accuracy": 0.0,
+            "tp": 0,
+            "tn": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision_1": 0.0,
+            "recall_1": 0.0,
+            "f1_1": 0.0,
+            "precision_0": 0.0,
+            "recall_0": 0.0,
+            "f1_0": 0.0,
+            "macro_f1": 0.0,
+            "changed": 0,
+            "manual_review": 0
+          },
+          "test": {
+            "n": 0,
+            "accuracy": 0.0,
+            "tp": 0,
+            "tn": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision_1": 0.0,
+            "recall_1": 0.0,
+            "f1_1": 0.0,
+            "precision_0": 0.0,
+            "recall_0": 0.0,
+            "f1_0": 0.0,
+            "macro_f1": 0.0,
+            "changed": 0,
+            "manual_review": 0
+          },
+          "all": {
+            "n": 0,
+            "accuracy": 0.0,
+            "tp": 0,
+            "tn": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision_1": 0.0,
+            "recall_1": 0.0,
+            "f1_1": 0.0,
+            "precision_0": 0.0,
+            "recall_0": 0.0,
+            "f1_0": 0.0,
+            "macro_f1": 0.0,
+            "changed": 0,
+            "manual_review": 0
+          }
+        },
+        "changed_cases": [],
+        "manual_review_cases": []
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+nohup: ignoring input
+WARNING 12-30 21:58:10 config.py:406] Casting torch.float16 to torch.bfloat16.
+INFO 12-30 21:58:10 llm_engine.py:73] Initializing an LLM engine with config: model='/home/wangyuhao/self-rag/Llama-2-7b-hf', tokenizer='/home/wangyuhao/self-rag/Llama-2-7b-hf', tokenizer_mode=auto, revision=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=4096, download_dir=None, load_format=auto, tensor_parallel_size=1, quantization=None, seed=0)
+INFO 12-30 21:58:10 tokenizer.py:32] For some LLaMA V1 models, initializing the fast tokenizer may take a long time. To reduce the initialization time, consider using 'hf-internal-testing/llama-tokenizer' instead of the original tokenizer.
+Traceback (most recent call last):
+  File "../usere/gen-neg.py", line 71, in <module>
+    main()
+  File "../usere/gen-neg.py", line 57, in main
+    get_model(args.model_path)
+  File "/home/wangyuhao/usere/hf/vllm.py", line 8, in get_model
+    model = LLM(model=model_path, gpu_memory_utilization=0.9, dtype="bfloat16", swap_space=8)
+  File "/home/wangyuhao/miniconda3/envs/llm/lib/python3.8/site-packages/vllm/entrypoints/llm.py", line 93, in __init__
+    self.llm_engine = LLMEngine.from_engine_args(engine_args)
+  File "/home/wangyuhao/miniconda3/envs/llm/lib/python3.8/site-packages/vllm/engine/llm_engine.py", line 246, in from_engine_args
+    engine = cls(*engine_configs,
+  File "/home/wangyuhao/miniconda3/envs/llm/lib/python3.8/site-packages/vllm/engine/llm_engine.py", line 109, in __init__
+    self._init_workers(distributed_init_method)
+  File "/home/wangyuhao/miniconda3/envs/llm/lib/python3.8/site-packages/vllm/engine/llm_engine.py", line 145, in _init_workers
+    self._run_workers(
+  File "/home/wangyuhao/miniconda3/envs/llm/lib/python3.8/site-packages/vllm/engine/llm_engine.py", line 750, in _run_workers
+    self._run_workers_in_batch(workers, method, *args, **kwargs))
+  File "/home/wangyuhao/miniconda3/envs/llm/lib/python3.8/site-packages/vllm/engine/llm_engine.py", line 724, in _run_workers_in_batch
+    output = executor(*args, **kwargs)
+  File "/home/wangyuhao/miniconda3/envs/llm/lib/python3.8/site-packages/vllm/worker/worker.py", line 72, in load_model
+    self.model_runner.load_model()
+  File "/home/wangyuhao/miniconda3/envs/llm/lib/python3.8/site-packages/vllm/worker/model_runner.py", line 36, in load_model
+    self.model = get_model(self.model_config)
+  File "/home/wangyuhao/miniconda3/envs/llm/lib/python3.8/site-packages/vllm/model_executor/model_loader.py", line 91, in get_model
+    model = model_class(model_config.hf_config, linear_method)
+  File "/home/wangyuhao/miniconda3/envs/llm/lib/python3.8/site-packages/vllm/model_executor/models/llama.py", line 282, in __init__
+    self.model = LlamaModel(config, linear_method)
+  File "/home/wangyuhao/miniconda3/envs/llm/lib/python3.8/site-packages/vllm/model_executor/models/llama.py", line 241, in __init__
+    self.layers = nn.ModuleList([
+  File "/home/wangyuhao/miniconda3/envs/llm/lib/python3.8/site-packages/vllm/model_executor/models/llama.py", line 242, in <listcomp>
+    LlamaDecoderLayer(config, linear_method)
+  File "/home/wangyuhao/miniconda3/envs/llm/lib/python3.8/site-packages/vllm/model_executor/models/llama.py", line 184, in __init__
+    self.mlp = LlamaMLP(
+  File "/home/wangyuhao/miniconda3/envs/llm/lib/python3.8/site-packages/vllm/model_executor/models/llama.py", line 66, in __init__
+    self.down_proj = RowParallelLinear(intermediate_size,
+  File "/home/wangyuhao/miniconda3/envs/llm/lib/python3.8/site-packages/vllm/model_executor/layers/linear.py", line 483, in __init__
+    self.linear_weights = self.linear_method.create_weights(
+  File "/home/wangyuhao/miniconda3/envs/llm/lib/python3.8/site-packages/vllm/model_executor/layers/linear.py", line 51, in create_weights
+    weight = Parameter(torch.empty(output_size,
+  File "/home/wangyuhao/miniconda3/envs/llm/lib/python3.8/site-packages/torch/utils/_device.py", line 77, in __torch_function__
+    return func(*args, **kwargs)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 86.00 MiB. GPU 0 has a total capacty of 79.19 GiB of which 63.62 MiB is free. Process 2429359 has 71.82 GiB memory in use. Including non-PyTorch memory, this process has 7.30 GiB memory in use. Of the allocated memory 6.19 GiB is allocated by PyTorch, and 776.00 KiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

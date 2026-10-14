@@ -1,0 +1,5 @@
+indicator,refno,resultno,target,baseline,pred,gold,baseline_error_type,negative_score,rescue_score,top_negative,top_rescue,reason,needs_review,summary
+R5,1147,17,"Douglas Peninsula Formation, Pethei Group",1,0,1,correct,0.0358,0.0032,R5_L1_no_paleohorizontal_control,R5_R1_structural_rescue,negative_prototype,False,R5=1; source-recovered profile=metadata_calibrated; matched rules: none.
+R5,1147,16,"Douglas Peninsula Formation, Pethei Group",1,0,1,correct,0.0343,0.006,R5_L1_no_paleohorizontal_control,R5_R1_structural_rescue,negative_prototype,False,R5=1; source-recovered profile=metadata_calibrated; matched rules: none.
+R5,1142,4,Ingleside Formation,1,0,1,correct,0.0473,0.0291,R5_L3_unvalidated_flattening_correction,R5_R1_structural_rescue,negative_prototype,False,R5=1; source-recovered profile=metadata_calibrated; matched rules: none.
+R5,1145,8,Proterozoic granites,0,1,0,correct,0.0048,-0.0071,R5_L3_unvalidated_flattening_correction,R5_R1_structural_rescue,default_positive,False,R5=0; source-recovered profile=metadata_calibrated; matched rules: calibrated_metadata_zero_pair_rockunit_method_rb_sr_pmagresult_tests_ro_m.

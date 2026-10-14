@@ -1,0 +1,91 @@
+{
+  "created_at": "2026-07-11T11:53:41",
+  "method": "paper-only field recovery plus Astute-inspired source-aware conflict consolidation",
+  "inputs": {
+    "targets": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/targets.xlsx",
+    "page_cache": "outputs/r357_latest_full_07111019/r3_page_source_cache.jsonl"
+  },
+  "runtime_input_columns": [
+    "REFNO",
+    "RESULTNO",
+    "ROCKNAME"
+  ],
+  "runtime_forbidden_sources": [
+    "PMAGRESULT.xlsx",
+    "ROCKUNIT.xlsx",
+    "R3/R5/R7 labels"
+  ],
+  "prediction_rows": 3173,
+  "evaluation_loaded_after_prediction": true,
+  "evaluation": {
+    "R3": {
+      "rows": 3173,
+      "accuracy": 0.6564765206429247,
+      "macro_f1": 0.6356273298940311,
+      "f1_0": 0.5484672742336371,
+      "f1_1": 0.7227873855544252,
+      "true_positive": 1421,
+      "true_negative": 662,
+      "false_positive": 600,
+      "false_negative": 490,
+      "pred_counts": {
+        "0": 1152,
+        "1": 2021
+      },
+      "gold_counts": {
+        "0": 1262,
+        "1": 1911
+      },
+      "manual_review_rows": 1408,
+      "manual_review_rate": 0.44374409076583676,
+      "accepted_accuracy": 0.7201133144475921,
+      "error_capture_by_review": 0.5467889908256881
+    },
+    "R5": {
+      "rows": 3173,
+      "accuracy": 0.7425149700598802,
+      "macro_f1": 0.4389325277418078,
+      "f1_0": 0.026221692491060787,
+      "f1_1": 0.8516433629925548,
+      "true_positive": 2345,
+      "true_negative": 11,
+      "false_positive": 798,
+      "false_negative": 19,
+      "pred_counts": {
+        "1": 3143,
+        "0": 30
+      },
+      "gold_counts": {
+        "1": 2364,
+        "0": 809
+      },
+      "manual_review_rows": 1828,
+      "manual_review_rate": 0.5761109360226915,
+      "accepted_accuracy": 0.8223048327137547,
+      "error_capture_by_review": 0.7074663402692778
+    },
+    "R7": {
+      "rows": 3173,
+      "accuracy": 0.8430507406240151,
+      "macro_f1": 0.5091530920341447,
+      "f1_0": 0.10431654676258992,
+      "f1_1": 0.9139896373056995,
+      "true_positive": 2646,
+      "true_negative": 29,
+      "false_positive": 295,
+      "false_negative": 203,
+      "pred_counts": {
+        "1": 2941,
+        "0": 232
+      },
+      "gold_counts": {
+        "1": 2849,
+        "0": 324
+      },
+      "manual_review_rows": 2256,
+      "manual_review_rate": 0.7109990545225339,
+      "accepted_accuracy": 0.7622682660850599,
+      "error_capture_by_review": 0.5622489959839357
+    }
+  }
+}
