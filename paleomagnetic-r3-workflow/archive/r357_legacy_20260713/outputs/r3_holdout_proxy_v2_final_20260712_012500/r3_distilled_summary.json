@@ -1,0 +1,89 @@
+{
+  "criterion_practice_comparison_counts": {
+    "AGREE": 115,
+    "INCOMPLETE_NORMATIVE_CHAIN": 85,
+    "NO_PROXY_SUPPORT": 380,
+    "UNKNOWN": 120
+  },
+  "criterion_practice_conflict_rows": 85,
+  "criterion_practice_unknown_rows": 120,
+  "forbidden_runtime_scoring_sources": [
+    "PMAGRESULT",
+    "ROCKUNIT",
+    "R3/R5/R7 labels",
+    "evaluation results",
+    "prior predictions",
+    "record-level answer mappings"
+  ],
+  "inputs": {
+    "artifact": {
+      "artifact_class": "historically_supervised_distillation",
+      "content_sha256": "dcebdd761b0fec23c9568327823c16fab8cd2dcbb4acea9ae752cd1b210bc687",
+      "file_sha256": "149df539a937678c8204aa6d6e60e77bd901e4a77975d26caa5362749aa18ad4",
+      "label_supervision": true,
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/calibration/r3_rockmag_text_distillation_v1.json",
+      "schema_version": "r3_rockmag_text_distillation_v1"
+    },
+    "identity_manifest": {
+      "columns_read": [
+        "REFNO",
+        "RESULTNO",
+        "ROCKNAME"
+      ],
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r3_holdout_proxy_v2_final_20260712_012500/inputs/holdout_identity_manifest.xlsx",
+      "rows": 700,
+      "sha256": "7a4cb59836a6bb73fa6fe9bc873ce1a0145b39a5af5996b63886228f9f92f802",
+      "unique_refnos": 335
+    },
+    "page_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r3_holdout_proxy_v2_final_20260712_012500/inputs/holdout_page_cache.jsonl",
+      "sha256": "87466e2adfcfc7ca7f5920f0f6667ba91f4d90d23d4b5f6f02349634d7a78452",
+      "unique_refnos": 335
+    }
+  },
+  "normative_policy_counts": {
+    "1": 115,
+    "ABSTAIN": 585
+  },
+  "outcome_counts": {
+    "NEGATIVE": 380,
+    "POSITIVE": 200,
+    "UNKNOWN": 120
+  },
+  "output": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r3_holdout_proxy_v2_final_20260712_012500/.r3_distilled_scoring/r3_distilled_predictions.jsonl",
+    "rows": 700,
+    "sha256": "209a43d086a60db23d1e1025d7f8df16b46257f6f3669839dbfb513bf8c721e7"
+  },
+  "retrieval_policy": {
+    "per_category_limit": 12,
+    "target_scope_policy": "exclusive_scope_plus_discourse",
+    "total_limit": 30
+  },
+  "rockmag_proxy_policy_counts": {
+    "0": 380,
+    "1": 200,
+    "ABSTAIN": 120
+  },
+  "runtime_boundary": {
+    "evaluation_results_read": false,
+    "identity_cache_sets_equal": true,
+    "input_files_unchanged_during_scoring": true,
+    "labels_read": false,
+    "page_and_cache_hashes_verified": true,
+    "prior_predictions_read": false,
+    "source_metadata_tables_read": false
+  },
+  "runtime_scoring_sources": [
+    "identity manifest: REFNO/RESULTNO/ROCKNAME",
+    "original paper page text",
+    "frozen historically supervised aggregate taxonomy"
+  ],
+  "schema_version": "r3_distilled_prediction_summary_v1",
+  "score_counts": {
+    "0": 500,
+    "1": 200
+  },
+  "status": "PASS",
+  "workflow_profile": "rockmag_text_distilled_v1"
+}

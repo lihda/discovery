@@ -1,0 +1,22 @@
+{
+  "schema_version": "strict_page_cache_filter_audit_v1",
+  "status": "PASS",
+  "identity_manifest": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r3_holdout_proxy_v2_final_20260712_012500/inputs/holdout_identity_manifest.xlsx",
+    "sha256": "7a4cb59836a6bb73fa6fe9bc873ce1a0145b39a5af5996b63886228f9f92f802",
+    "unique_refnos": 335
+  },
+  "input_cache": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_proxy_v2/full_cache_holdout_mineru.jsonl",
+    "sha256": "bf10313f2116fd2b331be1e5d4ffa22e044c8565719d7c5de7ce25f41883a1dc",
+    "unique_refnos": 1627
+  },
+  "output_cache": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r3_holdout_proxy_v2_final_20260712_012500/inputs/holdout_page_cache.jsonl",
+    "sha256": "87466e2adfcfc7ca7f5920f0f6667ba91f4d90d23d4b5f6f02349634d7a78452",
+    "unique_refnos": 335
+  },
+  "ignored_extra_refnos": 1292,
+  "raw_cache_rows_preserved": true,
+  "labels_read": false
+}

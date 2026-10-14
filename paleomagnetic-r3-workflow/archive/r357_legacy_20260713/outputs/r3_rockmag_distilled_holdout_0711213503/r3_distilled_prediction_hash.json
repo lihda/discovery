@@ -1,0 +1,32 @@
+{
+  "schema_version": "r3_distilled_holdout_prediction_freeze_v1",
+  "created_at": "2026-07-11T13:35:47.917714+00:00",
+  "phase": "before_optional_label_evaluation",
+  "split": {
+    "salt": "r3-rockmag-distillation-v1",
+    "holdout_fraction": 0.2
+  },
+  "prediction": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r3_rockmag_distilled_holdout_0711213503/r3_distilled_predictions.jsonl",
+    "sha256": "0e003ca86433c2e48b71d5de67258b8603c3782c4d3b9b225673b4ef13f12496",
+    "rows": 700,
+    "outcomes": {
+      "NEGATIVE": 303,
+      "POSITIVE": 153,
+      "UNKNOWN": 244
+    }
+  },
+  "runtime_inputs": {
+    "identity_manifest_sha256": "da1b0a497f9514a39762bd237c0ebfd51b34d7d6ab4da3eda9a19fcc1d6ef139",
+    "page_cache_sha256": "e99d74059107e55afffcd9f9efdcb29f62ff4765fedc423e6eb057c1d498c21c",
+    "artifact_sha256": "33dbebdffaf935462fdc217fc1c2e0c03b0c0551928642c264eac8c3cbcd8ce6"
+  },
+  "implementation_sha256": {
+    "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/run_r3_distilled_holdout.py": "bf60e4466742bba09e4fad06bbd274b3394349ca0be87c7e3322b0b2473a08a7",
+    "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/strict_scoring_worker.py": "2642f72dc1f07607171e0c898f7e1681a36d7ca9526c8fc6e72836a863e75092",
+    "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/build_r3_distilled_predictions.py": "266ca5c8c7968d9c320e4379d695c1c6402d3410ad4ffc5655ba5d8b5ee7576b",
+    "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/r3_rockmag_distilled_reasoner.py": "9189de7db2307d7f9b98f5fc159c9b6eca932a1db03f5e532a28a6284f55538c",
+    "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/paper_text_retrieval.py": "9efc213a7468337cd7a535742a3905c94fd2f861ee2877b29b0420077f4c0f31"
+  },
+  "labels_opened": false
+}

@@ -1,0 +1,129 @@
+{
+  "schema_version": "r3_distilled_holdout_run_v1",
+  "status": "PASS",
+  "workflow_profile": "rockmag_text_distilled_v1",
+  "split": {
+    "method": "sha256_threshold_by_refno_v1",
+    "salt": "r3-rockmag-distillation-v1",
+    "holdout_fraction": 0.2,
+    "source_rows": 3173,
+    "holdout_rows": 700,
+    "holdout_refnos": 335
+  },
+  "inputs": {
+    "source_identity_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_strict_eval_07111758/inputs/identity_manifest.xlsx",
+      "sha256": "5bdb7476a5b7d61494939fc5cd7bc8fa3195ef7b032b29306f146892862b970f"
+    },
+    "source_page_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_proxy_v2/full_cache_holdout_mineru.jsonl",
+      "sha256": "bf10313f2116fd2b331be1e5d4ffa22e044c8565719d7c5de7ce25f41883a1dc"
+    },
+    "holdout_identity_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r3_holdout_proxy_v2_final_20260712_012500/inputs/holdout_identity_manifest.xlsx",
+      "sha256": "7a4cb59836a6bb73fa6fe9bc873ce1a0145b39a5af5996b63886228f9f92f802"
+    },
+    "holdout_page_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r3_holdout_proxy_v2_final_20260712_012500/inputs/holdout_page_cache.jsonl",
+      "sha256": "87466e2adfcfc7ca7f5920f0f6667ba91f4d90d23d4b5f6f02349634d7a78452",
+      "refnos": 335,
+      "pages": 4768
+    },
+    "frozen_artifact": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/calibration/r3_rockmag_text_distillation_v1.json",
+      "sha256": "149df539a937678c8204aa6d6e60e77bd901e4a77975d26caa5362749aa18ad4",
+      "schema_version": "r3_rockmag_text_distillation_v1",
+      "artifact_class": "historically_supervised_distillation"
+    }
+  },
+  "preparation_audits": {
+    "identity_split": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r3_holdout_proxy_v2_final_20260712_012500/inputs/identity_split_audit.json",
+    "page_cache_filter": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r3_holdout_proxy_v2_final_20260712_012500/inputs/page_cache_filter_audit.json"
+  },
+  "prediction": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r3_holdout_proxy_v2_final_20260712_012500/r3_distilled_predictions.jsonl",
+    "sha256": "209a43d086a60db23d1e1025d7f8df16b46257f6f3669839dbfb513bf8c721e7",
+    "rows": 700,
+    "outcomes": {
+      "NEGATIVE": 380,
+      "POSITIVE": 200,
+      "UNKNOWN": 120
+    },
+    "builder_summary": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r3_holdout_proxy_v2_final_20260712_012500/r3_distilled_summary.json",
+      "sha256": "efbc948aa1e1c00955fca8ba58a231670e6670ffbd42422846699c68cfc7ee03"
+    },
+    "hash_receipt": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r3_holdout_proxy_v2_final_20260712_012500/r3_distilled_prediction_hash.json",
+      "sha256": "c4ea777b1e558d10a232204f1dde2f719f34ebf3b122456fe4352220d18e77dd",
+      "written_before_labels_opened": true
+    }
+  },
+  "boundary_audit": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r3_holdout_proxy_v2_final_20260712_012500/scoring_boundary_audit.json",
+    "sha256": "fb52ef9cb95c43bdb9ee9d7c20d7ceed76be6d24058a61d7b7b31d06a8145b52",
+    "status": "PASS"
+  },
+  "implementation": {
+    "hash_algorithm": "SHA-256",
+    "files": {
+      "run_r3_distilled_holdout.py": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/run_r3_distilled_holdout.py",
+        "sha256": "282a9e319d3c942dc71d83bad2a08c9114e6ec81144e4855d6777e877ef8a6f6"
+      },
+      "strict_scoring_worker.py": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/strict_scoring_worker.py",
+        "sha256": "2642f72dc1f07607171e0c898f7e1681a36d7ca9526c8fc6e72836a863e75092"
+      },
+      "build_r3_distilled_predictions.py": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/build_r3_distilled_predictions.py",
+        "sha256": "86c5253a0daf537162c69239c73dc16f3f23b10039daf96dd6f21050e037c962"
+      },
+      "r3_rockmag_distilled_reasoner.py": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/r3_rockmag_distilled_reasoner.py",
+        "sha256": "22e787b76521a0866430e6fc5e202ca1e9a1a1bedb2508248ab5a96e85e56078"
+      },
+      "paper_text_retrieval.py": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/paper_text_retrieval.py",
+        "sha256": "4eaa0daab7353327e3f27bafd533530f8aed13f2b141f8c6fa26192fafc405ba"
+      },
+      "r3_carrier_claim_status.py": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/r3_carrier_claim_status.py",
+        "sha256": "d9127c59aaa69a967f246c96b6875da72206e998c972146e26e0e0b29a8eef97"
+      }
+    },
+    "unchanged_during_scoring": true
+  },
+  "scoring_contract": {
+    "allowed_runtime_data_inputs": [
+      "holdout identity manifest: REFNO/RESULTNO/ROCKNAME only",
+      "holdout original-paper page cache",
+      "pinned historically supervised aggregate artifact"
+    ],
+    "filesystem_read_guard": "enabled",
+    "network_access": "blocked",
+    "child_processes_inside_scoring": "blocked",
+    "labels_accepted_by_scoring_stage": false,
+    "source_tables_accepted_by_scoring_stage": false,
+    "previous_evaluations_accepted_by_scoring_stage": false,
+    "previous_predictions_accepted_by_scoring_stage": false,
+    "frozen_retrieval_policy": {
+      "total_limit": 30,
+      "per_category_limit": 12,
+      "target_scope_policy": "exclusive_scope_plus_discourse"
+    }
+  },
+  "evaluation": {
+    "status": "COMPLETED_POST_SCORING",
+    "labels_opened_during_scoring": false,
+    "prediction_hash_fixed_before_evaluation": true,
+    "report": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r3_holdout_proxy_v2_final_20260712_012500/evaluation/r3_distilled_holdout_evaluation.json",
+      "sha256": "4bf2422dc49a9b6e84cd170110b78e5b24f07cf60a6b3543ba3fd7cde442275e"
+    },
+    "evaluator_prediction_hash_receipt": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r3_holdout_proxy_v2_final_20260712_012500/evaluation/r3_distilled_holdout_evaluation.json.prediction_hashes.json",
+      "sha256": "3563376284b32f8d73d858b679af64bf0a935425e5e610f64d3d8b098eb59105"
+    }
+  }
+}

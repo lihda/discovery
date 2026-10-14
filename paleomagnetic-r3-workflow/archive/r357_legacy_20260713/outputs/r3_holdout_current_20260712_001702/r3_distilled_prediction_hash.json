@@ -1,0 +1,33 @@
+{
+  "schema_version": "r3_distilled_holdout_prediction_freeze_v1",
+  "created_at": "2026-07-11T16:18:28.607203+00:00",
+  "phase": "before_optional_label_evaluation",
+  "split": {
+    "salt": "r3-rockmag-distillation-v1",
+    "holdout_fraction": 0.2
+  },
+  "prediction": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r3_holdout_current_20260712_001702/r3_distilled_predictions.jsonl",
+    "sha256": "ce5023100585fa4fb405df0df96b00364a80f60848f874c39b540fda7a7b87e9",
+    "rows": 700,
+    "outcomes": {
+      "NEGATIVE": 329,
+      "POSITIVE": 127,
+      "UNKNOWN": 244
+    }
+  },
+  "runtime_inputs": {
+    "identity_manifest_sha256": "be9bf793e9628381889ef9bd82fed0eb362182f6f4b36f4049ab1d20eb4e37ef",
+    "page_cache_sha256": "e99d74059107e55afffcd9f9efdcb29f62ff4765fedc423e6eb057c1d498c21c",
+    "artifact_sha256": "33dbebdffaf935462fdc217fc1c2e0c03b0c0551928642c264eac8c3cbcd8ce6"
+  },
+  "implementation_sha256": {
+    "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/run_r3_distilled_holdout.py": "df1816408fd745dbe52491c757bf0cbbde7e035ac1d394eae563c8251b7a3b62",
+    "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/strict_scoring_worker.py": "2642f72dc1f07607171e0c898f7e1681a36d7ca9526c8fc6e72836a863e75092",
+    "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/build_r3_distilled_predictions.py": "2d66d959df7e68ca7021b8762d1be0e14b6b3c23d87369de1117d2ab2886c33d",
+    "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/r3_rockmag_distilled_reasoner.py": "32d66d2108d215cbb598d67912e12ae18284d63078abc9a826248a318358ebca",
+    "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/paper_text_retrieval.py": "ef5af76541a756d9d72721709b86db6e14ed9e1f1f723f7cdc6975aa88cc94b6",
+    "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/r3_carrier_claim_status.py": "d9127c59aaa69a967f246c96b6875da72206e998c972146e26e0e0b29a8eef97"
+  },
+  "labels_opened": false
+}

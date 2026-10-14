@@ -1,0 +1,65 @@
+{
+  "schema_version": "r3_distilled_holdout_evaluation_v1",
+  "created_at": "2026-07-11T17:23:02.271769+00:00",
+  "evaluation_contract": {
+    "indicator": "R3",
+    "prediction_receipt_persisted_before_labels_opened": true,
+    "scoring_code_called": false,
+    "record_level_answers_written": false,
+    "predictions_restricted_to_preregistered_holdout": true,
+    "prediction_files_modified": false,
+    "metric_denominators": {
+      "accuracy": "all preregistered holdout rows; compatibility values included",
+      "balanced_accuracy": "mean recall across available binary classes",
+      "coverage": "non-ABSTAIN/non-UNKNOWN predictions / holdout rows",
+      "known_accuracy": "correct non-ABSTAIN/non-UNKNOWN predictions / known rows",
+      "macro_f1": "mean F1 across available binary classes; compatibility values included"
+    }
+  },
+  "split": {
+    "method": "sha256_threshold_by_refno_v1",
+    "salt": "r3-rockmag-distillation-v1",
+    "fraction": 0.2,
+    "assignment_rule": "uint64_be(SHA256(UTF8(salt + NUL + REFNO))[0:8]) / 2^64 < fraction",
+    "all_rows": 3173,
+    "all_unique_refnos": 1627,
+    "holdout_rows": 700,
+    "holdout_unique_refnos": 335
+  },
+  "sources": {
+    "predictions": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r3_holdout_proxy_v2_no_new_mineru_20260712_012200/r3_distilled_predictions.jsonl",
+      "sha256_before_labels": "743f57b6e9e8c34d3146f07ea2982a0d4c71c316cfec3199d450e46918713ab0",
+      "sha256_after_evaluation": "743f57b6e9e8c34d3146f07ea2982a0d4c71c316cfec3199d450e46918713ab0"
+    },
+    "labels": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/targets.xlsx",
+      "sha256_before_evaluation": "378c17338f3b5cfeff3ccd496894e0f6183f747119b2624c4a9cefaeda02501e",
+      "sha256_after_evaluation": "378c17338f3b5cfeff3ccd496894e0f6183f747119b2624c4a9cefaeda02501e"
+    }
+  },
+  "prediction_hash_receipt": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r3_holdout_proxy_v2_no_new_mineru_20260712_012200/evaluation/r3_distilled_holdout_evaluation.json.prediction_hashes.json",
+    "sha256": "601b686cc09d2c9f5117c29959ff75dde8c1e52ca91f22220073c5a9efe983e7"
+  },
+  "metrics": {
+    "labelled_rows": 700,
+    "prediction_rows": 700,
+    "known_rows": 569,
+    "correct_rows": 418,
+    "known_correct_rows": 338,
+    "accuracy": 0.5971428571428572,
+    "balanced_accuracy": 0.6224722442505948,
+    "coverage": 0.8128571428571428,
+    "known_accuracy": 0.5940246045694201,
+    "macro_f1": 0.5857675261885575,
+    "f1_0": 0.6544117647058824,
+    "f1_1": 0.5171232876712328,
+    "confusion_matrix": {
+      "true_negative": 267,
+      "false_positive": 45,
+      "false_negative": 237,
+      "true_positive": 151
+    }
+  }
+}

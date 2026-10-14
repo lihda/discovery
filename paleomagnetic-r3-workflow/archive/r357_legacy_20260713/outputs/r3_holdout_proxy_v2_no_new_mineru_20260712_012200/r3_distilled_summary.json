@@ -1,0 +1,89 @@
+{
+  "criterion_practice_comparison_counts": {
+    "AGREE": 114,
+    "INCOMPLETE_NORMATIVE_CHAIN": 82,
+    "NO_PROXY_SUPPORT": 373,
+    "UNKNOWN": 131
+  },
+  "criterion_practice_conflict_rows": 82,
+  "criterion_practice_unknown_rows": 131,
+  "forbidden_runtime_scoring_sources": [
+    "PMAGRESULT",
+    "ROCKUNIT",
+    "R3/R5/R7 labels",
+    "evaluation results",
+    "prior predictions",
+    "record-level answer mappings"
+  ],
+  "inputs": {
+    "artifact": {
+      "artifact_class": "historically_supervised_distillation",
+      "content_sha256": "dcebdd761b0fec23c9568327823c16fab8cd2dcbb4acea9ae752cd1b210bc687",
+      "file_sha256": "149df539a937678c8204aa6d6e60e77bd901e4a77975d26caa5362749aa18ad4",
+      "label_supervision": true,
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/calibration/r3_rockmag_text_distillation_v1.json",
+      "schema_version": "r3_rockmag_text_distillation_v1"
+    },
+    "identity_manifest": {
+      "columns_read": [
+        "REFNO",
+        "RESULTNO",
+        "ROCKNAME"
+      ],
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r3_holdout_proxy_v2_no_new_mineru_20260712_012200/inputs/holdout_identity_manifest.xlsx",
+      "rows": 700,
+      "sha256": "b5a7df5a9d1ff55240b7763573c6d6b427a139224c86d4d9b1a2c9b27094798e",
+      "unique_refnos": 335
+    },
+    "page_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r3_holdout_proxy_v2_no_new_mineru_20260712_012200/inputs/holdout_page_cache.jsonl",
+      "sha256": "e99d74059107e55afffcd9f9efdcb29f62ff4765fedc423e6eb057c1d498c21c",
+      "unique_refnos": 335
+    }
+  },
+  "normative_policy_counts": {
+    "1": 114,
+    "ABSTAIN": 586
+  },
+  "outcome_counts": {
+    "NEGATIVE": 373,
+    "POSITIVE": 196,
+    "UNKNOWN": 131
+  },
+  "output": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r3_holdout_proxy_v2_no_new_mineru_20260712_012200/.r3_distilled_scoring/r3_distilled_predictions.jsonl",
+    "rows": 700,
+    "sha256": "743f57b6e9e8c34d3146f07ea2982a0d4c71c316cfec3199d450e46918713ab0"
+  },
+  "retrieval_policy": {
+    "per_category_limit": 12,
+    "target_scope_policy": "exclusive_scope_plus_discourse",
+    "total_limit": 30
+  },
+  "rockmag_proxy_policy_counts": {
+    "0": 373,
+    "1": 196,
+    "ABSTAIN": 131
+  },
+  "runtime_boundary": {
+    "evaluation_results_read": false,
+    "identity_cache_sets_equal": true,
+    "input_files_unchanged_during_scoring": true,
+    "labels_read": false,
+    "page_and_cache_hashes_verified": true,
+    "prior_predictions_read": false,
+    "source_metadata_tables_read": false
+  },
+  "runtime_scoring_sources": [
+    "identity manifest: REFNO/RESULTNO/ROCKNAME",
+    "original paper page text",
+    "frozen historically supervised aggregate taxonomy"
+  ],
+  "schema_version": "r3_distilled_prediction_summary_v1",
+  "score_counts": {
+    "0": 504,
+    "1": 196
+  },
+  "status": "PASS",
+  "workflow_profile": "rockmag_text_distilled_v1"
+}

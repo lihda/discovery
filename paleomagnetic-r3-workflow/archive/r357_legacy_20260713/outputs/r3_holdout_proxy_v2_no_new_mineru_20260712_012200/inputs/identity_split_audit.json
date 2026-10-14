@@ -1,0 +1,30 @@
+{
+  "schema_version": "strict_identity_refno_partition_v1",
+  "status": "PASS",
+  "partition": "holdout",
+  "split": {
+    "method": "sha256_threshold_by_refno_v1",
+    "salt": "r3-rockmag-distillation-v1",
+    "holdout_fraction": 0.2,
+    "assignment_rule": "uint64_be(SHA256(UTF8(salt + NUL + REFNO))[0:8]) / 2^64 < holdout_fraction"
+  },
+  "input": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_strict_eval_07111758/inputs/identity_manifest.xlsx",
+    "sha256": "5bdb7476a5b7d61494939fc5cd7bc8fa3195ef7b032b29306f146892862b970f",
+    "rows": 3173,
+    "unique_refnos": 1627
+  },
+  "output": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r3_holdout_proxy_v2_no_new_mineru_20260712_012200/inputs/holdout_identity_manifest.xlsx",
+    "sha256": "b5a7df5a9d1ff55240b7763573c6d6b427a139224c86d4d9b1a2c9b27094798e",
+    "rows": 700,
+    "unique_refnos": 335
+  },
+  "labels_read": false,
+  "source_tables_read": false,
+  "output_columns": [
+    "REFNO",
+    "RESULTNO",
+    "ROCKNAME"
+  ]
+}
