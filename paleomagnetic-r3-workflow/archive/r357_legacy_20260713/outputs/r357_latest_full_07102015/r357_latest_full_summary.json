@@ -1,0 +1,86 @@
+{
+  "workflow": "latest R357 full workflow from SKILL public entrypoint",
+  "timestamp": "07102015",
+  "run_dir": "outputs/r357_latest_full_07102015",
+  "inputs": {
+    "targets": "data/targetsall.xlsx",
+    "parsed_dir": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/parsed_mds",
+    "pdf_dir": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs",
+    "rockunit": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/source_metadata/ROCKUNIT.xlsx",
+    "pmagresult": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/source_metadata/PMAGRESULT.xlsx"
+  },
+  "r3_source_mode": "fresh",
+  "r3_policy": "metadata_v1",
+  "r3_extracts_used": "outputs/r357_latest_full_07102015/r3_structured_extract_from_page_cache.jsonl",
+  "r3_page_cache_used": "outputs/r357_latest_full_07102015/r3_page_source_cache.jsonl",
+  "total_review_html": {
+    "indicators": [
+      "R1",
+      "R2",
+      "R4",
+      "R6"
+    ],
+    "combined_indicators": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6",
+      "R7"
+    ],
+    "html": "outputs/r1234567_07102015.html",
+    "summary": "outputs/r357_latest_full_07102015/r1234567_total_review_summary.json"
+  },
+  "indicators": {
+    "R3": {
+      "workbook": "outputs/r3_07102015_unlabeled.xlsx",
+      "html": "outputs/r3_07102015_unlabeled.html",
+      "rows": 7250,
+      "labelled_rows": 0,
+      "correct": 0,
+      "accuracy": null,
+      "score_counts": {
+        "0": 4258,
+        "1": 2992
+      },
+      "true_positive": 0,
+      "true_negative": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "R5": {
+      "workbook": "outputs/r5_07102015_unlabeled.xlsx",
+      "html": "outputs/r5_07102015_unlabeled.html",
+      "rows": 7250,
+      "labelled_rows": 0,
+      "correct": 0,
+      "accuracy": null,
+      "score_counts": {
+        "0": 887,
+        "1": 6363
+      },
+      "true_positive": 0,
+      "true_negative": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    },
+    "R7": {
+      "workbook": "outputs/r7_07102015_unlabeled.xlsx",
+      "html": "outputs/r7_07102015_unlabeled.html",
+      "rows": 7250,
+      "labelled_rows": 0,
+      "correct": 0,
+      "accuracy": null,
+      "score_counts": {
+        "0": 74,
+        "1": 7176
+      },
+      "true_positive": 0,
+      "true_negative": 0,
+      "false_positive": 0,
+      "false_negative": 0
+    }
+  },
+  "boundary": "No previous final workbook or benchmark label table is used as a scoring input. Accuracy is computed only after final workbooks are produced. R1/R2/R4/R6 are direct table calculations from PMAGRESULT and ROCKUNIT, rendered with numeric evidence in the R1-R7 total HTML."
+}

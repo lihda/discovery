@@ -1,0 +1,68 @@
+{
+  "schema_version": "r357_strict_knowledge_workflow_v2",
+  "status": "PASS",
+  "workflow_profile": "knowledge_strict",
+  "rows": 3173,
+  "inputs": {
+    "identity_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_strict_eval_07111758/inputs/identity_manifest.xlsx",
+      "sha256": "5bdb7476a5b7d61494939fc5cd7bc8fa3195ef7b032b29306f146892862b970f"
+    },
+    "page_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_strict_eval_07111758/inputs/page_cache.jsonl",
+      "sha256": "cd01aeea9402f3e0f1d7858a070f45817c874ca8775b55436e5609d7e5040b92",
+      "refnos": 1627,
+      "pages": 23858
+    },
+    "knowledge_base": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/knowledge/r357_expert_kb_v1.json",
+      "sha256": "7893d97f701f17b872f26aa16b292251fed319e07a44cc3dec02c5f34a3ee91a"
+    },
+    "criterion_spec": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/knowledge/r357_criterion_spec_v2.json",
+      "sha256": "9c8b8674c8f81c8a963a4789d887e3d56e8edfad2274ccdab6bd173ea893dc06",
+      "spec_version": "r357_criterion_spec_v2",
+      "source_sha256": "8433f968a4658118dc43a060114b8d2a6a0ca0cbf6ed82ee006d924d970b18e5"
+    }
+  },
+  "predictions": {
+    "R3": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_strict_v2_07111923/r3_predictions.jsonl",
+      "sha256": "dc048e3dbd0b430a67cfe26faf2194adad4761133c37faff88b646fb565b4887"
+    },
+    "R5": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_strict_v2_07111923/r5_predictions.xlsx",
+      "sha256": "034598146c49493847791e5091496b7b50197022e801646579d92909e8c89f5c"
+    },
+    "R7": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_strict_v2_07111923/r7_predictions.xlsx",
+      "sha256": "9ce1f3e21855f0d19442b2718987df26b59c5b980e55e4cd78789bbb21fb3356"
+    }
+  },
+  "boundary_audit": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_strict_v2_07111923/scoring_boundary_audit.json",
+    "status": "PASS"
+  },
+  "scoring_contract": {
+    "allowed_runtime_data_inputs": [
+      "identity manifest: REFNO/RESULTNO/ROCKNAME only",
+      "original-paper page cache",
+      "frozen expert knowledge base",
+      "frozen normative criterion specification"
+    ],
+    "criterion_spec_required": true,
+    "criterion_spec_validator": "scripts.criterion_spec.load_criterion_spec",
+    "filesystem_read_guard": "enabled",
+    "indicator_process_isolation": "separate empty write roots",
+    "network_access": "blocked",
+    "child_processes_inside_scoring": "blocked",
+    "labels_accepted_by_this_command": false,
+    "source_tables_accepted_by_this_command": false,
+    "previous_predictions_accepted_by_this_command": false
+  },
+  "evaluation": {
+    "status": "NOT_RUN",
+    "reason": "Evaluation is a separate post-prediction command and cannot feed values back into this scoring run.",
+    "command": "scripts/evaluate_r357_strict_predictions.py"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-07-05T14:39:21",
+  "rows": 7250,
+  "unique_refnos": 3383,
+  "unique_resultnos": 7250,
+  "inputs": {
+    "targets": "data/targetsall_with_pdfs.xlsx",
+    "pmagresult": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/source_metadata/PMAGRESULT.xlsx",
+    "rockunit": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/source_metadata/ROCKUNIT.xlsx",
+    "r3": "outputs/r3_07051428_unlabeled.xlsx",
+    "r5": "outputs/r5_07051428_unlabeled.xlsx",
+    "r7": "outputs/r7_07051428_unlabeled.xlsx"
+  },
+  "score_counts": {
+    "R1": {
+      "0": 828,
+      "1": 6422
+    },
+    "R2": {
+      "0": 5556,
+      "1": 1694
+    },
+    "R3": {
+      "0": 4258,
+      "1": 2992
+    },
+    "R4": {
+      "0": 5695,
+      "1": 1555
+    },
+    "R5": {
+      "0": 887,
+      "1": 6363
+    },
+    "R6": {
+      "0": 6312,
+      "1": 938
+    },
+    "R7": {
+      "0": 74,
+      "1": 7176
+    }
+  },
+  "manual_review_any": 327
+}

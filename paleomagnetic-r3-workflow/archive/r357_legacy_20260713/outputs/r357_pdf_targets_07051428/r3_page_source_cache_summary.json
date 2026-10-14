@@ -1,0 +1,25 @@
+{
+  "targets": "data/targetsall_with_pdfs.xlsx",
+  "unique_refnos": 3383,
+  "total_pages": 47563,
+  "source_kind_counts": {
+    "missing": 102,
+    "parsed_text": 223,
+    "pdfplumber": 52,
+    "pypdf": 3006
+  },
+  "source_quality_flag_counts": {
+    "glyph_or_cid_text": 1,
+    "no_extractable_text": 102,
+    "no_parsed_text": 3094,
+    "none": 288,
+    "possibly_incomplete_extraction": 30,
+    "short_text": 189
+  },
+  "output": "outputs/r357_pdf_targets_07051428/r3_page_source_cache.jsonl",
+  "workers": 8,
+  "pdfplumber_mode": "fallback",
+  "pdftotext_mode": "never",
+  "pdftotext_available": false,
+  "label_exclusion": "Only REFNO is read from the target workbook."
+}
