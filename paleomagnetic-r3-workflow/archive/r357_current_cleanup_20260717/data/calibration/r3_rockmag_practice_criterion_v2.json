@@ -1,0 +1,218 @@
+{
+  "schema_version": "r3_calibrated_practice_criterion_schema_v2",
+  "criterion_version": "r3_rockmag_practice_criterion_v2",
+  "indicator": "R3",
+  "criterion_type": "historical_rockmag_compatibility",
+  "status": "development_frozen",
+  "title": {
+    "en": "Calibrated ROCKMAG-equivalent practice criterion for R3",
+    "zh": "R3 的校准 ROCKMAG 等价实践判据"
+  },
+  "provenance": {
+    "derivation": {
+      "en": "The normative R3 source, the label-independent ROCKMAG practice criterion, aggregate ROCKMAG terminology, and REFNO-grouped development results were used to calibrate a historical-label compatibility policy.",
+      "zh": "使用规范 R3 原文、标签无关的 ROCKMAG 实践判据、ROCKMAG 聚合术语以及按 REFNO 分组的开发结果，校准历史标签兼容策略。"
+    },
+    "label_supervision": true,
+    "rockmag_field_supervision": true,
+    "evaluation_results_used": true,
+    "contains_record_identifiers": false,
+    "contains_record_answer_mapping": false,
+    "contains_raw_rockmag_values": false,
+    "contains_source_paper_quotes": false,
+    "independent_external_validation": false
+  },
+  "source_basis": [
+    {
+      "basis_id": "R3.BASIS.NORMATIVE.V2",
+      "repository_path": "data/knowledge/r357_criterion_spec_v2.json",
+      "sha256": "9c8b8674c8f81c8a963a4789d887e3d56e8edfad2274ccdab6bd173ea893dc06",
+      "role": "scientific_normative_head"
+    },
+    {
+      "basis_id": "R3.BASIS.PRACTICE.V1",
+      "repository_path": "data/knowledge/r3_rockmag_practice_criterion_v1.json",
+      "sha256": "b06a81dac44ebe5a8c7439dc87d4bda9d29d514e35afb527ba7da7dbf38357db",
+      "role": "label_independent_practice_semantics"
+    },
+    {
+      "basis_id": "R3.BASIS.DISTILLATION.V1",
+      "repository_path": "data/calibration/r3_rockmag_text_distillation_v1.json",
+      "sha256": "149df539a937678c8204aa6d6e60e77bd901e4a77975d26caa5362749aa18ad4",
+      "role": "historically_supervised_aggregate_terminology"
+    },
+    {
+      "basis_id": "R3.BASIS.POSITIVE_KB.V2",
+      "repository_path": "data/calibration/r3_positive_rockmag_expert_kb_v2.json",
+      "sha256": "b0fc28866fe6702938a7cc02fcf7b87b68abc9e3b4e391a53a53de1615b5e9ef",
+      "role": "positive_rockmag_semantic_families"
+    }
+  ],
+  "semantic_revision": {
+    "previous_requirement": {
+      "operator": "all",
+      "facets": [
+        "eligible_characterization_method",
+        "carrier_identification",
+        "remanence_significance_interpretation"
+      ]
+    },
+    "revised_requirement": {
+      "operator": "any",
+      "routes": [
+        "performed_eligible_characterization",
+        "self_authenticating_diagnostic_result",
+        "explicit_carrier_attribution"
+      ]
+    },
+    "not_required_for_historical_practice_positive": [
+      "explicit_carrier_identification_after_every_method",
+      "explicit_remanence_significance_interpretation"
+    ],
+    "statement": {
+      "en": "Historical R3 compatibility asks whether the original paper contains an attributable episode that could reasonably populate a ROCKMAG description, rather than requiring the complete normative scientific chain.",
+      "zh": "历史 R3 兼容性判断关注原文中是否存在可合理形成 ROCKMAG 描述的可归属片段，而不再强制完整的规范科学证据链。"
+    }
+  },
+  "evidence_routes": [
+    {
+      "route_id": "R3.PRACTICE.ROUTE.PERFORMED_METHOD",
+      "requires_all": [
+        "original_paper_context",
+        "eligible_method_family",
+        "performed_or_reported_context",
+        "scope_attributable"
+      ],
+      "examples_of_families": [
+        "IRM_or_SIRM_acquisition",
+        "thermomagnetic_or_Js_T_curve",
+        "temperature_dependent_susceptibility",
+        "three_axis_or_low_temperature_IRM",
+        "hysteresis_FORC_or_coercivity",
+        "petrography_or_microanalysis",
+        "mineral_phase_analysis"
+      ]
+    },
+    {
+      "route_id": "R3.PRACTICE.ROUTE.SELF_AUTHENTICATING_RESULT",
+      "requires_all": [
+        "original_paper_context",
+        "diagnostic_result_entails_measurement",
+        "scope_attributable"
+      ],
+      "examples": [
+        "saturation_or_non_saturation_field",
+        "Curie_or_transition_temperature",
+        "coercivity_or_hysteresis_parameter",
+        "domain_state_or_grain_size_result",
+        "mineral_transition_or_phase_result"
+      ]
+    },
+    {
+      "route_id": "R3.PRACTICE.ROUTE.CARRIER_ATTRIBUTION",
+      "requires_all": [
+        "original_paper_context",
+        "carrier_explicitly_linked_to_remanence_or_component",
+        "scope_attributable"
+      ],
+      "examples": [
+        "component_carried_by_hematite",
+        "remanence_resides_in_magnetite",
+        "magnetization_attributed_to_titanomagnetite"
+      ]
+    }
+  ],
+  "exclusions": [
+    "reference_or_bibliography_only",
+    "citation_only_or_external_study",
+    "negated_hypothetical_future_or_recommended_method",
+    "ordinary_demagnetization_temperature_interval_without_independent_characterization",
+    "bare_SUSC_code_without_measurement_context",
+    "bare_AN_code_without_unambiguous_fabric_measurement",
+    "bare_mineral_name_without_method_diagnostic_or_remanence_attribution"
+  ],
+  "scope_policy": {
+    "resolution_order": [
+      "target_bound_episode",
+      "explicit_shared_sample_episode",
+      "single_target_paper_episode"
+    ],
+    "single_target_paper": "paper-level eligible evidence is attributable to the only target",
+    "multi_target_paper": "paper-level propagation is forbidden unless a shared sample scope is explicit",
+    "ambiguous_scope": "ABSTAIN"
+  },
+  "decision_policy": {
+    "model_output": "historical_practice_probability",
+    "full_coverage_reference_threshold": 0.5,
+    "selective_policy": {
+      "DOES_NOT_MEET_PRACTICE_PROXY": {
+        "maximum_probability": 0.3
+      },
+      "MEETS_PRACTICE_PROXY": {
+        "minimum_probability": 0.7
+      },
+      "ABSTAIN": {
+        "minimum_exclusive_probability": 0.3,
+        "maximum_exclusive_probability": 0.7
+      },
+      "SKIP_NO_SOURCE": "original PDF unavailable"
+    },
+    "probability_contract": {
+      "required_range": [0.0, 1.0],
+      "required_training_isolation": "REFNO_grouped",
+      "required_runtime_inputs": [
+        "identity_manifest_REFNO_RESULTNO_ROCKNAME",
+        "original_paper_text",
+        "frozen_expert_knowledge",
+        "frozen_model_package"
+      ]
+    }
+  },
+  "dual_head_conflict_policy": {
+    "normative_head": "complete scientific R3 evidence chain",
+    "historical_practice_head": "this calibrated ROCKMAG-equivalent criterion",
+    "practice_positive_normative_incomplete": "HISTORICAL_PRACTICE_POSITIVE_NORMATIVE_CHAIN_INCOMPLETE",
+    "practice_negative_normative_positive": "HISTORICAL_PRACTICE_NEGATIVE_NORMATIVE_CONFLICT",
+    "either_head_abstains": "UNRESOLVED"
+  },
+  "development_evidence": {
+    "report_path": "tmp/r3_all_labelled_pdf_grouped_oof_v1/single_target_selective_policy_report.json",
+    "report_sha256": "84456259be64c5f95431de2a18dd0467f4e170fddea9c4f8994579783a1f73bf",
+    "scope": "872 PDF-backed single-target papers",
+    "full_coverage_accuracy_at_0_5": 0.87958716,
+    "selective_decided_rows": 722,
+    "selective_abstained_rows": 150,
+    "selective_coverage": 0.82798165,
+    "selective_decided_accuracy": 0.9265928,
+    "fold_decided_accuracy": [
+      0.92907801,
+      0.9025974,
+      0.9109589,
+      0.95774648,
+      0.9352518
+    ],
+    "claim_boundary": "development grouped OOF; coverage must accompany accuracy; external validation required"
+  },
+  "runtime_policy": {
+    "allowed_sources": [
+      "identity_manifest_REFNO_RESULTNO_ROCKNAME",
+      "original_paper_text",
+      "frozen_expert_knowledge",
+      "this_calibrated_criterion",
+      "frozen_model_package"
+    ],
+    "forbidden_sources": [
+      "PMAGRESULT_at_runtime",
+      "row_ROCKMAG_at_runtime",
+      "R3_labels_at_runtime",
+      "prior_predictions_at_runtime",
+      "evaluation_results_at_runtime",
+      "record_answer_mappings"
+    ],
+    "offline_only_supervision": [
+      "historical_R3_labels",
+      "historical_ROCKMAG_field_presence_and_aggregate_semantics"
+    ],
+    "requires_model_package_before_deployment": true
+  }
+}

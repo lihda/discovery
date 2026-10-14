@@ -1,0 +1,503 @@
+{
+  "schema_version": "r357_three_version_ablation_report_v1",
+  "generated_at": "2026-07-11T11:57:20Z",
+  "comparison_type": "internal_three_version_ablation",
+  "metric_semantics": {
+    "accuracy": "correct binary output rows / matched labelled rows; UNKNOWN-compatible binary defaults remain in this denominator",
+    "coverage": "non-UNKNOWN matched rows / labelled rows",
+    "known_accuracy": "correct non-UNKNOWN rows / non-UNKNOWN matched rows",
+    "f1_0": "F1 for the conflict/fail class 0 over matched binary output rows",
+    "missing_value_encoding": "A missing metric is null and its explanation is stored in missing_reasons."
+  },
+  "shared_evaluation_frame": {
+    "identity_manifest_sha256": "5bdb7476a5b7d61494939fc5cd7bc8fa3195ef7b032b29306f146892862b970f",
+    "page_cache_sha256": "cd01aeea9402f3e0f1d7858a070f45817c874ca8775b55436e5609d7e5040b92",
+    "page_cache_refnos": 1627,
+    "page_cache_pages": 23858,
+    "label_artifact_sha256": "378c17338f3b5cfeff3ccd496894e0f6183f747119b2624c4a9cefaeda02501e",
+    "full_rows_per_indicator": 3173,
+    "fixed_refno_holdout": {
+      "method": "sha256_threshold_by_refno_v1",
+      "salt": "r357-strict-refno-holdout-v1",
+      "fraction": 0.2,
+      "all_unique_refnos": 1627,
+      "holdout_unique_refnos": 280,
+      "holdout_rows_per_indicator": 692
+    }
+  },
+  "versions": [
+    {
+      "version_id": "strict_v1_07111758",
+      "run_directory": "outputs/r357_strict_eval_07111758",
+      "artifacts": {
+        "manifest": {
+          "path": "outputs/r357_strict_eval_07111758/scoring/strict_run_manifest.json",
+          "sha256": "8fa76e3b37034d114f469ddbf839ae9183109bd8b85296004805c48e2bb7b975",
+          "schema_version": "r357_strict_knowledge_workflow_v1"
+        },
+        "evaluation": {
+          "path": "outputs/r357_strict_eval_07111758/posthoc_evaluation.json",
+          "sha256": "e298cf24f374ba50623ba7c1ba860c40c0efefc0c35eb2ac66d8d9a7772a0676",
+          "created_at": "2026-07-11T10:13:38.338255+00:00"
+        },
+        "boundary_audit": {
+          "path": "outputs/r357_strict_eval_07111758/scoring/scoring_boundary_audit.json",
+          "sha256": "80b94ad214d67f46fdaad5373de8dc5f0b64f3c2f35ce70a049f22198e754420",
+          "status": "PASS",
+          "violations": 0
+        }
+      },
+      "input_boundary": {
+        "status": "PASS",
+        "allowed_runtime_data_inputs": [
+          "identity manifest: REFNO/RESULTNO/ROCKNAME only",
+          "original-paper page cache",
+          "frozen expert knowledge base"
+        ],
+        "identity_manifest_sha256": "5bdb7476a5b7d61494939fc5cd7bc8fa3195ef7b032b29306f146892862b970f",
+        "page_cache_sha256": "cd01aeea9402f3e0f1d7858a070f45817c874ca8775b55436e5609d7e5040b92",
+        "filesystem_read_guard": "enabled",
+        "network_access": "blocked",
+        "labels_accepted_by_scoring": false,
+        "source_tables_accepted_by_scoring": false,
+        "previous_predictions_accepted_by_scoring": false,
+        "posthoc_evaluation_called_scoring_code": false,
+        "prediction_files_modified_by_evaluation": false
+      },
+      "criterion": {
+        "runtime_spec_present": false,
+        "spec_version": null,
+        "spec_sha256": null,
+        "source_sha256": null,
+        "missing_reason": "The v1 scoring manifest did not declare a separately validated criterion specification as a runtime knowledge input."
+      },
+      "knowledge_base": {
+        "artifact_path": "data/knowledge/r357_expert_kb_v1.json",
+        "sha256": "ad0b6e7d276b0bac3988c510517f708708f073f7cc48ebabc363d8e5e09d7853",
+        "kb_version": null,
+        "kb_version_missing_reason": "The historical KB bytes were not snapshotted and the current mutable path has a different SHA256; the manifest records no internal kb_version."
+      },
+      "prediction_hash_receipt": {
+        "path": "outputs/r357_strict_eval_07111758/posthoc_evaluation.json.prediction_hashes.json",
+        "sha256": "a42444242a03f3f817dda56dffd3bca93a4d9afee41a668a535977df51406afa",
+        "recorded_before_labels_opened": true,
+        "unchanged_after_evaluation": true
+      },
+      "prediction_sha256": {
+        "R3": "570481f11c2ebc511db37089b94cafeaf989e0eccb90a3e982d566496354fbad",
+        "R5": "3fed2f62478decbb44684f461c64a9d59e8be96d169ee0a3a3cb4c6293f5cabd",
+        "R7": "a16b432e03ddcf4ab8616e4dc6134a4606091f63c8d85af643e35b59bfae8d74"
+      },
+      "metrics": {
+        "full": {
+          "R3": {
+            "accuracy": 0.6668767727702489,
+            "coverage": 0.5795776867317995,
+            "known_accuracy": 0.7014681892332789,
+            "f1_0": 0.5117782909930716,
+            "labelled_rows": 3173,
+            "known_rows": 1839,
+            "missing_reasons": {}
+          },
+          "R5": {
+            "accuracy": 0.745036243302868,
+            "coverage": 0.15222187204538293,
+            "known_accuracy": 0.7184265010351967,
+            "f1_0": 0.0,
+            "labelled_rows": 3173,
+            "known_rows": 483,
+            "missing_reasons": {}
+          },
+          "R7": {
+            "accuracy": 0.8868578632209265,
+            "coverage": 0.07942010715411282,
+            "known_accuracy": 0.7301587301587301,
+            "f1_0": 0.052770448548812667,
+            "labelled_rows": 3173,
+            "known_rows": 252,
+            "missing_reasons": {}
+          }
+        },
+        "fixed_refno_holdout": {
+          "R3": {
+            "accuracy": 0.6690751445086706,
+            "coverage": 0.5072254335260116,
+            "known_accuracy": 0.7094017094017094,
+            "f1_0": 0.525879917184265,
+            "labelled_rows": 692,
+            "known_rows": 351,
+            "missing_reasons": {}
+          },
+          "R5": {
+            "accuracy": 0.6459537572254336,
+            "coverage": 0.12138728323699421,
+            "known_accuracy": 0.7380952380952381,
+            "f1_0": 0.0,
+            "labelled_rows": 692,
+            "known_rows": 84,
+            "missing_reasons": {}
+          },
+          "R7": {
+            "accuracy": 0.8916184971098265,
+            "coverage": 0.06358381502890173,
+            "known_accuracy": 0.7045454545454546,
+            "f1_0": 0.025974025974025976,
+            "labelled_rows": 692,
+            "known_rows": 44,
+            "missing_reasons": {}
+          }
+        }
+      }
+    },
+    {
+      "version_id": "strict_v2_07111923",
+      "run_directory": "outputs/r357_strict_v2_07111923",
+      "artifacts": {
+        "manifest": {
+          "path": "outputs/r357_strict_v2_07111923/strict_run_manifest.json",
+          "sha256": "c3280dd51abbf6ff9a81c5f136f4ca5ee9347d368c6fd4b7c943ce7ff2dfdcbd",
+          "schema_version": "r357_strict_knowledge_workflow_v2"
+        },
+        "evaluation": {
+          "path": "outputs/r357_strict_v2_07111923/posthoc_internal_evaluation.json",
+          "sha256": "d6ac5f1566743bdf708dad3c4cc57cffb73a1f89c7f5e341616c60cabfc43c04",
+          "created_at": "2026-07-11T11:33:37.512149+00:00"
+        },
+        "boundary_audit": {
+          "path": "outputs/r357_strict_v2_07111923/scoring_boundary_audit.json",
+          "sha256": "56be5f887d958d7b97ca1fe53b65be42ec6325c66f67fa92ea98fbc9614471f1",
+          "status": "PASS",
+          "violations": 0
+        }
+      },
+      "input_boundary": {
+        "status": "PASS",
+        "allowed_runtime_data_inputs": [
+          "identity manifest: REFNO/RESULTNO/ROCKNAME only",
+          "original-paper page cache",
+          "frozen expert knowledge base",
+          "frozen normative criterion specification"
+        ],
+        "identity_manifest_sha256": "5bdb7476a5b7d61494939fc5cd7bc8fa3195ef7b032b29306f146892862b970f",
+        "page_cache_sha256": "cd01aeea9402f3e0f1d7858a070f45817c874ca8775b55436e5609d7e5040b92",
+        "filesystem_read_guard": "enabled",
+        "network_access": "blocked",
+        "labels_accepted_by_scoring": false,
+        "source_tables_accepted_by_scoring": false,
+        "previous_predictions_accepted_by_scoring": false,
+        "posthoc_evaluation_called_scoring_code": false,
+        "prediction_files_modified_by_evaluation": false
+      },
+      "criterion": {
+        "runtime_spec_present": true,
+        "spec_version": "r357_criterion_spec_v2",
+        "artifact_path": "data/knowledge/r357_criterion_spec_v2.json",
+        "spec_sha256": "9c8b8674c8f81c8a963a4789d887e3d56e8edfad2274ccdab6bd173ea893dc06",
+        "source_sha256": "8433f968a4658118dc43a060114b8d2a6a0ca0cbf6ed82ee006d924d970b18e5",
+        "validation_required_by_runner": true
+      },
+      "knowledge_base": {
+        "artifact_path": "data/knowledge/r357_expert_kb_v1.json",
+        "sha256": "7893d97f701f17b872f26aa16b292251fed319e07a44cc3dec02c5f34a3ee91a",
+        "kb_version": null,
+        "kb_version_missing_reason": "The historical KB bytes were not snapshotted and the current mutable path has a different SHA256; the manifest records no internal kb_version."
+      },
+      "prediction_hash_receipt": {
+        "path": "outputs/r357_strict_v2_07111923/posthoc_internal_evaluation.json.prediction_hashes.json",
+        "sha256": "363a72b11b0748f4adfb9fb4bf0a67fed2e64bd2926be08f432326b84935ade6",
+        "recorded_before_labels_opened": true,
+        "unchanged_after_evaluation": true
+      },
+      "prediction_sha256": {
+        "R3": "dc048e3dbd0b430a67cfe26faf2194adad4761133c37faff88b646fb565b4887",
+        "R5": "034598146c49493847791e5091496b7b50197022e801646579d92909e8c89f5c",
+        "R7": "9ce1f3e21855f0d19442b2718987df26b59c5b980e55e4cd78789bbb21fb3356"
+      },
+      "metrics": {
+        "full": {
+          "R3": {
+            "accuracy": 0.6552158840214308,
+            "coverage": 0.454144342893161,
+            "known_accuracy": 0.7453157529493407,
+            "f1_0": 0.5986793837123991,
+            "labelled_rows": 3173,
+            "known_rows": 1441,
+            "missing_reasons": {}
+          },
+          "R5": {
+            "accuracy": 0.7425149700598802,
+            "coverage": 0.008509297195083518,
+            "known_accuracy": 0.37037037037037035,
+            "f1_0": 0.02155688622754491,
+            "labelled_rows": 3173,
+            "known_rows": 27,
+            "missing_reasons": {}
+          },
+          "R7": {
+            "accuracy": 0.8824456350456981,
+            "coverage": 0.018909549322407817,
+            "known_accuracy": 0.16666666666666666,
+            "f1_0": 0.06982543640897755,
+            "labelled_rows": 3173,
+            "known_rows": 60,
+            "missing_reasons": {}
+          }
+        },
+        "fixed_refno_holdout": {
+          "R3": {
+            "accuracy": 0.6257225433526011,
+            "coverage": 0.40173410404624277,
+            "known_accuracy": 0.7338129496402878,
+            "f1_0": 0.5557461406518011,
+            "labelled_rows": 692,
+            "known_rows": 278,
+            "missing_reasons": {}
+          },
+          "R5": {
+            "accuracy": 0.6416184971098265,
+            "coverage": 0.005780346820809248,
+            "known_accuracy": 0.0,
+            "f1_0": 0.0,
+            "labelled_rows": 692,
+            "known_rows": 4,
+            "missing_reasons": {}
+          },
+          "R7": {
+            "accuracy": 0.8872832369942196,
+            "coverage": 0.015895953757225433,
+            "known_accuracy": 0.09090909090909091,
+            "f1_0": 0.09302325581395349,
+            "labelled_rows": 692,
+            "known_rows": 11,
+            "missing_reasons": {}
+          }
+        }
+      }
+    },
+    {
+      "version_id": "strict_v2_1_07111943",
+      "run_directory": "outputs/r357_strict_v21_07111943",
+      "artifacts": {
+        "manifest": {
+          "path": "outputs/r357_strict_v21_07111943/strict_run_manifest.json",
+          "sha256": "f9e331fbeb0e8c513d45253f814e3b002231fb72ff172481c1a2b26abca650d6",
+          "schema_version": "r357_strict_knowledge_workflow_v2"
+        },
+        "evaluation": {
+          "path": "outputs/r357_strict_v21_07111943/posthoc_internal_evaluation.json",
+          "sha256": "c4a4c6cb93f6d6584816864323de5f9a88e922d365a115608f9443ceacc30994",
+          "created_at": "2026-07-11T11:54:01.615911+00:00"
+        },
+        "boundary_audit": {
+          "path": "outputs/r357_strict_v21_07111943/scoring_boundary_audit.json",
+          "sha256": "fa11687e6c25987a913cda22aac3a1f8f6f17fcc045b5939cc874fc8982e8075",
+          "status": "PASS",
+          "violations": 0
+        }
+      },
+      "input_boundary": {
+        "status": "PASS",
+        "allowed_runtime_data_inputs": [
+          "identity manifest: REFNO/RESULTNO/ROCKNAME only",
+          "original-paper page cache",
+          "frozen expert knowledge base",
+          "frozen normative criterion specification"
+        ],
+        "identity_manifest_sha256": "5bdb7476a5b7d61494939fc5cd7bc8fa3195ef7b032b29306f146892862b970f",
+        "page_cache_sha256": "cd01aeea9402f3e0f1d7858a070f45817c874ca8775b55436e5609d7e5040b92",
+        "filesystem_read_guard": "enabled",
+        "network_access": "blocked",
+        "labels_accepted_by_scoring": false,
+        "source_tables_accepted_by_scoring": false,
+        "previous_predictions_accepted_by_scoring": false,
+        "posthoc_evaluation_called_scoring_code": false,
+        "prediction_files_modified_by_evaluation": false
+      },
+      "criterion": {
+        "runtime_spec_present": true,
+        "spec_version": "r357_criterion_spec_v2",
+        "artifact_path": "data/knowledge/r357_criterion_spec_v2.json",
+        "spec_sha256": "9c8b8674c8f81c8a963a4789d887e3d56e8edfad2274ccdab6bd173ea893dc06",
+        "source_sha256": "8433f968a4658118dc43a060114b8d2a6a0ca0cbf6ed82ee006d924d970b18e5",
+        "validation_required_by_runner": true
+      },
+      "knowledge_base": {
+        "artifact_path": "data/knowledge/r357_expert_kb_v1.json",
+        "sha256": "16a0a1ee22d5035aed6cdc0c4b8cdfd2712bc3398c0d3a9baa3609d76721f280",
+        "kb_version": "r357_expert_kb_v1.3",
+        "schema_version": "1.3",
+        "metadata_read_basis": "Current artifact bytes matched the manifest SHA256 at report generation time.",
+        "criterion_spec_version_declared_by_kb": "r357_criterion_spec_v2",
+        "criterion_source_sha256_declared_by_kb": "8433f968a4658118dc43a060114b8d2a6a0ca0cbf6ed82ee006d924d970b18e5",
+        "label_supervision": false,
+        "contains_row_answer_mapping": false
+      },
+      "prediction_hash_receipt": {
+        "path": "outputs/r357_strict_v21_07111943/posthoc_internal_evaluation.json.prediction_hashes.json",
+        "sha256": "0ea9cc4f6b1ad948261837ccd7039ad0d1f8b4c4a97cefb8987d8a9d3d8413d7",
+        "recorded_before_labels_opened": true,
+        "unchanged_after_evaluation": true
+      },
+      "prediction_sha256": {
+        "R3": "9e5bc6028c79bb7843c442fb5c1d2551b2293a07adde0f8aea4eb1cb612301e7",
+        "R5": "7b9e64ac9f3350b944e93bdb6173663918f323ef17df17c88574bad8b1f14793",
+        "R7": "f62ffe683601e89891fbd9c36ed95107a35ee01557f44185b3482ab2b174821a"
+      },
+      "metrics": {
+        "full": {
+          "R3": {
+            "accuracy": 0.6205483769303498,
+            "coverage": 0.454144342893161,
+            "known_accuracy": 0.7453157529493407,
+            "f1_0": 0.5978623914495658,
+            "labelled_rows": 3173,
+            "known_rows": 1441,
+            "missing_reasons": {}
+          },
+          "R5": {
+            "accuracy": 0.744405924992121,
+            "coverage": 0.0040970690198550265,
+            "known_accuracy": 0.38461538461538464,
+            "f1_0": 0.009768009768009768,
+            "labelled_rows": 3173,
+            "known_rows": 13,
+            "missing_reasons": {}
+          },
+          "R7": {
+            "accuracy": 0.8972581153482508,
+            "coverage": 0.0012606366214938543,
+            "known_accuracy": 0.25,
+            "f1_0": 0.006097560975609756,
+            "labelled_rows": 3173,
+            "known_rows": 4,
+            "missing_reasons": {}
+          }
+        },
+        "fixed_refno_holdout": {
+          "R3": {
+            "accuracy": 0.5534682080924855,
+            "coverage": 0.40173410404624277,
+            "known_accuracy": 0.7338129496402878,
+            "f1_0": 0.5367316341829086,
+            "labelled_rows": 692,
+            "known_rows": 278,
+            "missing_reasons": {}
+          },
+          "R5": {
+            "accuracy": 0.6459537572254336,
+            "coverage": 0.001445086705202312,
+            "known_accuracy": 0.0,
+            "f1_0": 0.0,
+            "labelled_rows": 692,
+            "known_rows": 1,
+            "missing_reasons": {}
+          },
+          "R7": {
+            "accuracy": 0.9075144508670521,
+            "coverage": 0.0,
+            "known_accuracy": null,
+            "f1_0": 0.0,
+            "labelled_rows": 692,
+            "known_rows": 0,
+            "missing_reasons": {
+              "known_accuracy": "Undefined because known_rows is 0 in the fixed REFNO holdout."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "caveats": [
+    {
+      "code": "INTERNAL_ITERATION_NOT_EXTERNAL_VALIDATION",
+      "applies_to": [
+        "strict_v2_07111923",
+        "strict_v2_1_07111943"
+      ],
+      "text": "These runs were evaluated after the v1 results had been inspected; they are internal iteration comparisons, not fresh external validation."
+    },
+    {
+      "code": "FIXED_HOLDOUT_REUSED",
+      "applies_to": [
+        "strict_v1_07111758",
+        "strict_v2_07111923",
+        "strict_v2_1_07111943"
+      ],
+      "text": "The same deterministic REFNO holdout is reused in all three reports. This supports direct comparison but does not create a new untouched holdout for v2 or v2.1."
+    },
+    {
+      "code": "NOT_A_SINGLE_FACTOR_ABLATION",
+      "applies_to": [
+        "strict_v1_07111758",
+        "strict_v2_07111923",
+        "strict_v2_1_07111943"
+      ],
+      "text": "The expert KB SHA256 changes in every version, and v1 lacks the separate criterion-spec input. Observed metric changes cannot be attributed to one rule or to criterion formalization alone."
+    },
+    {
+      "code": "ACCURACY_REQUIRES_COVERAGE_AND_CLASS_ZERO_CONTEXT",
+      "applies_to": [
+        "strict_v1_07111758",
+        "strict_v2_07111923",
+        "strict_v2_1_07111943"
+      ],
+      "text": "Accuracy includes UNKNOWN-compatible binary defaults and is class-imbalanced. Coverage, known_accuracy, known_rows, and F1(0) must be inspected with it."
+    },
+    {
+      "code": "HISTORICAL_KB_BYTES_NOT_SNAPSHOTTED",
+      "applies_to": [
+        "strict_v1_07111758",
+        "strict_v2_07111923"
+      ],
+      "text": "The manifests pin historical KB hashes, but those exact KB bytes are not present at the mutable artifact path; internal KB version metadata therefore remains null rather than inferred."
+    }
+  ],
+  "conclusion": {
+    "status": "NO_CONFIGURATION_DEMONSTRATES_BALANCED_90_PERCENT_PER_INDICATOR",
+    "robust_90_percent_goal_met": false,
+    "machine_readable_findings": [
+      {
+        "code": "R3_CONFLICT_F1_IMPROVED_IN_V2",
+        "scope": "full",
+        "indicator": "R3",
+        "baseline_version": "strict_v1_07111758",
+        "selected_version": "strict_v2_07111923",
+        "baseline_f1_0": 0.5117782909930716,
+        "selected_f1_0": 0.5986793837123991,
+        "selected_accuracy": 0.6552158840214308,
+        "selected_coverage": 0.454144342893161,
+        "interpretation": "Minority conflict recognition improved, while full accuracy and coverage declined relative to v1."
+      },
+      {
+        "code": "R5_R7_V2_COVERAGE_COLLAPSE",
+        "scope": "fixed_refno_holdout",
+        "version": "strict_v2_07111923",
+        "R5_coverage": 0.005780346820809248,
+        "R7_coverage": 0.015895953757225433,
+        "interpretation": "Small F1(0) changes are supported by too few non-UNKNOWN decisions to establish practical reliability."
+      },
+      {
+        "code": "R7_V21_HOLDOUT_ACCURACY_IS_NOT_BALANCED_SUCCESS",
+        "scope": "fixed_refno_holdout",
+        "version": "strict_v2_1_07111943",
+        "indicator": "R7",
+        "accuracy": 0.9075144508670521,
+        "coverage": 0.0,
+        "known_accuracy": null,
+        "known_rows": 0,
+        "f1_0": 0.0,
+        "interpretation": "The only observed accuracy above 0.90 coincides with zero known coverage and zero class-0 F1, so it is not evidence that the requested practical target was achieved."
+      },
+      {
+        "code": "BEST_FULL_R7_ACCURACY_REMAINS_BELOW_90",
+        "scope": "full",
+        "version": "strict_v2_1_07111943",
+        "indicator": "R7",
+        "accuracy": 0.8972581153482508,
+        "coverage": 0.0012606366214938543,
+        "known_rows": 4
+      }
+    ],
+    "recommended_interpretation": "Treat v2 criterion formalization and defeasible conflict gates as an auditable method contribution, but report current predictive results as a precision/coverage trade-off requiring a new untouched external test and materially higher R5/R7 evidence coverage."
+  }
+}

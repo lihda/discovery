@@ -1,0 +1,382 @@
+{
+  "schema_version": "r3_trace_page_graph_concepts_v3",
+  "status": "FROZEN_WITHOUT_LABEL_ACCESS",
+  "criterion": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/knowledge/r357_criterion_spec_v2.json",
+    "sha256": "9c8b8674c8f81c8a963a4789d887e3d56e8edfad2274ccdab6bd173ea893dc06",
+    "spec_version": "r357_criterion_spec_v2"
+  },
+  "normative_concepts": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/knowledge/r3_trace_normative_concepts_v1.json",
+    "sha256": "15db6b879b2740c1f6fe12e3064ac04379055464819cce092d767847f5210057",
+    "schema_version": "r3_trace_normative_concepts_v1"
+  },
+  "concepts": [
+    {
+      "concept_id": "unblocking_or_coercivity_spectrum",
+      "category": "method",
+      "source_refs": [
+        "R3_CRITERION_ATTACHMENT"
+      ],
+      "search_patterns": [
+        "unblocking(?:[- ]temperature)?\\s+(?:spectra|spectrum|distribution)",
+        "coerciv(?:ity|e)\\s+(?:spectra|spectrum|distribution)"
+      ]
+    },
+    {
+      "concept_id": "irm_experiment",
+      "category": "method",
+      "source_refs": [
+        "R3_CRITERION_ATTACHMENT"
+      ],
+      "search_patterns": [
+        "\\bS?IRM\\b",
+        "isothermal\\s+remanent\\s+magneti[sz]ation",
+        "(?:IRM|remanence)\\s+acquisition"
+      ]
+    },
+    {
+      "concept_id": "three_axis_irm",
+      "category": "method",
+      "source_refs": [
+        "R3_CRITERION_ATTACHMENT"
+      ],
+      "search_patterns": [
+        "(?:three|3)[- ]axis(?:\\s+IRM)?",
+        "\\bLowrie(?:[- ]Fuller)?\\b"
+      ]
+    },
+    {
+      "concept_id": "low_temperature_irm",
+      "category": "method",
+      "source_refs": [
+        "R3_CRITERION_ATTACHMENT"
+      ],
+      "search_patterns": [
+        "low[- ]temperature.{0,100}(?:IRM|isothermal\\s+remanent)",
+        "(?:IRM|isothermal\\s+remanent).{0,100}low[- ]temperature"
+      ]
+    },
+    {
+      "concept_id": "temperature_susceptibility",
+      "category": "method",
+      "source_refs": [
+        "R3_CRITERION_ATTACHMENT"
+      ],
+      "search_patterns": [
+        "susceptibility.{0,80}temperature",
+        "temperature.{0,80}susceptibility",
+        "\\b(?:kappa|chi)[- ]?T\\b"
+      ]
+    },
+    {
+      "concept_id": "thermomagnetic_experiment",
+      "category": "method",
+      "source_refs": [
+        "DUNLOP_OZDEMIR_1997",
+        "TAUXE_ET_AL_2018"
+      ],
+      "search_patterns": [
+        "thermo[- ]?magnetic",
+        "\\bJ(?:s|rs)[- ]?\\(?T\\)?\\b"
+      ]
+    },
+    {
+      "concept_id": "hysteresis_experiment",
+      "category": "method",
+      "source_refs": [
+        "R3_CRITERION_ATTACHMENT"
+      ],
+      "search_patterns": [
+        "hystere(?:sis|tic)"
+      ]
+    },
+    {
+      "concept_id": "day_plot",
+      "category": "method",
+      "source_refs": [
+        "R3_CRITERION_ATTACHMENT"
+      ],
+      "search_patterns": [
+        "\\bDay(?:'s)?\\s+(?:plot|diagram)"
+      ]
+    },
+    {
+      "concept_id": "forc_experiment",
+      "category": "method",
+      "source_refs": [
+        "R3_CRITERION_ATTACHMENT"
+      ],
+      "search_patterns": [
+        "\\bFORC(?:s)?\\b",
+        "first[- ]order\\s+reversal\\s+curves?"
+      ]
+    },
+    {
+      "concept_id": "ams_experiment",
+      "category": "method",
+      "source_refs": [
+        "R3_CRITERION_ATTACHMENT"
+      ],
+      "search_patterns": [
+        "\\bAMS\\b",
+        "anisotropy\\s+of\\s+magnetic\\s+susceptibility"
+      ]
+    },
+    {
+      "concept_id": "air_experiment",
+      "category": "method",
+      "source_refs": [
+        "R3_CRITERION_ATTACHMENT"
+      ],
+      "search_patterns": [
+        "\\bAIR\\b",
+        "anisotropy\\s+of\\s+isothermal\\s+remanence"
+      ]
+    },
+    {
+      "concept_id": "aar_experiment",
+      "category": "method",
+      "source_refs": [
+        "R3_CRITERION_ATTACHMENT"
+      ],
+      "search_patterns": [
+        "\\bAAR\\b",
+        "anisotropy\\s+of\\s+anhysteretic\\s+remanence"
+      ]
+    },
+    {
+      "concept_id": "reflected_light_petrography",
+      "category": "method",
+      "source_refs": [
+        "R3_CRITERION_ATTACHMENT"
+      ],
+      "search_patterns": [
+        "reflected[- ]light",
+        "ore\\s+microscop",
+        "polished\\s+thin\\s+sections?",
+        "petrographic\\s+(?:examination|investigation|study|analysis)"
+      ]
+    },
+    {
+      "concept_id": "scanning_electron_microscopy",
+      "category": "method",
+      "source_refs": [
+        "R3_CRITERION_ATTACHMENT"
+      ],
+      "search_patterns": [
+        "scanning\\s+electron\\s+microscop",
+        "\\bSEM\\b.{0,80}(?:image|micrograph|microscop|analysis|observ)"
+      ]
+    },
+    {
+      "concept_id": "transmission_electron_microscopy",
+      "category": "method",
+      "source_refs": [
+        "R3_CRITERION_ATTACHMENT"
+      ],
+      "search_patterns": [
+        "transmission\\s+electron\\s+microscop",
+        "\\bTEM\\b.{0,80}(?:image|micrograph|microscop|analysis|observ)"
+      ]
+    },
+    {
+      "concept_id": "mineral_separation",
+      "category": "method",
+      "source_refs": [
+        "R3_CRITERION_ATTACHMENT"
+      ],
+      "search_patterns": [
+        "mineral\\s+separation",
+        "magnetic\\s+(?:extract|separate)",
+        "separat(?:e|ed|ion).{0,60}magnetic\\s+minerals?"
+      ]
+    },
+    {
+      "concept_id": "saturation_behavior",
+      "category": "diagnostic",
+      "source_refs": [
+        "DUNLOP_OZDEMIR_1997",
+        "TAUXE_ET_AL_2018"
+      ],
+      "search_patterns": [
+        "(?:not|never|fail(?:s|ed)?\\s+to)\\s+(?:fully\\s+)?saturat",
+        "saturat(?:e|ed|es|ion).{0,50}(?:mT|T\\b|kOe|Oe)"
+      ]
+    },
+    {
+      "concept_id": "curie_temperature",
+      "category": "diagnostic",
+      "source_refs": [
+        "DUNLOP_OZDEMIR_1997",
+        "TAUXE_ET_AL_2018"
+      ],
+      "search_patterns": [
+        "Curie\\s+(?:point|temperature)s?.{0,50}(?:[0-9]|magnetite|hematite)",
+        "(?:[0-9]{2,4}\\s*(?:degrees?\\s*)?[CK]).{0,45}Curie"
+      ]
+    },
+    {
+      "concept_id": "domain_state",
+      "category": "diagnostic",
+      "source_refs": [
+        "R3_CRITERION_ATTACHMENT",
+        "DUNLOP_OZDEMIR_1997"
+      ],
+      "search_patterns": [
+        "single[- ]domain",
+        "pseudo[- ]single[- ]domain",
+        "multi[- ]domain",
+        "\\b(?:SD|PSD|MD)\\b.{0,35}(?:domain|grain|particle|region|field)"
+      ]
+    },
+    {
+      "concept_id": "coercivity_or_hysteresis_ratio",
+      "category": "diagnostic",
+      "source_refs": [
+        "DUNLOP_OZDEMIR_1997",
+        "TAUXE_ET_AL_2018"
+      ],
+      "search_patterns": [
+        "\\b(?:Hcr|Bcr)\\s*/\\s*(?:Hc|Bc)\\b",
+        "\\b(?:Mrs|Jrs)\\s*/\\s*(?:Ms|Js)\\b",
+        "\\b(?:Hc|Hcr|Bc|Bcr|Ms|Mrs|Js|Jrs)\\b\\s*(?:=|:)\\s*[0-9]"
+      ]
+    },
+    {
+      "concept_id": "low_temperature_transition",
+      "category": "diagnostic",
+      "source_refs": [
+        "DUNLOP_OZDEMIR_1997",
+        "TAUXE_ET_AL_2018"
+      ],
+      "search_patterns": [
+        "(?:Verwey|Morin)\\s+transition",
+        "low[- ]temperature\\s+(?:transition|behavior|behaviour)"
+      ]
+    },
+    {
+      "concept_id": "magnetite_family",
+      "category": "carrier",
+      "source_refs": [
+        "DUNLOP_OZDEMIR_1997",
+        "TAUXE_ET_AL_2018"
+      ],
+      "search_patterns": [
+        "\\b(?:titano[- ]?magnetite|magnetite|ulvospinel)\\b"
+      ]
+    },
+    {
+      "concept_id": "hematite_family",
+      "category": "carrier",
+      "source_refs": [
+        "DUNLOP_OZDEMIR_1997",
+        "TAUXE_ET_AL_2018"
+      ],
+      "search_patterns": [
+        "\\b(?:hematite|haematite|specularite|martite)\\b"
+      ]
+    },
+    {
+      "concept_id": "maghemite",
+      "category": "carrier",
+      "source_refs": [
+        "DUNLOP_OZDEMIR_1997",
+        "TAUXE_ET_AL_2018"
+      ],
+      "search_patterns": [
+        "\\b(?:titano[- ]?maghemite|maghemite)\\b"
+      ]
+    },
+    {
+      "concept_id": "goethite",
+      "category": "carrier",
+      "source_refs": [
+        "DUNLOP_OZDEMIR_1997",
+        "TAUXE_ET_AL_2018"
+      ],
+      "search_patterns": [
+        "\\bgoethite\\b"
+      ]
+    },
+    {
+      "concept_id": "iron_sulfide_carrier",
+      "category": "carrier",
+      "source_refs": [
+        "DUNLOP_OZDEMIR_1997",
+        "TAUXE_ET_AL_2018"
+      ],
+      "search_patterns": [
+        "\\b(?:pyrrhotite|greigite|iron\\s+sulphide|iron\\s+sulfide)\\b"
+      ]
+    },
+    {
+      "concept_id": "iron_titanium_oxide",
+      "category": "carrier",
+      "source_refs": [
+        "DUNLOP_OZDEMIR_1997",
+        "TAUXE_ET_AL_2018"
+      ],
+      "search_patterns": [
+        "\\b(?:ilmenite|ilmeno[- ]?hematite|Fe[- ]?Ti\\s+oxides?)\\b"
+      ]
+    },
+    {
+      "concept_id": "generic_remanence_carrier",
+      "category": "carrier",
+      "source_refs": [
+        "R3_CRITERION_ATTACHMENT"
+      ],
+      "search_patterns": [
+        "(?:magnetic|remanence)\\s+carriers?",
+        "minerals?\\s+(?:responsible\\s+for|carrying|holding)\\s+(?:the\\s+)?(?:remanence|magneti[sz]ation)"
+      ]
+    },
+    {
+      "concept_id": "explicit_carrier_relation",
+      "category": "bridge",
+      "source_refs": [
+        "R3_CRITERION_ATTACHMENT"
+      ],
+      "search_patterns": [
+        "(?:remanence|remanent\\s+magneti[sz]ation|magnetic\\s+component|\\bChRM\\b).{0,120}(?:carried\\s+by|hosted\\s+by|resides?\\s+in|attributed\\s+to|due\\s+to|associated\\s+with)",
+        "(?:magnetic|remanence)\\s+carriers?.{0,100}(?:of|for|responsible\\s+for|carry|hold).{0,80}(?:remanence|magneti[sz]ation|component|\\bChRM\\b)"
+      ]
+    },
+    {
+      "concept_id": "mineral_to_remanence_relation",
+      "category": "bridge",
+      "source_refs": [
+        "R3_CRITERION_ATTACHMENT",
+        "DUNLOP_OZDEMIR_1997",
+        "TAUXE_ET_AL_2018"
+      ],
+      "search_patterns": [
+        "(?:magnetite|titano[- ]?magnetite|hematite|haematite|maghemite|pyrrhotite|greigite|goethite).{0,120}(?:carrier|carry|carries|carried|host|hosts|holding).{0,80}(?:remanence|magneti[sz]ation|component|\\bChRM\\b)",
+        "(?:remanence|magneti[sz]ation|component|\\bChRM\\b).{0,120}(?:carried\\s+by|hosted\\s+by|resides?\\s+in|attributed\\s+to|due\\s+to).{0,80}(?:magnetite|titano[- ]?magnetite|hematite|haematite|maghemite|pyrrhotite|greigite|goethite)"
+      ]
+    },
+    {
+      "concept_id": "carrier_origin_significance",
+      "category": "bridge",
+      "source_refs": [
+        "R3_CRITERION_ATTACHMENT"
+      ],
+      "search_patterns": [
+        "(?:magnetic\\s+carrier|remanence\\s+carrier|magnetite|titano[- ]?magnetite|hematite|haematite|maghemite|pyrrhotite|greigite).{0,180}(?:primary|secondary|detrital|chemical|authigenic|overprint|remagneti[sz](?:ed|ation)|alteration|inclination\\s+shallowing)",
+        "(?:primary|secondary|detrital|chemical|authigenic|overprint|remagneti[sz](?:ed|ation)|alteration|inclination\\s+shallowing).{0,180}(?:magnetic\\s+carrier|remanence\\s+carrier|magnetite|titano[- ]?magnetite|hematite|haematite|maghemite|pyrrhotite|greigite)"
+      ]
+    },
+    {
+      "concept_id": "explicit_inconclusive_carrier_attempt",
+      "category": "bridge",
+      "source_refs": [
+        "R3_CRITERION_ATTACHMENT"
+      ],
+      "search_patterns": [
+        "(?:rock[- ]magnetic|petrographic|microscopic|mineralogical).{0,160}(?:could\\s+not|unable\\s+to|failed\\s+to).{0,80}(?:identify|determine|resolve).{0,60}(?:carrier|magnetic\\s+mineral)",
+        "(?:carrier|magnetic\\s+mineral).{0,100}(?:remains?|remained|was|were).{0,40}(?:uncertain|unresolved|unidentified|inconclusive)"
+      ]
+    }
+  ]
+}

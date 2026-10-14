@@ -1,0 +1,6 @@
+# Optional development-only dependencies for frozen NLI criterion experiments.
+# Keep these outside the strict label-free scoring runtime unless the frozen
+# semantic model is explicitly deployed and audited.
+torch==2.7.1
+transformers==4.52.4
+sentencepiece==0.2.0

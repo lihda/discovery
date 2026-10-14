@@ -1,0 +1,1371 @@
+{
+  "schema_version": "r3_layout_pilot_manifest_v1",
+  "status": "FROZEN_WITHOUT_LABEL_ACCESS",
+  "identity_fields": [
+    "REFNO",
+    "RESULTNO",
+    "ROCKNAME"
+  ],
+  "selection_rule": {
+    "id": "identity_row_count_gte_8_and_unique_local_pdf_v1",
+    "grouping_key": "REFNO",
+    "minimum_identity_rows_inclusive": 8,
+    "pdf_match": "one top-level regular file whose exact filename stem equals REFNO and whose suffix case-folds to .pdf",
+    "ambiguous_pdf_policy": "fail_closed",
+    "missing_pdf_policy": "exclude_and_audit",
+    "row_order": "original identity workbook order",
+    "label_free": true
+  },
+  "selection_rule_sha256": "5a7ef4a38ebf6d033d97cf16f18af3184006d8e817b6aa1f082839ec64242f0d",
+  "selection_sha256": "b471545c312c00a7023b931e692fd4d4b991c92eb2d03c3a0bbd52b530a6bad5",
+  "selected_rows_sha256": "ff788decc538db4f1eb2d57a6874bcd1376966bd5084c6b7f13b659240ea1d33",
+  "selected_pdf_set_sha256": "71ed4c33268160868c7abad895e8f839b109533b1ecd632464b13d3a8e3e2538",
+  "inputs": {
+    "identity": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_strict_eval_07111758/inputs/identity_manifest.xlsx",
+      "sha256": "5bdb7476a5b7d61494939fc5cd7bc8fa3195ef7b032b29306f146892862b970f"
+    },
+    "pdf_directory": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs",
+      "top_level_pdf_files": 3500,
+      "membership_sha256": "7a5f64d16a2f51614337d39a850ec8220607bb8dbc3bd9a7f5e253e7f5ac3d4c"
+    }
+  },
+  "runtime_boundary": {
+    "identity_columns_read": [
+      "REFNO",
+      "RESULTNO",
+      "ROCKNAME"
+    ],
+    "labels_read": false,
+    "pmagresult_or_rockmag_read": false,
+    "prior_predictions_read": false,
+    "evaluation_results_read": false,
+    "source_text_read": false,
+    "pdf_content_used_only_for_sha256": true
+  },
+  "audit": {
+    "identity_rows": 3173,
+    "identity_papers": 1627,
+    "eligible_by_row_count_rows": 371,
+    "eligible_by_row_count_papers": 25,
+    "selected_rows": 222,
+    "selected_papers": 18,
+    "selected_row_count_minimum": 8,
+    "selected_row_count_maximum": 24,
+    "excluded_below_threshold_rows": 2802,
+    "excluded_below_threshold_papers": 1602,
+    "excluded_missing_pdf_rows": 149,
+    "excluded_missing_pdf_papers": 7,
+    "excluded_missing_pdf_refnos": [
+      "2568",
+      "3037",
+      "3040",
+      "3041",
+      "3045",
+      "3057",
+      "3519"
+    ],
+    "ambiguous_pdf_papers": 0,
+    "output_identity_fields": [
+      "REFNO",
+      "RESULTNO",
+      "ROCKNAME"
+    ],
+    "forbidden_sources_read": []
+  },
+  "papers": [
+    {
+      "REFNO": "1162",
+      "identity_row_count": 9,
+      "pdf": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/1162.pdf",
+        "name": "1162.pdf",
+        "size_bytes": 1682630,
+        "sha256": "be4efc4a6eb1681ec62c968b237c16d8d06fe3c7c5dd717bc0d59440886480dc"
+      }
+    },
+    {
+      "REFNO": "1769",
+      "identity_row_count": 11,
+      "pdf": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/1769.pdf",
+        "name": "1769.pdf",
+        "size_bytes": 6837005,
+        "sha256": "96ec579d50e8b44111dc33415be3046aadd6fb48bc3f351091396c96db4b5418"
+      }
+    },
+    {
+      "REFNO": "2245",
+      "identity_row_count": 10,
+      "pdf": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/2245.pdf",
+        "name": "2245.pdf",
+        "size_bytes": 3342642,
+        "sha256": "318ae8847b9a17f3ddad0b53291cb86c4661655bfb9e817217c5a633e59f3b7d"
+      }
+    },
+    {
+      "REFNO": "2850",
+      "identity_row_count": 24,
+      "pdf": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/2850.pdf",
+        "name": "2850.pdf",
+        "size_bytes": 2487976,
+        "sha256": "5c3429b3690d8402b866c24284c88f3c0d00d610ad9e0d425b1a5e4b2343429f"
+      }
+    },
+    {
+      "REFNO": "3193",
+      "identity_row_count": 12,
+      "pdf": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/3193.pdf",
+        "name": "3193.pdf",
+        "size_bytes": 1388270,
+        "sha256": "c12e5a2bf2a534fc5ed3b985991ea5842ab79fa6fa58eaf91cebc87972f917b9"
+      }
+    },
+    {
+      "REFNO": "3404",
+      "identity_row_count": 16,
+      "pdf": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/3404.pdf",
+        "name": "3404.pdf",
+        "size_bytes": 551836,
+        "sha256": "5d8e7a0b385242ccefcebd1d9a898a1660cc9979afdc3eadcafbe81237a742f0"
+      }
+    },
+    {
+      "REFNO": "3434",
+      "identity_row_count": 22,
+      "pdf": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/3434.pdf",
+        "name": "3434.pdf",
+        "size_bytes": 1700180,
+        "sha256": "4b6d31ced8508c60987538cb31cc7bedb4c81d9700f3d2f8e489decf2ff86822"
+      }
+    },
+    {
+      "REFNO": "3453",
+      "identity_row_count": 10,
+      "pdf": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/3453.pdf",
+        "name": "3453.pdf",
+        "size_bytes": 921257,
+        "sha256": "65487067db0d89030b6426c85f702aa2113988874a54e2ac0291a8c8367ef89b"
+      }
+    },
+    {
+      "REFNO": "3456",
+      "identity_row_count": 19,
+      "pdf": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/3456.pdf",
+        "name": "3456.pdf",
+        "size_bytes": 1387984,
+        "sha256": "1fd2511ee4f81485e70dcaee9dfd0cc1e6818d7ab28dac1daaea6ea13e5f859e"
+      }
+    },
+    {
+      "REFNO": "3463",
+      "identity_row_count": 8,
+      "pdf": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/3463.pdf",
+        "name": "3463.pdf",
+        "size_bytes": 3562757,
+        "sha256": "e4d30aad86306d6296ba7a2845ddd80a3e785c93a50cf3df22ba2ba018a151c0"
+      }
+    },
+    {
+      "REFNO": "3476",
+      "identity_row_count": 10,
+      "pdf": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/3476.pdf",
+        "name": "3476.pdf",
+        "size_bytes": 289707,
+        "sha256": "e19f95a69f8f46b99c0beb8162f14ee4f38683b4661f56a7a282bb9481915a40"
+      }
+    },
+    {
+      "REFNO": "3486",
+      "identity_row_count": 18,
+      "pdf": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/3486.pdf",
+        "name": "3486.pdf",
+        "size_bytes": 1513401,
+        "sha256": "539d287e2ed0d68f739426de9df4b0551d613ca6ea0b1512551b974d347daeb7"
+      }
+    },
+    {
+      "REFNO": "3556",
+      "identity_row_count": 11,
+      "pdf": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/3556.pdf",
+        "name": "3556.pdf",
+        "size_bytes": 1088445,
+        "sha256": "813435a52e4d623e2938c43bc0ede84e361dd70cfd48c0c502f7b97f87a252f2"
+      }
+    },
+    {
+      "REFNO": "3579",
+      "identity_row_count": 8,
+      "pdf": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/3579.pdf",
+        "name": "3579.pdf",
+        "size_bytes": 1275630,
+        "sha256": "8ab7c12cea30678b6b5616067d90767c38b662163981ed0fb488ec4202d8c9dd"
+      }
+    },
+    {
+      "REFNO": "3580",
+      "identity_row_count": 8,
+      "pdf": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/3580.pdf",
+        "name": "3580.pdf",
+        "size_bytes": 1438950,
+        "sha256": "e790b207c5a097afd1162f4e14986e56c314704878d424713de83098bf111f65"
+      }
+    },
+    {
+      "REFNO": "3673",
+      "identity_row_count": 8,
+      "pdf": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/3673.pdf",
+        "name": "3673.pdf",
+        "size_bytes": 663467,
+        "sha256": "970ef79afd54c5de045c20975307006ffe4e5d5ad0bfd6c279363efcadee07eb"
+      }
+    },
+    {
+      "REFNO": "3694",
+      "identity_row_count": 10,
+      "pdf": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/3694.pdf",
+        "name": "3694.pdf",
+        "size_bytes": 1354079,
+        "sha256": "14a2d7fca6b488315110b9dce3a3dcaca59d470a772ae5a1776cad15d39020b7"
+      }
+    },
+    {
+      "REFNO": "4168",
+      "identity_row_count": 8,
+      "pdf": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/4168.pdf",
+        "name": "4168.pdf",
+        "size_bytes": 18080858,
+        "sha256": "5d1b14a2fc051a08ebe29528e1a9f33a0538389d7f6894e39ad450a88a26537a"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "REFNO": "1162",
+      "RESULTNO": "54",
+      "ROCKNAME": "Spilites de Paimpol"
+    },
+    {
+      "REFNO": "1162",
+      "RESULTNO": "55",
+      "ROCKNAME": "Microgranite dykes"
+    },
+    {
+      "REFNO": "1162",
+      "RESULTNO": "56",
+      "ROCKNAME": "Diorite de St.Quay"
+    },
+    {
+      "REFNO": "1162",
+      "RESULTNO": "57",
+      "ROCKNAME": "Diorite de St.Quay"
+    },
+    {
+      "REFNO": "1162",
+      "RESULTNO": "58",
+      "ROCKNAME": "Gabbro de Keralain"
+    },
+    {
+      "REFNO": "1162",
+      "RESULTNO": "59",
+      "ROCKNAME": "Gabbro de Keralain"
+    },
+    {
+      "REFNO": "1162",
+      "RESULTNO": "60",
+      "ROCKNAME": "Granite de Porz-Scarff"
+    },
+    {
+      "REFNO": "1162",
+      "RESULTNO": "61",
+      "ROCKNAME": "Rhyolites"
+    },
+    {
+      "REFNO": "1162",
+      "RESULTNO": "62",
+      "ROCKNAME": "Rhyolites"
+    },
+    {
+      "REFNO": "1769",
+      "RESULTNO": "1401",
+      "ROCKNAME": "Basal Lake Frome Group"
+    },
+    {
+      "REFNO": "1769",
+      "RESULTNO": "1402",
+      "ROCKNAME": "Hawker Group"
+    },
+    {
+      "REFNO": "1769",
+      "RESULTNO": "1403",
+      "ROCKNAME": "Billy Creek Formation, Aroona Creek and Wirrealpa Limestone"
+    },
+    {
+      "REFNO": "1769",
+      "RESULTNO": "1404",
+      "ROCKNAME": "Cambrian sediments, Flinders Ranges"
+    },
+    {
+      "REFNO": "1769",
+      "RESULTNO": "1405",
+      "ROCKNAME": "Lower Cambrian sediments, Kangaroo Island"
+    },
+    {
+      "REFNO": "1769",
+      "RESULTNO": "1406",
+      "ROCKNAME": "Lower Cambrian sediments, Kangaroo Island"
+    },
+    {
+      "REFNO": "1769",
+      "RESULTNO": "1407",
+      "ROCKNAME": "Pertaoorta Group, Areyonga Gorge"
+    },
+    {
+      "REFNO": "1769",
+      "RESULTNO": "1408",
+      "ROCKNAME": "Pertaoorta Group, Areyonga Gorge"
+    },
+    {
+      "REFNO": "1769",
+      "RESULTNO": "1409",
+      "ROCKNAME": "Pertaoorta Group, Areyonga Gorge"
+    },
+    {
+      "REFNO": "1769",
+      "RESULTNO": "1410",
+      "ROCKNAME": "Giles Creek dolomite, Ross River"
+    },
+    {
+      "REFNO": "2245",
+      "RESULTNO": "2230",
+      "ROCKNAME": "Sudbury Eruptive"
+    },
+    {
+      "REFNO": "2245",
+      "RESULTNO": "5880",
+      "ROCKNAME": "Sudbury Eruptive"
+    },
+    {
+      "REFNO": "2245",
+      "RESULTNO": "5881",
+      "ROCKNAME": "Sudbury Eruptive"
+    },
+    {
+      "REFNO": "2245",
+      "RESULTNO": "5882",
+      "ROCKNAME": "Sudbury Eruptive"
+    },
+    {
+      "REFNO": "2245",
+      "RESULTNO": "5883",
+      "ROCKNAME": "Sudbury Eruptive"
+    },
+    {
+      "REFNO": "2245",
+      "RESULTNO": "5884",
+      "ROCKNAME": "Sudbury Eruptive"
+    },
+    {
+      "REFNO": "2245",
+      "RESULTNO": "5885",
+      "ROCKNAME": "Sudbury Eruptive"
+    },
+    {
+      "REFNO": "2245",
+      "RESULTNO": "5886",
+      "ROCKNAME": "Sudbury Eruptive"
+    },
+    {
+      "REFNO": "2245",
+      "RESULTNO": "5887",
+      "ROCKNAME": "Sudbury Eruptive"
+    },
+    {
+      "REFNO": "2245",
+      "RESULTNO": "5888",
+      "ROCKNAME": "Sudbury Eruptive"
+    },
+    {
+      "REFNO": "2850",
+      "RESULTNO": "7404",
+      "ROCKNAME": "Kolvitza porphyrites"
+    },
+    {
+      "REFNO": "2850",
+      "RESULTNO": "7410",
+      "ROCKNAME": "Voche-Lambina Metamorphic Rocks"
+    },
+    {
+      "REFNO": "2850",
+      "RESULTNO": "7411",
+      "ROCKNAME": "Voche-Lambina Metamorphic Rocks"
+    },
+    {
+      "REFNO": "2850",
+      "RESULTNO": "7416",
+      "ROCKNAME": "Matozero Dykes"
+    },
+    {
+      "REFNO": "2850",
+      "RESULTNO": "7417",
+      "ROCKNAME": "Matozero Baked Schists"
+    },
+    {
+      "REFNO": "2850",
+      "RESULTNO": "7418",
+      "ROCKNAME": "Matozero Sill"
+    },
+    {
+      "REFNO": "2850",
+      "RESULTNO": "7419",
+      "ROCKNAME": "Matozero Host Schists"
+    },
+    {
+      "REFNO": "2850",
+      "RESULTNO": "7420",
+      "ROCKNAME": "Matozero Rocks"
+    },
+    {
+      "REFNO": "2850",
+      "RESULTNO": "7422",
+      "ROCKNAME": "Dolerite Dykes, Moncha Pluton"
+    },
+    {
+      "REFNO": "2850",
+      "RESULTNO": "7423",
+      "ROCKNAME": "Pyroxenites, Moncha Pluton"
+    },
+    {
+      "REFNO": "2850",
+      "RESULTNO": "7424",
+      "ROCKNAME": "Main Range Gabbro-Diabases"
+    },
+    {
+      "REFNO": "2850",
+      "RESULTNO": "7425",
+      "ROCKNAME": "Burakovka Intrusion (Burakovka Block)"
+    },
+    {
+      "REFNO": "2850",
+      "RESULTNO": "7426",
+      "ROCKNAME": "Burakovka Intrusion (Aganozero Block)"
+    },
+    {
+      "REFNO": "2850",
+      "RESULTNO": "7427",
+      "ROCKNAME": "Hautavaara Gabbro and Andesite"
+    },
+    {
+      "REFNO": "3193",
+      "RESULTNO": "8283",
+      "ROCKNAME": "Central Gneiss Belt, Grenville Province"
+    },
+    {
+      "REFNO": "3193",
+      "RESULTNO": "8284",
+      "ROCKNAME": "Central Gneiss Belt, Grenville Province"
+    },
+    {
+      "REFNO": "3193",
+      "RESULTNO": "8285",
+      "ROCKNAME": "Central Gneiss Belt, Grenville Province"
+    },
+    {
+      "REFNO": "3193",
+      "RESULTNO": "8286",
+      "ROCKNAME": "Central Gneiss Belt, Grenville Province"
+    },
+    {
+      "REFNO": "3193",
+      "RESULTNO": "8287",
+      "ROCKNAME": "Central Gneiss Belt, Grenville Province"
+    },
+    {
+      "REFNO": "3193",
+      "RESULTNO": "8288",
+      "ROCKNAME": "Central Gneiss Belt, Grenville Province"
+    },
+    {
+      "REFNO": "3193",
+      "RESULTNO": "8289",
+      "ROCKNAME": "Central Gneiss Belt, Grenville Province"
+    },
+    {
+      "REFNO": "3193",
+      "RESULTNO": "8290",
+      "ROCKNAME": "Central Gneiss Belt, Grenville Province"
+    },
+    {
+      "REFNO": "3193",
+      "RESULTNO": "8291",
+      "ROCKNAME": "Central Gneiss Belt, Grenville Province"
+    },
+    {
+      "REFNO": "3193",
+      "RESULTNO": "8292",
+      "ROCKNAME": "Central Gneiss Belt, Grenville Province"
+    },
+    {
+      "REFNO": "3193",
+      "RESULTNO": "8293",
+      "ROCKNAME": "Central Gneiss Belt, Grenville Province"
+    },
+    {
+      "REFNO": "3193",
+      "RESULTNO": "8294",
+      "ROCKNAME": "Central Gneiss Belt, Grenville Province"
+    },
+    {
+      "REFNO": "2850",
+      "RESULTNO": "8516",
+      "ROCKNAME": "Segozero Dolerite Dykes"
+    },
+    {
+      "REFNO": "2850",
+      "RESULTNO": "8517",
+      "ROCKNAME": "Segozero Dolerite Dykes"
+    },
+    {
+      "REFNO": "2850",
+      "RESULTNO": "8518",
+      "ROCKNAME": "Segozero Dolerite Sill"
+    },
+    {
+      "REFNO": "2850",
+      "RESULTNO": "8519",
+      "ROCKNAME": "Girvas Lavas and Schists"
+    },
+    {
+      "REFNO": "2850",
+      "RESULTNO": "8520",
+      "ROCKNAME": "Girvas Lavas and Schists"
+    },
+    {
+      "REFNO": "2850",
+      "RESULTNO": "8521",
+      "ROCKNAME": "Girvas Dykes"
+    },
+    {
+      "REFNO": "2850",
+      "RESULTNO": "8522",
+      "ROCKNAME": "Burakovka Intrusion (Central Block)"
+    },
+    {
+      "REFNO": "2850",
+      "RESULTNO": "8523",
+      "ROCKNAME": "Picrite and Country Rock, Moncha Pluton"
+    },
+    {
+      "REFNO": "2850",
+      "RESULTNO": "8524",
+      "ROCKNAME": "Tolstik Layered Intrusion"
+    },
+    {
+      "REFNO": "2850",
+      "RESULTNO": "8525",
+      "ROCKNAME": "Tolstik Dykes and Amphibolite"
+    },
+    {
+      "REFNO": "3404",
+      "RESULTNO": "8657",
+      "ROCKNAME": "Bukinsky Massif"
+    },
+    {
+      "REFNO": "3404",
+      "RESULTNO": "8658",
+      "ROCKNAME": "Gabbroic dyke in Ostinsk Complex"
+    },
+    {
+      "REFNO": "3404",
+      "RESULTNO": "8659",
+      "ROCKNAME": "Belokorovichy Sediments"
+    },
+    {
+      "REFNO": "3404",
+      "RESULTNO": "8660",
+      "ROCKNAME": "Korosten Pluton"
+    },
+    {
+      "REFNO": "3404",
+      "RESULTNO": "8661",
+      "ROCKNAME": "Korosten Pluton"
+    },
+    {
+      "REFNO": "3404",
+      "RESULTNO": "8662",
+      "ROCKNAME": "Korosten Pluton"
+    },
+    {
+      "REFNO": "3404",
+      "RESULTNO": "8663",
+      "ROCKNAME": "Korosten Pluton"
+    },
+    {
+      "REFNO": "3404",
+      "RESULTNO": "8664",
+      "ROCKNAME": "Korosten Pluton"
+    },
+    {
+      "REFNO": "3404",
+      "RESULTNO": "8665",
+      "ROCKNAME": "Korosten Pluton"
+    },
+    {
+      "REFNO": "3404",
+      "RESULTNO": "8666",
+      "ROCKNAME": "Korosten Pluton"
+    },
+    {
+      "REFNO": "3404",
+      "RESULTNO": "8667",
+      "ROCKNAME": "Korosten Pluton"
+    },
+    {
+      "REFNO": "3404",
+      "RESULTNO": "8668",
+      "ROCKNAME": "NW Ukrainian Basic Dyke"
+    },
+    {
+      "REFNO": "3404",
+      "RESULTNO": "8669",
+      "ROCKNAME": "Korson-Novomirgorod Pluton"
+    },
+    {
+      "REFNO": "3404",
+      "RESULTNO": "8670",
+      "ROCKNAME": "Ingulo-Ingulets Basic Dyke"
+    },
+    {
+      "REFNO": "3404",
+      "RESULTNO": "8671",
+      "ROCKNAME": "Dniepr Basic Dykes"
+    },
+    {
+      "REFNO": "3404",
+      "RESULTNO": "8672",
+      "ROCKNAME": "Dniepr Basic Dykes"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8719",
+      "ROCKNAME": "West Branch Volcanics"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8720",
+      "ROCKNAME": "Masterson Sandstone"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8721",
+      "ROCKNAME": "Lynott Formation"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8722",
+      "ROCKNAME": "Amos Formation"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8723",
+      "ROCKNAME": "Balbirini Dolomite, lower part"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8724",
+      "ROCKNAME": "Balbirini Dolomite, upper part"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8725",
+      "ROCKNAME": "Peters Creek Volcanics, upper part"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8726",
+      "ROCKNAME": "Buddawadda Basalt (intrusives)"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8727",
+      "ROCKNAME": "Buddawadda Basalt"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8728",
+      "ROCKNAME": "Fish River Formation (Pff1)"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8729",
+      "ROCKNAME": "Fish River Formation (Pff2)"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8730",
+      "ROCKNAME": "Mt Les Siltstone"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8731",
+      "ROCKNAME": "Lochness Formation"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8732",
+      "ROCKNAME": "Lochness Formation"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8733",
+      "ROCKNAME": "Fiery Creek Formation"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8734",
+      "ROCKNAME": "Fiery Creek Formation"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8735",
+      "ROCKNAME": "Gunpowder Creek Formation"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8736",
+      "ROCKNAME": "Gunpowder Creek Formation"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8737",
+      "ROCKNAME": "Gunpowder Creek Formation"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8738",
+      "ROCKNAME": "Paradise Creek Formation"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8739",
+      "ROCKNAME": "Esperanza Formation"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8740",
+      "ROCKNAME": "Lawn Hill Formation"
+    },
+    {
+      "REFNO": "3453",
+      "RESULTNO": "8771",
+      "ROCKNAME": "Great Cockup Picrite"
+    },
+    {
+      "REFNO": "3453",
+      "RESULTNO": "8772",
+      "ROCKNAME": "Carrock Fell Gabbros"
+    },
+    {
+      "REFNO": "3453",
+      "RESULTNO": "8773",
+      "ROCKNAME": "Carrock Fell Granophyre"
+    },
+    {
+      "REFNO": "3453",
+      "RESULTNO": "8774",
+      "ROCKNAME": "Thelkeld-St.John's Granite"
+    },
+    {
+      "REFNO": "3453",
+      "RESULTNO": "8775",
+      "ROCKNAME": "Carrock Fell Dyke Swarm"
+    },
+    {
+      "REFNO": "3453",
+      "RESULTNO": "8776",
+      "ROCKNAME": "Round Knott Dolerite"
+    },
+    {
+      "REFNO": "3453",
+      "RESULTNO": "8777",
+      "ROCKNAME": "Ennerdale Basic Intrusions"
+    },
+    {
+      "REFNO": "3453",
+      "RESULTNO": "8778",
+      "ROCKNAME": "Eycott NE-SW Dykes"
+    },
+    {
+      "REFNO": "3453",
+      "RESULTNO": "8779",
+      "ROCKNAME": "Skiddaw Hornfels"
+    },
+    {
+      "REFNO": "3453",
+      "RESULTNO": "8780",
+      "ROCKNAME": "Shap Granite"
+    },
+    {
+      "REFNO": "3456",
+      "RESULTNO": "8790",
+      "ROCKNAME": "South China sediments"
+    },
+    {
+      "REFNO": "3456",
+      "RESULTNO": "8791",
+      "ROCKNAME": "South China sediments"
+    },
+    {
+      "REFNO": "3456",
+      "RESULTNO": "8792",
+      "ROCKNAME": "South China sediments"
+    },
+    {
+      "REFNO": "3456",
+      "RESULTNO": "8793",
+      "ROCKNAME": "South China sediments"
+    },
+    {
+      "REFNO": "3456",
+      "RESULTNO": "8794",
+      "ROCKNAME": "South China sediments"
+    },
+    {
+      "REFNO": "3456",
+      "RESULTNO": "8795",
+      "ROCKNAME": "South China sediments"
+    },
+    {
+      "REFNO": "3456",
+      "RESULTNO": "8796",
+      "ROCKNAME": "South China sediments"
+    },
+    {
+      "REFNO": "3456",
+      "RESULTNO": "8797",
+      "ROCKNAME": "South China sediments"
+    },
+    {
+      "REFNO": "3456",
+      "RESULTNO": "8798",
+      "ROCKNAME": "South China sediments"
+    },
+    {
+      "REFNO": "3456",
+      "RESULTNO": "8799",
+      "ROCKNAME": "Tarim sediments"
+    },
+    {
+      "REFNO": "3456",
+      "RESULTNO": "8800",
+      "ROCKNAME": "Tarim sediments"
+    },
+    {
+      "REFNO": "3456",
+      "RESULTNO": "8801",
+      "ROCKNAME": "Tarim sediments"
+    },
+    {
+      "REFNO": "3456",
+      "RESULTNO": "8802",
+      "ROCKNAME": "Tarim sediments"
+    },
+    {
+      "REFNO": "3456",
+      "RESULTNO": "8803",
+      "ROCKNAME": "Tarim sediments"
+    },
+    {
+      "REFNO": "3456",
+      "RESULTNO": "8804",
+      "ROCKNAME": "Tarim sediments"
+    },
+    {
+      "REFNO": "3456",
+      "RESULTNO": "8805",
+      "ROCKNAME": "Tarim sediments"
+    },
+    {
+      "REFNO": "3456",
+      "RESULTNO": "8806",
+      "ROCKNAME": "Tarim sediments"
+    },
+    {
+      "REFNO": "3456",
+      "RESULTNO": "8807",
+      "ROCKNAME": "Tarim sediments"
+    },
+    {
+      "REFNO": "3456",
+      "RESULTNO": "8808",
+      "ROCKNAME": "Tarim sediments"
+    },
+    {
+      "REFNO": "3463",
+      "RESULTNO": "8815",
+      "ROCKNAME": "High Valley andesite tuff"
+    },
+    {
+      "REFNO": "3463",
+      "RESULTNO": "8816",
+      "ROCKNAME": "Yuendoo Rhyolite"
+    },
+    {
+      "REFNO": "3463",
+      "RESULTNO": "8817",
+      "ROCKNAME": "Kooringal Dacite"
+    },
+    {
+      "REFNO": "3463",
+      "RESULTNO": "8818",
+      "ROCKNAME": "Clifden Formation Tuff"
+    },
+    {
+      "REFNO": "3463",
+      "RESULTNO": "8819",
+      "ROCKNAME": "Peri Rhyolite"
+    },
+    {
+      "REFNO": "3463",
+      "RESULTNO": "8820",
+      "ROCKNAME": "Trevallyn Tuff"
+    },
+    {
+      "REFNO": "3463",
+      "RESULTNO": "8821",
+      "ROCKNAME": "Rocky Creek Conglomerate"
+    },
+    {
+      "REFNO": "3463",
+      "RESULTNO": "8822",
+      "ROCKNAME": "Lark Hill Formation"
+    },
+    {
+      "REFNO": "3476",
+      "RESULTNO": "8839",
+      "ROCKNAME": "Ignican Formation"
+    },
+    {
+      "REFNO": "3476",
+      "RESULTNO": "8840",
+      "ROCKNAME": "Ignican Formation"
+    },
+    {
+      "REFNO": "3476",
+      "RESULTNO": "8841",
+      "ROCKNAME": "Ignican Formation"
+    },
+    {
+      "REFNO": "3476",
+      "RESULTNO": "8842",
+      "ROCKNAME": "Nelkan Formation"
+    },
+    {
+      "REFNO": "3476",
+      "RESULTNO": "8843",
+      "ROCKNAME": "Nelkan Formation"
+    },
+    {
+      "REFNO": "3476",
+      "RESULTNO": "8844",
+      "ROCKNAME": "Nelkan Formation"
+    },
+    {
+      "REFNO": "3476",
+      "RESULTNO": "8845",
+      "ROCKNAME": "Milkon Formation"
+    },
+    {
+      "REFNO": "3476",
+      "RESULTNO": "8846",
+      "ROCKNAME": "Milkon Formation"
+    },
+    {
+      "REFNO": "3476",
+      "RESULTNO": "8847",
+      "ROCKNAME": "Milkon Formation"
+    },
+    {
+      "REFNO": "3476",
+      "RESULTNO": "8848",
+      "ROCKNAME": "Kumakha Formation"
+    },
+    {
+      "REFNO": "3486",
+      "RESULTNO": "8870",
+      "ROCKNAME": "Sytikanskaya Kimberlite Pipe"
+    },
+    {
+      "REFNO": "3486",
+      "RESULTNO": "8871",
+      "ROCKNAME": "Yubileinaya Kimberlite Pipe"
+    },
+    {
+      "REFNO": "3486",
+      "RESULTNO": "8872",
+      "ROCKNAME": "Aikhal Kimberlite Pipe"
+    },
+    {
+      "REFNO": "3486",
+      "RESULTNO": "8873",
+      "ROCKNAME": "Aikhal Kimberlite Pipe, Satellite body"
+    },
+    {
+      "REFNO": "3486",
+      "RESULTNO": "8874",
+      "ROCKNAME": "Markha-2 Dyke"
+    },
+    {
+      "REFNO": "3486",
+      "RESULTNO": "8875",
+      "ROCKNAME": "Markha-4 Sill"
+    },
+    {
+      "REFNO": "3486",
+      "RESULTNO": "8876",
+      "ROCKNAME": "Markha-5 Sill"
+    },
+    {
+      "REFNO": "3486",
+      "RESULTNO": "8877",
+      "ROCKNAME": "Markha-6 Sill"
+    },
+    {
+      "REFNO": "3486",
+      "RESULTNO": "8878",
+      "ROCKNAME": "Viluy-6 Sill"
+    },
+    {
+      "REFNO": "3486",
+      "RESULTNO": "8879",
+      "ROCKNAME": "Viluy-7 Dyke"
+    },
+    {
+      "REFNO": "3486",
+      "RESULTNO": "8880",
+      "ROCKNAME": "Viluy-8 Dyke"
+    },
+    {
+      "REFNO": "3486",
+      "RESULTNO": "8881",
+      "ROCKNAME": "Siberian Kimberlites and Traps Combined"
+    },
+    {
+      "REFNO": "3486",
+      "RESULTNO": "8882",
+      "ROCKNAME": "Mir Kimberlite Pipe"
+    },
+    {
+      "REFNO": "3486",
+      "RESULTNO": "8883",
+      "ROCKNAME": "Sputnik Kimberlite Pipe"
+    },
+    {
+      "REFNO": "3486",
+      "RESULTNO": "8884",
+      "ROCKNAME": "Traps of Sytikanskaya Kimberlite Pipe"
+    },
+    {
+      "REFNO": "3486",
+      "RESULTNO": "8885",
+      "ROCKNAME": "Traps of Yubileinaya Kimberlite Pipe"
+    },
+    {
+      "REFNO": "3486",
+      "RESULTNO": "8886",
+      "ROCKNAME": "Traps of Aikhal Kimberlite Pipe"
+    },
+    {
+      "REFNO": "3486",
+      "RESULTNO": "8887",
+      "ROCKNAME": "Siberian Traps Combined"
+    },
+    {
+      "REFNO": "3556",
+      "RESULTNO": "9030",
+      "ROCKNAME": "Pilcher, Garnet Range and Libby Formations"
+    },
+    {
+      "REFNO": "3556",
+      "RESULTNO": "9031",
+      "ROCKNAME": "McNamara Formation"
+    },
+    {
+      "REFNO": "3556",
+      "RESULTNO": "9032",
+      "ROCKNAME": "Bonner Quartzite"
+    },
+    {
+      "REFNO": "3556",
+      "RESULTNO": "9033",
+      "ROCKNAME": "Mt.Shields Formation, Upper Member"
+    },
+    {
+      "REFNO": "3556",
+      "RESULTNO": "9034",
+      "ROCKNAME": "Mt.Shields Formation, Middle Member"
+    },
+    {
+      "REFNO": "3556",
+      "RESULTNO": "9035",
+      "ROCKNAME": "Mt.Shields Formation, Lower Member"
+    },
+    {
+      "REFNO": "3556",
+      "RESULTNO": "9036",
+      "ROCKNAME": "Shepard Formation"
+    },
+    {
+      "REFNO": "3556",
+      "RESULTNO": "9037",
+      "ROCKNAME": "Purcell Lava"
+    },
+    {
+      "REFNO": "3556",
+      "RESULTNO": "9038",
+      "ROCKNAME": "Snowslip Formation"
+    },
+    {
+      "REFNO": "3556",
+      "RESULTNO": "9039",
+      "ROCKNAME": "Spokane Formation"
+    },
+    {
+      "REFNO": "3556",
+      "RESULTNO": "9040",
+      "ROCKNAME": "Belt Supergroup Combined"
+    },
+    {
+      "REFNO": "3579",
+      "RESULTNO": "9078",
+      "ROCKNAME": "Gunflint Formation"
+    },
+    {
+      "REFNO": "3579",
+      "RESULTNO": "9079",
+      "ROCKNAME": "Gunflint Formation"
+    },
+    {
+      "REFNO": "3579",
+      "RESULTNO": "9080",
+      "ROCKNAME": "Gunflint Formation"
+    },
+    {
+      "REFNO": "3579",
+      "RESULTNO": "9081",
+      "ROCKNAME": "Gunflint Formation"
+    },
+    {
+      "REFNO": "3579",
+      "RESULTNO": "9082",
+      "ROCKNAME": "Sibley Conglomerate"
+    },
+    {
+      "REFNO": "3579",
+      "RESULTNO": "9083",
+      "ROCKNAME": "Sibley Conglomerate"
+    },
+    {
+      "REFNO": "3579",
+      "RESULTNO": "9084",
+      "ROCKNAME": "Sibley Conglomerate"
+    },
+    {
+      "REFNO": "3579",
+      "RESULTNO": "9085",
+      "ROCKNAME": "Gunflint Chert Carbonate"
+    },
+    {
+      "REFNO": "3580",
+      "RESULTNO": "9086",
+      "ROCKNAME": "Mirnin Formation"
+    },
+    {
+      "REFNO": "3580",
+      "RESULTNO": "9087",
+      "ROCKNAME": "Nelyudim Formation"
+    },
+    {
+      "REFNO": "3580",
+      "RESULTNO": "9088",
+      "ROCKNAME": "Voyakh Formation"
+    },
+    {
+      "REFNO": "3580",
+      "RESULTNO": "9089",
+      "ROCKNAME": "Mylgin Formation"
+    },
+    {
+      "REFNO": "3580",
+      "RESULTNO": "9090",
+      "ROCKNAME": "Chara Formation"
+    },
+    {
+      "REFNO": "3580",
+      "RESULTNO": "9091",
+      "ROCKNAME": "Kiprei and Turin Formations"
+    },
+    {
+      "REFNO": "3580",
+      "RESULTNO": "9092",
+      "ROCKNAME": "Rogachev Formation"
+    },
+    {
+      "REFNO": "3580",
+      "RESULTNO": "9093",
+      "ROCKNAME": "Omulevka Rocks, Overprint"
+    },
+    {
+      "REFNO": "3673",
+      "RESULTNO": "9252",
+      "ROCKNAME": "Karlstejn Sill and Contact Areoule"
+    },
+    {
+      "REFNO": "3673",
+      "RESULTNO": "9253",
+      "ROCKNAME": "Hlasna Treban Sill and Contact Areoule"
+    },
+    {
+      "REFNO": "3673",
+      "RESULTNO": "9254",
+      "ROCKNAME": "Zebrak-Tocnık Pillow Lava"
+    },
+    {
+      "REFNO": "3673",
+      "RESULTNO": "9255",
+      "ROCKNAME": "Klabava Formation Mineralized Layers"
+    },
+    {
+      "REFNO": "3673",
+      "RESULTNO": "9256",
+      "ROCKNAME": "Klabava Formation Tuffite"
+    },
+    {
+      "REFNO": "3673",
+      "RESULTNO": "9257",
+      "ROCKNAME": "Komarov-Jivina Red Greywacke"
+    },
+    {
+      "REFNO": "3673",
+      "RESULTNO": "9258",
+      "ROCKNAME": "Zebrak-Tocnik Silicified Lava"
+    },
+    {
+      "REFNO": "3673",
+      "RESULTNO": "9259",
+      "ROCKNAME": "Letna Formation Blach Shale"
+    },
+    {
+      "REFNO": "3694",
+      "RESULTNO": "9281",
+      "ROCKNAME": "Uinta Mountain Supergroup, Locality 1"
+    },
+    {
+      "REFNO": "3694",
+      "RESULTNO": "9282",
+      "ROCKNAME": "Uinta Mountain Supergroup, Locality 2"
+    },
+    {
+      "REFNO": "3694",
+      "RESULTNO": "9283",
+      "ROCKNAME": "Uinta Mountain Supergroup, Locality 3"
+    },
+    {
+      "REFNO": "3694",
+      "RESULTNO": "9284",
+      "ROCKNAME": "Uinta Mountain Supergroup, Locality 4"
+    },
+    {
+      "REFNO": "3694",
+      "RESULTNO": "9285",
+      "ROCKNAME": "Uinta Mountain Supergroup, Locality 5"
+    },
+    {
+      "REFNO": "3694",
+      "RESULTNO": "9286",
+      "ROCKNAME": "Uinta Mountain Supergroup, Locality 6"
+    },
+    {
+      "REFNO": "3694",
+      "RESULTNO": "9287",
+      "ROCKNAME": "Uinta Mountain Supergroup, Locality 7"
+    },
+    {
+      "REFNO": "3694",
+      "RESULTNO": "9288",
+      "ROCKNAME": "Uinta Mountain Supergroup, Locality 8"
+    },
+    {
+      "REFNO": "3694",
+      "RESULTNO": "9289",
+      "ROCKNAME": "Uinta Mountain Supergroup, Locality 9"
+    },
+    {
+      "REFNO": "3694",
+      "RESULTNO": "9290",
+      "ROCKNAME": "Uinta Mountain Supergroup, Combined"
+    },
+    {
+      "REFNO": "1769",
+      "RESULTNO": "9929",
+      "ROCKNAME": "Base of Hawker Group"
+    },
+    {
+      "REFNO": "4168",
+      "RESULTNO": "10005",
+      "ROCKNAME": "Kopparnäs Dykes"
+    },
+    {
+      "REFNO": "4168",
+      "RESULTNO": "10006",
+      "ROCKNAME": "Ragunda Dykes, Group 2+host"
+    },
+    {
+      "REFNO": "4168",
+      "RESULTNO": "10007",
+      "ROCKNAME": "Ragunda Dykes, Group 1"
+    },
+    {
+      "REFNO": "4168",
+      "RESULTNO": "10008",
+      "ROCKNAME": "Strömsbro Rapakivi Complex"
+    },
+    {
+      "REFNO": "4168",
+      "RESULTNO": "10009",
+      "ROCKNAME": "Strömsbro Dykes"
+    },
+    {
+      "REFNO": "4168",
+      "RESULTNO": "10010",
+      "ROCKNAME": "Rödö Rapakivi Complex"
+    },
+    {
+      "REFNO": "4168",
+      "RESULTNO": "10011",
+      "ROCKNAME": "Rödö Dykes"
+    },
+    {
+      "REFNO": "4168",
+      "RESULTNO": "10012",
+      "ROCKNAME": "Noran Rapakivi Complex"
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "schema_version": "r3_target_multiplicity_oof_analysis_v1",
+  "status": "complete",
+  "definition": {
+    "single_target": "REFNO occurs exactly once in the complete 3,173-row R3 identity manifest",
+    "mixed_labels": "a PDF-backed REFNO has at least one R3=0 and one R3=1 target"
+  },
+  "primary_strategy": "mean4",
+  "segments": {
+    "single_target": {
+      "rows": 872,
+      "paper_groups": 872,
+      "positive_labels": 577,
+      "negative_labels": 295,
+      "accuracy": 0.87958716,
+      "macro_f1": 0.86628872,
+      "balanced_accuracy": 0.86842229,
+      "confusion": {
+        "tn": 246,
+        "fp": 49,
+        "fn": 56,
+        "tp": 521
+      },
+      "threshold": 0.5
+    },
+    "multi_target": {
+      "rows": 1879,
+      "paper_groups": 606,
+      "positive_labels": 1130,
+      "negative_labels": 749,
+      "accuracy": 0.79936136,
+      "macro_f1": 0.78367376,
+      "balanced_accuracy": 0.77669105,
+      "confusion": {
+        "tn": 498,
+        "fp": 251,
+        "fn": 126,
+        "tp": 1004
+      },
+      "threshold": 0.5
+    },
+    "two_targets": {
+      "rows": 652,
+      "paper_groups": 326,
+      "positive_labels": 421,
+      "negative_labels": 231,
+      "accuracy": 0.84662577,
+      "macro_f1": 0.83069508,
+      "balanced_accuracy": 0.8275082,
+      "confusion": {
+        "tn": 176,
+        "fp": 55,
+        "fn": 45,
+        "tp": 376
+      },
+      "threshold": 0.5
+    },
+    "three_or_four_targets": {
+      "rows": 693,
+      "paper_groups": 207,
+      "positive_labels": 419,
+      "negative_labels": 274,
+      "accuracy": 0.84271284,
+      "macro_f1": 0.82873176,
+      "balanced_accuracy": 0.81877689,
+      "confusion": {
+        "tn": 193,
+        "fp": 81,
+        "fn": 28,
+        "tp": 391
+      },
+      "threshold": 0.5
+    },
+    "five_or_more_targets": {
+      "rows": 534,
+      "paper_groups": 73,
+      "positive_labels": 290,
+      "negative_labels": 244,
+      "accuracy": 0.68539326,
+      "macro_f1": 0.67197578,
+      "balanced_accuracy": 0.67296495,
+      "confusion": {
+        "tn": 129,
+        "fp": 115,
+        "fn": 53,
+        "tp": 237
+      },
+      "threshold": 0.5
+    },
+    "multi_target_uniform_labels": {
+      "rows": 1601,
+      "paper_groups": 545,
+      "positive_labels": 993,
+      "negative_labels": 608,
+      "accuracy": 0.85446596,
+      "macro_f1": 0.84186126,
+      "balanced_accuracy": 0.83485219,
+      "confusion": {
+        "tn": 458,
+        "fp": 150,
+        "fn": 83,
+        "tp": 910
+      },
+      "threshold": 0.5
+    },
+    "multi_target_mixed_labels": {
+      "rows": 278,
+      "paper_groups": 61,
+      "positive_labels": 137,
+      "negative_labels": 141,
+      "accuracy": 0.48201439,
+      "macro_f1": 0.46170396,
+      "balanced_accuracy": 0.48490967,
+      "confusion": {
+        "tn": 40,
+        "fp": 101,
+        "fn": 43,
+        "tp": 94
+      },
+      "threshold": 0.5
+    }
+  },
+  "single_target_models": {
+    "expert_extra_combined": {
+      "rows": 872,
+      "paper_groups": 872,
+      "positive_labels": 577,
+      "negative_labels": 295,
+      "accuracy": 0.875,
+      "macro_f1": 0.85884498,
+      "balanced_accuracy": 0.85501572,
+      "confusion": {
+        "tn": 234,
+        "fp": 61,
+        "fn": 48,
+        "tp": 529
+      },
+      "threshold": 0.5
+    },
+    "expert_hgb_combined": {
+      "rows": 872,
+      "paper_groups": 872,
+      "positive_labels": 577,
+      "negative_labels": 295,
+      "accuracy": 0.87614679,
+      "macro_f1": 0.86257858,
+      "balanced_accuracy": 0.86499427,
+      "confusion": {
+        "tn": 245,
+        "fp": 50,
+        "fn": 58,
+        "tp": 519
+      },
+      "threshold": 0.5
+    },
+    "expert_logreg_combined": {
+      "rows": 872,
+      "paper_groups": 872,
+      "positive_labels": 577,
+      "negative_labels": 295,
+      "accuracy": 0.86238532,
+      "macro_f1": 0.84849889,
+      "balanced_accuracy": 0.85376729,
+      "confusion": {
+        "tn": 244,
+        "fp": 51,
+        "fn": 69,
+        "tp": 508
+      },
+      "threshold": 0.5
+    },
+    "expert_rf_combined": {
+      "rows": 872,
+      "paper_groups": 872,
+      "positive_labels": 577,
+      "negative_labels": 295,
+      "accuracy": 0.87155963,
+      "macro_f1": 0.85583373,
+      "balanced_accuracy": 0.85407279,
+      "confusion": {
+        "tn": 236,
+        "fp": 59,
+        "fn": 53,
+        "tp": 524
+      },
+      "threshold": 0.5
+    },
+    "mean4": {
+      "rows": 872,
+      "paper_groups": 872,
+      "positive_labels": 577,
+      "negative_labels": 295,
+      "accuracy": 0.87958716,
+      "macro_f1": 0.86628872,
+      "balanced_accuracy": 0.86842229,
+      "confusion": {
+        "tn": 246,
+        "fp": 49,
+        "fn": 56,
+        "tp": 521
+      },
+      "threshold": 0.5
+    }
+  },
+  "single_target_posthoc_oracle": {
+    "warning": "threshold selected after reading all single-target labels",
+    "threshold": 0.48993930220603943,
+    "result": {
+      "rows": 872,
+      "paper_groups": 872,
+      "positive_labels": 577,
+      "negative_labels": 295,
+      "accuracy": 0.8853211,
+      "macro_f1": 0.87192668,
+      "balanced_accuracy": 0.87192668,
+      "confusion": {
+        "tn": 245,
+        "fp": 50,
+        "fn": 50,
+        "tp": 527
+      },
+      "threshold": 0.48993930220603943
+    }
+  },
+  "mixed_label_paper_diagnostics": {
+    "papers": 61,
+    "all_targets_correct_papers": 0,
+    "all_targets_correct_rate": 0.0,
+    "constant_prediction_papers": 58,
+    "constant_prediction_rate": 0.95081967
+  },
+  "inputs": {
+    "identity": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_strict_eval_07111758/inputs/identity_manifest.xlsx",
+      "sha256": "5bdb7476a5b7d61494939fc5cd7bc8fa3195ef7b032b29306f146892862b970f"
+    },
+    "targets": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/targets.xlsx",
+      "sha256": "378c17338f3b5cfeff3ccd496894e0f6183f747119b2624c4a9cefaeda02501e"
+    },
+    "prediction_receipt": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/prediction_receipt.json",
+      "sha256": "2b60f1348362e04bb1d6c3f6f7532a835d3bb4c83c9bf9c54dc0840941b0fb8b"
+    },
+    "oof_probabilities": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/oof_probabilities.npz",
+      "sha256": "ec3210f77de361ef4bb215bdc089b33e8f8d30b79f460afc0203eff0354303c8"
+    }
+  }
+}

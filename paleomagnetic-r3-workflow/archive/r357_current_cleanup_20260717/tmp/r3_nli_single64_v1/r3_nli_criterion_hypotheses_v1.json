@@ -1,0 +1,69 @@
+{
+  "schema_version": "r3_nli_criterion_hypotheses_v1",
+  "status": "FROZEN_WITHOUT_LABEL_ACCESS",
+  "criterion_groups": [
+    "method",
+    "identify",
+    "significance"
+  ],
+  "hypotheses": [
+    {
+      "hypothesis_id": "scope",
+      "premise_groups": "all",
+      "polarity": "support",
+      "template": "This passage describes experiments, observations, or interpretations performed by the present study."
+    },
+    {
+      "hypothesis_id": "method",
+      "premise_groups": [
+        "METHOD_DIAGNOSTIC"
+      ],
+      "polarity": "support",
+      "template": "The study applied a rock-magnetic or magnetic-mineralogical investigation to determine the carrier of the remanence."
+    },
+    {
+      "hypothesis_id": "identified",
+      "premise_groups": [
+        "IDENTIFY"
+      ],
+      "polarity": "support",
+      "template": "The current study identifies the magnetic mineral or material that carries the remanence."
+    },
+    {
+      "hypothesis_id": "inconclusive",
+      "premise_groups": [
+        "IDENTIFY"
+      ],
+      "polarity": "support",
+      "template": "The current study performed a reasonable carrier-focused investigation but could not conclusively identify the remanence carrier."
+    },
+    {
+      "hypothesis_id": "significance",
+      "premise_groups": [
+        "SIGNIFICANCE_COUNTER"
+      ],
+      "polarity": "support",
+      "template": "The current study explains what the magnetic carrier evidence implies about the origin, alteration, stability, or reliability of the remanent magnetization."
+    },
+    {
+      "hypothesis_id": "external",
+      "premise_groups": "all",
+      "polarity": "counter",
+      "template": "This passage describes only prior or external work rather than an analysis performed by the present study."
+    },
+    {
+      "hypothesis_id": "not_performed",
+      "premise_groups": "all",
+      "polarity": "counter",
+      "template": "The study explicitly states that the carrier-focused rock-magnetic investigation was not performed."
+    }
+  ],
+  "hypotheses_sha256": "fba279a5e936a7f83a94527ea45cb235acee6c753760064b20b08ba6beb21e90",
+  "runtime_boundary": {
+    "labels_read": false,
+    "pmagresult_or_rockmag_read": false,
+    "prior_predictions_read": false,
+    "evaluation_results_read": false,
+    "outer_test_metrics_used_for_selection": false
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "schema_version": "r3_evidence_mil_evaluation_v1",
+  "status": "FROZEN_BEFORE_LABEL_ACCESS",
+  "primary_scope": "all 872 PDF-backed single-target papers at full coverage",
+  "source_refs": [
+    {
+      "source_id": "PATEL_ET_AL_ACL_2025_R2E",
+      "venue": "ACL 2025",
+      "method_mapping": "evidence retrieval and evidence-grounded candidate representation",
+      "adaptation_boundary": "methodological inspiration only; this evaluator does not claim a direct reproduction of R2E"
+    },
+    {
+      "source_id": "TAN_ET_AL_SIGIR_2025_EDU_FILTERING",
+      "venue": "SIGIR 2025",
+      "method_mapping": "fine-grained evidence-unit filtering before document-level aggregation",
+      "adaptation_boundary": "methodological inspiration only; frozen paleomagnetic event filters are domain-specific and are not a direct reproduction"
+    },
+    {
+      "source_id": "DU_ET_AL_ICLR_2025_PSMIL",
+      "venue": "ICLR 2025",
+      "method_mapping": "multiple-instance learning in probability space with bag-level aggregation",
+      "adaptation_boundary": "methodological inspiration only; the fixed hard-EM and logistic stack are not claimed as a direct reproduction of PSMIL"
+    }
+  ],
+  "protocol": {
+    "outer_folds": 5,
+    "inner_folds": 3,
+    "inner_seed": 35720260761,
+    "random_state": 35720260,
+    "threshold": 0.5,
+    "outer_test_selection": false
+  },
+  "event_documents": {
+    "source": "ordered frozen MIL receipt instances",
+    "instance_format": "[SECTION={section_class}] [ROUTE={primary_route}] [TRUST={trusted}] [EXCLUSION={exclusions}] {text}",
+    "separator": "\n[INSTANCE]\n",
+    "empty_document": "",
+    "word_hashing": {
+      "analyzer": "word",
+      "ngram_range": [1, 2],
+      "n_features": 262144,
+      "alternate_sign": false,
+      "lowercase": true,
+      "norm": "l2",
+      "token_pattern": "(?u)\\b\\w\\w+\\b"
+    },
+    "char_hashing": {
+      "analyzer": "char_wb",
+      "ngram_range": [3, 5],
+      "n_features": 262144,
+      "alternate_sign": false,
+      "lowercase": true,
+      "norm": "l2"
+    }
+  },
+  "components": {
+    "v4_random_forest_all_pdf": {
+      "n_estimators": 600,
+      "max_features": 0.5,
+      "min_samples_leaf": 8,
+      "n_jobs": -1,
+      "random_state": 35720260,
+      "sample_weight": "inverse_refno_canonical_target_identity"
+    },
+    "event_word_logistic": {
+      "C": 1.0,
+      "solver": "liblinear",
+      "max_iter": 3000,
+      "random_state": 35720260
+    },
+    "event_char_logistic": {
+      "C": 1.0,
+      "solver": "liblinear",
+      "max_iter": 3000,
+      "random_state": 35720260
+    },
+    "hard_em": [
+      {
+        "name": "hard_em_c01_k1_max",
+        "C": 0.1,
+        "positive_top_k": 1,
+        "aggregation": "max",
+        "rounds": 3
+      },
+      {
+        "name": "hard_em_c1_k2_top2mean",
+        "C": 1.0,
+        "positive_top_k": 2,
+        "aggregation": "top2mean",
+        "rounds": 3
+      }
+    ],
+    "hard_em_common": {
+      "solver": "liblinear",
+      "max_iter": 3000,
+      "random_state": 35720260,
+      "standardize": true,
+      "negative_bag_instances": "all",
+      "positive_bag_instances": "top_k",
+      "bag_total_sample_weight": 1.0,
+      "empty_bag_probability": 0.5,
+      "initial_score_features": {
+        "trusted_category_fraction": 4.0,
+        "trusted_any": 2.0,
+        "event_score_scaled": 1.5,
+        "own_and_result_language": 1.0,
+        "support_without_citation": 0.5,
+        "support_blocked": -2.0,
+        "event_external": -2.0,
+        "event_future": -2.0,
+        "event_method_negation": -2.0
+      }
+    }
+  },
+  "stack": {
+    "strategy": "fixed_logistic_stack",
+    "C": 0.1,
+    "solver": "liblinear",
+    "max_iter": 3000,
+    "random_state": 35720260,
+    "standardize": true,
+    "component_logits": [
+      "v4_random_forest_all_pdf",
+      "event_word_logistic",
+      "event_char_logistic",
+      "hard_em_c01_k1_max",
+      "hard_em_c1_k2_top2mean"
+    ],
+    "hard_em_instance_statistics": [
+      "hard_em_c01_k1_max_mean",
+      "hard_em_c01_k1_max_max",
+      "hard_em_c1_k2_top2mean_mean",
+      "hard_em_c1_k2_top2mean_max"
+    ],
+    "static_bag_features": "61 instance-feature means followed by 61 maxima",
+    "expected_dimensions": 131,
+    "probability_clip": 0.000001
+  },
+  "empty_bag_policy": {
+    "static_bag_features": 0.0,
+    "evidence_component_probability": 0.5,
+    "hard_em_instance_statistics": 0.5,
+    "final_probability": "v4_random_forest_all_pdf"
+  },
+  "receipt": {
+    "top_instance_source": "hard_em_c01_k1_max",
+    "retain_top_instance_for_each_hard_em_component": true
+  },
+  "runtime_boundary": {
+    "labels_read_before_evaluation_freeze": false,
+    "pmagresult_or_rockmag_read": false,
+    "prior_predictions_read_before_preaudit": false,
+    "evaluation_results_read_before_preaudit": false,
+    "event_document_features_are_label_blind": true,
+    "outer_test_labels_used_for_training_or_selection": false,
+    "missing_pdf_targets_in_denominator": false,
+    "selective_abstention_used": false
+  }
+}

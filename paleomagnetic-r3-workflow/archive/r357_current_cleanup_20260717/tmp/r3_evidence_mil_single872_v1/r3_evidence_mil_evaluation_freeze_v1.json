@@ -1,0 +1,253 @@
+{
+  "schema_version": "r3_evidence_mil_evaluation_freeze_v1",
+  "status": "FROZEN_BEFORE_LABEL_ACCESS",
+  "scope": {
+    "rows": 872,
+    "coverage": 1.0,
+    "missing_pdf_targets_in_denominator": false
+  },
+  "fixed_config": {
+    "schema_version": "r3_evidence_mil_evaluation_v1",
+    "status": "FROZEN_BEFORE_LABEL_ACCESS",
+    "primary_scope": "all 872 PDF-backed single-target papers at full coverage",
+    "source_refs": [
+      {
+        "source_id": "PATEL_ET_AL_ACL_2025_R2E",
+        "venue": "ACL 2025",
+        "method_mapping": "evidence retrieval and evidence-grounded candidate representation",
+        "adaptation_boundary": "methodological inspiration only; this evaluator does not claim a direct reproduction of R2E"
+      },
+      {
+        "source_id": "TAN_ET_AL_SIGIR_2025_EDU_FILTERING",
+        "venue": "SIGIR 2025",
+        "method_mapping": "fine-grained evidence-unit filtering before document-level aggregation",
+        "adaptation_boundary": "methodological inspiration only; frozen paleomagnetic event filters are domain-specific and are not a direct reproduction"
+      },
+      {
+        "source_id": "DU_ET_AL_ICLR_2025_PSMIL",
+        "venue": "ICLR 2025",
+        "method_mapping": "multiple-instance learning in probability space with bag-level aggregation",
+        "adaptation_boundary": "methodological inspiration only; the fixed hard-EM and logistic stack are not claimed as a direct reproduction of PSMIL"
+      }
+    ],
+    "protocol": {
+      "outer_folds": 5,
+      "inner_folds": 3,
+      "inner_seed": 35720260761,
+      "random_state": 35720260,
+      "threshold": 0.5,
+      "outer_test_selection": false
+    },
+    "event_documents": {
+      "source": "ordered frozen MIL receipt instances",
+      "instance_format": "[SECTION={section_class}] [ROUTE={primary_route}] [TRUST={trusted}] [EXCLUSION={exclusions}] {text}",
+      "separator": "\n[INSTANCE]\n",
+      "empty_document": "",
+      "word_hashing": {
+        "analyzer": "word",
+        "ngram_range": [
+          1,
+          2
+        ],
+        "n_features": 262144,
+        "alternate_sign": false,
+        "lowercase": true,
+        "norm": "l2",
+        "token_pattern": "(?u)\\b\\w\\w+\\b"
+      },
+      "char_hashing": {
+        "analyzer": "char_wb",
+        "ngram_range": [
+          3,
+          5
+        ],
+        "n_features": 262144,
+        "alternate_sign": false,
+        "lowercase": true,
+        "norm": "l2"
+      }
+    },
+    "components": {
+      "v4_random_forest_all_pdf": {
+        "n_estimators": 600,
+        "max_features": 0.5,
+        "min_samples_leaf": 8,
+        "n_jobs": -1,
+        "random_state": 35720260,
+        "sample_weight": "inverse_refno_canonical_target_identity"
+      },
+      "event_word_logistic": {
+        "C": 1.0,
+        "solver": "liblinear",
+        "max_iter": 3000,
+        "random_state": 35720260
+      },
+      "event_char_logistic": {
+        "C": 1.0,
+        "solver": "liblinear",
+        "max_iter": 3000,
+        "random_state": 35720260
+      },
+      "hard_em": [
+        {
+          "name": "hard_em_c01_k1_max",
+          "C": 0.1,
+          "positive_top_k": 1,
+          "aggregation": "max",
+          "rounds": 3
+        },
+        {
+          "name": "hard_em_c1_k2_top2mean",
+          "C": 1.0,
+          "positive_top_k": 2,
+          "aggregation": "top2mean",
+          "rounds": 3
+        }
+      ],
+      "hard_em_common": {
+        "solver": "liblinear",
+        "max_iter": 3000,
+        "random_state": 35720260,
+        "standardize": true,
+        "negative_bag_instances": "all",
+        "positive_bag_instances": "top_k",
+        "bag_total_sample_weight": 1.0,
+        "empty_bag_probability": 0.5,
+        "initial_score_features": {
+          "trusted_category_fraction": 4.0,
+          "trusted_any": 2.0,
+          "event_score_scaled": 1.5,
+          "own_and_result_language": 1.0,
+          "support_without_citation": 0.5,
+          "support_blocked": -2.0,
+          "event_external": -2.0,
+          "event_future": -2.0,
+          "event_method_negation": -2.0
+        }
+      }
+    },
+    "stack": {
+      "strategy": "fixed_logistic_stack",
+      "C": 0.1,
+      "solver": "liblinear",
+      "max_iter": 3000,
+      "random_state": 35720260,
+      "standardize": true,
+      "component_logits": [
+        "v4_random_forest_all_pdf",
+        "event_word_logistic",
+        "event_char_logistic",
+        "hard_em_c01_k1_max",
+        "hard_em_c1_k2_top2mean"
+      ],
+      "hard_em_instance_statistics": [
+        "hard_em_c01_k1_max_mean",
+        "hard_em_c01_k1_max_max",
+        "hard_em_c1_k2_top2mean_mean",
+        "hard_em_c1_k2_top2mean_max"
+      ],
+      "static_bag_features": "61 instance-feature means followed by 61 maxima",
+      "expected_dimensions": 131,
+      "probability_clip": 1e-06
+    },
+    "empty_bag_policy": {
+      "static_bag_features": 0.0,
+      "evidence_component_probability": 0.5,
+      "hard_em_instance_statistics": 0.5,
+      "final_probability": "v4_random_forest_all_pdf"
+    },
+    "receipt": {
+      "top_instance_source": "hard_em_c01_k1_max",
+      "retain_top_instance_for_each_hard_em_component": true
+    },
+    "runtime_boundary": {
+      "labels_read_before_evaluation_freeze": false,
+      "pmagresult_or_rockmag_read": false,
+      "prior_predictions_read_before_preaudit": false,
+      "evaluation_results_read_before_preaudit": false,
+      "event_document_features_are_label_blind": true,
+      "outer_test_labels_used_for_training_or_selection": false,
+      "missing_pdf_targets_in_denominator": false,
+      "selective_abstention_used": false
+    }
+  },
+  "label_blind_event_features": {
+    "event_documents_sha256": "39ef9813cfb171905adc4259e6a5393db18d70b5033b6bd42ad437495604605b",
+    "word_matrix_sha256": "43de77cbe97cb926f90ca84555edb87719fe1246722d1d8dce29cfe920b377b8",
+    "word_matrix_shape": [
+      872,
+      262144
+    ],
+    "char_matrix_sha256": "d4b6a6ad2405341314312de392077cde01072ec8ca6bafc0222ae49def8268c3",
+    "char_matrix_shape": [
+      872,
+      262144
+    ],
+    "static_bag_features_sha256": "ed315982fd1037d382a10985382be8432d08b6acd94af445f19b0d452a1e25bc",
+    "static_bag_features_shape": [
+      872,
+      122
+    ],
+    "empty_bag_mask_sha256": "acd6c72890d338a51a953c3496b48dad819a8cccfd596ec996989118bf9c6ef3"
+  },
+  "inputs": {
+    "config": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/knowledge/r3_evidence_mil_evaluation_v1.json",
+      "sha256": "987b03208e3f28cf7cfa519ce71e5cc4b759f5f96048337ff0a3dbb1847032e5"
+    },
+    "mil_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_evidence_mil_single872_v1/r3_evidence_mil_bags_v1.manifest.json",
+      "sha256": "40099f1dbda6ff10ee04ec5a9d710e90fbee90e56d5cf12989fd56e475eb2130"
+    },
+    "mil_bags": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_evidence_mil_single872_v1/r3_evidence_mil_bags_v1.npz",
+      "sha256": "87df34786ec6867cfa5ace12ff5487df6e6b60d1b22ddeeb602f8756b3320cec"
+    },
+    "mil_receipt": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_evidence_mil_single872_v1/r3_evidence_mil_receipt_v1.jsonl",
+      "sha256": "421c6d51954a1f9b59017598f808b07fc079dc16ed2af4ee8c8547b47d4bb209"
+    },
+    "mil_candidate": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_evidence_mil_single872_v1/r3_evidence_mil_candidate_freeze_v1.json",
+      "sha256": "11128928f37e8a2fc1be4f89d90e71402d1cc9d5dd37ef0432dad784aa5509bf"
+    },
+    "v4_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/trace_page_graph_features_v4.manifest.json",
+      "sha256": "a8d43e27bb3f26c9d3cc36833a7cc2cd68ea716928d43bb410a3dd8be1147c1c"
+    },
+    "v4_features": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/trace_page_graph_features_v4.npz",
+      "sha256": "609df745905feca238133ecaba721fa34db20898818456c35e4d89e9977a8f1b"
+    },
+    "v4_folds": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/trace_refno_fold_manifest_v4.json",
+      "sha256": "7c35c1ceb2f343dba687d202f6d4ff0f04e1dd200017bf7e3ad622f5480235ce"
+    },
+    "evaluator_code": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/evaluate_r3_evidence_mil_single872_oof.py",
+      "sha256": "00c160fcea10c74375f677cee01255ff42d0a861f0043beb25e442e67b2f3959"
+    }
+  },
+  "postfreeze_only_inputs": {
+    "labels": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/targets.xlsx",
+      "columns": [
+        "RESULTNO",
+        "R3"
+      ]
+    },
+    "saved_v4_oof_audit": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/trace_clean_nested_oof_v4.npz"
+    },
+    "saved_v4_report_audit": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/trace_clean_nested_oof_report_v4.json"
+    }
+  },
+  "runtime_boundary": {
+    "labels_read": false,
+    "pmagresult_or_rockmag_read": false,
+    "prior_predictions_read": false,
+    "evaluation_results_read": false,
+    "outer_test_labels_used_for_training_or_selection": false
+  }
+}

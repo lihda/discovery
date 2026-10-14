@@ -1,0 +1,2015 @@
+{
+  "schema_version": "r3_single_target_practice_semantic_experiment_v1",
+  "status": "complete_exploratory",
+  "scope": {
+    "single_target_rows": 872,
+    "single_target_papers": 872,
+    "all_pdf_rows_used_for_fold_training": 2751,
+    "all_pdf_papers": 1478
+  },
+  "runtime_boundary": {
+    "practice_features_frozen_before_labels_or_rockmag_opened": true,
+    "outer_test_refno_excluded_from_model_fit": true,
+    "rockmag_used_only_as_offline_fold_training_supervision": true,
+    "runtime_test_features_use_only_original_text_and_frozen_knowledge": true
+  },
+  "feature_freeze": {
+    "status": "FROZEN_BEFORE_LABEL_OR_ROCKMAG_ACCESS",
+    "rows": 2751,
+    "practice_features": 378,
+    "combined_practice_features": 729,
+    "feature_names": [
+      "own_carrier__magnetite_count_log",
+      "own_carrier__magnetite_present",
+      "reference_carrier__magnetite_count_log",
+      "own_share_carrier__magnetite",
+      "own_carrier__titanomagnetite_count_log",
+      "own_carrier__titanomagnetite_present",
+      "reference_carrier__titanomagnetite_count_log",
+      "own_share_carrier__titanomagnetite",
+      "own_carrier__hematite_count_log",
+      "own_carrier__hematite_present",
+      "reference_carrier__hematite_count_log",
+      "own_share_carrier__hematite",
+      "own_carrier__maghemite_count_log",
+      "own_carrier__maghemite_present",
+      "reference_carrier__maghemite_count_log",
+      "own_share_carrier__maghemite",
+      "own_carrier__pyrrhotite_count_log",
+      "own_carrier__pyrrhotite_present",
+      "reference_carrier__pyrrhotite_count_log",
+      "own_share_carrier__pyrrhotite",
+      "own_carrier__greigite_count_log",
+      "own_carrier__greigite_present",
+      "reference_carrier__greigite_count_log",
+      "own_share_carrier__greigite",
+      "own_carrier__goethite_count_log",
+      "own_carrier__goethite_present",
+      "reference_carrier__goethite_count_log",
+      "own_share_carrier__goethite",
+      "own_carrier__ilmenite_count_log",
+      "own_carrier__ilmenite_present",
+      "reference_carrier__ilmenite_count_log",
+      "own_share_carrier__ilmenite",
+      "own_diagnostic__saturation_behavior_count_log",
+      "own_diagnostic__saturation_behavior_present",
+      "reference_diagnostic__saturation_behavior_count_log",
+      "own_share_diagnostic__saturation_behavior",
+      "own_diagnostic__curie_temperature_count_log",
+      "own_diagnostic__curie_temperature_present",
+      "reference_diagnostic__curie_temperature_count_log",
+      "own_share_diagnostic__curie_temperature",
+      "own_diagnostic__domain_state_count_log",
+      "own_diagnostic__domain_state_present",
+      "reference_diagnostic__domain_state_count_log",
+      "own_share_diagnostic__domain_state",
+      "own_diagnostic__mineral_transition_count_log",
+      "own_diagnostic__mineral_transition_present",
+      "reference_diagnostic__mineral_transition_count_log",
+      "own_share_diagnostic__mineral_transition",
+      "own_method__irm_acquisition_count_log",
+      "own_method__irm_acquisition_present",
+      "reference_method__irm_acquisition_count_log",
+      "own_share_method__irm_acquisition",
+      "own_method__thermomagnetic_curve_count_log",
+      "own_method__thermomagnetic_curve_present",
+      "reference_method__thermomagnetic_curve_count_log",
+      "own_share_method__thermomagnetic_curve",
+      "own_method__temperature_dependent_susceptibility_count_log",
+      "own_method__temperature_dependent_susceptibility_present",
+      "reference_method__temperature_dependent_susceptibility_count_log",
+      "own_share_method__temperature_dependent_susceptibility",
+      "own_method__three_axis_irm_count_log",
+      "own_method__three_axis_irm_present",
+      "reference_method__three_axis_irm_count_log",
+      "own_share_method__three_axis_irm",
+      "own_method__low_temperature_irm_count_log",
+      "own_method__low_temperature_irm_present",
+      "reference_method__low_temperature_irm_count_log",
+      "own_share_method__low_temperature_irm",
+      "own_method__hysteresis_forc_count_log",
+      "own_method__hysteresis_forc_present",
+      "reference_method__hysteresis_forc_count_log",
+      "own_share_method__hysteresis_forc",
+      "own_method__magnetic_fabric_count_log",
+      "own_method__magnetic_fabric_present",
+      "reference_method__magnetic_fabric_count_log",
+      "own_share_method__magnetic_fabric",
+      "own_method__petrographic_microscopy_count_log",
+      "own_method__petrographic_microscopy_present",
+      "reference_method__petrographic_microscopy_count_log",
+      "own_share_method__petrographic_microscopy",
+      "own_method__mineralogical_phase_analysis_count_log",
+      "own_method__mineralogical_phase_analysis_present",
+      "reference_method__mineralogical_phase_analysis_count_log",
+      "own_share_method__mineralogical_phase_analysis",
+      "own_method__irm_acquisition_count_log",
+      "own_method__irm_acquisition_present",
+      "reference_method__irm_acquisition_count_log",
+      "own_share_method__irm_acquisition",
+      "own_method__thermomagnetic_curve_count_log",
+      "own_method__thermomagnetic_curve_present",
+      "reference_method__thermomagnetic_curve_count_log",
+      "own_share_method__thermomagnetic_curve",
+      "own_method__temperature_dependent_susceptibility_count_log",
+      "own_method__temperature_dependent_susceptibility_present",
+      "reference_method__temperature_dependent_susceptibility_count_log",
+      "own_share_method__temperature_dependent_susceptibility",
+      "own_method__three_axis_irm_count_log",
+      "own_method__three_axis_irm_present",
+      "reference_method__three_axis_irm_count_log",
+      "own_share_method__three_axis_irm",
+      "own_method__remanence_temperature_experiment_count_log",
+      "own_method__remanence_temperature_experiment_present",
+      "reference_method__remanence_temperature_experiment_count_log",
+      "own_share_method__remanence_temperature_experiment",
+      "own_method__hysteresis_forc_count_log",
+      "own_method__hysteresis_forc_present",
+      "reference_method__hysteresis_forc_count_log",
+      "own_share_method__hysteresis_forc",
+      "own_method__coercivity_backfield_count_log",
+      "own_method__coercivity_backfield_present",
+      "reference_method__coercivity_backfield_count_log",
+      "own_share_method__coercivity_backfield",
+      "own_method__unblocking_spectrum_count_log",
+      "own_method__unblocking_spectrum_present",
+      "reference_method__unblocking_spectrum_count_log",
+      "own_share_method__unblocking_spectrum",
+      "own_method__magnetic_fabric_count_log",
+      "own_method__magnetic_fabric_present",
+      "reference_method__magnetic_fabric_count_log",
+      "own_share_method__magnetic_fabric",
+      "own_method__mineralogical_phase_analysis_count_log",
+      "own_method__mineralogical_phase_analysis_present",
+      "reference_method__mineralogical_phase_analysis_count_log",
+      "own_share_method__mineralogical_phase_analysis",
+      "own_diagnostic__saturation_behavior_count_log",
+      "own_diagnostic__saturation_behavior_present",
+      "reference_diagnostic__saturation_behavior_count_log",
+      "own_share_diagnostic__saturation_behavior",
+      "own_diagnostic__curie_temperature_count_log",
+      "own_diagnostic__curie_temperature_present",
+      "reference_diagnostic__curie_temperature_count_log",
+      "own_share_diagnostic__curie_temperature",
+      "own_diagnostic__domain_state_count_log",
+      "own_diagnostic__domain_state_present",
+      "reference_diagnostic__domain_state_count_log",
+      "own_share_diagnostic__domain_state",
+      "own_diagnostic__coercivity_parameter_count_log",
+      "own_diagnostic__coercivity_parameter_present",
+      "reference_diagnostic__coercivity_parameter_count_log",
+      "own_share_diagnostic__coercivity_parameter",
+      "own_diagnostic__mineral_alteration_texture_count_log",
+      "own_diagnostic__mineral_alteration_texture_present",
+      "reference_diagnostic__mineral_alteration_texture_count_log",
+      "own_share_diagnostic__mineral_alteration_texture",
+      "own_carrier__iron_titanium_oxide_count_log",
+      "own_carrier__iron_titanium_oxide_present",
+      "reference_carrier__iron_titanium_oxide_count_log",
+      "own_share_carrier__iron_titanium_oxide",
+      "own_carrier__iron_sulfide_count_log",
+      "own_carrier__iron_sulfide_present",
+      "reference_carrier__iron_sulfide_count_log",
+      "own_share_carrier__iron_sulfide",
+      "own_method_count_log",
+      "own_method_distinct_log",
+      "reference_method_count_log",
+      "own_diagnostic_count_log",
+      "own_diagnostic_distinct_log",
+      "reference_diagnostic_count_log",
+      "own_carrier_count_log",
+      "own_carrier_distinct_log",
+      "reference_carrier_count_log",
+      "own_other_count_log",
+      "own_other_distinct_log",
+      "reference_other_count_log",
+      "method_event_irm_acquisition_event_log",
+      "method_event_irm_acquisition_execution_log",
+      "method_event_irm_acquisition_result_log",
+      "method_event_irm_acquisition_quantified_log",
+      "method_event_irm_acquisition_diagnostic_log",
+      "method_event_irm_acquisition_carrier_log",
+      "method_event_irm_acquisition_negated_log",
+      "method_event_irm_acquisition_methods_section_log",
+      "method_event_irm_acquisition_results_section_log",
+      "method_event_irm_acquisition_strong_log",
+      "method_event_thermomagnetic_curve_event_log",
+      "method_event_thermomagnetic_curve_execution_log",
+      "method_event_thermomagnetic_curve_result_log",
+      "method_event_thermomagnetic_curve_quantified_log",
+      "method_event_thermomagnetic_curve_diagnostic_log",
+      "method_event_thermomagnetic_curve_carrier_log",
+      "method_event_thermomagnetic_curve_negated_log",
+      "method_event_thermomagnetic_curve_methods_section_log",
+      "method_event_thermomagnetic_curve_results_section_log",
+      "method_event_thermomagnetic_curve_strong_log",
+      "method_event_temperature_dependent_susceptibility_event_log",
+      "method_event_temperature_dependent_susceptibility_execution_log",
+      "method_event_temperature_dependent_susceptibility_result_log",
+      "method_event_temperature_dependent_susceptibility_quantified_log",
+      "method_event_temperature_dependent_susceptibility_diagnostic_log",
+      "method_event_temperature_dependent_susceptibility_carrier_log",
+      "method_event_temperature_dependent_susceptibility_negated_log",
+      "method_event_temperature_dependent_susceptibility_methods_section_log",
+      "method_event_temperature_dependent_susceptibility_results_section_log",
+      "method_event_temperature_dependent_susceptibility_strong_log",
+      "method_event_three_axis_irm_event_log",
+      "method_event_three_axis_irm_execution_log",
+      "method_event_three_axis_irm_result_log",
+      "method_event_three_axis_irm_quantified_log",
+      "method_event_three_axis_irm_diagnostic_log",
+      "method_event_three_axis_irm_carrier_log",
+      "method_event_three_axis_irm_negated_log",
+      "method_event_three_axis_irm_methods_section_log",
+      "method_event_three_axis_irm_results_section_log",
+      "method_event_three_axis_irm_strong_log",
+      "method_event_low_temperature_irm_event_log",
+      "method_event_low_temperature_irm_execution_log",
+      "method_event_low_temperature_irm_result_log",
+      "method_event_low_temperature_irm_quantified_log",
+      "method_event_low_temperature_irm_diagnostic_log",
+      "method_event_low_temperature_irm_carrier_log",
+      "method_event_low_temperature_irm_negated_log",
+      "method_event_low_temperature_irm_methods_section_log",
+      "method_event_low_temperature_irm_results_section_log",
+      "method_event_low_temperature_irm_strong_log",
+      "method_event_hysteresis_forc_event_log",
+      "method_event_hysteresis_forc_execution_log",
+      "method_event_hysteresis_forc_result_log",
+      "method_event_hysteresis_forc_quantified_log",
+      "method_event_hysteresis_forc_diagnostic_log",
+      "method_event_hysteresis_forc_carrier_log",
+      "method_event_hysteresis_forc_negated_log",
+      "method_event_hysteresis_forc_methods_section_log",
+      "method_event_hysteresis_forc_results_section_log",
+      "method_event_hysteresis_forc_strong_log",
+      "method_event_magnetic_fabric_event_log",
+      "method_event_magnetic_fabric_execution_log",
+      "method_event_magnetic_fabric_result_log",
+      "method_event_magnetic_fabric_quantified_log",
+      "method_event_magnetic_fabric_diagnostic_log",
+      "method_event_magnetic_fabric_carrier_log",
+      "method_event_magnetic_fabric_negated_log",
+      "method_event_magnetic_fabric_methods_section_log",
+      "method_event_magnetic_fabric_results_section_log",
+      "method_event_magnetic_fabric_strong_log",
+      "method_event_petrographic_microscopy_event_log",
+      "method_event_petrographic_microscopy_execution_log",
+      "method_event_petrographic_microscopy_result_log",
+      "method_event_petrographic_microscopy_quantified_log",
+      "method_event_petrographic_microscopy_diagnostic_log",
+      "method_event_petrographic_microscopy_carrier_log",
+      "method_event_petrographic_microscopy_negated_log",
+      "method_event_petrographic_microscopy_methods_section_log",
+      "method_event_petrographic_microscopy_results_section_log",
+      "method_event_petrographic_microscopy_strong_log",
+      "method_event_mineralogical_phase_analysis_event_log",
+      "method_event_mineralogical_phase_analysis_execution_log",
+      "method_event_mineralogical_phase_analysis_result_log",
+      "method_event_mineralogical_phase_analysis_quantified_log",
+      "method_event_mineralogical_phase_analysis_diagnostic_log",
+      "method_event_mineralogical_phase_analysis_carrier_log",
+      "method_event_mineralogical_phase_analysis_negated_log",
+      "method_event_mineralogical_phase_analysis_methods_section_log",
+      "method_event_mineralogical_phase_analysis_results_section_log",
+      "method_event_mineralogical_phase_analysis_strong_log",
+      "method_event_irm_acquisition_event_log",
+      "method_event_irm_acquisition_execution_log",
+      "method_event_irm_acquisition_result_log",
+      "method_event_irm_acquisition_quantified_log",
+      "method_event_irm_acquisition_diagnostic_log",
+      "method_event_irm_acquisition_carrier_log",
+      "method_event_irm_acquisition_negated_log",
+      "method_event_irm_acquisition_methods_section_log",
+      "method_event_irm_acquisition_results_section_log",
+      "method_event_irm_acquisition_strong_log",
+      "method_event_thermomagnetic_curve_event_log",
+      "method_event_thermomagnetic_curve_execution_log",
+      "method_event_thermomagnetic_curve_result_log",
+      "method_event_thermomagnetic_curve_quantified_log",
+      "method_event_thermomagnetic_curve_diagnostic_log",
+      "method_event_thermomagnetic_curve_carrier_log",
+      "method_event_thermomagnetic_curve_negated_log",
+      "method_event_thermomagnetic_curve_methods_section_log",
+      "method_event_thermomagnetic_curve_results_section_log",
+      "method_event_thermomagnetic_curve_strong_log",
+      "method_event_temperature_dependent_susceptibility_event_log",
+      "method_event_temperature_dependent_susceptibility_execution_log",
+      "method_event_temperature_dependent_susceptibility_result_log",
+      "method_event_temperature_dependent_susceptibility_quantified_log",
+      "method_event_temperature_dependent_susceptibility_diagnostic_log",
+      "method_event_temperature_dependent_susceptibility_carrier_log",
+      "method_event_temperature_dependent_susceptibility_negated_log",
+      "method_event_temperature_dependent_susceptibility_methods_section_log",
+      "method_event_temperature_dependent_susceptibility_results_section_log",
+      "method_event_temperature_dependent_susceptibility_strong_log",
+      "method_event_three_axis_irm_event_log",
+      "method_event_three_axis_irm_execution_log",
+      "method_event_three_axis_irm_result_log",
+      "method_event_three_axis_irm_quantified_log",
+      "method_event_three_axis_irm_diagnostic_log",
+      "method_event_three_axis_irm_carrier_log",
+      "method_event_three_axis_irm_negated_log",
+      "method_event_three_axis_irm_methods_section_log",
+      "method_event_three_axis_irm_results_section_log",
+      "method_event_three_axis_irm_strong_log",
+      "method_event_remanence_temperature_experiment_event_log",
+      "method_event_remanence_temperature_experiment_execution_log",
+      "method_event_remanence_temperature_experiment_result_log",
+      "method_event_remanence_temperature_experiment_quantified_log",
+      "method_event_remanence_temperature_experiment_diagnostic_log",
+      "method_event_remanence_temperature_experiment_carrier_log",
+      "method_event_remanence_temperature_experiment_negated_log",
+      "method_event_remanence_temperature_experiment_methods_section_log",
+      "method_event_remanence_temperature_experiment_results_section_log",
+      "method_event_remanence_temperature_experiment_strong_log",
+      "method_event_hysteresis_forc_event_log",
+      "method_event_hysteresis_forc_execution_log",
+      "method_event_hysteresis_forc_result_log",
+      "method_event_hysteresis_forc_quantified_log",
+      "method_event_hysteresis_forc_diagnostic_log",
+      "method_event_hysteresis_forc_carrier_log",
+      "method_event_hysteresis_forc_negated_log",
+      "method_event_hysteresis_forc_methods_section_log",
+      "method_event_hysteresis_forc_results_section_log",
+      "method_event_hysteresis_forc_strong_log",
+      "method_event_coercivity_backfield_event_log",
+      "method_event_coercivity_backfield_execution_log",
+      "method_event_coercivity_backfield_result_log",
+      "method_event_coercivity_backfield_quantified_log",
+      "method_event_coercivity_backfield_diagnostic_log",
+      "method_event_coercivity_backfield_carrier_log",
+      "method_event_coercivity_backfield_negated_log",
+      "method_event_coercivity_backfield_methods_section_log",
+      "method_event_coercivity_backfield_results_section_log",
+      "method_event_coercivity_backfield_strong_log",
+      "method_event_unblocking_spectrum_event_log",
+      "method_event_unblocking_spectrum_execution_log",
+      "method_event_unblocking_spectrum_result_log",
+      "method_event_unblocking_spectrum_quantified_log",
+      "method_event_unblocking_spectrum_diagnostic_log",
+      "method_event_unblocking_spectrum_carrier_log",
+      "method_event_unblocking_spectrum_negated_log",
+      "method_event_unblocking_spectrum_methods_section_log",
+      "method_event_unblocking_spectrum_results_section_log",
+      "method_event_unblocking_spectrum_strong_log",
+      "method_event_magnetic_fabric_event_log",
+      "method_event_magnetic_fabric_execution_log",
+      "method_event_magnetic_fabric_result_log",
+      "method_event_magnetic_fabric_quantified_log",
+      "method_event_magnetic_fabric_diagnostic_log",
+      "method_event_magnetic_fabric_carrier_log",
+      "method_event_magnetic_fabric_negated_log",
+      "method_event_magnetic_fabric_methods_section_log",
+      "method_event_magnetic_fabric_results_section_log",
+      "method_event_magnetic_fabric_strong_log",
+      "method_event_mineralogical_phase_analysis_event_log",
+      "method_event_mineralogical_phase_analysis_execution_log",
+      "method_event_mineralogical_phase_analysis_result_log",
+      "method_event_mineralogical_phase_analysis_quantified_log",
+      "method_event_mineralogical_phase_analysis_diagnostic_log",
+      "method_event_mineralogical_phase_analysis_carrier_log",
+      "method_event_mineralogical_phase_analysis_negated_log",
+      "method_event_mineralogical_phase_analysis_methods_section_log",
+      "method_event_mineralogical_phase_analysis_results_section_log",
+      "method_event_mineralogical_phase_analysis_strong_log",
+      "method_event_total_event_log",
+      "method_event_total_execution_log",
+      "method_event_total_result_log",
+      "method_event_total_quantified_log",
+      "method_event_total_diagnostic_log",
+      "method_event_total_carrier_log",
+      "method_event_total_negated_log",
+      "method_event_total_methods_section_log",
+      "method_event_total_results_section_log",
+      "method_event_total_strong_log",
+      "window_method_carrier_count_log",
+      "window_method_diagnostic_count_log",
+      "window_triple_count_log",
+      "carrier_attribution_count_log",
+      "quantified_result_count_log",
+      "demag_only_count_log",
+      "own_text_characters_log",
+      "reference_fraction",
+      "criterion_performed_method",
+      "criterion_self_authenticating_result",
+      "criterion_carrier_attribution",
+      "criterion_method_only",
+      "criterion_carrier_only",
+      "criterion_practice_positive"
+    ],
+    "practice_sha256": "09c192048a17adbbd102bd27ed3fb8a9fa76a3d3fd94421eb708e031af40af74",
+    "combined_practice_sha256": "abde213172f6494fb4f4ee407abb12fc3335baad65fd354a4b39203c8ebdacfd",
+    "page_cache_sha256": "388bd9d405119a2ee19aa08d9b0194c3902bdcb0b52b9d5e8925f7ff2405a076",
+    "knowledge": {
+      "positive_kb_status": "loaded",
+      "positive_kb_pattern_field": "runtime_original_text_patterns",
+      "concept_count": 38,
+      "runtime_pattern_count": 80,
+      "runtime_pattern_counts_by_source": {
+        "frozen_taxonomy": 48,
+        "positive_rockmag_expert_kb": 32
+      },
+      "invalid_pattern_count": 0,
+      "inputs": {
+        "frozen_taxonomy": {
+          "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/calibration/r3_rockmag_text_distillation_v1.json",
+          "sha256": "149df539a937678c8204aa6d6e60e77bd901e4a77975d26caa5362749aa18ad4"
+        },
+        "positive_rockmag_expert_kb": {
+          "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/calibration/r3_positive_rockmag_expert_kb_v2.json",
+          "sha256": "b0fc28866fe6702938a7cc02fcf7b87b68abc9e3b4e391a53a53de1615b5e9ef"
+        }
+      }
+    }
+  },
+  "results": {
+    "r3__practice__hgb": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.86009174,
+      "macro_f1": 0.84689601,
+      "balanced_accuracy": 0.85451928,
+      "confusion": {
+        "tn": 247,
+        "fp": 48,
+        "fn": 74,
+        "tp": 503
+      },
+      "predicted_positive": 551,
+      "threshold": 0.5
+    },
+    "r3__practice__rf": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.86582569,
+      "macro_f1": 0.85076683,
+      "balanced_accuracy": 0.85222513,
+      "confusion": {
+        "tn": 239,
+        "fp": 56,
+        "fn": 61,
+        "tp": 516
+      },
+      "predicted_positive": 572,
+      "threshold": 0.5
+    },
+    "r3__practice__extra": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.86811927,
+      "macro_f1": 0.85184594,
+      "balanced_accuracy": 0.84981641,
+      "confusion": {
+        "tn": 234,
+        "fp": 61,
+        "fn": 54,
+        "tp": 523
+      },
+      "predicted_positive": 584,
+      "threshold": 0.5
+    },
+    "r3__practice__logreg": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.8543578,
+      "macro_f1": 0.84209543,
+      "balanced_accuracy": 0.85349999,
+      "confusion": {
+        "tn": 251,
+        "fp": 44,
+        "fn": 83,
+        "tp": 494
+      },
+      "predicted_positive": 538,
+      "threshold": 0.5
+    },
+    "r3__practice__mean4": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.86926606,
+      "macro_f1": 0.85540318,
+      "balanced_accuracy": 0.8589666,
+      "confusion": {
+        "tn": 244,
+        "fp": 51,
+        "fn": 63,
+        "tp": 514
+      },
+      "predicted_positive": 565,
+      "threshold": 0.5
+    },
+    "r3__combined_practice__hgb": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87614679,
+      "macro_f1": 0.8627972,
+      "balanced_accuracy": 0.86582264,
+      "confusion": {
+        "tn": 246,
+        "fp": 49,
+        "fn": 59,
+        "tp": 518
+      },
+      "predicted_positive": 567,
+      "threshold": 0.5
+    },
+    "r3__combined_practice__rf": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87614679,
+      "macro_f1": 0.86074489,
+      "balanced_accuracy": 0.85836736,
+      "confusion": {
+        "tn": 237,
+        "fp": 58,
+        "fn": 50,
+        "tp": 527
+      },
+      "predicted_positive": 585,
+      "threshold": 0.5
+    },
+    "r3__combined_practice__extra": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87385321,
+      "macro_f1": 0.85767448,
+      "balanced_accuracy": 0.85414916,
+      "confusion": {
+        "tn": 234,
+        "fp": 61,
+        "fn": 49,
+        "tp": 528
+      },
+      "predicted_positive": 589,
+      "threshold": 0.5
+    },
+    "r3__combined_practice__logreg": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87041284,
+      "macro_f1": 0.85787455,
+      "balanced_accuracy": 0.86480334,
+      "confusion": {
+        "tn": 250,
+        "fp": 45,
+        "fn": 68,
+        "tp": 509
+      },
+      "predicted_positive": 554,
+      "threshold": 0.5
+    },
+    "r3__combined_practice__mean4": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87614679,
+      "macro_f1": 0.86235765,
+      "balanced_accuracy": 0.86416591,
+      "confusion": {
+        "tn": 244,
+        "fp": 51,
+        "fn": 57,
+        "tp": 520
+      },
+      "predicted_positive": 571,
+      "threshold": 0.5
+    },
+    "rockmag_nonempty__practice__hgb": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.86697248,
+      "macro_f1": 0.85286639,
+      "balanced_accuracy": 0.85640513,
+      "confusion": {
+        "tn": 243,
+        "fp": 52,
+        "fn": 64,
+        "tp": 513
+      },
+      "predicted_positive": 565,
+      "threshold": 0.5
+    },
+    "rockmag_nonempty__practice__rf": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.86811927,
+      "macro_f1": 0.85027987,
+      "balanced_accuracy": 0.84484622,
+      "confusion": {
+        "tn": 228,
+        "fp": 67,
+        "fn": 48,
+        "tp": 529
+      },
+      "predicted_positive": 596,
+      "threshold": 0.5
+    },
+    "rockmag_nonempty__practice__extra": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.86811927,
+      "macro_f1": 0.85081266,
+      "balanced_accuracy": 0.84650295,
+      "confusion": {
+        "tn": 230,
+        "fp": 65,
+        "fn": 50,
+        "tp": 527
+      },
+      "predicted_positive": 592,
+      "threshold": 0.5
+    },
+    "rockmag_nonempty__practice__logreg": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.85665138,
+      "macro_f1": 0.84347514,
+      "balanced_accuracy": 0.85191963,
+      "confusion": {
+        "tn": 247,
+        "fp": 48,
+        "fn": 77,
+        "tp": 500
+      },
+      "predicted_positive": 548,
+      "threshold": 0.5
+    },
+    "rockmag_nonempty__practice__mean4": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87614679,
+      "macro_f1": 0.86168082,
+      "balanced_accuracy": 0.86168082,
+      "confusion": {
+        "tn": 241,
+        "fp": 54,
+        "fn": 54,
+        "tp": 523
+      },
+      "predicted_positive": 577,
+      "threshold": 0.5
+    },
+    "rockmag_nonempty__combined_practice__hgb": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88073394,
+      "macro_f1": 0.86520167,
+      "balanced_accuracy": 0.8610052,
+      "confusion": {
+        "tn": 236,
+        "fp": 59,
+        "fn": 45,
+        "tp": 532
+      },
+      "predicted_positive": 591,
+      "threshold": 0.5
+    },
+    "rockmag_nonempty__combined_practice__rf": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87958716,
+      "macro_f1": 0.86329901,
+      "balanced_accuracy": 0.85765356,
+      "confusion": {
+        "tn": 233,
+        "fp": 62,
+        "fn": 43,
+        "tp": 534
+      },
+      "predicted_positive": 596,
+      "threshold": 0.5
+    },
+    "rockmag_nonempty__combined_practice__extra": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87385321,
+      "macro_f1": 0.85613755,
+      "balanced_accuracy": 0.84917898,
+      "confusion": {
+        "tn": 228,
+        "fp": 67,
+        "fn": 43,
+        "tp": 534
+      },
+      "predicted_positive": 601,
+      "threshold": 0.5
+    },
+    "rockmag_nonempty__combined_practice__logreg": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.86697248,
+      "macro_f1": 0.85309632,
+      "balanced_accuracy": 0.8572335,
+      "confusion": {
+        "tn": 244,
+        "fp": 51,
+        "fn": 65,
+        "tp": 512
+      },
+      "predicted_positive": 563,
+      "threshold": 0.5
+    },
+    "rockmag_nonempty__combined_practice__mean4": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88073394,
+      "macro_f1": 0.86567129,
+      "balanced_accuracy": 0.86266193,
+      "confusion": {
+        "tn": 238,
+        "fp": 57,
+        "fn": 47,
+        "tp": 530
+      },
+      "predicted_positive": 587,
+      "threshold": 0.5
+    },
+    "direct_practice_criterion": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.73279817,
+      "macro_f1": 0.61453628,
+      "balanced_accuracy": 0.61833857,
+      "confusion": {
+        "tn": 78,
+        "fp": 217,
+        "fn": 16,
+        "tp": 561
+      },
+      "predicted_positive": 778,
+      "threshold": 0.5
+    },
+    "existing_mean4": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87958716,
+      "macro_f1": 0.86628872,
+      "balanced_accuracy": 0.86842229,
+      "confusion": {
+        "tn": 246,
+        "fp": 49,
+        "fn": 56,
+        "tp": 521
+      },
+      "predicted_positive": 570,
+      "threshold": 0.5
+    }
+  },
+  "blends": {
+    "existing_mean4__r3__practice__hgb__w25": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87844037,
+      "macro_f1": 0.865338,
+      "balanced_accuracy": 0.8683841,
+      "confusion": {
+        "tn": 247,
+        "fp": 48,
+        "fn": 58,
+        "tp": 519
+      },
+      "predicted_positive": 567,
+      "threshold": 0.5
+    },
+    "existing_mean4__r3__practice__hgb__w50": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87155963,
+      "macro_f1": 0.85881401,
+      "balanced_accuracy": 0.86484152,
+      "confusion": {
+        "tn": 249,
+        "fp": 46,
+        "fn": 66,
+        "tp": 511
+      },
+      "predicted_positive": 557,
+      "threshold": 0.5
+    },
+    "existing_mean4__r3__practice__hgb__w75": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.86697248,
+      "macro_f1": 0.85399201,
+      "balanced_accuracy": 0.86054696,
+      "confusion": {
+        "tn": 248,
+        "fp": 47,
+        "fn": 69,
+        "tp": 508
+      },
+      "predicted_positive": 555,
+      "threshold": 0.5
+    },
+    "existing_mean4__r3__practice__rf__w25": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87844037,
+      "macro_f1": 0.86446603,
+      "balanced_accuracy": 0.86507065,
+      "confusion": {
+        "tn": 243,
+        "fp": 52,
+        "fn": 54,
+        "tp": 523
+      },
+      "predicted_positive": 575,
+      "threshold": 0.5
+    },
+    "existing_mean4__r3__practice__rf__w50": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87958716,
+      "macro_f1": 0.86585461,
+      "balanced_accuracy": 0.86676556,
+      "confusion": {
+        "tn": 244,
+        "fp": 51,
+        "fn": 54,
+        "tp": 523
+      },
+      "predicted_positive": 574,
+      "threshold": 0.5
+    },
+    "existing_mean4__r3__practice__rf__w75": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87155963,
+      "macro_f1": 0.85679429,
+      "balanced_accuracy": 0.85738625,
+      "confusion": {
+        "tn": 240,
+        "fp": 55,
+        "fn": 57,
+        "tp": 520
+      },
+      "predicted_positive": 575,
+      "threshold": 0.5
+    },
+    "existing_mean4__r3__practice__extra__w25": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88073394,
+      "macro_f1": 0.86680375,
+      "balanced_accuracy": 0.86680375,
+      "confusion": {
+        "tn": 243,
+        "fp": 52,
+        "fn": 52,
+        "tp": 525
+      },
+      "predicted_positive": 577,
+      "threshold": 0.5
+    },
+    "existing_mean4__r3__practice__extra__w50": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87385321,
+      "macro_f1": 0.85911935,
+      "balanced_accuracy": 0.85911935,
+      "confusion": {
+        "tn": 240,
+        "fp": 55,
+        "fn": 55,
+        "tp": 522
+      },
+      "predicted_positive": 577,
+      "threshold": 0.5
+    },
+    "existing_mean4__r3__practice__extra__w75": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87155963,
+      "macro_f1": 0.85607762,
+      "balanced_accuracy": 0.85490115,
+      "confusion": {
+        "tn": 237,
+        "fp": 58,
+        "fn": 54,
+        "tp": 523
+      },
+      "predicted_positive": 581,
+      "threshold": 0.5
+    },
+    "existing_mean4__r3__practice__logreg__w25": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87614679,
+      "macro_f1": 0.86343942,
+      "balanced_accuracy": 0.86830773,
+      "confusion": {
+        "tn": 249,
+        "fp": 46,
+        "fn": 62,
+        "tp": 515
+      },
+      "predicted_positive": 561,
+      "threshold": 0.5
+    },
+    "existing_mean4__r3__practice__logreg__w50": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87155963,
+      "macro_f1": 0.85944552,
+      "balanced_accuracy": 0.86732662,
+      "confusion": {
+        "tn": 252,
+        "fp": 43,
+        "fn": 69,
+        "tp": 508
+      },
+      "predicted_positive": 551,
+      "threshold": 0.5
+    },
+    "existing_mean4__r3__practice__logreg__w75": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.86123853,
+      "macro_f1": 0.84934584,
+      "balanced_accuracy": 0.86035602,
+      "confusion": {
+        "tn": 253,
+        "fp": 42,
+        "fn": 79,
+        "tp": 498
+      },
+      "predicted_positive": 540,
+      "threshold": 0.5
+    },
+    "existing_mean4__r3__practice__mean4__w25": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87729358,
+      "macro_f1": 0.86374184,
+      "balanced_accuracy": 0.86586082,
+      "confusion": {
+        "tn": 245,
+        "fp": 50,
+        "fn": 57,
+        "tp": 520
+      },
+      "predicted_positive": 570,
+      "threshold": 0.5
+    },
+    "existing_mean4__r3__practice__mean4__w50": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87614679,
+      "macro_f1": 0.86301354,
+      "balanced_accuracy": 0.866651,
+      "confusion": {
+        "tn": 247,
+        "fp": 48,
+        "fn": 60,
+        "tp": 517
+      },
+      "predicted_positive": 565,
+      "threshold": 0.5
+    },
+    "existing_mean4__r3__practice__mean4__w75": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87614679,
+      "macro_f1": 0.86322761,
+      "balanced_accuracy": 0.86747936,
+      "confusion": {
+        "tn": 248,
+        "fp": 47,
+        "fn": 61,
+        "tp": 516
+      },
+      "predicted_positive": 563,
+      "threshold": 0.5
+    },
+    "existing_mean4__r3__combined_practice__hgb__w25": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87958716,
+      "macro_f1": 0.86628872,
+      "balanced_accuracy": 0.86842229,
+      "confusion": {
+        "tn": 246,
+        "fp": 49,
+        "fn": 56,
+        "tp": 521
+      },
+      "predicted_positive": 570,
+      "threshold": 0.5
+    },
+    "existing_mean4__r3__combined_practice__hgb__w50": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87614679,
+      "macro_f1": 0.8627972,
+      "balanced_accuracy": 0.86582264,
+      "confusion": {
+        "tn": 246,
+        "fp": 49,
+        "fn": 59,
+        "tp": 518
+      },
+      "predicted_positive": 567,
+      "threshold": 0.5
+    },
+    "existing_mean4__r3__combined_practice__hgb__w75": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87844037,
+      "macro_f1": 0.865338,
+      "balanced_accuracy": 0.8683841,
+      "confusion": {
+        "tn": 247,
+        "fp": 48,
+        "fn": 58,
+        "tp": 519
+      },
+      "predicted_positive": 567,
+      "threshold": 0.5
+    },
+    "existing_mean4__r3__combined_practice__rf__w25": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87958716,
+      "macro_f1": 0.86585461,
+      "balanced_accuracy": 0.86676556,
+      "confusion": {
+        "tn": 244,
+        "fp": 51,
+        "fn": 54,
+        "tp": 523
+      },
+      "predicted_positive": 574,
+      "threshold": 0.5
+    },
+    "existing_mean4__r3__combined_practice__rf__w50": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87614679,
+      "macro_f1": 0.86190878,
+      "balanced_accuracy": 0.86250918,
+      "confusion": {
+        "tn": 242,
+        "fp": 53,
+        "fn": 55,
+        "tp": 522
+      },
+      "predicted_positive": 575,
+      "threshold": 0.5
+    },
+    "existing_mean4__r3__combined_practice__rf__w75": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87844037,
+      "macro_f1": 0.86378775,
+      "balanced_accuracy": 0.86258555,
+      "confusion": {
+        "tn": 240,
+        "fp": 55,
+        "fn": 51,
+        "tp": 526
+      },
+      "predicted_positive": 581,
+      "threshold": 0.5
+    },
+    "existing_mean4__r3__combined_practice__extra__w25": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88073394,
+      "macro_f1": 0.86680375,
+      "balanced_accuracy": 0.86680375,
+      "confusion": {
+        "tn": 243,
+        "fp": 52,
+        "fn": 52,
+        "tp": 525
+      },
+      "predicted_positive": 577,
+      "threshold": 0.5
+    },
+    "existing_mean4__r3__combined_practice__extra__w50": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87958716,
+      "macro_f1": 0.8647289,
+      "balanced_accuracy": 0.86262374,
+      "confusion": {
+        "tn": 239,
+        "fp": 56,
+        "fn": 49,
+        "tp": 528
+      },
+      "predicted_positive": 584,
+      "threshold": 0.5
+    },
+    "existing_mean4__r3__combined_practice__extra__w75": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87958716,
+      "macro_f1": 0.86426205,
+      "balanced_accuracy": 0.86096701,
+      "confusion": {
+        "tn": 237,
+        "fp": 58,
+        "fn": 47,
+        "tp": 530
+      },
+      "predicted_positive": 588,
+      "threshold": 0.5
+    },
+    "existing_mean4__r3__combined_practice__logreg__w25": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87844037,
+      "macro_f1": 0.86596832,
+      "balanced_accuracy": 0.87086919,
+      "confusion": {
+        "tn": 250,
+        "fp": 45,
+        "fn": 61,
+        "tp": 516
+      },
+      "predicted_positive": 561,
+      "threshold": 0.5
+    },
+    "existing_mean4__r3__combined_practice__logreg__w50": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87958716,
+      "macro_f1": 0.86793653,
+      "balanced_accuracy": 0.8750492,
+      "confusion": {
+        "tn": 254,
+        "fp": 41,
+        "fn": 64,
+        "tp": 513
+      },
+      "predicted_positive": 554,
+      "threshold": 0.5
+    },
+    "existing_mean4__r3__combined_practice__logreg__w75": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87385321,
+      "macro_f1": 0.86154415,
+      "balanced_accuracy": 0.86823135,
+      "confusion": {
+        "tn": 251,
+        "fp": 44,
+        "fn": 66,
+        "tp": 511
+      },
+      "predicted_positive": 555,
+      "threshold": 0.5
+    },
+    "existing_mean4__r3__combined_practice__mean4__w25": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87844037,
+      "macro_f1": 0.86468745,
+      "balanced_accuracy": 0.86589901,
+      "confusion": {
+        "tn": 244,
+        "fp": 51,
+        "fn": 55,
+        "tp": 522
+      },
+      "predicted_positive": 573,
+      "threshold": 0.5
+    },
+    "existing_mean4__r3__combined_practice__mean4__w50": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87729358,
+      "macro_f1": 0.86352181,
+      "balanced_accuracy": 0.86503246,
+      "confusion": {
+        "tn": 244,
+        "fp": 51,
+        "fn": 56,
+        "tp": 521
+      },
+      "predicted_positive": 572,
+      "threshold": 0.5
+    },
+    "existing_mean4__r3__combined_practice__mean4__w75": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87729358,
+      "macro_f1": 0.86374184,
+      "balanced_accuracy": 0.86586082,
+      "confusion": {
+        "tn": 245,
+        "fp": 50,
+        "fn": 57,
+        "tp": 520
+      },
+      "predicted_positive": 570,
+      "threshold": 0.5
+    },
+    "existing_mean4__rockmag_nonempty__practice__hgb__w25": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88073394,
+      "macro_f1": 0.86745551,
+      "balanced_accuracy": 0.86928884,
+      "confusion": {
+        "tn": 246,
+        "fp": 49,
+        "fn": 55,
+        "tp": 522
+      },
+      "predicted_positive": 571,
+      "threshold": 0.5
+    },
+    "existing_mean4__rockmag_nonempty__practice__hgb__w50": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88073394,
+      "macro_f1": 0.86766826,
+      "balanced_accuracy": 0.8701172,
+      "confusion": {
+        "tn": 247,
+        "fp": 48,
+        "fn": 56,
+        "tp": 521
+      },
+      "predicted_positive": 569,
+      "threshold": 0.5
+    },
+    "existing_mean4__rockmag_nonempty__practice__hgb__w75": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87385321,
+      "macro_f1": 0.86003374,
+      "balanced_accuracy": 0.86243281,
+      "confusion": {
+        "tn": 244,
+        "fp": 51,
+        "fn": 59,
+        "tp": 518
+      },
+      "predicted_positive": 569,
+      "threshold": 0.5
+    },
+    "existing_mean4__rockmag_nonempty__practice__rf__w25": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.8853211,
+      "macro_f1": 0.87171339,
+      "balanced_accuracy": 0.87109832,
+      "confusion": {
+        "tn": 244,
+        "fp": 51,
+        "fn": 49,
+        "tp": 528
+      },
+      "predicted_positive": 579,
+      "threshold": 0.5
+    },
+    "existing_mean4__rockmag_nonempty__practice__rf__w50": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88646789,
+      "macro_f1": 0.87245868,
+      "balanced_accuracy": 0.87030814,
+      "confusion": {
+        "tn": 242,
+        "fp": 53,
+        "fn": 46,
+        "tp": 531
+      },
+      "predicted_positive": 584,
+      "threshold": 0.5
+    },
+    "existing_mean4__rockmag_nonempty__practice__rf__w75": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87155963,
+      "macro_f1": 0.85457578,
+      "balanced_accuracy": 0.84993097,
+      "confusion": {
+        "tn": 231,
+        "fp": 64,
+        "fn": 48,
+        "tp": 529
+      },
+      "predicted_positive": 593,
+      "threshold": 0.5
+    },
+    "existing_mean4__rockmag_nonempty__practice__extra__w25": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88302752,
+      "macro_f1": 0.86892783,
+      "balanced_accuracy": 0.86770849,
+      "confusion": {
+        "tn": 242,
+        "fp": 53,
+        "fn": 49,
+        "tp": 528
+      },
+      "predicted_positive": 581,
+      "threshold": 0.5
+    },
+    "existing_mean4__rockmag_nonempty__practice__extra__w50": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87729358,
+      "macro_f1": 0.86215231,
+      "balanced_accuracy": 0.86006227,
+      "confusion": {
+        "tn": 238,
+        "fp": 57,
+        "fn": 50,
+        "tp": 527
+      },
+      "predicted_positive": 584,
+      "threshold": 0.5
+    },
+    "existing_mean4__rockmag_nonempty__practice__extra__w75": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87729358,
+      "macro_f1": 0.86191566,
+      "balanced_accuracy": 0.85923391,
+      "confusion": {
+        "tn": 237,
+        "fp": 58,
+        "fn": 49,
+        "tp": 528
+      },
+      "predicted_positive": 586,
+      "threshold": 0.5
+    },
+    "existing_mean4__rockmag_nonempty__practice__logreg__w25": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87729358,
+      "macro_f1": 0.86417505,
+      "balanced_accuracy": 0.86751755,
+      "confusion": {
+        "tn": 247,
+        "fp": 48,
+        "fn": 59,
+        "tp": 518
+      },
+      "predicted_positive": 566,
+      "threshold": 0.5
+    },
+    "existing_mean4__rockmag_nonempty__practice__logreg__w50": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.86926606,
+      "macro_f1": 0.85607394,
+      "balanced_accuracy": 0.86145169,
+      "confusion": {
+        "tn": 247,
+        "fp": 48,
+        "fn": 66,
+        "tp": 511
+      },
+      "predicted_positive": 559,
+      "threshold": 0.5
+    },
+    "existing_mean4__rockmag_nonempty__practice__logreg__w75": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.86123853,
+      "macro_f1": 0.84781257,
+      "balanced_accuracy": 0.85455747,
+      "confusion": {
+        "tn": 246,
+        "fp": 49,
+        "fn": 72,
+        "tp": 505
+      },
+      "predicted_positive": 554,
+      "threshold": 0.5
+    },
+    "existing_mean4__rockmag_nonempty__practice__mean4__w25": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88417431,
+      "macro_f1": 0.87075282,
+      "balanced_accuracy": 0.87106013,
+      "confusion": {
+        "tn": 245,
+        "fp": 50,
+        "fn": 51,
+        "tp": 526
+      },
+      "predicted_positive": 576,
+      "threshold": 0.5
+    },
+    "existing_mean4__rockmag_nonempty__practice__mean4__w50": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.8853211,
+      "macro_f1": 0.87255338,
+      "balanced_accuracy": 0.87441177,
+      "confusion": {
+        "tn": 248,
+        "fp": 47,
+        "fn": 53,
+        "tp": 524
+      },
+      "predicted_positive": 571,
+      "threshold": 0.5
+    },
+    "existing_mean4__rockmag_nonempty__practice__mean4__w75": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87614679,
+      "macro_f1": 0.86190878,
+      "balanced_accuracy": 0.86250918,
+      "confusion": {
+        "tn": 242,
+        "fp": 53,
+        "fn": 55,
+        "tp": 522
+      },
+      "predicted_positive": 575,
+      "threshold": 0.5
+    },
+    "existing_mean4__rockmag_nonempty__combined_practice__hgb__w25": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88302752,
+      "macro_f1": 0.86914766,
+      "balanced_accuracy": 0.86853685,
+      "confusion": {
+        "tn": 243,
+        "fp": 52,
+        "fn": 50,
+        "tp": 527
+      },
+      "predicted_positive": 579,
+      "threshold": 0.5
+    },
+    "existing_mean4__rockmag_nonempty__combined_practice__hgb__w50": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.8853211,
+      "macro_f1": 0.87128011,
+      "balanced_accuracy": 0.86944159,
+      "confusion": {
+        "tn": 242,
+        "fp": 53,
+        "fn": 47,
+        "tp": 530
+      },
+      "predicted_positive": 583,
+      "threshold": 0.5
+    },
+    "existing_mean4__rockmag_nonempty__combined_practice__hgb__w75": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88417431,
+      "macro_f1": 0.86920499,
+      "balanced_accuracy": 0.86526158,
+      "confusion": {
+        "tn": 238,
+        "fp": 57,
+        "fn": 44,
+        "tp": 533
+      },
+      "predicted_positive": 590,
+      "threshold": 0.5
+    },
+    "existing_mean4__rockmag_nonempty__combined_practice__rf__w25": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88302752,
+      "macro_f1": 0.86936521,
+      "balanced_accuracy": 0.86936521,
+      "confusion": {
+        "tn": 244,
+        "fp": 51,
+        "fn": 51,
+        "tp": 526
+      },
+      "predicted_positive": 577,
+      "threshold": 0.5
+    },
+    "existing_mean4__rockmag_nonempty__combined_practice__rf__w50": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88761468,
+      "macro_f1": 0.87363889,
+      "balanced_accuracy": 0.87117469,
+      "confusion": {
+        "tn": 242,
+        "fp": 53,
+        "fn": 45,
+        "tp": 532
+      },
+      "predicted_positive": 585,
+      "threshold": 0.5
+    },
+    "existing_mean4__rockmag_nonempty__combined_practice__rf__w75": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87844037,
+      "macro_f1": 0.86236636,
+      "balanced_accuracy": 0.85761537,
+      "confusion": {
+        "tn": 234,
+        "fp": 61,
+        "fn": 45,
+        "tp": 532
+      },
+      "predicted_positive": 593,
+      "threshold": 0.5
+    },
+    "existing_mean4__rockmag_nonempty__combined_practice__extra__w25": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88417431,
+      "macro_f1": 0.87032197,
+      "balanced_accuracy": 0.8694034,
+      "confusion": {
+        "tn": 243,
+        "fp": 52,
+        "fn": 49,
+        "tp": 528
+      },
+      "predicted_positive": 580,
+      "threshold": 0.5
+    },
+    "existing_mean4__rockmag_nonempty__combined_practice__extra__w50": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88302752,
+      "macro_f1": 0.86825453,
+      "balanced_accuracy": 0.86522339,
+      "confusion": {
+        "tn": 239,
+        "fp": 56,
+        "fn": 46,
+        "tp": 531
+      },
+      "predicted_positive": 587,
+      "threshold": 0.5
+    },
+    "existing_mean4__rockmag_nonempty__combined_practice__extra__w75": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88302752,
+      "macro_f1": 0.8673238,
+      "balanced_accuracy": 0.86190994,
+      "confusion": {
+        "tn": 235,
+        "fp": 60,
+        "fn": 42,
+        "tp": 535
+      },
+      "predicted_positive": 595,
+      "threshold": 0.5
+    },
+    "existing_mean4__rockmag_nonempty__combined_practice__logreg__w25": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87385321,
+      "macro_f1": 0.86003374,
+      "balanced_accuracy": 0.86243281,
+      "confusion": {
+        "tn": 244,
+        "fp": 51,
+        "fn": 59,
+        "tp": 518
+      },
+      "predicted_positive": 569,
+      "threshold": 0.5
+    },
+    "existing_mean4__rockmag_nonempty__combined_practice__logreg__w50": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.87270642,
+      "macro_f1": 0.85909748,
+      "balanced_accuracy": 0.86239462,
+      "confusion": {
+        "tn": 245,
+        "fp": 50,
+        "fn": 61,
+        "tp": 516
+      },
+      "predicted_positive": 566,
+      "threshold": 0.5
+    },
+    "existing_mean4__rockmag_nonempty__combined_practice__logreg__w75": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.86926606,
+      "macro_f1": 0.85494405,
+      "balanced_accuracy": 0.85730987,
+      "confusion": {
+        "tn": 242,
+        "fp": 53,
+        "fn": 61,
+        "tp": 516
+      },
+      "predicted_positive": 569,
+      "threshold": 0.5
+    },
+    "existing_mean4__rockmag_nonempty__combined_practice__mean4__w25": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88302752,
+      "macro_f1": 0.86914766,
+      "balanced_accuracy": 0.86853685,
+      "confusion": {
+        "tn": 243,
+        "fp": 52,
+        "fn": 50,
+        "tp": 527
+      },
+      "predicted_positive": 579,
+      "threshold": 0.5
+    },
+    "existing_mean4__rockmag_nonempty__combined_practice__mean4__w50": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88188073,
+      "macro_f1": 0.86797492,
+      "balanced_accuracy": 0.8676703,
+      "confusion": {
+        "tn": 243,
+        "fp": 52,
+        "fn": 51,
+        "tp": 526
+      },
+      "predicted_positive": 578,
+      "threshold": 0.5
+    },
+    "existing_mean4__rockmag_nonempty__combined_practice__mean4__w75": {
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88302752,
+      "macro_f1": 0.86870572,
+      "balanced_accuracy": 0.86688012,
+      "confusion": {
+        "tn": 241,
+        "fp": 54,
+        "fn": 48,
+        "tp": 529
+      },
+      "predicted_positive": 583,
+      "threshold": 0.5
+    }
+  },
+  "ranked_top_20": [
+    {
+      "name": "existing_mean4__rockmag_nonempty__combined_practice__rf__w50",
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88761468,
+      "macro_f1": 0.87363889,
+      "balanced_accuracy": 0.87117469,
+      "confusion": {
+        "tn": 242,
+        "fp": 53,
+        "fn": 45,
+        "tp": 532
+      },
+      "predicted_positive": 585,
+      "threshold": 0.5
+    },
+    {
+      "name": "existing_mean4__rockmag_nonempty__practice__rf__w50",
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88646789,
+      "macro_f1": 0.87245868,
+      "balanced_accuracy": 0.87030814,
+      "confusion": {
+        "tn": 242,
+        "fp": 53,
+        "fn": 46,
+        "tp": 531
+      },
+      "predicted_positive": 584,
+      "threshold": 0.5
+    },
+    {
+      "name": "existing_mean4__rockmag_nonempty__practice__mean4__w50",
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.8853211,
+      "macro_f1": 0.87255338,
+      "balanced_accuracy": 0.87441177,
+      "confusion": {
+        "tn": 248,
+        "fp": 47,
+        "fn": 53,
+        "tp": 524
+      },
+      "predicted_positive": 571,
+      "threshold": 0.5
+    },
+    {
+      "name": "existing_mean4__rockmag_nonempty__practice__rf__w25",
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.8853211,
+      "macro_f1": 0.87171339,
+      "balanced_accuracy": 0.87109832,
+      "confusion": {
+        "tn": 244,
+        "fp": 51,
+        "fn": 49,
+        "tp": 528
+      },
+      "predicted_positive": 579,
+      "threshold": 0.5
+    },
+    {
+      "name": "existing_mean4__rockmag_nonempty__combined_practice__hgb__w50",
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.8853211,
+      "macro_f1": 0.87128011,
+      "balanced_accuracy": 0.86944159,
+      "confusion": {
+        "tn": 242,
+        "fp": 53,
+        "fn": 47,
+        "tp": 530
+      },
+      "predicted_positive": 583,
+      "threshold": 0.5
+    },
+    {
+      "name": "existing_mean4__rockmag_nonempty__practice__mean4__w25",
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88417431,
+      "macro_f1": 0.87075282,
+      "balanced_accuracy": 0.87106013,
+      "confusion": {
+        "tn": 245,
+        "fp": 50,
+        "fn": 51,
+        "tp": 526
+      },
+      "predicted_positive": 576,
+      "threshold": 0.5
+    },
+    {
+      "name": "existing_mean4__rockmag_nonempty__combined_practice__extra__w25",
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88417431,
+      "macro_f1": 0.87032197,
+      "balanced_accuracy": 0.8694034,
+      "confusion": {
+        "tn": 243,
+        "fp": 52,
+        "fn": 49,
+        "tp": 528
+      },
+      "predicted_positive": 580,
+      "threshold": 0.5
+    },
+    {
+      "name": "existing_mean4__rockmag_nonempty__combined_practice__hgb__w75",
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88417431,
+      "macro_f1": 0.86920499,
+      "balanced_accuracy": 0.86526158,
+      "confusion": {
+        "tn": 238,
+        "fp": 57,
+        "fn": 44,
+        "tp": 533
+      },
+      "predicted_positive": 590,
+      "threshold": 0.5
+    },
+    {
+      "name": "existing_mean4__rockmag_nonempty__combined_practice__rf__w25",
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88302752,
+      "macro_f1": 0.86936521,
+      "balanced_accuracy": 0.86936521,
+      "confusion": {
+        "tn": 244,
+        "fp": 51,
+        "fn": 51,
+        "tp": 526
+      },
+      "predicted_positive": 577,
+      "threshold": 0.5
+    },
+    {
+      "name": "existing_mean4__rockmag_nonempty__combined_practice__hgb__w25",
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88302752,
+      "macro_f1": 0.86914766,
+      "balanced_accuracy": 0.86853685,
+      "confusion": {
+        "tn": 243,
+        "fp": 52,
+        "fn": 50,
+        "tp": 527
+      },
+      "predicted_positive": 579,
+      "threshold": 0.5
+    },
+    {
+      "name": "existing_mean4__rockmag_nonempty__combined_practice__mean4__w25",
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88302752,
+      "macro_f1": 0.86914766,
+      "balanced_accuracy": 0.86853685,
+      "confusion": {
+        "tn": 243,
+        "fp": 52,
+        "fn": 50,
+        "tp": 527
+      },
+      "predicted_positive": 579,
+      "threshold": 0.5
+    },
+    {
+      "name": "existing_mean4__rockmag_nonempty__practice__extra__w25",
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88302752,
+      "macro_f1": 0.86892783,
+      "balanced_accuracy": 0.86770849,
+      "confusion": {
+        "tn": 242,
+        "fp": 53,
+        "fn": 49,
+        "tp": 528
+      },
+      "predicted_positive": 581,
+      "threshold": 0.5
+    },
+    {
+      "name": "existing_mean4__rockmag_nonempty__combined_practice__mean4__w75",
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88302752,
+      "macro_f1": 0.86870572,
+      "balanced_accuracy": 0.86688012,
+      "confusion": {
+        "tn": 241,
+        "fp": 54,
+        "fn": 48,
+        "tp": 529
+      },
+      "predicted_positive": 583,
+      "threshold": 0.5
+    },
+    {
+      "name": "existing_mean4__rockmag_nonempty__combined_practice__extra__w50",
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88302752,
+      "macro_f1": 0.86825453,
+      "balanced_accuracy": 0.86522339,
+      "confusion": {
+        "tn": 239,
+        "fp": 56,
+        "fn": 46,
+        "tp": 531
+      },
+      "predicted_positive": 587,
+      "threshold": 0.5
+    },
+    {
+      "name": "existing_mean4__rockmag_nonempty__combined_practice__extra__w75",
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88302752,
+      "macro_f1": 0.8673238,
+      "balanced_accuracy": 0.86190994,
+      "confusion": {
+        "tn": 235,
+        "fp": 60,
+        "fn": 42,
+        "tp": 535
+      },
+      "predicted_positive": 595,
+      "threshold": 0.5
+    },
+    {
+      "name": "existing_mean4__rockmag_nonempty__combined_practice__mean4__w50",
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88188073,
+      "macro_f1": 0.86797492,
+      "balanced_accuracy": 0.8676703,
+      "confusion": {
+        "tn": 243,
+        "fp": 52,
+        "fn": 51,
+        "tp": 526
+      },
+      "predicted_positive": 578,
+      "threshold": 0.5
+    },
+    {
+      "name": "existing_mean4__rockmag_nonempty__practice__hgb__w50",
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88073394,
+      "macro_f1": 0.86766826,
+      "balanced_accuracy": 0.8701172,
+      "confusion": {
+        "tn": 247,
+        "fp": 48,
+        "fn": 56,
+        "tp": 521
+      },
+      "predicted_positive": 569,
+      "threshold": 0.5
+    },
+    {
+      "name": "existing_mean4__rockmag_nonempty__practice__hgb__w25",
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88073394,
+      "macro_f1": 0.86745551,
+      "balanced_accuracy": 0.86928884,
+      "confusion": {
+        "tn": 246,
+        "fp": 49,
+        "fn": 55,
+        "tp": 522
+      },
+      "predicted_positive": 571,
+      "threshold": 0.5
+    },
+    {
+      "name": "existing_mean4__r3__combined_practice__extra__w25",
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88073394,
+      "macro_f1": 0.86680375,
+      "balanced_accuracy": 0.86680375,
+      "confusion": {
+        "tn": 243,
+        "fp": 52,
+        "fn": 52,
+        "tp": 525
+      },
+      "predicted_positive": 577,
+      "threshold": 0.5
+    },
+    {
+      "name": "existing_mean4__r3__practice__extra__w25",
+      "rows": 872,
+      "coverage": 1.0,
+      "accuracy": 0.88073394,
+      "macro_f1": 0.86680375,
+      "balanced_accuracy": 0.86680375,
+      "confusion": {
+        "tn": 243,
+        "fp": 52,
+        "fn": 52,
+        "tp": 525
+      },
+      "predicted_positive": 577,
+      "threshold": 0.5
+    }
+  ],
+  "rockmag_nonempty_alignment": {
+    "rows": 872,
+    "coverage": 1.0,
+    "accuracy": 0.96330275,
+    "macro_f1": 0.95866809,
+    "balanced_accuracy": 0.95487472,
+    "confusion": {
+      "tn": 274,
+      "fp": 21,
+      "fn": 11,
+      "tp": 566
+    },
+    "predicted_positive": 587,
+    "threshold": 0.5
+  },
+  "inputs": {
+    "receipt": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/prediction_receipt.json",
+      "sha256": "2b60f1348362e04bb1d6c3f6f7532a835d3bb4c83c9bf9c54dc0840941b0fb8b"
+    },
+    "page_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_page_cache_v1/page_cache.jsonl",
+      "sha256": "388bd9d405119a2ee19aa08d9b0194c3902bdcb0b52b9d5e8925f7ff2405a076"
+    },
+    "targets": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/targets.xlsx",
+      "sha256": "378c17338f3b5cfeff3ccd496894e0f6183f747119b2624c4a9cefaeda02501e"
+    },
+    "pmagresult_offline_only": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/source_metadata/PMAGRESULT.xlsx",
+      "sha256": "3ff2c01ce08b01622aaee0531426fa50c5439b251cb8be0f78f83b6591b87a8c"
+    }
+  }
+}

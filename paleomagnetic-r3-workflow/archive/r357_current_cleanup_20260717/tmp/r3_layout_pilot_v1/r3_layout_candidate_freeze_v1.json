@@ -1,0 +1,80 @@
+{
+  "schema_version": "r3_layout_candidate_freeze_v1",
+  "status": "FROZEN_BEFORE_LABEL_ACCESS",
+  "primary_candidates": [
+    "augmented_random_forest",
+    "augmented_hgb"
+  ],
+  "feature_ablation_candidates": {
+    "base_v4": {
+      "layout_columns": [],
+      "purpose": "unchanged V4 structured-feature control"
+    },
+    "pilot_flags_only": {
+      "layout_columns": [
+        0,
+        1
+      ],
+      "feature_names": [
+        "layout_pilot_selected",
+        "layout_document_available"
+      ],
+      "purpose": "separate pilot membership and availability from layout evidence"
+    },
+    "full_layout": {
+      "layout_columns": "all",
+      "purpose": "pilot flags plus all frozen layout-graph evidence features"
+    }
+  },
+  "model_candidates": {
+    "random_forest": {
+      "n_estimators": 600,
+      "max_features": 0.5,
+      "min_samples_leaf": 8,
+      "n_jobs": -1,
+      "random_state": 35720260
+    },
+    "hgb": {
+      "max_iter": 260,
+      "learning_rate": 0.035,
+      "max_leaf_nodes": 7,
+      "min_samples_leaf": 10,
+      "l2_regularization": 1.0,
+      "random_state": 35720260
+    }
+  },
+  "fixed_decision_threshold": 0.5,
+  "alignment_sha256": "4c66f703ad1c2edc2f7075df4ca55515df4017055336cb7742711ab683d7b58b",
+  "matrix_sha256": "9c6d0b8e318449848cdf150054e05ce562835deaed904ea9686e41c865ed84d1",
+  "feature_names_sha256": "444b0eddbdc187b599aeefc8d717780b408ab770771a0cd807e4a4646b5f07f8",
+  "pilot_selection_sha256": "b471545c312c00a7023b931e692fd4d4b991c92eb2d03c3a0bbd52b530a6bad5",
+  "structure_acceptance_gates": {
+    "minimum_documents_with_sibling_differentiating_features": 6,
+    "minimum_targets_with_exclusive_evidence": 30,
+    "manual_target_evidence_edge_precision": 0.9,
+    "manual_target_evidence_edge_recall": 0.75,
+    "maximum_sibling_contamination_rate": 0.05
+  },
+  "effect_acceptance_gates": {
+    "minimum_pilot_net_correct_gain": 8,
+    "minimum_pilot_accuracy_gain": 0.036,
+    "require_non_decreasing_macro_f1": true,
+    "require_nonpilot_rows_unchanged": true,
+    "mixed_subset_is_posthoc_only": true,
+    "deployment_route": "layout candidate may replace base only on frozen pilot rows",
+    "nonpilot_route": "use unchanged base V4 prediction"
+  },
+  "deployment_route": {
+    "layout_scope": "frozen_pilot_rows_only",
+    "nonpilot_rows": "base_v4_unchanged",
+    "membership_feature_is_not_evidence": true
+  },
+  "runtime_boundary": {
+    "labels_read": false,
+    "pmagresult_or_rockmag_read": false,
+    "prior_predictions_read": false,
+    "evaluation_results_read": false,
+    "resultno_used_only_for_alignment": true,
+    "outer_test_metrics_used_for_selection": false
+  }
+}

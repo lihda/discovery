@@ -1,0 +1,32 @@
+{
+  "workflow_profile": "knowledge_strict_v1",
+  "targets": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_strict_eval_07111758/inputs/identity_manifest.xlsx",
+  "page_cache": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_strict_eval_07111758/inputs/page_cache.jsonl",
+  "output": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_strict_eval_07111758/scoring/.r3_scoring/r3_predictions.jsonl",
+  "rows": 3173,
+  "score_counts": {
+    "0": 903,
+    "1": 2270
+  },
+  "outcome_counts": {
+    "POSITIVE": 1839,
+    "UNKNOWN": 1334
+  },
+  "manual_review_rows": 1484,
+  "runtime_input_columns": [
+    "REFNO",
+    "RESULTNO",
+    "ROCKNAME"
+  ],
+  "knowledge_base": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/knowledge/r357_expert_kb_v1.json",
+  "runtime_scoring_sources": [
+    "identity manifest",
+    "original paper page text",
+    "frozen expert knowledge base"
+  ],
+  "forbidden_runtime_scoring_sources": [
+    "PMAGRESULT",
+    "ROCKUNIT",
+    "R3/R5/R7 labels"
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "schema_version": "r3_rockmag_practice_criterion_schema_v1",
+  "criterion_version": "r3_rockmag_practice_criterion_v1",
+  "freeze_status": "frozen",
+  "indicator": "R3",
+  "title": {
+    "en": "ROCKMAG-equivalent practice proxy for R3",
+    "zh": "R3 的 ROCKMAG 等价实践代理判据"
+  },
+  "provenance": {
+    "derivation": {
+      "en": "Manual operationalization of section 3.3 and a de-identified aggregate ROCKMAG terminology graph. The policy contains no row-level examples, record identities, or outcome mappings.",
+      "zh": "依据第 3.3 节与去标识化的 ROCKMAG 聚合术语图进行人工操作化。本策略不含行级样例、记录身份或结果映射。"
+    },
+    "label_supervision": false,
+    "evaluation_results_used": false,
+    "contains_record_identifiers": false,
+    "contains_answer_mapping": false,
+    "runtime_record_lookup": false
+  },
+  "normative_relationship": {
+    "normative_artifact": "r357_criterion_spec_v2.json",
+    "normative_sha256": "9c8b8674c8f81c8a963a4789d887e3d56e8edfad2274ccdab6bd173ea893dc06",
+    "criterion": "R3",
+    "relationship": "non_normative_practice_proxy",
+    "replaces_normative": false,
+    "default_scoring_enabled": false,
+    "statement": {
+      "en": "This proxy lowers the operational positive threshold for a ROCKMAG-compatible reconstruction experiment. It does not alter the normative requirement for an eligible method, carrier identification attempt, and significance interpretation.",
+      "zh": "本代理为 ROCKMAG 兼容的原文重建实验降低操作性阳性阈值；它不改变规范判据中合格方法、载体识别尝试与意义解释三项要求。"
+    }
+  },
+  "source_basis": [
+    {
+      "basis_id": "R3.BASIS.NORMATIVE.V2",
+      "kind": "normative_criterion",
+      "repository_path": "data/knowledge/r357_criterion_spec_v2.json",
+      "sha256": "9c8b8674c8f81c8a963a4789d887e3d56e8edfad2274ccdab6bd173ea893dc06",
+      "label_supervision": false,
+      "use": {
+        "en": "Defines the scientific method families and preserves the distinction between this practice proxy and normative R3.",
+        "zh": "界定科学方法族，并保留本实践代理与规范 R3 之间的区别。"
+      }
+    },
+    {
+      "basis_id": "R3.BASIS.ROCKMAG.LEXICON.V1",
+      "kind": "deidentified_aggregate_terminology",
+      "repository_path": "data/knowledge/r3_rockmag_lexicon_v1.json",
+      "sha256": "8f7e5b66d590844befc86013149b1cedb3445a477c939189e274093fcecb5ce6",
+      "label_supervision": false,
+      "use": {
+        "en": "Supplies record-independent method, carrier, and diagnostic terminology used to retrieve candidate episodes from original-paper text.",
+        "zh": "提供与记录无关的方法、载体和诊断术语，用于从原始论文文本中检索候选片段。"
+      }
+    }
+  ],
+  "evidence_episode": {
+    "episode_id": "R3.PRACTICE.EPISODE.CHARACTERIZATION",
+    "unit": "target_bound_implemented_characterization_episode",
+    "positive_semantics": {
+      "en": "A reportable, implemented rock-magnetic or mineral-phase characterization episode attributable to the target satisfies the practice proxy.",
+      "zh": "可归属于目标、可报告且已实施的岩石磁学或矿相表征片段即可满足实践代理。"
+    },
+    "required_facets": [
+      {
+        "facet_id": "R3.F.SOURCE.ORIGINAL_PAPER",
+        "operator": "all",
+        "accepted_states": [
+          "original_paper_text",
+          "source_location_traceable"
+        ]
+      },
+      {
+        "facet_id": "R3.F.CONTEXT.ELIGIBLE",
+        "operator": "all",
+        "accepted_states": [
+          "non_reference_context",
+          "not_excluded_context"
+        ]
+      },
+      {
+        "facet_id": "R3.F.EXECUTION.AFFIRMED",
+        "operator": "any",
+        "accepted_states": [
+          "method_performed",
+          "measurement_reported",
+          "diagnostic_result_reported"
+        ]
+      },
+      {
+        "facet_id": "R3.F.CHARACTERIZATION.ELIGIBLE",
+        "operator": "any",
+        "accepted_states": [
+          "eligible_method_family",
+          "self_authenticating_diagnostic_result",
+          "mineral_phase_characterization"
+        ]
+      },
+      {
+        "facet_id": "R3.F.SCOPE.ATTRIBUTABLE",
+        "operator": "any",
+        "accepted_states": [
+          "target_level_binding",
+          "single_target_paper_scope",
+          "explicit_shared_sample_scope"
+        ]
+      }
+    ],
+    "eligible_families": [
+      {
+        "family_id": "R3.METHOD.IRM_ACQUISITION",
+        "evidence_modes": ["implemented_method", "reported_result"],
+        "concept_refs": ["irm_acquisition"]
+      },
+      {
+        "family_id": "R3.METHOD.THERMOMAGNETIC_CURVE",
+        "evidence_modes": ["implemented_method", "reported_result"],
+        "concept_refs": ["thermomagnetic_curve", "curie_temperature"]
+      },
+      {
+        "family_id": "R3.METHOD.TEMPERATURE_DEPENDENT_SUSCEPTIBILITY",
+        "evidence_modes": ["implemented_method", "reported_result"],
+        "concept_refs": ["thermomagnetic_curve", "magnetic_susceptibility"]
+      },
+      {
+        "family_id": "R3.METHOD.THREE_AXIS_OR_LOW_TEMPERATURE_IRM",
+        "evidence_modes": ["implemented_method", "reported_result"],
+        "concept_refs": ["three_axis_thermal_demagnetization", "irm_acquisition"]
+      },
+      {
+        "family_id": "R3.METHOD.HYSTERESIS_FORC_DOMAIN",
+        "evidence_modes": ["implemented_method", "reported_result"],
+        "concept_refs": ["hysteresis", "domain_state"]
+      },
+      {
+        "family_id": "R3.METHOD.COERCIVITY_OR_UNBLOCKING_SPECTRUM",
+        "evidence_modes": ["implemented_method", "reported_result"],
+        "concept_refs": ["coercivity_measurement"]
+      },
+      {
+        "family_id": "R3.METHOD.MAGNETIC_FABRIC",
+        "evidence_modes": ["implemented_method", "reported_result"],
+        "concept_refs": ["magnetic_anisotropy"]
+      },
+      {
+        "family_id": "R3.METHOD.PETROGRAPHY_OR_MICROIMAGING",
+        "evidence_modes": ["implemented_method", "reported_result"],
+        "concept_refs": [
+          "thin_section_petrography",
+          "optical_microscopy",
+          "electron_microscopy_microanalysis"
+        ]
+      },
+      {
+        "family_id": "R3.METHOD.MINERAL_PHASE_ANALYSIS",
+        "evidence_modes": ["implemented_method", "reported_result"],
+        "concept_refs": ["xray_diffraction", "chemical_analysis"]
+      }
+    ],
+    "not_required_by_practice_proxy": [
+      "explicit_carrier_identification",
+      "explicit_remanence_significance_interpretation"
+    ]
+  },
+  "exclusions": [
+    {
+      "exclusion_id": "R3.X.STANDALONE.TUB",
+      "matcher": {
+        "kind": "regex_search",
+        "values": ["\\bT(?:ub|b)\\s*(?:=|>|<|:)"]
+      },
+      "effect": "does_not_satisfy_episode_alone",
+      "statement": {
+        "en": "A component cleaning or unblocking-temperature interval alone is not a carrier-characterization episode.",
+        "zh": "仅有分量清洗或解阻温度区间不构成载体表征片段。"
+      }
+    },
+    {
+      "exclusion_id": "R3.X.STANDALONE.BARE_SUSC",
+      "matcher": {
+        "kind": "regex_fullmatch",
+        "values": ["\\s*SUSC\\s*"]
+      },
+      "effect": "does_not_satisfy_episode_alone",
+      "statement": {
+        "en": "A bare susceptibility code without an implemented diagnostic context is insufficient.",
+        "zh": "缺少已实施诊断语境的裸磁化率代码不足以成立。"
+      }
+    },
+    {
+      "exclusion_id": "R3.X.STANDALONE.BARE_AN",
+      "matcher": {
+        "kind": "regex_fullmatch",
+        "values": ["\\s*AN\\s*"]
+      },
+      "effect": "does_not_satisfy_episode_alone",
+      "statement": {
+        "en": "The ambiguous bare anisotropy code AN is insufficient without a reported measurement or result.",
+        "zh": "含义不明确的裸各向异性代码 AN 在没有测量或结果报告时不足以成立。"
+      }
+    },
+    {
+      "exclusion_id": "R3.X.STANDALONE.BARE_MINERAL_NAME",
+      "matcher": {
+        "kind": "semantic_state",
+        "values": ["carrier_name_without_method_or_diagnostic"]
+      },
+      "effect": "does_not_satisfy_episode_alone",
+      "statement": {
+        "en": "A mineral name alone does not demonstrate that a characterization was performed for the target.",
+        "zh": "仅有矿物名称不能证明针对目标实施了表征。"
+      }
+    },
+    {
+      "exclusion_id": "R3.X.CONTEXT.REFERENCE_SECTION",
+      "matcher": {
+        "kind": "context_flag",
+        "values": ["bibliography", "reference_section", "citation_only"]
+      },
+      "effect": "reject_evidence_span",
+      "statement": {
+        "en": "Method or mineral terms occurring only in references or citation context are not study evidence.",
+        "zh": "仅出现在参考文献或引文语境中的方法或矿物术语不属于研究证据。"
+      }
+    },
+    {
+      "exclusion_id": "R3.X.CONTEXT.NOT_IMPLEMENTED",
+      "matcher": {
+        "kind": "context_flag",
+        "values": [
+          "negated",
+          "future_work",
+          "hypothetical",
+          "recommended_only",
+          "method_definition_only"
+        ]
+      },
+      "effect": "reject_evidence_span",
+      "statement": {
+        "en": "A negated, hypothetical, recommended, future, or definition-only method mention is not an implemented episode.",
+        "zh": "否定、假设、建议、未来计划或仅作定义的方法提及不属于已实施片段。"
+      }
+    }
+  ],
+  "scope_policy": {
+    "evidence_resolution_order": [
+      "target_level",
+      "explicit_shared_sample_scope",
+      "single_target_paper_scope"
+    ],
+    "target_level": {
+      "priority": 1,
+      "requires_explicit_or_local_binding": true,
+      "paper_propagation_needed": false
+    },
+    "shared_sample_scope": {
+      "must_be_explicit": true,
+      "requires_all": [
+        "evidence_and_target_share_sample_set",
+        "episode_applies_to_shared_samples",
+        "no_competing_target_in_scope"
+      ]
+    },
+    "paper_level_propagation": {
+      "default": "forbidden",
+      "allow_if_any": [
+        {
+          "condition_id": "R3.SCOPE.SINGLE_TARGET_PAPER",
+          "requires_all": ["paper_has_single_target"]
+        },
+        {
+          "condition_id": "R3.SCOPE.EXPLICIT_SHARED_SAMPLE",
+          "requires_all": [
+            "explicit_shared_sample_scope",
+            "scope_includes_target",
+            "episode_applies_to_shared_samples"
+          ]
+        }
+      ],
+      "forbid_if_any": [
+        "multiple_targets_without_shared_sample_scope",
+        "competing_target_in_evidence_scope",
+        "target_identity_ambiguous"
+      ],
+      "unresolved_scope_outcome": "ABSTAIN"
+    }
+  },
+  "decision_logic": {
+    "outcomes": [
+      "MEETS_PRACTICE_PROXY",
+      "DOES_NOT_MEET_PRACTICE_PROXY",
+      "ABSTAIN",
+      "SKIP_NO_SOURCE"
+    ],
+    "positive_requires_all": [
+      "R3.F.SOURCE.ORIGINAL_PAPER",
+      "R3.F.CONTEXT.ELIGIBLE",
+      "R3.F.EXECUTION.AFFIRMED",
+      "R3.F.CHARACTERIZATION.ELIGIBLE",
+      "R3.F.SCOPE.ATTRIBUTABLE"
+    ],
+    "negative_requires_all": [
+      "original_paper_available",
+      "extraction_sufficient",
+      "no_eligible_attributable_episode_after_exclusions"
+    ],
+    "abstain_if_any": [
+      "source_extraction_incomplete",
+      "target_binding_ambiguous",
+      "shared_sample_scope_ambiguous"
+    ],
+    "skip_if": "original_paper_unavailable"
+  },
+  "runtime_policy": {
+    "integration_mode": "explicit_opt_in_only",
+    "emit_separate_practice_decision": true,
+    "overwrite_normative_r3": false,
+    "allowed_scoring_sources": [
+      "original_paper_text",
+      "target_identity_and_scope_manifest",
+      "this_frozen_practice_criterion",
+      "frozen_deidentified_terminology_artifact"
+    ],
+    "forbidden_scoring_sources": [
+      "source_metadata_result_table",
+      "existing_evaluation_results",
+      "previous_predictions",
+      "record_answer_mappings"
+    ]
+  }
+}

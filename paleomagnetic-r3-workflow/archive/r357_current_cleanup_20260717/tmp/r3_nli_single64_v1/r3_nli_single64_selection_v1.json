@@ -1,0 +1,613 @@
+{
+  "schema_version": "r3_nli_single64_selection_v1",
+  "status": "FROZEN_WITHOUT_LABEL_ACCESS",
+  "selection_rule": "within each frozen V4 fold, select the smallest SHA256 of salt|REFNO|RESULTNO among PDF-backed REFNO values with exactly one row",
+  "salt": "r3-nli-single-target-pilot-v1",
+  "fold_quotas": {
+    "1": 13,
+    "2": 13,
+    "3": 13,
+    "4": 13,
+    "5": 12
+  },
+  "eligible_single_target_rows": 872,
+  "selected_rows": 64,
+  "selection_sha256": "8813d131b9724ee008a7e6dbd6ef9ef45983f777e4d065ebd203b9ba4fe97a42",
+  "rows": [
+    {
+      "row_index": 2105,
+      "REFNO": "3986",
+      "RESULTNO": "9745",
+      "ROCKNAME": "Chilgok Formation",
+      "fold": 1,
+      "selection_rank_within_fold": 1,
+      "selection_digest": "0061c0b11cc922450567adf92e3d72a139aa83ab651fd6c1ab23d3a7580d63ce"
+    },
+    {
+      "row_index": 1072,
+      "REFNO": "3395",
+      "RESULTNO": "8640",
+      "ROCKNAME": "Nogan Formation",
+      "fold": 1,
+      "selection_rank_within_fold": 2,
+      "selection_digest": "0246c5bf2e7700bcec922581181c726f3856f773d1897b650f819c99b0c6cffc"
+    },
+    {
+      "row_index": 2477,
+      "REFNO": "4259",
+      "RESULTNO": "10139",
+      "ROCKNAME": "Rajmahal Traps",
+      "fold": 1,
+      "selection_rank_within_fold": 3,
+      "selection_digest": "031fac99d15c86692f4cad8f85d5063f7cea56346c1292c3010dc3a45a42d534"
+    },
+    {
+      "row_index": 80,
+      "REFNO": "1176",
+      "RESULTNO": "81",
+      "ROCKNAME": "Dykes",
+      "fold": 1,
+      "selection_rank_within_fold": 4,
+      "selection_digest": "05a38de6214990edf935c84bfb69ad11cb5315ee1d0e1dcba75958c5da50c9f8"
+    },
+    {
+      "row_index": 1049,
+      "REFNO": "3380",
+      "RESULTNO": "8616",
+      "ROCKNAME": "Eocene Redbeds",
+      "fold": 1,
+      "selection_rank_within_fold": 5,
+      "selection_digest": "0bff071e315cffbe1f5da37d363c9a83ea976c7a4e146ad45f0a0ed3006640de"
+    },
+    {
+      "row_index": 776,
+      "REFNO": "3198",
+      "RESULTNO": "8299",
+      "ROCKNAME": "Hunnendalen Dykes",
+      "fold": 1,
+      "selection_rank_within_fold": 6,
+      "selection_digest": "0c4b13f4fb5dab86a7381579720367559529a7ea01c42b26646a66c238626d13"
+    },
+    {
+      "row_index": 2630,
+      "REFNO": "4370",
+      "RESULTNO": "10301",
+      "ROCKNAME": "Ignimbrita Panalillo Superior",
+      "fold": 1,
+      "selection_rank_within_fold": 7,
+      "selection_digest": "0f93d385a232ac9a01b2ce05cc9a7ac5cd3010d03ff8073233713ac2259f1437"
+    },
+    {
+      "row_index": 1544,
+      "REFNO": "3617",
+      "RESULTNO": "9155",
+      "ROCKNAME": "Frazier Ridge Formation",
+      "fold": 1,
+      "selection_rank_within_fold": 8,
+      "selection_digest": "1391d7d4c9ee1939c7c81808680757444a28c09cf89fa45019d1e6a835560d26"
+    },
+    {
+      "row_index": 2252,
+      "REFNO": "4095",
+      "RESULTNO": "9904",
+      "ROCKNAME": "Singhbhum Newer Dykes 2760",
+      "fold": 1,
+      "selection_rank_within_fold": 9,
+      "selection_digest": "13ddfcf6dc287cc90d40c90abef83b0d09b2ef6344e5f1d39ae7f2b845f86e2c"
+    },
+    {
+      "row_index": 624,
+      "REFNO": "3111",
+      "RESULTNO": "8133",
+      "ROCKNAME": "Ngorora Formation",
+      "fold": 1,
+      "selection_rank_within_fold": 10,
+      "selection_digest": "17761a1a33fe473cfb96bf6188abdb6bbf476d15fcd1bf3b4e1ca9a854a1901c"
+    },
+    {
+      "row_index": 2119,
+      "REFNO": "3996",
+      "RESULTNO": "9759",
+      "ROCKNAME": "Nahant Gabbro",
+      "fold": 1,
+      "selection_rank_within_fold": 11,
+      "selection_digest": "180719d2830457c1047e3777ea49974d4455a7a55919ada6a6074a93ef0189a1"
+    },
+    {
+      "row_index": 2702,
+      "REFNO": "4430",
+      "RESULTNO": "10374",
+      "ROCKNAME": "Niubao Formation",
+      "fold": 1,
+      "selection_rank_within_fold": 12,
+      "selection_digest": "1909cb2365c1cc9041f55acce527458d72921565daf19b227f5615b2da8e89d5"
+    },
+    {
+      "row_index": 2563,
+      "REFNO": "4322",
+      "RESULTNO": "10234",
+      "ROCKNAME": "Purana basins",
+      "fold": 1,
+      "selection_rank_within_fold": 13,
+      "selection_digest": "1ad4621de4715aa9094c45a3fddd4228003b695fad15a8acd88ce37e4ce4830b"
+    },
+    {
+      "row_index": 647,
+      "REFNO": "3129",
+      "RESULTNO": "8163",
+      "ROCKNAME": "Chengwatana Volcanics",
+      "fold": 2,
+      "selection_rank_within_fold": 1,
+      "selection_digest": "00746bf10895fa33100a2cd348ccf6ce84a3e02f135d2b5ba2d7e23e7c451017"
+    },
+    {
+      "row_index": 313,
+      "REFNO": "1006",
+      "RESULTNO": "3580",
+      "ROCKNAME": "Great Dyke",
+      "fold": 2,
+      "selection_rank_within_fold": 2,
+      "selection_digest": "0118027835f4566b72a2843a9d95177e34b33c2772ad33a41e2a9e3fdfd5bfa7"
+    },
+    {
+      "row_index": 1620,
+      "REFNO": "3660",
+      "RESULTNO": "9234",
+      "ROCKNAME": "Hong Kong Dykes",
+      "fold": 2,
+      "selection_rank_within_fold": 3,
+      "selection_digest": "017b2937aa6c6f4a03ad537c942e965c5baa8a995524668321d6b6ec4bd707a3"
+    },
+    {
+      "row_index": 436,
+      "REFNO": "2977",
+      "RESULTNO": "7744",
+      "ROCKNAME": "Rajmahal Traps",
+      "fold": 2,
+      "selection_rank_within_fold": 4,
+      "selection_digest": "0250f741cc52a508bc45db4a6b4b7178461111f46354f2e4b1810f0cef2706a1"
+    },
+    {
+      "row_index": 1599,
+      "REFNO": "3642",
+      "RESULTNO": "9210",
+      "ROCKNAME": "Beaver River Complex",
+      "fold": 2,
+      "selection_rank_within_fold": 5,
+      "selection_digest": "02b6fc2dc858395dfb0b769ed369d213e90eb5df03ffe1dbcf8cde9e2c282266"
+    },
+    {
+      "row_index": 2685,
+      "REFNO": "4416",
+      "RESULTNO": "10357",
+      "ROCKNAME": "Jingeryu Formation, upper part",
+      "fold": 2,
+      "selection_rank_within_fold": 6,
+      "selection_digest": "0304ce6c2a5d8c574220a316f41cc7f31c707b44efd9202ac672a3c9d3399f47"
+    },
+    {
+      "row_index": 2141,
+      "REFNO": "4012",
+      "RESULTNO": "9782",
+      "ROCKNAME": "Majiaoling Formation",
+      "fold": 2,
+      "selection_rank_within_fold": 7,
+      "selection_digest": "03270eedf24592961c3304e6418ee107709a462b3f3df66208bc528f3f728a87"
+    },
+    {
+      "row_index": 294,
+      "REFNO": "404",
+      "RESULTNO": "3353",
+      "ROCKNAME": "Ntonya Ring Structure",
+      "fold": 2,
+      "selection_rank_within_fold": 8,
+      "selection_digest": "06eae67b67331b7a50ab7dbaa804c72961459d8ecab4d4b3163a9ae256a5013c"
+    },
+    {
+      "row_index": 1500,
+      "REFNO": "3592",
+      "RESULTNO": "9110",
+      "ROCKNAME": "Muschelkalk Sediments",
+      "fold": 2,
+      "selection_rank_within_fold": 9,
+      "selection_digest": "07c0f0795908d972cf28862a6aeadb817f284c7e4362b646e5a71a40bc066abf"
+    },
+    {
+      "row_index": 1770,
+      "REFNO": "3753",
+      "RESULTNO": "9386",
+      "ROCKNAME": "Yen Chau Formation",
+      "fold": 2,
+      "selection_rank_within_fold": 10,
+      "selection_digest": "092b8c19792131251f1af7d71b540f47afde5c877101cfb5860def9152c5ec36"
+    },
+    {
+      "row_index": 2664,
+      "REFNO": "4398",
+      "RESULTNO": "10335",
+      "ROCKNAME": "Mahatta Humaid Group",
+      "fold": 2,
+      "selection_rank_within_fold": 11,
+      "selection_digest": "0cd02e494f8e99b73bdc917932d8aa9504aa15c833a40b9b62204abe8e83f5b4"
+    },
+    {
+      "row_index": 435,
+      "REFNO": "2976",
+      "RESULTNO": "7743",
+      "ROCKNAME": "Franciscan Complex Cherts",
+      "fold": 2,
+      "selection_rank_within_fold": 12,
+      "selection_digest": "0d6bab7bce5617f051fda7e90eab4685ae2e0f23ab76712a72454079a94663bc"
+    },
+    {
+      "row_index": 2551,
+      "REFNO": "4314",
+      "RESULTNO": "10222",
+      "ROCKNAME": "Ust-Brus and Labaznaya formations",
+      "fold": 2,
+      "selection_rank_within_fold": 13,
+      "selection_digest": "0f6c691d413835d52e0d5f389c338e116fb951ddc82505ab16075d12e40fabe4"
+    },
+    {
+      "row_index": 452,
+      "REFNO": "2987",
+      "RESULTNO": "7760",
+      "ROCKNAME": "Suakin Gabbro",
+      "fold": 3,
+      "selection_rank_within_fold": 1,
+      "selection_digest": "066511d0b700ad76aad8fe8f687baa78ef262061d7d190d81e5494b32d523577"
+    },
+    {
+      "row_index": 1320,
+      "REFNO": "3496",
+      "RESULTNO": "8903",
+      "ROCKNAME": "Ethiopian Flood Basalts",
+      "fold": 3,
+      "selection_rank_within_fold": 2,
+      "selection_digest": "08b934ff35f98167d0f803689b7106badd0b10f61ecb5d090f3e8a756f60acd7"
+    },
+    {
+      "row_index": 619,
+      "REFNO": "3108",
+      "RESULTNO": "8128",
+      "ROCKNAME": "Sierra de Huaco Sediments",
+      "fold": 3,
+      "selection_rank_within_fold": 3,
+      "selection_digest": "0eaa809b4af363cce8f5e908d0afc887ff295cf60c2ad012827d942d083c9142"
+    },
+    {
+      "row_index": 1356,
+      "REFNO": "3524",
+      "RESULTNO": "8959",
+      "ROCKNAME": "Mitu Group Redbeds",
+      "fold": 3,
+      "selection_rank_within_fold": 4,
+      "selection_digest": "155eb358622d37f32efd75a8f542bf8bfe13949dc0cce02961619a8d01252872"
+    },
+    {
+      "row_index": 620,
+      "REFNO": "3109",
+      "RESULTNO": "8129",
+      "ROCKNAME": "Rio Azul Sediments",
+      "fold": 3,
+      "selection_rank_within_fold": 5,
+      "selection_digest": "158b12b17cee5bf3b83bb4e3eed18d979758c811e42c6be4d4cd25ead19c972f"
+    },
+    {
+      "row_index": 2462,
+      "REFNO": "4249",
+      "RESULTNO": "10124",
+      "ROCKNAME": "Lajas Formation",
+      "fold": 3,
+      "selection_rank_within_fold": 6,
+      "selection_digest": "169a306e691f95670f46306f6a8c26ba3a04e92f8c2fe35da2ce5339e34c459b"
+    },
+    {
+      "row_index": 557,
+      "REFNO": "3072",
+      "RESULTNO": "8061",
+      "ROCKNAME": "Mt Eden and San Timoteo Formations",
+      "fold": 3,
+      "selection_rank_within_fold": 7,
+      "selection_digest": "1c44ba7f2c48bd6f44c9e4e44e3a9d9e60dc802ca612a304c62886c562ed86b0"
+    },
+    {
+      "row_index": 1935,
+      "REFNO": "3878",
+      "RESULTNO": "9557",
+      "ROCKNAME": "Bundelkhand 1.99 Ga Dykes",
+      "fold": 3,
+      "selection_rank_within_fold": 8,
+      "selection_digest": "209690c68550c1c4f153aedd8bc535417285130b89152bca1abe37361bd07337"
+    },
+    {
+      "row_index": 989,
+      "REFNO": "3344",
+      "RESULTNO": "8553",
+      "ROCKNAME": "Liberty Hills Formation",
+      "fold": 3,
+      "selection_rank_within_fold": 9,
+      "selection_digest": "224ede7c67d89fdf7e29015a7a3ad8b0f0d2bd8ca5977495064cbd3f6dc932cc"
+    },
+    {
+      "row_index": 2133,
+      "REFNO": "4005",
+      "RESULTNO": "9774",
+      "ROCKNAME": "Araguainha Impact Structure",
+      "fold": 3,
+      "selection_rank_within_fold": 10,
+      "selection_digest": "22d966297df2abe42d562a33dc9fa13f6fb21c7cfb3eca582fc04eab5845e2c9"
+    },
+    {
+      "row_index": 977,
+      "REFNO": "3337",
+      "RESULTNO": "8541",
+      "ROCKNAME": "Apennine Sediments",
+      "fold": 3,
+      "selection_rank_within_fold": 11,
+      "selection_digest": "237d6a6e21080e1af1c8e6b145a0841f939ba15dc57b5a9385bc2b9079ac6652"
+    },
+    {
+      "row_index": 976,
+      "REFNO": "3336",
+      "RESULTNO": "8540",
+      "ROCKNAME": "Afar Stratoid Series",
+      "fold": 3,
+      "selection_rank_within_fold": 12,
+      "selection_digest": "2393688bf78120ad3c6a448384a5f63e491d8d237555fb1a0e124c733ffcfce6"
+    },
+    {
+      "row_index": 2185,
+      "REFNO": "4037",
+      "RESULTNO": "9826",
+      "ROCKNAME": "Nanxiong Basin Sediments",
+      "fold": 3,
+      "selection_rank_within_fold": 13,
+      "selection_digest": "2421eb484946a4d66aa0431bab2fd5cd150fe7b1f7f415717eec37ce7fa8aa0d"
+    },
+    {
+      "row_index": 2276,
+      "REFNO": "4116",
+      "RESULTNO": "9932",
+      "ROCKNAME": "Batoka Basalts",
+      "fold": 4,
+      "selection_rank_within_fold": 1,
+      "selection_digest": "019fef9a375311e33a4112fe934a78d4ef39aab4a59666c6771537edff3fc689"
+    },
+    {
+      "row_index": 2229,
+      "REFNO": "4077",
+      "RESULTNO": "9875",
+      "ROCKNAME": "Kotuy Sediments",
+      "fold": 4,
+      "selection_rank_within_fold": 2,
+      "selection_digest": "02f6499c157f6dbf412b22617641497ad1b3b263db1d7593e488c39d4d50c0cc"
+    },
+    {
+      "row_index": 2438,
+      "REFNO": "4225",
+      "RESULTNO": "10097",
+      "ROCKNAME": "Nayixiong Formation",
+      "fold": 4,
+      "selection_rank_within_fold": 3,
+      "selection_digest": "04a86cd06b19603be6d37305867c1b2f3ed1d02cd6e5a82990e60e78302089ce"
+    },
+    {
+      "row_index": 1773,
+      "REFNO": "3755",
+      "RESULTNO": "9389",
+      "ROCKNAME": "Khurmen Uul Lavas",
+      "fold": 4,
+      "selection_rank_within_fold": 4,
+      "selection_digest": "050c37db19059bcef803326f1fd4268339a1a394a86aa4500d25fcf469d9ba15"
+    },
+    {
+      "row_index": 709,
+      "REFNO": "3165",
+      "RESULTNO": "8227",
+      "ROCKNAME": "Khapitsa Formation",
+      "fold": 4,
+      "selection_rank_within_fold": 5,
+      "selection_digest": "0700f22d4ddb66a0c7cd47243b9b68f69424d25e918f5bff4c9de85c7a753a7b"
+    },
+    {
+      "row_index": 2262,
+      "REFNO": "4105",
+      "RESULTNO": "9917",
+      "ROCKNAME": "Stillwater Complex",
+      "fold": 4,
+      "selection_rank_within_fold": 6,
+      "selection_digest": "07a0de296066df352c993b57929e9ac55ebfe304dcf6bf6d00e7d794dd2a9ed9"
+    },
+    {
+      "row_index": 944,
+      "REFNO": "3320",
+      "RESULTNO": "8506",
+      "ROCKNAME": "Malue Beds",
+      "fold": 4,
+      "selection_rank_within_fold": 7,
+      "selection_digest": "0932b9489fbd49a8b059dc97332c2f02ccd7c88a8a99334323807dcd45a04803"
+    },
+    {
+      "row_index": 2531,
+      "REFNO": "4299",
+      "RESULTNO": "10195",
+      "ROCKNAME": "Chukotka Volcanics",
+      "fold": 4,
+      "selection_rank_within_fold": 8,
+      "selection_digest": "097ac7460c92c95e115cfd87f27e92ab46b011cdd78b0fb4687a6fa347e424db"
+    },
+    {
+      "row_index": 673,
+      "REFNO": "3145",
+      "RESULTNO": "8189",
+      "ROCKNAME": "Quartz Porphyry Intrusions",
+      "fold": 4,
+      "selection_rank_within_fold": 9,
+      "selection_digest": "0a766f4e853e264dd5920d87f3f2b7bebac2e3e79584797ec0a44e751811fc21"
+    },
+    {
+      "row_index": 1882,
+      "REFNO": "3841",
+      "RESULTNO": "9499",
+      "ROCKNAME": "Avanavero Sills",
+      "fold": 4,
+      "selection_rank_within_fold": 10,
+      "selection_digest": "0decafd2e8fb89c86853d02c7c73a05500eb7cd646cb0ddbd9d4a6ffd8019684"
+    },
+    {
+      "row_index": 1820,
+      "REFNO": "3793",
+      "RESULTNO": "9436",
+      "ROCKNAME": "Ezzane Limestone",
+      "fold": 4,
+      "selection_rank_within_fold": 11,
+      "selection_digest": "0ec6fac00aa18932b909f0d56e01025e08029697a4028990dbdf3760e719c704"
+    },
+    {
+      "row_index": 291,
+      "REFNO": "526",
+      "RESULTNO": "3299",
+      "ROCKNAME": "Gunflint Iron Formation",
+      "fold": 4,
+      "selection_rank_within_fold": 12,
+      "selection_digest": "0fa49df8584e7c954889ac0ef4eedf46472bb20a906dc75b70bdf034d9da2e1d"
+    },
+    {
+      "row_index": 2111,
+      "REFNO": "3991",
+      "RESULTNO": "9751",
+      "ROCKNAME": "Kirkpatrick Basalts",
+      "fold": 4,
+      "selection_rank_within_fold": 13,
+      "selection_digest": "1041789661c186e5efd5241b07ff3cb169601083dc16f34743e612333ba52252"
+    },
+    {
+      "row_index": 1114,
+      "REFNO": "3413",
+      "RESULTNO": "8682",
+      "ROCKNAME": "Tuscan Cherts",
+      "fold": 5,
+      "selection_rank_within_fold": 1,
+      "selection_digest": "04f4720df7c574ff3c1236aef415972563f3b23dddeff7bf4efbd8f39406d1de"
+    },
+    {
+      "row_index": 1538,
+      "REFNO": "3614",
+      "RESULTNO": "9149",
+      "ROCKNAME": "Northwest Iceland Lavas",
+      "fold": 5,
+      "selection_rank_within_fold": 2,
+      "selection_digest": "057b6fa85e6ee16be5a6829e5f0ab7256a315fd565fc37f18d47672f80c325a7"
+    },
+    {
+      "row_index": 2207,
+      "REFNO": "4054",
+      "RESULTNO": "9850",
+      "ROCKNAME": "Cis-Urals Sediments",
+      "fold": 5,
+      "selection_rank_within_fold": 3,
+      "selection_digest": "07827affa4d8a996a6c94d223afe9912d15d555c615d895d84018c70ee9fa6ea"
+    },
+    {
+      "row_index": 2588,
+      "REFNO": "4335",
+      "RESULTNO": "10259",
+      "ROCKNAME": "Ponta Grossa Dykes",
+      "fold": 5,
+      "selection_rank_within_fold": 4,
+      "selection_digest": "089694054b96998a6d0ce20c12f1655edf2bae25175f7447bc2bb937675a154b"
+    },
+    {
+      "row_index": 2319,
+      "REFNO": "4149",
+      "RESULTNO": "9977",
+      "ROCKNAME": "Ikakern Formation",
+      "fold": 5,
+      "selection_rank_within_fold": 5,
+      "selection_digest": "08d03409aa0d670c2b08765f9e974b46241737bb7d09a9a48b9dbf166bec8b5a"
+    },
+    {
+      "row_index": 1661,
+      "REFNO": "3690",
+      "RESULTNO": "9276",
+      "ROCKNAME": "Nola Dykes",
+      "fold": 5,
+      "selection_rank_within_fold": 6,
+      "selection_digest": "0937ca5fee50d7cd9c4884d938da8d9dc381040328344db9540c06eb7020b750"
+    },
+    {
+      "row_index": 2283,
+      "REFNO": "4122",
+      "RESULTNO": "9941",
+      "ROCKNAME": "Volpriehausen Formation",
+      "fold": 5,
+      "selection_rank_within_fold": 7,
+      "selection_digest": "0b0c374a78a466b839765803f91998e6a9f5ce16f3ec884f8590eda370646210"
+    },
+    {
+      "row_index": 837,
+      "REFNO": "3244",
+      "RESULTNO": "8371",
+      "ROCKNAME": "Jan Lake Granite",
+      "fold": 5,
+      "selection_rank_within_fold": 8,
+      "selection_digest": "0bc7df237db154fe75ee7f5b6581d3b6014161f1299a89f2ba1728d7f05dbe69"
+    },
+    {
+      "row_index": 1631,
+      "REFNO": "3667",
+      "RESULTNO": "9245",
+      "ROCKNAME": "Canisp Porphyry and Contact",
+      "fold": 5,
+      "selection_rank_within_fold": 9,
+      "selection_digest": "0c0d80bbf3f516941271d4f785e4a5a52c23f8077ecc1e543e93fac9112196d9"
+    },
+    {
+      "row_index": 2360,
+      "REFNO": "4172",
+      "RESULTNO": "10018",
+      "ROCKNAME": "Lake Ladoga, Mean intr. & dykes, A comp.",
+      "fold": 5,
+      "selection_rank_within_fold": 10,
+      "selection_digest": "0c950e7b7e86fcb38d45b18616667faf4c27aa41acee48fc8622ba1802a0c512"
+    },
+    {
+      "row_index": 543,
+      "REFNO": "3065",
+      "RESULTNO": "8047",
+      "ROCKNAME": "Bourg d'Oisans Metamorphics",
+      "fold": 5,
+      "selection_rank_within_fold": 11,
+      "selection_digest": "0e17b871b45e93c83576fb53461d2c67d0b41f9205de98e99403075fe609a943"
+    },
+    {
+      "row_index": 2031,
+      "REFNO": "3942",
+      "RESULTNO": "9666",
+      "ROCKNAME": "Dzabkhan Volcanics",
+      "fold": 5,
+      "selection_rank_within_fold": 12,
+      "selection_digest": "1120364219bd61cae7ef80c0e0389556e93d79704ddf324911751aab34e63828"
+    }
+  ],
+  "runtime_boundary": {
+    "labels_read": false,
+    "pmagresult_or_rockmag_read": false,
+    "prior_predictions_read": false,
+    "evaluation_results_read": false,
+    "outer_test_metrics_used_for_selection": false
+  },
+  "alignment_sha256": "4c66f703ad1c2edc2f7075df4ca55515df4017055336cb7742711ab683d7b58b",
+  "fold_id_sha256": "38262269a1aa9b1dcfd971345c8af6ae87221a0c83726b70dfeb6cf1568c5d8c",
+  "inputs": {
+    "identity": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_strict_eval_07111758/inputs/identity_manifest.xlsx",
+      "sha256": "5bdb7476a5b7d61494939fc5cd7bc8fa3195ef7b032b29306f146892862b970f"
+    },
+    "fold_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/trace_refno_fold_manifest_v4.json",
+      "sha256": "7c35c1ceb2f343dba687d202f6d4ff0f04e1dd200017bf7e3ad622f5480235ce"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "r3_nli_criterion_feature_audit_v1",
+  "status": "FROZEN_WITHOUT_LABEL_ACCESS",
+  "rows": 2751,
+  "features": 50,
+  "pilot_rows": 64,
+  "source_available_rows": 64,
+  "retrieval_available_rows": 62,
+  "premise_group_counts": {
+    "IDENTIFY": 103,
+    "METHOD_DIAGNOSTIC": 100,
+    "SIGNIFICANCE_COUNTER": 97
+  },
+  "nli_pairs": 1303,
+  "evidence_rows": 1303,
+  "nonpilot_nonzero_values": 0,
+  "candidate_frozen_before_inference": true,
+  "preinference_candidate_spec_sha256": "10bbd15cdc7b4567de0ccb93d131e6f7b22f26257bf451fdd56989071575d26d",
+  "runtime_boundary": {
+    "labels_read": false,
+    "pmagresult_or_rockmag_read": false,
+    "prior_predictions_read": false,
+    "evaluation_results_read": false,
+    "outer_test_metrics_used_for_selection": false
+  }
+}

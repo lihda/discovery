@@ -1,0 +1,178 @@
+{
+  "schema_version": "r3_single_target_selective_policy_evaluation_v1",
+  "status": "complete_development_oof",
+  "policy": {
+    "negative": "probability <= 0.30",
+    "positive": "probability >= 0.70",
+    "abstain": "0.30 < probability < 0.70",
+    "no_pdf": "SKIP_NO_SOURCE"
+  },
+  "scope": {
+    "definition": "REFNO occurs once in the complete 3,173-row R3 identity manifest",
+    "pdf_backed_single_target_rows": 872,
+    "paper_groups": 872
+  },
+  "full_coverage_reference": {
+    "threshold": 0.5,
+    "rows": 872,
+    "correct": 767,
+    "accuracy": 0.87958716
+  },
+  "selective_result": {
+    "eligible_rows": 872,
+    "decided_rows": 722,
+    "abstained_rows": 150,
+    "coverage": 0.82798165,
+    "decided_accuracy": 0.9265928,
+    "decided_macro_f1": 0.91413614,
+    "decided_balanced_accuracy": 0.90883283,
+    "confusion": {
+      "tn": 197,
+      "fp": 32,
+      "fn": 21,
+      "tp": 472
+    }
+  },
+  "folds": [
+    {
+      "fold": 1,
+      "eligible_rows": 175,
+      "decided_rows": 141,
+      "abstained_rows": 34,
+      "coverage": 0.80571429,
+      "decided_accuracy": 0.92907801,
+      "decided_macro_f1": 0.91840278,
+      "decided_balanced_accuracy": 0.91372998,
+      "confusion": {
+        "tn": 40,
+        "fp": 6,
+        "fn": 4,
+        "tp": 91
+      }
+    },
+    {
+      "fold": 2,
+      "eligible_rows": 174,
+      "decided_rows": 154,
+      "abstained_rows": 20,
+      "coverage": 0.88505747,
+      "decided_accuracy": 0.9025974,
+      "decided_macro_f1": 0.88713539,
+      "decided_balanced_accuracy": 0.88934748,
+      "confusion": {
+        "tn": 41,
+        "fp": 7,
+        "fn": 8,
+        "tp": 98
+      }
+    },
+    {
+      "fold": 3,
+      "eligible_rows": 173,
+      "decided_rows": 146,
+      "abstained_rows": 27,
+      "coverage": 0.84393064,
+      "decided_accuracy": 0.9109589,
+      "decided_macro_f1": 0.89858402,
+      "decided_balanced_accuracy": 0.89647109,
+      "confusion": {
+        "tn": 41,
+        "fp": 7,
+        "fn": 6,
+        "tp": 92
+      }
+    },
+    {
+      "fold": 4,
+      "eligible_rows": 175,
+      "decided_rows": 142,
+      "abstained_rows": 33,
+      "coverage": 0.81142857,
+      "decided_accuracy": 0.95774648,
+      "decided_macro_f1": 0.94928571,
+      "decided_balanced_accuracy": 0.93807978,
+      "confusion": {
+        "tn": 39,
+        "fp": 5,
+        "fn": 1,
+        "tp": 97
+      }
+    },
+    {
+      "fold": 5,
+      "eligible_rows": 175,
+      "decided_rows": 139,
+      "abstained_rows": 36,
+      "coverage": 0.79428571,
+      "decided_accuracy": 0.9352518,
+      "decided_macro_f1": 0.9216018,
+      "decided_balanced_accuracy": 0.90818798,
+      "confusion": {
+        "tn": 36,
+        "fp": 7,
+        "fn": 2,
+        "tp": 94
+      }
+    }
+  ],
+  "historical_partitions": {
+    "original_training": {
+      "eligible_rows": 695,
+      "decided_rows": 581,
+      "abstained_rows": 114,
+      "coverage": 0.83597122,
+      "decided_accuracy": 0.93287435,
+      "decided_macro_f1": 0.91933916,
+      "decided_balanced_accuracy": 0.91863308,
+      "confusion": {
+        "tn": 152,
+        "fp": 20,
+        "fn": 19,
+        "tp": 390
+      }
+    },
+    "original_holdout": {
+      "eligible_rows": 177,
+      "decided_rows": 141,
+      "abstained_rows": 36,
+      "coverage": 0.79661017,
+      "decided_accuracy": 0.90070922,
+      "decided_macro_f1": 0.89336646,
+      "decided_balanced_accuracy": 0.88283208,
+      "confusion": {
+        "tn": 45,
+        "fp": 12,
+        "fn": 2,
+        "tp": 82
+      }
+    }
+  },
+  "claim_boundary": {
+    "selective_decisions_frozen_before_label_access": true,
+    "outer_predictions_are_refno_grouped_oof": true,
+    "each_prediction_excludes_its_paper_from_model_fit": true,
+    "thresholds_selected_during_single_target_development": true,
+    "independent_external_validation": false,
+    "full_coverage_accuracy_above_90_percent": false,
+    "decided_subset_accuracy_above_90_percent": true,
+    "coverage_must_accompany_accuracy": true
+  },
+  "inputs": {
+    "probabilities": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/oof_probabilities.npz",
+      "sha256": "ec3210f77de361ef4bb215bdc089b33e8f8d30b79f460afc0203eff0354303c8"
+    },
+    "receipt": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/prediction_receipt.json",
+      "sha256": "2b60f1348362e04bb1d6c3f6f7532a835d3bb4c83c9bf9c54dc0840941b0fb8b"
+    },
+    "selective_prediction_receipt": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/single_target_selective_prediction_receipt.json",
+      "sha256": "285500d77da8132e1c819499cf8064f658ca60927c129bf2d094bc7f9a58c2c6"
+    },
+    "labels_postfreeze": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/targets.xlsx",
+      "sha256": "378c17338f3b5cfeff3ccd496894e0f6183f747119b2624c4a9cefaeda02501e"
+    }
+  }
+}

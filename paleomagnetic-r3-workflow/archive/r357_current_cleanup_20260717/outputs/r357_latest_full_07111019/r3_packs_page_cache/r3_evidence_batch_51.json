@@ -1,0 +1,5484 @@
+[
+  {
+    "sequence": 5001,
+    "REFNO": "2056",
+    "RESULTNO": "5001",
+    "TARGET": "Nadak Group",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Nadak"
+    ],
+    "source": {
+      "refno": "2056",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "OP",
+        "LABDETAILS": "AF 80mT",
+        "TREATMENT": "A",
+        "DEMAGCODE": "1",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5002,
+    "REFNO": "2056",
+    "RESULTNO": "5002",
+    "TARGET": "Akchinsk Group",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Akchinsk"
+    ],
+    "source": {
+      "refno": "2056",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "OP, Q>1",
+        "LABDETAILS": "AF 80mT",
+        "TREATMENT": "A",
+        "DEMAGCODE": "1",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5003,
+    "REFNO": "595",
+    "RESULTNO": "5003",
+    "TARGET": "Moscow Basin Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Moscow",
+      "Basin",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "595",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "Js-T",
+        "LABDETAILS": "Thermal 400C",
+        "TREATMENT": "T",
+        "DEMAGCODE": "1",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5004,
+    "REFNO": "2058",
+    "RESULTNO": "5004",
+    "TARGET": "Flyschoid Group",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Flyschoid"
+    ],
+    "source": {
+      "refno": "2058",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "AF 20-30mT, Zero Field 30 days",
+        "TREATMENT": "AV",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5005,
+    "REFNO": "2004",
+    "RESULTNO": "5005",
+    "TARGET": "Upper Uralian Complex",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Upper",
+      "Uralian"
+    ],
+    "source": {
+      "refno": "2004",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "OP, Js-T",
+        "LABDETAILS": "Thermal 100-500C, AF 20mT",
+        "TREATMENT": "TA",
+        "DEMAGCODE": "1",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5006,
+    "REFNO": "2004",
+    "RESULTNO": "5006",
+    "TARGET": "Nurama Massif",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Nurama",
+      "Massif"
+    ],
+    "source": {
+      "refno": "2004",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "OP",
+        "LABDETAILS": "",
+        "TREATMENT": "N",
+        "DEMAGCODE": "",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5007,
+    "REFNO": "2004",
+    "RESULTNO": "5007",
+    "TARGET": "Kurmansai Complex",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Kurmansai"
+    ],
+    "source": {
+      "refno": "2004",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "OP",
+        "LABDETAILS": "Thermal 100-600C, AF 30mT",
+        "TREATMENT": "TA",
+        "DEMAGCODE": "1",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5008,
+    "REFNO": "2010",
+    "RESULTNO": "5008",
+    "TARGET": "Caucasus Volcanics",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Caucasus",
+      "Volcanics"
+    ],
+    "source": {
+      "refno": "2010",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "Js-T, Q=3.7-8.2",
+        "LABDETAILS": "AF 35mT",
+        "TREATMENT": "A",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5009,
+    "REFNO": "2010",
+    "RESULTNO": "5009",
+    "TARGET": "Caucasus Intrusions",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Caucasus",
+      "Intrusions"
+    ],
+    "source": {
+      "refno": "2010",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "Js-T, Q=3.7-5.5",
+        "LABDETAILS": "AF 35mT",
+        "TREATMENT": "A",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5010,
+    "REFNO": "2010",
+    "RESULTNO": "5010",
+    "TARGET": "Caucasus Limestones",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Caucasus",
+      "Limestones"
+    ],
+    "source": {
+      "refno": "2010",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "Q=1.1, Hcr=560mT",
+        "LABDETAILS": "",
+        "TREATMENT": "A",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5011,
+    "REFNO": "1964",
+    "RESULTNO": "5011",
+    "TARGET": "Lena River Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Lena",
+      "River",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "1964",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "Thermal 300-500C, AF 50mT",
+        "TREATMENT": "TA",
+        "DEMAGCODE": "1",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5012,
+    "REFNO": "2066",
+    "RESULTNO": "5012",
+    "TARGET": "South Urals Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "South",
+      "Urals",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2066",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "TS",
+        "LABDETAILS": "Thermal 200C",
+        "TREATMENT": "T",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5013,
+    "REFNO": "2178",
+    "RESULTNO": "5013",
+    "TARGET": "South Urals Sediments",
+    "multi_target_refno": false,
+    "target_tokens": [
+      "South",
+      "Urals",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2178",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "A",
+        "DEMAGCODE": "1",
+        "COMMENTS": "Combined RESULTNOS 4954-4955",
+        "COMPONENT": "Combined Result"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative."
+    ]
+  },
+  {
+    "sequence": 5014,
+    "REFNO": "968",
+    "RESULTNO": "5014",
+    "TARGET": "South Urals Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "South",
+      "Urals",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "968",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "A",
+        "DEMAGCODE": "2",
+        "COMMENTS": "Combined RESULTNOS 4943 and 4952",
+        "COMPONENT": "Combined Result"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5015,
+    "REFNO": "968",
+    "RESULTNO": "5015",
+    "TARGET": "Flyschoid Group",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Flyschoid"
+    ],
+    "source": {
+      "refno": "968",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "TAV",
+        "DEMAGCODE": "2",
+        "COMMENTS": "Combined RESULTNOS 4966, 4971 and 5004",
+        "COMPONENT": "Combined Result"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5016,
+    "REFNO": "968",
+    "RESULTNO": "5016",
+    "TARGET": "Berezov Group",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Berezov"
+    ],
+    "source": {
+      "refno": "968",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "Q=1.5",
+        "LABDETAILS": "",
+        "TREATMENT": "TAV",
+        "DEMAGCODE": "2",
+        "COMMENTS": "Combined RESULTNOS 4942, 4970",
+        "COMPONENT": "Combined Result"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5017,
+    "REFNO": "2181",
+    "RESULTNO": "5017",
+    "TARGET": "Central Kazakhstan Intrusions",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Central",
+      "Kazakhstan",
+      "Intrusions"
+    ],
+    "source": {
+      "refno": "2181",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "TAV",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": "Locality 1"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5018,
+    "REFNO": "2181",
+    "RESULTNO": "5018",
+    "TARGET": "Central Kazakhstan Intrusions",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Central",
+      "Kazakhstan",
+      "Intrusions"
+    ],
+    "source": {
+      "refno": "2181",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "TA",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": "Locality 2"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5019,
+    "REFNO": "2181",
+    "RESULTNO": "5019",
+    "TARGET": "Central Kazakhstan Intrusions",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Central",
+      "Kazakhstan",
+      "Intrusions"
+    ],
+    "source": {
+      "refno": "2181",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "TA",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": "Locality 3"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5020,
+    "REFNO": "2181",
+    "RESULTNO": "5020",
+    "TARGET": "Central Kazakhstan Intrusions",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Central",
+      "Kazakhstan",
+      "Intrusions"
+    ],
+    "source": {
+      "refno": "2181",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "TA",
+        "DEMAGCODE": "2",
+        "COMMENTS": "Combined RESULTNO 5017-5019",
+        "COMPONENT": "Combined Result"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5021,
+    "REFNO": "2076",
+    "RESULTNO": "5021",
+    "TARGET": "North Caucasus Granites",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "North",
+      "Caucasus",
+      "Granites"
+    ],
+    "source": {
+      "refno": "2076",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "A",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5022,
+    "REFNO": "2073",
+    "RESULTNO": "5022",
+    "TARGET": "South Urals Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "South",
+      "Urals",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2073",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "TA",
+        "DEMAGCODE": "4",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5023,
+    "REFNO": "2071",
+    "RESULTNO": "5023",
+    "TARGET": "Dastarsk and Utchbulak Groups",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Dastarsk",
+      "Utchbulak",
+      "Groups"
+    ],
+    "source": {
+      "refno": "2071",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "AV",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": "Locality 1"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5024,
+    "REFNO": "2071",
+    "RESULTNO": "5024",
+    "TARGET": "Dastarsk and Utchbulak Groups",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Dastarsk",
+      "Utchbulak",
+      "Groups"
+    ],
+    "source": {
+      "refno": "2071",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "A",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": "Locality 2"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5025,
+    "REFNO": "2071",
+    "RESULTNO": "5025",
+    "TARGET": "Dastarsk and Utchbulak Groups",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Dastarsk",
+      "Utchbulak",
+      "Groups"
+    ],
+    "source": {
+      "refno": "2071",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "A",
+        "DEMAGCODE": "2",
+        "COMMENTS": "Combined RESULTNOS 5023-5024",
+        "COMPONENT": "Combined Result"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5026,
+    "REFNO": "2077",
+    "RESULTNO": "5026",
+    "TARGET": "Utchbulak Group",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Utchbulak"
+    ],
+    "source": {
+      "refno": "2077",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "TS",
+        "LABDETAILS": "",
+        "TREATMENT": "A",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": "Locality 1"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5027,
+    "REFNO": "2077",
+    "RESULTNO": "5027",
+    "TARGET": "Utchbulak Group",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Utchbulak"
+    ],
+    "source": {
+      "refno": "2077",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "TS",
+        "LABDETAILS": "",
+        "TREATMENT": "A",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": "Locality 2"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5028,
+    "REFNO": "2077",
+    "RESULTNO": "5028",
+    "TARGET": "Utchbulak Group",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Utchbulak"
+    ],
+    "source": {
+      "refno": "2077",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "TS",
+        "LABDETAILS": "",
+        "TREATMENT": "A",
+        "DEMAGCODE": "2",
+        "COMMENTS": "Combined RESULTNOS 5026-5027",
+        "COMPONENT": "Combined Result"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5029,
+    "REFNO": "2070",
+    "RESULTNO": "5029",
+    "TARGET": "Vladimirovsk Group",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Vladimirovsk"
+    ],
+    "source": {
+      "refno": "2070",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "TA",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5030,
+    "REFNO": "2070",
+    "RESULTNO": "5030",
+    "TARGET": "Central Kazakhstan Redbeds",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Central",
+      "Kazakhstan",
+      "Redbeds"
+    ],
+    "source": {
+      "refno": "2070",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "TA",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5031,
+    "REFNO": "2070",
+    "RESULTNO": "5031",
+    "TARGET": "Central Kazakhstan Redbeds",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Central",
+      "Kazakhstan",
+      "Redbeds"
+    ],
+    "source": {
+      "refno": "2070",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "TA",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5032,
+    "REFNO": "2072",
+    "RESULTNO": "5032",
+    "TARGET": "South Fergana Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "South",
+      "Fergana",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2072",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "TS",
+        "LABDETAILS": "",
+        "TREATMENT": "A",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": "Locality 1"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5033,
+    "REFNO": "2072",
+    "RESULTNO": "5033",
+    "TARGET": "South Fergana Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "South",
+      "Fergana",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2072",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "TS",
+        "LABDETAILS": "",
+        "TREATMENT": "A",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": "Locality 2"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5034,
+    "REFNO": "2072",
+    "RESULTNO": "5034",
+    "TARGET": "South Fergana Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "South",
+      "Fergana",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2072",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "TS",
+        "LABDETAILS": "",
+        "TREATMENT": "A",
+        "DEMAGCODE": "2",
+        "COMMENTS": "Combined RESULTNOS 5032-5033",
+        "COMPONENT": "Combined Result"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5035,
+    "REFNO": "2079",
+    "RESULTNO": "5035",
+    "TARGET": "Central Kazakhstan Redbeds",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Central",
+      "Kazakhstan",
+      "Redbeds"
+    ],
+    "source": {
+      "refno": "2079",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "TA",
+        "DEMAGCODE": "1",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5036,
+    "REFNO": "2079",
+    "RESULTNO": "5036",
+    "TARGET": "Central Kazakhstan Redbeds",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Central",
+      "Kazakhstan",
+      "Redbeds"
+    ],
+    "source": {
+      "refno": "2079",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "TAV",
+        "DEMAGCODE": "1",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5037,
+    "REFNO": "2070",
+    "RESULTNO": "5037",
+    "TARGET": "Jezzkazghan and Taskuduk Groups",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Jezzkazghan",
+      "Taskuduk",
+      "Groups"
+    ],
+    "source": {
+      "refno": "2070",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "AV",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": "Locality 1"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5038,
+    "REFNO": "2070",
+    "RESULTNO": "5038",
+    "TARGET": "Jezzkazghan and Taskuduk Groups",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Jezzkazghan",
+      "Taskuduk",
+      "Groups"
+    ],
+    "source": {
+      "refno": "2070",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "TA",
+        "DEMAGCODE": "1",
+        "COMMENTS": "",
+        "COMPONENT": "Locality 2"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5039,
+    "REFNO": "2070",
+    "RESULTNO": "5039",
+    "TARGET": "Jezzkazghan and Taskuduk Groups",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Jezzkazghan",
+      "Taskuduk",
+      "Groups"
+    ],
+    "source": {
+      "refno": "2070",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "A",
+        "DEMAGCODE": "2",
+        "COMMENTS": "Combined RESULTNOS 5037-5038",
+        "COMPONENT": "Combined Result"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5040,
+    "REFNO": "2070",
+    "RESULTNO": "5040",
+    "TARGET": "Central Kazakhstan Redbeds",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Central",
+      "Kazakhstan",
+      "Redbeds"
+    ],
+    "source": {
+      "refno": "2070",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "TA",
+        "DEMAGCODE": "1",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5041,
+    "REFNO": "2070",
+    "RESULTNO": "5041",
+    "TARGET": "Central Kazakhstan Redbeds",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Central",
+      "Kazakhstan",
+      "Redbeds"
+    ],
+    "source": {
+      "refno": "2070",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "A",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5042,
+    "REFNO": "2025",
+    "RESULTNO": "5042",
+    "TARGET": "Kalmakemel and Arkarlin Groups",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Kalmakemel",
+      "Arkarlin",
+      "Groups"
+    ],
+    "source": {
+      "refno": "2025",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "T",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5043,
+    "REFNO": "2080",
+    "RESULTNO": "5043",
+    "TARGET": "South Urals Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "South",
+      "Urals",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2080",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "TS",
+        "LABDETAILS": "",
+        "TREATMENT": "A",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5044,
+    "REFNO": "2080",
+    "RESULTNO": "5044",
+    "TARGET": "South Urals Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "South",
+      "Urals",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2080",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "TS",
+        "LABDETAILS": "",
+        "TREATMENT": "TA",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5045,
+    "REFNO": "2074",
+    "RESULTNO": "5045",
+    "TARGET": "Bashkirean Anticline Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Bashkirean",
+      "Anticline",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2074",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "TS",
+        "LABDETAILS": "",
+        "TREATMENT": "TA",
+        "DEMAGCODE": "4",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5046,
+    "REFNO": "2074",
+    "RESULTNO": "5046",
+    "TARGET": "Magnitogorsk Volcanics and Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Magnitogorsk",
+      "Volcanics",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2074",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "TA",
+        "DEMAGCODE": "3",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5047,
+    "REFNO": "2074",
+    "RESULTNO": "5047",
+    "TARGET": "Magnitogorsk Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Magnitogorsk",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2074",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "TS",
+        "LABDETAILS": "",
+        "TREATMENT": "TAV",
+        "DEMAGCODE": "4",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5048,
+    "REFNO": "2081",
+    "RESULTNO": "5048",
+    "TARGET": "Beryozovka River Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Beryozovka",
+      "River",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2081",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "Js-T",
+        "LABDETAILS": "",
+        "TREATMENT": "N",
+        "DEMAGCODE": "",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5049,
+    "REFNO": "2020",
+    "RESULTNO": "5049",
+    "TARGET": "Perevalniy Creek Volcanics",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Perevalniy",
+      "Creek",
+      "Volcanics"
+    ],
+    "source": {
+      "refno": "2020",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "A",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5050,
+    "REFNO": "2076",
+    "RESULTNO": "5050",
+    "TARGET": "North Caucasus Volcanics",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "North",
+      "Caucasus",
+      "Volcanics"
+    ],
+    "source": {
+      "refno": "2076",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "TA",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5051,
+    "REFNO": "2076",
+    "RESULTNO": "5051",
+    "TARGET": "North Caucasus Volcanics",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "North",
+      "Caucasus",
+      "Volcanics"
+    ],
+    "source": {
+      "refno": "2076",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "OP",
+        "LABDETAILS": "",
+        "TREATMENT": "T",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5052,
+    "REFNO": "2020",
+    "RESULTNO": "5052",
+    "TARGET": "Perevalniy Creek Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Perevalniy",
+      "Creek",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2020",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "Q=10",
+        "LABDETAILS": "",
+        "TREATMENT": "TA",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5053,
+    "REFNO": "2093",
+    "RESULTNO": "5053",
+    "TARGET": "South Fergana Sediments",
+    "multi_target_refno": false,
+    "target_tokens": [
+      "South",
+      "Fergana",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2093",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "TS",
+        "LABDETAILS": "",
+        "TREATMENT": "A",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5054,
+    "REFNO": "2083",
+    "RESULTNO": "5054",
+    "TARGET": "South Tien Shan Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "South",
+      "Tien",
+      "Shan",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2083",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "Thermal 300C",
+        "TREATMENT": "TV",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5055,
+    "REFNO": "2083",
+    "RESULTNO": "5055",
+    "TARGET": "South Tien Shan Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "South",
+      "Tien",
+      "Shan",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2083",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "Thermal 300C",
+        "TREATMENT": "T",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5056,
+    "REFNO": "2083",
+    "RESULTNO": "5056",
+    "TARGET": "Ghissar Range Volcanics and Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Ghissar",
+      "Range",
+      "Volcanics",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2083",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "Thermal 300C",
+        "TREATMENT": "T",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5057,
+    "REFNO": "2094",
+    "RESULTNO": "5057",
+    "TARGET": "Kardailov Series",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Kardailov"
+    ],
+    "source": {
+      "refno": "2094",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "T",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5058,
+    "REFNO": "2094",
+    "RESULTNO": "5058",
+    "TARGET": "Flyschoid Group",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Flyschoid"
+    ],
+    "source": {
+      "refno": "2094",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "N",
+        "DEMAGCODE": "",
+        "COMMENTS": "",
+        "COMPONENT": "Locality 1"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5059,
+    "REFNO": "2094",
+    "RESULTNO": "5059",
+    "TARGET": "Flyschoid Group",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Flyschoid"
+    ],
+    "source": {
+      "refno": "2094",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "V",
+        "DEMAGCODE": "",
+        "COMMENTS": "",
+        "COMPONENT": "Locality 2"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5060,
+    "REFNO": "2094",
+    "RESULTNO": "5060",
+    "TARGET": "Flyschoid Group",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Flyschoid"
+    ],
+    "source": {
+      "refno": "2094",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "V",
+        "DEMAGCODE": "",
+        "COMMENTS": "",
+        "COMPONENT": "Locality 3"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5061,
+    "REFNO": "2094",
+    "RESULTNO": "5061",
+    "TARGET": "Flyschoid Group",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Flyschoid"
+    ],
+    "source": {
+      "refno": "2094",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "TV",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": "Locality 4"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5062,
+    "REFNO": "2094",
+    "RESULTNO": "5062",
+    "TARGET": "Flyschoid Group",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Flyschoid"
+    ],
+    "source": {
+      "refno": "2094",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "T",
+        "DEMAGCODE": "2",
+        "COMMENTS": "Combined RESULTNOS 5058-5061",
+        "COMPONENT": "Combined Result"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5063,
+    "REFNO": "2083",
+    "RESULTNO": "5063",
+    "TARGET": "South Tien Shan Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "South",
+      "Tien",
+      "Shan",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2083",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "Thermal 300C",
+        "TREATMENT": "TV",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5064,
+    "REFNO": "2083",
+    "RESULTNO": "5064",
+    "TARGET": "South Tien Shan Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "South",
+      "Tien",
+      "Shan",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2083",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "Thermal 300C",
+        "TREATMENT": "T",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5065,
+    "REFNO": "2083",
+    "RESULTNO": "5065",
+    "TARGET": "South Tien Shan Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "South",
+      "Tien",
+      "Shan",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2083",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "Thermal 300C",
+        "TREATMENT": "T",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5066,
+    "REFNO": "2095",
+    "RESULTNO": "5066",
+    "TARGET": "Central Kazakhstan Volcanics",
+    "multi_target_refno": false,
+    "target_tokens": [
+      "Central",
+      "Kazakhstan",
+      "Volcanics"
+    ],
+    "source": {
+      "refno": "2095",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "A",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative."
+    ]
+  },
+  {
+    "sequence": 5067,
+    "REFNO": "2083",
+    "RESULTNO": "5067",
+    "TARGET": "South Kazakhstan Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "South",
+      "Kazakhstan",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2083",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "Thermal 300C",
+        "TREATMENT": "T",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5068,
+    "REFNO": "2094",
+    "RESULTNO": "5068",
+    "TARGET": "Magnitogorsk Volcanics and Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Magnitogorsk",
+      "Volcanics",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2094",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "T",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": "Locality 1"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5069,
+    "REFNO": "2094",
+    "RESULTNO": "5069",
+    "TARGET": "Magnitogorsk Volcanics and Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Magnitogorsk",
+      "Volcanics",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2094",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "A",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": "Locality 2"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5070,
+    "REFNO": "2094",
+    "RESULTNO": "5070",
+    "TARGET": "Magnitogorsk Volcanics and Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Magnitogorsk",
+      "Volcanics",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2094",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "TA",
+        "DEMAGCODE": "2",
+        "COMMENTS": "Combined RESULTNOS 5068-5069",
+        "COMPONENT": "Combined Result"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5071,
+    "REFNO": "2094",
+    "RESULTNO": "5071",
+    "TARGET": "Magnitogorsk Volcanics and Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Magnitogorsk",
+      "Volcanics",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2094",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "T",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": "Locality 1"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5072,
+    "REFNO": "2094",
+    "RESULTNO": "5072",
+    "TARGET": "Magnitogorsk Volcanics and Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Magnitogorsk",
+      "Volcanics",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2094",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "A",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": "Locality 2"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5073,
+    "REFNO": "2094",
+    "RESULTNO": "5073",
+    "TARGET": "Magnitogorsk Volcanics and Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Magnitogorsk",
+      "Volcanics",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2094",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "TA",
+        "DEMAGCODE": "2",
+        "COMMENTS": "Combined RESULTNOS 5071-5072",
+        "COMPONENT": "Combined Result"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5074,
+    "REFNO": "2085",
+    "RESULTNO": "5074",
+    "TARGET": "South Urals Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "South",
+      "Urals",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2085",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "Thermal 300C",
+        "TREATMENT": "T",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5075,
+    "REFNO": "2089",
+    "RESULTNO": "5075",
+    "TARGET": "Alaisky Range Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Alaisky",
+      "Range",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2089",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "Thermal 600C",
+        "TREATMENT": "T",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5076,
+    "REFNO": "2085",
+    "RESULTNO": "5076",
+    "TARGET": "South Mugojary Volcanics and Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "South",
+      "Mugojary",
+      "Volcanics",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2085",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "Thermal 300C",
+        "TREATMENT": "T",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5077,
+    "REFNO": "2096",
+    "RESULTNO": "5077",
+    "TARGET": "Magar and Uvyazkin Groups",
+    "multi_target_refno": false,
+    "target_tokens": [
+      "Magar",
+      "Uvyazkin",
+      "Groups"
+    ],
+    "source": {
+      "refno": "2096",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "Thermal 600C",
+        "TREATMENT": "TA",
+        "DEMAGCODE": "4",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative."
+    ]
+  },
+  {
+    "sequence": 5078,
+    "REFNO": "2085",
+    "RESULTNO": "5078",
+    "TARGET": "Middle Urals Igneous Rocks and Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Middle",
+      "Urals",
+      "Igneous",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2085",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "TV",
+        "DEMAGCODE": "2",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5079,
+    "REFNO": "877",
+    "RESULTNO": "5079",
+    "TARGET": "Devonian Redbeds",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Devonian",
+      "Redbeds"
+    ],
+    "source": {
+      "refno": "877",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "",
+        "TREATMENT": "N",
+        "DEMAGCODE": "",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5080,
+    "REFNO": "2097",
+    "RESULTNO": "5080",
+    "TARGET": "Devonian Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Devonian",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2097",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "Hcr=0.8-12.5mT",
+        "LABDETAILS": "Thermal 100-200C, Zero Field 15 days",
+        "TREATMENT": "TV",
+        "DEMAGCODE": "1",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5081,
+    "REFNO": "2097",
+    "RESULTNO": "5081",
+    "TARGET": "Devonian Redbeds",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Devonian",
+      "Redbeds"
+    ],
+    "source": {
+      "refno": "2097",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "Hcr=12mT",
+        "LABDETAILS": "Thermal 100-200C",
+        "TREATMENT": "T",
+        "DEMAGCODE": "1",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5082,
+    "REFNO": "2097",
+    "RESULTNO": "5082",
+    "TARGET": "Devonian Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Devonian",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2097",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "Hcr=0.8-12.5mT",
+        "LABDETAILS": "Thermal 100-200C",
+        "TREATMENT": "T",
+        "DEMAGCODE": "1",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5083,
+    "REFNO": "1984",
+    "RESULTNO": "5083",
+    "TARGET": "Devonian Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Devonian",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "1984",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "TS",
+        "LABDETAILS": "AF 60mT",
+        "TREATMENT": "A",
+        "DEMAGCODE": "1",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5084,
+    "REFNO": "1983",
+    "RESULTNO": "5084",
+    "TARGET": "Zilair Group",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Zilair"
+    ],
+    "source": {
+      "refno": "1983",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "SUSC",
+        "LABDETAILS": "Zero Field 90 days",
+        "TREATMENT": "V",
+        "DEMAGCODE": "",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5085,
+    "REFNO": "1983",
+    "RESULTNO": "5085",
+    "TARGET": "Pashiysk Group",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Pashiysk"
+    ],
+    "source": {
+      "refno": "1983",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "Q>1, Hcr>4mT",
+        "LABDETAILS": "",
+        "TREATMENT": "N",
+        "DEMAGCODE": "",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5086,
+    "REFNO": "2038",
+    "RESULTNO": "5086",
+    "TARGET": "Ulutaus Group",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Ulutaus"
+    ],
+    "source": {
+      "refno": "2038",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "Thermal 300C, AF 30mT, Zero Field 40 days",
+        "TREATMENT": "TAV",
+        "DEMAGCODE": "1",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5087,
+    "REFNO": "2038",
+    "RESULTNO": "5087",
+    "TARGET": "Ulutaus Group",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Ulutaus"
+    ],
+    "source": {
+      "refno": "2038",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "Thermal 300C, AF 30mT, Zero Field 135 days",
+        "TREATMENT": "TAV",
+        "DEMAGCODE": "1",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5088,
+    "REFNO": "2038",
+    "RESULTNO": "5088",
+    "TARGET": "Ulutaus Group",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Ulutaus"
+    ],
+    "source": {
+      "refno": "2038",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "Thermal 300C, AF 30mT, Zero Field 45-365 days",
+        "TREATMENT": "TAV",
+        "DEMAGCODE": "1",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5089,
+    "REFNO": "2038",
+    "RESULTNO": "5089",
+    "TARGET": "Ulutaus Group",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Ulutaus"
+    ],
+    "source": {
+      "refno": "2038",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "Thermal 300C, AF 30mT, Zero Field 45-365 days",
+        "TREATMENT": "TAV",
+        "DEMAGCODE": "1",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5090,
+    "REFNO": "2038",
+    "RESULTNO": "5090",
+    "TARGET": "Irendyk and Karamalytash Groups",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Irendyk",
+      "Karamalytash",
+      "Groups"
+    ],
+    "source": {
+      "refno": "2038",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "Thermal 300C, AF 30mT, Zero Field 45-365 days",
+        "TREATMENT": "TAV",
+        "DEMAGCODE": "1",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5091,
+    "REFNO": "2038",
+    "RESULTNO": "5091",
+    "TARGET": "South Urals Sediments",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "South",
+      "Urals",
+      "Sediments"
+    ],
+    "source": {
+      "refno": "2038",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "OP",
+        "LABDETAILS": "Thermal 300C, AF 30mT, Zero Field 15-365 days",
+        "TREATMENT": "TAV",
+        "DEMAGCODE": "1",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5092,
+    "REFNO": "1983",
+    "RESULTNO": "5092",
+    "TARGET": "Orthophyre Group",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Orthophyre"
+    ],
+    "source": {
+      "refno": "1983",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "Q>1, Hcr=3.5-4mT",
+        "LABDETAILS": "Thermal 100C, AF 20mT, Zero Field 15-365 days",
+        "TREATMENT": "TAV",
+        "DEMAGCODE": "1",
+        "COMMENTS": "",
+        "COMPONENT": ""
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5093,
+    "REFNO": "309",
+    "RESULTNO": "5093",
+    "TARGET": "Gorodnitsk and Barysh Groups",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Gorodnitsk",
+      "Barysh",
+      "Groups"
+    ],
+    "source": {
+      "refno": "309",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "Hcr=2-4mT",
+        "LABDETAILS": "",
+        "TREATMENT": "N",
+        "DEMAGCODE": "",
+        "COMMENTS": "",
+        "COMPONENT": "Locality 1"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5094,
+    "REFNO": "309",
+    "RESULTNO": "5094",
+    "TARGET": "Gorodnitsk and Barysh Groups",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Gorodnitsk",
+      "Barysh",
+      "Groups"
+    ],
+    "source": {
+      "refno": "309",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "Hcr=2-4mT",
+        "LABDETAILS": "",
+        "TREATMENT": "N",
+        "DEMAGCODE": "",
+        "COMMENTS": "",
+        "COMPONENT": "Locality 2"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5095,
+    "REFNO": "2098",
+    "RESULTNO": "5095",
+    "TARGET": "Gorodnitsk and Barysh Groups",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Gorodnitsk",
+      "Barysh",
+      "Groups"
+    ],
+    "source": {
+      "refno": "2098",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "Hcr=0.8-1.6mT",
+        "LABDETAILS": "",
+        "TREATMENT": "N",
+        "DEMAGCODE": "",
+        "COMMENTS": "",
+        "COMPONENT": "Locality 1"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5096,
+    "REFNO": "2098",
+    "RESULTNO": "5096",
+    "TARGET": "Gorodnitsk and Barysh Groups",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Gorodnitsk",
+      "Barysh",
+      "Groups"
+    ],
+    "source": {
+      "refno": "2098",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "Hcr=1.2-2.6mT",
+        "LABDETAILS": "",
+        "TREATMENT": "N",
+        "DEMAGCODE": "",
+        "COMMENTS": "",
+        "COMPONENT": "Locality 2"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5097,
+    "REFNO": "1984",
+    "RESULTNO": "5097",
+    "TARGET": "Gorodnitsk Group",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Gorodnitsk"
+    ],
+    "source": {
+      "refno": "1984",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "",
+        "LABDETAILS": "Thermal 300C",
+        "TREATMENT": "T",
+        "DEMAGCODE": "1",
+        "COMMENTS": "",
+        "COMPONENT": "Locality 1"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring."
+    ]
+  },
+  {
+    "sequence": 5098,
+    "REFNO": "1984",
+    "RESULTNO": "5098",
+    "TARGET": "Gorodnitsk Group",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Gorodnitsk"
+    ],
+    "source": {
+      "refno": "1984",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "TS, CHEM, XRAY",
+        "LABDETAILS": "Thermal 300C, AF 50mT, Zero Field 105 days",
+        "TREATMENT": "TAV",
+        "DEMAGCODE": "1",
+        "COMMENTS": "",
+        "COMPONENT": "Locality 2"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5099,
+    "REFNO": "1984",
+    "RESULTNO": "5099",
+    "TARGET": "Gorodnitsk Group",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Gorodnitsk"
+    ],
+    "source": {
+      "refno": "1984",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "TS, CHEM",
+        "LABDETAILS": "Thermal 300C, AF 50mT, Zero Field 105 days",
+        "TREATMENT": "TAV",
+        "DEMAGCODE": "1",
+        "COMMENTS": "",
+        "COMPONENT": "Locality 3"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  },
+  {
+    "sequence": 5100,
+    "REFNO": "877",
+    "RESULTNO": "5100",
+    "TARGET": "Gorodnitsk and Barysh Groups Combined",
+    "multi_target_refno": true,
+    "target_tokens": [
+      "Gorodnitsk",
+      "Barysh",
+      "Groups",
+      "Combined"
+    ],
+    "source": {
+      "refno": "877",
+      "source_kind": "missing",
+      "parsed_path": null,
+      "pdf_path": null,
+      "page_count": 0,
+      "text_length": 0,
+      "cache_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_quality_flags": [
+        "no_parsed_text",
+        "no_local_pdf",
+        "no_extractable_text",
+        "short_text"
+      ],
+      "page_spans": []
+    },
+    "source_metadata": {
+      "pmagresult": {
+        "ROCKMAG": "TS, CHEM, XRAY, Hcr",
+        "LABDETAILS": "Zero Field 105 days",
+        "TREATMENT": "TAV",
+        "DEMAGCODE": "1",
+        "COMMENTS": "Combined RESULTNOS 5093-5099",
+        "COMPONENT": "Combined Result"
+      },
+      "metadata_notes": "PMAGRESULT metadata is joined by RESULTNO and contains no target label columns."
+    },
+    "candidate_evidence": {
+      "target_context": [],
+      "carrier_investigation_candidates": [],
+      "carrier_identity_candidates": [],
+      "carrier_significance_candidates": [],
+      "directional_or_weak_substitution_warnings": [],
+      "section_candidates": []
+    },
+    "reviewer_notes": [
+      "This pack contains no standard labels, gold scores, or historical predictions.",
+      "Score R3=1 only if Evidence A, B, and C are all satisfied for this RESULTNO/target.",
+      "Directional tests, APWP agreement, and generic primary conclusions are warnings unless tied to carrier/component evidence.",
+      "In multi-target papers, write a target anchor before assigning R3=1.",
+      "Source quality is flagged; apply R3_case_010 before treating missing evidence as a stable negative.",
+      "This REFNO has multiple target rows; apply R3_case_009 target-specific anchoring.",
+      "PMAGRESULT.ROCKMAG is present and should be treated as RESULTNO-specific source metadata evidence for R3."
+    ]
+  }
+]

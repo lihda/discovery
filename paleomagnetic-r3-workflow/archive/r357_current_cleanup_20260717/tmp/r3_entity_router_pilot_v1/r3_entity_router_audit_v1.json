@@ -1,0 +1,1084 @@
+{
+  "schema_version": "r3_entity_router_feature_audit_v1",
+  "status": "FROZEN_WITHOUT_LABEL_ACCESS",
+  "rows": 2751,
+  "features": 141,
+  "pilot_rows": 222,
+  "pilot_papers": 18,
+  "graph_features": 20,
+  "criterion_counterfactual_features": 37,
+  "nonpilot_nonzero_values": 0,
+  "assignment_status_counts": {
+    "assigned_alias": 1744,
+    "assigned_exact": 537,
+    "duplicate_canonical_identity": 516,
+    "unresolved_alias_conflict": 169,
+    "unresolved_no_entity": 37741,
+    "unresolved_sibling_tie": 497
+  },
+  "structure": {
+    "documents_with_sibling_differentiating_features": 16,
+    "entity_targets_with_exclusive_evidence": 57,
+    "combined_targets_with_exclusive_evidence": 58,
+    "accepted_alias_collision_count": 0,
+    "rejected_alias_conflict_count": 22,
+    "duplicate_canonical_groups_checked": 22
+  },
+  "structure_acceptance_passed": true,
+  "papers_detail": [
+    {
+      "REFNO": "1162",
+      "rows": 9,
+      "canonical_targets": 6,
+      "chunks": 3354,
+      "distinct_target_vectors": 6,
+      "sibling_differentiating_features": true,
+      "graph_audit": {
+        "schema_version": "r3_paleomag_entity_graph_v1",
+        "label_blind_input_fields": {
+          "targets": "{target_id: rockname}",
+          "chunks": [
+            "chunk_id",
+            "kind",
+            "text",
+            "parent_id"
+          ]
+        },
+        "softmax_classes": [
+          "54",
+          "55",
+          "56",
+          "57",
+          "58",
+          "59",
+          "60",
+          "61",
+          "62",
+          "global",
+          "unresolved"
+        ],
+        "abbreviation_links": [],
+        "alias_conflicts": {
+          "rhyolites": {
+            "status": "generic",
+            "owner_target_ids": [
+              "61",
+              "62"
+            ]
+          }
+        },
+        "duplicate_groups": [
+          [
+            "56",
+            "57"
+          ],
+          [
+            "58",
+            "59"
+          ],
+          [
+            "61",
+            "62"
+          ]
+        ]
+      }
+    },
+    {
+      "REFNO": "1769",
+      "rows": 11,
+      "canonical_targets": 8,
+      "chunks": 3090,
+      "distinct_target_vectors": 8,
+      "sibling_differentiating_features": true,
+      "graph_audit": {
+        "schema_version": "r3_paleomag_entity_graph_v1",
+        "label_blind_input_fields": {
+          "targets": "{target_id: rockname}",
+          "chunks": [
+            "chunk_id",
+            "kind",
+            "text",
+            "parent_id"
+          ]
+        },
+        "softmax_classes": [
+          "1401",
+          "1402",
+          "1403",
+          "1404",
+          "1405",
+          "1406",
+          "1407",
+          "1408",
+          "1409",
+          "1410",
+          "9929",
+          "global",
+          "unresolved"
+        ],
+        "abbreviation_links": [],
+        "alias_conflicts": {},
+        "duplicate_groups": [
+          [
+            "1405",
+            "1406"
+          ],
+          [
+            "1407",
+            "1408",
+            "1409"
+          ]
+        ]
+      }
+    },
+    {
+      "REFNO": "2245",
+      "rows": 10,
+      "canonical_targets": 1,
+      "chunks": 2420,
+      "distinct_target_vectors": 1,
+      "sibling_differentiating_features": false,
+      "graph_audit": {
+        "schema_version": "r3_paleomag_entity_graph_v1",
+        "label_blind_input_fields": {
+          "targets": "{target_id: rockname}",
+          "chunks": [
+            "chunk_id",
+            "kind",
+            "text",
+            "parent_id"
+          ]
+        },
+        "softmax_classes": [
+          "2230",
+          "5880",
+          "5881",
+          "5882",
+          "5883",
+          "5884",
+          "5885",
+          "5886",
+          "5887",
+          "5888",
+          "global",
+          "unresolved"
+        ],
+        "abbreviation_links": [],
+        "alias_conflicts": {},
+        "duplicate_groups": [
+          [
+            "2230",
+            "5880",
+            "5881",
+            "5882",
+            "5883",
+            "5884",
+            "5885",
+            "5886",
+            "5887",
+            "5888"
+          ]
+        ]
+      }
+    },
+    {
+      "REFNO": "2850",
+      "rows": 24,
+      "canonical_targets": 21,
+      "chunks": 2033,
+      "distinct_target_vectors": 21,
+      "sibling_differentiating_features": true,
+      "graph_audit": {
+        "schema_version": "r3_paleomag_entity_graph_v1",
+        "label_blind_input_fields": {
+          "targets": "{target_id: rockname}",
+          "chunks": [
+            "chunk_id",
+            "kind",
+            "text",
+            "parent_id"
+          ]
+        },
+        "softmax_classes": [
+          "7404",
+          "7410",
+          "7411",
+          "7416",
+          "7417",
+          "7418",
+          "7419",
+          "7420",
+          "7422",
+          "7423",
+          "7424",
+          "7425",
+          "7426",
+          "7427",
+          "8516",
+          "8517",
+          "8518",
+          "8519",
+          "8520",
+          "8521",
+          "8522",
+          "8523",
+          "8524",
+          "8525",
+          "global",
+          "unresolved"
+        ],
+        "abbreviation_links": [],
+        "alias_conflicts": {
+          "matozero": {
+            "status": "conflict",
+            "owner_target_ids": [
+              "7416",
+              "7418",
+              "7420"
+            ]
+          },
+          "moncha": {
+            "status": "conflict",
+            "owner_target_ids": [
+              "7422",
+              "7423",
+              "8523"
+            ]
+          },
+          "moncha pluton": {
+            "status": "conflict",
+            "owner_target_ids": [
+              "7422",
+              "7423",
+              "8523"
+            ]
+          },
+          "burakovka": {
+            "status": "conflict",
+            "owner_target_ids": [
+              "7425",
+              "7426",
+              "8522"
+            ]
+          },
+          "burakovka intrusion": {
+            "status": "conflict",
+            "owner_target_ids": [
+              "7425",
+              "7426",
+              "8522"
+            ]
+          },
+          "segozero dolerite": {
+            "status": "conflict",
+            "owner_target_ids": [
+              "8516",
+              "8517",
+              "8518"
+            ]
+          },
+          "girvas": {
+            "status": "conflict",
+            "owner_target_ids": [
+              "8519",
+              "8520",
+              "8521"
+            ]
+          }
+        },
+        "duplicate_groups": [
+          [
+            "7410",
+            "7411"
+          ],
+          [
+            "8516",
+            "8517"
+          ],
+          [
+            "8519",
+            "8520"
+          ]
+        ]
+      }
+    },
+    {
+      "REFNO": "3193",
+      "rows": 12,
+      "canonical_targets": 1,
+      "chunks": 893,
+      "distinct_target_vectors": 1,
+      "sibling_differentiating_features": false,
+      "graph_audit": {
+        "schema_version": "r3_paleomag_entity_graph_v1",
+        "label_blind_input_fields": {
+          "targets": "{target_id: rockname}",
+          "chunks": [
+            "chunk_id",
+            "kind",
+            "text",
+            "parent_id"
+          ]
+        },
+        "softmax_classes": [
+          "8283",
+          "8284",
+          "8285",
+          "8286",
+          "8287",
+          "8288",
+          "8289",
+          "8290",
+          "8291",
+          "8292",
+          "8293",
+          "8294",
+          "global",
+          "unresolved"
+        ],
+        "abbreviation_links": [],
+        "alias_conflicts": {},
+        "duplicate_groups": [
+          [
+            "8283",
+            "8284",
+            "8285",
+            "8286",
+            "8287",
+            "8288",
+            "8289",
+            "8290",
+            "8291",
+            "8292",
+            "8293",
+            "8294"
+          ]
+        ]
+      }
+    },
+    {
+      "REFNO": "3404",
+      "rows": 16,
+      "canonical_targets": 8,
+      "chunks": 1050,
+      "distinct_target_vectors": 2,
+      "sibling_differentiating_features": true,
+      "graph_audit": {
+        "schema_version": "r3_paleomag_entity_graph_v1",
+        "label_blind_input_fields": {
+          "targets": "{target_id: rockname}",
+          "chunks": [
+            "chunk_id",
+            "kind",
+            "text",
+            "parent_id"
+          ]
+        },
+        "softmax_classes": [
+          "8657",
+          "8658",
+          "8659",
+          "8660",
+          "8661",
+          "8662",
+          "8663",
+          "8664",
+          "8665",
+          "8666",
+          "8667",
+          "8668",
+          "8669",
+          "8670",
+          "8671",
+          "8672",
+          "global",
+          "unresolved"
+        ],
+        "abbreviation_links": [],
+        "alias_conflicts": {},
+        "duplicate_groups": [
+          [
+            "8660",
+            "8661",
+            "8662",
+            "8663",
+            "8664",
+            "8665",
+            "8666",
+            "8667"
+          ],
+          [
+            "8671",
+            "8672"
+          ]
+        ]
+      }
+    },
+    {
+      "REFNO": "3434",
+      "rows": 22,
+      "canonical_targets": 18,
+      "chunks": 2481,
+      "distinct_target_vectors": 18,
+      "sibling_differentiating_features": true,
+      "graph_audit": {
+        "schema_version": "r3_paleomag_entity_graph_v1",
+        "label_blind_input_fields": {
+          "targets": "{target_id: rockname}",
+          "chunks": [
+            "chunk_id",
+            "kind",
+            "text",
+            "parent_id"
+          ]
+        },
+        "softmax_classes": [
+          "8719",
+          "8720",
+          "8721",
+          "8722",
+          "8723",
+          "8724",
+          "8725",
+          "8726",
+          "8727",
+          "8728",
+          "8729",
+          "8730",
+          "8731",
+          "8732",
+          "8733",
+          "8734",
+          "8735",
+          "8736",
+          "8737",
+          "8738",
+          "8739",
+          "8740",
+          "global",
+          "unresolved"
+        ],
+        "abbreviation_links": [],
+        "alias_conflicts": {
+          "balbirini": {
+            "status": "conflict",
+            "owner_target_ids": [
+              "8723",
+              "8724"
+            ]
+          },
+          "balbirini dolomite": {
+            "status": "conflict",
+            "owner_target_ids": [
+              "8723",
+              "8724"
+            ]
+          },
+          "upper part": {
+            "status": "conflict",
+            "owner_target_ids": [
+              "8724",
+              "8725"
+            ]
+          },
+          "buddawadda": {
+            "status": "conflict",
+            "owner_target_ids": [
+              "8726",
+              "8727"
+            ]
+          },
+          "buddawadda basalt": {
+            "status": "conflict",
+            "owner_target_ids": [
+              "8726",
+              "8727"
+            ]
+          },
+          "fish river": {
+            "status": "conflict",
+            "owner_target_ids": [
+              "8728",
+              "8729"
+            ]
+          },
+          "fish river formation": {
+            "status": "conflict",
+            "owner_target_ids": [
+              "8728",
+              "8729"
+            ]
+          }
+        },
+        "duplicate_groups": [
+          [
+            "8731",
+            "8732"
+          ],
+          [
+            "8733",
+            "8734"
+          ],
+          [
+            "8735",
+            "8736",
+            "8737"
+          ]
+        ]
+      }
+    },
+    {
+      "REFNO": "3453",
+      "rows": 10,
+      "canonical_targets": 10,
+      "chunks": 6036,
+      "distinct_target_vectors": 10,
+      "sibling_differentiating_features": true,
+      "graph_audit": {
+        "schema_version": "r3_paleomag_entity_graph_v1",
+        "label_blind_input_fields": {
+          "targets": "{target_id: rockname}",
+          "chunks": [
+            "chunk_id",
+            "kind",
+            "text",
+            "parent_id"
+          ]
+        },
+        "softmax_classes": [
+          "8771",
+          "8772",
+          "8773",
+          "8774",
+          "8775",
+          "8776",
+          "8777",
+          "8778",
+          "8779",
+          "8780",
+          "global",
+          "unresolved"
+        ],
+        "abbreviation_links": [],
+        "alias_conflicts": {},
+        "duplicate_groups": []
+      }
+    },
+    {
+      "REFNO": "3456",
+      "rows": 19,
+      "canonical_targets": 2,
+      "chunks": 1596,
+      "distinct_target_vectors": 2,
+      "sibling_differentiating_features": true,
+      "graph_audit": {
+        "schema_version": "r3_paleomag_entity_graph_v1",
+        "label_blind_input_fields": {
+          "targets": "{target_id: rockname}",
+          "chunks": [
+            "chunk_id",
+            "kind",
+            "text",
+            "parent_id"
+          ]
+        },
+        "softmax_classes": [
+          "8790",
+          "8791",
+          "8792",
+          "8793",
+          "8794",
+          "8795",
+          "8796",
+          "8797",
+          "8798",
+          "8799",
+          "8800",
+          "8801",
+          "8802",
+          "8803",
+          "8804",
+          "8805",
+          "8806",
+          "8807",
+          "8808",
+          "global",
+          "unresolved"
+        ],
+        "abbreviation_links": [],
+        "alias_conflicts": {},
+        "duplicate_groups": [
+          [
+            "8790",
+            "8791",
+            "8792",
+            "8793",
+            "8794",
+            "8795",
+            "8796",
+            "8797",
+            "8798"
+          ],
+          [
+            "8799",
+            "8800",
+            "8801",
+            "8802",
+            "8803",
+            "8804",
+            "8805",
+            "8806",
+            "8807",
+            "8808"
+          ]
+        ]
+      }
+    },
+    {
+      "REFNO": "3463",
+      "rows": 8,
+      "canonical_targets": 8,
+      "chunks": 3056,
+      "distinct_target_vectors": 8,
+      "sibling_differentiating_features": true,
+      "graph_audit": {
+        "schema_version": "r3_paleomag_entity_graph_v1",
+        "label_blind_input_fields": {
+          "targets": "{target_id: rockname}",
+          "chunks": [
+            "chunk_id",
+            "kind",
+            "text",
+            "parent_id"
+          ]
+        },
+        "softmax_classes": [
+          "8815",
+          "8816",
+          "8817",
+          "8818",
+          "8819",
+          "8820",
+          "8821",
+          "8822",
+          "global",
+          "unresolved"
+        ],
+        "abbreviation_links": [],
+        "alias_conflicts": {},
+        "duplicate_groups": []
+      }
+    },
+    {
+      "REFNO": "3476",
+      "rows": 10,
+      "canonical_targets": 4,
+      "chunks": 996,
+      "distinct_target_vectors": 4,
+      "sibling_differentiating_features": true,
+      "graph_audit": {
+        "schema_version": "r3_paleomag_entity_graph_v1",
+        "label_blind_input_fields": {
+          "targets": "{target_id: rockname}",
+          "chunks": [
+            "chunk_id",
+            "kind",
+            "text",
+            "parent_id"
+          ]
+        },
+        "softmax_classes": [
+          "8839",
+          "8840",
+          "8841",
+          "8842",
+          "8843",
+          "8844",
+          "8845",
+          "8846",
+          "8847",
+          "8848",
+          "global",
+          "unresolved"
+        ],
+        "abbreviation_links": [],
+        "alias_conflicts": {},
+        "duplicate_groups": [
+          [
+            "8839",
+            "8840",
+            "8841"
+          ],
+          [
+            "8842",
+            "8843",
+            "8844"
+          ],
+          [
+            "8845",
+            "8846",
+            "8847"
+          ]
+        ]
+      }
+    },
+    {
+      "REFNO": "3486",
+      "rows": 18,
+      "canonical_targets": 18,
+      "chunks": 3338,
+      "distinct_target_vectors": 18,
+      "sibling_differentiating_features": true,
+      "graph_audit": {
+        "schema_version": "r3_paleomag_entity_graph_v1",
+        "label_blind_input_fields": {
+          "targets": "{target_id: rockname}",
+          "chunks": [
+            "chunk_id",
+            "kind",
+            "text",
+            "parent_id"
+          ]
+        },
+        "softmax_classes": [
+          "8870",
+          "8871",
+          "8872",
+          "8873",
+          "8874",
+          "8875",
+          "8876",
+          "8877",
+          "8878",
+          "8879",
+          "8880",
+          "8881",
+          "8882",
+          "8883",
+          "8884",
+          "8885",
+          "8886",
+          "8887",
+          "global",
+          "unresolved"
+        ],
+        "abbreviation_links": [],
+        "alias_conflicts": {
+          "aikhal kimberlite pipe": {
+            "status": "conflict",
+            "owner_target_ids": [
+              "8872",
+              "8873"
+            ]
+          }
+        },
+        "duplicate_groups": []
+      }
+    },
+    {
+      "REFNO": "3556",
+      "rows": 11,
+      "canonical_targets": 11,
+      "chunks": 1635,
+      "distinct_target_vectors": 11,
+      "sibling_differentiating_features": true,
+      "graph_audit": {
+        "schema_version": "r3_paleomag_entity_graph_v1",
+        "label_blind_input_fields": {
+          "targets": "{target_id: rockname}",
+          "chunks": [
+            "chunk_id",
+            "kind",
+            "text",
+            "parent_id"
+          ]
+        },
+        "softmax_classes": [
+          "9030",
+          "9031",
+          "9032",
+          "9033",
+          "9034",
+          "9035",
+          "9036",
+          "9037",
+          "9038",
+          "9039",
+          "9040",
+          "global",
+          "unresolved"
+        ],
+        "abbreviation_links": [],
+        "alias_conflicts": {
+          "mt shields": {
+            "status": "conflict",
+            "owner_target_ids": [
+              "9033",
+              "9034",
+              "9035"
+            ]
+          },
+          "mt shields formation": {
+            "status": "conflict",
+            "owner_target_ids": [
+              "9033",
+              "9034",
+              "9035"
+            ]
+          }
+        },
+        "duplicate_groups": []
+      }
+    },
+    {
+      "REFNO": "3579",
+      "rows": 8,
+      "canonical_targets": 3,
+      "chunks": 1745,
+      "distinct_target_vectors": 3,
+      "sibling_differentiating_features": true,
+      "graph_audit": {
+        "schema_version": "r3_paleomag_entity_graph_v1",
+        "label_blind_input_fields": {
+          "targets": "{target_id: rockname}",
+          "chunks": [
+            "chunk_id",
+            "kind",
+            "text",
+            "parent_id"
+          ]
+        },
+        "softmax_classes": [
+          "9078",
+          "9079",
+          "9080",
+          "9081",
+          "9082",
+          "9083",
+          "9084",
+          "9085",
+          "global",
+          "unresolved"
+        ],
+        "abbreviation_links": [],
+        "alias_conflicts": {},
+        "duplicate_groups": [
+          [
+            "9078",
+            "9079",
+            "9080",
+            "9081"
+          ],
+          [
+            "9082",
+            "9083",
+            "9084"
+          ]
+        ]
+      }
+    },
+    {
+      "REFNO": "3580",
+      "rows": 8,
+      "canonical_targets": 8,
+      "chunks": 1275,
+      "distinct_target_vectors": 8,
+      "sibling_differentiating_features": true,
+      "graph_audit": {
+        "schema_version": "r3_paleomag_entity_graph_v1",
+        "label_blind_input_fields": {
+          "targets": "{target_id: rockname}",
+          "chunks": [
+            "chunk_id",
+            "kind",
+            "text",
+            "parent_id"
+          ]
+        },
+        "softmax_classes": [
+          "9086",
+          "9087",
+          "9088",
+          "9089",
+          "9090",
+          "9091",
+          "9092",
+          "9093",
+          "global",
+          "unresolved"
+        ],
+        "abbreviation_links": [],
+        "alias_conflicts": {},
+        "duplicate_groups": []
+      }
+    },
+    {
+      "REFNO": "3673",
+      "rows": 8,
+      "canonical_targets": 8,
+      "chunks": 1175,
+      "distinct_target_vectors": 4,
+      "sibling_differentiating_features": true,
+      "graph_audit": {
+        "schema_version": "r3_paleomag_entity_graph_v1",
+        "label_blind_input_fields": {
+          "targets": "{target_id: rockname}",
+          "chunks": [
+            "chunk_id",
+            "kind",
+            "text",
+            "parent_id"
+          ]
+        },
+        "softmax_classes": [
+          "9252",
+          "9253",
+          "9254",
+          "9255",
+          "9256",
+          "9257",
+          "9258",
+          "9259",
+          "global",
+          "unresolved"
+        ],
+        "abbreviation_links": [],
+        "alias_conflicts": {
+          "contact areoule": {
+            "status": "conflict",
+            "owner_target_ids": [
+              "9252",
+              "9253"
+            ]
+          }
+        },
+        "duplicate_groups": []
+      }
+    },
+    {
+      "REFNO": "3694",
+      "rows": 10,
+      "canonical_targets": 10,
+      "chunks": 1684,
+      "distinct_target_vectors": 10,
+      "sibling_differentiating_features": true,
+      "graph_audit": {
+        "schema_version": "r3_paleomag_entity_graph_v1",
+        "label_blind_input_fields": {
+          "targets": "{target_id: rockname}",
+          "chunks": [
+            "chunk_id",
+            "kind",
+            "text",
+            "parent_id"
+          ]
+        },
+        "softmax_classes": [
+          "9281",
+          "9282",
+          "9283",
+          "9284",
+          "9285",
+          "9286",
+          "9287",
+          "9288",
+          "9289",
+          "9290",
+          "global",
+          "unresolved"
+        ],
+        "abbreviation_links": [],
+        "alias_conflicts": {
+          "uinta mountain": {
+            "status": "conflict",
+            "owner_target_ids": [
+              "9281",
+              "9282",
+              "9283",
+              "9284",
+              "9285",
+              "9286",
+              "9287",
+              "9288",
+              "9289",
+              "9290"
+            ]
+          },
+          "uinta mountain supergroup": {
+            "status": "conflict",
+            "owner_target_ids": [
+              "9281",
+              "9282",
+              "9283",
+              "9284",
+              "9285",
+              "9286",
+              "9287",
+              "9288",
+              "9289",
+              "9290"
+            ]
+          }
+        },
+        "duplicate_groups": []
+      }
+    },
+    {
+      "REFNO": "4168",
+      "rows": 8,
+      "canonical_targets": 8,
+      "chunks": 3347,
+      "distinct_target_vectors": 8,
+      "sibling_differentiating_features": true,
+      "graph_audit": {
+        "schema_version": "r3_paleomag_entity_graph_v1",
+        "label_blind_input_fields": {
+          "targets": "{target_id: rockname}",
+          "chunks": [
+            "chunk_id",
+            "kind",
+            "text",
+            "parent_id"
+          ]
+        },
+        "softmax_classes": [
+          "10005",
+          "10006",
+          "10007",
+          "10008",
+          "10009",
+          "10010",
+          "10011",
+          "10012",
+          "global",
+          "unresolved"
+        ],
+        "abbreviation_links": [],
+        "alias_conflicts": {
+          "ragunda": {
+            "status": "conflict",
+            "owner_target_ids": [
+              "10006",
+              "10007"
+            ]
+          },
+          "ragunda dykes": {
+            "status": "conflict",
+            "owner_target_ids": [
+              "10006",
+              "10007"
+            ]
+          }
+        },
+        "duplicate_groups": []
+      }
+    }
+  ],
+  "runtime_boundary": {
+    "labels_read": false,
+    "pmagresult_or_rockmag_read": false,
+    "prior_predictions_read": false,
+    "evaluation_results_read": false,
+    "outer_test_metrics_used_for_selection": false
+  }
+}

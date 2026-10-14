@@ -1,0 +1,59 @@
+{
+  "schema_version": "r357_strict_knowledge_workflow_v1",
+  "status": "PASS",
+  "workflow_profile": "knowledge_strict",
+  "rows": 3173,
+  "inputs": {
+    "identity_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_strict_eval_07111758/inputs/identity_manifest.xlsx",
+      "sha256": "5bdb7476a5b7d61494939fc5cd7bc8fa3195ef7b032b29306f146892862b970f"
+    },
+    "page_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_strict_eval_07111758/inputs/page_cache.jsonl",
+      "sha256": "cd01aeea9402f3e0f1d7858a070f45817c874ca8775b55436e5609d7e5040b92",
+      "refnos": 1627,
+      "pages": 23858
+    },
+    "knowledge_base": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/knowledge/r357_expert_kb_v1.json",
+      "sha256": "ad0b6e7d276b0bac3988c510517f708708f073f7cc48ebabc363d8e5e09d7853"
+    }
+  },
+  "predictions": {
+    "R3": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_strict_eval_07111758/scoring/r3_predictions.jsonl",
+      "sha256": "570481f11c2ebc511db37089b94cafeaf989e0eccb90a3e982d566496354fbad"
+    },
+    "R5": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_strict_eval_07111758/scoring/r5_predictions.xlsx",
+      "sha256": "3fed2f62478decbb44684f461c64a9d59e8be96d169ee0a3a3cb4c6293f5cabd"
+    },
+    "R7": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_strict_eval_07111758/scoring/r7_predictions.xlsx",
+      "sha256": "a16b432e03ddcf4ab8616e4dc6134a4606091f63c8d85af643e35b59bfae8d74"
+    }
+  },
+  "boundary_audit": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_strict_eval_07111758/scoring/scoring_boundary_audit.json",
+    "status": "PASS"
+  },
+  "scoring_contract": {
+    "allowed_runtime_data_inputs": [
+      "identity manifest: REFNO/RESULTNO/ROCKNAME only",
+      "original-paper page cache",
+      "frozen expert knowledge base"
+    ],
+    "filesystem_read_guard": "enabled",
+    "indicator_process_isolation": "separate empty write roots",
+    "network_access": "blocked",
+    "child_processes_inside_scoring": "blocked",
+    "labels_accepted_by_this_command": false,
+    "source_tables_accepted_by_this_command": false,
+    "previous_predictions_accepted_by_this_command": false
+  },
+  "evaluation": {
+    "status": "NOT_RUN",
+    "reason": "Evaluation is a separate post-prediction command and cannot feed values back into this scoring run.",
+    "command": "scripts/evaluate_r357_strict_predictions.py"
+  }
+}
