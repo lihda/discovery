@@ -1,0 +1,32 @@
+{
+  "schema_version": "rockmag_locator_manifest_receipt_v2",
+  "manifest": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/rockmag_multitarget_pilot_v2_locators_20260717/identity_manifest.locators.json",
+  "manifest_sha256": "52eb631acdd7df717f3bf0d4166ac59ad1221234cf0f24c2855407d46690dc48",
+  "papers": 10,
+  "targets": 62,
+  "identity_fields": [
+    "REFNO",
+    "RESULTNO",
+    "ROCKUNITNO",
+    "ROCKNAME",
+    "RLAT",
+    "RLONG",
+    "COMPONENT",
+    "SLAT",
+    "SLONG",
+    "DEC",
+    "INC",
+    "PLAT",
+    "PLONG",
+    "PTYPE"
+  ],
+  "forbidden_fields_not_loaded": [
+    "PMAGRESULT.ROCKMAG",
+    "PMAGRESULT.TESTS",
+    "historical R3",
+    "PMAGRESULT.LABDETAILS",
+    "PMAGRESULT.COMMENTS",
+    "prior predictions",
+    "evaluation reports"
+  ]
+}

@@ -1,0 +1,16 @@
+# Frozen direct dependencies for the public R1-R7 business workflow.
+numpy==2.0.2
+scipy==1.13.1
+scikit-learn==1.6.1
+joblib==1.5.3
+torch==2.7.1
+transformers==4.52.4
+tokenizers==0.21.4
+huggingface-hub==0.36.2
+safetensors==0.7.0
+pdfplumber==0.11.8
+pypdf==6.14.2
+pandas==2.3.3
+openpyxl==3.1.5
+pdf2image==1.17.0
+Pillow==11.3.0

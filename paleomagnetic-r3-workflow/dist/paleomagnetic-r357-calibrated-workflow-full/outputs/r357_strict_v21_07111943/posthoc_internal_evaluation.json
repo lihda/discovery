@@ -1,0 +1,223 @@
+{
+  "schema_version": "r357_strict_posthoc_evaluation_v1",
+  "created_at": "2026-07-11T11:54:01.615911+00:00",
+  "evaluation_contract": {
+    "scoring_code_called": false,
+    "prediction_hashes_recorded_before_labels_opened": true,
+    "prediction_hash_receipt_written_before_labels_opened": true,
+    "prediction_files_modified": false,
+    "record_level_results_written": false,
+    "feedback_into_scoring": false,
+    "metric_denominators": {
+      "accuracy": "matched prediction rows with binary labels",
+      "prediction_coverage": "matched prediction rows / labelled rows",
+      "coverage": "non-UNKNOWN matched rows / labelled rows",
+      "known_accuracy": "correct non-UNKNOWN rows / non-UNKNOWN matched rows"
+    }
+  },
+  "predictions": {
+    "R3": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_strict_v21_07111943/r3_predictions.jsonl",
+      "sha256_before_labels": "9e5bc6028c79bb7843c442fb5c1d2551b2293a07adde0f8aea4eb1cb612301e7",
+      "sha256_after_evaluation": "9e5bc6028c79bb7843c442fb5c1d2551b2293a07adde0f8aea4eb1cb612301e7"
+    },
+    "R5": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_strict_v21_07111943/r5_predictions.xlsx",
+      "sha256_before_labels": "7b9e64ac9f3350b944e93bdb6173663918f323ef17df17c88574bad8b1f14793",
+      "sha256_after_evaluation": "7b9e64ac9f3350b944e93bdb6173663918f323ef17df17c88574bad8b1f14793"
+    },
+    "R7": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_strict_v21_07111943/r7_predictions.xlsx",
+      "sha256_before_labels": "f62ffe683601e89891fbd9c36ed95107a35ee01557f44185b3482ab2b174821a",
+      "sha256_after_evaluation": "f62ffe683601e89891fbd9c36ed95107a35ee01557f44185b3482ab2b174821a"
+    }
+  },
+  "prediction_hash_receipt": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_strict_v21_07111943/posthoc_internal_evaluation.json.prediction_hashes.json",
+    "sha256": "0ea9cc4f6b1ad948261837ccd7039ad0d1f8b4c4a97cefb8987d8a9d3d8413d7"
+  },
+  "labels": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/targets.xlsx",
+    "sha256": "378c17338f3b5cfeff3ccd496894e0f6183f747119b2624c4a9cefaeda02501e"
+  },
+  "refno_holdout": {
+    "method": "sha256_threshold_by_refno_v1",
+    "salt": "r357-strict-refno-holdout-v1",
+    "fraction": 0.2,
+    "assignment_rule": "uint64_be(SHA256(UTF8(salt + NUL + REFNO))[0:8]) / 2^64 < fraction",
+    "all_unique_refnos": 1627,
+    "holdout_unique_refnos": 280,
+    "all_rows": 3173,
+    "holdout_rows": 692,
+    "indicators": {
+      "R3": {
+        "labelled_rows": 692,
+        "matched_prediction_rows": 692,
+        "known_rows": 278,
+        "correct_rows": 383,
+        "known_correct_rows": 204,
+        "prediction_coverage": 1.0,
+        "coverage": 0.40173410404624277,
+        "accuracy": 0.5534682080924855,
+        "known_accuracy": 0.7338129496402878,
+        "macro_f1": 0.5528846455433372,
+        "f1_0": 0.5367316341829086,
+        "f1_1": 0.5690376569037657,
+        "confusion_matrix": {
+          "true_negative": 179,
+          "false_positive": 74,
+          "false_negative": 235,
+          "true_positive": 204
+        },
+        "extra_prediction_rows": 0
+      },
+      "R5": {
+        "labelled_rows": 692,
+        "matched_prediction_rows": 692,
+        "known_rows": 1,
+        "correct_rows": 447,
+        "known_correct_rows": 0,
+        "prediction_coverage": 1.0,
+        "coverage": 0.001445086705202312,
+        "accuracy": 0.6459537572254336,
+        "known_accuracy": 0.0,
+        "macro_f1": 0.3924495171202809,
+        "f1_0": 0.0,
+        "f1_1": 0.7848990342405618,
+        "confusion_matrix": {
+          "true_negative": 0,
+          "false_positive": 245,
+          "false_negative": 0,
+          "true_positive": 447
+        },
+        "extra_prediction_rows": 0
+      },
+      "R7": {
+        "labelled_rows": 692,
+        "matched_prediction_rows": 692,
+        "known_rows": 0,
+        "correct_rows": 628,
+        "known_correct_rows": 0,
+        "prediction_coverage": 1.0,
+        "coverage": 0.0,
+        "accuracy": 0.9075144508670521,
+        "known_accuracy": null,
+        "macro_f1": 0.47575757575757577,
+        "f1_0": 0.0,
+        "f1_1": 0.9515151515151515,
+        "confusion_matrix": {
+          "true_negative": 0,
+          "false_positive": 64,
+          "false_negative": 0,
+          "true_positive": 628
+        },
+        "extra_prediction_rows": 0
+      }
+    },
+    "aggregate": {
+      "labelled_rows": 2076,
+      "matched_prediction_rows": 2076,
+      "known_rows": 279,
+      "correct_rows": 1458,
+      "known_correct_rows": 204,
+      "prediction_coverage": 1.0,
+      "coverage": 0.13439306358381503,
+      "accuracy": 0.7023121387283237,
+      "known_accuracy": 0.7311827956989247,
+      "macro_f1": 0.5861094479084941,
+      "f1_0": 0.3668032786885246,
+      "f1_1": 0.8054156171284634,
+      "confusion_matrix": {
+        "true_negative": 179,
+        "false_positive": 383,
+        "false_negative": 235,
+        "true_positive": 1279
+      }
+    }
+  },
+  "indicators": {
+    "R3": {
+      "labelled_rows": 3173,
+      "matched_prediction_rows": 3173,
+      "known_rows": 1441,
+      "correct_rows": 1969,
+      "known_correct_rows": 1074,
+      "prediction_coverage": 1.0,
+      "coverage": 0.454144342893161,
+      "accuracy": 0.6205483769303498,
+      "known_accuracy": 0.7453157529493407,
+      "macro_f1": 0.6193369236484105,
+      "f1_0": 0.5978623914495658,
+      "f1_1": 0.6408114558472554,
+      "confusion_matrix": {
+        "true_negative": 895,
+        "false_positive": 367,
+        "false_negative": 837,
+        "true_positive": 1074
+      },
+      "extra_prediction_rows": 0
+    },
+    "R5": {
+      "labelled_rows": 3173,
+      "matched_prediction_rows": 3173,
+      "known_rows": 13,
+      "correct_rows": 2362,
+      "known_correct_rows": 5,
+      "prediction_coverage": 1.0,
+      "coverage": 0.0040970690198550265,
+      "accuracy": 0.744405924992121,
+      "known_accuracy": 0.38461538461538464,
+      "macro_f1": 0.43151689795438664,
+      "f1_0": 0.009768009768009768,
+      "f1_1": 0.8532657861407635,
+      "confusion_matrix": {
+        "true_negative": 4,
+        "false_positive": 805,
+        "false_negative": 6,
+        "true_positive": 2358
+      },
+      "extra_prediction_rows": 0
+    },
+    "R7": {
+      "labelled_rows": 3173,
+      "matched_prediction_rows": 3173,
+      "known_rows": 4,
+      "correct_rows": 2847,
+      "known_correct_rows": 1,
+      "prediction_coverage": 1.0,
+      "coverage": 0.0012606366214938543,
+      "accuracy": 0.8972581153482508,
+      "known_accuracy": 0.25,
+      "macro_f1": 0.4759633700524443,
+      "f1_0": 0.006097560975609756,
+      "f1_1": 0.9458291791292789,
+      "confusion_matrix": {
+        "true_negative": 1,
+        "false_positive": 323,
+        "false_negative": 3,
+        "true_positive": 2846
+      },
+      "extra_prediction_rows": 0
+    }
+  },
+  "aggregate": {
+    "labelled_rows": 9519,
+    "matched_prediction_rows": 9519,
+    "known_rows": 1458,
+    "correct_rows": 7178,
+    "known_correct_rows": 1080,
+    "prediction_coverage": 1.0,
+    "coverage": 0.15316734951150332,
+    "accuracy": 0.7540708057569072,
+    "known_accuracy": 0.7407407407407407,
+    "macro_f1": 0.6387659400312314,
+    "f1_0": 0.4346776141028737,
+    "f1_1": 0.8428542659595892,
+    "confusion_matrix": {
+      "true_negative": 900,
+      "false_positive": 1495,
+      "false_negative": 846,
+      "true_positive": 6278
+    }
+  }
+}

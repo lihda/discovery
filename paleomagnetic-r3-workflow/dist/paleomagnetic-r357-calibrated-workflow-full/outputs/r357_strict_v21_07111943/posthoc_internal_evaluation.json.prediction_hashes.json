@@ -1,0 +1,19 @@
+{
+  "schema_version": "r357_prediction_hash_receipt_v1",
+  "created_at": "2026-07-11T11:54:00.673285+00:00",
+  "phase": "before_labels_opened",
+  "predictions": {
+    "R3": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_strict_v21_07111943/r3_predictions.jsonl",
+      "sha256": "9e5bc6028c79bb7843c442fb5c1d2551b2293a07adde0f8aea4eb1cb612301e7"
+    },
+    "R5": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_strict_v21_07111943/r5_predictions.xlsx",
+      "sha256": "7b9e64ac9f3350b944e93bdb6173663918f323ef17df17c88574bad8b1f14793"
+    },
+    "R7": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_strict_v21_07111943/r7_predictions.xlsx",
+      "sha256": "f62ffe683601e89891fbd9c36ed95107a35ee01557f44185b3482ab2b174821a"
+    }
+  }
+}

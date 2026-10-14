@@ -1,0 +1,250 @@
+{
+  "schema_version": "r3_style_fusion_single872_grouped_oof_report_v2",
+  "status": "POSTHOC_EVALUATION_OF_FROZEN_DEVELOPMENT_CANDIDATE",
+  "scope": {
+    "rows": 872,
+    "coverage": 1.0
+  },
+  "primary_strategy": "no_strict_base_plus_original_text_knowledge_mean3",
+  "threshold": 0.5,
+  "metrics": {
+    "no_strict_base": {
+      "rows": 872,
+      "accuracy": 0.89220183,
+      "balanced_accuracy": 0.87381253,
+      "macro_f1": 0.87816305,
+      "precision_1": 0.90862944,
+      "recall_1": 0.93067591,
+      "confusion": {
+        "tn": 241,
+        "fp": 54,
+        "fn": 40,
+        "tp": 537
+      }
+    },
+    "knowledge_mean3": {
+      "rows": 872,
+      "accuracy": 0.86123853,
+      "balanced_accuracy": 0.84378874,
+      "macro_f1": 0.84464315,
+      "precision_1": 0.89310345,
+      "recall_1": 0.89774697,
+      "confusion": {
+        "tn": 233,
+        "fp": 62,
+        "fn": 59,
+        "tp": 518
+      }
+    },
+    "primary": {
+      "rows": 872,
+      "accuracy": 0.89908257,
+      "balanced_accuracy": 0.88149693,
+      "macro_f1": 0.88593988,
+      "precision_1": 0.91370558,
+      "recall_1": 0.93587522,
+      "confusion": {
+        "tn": 244,
+        "fp": 51,
+        "fn": 37,
+        "tp": 540
+      }
+    },
+    "knowledge_experts": {
+      "knowledge_hgb": {
+        "rows": 872,
+        "accuracy": 0.86811927,
+        "balanced_accuracy": 0.85395823,
+        "macro_f1": 0.85307885,
+        "precision_1": 0.90243902,
+        "recall_1": 0.89774697,
+        "confusion": {
+          "tn": 239,
+          "fp": 56,
+          "fn": 59,
+          "tp": 518
+        }
+      },
+      "knowledge_extra": {
+        "rows": 872,
+        "accuracy": 0.87270642,
+        "balanced_accuracy": 0.84996916,
+        "macro_f1": 0.85548752,
+        "precision_1": 0.8909396,
+        "recall_1": 0.9202773,
+        "confusion": {
+          "tn": 230,
+          "fp": 65,
+          "fn": 46,
+          "tp": 531
+        }
+      },
+      "knowledge_gradient": {
+        "rows": 872,
+        "accuracy": 0.85550459,
+        "balanced_accuracy": 0.84442617,
+        "macro_f1": 0.84043221,
+        "precision_1": 0.90053286,
+        "recall_1": 0.87868284,
+        "confusion": {
+          "tn": 239,
+          "fp": 56,
+          "fn": 70,
+          "tp": 507
+        }
+      }
+    }
+  },
+  "delta_vs_no_strict_base": {
+    "repairs": 7,
+    "degradations": 1,
+    "net_repairs": 6,
+    "accuracy_delta": 0.00688073
+  },
+  "fold_audit": [
+    {
+      "outer_fold": 1,
+      "all_pdf_training_rows": 2200,
+      "single_knowledge_training_rows": 697,
+      "test_rows": 175,
+      "outer_test_metrics": {
+        "rows": 175,
+        "accuracy": 0.89142857,
+        "balanced_accuracy": 0.87749521,
+        "macro_f1": 0.88410192,
+        "precision_1": 0.88495575,
+        "recall_1": 0.94339623,
+        "confusion": {
+          "tn": 56,
+          "fp": 13,
+          "fn": 6,
+          "tp": 100
+        }
+      }
+    },
+    {
+      "outer_fold": 2,
+      "all_pdf_training_rows": 2201,
+      "single_knowledge_training_rows": 698,
+      "test_rows": 174,
+      "outer_test_metrics": {
+        "rows": 174,
+        "accuracy": 0.85632184,
+        "balanced_accuracy": 0.83417508,
+        "macro_f1": 0.84281843,
+        "precision_1": 0.85470085,
+        "recall_1": 0.92592593,
+        "confusion": {
+          "tn": 49,
+          "fp": 17,
+          "fn": 8,
+          "tp": 100
+        }
+      }
+    },
+    {
+      "outer_fold": 3,
+      "all_pdf_training_rows": 2201,
+      "single_knowledge_training_rows": 698,
+      "test_rows": 174,
+      "outer_test_metrics": {
+        "rows": 174,
+        "accuracy": 0.90804598,
+        "balanced_accuracy": 0.89854851,
+        "macro_f1": 0.89467312,
+        "precision_1": 0.94017094,
+        "recall_1": 0.92436975,
+        "confusion": {
+          "tn": 48,
+          "fp": 7,
+          "fn": 9,
+          "tp": 110
+        }
+      }
+    },
+    {
+      "outer_fold": 4,
+      "all_pdf_training_rows": 2201,
+      "single_knowledge_training_rows": 698,
+      "test_rows": 174,
+      "outer_test_metrics": {
+        "rows": 174,
+        "accuracy": 0.91954023,
+        "balanced_accuracy": 0.89973491,
+        "macro_f1": 0.90400378,
+        "precision_1": 0.93495935,
+        "recall_1": 0.95041322,
+        "confusion": {
+          "tn": 45,
+          "fp": 8,
+          "fn": 6,
+          "tp": 115
+        }
+      }
+    },
+    {
+      "outer_fold": 5,
+      "all_pdf_training_rows": 2201,
+      "single_knowledge_training_rows": 697,
+      "test_rows": 175,
+      "outer_test_metrics": {
+        "rows": 175,
+        "accuracy": 0.92,
+        "balanced_accuracy": 0.90978737,
+        "macro_f1": 0.90527374,
+        "precision_1": 0.95041322,
+        "recall_1": 0.93495935,
+        "confusion": {
+          "tn": 46,
+          "fp": 6,
+          "fn": 8,
+          "tp": 115
+        }
+      }
+    }
+  ],
+  "v1_reproduction_audit": {
+    "v1_oof": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_residual_gate_single872_v1/r3_residual_gate_single872_grouped_oof_v1.npz",
+      "sha256": "4e3ebaca7df967d7d89d4d33b71f7d9b7fe9905a8036fb9bdbfbf5e6a2073520"
+    },
+    "opened_only_after_provisional_predictions_written": true,
+    "alignment_exact": true,
+    "component_maximum_absolute_difference": {
+      "domain_mean4": 2.220446049250313e-16,
+      "query_pca64_logreg": 0.0,
+      "front_word_logreg": 0.0,
+      "no_strict_base": 3.3306690738754696e-16
+    },
+    "components_reproduced_at_tolerance_1e_12": true
+  },
+  "boundary": {
+    "feature_generation_used_labels": false,
+    "pmagresult_or_rockmag_read": false,
+    "all_models_fit_inside_outer_training_partitions": true,
+    "knowledge_models_use_only_single_target_outer_train_rows": true,
+    "outer_test_labels_used_for_training_or_selection": false,
+    "prior_oof_opened_only_after_provisional_predictions_written": true,
+    "development_internal_oof_not_external_validation": true
+  },
+  "promotion_decision": {
+    "reaches_90_percent_full_coverage_internal_oof": false,
+    "promote_without_external_validation": false,
+    "reason": "The 872-paper corpus informed candidate development; a locked external set remains required."
+  },
+  "runtime": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "sklearn": "1.6.1"
+  },
+  "outputs": {
+    "oof": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_style_fusion_single872_v2/r3_style_fusion_single872_grouped_oof_v2.npz",
+      "sha256": "46271fc4b6ba8a24dd04380fa0793acd18670b7a0f4bd192fde0dfbf2230e3fd"
+    },
+    "receipt": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_style_fusion_single872_v2/r3_style_fusion_single872_grouped_oof_receipt_v2.json",
+      "sha256": "f37875c499e5113380897caa07b658a581d1608b199d8a854b9e42602d400e4b"
+    }
+  }
+}

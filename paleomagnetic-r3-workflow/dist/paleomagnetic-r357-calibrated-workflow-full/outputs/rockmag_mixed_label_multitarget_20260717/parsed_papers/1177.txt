@@ -1,0 +1,940 @@
+### page_1
+Geophys. J. R. astr. SOC. (1982) 70, 641-665 
+Linearity spectrum analysis of multicomponent 
+magnetizations and its application to some igneous rocks 
+from southeastern Australia 
+P. w. Schmidt CSIRO Division ofMineral Physics, PO Box 136, North Ryde, 
+NSW 2113, Australia 
+Received 1981 November 23;in original form 1981 September 11 
+Summary. A method that enables the objective resolution of almost parallel 
+multi-component magnetizations is described and demonstrated. A feature 
+distinguishing this method from others is its simultaneous analysis of 
+demagnetization data from a group of specimens, rather than the analysis of 
+data from one specimen at a time. The only prerequisite is that the specimens 
+are derived from a homogeneous source. Thus for a formation carrying a 
+simple single component magnetization, all specimens from the formation 
+may be simultaneously reduced. For a more complicated two component 
+magnetization it is shown that only specimens from a particular site can be 
+considered homogeneous, and for a complex three component system each 
+sample often requires undivided attention. Thus the workload is propor- 
+tionally increased to achieve analyses of comparable reliability from data of 
+variable quality. 
+New pole positions from Mesozoic intrusions of the Sydney Basin, NSW 
+are: from the Marsden Park Breccia pipe 48"S, 127"E (A9,=6"); the St 
+Marys Breccia pipe 46"S, 150"E (A9, = 8"); the Prospect Dolerite 60"S, 
+142"E (A9, = 13") and 53"S, 180"E (A95 = 6"); and from the Dundas Breccia 
+pipe 58"S, 162"E (A95 = 36") and 31"S, 195"E (Ag5 = 16"). The last two 
+formations possess multi-component magnetizations. These pole positions 
+are consistent with previous results from south-eastern Australia. 
+Introduction 
+The Sydney Basin is a structural unit in south-eastern NSW, which has suffered little defor- 
+mation since its formation in the late Palaeozoic-Mesozoic. Literally hundreds of intru- 
+sions pervade the sediments, which are predominantly quartz sandstones, siltstones and clay- 
+stones. Palaeomagnetic investigations of the Sydney Basin were among the first in Australia 
+(Boesen, Irving & Robertson 1961; Manwaring 1963; Irving 1963) although the basin has 
+failed to attract further attention until the last few years (Schmidt 1976; Robertson 1979; 
+Schmidt & Embleton 1981). These later investigations show that many of the rock units 
+throughout the basin carry partial magnetic overprints. It is perhaps the basin's seemingly 
+pristine condition, that has made the widespread nature of the magnetic overprinting all the 
+more intriguing. An episode of burial and uplift appears unavoidable in order to explain
+
+### page_2
+648 P. W. Schmidt 
+satisfactorily the presence of this overprinting. It is conceivable that such an episode is an 
+integral part of basin evolution, although in this instance the age of the overprinting and the 
+coeval onset of the opening of the Tasman Sea strongly suggests a causal relationship. The 
+present investigation is concerned with the resolution and dating of magnetic overprints, and 
+the dating of the times of formation of various intrusives within the Sydney Basin. 
+Perhaps the most familiar techniques presently used to examine complex magnetizations 
+are orthogonal graphs (Zijderveld 1967), vector subtraction (Roy & Park 1974), circles of 
+remagnetization (Khramov 1958; Halls 1976, 1978; McFadden 1977), difference vector 
+circles (Hoffman & Day 1978), and more recently principal component analysis (PCA) as 
+presented by Kirschvink (1980). The use of earlier methods, such as the stable end-point 
+and the optimum demagnetization step, has diminished, since they are inadequate for 
+defining the directions of magnetizations which are removed during ‘cleaning’ of a multi- 
+component remanence. Nevertheless there is still scope for improved data analysis. The 
+method described below, although developed for a specific reason, can be adapted to cover 
+a wide range of circumstances. Examples include studies of one, two and three magnetic 
+component systems. 
+Multi-component resolution using the linearity spectrum 
+The analytical procedures utilized here evolved from the requirement of resolving magneti- 
+zations which have similar directions. Inevitably as greater regard is given to overprint 
+magnetizations, which are characteristically soft, the question arises, when is the direction 
+of the removed component different from that of the underlying (harder) component? 
+Perhaps the most encompassing technique developed so far for dealing with multi- 
+component magnetizations is that described by Kirschvink (1980), who has adapted PCA 
+to the palaeomagnetic arena. PCA involves the least-squares fitting of lines and planes to 
+vector end-points in three-space and utilizes more data than other methods, resulting in less 
+data being rejected or simply ignored. The problem remaining is how to define the interval 
+on which the least-squares fitting is to be performed. The search routine suggested by 
+Kirschvink to define the interval has two drawbacks. First, the routine is dependent upon a 
+pre-defined rejection level which may introduce a bias. For instance, consider N vectors 
+composed of NRM plus N - 1 demagnetization steps. Beginning with the interval bound by 
+the (N+ 1)th and the (N- 1)th data points (i.e. the origin and the end-point of the (N-1)th 
+vector), the interval is tested against the pre-set level and either accepted or rejected. The 
+interval is then either expanded or shifted towards the NRM step (depending on whether 
+the initial interval was accepted or rejected) and the test repeated. This iterative procedure 
+converges on the largest segment that passes the test, which is then fitted with a least-squares 
+line. However, a covert bias may be present if the rejection criterion is set too coarse. This is 
+depicted in Fig. 1 where several points, off the linear segment, are included in the PCA 
+(a’ and b‘). Obviously such a bias is systematic and should be avoided. The method 
+described below circumvents this problem by seeking segments with maximum linearity 
+levels, thus ensuring only points on the linear segment are included (Fig. 1, segments a and 
+b). More recently Kirschvink (private communication) has modified his method to over- 
+come this problem. 
+A second improvement in the search routine may be achieved by expanding the interval 
+under scrutiny, alternately towards the NRM step and then back towards the origin, then 
+towards the NRM step again, and so on. This modification conceivably yields longer seg- 
+ments (thus utilizing more data) in some instances. Furthermore, it ought to be possible to 
+associate a parameter with each data point, which reflects the behaviour of neighbouring 
+points, thereby enabling data points to be weighted. 
+ 1365246xb, 1982, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1365-246X.1982.tb05978.x by Curtin University Library, Wiley Online Library on [28/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+### page_3
+LSA of multi-component magnetizations 649 
+Figure 1. The primed lines (a' and b') are biased as a result of a too coarse rejection level. The best fit 
+lines (a and b) are achieved by maximizing the linearity. 
+A technique incorporating these ideas and improvements is given below, in which the 
+sole assumption is that the data set is derived from samples, or sub-samples (specimens), 
+of a homogeneous group. Since the technique was originally developed to approach an 
+objective procedure for resolving between magnetizations with similar directions, it was 
+imperative to consider the data set in toto, unlike other methods which tend to examine 
+data from one specimen at a time (leaving the worker responsible for interrelating specimens). 
+A parameter, the collinearity (or simply linearity), was therefore prescribed to enable speci- 
+mens to be compared. 
+The linearity of a segment may be defined in a variety of ways. The simplest method is to 
+use the ratio of the distance between the bounding data points, to the sum of the distances 
+between the intervening points. Although quick in terms of computation time, the linearity 
+defined in this way will fail if data density is high enough such that the difference between 
+the intervening points approaches the noise level of the system (i.e. measurement plus 
+demagnetization noise). Although these instances are not common, it is possible to use an 
+alternative definition of linearity if the need arises. It is apparent that the cosine of the 
+maximum angular deviation (MAD - Kirschvink 1980) of a segment, has a range from 0 to 
+1 since 0" < MAD< 90°, similar to the distance ratio parameter (the MAD angle is derived 
+from the eigenvalue ratios of the matrix of sums of squares and products). However, because 
+the cosine function is not sensitive to differences between smd angles, if the MAD is to be 
+used it is considered that the sine should be more discriminating. To give the parameter the 
+correct range 1 -sin (MAD) has been used. In the examples given below, although distance 
+ratio parameter is generally used, for the Prospect Dolerite a comparison of the two para- 
+meters shows that for the present data either parameter will suffice. A value of unity implies 
+perfect linearity. 
+Linearity also reflects the behaviour of neighbouring data points in the following fashion. 
+Beginning with a data point and its two nearest neighbours, a linearity level may be calcu- 
+lated, and the window moved to successive points repeating the calculation (the minimum 
+number of points required to define a linearity level is three). A somewhat more complicated 
+procedure, using the alternating search routine described above, is to maximize the linearity 
+associated with any point by expanding the segment about the point until the linearity level 
+ 1365246xb, 1982, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1365-246X.1982.tb05978.x by Curtin University Library, Wiley Online Library on [28/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+### page_4
+650 P. W. Schmidt 
+no longer increases. Again these two slightly different techniques are demonstrated on the 
+Prospect Dolerite. Thus for all data points of a particular specimen, a maximum linearity 
+level may be calculated, and from all kindred specimens a mean maximum linearity level 
+may be calculated for each demagnetization step. By taking the mean level, the method 
+discriminates between random and systematic departures from linearity, excluding the latter 
+which commonly occur when more than one component is being removed simultaneously 
+(e.g. points on the curved segment of Fig. 1). 
+The end result is a spectrum of linearities for each sample, site or formation, depending 
+upon the complexity of magnetization and which level is defined as representing the group. 
+That is, for simple behaviour the group might be defined as all specimens from the forma- 
+tion, for more complicated behaviour the group might be defined at the site level, and so on 
+until all members of the group behave in a homogeneous fashion. 
+Having defined the linearity spectrum for the group of specimens under analysis, the next 
+step is to determine plateaux in the spectrum. In terms of the demagnetization behaviour, 
+such plateaux generally reflect intervals where only one magnetic component is being 
+removed. Likewise, troughs in the linearity spectrum reflect intervals where more than one 
+component is being removed. Fig. 2 represents the different types of spectra often encoun- 
+tered. The overall character of a group is accordingly established. Equipped with this infor- 
+mation it is possible to approach the data set in an objective fashion in order to define the 
+direction of the distinct magnetic components being removed around the linearity peaks of 
+the spectra. 
+If a maximum within a plateau is found to occur at a particular demagnetization step, 
+say the Zth step, the maximum linearity level for all specimen data sets (comprising the 
+group data) should be expected to be relatively large. Specimens are unique and their 
+individual linearity peaks may not coincide with the mean maximum level for the group, 
+however by expanding the interval about the Zth demagnetization step and maximizing the 
+associated linearity, the segment thus defined will most probably contain both data points 
+coinciding with the plateau peak of the group and the specimen peak (if they are different 
+at all). In this manner, for each peak in the group linearity spectrum, a linear segment may 
+be defined for each specimen. 
+Subsequent application of PCA to each segment fits a least-squares line yielding the best 
+estimate of the direction of the magnetization removed over each segment. Thus, directions 
+from each specimen which correspond to a particular group linearity peak may be combined 
+statistically (Fisher 1953; Bingham 1974), yielding an overall mean direction for the group, 
+corresponding to the linearity peak being considered. 
+The linearity level operates as a stability index designed for multi-component magneti- 
+zations, as opposed to many previously proposed indices which tended to be preoccupied 
+Smgle component Two components Three components 
+’--%@@-- 
+I 
+LLI 
+Ternperoture (*CJ 
+Fipre 2. Linearity spectra from groups of specimens possessing a single component, two components 
+and three components. Plateau regions usually reflect the demagnetization of one component only. 
+ 1365246xb, 1982, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1365-246X.1982.tb05978.x by Curtin University Library, Wiley Online Library on [28/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+### page_5
+LSA of multi- component magnetizations 65 1 
+with defining optimum demagnetization treatment or isolating the most stable magnetic 
+component in a rock (see Giddings & McElhinny 1976 for discussion). Finally, although the 
+method outlined above concerns least-squares lines, a parallel procedure can be adapted for 
+least-squares planes when appropriate. 
+Examples using LSA 
+The following examples have been drawn from studies of some igneous rock deposits in the 
+Sydney Basin, NSW. Previous palaeomagnetic investigations near the coast of south-east 
+Australia have established that a major period of magnetic overprinting has occurred in that 
+area (Schmidt 1976; Schmidt & Embleton 1981). This period dates from about 90Myr ago, 
+and is correlated with precursor events which led to rifting in the primordial Tasman Sea. 
+These results represent a continuing investigation of the processes involved in magnetic over- 
+printing, with a special emphasis on the responses of different rock formations to a single 
+thermal event. 
+The investigations are presented in order of increasing complication to allow the reader to 
+gain some insight into the usefulness of LSA under varying degrees of complexity. Firstly 
+two occurrences of single component magnetization are described. It might seem somewhat 
+redundant or sophisticated to examine such data using LSA when a more simplistic approach 
+would suffice, but the third study gives the lie to this notion. What appears to be basically a 
+single component of magnetization is shown in the third study to be two, almost parallel but 
+undoubtedly different, components of magnetization. Lastly, a three component magneti- 
+zation system is presented. Although LSA plays a major role in each of these investigations, 
+the analysis has not been conducted to the exclusion of all else. The importance of ortho- 
+gonal diagrams (Zijderveld 1967) is emphasized, particularly with the study of the more 
+complex three component magnetization system. Nevertheless, LSA affords a versatile 
+analytical tool to aid in studies of multicomponent magnetizations. 
+While collecting samples, a magnetic and a sun-compass were used for orienting either 
+blocks or drill-cores. Complete result flux-gate magnetometers (Molyneaux 1971) were used 
+to measure magnetic remanence vectors, while Schonstedt demagnetizers (thermal and alter- 
+nating field-AF) were used for the progressive demagnetization of specimens. A Tektronix 
+4050 series graphics system was programmed for all data analysis. 
+MARSDEN PARK BRECCIA PIPE 
+The volcanic neck at Marsden Park, 50 km west of Sydney, consists of volcanic breccia and 
+basalt, outcropping over an area of approximately 4ha (Crawford 1973). Three sites were 
+collected from breccia and six sites from basalt. Each site consisted of four independently 
+oriented blocks or cores. The NRM intensities of the breccia were typically 20-50 mA m-l, 
+while those of the basalt varied from 200 to l000mA m-l. Orthogonal projections of 
+thermal demagnetization of a breccia specimen (MP02A) and three specimens of basalt 
+(Fig. 3) show that there are no great differences in their behaviour. The basalt samples 
+tended to reveal a very low temperature (< 250°C) component close to the present geomag- 
+netic field direction. Notwithstanding this, it is apparent that a single magnetic component 
+which is demagnetized by 500"C, is present in each specimen. At least one specimen from 
+each site was subjected to AF demagnetization yielding similar directions. 
+Fig. 4 is a composite plot of the linearity spectrum for all specimens. The salient feature 
+is a convergence of the spectra towards unity at 400"C, which indicates that the 'average' 
+specimen possesses a single component of magnetization which is best resolved by demag- 
+netization around 400°C. Thus for this formation, all specimens have been simultaneously 
+ 1365246xb, 1982, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1365-246X.1982.tb05978.x by Curtin University Library, Wiley Online Library on [28/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+### page_6
+652 P. W. Schmidt 
+MP02A 
+North 
+Down.west 
+MP08B3 
+NRM . Up*eost 
+(733) 
+,I 
+North South 
+Down. west 
+MPOL03 
+(836) 
+Down,west 
+MP0803 
+NRM Up,east 
+( 388 I 
+North :i Down.west South 
+Figure 3. Orthogonal demagnetization plots from specimens of Marsden Park Breccia. Closed circles, 
+vertical plane; open circles, horizontal plane. 
+- I 
+100 200 300 LOO 500 600 0.5 
+Ternperoture I*CI 
+Figure 4. Linearity spectra envelope of demagnetization data from specimens of Marsden Park Breccia. 
+The persistent high linearity level reflects the demagnetization of a single magnetic component. 
+included in the group, since their behaviour is uniform. The LSA indicates that the best 
+overall palaeomagnetic direction from the Marsden Park Breccia may be estimated by mean- 
+ing those directions found after applying PCA to segments from each specimen, such seg- 
+ments being defined by maximizing the linearity of their individual demagnetization points 
+about the 400°C step. For these 36 specimens this gives a Dec. = 42.3", hc. = -78.0" and 
+an = 1 .go. 
+ 1365246xb, 1982, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1365-246X.1982.tb05978.x by Curtin University Library, Wiley Online Library on [28/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+### page_7
+LSA of multi-component magnetizations 653 
+Table 1. Summary of palaeomagnetic results from the Marsden Park Breccia pipe (33.7"S, 150.8"E). 
+Direction Pole 
+Site T("C) N Dee.(") Inc.(") R a9,(0) Lat.("S) Long.('E) 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+Mean 
+300 
+350 
+350 
+450 
+350 
+400 
+400 
+450 
+350 
+4 21.6 
+4 42.8 
+4 28.5 
+4 34.8 
+4 30.9 
+4 62.9 
+4 62.9 
+4 61.4 
+4 12.4 
+9 43.6 
+- 11.5 
+- 15.4 
+-72.1 
+-75.0 
+- 18.0 
+- 84.0 
+-11.8 
+- 14.3 
+-83.0 
+- 78.0 
+3.993 
+3.998 
+3.999 
+3.995 
+3.990 
+3.990 
+3.990 
+3.981 
+3.989 
+8.965 
+4.5 
+2.1 
+1.2 
+3.6 
+5.4 
+5.2 
+5.3 
+1.3 
+5.6 
+3.4 
+55.2 
+50.1 
+59.0 
+54.3 
+52.2 
+38.4 
+41.3 
+42.8 
+36.8 
+48.1 
+135.6 
+121.1 
+121.4 
+123.3 
+131.7 
+137.3 
+122.8 
+114.9 
+134.3 
+121.2 (A95 = 6.2") 
+Symbols and abbreviations: T, temperature of linearity peak; N, number of unit vectors; Dec., declina- 
+tion; Inc., inclination; R, resultant of N unit vectors; a,,, and A,,, halfangles of cones of confidence at 
+95 per cent probability level of directions and poles (calculated independently of directions) respectively 
+(Fisher 1953); Lat., latitude; Long., longitude. 
+To determine to what extent the above result might alter if the group level was changed, 
+LSA was applied to individual sites. For each sites the linearity peaked between 300 and 
+450"C, yielding a mean site direction of Dec. = 43.6", Inc. = -78.0" and an ag5 = 3.4" 
+(Table 1). This more conservative estimate is not significantly different except for the 
+slightly larger error. 
+ST MARYS BRECCIA PIPE 
+This volcanic neck is several kilometres south of that at Marsden Park, outcropping over an 
+area of about 12ha (Crawford 1973). Six samples were taken from each of four sites at 
+different bench levels in a quarry. The rock type sampled is entirely of breccia. Similarly to 
+the NRM intensities of the breccia from Marsden Park, the NRM intensities of St Marys 
+Breccia generally range from 20 to 50 mA m-l. After examining the orthogonal plots of the 
+thermal demagnetization data from these breccia samples, two samples show distinctive 
+behaviour (SM02C2 and samples in Fig. 5). The directions defined by the (approximately) 
+straight line segments revealed by the orthogonal plot of data from specimen SM02C2 are 
+reminiscent of the two dominant magnetic components from many of the specimens of the 
+Hornsby Breccia (Schmidt & Embleton 1981). The significance of this is discussed later, for 
+the present it is sufficient to point out that not all samples from the St Marys Breccia have 
+responded to thermal demagnetization in the same way. 
+The linearity spectra yield a peak mean linearity level at 300°C. Furthermore there is a 
+second peak at 525"C, raising the possibility that the St Marys Breccia has two magneti- 
+zations. However a closer inspection of the linearity spectra reveals that these two peaks 
+really result from the dominating influence of one of the two component specimens 
+(Fig. 6). If this specimen, which shows two strong peaks, was ignored, the peak mean 
+linearity level would be 400°C. 
+Thus for the purposes of defining the linearity peak, specimen SM02C2 has been elimi- 
+nated on the grounds that the assumption of a homogeneous group has been violated. 
+Segments were subsequently expanded around 400°C for all specimens (including SM02C2), 
+with linearity values often greater than 0.999. For these segments a mean direction of 
+Dec. = 359.8", Inc. = -83.0", a95 = 2.2" was calculated. 
+ 1365246xb, 1982, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1365-246X.1982.tb05978.x by Curtin University Library, Wiley Online Library on [28/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+### page_8
+654 P. W. Schmidt 
+SMOlB2 
+Upseast 
+NRMa 
+(31.9) 
+, 2:!j 
+North South 
+Down. west 
+L50 
+SM03Bl 
+Up, eost 
+Down. west 
+SMOZC2 
+NRM Up.eost 
+(1 8. L 1 '\* 
+\ 
+30J\ 
+,q 
+North 
+L50 
+Dowr 
+South 
+475-525 
+Nest 
+SMOLB1 
+(45.41 \ 
+Down. west 
+SMOLB1 
+UD,eost 
+(45.41 \ 
+Down. west 
+Figure 5. Orthogonal demagnetization plots from specimens of the St Marys Breccia. 
+1 4 1 I J 
+0 100 200 300 LOO 500 600 
+Temperature IT1 
+Figure 6. Linearity spectra envelope from specimens of St Marys Breccia. The spectra from two specimens 
+are plotted atone, those possessing two components as opposed to a single component for the remainder. 
+As for the data from the Marsden Park Breccia, LSA was applied to individual sites, with 
+all sites yielding a peak mean linearity level at 400°C. The mean site direction from this 
+more conservative analysis is Dec. = 2.3", Inc. = - 83.9" and an ag5 = 3.9" (Table 2), which is 
+less than 1" of arc from the direction analysed using all specimens as the group. Notwith- 
+standing the two component samples from site 2, the similarity with the result from the 
+Marsden Park Breccia is striking. Robertson (1979) has also studied the St Marys Breccia and 
+ 1365246xb, 1982, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1365-246X.1982.tb05978.x by Curtin University Library, Wiley Online Library on [28/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+### page_9
+LSA of multi-component magnetizations 655 
+Table 2. Summary of palaeomagnetic results from the St Marys Breccia pipe (33.8"S, 150.8"E) (symbols 
+and abbreviations as for Table 1). 
+Direction Pole 
+Site T("C) N Dee.(") Inc.(") R olgs (" ) Lat. (" S) Long. (" E) 
+1 400 6 40.6 -86.9 5.978 4.4 38.4 145.7 
+2 400 6 13.2 -80.9 5.975 4.7 50.9 144.5 
+3 400 6 345.5 -82.1 5.980 4.2 47.6 156.1 
+4 400 6 348.3 -83.6 5.995 2.1 46.1 154.5 
+Mean 4 2.3 -83.9 3.995 3.9 45.9 150.1(A9, = 7.6") 
+arrived at a simiiar direction (Dec. = 14", Inc. = -81") using the optimum demagnetization 
+step technique. Therefore it might be opined that the foregoing technique is overly compli- 
+cated or unnecessary, however the following application exonerates such indulgence. 
+PROSPECT DOLERITE 
+An early investigation of the Prospect Dolerite was among the first to show that rocks could 
+be dated by palaeomagnetism (Boesen et al. 1961). Although thought to be Tertiary on 
+petrological grounds, the Prospect Dolerite was shown from its palaeomagnetism to be 
+Mesozoic. At that time it was not possible to estimate magnetic ages more precisely. The 
+age was later substantiated from radiometric dating which yielded an age of 168Myr 
+(Evernden & Richards 1962). 
+This later proved to be somewhat ironic, since as sea-floor magnetic anomaly patterns and 
+bathymetric data accumulated, along with the advent of morphological fits of continents in 
+the late 1960s and early 1970s, the pole position derived from the Prospect Dolerite (and 
+some other poles from south-eastern Australia) appeared, upon reconstruction, to be diver- 
+gent from Jurassic poles from other Gondwana continents. The samples collected by Boesen 
+et al. (1961) were subsequently treated to more rigorous cleaning (Schmidt 1976), isolating 
+directions significantly different from directions found by the earlier investigation. Pole 
+positions determined from these new directions were found to be in close agreement with 
+those from rock units from other continents (e.g. Karoo and Ferrar Dolerites). 
+It has been demonstrated that particularly pertinacious secondary magnetizations have 
+been responsible for the initial failure to isolate the original direction of magnetization in a 
+number of rock bodies from south-eastern Australia. The Gibraltar Syenite and Gingen- 
+bullen Dolerite, for instance, also investigated by Boesen et al. (1961), were later shown to 
+be heavily overprinted (Schmidt 1976). Recently it has been shown that the Milton 
+Monzonite, Hornsby Breccia and Patonga Claystone (Narrabeen Chocolate Shale of Irving 
+1963) also carry substantial magnetic overprints, dating from about 90 Myr ago (Schmidt 
+& Embleton 1981 ; Embleton & McDonnell 1980). 
+Another feature that these rock bodies have in common is their reversed primary magneti- 
+zation, facilitating the recognition of the overprint magnetization. Overprints have so far 
+only been found with normal directions, thus they have been readily distinguished from 
+reversed primary directions. Since the Prospect Dolerite is Jurassic in age, and other rock 
+bodies near the south-eastern seaboard of Australia have apparently been overprinted in the 
+Cretaceous (at about 90 Myr), it was conjectured that the Propsect Dolerite may have been 
+overprinted at this time. The major difference between this rock body and the others which 
+have been shown to possess overprints, is the polarity of the primary magnetization, of the 
+Prospect Dolerite which is the same as that of the surmised overprint. 
+Originally the Prospect Dolerite was sampled from three quarries, which recently 
+ 1365246xb, 1982, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1365-246X.1982.tb05978.x by Curtin University Library, Wiley Online Library on [28/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+### page_10
+656 
+t 
+t- L 
+North \ 
+P. W. Schmidt 
+South 
+P006E2 
+Up.east 
+2 Down.west 
+PO08Ai 
+NRM Up.eost 
+158501 
+, y 
+Nod h ' South 
+Down.west 
+POlOAl 
+( 50111 
+L b 
+'t 1 
+North u 
+1st 
+1 South 
+W' Down.west 
+Figure 7. Orthogonal demagnetization plots from specimens of Prospect Dolerite. Note the suggestion, 
+albeit faint, of the presence of two components. 
+coalesced to form a single large quarry. Between five and seven cores from each of ten sites 
+have been collected from different bench levels throughout this quarry. The samples repre- 
+sent both fine- and coarse-grained varieties of the dolerite. 
+One specimen from each core was subjected to thermal demagnetization, and a further 
+specimen from each site was subjected to AF demagnetization, Fig. 7 shows some represen- 
+tative orthogonal plots of thermal demagnetization data. NRM intensities generally varied 
+from 3000 to 6000mA m-'. The vertical projections show very little change in (apparent) 
+inclination, but the horizontal projections reveal a slight break in slope (reflecting a change 
+in the declination) around the mid-temperature range. 
+Since a range of grain sizes is represented, it was expected that the behaviour to thermal 
+demagnetization of some sites would be distinctive, thus sites have been defined as indivi- 
+dual groups for this study. Although differences in behaviour between these groups is 
+reflected by the linearity spectra, a salient feature of most spectra is a trough between 300 
+and 400°C, although the trough is not always pronounced. Nevertheless, there are generally 
+two peaks in the spectra corresponding to two linear segments, that is a two component 
+system (cf. Fig. 2). This is apparent whether the distance ratio parameter or the eigenvalue 
+ratio (actually 1 -sin (MAD)) method is used. The comparison of the linearity spectra calcu- 
+lated by maximizing these two parameters is shown in Fig. 8. Also shown for comparison is 
+the simple three point, or windowed (as opposed to the maximized), calculated spectra from 
+ 1365246xb, 1982, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1365-246X.1982.tb05978.x by Curtin University Library, Wiley Online Library on [28/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+### page_11
+1.0 
+0.9 
+0.9 
+0.8 
+- 0.7 
+0.6 
+* 0.5 
+0 .L 
+1.0'- 
+the eigenvalue ratios. All three spectra clearly show similar features, with the windowed 
+eigenvalue ratio method being the most sensitive, as would be expected. But for the purposes 
+of defining linear segments from demagnetization data any of the methods should suffice 
+(cf. mean values Table 3). For those concerned with computation time, the windowed para- 
+meter (either distance or eigenvalue ratio) is obviously faster. 
+Some sites revealed three peaks in their spectra, but on closer inspection it was seen that 
+one peak yielded mean directions with large confidence half-angles. These were neglected, 
+since in all circumstances they were not significantly different from one of the mean direc- 
+tions associated with the other temperature peaks, with corresponding lower confidence 
+half-angles. Thus all sites revealed two linearity peaks, the lower temperature peaks ranging 
+from 200 to 400"C, while the higher temperature peaks range from 450 to 550°C. Table 3 
+lists the directions from each site associated with these linearity peaks. The linearity peaks 
+quoted are from the maximized distance ratios. Also listed in Table 3 are the mean direc- 
+tions derived from the eigenvalue ratio method of defining the linearity. Both maximized 
+and windowed derivations are given. It is apparent that no method gives a result significantly 
+different from the others. The site mean low temperature (200 to 400°C) direction is 
+Dec. = 9.7", Inc. = - 74.5" and an agS = 8.2", while the site mean high temperature (450- 
+550°C) direction is Dec. = 322.1", Inc. = -74.9" with an agS = 3.7". Moreover, these two 
+directions are significantly different since their cones of confidence do not intersect. 
+The mean direction of magnetization first derived from the Prospect Dolerite after AF 
+demagnetization to 15mT was Dec. = 359", Inc. = -81" (Boesen et al, 1961) with an 
+ag5=6.8" (calculated from 18 specimens), which is 6.8" and 9.6" away from the low 
+II-==a@-- 7 
+- =T 
+- - - - 
+I I I 1 I I 
+ 1365246xb, 1982, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1365-246X.1982.tb05978.x by Curtin University Library, Wiley Online Library on [28/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+### page_12
+658 P. W. Schmidt 
+Table 3. Summary of palaeomagnetic results from the Prospect 
+Dolerite (33.8"S, 150.9"E) (symbols and abbreviations as for 
+Table 1). 
+a) Low temperature linearity perk 
+Direct ion 
+Sire T('C) S kc(") Inc(") R CZ~~(') 
+I 300 6 350.2 -8'1.6 5.933 7.8 
+2 300 6 33.4 -55.1 5.R69 11.0 
+3 400 5 301.7 -65.2 4.779 18.5 
+4 300 5 25.2 -82.5 4.R28 16.2 
+5 300 5 334.0 -84.8 4.907 11.8 
+6 200 6 26.5 -63.4 5.760 15.0 
+7 ZOO 7 10.1 -63.8 6.409 19.9 
+8 300 7 11.6 -68.6 6.R55 9.5 
+9 375 5 20.2 -80.2 4.962 7.5 
+10 200 7 18.2 -76.4 6.740 12.8 
+?lea" 10 9.7 -74.5 9.745 8.2 
+*3.4 -74.1 9.764 7.9 
+111.6 -75.1 9.725 8.6 
+b) Nigh temperature linearity peak 
+1 450 6 332.1 -74.9 5.982 4.1 
+2 450 6 348.1 -69.8 5.872 10.9 
+3 500 5 312.R -75.3 4.973 6.3 
+4 540 5 325.4 -76.2 4.960 7.7 
+5 450 5 333.5 -84.6 4.965 7.2 
+6 500 6 319.0 -68.2 5.963 5.8 
+7 550 7 312.6 -74.9 6.846 9.8 
+8 550 7 307.9 -69.2 6.958 5.0 
+9 550 5 298.7 -76.7 4.972 6.4 
+10 550 7 333.5 -74.8 6.946 5.8 
+Me=* 10 322.1 -74.9 9.947 3.1 
+*319.1 -75.4 9.962 3.2 
+t318.2 -75.8 9.952 3.5 
+Pole 
+L8L("S) 
+44.3 
+62.6 
+44.8 
+46.8 
+42.9 
+66.8 
+76.0 
+70.0 
+51.3 
+57.6 
+60.1 
+61.8 
+59.6 
+57.0 
+68.4 
+49.0 
+53.2 
+43.2 
+55.7 
+49.2 
+48.7 
+42.3 
+57.6 
+53.0 
+51.5 
+51.3 
+Long(-€) 
+153.4 
+74.3 
+205.4 
+141.R 
+157.1 
+97.5 
+120.3 
+129.6 
+140.5 
+136.? 
+142.4 (A95=13.4') 
+148.5 (A95=13.00) 
+141.5 (~~~=13.8-) 
+175.0 
+170.3 
+182.2 
+175.6 
+157.4 
+197.6 
+183.2 
+197.3 
+lRI.4 
+174.3 
+179.6 (Aq5=6..'> 
+179.7 ( ,Aq5=j. 5' ) 
+17H.5 (.\gj=h.?') 
+*As derived from maximizing the eigenvalue ratio parameter (1-sin 
+(MAD)). 
+tAs derived from windowing, or three point, eigenvalue ratio 
+parameter. 
+temperature and high temperature directions respectively given above, but plotting approxi- 
+mately mid-way between the two. The mean direction derived after higher AF (30mT) 
+cleaning of Dec. = 306", Inc. = -71" with an ag5 = 7.0" from nine samples (recalculated 
+from Table 3 of Schmidt 1976) is 18.3" from the low temperature direction given above, but 
+only 6.1" from the high temperature direction. This latter difference is less than the half- 
+angles of the cones of confidence, indicating that the directions after applying rigorous AF 
+and thermal demagnetization are not significantly different. Similarly the directions derived 
+from the low AF and low thermal demagnetization are not significantly different from each 
+other. The point to be emphasized is that the low stability and high stability magnetizations 
+are distinct. 
+While much of the above considerations might seem superfluous it is essential to show 
+that from any viewpoint the Prospect Dolerite is seen to carry two similar, yet distinct, 
+magnetizations. It is worth emphasizing that these conclusions tend to be independent of 
+the method, being insensitive to the linearity parameter chosen. This confirms the earlier 
+suspicion that like many other rock bodies near the seaboard of south-eastern Australia, the 
+Prospect Dolerite has been magnetically overprinted. The age of this magnetizing episode 
+is late Mesozoic, thus vindicating the early claim of a Mesozoic age for the dolerite on the 
+basis of what is shown here to be a predominantly secondary, or overprint magnetization. 
+ 1365246xb, 1982, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1365-246X.1982.tb05978.x by Curtin University Library, Wiley Online Library on [28/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+### page_13
+LSA of multi-component magnetizations 659 
+DO0201 
+LSO! 1 
+Down.west 
+D003D1 
+Up.east 
+(L561 
+North , NRu outh 
+LSO-. 
+Down.west 
+D006A9 
+Upnorth 
+West Fi:sy 16L91 
+0-0 
+Downsouth 
+Figure 9. Orthogonal demagnetization plots from specimens of Dundas Breccia, showing single, predomi- 
+nantly two, and three components. 
+DUNDAS BRECCIA PIPE 
+The quarry at Dundas, 16 km west of Sydney, has long been abandoned and reclaimed for 
+recreational activities. Now only a small portion of the 1.5 ha outcrop remains. The outcrop 
+is largely basaltic, being deeply weathered in places. Six sites consisting of three or four 
+block samples (drilling being impractical) were collected from fresh nodules. Initially one 
+specimen from each block was subjected to thermal demagnetization, revealing the varied 
+behaviour shown by the orthogonal plots (see Fig. 9). Many specimens within the same site 
+behaved quite differently. 
+Although the linearity spectrum of specimen DQOlD4 is uniformly high, those for other 
+specimens from site 1 show many peaks and troughs. In fact, the mean linearity spectrum 
+using the specimens of site 1 as a group revealed peaks at 200, 400, 500 and 550°C. How- 
+ever, while other specimens from site l might not have behaved as ideally as DQOlD4, there 
+did not appear to be any reason for justifying further subdivision of the site into smaller 
+groups for the LSA, since the orthogonal plots from the other specimens showed predomi- 
+nantly a single component. On closer inspection of the mean directions derived from the 
+four peaks, none were found to be significantly different, so the best estimate may be taken 
+as the mean with the smallest a%, which corresponds to the 400°C peak (see Table 4). 
+The linearity spectra of site 2 suggest that specimens from this site have acted in a dis- 
+orderly fashion. A perusal of the orthogonal projections disclosed the reason for this 
+behaviour. Specimen DQ02Dl from site 2 shows two well-defined linear trends (Fig. 9), 
+however, a complication exists because neither of these linear trends directly approaches 
+the origin, implying that the specimen possesses a third, more stable magnetic component. 
+ 1365246xb, 1982, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1365-246X.1982.tb05978.x by Curtin University Library, Wiley Online Library on [28/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+### page_14
+660 P. W. Schmidt 
+Table 4. Summary of palaeomagnetic results from the Dundas 
+Breccia pipe (33.8'5, 151.1"E) (symbols and abbreviations as for 
+Table 1). 
+a) Low temperature linearity peak 
+DirectJan Pole 
+Sire T(*C) N Dee(") Inc(") R Ug5(') Lat('S1 Long('E) 
+I 400 4 9.6 -70.3 3.960 10.7 68.3 135.9 
+2 20c 2 339.5 -71.1 1.994 - 64.0 177.9 
+3 300-350 4 16.5 -78.7 3.941 13.0 54.3 140.7 
+6 300 3 276.0 -71.9 2.745 47.3 41.7 192.3 
+xean 3 345.7 -76.7 2.951 19.5 57.7 162.1 (A95=35.b') 
+b) High temperature linearity peak 
+2 500 2* 80.6 60.3 2.000 - 15.3 201.4 
+3 475 l* 79.6 59.9 - 14.5 201.4 
+4 500 4 97.5 68.4 2.992 7.73 30.2 196.5 
+5 525 3 114.3 68.8 2.956 18.5 40.5 198.4 
+6 500 3 80.6 69.6 2.978 13.2 21.4 190.3 
+Meall 3 97.7 69.5 2.989 9.1 30.7 194.8(A95=15.7") 
+*These specimens have been excluded from the mean, being from 
+single samples (see text). 
+The other specimens from site 2 vaguely paralleled this behaviour, but their higher tempera- 
+ture components have not been thermally isolated. It is apparent that the blocking tempera- 
+ture spectra of these components are overlapped. There would therefore seem to be 
+justification in subdividing this site for LSA, perhaps by processing more specimens from 
+each sample, and reducing the group level to the sample. That is, a number of specimens 
+from one sample would constitute a group. 
+After performing the above operation, only data from sample DQ02D gave internally 
+consistent results. Conventionally, the data from individual specimens are combined to give a 
+sample result, and these results are then combined to give a site (or mean sample) result, but 
+for site 2 the results from two specimens from the one sample (DQ02D1) have been 
+combined to represent the site, since only data from this sample were repeatable, implying 
+that the original assumption of a homogeneous group has been violated. The stability spectra 
+of the magnetic components in the other three samples were overlapped, leading to incon- 
+sistent linearity spectra and poorly defined intervals. However, the results from site 2 are 
+cited for interest and have not been included in the final analysis (Table 4). 
+' 
+Specimens from site 3 behaved very similarly to those of site 2. Two specimens showed 
+almost identical orthogonal projections (represented by DQ03D 1 in Fig. 9), clearly showing 
+three magnetic components. Moreover, the directions of the least and the most stable 
+magnetization can be seen to be the same. As discussed later, this is probably not simply a 
+coincidence, but highly diagnostic of the origin of magnetization of some specimens, particu- 
+larly those from sites 2 and 3. The group level adopted for site 3 was consequently the 
+sample, with two further specimens from each sample being processed. These extra results 
+confirmed the presence of three distinct magnetizations in these samples. The linearity 
+spectra of specimens from samples DQ03C and DQ03D show an overall three component 
+pattern (cf. site 3, Fig. 10). The directions given in Table 4 from site 3 for the higher 
+temperature component is from one specimen only from sample DQ03D, because although 
+it was clear that other specimens possessed a three component magnetization, the two high 
+temperature components in these specimens have not been isolated. This situation is similar 
+to that for site 2 in that the site is not homogeneous and the high temperature result has 
+ 1365246xb, 1982, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1365-246X.1982.tb05978.x by Curtin University Library, Wiley Online Library on [28/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+### page_15
+LSA of multi-component magnetizations 66 1 
+Site 3 Site L 
+OO LL 200 LOO 600 0 200 LOO 600 
+Temperature I'CI Temperature PCI 
+Figure 10. Linearity spectra from samples of four sites from the Dundas Breccia. Most samples reveal two 
+peaks while others show three. Low linearity levels reflect the simultaneous demagnetization of two 
+components with similar stability. 
+Site 4 showed considerable variation between samples (Fig. lo), with three samples being 
+dominantly magnetized in the direction of the high temperature component of sites 2 and 3. 
+Applying LSA to the site as a whole yielded peaks at 200 and 500°C. The mean sample 
+directions gave values of ag5 = 43 and 29" respectively, indicating that the behaviour of 
+different specimens is certainly not as homogeneous as that of samples from the other 
+studies, but rejecting one direction from the high temperature group reduced the ag5 from 
+29 to 8" (Table 4). No such purging of the low temperature direction estimated was possible 
+and the low temperature directions have therefore been rejected. No further specimens from 
+site 4 were processed. 
+The linearity spectra from six specimens (two from each of three samples) from site 5 
+reflect their paired behaviour (Fig. 10). Two specimens from one sample reveal a well- 
+defined trough, two specimens from another sample show a broader, less distinct trough, 
+while the remaining two specimens from the third sample show a steady increase towards 
+unity between 500 and 600°C. This variation in behaviour clearly suggests that the LSA 
+ought to be applied to groups of specimens from the same samples, as for sites 2 and 3. The 
+results listed in Table 4 shows that the high temperature component has been isolated in all 
+three samples. However, as for site 4, no consistent low temperature directions were found. 
+Specimens of samples from site 6 varied more by degree than by kind, as reflected by the 
+similar linearity spectra from six specimens (two per sample) in Fig. 10. All specimens 
+possessed two dominant magnetic components which yielded two well-defined plataeux in 
+the mean linearity spectrum around 300 and 500°C. Again the high temperature component 
+(corresponding to the 500°C peak) has been accurately resolved. There was evidence from 
+the orthogonal plots (e.g. specimen DQ06A9, Fig. 9) that three components are also present, 
+as in samples from other sites. These, however, have not been resolved since they do not 
+ 1365246xb, 1982, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1365-246X.1982.tb05978.x by Curtin University Library, Wiley Online Library on [28/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+### page_16
+66 2 P. W. Schmidt 
+form linear segments, rather they are inferred by the high temperature component not 
+demagnetizing directly to the origin. These results are listed in Table 4. 
+Discussion 
+The results from the Marsden Park Breccia clearly indicate that this rock body possesses a 
+single component of magnetization. There is evidence though, that the nearby St Marys 
+Breccia is carrying a two component magnetization, with the low temperature component 
+being overwhelmingly dominant. The direction of this low temperature component is similar 
+to the direction of the magnetization of the Marsden Park Breccia, in itself a low temper- 
+ature magnetization since its unblocking temperature range is mostly less than 500°C. As 
+previously mentioned, the Hornsby Breccia has also been shown to carry a low temperature 
+magnetization, which has been interpreted as a viscous partial thermo-remanent magneti- 
+zation (VPTRM), resulting from a period of magnetic overprinting during the Cretaceous 
+(Schmidt & Embleton 1981). Although the directions of these low temperature breccia 
+magnetizations are undoubtedly similar, there generic origin is equivocal. For instance, the 
+directions and pole positions from the low temperature magnetizations from the Marsden 
+Park and St Marys breccias, are actually significantly different. By themselves this could be 
+interpreted to indicate that they are entirely unrelated, but in the light of the obvious 
+magnetic overprinting of other nearby rock bodies, the circumstances ought to be examined 
+carefully before passing judgment. The following relevant facts are offered for considera- 
+tion. The Milton Monzonite possesses overprint magnetizations with laboratory unblocking 
+temperatures (TuB) in excess of 450"C, and since the magnetic carrier in the Milton 
+Monzonite has been shown to be magnetite (Schmidt & Embleton 1981) it seems probable 
+that other magnetite bearing rocks (close to the sea-board) might also be similarly over- 
+printed. The Hornsby Breccia certainly accords with this, possessing an overprint with 
+TUB above 400°C and a high temperature magnetization with TUB up to 550°C. More- 
+over, the only sample to possess TUB in excess of 500°C from the St Marys Breccia is clearly 
+carrying two magnetizations, closely resembling the magnetizaion of the Hornsby Breccia. 
+This single high temperature direction from the St Marys Breccia is Dec. = 82", Inc. = S7", 
+strongly suggesting these two breccias not only formed at the same time (late Jurassic), but 
+have been overprinted at about the same time (mid-Cretaceous). It therefore seems reason- 
+able to be sceptical of nominating a magnetization as original when characterized by TUB 
+less than 500°C with directions close to others which are undoubtedly overprints. 
+The results from the Prospect Dolerite reveal that this body possesses a primary magneti- 
+zation which has undergone partial overprinting at a similar time to the breccia pipes and 
+other rock units in the Sydney Basin. This is consistent with its age of formation (168 Myr) 
+and the fact that magnetite with TuB in excess of 550°C is the dominant magnetic carrier. 
+One aspect of these results which exemplifies the objectivity of the LSA is the relative 
+errors associated with the low temperature (overprint) direction and the high temperature 
+direction. Although a more subjective analysis might have defined the mean directions of the 
+components reasonably accurately, it is very likely the errors would be underestimated. The 
+LSA avoids this, and allows a meaningful statistical estimate to be performed. This is 
+obviously desirable in any circumstance, but particularly so when the directions being 
+compared are similar. That the error in determining the overprint direction is larger than that 
+of the high temperature component, may be reconciled by the relative stabilities of the two 
+components. The least stable (overprint) magnetization will probably be most affected by 
+noise, such as stray magnetic fields, both in the laboratory or from lightning. 
+The three components of magnetization resolved in two samples from the Dundas Breccia 
+pipe, along with abundant evidence from other samples of the presence of three compo- 
+ 1365246xb, 1982, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1365-246X.1982.tb05978.x by Curtin University Library, Wiley Online Library on [28/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+### page_17
+LSA of multi-component magnetizations 663 
+nents, at first suggest that this breccia has suffered a more complex geological history than 
+any of the other bodies examined. However, several relationships exist which elucidate this 
+complication. Firstly, when the third component is resolved, its duration is indistinguishable 
+from that of the first component, and secondly, when the third component is not resolved 
+its stability spectrum is overlapped with part (or all) of the spectra of the two other compo- 
+nents. Furthermore, the direction of the first and third component is very similar to that of 
+the overprint components from other bodies, while the second component closely parallels 
+the high temperature components of other breccia pipes. It is therefore proposed that the 
+third component is a chemical remanent magnetization (CRM) imparted during a time of 
+elevated temperatures, perhaps from the exsolution of titanomagnetite. This simultaneously 
+offers an explanation for the direction of the third component and its high stability. Indeed 
+co-existing titanomagnetite and magnetite have been identified in a number of samples from 
+Dundas from their k-T (susceptibility versus temperature) curves. The curves were generally 
+irreversible, particularly for site 3, indicating that chemical instability (exsolution?) at high 
+temperatures was common. That magnetite is present in pristine samples is, however, 
+evidenced by a marked isotropic point at -155°C. Only the overprint component was 
+detected in samples from site 1, although TUB greater than 550°C were observed, suggesting 
+that the magnetite in this site was formed at the time of overprinting, and the surviving 
+titanomagnetite has been thermally reset. In the other sites, however, at least some of the 
+magnetite seems to have been original, because some of the high temperature remanence has 
+survived the overprinting episode. The magnetization of the Dundas Breccia therefore seems 
+to consist of a low temperature (< 450°C) VPTRM + CRM overprint, and a high temperature 
+(> 450"C), presumably original, TRM. The TUB of this latter component and of the CEW 
+are predominantly overlapped. 
+Conclusions 
+From the foregoing studies, LSA has been shown to accomplish the original intention of 
+objectively resolving between closely directed magnetizations. At least with the present data 
+the method seems to be independent of the linearity parameter used. It is also worth empha- 
+sizing that the procedure of maximizing the linearity of segments ensures that any systematic 
+bias introduced during the routine search is effectively eliminated. Therefore, given a homo- 
+geneous set of specimens, LSA can be used to rapidly reduce a large body of data to its basic 
+elements. The linearity spectrum directly reflects the homogeneity of the group, and affords 
+a qualitative valuation of the consistency of the data. However, it is probably naive to 
+consider that homogeneous groups of specimens are always obtainable, and at times the 
+objectivity is compromised in the interests of expedience. For instance, LSA could only be 
+applied with success directly to two (sites 1 and 6) of the six sites sampled from the Dundas 
+Breccia. This is attributable, not only to the variability within the groups of specimens 
+analysed, but also to the overlapping of their TUB spectra. It sometimes proved necessary to 
+examine individual specimens and reject or accept their analyses on their individual merit. 
+However, other techniques which have been devised to extract magnetization directions 
+from overlapped components, such as the Hoffman-Day method, are no more successful 
+than LSA in this instance because the first and third components are similarly directed. That 
+is, planes defined by both the first and second, and the second and third vector combi- 
+nations, are very similar, so the definition of their intersection is ill-conditioned. 
+The magnetic signatures of the rock bodies studied here, reflect the thermal history of the 
+region as documented previously (Schmidt & Embleton 1981). It is prudent to point out 
+that the present interpretation of the magnetization of the Marsden Park Breccia as an over- 
+print is circumstantial. If this breccia is actually as young as the time of overprinting, then its 
+ 1365246xb, 1982, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1365-246X.1982.tb05978.x by Curtin University Library, Wiley Online Library on [28/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+### page_18
+664 P. W. Schmidt 
+I 
+Figure 11. Pole positions from Sydney Basin intrusives showing three groups. These are interpreted to 
+correspond to three major geological events in the basin: (1) intrusion of igneous hypabyssal rocks at 
+around 180 Myr, (2) intrusion of breccia pipes at around 140 Myr, and (3) uplift and erosion associated 
+with rifting at around 100 Myr. 
+magnetization may be considered as being original. Nevertheless, the St Marys, Dundas and 
+Hornsby breccias all appear to be formed during the late Jurassic, and to have been partially- 
+overprinted during the mid-Cretaceous. Fig. 1 1 shows palaeomagnetic pole positions from 
+Mesozoic Sydney Basin intrusives. They fall into groups broadly corresponding to: (1) early 
+Jurassic basic intrusives (- 180 Myr); (2) late Jurassic diatremes or breccia pipes (- 140 Myr); 
+(3) mid-Cretaceous overprinting (-lOOMyr) associated with the onset of rifting in the 
+Tasman Sea. 
+Acknowledgments 
+The author would like to thank Mark Huddlestone for his able assistance in the field, Dave 
+Clark and Brian Embleton for their help during the preparation of this paper, and Joe 
+Kirschvink and an anonymous referee for their useful and constructive comments of this 
+manuscript. 
+References 
+Bingham, C., 1974. An antipodally symmetric distribution on the sphere, Ann. Statist., 2, 1201-1225. 
+Boesen, R., Irving, E. & Robertson, W. A., 1961. The palaeomagnetism of some igneous rock bodies in 
+Crawford, E. A., 1973. Igneous rock deposits, central Sydney Basin, Rep. geol. SUN. N.S. W., GS1973/ 
+Embleton, B. J. J. & McDonnell, K. L., 1980. Magnetostratigraphy in the Sydney Basin, southeastern 
+Evernden, J. F. & Richards, J. R., 1962. Potassium-argon ages in eastern Australia, J. geol. SOC. Austr., 
+New South Wales, J. Proc. R. SOC. N.S.W., 94,227-232. 
+441, 29 pp. 
+Australia, J. Geomagn. Geoelect., Kyoto, 32, SIII, 1-10. 
+9,l-49. 
+ 1365246xb, 1982, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1365-246X.1982.tb05978.x by Curtin University Library, Wiley Online Library on [28/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+### page_19
+1365246xb, 1982, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/j.1365-246X.1982.tb05978.x by Curtin University Library, Wiley Online Library on [28/04/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

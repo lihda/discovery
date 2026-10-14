@@ -1,0 +1,669 @@
+{
+  "schema_version": "r3_sentence_lead_attribution_pilot_report_v2",
+  "status": "COMPLETE_OUTCOME_GUIDED_DEVELOPMENT_PILOT",
+  "primary_weight": 0.6,
+  "pilot_union": {
+    "overall": {
+      "rows": 154,
+      "baseline_accuracy": 0.20779221,
+      "candidate_accuracy": 0.20779221,
+      "accuracy_gain": 0.0,
+      "repairs": 0,
+      "degradations": 0,
+      "net_repairs": 0,
+      "changed_rows": 0,
+      "mcnemar": {
+        "baseline_wrong_candidate_right": 0,
+        "baseline_right_candidate_wrong": 0,
+        "discordant_rows": 0,
+        "two_sided_exact_p": 1.0
+      },
+      "benefiting_refnos": 0,
+      "largest_single_refno_repair_share": 0.0
+    },
+    "per_refno": {
+      "1147": {
+        "rows": 6,
+        "baseline_accuracy": 0.0,
+        "candidate_accuracy": 0.0,
+        "accuracy_gain": 0.0,
+        "repairs": 0,
+        "degradations": 0,
+        "net_repairs": 0,
+        "changed_rows": 0
+      },
+      "1162": {
+        "rows": 9,
+        "baseline_accuracy": 0.22222222,
+        "candidate_accuracy": 0.22222222,
+        "accuracy_gain": 0.0,
+        "repairs": 0,
+        "degradations": 0,
+        "net_repairs": 0,
+        "changed_rows": 0
+      },
+      "1224": {
+        "rows": 3,
+        "baseline_accuracy": 0.33333333,
+        "candidate_accuracy": 0.33333333,
+        "accuracy_gain": 0.0,
+        "repairs": 0,
+        "degradations": 0,
+        "net_repairs": 0,
+        "changed_rows": 0
+      },
+      "1278": {
+        "rows": 4,
+        "baseline_accuracy": 0.5,
+        "candidate_accuracy": 0.5,
+        "accuracy_gain": 0.0,
+        "repairs": 0,
+        "degradations": 0,
+        "net_repairs": 0,
+        "changed_rows": 0
+      },
+      "1742": {
+        "rows": 4,
+        "baseline_accuracy": 0.0,
+        "candidate_accuracy": 0.0,
+        "accuracy_gain": 0.0,
+        "repairs": 0,
+        "degradations": 0,
+        "net_repairs": 0,
+        "changed_rows": 0
+      },
+      "2850": {
+        "rows": 24,
+        "baseline_accuracy": 0.04166667,
+        "candidate_accuracy": 0.04166667,
+        "accuracy_gain": 0.0,
+        "repairs": 0,
+        "degradations": 0,
+        "net_repairs": 0,
+        "changed_rows": 0
+      },
+      "2985": {
+        "rows": 4,
+        "baseline_accuracy": 0.0,
+        "candidate_accuracy": 0.0,
+        "accuracy_gain": 0.0,
+        "repairs": 0,
+        "degradations": 0,
+        "net_repairs": 0,
+        "changed_rows": 0
+      },
+      "3110": {
+        "rows": 3,
+        "baseline_accuracy": 0.33333333,
+        "candidate_accuracy": 0.33333333,
+        "accuracy_gain": 0.0,
+        "repairs": 0,
+        "degradations": 0,
+        "net_repairs": 0,
+        "changed_rows": 0
+      },
+      "3124": {
+        "rows": 6,
+        "baseline_accuracy": 0.0,
+        "candidate_accuracy": 0.0,
+        "accuracy_gain": 0.0,
+        "repairs": 0,
+        "degradations": 0,
+        "net_repairs": 0,
+        "changed_rows": 0
+      },
+      "3132": {
+        "rows": 3,
+        "baseline_accuracy": 0.33333333,
+        "candidate_accuracy": 0.33333333,
+        "accuracy_gain": 0.0,
+        "repairs": 0,
+        "degradations": 0,
+        "net_repairs": 0,
+        "changed_rows": 0
+      },
+      "3135": {
+        "rows": 4,
+        "baseline_accuracy": 0.0,
+        "candidate_accuracy": 0.0,
+        "accuracy_gain": 0.0,
+        "repairs": 0,
+        "degradations": 0,
+        "net_repairs": 0,
+        "changed_rows": 0
+      },
+      "3166": {
+        "rows": 4,
+        "baseline_accuracy": 0.0,
+        "candidate_accuracy": 0.0,
+        "accuracy_gain": 0.0,
+        "repairs": 0,
+        "degradations": 0,
+        "net_repairs": 0,
+        "changed_rows": 0
+      },
+      "3167": {
+        "rows": 3,
+        "baseline_accuracy": 0.66666667,
+        "candidate_accuracy": 0.66666667,
+        "accuracy_gain": 0.0,
+        "repairs": 0,
+        "degradations": 0,
+        "net_repairs": 0,
+        "changed_rows": 0
+      },
+      "3325": {
+        "rows": 2,
+        "baseline_accuracy": 0.5,
+        "candidate_accuracy": 0.5,
+        "accuracy_gain": 0.0,
+        "repairs": 0,
+        "degradations": 0,
+        "net_repairs": 0,
+        "changed_rows": 0
+      },
+      "3358": {
+        "rows": 3,
+        "baseline_accuracy": 0.33333333,
+        "candidate_accuracy": 0.33333333,
+        "accuracy_gain": 0.0,
+        "repairs": 0,
+        "degradations": 0,
+        "net_repairs": 0,
+        "changed_rows": 0
+      },
+      "3404": {
+        "rows": 16,
+        "baseline_accuracy": 0.5,
+        "candidate_accuracy": 0.5,
+        "accuracy_gain": 0.0,
+        "repairs": 0,
+        "degradations": 0,
+        "net_repairs": 0,
+        "changed_rows": 0
+      },
+      "3416": {
+        "rows": 4,
+        "baseline_accuracy": 0.25,
+        "candidate_accuracy": 0.25,
+        "accuracy_gain": 0.0,
+        "repairs": 0,
+        "degradations": 0,
+        "net_repairs": 0,
+        "changed_rows": 0
+      },
+      "3456": {
+        "rows": 19,
+        "baseline_accuracy": 0.0,
+        "candidate_accuracy": 0.0,
+        "accuracy_gain": 0.0,
+        "repairs": 0,
+        "degradations": 0,
+        "net_repairs": 0,
+        "changed_rows": 0
+      },
+      "3463": {
+        "rows": 8,
+        "baseline_accuracy": 0.5,
+        "candidate_accuracy": 0.5,
+        "accuracy_gain": 0.0,
+        "repairs": 0,
+        "degradations": 0,
+        "net_repairs": 0,
+        "changed_rows": 0
+      },
+      "3556": {
+        "rows": 11,
+        "baseline_accuracy": 0.0,
+        "candidate_accuracy": 0.0,
+        "accuracy_gain": 0.0,
+        "repairs": 0,
+        "degradations": 0,
+        "net_repairs": 0,
+        "changed_rows": 0
+      },
+      "3695": {
+        "rows": 4,
+        "baseline_accuracy": 0.5,
+        "candidate_accuracy": 0.5,
+        "accuracy_gain": 0.0,
+        "repairs": 0,
+        "degradations": 0,
+        "net_repairs": 0,
+        "changed_rows": 0
+      },
+      "3704": {
+        "rows": 4,
+        "baseline_accuracy": 0.5,
+        "candidate_accuracy": 0.5,
+        "accuracy_gain": 0.0,
+        "repairs": 0,
+        "degradations": 0,
+        "net_repairs": 0,
+        "changed_rows": 0
+      },
+      "3858": {
+        "rows": 2,
+        "baseline_accuracy": 0.5,
+        "candidate_accuracy": 0.5,
+        "accuracy_gain": 0.0,
+        "repairs": 0,
+        "degradations": 0,
+        "net_repairs": 0,
+        "changed_rows": 0
+      },
+      "3875": {
+        "rows": 4,
+        "baseline_accuracy": 0.5,
+        "candidate_accuracy": 0.5,
+        "accuracy_gain": 0.0,
+        "repairs": 0,
+        "degradations": 0,
+        "net_repairs": 0,
+        "changed_rows": 0
+      }
+    }
+  },
+  "pilot_groups": {
+    "mixed_label_moderate_target_count": {
+      "overall": {
+        "rows": 29,
+        "baseline_accuracy": 0.4137931,
+        "candidate_accuracy": 0.4137931,
+        "accuracy_gain": 0.0,
+        "repairs": 0,
+        "degradations": 0,
+        "net_repairs": 0,
+        "changed_rows": 0,
+        "mcnemar": {
+          "baseline_wrong_candidate_right": 0,
+          "baseline_right_candidate_wrong": 0,
+          "discordant_rows": 0,
+          "two_sided_exact_p": 1.0
+        },
+        "benefiting_refnos": 0,
+        "largest_single_refno_repair_share": 0.0
+      },
+      "per_refno": {
+        "1224": {
+          "rows": 3,
+          "baseline_accuracy": 0.33333333,
+          "candidate_accuracy": 0.33333333,
+          "accuracy_gain": 0.0,
+          "repairs": 0,
+          "degradations": 0,
+          "net_repairs": 0,
+          "changed_rows": 0
+        },
+        "1278": {
+          "rows": 4,
+          "baseline_accuracy": 0.5,
+          "candidate_accuracy": 0.5,
+          "accuracy_gain": 0.0,
+          "repairs": 0,
+          "degradations": 0,
+          "net_repairs": 0,
+          "changed_rows": 0
+        },
+        "3110": {
+          "rows": 3,
+          "baseline_accuracy": 0.33333333,
+          "candidate_accuracy": 0.33333333,
+          "accuracy_gain": 0.0,
+          "repairs": 0,
+          "degradations": 0,
+          "net_repairs": 0,
+          "changed_rows": 0
+        },
+        "3132": {
+          "rows": 3,
+          "baseline_accuracy": 0.33333333,
+          "candidate_accuracy": 0.33333333,
+          "accuracy_gain": 0.0,
+          "repairs": 0,
+          "degradations": 0,
+          "net_repairs": 0,
+          "changed_rows": 0
+        },
+        "3416": {
+          "rows": 4,
+          "baseline_accuracy": 0.25,
+          "candidate_accuracy": 0.25,
+          "accuracy_gain": 0.0,
+          "repairs": 0,
+          "degradations": 0,
+          "net_repairs": 0,
+          "changed_rows": 0
+        },
+        "3695": {
+          "rows": 4,
+          "baseline_accuracy": 0.5,
+          "candidate_accuracy": 0.5,
+          "accuracy_gain": 0.0,
+          "repairs": 0,
+          "degradations": 0,
+          "net_repairs": 0,
+          "changed_rows": 0
+        },
+        "3704": {
+          "rows": 4,
+          "baseline_accuracy": 0.5,
+          "candidate_accuracy": 0.5,
+          "accuracy_gain": 0.0,
+          "repairs": 0,
+          "degradations": 0,
+          "net_repairs": 0,
+          "changed_rows": 0
+        },
+        "3875": {
+          "rows": 4,
+          "baseline_accuracy": 0.5,
+          "candidate_accuracy": 0.5,
+          "accuracy_gain": 0.0,
+          "repairs": 0,
+          "degradations": 0,
+          "net_repairs": 0,
+          "changed_rows": 0
+        }
+      }
+    },
+    "uniform_label_moderate_target_count": {
+      "overall": {
+        "rows": 26,
+        "baseline_accuracy": 0.19230769,
+        "candidate_accuracy": 0.19230769,
+        "accuracy_gain": 0.0,
+        "repairs": 0,
+        "degradations": 0,
+        "net_repairs": 0,
+        "changed_rows": 0,
+        "mcnemar": {
+          "baseline_wrong_candidate_right": 0,
+          "baseline_right_candidate_wrong": 0,
+          "discordant_rows": 0,
+          "two_sided_exact_p": 1.0
+        },
+        "benefiting_refnos": 0,
+        "largest_single_refno_repair_share": 0.0
+      },
+      "per_refno": {
+        "1742": {
+          "rows": 4,
+          "baseline_accuracy": 0.0,
+          "candidate_accuracy": 0.0,
+          "accuracy_gain": 0.0,
+          "repairs": 0,
+          "degradations": 0,
+          "net_repairs": 0,
+          "changed_rows": 0
+        },
+        "2985": {
+          "rows": 4,
+          "baseline_accuracy": 0.0,
+          "candidate_accuracy": 0.0,
+          "accuracy_gain": 0.0,
+          "repairs": 0,
+          "degradations": 0,
+          "net_repairs": 0,
+          "changed_rows": 0
+        },
+        "3135": {
+          "rows": 4,
+          "baseline_accuracy": 0.0,
+          "candidate_accuracy": 0.0,
+          "accuracy_gain": 0.0,
+          "repairs": 0,
+          "degradations": 0,
+          "net_repairs": 0,
+          "changed_rows": 0
+        },
+        "3166": {
+          "rows": 4,
+          "baseline_accuracy": 0.0,
+          "candidate_accuracy": 0.0,
+          "accuracy_gain": 0.0,
+          "repairs": 0,
+          "degradations": 0,
+          "net_repairs": 0,
+          "changed_rows": 0
+        },
+        "3167": {
+          "rows": 3,
+          "baseline_accuracy": 0.66666667,
+          "candidate_accuracy": 0.66666667,
+          "accuracy_gain": 0.0,
+          "repairs": 0,
+          "degradations": 0,
+          "net_repairs": 0,
+          "changed_rows": 0
+        },
+        "3325": {
+          "rows": 2,
+          "baseline_accuracy": 0.5,
+          "candidate_accuracy": 0.5,
+          "accuracy_gain": 0.0,
+          "repairs": 0,
+          "degradations": 0,
+          "net_repairs": 0,
+          "changed_rows": 0
+        },
+        "3358": {
+          "rows": 3,
+          "baseline_accuracy": 0.33333333,
+          "candidate_accuracy": 0.33333333,
+          "accuracy_gain": 0.0,
+          "repairs": 0,
+          "degradations": 0,
+          "net_repairs": 0,
+          "changed_rows": 0
+        },
+        "3858": {
+          "rows": 2,
+          "baseline_accuracy": 0.5,
+          "candidate_accuracy": 0.5,
+          "accuracy_gain": 0.0,
+          "repairs": 0,
+          "degradations": 0,
+          "net_repairs": 0,
+          "changed_rows": 0
+        }
+      }
+    },
+    "high_target_count": {
+      "overall": {
+        "rows": 99,
+        "baseline_accuracy": 0.15151515,
+        "candidate_accuracy": 0.15151515,
+        "accuracy_gain": 0.0,
+        "repairs": 0,
+        "degradations": 0,
+        "net_repairs": 0,
+        "changed_rows": 0,
+        "mcnemar": {
+          "baseline_wrong_candidate_right": 0,
+          "baseline_right_candidate_wrong": 0,
+          "discordant_rows": 0,
+          "two_sided_exact_p": 1.0
+        },
+        "benefiting_refnos": 0,
+        "largest_single_refno_repair_share": 0.0
+      },
+      "per_refno": {
+        "1147": {
+          "rows": 6,
+          "baseline_accuracy": 0.0,
+          "candidate_accuracy": 0.0,
+          "accuracy_gain": 0.0,
+          "repairs": 0,
+          "degradations": 0,
+          "net_repairs": 0,
+          "changed_rows": 0
+        },
+        "1162": {
+          "rows": 9,
+          "baseline_accuracy": 0.22222222,
+          "candidate_accuracy": 0.22222222,
+          "accuracy_gain": 0.0,
+          "repairs": 0,
+          "degradations": 0,
+          "net_repairs": 0,
+          "changed_rows": 0
+        },
+        "2850": {
+          "rows": 24,
+          "baseline_accuracy": 0.04166667,
+          "candidate_accuracy": 0.04166667,
+          "accuracy_gain": 0.0,
+          "repairs": 0,
+          "degradations": 0,
+          "net_repairs": 0,
+          "changed_rows": 0
+        },
+        "3124": {
+          "rows": 6,
+          "baseline_accuracy": 0.0,
+          "candidate_accuracy": 0.0,
+          "accuracy_gain": 0.0,
+          "repairs": 0,
+          "degradations": 0,
+          "net_repairs": 0,
+          "changed_rows": 0
+        },
+        "3404": {
+          "rows": 16,
+          "baseline_accuracy": 0.5,
+          "candidate_accuracy": 0.5,
+          "accuracy_gain": 0.0,
+          "repairs": 0,
+          "degradations": 0,
+          "net_repairs": 0,
+          "changed_rows": 0
+        },
+        "3456": {
+          "rows": 19,
+          "baseline_accuracy": 0.0,
+          "candidate_accuracy": 0.0,
+          "accuracy_gain": 0.0,
+          "repairs": 0,
+          "degradations": 0,
+          "net_repairs": 0,
+          "changed_rows": 0
+        },
+        "3463": {
+          "rows": 8,
+          "baseline_accuracy": 0.5,
+          "candidate_accuracy": 0.5,
+          "accuracy_gain": 0.0,
+          "repairs": 0,
+          "degradations": 0,
+          "net_repairs": 0,
+          "changed_rows": 0
+        },
+        "3556": {
+          "rows": 11,
+          "baseline_accuracy": 0.0,
+          "candidate_accuracy": 0.0,
+          "accuracy_gain": 0.0,
+          "repairs": 0,
+          "degradations": 0,
+          "net_repairs": 0,
+          "changed_rows": 0
+        }
+      }
+    }
+  },
+  "sensitivity_analysis": {
+    "0.35": {
+      "rows": 154,
+      "baseline_accuracy": 0.20779221,
+      "candidate_accuracy": 0.20779221,
+      "accuracy_gain": 0.0,
+      "repairs": 0,
+      "degradations": 0,
+      "net_repairs": 0,
+      "changed_rows": 0,
+      "mcnemar": {
+        "baseline_wrong_candidate_right": 0,
+        "baseline_right_candidate_wrong": 0,
+        "discordant_rows": 0,
+        "two_sided_exact_p": 1.0
+      },
+      "benefiting_refnos": 0,
+      "largest_single_refno_repair_share": 0.0
+    },
+    "0.6": {
+      "rows": 154,
+      "baseline_accuracy": 0.20779221,
+      "candidate_accuracy": 0.20779221,
+      "accuracy_gain": 0.0,
+      "repairs": 0,
+      "degradations": 0,
+      "net_repairs": 0,
+      "changed_rows": 0,
+      "mcnemar": {
+        "baseline_wrong_candidate_right": 0,
+        "baseline_right_candidate_wrong": 0,
+        "discordant_rows": 0,
+        "two_sided_exact_p": 1.0
+      },
+      "benefiting_refnos": 0,
+      "largest_single_refno_repair_share": 0.0
+    },
+    "0.9": {
+      "rows": 154,
+      "baseline_accuracy": 0.20779221,
+      "candidate_accuracy": 0.20779221,
+      "accuracy_gain": 0.0,
+      "repairs": 0,
+      "degradations": 0,
+      "net_repairs": 0,
+      "changed_rows": 0,
+      "mcnemar": {
+        "baseline_wrong_candidate_right": 0,
+        "baseline_right_candidate_wrong": 0,
+        "discordant_rows": 0,
+        "two_sided_exact_p": 1.0
+      },
+      "benefiting_refnos": 0,
+      "largest_single_refno_repair_share": 0.0
+    }
+  },
+  "coverage": {
+    "papers": 24,
+    "groups_with_explicit_anchor": 55,
+    "groups_with_strong_support": 1,
+    "groups_with_carrier_only": 2,
+    "duplicate_name_rows": 65,
+    "duplicate_name_rows_with_internally_disagreeing_labels": 5
+  },
+  "expansion_decision": {
+    "gate_checks": {
+      "union_net_repairs": false,
+      "mixed_accuracy_gain": false,
+      "uniform_net_repairs": true,
+      "mcnemar_exact_p": false,
+      "benefiting_refnos": false,
+      "single_refno_dominance": true
+    },
+    "expanded_to_all_multi_target_papers": false,
+    "expanded_report": null
+  },
+  "claim_boundary": {
+    "outcome_guided_sample_selection": true,
+    "independent_validation": false,
+    "pmagresult_or_rockmag_used_by_attribution": false,
+    "labels_or_metrics_used_by_attribution": false,
+    "baseline_oof_probability_used_only_by_frozen_postprocessor": true,
+    "labels_used_only_after_feature_freeze_for_evaluation": true
+  },
+  "artifacts": {
+    "candidate_freeze": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_sentence_lead_pilot_v2/candidate_freeze.json",
+      "sha256": "a21fbf15b59ca44a9d23c0eb0b3247efc2f8ebee5d9d2ac1a2d1dc5d99c8ff5a"
+    },
+    "evidence": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_sentence_lead_pilot_v2/pilot_evidence.jsonl",
+      "sha256": "b2ff11b4edd0819731426b0d793f718b8aa1c6e56fb243e7880359980f5a38a9"
+    }
+  }
+}

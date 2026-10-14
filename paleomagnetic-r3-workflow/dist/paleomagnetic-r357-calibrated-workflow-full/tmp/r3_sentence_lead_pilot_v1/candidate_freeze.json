@@ -1,0 +1,86 @@
+{
+  "schema_version": "r3_sentence_lead_attribution_pilot_freeze_v1",
+  "status": "FROZEN_BEFORE_RUNTIME_LABEL_ACCESS",
+  "development_design": "outcome-guided hard-case pilot; not independent validation",
+  "sample_groups": {
+    "mixed_label_moderate_target_count": [
+      "3416",
+      "1224",
+      "3110",
+      "3132",
+      "1278",
+      "3695",
+      "3704",
+      "3875"
+    ],
+    "uniform_label_moderate_target_count": [
+      "1742",
+      "2985",
+      "3135",
+      "3166",
+      "3358",
+      "3325",
+      "3858",
+      "3167"
+    ],
+    "high_target_count": [
+      "3456",
+      "3556",
+      "1147",
+      "3124",
+      "2850",
+      "1162",
+      "3404",
+      "3463"
+    ]
+  },
+  "primary_weight": 0.6,
+  "sensitivity_weights": [
+    0.35,
+    0.6,
+    0.9
+  ],
+  "candidate_rule": "Within a paper, blend baseline probability with 1 for a uniquely sentence-led target having trusted method evidence or diagnostic+carrier evidence, and with 0 for a uniquely sentence-led target lacking that support. Apply only when both signals coexist; unanchored and indistinguishable rows remain unchanged.",
+  "expansion_gate": {
+    "minimum_union_net_repairs": 5,
+    "minimum_mixed_accuracy_gain": 0.05,
+    "minimum_uniform_net_repairs": -1,
+    "maximum_mcnemar_exact_p": 0.05,
+    "minimum_benefiting_refnos": 3,
+    "maximum_single_refno_repair_share": 0.5
+  },
+  "inputs": {
+    "identity": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_strict_eval_07111758/inputs/identity_manifest.xlsx",
+      "sha256": "5bdb7476a5b7d61494939fc5cd7bc8fa3195ef7b032b29306f146892862b970f"
+    },
+    "page_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_page_cache_v1/page_cache.jsonl",
+      "sha256": "388bd9d405119a2ee19aa08d9b0194c3902bdcb0b52b9d5e8925f7ff2405a076"
+    },
+    "concepts": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/trace_page_graph_concepts_v4.json",
+      "sha256": "109a9b593284c25b135f64bbad91f75206be5ca51e5606dee900f0af8d39c012"
+    },
+    "targets": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/targets.xlsx",
+      "sha256": "378c17338f3b5cfeff3ccd496894e0f6183f747119b2624c4a9cefaeda02501e"
+    },
+    "baseline": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_scope_fusion_all_oof_v1/r3_scope_fusion_all_grouped_oof_v1.npz",
+      "sha256": "438c3f67e489eb1417298343417f1a49fc8c5061597ce64d8b6f134d5595008f"
+    }
+  },
+  "online_feature_boundary": {
+    "identity_fields": [
+      "REFNO",
+      "RESULTNO",
+      "ROCKNAME"
+    ],
+    "original_page_text": true,
+    "frozen_knowledge_concepts": true,
+    "pmagresult_or_rockmag": false,
+    "r3_labels": false,
+    "evaluation_metrics": false
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "rockmag_multitarget_blind_prediction_receipt_v1",
+  "prediction_engine": "pilot_reconstruct_target_rockmag_v4",
+  "papers": 10,
+  "targets": 62,
+  "status_counts": {
+    "ABSENT": 27,
+    "ABSTAIN_ANCHOR": 11,
+    "ABSTAIN_IDENTITY": 16,
+    "ABSTAIN_INSUFFICIENT": 7,
+    "PRESENT": 1
+  },
+  "forbidden_sources_not_read": [
+    "data/source_metadata/PMAGRESULT.xlsx",
+    "data/targets.xlsx::R3",
+    "prior predictions",
+    "evaluation reports"
+  ],
+  "input_sha256": {
+    "outputs/rockmag_multitarget_pilot_20260717/identity_manifest.json": "23d8e2b43f2d39a657aaff4dc2bc83ffdb9337c52a056a184d25ebc6c033b4ee",
+    "data/parsed_mds/1152.txt": "a2cbdf64e11776e59b08fbf95cdbc1c2a2415176bcdfdc1bcca2df05295c0486",
+    "data/parsed_mds/3434.txt": "2dd0cf9353119a1790a73f095b3d4e18badaf0bf0fd3bf12fec8bce58e176f2a",
+    "data/parsed_mds/3765.txt": "27bc47b73c463b1d3d3538a0252ec5bda1d1d7896bb768ac54625571f090ceb7",
+    "data/parsed_mds/3774.txt": "0aa4f8f263bf3b31531525e48603f2c4ed6cadf70bfb7e63ecc8392fbd54b670",
+    "data/parsed_mds/3792.txt": "42c12902f29f8e969bec1c46f8ac9b0621aed5c0a730e5e420c437810feaa5c6",
+    "data/parsed_mds/4168.txt": "054daead19c5c3cb15a02d145c79a97c2609ea5436dd94f8b7d5b190188acb55",
+    "data/parsed_mds/4181.txt": "ca9adb2d4f87cda0ae0ed07435d2349db47caa18be0197787c5037d5ebbe0f2b",
+    "data/parsed_mds/4298.txt": "183aa615cdc38975a9b3cc7388f48173c7c359dd4f6eebb32225e2aa9ee1b3ab",
+    "data/parsed_mds/4324.txt": "0d709d9974cf423076f08d6a56ae0f315d22982f65af6daaaa533526f5380dae",
+    "data/parsed_mds/4339.txt": "cb5e98e9bef254714717c27c29d4b9cc438b6e3c24b774ddfd7cb7df881b537c"
+  },
+  "prediction_sha256": "4cd67c1ba484a002a0bf5d06e56ff2d0177c1dc73680f138aac7780ce7d0d243"
+}

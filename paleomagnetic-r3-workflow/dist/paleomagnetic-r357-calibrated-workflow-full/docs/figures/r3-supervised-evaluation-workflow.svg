@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1500" viewBox="0 0 1800 1500">
+  <title>图 2  R3 历史实践监督评测流程</title>
+  <desc>A fixed-grid scientific workflow for label-free feature freezing, REFNO-grouped out-of-fold training, ensemble prediction, selective abstention, error analysis, and external validation.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7A8691" />
+    </marker>
+  </defs>
+  <style>
+    text { font-family: "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", Arial, sans-serif; fill: #17212B; }
+    .figure-title { font-size: 34px; font-weight: 500; text-anchor: middle; }
+    .phase-band rect { fill: none; stroke: #CAD5DF; stroke-width: 2; stroke-dasharray: 8 6; }
+    .phase-label { font-size: 22px; font-weight: 500; }
+    .node-label { font-size: 20px; font-weight: 400; text-anchor: middle; dominant-baseline: middle; }
+    .workflow-edge { fill: none; stroke: #7A8691; stroke-width: 2.2; marker-end: url(#arrow); stroke-linejoin: round; }
+    .workflow-edge.dashed { stroke-dasharray: 8 6; }
+    .workflow-edge.no-arrow { marker-end: none; }
+    .junction { fill: #7A8691; }
+    .edge-label-group rect { fill: #FFFFFF; }
+    .edge-label { font-size: 16px; font-weight: 400; fill: #4B5563; text-anchor: middle; }
+  </style>
+  <rect width="100%" height="100%" fill="#FFFFFF" />
+  <text x="900" y="48" class="figure-title">图 2  R3 历史实践监督评测流程</text>
+  
+    <g class="phase-band">
+      <rect x="40" y="80" width="1720" height="130" rx="18" />
+      <text x="68" y="113" class="phase-label">A  输入边界：标签与运行时原文分离</text>
+    </g>
+    <g class="phase-band">
+      <rect x="40" y="230" width="1720" height="310" rx="18" />
+      <text x="68" y="263" class="phase-label">B  标签打开前的特征、分组折与候选冻结</text>
+    </g>
+    <g class="phase-band">
+      <rect x="40" y="560" width="1720" height="510" rx="18" />
+      <text x="68" y="593" class="phase-label">C  外折训练与论文隔离预测</text>
+    </g>
+    <g class="phase-band">
+      <rect x="40" y="1090" width="1720" height="390" rx="18" />
+      <text x="68" y="1123" class="phase-label">D  概率集成、评测与结论边界</text>
+    </g>
+  <g class="edges"><g><path d="M 255 190 L 255 280" class="workflow-edge no-arrow" /></g><g><path d="M 685 190 L 685 280" class="workflow-edge no-arrow" /></g><g><path d="M 1115 190 L 1115 280" class="workflow-edge no-arrow" /></g><g><path d="M 255 280 L 1515 280" class="workflow-edge no-arrow" /></g><g><path d="M 285 280 L 285 300" class="workflow-edge" /></g><g><path d="M 900 280 L 900 300" class="workflow-edge" /></g><g><path d="M 1515 280 L 1515 300" class="workflow-edge" /></g><g><path d="M 285 375 L 285 405" class="workflow-edge no-arrow" /></g><g><path d="M 900 375 L 900 405" class="workflow-edge no-arrow" /></g><g><path d="M 1515 375 L 1515 405" class="workflow-edge no-arrow" /></g><g><path d="M 285 405 L 1515 405" class="workflow-edge no-arrow" /></g><g><path d="M 430 405 L 430 440" class="workflow-edge" /></g><g><path d="M 640 478 L 700 478" class="workflow-edge" /></g><g><path d="M 1120 478 L 1180 478" class="workflow-edge" /></g><g><path d="M 910 515 L 910 620" class="workflow-edge" /></g><g><path d="M 1545 190 L 1775 190 L 1775 658 L 1150 658" class="workflow-edge dashed" /></g><g><path d="M 900 695 L 900 730" class="workflow-edge" /></g><g><path d="M 900 800 L 900 825" class="workflow-edge no-arrow" /></g><g><path d="M 250 825 L 1560 825" class="workflow-edge no-arrow" /></g><g><path d="M 250 825 L 250 850" class="workflow-edge" /></g><g><path d="M 680 825 L 680 850" class="workflow-edge" /></g><g><path d="M 1120 825 L 1120 850" class="workflow-edge" /></g><g><path d="M 1560 825 L 1560 850" class="workflow-edge" /></g><g><path d="M 250 925 L 250 950" class="workflow-edge no-arrow" /></g><g><path d="M 680 925 L 680 950" class="workflow-edge no-arrow" /></g><g><path d="M 1120 925 L 1120 950" class="workflow-edge no-arrow" /></g><g><path d="M 1560 925 L 1560 950" class="workflow-edge no-arrow" /></g><g><path d="M 250 950 L 1560 950" class="workflow-edge no-arrow" /></g><g><path d="M 900 950 L 900 980" class="workflow-edge" /></g><g><path d="M 900 1050 L 900 1080 L 25 1080 L 25 1160 L 100 1160" class="workflow-edge" /></g><g><path d="M 500 1160 L 700 1160" class="workflow-edge" /></g><g><path d="M 1100 1160 L 1300 1160" class="workflow-edge" /></g><g><path d="M 900 1200 L 900 1230 L 300 1230 L 300 1260" class="workflow-edge" /></g><g><path d="M 500 1300 L 700 1300" class="workflow-edge" /></g><g><path d="M 1500 1200 L 1500 1260" class="workflow-edge" /></g><g><path d="M 900 1340 L 900 1365" class="workflow-edge no-arrow" /></g><g><path d="M 1500 1340 L 1500 1365" class="workflow-edge no-arrow" /></g><g><path d="M 900 1365 L 1500 1365" class="workflow-edge no-arrow" /></g><g><path d="M 900 1365 L 900 1385" class="workflow-edge" /></g></g>
+  <g class="junctions"><circle cx="255" cy="280" r="4.2" class="junction" /><circle cx="285" cy="280" r="4.2" class="junction" /><circle cx="685" cy="280" r="4.2" class="junction" /><circle cx="900" cy="280" r="4.2" class="junction" /><circle cx="1115" cy="280" r="4.2" class="junction" /><circle cx="1515" cy="280" r="4.2" class="junction" /><circle cx="285" cy="405" r="4.2" class="junction" /><circle cx="430" cy="405" r="4.2" class="junction" /><circle cx="900" cy="405" r="4.2" class="junction" /><circle cx="1515" cy="405" r="4.2" class="junction" /><circle cx="250" cy="825" r="4.2" class="junction" /><circle cx="680" cy="825" r="4.2" class="junction" /><circle cx="900" cy="825" r="4.2" class="junction" /><circle cx="1120" cy="825" r="4.2" class="junction" /><circle cx="1560" cy="825" r="4.2" class="junction" /><circle cx="250" cy="950" r="4.2" class="junction" /><circle cx="680" cy="950" r="4.2" class="junction" /><circle cx="900" cy="950" r="4.2" class="junction" /><circle cx="1120" cy="950" r="4.2" class="junction" /><circle cx="1560" cy="950" r="4.2" class="junction" /><circle cx="900" cy="1365" r="4.2" class="junction" /><circle cx="1500" cy="1365" r="4.2" class="junction" /></g>
+  <g class="nodes">
+    <g class="workflow-node" data-node="cache">
+      <rect x="70" y="125" width="370" height="65" rx="12" fill="#DDEFE5" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="255" y="145">融合页级原文缓存</tspan><tspan x="255" y="170">主缓存优先；MinerU 仅补齐空文献</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="knowledge">
+      <rect x="500" y="125" width="370" height="65" rx="12" fill="#F3EAD5" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="685" y="145">冻结聚合专家知识</tspan><tspan x="685" y="170">术语图谱 / 诊断与载体模式</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="identity">
+      <rect x="930" y="125" width="370" height="65" rx="12" fill="#E7F0F7" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="1115" y="145">目标身份清单</tspan><tspan x="1115" y="170">REFNO / RESULTNO / ROCKNAME</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="labels">
+      <rect x="1360" y="125" width="370" height="65" rx="12" fill="#ECE8EF" stroke="#75677D" stroke-width="2" />
+      <text class="node-label"><tspan x="1545" y="145">历史 R3 标签</tspan><tspan x="1545" y="170">特征与折冻结后才可读取</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="style">
+      <rect x="70" y="300" width="430" height="75" rx="12" fill="#F5E8CC" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="285" y="325">文献结构与来源质量特征</tspan><tspan x="285" y="350">年代 / 章节 / 图表 / 解析质量</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="article">
+      <rect x="685" y="300" width="430" height="75" rx="12" fill="#DCEAF7" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="900" y="325">全文专家概念特征</tspan><tspan x="900" y="350">方法 / 诊断 / 载体的频次与多样性</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="local">
+      <rect x="1300" y="300" width="430" height="75" rx="12" fill="#DCEAF7" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="1515" y="325">目标邻域与身份特征</tspan><tspan x="1515" y="350">目标提及 / 局部概念 / 目标数量</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="freeze">
+      <rect x="220" y="440" width="420" height="75" rx="12" fill="#EEE4F3" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="430" y="465">无标签特征矩阵冻结</tspan><tspan x="430" y="490">固定列顺序 / 行对齐 / 内容哈希</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="folds">
+      <rect x="700" y="440" width="420" height="75" rx="12" fill="#EEE4F3" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="910" y="465">确定性 REFNO 分组五折</tspan><tspan x="910" y="490">同一论文的全部目标只进入一折</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="receipt">
+      <rect x="1180" y="440" width="420" height="75" rx="12" fill="#E8ECEF" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="1390" y="465">候选配置冻结回执</tspan><tspan x="1390" y="490">特征 / 折 / 四模型 / 运行环境</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="train">
+      <rect x="650" y="620" width="500" height="75" rx="12" fill="#ECE8EF" stroke="#75677D" stroke-width="2" />
+      <text class="node-label"><tspan x="900" y="645">训练折标签打开</tspan><tspan x="900" y="670">测试 REFNO 完全排除</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="weight">
+      <rect x="650" y="730" width="500" height="70" rx="12" fill="#F3EAD5" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="900" y="752.5">训练样本权重校正</tspan><tspan x="900" y="777.5">降低同论文同目标重复行的支配</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="hgb">
+      <rect x="70" y="850" width="360" height="75" rx="12" fill="#EEE4F3" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="250" y="875">直方图梯度提升树</tspan><tspan x="250" y="900">学习非线性阈值与特征交互</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="rf">
+      <rect x="500" y="850" width="360" height="75" rx="12" fill="#EEE4F3" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="680" y="875">随机森林</tspan><tspan x="680" y="900">对训练样本与特征进行树集成</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="extra">
+      <rect x="940" y="850" width="360" height="75" rx="12" fill="#EEE4F3" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="1120" y="875">极端随机树</tspan><tspan x="1120" y="900">增加候选切分随机性</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="logreg">
+      <rect x="1380" y="850" width="360" height="75" rx="12" fill="#EEE4F3" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="1560" y="875">标准化逻辑回归</tspan><tspan x="1560" y="900">提供线性概率补充</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="oof">
+      <rect x="650" y="980" width="500" height="70" rx="12" fill="#EEE4F3" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="900" y="1002.5">四模型外折概率</tspan><tspan x="900" y="1027.5">被预测论文未参与对应模型拟合</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="ensemble">
+      <rect x="100" y="1120" width="400" height="80" rx="12" fill="#EEE4F3" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="300" y="1147.5">四模型概率等权平均</tspan><tspan x="300" y="1172.5">形成预先冻结的 mean4 主概率</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="practice">
+      <rect x="700" y="1120" width="400" height="80" rx="12" fill="#F3EAD5" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="900" y="1147.5">历史 R3 标签兼容概率</tspan><tspan x="900" y="1172.5">每个目标保留概率与折归属</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="selective">
+      <rect x="1300" y="1120" width="400" height="80" rx="12" fill="#F5E1D9" stroke="#A6664C" stroke-width="2" />
+      <text class="node-label"><tspan x="1500" y="1135">单目标选择性判定</tspan><tspan x="1500" y="1160">高置信输出 0/1</tspan><tspan x="1500" y="1185">中间概率区间 ABSTAIN</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="oofReceipt">
+      <rect x="100" y="1260" width="400" height="80" rx="12" fill="#DFECEB" stroke="#4D7774" stroke-width="2" />
+      <text class="node-label"><tspan x="300" y="1287.5">全覆盖 OOF 评测</tspan><tspan x="300" y="1312.5">模型指标 / 混淆矩阵 / 逐折结果</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="errors">
+      <rect x="700" y="1260" width="400" height="80" rx="12" fill="#E8ECEF" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="900" y="1287.5">分组误差分析</tspan><tspan x="900" y="1312.5">单目标 / 多目标 / 同文献混合标签</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="selectiveReceipt">
+      <rect x="1300" y="1260" width="400" height="80" rx="12" fill="#DFECEB" stroke="#4D7774" stroke-width="2" />
+      <text class="node-label"><tspan x="1500" y="1275">选择性评测回执</tspan><tspan x="1500" y="1300">已判定准确率与覆盖率成对报告</tspan><tspan x="1500" y="1325">仅适用于单目标开发子集</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="boundary">
+      <rect x="700" y="1385" width="400" height="70" rx="12" fill="#ECE8EF" stroke="#75677D" stroke-width="2" />
+      <text class="node-label"><tspan x="900" y="1395">评测结论边界</tspan><tspan x="900" y="1420">内部 REFNO 分组 OOF</tspan><tspan x="900" y="1445">不等同于独立外部验证</tspan></text>
+    </g></g>
+</svg>

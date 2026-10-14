@@ -1,0 +1,17 @@
+{
+  "schema_version": "r3_residual_gate_evaluation_run_state_v1",
+  "status": "COMPLETE",
+  "evaluation_freeze_sha256": "e848f56e510dc52fb4924cf2cea929b5fdd2eac6dd175dfb172b63556d17e501",
+  "report": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_residual_gate_single872_v1/r3_residual_gate_single872_grouped_oof_report_v1.json",
+    "sha256": "52efb976a3d1c99160bf615167839c1eb923afaebaed7215bf344d8b189a5bfb"
+  },
+  "oof": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_residual_gate_single872_v1/r3_residual_gate_single872_grouped_oof_v1.npz",
+    "sha256": "4e3ebaca7df967d7d89d4d33b71f7d9b7fe9905a8036fb9bdbfbf5e6a2073520"
+  },
+  "receipt": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_residual_gate_single872_v1/r3_residual_gate_single872_grouped_oof_receipt_v1.json",
+    "sha256": "260536d42e280d27935a95daa2be3f6d61d121eba2805bd16eb4a17d26a7b064"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "r3_query_adaptive_candidate_freeze_v1",
+  "status": "FROZEN_BEFORE_LABEL_ACCESS",
+  "primary_scope": "all 872 PDF-backed single-target papers at full coverage",
+  "alignment_sha256": "4c66f703ad1c2edc2f7075df4ca55515df4017055336cb7742711ab683d7b58b",
+  "single_target_rows": 872,
+  "single_mask_sha256": "137558eabee35428f4bef1c3139411c01ef9b5c87fad6e0783ea6bf2c0f33934",
+  "outer_fold_ids_sha256": "dabc04a25e15a075b1eed4b776a5ce972dc55a73b87f89b824c2aeb073fc40d9",
+  "evaluation_candidates": {
+    "training_scopes": [
+      "all_pdf_training",
+      "single_target_training"
+    ],
+    "feature_families": [
+      "v4",
+      "retrieval_compact",
+      "v4_plus_retrieval_compact",
+      "retrieval_pooled",
+      "retrieval_compact_plus_pooled",
+      "v4_plus_retrieval_compact_plus_pooled"
+    ],
+    "random_forest": {
+      "n_estimators": 600,
+      "max_features": 0.5,
+      "min_samples_leaf": 8,
+      "n_jobs": -1,
+      "random_state": 35720260
+    },
+    "extra_trees": {
+      "n_estimators": 600,
+      "max_features": 0.5,
+      "min_samples_leaf": 6,
+      "n_jobs": -1,
+      "random_state": 35720260
+    },
+    "hist_gradient_boosting": {
+      "max_iter": 180,
+      "learning_rate": 0.04,
+      "max_leaf_nodes": 7,
+      "min_samples_leaf": 16,
+      "l2_regularization": 2.0,
+      "random_state": 35720260
+    },
+    "logistic_c_values": [
+      0.001,
+      0.01,
+      0.1,
+      1.0
+    ],
+    "pca_dimensions": [
+      32,
+      64,
+      128
+    ],
+    "fusion_alphas": [
+      0.2,
+      0.35,
+      0.5,
+      0.65,
+      0.8
+    ],
+    "inner_folds": 3,
+    "inner_seed": 35720260761,
+    "threshold": 0.5
+  },
+  "runtime_boundary": {
+    "labels_read": false,
+    "pmagresult_or_rockmag_read": false,
+    "prior_predictions_read": false,
+    "evaluation_results_read": false,
+    "combined_supervised_features_read": false,
+    "resultno_used_only_for_alignment": true,
+    "refno_used_for_grouping_and_multiplicity": true
+  }
+}

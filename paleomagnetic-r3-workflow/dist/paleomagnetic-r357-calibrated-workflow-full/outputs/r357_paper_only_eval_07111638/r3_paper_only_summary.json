@@ -1,0 +1,31 @@
+{
+  "workflow_profile": "paper_only_v1",
+  "targets": "data/targets.xlsx",
+  "page_cache": "outputs/r357_targets_07081817/r3_page_source_cache.jsonl",
+  "output": "outputs/r357_paper_only_eval_07111638/r3_latest_source_recovered_arbitration.jsonl",
+  "rows": 3173,
+  "score_counts": {
+    "0": 1193,
+    "1": 1980
+  },
+  "outcome_counts": {
+    "NEGATIVE": 744,
+    "POSITIVE": 1980,
+    "UNKNOWN": 449
+  },
+  "manual_review_rows": 1275,
+  "runtime_input_columns": [
+    "REFNO",
+    "RESULTNO",
+    "ROCKNAME"
+  ],
+  "runtime_scoring_sources": [
+    "identity manifest",
+    "original paper page text"
+  ],
+  "forbidden_runtime_scoring_sources": [
+    "PMAGRESULT",
+    "ROCKUNIT",
+    "R3/R5/R7 labels"
+  ]
+}

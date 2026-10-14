@@ -1,0 +1,89 @@
+{
+  "schema_version": "r3_grep_entity_pair_candidate_freeze_v1",
+  "status": "FROZEN_BEFORE_LABEL_ACCESS",
+  "primary_strategy": "grep_global_pair_router",
+  "paper_reference": {
+    "title": "Document-Level Relation Extraction with Global Relations and Entity Pair Reasoning",
+    "authors": [
+      "Fu Zhang",
+      "Yi Yan",
+      "Jingwei Cheng"
+    ],
+    "venue": "Findings of the Association for Computational Linguistics: ACL 2025",
+    "publication_date": "2025-07",
+    "url": "https://aclanthology.org/2025.findings-acl.1002/",
+    "code": "https://github.com/yanyi74/GREP"
+  },
+  "experts": [
+    {
+      "name": "hgb",
+      "matrix": "matrix",
+      "kind": "hgb10",
+      "standardized": false
+    },
+    {
+      "name": "rf",
+      "matrix": "matrix",
+      "kind": "rf8",
+      "standardized": false
+    },
+    {
+      "name": "extra",
+      "matrix": "matrix",
+      "kind": "extra8",
+      "standardized": false
+    },
+    {
+      "name": "logreg",
+      "matrix": "matrix",
+      "kind": "logreg001",
+      "standardized": true
+    }
+  ],
+  "families": {
+    "global": "existing combined label-free original-paper features",
+    "pair": "GREP-inspired target/evidence interaction features",
+    "expanded": "global and pair features concatenated"
+  },
+  "fixed_strategies": {
+    "baseline_mean4": "uniform mean of four global experts",
+    "grep_pair_mean4": "uniform mean of four entity-pair experts",
+    "grep_expanded_mean4": "uniform mean of four concatenated-feature experts",
+    "grep_global_pair_fusion": "sigmoid(mean(logit(global), logit(pair)))",
+    "grep_global_expanded_blend": "uniform arithmetic mean of global and expanded mean4",
+    "grep_global_pair_router": "global mean4 for single-target papers; global/pair logit fusion for multi-target papers"
+  },
+  "threshold": 0.5,
+  "coverage": {
+    "labelled_rows": 3173,
+    "labelled_paper_groups": 1627,
+    "pdf_rows": 2751,
+    "pdf_paper_groups": 1478,
+    "skipped_without_pdf_rows": 422,
+    "skipped_without_pdf_paper_groups": 149
+  },
+  "feature_manifest": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/grep_entity_pair_features_v1.manifest.json",
+    "sha256": "880a38cead7dd1d2c23974af63d06733b4f877743051f673234b3f8ad0a929ba"
+  },
+  "combined_manifest": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/combined_features.manifest.json",
+    "sha256": "cd9263e1a8c018f9f0d4cc25c8a1878ed1ae52254423c17968b104d07079bea6"
+  },
+  "fold_manifest": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/refno_fold_manifest.json",
+    "sha256": "9e5660e4891daa5b58078984bf2cb119bab4f0717057cd2248bc55005082afe3"
+  },
+  "runtime_boundary": {
+    "labels_read_at_freeze": false,
+    "pmagresult_or_row_rockmag_used_as_feature": false,
+    "prior_oof_or_evaluation_read": false,
+    "refno_used_only_for_group_isolation_and_sibling_interaction": true,
+    "resultno_used_only_for_alignment": true
+  },
+  "canonical_runtime": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "sklearn": "1.6.1"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "rockmag_mixed_label_multitarget_selection_audit_v1",
+  "status": "PASS",
+  "papers": 61,
+  "targets": 278,
+  "historical_r3_distribution": {
+    "0": 141,
+    "1": 137
+  },
+  "paper_text_coverage": {
+    "available_papers": 61,
+    "required_papers": 61,
+    "coverage": 1.0,
+    "total_pages": 1135
+  },
+  "predictor_input_excludes": [
+    "PMAGRESULT.ROCKMAG",
+    "PMAGRESULT.TESTS",
+    "historical row R3",
+    "PMAGRESULT.LABDETAILS",
+    "PMAGRESULT.COMMENTS",
+    "prior predictions",
+    "evaluation reports"
+  ],
+  "source_sha256": {
+    "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_strict_eval_07111758/inputs/identity_manifest.xlsx": "5bdb7476a5b7d61494939fc5cd7bc8fa3195ef7b032b29306f146892862b970f",
+    "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/targets.xlsx": "378c17338f3b5cfeff3ccd496894e0f6183f747119b2624c4a9cefaeda02501e",
+    "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/source_metadata/PMAGRESULT.xlsx": "3ff2c01ce08b01622aaee0531426fa50c5439b251cb8be0f78f83b6591b87a8c",
+    "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_page_cache_v1/page_cache.jsonl": "388bd9d405119a2ee19aa08d9b0194c3902bdcb0b52b9d5e8925f7ff2405a076"
+  },
+  "output": {
+    "identity_manifest": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/rockmag_mixed_label_multitarget_20260717/identity_manifest.json",
+    "identity_manifest_sha256": "1c761e898cecebd092cd82d90b0c0bd3475261ec3c4412f1fbe15252f74b7a0f",
+    "parsed_dir": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/rockmag_mixed_label_multitarget_20260717/parsed_papers"
+  }
+}

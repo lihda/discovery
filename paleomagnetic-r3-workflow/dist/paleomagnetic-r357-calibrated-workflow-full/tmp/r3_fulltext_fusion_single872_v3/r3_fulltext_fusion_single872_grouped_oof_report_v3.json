@@ -1,0 +1,254 @@
+{
+  "schema_version": "r3_fulltext_fusion_single872_grouped_oof_report_v3",
+  "status": "POSTHOC_EVALUATION_OF_FROZEN_DEVELOPMENT_CANDIDATE",
+  "scope": {
+    "rows": 872,
+    "coverage": 1.0
+  },
+  "primary_strategy": "v2_original_text_knowledge_plus_full_document_word_mean3",
+  "threshold": 0.5,
+  "metrics": {
+    "v2_primary": {
+      "rows": 872,
+      "accuracy": 0.89908257,
+      "balanced_accuracy": 0.88149693,
+      "macro_f1": 0.88593988,
+      "precision_1": 0.91370558,
+      "recall_1": 0.93587522,
+      "confusion": {
+        "tn": 244,
+        "fp": 51,
+        "fn": 37,
+        "tp": 540
+      }
+    },
+    "fulltext_word_mean3": {
+      "rows": 872,
+      "accuracy": 0.73050459,
+      "balanced_accuracy": 0.60915019,
+      "macro_f1": 0.59928273,
+      "precision_1": 0.71536524,
+      "recall_1": 0.98440208,
+      "confusion": {
+        "tn": 69,
+        "fp": 226,
+        "fn": 9,
+        "tp": 568
+      }
+    },
+    "primary": {
+      "rows": 872,
+      "accuracy": 0.90022936,
+      "balanced_accuracy": 0.88236348,
+      "macro_f1": 0.88713653,
+      "precision_1": 0.91385135,
+      "recall_1": 0.93760832,
+      "confusion": {
+        "tn": 244,
+        "fp": 51,
+        "fn": 36,
+        "tp": 541
+      }
+    },
+    "fulltext_experts": {
+      "fulltext_word_c05": {
+        "rows": 872,
+        "accuracy": 0.68004587,
+        "balanced_accuracy": 0.5304321,
+        "macro_f1": 0.46480119,
+        "precision_1": 0.67570755,
+        "recall_1": 0.99306759,
+        "confusion": {
+          "tn": 20,
+          "fp": 275,
+          "fn": 4,
+          "tp": 573
+        }
+      },
+      "fulltext_word_c1": {
+        "rows": 872,
+        "accuracy": 0.72821101,
+        "balanced_accuracy": 0.60658873,
+        "macro_f1": 0.59587237,
+        "precision_1": 0.71410579,
+        "recall_1": 0.98266898,
+        "confusion": {
+          "tn": 68,
+          "fp": 227,
+          "fn": 10,
+          "tp": 567
+        }
+      },
+      "fulltext_word_c2": {
+        "rows": 872,
+        "accuracy": 0.75917431,
+        "balanced_accuracy": 0.66063508,
+        "macro_f1": 0.67069486,
+        "precision_1": 0.74564926,
+        "recall_1": 0.96533795,
+        "confusion": {
+          "tn": 105,
+          "fp": 190,
+          "fn": 20,
+          "tp": 557
+        }
+      }
+    }
+  },
+  "delta_vs_v2": {
+    "repairs": 1,
+    "degradations": 0,
+    "net_repairs": 1,
+    "accuracy_delta": 0.00114679
+  },
+  "fold_audit": [
+    {
+      "outer_fold": 1,
+      "all_pdf_training_rows": 2200,
+      "single_training_rows": 697,
+      "test_rows": 175,
+      "outer_test_metrics": {
+        "rows": 175,
+        "accuracy": 0.89142857,
+        "balanced_accuracy": 0.87749521,
+        "macro_f1": 0.88410192,
+        "precision_1": 0.88495575,
+        "recall_1": 0.94339623,
+        "confusion": {
+          "tn": 56,
+          "fp": 13,
+          "fn": 6,
+          "tp": 100
+        }
+      }
+    },
+    {
+      "outer_fold": 2,
+      "all_pdf_training_rows": 2201,
+      "single_training_rows": 698,
+      "test_rows": 174,
+      "outer_test_metrics": {
+        "rows": 174,
+        "accuracy": 0.85632184,
+        "balanced_accuracy": 0.83417508,
+        "macro_f1": 0.84281843,
+        "precision_1": 0.85470085,
+        "recall_1": 0.92592593,
+        "confusion": {
+          "tn": 49,
+          "fp": 17,
+          "fn": 8,
+          "tp": 100
+        }
+      }
+    },
+    {
+      "outer_fold": 3,
+      "all_pdf_training_rows": 2201,
+      "single_training_rows": 698,
+      "test_rows": 174,
+      "outer_test_metrics": {
+        "rows": 174,
+        "accuracy": 0.90804598,
+        "balanced_accuracy": 0.89854851,
+        "macro_f1": 0.89467312,
+        "precision_1": 0.94017094,
+        "recall_1": 0.92436975,
+        "confusion": {
+          "tn": 48,
+          "fp": 7,
+          "fn": 9,
+          "tp": 110
+        }
+      }
+    },
+    {
+      "outer_fold": 4,
+      "all_pdf_training_rows": 2201,
+      "single_training_rows": 698,
+      "test_rows": 174,
+      "outer_test_metrics": {
+        "rows": 174,
+        "accuracy": 0.92528736,
+        "balanced_accuracy": 0.90386714,
+        "macro_f1": 0.91036259,
+        "precision_1": 0.93548387,
+        "recall_1": 0.95867769,
+        "confusion": {
+          "tn": 45,
+          "fp": 8,
+          "fn": 5,
+          "tp": 116
+        }
+      }
+    },
+    {
+      "outer_fold": 5,
+      "all_pdf_training_rows": 2201,
+      "single_training_rows": 697,
+      "test_rows": 175,
+      "outer_test_metrics": {
+        "rows": 175,
+        "accuracy": 0.92,
+        "balanced_accuracy": 0.90978737,
+        "macro_f1": 0.90527374,
+        "precision_1": 0.95041322,
+        "recall_1": 0.93495935,
+        "confusion": {
+          "tn": 46,
+          "fp": 6,
+          "fn": 8,
+          "tp": 115
+        }
+      }
+    }
+  ],
+  "v2_reproduction_audit": {
+    "v2_oof": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_style_fusion_single872_v2/r3_style_fusion_single872_grouped_oof_v2.npz",
+      "sha256": "46271fc4b6ba8a24dd04380fa0793acd18670b7a0f4bd192fde0dfbf2230e3fd"
+    },
+    "opened_only_after_provisional_predictions_written": true,
+    "alignment_exact": true,
+    "maximum_absolute_difference": {
+      "no_strict_base": 2.220446049250313e-16,
+      "knowledge_mean3": 2.220446049250313e-16,
+      "primary": 2.220446049250313e-16,
+      "component__domain_mean4": 2.220446049250313e-16,
+      "component__query_pca64_logreg": 0.0,
+      "component__front_word_logreg": 0.0,
+      "expert__knowledge_hgb": 0.0,
+      "expert__knowledge_extra": 3.3306690738754696e-16,
+      "expert__knowledge_gradient": 0.0
+    },
+    "v2_reproduced_at_tolerance_1e_12": true
+  },
+  "boundary": {
+    "feature_generation_used_labels": false,
+    "pmagresult_or_rockmag_read": false,
+    "all_models_fit_inside_outer_training_partitions": true,
+    "outer_test_labels_used_for_training_or_selection": false,
+    "prior_oof_opened_only_after_provisional_predictions_written": true,
+    "development_internal_oof_not_external_validation": true
+  },
+  "promotion_decision": {
+    "reaches_90_percent_full_coverage_internal_oof": true,
+    "promote_without_external_validation": false,
+    "reason": "The internal target is reached, but the corpus informed candidate development and external validation remains required."
+  },
+  "runtime": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "sklearn": "1.6.1"
+  },
+  "outputs": {
+    "oof": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_fulltext_fusion_single872_v3/r3_fulltext_fusion_single872_grouped_oof_v3.npz",
+      "sha256": "82ebaf0c2f5bdfbfae1304c93446e200b9c1c4ebd1e4b0f7f022c26a9cb99355"
+    },
+    "receipt": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_fulltext_fusion_single872_v3/r3_fulltext_fusion_single872_grouped_oof_receipt_v3.json",
+      "sha256": "5f13f0967d2041334c60007bd6349405f1ea1ede74bce2ce3505eee621754fe9"
+    }
+  }
+}
