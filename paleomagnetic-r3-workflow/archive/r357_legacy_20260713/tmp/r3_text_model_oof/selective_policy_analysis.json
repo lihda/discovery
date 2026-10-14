@@ -1,0 +1,404 @@
+{
+  "schema_version": "r3_training_oof_selective_policy_analysis_v1",
+  "status": "complete",
+  "scope": "development-only fixed training partition",
+  "target_known_accuracy": 0.9,
+  "minimum_class_f1": 0.5,
+  "probability_source": {
+    "candidate": "nonlinear_knowledge_fusion",
+    "weights": {
+      "target_char": 0.5,
+      "taxonomy_count_logistic": 0.0,
+      "row_knowledge_gradient_boosting": 0.2,
+      "paper_majority_knowledge_gradient_boosting": 0.3
+    },
+    "selection_warning": "Base-model weights and the displayed confidence threshold were selected post-hoc on grouped OOF training predictions. A new external REFNO set is required before deployment."
+  },
+  "selected_operating_point": {
+    "negative_threshold": 0.4,
+    "positive_threshold": 0.8,
+    "known_rows": 1267,
+    "coverage": 0.5123332,
+    "known_accuracy": 0.90213102,
+    "macro_f1": 0.89217495,
+    "f1_0": 0.85941043,
+    "f1_1": 0.92493947,
+    "confusion": {
+      "tn": 379,
+      "fp": 89,
+      "fn": 35,
+      "tp": 764
+    }
+  },
+  "selected_operating_point_folds": [
+    {
+      "negative_threshold": 0.4,
+      "positive_threshold": 0.8,
+      "known_rows": 237,
+      "coverage": 0.47878788,
+      "known_accuracy": 0.91983122,
+      "macro_f1": 0.90831348,
+      "f1_0": 0.87581699,
+      "f1_1": 0.94080997,
+      "confusion": {
+        "tn": 67,
+        "fp": 11,
+        "fn": 8,
+        "tp": 151
+      },
+      "fold": 1
+    },
+    {
+      "negative_threshold": 0.4,
+      "positive_threshold": 0.8,
+      "known_rows": 283,
+      "coverage": 0.57171717,
+      "known_accuracy": 0.83392226,
+      "macro_f1": 0.81787685,
+      "f1_0": 0.7638191,
+      "f1_1": 0.8719346,
+      "confusion": {
+        "tn": 76,
+        "fp": 37,
+        "fn": 10,
+        "tp": 160
+      },
+      "fold": 2
+    },
+    {
+      "negative_threshold": 0.4,
+      "positive_threshold": 0.8,
+      "known_rows": 265,
+      "coverage": 0.53535354,
+      "known_accuracy": 0.89056604,
+      "macro_f1": 0.88378775,
+      "f1_0": 0.85572139,
+      "f1_1": 0.9118541,
+      "confusion": {
+        "tn": 86,
+        "fp": 19,
+        "fn": 10,
+        "tp": 150
+      },
+      "fold": 3
+    },
+    {
+      "negative_threshold": 0.4,
+      "positive_threshold": 0.8,
+      "known_rows": 268,
+      "coverage": 0.54251012,
+      "known_accuracy": 0.94029851,
+      "macro_f1": 0.93232323,
+      "f1_0": 0.90909091,
+      "f1_1": 0.95555556,
+      "confusion": {
+        "tn": 80,
+        "fp": 11,
+        "fn": 5,
+        "tp": 172
+      },
+      "fold": 4
+    },
+    {
+      "negative_threshold": 0.4,
+      "positive_threshold": 0.8,
+      "known_rows": 214,
+      "coverage": 0.43319838,
+      "known_accuracy": 0.93925234,
+      "macro_f1": 0.93387998,
+      "f1_0": 0.91503268,
+      "f1_1": 0.95272727,
+      "confusion": {
+        "tn": 70,
+        "fp": 11,
+        "fn": 2,
+        "tp": 131
+      },
+      "fold": 5
+    }
+  ],
+  "symmetric_curve": [
+    {
+      "negative_threshold": 0.5,
+      "positive_threshold": 0.5,
+      "known_rows": 2473,
+      "coverage": 1.0,
+      "known_accuracy": 0.78123736,
+      "macro_f1": 0.76605473,
+      "f1_0": 0.70645686,
+      "f1_1": 0.82565259,
+      "confusion": {
+        "tn": 651,
+        "fp": 299,
+        "fn": 242,
+        "tp": 1281
+      }
+    },
+    {
+      "negative_threshold": 0.4,
+      "positive_threshold": 0.6,
+      "known_rows": 1852,
+      "coverage": 0.74888799,
+      "known_accuracy": 0.84557235,
+      "macro_f1": 0.80926742,
+      "f1_0": 0.72605364,
+      "f1_1": 0.8924812,
+      "confusion": {
+        "tn": 379,
+        "fp": 251,
+        "fn": 35,
+        "tp": 1187
+      }
+    },
+    {
+      "negative_threshold": 0.30000000000000004,
+      "positive_threshold": 0.7,
+      "known_rows": 1413,
+      "coverage": 0.5713708,
+      "known_accuracy": 0.85491861,
+      "macro_f1": 0.75363029,
+      "f1_0": 0.59566075,
+      "f1_1": 0.91159983,
+      "confusion": {
+        "tn": 151,
+        "fp": 191,
+        "fn": 14,
+        "tp": 1057
+      }
+    },
+    {
+      "negative_threshold": 0.25,
+      "positive_threshold": 0.75,
+      "known_rows": 1158,
+      "coverage": 0.46825718,
+      "known_accuracy": 0.87478411,
+      "macro_f1": 0.67604642,
+      "f1_0": 0.42231076,
+      "f1_1": 0.92978208,
+      "confusion": {
+        "tn": 53,
+        "fp": 139,
+        "fn": 6,
+        "tp": 960
+      }
+    },
+    {
+      "negative_threshold": 0.22499999999999998,
+      "positive_threshold": 0.775,
+      "known_rows": 1000,
+      "coverage": 0.40436717,
+      "known_accuracy": 0.882,
+      "macro_f1": 0.62070074,
+      "f1_0": 0.30588235,
+      "f1_1": 0.93551913,
+      "confusion": {
+        "tn": 26,
+        "fp": 114,
+        "fn": 4,
+        "tp": 856
+      }
+    },
+    {
+      "negative_threshold": 0.19999999999999996,
+      "positive_threshold": 0.8,
+      "known_rows": 862,
+      "coverage": 0.3485645,
+      "known_accuracy": 0.89675174,
+      "macro_f1": 0.55659205,
+      "f1_0": 0.1682243,
+      "f1_1": 0.9449598,
+      "confusion": {
+        "tn": 9,
+        "fp": 89,
+        "fn": 0,
+        "tp": 764
+      }
+    },
+    {
+      "negative_threshold": 0.18700000000000006,
+      "positive_threshold": 0.813,
+      "known_rows": 791,
+      "coverage": 0.31985443,
+      "known_accuracy": 0.90012642,
+      "macro_f1": 0.50890801,
+      "f1_0": 0.07058824,
+      "f1_1": 0.94722779,
+      "confusion": {
+        "tn": 3,
+        "fp": 79,
+        "fn": 0,
+        "tp": 709
+      }
+    },
+    {
+      "negative_threshold": 0.17500000000000004,
+      "positive_threshold": 0.825,
+      "known_rows": 701,
+      "coverage": 0.28346138,
+      "known_accuracy": 0.92582026,
+      "macro_f1": 0.48074074,
+      "f1_0": 0.0,
+      "f1_1": 0.96148148,
+      "confusion": {
+        "tn": 0,
+        "fp": 52,
+        "fn": 0,
+        "tp": 649
+      }
+    },
+    {
+      "negative_threshold": 0.15000000000000002,
+      "positive_threshold": 0.85,
+      "known_rows": 528,
+      "coverage": 0.21350586,
+      "known_accuracy": 0.92613636,
+      "macro_f1": 0.48082596,
+      "f1_0": 0.0,
+      "f1_1": 0.96165192,
+      "confusion": {
+        "tn": 0,
+        "fp": 39,
+        "fn": 0,
+        "tp": 489
+      }
+    },
+    {
+      "negative_threshold": 0.125,
+      "positive_threshold": 0.875,
+      "known_rows": 359,
+      "coverage": 0.14516781,
+      "known_accuracy": 0.93593315,
+      "macro_f1": 0.48345324,
+      "f1_0": 0.0,
+      "f1_1": 0.96690647,
+      "confusion": {
+        "tn": 0,
+        "fp": 23,
+        "fn": 0,
+        "tp": 336
+      }
+    },
+    {
+      "negative_threshold": 0.09999999999999998,
+      "positive_threshold": 0.9,
+      "known_rows": 195,
+      "coverage": 0.0788516,
+      "known_accuracy": 0.94358974,
+      "macro_f1": 0.48548813,
+      "f1_0": 0.0,
+      "f1_1": 0.97097625,
+      "confusion": {
+        "tn": 0,
+        "fp": 11,
+        "fn": 0,
+        "tp": 184
+      }
+    },
+    {
+      "negative_threshold": 0.07499999999999996,
+      "positive_threshold": 0.925,
+      "known_rows": 54,
+      "coverage": 0.02183583,
+      "known_accuracy": 0.96296296,
+      "macro_f1": 0.49056604,
+      "f1_0": 0.0,
+      "f1_1": 0.98113208,
+      "confusion": {
+        "tn": 0,
+        "fp": 2,
+        "fn": 0,
+        "tp": 52
+      }
+    }
+  ],
+  "asymmetric_grid": {
+    "negative_thresholds": [
+      0.05,
+      0.075,
+      0.1,
+      0.125,
+      0.15,
+      0.175,
+      0.2,
+      0.225,
+      0.25,
+      0.275,
+      0.3,
+      0.325,
+      0.35,
+      0.375,
+      0.4,
+      0.425,
+      0.45,
+      0.475,
+      0.5
+    ],
+    "positive_thresholds": [
+      0.5,
+      0.525,
+      0.55,
+      0.575,
+      0.6,
+      0.625,
+      0.65,
+      0.675,
+      0.7,
+      0.725,
+      0.75,
+      0.775,
+      0.8,
+      0.825,
+      0.85,
+      0.875,
+      0.9,
+      0.925,
+      0.95
+    ],
+    "candidate_count": 361,
+    "selection": "maximum coverage subject to target known accuracy and both class-F1 floors"
+  },
+  "interpretation": {
+    "full_coverage_target_reached": false,
+    "selective_target_reached_in_development": true,
+    "selective_target_reached_in_every_fold": false,
+    "abstained_rows_at_selected_point": 1206,
+    "formal_scorer_modified": false,
+    "external_validation_required": true
+  },
+  "runtime_recomputable_feature_sources": [
+    "ROCKNAME",
+    "original-paper text",
+    "frozen R3 taxonomy"
+  ],
+  "forbidden_sources_not_read": [
+    "held-out R3 labels",
+    "PMAGRESULT",
+    "ROCKMAG",
+    "guarded holdout predictions"
+  ],
+  "inputs": {
+    "aggregate": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_text_model_oof/aggregate_result.json",
+      "sha256": "5cfc9b4215e4f4f0c0cc01c61ae74c32e45cd1fcb613c81b8e00dd5052f0718f"
+    },
+    "checkpoint": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_text_model_oof/oof_probability_checkpoint.npz",
+      "sha256": "f783e4326fa6d3120bf54afd756101423e4d0f9041ca69caa135350ad1d248b7"
+    },
+    "training_identity": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_distilled_training_preflight/identity.xlsx",
+      "sha256": "7e45020df48b866096ac4bf567102f6a73ce3c12759b19c8550f78de299c72f1"
+    },
+    "training_labels": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/targets.xlsx",
+      "sha256": "378c17338f3b5cfeff3ccd496894e0f6183f747119b2624c4a9cefaeda02501e",
+      "held_out_cells_dereferenced": false
+    }
+  },
+  "artifacts": {
+    "analysis_script": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/analyze_r3_oof_selective_policy.py",
+    "analysis_script_sha256": "9e061bd94d652b42118c87f920b1df488fe3d9ef0dc1585e4a6ef80ef53b36b4",
+    "output": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_text_model_oof/selective_policy_analysis.json"
+  },
+  "analysis_sha256": "c32744f605d6f96f32a9c55692d6984307c78e3e3445c479aacba8e0c56a9d18"
+}

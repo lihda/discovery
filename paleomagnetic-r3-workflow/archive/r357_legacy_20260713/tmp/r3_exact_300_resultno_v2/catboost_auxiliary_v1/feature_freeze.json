@@ -1,0 +1,265 @@
+{
+  "schema_version": "r3_exact300_auxiliary_catboost_feature_freeze_v1",
+  "status": "FROZEN_BEFORE_LABEL_ACCESS",
+  "scope": {
+    "evaluation_rows": 300,
+    "evaluation_papers": 258,
+    "auxiliary_candidate_rows": 2172,
+    "auxiliary_candidate_papers": 1174,
+    "exact_alignment_sha256": "ea3b591bdcaa26d8bfa86aa379c070626c436b889b7ea79cc1385611c6f99126",
+    "full_alignment_sha256": "066aaddd5707f67b7a5183d3861d5301b0019f600f769263a17e959dd1e4c0e9"
+  },
+  "canonical_outer_fold_manifest": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/refno_fold_manifest.json",
+    "sha256": "8f6ab8f1a071878e14d4db8e19a7ec0519ed612be107b0f0fdf0489dd59aaf2d",
+    "required_sha256": "8f6ab8f1a071878e14d4db8e19a7ec0519ed612be107b0f0fdf0489dd59aaf2d",
+    "fold_id_sha256": "28552aa3627c2c808ff49ac50c7c9d67a6f32daaad0e9aff5ae6a96fbe61f08f"
+  },
+  "candidate_protocol": {
+    "candidate_family": [
+      {
+        "name": "catboost_curation_all_d4_inverse_paper",
+        "matrix": "curation_all",
+        "depth": 4,
+        "weight_mode": "inverse_paper"
+      },
+      {
+        "name": "catboost_curation_all_d4_inverse_paper_class_balanced",
+        "matrix": "curation_all",
+        "depth": 4,
+        "weight_mode": "inverse_paper_class_balanced"
+      },
+      {
+        "name": "catboost_curation_all_d6_inverse_paper",
+        "matrix": "curation_all",
+        "depth": 6,
+        "weight_mode": "inverse_paper"
+      },
+      {
+        "name": "catboost_curation_all_d6_inverse_paper_class_balanced",
+        "matrix": "curation_all",
+        "depth": 6,
+        "weight_mode": "inverse_paper_class_balanced"
+      },
+      {
+        "name": "catboost_curation_all_d8_inverse_paper",
+        "matrix": "curation_all",
+        "depth": 8,
+        "weight_mode": "inverse_paper"
+      },
+      {
+        "name": "catboost_curation_all_d8_inverse_paper_class_balanced",
+        "matrix": "curation_all",
+        "depth": 8,
+        "weight_mode": "inverse_paper_class_balanced"
+      },
+      {
+        "name": "catboost_combined_d4_inverse_paper",
+        "matrix": "combined",
+        "depth": 4,
+        "weight_mode": "inverse_paper"
+      },
+      {
+        "name": "catboost_combined_d4_inverse_paper_class_balanced",
+        "matrix": "combined",
+        "depth": 4,
+        "weight_mode": "inverse_paper_class_balanced"
+      },
+      {
+        "name": "catboost_combined_d6_inverse_paper",
+        "matrix": "combined",
+        "depth": 6,
+        "weight_mode": "inverse_paper"
+      },
+      {
+        "name": "catboost_combined_d6_inverse_paper_class_balanced",
+        "matrix": "combined",
+        "depth": 6,
+        "weight_mode": "inverse_paper_class_balanced"
+      },
+      {
+        "name": "catboost_combined_d8_inverse_paper",
+        "matrix": "combined",
+        "depth": 8,
+        "weight_mode": "inverse_paper"
+      },
+      {
+        "name": "catboost_combined_d8_inverse_paper_class_balanced",
+        "matrix": "combined",
+        "depth": 8,
+        "weight_mode": "inverse_paper_class_balanced"
+      }
+    ],
+    "candidate_count": 12,
+    "matrices": [
+      "curation_all",
+      "combined"
+    ],
+    "depths": [
+      4,
+      6,
+      8
+    ],
+    "weight_modes": [
+      "inverse_paper",
+      "inverse_paper_class_balanced"
+    ],
+    "maximum_iterations": 700,
+    "learning_rate": 0.035,
+    "l2_leaf_reg": 15.0,
+    "early_stopping_rounds": 60,
+    "threshold_grid": [
+      0.3,
+      0.325,
+      0.35,
+      0.375,
+      0.4,
+      0.425,
+      0.45,
+      0.475,
+      0.5,
+      0.525,
+      0.55,
+      0.575,
+      0.6,
+      0.625,
+      0.65,
+      0.675,
+      0.7
+    ],
+    "thread_count": 2,
+    "random_state": 7321,
+    "inner_split": {
+      "unit": "REFNO",
+      "labels_used_to_assign_groups": false,
+      "method": "SHA256-ranked REFNO prefix by row target",
+      "salt": "r3-catboost-auxiliary-inner-v1",
+      "validation_fraction": 0.2
+    },
+    "selection": {
+      "source": "inner validation only",
+      "candidate_order": [
+        "accuracy",
+        "balanced_accuracy",
+        "macro_f1",
+        "specificity",
+        "negative_logloss",
+        "threshold_proximity_to_0.5",
+        "declaration_order"
+      ],
+      "early_stopping_metric": "inner validation Logloss",
+      "threshold_metric": "inner validation row accuracy",
+      "primary_outer_decision": "probability >= per-fold inner-selected threshold"
+    },
+    "smoke_gate": {
+      "fold": 1,
+      "minimum_accuracy": 0.85,
+      "requires_finite_noncollapsed_predictions": true
+    },
+    "promotion_gate": {
+      "minimum_exact300_accuracy": 0.9
+    }
+  },
+  "candidate_protocol_sha256": "e77115bae53a68085e2f41afd6e5a5c0be248414be57a7ef19d544eb3979f2b8",
+  "feature_matrices": {
+    "curation_all": {
+      "shape": [
+        2172,
+        189
+      ],
+      "dtype": "float32",
+      "sha256": "b3287f28ec1f532d1c5425614c538435556b173c3d59c4486637c6490b885638",
+      "finite": true
+    },
+    "combined": {
+      "shape": [
+        2172,
+        351
+      ],
+      "dtype": "float32",
+      "sha256": "b1ca1515ad31ff10da86971fe91a66a4376e824d169c229821a8317bbbdf8b98",
+      "finite": true
+    }
+  },
+  "document_alignment": {
+    "local_documents_sha256": "eea2e1716875eb12b1995b459d12e9cb57a7c34251b8418c5163ce52da7f5ef6",
+    "rockname_documents_sha256": "d7ecebf64d76009935cb71d1d42ca439ea0d0e71e39018886d6a2d1ce6157a44"
+  },
+  "allowed_predictive_sources": [
+    "ROCKNAME from frozen identities",
+    "original-paper text/layout from frozen page cache",
+    "local PDF byte size",
+    "frozen aggregate R3 taxonomy",
+    "frozen positive ROCKMAG-derived expert vocabulary"
+  ],
+  "runtime_boundary": {
+    "labels_read": false,
+    "pmagresult_or_rockmag_source_cells_read": false,
+    "prior_predictions_or_evaluations_read": false,
+    "refno_or_resultno_used_as_predictive_features": false,
+    "identifiers_used_for_alignment_and_group_isolation_only": true
+  },
+  "software": {
+    "catboost": "1.2.8",
+    "thread_count": 2,
+    "implementation": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/experiment_r3_exact300_auxiliary_catboost.py",
+      "sha256": "8b5ae1137460ab2a18577270791fab57ce4bfaf334ea29d07a8c3173d7e2661a"
+    }
+  },
+  "inputs": {
+    "exact_identity": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/identity.xlsx",
+      "sha256": "93ea5dfba0a32501a564d06eb020386fd86b11f59ded0982043f90c064ab960b"
+    },
+    "full_identity": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_distilled_training_preflight/identity.xlsx",
+      "sha256": "7e45020df48b866096ac4bf567102f6a73ce3c12759b19c8550f78de299c72f1"
+    },
+    "screening_protocol": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/screening_protocol.json",
+      "sha256": "6412244a5d268e6dcabfaed63f6f529d4976dd17ef6c4313f70bdb6748c04b4f"
+    },
+    "fold_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/refno_fold_manifest.json",
+      "sha256": "8f6ab8f1a071878e14d4db8e19a7ec0519ed612be107b0f0fdf0489dd59aaf2d"
+    },
+    "targets": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/targets.xlsx",
+      "sha256": "378c17338f3b5cfeff3ccd496894e0f6183f747119b2624c4a9cefaeda02501e"
+    },
+    "page_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/mineru_cache_all_hard_risk.jsonl",
+      "sha256": "f8ec25c1148c04112ccfc75076743803417effbb833834a136c714dff4e146d7"
+    },
+    "taxonomy": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/calibration/r3_rockmag_text_distillation_v1.json",
+      "sha256": "149df539a937678c8204aa6d6e60e77bd901e4a77975d26caa5362749aa18ad4"
+    },
+    "positive_kb": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/calibration/r3_positive_rockmag_expert_kb_v2.json",
+      "sha256": "b0fc28866fe6702938a7cc02fcf7b87b68abc9e3b4e391a53a53de1615b5e9ef"
+    }
+  },
+  "knowledge": {
+    "positive_kb_status": "loaded",
+    "positive_kb_pattern_field": "runtime_original_text_patterns",
+    "concept_count": 38,
+    "runtime_pattern_count": 80,
+    "runtime_pattern_counts_by_source": {
+      "frozen_taxonomy": 48,
+      "positive_rockmag_expert_kb": 32
+    },
+    "invalid_pattern_count": 0,
+    "inputs": {
+      "frozen_taxonomy": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/calibration/r3_rockmag_text_distillation_v1.json",
+        "sha256": "149df539a937678c8204aa6d6e60e77bd901e4a77975d26caa5362749aa18ad4"
+      },
+      "positive_rockmag_expert_kb": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/calibration/r3_positive_rockmag_expert_kb_v2.json",
+        "sha256": "b0fc28866fe6702938a7cc02fcf7b87b68abc9e3b4e391a53a53de1615b5e9ef"
+      }
+    }
+  }
+}

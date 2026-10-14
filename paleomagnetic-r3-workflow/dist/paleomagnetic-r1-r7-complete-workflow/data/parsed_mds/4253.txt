@@ -1,0 +1,911 @@
+### page_1
+Journal of Geodynamics 91 (2015) 1–12
+Contents lists available at ScienceDirect
+Journal of Geodynamics
+jou rn al hom ep age: http://www.elsevier.com/locate/jog
+Paleomagnetism of the Late Cretaceous ignimbrite from the
+Okhotsk-Chukotka Volcanic Belt, Kolyma-Omolon Composite
+Terrane: Tectonic implications
+Yo-ichiro Otofujia,∗, Haider Zamanb, Gen Shogakia, Hanae Sekia, Vladimir F. Polinc,
+Daisuke Miurad, Hyeon-Seon Ahna, Yurii Ivanove, Porel Minyuke, Peter Ziminf
+aDepartment of Earth and Planetary Sciences, Faculty of Science, Kobe University, Kobe, Japan
+bDepartment of Geology, Faculty of Science, Taibah University, Madinah 41477, Saudi Arabia
+cRussian Academy of Science, Far East Geological Institute, Vladivostok, Russia
+dAbiko Research Laboratory, CRIEPI, 1646 Abiko, Chiba, Japan
+eRussian Academy of Science, North-East Interdisciplinary Scientific Research Institute, Portovaya 16, Magadan, Russia
+fRussian Academy of Science, Pacific Oceanological Institute, Vladivostok, Russia
+a r t i c l e i n f o
+Article history:
+Received 7 September 2014
+Received in revised form 10 March 2015
+Accepted 16 March 2015
+Available online 21 March 2015
+Keywords:
+Tectonics
+Paleomagnetism
+Late Cretaceous
+Eurasia
+Okhotsk-Chukotka Volcanic Belt
+Kolyma-Omolon-Chukotka
+a
+Block
+b s t r a c t
+New Late Cretaceous paleomagnetic results from the Okhotsk-Chukotka Volcanic Belt in the Kolyma-
+Omolon Composite Terrane yield stable and consistent remanent directions. The Late Cretaceous
+(86–81 Ma) ignimbrites from the Kholchan and Ola suites were sampled at 19 sites in the Magadan area
+(60.4◦N, 151.0◦E). We isolated the characteristic paleomagnetic directions from 16 sampled sites using
+an alternating field demagnetization procedure. The primary nature of these directions is ascertained
+by dual polarities and positive fold tests. A tilt-corrected mean direction (D = 42.8◦, I = 84.7◦, k = 46.0,
+˛ 95= 10.0◦) yields a paleomagnetic pole of 66.7◦N, 168.5◦E (A95= 18.8◦) which appears almost identi-
+cal to the 90–67 Ma pole reported from the Lake El’gygytgyn area of the Okhotsk-Chukotka Volcanic
+Belt (Chukotka Terrane). This consistency suggests that the Kolyma-Omolon Composite Terrane and
+Chukotka Terrane has acted as a single tectonic unit since 80 Ma without any significant internal defor-
+mation. Accordingly, we calculate a combined 80 Ma characteristic paleomagnetic pole (Long. = 164.7◦E,
+Lat. = 68.0◦, A95= 10.9◦, N = 12) for the Kolyma-Omolon-Chukotka Block which falls 16.5–17.5◦south of the
+same age poles from Europe and East Asia. We ascribe this discrepancy in pole positions to tectonic activ-
+ity in the area and infer a southward displacement of 1640 ± 1380 km for the Kolyma-Omolon-Chukotka
+Block with respect to the North American and Eurasian blocks since 80 Ma; more than 260 km of it is
+attributed to tectonic displacement in the Arctic Ocean due to the opening of the Canadian Basin.
+© 2015 Elsevier Ltd. All rights reserved.
+1. Introduction
+The present-day Eurasian Continent is a collage of several con-
+tinental blocks formed as a consequences of sequential collisions
+and suturing. As shown in Fig. 1, the northeastern part of this
+mega continent comprises the Siberian Craton, Kolyma-Omolon
+∗ Corresponding author. Tel.: +81 78 803 5730; fax: +81 8 78 803 5757.
+E-mail addresses: otofuji@kobe-u.ac.jp (Y.-i. Otofuji),
+haider zaman61@hotmail.com (H. Zaman), gen@mbh.nifty.com
+(G. Shogaki), hanatarozamurai@gmail.com (H. Seki), vfpolin@mail.ru
+(V.F. Polin), dmiura@criepi.denken.or.jp (D. Miura), 101s429s@stu.kobe-u.ac.jp
+(H.-S. Ahn), minyuk@neisri.ru (Y. Ivanov), pal105@neisri.ru (P. Minyuk),
+petr.zimin.poi92@mail.ru (P.
+Composite
+Zimin).
+Terrane and Chukotka Terrane (Parfenov et al., 2009;
+Stone et al., 2009). Amalgamation of the Kolyma-Omolon Com-
+posite Terrane with Siberia in the Mesozoic has been described as
+one of the paramount tectonic events in the northeastern part of
+Eurasia (Parfenov et al., 2009). A boundary between the Kolyma-
+Omolon Composite Terrane and the Siberian Craton is characterized
+by prominent topographic features including the 1000 km long “S”
+shaped Verkhoyansk mountain range and the 1500 km long convex
+Chersky mountain range. These topographic expressions are analo-
+gous to those developed along the India-Asia and NCB-SCB collision
+zones. Thorough understanding at the scale of the Kolyma-Omolon
+Composite Terrane is required to elucidate collision tectonics in the
+northeastern part of Eurasia.
+The Okhotsk-Chukotka Volcanic Belt (OCVB) of northeastern
+Eurasia, which is considered to be one of the largest volcanic
+http://dx.doi.org/10.1016/j.jog.2015.03.003
+0264-3707/© 2015 Elsevier Ltd. All rights reserved.
+
+### page_2
+2 Y.-i. Otofuji et al. / Journal of Geodynamics 91 (2015) 1–12
+Fig. 1. (a) A simplified tectono-geographical map of the Arctic region. (b) Structural sketch map of the Kolyma-Omolon Composite Terrane and Chukotka Terrane (modified
+from Stone et al., 2009).
+provinces in the world, extends from the Chukotka Terrane in the
+northeast via Kolyma-Omolon Composite Terrane to the Verhoy-
+ansk mountain range. According to some of the recent geological
+studies (Hourigan and Akinin, 2004; Belyi, 2008; Stone et al., 2009;
+Sakhno et al., 2010), this belt was formed as a consequences of late
+Cretaceous volcanic activities. Until a few years ago, some geolo-
+gists believed that the OCVB is a subduction related belt (Hourigan
+and Akinin, 2004; Parfenov et al., 2009; Akinin and Miller, 2011).
+However, Tikhomirov et al. (2012) recently attributed it to silicic
+igneous province formed in the intra-plate environment. Although
+the origin of volcanism in this belt remains uncertain, their paleo-
+magnetic signatures can help us to document the Late Mesozoic
+paleo-geographic framework of the Kolyma-Omolon Composite
+Terrane and the Chukotka Terrane.
+Accordingly this paper presents new paleomagnetic data from
+the Kolyma-Omolon Composite Terrane because paleomagnetism
+can provides a quantitative record of block rotation and N-
+S displacement (Fig. 1). For this purpose we sampled volcanic
+rocks exposed in the Magadan area (60.4◦N, 151.0◦E) of the
+OCVB.
+2. Geologic setting
+As described by Parfenov et al. (2009) the northeastern part of
+Eurasia (east of the Siberian Craton) is made up of several terranes;
+the Verkhoyansk fold and thrust belt, Kolyma-Omolon Compos-
+ite Terrane, Chukotka Terrane and Koryak-Kamchatka
+accretionary
+Cenozoic
+belt (Fig. 1). These terranes were amalgamated as a
+result of sequential collisions and accretions during the Mesozoic
+and Cenozoic. Formation of the Mesozoic Verkhoyansk fold and
+thrust belt, as a result of the collision of the Siberian Craton with the
+allochthonous Kolyma-Omolon Composite Terrane, was followed
+by the Chukotka Terrane accretion (Oxman, 2003). An extensive
+intra-plate magmatic activity from the Early to Late Cretaceous
+(from 106 ± 1.7 to 74 ± 1.2 Ma), which brought widespread volcanic
+emplacement over the Mesozoic assemblages of the Kolyma-
+Omolon and Chukotka terranes, has been considered to be the
+cause of OCVB formation (Tikhomirov et al., 2012). The Cenozoic
+Koryak-Kamchatka accretionary belt formed as a final phase of this
+sequence.
+The Arman volcanic field in the Magadan area forms the cen-
+tral part of the Okhotsk sector in the OCVB (Hourigan and Akinin,
+2004). These volcanics were emplaced over deformed sedimentary
+rocks of the Momoltykich and Khasyn suites deposited in a pas-
+sive margin back-arc basin (marine environment) from the Permian
+to the Jurassic. As shown in Fig. 2, the Arman volcanic field is
+divided into six suites; the Arman, Narauli, Kholchan, Ulyn, Ola
+and Mygdykit in ascending order (Anorov et al., 2013a,b). Based
+on floral assemblages (the Arman flora) found in the type area late
+Albian and Cenomanian ages have been assigned to the Arman vol-
+canic field. The40Ar/39Ar dating assigns an age of 85.5–85.6 Ma to
+the Narauli Suite, 81.7–83.6 Ma to the Ola Suite and 74.0–78.8 Ma
+to the Mygdykit Suite. Hence, Late Cretaceous age is assigned to the
+Arman volcanic field.
+
+### page_3
+Y.-i. Otofuji et al. / Journal of Geodynamics 91 (2015) 1–12 3
+Fig. 2. Geological map of the study area (Magadan), a part of the Arman volcanic field in the OCVB (modified from Anorov et al., 2013a,b). Lithostratigraphic columns are
+also shown together with40Ar/39Ar ages (Hourigan and Akinin, 2004). Sampling sites are shown by closed circles. A–F: sampling localities.
+The volcanic rocks of the Kholchan and Ola suites which
+yields 40Ar/39Ar ages of 81–86 Ma were sampled at 19 sites for
+this paleomagnetic study (Fig. 2). The Kholchan suite consists of
+rhyolite-dacite tuffs, welded tuffs and volcanic flows with local
+lenses of tuffaceous sandstones, conglomerate and siltstones. Con-
+versely, the Ola suite consists of non-welded to moderately welded
+ash-flow tuffs and tabular flows of crystal rich rhyolite. The sam-
+pled sites are located near the Agan Caldera, on the north side of
+the city of Magadan (60.4◦N, 151.0◦E). Approximately 8–11 pale-
+omagnetic block samples, from 3 to 14 m in covered area, were
+collected at each site. Orientation of each sample was made by
+magnetic compass, because a lack of sunshine in the study area
+prevented us from using a sun-compass. Bedding attitude at each
+sampling site was measured using the eutaxitic structure of the vol-
+canic rocks (stretched pumice lineation and aligned phenocrysts).
+Because an eutaxitic structure cannot always indicate a paleohori-
+zontal plane, samples were collected from widely spaced outcrops
+to reduce the expected error from uncertain tectonic correction.
+The present day geomagnetic field declination at each sampling site
+was noted from International Geomagnetic Reference Field (IGRF)
+(the International Association of Geomagnetism and Aeronomy
+Working Group V-MOD, 2010).
+3. Laboratory procedures
+Cylindrical specimens of 25 mm in diameter and 22 mm
+in length were prepared from each block sample in the
+laboratory. Natural remanent magnetizations (NRMs) were mea-
+sured using the Kobe University based spinner magnetometer
+(Natsuhara Giken SMM-85). One specimen per sample was
+subjected to stepwise thermal demagnetization (ThD) up to
+620◦C using a “Natsuhara Giken TDE-91C” thermal demagnetizer
+with a residual field of less than 5nT. To obtain
+paleomagnetic
+reliable
+results, duplicate specimens were demagnetized
+by alternating field demagnetization (AFD) using a “Natsuhara
+Giken DEM93” AF demagnetizer. Demagnetization results were
+plotted on orthogonal vector diagrams (Zijderveld, 1967) to
+assess component structure and on equal-area projections
+to evaluate directional stability during demagnetizations. The
+remanent directions were identified using principal compo-
+nent analysis (Kirschvink, 1980) and the great circle method
+(Halls, 1978; McFadden and McElhinny, 1988). Site-mean
+directions were calculated using Fisherian (Fisher, 1953) and
+McFadden and McElhinny statistics (McFadden and McElhinny,
+1988).
+4. Results
+4.1. Rock magnetism
+Samples from five ignimbrite layers corresponding to sites
+MA01, MA02, MA05, MA10 and MA16 were analyzed for rock
+magnetic characteristics. Progressive acquisition of isothermal
+remanent magnetization (IRM) was performed on representa-
+tive specimens up to a maximum field of 2.0 T using a Magnetic
+Measurements Pulse Magnetizer (MMPM-10). Thermal demagne-
+tization of the composite IRMs (imparted at 2.0 T, 0.4 T and 0.12 T
+along the z, y and x axes of the specimens, respectively) was
+conducted to detect the unblocking temperature spectra of the ana-
+lyzed specimens (Lowrie, 1990). The IRM acquisition curves (Fig. 3)
+show complete saturation up to a 0.3 T applied field yielding mag-
+netite as a dominant remanence carrier. Thermal demagnetization
+of the composite IRMs (Fig. 3) indicates an unblocking temperature
+spectra of the soft component at 580◦C, confirming the presence of
+magnetite.
+
+### page_4
+4 Y.-i. Otofuji et al. / Journal of Geodynamics 91 (2015) 1–12
+Fig. 3. Rock magnetic results of selected specimens from Kholchan and Ola vol-
+canic suites. The IRM acquisition and thermal demagnetization of three-axes IRMs
+imparted by DC fields of 2.0 T, 0.4 T and 0.12 T along three perpendicular axes.
+4.2. Paleomagnetism
+4.2.1. The NRM intensity
+A wide range of initial NRM intensities between 0.05 A/m and
+27.4 A/m is observed in the analyzed samples although all of them
+are collected from ignimbrite (Fig. 4). Intensities higher than 8
+are
+A/m
+observed in 42 out of 250 samples from sites MA03, MA05,
+MA09, MA10, MA12, MA13, MA14 and MA18. However, mean
+intensities lower than 5.8 A/m are observed in five of these sites
+(MA03, MA10, MA12, MA14 and MA18) and exclusively high inten-
+sities are observed in most samples of the other three sites (MA05,
+MA09 and MA13). The remaining 72% of the analyzed samples have
+intensities ranging between 0.17 A/m and 3.6 A/m.
+4.2.2. Demagnetization behavior during ThD and AFD analyses
+Demagnetization behavior of the analyzed samples during pro-
+gressive ThD depends very much on their NRM intensities. In
+general, samples with NRM intensities larger than 5.0 A/m reveal a
+single component behavior and a gradual decrease toward the ori-
+gin without any visible change in direction (Fig. 5). An unblocking
+temperature of approximately 590◦C is observed in such speci-
+mens (Fig. 5). Coversely, two components behavior is generally
+observed in samples yielding less than 1.7 A/m NRM intensity.
+Low and high temperature component magnetizations in the two
+components are unblocked at approximately 250◦C and 590◦C,
+respectively. Because the characteristic remanent magnetization
+(ChRM) is unblocked by 590◦C, magnetite is a main magnetic car-
+rier. Two components behavior observed by ThD analyses is also
+confirmed by AFD analyses. However, in some samples the AFD
+analysis identifies two NRM components where only one compo-
+nent is observed by ThD analysis (e.g., site MA05 in Fig. 5 and MA01
+in Fig. 6).
+Generally, identical NRM directions are observed in most sam-
+ples when analyzed either by the ThD or AFD procedures (Fig. 5;
+Table 1), however, several samples from site MA01 yield different
+directions treated by these procedures (Fig. 6). Two samples from
+site MA01 (MA01-1 and MA01-4) with initial NRM intensities over
+1.7 A/m reveal a southwestward declination and shallow inclina-
+tion prior to demagnetization. Very little change in their directions
+appears when analyzed by the ThD procedure. However, signifi-
+cant change in direction to northerly declination and steep positive
+inclination appears when analyzed by the AFD procedure.
+4.2.3. The NRM directions
+Because the AFD procedure proved more effective than the ThD
+in randomizing the secondary remanent magnetizations, results
+from the former procedure are used here to detect the ChRM
+directions. The NRM directions are mostly identified by principal
+component analysis, however, the great circle method is also used
+to determine directional behavior in 11 out of 123 samples. Among
+them, two samples are from site MA01 (Fig. 6), seven from site
+MA02 and two from site MA09. Because of very strong NRM intensi-
+ties (24.9 and 8.6 A/m) two samples of site MA14 are excluded from
+final site mean calculations. The results of principal component
+analysis and great circle method are listed in Table 1.
+The site-mean directions from 16 out of 19 sampling sites reveal
+precision parameters (k) larger than 10. Relatively small values of
+k (<6.1) appears in the remaining three sites (MA03, MA05 and
+MA13) with large NRM intensities (>50 × 10−1A/m) which forced
+us to exclude them from the final calculations. Typically larger k
+values are observed at sites with lower NRM intensities (Fig. 4b).
+However, large k values appeared at two high intensity sites (MA09
+and MA14), which could be due to the use of the great circle method
+and the exclusion of some very high intensity samples. Accordingly,
+16 site-mean directions with k values over 10 are illustrated on
+an equal-area projection (Fig. 7a). Following tilt corrections 14 out
+of 16 sites yield normal polarity directions with steep downward
+inclinations (between 54.5◦and 86.7◦) and the remaining two sites
+(MA15 and MA16) reveal reversed polarity directions with steep
+upward inclinations (∼−66.2◦). The Late Cretaceous ignimbrites of
+
+### page_5
+Y.-i. Otofuji et al. / Journal of Geodynamics 91 (2015) 1–12 5
+Fig. 4. (a) The NRM intensity distribution in the analyzed samples from Okhotsk-Chukotka Volcanic Belt. As indicated, the intensities before demagnetization are in a range
+between 0.05 A/m and 27.4 A/m. (b) Precision parameter (k) versus mean NRM intensity for each site. Small dispersions appear in the sampling sites with weaker NRM
+intensity.
+the Kholchan and Ola suites thus keep a record of both normal and
+reversed polarity directions.
+4.2.4. Formation mean direction
+As a first option, we calculated formation mean direction on
+the basis of 16 site mean directions (Fig. 7a) which yield a mean
+direction of D = 43.0◦, I = 76.0◦(˛ =
+95
+8.1) in geographic coordinates.
+Assuming the attitude of eutaxitic texture as a paleohorizontal
+plane a tilt-corrected formation mean direction of D = 17.6◦, I = 82.5◦
+(˛ =
+95
+10.6) is calculated. Although both of these directions are
+indistinguishable from each other at the 95% confidence limit
+(Table 1), relatively large dispersion appears in a tilt-corrected
+mean direction (k = 13.1) compared to an in situ mean direction
+(k = 21.8). The McElhinny (1964) fold test applied to these data sets
+proved inconclusive. However, the correlation test of McFadden
+(1990) and the DC tilt test of Enkin (2003) produced negative
+results. Bearing in mind a record of both normal and reverse polar-
+ities in the studied rocks the negative fold tests may not be due to
+remagnetization but rather to inaccurate measurement of the pale-
+ohorizontal plane (Lyons et al., 2002). The outcrop-scale eutaxitic
+structure, which has been used as a paleohorizontal plane in sev-
+eral studies, generally represent an initial dip of flow emplacement
+over irregular topography, paleohill slopes or paleostream channels
+(McIntosh, 1991; Hagstrum and Gans, 1989; Chapin and Lowell,
+1979). However, such outcrop scale structures in ignimbrite cannot
+always be used as a true substitute for a large scale paleohorizontal
+plane.
+Bearing in mind this uncertainty we calculated mean directions
+on locality basis as an alternative option (A to F in Fig. 1 and Table 2)
+where a unit weight is added to each locality mean before com-
+puting an in situ formation mean direction (Dg= 65.6◦, Ig= 75.0◦,
+k = 23.3, ˛ =
+95
+14.2◦, N = 6) and a tilt corrected formation mean direc-
+tion (Ds= 42.8◦, Is= 84.7◦, k = 46.0, ˛ =
+95
+10.0◦, N = 6) (Fig. 7b). These
+formation mean directions are shown in Fig. 7b. We adopted this
+procedure to randomize an expected error caused by outcrop scale
+variations in paleohorizontal features within each locality. This pro-
+cedure yields an increase in the k parameter from 23.3 to 46.0
+after tilt correction and confirmation of a positive fold test at the
+95% confidence limit (McElhinny, 1964). Application of the DC tilt
+test (Elkin 2003) to our locality mean direction also produces a
+positive test at 78 ± 63% unfolding. As an additional check,
+also
+we
+applied the second definition ((cid:2) )
+2
+of the McFadden method
+(McFadden, 1990; Cogne, 2003) which confirms a positive fold
+test at the 95% confidence level. This test reveals a critical value
+of 2.862 for parameter (cid:2) c and 3.362 (1.635) for (cid:2) in 2 geographic
+coordinates (stratigraphic coordinates). An apparent positive fold
+test results from the second option (localities mean direction), and
+thus suggests a pre-folding origin for the high-unblocking tem-
+perature component in the studied ignimbrites and is accordingly
+interpreted as the Late Cretaceous ChRM direction in the Maga-
+dan area. Because the Late Cretaceous (86–81 Ma) paleomagnetic
+poles calculated here both on the basis of locality-mean (66.7◦N,
+168.5◦E, A = 95 18.8◦) and site mean (72.4◦N, 165.7◦E, A = 95 18.9◦)
+appear almost identical (Table 3) the earlier one is preferentially
+chosen as representative of the Magadan area.
+5. Discussion
+5.1. Reliability of the NRM directions
+As noted above, we used a magnetic compass to orient paleo-
+magnetic samples in the field and IGRF declination as a reference for
+each sampling site. To check for deflection of magnetic compasses
+near high intensity rocks, Gilder et al. (2003) have paleomag-
+netically studied basaltic rocks of western Tarim Basin (75◦20(cid:5)E,
+40◦17(cid:5)N). For this study rock samples with NRM intensity up to
+8 A/m were oriented both with magnetic and sun compasses. Com-
+pared to the IGRF declination of 3.9◦ in the study area, an in situ
+declination of 3.4 ± 2.3◦was obtained from both types of orienta-
+tions This comparison revealed negligible amounts of deflection
+in declination due to high (up to 8 A/m) intensity volcanic rocks
+and confirmed the reliability of IGRF declination in the study area.
+Because 72% of paleomagnetic samples for this study are collected
+from ignimbrites with less than 3.6 A/m NRM intensity, their ori-
+entations by magnetic compass are considered reliable. At high
+latitude the IGRF declination may deflect significantly with respect
+to local declination. However, a personal communication from the
+Magadan Geophysical Observatory (60.051◦N, 150.728◦E, 226 m)
+indicates an average declination of −13.37◦ for 2013, and the
+local IGRF shows an average declination of −11.0◦ for the same
+period (i.e., no significant error between two sets of orientations).
+
+### page_6
+6 Y.-i. Otofuji et al. / Journal of Geodynamics 91 (2015) 1–12
+Fig. 5. In situ vector end-point diagrams for the representative ignimbrite specimens from six localities (A–F) after thermal demagnetization. Solid (open) symbols are
+projections onto the horizontal (vertical) plane.
+Magnetic compass and IGRF provide an accuracy of orientation at
+∼5◦in the Magadan area.
+As noted in the results section, samples from three sites (MA03,
+MA05 and MA13) which carry NRM intensities higher than 5 A/m
+reveal single component behavior during ThD analyses. The site-
+mean NRM directions from these sites yield large dispersion
+(k < 6.1) compared to the remaining 16 sites. An exceptionally
+NRM
+high
+intensity and excellent directional stability in these sites sug-
+gest their complete remagnetization by lightning strike (Dunlop
+and Özdemir, 2001), while all other low intensity sites appear to
+have been partially remagnetized. As mentioned by Dunlop and
+Özdemir (2001), rocks partially remagnetized by lightning strike
+could be more successfully demagnetized by AFD procedure com-
+pared to ThD. Accordingly, the AFD data from six localities are used
+
+### page_7
+Y.-i. Otofuji et al. / Journal of Geodynamics 91 (2015) 1–12 7
+Fig. 6. Equal-area projections and vector end-point diagrams of representative specimens from site MA01; after ThD (left) and AFD (right). In equal-area projections, solid
+(open) symbols are projections onto the lower (upper) hemisphere. In the case of vector end-point diagrams, solid (open) symbols are projections onto the horizontal
+(vertical) plane.
+Table 1
+Paleomagnetic results of the ignimbrite samples collected from Late Cretaceous Kholchan and Ola suites (the Magadan area).
+Sampling site Latitude Longitude Strike (◦) Dip (◦) n Intensity ×10−6Am2 Max n In situ Tilt corrected k ˛ 95(◦)
+Dec. (◦) Inc. (◦) Dec. (◦) Inc. (◦)
+MA01 60◦19.80(cid:5) 150◦51.95(cid:5) 209.0 10.0 11 22.4 ± 17.9 58.5 8 15.9 63.9 358.3 60.1 481.2 2.6
+MA02 60◦19.78(cid:5) 150◦52.03(cid:5) 209.0 10.0 11 25.5 ± 15.8 50.6 8 16.3 65.6 357.4 61.8 225.7 4.2
+MA03* 60◦19.78(cid:5) 150◦51.85(cid:5) 209.0 10.0 14 50.4 ± 46.7 151.8 6 101.1 3.5 100.4 12.3 2.1 62.4
+MA03* 7 104.9 −9.2 105.3 −0.2 2.1 56.4
+MA04 60◦19.76(cid:5) 150◦51.85(cid:5) 357.0 18.0 9 3.8 ± 1.7 6.5 8 19.1 67.4 46.7 56.4 134.1 4.8
+MA05* 60◦19.73(cid:5) 150◦51.64(cid:5) 49.0 12.0 18 173.6 ± 56.5 278.0 9 299.8 28.8 295.4 38.9 5.5 24.2
+MA05* 9 308.6 31.0 305.2 42.1 6.1 22.6
+MA06 60◦19.71(cid:5) 150◦51.65(cid:5) 49.0 12.0 9 8.6 ± 2.6 13.5 8 37.7 70.7 71.3 69.5 259.4 3.4
+MA07 60◦19.72(cid:5) 150◦53.45(cid:5) 107.0 27.0 18 9.0 ± 5.7 24.7 10 223.8 81.2 212.1 54.5 28.0 9.3
+MA07 6 234.1 81.6 214.5 55.2 33.2 11.8
+MA08 60◦19.70(cid:5) 150◦53.42(cid:5) 107.0 27.0 9 7.6 ± 1.7 9.9 8 349.1 78.1 215.6 72.3 195.4 4.0
+MA09 60◦18.18(cid:5) 151◦06.71(cid:5) 189.1 3.0 9 85.7 ± 78.5 243.4 6 15.0 63.3 9.0 63.5 269.0 4.3
+MA10 60◦18.31(cid:5) 151◦06.71(cid:5) 214.1 12.0 16 36.4 ± 45.4 187.0 8 24.2 71.1 359.3 64.4 192.0 4.0
+MA10 7 3.4 72.2 345.0 62.8 11.0 19.0
+MA11 60◦18.15(cid:5) 151◦06.78(cid:5) 187.1 22.0 9 17.3 ± 7.2 33.3 8 5.3 72.8 315.9 61.9 47.3 8.1
+MA12 60◦18.00(cid:5) 151◦06.67(cid:5) 99.1 20.0 16 33.0 ± 20.0 88.4 7 336.5 78.5 234.5 75.6 34.5 10.4
+MA12 8 348.9 73.0 258.6 79.8 113.8 5.2
+MA13* 60◦19.29(cid:5) 151◦06.56(cid:5) 277.1 8.0 20 112.5 ± 74.8 274.6 11 69.6 23.4 67.3 18.3 1.3 74.1
+MA14 60◦19.26(cid:5) 151◦06.55(cid:5) 169.1 11.0 12 57.5 ± 68.8 249.3 5 105.1 72.4 136.6 81.0 16.4 19.5
+MA15 60◦07.07(cid:5) 151◦08.00(cid:5) 264.1 32.0 9 9.9 ± 1.9 12.6 8 304.9 −65.6 224.9 −66.2 162.8 4.4
+MA16 60◦07.09(cid:5) 151◦08.01(cid:5) 277.1 18.0 18 8.4 ± 3.2 19.3 9 327.7 −58.6 295.5 −66.2 56.8 6.9
+MA16 8 316.8 −65.7 274.6 −68.2 268.2 3.4
+MA17 60◦15.57(cid:5) 151◦04.25(cid:5) 144.1 29.0 20 5.8 ± 8.3 35.2 8 67.5 66.2 230.0 86.7 10.3 18.1
+MA18 60◦15.62(cid:5) 151◦04.22(cid:5) 121.1 19.0 12 15.4 ± 30.3 109.2 6 45.9 60.8 68.7 78.2 19.9 15.4
+MA19 60◦19.85(cid:5) 151◦11.72(cid:5) 149.2 23.0 11 1.7 ± 0.37 2.4 8 50.8 69.2 289.8 86.1 392.2 2.8
+Mean (in situ) 16 43.0 76.0 21.8 8.1
+Mean (tilt 16
+corrected)
+17.6 82.5 13.1 10.6
+The high-coercivity (normal text) and high-temperature (bold) magnetization components are listed in this table. Lat. and Long. correspond to latitude and longitude,
+respectively. n is the number of samples measured and used for calculation. Dec. and Inc. are declination and inclination, respectively; k is the Fisherian precision parameter
+(Fisher, 1953); ˛ 95is the radius of cone at 95% confidence level about the mean direction. Sites with asterisks (MA03*, MA05* and MA13*) are excluded from mean direction
+calculation.
+
+### page_8
+8 Y.-i. Otofuji et al. / Journal of Geodynamics 91 (2015) 1–12
+Fig. 7. Equal-area projections of (a) the site mean directions and (b) the locality
+mean directions. Formation mean directions are shown by blue squares with a 95%
+confidence circle. The axial dipole field direction is depicted by a red star. Solid
+(open) symbols are projections onto the lower (upper) hemisphere.
+here for mean direction calculation. Positive fold tests and dual
+polarity behavior of these data sets thus suggest primary origin
+for the ChRM of the Kholchan and Ola suites.
+As per the criteria of Van derVoo (1990), another genuine
+concern about the paleomagnetic results from basaltic flows
+insufficient
+is
+averaging of the paleosecular variation (PSV). However,
+we believe that formation mean direction calculated here on the
+basis of six localities, has sufficiently averaged out the PSV, because
+(1) the samples collected from the Kholchan and Ola suites repre-
+sent a fairly long period of time between 85.5 Ma to 76.8 Ma, (2)
+the sampled localities cover an area of 30 km × 30 km, (3) the rema-
+nent directions reveal both normal and reversed polarities, and (4)
+the A value
+95
+of 18.8◦ obtained from six locality-mean directions
+falls in a range between A (8.3◦)
+95min
+and A (26.5◦)
+95max
+which
+Deenen et al. (2011) declared reliable in their geomagnetic field
+model.
+5.2. Poles comparison between the Kolyma-Omolon Composite
+Terrane and the Chukotka Terrane
+A new Late Cretaceous (86–81 Ma) paleomagnetic pole calcu-
+lated for the Magadan area by this study is considered as one of
+the representative poles for the Kolyma-Omolon Composite Ter-
+rane. Because of its geological juxtaposition with the Chukotka
+Terrane, the Late Cretaceous paleomagnetic poles from these ter-
+ranes are compared here to discuss a tectonic connection between
+them (Fig. 8a).
+On the basis of the locality-mean direction from Lake
+El’gygytgyn (67◦20(cid:5)N, 172◦00(cid:5)E), Stone et al. (2009) have deter-
+mined a Late Cretaceous (90–67 Ma) paleomagnetic pole (69.2◦N,
+161.5◦E, A =
+95
+16.5◦) for the Chukotka Terrane (Fig. 8a). When
+compared with the same aged pole from the Kolyma-Omolon Com-
+posite Terrane (this study), an angular distance of just 3.6◦ (with
+25.0◦ uncertainty at the 95% confidence level) appears between
+them. This similarity in pole positions is not unexpected because
+the respective data used for these poles come from the OCVB
+based igneous rocks which were emplaced on the Kolyma-Omolon
+and Chukotka terranes in the Early to Late Cretaceous. An agree-
+ment between these two poles, though at a low level of certainty,
+indicates no relative tectonic rotation/displacement between the
+Kolyma-Omolon and Chukotka terranes since 80 Ma (the time of
+OCVB formation). A tectonic model reported by Sokolov et al. (2002,
+2009) estimates that a collision between the Kolyma-Omolon Com-
+posite Terrane and the Chukotka Terrane along the South Anyui
+Suture Zone had ceased by 115–119 Ma. We therefore claim that
+the composite Kolyma-Omolon-Chukotka Block behaved as a single
+tectonic unit since 80 Ma without any internal deformation. A char-
+acteristic 80 Ma paleomagnetic pole of 68.0◦N, 164.7◦E (A =
+95
+10.9◦,
+N = 12) is thus calculated for the Kolyma-Omolon-Chukotka Block
+Table 2
+Paleomagnetic data for six localities from the Late Cretaceous Kholchan and Ola suites (Magadan area).
+Sampling locality Latitude Longitude n In situ k ˛ 95(◦) Tilt corrected k ˛ 95(◦)
+Dec. (◦) Inc. (◦) Dec. (◦) Inc. (◦)
+Locality A
+MA01∼MA08 60◦19.75(cid:5) 150◦52.0(cid:5) 6 15.3 74.3 36.7 11.2 16.4 81.9 7.6 26.1
+Locality B
+MA09∼MA12 60◦18.20(cid:5) 151◦06.70(cid:5) 4 9.3 72.1 93.0 9.6 336.4 72.3 17.5 22.6
+Locality C
+MA14 60◦19.26(cid:5) 151◦06.55(cid:5) 1 105.1 72.4 136.6 81.0
+Locality D
+MA15 + MA16 60◦07.08(cid:5) 151◦08.00(cid:5) 2 137.5 62.6 80.2 70.2
+Locality E
+MA17 + MA18 60◦15.60(cid:5) 151◦04.25(cid:5) 2 55.7 63.9 75.7 85.6
+Locality F
+MA19 60◦19.85(cid:5) 151◦11.72(cid:5) 1 50.8 69.2 289.8 86.1
+Mean 6 65.6 75.0 14.2 23.3 42.8 84.7 46.0 10.0
+Magnetization directions of the high-coercivity component are listed in this table. Columns headings are same as in Table 1.
+
+### page_9
+Y.-i. Otofuji et al. / Journal of Geodynamics 91 (2015) 1–12 9
+Table 3
+Paleomagnetic directions and pole positions from the Okhotsk-Chukotka Volcanic Belt (OCVB).
+Terran Study area N Palaeomagnetic pole A95(◦) dm (◦) dp (◦)
+Latitude Longitude Latitude (◦N) Longitude (◦E)
+Kolyma-Omolon Superterrane This study
+Sites 60.4◦N 151.0◦E 16 72.4 165.7 18.9
+Localities 60.4◦N 151.0◦E 6 66.7 168.5 18.8
+Chukotka terrane Stone et al. (2009)
+Sites 67.3◦N 172.0◦E 40 67.0 171.0 9.8 9.8
+Localities 67.3◦N 172.0◦E 6 69.2 161.5 16.6 16.5
+Kolyma-Omolon-Chukotka Block
+Sites 56 68.3 169.0 8.1
+Localities 12 68.0 164.7 10.9
+Europe 80 Ma 81.0 232.5 6.9 Besse and
+Courtillot (2002)
+Europe 80 Ma (calculated from 80 Ma paleoposition) 74.7 207.7 6.9
+East Asia 80 Ma 79.5 216.9 3.4 Cogné et al. (2013)
+North America 74.7 207.4 5.9 Besse and
+Courtillot (2002)
+Paleomagnetic poles are calculated using both the site-mean and locality-mean directions (localities). A95is the radius of the cone at the 95% confidence level about the mean
+pole position. dp (dm) is a semi-axis of the confidence ellipse along the great–circle (site to pole). For comparison the 80 Ma pole positions from Europe and East Asia are
+also listed. Other explanations are the same as in Table 1.
+after combining six data sets from the Magadan area (this study)
+and six from the Lake El’gygytgyn area (Fig. 8b).
+5.3. Comparison between the Eurasian and
+Kolyma-Omolon-Chukotka poles
+As shown in Fig. 8b, the 80 Ma pole for the composite Kolyma-
+Omolon-Chukotka Block is clearly distinguishable from the same
+age European and East Asian reference poles. The APWP of Besse
+and Courtillot (2002) places the 80 Ma European pole at the 81.4◦N,
+206.1◦E (A =
+95
+5.9◦) position. Using a compilation of paleomagnetic
+data from different blocks (including Siberia, Amuria, NCB, SCB and
+Korean Peninsula) Cogné et al. (2013) have calculated a new 80 Ma
+paleomagnetic pole (79.5◦N, 216.9◦E, A =
+95
+3.4◦) for East Asia.
+When plotted together (Fig. 8b), the 80 Ma poles for Europe and East
+Asia fall on similar positions within the 95% confidence limit. How-
+ever, the same age pole for the Kolyma-Omolon-Chukotka Block
+falls at 16.5–17.5◦south of them.
+This southerly pole position of the Kolyma-Omolon-Chukotka
+Block with respect to the same age poles from Europe and East
+Asia could either be due to changes in geomagnetic field direction
+or tectonic movement. Any deviation due to PSV of the geomag-
+netic field is discarded here because a reasonable smoothing of this
+phenomenon is ascertained by a wide distribution of paleomag-
+netic poles in the Kolyma-Omolon-Chukotka Block. In addition,
+we deduced an A value
+95
+of 10.9◦ from 12 locality-based poles
+which falls in a reliable range between the A value
+95min
+of 6.3◦
+and the A value
+95max
+of 17.1◦ (Deenen et al., 2011). A persistent
+non-dipolar component of the geomagnetic field can also cause
+steepness in inclination and a resultant divergence in pole pos-
+itions. However, no such behavior has been observed in the Late
+Cretaceous rocks of Eastern Eurasia (Tsuneki et al., 2009; Cogné
+et al., 2013). Bearing ithis evidence in mind, we attribute the
+pole positions discrepancy between the Kolyma-Omolon-Chukotka
+Block and Europe/East Asia to tectonic activity rather than to geo-
+magnetic field variations.
+5.4. A possible post-80 Ma tectonic scenario of the
+Kolyma-Omolon-Chukotka Block
+The above mentioned divergence in pole positions suggest that
+the composite Kolyma-Omolon-Chukotka Block acted indepen-
+dently from the main Eurasian Continent. We thus propose a new
+tectonic model in which the main Eurasian Continent is
+to
+assumed
+have experienced an eastward displacement as a result of open-
+ing in the Atlantic Ocean, while the Kolyma-Omolon-Chukotka
+Block underwent a southward displacement. As a consequence
+of these divergent displacements, the Kolyma-Omolon-Chukotka
+Block came in to collisional contact with Eurasia.
+After assuming an eastward displacement for the main Eurasian
+Continent but no displacement for the Kolyma-Omolon-Chukotka
+Block since the Cretaceous, an 84 Ma pole of 74.7◦N, 207.7◦E is
+calculated for Europe (Fig. 8c). The same age paleopole for main
+Eurasia is then reconstructed by rotating it 19.7◦CCW about the
+Euler pole 66.5◦N, 148.9◦E (Srivastava et al., 1988; Muller and
+Roest, 1992; Gaina et al., 2002). Comparison of the 80 Ma pole
+from the Kolyma-Omolon-Chukotka Block with the 84 Ma pole of
+main Eurasia reveal an angular distance of 14.8 ± 12.4◦ between
+them. This comparison (Fig. 8c) also yields nearly identical pos-
+itions for the reconstructed 84 Ma European pole and 80 Ma North
+American pole (i.e., 74.7◦N, 207.4◦E, A = 95 5.9◦). However, the
+same age pole of the Kolyma-Omolon-Chukotka Block occupied a
+divergent position, suggesting a possible southward displacement
+(1640 ± 1380 km) of this block with respect to the North American
+and main Eurasian blocks.
+This estimate of displacement indicates that 80 million years ago
+the Kolyma-Omolon-Chukotka Block was located at 75◦N latitude
+as a part of the Arctic region. Nearlysimilar paleoposition has been
+predicted by some researchers (Lawver et al., 2002; Golonka et al.,
+2003; Golonka, 2007; Amato et al., 2004; Drachev and Sunders,
+2006) for the Chukotka Terrane in the Early Cretaceous. We ascribe
+the post-80 Ma southward displacement of the Kolyma-Omolon-
+Chukotka Block to a more than 600 km opening of the Canadian
+Basin (Amerasian basin) in the Arctic region. Although several
+models have been proposed regarding the Canadian Basin opening
+using geological and geophysical observations (Lawver and Scotese,
+1990; Lane, 1997; Grantz et al., 1998; Drachev and Sunders, 2006;
+Alvey et al., 2008), no clear regional magnetic anomaly pattern is
+reported yet for this basin to date the formation of the oceanic crust
+(Alvey et al., 2008; Saltus et al., 2011; Pease et al., 2014). The width
+of this basin, however, sheds some light on the 1640 ± 1380 km
+southward displacement of the Kolyma-Omolon-Chukotka Block
+(Fig. 8d).
+The predicted southward displacement of the Kolyma-Omolon-
+Chukotka Block has probably caused its collision with the Siberian
+Craton (a part of the Eurasian Continent) and the ultimate formation
+of the peculiar “S” shaped Verkhoyansk and Chersky Ranges. A com-
+pressive regime induced by this collision has been documented by
+
+### page_10
+10 Y.-i. Otofuji et al. / Journal of Geodynamics 91 (2015) 1–12
+Fig. 8. (a) The paleomagnetic poles with 95% confidence circles for the Kolyma-Omolon Composite Terrane (open red star with red circle) and the Chukotka Terrane (triangle
+with black circle). These poles are calculated on the basis of locality-mean directions. The paleomagnetic poles calculated from site-mean directions are shown by small
+closed circles (red: Kolyma-Omolon Composite Terrane, black: Chukotka Terrane). (b) A paleomagnetic pole with 95% confidence circle for the Kolyma-Omolon-Chukotka
+Block (marked as a closed red star with red circle) is compared with the 80 Ma reference poles from Europe (Besse and Courtillot, 2002) and East Asia (Cogné et al., 2013).
+The European pole is marked by a dot with blue circle and the East Asian pole by a diamond with black circle. (c) The reconstructed 84 Ma paleoposition of the main Eurasian
+Continent is marked by a yellow star. The 80 Ma pole for North America is marked by a pink star. (d) The 80 Ma pole position of the Kolyma-Omolon-Chukotka Block (green
+star hemmed by red and a green 95% confidence circle) is located 600 km to north of the present position, assuming that southward displacement of this block is due to
+the opening of the Canadian Basin. After 80 Ma, the Kolyma-Omolon-Chukotka Block underwent a southward displacement (green arrow) and the main Eurasian Block
+moved eastward (yellow arrow). We predict a collision between the Kolyma-Omolon-Chukotka Block and Eurasia after 80 Ma as a consequence of these displacements. (For
+interpretation of the references to color in this figure legend, the reader is referred to the web version of this article.)
+several researchers using deformational features in the Verkhoy-
+ansk fold-thrust belt (Parfenov, 1991; Sengor and Natalin, 1996;
+Layer et al., 2001; Oxman, 2003; Prokopiev and Oxman, 2009). In
+addition to this, on the basis of vitrinite reflectance analysis it has
+been suggested (Parfenov et al., 1995) that structural shortening in
+the Verkhoyansk fold-thrust belt started in the Early Jurassic and
+ended in the Late Cretaceous.
+The post-80 Ma southward displacement of the Kolyma-
+Omolon-Chukotka Block predicted by this study, however, faces
+some contradiction with the reported geological interpretation. A
+geological constraint (Khanchuk et al., 2006) which goes against
+this displacement is the extent of OCVB in the Kolyma-Omolon-
+Chukotka Block and an overlay of its extreme western margin on the
+Siberian Craton. This problem is, however, overcome by the Early
+Cretaceous (142–120 Ma) paleomagnetic results reported from the
+Verkhoyansk depression of the Siberian Platform (Metelkin et
+2008)
+al.,
+which yields a pole position of 67.2◦N, 183.8◦E (A =
+95
+7.8◦)
+and a resultant southward displacement of 500 km for this block
+compared to the same age poles from Europe. Comparison of this
+Siberian pole with the one determined for the Kolyma-Omolon-
+Chukotka Block (this study) yields a southward displacement of
+both of these terranes which solves the above noted problem
+regarding a geological contact between the OCVB and the Siberian
+platform. Nevertheless, we recommend the collection of additional
+geological, geo-chronological and paleomagnetic data from the
+OCVB to overcome any unclear issues regarding the post-80 Ma
+southward displacement of the Kolyma-Omolon-Chukotka Block.
+6. Conclusions
+Based on the new paleomagnetic results from the 86–81 Ma old
+ignimbrites of the Magadan area (the Kolyma-Omolon Composite
+
+### page_11
+Y.-i. Otofuji et al. / Journal of Geodynamics 91 (2015) 1–12 11
+Terrane) we suggest the following conclusions about the northeast
+Eurasian tectonics.
+(1) After successfully eliminating a lightning induced secondary
+magnetization by AFD procedure, the Late Cretaceous charac-
+teristic mean direction (D = 42.8◦, I = 84.7◦, k = 46.0, ˛ =
+95
+10.0◦)
+with a corresponding pole of 66.7◦N, 168.5◦E (A = 95 18.8◦) is
+estimated for the Magadan area.
+(2) This new pole falls on the 67–90 Ma pole reported from Lake
+El’gygytgyn (Chukotka Terrane), revealing that the Kolyma-
+Omolon Composite Terrane and the Chukotka Terrane behaved
+as a single tectonic unit since 80 Ma. Accordingly a combined
+80 Ma pole (68.0◦, 164.7◦E, A =
+95
+10.9◦) is calculated for the
+Kolyma-Omolon-Chukotka Block.
+(3) This combined pole from 12 localities falls at 16.5–17.5◦
+south of the coeval Eurasian poles, yielding a southward dis-
+placement of more than 260 km (1640 ± 1380 km) for the
+Kolyma-Omolon-Chukotka Block with respect to the main
+Eurasian and North American continents.
+(4) Such large scale displacement of the Kolyma-Omolon-Chukotka
+Block could be ascribed to a post-80 Ma opening of the Canadian
+Basin in the Arctic Ocean.
+Acknowledgments
+Comments from Rob Van der Voo, John Geissman, Michel Faure,
+Biggin Andrew, Eduard Petrovsky and anonymous reviewers have
+improved this manuscript. We thank Poddelsky Igor for provid-
+ing declination data from the Magadan Geophysical Observatory
+(http://geomag.gcras.r). Katsuya P. Fujiwara assisted us in the lab-
+oratory measurements. Koji Uno is warmly thanked for his valuable
+comments. This work is supported by ‘The 21st Century COE Pro-
+gram of Origin and Evolution of Planetary Systems’ through the
+Japanese Ministry of Education, Culture, Sports, Science and Tech-
+nology (MEXT). In addition, this research is partly supported by the
+Toyota Foundation and Grant-in aid (Nos. 18403012 and 22403012)
+from MEXT.
+References
+Akinin, V.V., Miller, E.L., 2011. Evolution of Calc Alkaline Magmas of the Okhotsk-
+Chukotk Volcanic Belt. Petrology 19, 237–277.
+Alvey, A., Gaina, C., Kusznir, N.J., Torsvik, T.H., 2008. Integrated crustal thickness
+mapping and plate reconstruction for the high Arctic. Earth Planet. Sci. Lett.
+274, 310–321.
+Amato, J.M., Toro, J., Moore, T.E., 2004. Origin of the Bering Sea salient. In: Sussman,
+J.A., Weil, A.B. (Eds.), Orogenic Curvature: Integrating Paleomagnetic and Struc-
+tural Analyses, Geol. Soc. Am. Spec. Paper 383. Geological Society of America,
+Boulder, CO, pp. 1–17.
+Anorov, P.N., Yudina, G.M., Sotsky, E.V., 2013a. Government geological map of
+the Russian Federation), 2nd Edition Magadan Series P-56-XXXI (Palatka),
+1:200,000. All-Russian Research Geological Institute, Saint Petersburg.
+Anorov, P.N., Yudina, G.M., Sotsky, E.V., 2013b. Government geological map of
+the Russian Federation), 2nd Edition Magadan Series P-56-XXXII (Karanken),
+1:200,000. All-Russian Research Geological Institute, Saint Petersburg.
+Belyi, V.F., 2008. Problems of Geological and Isotopic Age of the Okhotsk–Chukotsk
+Volcanogenic Belt (OCVB). Stratigr. Geol. Correl. 16, 639–649.
+Besse, J., Courtillot, V., 2002. Apparent and true polar wander and the geometry of
+the geomagnetic field over the last 200 Myr. J. Geophys. Res. 107, http://dx.doi.
+org/10.1029/2000JB000050.
+Chapin, C.E., Lowell, G.R., 1979. Primary and secondary flow structures in ash-flow
+tuffs in the Gribbles Run paleovalley, central Colorado. Spec. Pap. Geol. Soc. Am.
+180, 137–154.
+Cogné, J.P., 2003. PaleoMac: a MacintoshTM application for treating paleomagnetic
+data and making plate reconstructions. Geochem. Geophys. Geosyst. 4, 1007,
+http://dx.doi.org/10.1029/2001GC000227.
+Cogné, J.P., Besse, J., Chen, Y., Hankard, F., 2013. A new Late Cretaceous to Present
+APWP for Asia and its implications for paleomagnetic shallow inclinations in
+Cetral Asia and Cretaceous plate deformation. Geophys. J. Int. 192, 1000–1024.
+Deenen, M.H.L., Langereis, C.G., van Hinsbergen, D.J.J., Biggin, A.J., 2011. Geomagnetic
+secular variation and the statistics of palaeomagnetic directions. Geophys. J. Int.
+186, 509–520.
+Drachev, S.D., Sunders, A., 2006. The Early Cretaceous arctic lip: its geodynamic set-
+ting and implications for Canada basin opening. In: Scott, R.A., Thruston,
+(Eds.),
+D.K.
+Proceedings of the Fourth International Conference on Arctic Margins,
+Dartmouth, Nova Scotia, Canada, September 30–October 3, 2003. U.S. Depart-
+ment of the Interior Anchorage Alaska, Minerals Management Service, Alaska
+Outer Continental Shelf Region, Anchorage Alaska.
+Dunlop, D.J., Özdemir, Ö., 2001. Rock magnetism: fundamentals and frontiers.
+Cambridge Univ. Press, New York, pp. 573pp, http://dx.doi.org/10.1017/
+CBO9780511612794.
+Enkin, R.J., 2003. The direction-correction tilt test: an all-purpose tilt/fold test for
+paleomagnetic studies. Earth Planet. Sci. Lett. 212, 151–166.
+Fisher, R.A., 1953. Dispersion on a sphere. Proc. R. Soc. Lond. 217, 295–305.
+Gaina, C., Roest, W.R., Muller, R.D., 2002. Late Cretaceous-Cenozoic deformation of
+northeast Asia. Earth Planet. Sci. Lett. 197, 273–286.
+Gilder, S., Chen, Y., Cogne, J.-P., Tan, a.X., Courtillot, V., Sun, D., Li, Y., 2003. Pale-
+omagnetism of Upper Jurassic to Lower Cretaceous volcanic and sedimentary
+rocks from the western Tarim Basin and implications for inclination shallow-
+ing and absolute dating of the M-0(ISEA?) chron. Earth Planet. Sci. Lett. 206,
+587–600.
+Golonka, J., Bocharova, N., Ford, D., Edrich, M.E., Bednarczyk, J., Wildharber, J., 2003.
+Paleogeographic reconstructions and basins development of the Arctic. Mar. Pet.
+Geol. 20, 211–248.
+Golonka, J., 2007. Late Triassic and early Jurassic palaeogeography of the world.
+Palaeogeogr. Palaeoclimatol. Palaeoecol. 244, 297–307.
+Grantz, A., Clark, D.L., Phillips, R.L., Srivastrava, S.P., Blome, C.D., Gray, L.B., Haga, H.,
+Mamet, B.L., Mclntyre, D.J., McNell, D.H., Mickey, M.B., Mullen, M.W., Murchey,
+B.J., Ross, C.A., Steven, C.H., Silberling, N.J., Wall, J.H., Willard, D.A., 1998.
+Phaneroaoic stratigraphy of Northwind Ridge, magnetic anomalies in Canada
+Basin, and the geometry and timing of rifting in the Amerasia basin, Arctic Ocean.
+Geol. Soc. Am. Bull. 110, 801–820.
+Hagstrum, J.T., Gans, P.B., 1989. Paleomagnetism of the Oligocene Kalamazoo tuff:
+Implications for middle Tertiary extension in east central Nevada. J. Geophys.
+Res. 94, 1827–1842.
+Halls, H.C., 1978. The use of converging remagnetization circles in palaeomagnetism.
+Phys. Earth Planet. Inter. 16, 1–11.
+Hourigan, J.K., Akinin, V.V., 2004. Tectonic and chronostratigaraphic implications of
+new40Ar/39Ar geochronology and geochemistry of the Arman and Matan-Ola
+volcanic fields, Okhotsk-Chukotka volcanic belt, northern Russia. Geol. Soc. Am.
+Bull. 116, 637–654.
+International Association of Geomagnetism and Aeronomy Working Group V-MOD,
+2010. International geomagnetic reference field: the eleventh generation. Geo-
+phys. J. Int. 183, 1089–1663.
+Khanchuk, A.I., Golozoubov, V.V., Goryachev, N.A., Byalobzhesky, S.G., Popeko, L.I.,
+2006. Tectonic map of the Russian Far East. In: Khanchuk, A.I. (Ed.), Geodynamics,
+magmatism and metallogeny of the Russian East. Dalnauka, Vladivostok, p. 572
+pp.
+Kirschvink, J.L., 1980. The least squares line and plane and the analysis of the pale-
+omagnetic data. Geophys. J. R. Astron. Soc. 62, 699–718.
+Lane, L.S., 1997. Canada Basin, Arctic Ocean: evidence against a rotational origin.
+Tectonics 16, 363–387.
+Lawver, L.A., Grantz, A., Gahagan, L.M., 2002. Plate kinematic evolution of the present
+Arctic region since the Orodovician. In: Miller, E.L., Grantz, A., Klemperer, S.
+(Eds.), Tectonic evolution of the Berring Shelf-Chukchi Sea-Arctic Margin and
+adjacent landmass: Geological Society of America Special Paper, vol. 360, pp.
+333–358.
+Lawver, L.A., Scotese, C.R., 1990. A review of tectonic models for the evolution of the
+Canada basin. In: Grantz, A., Johnson, G.L., Sweeney, J.F. (Eds.), The Arctic Ocean
+Region. The Geology of North America, L. Geological Society of America, Boulder,
+CO, pp. 593–618.
+Layer, P.W., Newberry, R., Fujita, K., Parfenov, L., Trunilina, V., Bakharev, A., 2001.
+Tectonic setting of the plutonic belts of Yakutia, northeast Russia, based
+on 40Ar/39Ar geochronology and trace element geochemistry. Geology 29,
+167–170.
+Lowrie, W., 1990. Identification of ferromagnetic minerals in a rock by coercivity
+and unblocking temperature properties. Geophys. Res. Lett. 17, 159–162.
+Lyons, J.J., Coe, R.S., Zhao, X., Renne, P.R., Kazansky, A.Y., Izokh, A.E., Kungurtsev, L.V.,
+Mitrokhin, D.V., 2002. Paleomagnetism of the early Triassic Semeitau igneous
+series, eastern Kazakstan. J. Geophys. Res. 107 (B7), 2139, http://dx.doi.org/10.
+1029/2001JB000521.
+McElhinny, M.W., 1964. Statistical significance of the fold test in palaeomagnetism.
+Geophys. J. R. Astron. Soc. 8, 338–340.
+McFadden, P.L., 1990. A new fold test for palaeomagnetic study. Geophys. J. Int. 103,
+163–169.
+McFadden, P.L., McElhinny, M.W., 1988. The combined analysis of remagnetization
+circles and direct observations in paleomagnetism. Earth Planet. Sci. Lett. 87,
+152–160.
+McIntosh, W.C., 1991. Evaluation of paleomagnetism as a correlation criteria for
+Mogollon-Datil ignimbrites, southwestern New Mexico. J. Geophys. Res. 96 (13),
+13459–13483.
+Metelkin, D.V., Vernikovsky, V.A., Kazansky, A.Y., Kashirtesev, V.A., Bragin, V.Y., Kun-
+gurtsev, L.V., 2008. The Mesozoic apparent polar wander path for the Siberian
+domain of the Eurasia plate. Doklady Earth Sci. 418, 62–67.
+Muller, R.D., Roest, W.R., 1992. Fracture zones in the North Atlantic from combined
+Geosat and Seasat data. J. Geophys. Res. 97, 3337–3350.
+Oxman, V.S., 2003. Tectonic evolution of the Mesozoic Verkhoyansk-Kolyma belt
+(NE Asia). Tectonophysics 365, 45–76.
+Parfenov, L.M., 1991. Tectonics of the Verkhoynsk-Kolyma Mesozoides in the context
+of plate tectonics. Tectonophysics 199, 319–342.
+
+### page_12
+12 Y.-i. Otofuji et al. / Journal of Geodynamics 91 (2015) 1–12
+Parfenov, L.M., Badarch, G., Berzin, N.A., Khanchuk, A.I., Kuzmin, M.I., Nokleberg,
+W.J., Prokopiev, A.V., Ogaawara, M., Yan, H., 2009. Summary of Northeast Asia
+geodynamics and tectonics. Stephan Mueller Spec. Publ. Ser. 4, 11–33.
+Parfenov, L.M., Prokopiev, A.V., Gaiduk, V.V., 1995. Cretaceous frontal thrusts of the
+Verkhoyansk fold belt, eastern Siberia. Tectonics 14, 342–358.
+Pease, V., Drachev, S., Stephenson, R., Zhang, X., 2014. Arctic lithosphere – a review.
+Tectonophysics 628, 1–25.
+Prokopiev, A.V., Oxman, V.S., 2009. Multi phase tectonic structures in the collision
+zone of the Koluma-Omolon microcontinent and the eastern margin of the North
+Asian craton, Northeastern Russia, Stephan Mueller Spec. Publ. Ser. 4, 65–70.
+Sakhno, V.G., Polin, V.F., Akinin, V.V., Sergeev, S.A., Alenicheva, A.A., Tikhomirov,
+P.L., Moll-Stalcup, E.J., 2010. The Diachronous formation of the Enmyvaa and
+Amguema–Kanchalan Volcanic Fields in the Okhotsk–Chukotka Volcanic Belt
+(NE Russia): evidence from isotopic data. Doklady Earth Sci. 434 (Part 1),
+1172–1178.
+Saltus, R.W., Miller, E.M., Gaina, C., Brown, P.J., 2011. Regional magnetic domains
+of the circum-Arctic—a framework for geodynamic interpretation. In: Spencer,
+A.M., Embry, A.F., Gautier, D.L., Stoupakova, A.V., Sørensen, K. (Eds.), Arctic
+Petroleum Geology, 35. Geological Society (London) Memoirs, pp. 49–60.
+Sengor, A.M.C., Natalin, B.A., 1996. Paleotectonics of Asia: fragments of a synthesis.
+In: Yin, A., Harrison, M. (Eds.), The Tectonic Evolution of Asia (1996). Cambridge
+Univ. Press, New York, pp. 486–641.
+Sokolov, S.D., Bondarenko, G.Y., Layer, P.W., Kravchenko-Berezhnoy, I.R., 2009. South
+Anyui suture: tectono-stratigraphy, deformations and principal tectonic events.
+Stephan Mueller Special Publication Series 4,
+Sokolov,
+201–221.
+S.D., Bondarenko, G.Y., Morozov, O.L., Shekhovtsov, V.A., Glotov, S.P.,
+Ganelin, A.V., Kravchenko-Berezhnoy, I.R., 2002. South Anyui suture, northeast
+Arctic Russia: facts and problems. In: Miller, E.L., Grantz, A., Klemperer, S.I. (Eds.),
+Tectonic evolution of the Bering Shelf-Chukchi Sea-Arctic margin and adjacent
+landmasses. Geological Society of America Special Paper, vol. 360. , pp. 209–224.
+Srivastava, S.P., Verhoef, J., Macnab, R., 1988. Results from a detailed aeromagnetic
+survey across the Northeast Newfoundland Margin, part II. Early opening of the
+North Atlantic between the British Isles and Newfoundland. J. Marine Pet. Geol.
+5, 324–337.
+Stone, D.B., Layer, P.W., Raikevich, M.I., 2009. Age and paleomagnetism of the
+Okhotsk-Chukotka Volcanic Belt (OCVB) near Lake El’gygytgyn, Chukotka, Rus-
+sia. Stephan Mueller Spec. Publ. Ser. 4, 243–260.
+Tikhomirov, P.L., Kalinina, E.A., Moriguti, T., Makishima, A., Kobayashi, K.,
+Cherepanov, L.Y., Namura, E., 2012. The cretaceous Okhotsk-Chukotka Volcanic
+Belt (NE Russia): geology, geochronology, Magma output rates, and impli-
+cations on the genesis of silicic LIPs. J. Volcanol. Geotherm. Res. 221–221,
+14–32.
+Tsuneki, Y., Morinaga, H., Liu, Y., 2009. New palaeomagnetic data supporting the
+extent of the stable body of the South China Block since the Cretaceous and
+some implications on magnetization acquisition of red beds. Geophys. J. Int.
+178, 1327–1336.
+Van derVoo, R., 1990. The reliability of paleomagnetic data. Tectonophysics 184, 1–9.
+Zijderveld, J.D.A., 1967. Demagnetization of rocks: analysis of results. In: Collinson,
+D.W., Creer, K.M., Runcorn, S.K. (Eds.), Methods in Paleomagnetism. Elsevier,
+Amsterdam, pp. 254–286.

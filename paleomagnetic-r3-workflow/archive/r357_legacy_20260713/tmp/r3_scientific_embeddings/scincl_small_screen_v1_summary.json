@@ -1,0 +1,96 @@
+{
+  "schema_version": "r3_scientific_embedding_small_screen_summary_v1",
+  "status": "COMPLETE_NOT_PROMOTED",
+  "candidate": {
+    "encoder": "malteos/scincl",
+    "revision": "ebc5348d184ba2fc9beee69b4e394263fce57b2e",
+    "feature_design": "abstract proxy plus frozen-taxonomy paper/local retrieval and fixed R3-query top-k pooling",
+    "classifier_boundary": "5-fold REFNO GroupKFold; inverse REFNO/canonical-target multiplicity weights",
+    "coverage": {
+      "identity_rows": 710,
+      "identity_papers": 367,
+      "pdf_only_rows": 640,
+      "pdf_only_papers": 330,
+      "rows_skipped_without_pdf": 70
+    }
+  },
+  "frozen_protocol": {
+    "path": "tmp/r3_small_screen_v1/screening_protocol.json",
+    "sha256": "2488bb8dc2167ae93bfedffa315f44f7968049c7895ef803a9e598aa066e291d",
+    "strict_baseline_accuracy": 0.79375,
+    "minimum_candidate_accuracy": 0.81375,
+    "minimum_folds_not_worse": 3,
+    "maximum_single_fold_regression": 0.05
+  },
+  "best_candidate": {
+    "model": "paper_mean_top3__logreg_scaled_c0.002",
+    "accuracy": 0.7796875,
+    "macro_f1": 0.77259841,
+    "balanced_accuracy": 0.77136495,
+    "confusion": {"tn": 193, "fp": 75, "fn": 66, "tp": 306},
+    "fold_accuracy": [0.7578125, 0.8203125, 0.7734375, 0.71875, 0.828125],
+    "absolute_gain_over_strict_baseline": -0.0140625,
+    "fold_accuracy_delta_from_strict_baseline": [0.0859375, 0.015625, -0.0234375, -0.09375, -0.0546875],
+    "folds_not_worse": 2,
+    "worst_single_fold_regression": -0.09375,
+    "promotion_gate_passed": false
+  },
+  "view_ablation_best_accuracy": {
+    "paper_mean_plus_query_top3": 0.7796875,
+    "target_semantic_plus_engineered": 0.7796875,
+    "all_scientific_pools_plus_engineered": 0.778125,
+    "taxonomy_engineered_only_linear": 0.76875,
+    "local_target_mean_plus_top3": 0.715625,
+    "abstract_only": 0.7046875
+  },
+  "diagnostic_subsets": {
+    "strict_baseline": {
+      "single_target_accuracy": 0.87368421,
+      "multi_target_accuracy": 0.72957746,
+      "homogeneous_paper_accuracy": 0.84655172,
+      "mixed_label_paper_accuracy": 0.28333333
+    },
+    "best_scincl": {
+      "single_target_accuracy": 0.81052632,
+      "multi_target_accuracy": 0.75492958,
+      "homogeneous_paper_accuracy": 0.83103448,
+      "mixed_label_paper_accuracy": 0.28333333
+    }
+  },
+  "posthoc_diagnostics_not_eligible_for_promotion": {
+    "baseline_scincl_probability_correlation": 0.81660478,
+    "best_fixed_weight_fusion_accuracy": 0.79375,
+    "best_fixed_weight_fusion_scincl_weight": 0.0,
+    "baseline_single_target_scincl_multi_target_router_accuracy": 0.8078125,
+    "router_fold_accuracy": [0.734375, 0.8515625, 0.8203125, 0.75, 0.8828125],
+    "interpretation": "SciNCL improves the multi-target subset but loses more on single-target papers; fixed probability fusion adds no accuracy and the discovered router still misses the frozen aggregate and fold-regression gates."
+  },
+  "bottleneck_conclusion": [
+    "SciNCL is a paper-topic representation: its best paper-level view exceeds every local-target-only view.",
+    "Target attribution remains unresolved: local target embeddings are 6-8 points below the best paper representation.",
+    "The scientific embedding and taxonomy baseline errors are strongly correlated, so simple fusion is not complementary.",
+    "Both methods remain at 28.33 percent on mixed-label papers, indicating source-target binding rather than general scientific vocabulary is the dominant remaining problem.",
+    "The frozen screen forbids full 1174-paper encoding for this candidate."
+  ],
+  "artifacts": {
+    "features": {
+      "path": "tmp/r3_scientific_embeddings/scincl_small_screen_v1_features.npz",
+      "sha256": "7409e64f257e6fedbaa20a45a0f9f92c2be4a20f3aaf0aa28753c69aa7a838e2"
+    },
+    "feature_manifest": {
+      "path": "tmp/r3_scientific_embeddings/scincl_small_screen_v1_features.manifest.json",
+      "sha256": "7868c6db2318c1a3ebb762fa8c1b298204291263464d3e9365a9f5005ed98571"
+    },
+    "grouped_oof_report": {
+      "path": "tmp/r3_scientific_embeddings/scincl_small_screen_v1_oof.json",
+      "sha256": "6c24c77e3a6bc622984db85a9fc08d2a80788fbc8375589abbd9f031095f5dc4"
+    },
+    "oof_probabilities": {
+      "path": "tmp/r3_scientific_embeddings/scincl_small_screen_v1_oof.npz",
+      "sha256": "f89bf72c7ebc2254f5040bdd54db4a6b2c3b7d0991b476a83ca677b8fa05a7ab",
+      "array_count": 975,
+      "rows_per_array": 640,
+      "contains_labels_or_identifiers": false
+    }
+  }
+}

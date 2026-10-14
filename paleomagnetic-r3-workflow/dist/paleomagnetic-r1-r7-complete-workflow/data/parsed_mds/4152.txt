@@ -1,0 +1,1456 @@
+### page_1
+GSA Data Repository Item 2019239
+Eyster, A., Weiss, B.P., Karlstrom, K., and Macdonald, F.A., 2019, Paleomagnetism of the
+Chuar Group and evaluation of the late Tonian Laurentian apparent polar wander path with
+implications for the makeup and breakup of Rodinia: GSA Bulletin,
+https://doi.org/10.1130/B32012.1.
+Data Repository
+Supplemental Text
+Supplemental Tables
+Table DR1. Sampling Locations with Details of Latitude, Longitude, Bedding strike & dip,
+Formation, and Member
+Table DR2. Sample Paleomagnetic results: least squares fits with unblocking ranges
+Table DR3. IRM Acquisition Parameters
+Table DR4. Backfield And Hysteresis Parameters
+Table DR5: HT site component directions from Weil et al. (2004)
+Table DR6. Potential Explanation for Walcott Site Means
+Table DR7. Reanalyzed A data from dated Concajou Canyon sill (Park 1981)
+r
+Table DR8. Reanalyzed data from the Hottah Sheets (Park et al. 1995)
+Table DR9. Laurentian Paleomagnetic Poles from the Mackenzie Mountains Supergroup
+Table DR10. Uinta Mountain Group Paleomagnetic data from Bressler (1981)
+Table DR11. Uinta Mountain Group paleomagnetic data Weil et al. (2006)
+Table DR12. Select Mesoproterozoic Paleomagnetic Poles
+Supplemental Figures
+Figure DR1. Rodinia reconstructions for the Western Laurentia margin. A. SWEAT (after
+Hoffman, 1991; Moores, 1991; and Daizal 1991). B. AUSWUS (after Karlstrom et al., 1999). C.
+AUSMEX (after Wingate and Giddings, 2000). D. Missing Link China (After Li et al., 2008). E.
+Missing Link Tarim (After Wen et al., 2016). F. COBRA (after Evans, 2009). G. Siberia (after
+Sears and Price 1978; 2003). Note that coloring is inconsistent between in order to highlight the
+different models of the conjugate margin to the western Laurentia margin.
+
+### page_2
+Figure DR2. Paleomagnetic poles from samples that displayed HT components with linear
+decays to the origin and their overall mean.
+Figure DR3. E-I inclination flattening for our Carbon Butte-Awatabi dataset. A.
+Elongation/inclination pairs as a function of f, data plus 25 bootstrap samples. B. Cumulative
+distribution of bootstrapped optimal inclinations plus uncertainties. Estimate from original data
+set plotted as solid line.
+Figure DR4. Testing the block rotation of the Colorado plateau by comparing the paleomagnetic
+poles from the ca. 1094-1080 Ma Grand Canyon Unkar intrusives and Cardenas basalts to the
+1095 Ma-1083 Ma portions of the midcontinent rift Logan Loop. A, B, C. Colorado plateau
+rotated 0, 5, 10° respectively relative to North America using an Euler pole of 34.6°N 254.6°E
+(Hamilton, 1988).
+Figure DR5. (A) Fold test for reanalyzed Carbon Canyon sites (Weil et al., 2004). (B)
+Elongation/inclination pairs as a function of f, data plus 25 bootstrap samples. C. Cumulative
+distribution of bootstrapped optimal inclinations plus uncertainties. Estimate from original data
+set plotted as solid line.
+Figure DR6. Uinta Mountain Group poles from Bressler (1981) and Weil et al., (2006). Reported
+and proposed sampling heights allowed separation of poles into three groupings that were used in
+subsequent analysis.
+Figure DR7. Mackenzie Mountains poles from Park and Jefferson (1991) and references therein.
+Figure DR8. Comparison between reconstructions of Congo using both pole polarities. A. Congo
+in the southern hemisphere. B. Congo in the Northern Hemisphere.
+Figure DR9. Comparison between reconstructions of Tarim using the Baiyisi pole (A), as well as
+both of the less-constrained Qiaoenbrak Formation pole (B).
+Figure DR10. ca. 1070 Ma reconstruction with only Laurentia, Australia and associated cratons.
+Paleomagnetic poles are from the Australian Bangemall sills (1070 Ma U-Pb) and the Laurentian
+Nonesuch Shale (1087 Ma Re-Os).
+Figure DR11. Figures similar to those in the manuscript, but for directions that are corrected for
+possible inclination flattening.
+
+### page_3
+Previous Rodinia Reconstructions
+Early models suggested a Southwest US-East Antarctic (SWEAT) connection based on orogenic
+piercing points (Moores, 1991) (Fig. S1A) which connected the Grenville orogen of Laurentia to East
+Antarctica (Dronning Maud Land) and into India and Australia, and connecting the Wopmay orogen of
+northwest Canada to eastern Australia and into Antarctica (Moores, 1991). In northwest Canada,
+stratigraphic, metallogenetic, and paleomagnetic data supported the suggestion that northwestern
+Laurentia and southern Australia were originally connected, but began to rift apart as early as 1200 Ma,
+and finally began to develop two opposing passive continental margins by about 750 Ma (Young, 1992).
+In particular, this explained the similar rift history of the two margins: Late Proterozoic rifting and Early
+Cambrian carbonate platform development (Jefferson, 1978). Hoffman (1991)) expanded on this by
+suggesting that the rifting centered on Laurentia was followed by fan-like collapse and eventual
+amalgamation of Gondwana. At the time, paleomagnetic results from Laurentia and Australia seemed to
+support this scenario, though the dataset was sparse (Powell et al., 1993). Additionally, Daziel (1991)
+created a Precambrian reconstruction that aligned the Grenville front with a comparable tectonic
+boundary in East Antarctica truncated along the Weddell Sea margin.
+As an alternative, the Australia-SouthWest United States (AUSWUS) model (Fig. S1B) was proposed
+based on aligning linear rift-transform segments between ancestral Australia and western Laurentia
+(Brookfield, 1993). It was elaborated by Karlstrom et al. (1999), who showed that the AUSWUS
+reconstruction was corroborated by similarities in the composition and tectonic setting of
+Paleoproterozoic-Neoproterozoic rocks between the western U.S. and Australia. Specifically, the
+presence of juvenile arc assemblages (Yavapai in Laurentia and Arunta in Australia), and quartz arenite-
+rhyolite sequences (Mazatzal in Laurentia and Reynolds-Musgrave in Australia; Dirks and Wilson,
+1990). Finally, both continents contained broadly correlative ore-deposits and, importantly, the
+southwestern U.S. contained distinctive suites of 1.22-1.07 Ga zircons that required a western source
+(Ross et al., 1992).
+A third hypothesis, the Australia-Mexico (AUSMEX) reconstruction (Fig. S1C) was inspired by
+paleomagnetic data from the 1.07 Ma Bangemall sills in Australia (Wingate and Giddings, 2004). In
+addition to satisfying paleomagnetic constraints, this configuration was suggested to align late
+Mesoproterozoic orogenic belts in northeast Australia and southernmost Laurentia (Wingate and
+Giddings, 2004), specifically juxtaposing the high-grade metamorphic and magmatic rocks of the
+Australian Cape River Province with the southern continuation of the Grenville Province of Laurentia
+(Rivers, 1997).
+The Missing Link model (Fig. S1D) initially modified the SWEAT model and suggested that South
+China was located between Australia—East Antarctica and Laurentia, serving as the ”missing-link”
+between the two continents (Li et al., 1995). This model resolved some discontinuities in crustal
+provinces of Australia-East Antarctica and Laurentia, provided a western source region to generate the
+late Mesoproterozoic detrital grains in the Belt Basin. This model also explained similarities in the
+Neoproterozoic stratigraphy of South China, southeastern Australia and western Laurentia, and between
+Cathaysian South China and southern Laurentia. More recently, the Missing Link model has been
+modified to use the AUSWUS or AUSMEX models for the reconstruction of Australia (Li et al., 2008).
+However, there are some recent challenges to this model, in the form of new geochronology and better
+understanding of the Ediacaran-Paleozoic position of South China (Wen et al., 2016). New
+
+### page_4
+geochronologic data on the assembly of Yangtze and Cathaysia (Sibao or Jiangnan orogen), suggests
+that orogeny occurred after the Grenville orogeny (Zhao et al., 2011; Wang et al., 2014). Paleomagnetic
+and geological data indicate that South China likely was adjacent to NW Australia in the early
+Paleozoic, which requires a complicated path of South China from the missing link position around
+northern Australia (Li et al., 2013; Cawood et al. 2013). Most recently, some authors have suggested
+that Tarim may be a more viable missing link (Fig. 1E; Wen et al., 2016). This was suggested in part due
+to the well-developed Neoproterozoic glacio-rift strata on both continents, as well as similar
+Paleoproterozoic intrusions (Wen et al., 2016).
+West Africa is suggested to be the conjugate craton in the COBRA model (Fig. S1F) that connects ca.
+700 Ma rift successions in the North American Cordillera and BRAsiliano-Pharuside orogens (Evans,
+2009). This reconstruction with West Africa and Rio de la Plata on the western Laurentian margin is not
+well constrained paleomagnetically, but is suggested to have existed from 1.8 Ga until the breakup of
+Rodinia (Evans, 2009).
+Finally, the northeastern margin of the Siberian craton has also been proposed to be the conjugate for
+southwestern Laurentia (Fig. S1G; Sears and Price, 1978, 2003). This was based on matching up
+Paleoproterozoic to Early Cambrian geology from southwestern Laurentia to the northeastern Siberian
+craton as well as some paleomagnetic data (Sears and Price, 1978; 2003).
+Rotation of the Colorado Plateau
+When considering paleomagnetic data, it is important to ensure that the regions are tectonically coherent
+and have not been complicated by larger regional block rotations. It is suggested that the Laramide
+orogeny involved a clockwise rotation of about 2-4° of the Colorado Plateau relative to the continental
+interior (Hamilton, 1988). As the Grand Canyon is located at the very southwest margin of the Colorado
+plateau, its putative rotation may need to be corrected. Some suggest that the angle of rotation was
+moderate (5°, Bryan and Gordon, 1990), but more recent paleomagnetic studies have suggested that this
+clockwise rotation may have been as large as 13.5° to 15° to account for differences in declination of
+Mesozoic paleomagnetic poles (Kent and Witte, 1993; Steiner and Lucas, 2000; Kent et al., 2012).
+Luckily, the underlying Cardenas Basalts and Unkar Intrusions can be used to understand the magnitude
+of the Colorado Plateau rotation in the Grand Canyon area. A normal polarity paleomagnetic pole was
+obtained from Cardenas Basalts and associated intrusions in the Unkar Group (32°N, 185°E,
+dp=6.8°/dm=9.3°; n=3 flows, 13 intrusions; Weil et al., 2003). This direction was interpreted to be
+primary based on a partial contact test of the (Weil et al., 2003). The Cardenas basalt and associated sills
+and dikes within the Unkar Group were initially dated to 1070±70 Ma (Rb-Sr whole-rock; Elston and
+McKee, 1982), but subsequently refined to 1103±10 Ma (Ar-Ar contact metamorphic biotite from sill
+associated with Cardenas basalt; Timmons et al., 2005; reanalyzed by Bright et al., 2014). These
+volcanics are thought to be the extrusive expression of the southwestern North American diabase
+province (Hammond, 1990; Howard, 1991; Harlan et al., 1993). Although precise U-Pb ages have not
+been obtained directly from the Cardenas basalt, the associated diabase intrusions have been dated with
+U-Pb thermal ionization mass spectrometry (TIMS) at 1080±2 Ma, 1080±3 Ma, 1088±3 Ma, and
+1094±2 Ma (Bright et al., 2014). As these units are ca. 1100 Ma that suggests comparison with
+paleomagnetic results from the Mesoproterozoic (1.1 Ga) Midcontinent Rift (MCR). The U-Pb
+baddeleyite ages (1080±2 Ma, 1080±3 Ma, 1088±3 Ma, and 1094±2 Ma) obtained by Bright et al.
+(2014) were used to compare the Unkar Intrusives and Cardenas Basalts with the MCR volcanics (Fig.
+S4. Table S12).
+
+### page_5
+Early paleomagnetic studies of the MCR, suggested that there might be asymmetric reversals preserved
+in the volcanics. However, a high-resolution study of paleomagnetic data that spanned three
+geomagnetic field reversals from a well-described series of basalt flows at Mamainse Point showed that
+each reversal was in fact symmetric and the previously documented reversal asymmetry was an artifact
+of the rapid motion of North America during this time (Swanson Hysell, et al., 2009). Now the
+Keweenaw volcanics provide one of the best constrained geochronologic and paleomagnetic parts of the
+Precambrian Laurentian APWP. Given the age constraints, the Chengwatana Volcanics (1094.6±2.1 Pb-
+Pb Zartman et al., 1997), Schroeder-Lutsen Basalts (<1091.61±0.14 Ma chemical abrasion-isotope
+dilution-thermal ionization mass spectrometry [CA-ID-TIMS] Fairchild et al., 2017), the Lake Shore
+Traps (1085.57±0.25 Ma CA-ID-TIMS Fairchild et al., 2017), and the Michipicoten Island Formation
+(1084.35±0.20 Ma and 1083.52±0.23 CA-ID-TIMS Fairchild et al., 2017) are of particular relevance for
+this study.
+The suggested rotation of the Colorado plateau with a pole at 34.6°N 254.6°E (Hamilton, 1988) was
+applied for three different cases: rotations of 0°, 5°, and 10° of the Colorado plateau and associated pole
+(Fig. S3). In the unrotated state, the Cardenas-Unkar Intrusive pole lies coincident with the
+Chengwatana Volcanics. When the Colorado plateau is rotated greater than 15 degrees, the A of the
+95
+Cardenas-Unkar Intrusive pole no longer overlaps with any of the Keweenawan volcanics. The uncertain
+age constraints on the Cardenas-Unkar Intrusive pole hinders a robust comparison. However, the data
+suggest that the Colorado plateau has rotated less than 15°, most likely less than 5°, and is most similar
+to the Keweenawan poles in its unrotated state. Thus corrections for large-scale tectonic block rotations
+were not applied.
+Expanded discussion of previous paleomagnetic data from the Chuar Group
+The Chuar Group has been the focus of several paleomagnetic studies but much of the initial work was
+never published in peer-reviewed journals, instead only summarized in abstracts or review papers with
+no demagnetization or sample data (Elston, 1989; Elston, 1986; Link et al., 1993). The only previous
+published demagnetization and sample data from the Chuar Group is from a study conducted by Weil et
+al. (2004) that focused on the Kwagunt and Galeros formations (Table S5). From the Galeros formation,
+the Jupiter and Carbon Canyon members were sampled and resolvable shallow to intermediate
+directions were obtained with unblocking temperatures of 630-680°C (indicative of hematite). As there
+were only two sites from the Jupiter member, they were combined with the sites from the Carbon
+Canyon member, and these combined directions passed the fold test (Weil et al., 2004). From the
+Kwagunt Formation, samples were collected from the Carbon Butte, Awatabi, and Walcott members.
+Most of the Kwagunt samples had discrete low inclination, E-W trending directions with unblocking
+temperatures between 650 and 680°C (as expected for hematite) (Weil et al., 2004). For some samples,
+there was also a north-directed, moderate-steep positive inclination magnetization overprint removed
+upon heating to 300°C and interpreted as a recent overprint (Weil et al., 2004). However, for nine sites
+from the Carbon Butte Member this component displayed unblocking temperatures up to 680°C (Weil et
+al., 2004). For the combined Kwagunt members, a fold test was applied (Tauxe, 1998), resulting in
+maximum clustering at 80% unfolding and was interpreted to support a primary magnetization acquired
+at the time of, or soon after, deposition (Weil et al., 2004).
+Additional information on paleomagnetic data for other cratons
+Australia
+
+### page_6
+Rift basins in Australia are interpreted to represent two episodes of extension, one ca. 700-650 Ma the
+second ca. 600 Ma, with extension suggested to be off the present day eastern margin (Preiss et al.,
+1978; Walter et al., 1995; Preiss, 2000 Greene, 2010). Some have suggested that rifting was associated
+with ca. 825-750 Ma mafic dikes and volcanism (Wingate and Giddings, 2000; Li et al., 1999; Ernst et
+al., 2008). Focus on the southern Georgina Basin has suggested that the Neoproterozoic continental
+margin of Australia consisted of northwest striking rift segments offset by northeast striking transform
+faults (Greene, 2010); however, this interpretation is not unique and focuses on sedimentation that post-
+dates 780-720 tectonism.
+Mundine Dike Swarm Pole
+An extensive swarm of dolerite dikes, the Mundine Dike Swarm, intrude into Archean and Proterozoic
+rocks of the Pilbara Craton of Western Australia. Most of the dikes are less than 30 meters wide and are
+fine- to medium-grained, although some are wider, coarse-grained, and have individual strike lengths of
+over 200 km (Wingate and Giddings, 2000). A joint geochronologic and paleomagnetic study obtained
+Pb-Pb zircon data and a paleomagnetic pole that placed Australia at low latitudes.
+Zircons grains were isolated from the center of a medium- to coarse-grained 25-meter wide quartz
+dolerite dike (Wingate and Giddings, 2000). From the various SHRIMP analyses the Pb-Pb ages all
+agreed within error, but when considering 206Pb/238U ratios, two analyses were slightly normally
+discordant and more than half were strongly reversely discordant (Wingate and Giddings, 2000). This
+suggested unsupported radiogenic Pb (Mattinson et al., 1996), or enhanced sputtering of Pb relative to
+U, due to radiation-induced microstructural changes (McLaren et al., 1994). Thus the reported age is
+from a weighted mean Pb-Pb age of 755±3 Ma. The paleomagnetic study obtained a positive baked
+contact test to indicate that the magnetization from the Mundine Dike Swarm was from emplacement
+and cooling at 755 Ma (Wingate and Giddings, 2000). This paleomagnetic data for eight dikes was
+combined with the previous results for six Northampton dikes to obtain the paleomagnetic pole for
+Australia at 750 Ma (Wingate and Giddings, 2000).
+Walsh Tillite Cap
+The Wash Tillite is a glacial diamictite exposed in eastern Kimberley, northwestern Australia. Initially,
+researchers suggested that the Wash Tillite might be correlative with the Sturtian deposits (Dow and
+Gemuts, 1969; Plumb and Gemuts, 1976). However, more recent work has suggested that the Wash
+Tillite should be correlative with the younger Marinoan glacial deposits (Plumb, 1981; Grey and
+Corkeron, 1998; Coats and Preiss, 1980). A paleomagnetic study sampled the cap carbonate overlying
+the Wash Tillite (the Wash Tillite Cap-WTC) and obtained a direction from six sites that passed a fold
+test (Li, 2000). As the resulting paleomagnetic pole was 58° away from the Elatina Formation pole
+expected for the Marinoan glaciation, this led to the suggestion that the Walsh Tillite was Sturtian (ca.
+770-750 Ma) rather than Marinoan in age, and the WTC pole was introduced as a ca. 750 tie point for
+Australia in reconstructions (Maloof et al., 2006; Li et al., 2008; Zhang et al., 2006; Li and Evans,
+2011). When incorporated into paleogeographic reconstructions, it was used to argue for the break-up of
+Rodinia by 750 Ma. However, the dismissal of the geological correlations in favor an arbitrary 750 Ma
+age is puzzling, and given recent geochronological calibrations on Snowball Earth glaciations, the likely
+age for the WTC pole is either 662 Ma (if a Sturtian cap), or more likely 632 Ma (a Marinoan cap)
+(Rooney et al., 2015). With these revised age constraints, this paleomagnetic pole was not used in the
+presented reconstructions.
+
+### page_7
+Yilgarn Dikes
+The paleomagnetic pole from the Yilgarn B dikes of Western Australia was initially thought to be robust
+and used as a tie point for all 1050-700 Ma reconstructions (Giddings, 1976). This pole was one of the
+original paleomagnetic constraints for the SWEAT hypothesis (Powell et al., 1993). However, a
+paleomagnetic study resampled the same rocks from which a positive baked contact test was reported,
+but obtained a negative baked contact test (Halls and Wingate, 2001). This was combined with
+petrographic and rock magnetic data to suggest that that pole was a secondary overprint likely Mesozoic
+in age (Halls and Wingate, 2001). Thus, this pole was not used in the presented reconstructions.
+South China
+South China comprises the Yangtze and Cathaysia blocks (Grabau, 1924). The Yangtze block has a late
+Archean–Paleoproterozoic core and younger orogenic belts (Wang et al., 1995), while the Cathaysia
+block has pre–1.4 Ga continental crust (Jahn et al., 1990; Li et al., 1992; Shui, 1987; Zhou et al., 1993;
+Li, 1994). There are well-developed Neoproterozoic rift systems in South China, that have helped served
+as a geologic basis for proposed connections to Australia and Laurentia (Wang, 1985; Xing, 1989; Qiao,
+1989a, 1989b; Dong and Liu, 1991; Li, 1991; Li et al., 1995).
+Liantuo Formation
+Exposed in the Hubei province and the lower Three Gorges of the Yangtze River, the arkosic to argillitic
+Liantuo Formation contains interbedded volcanic ash horizons, and is laterally equivalent to the Tonian
+Banxi Group. Unconformably overlying the Liantuo Formation is the Marinoan Nantuo Formation
+(Wang et al., 1981; Liao, 1981; Condon et al., 2005). These units have been suggested to reflect
+continent rifting and passive-margin development, similar in style and age to those found in Australia
+and western Laurentia. This observation helped place it as a missing link between Australia and
+Laurentia (Li et al., 1995; Li et al., 1996; Li et al., 2008). However, other work suggests that South
+China is surrounded by a 970-750 Ma arc, explaining the abundant ash interbeds within the Banxi Group
+and Liantuo formation (Cawood et al., 2013). Consistent with this alternative interpretation, some have
+placed it near the northwest Australian shelf (Kirschvink, 1992; Cawood et al., 2013).
+North China
+The North China Block has an Archean to Paleoproterozoic basement, and Meso-Neoproterozoic to
+sedimentary basins (e.g. Wang and Qiao, 1984). Some reconstructions place North China near Siberia
+(Li et al., 1996), while others have suggested that North China was alongside western Laurentia (Wang
+et al., 1997). Unfortunately, there is sparse paleomagnetic data for North China, and the Nanfen Pole has
+been used to suggest that North China was connected to Laurentia and near Siberia until 700 Ma (Zhang
+et al., 2006). Unfortunately, the sample and demagnetization data from the Nanfen pole has not been
+published in peer-reviewed literature (Lin, 1984) and the age of the Nanfen Formation is unknown.
+Newer work correlates the Nanfen Formation with the lower part of the ca. 890-925 Ma Huaibei Group
+(e.g. Xiao et al., 2014). Thus, this paleomagnetic pole was not incorporated into the presented
+reconstructions. The newer correlations suggest that there are no Cryogenian-Ediacaran basins that
+could be tie points to the margin of Laurentia. As Mesoproterozoic work has suggested that North China
+was near Siberia (Zhang et al., 2006; Fu et al., 2015), North China is tenuously placed close to Laurentia
+and Siberia but this reconstruction lacks constraints.
+Tarim
+Tarim’s basement is composed of Proterozoic schist of the Aksu Group that is intruded by a series of
+
+### page_8
+unmetamorphosed northwest-trending mafic dikes. The overlying sedimentary sequences consist of the
+Cryogenian Baiysi, Qiaoenbrak and Yuermeinak Formations, and the Ediacaran Sugetbrak and
+Chigebrak Formations (Gao et al., 1985; 1993; Turner, 2010; Zhu et al., 2011; Xu et al., 2013; Wen et
+al., 2015). Both the Qiaoenbrak and Yuermeinak Formations are dominated by sandstone, siltstone and
+conglomerate, and contain diamictites interpreted to record multiple Cryogenian glaciations (Gao et al.,
+1985; Gao and Qian, 1985; Wen et al., 2015). Marinoan-age cap dolostone was recently documented
+above the glacial deposits of the younger Yuermeinak Formation (Wen et al., 2015). It is suggested that
+Tarim was adjacent to northwest Australia (Li et al., 1996; Li et al., 2008), next to Laurentia as a
+missing link alternative (Wen et al., 2015), or near North China (Wang et al., 2015).
+North Australia
+North Australia is suggested to have been close to West Australia during the Neoproterozoic, but
+experienced a later relative rotation (Schmidt et al., 2006; Li and Evans, 2011).
+India
+The earliest proposed models of Rodinia suggested that East Gondwanaland (India-Australia-
+Antarctica) remained intact during the tenure of the supercontinent (Hoffman, 1991). However, evolving
+paleomagnetic data suggests that this may not have been the case (Torsvik et al., 2001b, 2001c; Gregory
+et al., 2009; Meert et al., 2013).
+Malani igneous suite
+The extensive felsic Malani igneous suite in northwest India includes an initial phase of felsic extrusives
+over 3 km thick, followed by intrusion of granite plutons. The final stage includes crosscutting rhyolitic
+dikes (Mukherjee, 1966; Bhushan, 1985). The unmetamorphosed igneous suite was folded prior to the
+deposition of overlying sediments (Mukherjee, 1966; Bhushan, 1985).
+U-Pb zircon ages of 751±3 and 771±2 Ma were reported in the paleomagnetic study of Torsvik et al.
+(2001b) as personal communication from R. D. Tucker. Subsequently, a U-Pb secondary ion mass
+spectrometry (SIMS) 771±5 Ma (MSWD = 1.5) age was obtained from 14 concordant analyses on 10
+zircon crystals from a rhyolitic tuff (Gregory et al., 2009). More recently, LA-ICP-MS discordant
+analyses on zircon from a mafic dike resulted in U-Pb dates ranging between 700 to 727 Ma (weighted
+mean U-Pb ca. 704 Ma, Pb-Pb 752±18 Ma) (Meert et al., 2013).
+Several studies have examined the Malani igneous suite, from which a grand mean pole has been
+reported (Torsvik et al., 2001b, Gregory et al., 2009; Meert et al. 2013). The primary nature of the pole
+is supported by baked contact tests and a statistically positive fold test (Torsvik et al., 2001b; Gregory et
+al., 2009; Meert et al., 2013). This data suggests that India was at intermediate latitudes and likely not
+part of East Gondwana.
+Mahe intrusives- Seychelles
+Although a continental fragment, the Seychelles has been placed adjacent to India until around 65 Ma
+(Plummer and Belle, 1995; Torsvik et al., 1998). The Mahe intrusives of the Seychelles include granite
+intrusions as well as basaltic and dolerite dikes. TIMs work was conducted on zircon from the
+Takamaka dolerite dyke, resulting in a U-Pb age of 750.2±2.5 (Torsvik et al., 2001). Following AF and
+thermal demagnetization, paleomagnetic results from 7 dikes suggested that a primary direction was
+carried by magnetite or titanium-poor titanomagnetite (Torsvik et al., 2001c). This direction was
+
+### page_9
+supported by 4 of the 7 van der Voo criteria (lack of tectonic coherence with the India craton and no
+field tests or reversals) (Torsvik et al., 2001c). The Seychelles was then restored relative to India and the
+Malani intrusive suite (Euler pole: Latitude=25.8°, Longitude=330° and rotation angle=28°) (Torsvik et
+al., 2001c). However, as this restoration relied on paleomagnetism and the assumed coeval nature of the
+Malani intrusive suite and the Mahe Intrusives rather than a geologic basis, only the Malani intrusive
+suite pole was used to constrain India in the reconstructions presented here.
+Antarctica, Baltica, Amazonia, Kalahari, Rio de La Plata, Sao Francisco, West Africa
+There is no paleomagnetic data for Antarctica, Baltica, Amazonia, Kalahari, Rio de La Plata, Sao
+Francisco, and West Africa during the 780-720 Ma period, other published configurations were
+examined before these cratons were incorporated into the reconstructions presented here (Hoffman,
+1991; Li et al., 2008; Evans, 2009; Li and Evans, 2011, Li et al., 2013; Merdith et al., 2017).
+Antarctica is placed in connection to Australia in its Gondwana configuration (Harley, 2013). The
+original SWEAT model suggested that eastern Antarctica was connected in its Gondwana configuration
+with Australia and India, and lay adjacent to the southwestern United States. Subsequent work has
+identified features related to a Pinjarra Orogen suggesting that eastern Antarctica should be split into an
+eastern Antarctic craton and the Mawson craton, the latter suggested to be connected to Australia as a
+single craton post 1200 Ma (Fitzsimons, 2003a, b; Cawood and Buchan 2007; Cawood & Korsch 2008;
+White et al. 1999). This treatment of the Mawson craton was incorporated into the presented
+reconstructions.
+For Baltica, the Sveconorwegian Orogen is a geologic tie point to the Laurentian Grenville Orogen, and
+thus most reconstructions place Baltica adjacent to the northeastern margin of Laurentia, although the
+exact configuration is uncertain (Hoffman, 1991; Bogdanova et al., 2008; Evans, 2009). Similarly, the
+Amazonian Rondonia-Sunsas orogenic belt may be correlative with the Grenville Orogen, suggesting
+that Amazonia also be placed adjacent to the Laurentian eastern margin (Hoffman, 1991; Loewy et al.,
+2003; Davidson, 2008; Li et al., 2008). Further south, the Grenville aged Namaqua-Natal orogenic of the
+Kalahari Craton was suggested as a tie point to southeast Laurentia (see Hoffman, 1991; Li et al., 2008).
+There are also proposed connections between Kalahari, Rio de la Plata and Laurentia, so Rio de la Plata
+is placed adjacent to the eastern margin of Laurentia between Kalahari and Amazonia (Li et al., 2008;
+Evans, 2009). Another smaller craton, Sao Francisco is placed farther from Laurentia’s margin, but
+adjacent to the Congo (Li et al., 2008; Evans, 2009).
+In considering West Africa, there are very few constraints, either geological or paleomagnetic. The
+craton lacks Grenville aged metamorphism and so it was either part of a larger craton such as Amazonia,
+or not part of the supercontinent (Trompette, 1997; Merdith et al., 2017). Recent reconstructions were
+followed by placing West Africa near Amazonia (Merdith et al., 2017).
+Long-lived AUSMEX-like configuration?
+The possible configuration for Australia and Laurentia at ca. 1070 Ma is also restored (Fig. S8; Table
+S12) based on the Australian Mesoproterozoic Bangemall sills and the more recently dated Laurentia
+Nonesuch Formation (Wingate et al. 2002; Cumming et al., 2010). Exposed in the Mesoproterozoic
+Bangemall basin, the dolerite Bangemall sills intrude into unmetamorphosed, fine-grained carbonate and
+
+### page_10
+siliciclastic marine sedimentary rocks known as the Bangemall Supergroup (Muhling and Brakel, 1985;
+Martin et al., 1999). The southern parts of the basin were subsequently folded as part of the Edmund
+Fold Belt (Muhling and Brakel, 1985). Geochronology work on baddeleyite and zircon yielded ages of
+1071±8, 1067±14 and 1068±22 Ma, which were combined to yield a mean age of 1070±6 Ma (Wingate
+et al. 2002). The paleomagnetic direction from the Bangemall Sills has been tilt corrected and is
+supported by a partial baked contact test, in that the baked rocks had overprint, but no stable direction
+was obtained from the unbaked host rocks (Wingate et al. 2002; Wingate and Giddings, 2000).
+This Bangemall pole is compared with paleomagnetic data from the Laurentian midcontinent rift. The
+Nonesuch Formation consists of gray-to-black siltstones, shales and very fine sandstone deposited in
+anoxic water. Recent work has been done using Re-Os geochronology to obtain an age of 1078 ± 24 Ma
+for the Nonesuch Formation (Cumming et al., 2010). Although the overlying Freda Formation lacks
+direct geochronologic constraints, it alternatively might be a more correct temporal comparison
+(Swanson-Hysell et al. 2012; Fairchild et al. 2017). These new age constraints still support a ca. 1070
+Ma AUSMEX configuration for Australia and Laurentia (Wingate et al., 2002).
+Additional References
+Aitken, J. D., 1993, Tectonic evolution and basin history. In: Sedimentary Cover of the North American
+Craton in Canada. D.E. Stott and J.D. Aitken, (eds.): Geological Survey of Canada, Geology of
+Canada, no. 5, p. 483−504.
+Alt, J. C., 1999, Very low-grade hydrothermal metamorphism of basic igneous rocks, in Low-Grade
+Metamorphism, edited by M. Frey and D. Robinson, p. 169 – 201, Blackwell, Malden, Mass.
+Alt, J. C., and D. A. H. Teagle, 2003, Hydrothermal alteration of upper oceanic crust formed at a fast-
+spreading ridge: Mineral, chemical and isotopic evidence from ODP Site 801, Chem. Geol., 201,
+191–211.
+Balgord, E.A., Yonkee, W.A., Link, P.K. and Fanning, C.M., 2013, Stratigraphic, geochronologic, and
+geochemical record of the Cryogenian Perry Canyon Formation, northern Utah: Implications for
+Rodinia rifting and snowball Earth glaciation: Geological Society of America Bulletin, v. 125,
+no. 9-10, p.1442-1467.
+Books, K. Magnetization of the lower most Keweenawan lava flows in the Lake Superior area,
+Geological Survey research 1968, chapter D. U.S. Geological Survey Professional Paper P 0600-
+D, 248–254 (1968).
+Bowring, S.A., Schoene, B., Crowley, J.L., Ramezani, J. and Condon, D.J., 2006, High-precision U-Pb
+zircon geochronology and the stratigraphic record: Progress and promise. Paleontological
+Society Papers, v. 12, p. 25.
+Brady, P. V., and S. R. Gislason. 1997, Seafloor weathering controls on atmospheric CO2 and global
+climate: Geochim. Cosmochim. Acta, 61, 965–973.
+Brett, J.S. and Dunlop, D.J., 2008. Earth and Planetary Science Letters, 266(1), p.125-139.
+Bright, R.M., Amato, J.M., Denyszyn, S.W. and Ernst, R.E., 2014. U-Pb geochronology of 1.1 Ga
+diabase in the southwestern United States: Testing models for the origin of a post-Grenville large
+igneous province. Lithosphere, pp.L335-1.
+
+### page_11
+Brock, A., 1968, Metasomatic and intrusive nepheline-bearing rocks from the Mbozi syenite-gabbro
+complex, southwestern Tanzania. Can. J. EarthSci., v. 5, p. 387-419.
+Bryan, P. and Gordon, R.G., 1990. Rotation of the Colorado Plateau: An updated analysis of
+paleomagnetic poles. Geophysical Research Letters, 17(10), pp.1501-1504.
+Buchan, K. L., and Ernst, R. E., 2013, Diabase dyke swarms of Nunavut, Northwest Territories and
+Yukon, Canada: Geological Survey of Canada, Open File 7464, 24 p.
+Calver, C.R., Crowley, J.L., Wingate, M.T.D., Evans, D.A.D., Raub, T.D. and Schmitz, M.D., 2013,
+Globally synchronous Marinoan deglaciation indicated by U-Pb geochronology of the Cottons
+Breccia, Tasmania, Australia: Geology, v. 41, no. 10, p.1127-1130.
+Cawood, P.A., Wang, Y., Xu, Y. and Zhao, G., 2013. Locating South China in Rodinia and Gondwana:
+A fragment of greater India lithosphere?. Geology, 41(8), pp.903-906.
+Christie-Blick, N., and Levy, M., 1989, Concepts of sequence stratigraphy, with examples from strata of
+late Proterozoic and Cambrian age in the western United States, in Christie-Blick, N., and Levy,
+M., eds., Late Proterozoic and Cambrian Tectonics, Sedimentation and Record of Metazoan
+Radiation in the Western United States (28th International Geological Congress FieldTrip
+Guidebook T331): Washington, D.C., American Geophysical Union, p. 23–37.
+Christie-Blick, Nicholas, 1997, Neoproterozoic Sedimentation and Tectonics in West-Central Utah
+[Ph.D. Thesis]: Brigham Young University Geology Studies, 30 p.
+Fahrig, W. F., and Schwarz, E. J., 1973, Additional paleomagnetic data on the Baffin diabase dikes and
+a revised Franklin pole, Canadian Journal of Earth Sciences, v. 10, no. 4, p. 576-581.
+Fahrig, W. F., Irving, E., and Jackson, G. D., 1971, Paleomagnetism of the Franklin diabases: Canadian
+Journal of Earth Sciences, v. 8, no. 4, p. 455-467.
+Fairchild, L.M., Swanson-Hysell, N.L., Ramezani, J., Sprain, C.J. and Bowring, S.A., 2017, The end of
+Midcontinent Rift magmatism and the paleogeography of Laurentia. Lithosphere, p.L580-1.
+Ferri, F., Rees, C., Nelson, J., and Legun, A., 1999, Geology and Mineral Deposits of the Northern
+Kechika Trough between Gataga River and the 60th Parallel: Geological Survey Branch, Mineral
+Resources Division, British Columbia Ministry of Energy and Mines Bulletin 107, 122 p.
+Coats, R.P. and Preiss, W.V., 1980. Stratigraphic and geochronological reinterpretation of late
+Proterozoic glaciogenic sequences in the Kimberley region, Western Australia. Precambrian
+Research, 13(2-3), pp.181-208.
+Condon, D., Zhu, M., Bowring, S., Wang, W., Yang, A. and Jin, Y., 2005, U-Pb ages from the
+neoproterozoic Doushantuo Formation, China: Science, v. 308, no. 5718, p.95-98.
+Diehl, J.F. and Haig, T.D., 1994. A paleomagnetic study of the lava flows within the Copper Harbor
+Conglomerate, Michigan: new results and implications. Canadian Journal of Earth Sciences,
+31(2), pp.369-380.
+Dirks, P.H. and Wilson, C.J., 1990. The geological evolution of the Reynolds Range, central Australia:
+evidence for three distinct structural-metamorphic cycles. Journal of Structural Geology, 12(5-6),
+pp.651-665.
+Dunlop, D. J., and Buchan, K. L., 1977, Thermal remagnetization and the paleointensity record of
+metamorphic rocks: Physics of the Earth and Planetary Interiors, v. 13, no. 4, p. 325-331.
+Kean, W.F., Williams, I., Chan, L., Feeney, J., 1997. Magnetism of the Keweenawan age Chengwatana
+lava flows, northwest Wisconsin. Geophysical Research Letters 24, 1523–1526.
+Kent, D. V., and W. K. Witte (1993), Slow apparent polar wander for North America in the Late
+Triassic and large Colorado Plateau rotation, Tectonics, 12, 291–300, doi:10.1029/92TC01966.
+
+### page_12
+Kent, D.V. and Irving, E., 2010. Influence of inclination error in sedimentary rocks on the Triassic and
+Jurassic apparent pole wander path for North America and implications for Cordilleran tectonics.
+Journal of Geophysical Research: Solid Earth, 115(B10).
+Kodama, K.P. and Dekkers, M.J., 2004. Magnetic anisotropy as an aid to identifying CRM and DRM in
+red sedimentary rocks. Studia Geophysica et Geodaetica, 48(4), pp.747-766.
+Liebes, E. and P. N. Shive, Magnetization acquisition in two Mesozoic red sandstones, Phys. Earth
+Planet. Int., v. 30, 396–404, 1982.
+Marshak, S. and Paulsen, T., 1996, Midcontinent US fault and fold zones: A legacy of Proterozoic
+intracratonic extensional tectonism?. Geology, v. 24, no. 2, p.151-154.
+Marshak, S., Domrois, S., Abert, C., Larson, T., Pavlis, G., Hamburger, M., Yang, X., Gilbert, H. and
+Chen, C., 2017, The basement revealed: Tectonic insight from a digital elevation model of the
+Great Unconformity, USA cratonic platform. Geology, v. 45, no. 5, p.391-394.
+Marshak, S., Karlstrom, K. and Timmons, J.M., 2000, Inversion of Proterozoic extensional faults: An
+explanation for the pattern of Laramide and Ancestral Rockies intracratonic deformation, United
+States. Geology, v. 28, no. 8, p.735-738.
+Mattinson, J.M., 2005, Zircon U-Pb chemical abrasion ("CA-TIMS") method: combined annealing and
+multi-step partial dissolution analysis for improved precision and accuracy of zircon ages:
+Chemical Geology, v. 220, no. 1, p. 47-66.
+Molina-Garza, R. S., J. W. Geissman, and R. Van der Voo (1995), Paleomagnetism of the Dockum
+Group (Upper Triassic), northwest Texas: Further evidence for the J1-cusp in the North America
+apparent polar wander path and implications for rate of Triassic apparent polar wander and
+Colorado plateau rotation, Tectonics, 14, 979 – 993, doi:10.1029/ 95TC01456.
+Morra, G., Seton, M., Quevedo, L. and Müller, R.D., 2013. Organization of the tectonic plates in the last
+200Myr. Earth and Planetary Science Letters, 373, pp.93-101.
+Palmer, H. Paleomagnetism and correlation of some Middle Keweenawan rocks, Lake Superior.
+Canadian Journal of Earth Science 7, 1410–1436 (1970).
+Palmer, H. C., and Hayatsu, A., 1975, Paleomagnetism and K-Ar dating of some Franklin lavas and
+diabases, Victoria Island: Canadian Journal of Earth Sciences, v. 12, no. 8, p. 1439-1447.
+Palmer, H. C., Baragar, W. R. A., Fortier, M., and Foster, J. H., 1983, Paleomagnetism of Late
+Proterozoic rocks, Victoria Island, Northwest Territories, Canada: Canadian Journal of Earth
+Sciences, v. 20, no. 9, p. 1456-1469.
+Porter, S. M. and Knoll, A. H., 2000, Testate amoebae in the Neoproterozoic Era: evidence from vase-
+shaped microfossils in the Chuar Group, Grand Canyon: Paleobiology, v. 26, p. 360–385.
+Porter, S.M., Meisterfeld, R. and Knoll, A.H., 2003. Vase-shaped microfossils from the Neoproterozoic
+Chuar Group, Grand Canyon: a classification guided by modern testate amoebae. Journal of
+Paleontology, 77(3), pp.409-429.
+Powell, C.McA., Li, Z.X., McElhinny, M.W., Meert, J.G., Park, J.K., 1993. Paleomagnetic constraints
+on timing of the Neoproterozoic breakup of Rodinia and the Cambrian formation of Gondwana.
+Geology 21, 889–892.
+Powell, C.McA., Preiss, W.V., Gatehouse, C.G., Krapez, B., Li, Z.X., 1994. South Australian record of
+a Rodinian epi- continental basin and its mid-Neoproterozoic breakup (~700 Ma) to form the
+palaeo-Pacific Ocean. Tectonophy- sics 237, 113–140.
+Rooney, A. D., Macdonald, F. A., Strauss, J. V., Dudás, F. Ö., Hallmann, C., and Selby, D., 2014, Re-
+Os geochronology and coupled Os-Sr isotope constraints on the Sturtian snowball Earth:
+Proceedings of the National Academy of Sciences, v. 111, no. 1, p. 51-56.
+
+### page_13
+Rooney, A.D., Strauss, J.V., Brandon, A.D., and Macdonald, F.A., 2015, A Cryogenian chronology:
+Two long-lasting, synchronous Neoproterozoic glaciations: Geology, v. 43, no. 5, p. 459-462
+Ross, G.M., Bloch, J.D., Krouse, H.R., 1995, Neoproterozoic strata of the southern Canadian Cordillera
+and the isotopic evolution of seawater sulfate: Precambrian Research, v. 78, p. 70–99.
+Rowley, D. B., and Lottes, A. L. (1988). Plate-kinematic reconstructions of the North Atlantic and
+Arctic: Late Jurassic to present. Tectonophysics, 155(1), 73-120.
+Schlische, R.W., 1995, Geometry and origin of fault-related folds in extensional settings: AAPG
+bulletin, v. 79, no. 11, p.1661-1678.
+Schlische, R.W., 2003, Progress in understanding the structural geology, basin evolution, and tectonic
+history of the eastern North American rift system: The Great Rift Valleys of Pangea in Eastern
+North America, v. 1, p. 21-64.
+Schmidt, Phillip W., George E. Williams, and Michael O. McWilliams. "Palaeomagnetism and magnetic
+anisotropy of late Neoproterozoic strata, South Australia: Implications for the palaeolatitude of
+late Cryogenian glaciation, cap carbonate and the Ediacaran System." Precambrian Research
+174, no. 1 (2009): 35-52.
+Seton, M., Müller, R.D., Zahirovic, S., Gaina, C., Torsvik, T., Shephard, G., Talsma, A., Gurnis, M.,
+Turner, M., Maus, S. and Chandler, M., 2012. Global continental and ocean basin
+reconstructions since 200Ma. Earth-Science Reviews, 113(3), pp.212-270.
+Sharp, I.R., Gawthorpe, R.L., Armstrong, B. and Underhill, J.R., 2000, Propagation history and passive
+rotation of mesoscale normal faults: implications for synrift stratigraphic development: Basin
+Research, v. 12, no. 3-4, p. 285-305
+Shipilov, E.V., 2008. Generations of spreading basins and stages of breakdown of Wegener’s Pangea in
+the geodynamic evolution of the Arctic Ocean. Geotectonics, 42(2), pp.105-124.
+Smith, M.D., Arnaud, E., Arnott, R.W.C. and Ross, G.M., 2011, The record of Neoproterozoic
+glaciations in the Windermere Supergroup, southern Canadian Cordillera: Geological Society,
+London, Memoirs, v. 36, no. 1, p.413-424.
+Steiner, M. B. (2003), A cratonic Middle Jurassic paleopole: Callovian- Oxfordian stillstand (J-2 cusp),
+rotation of the Colorado Plateau, and Jurassic North American apparent polar wander, Tectonics,
+22(3), 1020, doi:10.1029/2001TC001284.
+Steiner, M. B., and S. G. Lucas (2000), Paleomagnetism of the Late Triassic Petrified Forest Formation,
+Chinle Group, western United States: Further evidence of ‘‘large’’ rotation of the Colorado
+Plateau, J. Geophys. Res., 105, 25,791–25,808, doi:10.1029/2000JB900093.
+Stokking, L. B., and Tauxe, L., 1990, Properties of chemical remanence in synthetic hematite: testing
+theoretical predictions: Journal of Geophysical Research: Solid Earth (1978–2012), 95(B8), p.
+12639-12652.
+Strauss, J.V., Roots, C.F., Macdonald, F.A., Halverson, G.P., Eyster, A.E., and Colpron, M., 2014b.
+Geological map of the Coal Creek Inlier, Ogilvie Mountains (NTS 116B/10-15 and 116C/9,16)
+(1:100,000 scale), Yukon Geological Survey, Open File 2014-XX.
+Swanson-Hysell, N.L., Maloof, A.C., Weiss, B.P. and Evans, D.A., 2009. Nature Geoscience, 2(10),
+pp.713-717.
+Sweeney, J.F., Weber, J.R. and Blasco, S.M., 1982. Continental ridges in the Arctic Ocean: LOREX
+constraints. Tectonophysics, 89(1-3), pp.217-237.
+Tan, X. and Kodama, K.P., 2002. Magnetic anisotropy and paleomagnetic inclination shallowing in red
+beds: Evidence from the Mississippian Mauch Chunk Formation, Pennsylvania. Journal of
+Geophysical Research: Solid Earth, 107(B11).
+
+### page_14
+Tan, Xiaodong, Kenneth P. Kodama, Stuart Gilder, and Vincent Courtillot. "Rock magnetic evidence for
+inclination shallowing in the Passaic Formation red beds from the Newark basin and a systematic
+bias of the Late Triassic apparent polar wander path for North America." Earth and Planetary
+Science Letters 254, no. 3 (2007): 345-357.
+Tauxe, L., N. Kylstra, and C. Constable (1991), Bootstrap statistics for paleomagnetic data, J. Geophys.
+Res., 96(B7), 11723–11740, doi:10.1029/91JB00572.
+Tauxe, L., and D. V. Kent (1984), Properties of a detrital remanence carried by haematite from study of
+modern river deposits and laboratory rede- position experiments, Geophys. J. R. Astron. Soc.,
+77, 543–561.
+Thorkelson, D. J., 2000, Geology and mineral occurrences of the Slats Creek, Fairchild Lake and
+“Dolores Creek” areas, Wernecke Mountains (106D/16, 106C/13, 106C/14), Yukon Territory.
+Exploration and Geological Services Division, Yukon, Indian and Northern Affairs Canada,
+Bulletin 10, 73p.
+Thorkelson, D., Abbott, J., Mortensen, J., Creaser, R., Villeneuve, M., McNicoll, V., and Layer, P.,
+2005, Early and Middle Proterozoic evolution of Yukon, Canada: Canadian Journal of Earth
+Sciences, v. 42, no. 6, p. 1045–1071, doi: 10.1139/E05-075.
+Timmons, J. Michael, Karl E. Karlstrom, Matthew T. Heizler, Samuel A. Bowring, George E. Gehrels,
+and Laura J. Crossey. 2005, Tectonic inferences from the ca. 1255–1100 Ma Unkar Group and
+Nankoweap Formation, Grand Canyon: Intracratonic deformation and basin formation during
+protracted Grenville orogenesis." Geological Society of America Bulletin 117, no. 11-12: 1573-
+1595.
+Torsvik, T.H., Tucker, R.D., Ashwal, L.D., Eide, E.A., Rakotosolofo, N.A., de Wit, M.J., 1998, Late
+Cretaceous magmatism in Madagascar: palaeomagnetic evidence for a stationary Marion
+hotspot. Earth Planet. Sci. Lett. v. 164, p. 221 – 232.
+Trompette, R., 1997, Neoproterozoic ∼ 600 Ma aggregation of Western Gondwana: a tentative scenario.
+Precambrian Research, v. 82, no.1-2 , p.101-112.
+Veevers, J.J., Walter, M.R., Scheibner, E., 1997. Neoproterozoic tectonics of Australia–Antarctica and
+Laurentia and the 560 Ma birth of the Pacific Ocean reflect the 400 m.y. Pangean Supercycle. J.
+Geol. 107, 225–242.
+Wendt, I. and Carl, C., 1991, The statistical distribution of the mean squared weighted deviation.
+Chemical Geology: Isotope Geoscience Section, v. 86, no. 4, p.275-285.
+Werner R, Schmincke HU, Sigvaldason G., 1996, A new model for the evolution of table mountains:
+volcanological and petrological evidence from Herðubreið and Herðubreiðartogl volcanoes
+(Iceland): Geol Rundschau v. 85, p. 390-397.
+Whitmeyer, S.J. and Karlstrom, K.E., 2007, Tectonic model for the Proterozoic growth of North
+America. Geosphere, v. 3, no. 4 , p.220-259.
+Wingate, M.T., Pisarevsky, S.A. and Evans, D.A., 2002. Rodinia connections between Australia and
+Laurentia: no SWEAT, no AUSWUS?. Terra Nova, 14(2), pp.121-128.
+Woodcock, N.H. and Fischer, M., 1986, Strike-slip duplexes. Journal of structural geology, v. 8, no.7 ,
+p.725-735.
+Yonkee, W. A., Dehler, C. D., Link, P. K., Balgord, E. A., Keeley, J. A., Hayes, D. S., Wells, M. L.,
+Fanning, C. M., and Johnston, S.M., 2014, Tectono-stratigraphic framework of Neoproterozoic
+to Cambrian strata, west-central US: Protracted rifting, glaciation, and evolution of the North
+American Cordilleran margin: Earth-Science Reviews, v. 136, p. 59-95.
+
+### page_15
+Zartman, R.E., Nicholson, S.W., Cannon, W.F. and Morey, G., 1997. U–Th–Pb zircon ages of some
+Keweenawan Supergroup rocks from the south shore of Lake Superior. Canadian Journal of
+Earth Sciences, 34(4), pp.549-561.
+
+### page_16
+TABLE S1. SAMPLING LOCATIONS WITH DETAILS OF LATITUDE, LONGITUDE, BEDDING, FORMATION & MEMBER
+Latitude Longitude Locality Bedding S/D Location Formation Member
+(°N) (°W) (°)
+36.264 111.882 A1301-matrix 225/3 Nankoweap Butte Sixtymile Fm. N.A.
+36.268 111.885 A1302 120/9 Nankoweap Butte Kwagunt Fm. Walcott
+36.268 111.886 A1303 133/39 Nankoweap Butte-E. limb of syncline Kwagunt Fm. Carbon Butte
+36.268 111.886 A1304 140/39 Nankoweap Butte-E. limb of syncline Kwagunt Fm. Awatabi
+36.274 111.886 A1305 157/33 Nankoweap Butte-E. limb of syncline Kwagunt Fm. Carbon Butte
+36.276 111.890 A1306 70/22 Nankoweap Butte-Center of syncline Kwagunt Fm. Carbon Butte
+36.274 111.890 A1307 65/24 Nankoweap Butte-W. limb of syncline Kwagunt Fm. Awatabi
+36.274 111.890 A1308 64/31 Nankoweap Butte-W. limb of syncline Kwagunt Fm. Carbon Butte
+36.274 111.891 A1309 44/29 Nankoweap Butte-W. limb of syncline Kwagunt Fm. Carbon Butte
+36.167 111.839 A1310 304/12 Carbon Butte-center of syncline Kwagunt Fm. Carbon Butte
+Latitude—locality Latitude (degrees north)
+Longitude—locality longitude (degrees west)
+Locality—number of locality sampled in study
+Bedding S/D—strike and dip orientation of bedding
+Location—broad regional location, see Figure 2.
+Formation, Member—details on stratigraphic unit sampled
+
+### page_17
+TABLE S2. SAMPLE LEAST SQUARE FITS AND UNBLOCKING RANGES
+Sample *Type &Component Geographic Tilt-corrected Unblocking #Arc
+of fit coordinates coordinates Range MAD##
+D I D I
+(°) (°) (°) (°) (G or °C) (°) (°)
+A1301-1A L LT 262.4 -7.8 262.8 -6.4 NRM-300 13.2
+A1301-1A L HT 307.8 36.4 308.1 33.4 650-680 11.2
+A1301-1B L HT 291.6 -1.1 291.6 1.4 635-670 4.9
+A1301-2A C Ht. 338.2 -40.9 337.7 -37.9 680-690 1.6 21.7 264.6 22.5 265.3
+A1301-2A L HTs 356.1 58.3 358.7 60.8 NRM-675 3.8
+A1301-2B L LT 227.1 -2.6 227.3 -3.1 NRM-100 10.8
+A1301-2B L HT 288.2 24.2 287.3 26.5 660-680 9.6
+A1301-2B L HTs 5.7 62.8 9.7 65 200-660 8
+A1301-3A L LT 48.3 59.2 53.3 59.5 NRM-200 8
+A1301-3A C HT 354.7 -1.8 354.7 0.9 670-680 3.5 76.9 285.9 101.7 252.7
+A1301-3A L HTs 73.3 71.9 81.7 70.8 575-675 3.1
+A1301-3B L HTs 351.1 61.3 353.7 64 NRM-570 4.6
+A1301-3B L HT 281.7 37.1 282.9 34.6 575-705 2.9
+A1301-4A L LT 318.3 -22.2 318.5 -19.2 NRM-100 9.9
+A1301-4A L HT 268.6 -3.8 268.7 -2.3 450-705 5
+A1301-4B L LT 308.9 -20 309.1 -17.1 NRM-100 6.4
+A1301-4B L HT 276.1 -8 275.8 -10.3 450-705 1.6
+A1302-1A L LT 249.2 24.8 247 17.7 NRM-100 1.6
+A1302-1A L MT 281.8 73.4 259.1 68.7 200-400 14.1
+A1302-1B L LT 282.1 19 279.4 16 NRM-AF125 4.1
+A1302-1B L MT 304.4 46.7 294.8 46.6 AF150-400 12.2
+A1302-1B C HT 9 -19 9.8 -10.5 AF150-400 12.1 82.2 249.9 79 246.6
+A1302-2A L LT 278.7 17.9 276.3 14.4 NRM-AF125 2.8
+A1302-2A L MT 307.3 63 289.6 62.8 100-450 7.1
+A1302-2A C HT 11.9 -21.2 12.5 -12.7 375-450 10.9 92.8 259.3 90 256.5
+A1302-2B L LT 290.2 20.5 287 18.8 NRM-AF15 3.2
+A1302-2B L MT 306 52.6 294.2 52.6 AF150-400 11.1
+A1302-2B C HT 18 -22.1 18.7 -13.3 300-450 13.4 97.4 253.8 95.4 251.8
+A1303-1A L LT 152.6 -3.1 146.7 -14 NRM-350 8.9
+A1303-1A L MT 31.4 49.3 321.3 81.7 400-540 10.3
+A1303-1A C HT 35.9 13.8 31.2 52.2 530-545 6.9 -13.3 237.3 -5 245.6
+A1303-2A L LT 78 35.8 115.1 61.5 NRM-AF125 6.2
+A1303-2A$ L MT 65.4 3.3 71.8 39 200-565 14.2
+A1303-2A L HT 120.5 -29.5 105.1 -14.7 590-650 5.7
+A1303-2B L LT 95.5 34 129.6 49.6 NRM-200 13.9
+A1303-2B L HT 109.9 -35.6 94 -14 530-680 9.1
+A1303-2C$ L LT 0.5 0.9 354.2 26.8 NRM-200 45.4
+A1303-2C$ L HT 91.7 -17.4 89.8 9.9 300-575 18.8
+A1303-2C L HT 108.3 -36.9 92.1 -14.4 570-635 8.8
+A1303-3A$ L LT 359.2 62.7 271.2 63.5 NRM-300 31.8
+A1303-3A**$ L HT 86.1 -28.2 80.2 2.6 350-560 13.8
+A1303-3A** L HT 104.3 -25.6 95.8 -3.1 575-635 10.4
+A1303-3B$ L LT 172.9 80.5 213.6 44.7 NRM-100 23.9
+
+### page_18
+A1303-3B**$ L HT 103.4 -11.7 102.6 9.1 200-570 14.6
+A1303-3B** L HT 95.9 -31.8 86.1 -4.5 605-680 12.9
+A1304-1A L MT 19.7 71.4 253.3 65.9 NRM-375 2.9
+A1304-1A C HT 73.2 23.8 91.5 57.2 540-560 5.3 -79.9 127.3 -106.7 100.5
+A1304-1B L MT 21.1 56.5 291.8 72.4 NRM-400 3.1
+A1304-1B L HT 123.6 -40.6 101.8 -22 400-570 14.7
+A1304-2A L LT 319.1 69.7 260.6 46.9 NRM-AF150 6.4
+A1304-2A L MT 14.1 57.6 289.1 68.5 100-375 9.8
+A1304-2A L HT 129.6 -50.3 97.7 -32 500-605 14.2
+A1304-2B L MT 14.5 59.3 284.4 68.6 NRM-350 9.7
+A1304-2B L HT 122.2 -42 100 -22.4 500-590 6.3
+A1305-1A L LT 196.9 27 203.7 3.9 NRM-AF75 5
+A1305-1A L HT 287.6 51.2 273.3 23.2 450-690 14.6
+A1305-1B L LT 182.4 40.7 199.7 21.6 NRM-AF50 11.2
+A1305-1B$ L HT 296.1 70.5 266.9 42.2 560-670 32.5
+A1305-3A$ no fits with MAD <15°
+A1305-3B L MT 345.6 63.4 292.7 51.8 NRM-560 11.7
+A1305-3B†† L HTs 358.3 56.9 307.2 54.2 650-695 6.2
+A1305-4A L MT 326 54.5 293.8 38.5 LN2-375 13.3
+A1305-4A L HT 298.7 53.4 279.1 28.2 670-690 13.6
+A1305-4B L MT 296.9 65.7 270.7 38.4 AF50-400 14.1
+A1305-4B L HT 275.9 54.8 264.8 24.2 580-680 5.2
+A1306-1A$ L MT 104.8 20.6 109.2 7.3 100-450 28.8
+A1306-1A L HT 104.9 10.2 106.1 -2.8 450-660 13.2
+A1306-1B$ L MT 262.2 57.9 227.8 55.8 NRM-400 19.6
+A1306-1B L HTs 333.1 66 284.3 86.6 450-660 5.3
+A1306-2A$ L HTs 325.5 17.8 322.1 39 NRM-450 11.2
+A1306-2A L HTs 358.3 53.8 20.6 73.4 560-700 11.9
+A1306-2B** L MT 350.4 27.1 354.0 48.6 NRM-565 2.2
+A1306-2B** L HTs 351.2 45.4 0.3 66.7 660-700 7.5
+A1307-1A L LT 329.4 43.8 323.1 67.4 NRM-AF150 7.3
+A1307-1A† L MT 305.9 68.6 220.1 78.1 200-400 8.4
+A1307-1A† C HT 8.1 -23.5 5 2.7 100-300 9.9 81.4 235.3 81.5 287.6
+A1307-1B L LT 31.5 43.3 56.8 52.7 NRM-AF150 7.7
+A1307-1B† L MT 314.3 78.7 173.8 75.9 100-350 4.1
+A1307-1B† C HT 9 -5.2 10.2 15 100-450 8.1 -155.4 274.5 -37.8 252.3
+A1307-2A L LT 6 43.5 26.8 62.3 NRM-100 2.2
+A1307-2A† L MT 27.4 58.5 72.9 65.9 200-375 11.7
+A1307-2A† C HT 348.6 -24.9 347.2 5.1 200-375 6.5 -169.2 330.4 -18.6 201.7
+A1307-2B L LT 351.9 68.1 93 83.6 NRM-100 3.8
+A1307-2B† L MT 18.6 69.6 111.1 68.4 100-350 3.4
+A1307-2B L HT 111.2 -11.9 101.5 -33.4 375-450 5.7
+A1307-3A† L MT 295.8 55.4 255.4 68.1 AF100-350 5.3
+A1307-3A† C HT 352.6 -18.5 351.8 4.5 100-545 9.4 167.1 267.5 6.4 265.9
+A1307-3B$ L MT 210.5 22.6 205.4 7.5 NRM-300 7.3
+A1309-1A L HTs 30.3 58.7 75.9 54.3 NRM-605 14.7
+A1309-1B L LT 190.2 -63.4 254.9 -65 NRM-300 17
+A1309-1B L HTs 340.4 19 349.4 44.4 475-680 14.1
+
+### page_19
+A1309-2A L HTs 10.4 55.3 59.1 61.3 100-680 5.8
+A1309-2B L MT 68.8 71.3 108 50 AF25-350 13.8
+A1309-2B L HTs 30.2 42.2 57.7 42.9 400-660 6.9
+A1309-3A L LT 40.5 1.7 41.9 3.8 AF25-350 7.3
+A1309-3A L HTs 341.2 33.7 358.6 58 620-660 5.8
+A1309-3B L HTs 341.9 45.4 12.3 68 200-675 5.2
+A1310-1 L LT 274.6 16 278.2 21.5 NRM-100 14.2
+A1310-1$ L MT 52.1 -3.5 52.7 -15 300- 560 23.9
+A1310-1 C HT 250.6 67.9 279.3 75.7 560-660 7.9 121.6 268.3 91.4 238.2
+A1310-2A$ L LT 100.9 48.7 90.6 43 AF25-350 25.1
+A1310-2A L HT 102.4 -20.3 107 -24.3 300-665 7.8
+A1310-2B$ L LT 15.1 11.8 15.6 0.7 NRM-250 24.6
+A1310-2B L HT 88.8 -8.8 90.9 -15.6 300-665 8.3
+A1310-3A$ L MT 83.6 11 82.4 3.2 400-570 15.3
+A1310-3A L HT 98.6 -27.6 105 -32.2 550-660 14.4
+A1310-3B$ L MT 129.6 -8.3 131.2 -6.9 300-650 15.5
+A1310-3B L HT 106.2 -10.7 108.7 -14.1 565-660 5.7
+HT Locality MAD/
+Means: locality D I D I k α n
+95 sample
+A1303 108.5 -32.4 95 -10.8 86.4 7.7 6
+A1304 122.4 -47.4 96.2 -26.6 48.1 15.1 4
+A1305 287.5 53.5 272.3 25.3 89.9 10.7 3
+A1306 104.9 10.2 106.1 -2.8 N.A 13.2 1
+A1307 102.3 -19.3 89.6 -35.1 46.4 18.3 5
+A1310 99.8 -13.2 102.9 -17.8 24.2 17.2 5
+Pole
+Pass/Fail:
+D/I α D/I α Latitude/ A
+MEANS k 95 k 95 unfolding 95 N K
+(o) (o) (o) (o) Longitude (o)
+range
+(oN/oE)
+Mean of
+Pass:
+averaged 97.3/-
+106.6/-26.25 11.2 20.9 38.4 10.9 54 – 109% 11.9/162.5 7.5 6 81.7
+localities 19.8
+unfolding
+Mean of
+averaged Pass:
+98.7/-
+strata within 108.5/-29.6 13.9 13.4 52.3 6.7 70 – 109% 13.1/161.5 4.6 10 111.1
+19.8
+15 cm of unfolding
+each other$$
+*L=linear C=great circle
+&Component designation used for analysis, LT=low temperature, MT=mid temperature,
+HTs=steep high temperature, HT=shallow high temperature
+#rake within the plane of the farthest point and the antipode of the beginning point- bound the arc
+within the plane where the primary direction may lie (both geographic and stratigraphic).
+$sample excluded from subsequent analysis
+**HT component unblocking temperatures consistent with magnetization carried by minerals with
+two distinct unblocking temperatures. Lower unblocking temperature directions are shallower.
+##MAD=maximum angle of deviation
+†A1307 samples-overlap of demagnetization temperatures for linear fit MT and great circle fit HT
+components
+†† A1305-3B displays HTs
+Note: all A1308 samples and A1305-3A: no fits with MAD <15°
+$$Pole when these directions are combined with the Carbon Butte-Awatabi sites of Weil et al.
+(2004): Pole =163.2oE, Pole =14.3oN, A =3.7o, K=100.9, N=16
+Longitude Latitude 95
+
+### page_20
+TABLE S3. IRM ACQUISITION PARAMETERS
+Sample Field where 99.5% Component 1 Component 2
+sIRM is reached
+% Contribution B (mT) dp % Contribution B (mT) dp
+(mT) 1/2 1/2
+A1303-2Ay 2200 100.00 502.09 0.26
+A1303-3By 1600 100.00 485.79 0.27
+A1310-2Ax 2600 100.00 676.10 0.32
+A1310-3Bx 2600 100.00 708.23 0.27
+A1304-1By 2600 94.40 631.00 0.26 5.60 63.10 0.35
+A1304-2Ax 2400 85.78 617.90 0.26 14.22 62.43 0.27
+A1305-4Ay 2200 79.00 631.00 0.41 21.00 50.10 0.42
+A1305-3By 2600 42.30 489.80 0.22 57.70 141.30 0.55
+A1309-1Ax 2400 69.80 398.10 0.50 30.20 79.40 0.50
+A1309-1By 2600 67.40 446.70 0.40 32.60 63.10 0.40
+A1309-2Ay 2600 75.30 588.80 0.34 24.70 72.40 0.40
+
+### page_21
+TABLE S4. BACKFIELD AND HYSTERESIS PARAMETERS
+*B *M †M †M †B
+cr r s r c
+Coercivity of Saturation Saturation Saturation Coercive
+remanence remanence magnetization remanence Field †M/†M
+r s
+(mT) (Am2) (Am2) (Am2) (mT) (squareness) B /B
+cr c
+A1303-2Ay 563.6 3.8E-06 1.5E-06 8.8E-07 300.60 0.58 1.88
+A1303-3By 520.4 3.0E-06 3.0E-07 1.7E-07 300.10 0.56 1.73
+A1310-2Ax 719.3 1.4E-05 2.3E-06 1.3E-06 310.70 0.57 2.31
+A1310-3Bx 733.6 1.0E-05 1.2E-06 7.7E-07 413.60 0.62 1.77
+A1304-1By 628.5 1.9E-06 3.5E-07 2.5E-07 323.10 0.71 1.95
+A1304-2Ax 533.8 4.9E-07 1.2E-07 6.9E-08 69.37 0.56 7.70
+A1305-4Ay 392.9 3.7E-06 9.5E-07 4.4E-07 82.92 0.46 4.74
+A1305-3By 294.71 7.9E-07 8.4E-07 2.2E-07 50.00 0.27 5.89
+A1309-1Ax 203.03 8.2E-06 2.9E-06 1.2E-06 56.84 0.41 3.57
+A1309-1By 221.00 4.3E-06 6.0E-07 1.9E-07 37.05 0.31 5.96
+A1309-2Ay 396.16 2.3E-06 6.4E-07 2.1E-07 53.67 0.32 7.38
+*from IRM backfield experiments
+†from hysteresis experiments
+
+### page_22
+TABLE S5. MEMBER DATA FROM WEIL ET Al. 2004
+Member and Site D/I (in situ) (o) D/I (tilt corrected)(o) α (o) k n/N
+95
+Walcott:
+JG60-18 290/54 303/29 18 27 7/7
+JG60-6 299/50 290/30 13 28 7/7
+Walcott HT Mean† D/I = 294.70/52.09 D/I = 296.37/29.88 tilt α >> in situ α 2 sites
+95 95
+α = 14.92 α = 24.31 14 samples
+95 95
+k = 281.93 k = 107.65
+Awatabi:
+JG-53-2 107/-31 98/-13 11 76 6/7
+Carbon Butte
+#AW-13-4 272/3 272/23 9 39 8/8
+AW-12-10 88/−25 94/−34 12 65 6/8
+AW-12-11 103/−13 108/−28 16 258 6/8
+*AW-12-13 85/−28 83/−36 21 20 7/8
+AW-12-14A 92/−20 97/−39 12 60 6/8
+AW-12-14B 97/−19 103/−37 12 39 8/8
+Carbon Butte HT Mean† D/I = 94.48/-16.08 D/I = 98.66/-32.65 5 sites
+α = 9.57 α = 8.49 Indeterminate 32 samples
+95 95
+k = 64.89 k = 82.05 95% confidence bounds:
+-10–109% unfolding
+Awatabi + Carbon Butte D/I = 96.38/-18.63 D/I = 98.53/-29.38 Indeterminate 6 sites
+HT Mean† α = 9.86 α = 9.44 95% confidence bounds: 38 samples
+95 95
+k = 47.10 k = 51.31 -10–109% unfolding
+Carbon Canyon
+AW-12-8 260/60 256/17 13 27 6/8
+AW-12-9 256/48 254/−11 9 90 7/8
+AW-12-15 277/31 285/35 15 24 7/8
+AW-12-19 299/−8 296/1 16 16 7/7
+AW-12-20 284/5 285/7 7 53 6/7
+AW-13-1 264/6 264/−5 11 31 7/7
+AW-13-2 264/18 259/10 15 16 7/7
+AW-13-3 254/26 245/22 14 21 7/8
+AW-13-6 241/−20 247/−5 12 31 7/8
+AW-13-7 260/−19 263/2 17 22 6/7
+AW-13-8 267/−2 267/10 14 24 7/7
+AW-13-9 252/−29 259/−7 15 27 6/7
+AW-13-10 264/−6 263/13 14 25 7/7
+AW-13-11 263/−30 269/−5 19 13 7/8
+Carbon Canyon HT D/I = 265.14/5.34 D/I = 264.93/6.11 Pass fold test 14 sites
+Mean† α = 16.14 α = 9.65 95% confidence bounds: 94 samples
+95 95
+k = 7.03 k = 17.93 72 – 109% unfolding
+Jupiter
+AW-12-22 268/−11 266/−5 16 20 8/8
+AW-12-23 270/3 272/5 6 112 8/8
+PDF- Carbon Butte
+T-52-1 5/64 313.26/68.78 8 56 8/8
+T-65-1 4/54 21.64/44.07 11 50 5/8
+T-65-2 5/53 21.86/42.92 7 107 6/8
+JG-60-2 0/61 325.62/44.00 6 122 6/8
+JG-60-3 5/55 319.23/34.68 8 151 6/8
+JG-53-4 13/57 320.21/63.65 10 51 6/8
+JG-53-5 345/63 295.92/54.84 10 30 9/9
+AW-13-5 6/51 36.16/60.33 7.8 61 8/8
+AW-12-12 11/68 35.25/50.65 9 61 8/8
+Dand I—mean declination and inclination
+k—Fisher’s (1953) precision parameter
+α —radius of confidence circle for the mean direction
+95
+n/N—number of samples used/total number of samples
+#reversed for calculations of means
+*discarded from subsequent analysis because α >20o
+95
+†Mean calculated from sites with α <20o: first column = in situ mean, second column=tilt corrected mean, third column= fold test
+95
+result and 95% confidence bounds, fourth column=number of sites and samples
+
+### page_23
+TABLE S6. POTENTIAL EXPLANATIONS FOR WALCOTT SITE MEANS
+Explanation 1: varying the temperature steps used in line fits
+Temperature steps used(oC) Resultant D/I from linear least squares fit
+D (o) I (o) MAD (o) n
+steps
+HT 1: 685, 690, 695, 700 281.5 34.4 1.5 4
+2: 660, 695, 700 285.9 39.5 0.9 3
+3: 650, 695, 700 297.2 43.2 1.9 3
+4: 620,695, 700 291.7 48.9 6.6 3
+5: 580, 605, 690, 700 302.4 48.5 6.8 4
+6: 580, 605, 690 314.0 53.2 2.7 3
+MT 351.1 61.3 4.6 29
+Explanation 2: Mixing between samples with HT and HTs directions
+Random directions drawn from HTs dataset κ: 27, N: 8, Mean D: 351, Mean I: 6
+sample D (o) I (o)
+HTs 1 336.8 52.7
+HTs 2 292.1 75.1
+HTs 3 310.1 56.7
+HTs 4 304.3 61.4
+HTs 5 358.9 49.9
+HTs 6 336.4 73.0
+HTs 7 3.4 52.2
+HTs 8 359.7 62.3
+Random directions drawn from HT dataset κ: 27, N: 8, Mean D: 281.5, Mean I: 34.3
+sample D (o) I (o)
+HT 1 296.3 29.5
+HT 2 299.6 34.5
+HT 3 278.0 44.5
+HT 4 270.7 42.8
+HT 5 291.6 12.9
+HT 6 283.4 25.6
+HT 7 290.6 43.0
+HT 8 287.4 23.4
+Computed site means with percentage of HT and HTs varying
+D (o) I (o) α (o) N samples k
+95
+0% HTs 287.67 32.34 9.45 8 35.33
+12.5% HTs 290.72 36.11 15.99 8 17.32
+25% HTs 289.49 41.15 16.75 8 11.89
+50% HTs 297.14 45.00 17.4 8 11.88
+75% HTs 312.38 57.25 15.95 8 13.01
+100% HTs 336.98 62.69 10.99 8 26.36
+Dand I—mean declination and inclination
+MAD—maximum angle of deviation
+k—Fisher’s (1953) precision parameter
+α —radius of confidence circle for the mean direction
+95
+n —number of steps used in least squares fit
+steps
+N—total number
+
+### page_24
+TABLE S7. REANALYZED A DATA FROM DATED SILL (PARK 1981)
+R
+Paleomagnetic Pole
+Site
+Latitude Longitude A N
+95
+2 3 143 7
+3 2 137 1
+4 8 138 6
+5 -2 139 4
+13 2 141 6
+#VGP mean 2.6 139.6 4.1 5
+Site—Name of paleomagnetic site of Park 1981
+Paleomagnetic pole—Latitude (oN), Longitude (oE), A (o) = cone of 95%
+95
+confidence and N = number of specimens for the sites, and overall number of
+sites for the VGP mean
+#K=353.5 for this VGP mean
+
+### page_25
+TABLE S8. HOTTAH SHEETS (PARK ET AL.1995)
+Site n D I α k Paleomagnetic pole
+95
+(o) (o) (o) Latitude Longitude A
+95
+Gunbarrel Sheet* 7 281 3 6 95 5.9 142.4 ND
+Calder Sheet Site 4† 6 292 27 10 36 22.0 138.4 ND
+Calder Sheet Site 5§ 4 307 24 26 7 26.1 123.4 ND
+Margaret Sheet Site 6# 4 283 12 9 101 11.1 143.7 ND
+Margaret Sheet Site 7** 4 278 20 8 80 12.7 150.4 ND
+Margaret Sheet Mean ND ND ND ND ND 11.9 147.0 14.76
+Hottah Mean pole†† ND ND ND ND ND 13.3 142.7 14.0
+Site—site name
+n—number of samples
+Dand I—declination and inclination
+α —radius of confidence circle for the mean direction
+95
+k—Fisher’s (1953) precision parameter
+*Pole calculated for site location 65.67N 118.14W
+†Pole calculated for site location 65.53N 117.30W
+§Site not included due to high α
+95
+#Poles calculated for site location 64.40N 117.13W
+**Poles calculated for site location 64.50N 116.90W
+††Pole calculated as mean of VGPs of Gunbarrel Sheet, Calder Sheet Site 4 and Margaret Sheet Mean
+
+### page_26
+TABLE S9. LAURENTIAN PALEOMAGNETIC POLES FROM THE MACKENZIE MOUNTAINS SUPERGROUP
+Paleomagnetic Pole
+Unit/Fm Pole Age (Ma) Type of Age and Reference Paleomagnetic Reference NOTES
+Lat. Long. A
+95
+Redstone river (RRF) >732 Ma Re-Os 732 Ma in overlying Coppercap 22 151 9 Park and Jefferson, 1991 Declinations and inclinations are affected by tectonic
+rotations and faulting
+Thundercloud (TH) 740-750 correlations 1 150 21 Park and Jefferson, 1991 Large error due to tectonic rotation on declinations
+Rusty Shale (LRA) >811-820 811 Ma U-Pb zircon age from correlative -8 133 17 Park and Jefferson, 1991
+Fifteenmile Group (Macdonald et al., 2010)
+Basinal Little Dal (bLD) 820-830 Correlations -15 141 3 Park 1981
+Mudcracked (M) 830-840 Correlations -9 143 8.5 Park 1984
+Katherine Group (K) 840-850 Correlations 9 150 5.7 Park and Aitken 1986a
+Tsozotene Fm (TA) 850-860 correlations 12 146 8 Park and Aitken 1986b
+A95— radius of the circle of 95% confidence about the mean from Fisher statistics on site mean poles. If not available, A95 ~ √dp × dm. dp and dm =semi-axes of the 95% ellipse of confidence about the
+mean (Khramov, 1987, p. 97).
+
+### page_27
+TABLE S10. UINTA MOUNTAIN GROUP PALEOMAGNETIC DATA FROM BRESSLER (1981)
+Site n D I α k Paleomagnetic pole corrected for flattening§ #Paleomagnetic pole
+95
+(o) (o) (o) Latitude Longitude A D I Longitude Latitude
+95
+(o) (o) (o) (o) (o) (o) (o)
+Site 6-Hades Pass (upper part of Qtz) 8 106.3 22.1 15.9 13.0 4.6 140.1 12. 106.3 28.8 318.1 -1.8
+Western Uinta Mountains 2
+Site 5-Hades Pass (lower part of Qtz) 48 267.2 -15.3 1.3 241.9 -7.2 155 1.0 267.2 154.1 -9.0
+-20.3
+Western Uinta Mountains
+Site 5 overprint-Hades Pass 6 93.6 -24.4 10.5 41.8 11 167 8.2 93.6 351.1 -13.8
+(lower part of Qtz) -31.6
+Western Uinta Mountains
+Site 4-Mount Watson 7 278.6 -3.8 26 6.3 5.3 152 18. 278.6 152.7 4.8
+6.1
+Western Uinta Mountains 4
+Site 3-Shale Moosehorn lake 14 269.8 -13.1 4.4 83.5 4.5 154.2 3.2 269.8 153.6 -6.0
+-5.1
+Western Uinta Mountains
+Site 2-Lower-Middle part of Uinta Mountain 13 274 0.1 9.6 19.8 3.1 158.3 6.8 274 157.7 3.1
+-17.5
+Group
+Site 1a and 1b-Lower part of Uinta 26 267.8 -3.3 8.6 11.9 -2.7 161.1 6.1 267.8 160.0 -3.1
+0.1
+Mountain Group
+Site—site name
+n—number of samples
+Dand I—declination and inclination
+α —radius of confidence circle for the mean direction
+95
+k—Fisher’s (1953) precision parameter
+Paleomagnetic pole—Latitude (oN), Longitude (oE), A (o) = cone of 95% confidence-used for final Uinta Mountain group mean calculations
+95
+§Inclination corrected for flattening using f=0.738
+#Paleomagnetic Pole calculated using D and I corrected for inclination flattening
+
+### page_28
+TABLE S11. UINTA MOUNTAIN GROUP PALEOMAGNETIC DATA WEIL ET AL. 2006
+Locality and Site Bedding In situ tilt corrected §optional directions
+corrected for inclination flattening
+Strike(o) Dip(o) D(o) I(o) α (o) k D(o) I(o) D(o) §I(o)
+95
+Sheep Creek Canyon
+SC 2 325 81 104.5 36 11.5 45 97.9 -25.3 97.9 -32.6
+SC 5 324 80 102.6 58.7 12.7 53 77.4 -11 77.4 -14.8
+SC 6 325 78 114 31.3 12.6 23.8 105.7 -18.8 105.7 -24.8
+SC 9 293 43 97.5 -8.2 17.1 52.9 107.2 -16.5 107.2 -21.9
+SC 10 301 55 81.2 33.3 11.9 108.4 71.3 -7.1 71.3 -9.6
+SC 11 296 39 98.1 -12.5 4.1 115 110 -20.9 110 -27.4
+SC 12 297 36 95.3 6.5 5.3 69.2 95.5 -7.1 95.5 -9.6
+SC 13 286 38 88.7 15.6 6.5 1502 83 2 83 2.7
+SC 13 286 38 82.3 32.9 12.5 98.1 68 12.7 68 17.0
+SC 14 301 39 105.3 6.4 3.4 718.1 104.7 -4.7 104.7 -6.4
+SC 15 298 30 108 6.4 11.6 63.8 106.2 0.6 106.2 0.8
+SC 16 315 41 105.9 6 9.5 65.6 108.5 -13.8 108.5 -18.4
+SC 17 308 41 90.5 10.2 7.5 48.1 91.9 -15 91.9 -20.0
+SC 19 303 40 96.2 11.7 9.6 64.6 94.8 -7.4 94.8 -10.0
+SC 20 304 35 97.4 6 5.7 64.6 98.5 -9.8 98.5 -13.2
+SC 21 305 52 273.1 62.9 20.7 36.5 0 47.5 0 55.9
+SC 22 287 30 90.8 22.3 6.4 39.3 82.1 11.5 82.1 15.4
+SC 23 287 30 98.3 0.5 7.5 56 99.2 -3.9 99.2 -5.3
+SC 24 267 20 95.1 -1.2 3.6 665.2 95 1.6 95 2.2
+SC 26 257 22 89.8 -0.4 5.9 55.9 89 4.4 89 6.0
+SC 71 294 33 99.5 -1.8 11.3 47.2 102.7 -9.4 102.7 -12.6
+SC 72 318 25 96.4 18.4 15.9 24 93.2 1.1 93.2 1.5
+SC 75 294 39 89.6 0.1 13.2 22 94.5 -15 94.5 -20.0
+SC 77 284 32 90.6 11.1 7.5 66.3 86.8 2.5 86.8 3.4
+SC 80 296 27 86.6 20.7 10.2 36 81 6.1 81 8.2
+SC 83 284 30 103.3 -11.1 2.5 502.2 109 -9.9 109 -13.3
+SC 84 278 95 90.9 -0.9 7.3 70.1 99.5 -7 99.5 -9.4
+SC 85 280 30 77.2 17.9 8.2 46.4 71.7 4.7 71.7 6.4
+SC 86 267 23 88.5 9.9 8.3 53.5 84.5 9.7 84.5 13.0
+SC 87 279 35 89.6 -11.8 7.3 69.4 98.2 -15 98.2 -20.0
+SC 88 292 27 74.3 10.7 11.6 44.3 73.4 -6.2 73.4 -8.4
+SC 89 247 15 99.3 -19.5 11 23 102.7 -11.1 102.7 -14.9
+SC 90 247 15 91.1 -21.8 9.6 50.1 95.6 -15.1 95.6 -20.1
+Browne Lake
+BL 54c 278 5 – – – – – – – –
+BL 55a 278 5 41.7 57.9 6.4 114.9 37.8 53.7 37.8 61.5
+BL 56 277 11 82.9 -5.8 13.1 35.1 84.3 -8.3 84.3 -11.2
+Carter Creek
+CC 57 285 12 263.2 -13.4 5.8 – 261 -8.7 261 -11.7
+CC 58 232 10 266.4 -6.7 4.4 – 265 -12.3 265 -16.5
+CC 59 277 9 270.4 -11.8 12.9 – 268.6 -10.6 268.6 -14.2
+CC 60 300 5 272 -5 3.4 – 271.7 -2.6 271.7 -3.5
+CC 61 281 1 263.9 -5.9 11.7 – 263.8 -5.6 263.8 -7.6
+Dowd Springs non-fold test rocks
+DS 29 – 0 98.7 -20.1 30.7 4.8 98.7 -20.1 98.7 -26.4
+DS 29 – 0 281.1 -42.2 14.3 30.3 281.1 -42.2 281.1 -50.9
+DS 30 107 4 290.9 -72.2 8.1 69.2 302.9 -71.5 302.9 -76.1
+DS 31 217 3 107.1 3.3 20.6 8.2 107 6.1 107 8.2
+DS 32 – 0 282 -36.1 24 11.1 282 -36.1 282 -44.7
+DS 33 132 7 97 -14.7 19.9 39.5 95.7 -10.6 95.7 -14.2
+DS 34 132 7 101.9 -5 10.8 23.7 101.6 -1.5 101.6 -2.0
+DS 35 99 4 103.8 -7.2 8.8 31.1 103.3 -7.5 103.3 -10.1
+DS 36 102 6 108.7 -23 9.3 31.4 106.1 -23.6 106.1 -30.6
+DS 37 120 10 107.6 6.6 12.4 18.3 108.9 8.6 108.9 11.6
+DS 38 102 12 91.7 -12.7 10.7 13.7 89.3 -10.3 89.3 -13.8
+Dowd Springs fold test rocks
+DS 39 63 19 261.7 -0.2 11.5 48.33 260.8 11.5 260.8 15.4
+DS 40 63 19 257.8 -38.7 12.7 64.1 270.5 12.7 270.5 17.0
+DS 41 63 19 261.2 -19.4 8.5 139.59 266.3 8.5 266.3 11.4
+DS 42 221 14 271.2 -0.6 14.8 46.69 270.3 14.8 270.3 19.7
+DS 43 221 14 276.4 8.2 12.2 32.1 276.7 12.2 276.7 16.3
+DS 44 221 14 271.4 -6.8 7.9 103.9 269.4 7.9 269.4 10.6
+Flaming Gorge Section
+FG-AW-01 236 18 270.8 -9.3 16.5 57 267 -19 267 -25.0
+FG-AW-02 236 18 264.4 -10.5 9.4 51.4 260 -18 260 -23.8
+FG-AW-03 236 18 274 -7.6 11.8 110.2 271 -19 271 -25.0
+FG-AW-04 236 18 255.6 4.6 11.4 35.4 257 -1 257 -1.4
+FG-GA-01 232 15 264.9 -5.3 6.6 135.2 261 -18 261 -23.8
+FG-GA-02 220 20 268.4 -1 20.1 15.5 266 -16 266 -21.2
+FG-GA-03 229 17 266.5 -3.4 13.3 34 265 -13 265 -17.4
+FG-GA-04 205 17 262.2 7.8 10.4 54.7 262 -6 262 -8.1
+c
+FG-GA-05 236 16 – – – – – – – –
+FG-GA-06 238 18 275.1 0.9 9.1 72 274 -10 274 -13.4
+FG-GA-07 237 18 271.1 -3.1 8.3 65.7 269 -13 269 -17.4
+FG-GA-08 237 18 259.1 -3 6.7 101.8 257 -10 257 -13.4
+FG 48 250 18 275.2 -8.2 4.4 – 271.7 -15.4 271.7 -20.5
+FG 49 273 18 267.7 -5.7 8.1 – 266.2 -3.8 266.2 -5.1
+a
+
+### page_29
+FG 50 254 20 295.3 -10.3 8.9 – 290.6 -23 290.6 -29.9
+FG 51 268 16 275.1 -3.1 3.2 – 274 -4.9 274 -6.6
+FG 52 268 18 279.2 -12.1 8.3 – 274.9 -15 274.9 -20.0
+FG 53 296 15 275.5 2.5 7.5 – 276.8 7.6 276.8 10.2
+Bull Canyon
+BC 01 29 13 270.6 5.9 6 101.1 267.9 8.8 267.9 11.8
+BC 02b 55 16 280.2 6.2 16.6 13.9 277.2 7.3 277.2 9.8
+BC 03 16 19 267.3 -5.9 14.4 23.4 267 12.1 267 16.2
+b
+BC 04 51 20 276.4 -2.2 20.5 8 271.8 1.2 271.8 1.6
+BC 05 51 20 274.2 10 14.2 22.5 272.3 8.7 272.3 11.7
+BC 06 51 20 269 5.1 5.8 71.9 264.9 12.1 264.9 16.2
+BC 07 49 12 279.4 2.5 8.4 44.4 277.9 5.8 277.9 7.8
+BC 08 89 17 282.9 2.3 9.2 37.7 281.8 6.2 281.8 8.4
+BC 09a 19 12 2.1 56.7 4.4 121.3 20.1 58.2 20.1 65.4
+BC 10b 99 2 267.1 8.2 17.9 14.5 269 10.5 269 14.1
+Home Mountain Canyon
+UMG-GA-01 112 82 289.5 21.2 15.9 24.1 271 0 271 0.0
+UMG-GA-02 116 52 284.3 34.7 14.1 19.2 261 12 261 16.1
+UMG-GA-03 113 66 287.9 31.7 18.4 18.2 262 8 262 10.8
+Sparks–Talamantes Creek
+SP 01 306 58 105.2 22.1 6.5 63.5 96.3 -4.6 96.3 -6.2
+a
+SP 02 295 62 67.8 59.2 14.3 29.7 45.4 4.1 45.4 5.5
+SP 03 313 70 92.1 30.5 11.9 42.3 87.2 -20.9 87.2 -27.4
+SP 04 299 61 95.9 35.6 9.2 43.9 77.4 0.2 77.4 0.3
+SP 05 315 63 88.8 34.6 11.6 23.7 81.3 -15.8 81.3 -21.0
+SP 06 324 66 99.9 26 8.6 50.7 98.6 -23.1 98.6 -30.0
+SP 07 299 61 104.2 31.6 14 43.9 84.6 3.7 84.6 5.0
+SP 08 312 65 95.7 20 9.2 43.8 96.3 -21.1 96.3 -27.6
+Locality and Site—Locality and site names
+n—number of samples
+Dand I—declination and inclination
+α —radius of confidence circle for the mean direction
+95
+k—Fisher’s (1953) precision parameter
+Paleomagnetic pole—Latitude (oN), Longitude (oE), A (o) = cone of 95% confidence
+95
+§Tilt corrected directions with inclination corrected for flattening using f=0.738
+
+### page_30
+TABLE S12. MESOPROTEROZOIC PALEOMAGNETIC POLES
+Paleomagnetic Pole
+Pole Age (Ma) Type and Age Reference Latitude Longitude A Paleomagnetic Reference
+(oN) (oE) (o 9 ) 5 N
+North Shore Volcanic Group 1098.4 ± 1.9, Pb-Pb weighted mean, 35.8 Tauxe and Kodama, 2009; mean
+182.1 3.1 47
+(upper SW sequence) 1096.6 ± 1.7 Davis and Green, 1997 calculated in Fairchild et al., 2017
+U-Pb concordia intercept, 27.1
+Portage Lake Volcanics 1096.2 ± 1.8 182.0 2.2 97 Books, 1972; Hnat et al., 2006
+Davis and Paces, 1990
+Pb-Pb zircon, weighted mean, Kean, et al. 1997
+Chengwatana Volcanics 1094.6 ± 2.1 30.9 186.1 4.9 8
+Zartman et al., 1997
+CA-ID-TIMS Tauxe and Kodama, 2009;
+Schroeder-Lutsen basalts <1091.61 ± 0.14 27.1 187.8 3.0 50
+Fairchild et al., 2017 Fairchild et al., 2017;
+CA-ID-TIMS 23.1 Kulakov et al., 2013
+Lake Shore Traps 1085.57 ± 0.25 186.4 4.0 31
+Fairchild et al., 2017
+1084.35 ± 0.20, CA-ID-TIMS Palmer and Davis, 1987; Fairchild
+Michipicoten Island Fm 17 174.7 4.4 23
+1083.52 ± 0.23 Fairchild et al., 2017 et al., 2017
+Re-Os Henry et al., 1977; Symons et al.,
+Nonesuch Formation 1078 ± 24 7.3 174.7 3.0 29
+Cumming et al., 2010 2013
+1071±8, 1067±14,
+U-Pb SHRIMP Baddeleyite/ zircon
+Bangemall Sills 1068±22, 33.8 95.0 8.3 11 Wingate and Giddings, 2004
+Wingate and Giddings, 2004
+Mean: 1070 ± 6
+Cardenas Basalts-Unkar 1080 ± 2,1080 ± 3 U-Pb baddeleyite Bright et al. 2014 on
+32.0 185.0 9.6 16 Weil et al., 2003
+Intrusives 1088 ± 3,1094 ± 2 correlative units
+Pole—Name of paleomagnetic pole
+Age—Age of paleomagnetic pole
+Type and Age reference—method used to obtain age and reference
+Paleomagnetic pole—Latitude (oN), Longitude (oE), A (o) = cone of 95% confidence and N = number of sites
+95
+Paleomagnetic Reference—reference for paleomagnetic pole
+
+### page_31
+1 Supplemental Figures
+A.SWEAT B. AUSWUS C. AUSMEX Laurentia
+South and West Australia
+North Australia
+East Antartica Craton
+South China
+Tarim
+West Africa Siberia
+Rio de la Plata India
+D. China Missing Link E. Tarim Missing Link F. COBRA G. Siberia
+Figure S1: Rodinia reconstructions for the Western Laurentia margin. A.
+SWEAT (after Ho↵man, 1991; Moores, 1991; and Daizal 1991). B. AUSWUS
+(after Karlstrom et al., 1999). C. AUSMEX (after Wingate and Giddings,
+2004). D. Missing Link China (After Li et al., 2008). E. Missing Link Tarim
+(After Wen et al., 2016). F. COBRA (after Evans, 2009). G. Siberia (after
+Sears and Price 1978; 2003). Note that coloring is inconsistent between in
+order to highlight the di↵erent models of the conjugate margin to the western
+Laurentia margin.
+1
+
+### page_32
+VGPs used in calculated mean from this study
+o
+150 E
+o
+0 N
+Samples with linear decay to the origin with mean (star)
+Figure S2: Paleomagnetic poles from samples that displayed HT components
+with linear decays to the origin and their overall mean.
+2
+
+### page_33
+A B
+Figure S3: E-I inclination flattening for our Carbon Butte-Awatabi Dataset.
+A. Elongation/inclination pairs as a function of f, data plus 25 bootstrap
+samples. B. Cumulative distribution of bootstrapped optimal inclinations plus
+uncertainties. Estimate from original data set plotted as solid line.
+A. no rotation B. 5 degree rotation C. 10 degree rotation
+Colorado Plateau Laurentia
+Unkar Intrusives and Cardenas Basalts Chengwatana Volcanics Lake Shore Traps
+1080 ± 2 Ma, 1080 ± 3 Ma, 1088 ± 3 Ma, 1094 ± 2 Ma 1094.6 ± 2.1 1085.57 ± 0.25 Ma
+Schroeder-Lutsen basalts Michipicoten Island Fm
+<1091.61 ± 0.14 Ma 1084.35 ± 0.20 Ma and 1083.52 ± 0.23
+Figure S4: Testing the block rotation of the Colorado plateau by compar-
+ing the paleomagnetic poles from the ca. 1094-1080 Ma Grand Canyon Un-
+kar intrusives and Cardenas basalts to the 1095 Ma-1083 Ma portions of the
+midcontinent rift Logan Loop. A, B, C. Colorado plateau rotated 0, 5, 10
+respectively relative to North America using an Euler pole of 34.6N 254.6E
+(Hamilton, 1988).
+3
+
+### page_34
+Carbon Canyon reanalyzed
+A B C
+Figure S5: A. Fold test for reanalyzed Carbon Canyon sites (Weil et al., 2004).
+B. Elongation/inclination pairs as a function of f, data plus 25 bootstrap sam-
+ples. C. Cumulative distribution of bootstrapped optimal inclinations plus
+uncertainties. Estimate from original data set plotted as solid line.
+Western Uinta Mountains Eastern Uinta Mountains
+<766 ± 4 Ma
+~1650 Ma
+eniP
+deR
+elahS
+fault
+Red Pine
+Shale
+B6
+Hades
+Pass Fm Hades
+Pass Fm B5
+Mt W B4
+Upper RC
+Mt Ag
+D. Hs Crouse Moosehorn B3 Canyon
+Lk
+base not exposed 500m Outlaw
+Trail
+B2
+Diamond
+Breaks
+Jesse
+Ewing Canyon B1a
+Fm B1b
+Red Creek
+Quartzite
+puorG
+niatnuoM
+atniU
+puorG
+niatnuoM
+atniU
+Uinta Mountain Group
+W Browne Lake
+W Sheep Creek Canyon
+W Dowd Springs group 3
+W Carter Creek
+DS B C S-T S C group 2 W Flaming Gorge
+CC HM
+FG group 1
+Weil et al., 2006
+W Sparks-Talamantes Creek
+closed=west directed
+open=east directed
+B4
+B2 W Bull Canyon
+B6
+B3
+W Home Mtn Canyon
+B5 B1 ca g . r o 7 u 5 p 5 3 ca. 766
+group 1
+ca. 760
+Bresler, 1981 group 2
+ages in Ma
+Figure S6: Uinta Mountain Group poles from Bressler (1981) and Weil et al.
+(2006). Reported and proposed sampling heights allowed separation of poles
+into three groupings that were used in subsequent analysis.
+4
+
+### page_35
+Mackenzie Mtns., Canada
+Cu-cap 732.2±4.7 Ma
+Redstone 190 Ma
+120 Ma River
+Thundercloud
+230 Ma
+Ram Head/ 777.7±2.5 Ma
+310 Ma T.S./Rusty
+S.S./Gypsum
+Gayna/G.S
+plat.-basinal
+400 Ma 470 Ma
+.kL
+setaoC
+laD
+elttiL
+.pG
+.pG
+m
+002
+Upper
+carbonate
+RR
+Tz
+Mudcracked
+K
+TH Katherine
+RS M
+bLD
+Tsezotene Fm
+diabase sill
+Bitter Springs Re-Os age U-Pb age
+Figure S7: Mackenzie Mountains poles from Park and Je↵erson (1991) and
+references therein.
+5
+
+### page_36
+A. Southern Hemisphere
+Laur
+C
+B. Northern Hemisphere
+C
+Laur
+ca. 751 Ma
+Figure S8: Figure S9. Comparison between reconstructions of Congo using
+both pole polarities. A. Congo in the southern hemisphere. B. Congo in the
+Northern Hemisphere.
+6
+
+### page_37
+A B
+Figure S9: Comparison between reconstructions of Tarim using the Baiyisi
+pole (A), as well as both of the less-constrained Qiaoenbrak Formation pole
+(B).
+7
+
+### page_38
+ca. 1070 Ma
+o
+0 N
+Laurentia North Australia
+South and west Australia
+Figure S10: ca. 1070 Ma reconstruction with only Laurentia, Australia and
+associated cratons. Paleomagnetic poles are from the Australian Bangemall
+sills (1070 Ma U-Pb) and the Laurentian Nonesuch Shale (1087 Ma Re-Os).
+8
+
+### page_39
+A. Chuar 190 Ma HTs geo MTgeo A. 775 716 751
+120 Ma
+230 Ma
+757
+310 Ma Wgeo 150o E C.
+Wtilt
+CB-A Combo CB-A
+400 Ma 470 Ma
+150 o E
+Carbon Canyon 0o N 775 716 751
+Nankoweap 0o N 775 751
+716
+B. Gunbarrel C.Uinta Mou 53 n 0- t 0 a M in a Laurentia D AP .F W r P a T n or k sv li ik n et al., 2012 757 766 757
+775 751
+LL-A T 1 R /L M D-L TI LL- C A2Hottah Dikes cag. r7o5u5p M3ac ag.r 7o6u6p M1a Mean PoleG E 775 Ma 716 Ma 760 7 7 6 1 6 6 7 60 757
+cgar. o7u6p0 2Ma
+AMlteeranna Ptivoele Mean Pole treating all TR dikes as VGPs
+A. ca. 775 Ma B. ca. 751 Ma C. ca. 716 Ma
+HF
+JC
+Ind 120 o W SC 120 o W 120 o W
+C
+o
+0 N 0 o N SWAus Si 0 o N
+T
+Laur Laur
+Laur
+Laur
+Filled polygons = pole+age
+D. Laurentian APWP
+Laurentia
+North Australia
+South and west Australia
+o
+120 W
+Tarim South China
+Siberia Congo
+East Antarctica India
+o Svalbard
+0 N
+Laur
+anchored at 751 Ma
+Figure S11: Figures similar to those in the manuscript, but for poles that are
+corrected for possible inclination flattening.
+9

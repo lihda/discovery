@@ -1,0 +1,125 @@
+{
+  "schema_version": "r3_query_adaptive_retrieval_v1",
+  "status": "FROZEN_LABEL_FREE_KNOWLEDGE",
+  "criterion_semantics": {
+    "practice_positive": "A reported, study-owned rock-magnetic or mineralogical method, a diagnostic result, or a carrier attribution can independently support the database-style R3 practice decision.",
+    "normative_chain": "Method, carrier identification, and remanence significance remain separate auxiliary evidence dimensions and are not forced as a conjunctive gate.",
+    "demagnetization_only": "Routine thermal or alternating-field demagnetization without mineralogical characterization is counter-evidence for the practice decision."
+  },
+  "retrieval_instruction": "Represent this sentence for searching relevant passages: ",
+  "queries": [
+    {
+      "query_id": "method_broad_execution",
+      "category": "method",
+      "mode": "support",
+      "text": "A passage reporting that this study performed rock-magnetic, magnetic-mineralogical, petrographic, or microscopic measurements to characterize the magnetic material."
+    },
+    {
+      "query_id": "method_irm_thermomagnetic",
+      "category": "method",
+      "mode": "support",
+      "text": "A passage reporting IRM acquisition, back-field remanence, susceptibility versus temperature, thermomagnetic curves, low-temperature remanence, or Curie-temperature measurements performed in this study."
+    },
+    {
+      "query_id": "method_hysteresis_microscopy",
+      "category": "method",
+      "mode": "support",
+      "text": "A passage reporting hysteresis, Day plots, FORC, reflected-light petrography, SEM, TEM, or magnetic-mineral separation performed on the studied samples."
+    },
+    {
+      "query_id": "diagnostic_broad_result",
+      "category": "diagnostic",
+      "mode": "support",
+      "text": "A passage reporting diagnostic rock-magnetic results such as saturation behavior, coercivity spectra, Curie temperature, low-temperature transitions, hysteresis ratios, grain size, or magnetic domain state."
+    },
+    {
+      "query_id": "diagnostic_self_authenticating",
+      "category": "diagnostic",
+      "mode": "support",
+      "text": "A passage where a measured magnetic curve, transition, coercivity, or saturation field directly constrains magnetic mineralogy even if no mineral carrier is named explicitly."
+    },
+    {
+      "query_id": "carrier_identification",
+      "category": "carrier",
+      "mode": "support",
+      "text": "A passage where the authors identify magnetite, titanomagnetite, hematite, maghemite, goethite, greigite, pyrrhotite, or another magnetic mineral in the studied material."
+    },
+    {
+      "query_id": "carrier_measurement_inference",
+      "category": "carrier",
+      "mode": "support",
+      "text": "A passage inferring a magnetic mineral phase or remanence carrier from rock-magnetic measurements, microscopy, mineral chemistry, or diagnostic temperature and coercivity behavior."
+    },
+    {
+      "query_id": "bridge_remanence_significance",
+      "category": "bridge",
+      "mode": "support",
+      "text": "A passage connecting magnetic mineralogy or a carrier to natural remanent magnetization, ChRM, a magnetization component, remanence stability, or recording fidelity."
+    },
+    {
+      "query_id": "bridge_primary_secondary",
+      "category": "bridge",
+      "mode": "support",
+      "text": "A passage explaining whether alteration, oxidation, weathering, diagenesis, chemical remanence, or remagnetization makes the magnetization primary or secondary."
+    },
+    {
+      "query_id": "counter_demagnetization_only",
+      "category": "counter",
+      "mode": "counter",
+      "text": "A passage that only reports thermal or alternating-field demagnetization, cleaning, and unblocking temperatures without a rock-magnetic or mineralogical investigation."
+    },
+    {
+      "query_id": "counter_external_or_future",
+      "category": "counter",
+      "mode": "counter",
+      "text": "A passage that merely cites prior magnetic-mineral studies, describes external work, or recommends future measurements rather than reporting evidence obtained in this study."
+    }
+  ],
+  "target_query_templates": {
+    "method": "Within the paper's single study target '{target}', retrieve a passage reporting rock-magnetic or mineralogical measurements actually performed by the authors.",
+    "diagnostic": "Within the paper's single study target '{target}', retrieve a passage reporting diagnostic magnetic-mineralogy measurement results.",
+    "carrier": "Within the paper's single study target '{target}', retrieve a passage identifying or inferring a magnetic mineral or remanence carrier.",
+    "bridge": "Within the paper's single study target '{target}', retrieve a passage linking magnetic mineral evidence to remanence origin, stability, or remagnetization."
+  },
+  "chunking": {
+    "scales": ["sentence_window", "paragraph", "page_window", "section_window"],
+    "sentence_radius": 1,
+    "paragraph_max_words": 180,
+    "page_window_words": 200,
+    "page_window_stride": 140,
+    "section_window_words": 240,
+    "section_window_stride": 168,
+    "max_chunks_per_document": 48,
+    "scale_quotas": {
+      "sentence_window": 14,
+      "paragraph": 12,
+      "page_window": 12,
+      "section_window": 10
+    },
+    "distractor_chunks_per_document": 8
+  },
+  "encoder": {
+    "model_id": "BAAI/bge-base-en-v1.5",
+    "revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+    "pooling": "last_hidden_state_cls",
+    "normalize_embeddings": true,
+    "max_length": 256,
+    "batch_size": 64
+  },
+  "ranking": {
+    "rrf_k": 60,
+    "pooled_top_k": 3,
+    "distractor_statistics": ["median", "mad", "q90", "q95"]
+  },
+  "source_refs": [
+    "R3_CRITERION_ATTACHMENT",
+    "DUNLOP_OZDEMIR_1997",
+    "TAUXE_ET_AL_2018"
+  ],
+  "runtime_boundary": {
+    "labels_read": false,
+    "pmagresult_or_rockmag_read": false,
+    "prior_predictions_read": false,
+    "evaluation_results_read": false
+  }
+}

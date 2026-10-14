@@ -1,0 +1,2171 @@
+{
+  "schema_version": "r3_fourth300_validation_cohort_v1",
+  "status": "FROZEN_WITHOUT_LABEL_ACCESS",
+  "selection": {
+    "seed": 35720260715,
+    "generator": "numpy.random.default_rng(PCG64).choice",
+    "sampling_unit": "rows without replacement",
+    "eligibility": "local PDF and REFNO absent from all three opened cohorts",
+    "sampled_index_sha256": "b862bc2baaa32b57004d2787825b1e4e52e8781c180924fce7b044baacfec51d"
+  },
+  "scope": {
+    "sample_rows": 300,
+    "sample_paper_groups": 262,
+    "eligible_rows": 480,
+    "eligible_paper_groups": 390,
+    "all_sample_paper_rows_excluded_from_fit": 338,
+    "additional_sibling_rows_excluded_from_fit": 38,
+    "remaining_training_rows": 1834,
+    "remaining_training_paper_groups": 912
+  },
+  "opened_cohort_exclusions": {
+    "canonical_exact300_papers": 258,
+    "random300_papers": 263,
+    "third300_papers": 263,
+    "fourth_cohort_refno_overlap": 0
+  },
+  "inputs": {
+    "full_identity": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_distilled_training_preflight/identity.xlsx",
+      "sha256": "7e45020df48b866096ac4bf567102f6a73ce3c12759b19c8550f78de299c72f1",
+      "pdf_coverage": {
+        "fixed_training_rows": 2473,
+        "fixed_training_paper_groups": 1292,
+        "pdf_only_rows": 2172,
+        "pdf_only_paper_groups": 1174,
+        "rows_skipped_without_local_pdf": 301,
+        "paper_groups_skipped_without_local_pdf": 118
+      }
+    },
+    "exact_identity": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/identity.xlsx",
+      "sha256": "93ea5dfba0a32501a564d06eb020386fd86b11f59ded0982043f90c064ab960b"
+    },
+    "random300_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_random300_extension_v1/cohort_manifest.json",
+      "sha256": "f3692dbf1908fbd00e274491822955cbad27d1d6c9db79b02c01108a56efb5c3"
+    },
+    "third300_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_third300_validation_v1/cohort_manifest.json",
+      "sha256": "a275dd97b234a746ce3ba564157de3c7cf9766f37a445f4a8ae1b30307d2e3e1"
+    },
+    "full_pdf_alignment_sha256": "066aaddd5707f67b7a5183d3861d5301b0019f600f769263a17e959dd1e4c0e9"
+  },
+  "sample_alignment_sha256": "62c6e85fb6835330e9ec1d860eb69611d133d9c07c2ad6abe0b2d5c9e2c58802",
+  "runtime_boundary": {
+    "labels_read": false,
+    "targets_workbook_read": false,
+    "pdf_text_read": false,
+    "pmagresult_or_row_rockmag_read": false,
+    "prior_predictions_or_evaluations_read_for_sampling": false,
+    "opened_manifests_used_only_for_refno_exclusion": true
+  },
+  "evaluation_protocol": {
+    "outer_design": "single sealed 300-row paper-isolated holdout",
+    "exclude_every_row_of_each_sample_refno_from_all_fits": true,
+    "candidate_family_frozen_before_test_label_access": true,
+    "prediction_receipt_written_before_test_label_scoring": true
+  },
+  "rows": [
+    {
+      "sample_index": 0,
+      "full_index": 29,
+      "REFNO": "1156",
+      "RESULTNO": "37",
+      "ROCKNAME": "Umbrian pelagic carbonates"
+    },
+    {
+      "sample_index": 1,
+      "full_index": 54,
+      "REFNO": "1163",
+      "RESULTNO": "63",
+      "ROCKNAME": "La Tinta Formation"
+    },
+    {
+      "sample_index": 2,
+      "full_index": 77,
+      "REFNO": "1183",
+      "RESULTNO": "99",
+      "ROCKNAME": "Midsommersoe Dolerite"
+    },
+    {
+      "sample_index": 3,
+      "full_index": 78,
+      "REFNO": "1184",
+      "RESULTNO": "100",
+      "ROCKNAME": "Takena Formation Redbeds"
+    },
+    {
+      "sample_index": 4,
+      "full_index": 79,
+      "REFNO": "1184",
+      "RESULTNO": "101",
+      "ROCKNAME": "Volcanics Lingzizong Formation"
+    },
+    {
+      "sample_index": 5,
+      "full_index": 90,
+      "REFNO": "1190",
+      "RESULTNO": "119",
+      "ROCKNAME": "Loess deposits"
+    },
+    {
+      "sample_index": 6,
+      "full_index": 105,
+      "REFNO": "1203",
+      "RESULTNO": "143",
+      "ROCKNAME": "Scisti Silicei Formation"
+    },
+    {
+      "sample_index": 7,
+      "full_index": 106,
+      "REFNO": "1203",
+      "RESULTNO": "144",
+      "ROCKNAME": "Scisti Silicei Formation"
+    },
+    {
+      "sample_index": 8,
+      "full_index": 107,
+      "REFNO": "1204",
+      "RESULTNO": "145",
+      "ROCKNAME": "Muck and Eigg igneous rocks"
+    },
+    {
+      "sample_index": 9,
+      "full_index": 113,
+      "REFNO": "1212",
+      "RESULTNO": "156",
+      "ROCKNAME": "Bays and Moccasin Formation"
+    },
+    {
+      "sample_index": 10,
+      "full_index": 122,
+      "REFNO": "1308",
+      "RESULTNO": "377",
+      "ROCKNAME": "Usushwana Complex"
+    },
+    {
+      "sample_index": 11,
+      "full_index": 128,
+      "REFNO": "1525",
+      "RESULTNO": "844",
+      "ROCKNAME": "Charnockites, Palni Hills"
+    },
+    {
+      "sample_index": 12,
+      "full_index": 151,
+      "REFNO": "1849",
+      "RESULTNO": "1599",
+      "ROCKNAME": "Nipissing Diabase"
+    },
+    {
+      "sample_index": 13,
+      "full_index": 159,
+      "REFNO": "1885",
+      "RESULTNO": "1676",
+      "ROCKNAME": "Ghost Range Intrusion"
+    },
+    {
+      "sample_index": 14,
+      "full_index": 166,
+      "REFNO": "1904",
+      "RESULTNO": "1714",
+      "ROCKNAME": "Tulemalu Dykes"
+    },
+    {
+      "sample_index": 15,
+      "full_index": 191,
+      "REFNO": "739",
+      "RESULTNO": "2400",
+      "ROCKNAME": "Big Spruce Complex"
+    },
+    {
+      "sample_index": 16,
+      "full_index": 194,
+      "REFNO": "715",
+      "RESULTNO": "2431",
+      "ROCKNAME": "Pyroxenite and Vera Hill Syenite, Palabora Igneous Complex"
+    },
+    {
+      "sample_index": 17,
+      "full_index": 199,
+      "REFNO": "234",
+      "RESULTNO": "2642",
+      "ROCKNAME": "Sparrow Dykes"
+    },
+    {
+      "sample_index": 18,
+      "full_index": 201,
+      "REFNO": "230",
+      "RESULTNO": "2659",
+      "ROCKNAME": "Martin Formation"
+    },
+    {
+      "sample_index": 19,
+      "full_index": 206,
+      "REFNO": "98",
+      "RESULTNO": "2813",
+      "ROCKNAME": "Beartooth Mountains Dyke 6"
+    },
+    {
+      "sample_index": 20,
+      "full_index": 207,
+      "REFNO": "98",
+      "RESULTNO": "2814",
+      "ROCKNAME": "Beartooth Mountains dykes 3,4,5"
+    },
+    {
+      "sample_index": 21,
+      "full_index": 215,
+      "REFNO": "627",
+      "RESULTNO": "3044",
+      "ROCKNAME": "Vredefort Ring Dykes"
+    },
+    {
+      "sample_index": 22,
+      "full_index": 217,
+      "REFNO": "486",
+      "RESULTNO": "3272",
+      "ROCKNAME": "Roraima Dolerites"
+    },
+    {
+      "sample_index": 23,
+      "full_index": 218,
+      "REFNO": "526",
+      "RESULTNO": "3299",
+      "ROCKNAME": "Gunflint Iron Formation"
+    },
+    {
+      "sample_index": 24,
+      "full_index": 219,
+      "REFNO": "527",
+      "RESULTNO": "3305",
+      "ROCKNAME": "Soudan Formation"
+    },
+    {
+      "sample_index": 25,
+      "full_index": 220,
+      "REFNO": "418",
+      "RESULTNO": "3349",
+      "ROCKNAME": "Gaberones Granite"
+    },
+    {
+      "sample_index": 26,
+      "full_index": 222,
+      "REFNO": "428",
+      "RESULTNO": "3403",
+      "ROCKNAME": "Ventersdorp Lavas"
+    },
+    {
+      "sample_index": 27,
+      "full_index": 234,
+      "REFNO": "1006",
+      "RESULTNO": "3580",
+      "ROCKNAME": "Great Dyke"
+    },
+    {
+      "sample_index": 28,
+      "full_index": 240,
+      "REFNO": "2203",
+      "RESULTNO": "5738",
+      "ROCKNAME": "Pielavesi Gabbro"
+    },
+    {
+      "sample_index": 29,
+      "full_index": 241,
+      "REFNO": "2204",
+      "RESULTNO": "5742",
+      "ROCKNAME": "Akujarvi Granulite"
+    },
+    {
+      "sample_index": 30,
+      "full_index": 242,
+      "REFNO": "2204",
+      "RESULTNO": "5743",
+      "ROCKNAME": "Menesjarvi Granulite"
+    },
+    {
+      "sample_index": 31,
+      "full_index": 262,
+      "REFNO": "527",
+      "RESULTNO": "5905",
+      "ROCKNAME": "Soudan Formation"
+    },
+    {
+      "sample_index": 32,
+      "full_index": 265,
+      "REFNO": "2391",
+      "RESULTNO": "6216",
+      "ROCKNAME": "Mbabane Pluton"
+    },
+    {
+      "sample_index": 33,
+      "full_index": 268,
+      "REFNO": "2483",
+      "RESULTNO": "6393",
+      "ROCKNAME": "Northern External and Baldhead River Granites"
+    },
+    {
+      "sample_index": 34,
+      "full_index": 269,
+      "REFNO": "2483",
+      "RESULTNO": "6394",
+      "ROCKNAME": "Hawk Lake, Southern and Eastern External Granites"
+    },
+    {
+      "sample_index": 35,
+      "full_index": 283,
+      "REFNO": "2513",
+      "RESULTNO": "6466",
+      "ROCKNAME": "Bushveld Complex Upper Zone"
+    },
+    {
+      "sample_index": 36,
+      "full_index": 319,
+      "REFNO": "2939",
+      "RESULTNO": "7647",
+      "ROCKNAME": "Akhmalahti Formation"
+    },
+    {
+      "sample_index": 37,
+      "full_index": 335,
+      "REFNO": "2976",
+      "RESULTNO": "7743",
+      "ROCKNAME": "Franciscan Complex Cherts"
+    },
+    {
+      "sample_index": 38,
+      "full_index": 337,
+      "REFNO": "2978",
+      "RESULTNO": "7745",
+      "ROCKNAME": "Taupo Volcanic Zone"
+    },
+    {
+      "sample_index": 39,
+      "full_index": 369,
+      "REFNO": "3002",
+      "RESULTNO": "7787",
+      "ROCKNAME": "South Auckland Volcanic Field"
+    },
+    {
+      "sample_index": 40,
+      "full_index": 370,
+      "REFNO": "3005",
+      "RESULTNO": "7790",
+      "ROCKNAME": "Northland Volcanic Field"
+    },
+    {
+      "sample_index": 41,
+      "full_index": 371,
+      "REFNO": "3007",
+      "RESULTNO": "7793",
+      "ROCKNAME": "Capas Rojas Limestones"
+    },
+    {
+      "sample_index": 42,
+      "full_index": 381,
+      "REFNO": "3120",
+      "RESULTNO": "7810",
+      "ROCKNAME": "Ruapehu Volcano"
+    },
+    {
+      "sample_index": 43,
+      "full_index": 386,
+      "REFNO": "3027",
+      "RESULTNO": "7818",
+      "ROCKNAME": "Lipiyoc Formation"
+    },
+    {
+      "sample_index": 44,
+      "full_index": 388,
+      "REFNO": "3029",
+      "RESULTNO": "7820",
+      "ROCKNAME": "Paris Basin Sediments"
+    },
+    {
+      "sample_index": 45,
+      "full_index": 389,
+      "REFNO": "3030",
+      "RESULTNO": "7821",
+      "ROCKNAME": "Karheen Formation"
+    },
+    {
+      "sample_index": 46,
+      "full_index": 403,
+      "REFNO": "3058",
+      "RESULTNO": "8027",
+      "ROCKNAME": "Moenave Formation"
+    },
+    {
+      "sample_index": 47,
+      "full_index": 407,
+      "REFNO": "3060",
+      "RESULTNO": "8031",
+      "ROCKNAME": "Katherine Creek Sediments"
+    },
+    {
+      "sample_index": 48,
+      "full_index": 409,
+      "REFNO": "3062",
+      "RESULTNO": "8035",
+      "ROCKNAME": "Intermontane Belt Plutonic Rocks"
+    },
+    {
+      "sample_index": 49,
+      "full_index": 421,
+      "REFNO": "3065",
+      "RESULTNO": "8047",
+      "ROCKNAME": "Bourg d'Oisans Metamorphics"
+    },
+    {
+      "sample_index": 50,
+      "full_index": 433,
+      "REFNO": "3070",
+      "RESULTNO": "8059",
+      "ROCKNAME": "Val Sabbia Sandstone"
+    },
+    {
+      "sample_index": 51,
+      "full_index": 441,
+      "REFNO": "3075",
+      "RESULTNO": "8067",
+      "ROCKNAME": "Valles-Penedes Basin Sediments"
+    },
+    {
+      "sample_index": 52,
+      "full_index": 444,
+      "REFNO": "3077",
+      "RESULTNO": "8070",
+      "ROCKNAME": "Late Eocene Sediments"
+    },
+    {
+      "sample_index": 53,
+      "full_index": 445,
+      "REFNO": "3077",
+      "RESULTNO": "8071",
+      "ROCKNAME": "Early Oligocene Sediments"
+    },
+    {
+      "sample_index": 54,
+      "full_index": 461,
+      "REFNO": "3085",
+      "RESULTNO": "8091",
+      "ROCKNAME": "Mid Cenozoic Redbeds"
+    },
+    {
+      "sample_index": 55,
+      "full_index": 474,
+      "REFNO": "3093",
+      "RESULTNO": "8105",
+      "ROCKNAME": "Mauchline Lavas"
+    },
+    {
+      "sample_index": 56,
+      "full_index": 477,
+      "REFNO": "3096",
+      "RESULTNO": "8108",
+      "ROCKNAME": "Bou-Acila Volcanics"
+    },
+    {
+      "sample_index": 57,
+      "full_index": 478,
+      "REFNO": "3096",
+      "RESULTNO": "8109",
+      "ROCKNAME": "Bou-Acila Volcanics"
+    },
+    {
+      "sample_index": 58,
+      "full_index": 479,
+      "REFNO": "3098",
+      "RESULTNO": "8112",
+      "ROCKNAME": "Gabon Metamorphics"
+    },
+    {
+      "sample_index": 59,
+      "full_index": 480,
+      "REFNO": "3098",
+      "RESULTNO": "8113",
+      "ROCKNAME": "Gabon Dykes"
+    },
+    {
+      "sample_index": 60,
+      "full_index": 493,
+      "REFNO": "3106",
+      "RESULTNO": "8126",
+      "ROCKNAME": "Sinyai Metadolerite"
+    },
+    {
+      "sample_index": 61,
+      "full_index": 495,
+      "REFNO": "3108",
+      "RESULTNO": "8128",
+      "ROCKNAME": "Sierra de Huaco Sediments"
+    },
+    {
+      "sample_index": 62,
+      "full_index": 503,
+      "REFNO": "3118",
+      "RESULTNO": "8143",
+      "ROCKNAME": "Banded Hematite Jasper Formation"
+    },
+    {
+      "sample_index": 63,
+      "full_index": 504,
+      "REFNO": "3118",
+      "RESULTNO": "8144",
+      "ROCKNAME": "Banded Hematite Jasper Formation"
+    },
+    {
+      "sample_index": 64,
+      "full_index": 518,
+      "REFNO": "3129",
+      "RESULTNO": "8163",
+      "ROCKNAME": "Chengwatana Volcanics"
+    },
+    {
+      "sample_index": 65,
+      "full_index": 548,
+      "REFNO": "3151",
+      "RESULTNO": "8195",
+      "ROCKNAME": "Rose Hill Formation"
+    },
+    {
+      "sample_index": 66,
+      "full_index": 549,
+      "REFNO": "3154",
+      "RESULTNO": "8198",
+      "ROCKNAME": "Leron Formation"
+    },
+    {
+      "sample_index": 67,
+      "full_index": 550,
+      "REFNO": "3154",
+      "RESULTNO": "8199",
+      "ROCKNAME": "Leron Formation"
+    },
+    {
+      "sample_index": 68,
+      "full_index": 551,
+      "REFNO": "3154",
+      "RESULTNO": "8200",
+      "ROCKNAME": "Leron Formation"
+    },
+    {
+      "sample_index": 69,
+      "full_index": 555,
+      "REFNO": "3158",
+      "RESULTNO": "8206",
+      "ROCKNAME": "Late Neogene Sediments"
+    },
+    {
+      "sample_index": 70,
+      "full_index": 564,
+      "REFNO": "3163",
+      "RESULTNO": "8220",
+      "ROCKNAME": "Nama Group"
+    },
+    {
+      "sample_index": 71,
+      "full_index": 565,
+      "REFNO": "3163",
+      "RESULTNO": "8221",
+      "ROCKNAME": "Nama Group"
+    },
+    {
+      "sample_index": 72,
+      "full_index": 567,
+      "REFNO": "3163",
+      "RESULTNO": "8223",
+      "ROCKNAME": "Nama Group"
+    },
+    {
+      "sample_index": 73,
+      "full_index": 587,
+      "REFNO": "3179",
+      "RESULTNO": "8254",
+      "ROCKNAME": "Orthoceras Limestone"
+    },
+    {
+      "sample_index": 74,
+      "full_index": 588,
+      "REFNO": "3179",
+      "RESULTNO": "8255",
+      "ROCKNAME": "Orthoceras Limestone"
+    },
+    {
+      "sample_index": 75,
+      "full_index": 597,
+      "REFNO": "3185",
+      "RESULTNO": "8270",
+      "ROCKNAME": "St. Mary's Sills"
+    },
+    {
+      "sample_index": 76,
+      "full_index": 613,
+      "REFNO": "3199",
+      "RESULTNO": "8300",
+      "ROCKNAME": "Isfjorden Sediments"
+    },
+    {
+      "sample_index": 77,
+      "full_index": 628,
+      "REFNO": "3210",
+      "RESULTNO": "8318",
+      "ROCKNAME": "Late Cretaceous Volcanics"
+    },
+    {
+      "sample_index": 78,
+      "full_index": 631,
+      "REFNO": "3214",
+      "RESULTNO": "8321",
+      "ROCKNAME": "Skinner Cove Volcanics"
+    },
+    {
+      "sample_index": 79,
+      "full_index": 635,
+      "REFNO": "3219",
+      "RESULTNO": "8328",
+      "ROCKNAME": "Jiangdihe Formation"
+    },
+    {
+      "sample_index": 80,
+      "full_index": 636,
+      "REFNO": "3220",
+      "RESULTNO": "8329",
+      "ROCKNAME": "Challis Ash-flow Tuffs"
+    },
+    {
+      "sample_index": 81,
+      "full_index": 637,
+      "REFNO": "3221",
+      "RESULTNO": "8330",
+      "ROCKNAME": "Cerro Totora Formation"
+    },
+    {
+      "sample_index": 82,
+      "full_index": 640,
+      "REFNO": "3225",
+      "RESULTNO": "8337",
+      "ROCKNAME": "Coast Range Ophiolite, Mount Diablo"
+    },
+    {
+      "sample_index": 83,
+      "full_index": 641,
+      "REFNO": "3225",
+      "RESULTNO": "8338",
+      "ROCKNAME": "Coast Range Ophiolite, Mount Diablo"
+    },
+    {
+      "sample_index": 84,
+      "full_index": 650,
+      "REFNO": "3233",
+      "RESULTNO": "8352",
+      "ROCKNAME": "Bogopal Group"
+    },
+    {
+      "sample_index": 85,
+      "full_index": 651,
+      "REFNO": "3233",
+      "RESULTNO": "8353",
+      "ROCKNAME": "Sijanov Group"
+    },
+    {
+      "sample_index": 86,
+      "full_index": 660,
+      "REFNO": "3252",
+      "RESULTNO": "8382",
+      "ROCKNAME": "Whitehorse Pluton"
+    },
+    {
+      "sample_index": 87,
+      "full_index": 662,
+      "REFNO": "3256",
+      "RESULTNO": "8387",
+      "ROCKNAME": "Tetagouche Group"
+    },
+    {
+      "sample_index": 88,
+      "full_index": 677,
+      "REFNO": "3275",
+      "RESULTNO": "8422",
+      "ROCKNAME": "Abadla Formation Lower Unit"
+    },
+    {
+      "sample_index": 89,
+      "full_index": 680,
+      "REFNO": "3279",
+      "RESULTNO": "8430",
+      "ROCKNAME": "Mweelrea Ignimbrites"
+    },
+    {
+      "sample_index": 90,
+      "full_index": 686,
+      "REFNO": "3282",
+      "RESULTNO": "8436",
+      "ROCKNAME": "Siebengebirge and Westerwald Volcanics"
+    },
+    {
+      "sample_index": 91,
+      "full_index": 698,
+      "REFNO": "3288",
+      "RESULTNO": "8449",
+      "ROCKNAME": "Purit Formation"
+    },
+    {
+      "sample_index": 92,
+      "full_index": 699,
+      "REFNO": "3288",
+      "RESULTNO": "8450",
+      "ROCKNAME": "Reshun and Drosh Formations"
+    },
+    {
+      "sample_index": 93,
+      "full_index": 705,
+      "REFNO": "3290",
+      "RESULTNO": "8456",
+      "ROCKNAME": "Voronezh Massif"
+    },
+    {
+      "sample_index": 94,
+      "full_index": 706,
+      "REFNO": "3291",
+      "RESULTNO": "8457",
+      "ROCKNAME": "Vaigat Formation"
+    },
+    {
+      "sample_index": 95,
+      "full_index": 708,
+      "REFNO": "3295",
+      "RESULTNO": "8461",
+      "ROCKNAME": "Mount Lorne Stock"
+    },
+    {
+      "sample_index": 96,
+      "full_index": 719,
+      "REFNO": "3300",
+      "RESULTNO": "8472",
+      "ROCKNAME": "Farellones and Abanico Formations"
+    },
+    {
+      "sample_index": 97,
+      "full_index": 720,
+      "REFNO": "3301",
+      "RESULTNO": "8473",
+      "ROCKNAME": "Lena River Redbeds"
+    },
+    {
+      "sample_index": 98,
+      "full_index": 725,
+      "REFNO": "3305",
+      "RESULTNO": "8479",
+      "ROCKNAME": "Brianconnais Cover Jurassic Rocks"
+    },
+    {
+      "sample_index": 99,
+      "full_index": 732,
+      "REFNO": "3310",
+      "RESULTNO": "8487",
+      "ROCKNAME": "Nogam Formation"
+    },
+    {
+      "sample_index": 100,
+      "full_index": 734,
+      "REFNO": "3313",
+      "RESULTNO": "8490",
+      "ROCKNAME": "Daguab and Shiqian Silurian Sections"
+    },
+    {
+      "sample_index": 101,
+      "full_index": 735,
+      "REFNO": "3313",
+      "RESULTNO": "8491",
+      "ROCKNAME": "Daguab and Shiqian Silurian Sections"
+    },
+    {
+      "sample_index": 102,
+      "full_index": 763,
+      "REFNO": "3328",
+      "RESULTNO": "8528",
+      "ROCKNAME": "El Hierro Lavas"
+    },
+    {
+      "sample_index": 103,
+      "full_index": 771,
+      "REFNO": "3336",
+      "RESULTNO": "8540",
+      "ROCKNAME": "Afar Stratoid Series"
+    },
+    {
+      "sample_index": 104,
+      "full_index": 773,
+      "REFNO": "3339",
+      "RESULTNO": "8542",
+      "ROCKNAME": "Bardo Diabases"
+    },
+    {
+      "sample_index": 105,
+      "full_index": 774,
+      "REFNO": "3340",
+      "RESULTNO": "8543",
+      "ROCKNAME": "Liantuo Formation"
+    },
+    {
+      "sample_index": 106,
+      "full_index": 792,
+      "REFNO": "3357",
+      "RESULTNO": "8574",
+      "ROCKNAME": "Acambay Graben Volcanics"
+    },
+    {
+      "sample_index": 107,
+      "full_index": 793,
+      "REFNO": "3358",
+      "RESULTNO": "8575",
+      "ROCKNAME": "Sierra Nevada-Sierra de Rio Frio Volcanics"
+    },
+    {
+      "sample_index": 108,
+      "full_index": 794,
+      "REFNO": "3358",
+      "RESULTNO": "8576",
+      "ROCKNAME": "Palma Sola Volcanics"
+    },
+    {
+      "sample_index": 109,
+      "full_index": 806,
+      "REFNO": "3369",
+      "RESULTNO": "8597",
+      "ROCKNAME": "La Palma Volcanics"
+    },
+    {
+      "sample_index": 110,
+      "full_index": 818,
+      "REFNO": "3375",
+      "RESULTNO": "8610",
+      "ROCKNAME": "Possession Island Volcanics"
+    },
+    {
+      "sample_index": 111,
+      "full_index": 820,
+      "REFNO": "3378",
+      "RESULTNO": "8613",
+      "ROCKNAME": "French Guyana Dykes"
+    },
+    {
+      "sample_index": 112,
+      "full_index": 823,
+      "REFNO": "3380",
+      "RESULTNO": "8616",
+      "ROCKNAME": "Eocene Redbeds"
+    },
+    {
+      "sample_index": 113,
+      "full_index": 828,
+      "REFNO": "3385",
+      "RESULTNO": "8621",
+      "ROCKNAME": "Red Arch Formation"
+    },
+    {
+      "sample_index": 114,
+      "full_index": 832,
+      "REFNO": "3391",
+      "RESULTNO": "8630",
+      "ROCKNAME": "Dewey Lake Formation"
+    },
+    {
+      "sample_index": 115,
+      "full_index": 844,
+      "REFNO": "3398",
+      "RESULTNO": "8646",
+      "ROCKNAME": "Big Creek Batholith"
+    },
+    {
+      "sample_index": 116,
+      "full_index": 845,
+      "REFNO": "3399",
+      "RESULTNO": "8647",
+      "ROCKNAME": "White Pass dikes"
+    },
+    {
+      "sample_index": 117,
+      "full_index": 898,
+      "REFNO": "3424",
+      "RESULTNO": "8704",
+      "ROCKNAME": "Laerdal-Gjende Fault Rosks"
+    },
+    {
+      "sample_index": 118,
+      "full_index": 899,
+      "REFNO": "3424",
+      "RESULTNO": "8705",
+      "ROCKNAME": "Laerdal-Gjende Fault Rosks"
+    },
+    {
+      "sample_index": 119,
+      "full_index": 903,
+      "REFNO": "3430",
+      "RESULTNO": "8715",
+      "ROCKNAME": "Karoo Igneous Rocks"
+    },
+    {
+      "sample_index": 120,
+      "full_index": 904,
+      "REFNO": "3430",
+      "RESULTNO": "8716",
+      "ROCKNAME": "Bumbeni Complexs"
+    },
+    {
+      "sample_index": 121,
+      "full_index": 906,
+      "REFNO": "3433",
+      "RESULTNO": "8718",
+      "ROCKNAME": "Arran Igneous Rocks"
+    },
+    {
+      "sample_index": 122,
+      "full_index": 929,
+      "REFNO": "3437",
+      "RESULTNO": "8749",
+      "ROCKNAME": "Karaginsky Volcanics and Sediments"
+    },
+    {
+      "sample_index": 123,
+      "full_index": 934,
+      "REFNO": "3441",
+      "RESULTNO": "8754",
+      "ROCKNAME": "Kalahari Manganese Ores"
+    },
+    {
+      "sample_index": 124,
+      "full_index": 935,
+      "REFNO": "3441",
+      "RESULTNO": "8755",
+      "ROCKNAME": "Kalahari Manganese Ores"
+    },
+    {
+      "sample_index": 125,
+      "full_index": 947,
+      "REFNO": "3452",
+      "RESULTNO": "8768",
+      "ROCKNAME": "Yunmeng Shan Granite"
+    },
+    {
+      "sample_index": 126,
+      "full_index": 948,
+      "REFNO": "3452",
+      "RESULTNO": "8769",
+      "ROCKNAME": "Qian'an Metamorphics"
+    },
+    {
+      "sample_index": 127,
+      "full_index": 985,
+      "REFNO": "3457",
+      "RESULTNO": "8809",
+      "ROCKNAME": "Luanping Group"
+    },
+    {
+      "sample_index": 128,
+      "full_index": 990,
+      "REFNO": "3462",
+      "RESULTNO": "8814",
+      "ROCKNAME": "Rajmahal Trap"
+    },
+    {
+      "sample_index": 129,
+      "full_index": 1000,
+      "REFNO": "3467",
+      "RESULTNO": "8827",
+      "ROCKNAME": "Nova Floresta Formation"
+    },
+    {
+      "sample_index": 130,
+      "full_index": 1011,
+      "REFNO": "3477",
+      "RESULTNO": "8849",
+      "ROCKNAME": "Bundsandstein Sandstone"
+    },
+    {
+      "sample_index": 131,
+      "full_index": 1012,
+      "REFNO": "3477",
+      "RESULTNO": "8850",
+      "ROCKNAME": "Bulgarian Carbonate"
+    },
+    {
+      "sample_index": 132,
+      "full_index": 1016,
+      "REFNO": "3479",
+      "RESULTNO": "8854",
+      "ROCKNAME": "Wapisu Gneiss Dome"
+    },
+    {
+      "sample_index": 133,
+      "full_index": 1034,
+      "REFNO": "3494",
+      "RESULTNO": "8901",
+      "ROCKNAME": "Faroe Flood Volcanics"
+    },
+    {
+      "sample_index": 134,
+      "full_index": 1044,
+      "REFNO": "3501",
+      "RESULTNO": "8916",
+      "ROCKNAME": "Zhaogezhuang Carbonates"
+    },
+    {
+      "sample_index": 135,
+      "full_index": 1045,
+      "REFNO": "3503",
+      "RESULTNO": "8919",
+      "ROCKNAME": "Saxothuringian Ignimbrites"
+    },
+    {
+      "sample_index": 136,
+      "full_index": 1046,
+      "REFNO": "3503",
+      "RESULTNO": "8920",
+      "ROCKNAME": "Dobra Sandstone"
+    },
+    {
+      "sample_index": 137,
+      "full_index": 1047,
+      "REFNO": "3504",
+      "RESULTNO": "8921",
+      "ROCKNAME": "Jebel Nehoud Ring Complex"
+    },
+    {
+      "sample_index": 138,
+      "full_index": 1050,
+      "REFNO": "3506",
+      "RESULTNO": "8924",
+      "ROCKNAME": "Winter Coast Sediments"
+    },
+    {
+      "sample_index": 139,
+      "full_index": 1060,
+      "REFNO": "3518",
+      "RESULTNO": "8935",
+      "ROCKNAME": "Kandykskaya suite combined"
+    },
+    {
+      "sample_index": 140,
+      "full_index": 1068,
+      "REFNO": "3525",
+      "RESULTNO": "8960",
+      "ROCKNAME": "Lower Buntsandstein Sediments"
+    },
+    {
+      "sample_index": 141,
+      "full_index": 1069,
+      "REFNO": "3528",
+      "RESULTNO": "8962",
+      "ROCKNAME": "Kisin Group"
+    },
+    {
+      "sample_index": 142,
+      "full_index": 1073,
+      "REFNO": "3531",
+      "RESULTNO": "8966",
+      "ROCKNAME": "Mount Leyshon Intrusive Complex"
+    },
+    {
+      "sample_index": 143,
+      "full_index": 1074,
+      "REFNO": "3531",
+      "RESULTNO": "8967",
+      "ROCKNAME": "Tuckers Igneous Complex"
+    },
+    {
+      "sample_index": 144,
+      "full_index": 1087,
+      "REFNO": "3539",
+      "RESULTNO": "8983",
+      "ROCKNAME": "Kapok Mine"
+    },
+    {
+      "sample_index": 145,
+      "full_index": 1089,
+      "REFNO": "3541",
+      "RESULTNO": "8985",
+      "ROCKNAME": "Silicka Brezova Limestone"
+    },
+    {
+      "sample_index": 146,
+      "full_index": 1110,
+      "REFNO": "3554",
+      "RESULTNO": "9025",
+      "ROCKNAME": "Montcornet Drillhole"
+    },
+    {
+      "sample_index": 147,
+      "full_index": 1119,
+      "REFNO": "3559",
+      "RESULTNO": "9049",
+      "ROCKNAME": "Stratoid Basalts"
+    },
+    {
+      "sample_index": 148,
+      "full_index": 1123,
+      "REFNO": "3564",
+      "RESULTNO": "9059",
+      "ROCKNAME": "Anahim & Garibaldi Volcanic Belts, Chilcotin Plateau Basalts"
+    },
+    {
+      "sample_index": 149,
+      "full_index": 1125,
+      "REFNO": "3568",
+      "RESULTNO": "9068",
+      "ROCKNAME": "Meseta Visachas Plateau Lavas and Pali-Aike Basalts"
+    },
+    {
+      "sample_index": 150,
+      "full_index": 1130,
+      "REFNO": "3577",
+      "RESULTNO": "9075",
+      "ROCKNAME": "Borgmassivet Intrusions"
+    },
+    {
+      "sample_index": 151,
+      "full_index": 1139,
+      "REFNO": "3581",
+      "RESULTNO": "9094",
+      "ROCKNAME": "Klodzko Complex"
+    },
+    {
+      "sample_index": 152,
+      "full_index": 1140,
+      "REFNO": "3581",
+      "RESULTNO": "9095",
+      "ROCKNAME": "Klodzko Complex"
+    },
+    {
+      "sample_index": 153,
+      "full_index": 1141,
+      "REFNO": "3581",
+      "RESULTNO": "9096",
+      "ROCKNAME": "Klodzko Complex"
+    },
+    {
+      "sample_index": 154,
+      "full_index": 1148,
+      "REFNO": "3588",
+      "RESULTNO": "9106",
+      "ROCKNAME": "Noril'sk and Abagalakh Trap Basalts"
+    },
+    {
+      "sample_index": 155,
+      "full_index": 1156,
+      "REFNO": "3596",
+      "RESULTNO": "9117",
+      "ROCKNAME": "Xiaofeng Dykes"
+    },
+    {
+      "sample_index": 156,
+      "full_index": 1176,
+      "REFNO": "3610",
+      "RESULTNO": "9140",
+      "ROCKNAME": "Barberton Komatiites"
+    },
+    {
+      "sample_index": 157,
+      "full_index": 1185,
+      "REFNO": "3614",
+      "RESULTNO": "9149",
+      "ROCKNAME": "Northwest Iceland Lavas"
+    },
+    {
+      "sample_index": 158,
+      "full_index": 1192,
+      "REFNO": "3619",
+      "RESULTNO": "9159",
+      "ROCKNAME": "Xichang Redbeds"
+    },
+    {
+      "sample_index": 159,
+      "full_index": 1204,
+      "REFNO": "3627",
+      "RESULTNO": "9174",
+      "ROCKNAME": "Koto Rhyolite"
+    },
+    {
+      "sample_index": 160,
+      "full_index": 1214,
+      "REFNO": "3632",
+      "RESULTNO": "9184",
+      "ROCKNAME": "El Campito Sediments"
+    },
+    {
+      "sample_index": 161,
+      "full_index": 1215,
+      "REFNO": "3633",
+      "RESULTNO": "9185",
+      "ROCKNAME": "Summerville Formation (Trujillo)"
+    },
+    {
+      "sample_index": 162,
+      "full_index": 1216,
+      "REFNO": "3633",
+      "RESULTNO": "9186",
+      "ROCKNAME": "Summerville Formation (Romeroville)"
+    },
+    {
+      "sample_index": 163,
+      "full_index": 1240,
+      "REFNO": "3642",
+      "RESULTNO": "9210",
+      "ROCKNAME": "Beaver River Complex"
+    },
+    {
+      "sample_index": 164,
+      "full_index": 1241,
+      "REFNO": "3643",
+      "RESULTNO": "9211",
+      "ROCKNAME": "Cooper Mountain Pluton"
+    },
+    {
+      "sample_index": 165,
+      "full_index": 1242,
+      "REFNO": "3643",
+      "RESULTNO": "9212",
+      "ROCKNAME": "Cooper Mountain Pluton"
+    },
+    {
+      "sample_index": 166,
+      "full_index": 1254,
+      "REFNO": "3658",
+      "RESULTNO": "9232",
+      "ROCKNAME": "Juiz de For a Complex"
+    },
+    {
+      "sample_index": 167,
+      "full_index": 1262,
+      "REFNO": "3663",
+      "RESULTNO": "9240",
+      "ROCKNAME": "Parana Basalts"
+    },
+    {
+      "sample_index": 168,
+      "full_index": 1263,
+      "REFNO": "3665",
+      "RESULTNO": "9243",
+      "ROCKNAME": "Jianguo Basalts"
+    },
+    {
+      "sample_index": 169,
+      "full_index": 1265,
+      "REFNO": "3667",
+      "RESULTNO": "9245",
+      "ROCKNAME": "Canisp Porphyry and Contact"
+    },
+    {
+      "sample_index": 170,
+      "full_index": 1266,
+      "REFNO": "3669",
+      "RESULTNO": "9247",
+      "ROCKNAME": "Puga Cap Carbonate"
+    },
+    {
+      "sample_index": 171,
+      "full_index": 1268,
+      "REFNO": "3671",
+      "RESULTNO": "9250",
+      "ROCKNAME": "Society Cliffs Dolostone"
+    },
+    {
+      "sample_index": 172,
+      "full_index": 1291,
+      "REFNO": "3688",
+      "RESULTNO": "9273",
+      "ROCKNAME": "Sierra de los Barrientos Redbeds"
+    },
+    {
+      "sample_index": 173,
+      "full_index": 1293,
+      "REFNO": "3689",
+      "RESULTNO": "9275",
+      "ROCKNAME": "Itabaiana Dykes"
+    },
+    {
+      "sample_index": 174,
+      "full_index": 1294,
+      "REFNO": "3690",
+      "RESULTNO": "9276",
+      "ROCKNAME": "Nola Dykes"
+    },
+    {
+      "sample_index": 175,
+      "full_index": 1315,
+      "REFNO": "3699",
+      "RESULTNO": "9300",
+      "ROCKNAME": "Colider Suite"
+    },
+    {
+      "sample_index": 176,
+      "full_index": 1316,
+      "REFNO": "3701",
+      "RESULTNO": "9302",
+      "ROCKNAME": "Sortavala Dykes"
+    },
+    {
+      "sample_index": 177,
+      "full_index": 1317,
+      "REFNO": "3702",
+      "RESULTNO": "9303",
+      "ROCKNAME": "Valaam Sill"
+    },
+    {
+      "sample_index": 178,
+      "full_index": 1333,
+      "REFNO": "3711",
+      "RESULTNO": "9323",
+      "ROCKNAME": "Nuccaleena Formation"
+    },
+    {
+      "sample_index": 179,
+      "full_index": 1335,
+      "REFNO": "3713",
+      "RESULTNO": "9325",
+      "ROCKNAME": "Upper Akitkan Group"
+    },
+    {
+      "sample_index": 180,
+      "full_index": 1358,
+      "REFNO": "3733",
+      "RESULTNO": "9355",
+      "ROCKNAME": "Smaland Composite Intrusions"
+    },
+    {
+      "sample_index": 181,
+      "full_index": 1364,
+      "REFNO": "3737",
+      "RESULTNO": "9361",
+      "ROCKNAME": "Nova Guarita Intrusives"
+    },
+    {
+      "sample_index": 182,
+      "full_index": 1367,
+      "REFNO": "3739",
+      "RESULTNO": "9364",
+      "ROCKNAME": "Mutton Bay Syenite"
+    },
+    {
+      "sample_index": 183,
+      "full_index": 1368,
+      "REFNO": "3739",
+      "RESULTNO": "9365",
+      "ROCKNAME": "Mutton Bay Late Intrusions"
+    },
+    {
+      "sample_index": 184,
+      "full_index": 1378,
+      "REFNO": "3751",
+      "RESULTNO": "9382",
+      "ROCKNAME": "Salla Diabase Dyke"
+    },
+    {
+      "sample_index": 185,
+      "full_index": 1381,
+      "REFNO": "3753",
+      "RESULTNO": "9386",
+      "ROCKNAME": "Yen Chau Formation"
+    },
+    {
+      "sample_index": 186,
+      "full_index": 1382,
+      "REFNO": "3757",
+      "RESULTNO": "9391",
+      "ROCKNAME": "Hannuoba Basalts"
+    },
+    {
+      "sample_index": 187,
+      "full_index": 1383,
+      "REFNO": "3758",
+      "RESULTNO": "9392",
+      "ROCKNAME": "Suhongtu Lavas"
+    },
+    {
+      "sample_index": 188,
+      "full_index": 1390,
+      "REFNO": "3764",
+      "RESULTNO": "9399",
+      "ROCKNAME": "Pandurra Formation and Blue Range Beds"
+    },
+    {
+      "sample_index": 189,
+      "full_index": 1394,
+      "REFNO": "3767",
+      "RESULTNO": "9403",
+      "ROCKNAME": "Vredefort Impact Pseudotachylite"
+    },
+    {
+      "sample_index": 190,
+      "full_index": 1414,
+      "REFNO": "3789",
+      "RESULTNO": "9427",
+      "ROCKNAME": "Koitere Sanukitoid"
+    },
+    {
+      "sample_index": 191,
+      "full_index": 1418,
+      "REFNO": "3797",
+      "RESULTNO": "9438",
+      "ROCKNAME": "Ulupa Siltstone"
+    },
+    {
+      "sample_index": 192,
+      "full_index": 1428,
+      "REFNO": "3802",
+      "RESULTNO": "9448",
+      "ROCKNAME": "Lebo and Tongue River Members"
+    },
+    {
+      "sample_index": 193,
+      "full_index": 1431,
+      "REFNO": "3804",
+      "RESULTNO": "9451",
+      "ROCKNAME": "Khomolkho Formation, gold-bearing shales"
+    },
+    {
+      "sample_index": 194,
+      "full_index": 1444,
+      "REFNO": "3818",
+      "RESULTNO": "9467",
+      "ROCKNAME": "Habur Formation, site 24"
+    },
+    {
+      "sample_index": 195,
+      "full_index": 1468,
+      "REFNO": "3837",
+      "RESULTNO": "9496",
+      "ROCKNAME": "Rabbi Creek, Powder River and South Path Dykes"
+    },
+    {
+      "sample_index": 196,
+      "full_index": 1477,
+      "REFNO": "3847",
+      "RESULTNO": "9507",
+      "ROCKNAME": "Portage Lake Volkanics"
+    },
+    {
+      "sample_index": 197,
+      "full_index": 1478,
+      "REFNO": "3848",
+      "RESULTNO": "9508",
+      "ROCKNAME": "Toarcian Limestones"
+    },
+    {
+      "sample_index": 198,
+      "full_index": 1480,
+      "REFNO": "3853",
+      "RESULTNO": "9516",
+      "ROCKNAME": "Umkondo Combined"
+    },
+    {
+      "sample_index": 199,
+      "full_index": 1500,
+      "REFNO": "3872",
+      "RESULTNO": "9540",
+      "ROCKNAME": "Erayinia Dykes"
+    },
+    {
+      "sample_index": 200,
+      "full_index": 1525,
+      "REFNO": "3883",
+      "RESULTNO": "9565",
+      "ROCKNAME": "Westerberg Sills"
+    },
+    {
+      "sample_index": 201,
+      "full_index": 1547,
+      "REFNO": "3907",
+      "RESULTNO": "9598",
+      "ROCKNAME": "Hartford Basin Sediments"
+    },
+    {
+      "sample_index": 202,
+      "full_index": 1568,
+      "REFNO": "3927",
+      "RESULTNO": "9636",
+      "ROCKNAME": "Xiaganchaigou and Xiayoushashan Formations"
+    },
+    {
+      "sample_index": 203,
+      "full_index": 1570,
+      "REFNO": "3929",
+      "RESULTNO": "9638",
+      "ROCKNAME": "Lower Beaufort Group"
+    },
+    {
+      "sample_index": 204,
+      "full_index": 1593,
+      "REFNO": "3943",
+      "RESULTNO": "9667",
+      "ROCKNAME": "Alchanskaya Formation"
+    },
+    {
+      "sample_index": 205,
+      "full_index": 1594,
+      "REFNO": "3944",
+      "RESULTNO": "9668",
+      "ROCKNAME": "Paomagang Formation"
+    },
+    {
+      "sample_index": 206,
+      "full_index": 1595,
+      "REFNO": "3946",
+      "RESULTNO": "9671",
+      "ROCKNAME": "Daye Formation"
+    },
+    {
+      "sample_index": 207,
+      "full_index": 1605,
+      "REFNO": "3953",
+      "RESULTNO": "9681",
+      "ROCKNAME": "Pudendin Formation"
+    },
+    {
+      "sample_index": 208,
+      "full_index": 1611,
+      "REFNO": "3956",
+      "RESULTNO": "9687",
+      "ROCKNAME": "Keuruu Dykes"
+    },
+    {
+      "sample_index": 209,
+      "full_index": 1636,
+      "REFNO": "3971",
+      "RESULTNO": "9722",
+      "ROCKNAME": "Sierra Madre Volcanics"
+    },
+    {
+      "sample_index": 210,
+      "full_index": 1641,
+      "REFNO": "3976",
+      "RESULTNO": "9728",
+      "ROCKNAME": "Malani Igneous Suite Grand Mean"
+    },
+    {
+      "sample_index": 211,
+      "full_index": 1656,
+      "REFNO": "3986",
+      "RESULTNO": "9745",
+      "ROCKNAME": "Chilgok Formation"
+    },
+    {
+      "sample_index": 212,
+      "full_index": 1657,
+      "REFNO": "3987",
+      "RESULTNO": "9746",
+      "ROCKNAME": "Shexing Formation"
+    },
+    {
+      "sample_index": 213,
+      "full_index": 1658,
+      "REFNO": "3988",
+      "RESULTNO": "9747",
+      "ROCKNAME": "Angjie Formation"
+    },
+    {
+      "sample_index": 214,
+      "full_index": 1659,
+      "REFNO": "3989",
+      "RESULTNO": "9748",
+      "ROCKNAME": "Zenong Group"
+    },
+    {
+      "sample_index": 215,
+      "full_index": 1661,
+      "REFNO": "3993",
+      "RESULTNO": "9753",
+      "ROCKNAME": "Huaitoutala Formation"
+    },
+    {
+      "sample_index": 216,
+      "full_index": 1665,
+      "REFNO": "3996",
+      "RESULTNO": "9759",
+      "ROCKNAME": "Nahant Gabbro"
+    },
+    {
+      "sample_index": 217,
+      "full_index": 1666,
+      "REFNO": "3997",
+      "RESULTNO": "9760",
+      "ROCKNAME": "Doherty Mountain Sills"
+    },
+    {
+      "sample_index": 218,
+      "full_index": 1707,
+      "REFNO": "4021",
+      "RESULTNO": "9804",
+      "ROCKNAME": "Fort Knox Stock"
+    },
+    {
+      "sample_index": 219,
+      "full_index": 1708,
+      "REFNO": "4022",
+      "RESULTNO": "9805",
+      "ROCKNAME": "Ochoco Basin Sediments"
+    },
+    {
+      "sample_index": 220,
+      "full_index": 1709,
+      "REFNO": "4023",
+      "RESULTNO": "9806",
+      "ROCKNAME": "Swede Dome Stock"
+    },
+    {
+      "sample_index": 221,
+      "full_index": 1716,
+      "REFNO": "4029",
+      "RESULTNO": "9815",
+      "ROCKNAME": "Illapel Plutonic Complex"
+    },
+    {
+      "sample_index": 222,
+      "full_index": 1720,
+      "REFNO": "4032",
+      "RESULTNO": "9819",
+      "ROCKNAME": "Deccan Traps"
+    },
+    {
+      "sample_index": 223,
+      "full_index": 1727,
+      "REFNO": "4040",
+      "RESULTNO": "9829",
+      "ROCKNAME": "Seribayanaobao Formation"
+    },
+    {
+      "sample_index": 224,
+      "full_index": 1736,
+      "REFNO": "4046",
+      "RESULTNO": "9840",
+      "ROCKNAME": "West Pingdingshan Section"
+    },
+    {
+      "sample_index": 225,
+      "full_index": 1739,
+      "REFNO": "4051",
+      "RESULTNO": "9846",
+      "ROCKNAME": "Jingxing and Nanxin Formations"
+    },
+    {
+      "sample_index": 226,
+      "full_index": 1742,
+      "REFNO": "4053",
+      "RESULTNO": "9849",
+      "ROCKNAME": "Yuanmou Basin Sediments"
+    },
+    {
+      "sample_index": 227,
+      "full_index": 1748,
+      "REFNO": "4064",
+      "RESULTNO": "9856",
+      "ROCKNAME": "North Shore lavas -N"
+    },
+    {
+      "sample_index": 228,
+      "full_index": 1750,
+      "REFNO": "4071",
+      "RESULTNO": "9860",
+      "ROCKNAME": "Häme Dykes"
+    },
+    {
+      "sample_index": 229,
+      "full_index": 1769,
+      "REFNO": "4087",
+      "RESULTNO": "9894",
+      "ROCKNAME": "Udzha Intrusions"
+    },
+    {
+      "sample_index": 230,
+      "full_index": 1770,
+      "REFNO": "4087",
+      "RESULTNO": "9895",
+      "ROCKNAME": "Udzha Intrusions and Chieress Dyke"
+    },
+    {
+      "sample_index": 231,
+      "full_index": 1778,
+      "REFNO": "4099",
+      "RESULTNO": "9909",
+      "ROCKNAME": "Ecca Group"
+    },
+    {
+      "sample_index": 232,
+      "full_index": 1779,
+      "REFNO": "4101",
+      "RESULTNO": "9912",
+      "ROCKNAME": "Black Range Dykes"
+    },
+    {
+      "sample_index": 233,
+      "full_index": 1780,
+      "REFNO": "4102",
+      "RESULTNO": "9913",
+      "ROCKNAME": "Hekpoort Formation"
+    },
+    {
+      "sample_index": 234,
+      "full_index": 1786,
+      "REFNO": "4111",
+      "RESULTNO": "9926",
+      "ROCKNAME": "Suomenniemi Dykes"
+    },
+    {
+      "sample_index": 235,
+      "full_index": 1788,
+      "REFNO": "4113",
+      "RESULTNO": "9928",
+      "ROCKNAME": "Madiyi Formation"
+    },
+    {
+      "sample_index": 236,
+      "full_index": 1790,
+      "REFNO": "4116",
+      "RESULTNO": "9932",
+      "ROCKNAME": "Batoka Basalts"
+    },
+    {
+      "sample_index": 237,
+      "full_index": 1795,
+      "REFNO": "4121",
+      "RESULTNO": "9938",
+      "ROCKNAME": "Taylor Mountain Batholith"
+    },
+    {
+      "sample_index": 238,
+      "full_index": 1800,
+      "REFNO": "4126",
+      "RESULTNO": "9946",
+      "ROCKNAME": "Qiliang and Saergan Formations"
+    },
+    {
+      "sample_index": 239,
+      "full_index": 1801,
+      "REFNO": "4126",
+      "RESULTNO": "9947",
+      "ROCKNAME": "Tataertage and Imogantau Formations"
+    },
+    {
+      "sample_index": 240,
+      "full_index": 1819,
+      "REFNO": "4146",
+      "RESULTNO": "9974",
+      "ROCKNAME": "Hsuchuang Formation"
+    },
+    {
+      "sample_index": 241,
+      "full_index": 1824,
+      "REFNO": "4154",
+      "RESULTNO": "9983",
+      "ROCKNAME": "Chengjiang Formation"
+    },
+    {
+      "sample_index": 242,
+      "full_index": 1825,
+      "REFNO": "4155",
+      "RESULTNO": "9984",
+      "ROCKNAME": "Santa Angelica and Venda Nova plutons"
+    },
+    {
+      "sample_index": 243,
+      "full_index": 1826,
+      "REFNO": "4156",
+      "RESULTNO": "9985",
+      "ROCKNAME": "Dharwar 1.86 Ga Dykes and Sills"
+    },
+    {
+      "sample_index": 244,
+      "full_index": 1827,
+      "REFNO": "4156",
+      "RESULTNO": "9986",
+      "ROCKNAME": "Dharwar 1.89 Ga Dykes and Sills"
+    },
+    {
+      "sample_index": 245,
+      "full_index": 1839,
+      "REFNO": "4163",
+      "RESULTNO": "9999",
+      "ROCKNAME": "Shexing Formation"
+    },
+    {
+      "sample_index": 246,
+      "full_index": 1842,
+      "REFNO": "4167",
+      "RESULTNO": "10004",
+      "ROCKNAME": "Bornholm Dykes"
+    },
+    {
+      "sample_index": 247,
+      "full_index": 1856,
+      "REFNO": "4173",
+      "RESULTNO": "10020",
+      "ROCKNAME": "Hooggenoeg and Noisy formations"
+    },
+    {
+      "sample_index": 248,
+      "full_index": 1858,
+      "REFNO": "4177",
+      "RESULTNO": "10024",
+      "ROCKNAME": "Huangmaqing Formation"
+    },
+    {
+      "sample_index": 249,
+      "full_index": 1871,
+      "REFNO": "4184",
+      "RESULTNO": "10037",
+      "ROCKNAME": "Shichuanhe Section"
+    },
+    {
+      "sample_index": 250,
+      "full_index": 1878,
+      "REFNO": "4189",
+      "RESULTNO": "10046",
+      "ROCKNAME": "Permian Limestones"
+    },
+    {
+      "sample_index": 251,
+      "full_index": 1884,
+      "REFNO": "4195",
+      "RESULTNO": "10053",
+      "ROCKNAME": "Stugun Dyke"
+    },
+    {
+      "sample_index": 252,
+      "full_index": 1890,
+      "REFNO": "4199",
+      "RESULTNO": "10059",
+      "ROCKNAME": "Glacial Rhythmites, Mafra Formation"
+    },
+    {
+      "sample_index": 253,
+      "full_index": 1895,
+      "REFNO": "4204",
+      "RESULTNO": "10065",
+      "ROCKNAME": "Guzhang and Anjiang Sills"
+    },
+    {
+      "sample_index": 254,
+      "full_index": 1908,
+      "REFNO": "4214",
+      "RESULTNO": "10080",
+      "ROCKNAME": "Chon Aike Formation"
+    },
+    {
+      "sample_index": 255,
+      "full_index": 1909,
+      "REFNO": "4215",
+      "RESULTNO": "10081",
+      "ROCKNAME": "Campanario Formation"
+    },
+    {
+      "sample_index": 256,
+      "full_index": 1913,
+      "REFNO": "4218",
+      "RESULTNO": "10085",
+      "ROCKNAME": "JCD Impact Breccia"
+    },
+    {
+      "sample_index": 257,
+      "full_index": 1919,
+      "REFNO": "4221",
+      "RESULTNO": "10091",
+      "ROCKNAME": "Zapicán Dykes"
+    },
+    {
+      "sample_index": 258,
+      "full_index": 1920,
+      "REFNO": "4223",
+      "RESULTNO": "10095",
+      "ROCKNAME": "Yanshiping Volcanics"
+    },
+    {
+      "sample_index": 259,
+      "full_index": 1927,
+      "REFNO": "4230",
+      "RESULTNO": "10102",
+      "ROCKNAME": "Dashizhai Formation"
+    },
+    {
+      "sample_index": 260,
+      "full_index": 1933,
+      "REFNO": "4237",
+      "RESULTNO": "10110",
+      "ROCKNAME": "Century SEDEX Ores"
+    },
+    {
+      "sample_index": 261,
+      "full_index": 1934,
+      "REFNO": "4238",
+      "RESULTNO": "10111",
+      "ROCKNAME": "Srednecheremshansk Dyke"
+    },
+    {
+      "sample_index": 262,
+      "full_index": 1937,
+      "REFNO": "4245",
+      "RESULTNO": "10118",
+      "ROCKNAME": "Valcheta Granites"
+    },
+    {
+      "sample_index": 263,
+      "full_index": 1938,
+      "REFNO": "4245",
+      "RESULTNO": "10119",
+      "ROCKNAME": "Valcheta Granites"
+    },
+    {
+      "sample_index": 264,
+      "full_index": 1949,
+      "REFNO": "4257",
+      "RESULTNO": "10137",
+      "ROCKNAME": "Late Triassic Marine Carbonates"
+    },
+    {
+      "sample_index": 265,
+      "full_index": 1954,
+      "REFNO": "4264",
+      "RESULTNO": "10144",
+      "ROCKNAME": "Jingzhushan Formation"
+    },
+    {
+      "sample_index": 266,
+      "full_index": 1963,
+      "REFNO": "4273",
+      "RESULTNO": "10156",
+      "ROCKNAME": "Etendeka Magmatic Province"
+    },
+    {
+      "sample_index": 267,
+      "full_index": 1981,
+      "REFNO": "4293",
+      "RESULTNO": "10182",
+      "ROCKNAME": "Middle Permian Carbonates"
+    },
+    {
+      "sample_index": 268,
+      "full_index": 1986,
+      "REFNO": "4296",
+      "RESULTNO": "10187",
+      "ROCKNAME": "Dharwar Dykes 1.8 Ga"
+    },
+    {
+      "sample_index": 269,
+      "full_index": 1995,
+      "REFNO": "4300",
+      "RESULTNO": "10196",
+      "ROCKNAME": "Kupol Volcanics"
+    },
+    {
+      "sample_index": 270,
+      "full_index": 2006,
+      "REFNO": "4310",
+      "RESULTNO": "10218",
+      "ROCKNAME": "Khorbusuonka Intrusions"
+    },
+    {
+      "sample_index": 271,
+      "full_index": 2012,
+      "REFNO": "4318",
+      "RESULTNO": "10227",
+      "ROCKNAME": "Elliot Formation"
+    },
+    {
+      "sample_index": 272,
+      "full_index": 2032,
+      "REFNO": "4329",
+      "RESULTNO": "10249",
+      "ROCKNAME": "Nyurbinskaya Pipe Kimberlites"
+    },
+    {
+      "sample_index": 273,
+      "full_index": 2033,
+      "REFNO": "4329",
+      "RESULTNO": "10250",
+      "ROCKNAME": "Nyurbinskaya Pipe Dolerites"
+    },
+    {
+      "sample_index": 274,
+      "full_index": 2034,
+      "REFNO": "4331",
+      "RESULTNO": "10254",
+      "ROCKNAME": "Gwalior Sills"
+    },
+    {
+      "sample_index": 275,
+      "full_index": 2036,
+      "REFNO": "4333",
+      "RESULTNO": "10257",
+      "ROCKNAME": "NE-SW Dharwar Dykes 2.37 Ga"
+    },
+    {
+      "sample_index": 276,
+      "full_index": 2039,
+      "REFNO": "4337",
+      "RESULTNO": "10261",
+      "ROCKNAME": "Svartenhuk Lavas"
+    },
+    {
+      "sample_index": 277,
+      "full_index": 2045,
+      "REFNO": "4341",
+      "RESULTNO": "10267",
+      "ROCKNAME": "Alto Paraguay Province Magmatics"
+    },
+    {
+      "sample_index": 278,
+      "full_index": 2049,
+      "REFNO": "4344",
+      "RESULTNO": "10271",
+      "ROCKNAME": "Alto Paraguay Formation"
+    },
+    {
+      "sample_index": 279,
+      "full_index": 2052,
+      "REFNO": "4348",
+      "RESULTNO": "10275",
+      "ROCKNAME": "Drakensberg Group, Karoo Flood Basalt"
+    },
+    {
+      "sample_index": 280,
+      "full_index": 2060,
+      "REFNO": "4356",
+      "RESULTNO": "10284",
+      "ROCKNAME": "Kerala NNW-SSE Dikes"
+    },
+    {
+      "sample_index": 281,
+      "full_index": 2062,
+      "REFNO": "4361",
+      "RESULTNO": "10290",
+      "ROCKNAME": "East Gilf Kebir Plateau Basalts"
+    },
+    {
+      "sample_index": 282,
+      "full_index": 2063,
+      "REFNO": "4362",
+      "RESULTNO": "10291",
+      "ROCKNAME": "East Gilf Kebir Ring Complex Basalts"
+    },
+    {
+      "sample_index": 283,
+      "full_index": 2064,
+      "REFNO": "4362",
+      "RESULTNO": "10292",
+      "ROCKNAME": "Bir-Umhebal Ring Complex Basalts"
+    },
+    {
+      "sample_index": 284,
+      "full_index": 2068,
+      "REFNO": "4366",
+      "RESULTNO": "10297",
+      "ROCKNAME": "La Matilde Formation"
+    },
+    {
+      "sample_index": 285,
+      "full_index": 2072,
+      "REFNO": "4370",
+      "RESULTNO": "10301",
+      "ROCKNAME": "Ignimbrita Panalillo Superior"
+    },
+    {
+      "sample_index": 286,
+      "full_index": 2076,
+      "REFNO": "4374",
+      "RESULTNO": "10305",
+      "ROCKNAME": "Virei Dykes"
+    },
+    {
+      "sample_index": 287,
+      "full_index": 2083,
+      "REFNO": "4378",
+      "RESULTNO": "10312",
+      "ROCKNAME": "Udzha Triassic Volcanics and Dykes"
+    },
+    {
+      "sample_index": 288,
+      "full_index": 2086,
+      "REFNO": "4381",
+      "RESULTNO": "10315",
+      "ROCKNAME": "Baoligaomiao Formation Member 1"
+    },
+    {
+      "sample_index": 289,
+      "full_index": 2094,
+      "REFNO": "4391",
+      "RESULTNO": "10327",
+      "ROCKNAME": "Honeyeater Basalt"
+    },
+    {
+      "sample_index": 290,
+      "full_index": 2111,
+      "REFNO": "4414",
+      "RESULTNO": "10353",
+      "ROCKNAME": "Xuanlong Ironstone"
+    },
+    {
+      "sample_index": 291,
+      "full_index": 2116,
+      "REFNO": "4417",
+      "RESULTNO": "10358",
+      "ROCKNAME": "Duguan Formation"
+    },
+    {
+      "sample_index": 292,
+      "full_index": 2122,
+      "REFNO": "4423",
+      "RESULTNO": "10365",
+      "ROCKNAME": "Nayixiong Formation"
+    },
+    {
+      "sample_index": 293,
+      "full_index": 2125,
+      "REFNO": "4426",
+      "RESULTNO": "10369",
+      "ROCKNAME": "Nadenger Formation"
+    },
+    {
+      "sample_index": 294,
+      "full_index": 2128,
+      "REFNO": "4429",
+      "RESULTNO": "10373",
+      "ROCKNAME": "Upper Oulongbuluke Formation"
+    },
+    {
+      "sample_index": 295,
+      "full_index": 2129,
+      "REFNO": "4430",
+      "RESULTNO": "10374",
+      "ROCKNAME": "Niubao Formation"
+    },
+    {
+      "sample_index": 296,
+      "full_index": 2144,
+      "REFNO": "4440",
+      "RESULTNO": "10391",
+      "ROCKNAME": "Uberaba Formation"
+    },
+    {
+      "sample_index": 297,
+      "full_index": 2145,
+      "REFNO": "4441",
+      "RESULTNO": "10392",
+      "ROCKNAME": "De la Cuesta Formation"
+    },
+    {
+      "sample_index": 298,
+      "full_index": 2146,
+      "REFNO": "4442",
+      "RESULTNO": "10393",
+      "ROCKNAME": "Quxia and Gyalaze Formations"
+    },
+    {
+      "sample_index": 299,
+      "full_index": 2159,
+      "REFNO": "4449",
+      "RESULTNO": "10408",
+      "ROCKNAME": "Tiaojishan Formation"
+    }
+  ]
+}

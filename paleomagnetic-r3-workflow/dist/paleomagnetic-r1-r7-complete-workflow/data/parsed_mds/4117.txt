@@ -1,0 +1,883 @@
+### page_1
+Geophys.J.Int. (2010)181,275–289 doi:10.1111/j.1365-246X.2010.04537.x
+msitengamoealap
+dna
+msitengam
+kcor
+,msitengamoeG
+IJG
+Rock magnetic evidence for inclination shallowing in the early
+Carboniferous Deer Lake Group red beds of western Newfoundland
+∗
+Dario Bilardello and Kenneth P. Kodama
+DepartmentofEarthandEnvironmentalSciences,LehighUniversity,31WilliamsDr.,Bethlehem,PA,USA.E-mail:bilardello@geophysik.uni-muenchen.de
+Accepted2010January20.Received2010January19;inoriginalform2008July4
+SUMMARY
+ApaleomagneticandrockmagneticstudyoftheCarboniferousDeerLakeGroupredbedsof
+Newfoundlandwasperformedtodetectandcorrectforinclinationshallowing.Resultsindicate
+aprimaryremanencecarriedbymagnetite,withameandirectionofD=179.7◦,I =33.7◦,
+α =7.2◦whichcorrespondstoapaleopolepositionof22.2◦N,122.3◦E,A =7.6◦.Correct-
+95 95
+ing the inclination using anisotropy of anhysteretic remanence and the measured individual
+particle anisotropy gives a corrected direction of D = 178.8◦, I = 50.9◦, α = 6.3◦ cor-
+95
+responding to a paleopole position at 8.4◦N, 122.7◦E, A = 7.2◦. This correction is larger
+95
+than that of other red beds from the Maritime Provinces of Canada, but is consistent with
+paleoenvironmentalreconstructions,placingNorthAmericainamorearidclimatezone.Our
+inclination-correctedresultshaveimportantimplicationsforthisportionofNorthAmerica’s
+apparent polar wander path and suggest a correction is needed for other red bed-derived
+APWPs. We have determined the range of flattening factors f, defined as the proportional-
+ityconstantbetweenthetangentsofthemeasured(I )andfield(I )inclinations,tan(I )=
+m o m
+ftan(I ),fromthisstudyandpreviousinclinationcorrectionstudiestoestimateinclinationcor-
+0
+rections.Usingtherangeofhaematitef factorsobservedinthisstudytocorrecttheNeogene
+redbedinclinationsfromtheValle`s-Penede`sBasin(NESpain)yieldsinclinationsconsistent
+with the known geomagnetic field inclination in the Neogene, thus indicating that the range
+off factorsreportedheremaybeusedtoestimatethemagnitudeofinclinationshallowingin
+redbeds.
+Keywords: Magneticfabricsandanisotropy;Magneticmineralogyandpetrology;Palaeo-
+magnetism applied to tectonics; Palaeomagnetism applied to geologic processes; Rock and
+mineralmagnetism.
+paleomagneticstudy(Roy&Park1972;Walkeretal.1981;Larson
+1 INTRODUCTION
+etal.1982;Liebes&Shive1982).
+Thestableremanenceofredbedshaslongbeenstudiedbypaleo- In some cases, the remanence is carried by detrital haematite,
+magnetistsbecauseofredbeds’frequentoccurrenceincontinental makingtheremanenceaprimarydetritalremanentmagnetization
+sedimentary records. The apparent polar wander paths (APWPs) (DRM) (Collinson 1974; Elston & Purucker 1979; Steiner 1983;
+ofsomecontinents,forinstance,suchastheMeso-Paleozoicpor- Tauxeetal.1990;Tan&Kodama2002;Tanetal.2007;Bilardello
+tionofNorthAmerica’sAPWP,aredominatedbyredbed-derived 2008; Bilardello & Kodama 2009). In many red beds, however,
+paleopoles(VanderVoo1990;McElhinny&Lock1993,1996). differentmagneticmineralogiesoftencoexistanddifferentcombi-
+Themechanismbywhichredbedsacquiretheirremanence,and nationsofprimaryandsecondarymineralogiescanoccur,making
+thereforetheaccuracywithwhichredbedsrecordpaleomagneticdi- paleomagneticstudiesofredbedscasespecific.Forinstance,pig-
+rections,ispoorlyunderstood(Collinson1965;Dunlop&O¨zdemir mentary haematite is typically present in red beds, giving them
+1997).Themostcommonviewisthattheremanenceiscarriedby their characteristic red colouration, and is secondary in origin
+haematiteofchemicalorigin,inwhichcasetheremanencewillbea (Dunlop&O¨zdemir1997;McElhinny&McFadden1999;Kodama
+chemicalremanentmagnetization(CRM)thatwasacquiredeither &Dekkers2004).Otherredbedsmayhaveaprimaryremanence
+soon after or up to millions of years after deposition (Collinson carriedbymagnetiteormaghemite,withpigmentaryhaematite(and
+1974;Dunlop&O¨zdemir1997).Thetimingoftheacquisitionof other mineralogies) present as secondary phases (see Dunlop &
+theremanenceisafundamentalparameterintheinterpretationofa O¨zdemir1997).Foranyoftheearliercases,theprimaryremanence
+maybeaffectedbydepositionaland/orpost-depositionalprocesses.
+∗ Burialcompaction,whichcanshallowtheinclinationofthemag-
+Now at: Ludwig Maximilians University, Theresienstrasse, 41, 80333
+netization,isthefocusofthispaper(Anson&Kodama1987;Sun
+Munich,Germany.
+(cid:4)C 2010TheAuthors 275
+Journalcompilation(cid:4)C 2010RAS
+Downloaded
+from
+https://academic.oup.com/gji/article/181/1/275/716583
+by
+guest
+on
+05
+May
+2026
+
+### page_2
+276 D.BilardelloandK.P.Kodama
+&Kodama1992).Shallowingofthepaleomagneticinclinationis an over 2000-m-thick fluvial and alluvial fan deposit (Belt 1969;
+well-documentedinredbeds(Garce´setal.1996;Gilderetal.2001; Hyde1979),composedofmainlyredtogreyarkosicsandstoneand
+Tan & Kodama 2002, 2003; Tauxe & Kent 2004; Kent & Tauxe conglomerate,withminorredtogreysiltstoneandpinktogreymi-
+2005; Vaughn et al. 2005; Tan et al. 2007). Inclinations that are criticlimestone.TheRockyBrookFormationliesconformablyon
+tooshallowresultinerroneouspaleolatitudeestimatesandstrongly topoftheNorthBrook,anditslowermostlayersintertonguewith
+affecttheAPWPsofcontinents,hencetheneedtocorrectforthis faciesequivalenttotheNorthBrookFormation.Itistypically500-
+error(Garce´setal.1996;Gilderetal.2001;Tan&Kodama2003; to600-mthick andconsistsofredcalcareous silts,greytogreen
+Vaughnetal.2005;Tanetal.2007). siltstones and mudstones, calcareous dolostones, dolomitic lime-
+Twoinclinationshallowingcorrectiontechniqueshavebeenpro- stones,andgrey,greenandblackmudstones.Theunitisinterpreted
+posed.Oneisbasedonmagneticanisotropymeasurements(Jackson by Hyde (1984) to be mixed lacustrine and fluvial deposits. The
+et al. 1991; Kodama 1997; Tan & Kodama 2002, 2003; Vaughn HumberFallsFormationrestsdisconformablyontopoftheRocky
+etal.2005;Tanetal.2007),theotherisbasedonmodels ofthe Brook Formation and has a maximum thickness of 250 m. It has
+geomagneticfieldsecularvariation[theelongation–inclination(EI) beeninterpretedbyBelt(1969)andHyde(1979)tobeanalluvial
+technique](Tauxe&Kent2004;Kent&Tauxe2005).Anisotropy- fan-fluvialdepositcomposedofgreytoreddishconglomerateand
+basedcorrectionsrelyontheassumptionthattheorientationdistri- arkosicsandstonesandredtogreysiltstonesandmudstones.The
+butionofmagneticparticleeasyaxesinsedimentaryrocksisnearly LittlePondBrookFormationreachesathicknessof750mandis
+isotropicsoonafterdepositionandacquiresabeddingparallelfoli- consideredtobethefluvial(Hyde&Ware1981)lateralequivalent
+atedanisotropyduringburialcompaction(Stephensonetal.1986; oftheHumberFallsFormation.Itiscomposedofgreytoredclas-
+Jackson et al. 1991; Tan & Kodama 2003). The magnetic fabric, tics and grey coarse-grained sandstone and pebble conglomerate
+together with the individual particle anisotropy is used to correct interbedded with red fine-grained sandstone and siltstone. Spore
+the inclination (Jackson et al. 1991; Tan & Kodama 2002, 2003; assemblagesintheDeerLakeGroupsuggestaViseantopossibly
+Tanetal.2003).Correctionsthatarebasedonmodelsofthegeo- earlyNamurianage(Hyde1984).
+magneticfield,ontheotherhand,relyontheexpecteddistribution Two northeast-trending synclines separated by an intervening
+ofpaleomagneticdirectionscausedbysecularvariation.Duringa anticlinedeformtheDeerLakeGroup,theHumbersynclineinthe
+periodlongenoughtoobservesecularvariation(∼103years),pale- westandtheGrandLakesynclineintheeast.Beddingattitudesvary
+omagneticdirectionswillbeelongatedinaN–Sdirection,withthe fromsub-horizontaltooverturned.IthasbeensuggestedbyHyde
+amountofelongationdependingonthesamplingsite’sinitialpale- (1979)thatfoldingoftheDeerLakeGroupwastheresultofdip-slip
+olatitude,withthemaximumelongationoccurringattheequator. movementalongmajornortheasterlytrendingfaults.Thesefaults
+Shallowed inclinations, however, will result in flattened distribu- controlledtheoverallformandsedimentationofthebasinandmay
+tionsthatareelongateinanE–Wdirection.Tauxe&Kent(2004) havebeenactive,withstrike-slipmovementalongthem,duringthe
+havedevelopedacorrectiontechniquethatreliesonmodelsofthe depositionanddeformationoftheolderAnguilleGroup.
+geomagnetic field to restore the elongation and inclination of the
+distribution.
+In this paper, we perform a paleomagnetic and rock magnetic
+3 SAMPLING AND METHODS
+studyoftheearlyCarboniferousDeerLakeGroupredbedsfrom
+Newfoundlandtodetectandcorrectforinclinationshallowing.Re- AsIrving&Strong(1984)havepointedout,accessisdifficultand
+sults are compared to other Carboniferous red bed-derived pale- exposuresarefewandoftenweathered.Samplingwasperformed
+opolesfromtheMaritimeProvincesofCanadathathavebeencor- using the collection sites of Irving & Strong (1984) as guidance,
+rected for inclination shallowing (Bilardello 2008; Bilardello & howevermanysitesarealongstreambedsandthewaterlevelwas
+Kodama 2010). The effects of the corrections on the Carbonifer- still too high for sampling during both field seasons of June and
+ousAPWPforNorthAmericaareevaluatedintermsofthepale- Augustof2004.Nevertheless,18sitesweresampledfromallfour
+oenvironmental reconstructions of the rocks sampled. Finally, we unitsoftheDeerLakeGroup,mostlyalonglakeshoresoverastrati-
+determinetherelationshipbetweencorrectedinclinationsandthe graphic thickness of about 2000 m (Fig. 1). Many sites were not
+amountofshallowingforallavailableinclination-correctedresults. ideal:theywereeithertooweatheredorcoarse-grained,whichmade
+Wecheckthevalidityofthisrelationshipbyapplyingasimplified drillingverydifficultandresultedinmanycoresbreaking.Asare-
+correction to the Neogene Valle`s-Penede`s Basin (NE Spain) red sult,manyshortcoreswerecollected,sosamplingsitesrangedfrom
+beds. ∼8to∼15coresthatyieldedonetothreesampleseach.Coreswere
+collectedwithagasoline-powered25-mm-diameterdiamondcoring
+drillandorientedusingamagneticcompass.
+ThemagneticmineralogyoftheDeerLakegrouprockswasin-
+2 GEOLOGY
+vestigatedbyavarietyoftechniques.IRMacquisitionexperiments
+TheEarlyCarboniferousDeerLakeGroupispartofthefreshwater infieldsupto5TappliedwithanASCScientificimpulsemagne-
+sedimentary rocks that fill the Deer Lake Basin and rest on Pre- tizerwereusedtoidentifythemajorcoercivitycomponents.IRM
+cambrian (Grenville Structural Province of the Canadian Shield) acquisitionmodellingwasconducted(Kruiveretal.2001).Thermal
+basementgneisses.ThedepositsoftheDeerLakeBasinhavebeen demagnetizationofcompositeIRMsof0.1,0.3and1.2Twasper-
+subdivided by Hyde (1984) into the Tournaisian Anguille Group, formedusinganASCTD-48thermaldemagnetizer.Theseexper-
+the Wigwam Brook and Wetstone Point Formations, the uncon- imentswereusedtoidentifymagneticmineralogy(Lowrie1990).
+formably overlying predominantly Visean Deer Lake Group and Magneticremanencewasmeasuredwitha2GEnterprisessupercon-
+theWestphalianHowleyGroup(Fig.1). ductingmagnetometeratLehighUniversity.Low-temperaturemag-
+ThefourunitsoftheDeerLakeGrouparewellexposedandare netic properties were measured with a Quantum Designs MPMS
+bestsuitedforapaleomagneticstudy.Allfourunitsweresampled cryogenicsusceptometerattheInstituteforRockMagnetism,Uni-
+forthisstudy.Thelowermostunit,theNorthBrookFormationis versityofMinnesota.Specimenswerecooleddownto20Kinzero
+(cid:4)C 2010TheAuthors,GJI,181,275–289
+Journalcompilation(cid:4)C 2010RAS
+Downloaded
+from
+https://academic.oup.com/gji/article/181/1/275/716583
+by
+guest
+on
+05
+May
+2026
+
+### page_3
+Rockmagnetismandinclinationshallowing 277
+Figure1. LocationmapoftheDeerLakeGroupofNewfoundland.SamplingsitesareshownascirclesonthemapmodifiedafterIrving&Strong(1984).For
+acolourversionofthefigure,thereaderisreferredtotheonlineversionofthispaper.
+field and the remanence was measured on heating to 300 K and demagnetization steps. The nine pARMs were used to determine
+oncoolingbackto20K.First-orderreversalcurves(FORCs)were thebest-fitanisotropytensorbyleastsquares.Finally,theindivid-
+measuredwithavariabletemperaturePrincetonMeasurementsCor- ualparticleanisotropy,orafactor,wasmeasureddirectlyfollowing
+porationvibratingsamplemagnetometer attheInstituteforRock several steps. First, the samples were crushed, ball milled and fi-
+Magnetism and processed using Winklhofer & Zimanyi’s (2006) nallysievedtoensurethattherockparticlesaresmallerthan4(cid:3)
+MATLABcode. (62.5μm).Then,aslurrywasmadewiththeresultingcrushedrock
+Thermaldemagnetizationwasconductedinthethermaldemag- anddistilledwaterwhichwasthenplacedinanultrasoniccleanerfor
+netizer using 16 steps between 200 and 685 ◦C to identify the atleast24hrbeforecirculatingitinamagneticextractionapparatus
+characteristic remanence of the rocks. Chemical demagnetization (Hounslow&Maher1999).Themagneticseparatewascollected
+was conducted by leaching the samples in 3N HCl using 4-day overaperiodof2–3weeks.Smallamountsofthemagneticseparates
+leaching steps up to a cumulative 12 days and then 7-day steps weremixedinaslow-dryingepoxyresinfor24hrandplacedina
+up to a cumulative 40 days. AF demagnetization was conducted dcmagneticfield(45and55mT)toalignthegrains.Becausethe
+onrepresentativesamplesinstepsof5mTupto50mTandthen grainsarealigned,thebulkAARanisotropyoftheepoxysamples
+10mTstepsupto100mT. providesanaverageindividualparticleanisotropy.
+Determining the remanence anisotropy of the characteristic ChRMswerecorrectedforinclinationshallowingusingtherela-
+remanence-carryinggrainsinvolvedseveralsteps.First,thecoerciv- tionshipbetweenmagnetiteanisotropyprincipalaxesandinclina-
+ityspectraoftheferromagneticgrainswasdeterminedfrompartial tionerrordescribedbyJacksonetal.(1991):
+anhystereticremanencemagnetization(pARM)usingaSchonstedt
+q (a+2)−1
+GSD-5tumblingspecimendemagnetizermodifiedtoapplypARMs. tan(I )= x tan(I ), (1)
+0 q (a+2)−1 m
+pARMacquisitioncurveswereacquiredin10mTintervalsbetween z
+0and100mTtodeterminethemediancoercivitywindow.Second, whereI isthecorrectedpaleomagneticinclination;I isthemea-
+0 m
+the magnetic fabric of these grains was measured by anisotropy suredpaleomagneticinclination;q andq arethenormalizedmax-
+x z
+ofanhystereticremanence (AAR)ina10–70mTcoercivity win- imum and minimum axes of the magnetic anisotropy ellipsoid
+dow, with a 0.1 mT dc field. AAR was determined following the (q + q + q = 1); a is the individual particle anisotropy (the
+x y z
+methoddescribedbyMcCabeetal.(1985):pARMswereapplied afactor=easymagneticaxis/hardmagneticaxis).Aninclination
+inninedifferentorientationsseparatedby100mTalternatingfield correctionmayuseeitherAMSorAARparameters(bothanisotropy
+(cid:4)C 2010TheAuthors,GJI,181,275–289
+Journalcompilation(cid:4)C 2010RAS
+Downloaded
+from
+https://academic.oup.com/gji/article/181/1/275/716583
+by
+guest
+on
+05
+May
+2026
+
+### page_4
+278 D.BilardelloandK.P.Kodama
+principalaxesandparticleanisotropy),becausethemagnitudesof clearlyshowsthe119Ktransition,althoughnotasabruptly.Both
+thecorrespondingnormalizedprincipalaxesarelinearlycorrelated transitions are best observed when plotting the derivatives of the
+(Stephenson et al. 1986; Tan & Kodama 2002, 2003; Tan et al. twocurves(Fig.4).
+2003).Inclinationshavebeencorrectedusingthemeasuredafactor Hysteresis loops were acquired in fields of 1.2 T to capture a
+andthemeasuredanisotropyprincipalaxes. broadspectrumofcoercivities(Fig.5a),however,theFORCdia-
+gramofspecimenNF11j-2,thathasrepresentativebehaviour,shows
+themagneticmineralogybeingdominatedbyonelow(<100mT)
+4 RESULTS coercivityphaseorgroupofphases(Fig.5b).
+4.1 Magneticmineralogy
+4.2 Paleomagnetism
+ThermaldemagnetizationoforthogonalIRMsof0.1,0.3and1.2
+T(Lowrie1990)revealsthepresenceofatleastthreecomponents ThermaldemagnetizationoftheDeerLakeGrouprocksrevealed
+ofmagnetization(Fig.2).The1.2Tdemagnetizationcurveshows differentcomponentsofmagnetizationthatarecompletelyremoved
+a drop around 680 ◦C. Typically this drop is small as in samples bydemagnetizationupto600–625◦C.Thelowestunblockingtem-
+NF11e2andNF15e3,butforsomesamples,asinsampleNF8e2it perature component, denoted the A component, is completely re-
+isthemostprominentfeature.Insomecases,asforexamplesample movedby200◦C,butitisnotpossibletofullyresolveitwithour
+NF8e2,italsoshowsadistinctdecreaseofintensitybetween350 demagnetizationscheme(Fig.6).
+and 450 ◦C. The intermediate (0.3 T) demagnetization curve has Anintermediateunblockingtemperaturecomponentofmagne-
+differentbehaviourindifferentsamples:insomecasesitshowsa tization,denotedB,issometimesobservedbetween200and300–
+distinctdropat580◦Cafterwhichitismostlyremoved,asinsample 400 ◦C (Fig. 6d). Although this component is not fully resolved
+NF11e2,butinothersitpersistsupto680◦C,asinsamplesNF8e2 and only defined by three demagnetization steps, it is southerly
+andNF15e3,aslightdecreasearound400–450◦Cisalsoobserved. directed with positive inclinations (reverse polarity). The highest
+The0.1Tcurveconsistentlyshowsadecreaseat350◦Candthen unblocking temperature component of magnetization, component
+dropssharplyat580◦C.UponreapplicationofIRMsinthesame C, is observed above 300–400 ◦C and is completely removed by
+fields,butaftercompletethermaldemagnetization,theintensities 600–625◦C.Thiscomponenthasanortherlydirectionandnegative
+ofallIRMsshowadecreasewithrespecttotheirinitialintensity. inclination(normalpolarity)(Figs6bandd).Afewsamples,how-
+IRMacquisitionmodellingofspecimensNF15e-1andNF8e-1 ever, revealed an antipodal direction of component C that trends
+revealedthreemajorcoercivitycomponents.Thelowestcomponent towardstheoriginstartingat200◦Candiscompletelyremovedby
+is acquired between 60 and 80 mT. An intermediate component 600–625◦C.Thiscomponentisalwayssoutherlydirectedandhas
+peaks at 500 mT, whereas the highest component peaks around a positive inclination (Figs 6a and e). Complete demagnetization
+2000mT(Fig.3). upto685◦Cwasperformedonallsamples,howevernostabledi-
+Thelow-temperaturemeasurementsofspecimenNF11j-1clearly rection has been isolated above 600–625 ◦C (Figs 6c and f). The
+showaninitiallossofintensitywhenheatingfrom20to50Kand DeerLakeGroupmeandirectionforthishighunblockingtemper-
+thenasecondabruptdropataround119K.Thecoolingcurveonly ature component of magnetization in stratigraphic coordinates is
+Figure2. ThermaldemagnetizationofthreeorthogonalIRMsof1.2T(diamonds),0.3T(squares)and0.1T(triangles)(Lowrie1990)forspecimensNF8e2,
+NF11e2andNF15e3.Filledsymbolsarere-applicationsoftheIRMsattheendoftheheatingcycle(specimensNF8E2andNF11E2).Lossofintensityon
+re-applicationoftheIRMsindicatesthepresenceofmaghemite.Lossesofintensityinthe350–450◦Crangeisindicativeofmaghemitewhereasdropsof
+intensityat580and680◦Cindicatemagnetiteandhaematite,respectively.
+(cid:4)C 2010TheAuthors,GJI,181,275–289
+Journalcompilation(cid:4)C 2010RAS
+Downloaded
+from
+https://academic.oup.com/gji/article/181/1/275/716583
+by
+guest
+on
+05
+May
+2026
+
+### page_5
+Rockmagnetismandinclinationshallowing 279
+Figure3. ModellingofIRMacquisitioncurves(Kruiveretal.2001)forsamplesNF15e-1andNF8e-1.Thethreepeaksareinthecoercivityrangesof
+magnetite(low),haematite(intermediate)andgoethite(high).
+Figure4. Low-temperaturemagnetizationmeasurementsforspecimenNF11j-1duringheatingfrom20to300Kandcoolingfrom300to20Kallinzero
+field.Theinsetshowsthederivativesofthetwocurvestohighlightmagnetizationtransitions.Theinitiallossofintensityat<50Kduringheatingisattributed
+togoethite.TheVerweytransition,characteristicofmagnetiteisclearlyvisiblearound119K.
+D=179.3◦,I =30.5◦,α =19.7◦,N =8.Chemicaldemagneti- interval for the fold test is extremely large, ranging from −58 to
+95
+zationwasnotsuccessfulatisolatingstablecomponentsofmagne- 151percentuntilting.However,whentheformationmeandirec-
+tization(Fig.6g),sotheseresultswillnotbetreated. tionisplottedwithitsconfidenceellipsetogetherwiththeformation
+For a few selected samples, AF demagnetization up to 50–60 meandirectionisolatedbyIrving&Strong(1984),thetwodirec-
+mTisolatedthesamecomponentsofmagnetizationasthermalde- tionsarestatisticallyindistinguishable(Fig.7b).Thedirectionsiso-
+magnetization(Fig.6h).AFdemagnetizationupto100mTdidnot latedbyIrving&Strong(1984)(Table1)provedtobepre-folding
+isolateastablemagnetizationathigherfields(Fig.6i).Whenthe directionsofmagnetization.Wehavecombinedoursitemeandi-
+site mean directions from thermal demagnetization (Table 1) are rectionswiththoseofIrving&Strong(1984)andtogether,thesite
+plotted on a stereographic projection there is much scatter (Fig. meanspasstheTauxe&Watson(1994)andtheMcFadden&Jones
+7a). Fold tests performed on these directions gave ambiguous re- (1981) fold tests, although with a large 95 per cent confidence
+sults(Tauxe&Watson1994),becausethe95percentconfidence interval (Fig. 8). The mean formation direction in stratigraphic
+(cid:4)C 2010TheAuthors,GJI,181,275–289
+Journalcompilation(cid:4)C 2010RAS
+Downloaded
+from
+https://academic.oup.com/gji/article/181/1/275/716583
+by
+guest
+on
+05
+May
+2026
+
+### page_6
+280 D.BilardelloandK.P.Kodama
+Figure5. FORCdiagramobtainedforspecimenNF11j-2usingthecodeofWinklhofer&Zimanyi(2006).Thissamplewaschosenbecausesamplesfrom
+thissiteshowtypicalthermaldemagnetizationbehaviour.(a)Rawdataand(b)FORCdiagram(smoothingfactor=5)showsonemaincoercivitydistribution
+thatis<100mTdominatingthemagnetization.Foracolourversionofthefigure,thereaderisreferredtotheonlineversionofthisarticle.
+coordinatesobtainedbycombiningourdata(N =8)withthatof
+Irving&Strong(1984)(N =21)isD=179.7◦,I =33.7◦,α 95 = 4.4 Individualparticleanisotropy(afactor)
+7.2◦.Thisdirectionhasbeenusedforourinclinationcorrection.
+BecauseBlow&Hamilton(1978)foundadependenceofinclination
+shallowingonporosity,DRMresearchhasfocusedontheattach-
+mentofmagneticparticlestoclaysduringDRMacquisitionandthe
+4.3 MagneticFabrics
+effectoftheattachmentoninclinationshallowing(e.g.Scherbakov
+AARwasusedtomeasurethemagneticfabrics.Todeterminethe and Scherbakova 1983; Anson & Kodama 1987; Deamer and
+coercivityrangetoapplytheARMs,weappliedpARMsbetween Kodama,1990;Jacksonetal.1991;Mitra&Tauxe2009).Flocsare
+0 and 100 mT in intervals of 10 mT. The highest activation of thoughttobeformedbymagneticparticlesembeddedinclayminer-
+magneticgrains,indicatedbyapeakinthepARMspectrum,oc- als,whichareinturnarrangedinahierarchical,fractalnature(Mitra
+curred between 10 and 70 mT. We therefore measured the AAR &Tauxe2009andreferencestherein).However,thetruestructure
+inthiscoercivityrange.BecausetheChRMisdemagnetizedover and,mostimportantly,theorientationofindividualmagneticparti-
+the same AF interval (15–50/60 mT), the AAR is applied to the cleswithintheflocsisunknown.Thisraisesanimportantquestion
+ChRM-carrying grains. The magnetic remanence fabric in strati- whenconsideringparticleanisotropyforinclinationshallowingbe-
+graphic coordinates (Fig. 9a) has a sub-bedding parallel foliation causeitcarriestheimplicationthatthemagneticanisotropyofthe
+withverysteepminimumaxesplungingtotheNW.Themaximum flocscouldbemoreimportantthanthatoftheparticlesembedded
+and intermediate axes show good clustering at shallow inclina- in them. However, the misalignment of magnetic grain easy axes
+tions. The maximum axes define a strong magnetic lineation that inafloc,aswellasthemisalignmentofmeanfloc“easyaxes”is
+plungesgentlytotheSSW,whereastheintermediateaxesplunge measuredastheoverallpreferredalignmentofmagneticparticles
+to the ESE. Orientation of the mean eigenvectors of the fabric by the bulk rock anisotropy and the individual magnetic particle
+are better appreciated after re-sampling the data using the boot- anisotropy,asmeasuredbytheafactor,isstillthebasic“quantum”
+straptechniqueofConstable&Tauxe(1990)(Fig.9b).Plottedon ofmagneticanisotropyintherock.
+a Flinn diagram (Flinn 1962) (Fig. 9c) and as histograms of the Two samples of magnetic separates have been prepared, mixed
+eigenvalues (Fig. 9f), the fabric appears triaxial tending towards in epoxy, and dried in dc magnetic fields of 45 and 55 mT.
+oblate. AAR of the sample dried in a 55 mT field had an anisotropy of
+Ingeographiccoordinates(Fig.9d,e),theclusteringofallprinci- 204 per cent (Rees 1966) and an RMS error of 3.4 per cent.
+palaxesislesswelldefined.Theminimumaxesplungetowardsthe The a factor measured from this fabric is 5.39. This high value
+SWatintermediateangles,whereasthemaximumandintermediate isinconsistentwithpreviousmeasurementsofmagnetiteafactors
+axesarescatteredalongagreatcircleorientedNW–SEandgently (Kodama1997;Tan&Kodama1998;Kodama2009)andmaybe
+dippingtotheNE. due to clumping of the magnetic particles in the epoxy sample.
+(cid:4)C 2010TheAuthors,GJI,181,275–289
+Journalcompilation(cid:4)C 2010RAS
+Downloaded
+from
+https://academic.oup.com/gji/article/181/1/275/716583
+by
+guest
+on
+05
+May
+2026
+
+### page_7
+Rockmagnetismandinclinationshallowing 281
+Figure6. Orthogonalvectorendpointdiagramsforthermaldemagnetization(Zijderveld1967).TheChRMwastypicallyisolatedbetween200and600–
+625◦C.(a)and(e)showreversepolarity(southanddown)components,whereas(b)and(d)shownormalpolarity(northandup)ChRMcomponents;(g)
+showstheunstablebehaviourofachemicallydemagnetizedsample,whichisdirectlycomparabletothebehaviourobservedin(d).Thesamplein(d)also
+revealsapoorlyconstrainedlowerunblockingtemperaturecomponentthatisantipodaltotheChRMandcanbeobservedontheequalareaprojectionbetween
+200and400◦C,solid(open)circlesarelower(upper)hemisphereprojections.(h)ShowsaresultfromAFdemagnetizationwhichisdirectlycomparableto
+(e).Toindicatethatcompletedemagnetizationwasperformed,butdidnotisolateastableremanenceabove600–625◦Cor50–60mT,in(c)and(f)complete
+demagnetizationisshownupto685◦Cofthesamesamplesasin(b)and(e),wherein(i)demagnetizationupto100mTofthesamesampleasin(h)isshown.
+Foralldiagrams,solid(open)symbolsareprojectionsontothehorizontal(vertical)plane.
+ConfirmationofthisinterpretationistheobservationthattheARM magnetizationeffect(GRM)becausethiswouldresultinremanent
+directionsmeasuredoftendivergedfromthedirectionsofthefield directionsinanorthogonalplanetotheARMsimparted(Dunlop&
+used to impart the ARM, indicating strong magnetic interactions O¨zdemir1997),whereasthemeasuredremanenceforallthenine
+betweenthegrains.WedoubtthedivergenceoftheimpartedARMs measurementpositionsusedtocalculatetheanisotropyaresubpar-
+andthemeasuredremanenceistobeattributedtoagyroremanent alleltotheorientationofthedcsettingfield.Incontrast,thesample
+(cid:4)C 2010TheAuthors,GJI,181,275–289
+Journalcompilation(cid:4)C 2010RAS
+Downloaded
+from
+https://academic.oup.com/gji/article/181/1/275/716583
+by
+guest
+on
+05
+May
+2026
+
+### page_8
+282 D.BilardelloandK.P.Kodama
+Table1. Sitemeandirectionsisolatedthroughthermaldemagnetization.Sitesnf1–15arefromthisstudy,
+sites06–85arefromIrving&Strong(1984)withthefamilyofmagnetizationindicated,insitudeclinations
+andinclinationsarecalculatedfromthereporteddirectionsinstratigraphiccoordinatesandbeddingattitude,
+Randα 95(sites22,24,67,70,71,75)arecalculatedfromthereportedNandk.
+DeerLakeGroupChRMsthermaldemagnetization
+Site InsituD InsituI Strike Dip StratD StratI N R k α 95
+nf1 160.7 5.9 347 30 158.6 1.9 5 4.9705 135.7 6.6
+nf8 71.3 5.2 32 90 38.8 −39.1 5 4.8025 20.3 17.4
+nf9 167.5 8.2 319 38 157.1 23.8 5 4.9024 41 12.1
+nf10 191.6 21.5 327 39 169.7 44.1 5 4.9514 82.3 8.5
+nf11 358.1 −9.7 310 35 347.5 −34 4 3.928 41.7 14.4
+nf12 2.8 6.3 302 41 358.3 −29.1 4 3.4862 5.8 41.6
+nf13 46.8 −13.7 285 23 52.5 −33 5 3.6377 2.9 54.4
+nf15 170.8 18.9 39 5 169.3 17.7 4 3.9668 90.4 9.7
+Mean 189 9.5 – – 179.3 30.5 8 7.2111 8.9 19.7
+06S(N) 175 23.6 290 15 171 37 8 7.8542 48 8
+09S 166 15 210 30 177 34 8 7.6667 21 13
+09N 5.2 −13.5 210 30 195 24 1 – – –
+09N+S 168 14.8 210 30 179 33 9 8.6190 21 12
+13N 339.9 −32.4 150 20 171 27 1 – – –
+22S 198.3 8.3 280 27 200 35 2 1.9873 79 11.2
+22N 34.1 −9.7 280 27 219 34 2 1.9655 29 18.5
+22N+S 205.7 9.2 280 27 209 35 4 3.9167 36 16.0
+24S 170.7 29.2 225 30 189 51 2 1.9412 17 24.4
+67N(S) 65.8 −4.2 24 95 194 41 23 22.6857 70 4.0
+70N 4.9 −26.5 216 46 216 40 2 1.9091 11 30.6
+71S 156.6 28.2 170 25 171 31 1 – – –
+71N 326.9 −28.1 170 25 162 35 4 3.9667 90 10.0
+71N+S 330.8 −28.8 170 25 166 34 5 4.9437 71 9.0
+75S 159 26.3 303 26 144 39 3 2.9259 27 15.8
+75N 19.3 1.2 303 26 198 24 5 4.9111 45 12
+75N+S 185.9 9.3 303 26 181 32 8 7.1250 8 20
+76S(N) 171.7 14.2 280 22 165 28 6 5.7826 23 14
+80N 334.1 −34.8 53 11 153 24 1 – – –
+82S 146.7 26.8 45 8 146 19 1 – – –
+85S 178.3 −5.4 250 45 183 37 10 9.9692 292 3
+Mean 181 16.9 – – 179.7 33.7 29 27.1047 14.8 7.2
+Figure7. (a)Sitemeandirectionsinstratigraphiccoordinatesisolatedthroughthermaldemagnetization(allrotatedtoreversepolarity).(b)Comparisonof
+meansbetweentheformationmeanfromthisstudy(solidcircle)andtheformationmeanfromIrving&Strong(1984)(solidsquare).
+driedina45mTfieldshowsananisotropyof84percentwithan the bootstrap technique of Constable & Tauxe (1990) to increase
+RMS error of 1.7 and an a factor of 1.99. This a factor value is thesamplenumber.Resultsfrominclinationcorrectionsperformed
+consistent with previous observations for magnetite (e.g. Vaughn usingarangeofafactors(Bilardello2008)indicatethatthemost
+etal.2005).Inaddition,ARMdirectionsareclosertotheapplied symmetric and therefore geologically realistic distribution of site
+fielddirections.Thechoiceofaparticleanisotropyoftwowasalso meanVGPsliesbetweenafactorsof1.4and2.2.
+confirmedbyevaluatingthesymmetryofcorrectedsitemeanVGPs Correctionsperformedusingthisrangeofaalsoagree,within
+using the Bingham distribution (Bingham 1964) to analyse ellip- error, to an inclination correction performed using the EI tech-
+ticallydistributeddata(Beck1999).VGPswerere-sampledusing nique of Tauxe & Kent (2004) discussed earlier. This technique
+(cid:4)C 2010TheAuthors,GJI,181,275–289
+Journalcompilation(cid:4)C 2010RAS
+Downloaded
+from
+https://academic.oup.com/gji/article/181/1/275/716583
+by
+guest
+on
+05
+May
+2026
+
+### page_9
+Rockmagnetismandinclinationshallowing 283
+Figure8. FoldtestperformedondatafromthisstudyandIrving&Strong(1984)combined.
+convertssymmetricVGPstodirections,whichisessentiallysimilar 5 DISCUSSION
+toevaluatingthesymmetryofcorrectedVGPstodetermineparticle
+anisotropy. 5.1 MagneticMineralogy
+ResultsofthethermaldemagnetizationofthreeorthogonalIRMs
+(Lowrie 1990) suggest that haematite, magnetite and maghemite
+4.5 Inclinationcorrection
+arepresentinthesamples.Thesharpdropobservedat∼680◦Cis
+TheuncorrectedpaleopoleoftheDeerLakeGroupliesat22.2◦N, characteristicofhaematite,however,thisbehaviourisnotobserved
+122.3◦E,A =7.6◦.Whenaninclinationcorrectionisappliedusing inthemajorityofoursamples.Allsamples,however,showaloss
+95
+anafactorof2andthemeasuredAARfabric,themeandirection of intensity, even if slight, at ∼580 ◦C, indicative of magnetite.
+of the Deer Lake Group is corrected to D = 178.8◦, I = 50.9◦, Thepresenceofmaghemiteisindicatedbyaslightlossofintensity
+α =6.3◦,N =29,indicatinganinclinationshallowingof17.2◦ between 350 and 450 ◦C (Dunlop & O¨zdemir 1997; McElhinny 95
+(remanentinclinationmeasured,I =33.7◦).Whenthisdirectionis &McFadden1999)andalsosobythereapplicationofanIRMat
+convertedtoapaleopolefortheDeerLakeGroup,itspositionplots theendoftheheatingcycle,whichshowsanintensitymuchlower
+at8.4◦N,122.7◦E,A =7.2◦,13.8◦Softheuncorrectedpaleopole. thanbeforeheating,assumingthatthemaghemitehasinvertedto
+95
+AninclinationcorrectionwasalsoperformedusingtheEItech- haematitewithheating.Whenthebulksusceptibilityisplottedver-
+niqueofTauxe&Kent(2004),whichisbasedontheTK03.GAD sus temperature (Fig. 10), a sudden increase is observed for cer-
+modelofthegeomagneticfieldusingthesoftwarefindEI(pmag- tainsamplesstartingaround450◦C,indicatingthatmineralogical
+1.9.2softwarepackage).Thistechniquerequiresatleast100sitesto changes areoccurringupon heating. Theincreasedsusceptibility,
+representthedistributionofdirectionsdrawnfromplausiblemodels coupledwiththereducedIRMcapacitysuggeststransformationto
+ofthegeomagneticfield(Tauxe&Kent2004).Becauseonly29site a phase with high IRM/χ (e.g. haematite) to one with very low
+mean directions were available, we used specimen directions ob- IRM/χ (e.g.magnetite).
+tainedinthisstudytogetherwiththesitemeandirectionsreported Modelling of IRM acquisition curves (Kruiver et al. 2001)
+byIrving&Strong(1984),whichisjustifiedbecauseinsediments showscoercivitypeaksthatcorrespondtothecoercivitiesofmag-
+eachspecimenisauniqueestimateofthegeomagneticfield,giving netite/maghemite (50–70 mT) and haematite (500 mT), but also
+58 sample directions. The correction yields a new inclination of highercoercivitypeaks(2000mT),whichweinterprettobegoethite
+41.1◦ (33◦ and 52◦, low and high 95 per cent confidence interval (Peters&Dekkers2003)(Fig.3).
+inclinations),9.8◦smallerthantheanisotropy-basedcorrection,but MPMSlow-temperaturemeasurementsconfirmtheresultsofthe
+withalargeconfidenceintervalthatincludesthepreviousresult. IRMmodelling.Thelossofintensitymeasuredonheatingbetween
+(cid:4)C 2010TheAuthors,GJI,181,275–289
+Journalcompilation(cid:4)C 2010RAS
+Downloaded
+from
+https://academic.oup.com/gji/article/181/1/275/716583
+by
+guest
+on
+05
+May
+2026
+
+### page_10
+284 D.BilardelloandK.P.Kodama
+Figure9. MagneticfabricinstratigraphiccoordinatesmeasuredwithAAR.(a)originaldata;(b)bootstrapdata;(c)Flinndiagram(Flinn1962)showinga
+triaxialtooblatefabric.AARmagneticfabricingeographiccoordinates,(d)originaldata;(e)bootstrapdata;(f)Histogramsoftheanisotropyeigevalues.Plots
+weregeneratedusingpmag-1.9.2(Tauxe2006).
+Figure10. Bulksusceptibilityasafunctionoftemperature.Measurementswhereonlypossibleforfivesitesforwhichwehadsparesamples.Asudden
+increaseofsusceptibilyatabout450◦Cwasobservedinthreesamplesoutofthefiveandisinterpretedasaninversionofmaghemitetohaematiteduring
+heating.
+20and50K,althoughnotdiagnostic,couldbeattributedtogoethite, around 250 K. For pigmentary nanophase haematite, the Morin
+assupportedbytheIRMacquisitionmodelling.Pyrrhotitealsohasa transition is reduced and shifted towards temperatures as low as
+low-temperaturetransitionat34K,howeverwebelievethepresence 5 K, until it is completely suppressed in particles ≤1 μm in size
+ofsulphidestobeunlikelyinsuchhighlyoxidizedrocks.Thesharp (Bandoetal.1965).
+dropat119KisconsistentwiththeVerweytransition(Dunlopand The FORC diagram, acquired in a peak field of 1.2 T, does
+O¨zdemir1997)thatoccursinmagnetiteatthesetemperatures.The not show the high-coercivity phases, but rather only one low-
+smallfractionofremanencelostoncoolingthroughthetransitionis coercivity group below 100 mT. This is probably because the
+commonforoxidizedmagnetite(DunlopandO¨zdemir1997).There highermagnetizationofmagnetitecompletelycoversthesignalof
+is no indication of the Morin transition, diagnostic of haematite, haematite.
+(cid:4)C 2010TheAuthors,GJI,181,275–289
+Journalcompilation(cid:4)C 2010RAS
+Downloaded
+from
+https://academic.oup.com/gji/article/181/1/275/716583
+by
+guest
+on
+05
+May
+2026
+
+### page_11
+Rockmagnetismandinclinationshallowing 285
+5.2 Paleomagnetism
+Thecharacteristicremanentmagnetization(ChRM)istypicallyre-
+vealedaround300◦Candiscompletelyunblockedby600–625◦C.
+Beyondthesetemperatures,nostablecomponentoftheremanence
+persistsanditisnotpossibletoisolateadirection.
+AFdemagnetizationupto50–60mTisolatedthesamecompo-
+nentsofmagnetizationasthethermaldemagnetization,indicating
+thattheChRM-carriersmustbemagneticphaseswithlowcoerciv-
+ities.Typically,thesecoercivitieswouldbethermallydemagnetized
+by580◦C:magnetitehasaCurietemperaturesof580◦C,whereas
+maghemiteshowsalossofintensityinthe350–450◦Crangethat
+accompaniesitsinversiontohaematite(Dunlop&O¨zdemir1997;
+McElhinny&McFadden1999).Demagnetizationof1.2TIRMs,
+however,clearlyrevealsthathaematiteispresentintherocks,but
+its natural remanence is for the most part not stable as shown in
+the vector endpoint diagrams (Fig. 6). We therefore interpret the
+ChRMtobecarriedbymagnetiteand/ormaghemite.TheChRM
+isonlyfullyunblockedattemperaturesof600–625◦C.Thermally
+stablemaghemitecould,intheory,carryremanenceuptoitsCurie
+point∼645◦C(Dunlop&O¨zdemir1997),alternatively,somefiner
+grainedhaematitecouldalsobecontributingtotheremanence.
+ThemagnetizationoftheDeerLakeGroupthusappearstobea
+pre-foldingmagnetizationthathastwoantipodal,normal(northand Figure 11. Uncorrected and corrected paleopoles from the Maritime
+negative)andreverse(southandpositive),directions.Inthesered Provinces of Canada. Large open (filled) circle, uncorrected (corrected)
+bedsmostoftheChRMisnotcarriedbyhaematiteofeitherdetrital DeerLake(UCandC)Group(thisstudy);smallfilledcircle,DeerLake
+orchemicalorigin,butbymagnetite/maghemite,withfinegrained Group(DL)(Irving&Strong1984);Open(filled)diamond,uncorrected
+haematiteonlypartlycontributingtothenaturalremanence. (corrected)ShepodyFm.(ShepUCandC)(Bilardello2008;Bilardello&
+Kodama2010);Open(filled)triangle,uncorrected(corrected)Maringouin
+Fm. Paleopoles (Mar UC and C); Grey shaded line is the fitted APW
+path for Laurentia from Torsvik et al. (1996) rotated into North Ameri-
+5.3 Magneticfabrics
+cancoordinates.
+The fabric of magnetite/maghemite measured by AAR is sub-
+paralleltobeddingandwouldindicateaprimarydepositionalfab-
+ric.ThefabrichasitsminimumaxessteeplyplungingtotheNW. Formations.Becausetheamountofinclinationshallowingisdepen-
+The maximum axes are clustered around the horizontal along a dentonthemagneticfieldinclinationatdeposition,whichisinturn
+NNE–SSWlineation,whereastheintermediateaxesshowaclus- afunctionoflatitude,itisnotsurprisingthattheDeerLakeGroup,
+tering that gently plunges to the ESE. The magnetic lineation is deposited at higher latitudes with steeper initial inclinations, has
+sub-paralleltotheregionalscalefoldaxes,suggestingthatthefab- sufferedfrommoreinclinationshallowing.Ourresultsconfirmthe
+riccouldhavebeenaffectedbystrain.However,thebedsthatwe needtomovetheLowerCarboniferousportionofNorthAmerican’s
+have sampled do not follow the trend of those structures, but dip APWPsouthward(Fig.11)andstronglysuggestarevisionofthe
+predominantlytotheNEandwouldnotthereforerecordthesame redbed-derivedPaleozoicandMesozoicportionoftheAPWP.
+strainevent. ThesouthwardtranslationofthisportionoftheAPWPrequired
+Excluding the tectonic fabric hypothesis, a depositional fabric bythecorrectionsis∼12◦ fortheMiddleMississippianand∼6◦
+explanationremainsaplausibleinterpretationfortheformationof fortheUpperMississippian–LowerPennsylvanian.Asdiscussedin
+thepronouncedmagneticlineation.Theminimumaxesofthefab- Bilardello(2008)andBilardello&Kodama(2010),thismagnitude
+ric,however,areverysteepwiththeconfidenceellipseincludingthe translationwouldplaceNewfoundlandinanaridclimatezonedur-
+poletobeddingandlikewise,themaximumandintermediateaxes ingtheMiddleMississippian,consistentwiththeevaporiticdeposits
+areclusteredonthehorizontal,whichmeansthattheimbrication presentintheNovaScotiaandNewBrunswickCarboniferousrocks
+ofthefabricisnotstatisticallysignificant.Thiscouldbetheresult (Geldsetzeretal.1980).Newfoundlandwouldthenmoveprogres-
+ofburialcompactionleadingtoabeddingparallelfabric.Weinter- sivelynorthwardstowardsmorehumidconditionsintheMiddleto
+pretthefabricasadepositionalfabric,withgoodclusteringofthe Upper Pennsylvanian, as indicated bythe thick coal depositsthat
+principalaxesinstratigraphiccoordinates,thathasbeenaffectedby characterizetheCumberlandandPictougroups(Hacquebard1970;
+post-depositionalcompaction. Hacquebard&Donaldson1969).
+OneotherimportanteffectofthesouthwardtranslationofNorth
+America(seeBilardello&Kodama2010)istoincreasetheoverlap
+5.4 Inclinationshallowing
+betweenNorthAmericaandGondwanaintheearlyPangeaassem-
+Results of the inclination correction on the Deer Lake paleopole blages(VanderVoo1993).OurresultsthereforefavouraPangeaB
+positionareconsistentwithotherinclinationcorrectionsperformed assemblage(Muttonietal.2003,2009),inwhichNorthAmericais
+sofarontheMaringouinandShepodyformationsoftheMaritime positionedtothewestofGondwana,thuseliminatingtheoverlap.
+ProvincesofCanada(Bilardello2008;Bilardello&Kodama2010). InBilardello&Kodama(2010),however,wearguethattofully
+The17.2◦ofcorrectionfortheDeerLakeGroupislargerinmagni- evaluate the effects of the correction it is necessary to consider
+tudethanthe∼10◦ ofcorrectionfortheShepodyandMaringouin theplacement ofGondwana forthattimeperiod.Thisisbecause
+(cid:4)C 2010TheAuthors,GJI,181,275–289
+Journalcompilation(cid:4)C 2010RAS
+Downloaded
+from
+https://academic.oup.com/gji/article/181/1/275/716583
+by
+guest
+on
+05
+May
+2026
+
+### page_12
+286 D.BilardelloandK.P.Kodama
+theCarboniferousGondwanapaleopolesarederivedprimarilyfrom between0.4and0.77.Ourresultsfromhaematite-bearingrocksof
+sedimentaryrocks(Torsvik&VanderVoo2002),whicharelikely theMaritimeProvincesofCanadaimplyf factorsthatrangefrom
+to have been affected by inclination shallowing. If this were the 0.64to0.83.TheresultofTanetal.(2003)fromChineseCretaceous
+caseaninclinationcorrectionwouldmoveGondwanafurthersouth, redbedswasalsoincluded.
+possiblyeliminatingtheoverlap. Wehavedeliberatelyleftoutvaluesobtainedfromredeposition
+experimentsbecausewhentheredepositedsedimentsaremeasured
+inthezerofieldofthemagnetometertheremanentinclinationmay
+5.5 Comparisonwithotherinclinationcorrection
+beaffectedbygrainsphysicallyreorientinginthehighwatercontent
+techniques
+sedimentsandthereforethemeasurementwouldnotrepresentatrue
+King (1955) suggested a relationship between the measured (re- DRM(Tauxe&Kent1984;Carter-Stiglitzetal.2006).Likewise,
+manent)inclinationandfieldinclinationtoexplaininclinationshal- resultsofTanetal.(2007)fromtheNewarkBasinredbedshavenot
+lowingobservedduringredepositionexperiments.Thisrelationship beenincludedbecauseKent&Tauxe(2005)alreadyincluderesults
+followstheequation: fromthesameNewarkBasinFormationsintheirstudy.
+EvenhigherinclinationerrorshavebeenobservedforNeogene
+tan(l m )= f tan(l 0 ), (2) redsedimentsfromtheValle`s-Penede`sbasin(Garce´setal.1996).
+where I is the measured, or remanent inclination; I is the field Site mean inclinations of less than 20◦ are reported for three out m 0
+inclinationandf istheshallowingfactorthathasbeenobservedto offivefinelylaminatedredbedsites,whereastheyreportagamut
+liebetween0.4and0.55fromexperimentaldata(King1955;Tauxe of inclinations ranging between 32◦ and 56◦ from six more sites
+&Kent1984). collected from finely laminated, burrowed, edafized and massive
+Wehavecollectedinclinationshallowingdataforbothmagnetite facies. The expected geomagnetic field inclination is 60◦. Garce´s
+andhaematitefromvarioussourcesandcompileditwithourdata etal.(1996)neverreportstatisticsattheFormationlevel,however,
+fromtheMaritimeProvincesofCanada(Table2).Alltheresultsfor calculationofaFormationmean(thisstudy)fromthe11reported
+magnetitearefromanisotropy-basedinclinationshallowingcorrec-
+sitemeansyieldedD=0.6◦,I=34.7◦andα
+95
+=10.2◦.
+tions,enablingdirectcalculationofthef factors,whichrangefrom Magnetite-bearing rocks display a range of f values between
+0.54(DeerLakeGroup)to0.79(NacimientoFm). 0.54and0.79withameanvalueof0.65andastandarddeviation
+Forhaematite,Tauxe(2005)andKent&Tauxe(2005)havestud- of0.08(N =9).Haematite-bearingrockshavevaluesbetween0.4
+ied Oligo-Miocene and mid Miocene haematite-bearing red sedi- and 0.83 with a mean of 0.59 and a standard deviation of 0.12
+mentaryrocksfromAsiaandPakistan,andLateTriassicredbeds (N =15).Thesevaluescorrespondtogreatlyvaryingamountsof
+fromaroundtheNorthAtlanticOcean,respectivelyandhaveapplied inclination shallowing for both magnetite- and haematite-bearing
+aninclinationshallowingcorrectionusingastatisticalgeomagnetic rocks (Fig. 12). It is very tempting to take the mean values and
+fieldmodel(TK03.GAD),whichreliesontheelongationdistribu- theirstandarderrors(0.026formagnetiteand0.031forhaematite)
+tionofpaleomagneticdirectionscausedbysecularvariation(Tauxe toperformsimplifiedinclinationcorrectionsofformationsthatare
+&Kent2004).Theirtechniqueyieldedf factorsfrombothstudies suspectedtohavesufferedfrominclinationshallowing.However,
+Table 2. Measured inclinations (Im), corrected inclinations (Ic) and derived f factors for inclination
+correctedmagnetite-andhaematite-bearingsedimentaryrocks.
+Magnetiteandhaematitef factors
+Formation/group Magneticcarrier Im Ic f Reference
+GlenshawFm. Magnetite 23.4 33.7 0.65 Kodama(2009)
+PerforadaFm. Magnetite 35.6 50.1 0.60 Vaugnetal.(2005)
+NanaimoGroup Magnetite 50.9 60.5 0.70 Kim&Kodama(2004)
+ValleGroup Magnetite 19.1 26.6 0.69 Lietal.(2004)
+LaddFm. Magnetite 46 58 0.65 Tan&Kodama(1998)
+PointLomaFm. Magnetite 39.5 56 0.56 Tan&Kodama(1998)
+PigeonPointFm. Magnetite 41.6 51.5 0.71 Kodama&Davi(1995)
+DeerLakeGroup Magnetite 33.7 50.9 0.54 Thisstudy
+NacimientoFm. Magnetite 51.3 57.7 0.79 Kodama(1997)
+KapusaliangFm. Haematite 29 52.5 0.43 Tanetal.(2003)
+ShepodyFm. Haematite 20.4 30.1 0.64 Bilardello&Kodama(2010)
+MaringouinFm. Haematite 24.9 29.1 0.83 Bilardello&Kodama(2010)
+DanRiver Haematite 5.9 10 0.59 Kent&Tauxe(2005)
+Newarkbasin:Princeton Haematite 5.2 9 0.57 Kent&Tauxe(2005)
+Newarkbasin:Nursery Haematite 8.8 21 0.40 Kent&Tauxe(2005)
+Newarkbasin:Titusville Haematite 13 20 0.63 Kent&Tauxe(2005)
+Newarkbasin:Rutgers Haematite 14.2 21 0.66 Kent&Tauxe(2005)
+Newarkbasin:Somerset Haematite 15.7 24 0.63 Kent&Tauxe(2005)
+Newarkbasin:Weston Haematite 17.5 33 0.49 Kent&Tauxe(2005)
+Newarkbasin:Martinsville Haematite 18.2 34 0.49 Kent&Tauxe(2005)
+St.Audrie’sBay Haematite 33.4 44 0.68 Kent&Tauxe(2005)
+JamesonLand Haematite 45.1 60 0.58 Kent&Tauxe(2005)
+Subeiarea Haematite 43.7 63 0.49 Tauxe(2005)
+PotwarPlateau Haematite 33.7 41 0.77 Tauxe(2005)
+(cid:4)C 2010TheAuthors,GJI,181,275–289
+Journalcompilation(cid:4)C 2010RAS
+Downloaded
+from
+https://academic.oup.com/gji/article/181/1/275/716583
+by
+guest
+on
+05
+May
+2026
+
+### page_13
+Rockmagnetismandinclinationshallowing 287
+Figure12. Plotoftheremanent(measured)inclinations(Im)asafunctionofthefield(corrected)inclinations(I0).(a)Magnetite-bearingsedimentaryrocks,
+(b)isforhaematite-bearingsedimentaryrocks.ThesolidlinesarethelinesofperfectcorrelationbetweenImandI0(f =1),thedashedlinescomprisethe
+smallestandlargestf factorsmeasured,thusdefiningtherangesofmaximumandminimuminclinationshallowingobserved.Thedottedlineshavebeenplotted
+usingthemeanf factors.(a)Thesolidcircleisfromthisstudy;theopencirclesarefromothermagneticanisotropy-basedstudies(seeTable2).(b)Thesolid
+circlesarefromourdata(Bilardello2008;Bilardello&Kodama2010);theopencircleinfromtheanisotropy-basedcorrectionoftheKapusaliangFm.;open
+trianglesanddiamondsarefromtheTK30.GADcorrectionsofKentandTauxe(2005)andTauxe(2005),respectively(seeTable2).
+thef factor,fromtheinclinationcorrectionformula,incorporates of0.59yieldsaninclination49.6◦.Thissimpletestindicatesthat
+measurementsofparticleanisotropyandthemagneticfabric,which for these red beds the smallest of the observed f factors restores
+make this parameter non-unique. Although particle anisotropy theinclinationtothatoftheambientgeomagneticfieldwhereasthe
+may not vary substantially for haematite because it is not depen- meanorlargestf factorsobservedwouldunderestimatethecorrec-
+dentoncrystalshape(Dunlop&O¨zdemir1997;Bilardello2008; tionby∼10◦and∼20◦,respectively.Nevertheless,thistestshows
+Bilardello&Kodama2009),itisformagnetite(Dunlop&O¨zdemir whatrangesofinclinationcorrectionsmaybeexpectedforredbeds
+1997).Likewisethemagneticfabricoftherocksisdependenton thataresuspectedtobeshallow.
+thedegreeofalignmentoftheparticles,whichisexpectedtovary
+withmagneticmineralogyandprocess(Jackson1991).Therange
+6 CONCLUSIONS
+ofmeasuredf factorsisthereforemoresignificantthanthemean
+value,whenevaluatinginclinationerrors. Theinclinationshallowingcorrectionperformedonthemagnetite-
+The maximum inclination error that can be expected from the bearing Deer Lake Group rocks using the measured AAR fabric
+rangeofcompiledf factorsandthetan–tanrelationofKing(1955) andthemeasuredparticleanisotropyoftheChRM-carryinggrains
+isof17.4◦foramagnetite-bearingrockwithanoriginalinclination indicates17.2◦ ofshallowing.Thisamountofinclinationshallow-
+of55◦,usingthesmallestobservedf factorof0.54(Fig.12),and ingcorrespondstoa13.8◦ increaseincolatitudeforthecorrected
+of25.3◦forahaematite-bearingrockwithanoriginalinclinationof
+paleopole,alargervaluethanwhathasbeenobtainedfromother
+60◦,usingthesmallestobservedf factorof0.4(Fig.12). correctedredbedpalepolesfromtheMaritimeProvincesofCanada,
+Inclination shallowing results may also be evaluated in terms butconsistentwiththetan–tanvariationofmeasured,shallowedin-
+of the dipole equation, tan I = 2tan λ, where λ is the latitude. clinationasafunctionoffieldinclination.Togetherwiththeother
+WhenevaluatingI m versusthelatitudecalculatedfromthecorrected inclination shallowing corrections that have been applied to this
+inclinations,λ(cid:7),thedipolerelationshipbecomes
+portionofthePaleozoicandMesozoicAPWPforNorthAmerica,
+tan(I )=(cid:6)tan(λ(cid:7)), (3) theseresultsstronglysuggestarevisionofsedimentaryrock,and
+m inparticularredbed-derived,APWPs.Thecorrectedpaleolatitude
+where(cid:6)isaproportionalityconstant,the‘paleolatitudecorrection’ putsNewfoundlandinanaridclimatezonefortheLowerCarbonif-
+constant.Becausethefieldinclinationversusremanentinclination erous,inagreementwithlithologicindicators.Thecorrectedpaleo-
+equationandthedipoleequationhavethesametan–tanformandare geographyincreasestheoverlapbetweenNorthandSouthAmerica
+closelyrelated,itispossibletocalculateacorrectedlatitudinalrange in a Pangea A configuration, making a Pangea B reconstruction
+using (cid:6) = 2f for sedimentary rocks whose measured remanent necessaryforthistimeperiod.
+inclinationsaresuspectedtobeshallow. However,tofullyevaluatetheeffectsofthecorrectionitisnec-
+Totesttheserelationships,wehaveappliedsimplifiedinclination essarytoconsiderthepositioningofGondwana.
+corrections to our calculated mean (D = 0.6◦, I = 34.7◦, α = Thedistributionofthecorrectedpaleomagneticdirectionspro-
+95
+10.2◦,N =11)oftheValle`s-Penede`sbasinredbedsfromthedata vides a means of estimating the a factor used for the anisotropy
+ofGarce´setal.(1996)(expectedfieldinclination=60◦). correction,andresultssuggestthatthecorrectedinclinationscorre-
+Whenweapplyacorrectionusingtheobservedhaematiteshal- spondtoageologicallyreasonabledistributionofdirections.
+lowingfactorendmembersof0.4and0.83,thecorrectedinclina- A comparison of the proportionality constant between the tan-
+tionsare60◦and39.8◦.Acorrectionappliedusingthemeanf factor gent of the remanent inclinations and the tangent of the field
+(cid:4)C 2010TheAuthors,GJI,181,275–289
+Journalcompilation(cid:4)C 2010RAS
+Downloaded
+from
+https://academic.oup.com/gji/article/181/1/275/716583
+by
+guest
+on
+05
+May
+2026
+
+### page_14
+288 D.BilardelloandK.P.Kodama
+inclinations, the flattening factor f, derived from our anisotropy- Constable,C.G.&Tauxe,L.,1990.Thebootstrapformagneticsusceptibility
+based inclination corrections and f factors resulting from other tensors,J.geophys.Res.,95(B6),8383–8395.
+studiesshowstrongagreement.Acompilationoff factorsfromin- Deamer,G.A.&Kodama,K.P.1990.Compaction-inducedinclinationshal-
+clinationcorrectionsperformedonbothmagnetite-andhaematite- lowing in synthetic and natural clay-rich sediments, J. geophys. Res.,
+95(B4),4511–4529.
+bearingrockformationsallowedtodeterminetherangeoff factors
+Dunlop,D.J.&O¨zdemir,O¨.,1997.RockMagnetism:Fundamentalsand
+thatmaybeexpected,allowingdeterminationofthepossibleranges
+frontiers,CambridgeStudiesinMagnetism,573pp.,CambridgeUniver-
+ofinclinationshallowing.
+sityPress,Cambridge.
+TheNeogeneValle`s-Penede`sbasinredbedshavebeencorrected
+Elston,D.P.&Purucker,M.E.,1979.Detritalmagnetizationinredbedsof
+to test the range of derived f factors. The smallest of the f fac- theMoenkopiFormation(Triassic)GrayMountain,Arizona,J.geophys.
+tors perfectly restores the inclination to that of the ambient field, Res.,84(B4),1653–1665.
+whereasthemeanandlargestf factorsconsiderablyundercorrect Flinn,D.,1962.Onfoldingduringthree-dimensionalprogressivedeforma-
+theinclination.Thissimpletestindicateswhatrangesofinclination tion,Q.J.Geol.Soc.Lond.,118,385–428.
+correctionsmaybeexpectedforsedimentaryrockssuspectedtobe Garce´s,M.,Pare´s,J.M.&Cabrera,L.,1996.Inclinationerrorlinkedtosed-
+shallow. imentaryfaciesinMiocenedetritalsequencesfromtheValle`s-Penede`s
+Basin (NE Spain), in Palaeomagnetism and tectonics of the Mediter-
+ranean Region, Vol. 105, pp. 91–99, eds. Morris, A. & Tarling, D.H.
+GeologicalSocietySpecialPublication.
+Geldsetzer,H.H.J.,Giles,P.,Moore,R.&Palmer,W.,1980.Stratigraphy,
+ACKNOWLEDGMENTS SedimentologyandMineralizationoftheCarboniferousWindsorGroup,
+Nova Scotia, GAC/MAC Field Trip Guidebook No. 22, Department of
+TheresearchwassupportedbyNationalScienceFoundationgrant
+Geology,DalhousieUniversity,Halifax.
+EAR-540204 to K.P. Kodama. The authors thank Dennis V. Kent
+Gilder,S.,Chen,Y.&Sen,S.,2001.Oligo-Miocenemagnetostratigraphy
+forinitialcommentsonthemanuscript,AmyP.ChenfortheFORC
+androckmagnetismoftheXishuigousection,Subei(GansuProvince,
+diagramhysteresismeasurementsandMichaelWinklhoferforhis
+westernChina)andimplicationsforshallowinclinationsincentralAsia,
+expertiseonFORCdataanddiscussion.LisaTauxeandMichaelJ. J.geophys.Res.,106(B12),12,30505–30521.
+Jacksonsubstantiallyimprovedthemanuscriptwiththeirthoughtful Hacquebard, P.A., 1970. Coal in Southeastern Canada, Geol. Survey of
+commentsandreviews. Canada,EconomicGeologyReport1.
+Hacquebard,P.A.&Donaldson,J.R.,1969.Carboniferouscoaldeposition
+associatedwithfloodplainandlimnicenvironmentsinNovaScotia,Geol.
+REFERENCES Soc.Am.SpecialPaper,114,143–191.
+Hounslow,M.W.&Maher,B.A.,1999.Laboratoryproceduresforquan-
+Anson,G.L.&Kodama,K.P.,1987.Compaction-inducedinclinationshal- titative extraction and analysis of magnetic minerals from sediments,
+lowing of the post-depositional remanent magnetization in a synthetic in Environmental Magnetsm: A Practial Guide, pp. 139–184, eds. J.
+sediment,Geophys.J.R.astr.Soc.,88,673–692. Walden, F. Oldfield & J.P. Smith, Quaternary Research Association,
+Bando,Y.,Kiyama,M.,Yamamoto,N.,Takada,T.,Shinjo,T.&Takaki,H., Cambridge.
+1965.Themagneticpropertiesofα-Fe2O3 fineparticles,J.Phys.Soc. Hyde,R.S.,1979.GeologyoftheCarbonifeorousstratainportionsofthe
+Japan,20,2086. Deer Lake Basin, western Newfoundland, Mineral Development Divi-
+Beck,M.E.,1999.Ontheshapeofpaleomagneticdatasets,J.geophys.Res. sion, Department of Mines and Energy Government of Newfoundland
+104(B11),25427–25441. andLabrador,79(6),43.
+Belt,E.S.,1969.NewfoudlandCarbonifeousstratigraphyanditsrelation Hyde,R.S.,1984.GeologyandmineralizationoftheCarboniferousDeer
+totheMaritimesandIreland,Am.Assoc.Petrol.Geol.Mem.,12,734– Lake basin, western Newfoundland in Mineral Deposits of Newfound-
+753. land:a1984Perspective,Report84-3,pp.19–26,MineralDevelopment
+Bilardello,D.,2008.Anewtechniqueformeasuringthemagneticfabricof Division,GovernmentofNewfoundlandandLabrador,St.John’s,NL.
+hematite-bearingsedimentaryrocks,hf-AIR:inclinationcorrectioncase Hyde, R.S. & Ware, M.J., 1981. Notes on the geology of the Deer Lake
+studiesofCarboniferousredbedsfromtheMaritimeProvincesofCanada, (12H/3)andRainyLake(12A/14)MapAreas,NewfoundlandDepartment
+PhDthesis,LehighUniversity,Bethlehem,PA. MinesEnergy,MineralDevelopmentDivision,7pp.
+Bilardello,D.&Kodama,K.P.,2009a.Measuringremanenceanisotropyof Irving, E. & Strong, D.F., 1984. Paleomagnetism of the Early Carbonif-
+hematiteinredbeds:anisotropyofhigh-fieldisothermalremanencemag- erousDeerLakeGroup,westernNewfoundland:noevidenceformid-
+netization(hf-AIR),Geophys.J.Int.,178,1260–1272,doi:10.111/j.1365- Carboniferous displacement of “Acadia”, Earth planet. Sci. Lett., 69,
+246X.2009.04231.x. 379–390.
+Bilardello, D. & Kodama, K.P., 2010. Paleomagnetism and magnetic Jackson,M.,1991.Anisotropyofmagneticremanence:abriefreviewof
+anisotropy of Carboniferous red beds from the Maritime Provinces of mineralogicalsources,physicalorigins,andgeologicalapplications,and
+Canada: evidence for shallow paleomagnetic inclinations and implica- comparisonwithsusceptibilityanisotropy,Pure.appl.Geophys.,136(1),
+tionsforNorthAmericanapparentpolarwander,Geophys.J.Int.,180, 1–28.
+1013–1029,doi:10.1111/j.1365-246X.2009.04457.x. Jackson,M.,Banerjee,S.K.,Marvin,J.A.,Lu,R.&Gruber,W.,1991.Detri-
+Bingham,C.,1964.Distributionsonthesphereandontheprojectiveplane, talremanenceinclinationerrorsandanhystereticremanenceanisotropy:
+PhDthesis,YaleUniversity. quantitative model and experimental results, Geophys. J. Int., 104,
+Blow,R.A.,&Hamilton,N.,1978.Effectofcompactionontheacquisition 95–103.
+ofadetritalremanentmagnetizationinfine-grainedsediments,Geophys. Kent, D.V. & Tauxe, L., 2005. Corrected late Triassic latitudes for
+J.R.Astr.Soc.,52,13–23. continents adjacent to the North Atlantic, Science, 307, 240–244,
+Carter-Stiglitz,B.,Valet,J.P.&LeGoff,M.,2006.Constraintsontheacqui- doi:10.1126/science.1105826.
+sitionofremanentmagnetizationinfine-grainedsedimentsimposedby Kim,B.Y.&Kodama,P.K.,2004.Acompactioncorrectionforthepale-
+redepositionexperiments,EarthplanetSci.Lett.,245,427–437. omagnetismoftheNanaimoGroupsedimentaryrocks:implicationsfor
+Collinson,D.W.,1965.Theremanentmagnetizationandmagneticproperties the Baja British Columbia hypothesis, J. geophys. Res., 109(B02102),
+ofredsediments,Geophys.J.R.astr.Soc.,10,105–126. doi:10.1029/2003JB002696.
+Collinson,D.W.,1974.Theroleofpigmentandspeculariteintheremanent King,R.F.,1955.Theremanentmagnetismofartificiallydepositedsedi-
+magnetismofredsandstone,Geophys.J.R.Astr.Soc.,38,253–264. ments,Mon.Notic.Roy.Astr.Soc.geophys.Suppl.,7,115–134.
+(cid:4)C 2010TheAuthors,GJI,181,275–289
+Journalcompilation(cid:4)C 2010RAS
+Downloaded
+from
+https://academic.oup.com/gji/article/181/1/275/716583
+by
+guest
+on
+05
+May
+2026
+
+### page_15
+Rockmagnetismandinclinationshallowing 289
+Kodama,K.P.,1997.Asuccessfulrockmagnetictechniqueforcorrecting Sun, W.W. & Kodama, K.P., 1992. Magnetic anisotropy, scanning elec-
+paleomagneticinclinationshallowing:CasestudyoftheNacimientoFor- tron microscopy, and X ray pole figure goniometry study of inclina-
+mationofNewMexico,J.geophys.Res.,102(B3),5193–5206. tionshallowinginacompactingclay-richsediment,J.geophys.Res.,97,
+Kodama,K.P.,2009.Simplificationoftheanisotropy-basedinclinationcor- 9599–9615.
+rection technique for magnetite- and hematite bearing rocks: a case Tan, X. & Kodama, K.P., 1998. Compaction-corrected inclinations from
+study for the Carboniferous Gleshaw and Mauch Chunk Formations, southern California Cretaceous marine sedimentary rocks indicate no
+North America, Geophys. J. Int., 176, 467–477, doi:10.1111/j.1365- paleolatitudinaloffsetforthePeninsularRangesterrane,J.geophys.Res.,
+246X.2008.04013.x. 103(B11),27169—27192.
+Kodama, K.P. & Davi, J.M., 1995. A compaction correction for the pa- Tan, X. & Kodama, K.P., 2002. Magnetic anisotropy and paleomagnetic
+leomagnetismoftheCretaceousPigeonPointFormationofCalifornia, inclination shallowing in red beds: evidence from the Mississippian
+Tectonics,14(5),1153–1164. MauchChunkFormation,Pennsylvania,J.geophys.Res.,107(B11),2311,
+Kodama, K.P. & Dekkers, M.J., 2004. Magnetic anisotropy as an aid to doi:10.1029/2001JB001636.
+identifying CRM and DRM in red sedimentary rocks, Stud. geophys. Tan,X.&Kodama,K.P.,2003.Ananalyticalsolutionforcorrectingpaleo-
+Geod.,48,747–766. magneticinclinationerror,Geophys.J.Int.,152,228–236.
+Kruiver,P.P.,DekkersM.J.&Heslop,D.,2001.Quantificationofmagnetic Tan,X.,Kodama,K.P.,Chen,H.,Fang,D.,Sun,D.&Li,Y.,2003.Paleomag-
+coercivitycomponentsbytheanalysisofacquisitioncurvesofisothermal netismandmagneticanisotropyofCretaceousredbedsfromtherTarim
+remanentmagnetization,Earthplanet.Sci.Lett.,189,269–276. basin,northwestChina:Evidenceforarockmagneticcauseofanoma-
+Larson,E.E.,Walker,T.R.,Patterson,P.E.,Hoblitt,R.P.&Rosenbaum,J.C., louslyshallowpaleomagneticinclinationsfromcentralAsia,J.geophys.
+1982.PaleomagnetismoftheMoenkopyFormation,ColoradoPlateau: Res.,108(B2),2107,doi:10.1029/2001JB001608.
+basisforlongtermmodelofacquisitionCRMinredbeds,J.geophys. Tan,X.,Kodama,K.P.,Gilder,S.&Courtillot,V.,2007.Rockmagnetic
+Res.,87,1081–1106. evidence for inclination shallowing in the Passaic Formation red beds
+Li,Y.,Kodama,K.P.&Smith,D.P.,2004.Newpaleomagnetic,rockmagnetic fromtheNewarkbasinandasystematicbiasoftheLateTriassicapparent
+andpetrographicresultsfromtheValleGroup,BajaCalifornia,Mexico: polarwanderpathforNorthAmerica,Earthplanet.Sci.Lett.,254(3–4),
+exploringthecausesofanomalouslyshallowpaleomagneticinclinations, 345–357.
+J.geophys.Res.,109(B11101),doi:10.1029/2004JB003127. Tauxe,L.,2005.Inclinationflatteningandthegeogentricaxialdipolehy-
+Liebes, E. & Shive, P. N., 1982. Magnetic acquisition in two Meso- pothesis,Earthplanet.Sci.Lett.,233,247–261.
+zoic red sandstones, Phys. Earth planet. Sci. Inter., 30(4), 396–404, Tauxe,L.,2006.pmag-1.9.2,http://magician.ucsd.edu/Software/PMAG/.
+doi:10.1016/0031-9201(82)90049-8. Tauxe, L., Constable, C., Stokking, L. & Badgley, C., 1990. Use of
+Lowrie, W., 1990. Identification of ferromagnetic minerals in a rock by anisotropy to determine the origin of characteristic remanence in the
+coercivityandunblockingtemperatureproperties,Geophys.Res.Lett., SiwalikredbedsofnorthernPakistan,J.geophys.Res.,95(B4),4391–
+17,159–162. 4404.
+McCabe,C.,Jackson,M.&Elwood,B.B.,1985.Magneticanisotropyinthe Tauxe,L.&Kent,D.V.,1984.Propertiesofadetritalremanencecarriedby
+Trentonlimestone:Resultsofanewtechnique,anisotropyofanhysteretic hematitefromstudyofmodernriverdepositsandlaboratoryredeposition
+susceptibility,Geophys.Res.Lett.,12(6),333–336. experiments,Geophys.J.R.Astr.Soc.,77,543–561.
+McElhinny,M.W.&Lock,J.,1993.Globalpaleomagneticdatabasesupple- Tauxe, L. & Kent, D.V., 2004. A new statistical model for the geomag-
+mentnumberone,updateto1992,Surv.Geophys.,14,303–329. netic field and thedetection of shallow bias inpaleomagnetic inclina-
+McElhinny,M.W.&Lock,J.,1996.IAGApaleomagneticdatabaseswith tions:wastheancientfielddipolar?inTimescalesoftheInternalGeo-
+Access,Surv.Geophys.,17,575–591. magneticField,Vol.145,pp.101–116,J.E.T.Channell,D.V.Kent,W.
+McElhinny,M.W.&McFadden,P.L.,1999.Paleomagnetism:Continents LowrieandJ.Meert,eds.,GeophysicsMonograph,AmericanGeophysics
+and Oceans, International Geophysics Series, 73, 385 pp., Academic Union.
+Press,SanDiego,USA. Tauxe,L.&Watson,G.,1994.Thefoldtest:aneigenanalysisapproach,
+McFadden, P.L. & Jones, D.L., 1981. The fold test in paleomagnetism, Earthplanet.Sci.Lett.,122,331–341.
+Geophys.J.R.Astr.Soc.,67,53–58. Torsvik, T. & Van Der Voo, R., 2002. Refining Gondwana and Pangea
+MitraR.&Tauxe,L.,2009.Fullvectormodelformagnetizationinsedi- palaeogeography:estimatesofPhanerozoicnon-dipole(octupole)fields,
+ments,Earthplanet.Sci.Lett.,286,535–545. Geophys.J.Int.,151,771–794.
+Muttoni,G.,Kent,D.V.,GarzantiE.,BrackP.,AbrahamsemN.&Gaetani, VanDerVoo,R.,1990.PhanerozoicpaleomagneticpolesfromEuropeand
+M.,2003.EarlyPangea‘B’toLatePermianPangea‘A’,Earthplanet. NorthAmericaandcomparisonswithcontinentalreconstructions,Rev.
+Sci.Lett.,215,379–394. Geophys.,28,167–206.
+Muttoni,G.etal.,2009.OpeningoftheNeo-TethysOceanandthePangea VanDerVoo,R.,1993.PaleomagnetismoftheAtlantic,TethysandIapetus
+B to Pangea A transformation during the Permian, GeoArabia, 14(4), oceans,411pp.,CambridgeUniversityPress,Cambridge.
+17–48. Vaughn,J.,Kodama,K.P.&Smith,D.P.,2005.Correctionofinclinationshal-
+Peters, C. & Dekkers, M.J., 2003. Selected room temperature magnetic lowinganditstectonicimplications:theCretaceousPerforadaFormation,
+parametersasafunctionofmineralogy,concentrationadgrainsize,Phys. BajaCalifornia,Earthplanet.Sci.Lett.,232,71–82.
+Chem.Earth,28,659–667. Walker, T.R., Larson, E.E. & Hoblitt, R.P., 1981. Nature and origin of
+Rees,A.I.,1966.Theeffectofdepositionalslopesontheanisotropyofmag- hematiteintheMoenkopyFormation(Triassic),ColoradoPlateau:acon-
+neticsusceptibilityoflaboratorydepositedsands,J.Geol.,74,856–867. tributiontotheoriginofmagnetisminredbeds,J.geophys.Res.,86,
+Roy,J.R.&Park,J.K.,1972.Redbeds:DRMorCRM?EarthplanetSci. 317–333.
+Lett.,17,211–216. Winklhofer,M.,&ZimanyiG.T.,2006.Extractingtheintrinsicswitching
+Scherbakov,V.&Scherbakova,V.,1983.Onthetheoryofdepositionalre- fielddistributioninperpendicularmedia:acomparativeanalysis,J.appl.
+manentmagnetizationinsedimentaryrocks,Geophys.Surv.,5,369–380. Phys.,99,08E710.
+Steiner,M.B.,1983.Detritalremanentmagnetizationinhematite,J.geophys. Zijderveld, J.D.A., 1967. A.C. demagnetization of rocks, in Methods in
+Res.,88,6523–6539. Palaeomagnetism, pp. 256–286, eds. D.W. Collinson, K.M. Creer and
+Stephenson, A., Sadikun, S. & Potter, D.K., 1986. A theoretical and ex- S.K.Runcorn,Elsevier,NewYork.
+perimentalcomparisonoftheanisotropiesofmagneticsusceptibilityand Zijderveld,J.D.A.,1975.PaleomagnetismoftheEsterelrocks,PhDthesis,
+remanenceinrocksandminerals,Geophys.J.R.Astr.Soc.,84,185–200. 199pp.,StateUniversityUtrecht,Holland.
+(cid:4)C 2010TheAuthors,GJI,181,275–289
+Journalcompilation(cid:4)C 2010RAS
+Downloaded
+from
+https://academic.oup.com/gji/article/181/1/275/716583
+by
+guest
+on
+05
+May
+2026

@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1410" viewBox="0 0 1800 1410">
+  <title>图 1  R3 原文取证与规范推理流程</title>
+  <desc>A fixed-grid scientific workflow for R3 source acquisition, parsing, target binding, evidence-chain reasoning, normative decision, and auditable output.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7A8691" />
+    </marker>
+  </defs>
+  <style>
+    text { font-family: "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", Arial, sans-serif; fill: #17212B; }
+    .figure-title { font-size: 34px; font-weight: 500; text-anchor: middle; }
+    .phase-band rect { fill: none; stroke: #CAD5DF; stroke-width: 2; stroke-dasharray: 8 6; }
+    .phase-label { font-size: 22px; font-weight: 500; }
+    .node-label { font-size: 20px; font-weight: 400; text-anchor: middle; dominant-baseline: middle; }
+    .workflow-edge { fill: none; stroke: #7A8691; stroke-width: 2.2; marker-end: url(#arrow); stroke-linejoin: round; }
+    .workflow-edge.dashed { stroke-dasharray: 8 6; }
+    .workflow-edge.no-arrow { marker-end: none; }
+    .junction { fill: #7A8691; }
+    .edge-label-group rect { fill: #FFFFFF; }
+    .edge-label { font-size: 16px; font-weight: 400; fill: #4B5563; text-anchor: middle; }
+  </style>
+  <rect width="100%" height="100%" fill="#FFFFFF" />
+  <text x="900" y="48" class="figure-title">图 1  R3 原文取证与规范推理流程</text>
+  
+    <g class="phase-band">
+      <rect x="40" y="80" width="1720" height="130" rx="18" />
+      <text x="68" y="113" class="phase-label">A  输入与数据边界</text>
+    </g>
+    <g class="phase-band">
+      <rect x="40" y="230" width="1720" height="300" rx="18" />
+      <text x="68" y="263" class="phase-label">B  原文解析与页级质量控制</text>
+    </g>
+    <g class="phase-band">
+      <rect x="40" y="550" width="1720" height="210" rx="18" />
+      <text x="68" y="583" class="phase-label">C  领域检索、作用域与目标归属</text>
+    </g>
+    <g class="phase-band">
+      <rect x="40" y="780" width="1720" height="400" rx="18" />
+      <text x="68" y="813" class="phase-label">D  R3 证据链与冲突推理</text>
+    </g>
+    <g class="phase-band">
+      <rect x="40" y="1200" width="1720" height="180" rx="18" />
+      <text x="68" y="1233" class="phase-label">E  规范判决与可追溯输出</text>
+    </g>
+  <g class="edges"><g><path d="M 315 190 L 315 280" class="workflow-edge no-arrow" /></g><g><path d="M 900 190 L 900 280" class="workflow-edge no-arrow" /></g><g><path d="M 205 280 L 900 280" class="workflow-edge no-arrow" /></g><g><path d="M 205 280 L 205 300" class="workflow-edge" /></g><g><path d="M 330 340 L 370 340" class="workflow-edge" /></g><g><path d="M 650 340 L 700 340" class="workflow-edge" /></g><g><path d="M 900 340 L 1030 340" class="workflow-edge" /><g class="edge-label-group">
+        <rect x="931" y="308" width="68" height="24" rx="4" />
+        <text x="965" y="326" class="edge-label">无风险</text>
+      </g></g><g><path d="M 800 395 L 800 415 L 970 415 L 970 430" class="workflow-edge" /><g class="edge-label-group">
+        <rect x="841" y="387" width="68" height="24" rx="4" />
+        <text x="875" y="405" class="edge-label">有风险</text>
+      </g></g><g><path d="M 1120 465 L 1180 465 L 1180 380" class="workflow-edge" /></g><g><path d="M 1330 340 L 1410 340" class="workflow-edge" /></g><g><path d="M 100 158 L 25 158 L 25 660 L 70 660" class="workflow-edge" /></g><g><path d="M 1560 380 L 1560 565" class="workflow-edge no-arrow" /></g><g><path d="M 1485 190 L 1740 190 L 1740 565 L 1560 565" class="workflow-edge dashed no-arrow" /></g><g><path d="M 545 565 L 1560 565" class="workflow-edge no-arrow" /></g><g><path d="M 545 565 L 545 620" class="workflow-edge" /></g><g><path d="M 360 660 L 400 660" class="workflow-edge" /></g><g><path d="M 690 660 L 730 660" class="workflow-edge" /></g><g><path d="M 1020 660 L 1060 660" class="workflow-edge" /></g><g><path d="M 1360 660 L 1400 660" class="workflow-edge" /></g><g><path d="M 1550 700 L 1550 770 L 900 770 L 900 830" class="workflow-edge" /></g><g><path d="M 900 900 L 900 930" class="workflow-edge no-arrow" /></g><g><path d="M 250 930 L 1510 930" class="workflow-edge no-arrow" /></g><g><path d="M 250 930 L 250 950" class="workflow-edge" /></g><g><path d="M 660 930 L 660 950" class="workflow-edge" /></g><g><path d="M 1070 930 L 1070 950" class="workflow-edge" /></g><g><path d="M 1510 930 L 1510 950" class="workflow-edge" /></g><g><path d="M 250 1025 L 250 1050" class="workflow-edge no-arrow" /></g><g><path d="M 660 1025 L 660 1050" class="workflow-edge no-arrow" /></g><g><path d="M 1070 1025 L 1070 1050" class="workflow-edge no-arrow" /></g><g><path d="M 250 1050 L 1070 1050" class="workflow-edge no-arrow" /></g><g><path d="M 510 1050 L 510 1080" class="workflow-edge" /></g><g><path d="M 1510 1025 L 1510 1063 L 970 1063 L 970 1080" class="workflow-edge" /></g><g><path d="M 720 1118 L 760 1118" class="workflow-edge" /></g><g><path d="M 1180 1118 L 1260 1118" class="workflow-edge" /></g><g><path d="M 1470 1155 L 1470 1190 L 425 1190 L 425 1260" class="workflow-edge" /></g><g><path d="M 640 1305 L 700 1305" class="workflow-edge" /></g><g><path d="M 1080 1305 L 1140 1305" class="workflow-edge" /></g></g>
+  <g class="junctions"><circle cx="205" cy="280" r="4.2" class="junction" /><circle cx="315" cy="280" r="4.2" class="junction" /><circle cx="900" cy="280" r="4.2" class="junction" /><circle cx="545" cy="565" r="4.2" class="junction" /><circle cx="1560" cy="565" r="4.2" class="junction" /><circle cx="250" cy="930" r="4.2" class="junction" /><circle cx="660" cy="930" r="4.2" class="junction" /><circle cx="900" cy="930" r="4.2" class="junction" /><circle cx="1070" cy="930" r="4.2" class="junction" /><circle cx="1510" cy="930" r="4.2" class="junction" /><circle cx="250" cy="1050" r="4.2" class="junction" /><circle cx="510" cy="1050" r="4.2" class="junction" /><circle cx="660" cy="1050" r="4.2" class="junction" /><circle cx="1070" cy="1050" r="4.2" class="junction" /></g>
+  <g class="nodes">
+    <g class="workflow-node" data-node="identity">
+      <rect x="100" y="125" width="430" height="65" rx="12" fill="#E7F0F7" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="315" y="145">目标身份清单</tspan><tspan x="315" y="170">REFNO / RESULTNO / ROCKNAME</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="papers">
+      <rect x="685" y="125" width="430" height="65" rx="12" fill="#E7F0F7" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="900" y="145">本地原始文献</tspan><tspan x="900" y="170">PDF / 已解析页文本</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="knowledge">
+      <rect x="1270" y="125" width="430" height="65" rx="12" fill="#F3EAD5" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="1485" y="145">冻结 R3 规范与专家知识</tspan><tspan x="1485" y="170">criterion / 专家规则 / 术语模式</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="source">
+      <rect x="80" y="300" width="250" height="80" rx="12" fill="#E8ECEF" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="205" y="315">原文来源检查</tspan><tspan x="205" y="340">定位 PDF / 已解析文本</tspan><tspan x="205" y="365">缺失与可用性标记</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="base">
+      <rect x="370" y="300" width="280" height="80" rx="12" fill="#E8F1E7" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="510" y="315">基础解析候选生成</tspan><tspan x="510" y="340">已有文本 / pypdf</tspan><tspan x="510" y="365">pdfplumber / pdftotext</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="quality">
+      <polygon points="800,285 900,340 800,395 700,340" fill="#E8ECEF" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="800" y="327.5">基础候选</tspan><tspan x="800" y="352.5">存在质量风险?</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="mineru">
+      <rect x="820" y="430" width="300" height="70" rx="12" fill="#E8F1E7" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="970" y="452.5">可选 MinerU 恢复候选</tspan><tspan x="970" y="477.5">仅由无标签质量门触发</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="arbitration">
+      <rect x="1030" y="300" width="300" height="80" rx="12" fill="#DDEFE5" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="1180" y="315">候选质量仲裁</tspan><tspan x="1180" y="340">整篇单源选择；必要时逐页融合</tspan><tspan x="1180" y="365">禁止跨源拼接同一页文本</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="cache">
+      <rect x="1410" y="300" width="300" height="80" rx="12" fill="#DDEFE5" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="1560" y="315">页级原文缓存</tspan><tspan x="1560" y="340">页码 / 章节提示 / 解析来源</tspan><tspan x="1560" y="365">文本哈希与质量标志</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="target">
+      <rect x="70" y="620" width="290" height="80" rx="12" fill="#F5E8CC" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="215" y="635">目标名称规范化</tspan><tspan x="215" y="660">目标特异词与别名</tspan><tspan x="215" y="685">同文献竞争目标集合</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="retrieval">
+      <rect x="400" y="620" width="290" height="80" rx="12" fill="#DCEAF7" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="545" y="635">R3 冻结模式检索</tspan><tspan x="545" y="660">方法 / 诊断 / 载体</tspan><tspan x="545" y="685">载体—剩磁桥接</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="filter">
+      <rect x="730" y="620" width="290" height="80" rx="12" fill="#DCEAF7" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="875" y="635">候选证据过滤</tspan><tspan x="875" y="660">参考文献 / 外部引文 / 否定</tspan><tspan x="875" y="685">未实施方法 / 非结果语句</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="scope">
+      <rect x="1060" y="620" width="300" height="80" rx="12" fill="#F5E8CC" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="1210" y="635">局部语义作用域</tspan><tspan x="1210" y="660">句子 / 段落 / 小节</tspan><tspan x="1210" y="685">表格行 / 物理页</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="binding">
+      <rect x="1400" y="620" width="300" height="80" rx="12" fill="#F5E8CC" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="1550" y="635">证据目标归属</tspan><tspan x="1550" y="660">竞争目标排除</tspan><tspan x="1550" y="685">scope_id / 绑定强度</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="relations">
+      <rect x="620" y="830" width="560" height="70" rx="12" fill="#EEE4F3" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="900" y="852.5">目标绑定的规则关系集合</tspan><tspan x="900" y="877.5">SUPPORT / CONFLICT / UNKNOWN</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="method">
+      <rect x="70" y="950" width="360" height="75" rx="12" fill="#EEE4F3" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="250" y="975">方法证据组</tspan><tspan x="250" y="1000">实施了载体相关实验或观测</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="carrier">
+      <rect x="480" y="950" width="360" height="75" rx="12" fill="#EEE4F3" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="660" y="975">载体证据组</tspan><tspan x="660" y="1000">识别具体载磁矿物或载体</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="bridge">
+      <rect x="890" y="950" width="360" height="75" rx="12" fill="#EEE4F3" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="1070" y="975">意义桥接证据组</tspan><tspan x="1070" y="1000">载体关联分量、原生/次生解释</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="conflict">
+      <rect x="1300" y="950" width="420" height="75" rx="12" fill="#F5E1D9" stroke="#A6664C" stroke-width="2" />
+      <text class="node-label"><tspan x="1510" y="975">显式反向证据</tspan><tspan x="1510" y="1000">论文明确报告未能确定载体</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="chain">
+      <rect x="300" y="1080" width="420" height="75" rx="12" fill="#EEE4F3" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="510" y="1105">连接证据链检验</tspan><tspan x="510" y="1130">同一目标 + 页邻近 + 作用域兼容</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="engine">
+      <rect x="760" y="1080" width="420" height="75" rx="12" fill="#EEE4F3" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="970" y="1105">专家知识冲突聚合</tspan><tspan x="970" y="1130">规则去重 / 限定例外 / 保留矛盾</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="state">
+      <rect x="1260" y="1080" width="420" height="75" rx="12" fill="#E8ECEF" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="1470" y="1092.5">四值证据状态</tspan><tspan x="1470" y="1117.5">SUPPORTED_ONLY / REFUTED_ONLY</tspan><tspan x="1470" y="1142.5">BOTH / NEITHER</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="normative">
+      <rect x="210" y="1260" width="430" height="90" rx="12" fill="#DFECEB" stroke="#4D7774" stroke-width="2" />
+      <text class="node-label"><tspan x="425" y="1280">规范科学判决</tspan><tspan x="425" y="1305">必需组齐全：1；明确冲突：0</tspan><tspan x="425" y="1330">其余情况：ABSTAIN</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="adapter">
+      <rect x="700" y="1260" width="380" height="90" rx="12" fill="#E8ECEF" stroke="#667085" stroke-width="2" />
+      <text class="node-label"><tspan x="890" y="1280">业务二元兼容输出</tspan><tspan x="890" y="1305">UNKNOWN 映射为 0</tspan><tspan x="890" y="1330">同时保留人工复核标志</tspan></text>
+    </g>
+    <g class="workflow-node" data-node="output">
+      <rect x="1140" y="1260" width="470" height="90" rx="12" fill="#DFECEB" stroke="#4D7774" stroke-width="2" />
+      <text class="node-label"><tspan x="1375" y="1280">R3 可追溯证据包</tspan><tspan x="1375" y="1305">判决 / 缺失组 / 原文引文 / 页码</tspan><tspan x="1375" y="1330">scope_id / 理由 / 输入与知识哈希</tspan></text>
+    </g></g>
+</svg>

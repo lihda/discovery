@@ -1,0 +1,72 @@
+{
+  "comparison": {
+    "manifest_gated_propagation": {
+      "accuracy": 0.75644567,
+      "accuracy_delta_vs_target_local": 0.00276243,
+      "balanced_accuracy": 0.73229794,
+      "confusion": {
+        "fn": 239,
+        "fp": 290,
+        "tn": 514,
+        "tp": 1129
+      },
+      "fold_accuracies": [
+        0.71494253,
+        0.7816092,
+        0.82258065,
+        0.75345622,
+        0.70967742
+      ],
+      "macro_f1": 0.73521711
+    },
+    "shared_propagation_50": {
+      "accuracy": 0.79143646,
+      "accuracy_delta_vs_target_local": 0.03775322,
+      "balanced_accuracy": 0.76648555,
+      "confusion": {
+        "fn": 188,
+        "fp": 265,
+        "tn": 539,
+        "tp": 1180
+      },
+      "fold_accuracies": [
+        0.76781609,
+        0.81149425,
+        0.82949309,
+        0.79723502,
+        0.75115207
+      ],
+      "macro_f1": 0.77153846
+    },
+    "target_local_current_like": {
+      "accuracy": 0.75368324,
+      "accuracy_delta_vs_target_local": 0.0,
+      "balanced_accuracy": 0.72959217,
+      "confusion": {
+        "fn": 243,
+        "fp": 292,
+        "tn": 512,
+        "tp": 1125
+      },
+      "fold_accuracies": [
+        0.71494253,
+        0.7816092,
+        0.81797235,
+        0.75345622,
+        0.70046083
+      ],
+      "macro_f1": 0.73236538
+    }
+  },
+  "interpretation": {
+    "any_strategy_reaches_target": false,
+    "external_paper_group_validation_required": true,
+    "full_coverage_target_accuracy": 0.9,
+    "manifest_improves_full_coverage_accuracy": true
+  },
+  "manifest_sha256": "709ed82da6526684df303f22ec08ea62e30747cc1c3f51d1f3e312d344bcb8a5",
+  "oof_probabilities_sha256": "a8336a3c7f054a6d522340a3c3ccaf5681fbb8251d6cff6f3252b9f405681c19",
+  "paper_groups": 1174,
+  "rows": 2172,
+  "schema_version": "r3_component_manifest_comparison_summary_v1"
+}

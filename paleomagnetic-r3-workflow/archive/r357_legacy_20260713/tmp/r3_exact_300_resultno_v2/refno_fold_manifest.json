@@ -1,0 +1,1838 @@
+{
+  "schema_version": "r3_exact300_label_free_refno_folds_v1",
+  "status": "FROZEN_WITHOUT_LABEL_ACCESS",
+  "scope": {
+    "rows": 300,
+    "paper_groups": 258,
+    "folds": 5,
+    "rows_per_fold": {
+      "1": 60,
+      "2": 60,
+      "3": 60,
+      "4": 60,
+      "5": 60
+    }
+  },
+  "generator": {
+    "method": "sklearn.model_selection.GroupKFold over exact identity REFNO",
+    "sklearn_version": "1.9.0",
+    "labels_argument": "all-zero placeholder; R3 was not opened",
+    "shuffle": false
+  },
+  "runtime_boundary": {
+    "labels_read": false,
+    "targets_workbook_read": false,
+    "pdf_text_read": false,
+    "pmagresult_or_rockmag_read": false,
+    "prior_predictions_or_evaluations_read": false,
+    "identifiers_used_only_for_alignment_and_grouping": true
+  },
+  "input": {
+    "identity": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/identity.xlsx",
+    "identity_sha256": "93ea5dfba0a32501a564d06eb020386fd86b11f59ded0982043f90c064ab960b",
+    "alignment_sha256": "ea3b591bdcaa26d8bfa86aa379c070626c436b889b7ea79cc1385611c6f99126"
+  },
+  "fold_id_sha256": "28552aa3627c2c808ff49ac50c7c9d67a6f32daaad0e9aff5ae6a96fbe61f08f",
+  "rows": [
+    {
+      "row_index": 0,
+      "REFNO": "3260",
+      "RESULTNO": "8396",
+      "fold": 1
+    },
+    {
+      "row_index": 1,
+      "REFNO": "3026",
+      "RESULTNO": "7817",
+      "fold": 5
+    },
+    {
+      "row_index": 2,
+      "REFNO": "2966",
+      "RESULTNO": "8605",
+      "fold": 4
+    },
+    {
+      "row_index": 3,
+      "REFNO": "3445",
+      "RESULTNO": "8762",
+      "fold": 4
+    },
+    {
+      "row_index": 4,
+      "REFNO": "1171",
+      "RESULTNO": "71",
+      "fold": 5
+    },
+    {
+      "row_index": 5,
+      "REFNO": "1182",
+      "RESULTNO": "97",
+      "fold": 2
+    },
+    {
+      "row_index": 6,
+      "REFNO": "2979",
+      "RESULTNO": "7749",
+      "fold": 5
+    },
+    {
+      "row_index": 7,
+      "REFNO": "3229",
+      "RESULTNO": "8346",
+      "fold": 3
+    },
+    {
+      "row_index": 8,
+      "REFNO": "3155",
+      "RESULTNO": "8202",
+      "fold": 3
+    },
+    {
+      "row_index": 9,
+      "REFNO": "4093",
+      "RESULTNO": "9901",
+      "fold": 2
+    },
+    {
+      "row_index": 10,
+      "REFNO": "2968",
+      "RESULTNO": "7727",
+      "fold": 2
+    },
+    {
+      "row_index": 11,
+      "REFNO": "3644",
+      "RESULTNO": "9213",
+      "fold": 4
+    },
+    {
+      "row_index": 12,
+      "REFNO": "4220",
+      "RESULTNO": "10090",
+      "fold": 1
+    },
+    {
+      "row_index": 13,
+      "REFNO": "1742",
+      "RESULTNO": "5770",
+      "fold": 1
+    },
+    {
+      "row_index": 14,
+      "REFNO": "3935",
+      "RESULTNO": "9651",
+      "fold": 4
+    },
+    {
+      "row_index": 15,
+      "REFNO": "3458",
+      "RESULTNO": "8810",
+      "fold": 3
+    },
+    {
+      "row_index": 16,
+      "REFNO": "3346",
+      "RESULTNO": "8557",
+      "fold": 1
+    },
+    {
+      "row_index": 17,
+      "REFNO": "2985",
+      "RESULTNO": "7757",
+      "fold": 3
+    },
+    {
+      "row_index": 18,
+      "REFNO": "3864",
+      "RESULTNO": "9527",
+      "fold": 1
+    },
+    {
+      "row_index": 19,
+      "REFNO": "821",
+      "RESULTNO": "1832",
+      "fold": 4
+    },
+    {
+      "row_index": 20,
+      "REFNO": "3423",
+      "RESULTNO": "8700",
+      "fold": 5
+    },
+    {
+      "row_index": 21,
+      "REFNO": "3192",
+      "RESULTNO": "8281",
+      "fold": 1
+    },
+    {
+      "row_index": 22,
+      "REFNO": "3393",
+      "RESULTNO": "8637",
+      "fold": 5
+    },
+    {
+      "row_index": 23,
+      "REFNO": "3124",
+      "RESULTNO": "8547",
+      "fold": 3
+    },
+    {
+      "row_index": 24,
+      "REFNO": "3476",
+      "RESULTNO": "8844",
+      "fold": 2
+    },
+    {
+      "row_index": 25,
+      "REFNO": "4168",
+      "RESULTNO": "10007",
+      "fold": 3
+    },
+    {
+      "row_index": 26,
+      "REFNO": "3745",
+      "RESULTNO": "9372",
+      "fold": 2
+    },
+    {
+      "row_index": 27,
+      "REFNO": "3704",
+      "RESULTNO": "9307",
+      "fold": 3
+    },
+    {
+      "row_index": 28,
+      "REFNO": "3673",
+      "RESULTNO": "9256",
+      "fold": 1
+    },
+    {
+      "row_index": 29,
+      "REFNO": "3721",
+      "RESULTNO": "9331",
+      "fold": 1
+    },
+    {
+      "row_index": 30,
+      "REFNO": "3888",
+      "RESULTNO": "9572",
+      "fold": 4
+    },
+    {
+      "row_index": 31,
+      "REFNO": "3063",
+      "RESULTNO": "8039",
+      "fold": 2
+    },
+    {
+      "row_index": 32,
+      "REFNO": "4377",
+      "RESULTNO": "10308",
+      "fold": 2
+    },
+    {
+      "row_index": 33,
+      "REFNO": "4025",
+      "RESULTNO": "9809",
+      "fold": 3
+    },
+    {
+      "row_index": 34,
+      "REFNO": "3456",
+      "RESULTNO": "8793",
+      "fold": 3
+    },
+    {
+      "row_index": 35,
+      "REFNO": "2503",
+      "RESULTNO": "6446",
+      "fold": 1
+    },
+    {
+      "row_index": 36,
+      "REFNO": "3611",
+      "RESULTNO": "9143",
+      "fold": 3
+    },
+    {
+      "row_index": 37,
+      "REFNO": "3985",
+      "RESULTNO": "9742",
+      "fold": 3
+    },
+    {
+      "row_index": 38,
+      "REFNO": "4225",
+      "RESULTNO": "10097",
+      "fold": 2
+    },
+    {
+      "row_index": 39,
+      "REFNO": "2850",
+      "RESULTNO": "7426",
+      "fold": 5
+    },
+    {
+      "row_index": 40,
+      "REFNO": "3192",
+      "RESULTNO": "8282",
+      "fold": 1
+    },
+    {
+      "row_index": 41,
+      "REFNO": "3124",
+      "RESULTNO": "8151",
+      "fold": 3
+    },
+    {
+      "row_index": 42,
+      "REFNO": "732",
+      "RESULTNO": "1943",
+      "fold": 5
+    },
+    {
+      "row_index": 43,
+      "REFNO": "240",
+      "RESULTNO": "2899",
+      "fold": 2
+    },
+    {
+      "row_index": 44,
+      "REFNO": "3272",
+      "RESULTNO": "8417",
+      "fold": 5
+    },
+    {
+      "row_index": 45,
+      "REFNO": "3205",
+      "RESULTNO": "8312",
+      "fold": 3
+    },
+    {
+      "row_index": 46,
+      "REFNO": "4125",
+      "RESULTNO": "9945",
+      "fold": 3
+    },
+    {
+      "row_index": 47,
+      "REFNO": "3931",
+      "RESULTNO": "9640",
+      "fold": 1
+    },
+    {
+      "row_index": 48,
+      "REFNO": "3773",
+      "RESULTNO": "9409",
+      "fold": 4
+    },
+    {
+      "row_index": 49,
+      "REFNO": "3576",
+      "RESULTNO": "9074",
+      "fold": 5
+    },
+    {
+      "row_index": 50,
+      "REFNO": "3102",
+      "RESULTNO": "8119",
+      "fold": 1
+    },
+    {
+      "row_index": 51,
+      "REFNO": "4298",
+      "RESULTNO": "10194",
+      "fold": 4
+    },
+    {
+      "row_index": 52,
+      "REFNO": "4390",
+      "RESULTNO": "10325",
+      "fold": 4
+    },
+    {
+      "row_index": 53,
+      "REFNO": "3942",
+      "RESULTNO": "9666",
+      "fold": 3
+    },
+    {
+      "row_index": 54,
+      "REFNO": "3038",
+      "RESULTNO": "7892",
+      "fold": 3
+    },
+    {
+      "row_index": 55,
+      "REFNO": "3857",
+      "RESULTNO": "9517",
+      "fold": 3
+    },
+    {
+      "row_index": 56,
+      "REFNO": "3212",
+      "RESULTNO": "8319",
+      "fold": 2
+    },
+    {
+      "row_index": 57,
+      "REFNO": "3012",
+      "RESULTNO": "7798",
+      "fold": 3
+    },
+    {
+      "row_index": 58,
+      "REFNO": "3968",
+      "RESULTNO": "9719",
+      "fold": 4
+    },
+    {
+      "row_index": 59,
+      "REFNO": "3228",
+      "RESULTNO": "8344",
+      "fold": 4
+    },
+    {
+      "row_index": 60,
+      "REFNO": "252",
+      "RESULTNO": "2523",
+      "fold": 3
+    },
+    {
+      "row_index": 61,
+      "REFNO": "3413",
+      "RESULTNO": "8682",
+      "fold": 4
+    },
+    {
+      "row_index": 62,
+      "REFNO": "4168",
+      "RESULTNO": "10011",
+      "fold": 3
+    },
+    {
+      "row_index": 63,
+      "REFNO": "3807",
+      "RESULTNO": "9453",
+      "fold": 4
+    },
+    {
+      "row_index": 64,
+      "REFNO": "2975",
+      "RESULTNO": "7741",
+      "fold": 1
+    },
+    {
+      "row_index": 65,
+      "REFNO": "3591",
+      "RESULTNO": "9109",
+      "fold": 2
+    },
+    {
+      "row_index": 66,
+      "REFNO": "3337",
+      "RESULTNO": "8541",
+      "fold": 3
+    },
+    {
+      "row_index": 67,
+      "REFNO": "3183",
+      "RESULTNO": "8267",
+      "fold": 4
+    },
+    {
+      "row_index": 68,
+      "REFNO": "2245",
+      "RESULTNO": "5888",
+      "fold": 1
+    },
+    {
+      "row_index": 69,
+      "REFNO": "3875",
+      "RESULTNO": "9551",
+      "fold": 3
+    },
+    {
+      "row_index": 70,
+      "REFNO": "4110",
+      "RESULTNO": "9925",
+      "fold": 2
+    },
+    {
+      "row_index": 71,
+      "REFNO": "3013",
+      "RESULTNO": "7801",
+      "fold": 2
+    },
+    {
+      "row_index": 72,
+      "REFNO": "4198",
+      "RESULTNO": "10058",
+      "fold": 5
+    },
+    {
+      "row_index": 73,
+      "REFNO": "3187",
+      "RESULTNO": "8272",
+      "fold": 3
+    },
+    {
+      "row_index": 74,
+      "REFNO": "3673",
+      "RESULTNO": "9253",
+      "fold": 1
+    },
+    {
+      "row_index": 75,
+      "REFNO": "3603",
+      "RESULTNO": "9128",
+      "fold": 4
+    },
+    {
+      "row_index": 76,
+      "REFNO": "4052",
+      "RESULTNO": "9847",
+      "fold": 5
+    },
+    {
+      "row_index": 77,
+      "REFNO": "4044",
+      "RESULTNO": "9838",
+      "fold": 1
+    },
+    {
+      "row_index": 78,
+      "REFNO": "3815",
+      "RESULTNO": "9463",
+      "fold": 2
+    },
+    {
+      "row_index": 79,
+      "REFNO": "4272",
+      "RESULTNO": "10155",
+      "fold": 5
+    },
+    {
+      "row_index": 80,
+      "REFNO": "3582",
+      "RESULTNO": "9097",
+      "fold": 3
+    },
+    {
+      "row_index": 81,
+      "REFNO": "3615",
+      "RESULTNO": "9150",
+      "fold": 2
+    },
+    {
+      "row_index": 82,
+      "REFNO": "3476",
+      "RESULTNO": "8843",
+      "fold": 2
+    },
+    {
+      "row_index": 83,
+      "REFNO": "3332",
+      "RESULTNO": "8533",
+      "fold": 4
+    },
+    {
+      "row_index": 84,
+      "REFNO": "3932",
+      "RESULTNO": "9643",
+      "fold": 5
+    },
+    {
+      "row_index": 85,
+      "REFNO": "1150",
+      "RESULTNO": "24",
+      "fold": 4
+    },
+    {
+      "row_index": 86,
+      "REFNO": "1805",
+      "RESULTNO": "1507",
+      "fold": 5
+    },
+    {
+      "row_index": 87,
+      "REFNO": "763",
+      "RESULTNO": "5736",
+      "fold": 4
+    },
+    {
+      "row_index": 88,
+      "REFNO": "4438",
+      "RESULTNO": "10389",
+      "fold": 3
+    },
+    {
+      "row_index": 89,
+      "REFNO": "3726",
+      "RESULTNO": "9341",
+      "fold": 5
+    },
+    {
+      "row_index": 90,
+      "REFNO": "1159",
+      "RESULTNO": "46",
+      "fold": 2
+    },
+    {
+      "row_index": 91,
+      "REFNO": "2504",
+      "RESULTNO": "6449",
+      "fold": 5
+    },
+    {
+      "row_index": 92,
+      "REFNO": "3372",
+      "RESULTNO": "8602",
+      "fold": 2
+    },
+    {
+      "row_index": 93,
+      "REFNO": "3395",
+      "RESULTNO": "8640",
+      "fold": 5
+    },
+    {
+      "row_index": 94,
+      "REFNO": "3404",
+      "RESULTNO": "8658",
+      "fold": 4
+    },
+    {
+      "row_index": 95,
+      "REFNO": "3866",
+      "RESULTNO": "9533",
+      "fold": 5
+    },
+    {
+      "row_index": 96,
+      "REFNO": "3807",
+      "RESULTNO": "9454",
+      "fold": 4
+    },
+    {
+      "row_index": 97,
+      "REFNO": "4369",
+      "RESULTNO": "10300",
+      "fold": 4
+    },
+    {
+      "row_index": 98,
+      "REFNO": "4168",
+      "RESULTNO": "10008",
+      "fold": 3
+    },
+    {
+      "row_index": 99,
+      "REFNO": "3418",
+      "RESULTNO": "8692",
+      "fold": 3
+    },
+    {
+      "row_index": 100,
+      "REFNO": "3605",
+      "RESULTNO": "9134",
+      "fold": 4
+    },
+    {
+      "row_index": 101,
+      "REFNO": "4187",
+      "RESULTNO": "10043",
+      "fold": 4
+    },
+    {
+      "row_index": 102,
+      "REFNO": "4433",
+      "RESULTNO": "10379",
+      "fold": 5
+    },
+    {
+      "row_index": 103,
+      "REFNO": "4434",
+      "RESULTNO": "10381",
+      "fold": 4
+    },
+    {
+      "row_index": 104,
+      "REFNO": "683",
+      "RESULTNO": "2977",
+      "fold": 5
+    },
+    {
+      "row_index": 105,
+      "REFNO": "4117",
+      "RESULTNO": "9933",
+      "fold": 1
+    },
+    {
+      "row_index": 106,
+      "REFNO": "3032",
+      "RESULTNO": "7823",
+      "fold": 4
+    },
+    {
+      "row_index": 107,
+      "REFNO": "3967",
+      "RESULTNO": "9714",
+      "fold": 4
+    },
+    {
+      "row_index": 108,
+      "REFNO": "3434",
+      "RESULTNO": "8723",
+      "fold": 2
+    },
+    {
+      "row_index": 109,
+      "REFNO": "3105",
+      "RESULTNO": "8125",
+      "fold": 4
+    },
+    {
+      "row_index": 110,
+      "REFNO": "3880",
+      "RESULTNO": "9559",
+      "fold": 1
+    },
+    {
+      "row_index": 111,
+      "REFNO": "1278",
+      "RESULTNO": "309",
+      "fold": 3
+    },
+    {
+      "row_index": 112,
+      "REFNO": "4299",
+      "RESULTNO": "10195",
+      "fold": 3
+    },
+    {
+      "row_index": 113,
+      "REFNO": "2850",
+      "RESULTNO": "7420",
+      "fold": 5
+    },
+    {
+      "row_index": 114,
+      "REFNO": "4297",
+      "RESULTNO": "10188",
+      "fold": 5
+    },
+    {
+      "row_index": 115,
+      "REFNO": "3122",
+      "RESULTNO": "8146",
+      "fold": 2
+    },
+    {
+      "row_index": 116,
+      "REFNO": "3231",
+      "RESULTNO": "8349",
+      "fold": 2
+    },
+    {
+      "row_index": 117,
+      "REFNO": "4228",
+      "RESULTNO": "10100",
+      "fold": 1
+    },
+    {
+      "row_index": 118,
+      "REFNO": "4432",
+      "RESULTNO": "10377",
+      "fold": 1
+    },
+    {
+      "row_index": 119,
+      "REFNO": "1769",
+      "RESULTNO": "1402",
+      "fold": 2
+    },
+    {
+      "row_index": 120,
+      "REFNO": "3419",
+      "RESULTNO": "8693",
+      "fold": 2
+    },
+    {
+      "row_index": 121,
+      "REFNO": "4144",
+      "RESULTNO": "9972",
+      "fold": 4
+    },
+    {
+      "row_index": 122,
+      "REFNO": "4042",
+      "RESULTNO": "9835",
+      "fold": 3
+    },
+    {
+      "row_index": 123,
+      "REFNO": "4316",
+      "RESULTNO": "10224",
+      "fold": 1
+    },
+    {
+      "row_index": 124,
+      "REFNO": "3498",
+      "RESULTNO": "8911",
+      "fold": 1
+    },
+    {
+      "row_index": 125,
+      "REFNO": "3603",
+      "RESULTNO": "9129",
+      "fold": 4
+    },
+    {
+      "row_index": 126,
+      "REFNO": "3783",
+      "RESULTNO": "9422",
+      "fold": 1
+    },
+    {
+      "row_index": 127,
+      "REFNO": "1176",
+      "RESULTNO": "81",
+      "fold": 4
+    },
+    {
+      "row_index": 128,
+      "REFNO": "3095",
+      "RESULTNO": "8107",
+      "fold": 2
+    },
+    {
+      "row_index": 129,
+      "REFNO": "4122",
+      "RESULTNO": "9941",
+      "fold": 5
+    },
+    {
+      "row_index": 130,
+      "REFNO": "3202",
+      "RESULTNO": "8306",
+      "fold": 4
+    },
+    {
+      "row_index": 131,
+      "REFNO": "4272",
+      "RESULTNO": "10154",
+      "fold": 5
+    },
+    {
+      "row_index": 132,
+      "REFNO": "3434",
+      "RESULTNO": "8729",
+      "fold": 2
+    },
+    {
+      "row_index": 133,
+      "REFNO": "3356",
+      "RESULTNO": "8573",
+      "fold": 4
+    },
+    {
+      "row_index": 134,
+      "REFNO": "3790",
+      "RESULTNO": "9428",
+      "fold": 5
+    },
+    {
+      "row_index": 135,
+      "REFNO": "2751",
+      "RESULTNO": "7146",
+      "fold": 1
+    },
+    {
+      "row_index": 136,
+      "REFNO": "3078",
+      "RESULTNO": "8072",
+      "fold": 4
+    },
+    {
+      "row_index": 137,
+      "REFNO": "4042",
+      "RESULTNO": "9832",
+      "fold": 3
+    },
+    {
+      "row_index": 138,
+      "REFNO": "3440",
+      "RESULTNO": "8753",
+      "fold": 5
+    },
+    {
+      "row_index": 139,
+      "REFNO": "3779",
+      "RESULTNO": "9414",
+      "fold": 2
+    },
+    {
+      "row_index": 140,
+      "REFNO": "2983",
+      "RESULTNO": "7753",
+      "fold": 4
+    },
+    {
+      "row_index": 141,
+      "REFNO": "3166",
+      "RESULTNO": "8228",
+      "fold": 2
+    },
+    {
+      "row_index": 142,
+      "REFNO": "210",
+      "RESULTNO": "1900",
+      "fold": 3
+    },
+    {
+      "row_index": 143,
+      "REFNO": "4390",
+      "RESULTNO": "10326",
+      "fold": 4
+    },
+    {
+      "row_index": 144,
+      "REFNO": "3174",
+      "RESULTNO": "8248",
+      "fold": 1
+    },
+    {
+      "row_index": 145,
+      "REFNO": "3636",
+      "RESULTNO": "9196",
+      "fold": 5
+    },
+    {
+      "row_index": 146,
+      "REFNO": "4401",
+      "RESULTNO": "10338",
+      "fold": 4
+    },
+    {
+      "row_index": 147,
+      "REFNO": "3162",
+      "RESULTNO": "8215",
+      "fold": 2
+    },
+    {
+      "row_index": 148,
+      "REFNO": "2995",
+      "RESULTNO": "7773",
+      "fold": 5
+    },
+    {
+      "row_index": 149,
+      "REFNO": "1154",
+      "RESULTNO": "35",
+      "fold": 3
+    },
+    {
+      "row_index": 150,
+      "REFNO": "2506",
+      "RESULTNO": "6456",
+      "fold": 4
+    },
+    {
+      "row_index": 151,
+      "REFNO": "4208",
+      "RESULTNO": "10071",
+      "fold": 3
+    },
+    {
+      "row_index": 152,
+      "REFNO": "732",
+      "RESULTNO": "1947",
+      "fold": 5
+    },
+    {
+      "row_index": 153,
+      "REFNO": "1142",
+      "RESULTNO": "4",
+      "fold": 5
+    },
+    {
+      "row_index": 154,
+      "REFNO": "3489",
+      "RESULTNO": "8891",
+      "fold": 2
+    },
+    {
+      "row_index": 155,
+      "REFNO": "3326",
+      "RESULTNO": "8526",
+      "fold": 1
+    },
+    {
+      "row_index": 156,
+      "REFNO": "3213",
+      "RESULTNO": "8320",
+      "fold": 1
+    },
+    {
+      "row_index": 157,
+      "REFNO": "3189",
+      "RESULTNO": "8276",
+      "fold": 2
+    },
+    {
+      "row_index": 158,
+      "REFNO": "2897",
+      "RESULTNO": "10003",
+      "fold": 4
+    },
+    {
+      "row_index": 159,
+      "REFNO": "3886",
+      "RESULTNO": "9570",
+      "fold": 5
+    },
+    {
+      "row_index": 160,
+      "REFNO": "3815",
+      "RESULTNO": "9464",
+      "fold": 2
+    },
+    {
+      "row_index": 161,
+      "REFNO": "4250",
+      "RESULTNO": "10125",
+      "fold": 4
+    },
+    {
+      "row_index": 162,
+      "REFNO": "3529",
+      "RESULTNO": "8964",
+      "fold": 3
+    },
+    {
+      "row_index": 163,
+      "REFNO": "3803",
+      "RESULTNO": "9449",
+      "fold": 3
+    },
+    {
+      "row_index": 164,
+      "REFNO": "3967",
+      "RESULTNO": "9713",
+      "fold": 4
+    },
+    {
+      "row_index": 165,
+      "REFNO": "2994",
+      "RESULTNO": "7777",
+      "fold": 1
+    },
+    {
+      "row_index": 166,
+      "REFNO": "3355",
+      "RESULTNO": "8572",
+      "fold": 5
+    },
+    {
+      "row_index": 167,
+      "REFNO": "258",
+      "RESULTNO": "2505",
+      "fold": 2
+    },
+    {
+      "row_index": 168,
+      "REFNO": "3686",
+      "RESULTNO": "9269",
+      "fold": 1
+    },
+    {
+      "row_index": 169,
+      "REFNO": "3497",
+      "RESULTNO": "8905",
+      "fold": 1
+    },
+    {
+      "row_index": 170,
+      "REFNO": "3708",
+      "RESULTNO": "9317",
+      "fold": 2
+    },
+    {
+      "row_index": 171,
+      "REFNO": "1179",
+      "RESULTNO": "92",
+      "fold": 3
+    },
+    {
+      "row_index": 172,
+      "REFNO": "4074",
+      "RESULTNO": "9865",
+      "fold": 4
+    },
+    {
+      "row_index": 173,
+      "REFNO": "4435",
+      "RESULTNO": "10385",
+      "fold": 2
+    },
+    {
+      "row_index": 174,
+      "REFNO": "3195",
+      "RESULTNO": "8295",
+      "fold": 1
+    },
+    {
+      "row_index": 175,
+      "REFNO": "3404",
+      "RESULTNO": "8666",
+      "fold": 4
+    },
+    {
+      "row_index": 176,
+      "REFNO": "3306",
+      "RESULTNO": "8480",
+      "fold": 5
+    },
+    {
+      "row_index": 177,
+      "REFNO": "3603",
+      "RESULTNO": "9127",
+      "fold": 4
+    },
+    {
+      "row_index": 178,
+      "REFNO": "3456",
+      "RESULTNO": "8796",
+      "fold": 3
+    },
+    {
+      "row_index": 179,
+      "REFNO": "3130",
+      "RESULTNO": "8164",
+      "fold": 5
+    },
+    {
+      "row_index": 180,
+      "REFNO": "3371",
+      "RESULTNO": "8599",
+      "fold": 3
+    },
+    {
+      "row_index": 181,
+      "REFNO": "2245",
+      "RESULTNO": "5887",
+      "fold": 1
+    },
+    {
+      "row_index": 182,
+      "REFNO": "3800",
+      "RESULTNO": "9445",
+      "fold": 4
+    },
+    {
+      "row_index": 183,
+      "REFNO": "821",
+      "RESULTNO": "1831",
+      "fold": 4
+    },
+    {
+      "row_index": 184,
+      "REFNO": "3294",
+      "RESULTNO": "8460",
+      "fold": 2
+    },
+    {
+      "row_index": 185,
+      "REFNO": "4392",
+      "RESULTNO": "10328",
+      "fold": 1
+    },
+    {
+      "row_index": 186,
+      "REFNO": "4457",
+      "RESULTNO": "10420",
+      "fold": 1
+    },
+    {
+      "row_index": 187,
+      "REFNO": "3809",
+      "RESULTNO": "9457",
+      "fold": 3
+    },
+    {
+      "row_index": 188,
+      "REFNO": "3874",
+      "RESULTNO": "9544",
+      "fold": 5
+    },
+    {
+      "row_index": 189,
+      "REFNO": "4278",
+      "RESULTNO": "10163",
+      "fold": 3
+    },
+    {
+      "row_index": 190,
+      "REFNO": "3319",
+      "RESULTNO": "8505",
+      "fold": 2
+    },
+    {
+      "row_index": 191,
+      "REFNO": "4394",
+      "RESULTNO": "10330",
+      "fold": 5
+    },
+    {
+      "row_index": 192,
+      "REFNO": "3862",
+      "RESULTNO": "9524",
+      "fold": 2
+    },
+    {
+      "row_index": 193,
+      "REFNO": "3113",
+      "RESULTNO": "8136",
+      "fold": 3
+    },
+    {
+      "row_index": 194,
+      "REFNO": "4419",
+      "RESULTNO": "10360",
+      "fold": 2
+    },
+    {
+      "row_index": 195,
+      "REFNO": "3281",
+      "RESULTNO": "8435",
+      "fold": 3
+    },
+    {
+      "row_index": 196,
+      "REFNO": "3957",
+      "RESULTNO": "9692",
+      "fold": 5
+    },
+    {
+      "row_index": 197,
+      "REFNO": "4294",
+      "RESULTNO": "10185",
+      "fold": 1
+    },
+    {
+      "row_index": 198,
+      "REFNO": "3197",
+      "RESULTNO": "8298",
+      "fold": 5
+    },
+    {
+      "row_index": 199,
+      "REFNO": "780",
+      "RESULTNO": "8446",
+      "fold": 3
+    },
+    {
+      "row_index": 200,
+      "REFNO": "3812",
+      "RESULTNO": "9461",
+      "fold": 2
+    },
+    {
+      "row_index": 201,
+      "REFNO": "4290",
+      "RESULTNO": "10179",
+      "fold": 2
+    },
+    {
+      "row_index": 202,
+      "REFNO": "3343",
+      "RESULTNO": "8556",
+      "fold": 2
+    },
+    {
+      "row_index": 203,
+      "REFNO": "4196",
+      "RESULTNO": "10055",
+      "fold": 1
+    },
+    {
+      "row_index": 204,
+      "REFNO": "3423",
+      "RESULTNO": "8702",
+      "fold": 5
+    },
+    {
+      "row_index": 205,
+      "REFNO": "2929",
+      "RESULTNO": "7626",
+      "fold": 3
+    },
+    {
+      "row_index": 206,
+      "REFNO": "3776",
+      "RESULTNO": "9412",
+      "fold": 3
+    },
+    {
+      "row_index": 207,
+      "REFNO": "4451",
+      "RESULTNO": "10410",
+      "fold": 2
+    },
+    {
+      "row_index": 208,
+      "REFNO": "3673",
+      "RESULTNO": "9252",
+      "fold": 1
+    },
+    {
+      "row_index": 209,
+      "REFNO": "3661",
+      "RESULTNO": "9236",
+      "fold": 3
+    },
+    {
+      "row_index": 210,
+      "REFNO": "4086",
+      "RESULTNO": "9890",
+      "fold": 3
+    },
+    {
+      "row_index": 211,
+      "REFNO": "4157",
+      "RESULTNO": "9992",
+      "fold": 2
+    },
+    {
+      "row_index": 212,
+      "REFNO": "3809",
+      "RESULTNO": "9456",
+      "fold": 3
+    },
+    {
+      "row_index": 213,
+      "REFNO": "4123",
+      "RESULTNO": "9942",
+      "fold": 4
+    },
+    {
+      "row_index": 214,
+      "REFNO": "3746",
+      "RESULTNO": "9374",
+      "fold": 1
+    },
+    {
+      "row_index": 215,
+      "REFNO": "1278",
+      "RESULTNO": "310",
+      "fold": 3
+    },
+    {
+      "row_index": 216,
+      "REFNO": "3104",
+      "RESULTNO": "8124",
+      "fold": 5
+    },
+    {
+      "row_index": 217,
+      "REFNO": "3547",
+      "RESULTNO": "9001",
+      "fold": 5
+    },
+    {
+      "row_index": 218,
+      "REFNO": "4039",
+      "RESULTNO": "9828",
+      "fold": 2
+    },
+    {
+      "row_index": 219,
+      "REFNO": "3695",
+      "RESULTNO": "9291",
+      "fold": 4
+    },
+    {
+      "row_index": 220,
+      "REFNO": "4142",
+      "RESULTNO": "9970",
+      "fold": 5
+    },
+    {
+      "row_index": 221,
+      "REFNO": "3382",
+      "RESULTNO": "8618",
+      "fold": 1
+    },
+    {
+      "row_index": 222,
+      "REFNO": "3842",
+      "RESULTNO": "9501",
+      "fold": 4
+    },
+    {
+      "row_index": 223,
+      "REFNO": "1769",
+      "RESULTNO": "1405",
+      "fold": 2
+    },
+    {
+      "row_index": 224,
+      "REFNO": "3865",
+      "RESULTNO": "9532",
+      "fold": 1
+    },
+    {
+      "row_index": 225,
+      "REFNO": "3561",
+      "RESULTNO": "9057",
+      "fold": 1
+    },
+    {
+      "row_index": 226,
+      "REFNO": "3947",
+      "RESULTNO": "9672",
+      "fold": 2
+    },
+    {
+      "row_index": 227,
+      "REFNO": "4182",
+      "RESULTNO": "10032",
+      "fold": 5
+    },
+    {
+      "row_index": 228,
+      "REFNO": "3423",
+      "RESULTNO": "8701",
+      "fold": 5
+    },
+    {
+      "row_index": 229,
+      "REFNO": "4127",
+      "RESULTNO": "9948",
+      "fold": 2
+    },
+    {
+      "row_index": 230,
+      "REFNO": "3434",
+      "RESULTNO": "8740",
+      "fold": 2
+    },
+    {
+      "row_index": 231,
+      "REFNO": "1867",
+      "RESULTNO": "1637",
+      "fold": 4
+    },
+    {
+      "row_index": 232,
+      "REFNO": "3948",
+      "RESULTNO": "9674",
+      "fold": 1
+    },
+    {
+      "row_index": 233,
+      "REFNO": "3694",
+      "RESULTNO": "9281",
+      "fold": 5
+    },
+    {
+      "row_index": 234,
+      "REFNO": "2849",
+      "RESULTNO": "7403",
+      "fold": 5
+    },
+    {
+      "row_index": 235,
+      "REFNO": "3312",
+      "RESULTNO": "8489",
+      "fold": 4
+    },
+    {
+      "row_index": 236,
+      "REFNO": "3992",
+      "RESULTNO": "9752",
+      "fold": 2
+    },
+    {
+      "row_index": 237,
+      "REFNO": "3074",
+      "RESULTNO": "8065",
+      "fold": 5
+    },
+    {
+      "row_index": 238,
+      "REFNO": "3547",
+      "RESULTNO": "8999",
+      "fold": 5
+    },
+    {
+      "row_index": 239,
+      "REFNO": "4018",
+      "RESULTNO": "9794",
+      "fold": 4
+    },
+    {
+      "row_index": 240,
+      "REFNO": "3732",
+      "RESULTNO": "9354",
+      "fold": 3
+    },
+    {
+      "row_index": 241,
+      "REFNO": "1278",
+      "RESULTNO": "308",
+      "fold": 3
+    },
+    {
+      "row_index": 242,
+      "REFNO": "3598",
+      "RESULTNO": "9122",
+      "fold": 1
+    },
+    {
+      "row_index": 243,
+      "REFNO": "3513",
+      "RESULTNO": "8930",
+      "fold": 5
+    },
+    {
+      "row_index": 244,
+      "REFNO": "3521",
+      "RESULTNO": "8954",
+      "fold": 4
+    },
+    {
+      "row_index": 245,
+      "REFNO": "3628",
+      "RESULTNO": "9179",
+      "fold": 1
+    },
+    {
+      "row_index": 246,
+      "REFNO": "3434",
+      "RESULTNO": "8726",
+      "fold": 2
+    },
+    {
+      "row_index": 247,
+      "REFNO": "4135",
+      "RESULTNO": "9957",
+      "fold": 1
+    },
+    {
+      "row_index": 248,
+      "REFNO": "3025",
+      "RESULTNO": "7802",
+      "fold": 1
+    },
+    {
+      "row_index": 249,
+      "REFNO": "3327",
+      "RESULTNO": "8527",
+      "fold": 5
+    },
+    {
+      "row_index": 250,
+      "REFNO": "3925",
+      "RESULTNO": "9630",
+      "fold": 2
+    },
+    {
+      "row_index": 251,
+      "REFNO": "3422",
+      "RESULTNO": "8698",
+      "fold": 1
+    },
+    {
+      "row_index": 252,
+      "REFNO": "3998",
+      "RESULTNO": "9763",
+      "fold": 1
+    },
+    {
+      "row_index": 253,
+      "REFNO": "4454",
+      "RESULTNO": "10417",
+      "fold": 1
+    },
+    {
+      "row_index": 254,
+      "REFNO": "3182",
+      "RESULTNO": "8263",
+      "fold": 5
+    },
+    {
+      "row_index": 255,
+      "REFNO": "4165",
+      "RESULTNO": "10002",
+      "fold": 1
+    },
+    {
+      "row_index": 256,
+      "REFNO": "3123",
+      "RESULTNO": "8147",
+      "fold": 1
+    },
+    {
+      "row_index": 257,
+      "REFNO": "3683",
+      "RESULTNO": "9264",
+      "fold": 2
+    },
+    {
+      "row_index": 258,
+      "REFNO": "3822",
+      "RESULTNO": "9474",
+      "fold": 1
+    },
+    {
+      "row_index": 259,
+      "REFNO": "3865",
+      "RESULTNO": "9529",
+      "fold": 1
+    },
+    {
+      "row_index": 260,
+      "REFNO": "4406",
+      "RESULTNO": "10345",
+      "fold": 3
+    },
+    {
+      "row_index": 261,
+      "REFNO": "3297",
+      "RESULTNO": "8465",
+      "fold": 1
+    },
+    {
+      "row_index": 262,
+      "REFNO": "3148",
+      "RESULTNO": "8192",
+      "fold": 4
+    },
+    {
+      "row_index": 263,
+      "REFNO": "3729",
+      "RESULTNO": "9347",
+      "fold": 4
+    },
+    {
+      "row_index": 264,
+      "REFNO": "2998",
+      "RESULTNO": "7778",
+      "fold": 4
+    },
+    {
+      "row_index": 265,
+      "REFNO": "4201",
+      "RESULTNO": "10062",
+      "fold": 4
+    },
+    {
+      "row_index": 266,
+      "REFNO": "4233",
+      "RESULTNO": "10105",
+      "fold": 5
+    },
+    {
+      "row_index": 267,
+      "REFNO": "3555",
+      "RESULTNO": "9027",
+      "fold": 2
+    },
+    {
+      "row_index": 268,
+      "REFNO": "4346",
+      "RESULTNO": "10273",
+      "fold": 5
+    },
+    {
+      "row_index": 269,
+      "REFNO": "4191",
+      "RESULTNO": "10048",
+      "fold": 3
+    },
+    {
+      "row_index": 270,
+      "REFNO": "3079",
+      "RESULTNO": "8078",
+      "fold": 3
+    },
+    {
+      "row_index": 271,
+      "REFNO": "3869",
+      "RESULTNO": "9536",
+      "fold": 4
+    },
+    {
+      "row_index": 272,
+      "REFNO": "775",
+      "RESULTNO": "2264",
+      "fold": 3
+    },
+    {
+      "row_index": 273,
+      "REFNO": "2966",
+      "RESULTNO": "8608",
+      "fold": 4
+    },
+    {
+      "row_index": 274,
+      "REFNO": "3874",
+      "RESULTNO": "9543",
+      "fold": 5
+    },
+    {
+      "row_index": 275,
+      "REFNO": "4009",
+      "RESULTNO": "9778",
+      "fold": 5
+    },
+    {
+      "row_index": 276,
+      "REFNO": "4151",
+      "RESULTNO": "9979",
+      "fold": 3
+    },
+    {
+      "row_index": 277,
+      "REFNO": "3067",
+      "RESULTNO": "8055",
+      "fold": 1
+    },
+    {
+      "row_index": 278,
+      "REFNO": "4093",
+      "RESULTNO": "9903",
+      "fold": 2
+    },
+    {
+      "row_index": 279,
+      "REFNO": "3393",
+      "RESULTNO": "8636",
+      "fold": 5
+    },
+    {
+      "row_index": 280,
+      "REFNO": "3579",
+      "RESULTNO": "9080",
+      "fold": 4
+    },
+    {
+      "row_index": 281,
+      "REFNO": "4435",
+      "RESULTNO": "10382",
+      "fold": 2
+    },
+    {
+      "row_index": 282,
+      "REFNO": "3876",
+      "RESULTNO": "9554",
+      "fold": 2
+    },
+    {
+      "row_index": 283,
+      "REFNO": "3673",
+      "RESULTNO": "9258",
+      "fold": 1
+    },
+    {
+      "row_index": 284,
+      "REFNO": "2989",
+      "RESULTNO": "7762",
+      "fold": 2
+    },
+    {
+      "row_index": 285,
+      "REFNO": "3497",
+      "RESULTNO": "8904",
+      "fold": 1
+    },
+    {
+      "row_index": 286,
+      "REFNO": "3222",
+      "RESULTNO": "8331",
+      "fold": 5
+    },
+    {
+      "row_index": 287,
+      "REFNO": "4454",
+      "RESULTNO": "10416",
+      "fold": 1
+    },
+    {
+      "row_index": 288,
+      "REFNO": "3840",
+      "RESULTNO": "9498",
+      "fold": 5
+    },
+    {
+      "row_index": 289,
+      "REFNO": "3274",
+      "RESULTNO": "8421",
+      "fold": 4
+    },
+    {
+      "row_index": 290,
+      "REFNO": "4309",
+      "RESULTNO": "10217",
+      "fold": 2
+    },
+    {
+      "row_index": 291,
+      "REFNO": "3910",
+      "RESULTNO": "9603",
+      "fold": 3
+    },
+    {
+      "row_index": 292,
+      "REFNO": "4220",
+      "RESULTNO": "10087",
+      "fold": 1
+    },
+    {
+      "row_index": 293,
+      "REFNO": "3162",
+      "RESULTNO": "8217",
+      "fold": 2
+    },
+    {
+      "row_index": 294,
+      "REFNO": "3602",
+      "RESULTNO": "9126",
+      "fold": 5
+    },
+    {
+      "row_index": 295,
+      "REFNO": "3318",
+      "RESULTNO": "8502",
+      "fold": 3
+    },
+    {
+      "row_index": 296,
+      "REFNO": "4193",
+      "RESULTNO": "10050",
+      "fold": 2
+    },
+    {
+      "row_index": 297,
+      "REFNO": "3752",
+      "RESULTNO": "9383",
+      "fold": 5
+    },
+    {
+      "row_index": 298,
+      "REFNO": "1161",
+      "RESULTNO": "52",
+      "fold": 1
+    },
+    {
+      "row_index": 299,
+      "REFNO": "4373",
+      "RESULTNO": "10304",
+      "fold": 3
+    }
+  ]
+}

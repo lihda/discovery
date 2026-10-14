@@ -1,0 +1,841 @@
+{
+  "schema_version": "r3_grep_entity_pair_grouped_oof_v1",
+  "status": "complete_development_oof",
+  "paper_reference": {
+    "title": "Document-Level Relation Extraction with Global Relations and Entity Pair Reasoning",
+    "authors": [
+      "Fu Zhang",
+      "Yi Yan",
+      "Jingwei Cheng"
+    ],
+    "venue": "Findings of the Association for Computational Linguistics: ACL 2025",
+    "publication_date": "2025-07",
+    "url": "https://aclanthology.org/2025.findings-acl.1002/",
+    "code": "https://github.com/yanyi74/GREP"
+  },
+  "primary_strategy": "grep_global_pair_router",
+  "claim_boundary": {
+    "internal_refno_grouped_oof": true,
+    "independent_external_validation": false,
+    "feature_and_candidate_artifacts_frozen_before_label_access": true,
+    "pmagresult_or_row_rockmag_used_as_feature": false,
+    "prior_oof_or_evaluation_used_as_model_input": false,
+    "paper_method_adapted_not_architecture_reproduced": true
+  },
+  "baseline_reproduction": {
+    "stored_oof_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/oof_probabilities.npz",
+    "maximum_absolute_probability_difference": 2.9779230859006134e-08,
+    "exact_within_1e_12": false
+  },
+  "strategies": {
+    "baseline_mean4": {
+      "overall": {
+        "rows": 2751,
+        "coverage": 1.0,
+        "accuracy": 0.82479099,
+        "macro_f1": 0.80943168,
+        "balanced_accuracy": 0.80301194,
+        "confusion": {
+          "tn": 744,
+          "fp": 300,
+          "fn": 182,
+          "tp": 1525
+        },
+        "predicted_positive": 1825,
+        "threshold": 0.5
+      },
+      "segments": {
+        "single_target": {
+          "rows": 872,
+          "coverage": 1.0,
+          "accuracy": 0.87958716,
+          "macro_f1": 0.86628872,
+          "balanced_accuracy": 0.86842229,
+          "confusion": {
+            "tn": 246,
+            "fp": 49,
+            "fn": 56,
+            "tp": 521
+          },
+          "predicted_positive": 570,
+          "threshold": 0.5
+        },
+        "multi_target": {
+          "rows": 1879,
+          "coverage": 1.0,
+          "accuracy": 0.79936136,
+          "macro_f1": 0.78367376,
+          "balanced_accuracy": 0.77669105,
+          "confusion": {
+            "tn": 498,
+            "fp": 251,
+            "fn": 126,
+            "tp": 1004
+          },
+          "predicted_positive": 1255,
+          "threshold": 0.5
+        },
+        "two_targets": {
+          "rows": 652,
+          "coverage": 1.0,
+          "accuracy": 0.84662577,
+          "macro_f1": 0.83069508,
+          "balanced_accuracy": 0.8275082,
+          "confusion": {
+            "tn": 176,
+            "fp": 55,
+            "fn": 45,
+            "tp": 376
+          },
+          "predicted_positive": 431,
+          "threshold": 0.5
+        },
+        "three_or_four_targets": {
+          "rows": 693,
+          "coverage": 1.0,
+          "accuracy": 0.84271284,
+          "macro_f1": 0.82873176,
+          "balanced_accuracy": 0.81877689,
+          "confusion": {
+            "tn": 193,
+            "fp": 81,
+            "fn": 28,
+            "tp": 391
+          },
+          "predicted_positive": 472,
+          "threshold": 0.5
+        },
+        "five_or_more_targets": {
+          "rows": 534,
+          "coverage": 1.0,
+          "accuracy": 0.68539326,
+          "macro_f1": 0.67197578,
+          "balanced_accuracy": 0.67296495,
+          "confusion": {
+            "tn": 129,
+            "fp": 115,
+            "fn": 53,
+            "tp": 237
+          },
+          "predicted_positive": 352,
+          "threshold": 0.5
+        },
+        "multi_target_uniform_labels": {
+          "rows": 1601,
+          "coverage": 1.0,
+          "accuracy": 0.85446596,
+          "macro_f1": 0.84186126,
+          "balanced_accuracy": 0.83485219,
+          "confusion": {
+            "tn": 458,
+            "fp": 150,
+            "fn": 83,
+            "tp": 910
+          },
+          "predicted_positive": 1060,
+          "threshold": 0.5
+        },
+        "multi_target_mixed_labels": {
+          "rows": 278,
+          "coverage": 1.0,
+          "accuracy": 0.48201439,
+          "macro_f1": 0.46170396,
+          "balanced_accuracy": 0.48490967,
+          "confusion": {
+            "tn": 40,
+            "fp": 101,
+            "fn": 43,
+            "tp": 94
+          },
+          "predicted_positive": 195,
+          "threshold": 0.5
+        }
+      },
+      "mixed_label_paper_diagnostics": {
+        "papers": 61,
+        "all_targets_correct_papers": 0,
+        "all_targets_correct_rate": 0.0,
+        "constant_prediction_papers": 58,
+        "constant_prediction_rate": 0.95081967
+      }
+    },
+    "grep_pair_mean4": {
+      "overall": {
+        "rows": 2751,
+        "coverage": 1.0,
+        "accuracy": 0.76335878,
+        "macro_f1": 0.73953475,
+        "balanced_accuracy": 0.73304817,
+        "confusion": {
+          "tn": 634,
+          "fp": 410,
+          "fn": 241,
+          "tp": 1466
+        },
+        "predicted_positive": 1876,
+        "threshold": 0.5
+      },
+      "segments": {
+        "single_target": {
+          "rows": 872,
+          "coverage": 1.0,
+          "accuracy": 0.80045872,
+          "macro_f1": 0.77159167,
+          "balanced_accuracy": 0.76555533,
+          "confusion": {
+            "tn": 194,
+            "fp": 101,
+            "fn": 73,
+            "tp": 504
+          },
+          "predicted_positive": 605,
+          "threshold": 0.5
+        },
+        "multi_target": {
+          "rows": 1879,
+          "coverage": 1.0,
+          "accuracy": 0.74614156,
+          "macro_f1": 0.72491105,
+          "balanced_accuracy": 0.71938868,
+          "confusion": {
+            "tn": 440,
+            "fp": 309,
+            "fn": 168,
+            "tp": 962
+          },
+          "predicted_positive": 1271,
+          "threshold": 0.5
+        },
+        "two_targets": {
+          "rows": 652,
+          "coverage": 1.0,
+          "accuracy": 0.83895706,
+          "macro_f1": 0.82090489,
+          "balanced_accuracy": 0.81570884,
+          "confusion": {
+            "tn": 170,
+            "fp": 61,
+            "fn": 44,
+            "tp": 377
+          },
+          "predicted_positive": 438,
+          "threshold": 0.5
+        },
+        "three_or_four_targets": {
+          "rows": 693,
+          "coverage": 1.0,
+          "accuracy": 0.76190476,
+          "macro_f1": 0.73628495,
+          "balanced_accuracy": 0.72858561,
+          "confusion": {
+            "tn": 156,
+            "fp": 118,
+            "fn": 47,
+            "tp": 372
+          },
+          "predicted_positive": 490,
+          "threshold": 0.5
+        },
+        "five_or_more_targets": {
+          "rows": 534,
+          "coverage": 1.0,
+          "accuracy": 0.61235955,
+          "macro_f1": 0.59856186,
+          "balanced_accuracy": 0.60084794,
+          "confusion": {
+            "tn": 114,
+            "fp": 130,
+            "fn": 77,
+            "tp": 213
+          },
+          "predicted_positive": 343,
+          "threshold": 0.5
+        },
+        "multi_target_uniform_labels": {
+          "rows": 1601,
+          "coverage": 1.0,
+          "accuracy": 0.792005,
+          "macro_f1": 0.77517809,
+          "balanced_accuracy": 0.77078944,
+          "confusion": {
+            "tn": 415,
+            "fp": 193,
+            "fn": 140,
+            "tp": 853
+          },
+          "predicted_positive": 1046,
+          "threshold": 0.5
+        },
+        "multi_target_mixed_labels": {
+          "rows": 278,
+          "coverage": 1.0,
+          "accuracy": 0.48201439,
+          "macro_f1": 0.42997095,
+          "balanced_accuracy": 0.4864627,
+          "confusion": {
+            "tn": 25,
+            "fp": 116,
+            "fn": 28,
+            "tp": 109
+          },
+          "predicted_positive": 225,
+          "threshold": 0.5
+        }
+      },
+      "mixed_label_paper_diagnostics": {
+        "papers": 61,
+        "all_targets_correct_papers": 0,
+        "all_targets_correct_rate": 0.0,
+        "constant_prediction_papers": 57,
+        "constant_prediction_rate": 0.93442623
+      }
+    },
+    "grep_expanded_mean4": {
+      "overall": {
+        "rows": 2751,
+        "coverage": 1.0,
+        "accuracy": 0.82697201,
+        "macro_f1": 0.81230564,
+        "balanced_accuracy": 0.80644355,
+        "confusion": {
+          "tn": 753,
+          "fp": 291,
+          "fn": 185,
+          "tp": 1522
+        },
+        "predicted_positive": 1813,
+        "threshold": 0.5
+      },
+      "segments": {
+        "single_target": {
+          "rows": 872,
+          "coverage": 1.0,
+          "accuracy": 0.87958716,
+          "macro_f1": 0.8660728,
+          "balanced_accuracy": 0.86759393,
+          "confusion": {
+            "tn": 245,
+            "fp": 50,
+            "fn": 55,
+            "tp": 522
+          },
+          "predicted_positive": 572,
+          "threshold": 0.5
+        },
+        "multi_target": {
+          "rows": 1879,
+          "coverage": 1.0,
+          "accuracy": 0.80255455,
+          "macro_f1": 0.78802108,
+          "balanced_accuracy": 0.7815967,
+          "confusion": {
+            "tn": 508,
+            "fp": 241,
+            "fn": 130,
+            "tp": 1000
+          },
+          "predicted_positive": 1241,
+          "threshold": 0.5
+        },
+        "two_targets": {
+          "rows": 652,
+          "coverage": 1.0,
+          "accuracy": 0.85889571,
+          "macro_f1": 0.84487752,
+          "balanced_accuracy": 0.84287051,
+          "confusion": {
+            "tn": 182,
+            "fp": 49,
+            "fn": 43,
+            "tp": 378
+          },
+          "predicted_positive": 427,
+          "threshold": 0.5
+        },
+        "three_or_four_targets": {
+          "rows": 693,
+          "coverage": 1.0,
+          "accuracy": 0.84271284,
+          "macro_f1": 0.82903722,
+          "balanced_accuracy": 0.81940839,
+          "confusion": {
+            "tn": 194,
+            "fp": 80,
+            "fn": 29,
+            "tp": 390
+          },
+          "predicted_positive": 470,
+          "threshold": 0.5
+        },
+        "five_or_more_targets": {
+          "rows": 534,
+          "coverage": 1.0,
+          "accuracy": 0.68164794,
+          "macro_f1": 0.67007806,
+          "balanced_accuracy": 0.6704918,
+          "confusion": {
+            "tn": 132,
+            "fp": 112,
+            "fn": 58,
+            "tp": 232
+          },
+          "predicted_positive": 344,
+          "threshold": 0.5
+        },
+        "multi_target_uniform_labels": {
+          "rows": 1601,
+          "coverage": 1.0,
+          "accuracy": 0.85758901,
+          "macro_f1": 0.84612466,
+          "balanced_accuracy": 0.84055825,
+          "confusion": {
+            "tn": 468,
+            "fp": 140,
+            "fn": 88,
+            "tp": 905
+          },
+          "predicted_positive": 1045,
+          "threshold": 0.5
+        },
+        "multi_target_mixed_labels": {
+          "rows": 278,
+          "coverage": 1.0,
+          "accuracy": 0.48561151,
+          "macro_f1": 0.46465748,
+          "balanced_accuracy": 0.4885593,
+          "confusion": {
+            "tn": 40,
+            "fp": 101,
+            "fn": 42,
+            "tp": 95
+          },
+          "predicted_positive": 196,
+          "threshold": 0.5
+        }
+      },
+      "mixed_label_paper_diagnostics": {
+        "papers": 61,
+        "all_targets_correct_papers": 1,
+        "all_targets_correct_rate": 0.01639344,
+        "constant_prediction_papers": 60,
+        "constant_prediction_rate": 0.98360656
+      }
+    },
+    "grep_global_pair_fusion": {
+      "overall": {
+        "rows": 2751,
+        "coverage": 1.0,
+        "accuracy": 0.81315885,
+        "macro_f1": 0.79575693,
+        "balanced_accuracy": 0.78861635,
+        "confusion": {
+          "tn": 717,
+          "fp": 327,
+          "fn": 187,
+          "tp": 1520
+        },
+        "predicted_positive": 1847,
+        "threshold": 0.5
+      },
+      "segments": {
+        "single_target": {
+          "rows": 872,
+          "coverage": 1.0,
+          "accuracy": 0.87614679,
+          "macro_f1": 0.86168082,
+          "balanced_accuracy": 0.86168082,
+          "confusion": {
+            "tn": 241,
+            "fp": 54,
+            "fn": 54,
+            "tp": 523
+          },
+          "predicted_positive": 577,
+          "threshold": 0.5
+        },
+        "multi_target": {
+          "rows": 1879,
+          "coverage": 1.0,
+          "accuracy": 0.78392762,
+          "macro_f1": 0.76593213,
+          "balanced_accuracy": 0.75890745,
+          "confusion": {
+            "tn": 476,
+            "fp": 273,
+            "fn": 133,
+            "tp": 997
+          },
+          "predicted_positive": 1270,
+          "threshold": 0.5
+        },
+        "two_targets": {
+          "rows": 652,
+          "coverage": 1.0,
+          "accuracy": 0.84509202,
+          "macro_f1": 0.82735179,
+          "balanced_accuracy": 0.82143628,
+          "confusion": {
+            "tn": 171,
+            "fp": 60,
+            "fn": 41,
+            "tp": 380
+          },
+          "predicted_positive": 440,
+          "threshold": 0.5
+        },
+        "three_or_four_targets": {
+          "rows": 693,
+          "coverage": 1.0,
+          "accuracy": 0.81673882,
+          "macro_f1": 0.79820887,
+          "balanced_accuracy": 0.78782468,
+          "confusion": {
+            "tn": 178,
+            "fp": 96,
+            "fn": 31,
+            "tp": 388
+          },
+          "predicted_positive": 484,
+          "threshold": 0.5
+        },
+        "five_or_more_targets": {
+          "rows": 534,
+          "coverage": 1.0,
+          "accuracy": 0.66666667,
+          "macro_f1": 0.65404437,
+          "balanced_accuracy": 0.65507349,
+          "confusion": {
+            "tn": 127,
+            "fp": 117,
+            "fn": 61,
+            "tp": 229
+          },
+          "predicted_positive": 346,
+          "threshold": 0.5
+        },
+        "multi_target_uniform_labels": {
+          "rows": 1601,
+          "coverage": 1.0,
+          "accuracy": 0.83322923,
+          "macro_f1": 0.81933421,
+          "balanced_accuracy": 0.81358738,
+          "confusion": {
+            "tn": 445,
+            "fp": 163,
+            "fn": 104,
+            "tp": 889
+          },
+          "predicted_positive": 1052,
+          "threshold": 0.5
+        },
+        "multi_target_mixed_labels": {
+          "rows": 278,
+          "coverage": 1.0,
+          "accuracy": 0.5,
+          "macro_f1": 0.45845421,
+          "balanced_accuracy": 0.50408966,
+          "confusion": {
+            "tn": 31,
+            "fp": 110,
+            "fn": 29,
+            "tp": 108
+          },
+          "predicted_positive": 218,
+          "threshold": 0.5
+        }
+      },
+      "mixed_label_paper_diagnostics": {
+        "papers": 61,
+        "all_targets_correct_papers": 0,
+        "all_targets_correct_rate": 0.0,
+        "constant_prediction_papers": 59,
+        "constant_prediction_rate": 0.96721311
+      }
+    },
+    "grep_global_expanded_blend": {
+      "overall": {
+        "rows": 2751,
+        "coverage": 1.0,
+        "accuracy": 0.826245,
+        "macro_f1": 0.8106714,
+        "balanced_accuracy": 0.80381155,
+        "confusion": {
+          "tn": 742,
+          "fp": 302,
+          "fn": 176,
+          "tp": 1531
+        },
+        "predicted_positive": 1833,
+        "threshold": 0.5
+      },
+      "segments": {
+        "single_target": {
+          "rows": 872,
+          "coverage": 1.0,
+          "accuracy": 0.87958716,
+          "macro_f1": 0.8660728,
+          "balanced_accuracy": 0.86759393,
+          "confusion": {
+            "tn": 245,
+            "fp": 50,
+            "fn": 55,
+            "tp": 522
+          },
+          "predicted_positive": 572,
+          "threshold": 0.5
+        },
+        "multi_target": {
+          "rows": 1879,
+          "coverage": 1.0,
+          "accuracy": 0.80149015,
+          "macro_f1": 0.78556902,
+          "balanced_accuracy": 0.77823588,
+          "confusion": {
+            "tn": 497,
+            "fp": 252,
+            "fn": 121,
+            "tp": 1009
+          },
+          "predicted_positive": 1261,
+          "threshold": 0.5
+        },
+        "two_targets": {
+          "rows": 652,
+          "coverage": 1.0,
+          "accuracy": 0.85582822,
+          "macro_f1": 0.84118165,
+          "balanced_accuracy": 0.83854151,
+          "confusion": {
+            "tn": 180,
+            "fp": 51,
+            "fn": 43,
+            "tp": 378
+          },
+          "predicted_positive": 429,
+          "threshold": 0.5
+        },
+        "three_or_four_targets": {
+          "rows": 693,
+          "coverage": 1.0,
+          "accuracy": 0.84126984,
+          "macro_f1": 0.82669013,
+          "balanced_accuracy": 0.81632058,
+          "confusion": {
+            "tn": 191,
+            "fp": 83,
+            "fn": 27,
+            "tp": 392
+          },
+          "predicted_positive": 475,
+          "threshold": 0.5
+        },
+        "five_or_more_targets": {
+          "rows": 534,
+          "coverage": 1.0,
+          "accuracy": 0.6835206,
+          "macro_f1": 0.66868463,
+          "balanced_accuracy": 0.67026569,
+          "confusion": {
+            "tn": 126,
+            "fp": 118,
+            "fn": 51,
+            "tp": 239
+          },
+          "predicted_positive": 357,
+          "threshold": 0.5
+        },
+        "multi_target_uniform_labels": {
+          "rows": 1601,
+          "coverage": 1.0,
+          "accuracy": 0.8569644,
+          "macro_f1": 0.84433641,
+          "balanced_accuracy": 0.83686629,
+          "confusion": {
+            "tn": 458,
+            "fp": 150,
+            "fn": 79,
+            "tp": 914
+          },
+          "predicted_positive": 1064,
+          "threshold": 0.5
+        },
+        "multi_target_mixed_labels": {
+          "rows": 278,
+          "coverage": 1.0,
+          "accuracy": 0.48201439,
+          "macro_f1": 0.46010681,
+          "balanced_accuracy": 0.4850132,
+          "confusion": {
+            "tn": 39,
+            "fp": 102,
+            "fn": 42,
+            "tp": 95
+          },
+          "predicted_positive": 197,
+          "threshold": 0.5
+        }
+      },
+      "mixed_label_paper_diagnostics": {
+        "papers": 61,
+        "all_targets_correct_papers": 0,
+        "all_targets_correct_rate": 0.0,
+        "constant_prediction_papers": 60,
+        "constant_prediction_rate": 0.98360656
+      }
+    },
+    "grep_global_pair_router": {
+      "overall": {
+        "rows": 2751,
+        "coverage": 1.0,
+        "accuracy": 0.81424936,
+        "macro_f1": 0.79727676,
+        "balanced_accuracy": 0.79042516,
+        "confusion": {
+          "tn": 722,
+          "fp": 322,
+          "fn": 189,
+          "tp": 1518
+        },
+        "predicted_positive": 1840,
+        "threshold": 0.5
+      },
+      "segments": {
+        "single_target": {
+          "rows": 872,
+          "coverage": 1.0,
+          "accuracy": 0.87958716,
+          "macro_f1": 0.86628872,
+          "balanced_accuracy": 0.86842229,
+          "confusion": {
+            "tn": 246,
+            "fp": 49,
+            "fn": 56,
+            "tp": 521
+          },
+          "predicted_positive": 570,
+          "threshold": 0.5
+        },
+        "multi_target": {
+          "rows": 1879,
+          "coverage": 1.0,
+          "accuracy": 0.78392762,
+          "macro_f1": 0.76593213,
+          "balanced_accuracy": 0.75890745,
+          "confusion": {
+            "tn": 476,
+            "fp": 273,
+            "fn": 133,
+            "tp": 997
+          },
+          "predicted_positive": 1270,
+          "threshold": 0.5
+        },
+        "two_targets": {
+          "rows": 652,
+          "coverage": 1.0,
+          "accuracy": 0.84509202,
+          "macro_f1": 0.82735179,
+          "balanced_accuracy": 0.82143628,
+          "confusion": {
+            "tn": 171,
+            "fp": 60,
+            "fn": 41,
+            "tp": 380
+          },
+          "predicted_positive": 440,
+          "threshold": 0.5
+        },
+        "three_or_four_targets": {
+          "rows": 693,
+          "coverage": 1.0,
+          "accuracy": 0.81673882,
+          "macro_f1": 0.79820887,
+          "balanced_accuracy": 0.78782468,
+          "confusion": {
+            "tn": 178,
+            "fp": 96,
+            "fn": 31,
+            "tp": 388
+          },
+          "predicted_positive": 484,
+          "threshold": 0.5
+        },
+        "five_or_more_targets": {
+          "rows": 534,
+          "coverage": 1.0,
+          "accuracy": 0.66666667,
+          "macro_f1": 0.65404437,
+          "balanced_accuracy": 0.65507349,
+          "confusion": {
+            "tn": 127,
+            "fp": 117,
+            "fn": 61,
+            "tp": 229
+          },
+          "predicted_positive": 346,
+          "threshold": 0.5
+        },
+        "multi_target_uniform_labels": {
+          "rows": 1601,
+          "coverage": 1.0,
+          "accuracy": 0.83322923,
+          "macro_f1": 0.81933421,
+          "balanced_accuracy": 0.81358738,
+          "confusion": {
+            "tn": 445,
+            "fp": 163,
+            "fn": 104,
+            "tp": 889
+          },
+          "predicted_positive": 1052,
+          "threshold": 0.5
+        },
+        "multi_target_mixed_labels": {
+          "rows": 278,
+          "coverage": 1.0,
+          "accuracy": 0.5,
+          "macro_f1": 0.45845421,
+          "balanced_accuracy": 0.50408966,
+          "confusion": {
+            "tn": 31,
+            "fp": 110,
+            "fn": 29,
+            "tp": 108
+          },
+          "predicted_positive": 218,
+          "threshold": 0.5
+        }
+      },
+      "mixed_label_paper_diagnostics": {
+        "papers": 61,
+        "all_targets_correct_papers": 0,
+        "all_targets_correct_rate": 0.0,
+        "constant_prediction_papers": 59,
+        "constant_prediction_rate": 0.96721311
+      }
+    }
+  },
+  "primary_delta_vs_baseline": {
+    "overall_accuracy": -0.01054163,
+    "multi_target_accuracy": -0.01543374,
+    "mixed_label_accuracy": 0.01798561
+  },
+  "artifacts": {
+    "feature_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/grep_entity_pair_features_v1.manifest.json",
+      "sha256": "880a38cead7dd1d2c23974af63d06733b4f877743051f673234b3f8ad0a929ba"
+    },
+    "candidate_freeze": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/grep_entity_pair_candidate_freeze_v1.json",
+      "sha256": "3e91a8ec85d1f87c6d256fffe22a2f1117b8c6eead890826cfb21acfb0150332"
+    },
+    "prediction_receipt": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/grep_entity_pair_prediction_receipt_v1.json",
+      "sha256": "a6cd12bd11e4825a6533945730add57ed1d8540bd90d7dc96e5a9d95a7779d17"
+    },
+    "oof_probabilities": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/grep_entity_pair_oof_v1.npz",
+      "sha256": "f5e1423f45f245fd374a5d01a30f464dd62f2a29043a769a9c11f8464f9bf77e"
+    }
+  }
+}

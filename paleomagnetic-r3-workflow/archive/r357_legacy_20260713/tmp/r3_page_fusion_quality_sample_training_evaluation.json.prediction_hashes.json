@@ -1,0 +1,23 @@
+{
+  "schema_version": "r3_training_prediction_hash_receipt_v1",
+  "created_at": "2026-07-11T19:32:17.925010+00:00",
+  "phase": "before_labels_opened",
+  "split": {
+    "salt": "r3-rockmag-distillation-v1",
+    "holdout_fraction": 0.2,
+    "partition": "training",
+    "expected_training_rows": 2473
+  },
+  "predictions": [
+    {
+      "prediction_id": "prediction_1",
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_proxy_v2/training_exclusive_scope_plus_discourse.jsonl",
+      "sha256": "6e01967f55c0e82707c0aba4841b13595ddf91c669ebfa67c8a234dc69fe3cd9"
+    },
+    {
+      "prediction_id": "prediction_2",
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_page_fusion_quality_sample_predictions.jsonl",
+      "sha256": "ea7ce92118b51088e50ebd98413b84a2648b39eb5ae4cd548d0f96da222cd9e5"
+    }
+  ]
+}

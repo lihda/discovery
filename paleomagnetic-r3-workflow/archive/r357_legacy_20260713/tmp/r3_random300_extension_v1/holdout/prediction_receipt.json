@@ -1,0 +1,2420 @@
+{
+  "schema_version": "r3_random300_extension_prediction_receipt_v1",
+  "status": "PREDICTIONS_FROZEN_BEFORE_TEST_SCORING",
+  "cohort_sha256": "f3692dbf1908fbd00e274491822955cbad27d1d6c9db79b02c01108a56efb5c3",
+  "candidate_freeze_sha256": "fcaf8f3caf3303c0fa237c282f867312d8328b3dd21a494c91329e148c52fd1b",
+  "probabilities": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_random300_extension_v1/holdout/holdout_probabilities.npz",
+    "sha256": "97f2fdef4c4f7a19e0a0c3569347a470247ec3d0a447982625d5c81647b7233e"
+  },
+  "expert_diagnostic_probabilities": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_random300_extension_v1/holdout/expert_diagnostic_probabilities.npz",
+    "sha256": "a13af11080a5e4169c3d2ea5d457abc4f7693fcb7579dc2037736a6d2ea85820",
+    "used_for_selection": false
+  },
+  "selected_smoother": "identity",
+  "selection_branch": "LABEL_FREE_DECISION_INVARIANCE_EARLY_EXIT",
+  "test_labels_present": false,
+  "rows": [
+    {
+      "sample_index": 0,
+      "REFNO": "1141",
+      "RESULTNO": "1",
+      "ROCKNAME": "Basalts, Wadi Abu Tereifiya",
+      "probability": 0.13748453156457074,
+      "prediction": 0
+    },
+    {
+      "sample_index": 1,
+      "REFNO": "1143",
+      "RESULTNO": "5",
+      "ROCKNAME": "Vaster-Norrland dolerites",
+      "probability": 0.7647741965037628,
+      "prediction": 1
+    },
+    {
+      "sample_index": 2,
+      "REFNO": "1144",
+      "RESULTNO": "7",
+      "ROCKNAME": "La Colina Formation",
+      "probability": 0.1543471200200456,
+      "prediction": 0
+    },
+    {
+      "sample_index": 3,
+      "REFNO": "1145",
+      "RESULTNO": "8",
+      "ROCKNAME": "Proterozoic granites",
+      "probability": 0.6906853771228771,
+      "prediction": 1
+    },
+    {
+      "sample_index": 4,
+      "REFNO": "1149",
+      "RESULTNO": "21",
+      "ROCKNAME": "John O'Groats Sandstone",
+      "probability": 0.5525877953704071,
+      "prediction": 1
+    },
+    {
+      "sample_index": 5,
+      "REFNO": "1152",
+      "RESULTNO": "29",
+      "ROCKNAME": "Armorican redbeds",
+      "probability": 0.8340420047664654,
+      "prediction": 1
+    },
+    {
+      "sample_index": 6,
+      "REFNO": "1157",
+      "RESULTNO": "40",
+      "ROCKNAME": "Jersey dykes Group B",
+      "probability": 0.8152188150404487,
+      "prediction": 1
+    },
+    {
+      "sample_index": 7,
+      "REFNO": "1157",
+      "RESULTNO": "42",
+      "ROCKNAME": "Lamprophyre dykes, Jersey",
+      "probability": 0.8152188150404487,
+      "prediction": 1
+    },
+    {
+      "sample_index": 8,
+      "REFNO": "1158",
+      "RESULTNO": "43",
+      "ROCKNAME": "Bhimtal(Bhowali) volcanics",
+      "probability": 0.03046940559440559,
+      "prediction": 0
+    },
+    {
+      "sample_index": 9,
+      "REFNO": "1162",
+      "RESULTNO": "62",
+      "ROCKNAME": "Rhyolites",
+      "probability": 0.18521385618156802,
+      "prediction": 0
+    },
+    {
+      "sample_index": 10,
+      "REFNO": "1172",
+      "RESULTNO": "72",
+      "ROCKNAME": "Younger Gabbros Aberdeenshire",
+      "probability": 0.7084938788063792,
+      "prediction": 1
+    },
+    {
+      "sample_index": 11,
+      "REFNO": "1174",
+      "RESULTNO": "76",
+      "ROCKNAME": "Red lamprophyre dyke, Skye",
+      "probability": 0.17491962423701027,
+      "prediction": 0
+    },
+    {
+      "sample_index": 12,
+      "REFNO": "1186",
+      "RESULTNO": "105",
+      "ROCKNAME": "Ordovician volcanics",
+      "probability": 0.961378373181668,
+      "prediction": 1
+    },
+    {
+      "sample_index": 13,
+      "REFNO": "1188",
+      "RESULTNO": "114",
+      "ROCKNAME": "Keratophyre tuffs of Treguier",
+      "probability": 0.97121895865661,
+      "prediction": 1
+    },
+    {
+      "sample_index": 14,
+      "REFNO": "1188",
+      "RESULTNO": "115",
+      "ROCKNAME": "Tregor microgranites",
+      "probability": 0.9757364470405092,
+      "prediction": 1
+    },
+    {
+      "sample_index": 15,
+      "REFNO": "1192",
+      "RESULTNO": "121",
+      "ROCKNAME": "Longmyndian sediments",
+      "probability": 0.592112139020471,
+      "prediction": 1
+    },
+    {
+      "sample_index": 16,
+      "REFNO": "1201",
+      "RESULTNO": "137",
+      "ROCKNAME": "Otway Group",
+      "probability": 0.06335161225291717,
+      "prediction": 0
+    },
+    {
+      "sample_index": 17,
+      "REFNO": "1201",
+      "RESULTNO": "138",
+      "ROCKNAME": "Point Addis Limestone",
+      "probability": 0.05408989310158821,
+      "prediction": 0
+    },
+    {
+      "sample_index": 18,
+      "REFNO": "1201",
+      "RESULTNO": "140",
+      "ROCKNAME": "Werriko Limestone, Newer Volcanics",
+      "probability": 0.06693580664979425,
+      "prediction": 0
+    },
+    {
+      "sample_index": 19,
+      "REFNO": "1201",
+      "RESULTNO": "141",
+      "ROCKNAME": "North Rankin 1 Drillcore",
+      "probability": 0.054282200793895896,
+      "prediction": 0
+    },
+    {
+      "sample_index": 20,
+      "REFNO": "1205",
+      "RESULTNO": "147",
+      "ROCKNAME": "Volcanic rocks of Moissey",
+      "probability": 0.9212231939638315,
+      "prediction": 1
+    },
+    {
+      "sample_index": 21,
+      "REFNO": "1224",
+      "RESULTNO": "182",
+      "ROCKNAME": "Duffer Formation",
+      "probability": 0.2788988667922491,
+      "prediction": 0
+    },
+    {
+      "sample_index": 22,
+      "REFNO": "1224",
+      "RESULTNO": "184",
+      "ROCKNAME": "Duffer Formation",
+      "probability": 0.2788988667922491,
+      "prediction": 0
+    },
+    {
+      "sample_index": 23,
+      "REFNO": "1369",
+      "RESULTNO": "493",
+      "ROCKNAME": "Campo-Alegre Formation",
+      "probability": 0.0335540949598541,
+      "prediction": 0
+    },
+    {
+      "sample_index": 24,
+      "REFNO": "1862",
+      "RESULTNO": "1629",
+      "ROCKNAME": "Flaherty Volcanics",
+      "probability": 0.06711823956802583,
+      "prediction": 0
+    },
+    {
+      "sample_index": 25,
+      "REFNO": "1878",
+      "RESULTNO": "1663",
+      "ROCKNAME": "Sakami Formation",
+      "probability": 0.1134404079092627,
+      "prediction": 0
+    },
+    {
+      "sample_index": 26,
+      "REFNO": "1899",
+      "RESULTNO": "1703",
+      "ROCKNAME": "Sakami Formation",
+      "probability": 0.06275294664063401,
+      "prediction": 0
+    },
+    {
+      "sample_index": 27,
+      "REFNO": "1900",
+      "RESULTNO": "1706",
+      "ROCKNAME": "Wabigoon gabbro",
+      "probability": 0.8177383501801775,
+      "prediction": 1
+    },
+    {
+      "sample_index": 28,
+      "REFNO": "1905",
+      "RESULTNO": "1716",
+      "ROCKNAME": "Shelley Lake granite",
+      "probability": 0.6983023156232349,
+      "prediction": 1
+    },
+    {
+      "sample_index": 29,
+      "REFNO": "1907",
+      "RESULTNO": "1718",
+      "ROCKNAME": "Burchell Lake granite",
+      "probability": 0.927564380985252,
+      "prediction": 1
+    },
+    {
+      "sample_index": 30,
+      "REFNO": "478",
+      "RESULTNO": "1889",
+      "ROCKNAME": "Widgiemooltha Dyke Suite",
+      "probability": 0.23693226680726676,
+      "prediction": 0
+    },
+    {
+      "sample_index": 31,
+      "REFNO": "1047",
+      "RESULTNO": "1954",
+      "ROCKNAME": "Black Range Dyke",
+      "probability": 0.05717078971958521,
+      "prediction": 0
+    },
+    {
+      "sample_index": 32,
+      "REFNO": "1047",
+      "RESULTNO": "1955",
+      "ROCKNAME": "Cajuput Dyke",
+      "probability": 0.04176826750057312,
+      "prediction": 0
+    },
+    {
+      "sample_index": 33,
+      "REFNO": "1128",
+      "RESULTNO": "2078",
+      "ROCKNAME": "Thessalon Volcanics",
+      "probability": 0.30484710428460454,
+      "prediction": 0
+    },
+    {
+      "sample_index": 34,
+      "REFNO": "239",
+      "RESULTNO": "2672",
+      "ROCKNAME": "Cameron Bay Group",
+      "probability": 0.5278702449511266,
+      "prediction": 1
+    },
+    {
+      "sample_index": 35,
+      "REFNO": "243",
+      "RESULTNO": "2737",
+      "ROCKNAME": "Dubawnt Group",
+      "probability": 0.24530891562141557,
+      "prediction": 0
+    },
+    {
+      "sample_index": 36,
+      "REFNO": "649",
+      "RESULTNO": "3071",
+      "ROCKNAME": "Nipissing Diabase",
+      "probability": 0.13894581792137445,
+      "prediction": 0
+    },
+    {
+      "sample_index": 37,
+      "REFNO": "449",
+      "RESULTNO": "3417",
+      "ROCKNAME": "Nipissing Diabase",
+      "probability": 0.1323702625989575,
+      "prediction": 0
+    },
+    {
+      "sample_index": 38,
+      "REFNO": "1007",
+      "RESULTNO": "3556",
+      "ROCKNAME": "Great Dyke",
+      "probability": 0.7337439504939502,
+      "prediction": 1
+    },
+    {
+      "sample_index": 39,
+      "REFNO": "920",
+      "RESULTNO": "3612",
+      "ROCKNAME": "Sudbury Eruptive",
+      "probability": 0.24663053735020632,
+      "prediction": 0
+    },
+    {
+      "sample_index": 40,
+      "REFNO": "2232",
+      "RESULTNO": "5848",
+      "ROCKNAME": "Persillon Volcanics",
+      "probability": 0.041181190431715135,
+      "prediction": 0
+    },
+    {
+      "sample_index": 41,
+      "REFNO": "2243",
+      "RESULTNO": "5876",
+      "ROCKNAME": "Matachewan Dykes",
+      "probability": 0.05436789625558638,
+      "prediction": 0
+    },
+    {
+      "sample_index": 42,
+      "REFNO": "2244",
+      "RESULTNO": "5878",
+      "ROCKNAME": "Nipissing Diabase",
+      "probability": 0.42891688404188405,
+      "prediction": 0
+    },
+    {
+      "sample_index": 43,
+      "REFNO": "2505",
+      "RESULTNO": "6450",
+      "ROCKNAME": "Groundhog River (Matachewan) Dykes",
+      "probability": 0.22853511303511317,
+      "prediction": 0
+    },
+    {
+      "sample_index": 44,
+      "REFNO": "2771",
+      "RESULTNO": "7190",
+      "ROCKNAME": "Senneterre Dykes",
+      "probability": 0.19661683686683684,
+      "prediction": 0
+    },
+    {
+      "sample_index": 45,
+      "REFNO": "2895",
+      "RESULTNO": "7526",
+      "ROCKNAME": "Tsuomasavarri Ultramafic Intrusions",
+      "probability": 0.8486240582634048,
+      "prediction": 1
+    },
+    {
+      "sample_index": 46,
+      "REFNO": "2899",
+      "RESULTNO": "7538",
+      "ROCKNAME": "Nyanzian Lavas",
+      "probability": 0.7770196922434367,
+      "prediction": 1
+    },
+    {
+      "sample_index": 47,
+      "REFNO": "2900",
+      "RESULTNO": "7539",
+      "ROCKNAME": "Paraburdoo Banded Iron Formation",
+      "probability": 0.5988621193621193,
+      "prediction": 1
+    },
+    {
+      "sample_index": 48,
+      "REFNO": "2900",
+      "RESULTNO": "7540",
+      "ROCKNAME": "Paraburdoo Banded Iron Formation",
+      "probability": 0.5988621193621193,
+      "prediction": 1
+    },
+    {
+      "sample_index": 49,
+      "REFNO": "2903",
+      "RESULTNO": "7547",
+      "ROCKNAME": "Northern Bushveld Complex",
+      "probability": 0.38300438450438445,
+      "prediction": 0
+    },
+    {
+      "sample_index": 50,
+      "REFNO": "2903",
+      "RESULTNO": "7548",
+      "ROCKNAME": "Northern Bushveld Complex",
+      "probability": 0.38300438450438445,
+      "prediction": 0
+    },
+    {
+      "sample_index": 51,
+      "REFNO": "3331",
+      "RESULTNO": "7737",
+      "ROCKNAME": "Keg River Formation",
+      "probability": 0.9040280759767876,
+      "prediction": 1
+    },
+    {
+      "sample_index": 52,
+      "REFNO": "2986",
+      "RESULTNO": "7759",
+      "ROCKNAME": "Upper Lumuwan Formation",
+      "probability": 0.11760048192261793,
+      "prediction": 0
+    },
+    {
+      "sample_index": 53,
+      "REFNO": "2992",
+      "RESULTNO": "7767",
+      "ROCKNAME": "Marmarotrapeza Formation",
+      "probability": 0.5083973484233858,
+      "prediction": 1
+    },
+    {
+      "sample_index": 54,
+      "REFNO": "2997",
+      "RESULTNO": "7775",
+      "ROCKNAME": "Porteau Pluton",
+      "probability": 0.9341067796430021,
+      "prediction": 1
+    },
+    {
+      "sample_index": 55,
+      "REFNO": "3000",
+      "RESULTNO": "7785",
+      "ROCKNAME": "Gagwe and Kabuye Lavas",
+      "probability": 0.8659949279869827,
+      "prediction": 1
+    },
+    {
+      "sample_index": 56,
+      "REFNO": "3009",
+      "RESULTNO": "7794",
+      "ROCKNAME": "Upper Makarovo Formation",
+      "probability": 0.869686184186184,
+      "prediction": 1
+    },
+    {
+      "sample_index": 57,
+      "REFNO": "3028",
+      "RESULTNO": "7819",
+      "ROCKNAME": "Tuscan-Tyrrhenian Margin Sediments",
+      "probability": 0.9646206872484298,
+      "prediction": 1
+    },
+    {
+      "sample_index": 58,
+      "REFNO": "3033",
+      "RESULTNO": "7825",
+      "ROCKNAME": "Puna Oriental-Famatina Rocks",
+      "probability": 0.7185107091982097,
+      "prediction": 1
+    },
+    {
+      "sample_index": 59,
+      "REFNO": "3034",
+      "RESULTNO": "7831",
+      "ROCKNAME": "Remolino Dyke Swarm",
+      "probability": 0.6956630499130498,
+      "prediction": 1
+    },
+    {
+      "sample_index": 60,
+      "REFNO": "3066",
+      "RESULTNO": "8053",
+      "ROCKNAME": "Moyero River Sediments",
+      "probability": 0.7473101643726644,
+      "prediction": 1
+    },
+    {
+      "sample_index": 61,
+      "REFNO": "3083",
+      "RESULTNO": "8087",
+      "ROCKNAME": "Gipsdalen Formation",
+      "probability": 0.2321959360084362,
+      "prediction": 0
+    },
+    {
+      "sample_index": 62,
+      "REFNO": "3084",
+      "RESULTNO": "8089",
+      "ROCKNAME": "Dachstein Formation",
+      "probability": 0.8945313373883876,
+      "prediction": 1
+    },
+    {
+      "sample_index": 63,
+      "REFNO": "3119",
+      "RESULTNO": "8145",
+      "ROCKNAME": "San Francisco Volcanic Field",
+      "probability": 0.6366471907721909,
+      "prediction": 1
+    },
+    {
+      "sample_index": 64,
+      "REFNO": "3125",
+      "RESULTNO": "8154",
+      "ROCKNAME": "Parguaza Batholith",
+      "probability": 0.8283004865504863,
+      "prediction": 1
+    },
+    {
+      "sample_index": 65,
+      "REFNO": "3131",
+      "RESULTNO": "8165",
+      "ROCKNAME": "SHD1 Permo-Triassic Borehole",
+      "probability": 0.9455536361786357,
+      "prediction": 1
+    },
+    {
+      "sample_index": 66,
+      "REFNO": "3135",
+      "RESULTNO": "8172",
+      "ROCKNAME": "Lower Khapitsky Formation 1",
+      "probability": 0.2885037208162209,
+      "prediction": 0
+    },
+    {
+      "sample_index": 67,
+      "REFNO": "3141",
+      "RESULTNO": "8179",
+      "ROCKNAME": "Gipskeuper Sediments",
+      "probability": 0.939049807955131,
+      "prediction": 1
+    },
+    {
+      "sample_index": 68,
+      "REFNO": "3143",
+      "RESULTNO": "8185",
+      "ROCKNAME": "Fort Irwin Sediments and Volcanics",
+      "probability": 0.852712620032473,
+      "prediction": 1
+    },
+    {
+      "sample_index": 69,
+      "REFNO": "3150",
+      "RESULTNO": "8194",
+      "ROCKNAME": "Wasatch and Green River Formations",
+      "probability": 0.05641897911199719,
+      "prediction": 0
+    },
+    {
+      "sample_index": 70,
+      "REFNO": "3164",
+      "RESULTNO": "8224",
+      "ROCKNAME": "Kessyusa Formation",
+      "probability": 0.8812192676734218,
+      "prediction": 1
+    },
+    {
+      "sample_index": 71,
+      "REFNO": "3169",
+      "RESULTNO": "8236",
+      "ROCKNAME": "Umbria-Marche-Romagna Arc sediments",
+      "probability": 0.8732212555962559,
+      "prediction": 1
+    },
+    {
+      "sample_index": 72,
+      "REFNO": "3186",
+      "RESULTNO": "8271",
+      "ROCKNAME": "Sierra de Los Condores Group",
+      "probability": 0.7800193827813038,
+      "prediction": 1
+    },
+    {
+      "sample_index": 73,
+      "REFNO": "3190",
+      "RESULTNO": "8277",
+      "ROCKNAME": "Florianopolis Dyke Swarm",
+      "probability": 0.40277658452658455,
+      "prediction": 0
+    },
+    {
+      "sample_index": 74,
+      "REFNO": "3201",
+      "RESULTNO": "8304",
+      "ROCKNAME": "Nanxin Formation",
+      "probability": 0.9678184914674058,
+      "prediction": 1
+    },
+    {
+      "sample_index": 75,
+      "REFNO": "3204",
+      "RESULTNO": "8310",
+      "ROCKNAME": "Minto Dyke Swarm",
+      "probability": 0.07921668048661015,
+      "prediction": 0
+    },
+    {
+      "sample_index": 76,
+      "REFNO": "3207",
+      "RESULTNO": "8314",
+      "ROCKNAME": "Sahli Granite",
+      "probability": 0.7963335246089193,
+      "prediction": 1
+    },
+    {
+      "sample_index": 77,
+      "REFNO": "3216",
+      "RESULTNO": "8323",
+      "ROCKNAME": "Iberian Range Sediments",
+      "probability": 0.9294272718022715,
+      "prediction": 1
+    },
+    {
+      "sample_index": 78,
+      "REFNO": "3232",
+      "RESULTNO": "8351",
+      "ROCKNAME": "Pointe d'Armorique Sediments",
+      "probability": 0.954674220396278,
+      "prediction": 1
+    },
+    {
+      "sample_index": 79,
+      "REFNO": "3236",
+      "RESULTNO": "8360",
+      "ROCKNAME": "Kaminis Lake Pluton and Amisk Metavolcanics",
+      "probability": 0.5782935918726295,
+      "prediction": 1
+    },
+    {
+      "sample_index": 80,
+      "REFNO": "3246",
+      "RESULTNO": "8374",
+      "ROCKNAME": "Kicking Horse Ore Deposits",
+      "probability": 0.7091929251304256,
+      "prediction": 1
+    },
+    {
+      "sample_index": 81,
+      "REFNO": "3259",
+      "RESULTNO": "8393",
+      "ROCKNAME": "Hodh Volcanics",
+      "probability": 0.08543475819407477,
+      "prediction": 0
+    },
+    {
+      "sample_index": 82,
+      "REFNO": "3261",
+      "RESULTNO": "8398",
+      "ROCKNAME": "Pocos de Caldas Alkaline Complex",
+      "probability": 0.6245710724460721,
+      "prediction": 1
+    },
+    {
+      "sample_index": 83,
+      "REFNO": "3278",
+      "RESULTNO": "8429",
+      "ROCKNAME": "Clearwater Anorthosite",
+      "probability": 0.2619757279757278,
+      "prediction": 0
+    },
+    {
+      "sample_index": 84,
+      "REFNO": "3296",
+      "RESULTNO": "8462",
+      "ROCKNAME": "Karelian Dykes",
+      "probability": 0.14285114688075848,
+      "prediction": 0
+    },
+    {
+      "sample_index": 85,
+      "REFNO": "3296",
+      "RESULTNO": "8463",
+      "ROCKNAME": "Karelian Dykes",
+      "probability": 0.14285114688075848,
+      "prediction": 0
+    },
+    {
+      "sample_index": 86,
+      "REFNO": "3298",
+      "RESULTNO": "8467",
+      "ROCKNAME": "Wyatt and Akerman Formations",
+      "probability": 0.6643260119510119,
+      "prediction": 1
+    },
+    {
+      "sample_index": 87,
+      "REFNO": "3298",
+      "RESULTNO": "8468",
+      "ROCKNAME": "Zanuck Granite",
+      "probability": 0.6589865065490065,
+      "prediction": 1
+    },
+    {
+      "sample_index": 88,
+      "REFNO": "3299",
+      "RESULTNO": "8470",
+      "ROCKNAME": "Shixiagou and Zhongning Formations",
+      "probability": 0.9655367891714299,
+      "prediction": 1
+    },
+    {
+      "sample_index": 89,
+      "REFNO": "3303",
+      "RESULTNO": "8477",
+      "ROCKNAME": "Keiseitoge Andesite Dykes",
+      "probability": 0.08845683853617389,
+      "prediction": 0
+    },
+    {
+      "sample_index": 90,
+      "REFNO": "3308",
+      "RESULTNO": "8483",
+      "ROCKNAME": "Penglaizhou Formation",
+      "probability": 0.7734128657947112,
+      "prediction": 1
+    },
+    {
+      "sample_index": 91,
+      "REFNO": "3321",
+      "RESULTNO": "8508",
+      "ROCKNAME": "Cascade Arc Volcanics I",
+      "probability": 0.11470676692657643,
+      "prediction": 0
+    },
+    {
+      "sample_index": 92,
+      "REFNO": "3333",
+      "RESULTNO": "8534",
+      "ROCKNAME": "Badong Formation",
+      "probability": 0.0762432380320766,
+      "prediction": 0
+    },
+    {
+      "sample_index": 93,
+      "REFNO": "3365",
+      "RESULTNO": "8559",
+      "ROCKNAME": "Cismon Section",
+      "probability": 0.6242633685758686,
+      "prediction": 1
+    },
+    {
+      "sample_index": 94,
+      "REFNO": "3361",
+      "RESULTNO": "8582",
+      "ROCKNAME": "Marais Section Sediments",
+      "probability": 0.8647431288697605,
+      "prediction": 1
+    },
+    {
+      "sample_index": 95,
+      "REFNO": "3373",
+      "RESULTNO": "8603",
+      "ROCKNAME": "Killer Ridge/Mt Loke Diorites",
+      "probability": 0.5043342851889175,
+      "prediction": 1
+    },
+    {
+      "sample_index": 96,
+      "REFNO": "3374",
+      "RESULTNO": "8609",
+      "ROCKNAME": "Hyogo Area Volcanics",
+      "probability": 0.15180674986933088,
+      "prediction": 0
+    },
+    {
+      "sample_index": 97,
+      "REFNO": "3381",
+      "RESULTNO": "8617",
+      "ROCKNAME": "Rio Chicamo Section",
+      "probability": 0.1763800736300737,
+      "prediction": 0
+    },
+    {
+      "sample_index": 98,
+      "REFNO": "3383",
+      "RESULTNO": "8619",
+      "ROCKNAME": "Edwetur Formation",
+      "probability": 0.7391055842305837,
+      "prediction": 1
+    },
+    {
+      "sample_index": 99,
+      "REFNO": "3384",
+      "RESULTNO": "8620",
+      "ROCKNAME": "Pizzo Mondello Section",
+      "probability": 0.7249191803566805,
+      "prediction": 1
+    },
+    {
+      "sample_index": 100,
+      "REFNO": "3400",
+      "RESULTNO": "8648",
+      "ROCKNAME": "Precordillera carbonates",
+      "probability": 0.7212547017071038,
+      "prediction": 1
+    },
+    {
+      "sample_index": 101,
+      "REFNO": "3401",
+      "RESULTNO": "8649",
+      "ROCKNAME": "Vosges and Massif Central igneous rocks",
+      "probability": 0.9218216043216044,
+      "prediction": 1
+    },
+    {
+      "sample_index": 102,
+      "REFNO": "3401",
+      "RESULTNO": "8651",
+      "ROCKNAME": "Vosges and Massif Central igneous rocks",
+      "probability": 0.9218216043216044,
+      "prediction": 1
+    },
+    {
+      "sample_index": 103,
+      "REFNO": "3403",
+      "RESULTNO": "8654",
+      "ROCKNAME": "Jinxing Formation",
+      "probability": 0.21173478435904114,
+      "prediction": 0
+    },
+    {
+      "sample_index": 104,
+      "REFNO": "3403",
+      "RESULTNO": "8656",
+      "ROCKNAME": "Yunlong Formation",
+      "probability": 0.33701473067631205,
+      "prediction": 0
+    },
+    {
+      "sample_index": 105,
+      "REFNO": "3406",
+      "RESULTNO": "8674",
+      "ROCKNAME": "Bulla and Siusi sections in Dolomites",
+      "probability": 0.9272872266622266,
+      "prediction": 1
+    },
+    {
+      "sample_index": 106,
+      "REFNO": "3411",
+      "RESULTNO": "8680",
+      "ROCKNAME": "Cevennes Sediments",
+      "probability": 0.43951467513967524,
+      "prediction": 0
+    },
+    {
+      "sample_index": 107,
+      "REFNO": "3414",
+      "RESULTNO": "8683",
+      "ROCKNAME": "Marystown Group",
+      "probability": 0.1304394202769118,
+      "prediction": 0
+    },
+    {
+      "sample_index": 108,
+      "REFNO": "3415",
+      "RESULTNO": "8685",
+      "ROCKNAME": "Storsjon-Edsbyn Sills",
+      "probability": 0.7202986232143532,
+      "prediction": 1
+    },
+    {
+      "sample_index": 109,
+      "REFNO": "3421",
+      "RESULTNO": "8694",
+      "ROCKNAME": "Shaman Formation",
+      "probability": 0.9647890375121297,
+      "prediction": 1
+    },
+    {
+      "sample_index": 110,
+      "REFNO": "3421",
+      "RESULTNO": "8696",
+      "ROCKNAME": "Tsagan-Olom Formation",
+      "probability": 0.8534848819044313,
+      "prediction": 1
+    },
+    {
+      "sample_index": 111,
+      "REFNO": "3425",
+      "RESULTNO": "8706",
+      "ROCKNAME": "Alum Shale Formation",
+      "probability": 0.7565135998261001,
+      "prediction": 1
+    },
+    {
+      "sample_index": 112,
+      "REFNO": "3425",
+      "RESULTNO": "8707",
+      "ROCKNAME": "Tornetrask Formation",
+      "probability": 0.7498392464017468,
+      "prediction": 1
+    },
+    {
+      "sample_index": 113,
+      "REFNO": "3432",
+      "RESULTNO": "8717",
+      "ROCKNAME": "Derdepoort Basalt",
+      "probability": 0.7375665029415029,
+      "prediction": 1
+    },
+    {
+      "sample_index": 114,
+      "REFNO": "3438",
+      "RESULTNO": "8750",
+      "ROCKNAME": "Calatuigas Ophiolite",
+      "probability": 0.7465459077936051,
+      "prediction": 1
+    },
+    {
+      "sample_index": 115,
+      "REFNO": "3439",
+      "RESULTNO": "8751",
+      "ROCKNAME": "Obi Ophiolite",
+      "probability": 0.8617542743320932,
+      "prediction": 1
+    },
+    {
+      "sample_index": 116,
+      "REFNO": "3442",
+      "RESULTNO": "8757",
+      "ROCKNAME": "Ratan Granite",
+      "probability": 0.6941221047471048,
+      "prediction": 1
+    },
+    {
+      "sample_index": 117,
+      "REFNO": "3447",
+      "RESULTNO": "8764",
+      "ROCKNAME": "Fen Complex",
+      "probability": 0.41044436355058883,
+      "prediction": 0
+    },
+    {
+      "sample_index": 118,
+      "REFNO": "3453",
+      "RESULTNO": "8775",
+      "ROCKNAME": "Carrock Fell Dyke Swarm",
+      "probability": 0.5994897788093432,
+      "prediction": 1
+    },
+    {
+      "sample_index": 119,
+      "REFNO": "3468",
+      "RESULTNO": "8784",
+      "ROCKNAME": "Chouniugou, Jingyuan and Taiyuan Formations",
+      "probability": 0.8967193348383937,
+      "prediction": 1
+    },
+    {
+      "sample_index": 120,
+      "REFNO": "3469",
+      "RESULTNO": "8786",
+      "ROCKNAME": "Barrington Top Volcano, Section 2",
+      "probability": 0.9422549765049767,
+      "prediction": 1
+    },
+    {
+      "sample_index": 121,
+      "REFNO": "3482",
+      "RESULTNO": "8858",
+      "ROCKNAME": "Antanimena and Mailaka Volcanica",
+      "probability": 0.902678846616347,
+      "prediction": 1
+    },
+    {
+      "sample_index": 122,
+      "REFNO": "3484",
+      "RESULTNO": "8867",
+      "ROCKNAME": "Edjeleh Fold",
+      "probability": 0.9355762218554061,
+      "prediction": 1
+    },
+    {
+      "sample_index": 123,
+      "REFNO": "3490",
+      "RESULTNO": "8895",
+      "ROCKNAME": "MacColl Ridge Formation",
+      "probability": 0.1346403203278204,
+      "prediction": 0
+    },
+    {
+      "sample_index": 124,
+      "REFNO": "3491",
+      "RESULTNO": "8896",
+      "ROCKNAME": "Southern Lewisian Metamorphics",
+      "probability": 0.17003907214719238,
+      "prediction": 0
+    },
+    {
+      "sample_index": 125,
+      "REFNO": "3509",
+      "RESULTNO": "8927",
+      "ROCKNAME": "Kerguelen Lavas",
+      "probability": 0.8843311205202631,
+      "prediction": 1
+    },
+    {
+      "sample_index": 126,
+      "REFNO": "3516",
+      "RESULTNO": "8933",
+      "ROCKNAME": "Central and South Taimyr Sediments",
+      "probability": 0.030586369432177983,
+      "prediction": 0
+    },
+    {
+      "sample_index": 127,
+      "REFNO": "3517",
+      "RESULTNO": "8934",
+      "ROCKNAME": "Morelos and Mezcala Formations",
+      "probability": 0.748568483593683,
+      "prediction": 1
+    },
+    {
+      "sample_index": 128,
+      "REFNO": "3522",
+      "RESULTNO": "8955",
+      "ROCKNAME": "Touyun Basalts and Baked Sediments",
+      "probability": 0.781476183538684,
+      "prediction": 1
+    },
+    {
+      "sample_index": 129,
+      "REFNO": "3522",
+      "RESULTNO": "8956",
+      "ROCKNAME": "Touyun Lower Cretaceous Redbeds",
+      "probability": 0.7643051138676142,
+      "prediction": 1
+    },
+    {
+      "sample_index": 130,
+      "REFNO": "3530",
+      "RESULTNO": "8965",
+      "ROCKNAME": "Huatugou Redbeds",
+      "probability": 0.8155050697981455,
+      "prediction": 1
+    },
+    {
+      "sample_index": 131,
+      "REFNO": "3536",
+      "RESULTNO": "8975",
+      "ROCKNAME": "French Guiana Granite and Amphibolite",
+      "probability": 0.9652665701876665,
+      "prediction": 1
+    },
+    {
+      "sample_index": 132,
+      "REFNO": "3538",
+      "RESULTNO": "8982",
+      "ROCKNAME": "Fraser Dyke",
+      "probability": 0.7070951074776283,
+      "prediction": 1
+    },
+    {
+      "sample_index": 133,
+      "REFNO": "3543",
+      "RESULTNO": "8987",
+      "ROCKNAME": "Lawrenceton Formation",
+      "probability": 0.9690862969419792,
+      "prediction": 1
+    },
+    {
+      "sample_index": 134,
+      "REFNO": "3569",
+      "RESULTNO": "9069",
+      "ROCKNAME": "Newer Volcanics",
+      "probability": 0.08065737128456853,
+      "prediction": 0
+    },
+    {
+      "sample_index": 135,
+      "REFNO": "3597",
+      "RESULTNO": "9118",
+      "ROCKNAME": "North Sichuan Sediments",
+      "probability": 0.8964229167888769,
+      "prediction": 1
+    },
+    {
+      "sample_index": 136,
+      "REFNO": "3608",
+      "RESULTNO": "9137",
+      "ROCKNAME": "Kwagunt Formation",
+      "probability": 0.7776358363858361,
+      "prediction": 1
+    },
+    {
+      "sample_index": 137,
+      "REFNO": "3608",
+      "RESULTNO": "9138",
+      "ROCKNAME": "Galeros Formation",
+      "probability": 0.7776358363858361,
+      "prediction": 1
+    },
+    {
+      "sample_index": 138,
+      "REFNO": "3613",
+      "RESULTNO": "9146",
+      "ROCKNAME": "Shadaron Formation",
+      "probability": 0.8516613627685334,
+      "prediction": 1
+    },
+    {
+      "sample_index": 139,
+      "REFNO": "3617",
+      "RESULTNO": "9155",
+      "ROCKNAME": "Frazier Ridge Formation",
+      "probability": 0.9414029601046362,
+      "prediction": 1
+    },
+    {
+      "sample_index": 140,
+      "REFNO": "3622",
+      "RESULTNO": "9163",
+      "ROCKNAME": "Theresa Creek Volcanics",
+      "probability": 0.9651153314278313,
+      "prediction": 1
+    },
+    {
+      "sample_index": 141,
+      "REFNO": "3623",
+      "RESULTNO": "9166",
+      "ROCKNAME": "Haliburton Intrusions",
+      "probability": 0.8881922388676408,
+      "prediction": 1
+    },
+    {
+      "sample_index": 142,
+      "REFNO": "3624",
+      "RESULTNO": "9167",
+      "ROCKNAME": "Xorkoli Redbeds",
+      "probability": 0.08411794471610855,
+      "prediction": 0
+    },
+    {
+      "sample_index": 143,
+      "REFNO": "3624",
+      "RESULTNO": "9168",
+      "ROCKNAME": "Nan Shan Redbeds",
+      "probability": 0.08147244261847837,
+      "prediction": 0
+    },
+    {
+      "sample_index": 144,
+      "REFNO": "3634",
+      "RESULTNO": "9190",
+      "ROCKNAME": "Callejon de Huaylas Sediments 1",
+      "probability": 0.6682693038880952,
+      "prediction": 1
+    },
+    {
+      "sample_index": 145,
+      "REFNO": "3635",
+      "RESULTNO": "9194",
+      "ROCKNAME": "Tula Redbeds, Eastern Part",
+      "probability": 0.09901873439482796,
+      "prediction": 0
+    },
+    {
+      "sample_index": 146,
+      "REFNO": "3637",
+      "RESULTNO": "9199",
+      "ROCKNAME": "Stoer Group Sediments, Middle Part",
+      "probability": 0.872858705952356,
+      "prediction": 1
+    },
+    {
+      "sample_index": 147,
+      "REFNO": "3638",
+      "RESULTNO": "9201",
+      "ROCKNAME": "Mount Stuart Batholith",
+      "probability": 0.9244328718293006,
+      "prediction": 1
+    },
+    {
+      "sample_index": 148,
+      "REFNO": "3640",
+      "RESULTNO": "9208",
+      "ROCKNAME": "Pizzo Mondello Limestone",
+      "probability": 0.9556358479483481,
+      "prediction": 1
+    },
+    {
+      "sample_index": 149,
+      "REFNO": "3654",
+      "RESULTNO": "9226",
+      "ROCKNAME": "Kivakka Intrusion",
+      "probability": 0.6388499990291613,
+      "prediction": 1
+    },
+    {
+      "sample_index": 150,
+      "REFNO": "3654",
+      "RESULTNO": "9227",
+      "ROCKNAME": "Bushveld Intrusion, well WP-16",
+      "probability": 0.9472890459983804,
+      "prediction": 1
+    },
+    {
+      "sample_index": 151,
+      "REFNO": "3655",
+      "RESULTNO": "9228",
+      "ROCKNAME": "Middle Volga Sediments",
+      "probability": 0.768267027641782,
+      "prediction": 1
+    },
+    {
+      "sample_index": 152,
+      "REFNO": "3659",
+      "RESULTNO": "9233",
+      "ROCKNAME": "Eyjafjordur Lavas",
+      "probability": 0.040521110256034595,
+      "prediction": 0
+    },
+    {
+      "sample_index": 153,
+      "REFNO": "3660",
+      "RESULTNO": "9234",
+      "ROCKNAME": "Hong Kong Dykes",
+      "probability": 0.8624680893868352,
+      "prediction": 1
+    },
+    {
+      "sample_index": 154,
+      "REFNO": "3666",
+      "RESULTNO": "9244",
+      "ROCKNAME": "Hulahada Volcanics",
+      "probability": 0.9208569092752517,
+      "prediction": 1
+    },
+    {
+      "sample_index": 155,
+      "REFNO": "3684",
+      "RESULTNO": "9266",
+      "ROCKNAME": "Zolotitsa Redbeds",
+      "probability": 0.9532391164972389,
+      "prediction": 1
+    },
+    {
+      "sample_index": 156,
+      "REFNO": "3685",
+      "RESULTNO": "9268",
+      "ROCKNAME": "Yangzhuang Formation",
+      "probability": 0.8571597269238501,
+      "prediction": 1
+    },
+    {
+      "sample_index": 157,
+      "REFNO": "3687",
+      "RESULTNO": "9272",
+      "ROCKNAME": "Lynn-Mattapan Volcanic Complex",
+      "probability": 0.6256279461279456,
+      "prediction": 1
+    },
+    {
+      "sample_index": 158,
+      "REFNO": "3692",
+      "RESULTNO": "9278",
+      "ROCKNAME": "Bhander and Rewa Groups",
+      "probability": 0.9785395636106003,
+      "prediction": 1
+    },
+    {
+      "sample_index": 159,
+      "REFNO": "3696",
+      "RESULTNO": "9297",
+      "ROCKNAME": "Mount Rigaud and Chatham-Grenville Stocks",
+      "probability": 0.9537438494662136,
+      "prediction": 1
+    },
+    {
+      "sample_index": 160,
+      "REFNO": "3707",
+      "RESULTNO": "9312",
+      "ROCKNAME": "Copacabana Group",
+      "probability": 0.03696035117789195,
+      "prediction": 0
+    },
+    {
+      "sample_index": 161,
+      "REFNO": "3707",
+      "RESULTNO": "9313",
+      "ROCKNAME": "La Chona Formation",
+      "probability": 0.053691527625431015,
+      "prediction": 0
+    },
+    {
+      "sample_index": 162,
+      "REFNO": "3710",
+      "RESULTNO": "9322",
+      "ROCKNAME": "Pentecost Sandstone, Elgee Formation Combined",
+      "probability": 0.18841212635614438,
+      "prediction": 0
+    },
+    {
+      "sample_index": 163,
+      "REFNO": "3727",
+      "RESULTNO": "9344",
+      "ROCKNAME": "Anantapur E-W younger dykes",
+      "probability": 0.8007284302483043,
+      "prediction": 1
+    },
+    {
+      "sample_index": 164,
+      "REFNO": "3727",
+      "RESULTNO": "9345",
+      "ROCKNAME": "Anantapur E-W older dykes",
+      "probability": 0.7569448976948977,
+      "prediction": 1
+    },
+    {
+      "sample_index": 165,
+      "REFNO": "3728",
+      "RESULTNO": "9346",
+      "ROCKNAME": "Ulvo Dolerite Sills",
+      "probability": 0.7481279438154442,
+      "prediction": 1
+    },
+    {
+      "sample_index": 166,
+      "REFNO": "3730",
+      "RESULTNO": "9348",
+      "ROCKNAME": "Brachina Formanion",
+      "probability": 0.46694366853532476,
+      "prediction": 0
+    },
+    {
+      "sample_index": 167,
+      "REFNO": "3730",
+      "RESULTNO": "9349",
+      "ROCKNAME": "Wonoka Formanion",
+      "probability": 0.4451385241490623,
+      "prediction": 0
+    },
+    {
+      "sample_index": 168,
+      "REFNO": "3734",
+      "RESULTNO": "9357",
+      "ROCKNAME": "Fraser Belt Metamorphics",
+      "probability": 0.7136158193658194,
+      "prediction": 1
+    },
+    {
+      "sample_index": 169,
+      "REFNO": "3738",
+      "RESULTNO": "9363",
+      "ROCKNAME": "Mahoba Dykes",
+      "probability": 0.991746824649194,
+      "prediction": 1
+    },
+    {
+      "sample_index": 170,
+      "REFNO": "3744",
+      "RESULTNO": "9371",
+      "ROCKNAME": "Riera de Sant Jaume Section",
+      "probability": 0.11390876665714712,
+      "prediction": 0
+    },
+    {
+      "sample_index": 171,
+      "REFNO": "3749",
+      "RESULTNO": "9379",
+      "ROCKNAME": "Zeku Basalts and Redbeds",
+      "probability": 0.9898609822757103,
+      "prediction": 1
+    },
+    {
+      "sample_index": 172,
+      "REFNO": "3759",
+      "RESULTNO": "9393",
+      "ROCKNAME": "Adirondack Microcline Gneiss",
+      "probability": 0.9328857946418017,
+      "prediction": 1
+    },
+    {
+      "sample_index": 173,
+      "REFNO": "3762",
+      "RESULTNO": "9397",
+      "ROCKNAME": "Wajrakarur Kimberlites",
+      "probability": 0.968166699041699,
+      "prediction": 1
+    },
+    {
+      "sample_index": 174,
+      "REFNO": "3765",
+      "RESULTNO": "9400",
+      "ROCKNAME": "Allanbridge Formation",
+      "probability": 0.8855858582487449,
+      "prediction": 1
+    },
+    {
+      "sample_index": 175,
+      "REFNO": "3766",
+      "RESULTNO": "9401",
+      "ROCKNAME": "Allanbridge Formation",
+      "probability": 0.1474804427586865,
+      "prediction": 0
+    },
+    {
+      "sample_index": 176,
+      "REFNO": "3769",
+      "RESULTNO": "9404",
+      "ROCKNAME": "Lac de Gras Dykes",
+      "probability": 0.4867271062271062,
+      "prediction": 0
+    },
+    {
+      "sample_index": 177,
+      "REFNO": "3771",
+      "RESULTNO": "9406",
+      "ROCKNAME": "Dogrib Dykes",
+      "probability": 0.20420395867129856,
+      "prediction": 0
+    },
+    {
+      "sample_index": 178,
+      "REFNO": "3771",
+      "RESULTNO": "9407",
+      "ROCKNAME": "Defeat Suite Plutons",
+      "probability": 0.24159130044698776,
+      "prediction": 0
+    },
+    {
+      "sample_index": 179,
+      "REFNO": "3784",
+      "RESULTNO": "9424",
+      "ROCKNAME": "Rykoppies dykes",
+      "probability": 0.49784073334073364,
+      "prediction": 0
+    },
+    {
+      "sample_index": 180,
+      "REFNO": "3794",
+      "RESULTNO": "9437",
+      "ROCKNAME": "Gnowangerup-Frased Dykes",
+      "probability": 0.9475082815974041,
+      "prediction": 1
+    },
+    {
+      "sample_index": 181,
+      "REFNO": "3806",
+      "RESULTNO": "9452",
+      "ROCKNAME": "Kuitun He Section",
+      "probability": 0.8537895437895436,
+      "prediction": 1
+    },
+    {
+      "sample_index": 182,
+      "REFNO": "3810",
+      "RESULTNO": "9458",
+      "ROCKNAME": "Hettangian-Sinemurian Marine Sediments",
+      "probability": 0.40440375827875824,
+      "prediction": 0
+    },
+    {
+      "sample_index": 183,
+      "REFNO": "3810",
+      "RESULTNO": "9459",
+      "ROCKNAME": "Pliensbachian-Toarcian Marine Sediments",
+      "probability": 0.40440375827875824,
+      "prediction": 0
+    },
+    {
+      "sample_index": 184,
+      "REFNO": "3820",
+      "RESULTNO": "9469",
+      "ROCKNAME": "Pliocene Lavas",
+      "probability": 0.9626250390260069,
+      "prediction": 1
+    },
+    {
+      "sample_index": 185,
+      "REFNO": "3823",
+      "RESULTNO": "9475",
+      "ROCKNAME": "Muhos Formation, Drill Core M52-HAIL-04-005",
+      "probability": 0.9236239570614572,
+      "prediction": 1
+    },
+    {
+      "sample_index": 186,
+      "REFNO": "3824",
+      "RESULTNO": "9478",
+      "ROCKNAME": "Åland Archipelago Intrusions N combined",
+      "probability": 0.8474676660781846,
+      "prediction": 1
+    },
+    {
+      "sample_index": 187,
+      "REFNO": "3825",
+      "RESULTNO": "9483",
+      "ROCKNAME": "Huaibei Sills 890 Ma",
+      "probability": 0.17077478014703024,
+      "prediction": 0
+    },
+    {
+      "sample_index": 188,
+      "REFNO": "3834",
+      "RESULTNO": "9491",
+      "ROCKNAME": "Post-Guperas Dykes",
+      "probability": 0.042831629421929446,
+      "prediction": 0
+    },
+    {
+      "sample_index": 189,
+      "REFNO": "3835",
+      "RESULTNO": "9493",
+      "ROCKNAME": "Bahia Coastal Dykes A-R",
+      "probability": 0.9770561357099747,
+      "prediction": 1
+    },
+    {
+      "sample_index": 190,
+      "REFNO": "3843",
+      "RESULTNO": "9502",
+      "ROCKNAME": "Franklin Dykes, Devon and Ellsemere",
+      "probability": 0.6374745624745626,
+      "prediction": 1
+    },
+    {
+      "sample_index": 191,
+      "REFNO": "3843",
+      "RESULTNO": "9503",
+      "ROCKNAME": "Franklin Dykes, Greenland",
+      "probability": 0.8236562367555953,
+      "prediction": 1
+    },
+    {
+      "sample_index": 192,
+      "REFNO": "3849",
+      "RESULTNO": "9509",
+      "ROCKNAME": "Shizigou Formation",
+      "probability": 0.966723496639538,
+      "prediction": 1
+    },
+    {
+      "sample_index": 193,
+      "REFNO": "3859",
+      "RESULTNO": "9521",
+      "ROCKNAME": "Pliocene-Recent Lavas",
+      "probability": 0.0258256296041479,
+      "prediction": 0
+    },
+    {
+      "sample_index": 194,
+      "REFNO": "3877",
+      "RESULTNO": "9556",
+      "ROCKNAME": "Bastar and Dharwar 1.88 Ga Intrusions",
+      "probability": 0.986262766701869,
+      "prediction": 1
+    },
+    {
+      "sample_index": 195,
+      "REFNO": "3879",
+      "RESULTNO": "9558",
+      "ROCKNAME": "Curaçá Dykes",
+      "probability": 0.9581534692159697,
+      "prediction": 1
+    },
+    {
+      "sample_index": 196,
+      "REFNO": "3881",
+      "RESULTNO": "9560",
+      "ROCKNAME": "Tiruvannamalai Dykes",
+      "probability": 0.9684636111487379,
+      "prediction": 1
+    },
+    {
+      "sample_index": 197,
+      "REFNO": "3882",
+      "RESULTNO": "9563",
+      "ROCKNAME": "Dharwar 2.18 Ga Dykes Combined",
+      "probability": 0.9800796670135575,
+      "prediction": 1
+    },
+    {
+      "sample_index": 198,
+      "REFNO": "3901",
+      "RESULTNO": "9590",
+      "ROCKNAME": "Austrian Rhaetian Sediments R",
+      "probability": 0.9873941067578818,
+      "prediction": 1
+    },
+    {
+      "sample_index": 199,
+      "REFNO": "3909",
+      "RESULTNO": "9601",
+      "ROCKNAME": "Lower Beaufort Group",
+      "probability": 0.989475809862477,
+      "prediction": 1
+    },
+    {
+      "sample_index": 200,
+      "REFNO": "3911",
+      "RESULTNO": "9604",
+      "ROCKNAME": "Siberian Trap Basalts",
+      "probability": 0.4878331205002606,
+      "prediction": 0
+    },
+    {
+      "sample_index": 201,
+      "REFNO": "3920",
+      "RESULTNO": "9616",
+      "ROCKNAME": "Kiselevka Complex",
+      "probability": 0.4503320498945498,
+      "prediction": 0
+    },
+    {
+      "sample_index": 202,
+      "REFNO": "3928",
+      "RESULTNO": "9637",
+      "ROCKNAME": "Peddie and Triple B Kimberlite",
+      "probability": 0.9017506683131689,
+      "prediction": 1
+    },
+    {
+      "sample_index": 203,
+      "REFNO": "3937",
+      "RESULTNO": "9658",
+      "ROCKNAME": "Gongliu Sandstones",
+      "probability": 0.9438889638458589,
+      "prediction": 1
+    },
+    {
+      "sample_index": 204,
+      "REFNO": "3941",
+      "RESULTNO": "9665",
+      "ROCKNAME": "Nuuk Dyke",
+      "probability": 0.9393564828122584,
+      "prediction": 1
+    },
+    {
+      "sample_index": 205,
+      "REFNO": "3950",
+      "RESULTNO": "9677",
+      "ROCKNAME": "Nyuya River Ordovician Redbeds",
+      "probability": 0.08865396253688199,
+      "prediction": 0
+    },
+    {
+      "sample_index": 206,
+      "REFNO": "3950",
+      "RESULTNO": "9678",
+      "ROCKNAME": "Nyuya River Silurian Redbeds",
+      "probability": 0.08319759512543055,
+      "prediction": 0
+    },
+    {
+      "sample_index": 207,
+      "REFNO": "3951",
+      "RESULTNO": "9679",
+      "ROCKNAME": "Aubures Formation",
+      "probability": 0.0479647028482922,
+      "prediction": 0
+    },
+    {
+      "sample_index": 208,
+      "REFNO": "3955",
+      "RESULTNO": "9686",
+      "ROCKNAME": "Post-Waterberg Sill",
+      "probability": 0.10184362893458829,
+      "prediction": 0
+    },
+    {
+      "sample_index": 209,
+      "REFNO": "3964",
+      "RESULTNO": "9707",
+      "ROCKNAME": "Ejumaima Volcanics",
+      "probability": 0.900482831410857,
+      "prediction": 1
+    },
+    {
+      "sample_index": 210,
+      "REFNO": "3965",
+      "RESULTNO": "9710",
+      "ROCKNAME": "Azov Trachytes",
+      "probability": 0.35740287594521836,
+      "prediction": 0
+    },
+    {
+      "sample_index": 211,
+      "REFNO": "3966",
+      "RESULTNO": "9711",
+      "ROCKNAME": "Antarctic Peninsula Intrusions",
+      "probability": 0.9675519201491748,
+      "prediction": 1
+    },
+    {
+      "sample_index": 212,
+      "REFNO": "3969",
+      "RESULTNO": "9720",
+      "ROCKNAME": "Itararé Group",
+      "probability": 0.976735617740412,
+      "prediction": 1
+    },
+    {
+      "sample_index": 213,
+      "REFNO": "3970",
+      "RESULTNO": "9721",
+      "ROCKNAME": "Aral Formation",
+      "probability": 0.9733361873114791,
+      "prediction": 1
+    },
+    {
+      "sample_index": 214,
+      "REFNO": "3981",
+      "RESULTNO": "9735",
+      "ROCKNAME": "Maringouin Formation",
+      "probability": 0.9553492768048881,
+      "prediction": 1
+    },
+    {
+      "sample_index": 215,
+      "REFNO": "3982",
+      "RESULTNO": "9736",
+      "ROCKNAME": "Campanario Formation",
+      "probability": 0.981870668871608,
+      "prediction": 1
+    },
+    {
+      "sample_index": 216,
+      "REFNO": "3982",
+      "RESULTNO": "9737",
+      "ROCKNAME": "Santa Rosita Formation",
+      "probability": 0.9673403586550667,
+      "prediction": 1
+    },
+    {
+      "sample_index": 217,
+      "REFNO": "4000",
+      "RESULTNO": "9765",
+      "ROCKNAME": "Long Mountain Green Granite",
+      "probability": 0.838625341301464,
+      "prediction": 1
+    },
+    {
+      "sample_index": 218,
+      "REFNO": "4001",
+      "RESULTNO": "9766",
+      "ROCKNAME": "FIII Formation",
+      "probability": 0.9096871257591577,
+      "prediction": 1
+    },
+    {
+      "sample_index": 219,
+      "REFNO": "4001",
+      "RESULTNO": "9767",
+      "ROCKNAME": "Grès Rouges Formation",
+      "probability": 0.9194457472271926,
+      "prediction": 1
+    },
+    {
+      "sample_index": 220,
+      "REFNO": "4002",
+      "RESULTNO": "9770",
+      "ROCKNAME": "Tiverskaya Series",
+      "probability": 0.9851606445557181,
+      "prediction": 1
+    },
+    {
+      "sample_index": 221,
+      "REFNO": "4004",
+      "RESULTNO": "9773",
+      "ROCKNAME": "Columbia River Basalts",
+      "probability": 0.9502401540054177,
+      "prediction": 1
+    },
+    {
+      "sample_index": 222,
+      "REFNO": "4006",
+      "RESULTNO": "9775",
+      "ROCKNAME": "Oslo Graben Volcanics",
+      "probability": 0.9928598432820761,
+      "prediction": 1
+    },
+    {
+      "sample_index": 223,
+      "REFNO": "4010",
+      "RESULTNO": "9780",
+      "ROCKNAME": "Bakaly Volcanics",
+      "probability": 0.15354795204795207,
+      "prediction": 0
+    },
+    {
+      "sample_index": 224,
+      "REFNO": "4011",
+      "RESULTNO": "9781",
+      "ROCKNAME": "Cape Verde Lavas",
+      "probability": 0.9102743714618716,
+      "prediction": 1
+    },
+    {
+      "sample_index": 225,
+      "REFNO": "4014",
+      "RESULTNO": "9784",
+      "ROCKNAME": "Kuznetsk Traps",
+      "probability": 0.8756251663693979,
+      "prediction": 1
+    },
+    {
+      "sample_index": 226,
+      "REFNO": "4019",
+      "RESULTNO": "9798",
+      "ROCKNAME": "Avilov and Araucarite Formations",
+      "probability": 0.5607337731712734,
+      "prediction": 1
+    },
+    {
+      "sample_index": 227,
+      "REFNO": "4036",
+      "RESULTNO": "9825",
+      "ROCKNAME": "Qiakemake Formation",
+      "probability": 0.621055456201771,
+      "prediction": 1
+    },
+    {
+      "sample_index": 228,
+      "REFNO": "4037",
+      "RESULTNO": "9826",
+      "ROCKNAME": "Nanxiong Basin Sediments",
+      "probability": 0.03948188822380168,
+      "prediction": 0
+    },
+    {
+      "sample_index": 229,
+      "REFNO": "4038",
+      "RESULTNO": "9827",
+      "ROCKNAME": "Pagoda Formation",
+      "probability": 0.978077109549414,
+      "prediction": 1
+    },
+    {
+      "sample_index": 230,
+      "REFNO": "4062",
+      "RESULTNO": "9853",
+      "ROCKNAME": "Onego 1985 Ma Intrusions",
+      "probability": 0.9166951800334453,
+      "prediction": 1
+    },
+    {
+      "sample_index": 231,
+      "REFNO": "4062",
+      "RESULTNO": "9855",
+      "ROCKNAME": "Onego Intrusions Combined",
+      "probability": 0.9105546043739856,
+      "prediction": 1
+    },
+    {
+      "sample_index": 232,
+      "REFNO": "4073",
+      "RESULTNO": "9864",
+      "ROCKNAME": "Campanario Formation",
+      "probability": 0.886207619204986,
+      "prediction": 1
+    },
+    {
+      "sample_index": 233,
+      "REFNO": "4078",
+      "RESULTNO": "9878",
+      "ROCKNAME": "Bratsk Formation",
+      "probability": 0.07551058988884592,
+      "prediction": 0
+    },
+    {
+      "sample_index": 234,
+      "REFNO": "4095",
+      "RESULTNO": "9904",
+      "ROCKNAME": "Singhbhum Newer Dykes 2760",
+      "probability": 0.16612187241434173,
+      "prediction": 0
+    },
+    {
+      "sample_index": 235,
+      "REFNO": "4112",
+      "RESULTNO": "9927",
+      "ROCKNAME": "Hart Dolerite",
+      "probability": 0.9383891470300559,
+      "prediction": 1
+    },
+    {
+      "sample_index": 236,
+      "REFNO": "4119",
+      "RESULTNO": "9936",
+      "ROCKNAME": "Downeys Bluff Sill",
+      "probability": 0.9648038720846571,
+      "prediction": 1
+    },
+    {
+      "sample_index": 237,
+      "REFNO": "1830",
+      "RESULTNO": "9940",
+      "ROCKNAME": "Ringerike Lavas",
+      "probability": 0.9016376817626813,
+      "prediction": 1
+    },
+    {
+      "sample_index": 238,
+      "REFNO": "4140",
+      "RESULTNO": "9967",
+      "ROCKNAME": "Mucajaí Complex",
+      "probability": 0.9809376014705856,
+      "prediction": 1
+    },
+    {
+      "sample_index": 239,
+      "REFNO": "4159",
+      "RESULTNO": "9995",
+      "ROCKNAME": "Doushantuo Formation, Dongdahe section",
+      "probability": 0.9844566000053093,
+      "prediction": 1
+    },
+    {
+      "sample_index": 240,
+      "REFNO": "4171",
+      "RESULTNO": "10016",
+      "ROCKNAME": "Central Arizona diabases -N",
+      "probability": 0.9568746813138586,
+      "prediction": 1
+    },
+    {
+      "sample_index": 241,
+      "REFNO": "4172",
+      "RESULTNO": "10018",
+      "ROCKNAME": "Lake Ladoga, Mean intr. & dykes, A comp.",
+      "probability": 0.9861467171932048,
+      "prediction": 1
+    },
+    {
+      "sample_index": 242,
+      "REFNO": "4174",
+      "RESULTNO": "10021",
+      "ROCKNAME": "Iron deposits, HP2 overprint",
+      "probability": 0.6434965127465133,
+      "prediction": 1
+    },
+    {
+      "sample_index": 243,
+      "REFNO": "4181",
+      "RESULTNO": "10030",
+      "ROCKNAME": "Crown Hill Formation",
+      "probability": 0.1645606722719309,
+      "prediction": 0
+    },
+    {
+      "sample_index": 244,
+      "REFNO": "4183",
+      "RESULTNO": "10034",
+      "ROCKNAME": "Bamble Metamorphics",
+      "probability": 0.9856150339546983,
+      "prediction": 1
+    },
+    {
+      "sample_index": 245,
+      "REFNO": "4186",
+      "RESULTNO": "10040",
+      "ROCKNAME": "Franz Josef Land Cretaceous Rocks",
+      "probability": 0.9518386937136942,
+      "prediction": 1
+    },
+    {
+      "sample_index": 246,
+      "REFNO": "4192",
+      "RESULTNO": "10049",
+      "ROCKNAME": "Mid-Miocene Volcanics",
+      "probability": 0.9792273190238805,
+      "prediction": 1
+    },
+    {
+      "sample_index": 247,
+      "REFNO": "4200",
+      "RESULTNO": "10060",
+      "ROCKNAME": "Gazar Formation Volcanics",
+      "probability": 0.9880099843643658,
+      "prediction": 1
+    },
+    {
+      "sample_index": 248,
+      "REFNO": "4207",
+      "RESULTNO": "10068",
+      "ROCKNAME": "Qigelekekuotan Volcanics",
+      "probability": 0.9179129583180973,
+      "prediction": 1
+    },
+    {
+      "sample_index": 249,
+      "REFNO": "4213",
+      "RESULTNO": "10078",
+      "ROCKNAME": "Udzha Formation",
+      "probability": 0.9770448728815826,
+      "prediction": 1
+    },
+    {
+      "sample_index": 250,
+      "REFNO": "4213",
+      "RESULTNO": "10079",
+      "ROCKNAME": "Unguokhtakh Formation",
+      "probability": 0.9586687861800659,
+      "prediction": 1
+    },
+    {
+      "sample_index": 251,
+      "REFNO": "4226",
+      "RESULTNO": "10098",
+      "ROCKNAME": "Yuntaiguan Formation",
+      "probability": 0.851152733826874,
+      "prediction": 1
+    },
+    {
+      "sample_index": 252,
+      "REFNO": "4248",
+      "RESULTNO": "10123",
+      "ROCKNAME": "Marambio Group, Younger Part",
+      "probability": 0.9639107073569813,
+      "prediction": 1
+    },
+    {
+      "sample_index": 253,
+      "REFNO": "4253",
+      "RESULTNO": "10128",
+      "ROCKNAME": "Kholchan and Ola suites",
+      "probability": 0.8900013989067882,
+      "prediction": 1
+    },
+    {
+      "sample_index": 254,
+      "REFNO": "4263",
+      "RESULTNO": "10142",
+      "ROCKNAME": "Qushenla Formation, Volcanics",
+      "probability": 0.35367770405629984,
+      "prediction": 0
+    },
+    {
+      "sample_index": 255,
+      "REFNO": "4266",
+      "RESULTNO": "10147",
+      "ROCKNAME": "Galula Formation, Namba Section",
+      "probability": 0.9257722855847855,
+      "prediction": 1
+    },
+    {
+      "sample_index": 256,
+      "REFNO": "4274",
+      "RESULTNO": "10158",
+      "ROCKNAME": "Meiriqieco Formation",
+      "probability": 0.9821862365493581,
+      "prediction": 1
+    },
+    {
+      "sample_index": 257,
+      "REFNO": "4275",
+      "RESULTNO": "10160",
+      "ROCKNAME": "Jialazi Formation",
+      "probability": 0.9377531891671979,
+      "prediction": 1
+    },
+    {
+      "sample_index": 258,
+      "REFNO": "4283",
+      "RESULTNO": "10169",
+      "ROCKNAME": "Zhongba Section, Cretaceous Sediments",
+      "probability": 0.5072748825248826,
+      "prediction": 1
+    },
+    {
+      "sample_index": 259,
+      "REFNO": "4285",
+      "RESULTNO": "10173",
+      "ROCKNAME": "Shexing Sequence",
+      "probability": 0.9817737614341451,
+      "prediction": 1
+    },
+    {
+      "sample_index": 260,
+      "REFNO": "4289",
+      "RESULTNO": "10178",
+      "ROCKNAME": "Risong Formation, WMb",
+      "probability": 0.9899555285229412,
+      "prediction": 1
+    },
+    {
+      "sample_index": 261,
+      "REFNO": "4295",
+      "RESULTNO": "10186",
+      "ROCKNAME": "Singhbhum Dykes 1.765 Ga",
+      "probability": 0.9855493348377167,
+      "prediction": 1
+    },
+    {
+      "sample_index": 262,
+      "REFNO": "4301",
+      "RESULTNO": "10197",
+      "ROCKNAME": "Kama Redbeds",
+      "probability": 0.8694034958060769,
+      "prediction": 1
+    },
+    {
+      "sample_index": 263,
+      "REFNO": "4305",
+      "RESULTNO": "10206",
+      "ROCKNAME": "Okskii S’ezd Section",
+      "probability": 0.4881727152241374,
+      "prediction": 0
+    },
+    {
+      "sample_index": 264,
+      "REFNO": "4305",
+      "RESULTNO": "10208",
+      "ROCKNAME": "Nelben Section",
+      "probability": 0.4756536880777454,
+      "prediction": 0
+    },
+    {
+      "sample_index": 265,
+      "REFNO": "4311",
+      "RESULTNO": "10219",
+      "ROCKNAME": "Silurian Basalts",
+      "probability": 0.26740008112802244,
+      "prediction": 0
+    },
+    {
+      "sample_index": 266,
+      "REFNO": "4314",
+      "RESULTNO": "10222",
+      "ROCKNAME": "Ust-Brus and Labaznaya formations",
+      "probability": 0.6142032843841608,
+      "prediction": 1
+    },
+    {
+      "sample_index": 267,
+      "REFNO": "4315",
+      "RESULTNO": "10223",
+      "ROCKNAME": "Sukhoborka Composite Section",
+      "probability": 0.8900925434466748,
+      "prediction": 1
+    },
+    {
+      "sample_index": 268,
+      "REFNO": "4319",
+      "RESULTNO": "10228",
+      "ROCKNAME": "Cerro Negro Formation",
+      "probability": 0.965169554558376,
+      "prediction": 1
+    },
+    {
+      "sample_index": 269,
+      "REFNO": "4320",
+      "RESULTNO": "10229",
+      "ROCKNAME": "Lumuwan Formation",
+      "probability": 0.5311332648832651,
+      "prediction": 1
+    },
+    {
+      "sample_index": 270,
+      "REFNO": "4321",
+      "RESULTNO": "10230",
+      "ROCKNAME": "Khaton Sudal Basalts",
+      "probability": 0.7919559619472041,
+      "prediction": 1
+    },
+    {
+      "sample_index": 271,
+      "REFNO": "4321",
+      "RESULTNO": "10231",
+      "ROCKNAME": "Taatsyn Gol 1-2 Basalts",
+      "probability": 0.9227736855168519,
+      "prediction": 1
+    },
+    {
+      "sample_index": 272,
+      "REFNO": "4324",
+      "RESULTNO": "10236",
+      "ROCKNAME": "Kiuruvesi Gabbrodiorite",
+      "probability": 0.9601761790189657,
+      "prediction": 1
+    },
+    {
+      "sample_index": 273,
+      "REFNO": "4324",
+      "RESULTNO": "10237",
+      "ROCKNAME": "Ylivieska Gabbro",
+      "probability": 0.945360382282559,
+      "prediction": 1
+    },
+    {
+      "sample_index": 274,
+      "REFNO": "4328",
+      "RESULTNO": "10248",
+      "ROCKNAME": "Navile Dyke",
+      "probability": 0.9426946613257511,
+      "prediction": 1
+    },
+    {
+      "sample_index": 275,
+      "REFNO": "4339",
+      "RESULTNO": "10263",
+      "ROCKNAME": "Northeastern Brazil Magmatism-1",
+      "probability": 0.5338044709919714,
+      "prediction": 1
+    },
+    {
+      "sample_index": 276,
+      "REFNO": "4339",
+      "RESULTNO": "10264",
+      "ROCKNAME": "Northeastern Brazil Magmatism-2",
+      "probability": 0.5329641958991685,
+      "prediction": 1
+    },
+    {
+      "sample_index": 277,
+      "REFNO": "4340",
+      "RESULTNO": "10266",
+      "ROCKNAME": "Penatecaua Sills and Dykes",
+      "probability": 0.9754863848275686,
+      "prediction": 1
+    },
+    {
+      "sample_index": 278,
+      "REFNO": "4349",
+      "RESULTNO": "10276",
+      "ROCKNAME": "Siberian Traps, Norilsk‐Maymecha‐Kotuy Area",
+      "probability": 0.9512738274977103,
+      "prediction": 1
+    },
+    {
+      "sample_index": 279,
+      "REFNO": "4351",
+      "RESULTNO": "10278",
+      "ROCKNAME": "South Shetland Magmatic Rocks",
+      "probability": 0.7773023758648754,
+      "prediction": 1
+    },
+    {
+      "sample_index": 280,
+      "REFNO": "4360",
+      "RESULTNO": "10289",
+      "ROCKNAME": "Kulumbe River Intrusions",
+      "probability": 0.8506261608761606,
+      "prediction": 1
+    },
+    {
+      "sample_index": 281,
+      "REFNO": "4363",
+      "RESULTNO": "10294",
+      "ROCKNAME": "Posadas Formation, Parana Basalts",
+      "probability": 0.9668528596660638,
+      "prediction": 1
+    },
+    {
+      "sample_index": 282,
+      "REFNO": "4368",
+      "RESULTNO": "10299",
+      "ROCKNAME": "Pingzhuang Lavas",
+      "probability": 0.8276938686313688,
+      "prediction": 1
+    },
+    {
+      "sample_index": 283,
+      "REFNO": "4384",
+      "RESULTNO": "10319",
+      "ROCKNAME": "Caviahue-Copahue Volcanic Complex",
+      "probability": 0.9901794381179227,
+      "prediction": 1
+    },
+    {
+      "sample_index": 284,
+      "REFNO": "4388",
+      "RESULTNO": "10323",
+      "ROCKNAME": "St.Mary Volcanics",
+      "probability": 0.49824081936581927,
+      "prediction": 0
+    },
+    {
+      "sample_index": 285,
+      "REFNO": "4395",
+      "RESULTNO": "10331",
+      "ROCKNAME": "Prado Sediments",
+      "probability": 0.50393543031043,
+      "prediction": 1
+    },
+    {
+      "sample_index": 286,
+      "REFNO": "4412",
+      "RESULTNO": "10350",
+      "ROCKNAME": "Maieberg Cap Carbonate",
+      "probability": 0.8967425907425903,
+      "prediction": 1
+    },
+    {
+      "sample_index": 287,
+      "REFNO": "4412",
+      "RESULTNO": "10351",
+      "ROCKNAME": "Maieberg Cap Carbonate",
+      "probability": 0.8967425907425903,
+      "prediction": 1
+    },
+    {
+      "sample_index": 288,
+      "REFNO": "4415",
+      "RESULTNO": "10354",
+      "ROCKNAME": "Yingshuiquan and Kanglu formations",
+      "probability": 0.9807457740728536,
+      "prediction": 1
+    },
+    {
+      "sample_index": 289,
+      "REFNO": "4415",
+      "RESULTNO": "10356",
+      "ROCKNAME": "Jiezha Group, Jiapila Formation",
+      "probability": 0.983535054837311,
+      "prediction": 1
+    },
+    {
+      "sample_index": 290,
+      "REFNO": "4420",
+      "RESULTNO": "10361",
+      "ROCKNAME": "Upper Eocene Lavas",
+      "probability": 0.6133377233405886,
+      "prediction": 1
+    },
+    {
+      "sample_index": 291,
+      "REFNO": "4431",
+      "RESULTNO": "10375",
+      "ROCKNAME": "Luobadui Formation",
+      "probability": 0.8501998376598189,
+      "prediction": 1
+    },
+    {
+      "sample_index": 292,
+      "REFNO": "4439",
+      "RESULTNO": "10390",
+      "ROCKNAME": "Kayemravaam and Kovalenko Suites",
+      "probability": 0.9534712676932867,
+      "prediction": 1
+    },
+    {
+      "sample_index": 293,
+      "REFNO": "4443",
+      "RESULTNO": "10394",
+      "ROCKNAME": "Jialazi Formation",
+      "probability": 0.9520116580509652,
+      "prediction": 1
+    },
+    {
+      "sample_index": 294,
+      "REFNO": "4443",
+      "RESULTNO": "10395",
+      "ROCKNAME": "Jialazi Formation",
+      "probability": 0.9520116580509652,
+      "prediction": 1
+    },
+    {
+      "sample_index": 295,
+      "REFNO": "4445",
+      "RESULTNO": "10397",
+      "ROCKNAME": "Backside Beck Section",
+      "probability": 0.8874479773636562,
+      "prediction": 1
+    },
+    {
+      "sample_index": 296,
+      "REFNO": "4447",
+      "RESULTNO": "10405",
+      "ROCKNAME": "Summerville Formation",
+      "probability": 0.9821220337313507,
+      "prediction": 1
+    },
+    {
+      "sample_index": 297,
+      "REFNO": "4453",
+      "RESULTNO": "10415",
+      "ROCKNAME": "Permian Redbeds",
+      "probability": 0.97206630691474,
+      "prediction": 1
+    },
+    {
+      "sample_index": 298,
+      "REFNO": "4456",
+      "RESULTNO": "10419",
+      "ROCKNAME": "Bailong and Cangxi formations",
+      "probability": 0.9566772458587166,
+      "prediction": 1
+    },
+    {
+      "sample_index": 299,
+      "REFNO": "4458",
+      "RESULTNO": "10422",
+      "ROCKNAME": "Mavillette Gabbro (Overprint)",
+      "probability": 0.38625404456654444,
+      "prediction": 0
+    }
+  ]
+}

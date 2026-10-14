@@ -1,0 +1,46 @@
+{
+  "schema_version": "r3_exact_resultno_local_pdf_sample_v1",
+  "status": "PASS",
+  "selection": {
+    "requested_resultno_rows": 300,
+    "actual_resultno_rows": 300,
+    "sampling_unit": "RESULTNO identity row",
+    "method": "first N rows in deterministic hash rank",
+    "salt": "r3-exact-300-resultno-v1",
+    "rank_expression": "SHA256(UTF8(salt + NUL + REFNO + NUL + RESULTNO))",
+    "required_evaluation_grouping": "all selected rows sharing REFNO must remain in the same fold",
+    "labels_read": false,
+    "source_tables_read": false,
+    "pdf_text_read": false,
+    "local_pdf_membership_used": true
+  },
+  "input": {
+    "identity": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_distilled_training_preflight/identity.xlsx",
+    "identity_sha256": "7e45020df48b866096ac4bf567102f6a73ce3c12759b19c8550f78de299c72f1",
+    "rows": 2473,
+    "paper_groups": 1292,
+    "local_pdf_rows": 2172,
+    "local_pdf_paper_groups": 1174,
+    "pdf_dir": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs"
+  },
+  "output": {
+    "identity": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/identity.xlsx",
+    "identity_sha256": "93ea5dfba0a32501a564d06eb020386fd86b11f59ded0982043f90c064ab960b",
+    "rows": 300,
+    "paper_groups": 258,
+    "columns": [
+      "REFNO",
+      "RESULTNO",
+      "ROCKNAME"
+    ],
+    "selected_rows_per_refno_counts": {
+      "1": 224,
+      "2": 28,
+      "3": 4,
+      "4": 2
+    },
+    "maximum_selected_rows_for_one_refno": 4,
+    "selected_row_rank_digest_sha256": "397189af38e4082740ba91915e2200599ca47dc57983a49280f80427d038fa88",
+    "eligible_row_rank_digest_sha256": "87268a1c201ac51f801737572ce923708cc7f78acd214eebf6415d4500fa8e34"
+  }
+}

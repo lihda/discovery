@@ -1,0 +1,196 @@
+{
+  "schema_version": "r3_exact300_bge_semantic_candidate_freeze_v1",
+  "status": "FROZEN_BEFORE_LABEL_ACCESS",
+  "evaluated_folds": [
+    1,
+    2,
+    3
+  ],
+  "candidates": [
+    {
+      "name": "control_component_all_rf8",
+      "numeric_matrix": "combined_plus_component_all",
+      "semantic_views": [],
+      "pca_components": 0,
+      "model": "rf8",
+      "regularization": 0.0
+    },
+    {
+      "name": "bge_target_query_pca64_logreg",
+      "numeric_matrix": null,
+      "semantic_views": [
+        "target_query"
+      ],
+      "pca_components": 64,
+      "model": "logreg",
+      "regularization": 0.1
+    },
+    {
+      "name": "bge_abstract_pca64_logreg",
+      "numeric_matrix": null,
+      "semantic_views": [
+        "abstract"
+      ],
+      "pca_components": 64,
+      "model": "logreg",
+      "regularization": 0.1
+    },
+    {
+      "name": "bge_target_local_pca64_logreg",
+      "numeric_matrix": null,
+      "semantic_views": [
+        "target_local"
+      ],
+      "pca_components": 64,
+      "model": "logreg",
+      "regularization": 0.1
+    },
+    {
+      "name": "bge_target_paper_pca64_logreg",
+      "numeric_matrix": null,
+      "semantic_views": [
+        "target_paper"
+      ],
+      "pca_components": 64,
+      "model": "logreg",
+      "regularization": 0.1
+    },
+    {
+      "name": "bge_evidence_pair_pca96_logreg",
+      "numeric_matrix": null,
+      "semantic_views": [
+        "target_local",
+        "target_paper"
+      ],
+      "pca_components": 96,
+      "model": "logreg",
+      "regularization": 0.1
+    },
+    {
+      "name": "bge_all_views_pca128_logreg",
+      "numeric_matrix": null,
+      "semantic_views": [
+        "target_query",
+        "abstract",
+        "target_local",
+        "target_paper"
+      ],
+      "pca_components": 128,
+      "model": "logreg",
+      "regularization": 0.1
+    },
+    {
+      "name": "bge_relation_logreg",
+      "numeric_matrix": null,
+      "semantic_views": [
+        "relation"
+      ],
+      "pca_components": 0,
+      "model": "logreg",
+      "regularization": 0.1
+    },
+    {
+      "name": "bge_relation_rf8",
+      "numeric_matrix": null,
+      "semantic_views": [
+        "relation"
+      ],
+      "pca_components": 0,
+      "model": "rf8",
+      "regularization": 0.0
+    },
+    {
+      "name": "component_plus_relation_rf8",
+      "numeric_matrix": "combined_plus_component_all",
+      "semantic_views": [
+        "relation"
+      ],
+      "pca_components": 0,
+      "model": "rf8",
+      "regularization": 0.0
+    },
+    {
+      "name": "component_plus_relation_hgb10",
+      "numeric_matrix": "combined_plus_component_all",
+      "semantic_views": [
+        "relation"
+      ],
+      "pca_components": 0,
+      "model": "hgb10",
+      "regularization": 0.0
+    },
+    {
+      "name": "component_plus_local_pca64_rf8",
+      "numeric_matrix": "combined_plus_component_all",
+      "semantic_views": [
+        "target_local"
+      ],
+      "pca_components": 64,
+      "model": "rf8",
+      "regularization": 0.0
+    },
+    {
+      "name": "component_plus_paper_pca64_rf8",
+      "numeric_matrix": "combined_plus_component_all",
+      "semantic_views": [
+        "target_paper"
+      ],
+      "pca_components": 64,
+      "model": "rf8",
+      "regularization": 0.0
+    },
+    {
+      "name": "component_plus_evidence_pca96_rf8",
+      "numeric_matrix": "combined_plus_component_all",
+      "semantic_views": [
+        "target_local",
+        "target_paper"
+      ],
+      "pca_components": 96,
+      "model": "rf8",
+      "regularization": 0.0
+    },
+    {
+      "name": "component_plus_evidence_pca96_logreg",
+      "numeric_matrix": "combined_plus_component_all",
+      "semantic_views": [
+        "target_local",
+        "target_paper"
+      ],
+      "pca_components": 96,
+      "model": "logreg",
+      "regularization": 0.01
+    }
+  ],
+  "threshold": 0.5,
+  "inputs": {
+    "bge_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/bge_semantic_cache_v1/features.npz",
+      "sha256": "38e8826dbd7dab58ca21a1b0efe5eedbcf09c2b9b12c37b7576446d6f8cfd126"
+    },
+    "bge_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/bge_semantic_cache_v1/features.manifest.json",
+      "sha256": "bafe40529d05a836796dd7bd9817412cf4bf82a3062161e3c2cb52d2e12dd686"
+    },
+    "numeric_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/auxiliary_numeric_cache_v1/features.npz",
+      "sha256": "12b600c620ce069f3762a2741aff6b803f2295a2d3c834097eb5bdfbebbe07b5"
+    },
+    "component_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/component_bridge_cache_v1/features.npz",
+      "sha256": "484447755c01e2380dabe4887f70108a76df33b50e956b803fd0458467e7eec0"
+    },
+    "fold_manifest_sha256": "8f6ab8f1a071878e14d4db8e19a7ec0519ed612be107b0f0fdf0489dd59aaf2d"
+  },
+  "runtime_boundary": {
+    "labels_read_at_freeze": false,
+    "field_table_used_as_feature": false,
+    "prior_predictions_or_evaluations_used_as_feature": false,
+    "identifiers_used_as_predictive_features": false,
+    "all_preprocessing_fit_inside_outer_training_partition": true
+  },
+  "script": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/experiment_r3_exact300_bge_semantic_auxiliary.py",
+    "sha256": "3843c710997bc6980a35d9d32f3a270a0931c9290d7c69b8664884a99e787a5a"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "input_adapter": "legacy_excel_v1",
+  "inputs": {
+    "targets": "data/targetsall.xlsx",
+    "pmagresult": "data/source_metadata/PMAGRESULT.xlsx",
+    "rockunit": "data/source_metadata/ROCKUNIT.xlsx",
+    "parsed_dir": "data/parsed_mds",
+    "pdf_dir": "data/raw_pdfs"
+  },
+  "profiles": {
+    "r3_source_mode": "supervised_stable",
+    "r3_policy": "stable_production_v1",
+    "r5_profile": "paper_only",
+    "r7_profile": "source_text"
+  },
+  "runtime": {
+    "r3_workers": 8,
+    "r3_pdfplumber_mode": "fallback",
+    "r3_pdftotext_mode": "never",
+    "r3_stable_model": "data/models/r3_stable_production_v1.joblib",
+    "r3_stable_manifest": "data/models/r3_stable_production_v1.manifest.json",
+    "r3_model_snapshot": "data/models/bge-base-en-v1.5/a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+    "r3_model_device": "cpu"
+  },
+  "output": {
+    "root": "outputs/r1_r7_runs"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": "r3_all_labelled_pdf_mean4_candidate_freeze_v1",
+  "status": "FROZEN_BEFORE_LABEL_ACCESS",
+  "primary_strategy": "mean4",
+  "experts": [
+    {
+      "name": "expert_hgb_combined",
+      "matrix": "combined",
+      "kind": "hgb10",
+      "standardized": false
+    },
+    {
+      "name": "expert_rf_combined",
+      "matrix": "combined",
+      "kind": "rf8",
+      "standardized": false
+    },
+    {
+      "name": "expert_extra_combined",
+      "matrix": "combined",
+      "kind": "extra8",
+      "standardized": false
+    },
+    {
+      "name": "expert_logreg_combined",
+      "matrix": "combined",
+      "kind": "logreg001",
+      "standardized": true
+    }
+  ],
+  "fusion": "uniform arithmetic mean of four expert probabilities",
+  "threshold": 0.5,
+  "coverage": {
+    "labelled_rows": 3173,
+    "labelled_paper_groups": 1627,
+    "pdf_rows": 2751,
+    "pdf_paper_groups": 1478,
+    "skipped_without_pdf_rows": 422,
+    "skipped_without_pdf_paper_groups": 149,
+    "parsed_pdf_rows": 2751,
+    "parsed_pdf_paper_groups": 1478,
+    "skipped_unparseable_pdf_rows": 0,
+    "skipped_unparseable_pdf_paper_groups": 0,
+    "evaluated_rows": 2751,
+    "evaluated_paper_groups": 1478
+  },
+  "fold_manifest": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/refno_fold_manifest.json",
+    "sha256": "9e5660e4891daa5b58078984bf2cb119bab4f0717057cd2248bc55005082afe3"
+  },
+  "feature_manifest": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/combined_features.manifest.json",
+    "sha256": "cd9263e1a8c018f9f0d4cc25c8a1878ed1ae52254423c17968b104d07079bea6"
+  },
+  "runtime_boundary": {
+    "labels_read_at_freeze": false,
+    "pmagresult_or_row_rockmag_used_as_feature": false,
+    "prior_oof_or_evaluation_read": false,
+    "refno_used_only_for_group_isolation": true,
+    "resultno_used_only_for_alignment": true
+  },
+  "canonical_runtime": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "sklearn": "1.6.1"
+  },
+  "script": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/experiment_r3_all_labelled_pdf_grouped_oof.py",
+    "sha256": "59f3154321756763485751711b28a8d2508027d7dff2a5aa0c87e1d54762b994"
+  }
+}

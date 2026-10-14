@@ -1,0 +1,760 @@
+### page_1
+JournalofAsianEarthSciences256(2023)105832
+Contents lists available at ScienceDirect
+Journal of Asian Earth Sciences
+journal homepage: www.elsevier.com/locate/jseaes
+Paleomagnetic study on the Early Permian Gubaoquan doleritic dike swarm
+in the southern Beishan area, NW China: Implications for the tectonic and
+paleogeographic reconstructions of the southern Central Asian
+Orogenic Belt
+Xin Zhua,b,c, Yan Chenc, Bo Wanga,b,*, Yunpeng Donga, St ´ ephane Scailletc, Michel Faurec,
+Xinghua Nib,c, Florian Duvalc
+aState Key Laboratory of Continental Dynamics, Department of Geology, Northwest University, 710069 Xi’an, China
+bState Key Laboratory for Mineral Deposits Research, School of Earth Sciences and Engineering, Nanjing University, 210023 Nanjing, China
+cInstitut des Sciences de la Terre d’Orl´eans, Universit´e d’Orl´eans, CNRS/INSU, 45071 Orl´eans, France
+A R T I C L E I N F O A B S T R A C T
+Keywords: To provide further constraints on the tectonic transition and paleogeography of the southern Central Asian
+Central Asian Orogenic Belt Orogenic Belt (CAOB) during the late Paleozoic to early Mesozoic, a paleomagnetic study has been conducted on
+Paleo-Asian Ocean the Early Permian Gubaoquan doleritic dike swarm in the Beishan region, NW China. Rock magnetic analyses
+Beishan region
+coupled with scanning electron microscope observation show that titanium-poor magnetite is the main magnetic
+Early Permian remanence carrier without obvious alteration. Plagioclase 40Ar/39Ar dating results reveal that the doleritic dike
+Paleomagnetism
+Plagioclase40Ar/39Ar dating swarm intruded at ~282–286 Ma, having undergone no intense posterior thermal overprint. Characteristic
+remanent magnetizations with single reverse polarity are isolated, constituting eight independent directional
+groups. The isolated remanence is suggested to be primary and averages out the paleosecular variation based on
+several lines of evidence. Hereby, an Early Permian paleomagnetic pole for the Beishan region is calculated at
+82.8◦N, 285.6◦E, A95 = 9.2◦ with N = 8 direction groups. This new pole fills spatially the Early Permian
+paleomagnetic data gap in the southern CAOB. The comparison with published contemporaneous paleomagnetic
+poles in the southern CAOB indicates that (1) the Early Permian paleomagnetic poles of the Beishan region and
+Dunhuang Block are indistinguishable, indicating insignificant relative movement since then, negating a broad
+Early Permian ocean between them; (2) the southern CAOB presented a WNW-ESE distributed paleogeography
+with either a residual ocean or a rift basin in its eastern part in the Early Permian; (3) large-magnitude strike-slip
+displacements have played a key role in the tectonic activity of the southern CAOB since the Early Permian.
+1. Introduction transition may shed light on several fundamental problems, such as the
+geodynamics of intracontinental mega-shear zones, their role in the
+The Central Asian Orogenic Belt (CAOB; Jahn, 2004), approximately emplacement of syn-kinematic plutons and pull-apart basins opening (e.
+equivalent to the Altaïds (Sengo¨r et al., 1993), is the largest Phanerozoic g., Wang et al., 2009, 2014; Branquet et al., 2012), stress partitioning
+accretionary orogenic belt in the world. It experienced an important and strain localization in regional-scale transpressional and transten-
+transition from collision/accretion to intracontinental tectonics during sional deformation zones.
+the late Paleozoic to early Mesozoic (e.g., Eizenho¨fer and Zhao, 2018; Bearing such great significance, the precise time for this tectonic
+Han and Zhao, 2018; Wang et al., 2018, 2022; Liu et al., 2019a,b), which transition, or saying the final closure of the Paleo-Asian Ocean (PAO),
+is a turning point for understanding the tectonic and paleogeographic remains contentious, albeit numerous studies have been recently carried
+evolution of the CAOB (e.g., Wang et al., 2007; Ren et al., 2020; Zhao out (e.g., Xiao et al., 2003, 2010; Han et al., 2011; Xu et al., 2013; Klemd
+et al., 2020; Zhang et al., 2021a,b). A better understanding of this et al., 2015; Eizenho¨fer and Zhao, 2018; Loury et al., 2018a). The
+* Corresponding author.
+E-mail address: bwang@nju.edu.cn (B. Wang).
+https://doi.org/10.1016/j.jseaes.2023.105832
+Received 16 June 2023; Received in revised form 9 August 2023; Accepted 25 August 2023
+Availableonline26August2023
+1367-9120/©2023PublishedbyElsevierLtd.
+
+### page_2
+X. Zhu et al. J o u r n a l o f A s ia n E a r t h S c i e n c e s 256(2023)105832
+Beishan region is located between the South Tianshan Suture to the west Guo et al., 2012; Mao et al., 2012; Tian and Xiao, 2020). The controversy
+and the Solonker Fault to the east (Fig. 1a), and thus plays a key role in derives partially from the limited scope of previous approaches, leading
+addressing this problem. The final closure time of the PAO in the Beishan to ambiguous tectonic interpretations. Hence, more data are needed to
+region differs among researchers. Some suggest a post-orogenic exten- provide constraints to this question from different perspectives (e.g.,
+sion or a mantle plume setting for the Beishan region in the Early Chen et al., 2016; Wang et al., 2016; Liu et al., 2019a; Niu et al., 2020).
+Permian (P1), indicating that this segment of the PAO closed in the Paleomagnetism is one of the pertinent methods to unravel such puzzles.
+Carboniferous or even earlier (Zhang et al., 2010,2012; Li et al., 2013; However, paleomagnetic data in the Beishan region are scarce and
+Su et al., 2013; Xu et al., 2021); while others invoke a subduction-related mainly focus on Early Paleozoic kinematics and paleogeography (e.g.,
+environment during the P1, implying the existence of a “Liuyuan Ocean” Huang et al., 2002). Dong et al. (1995) reported preliminary Late
+until the Late Permian to Early Triassic (Xiao et al., 2010; Ao et al., 2010; Paleozoic paleomagnetic poles for the Beishan region which sheds light
+Fig. 1. (a) Simplified tectonic division of eastern Asia (after Jahn, 2004). EEC: East European Craton; KZN: Kazakhstan; Q: Qaidam; SLF: Solonker Fault; STS: South
+Tianshan Suture; (b) geologic map of the Beishan region showing the location of the sampling area (after Xiao et al., 2010 & He et al., 2018a); (c) satellite image of
+studied Gubaoquan doleritic dikes (the yellow dashed lines). (For interpretation of the references to color in this figure legend, the reader is referred to the web
+version of this article.)
+2
+
+### page_3
+X. Zhu et al. J o u r n a l o f A s ia n E a r t h S c i e n c e s 256(2023)105832
+on regional tectonic evolution, but this work lacks robust remanence mafic–ultramafic rocks are interpreted to be emplaced during exten-
+stability tests and the data amount does not meet the current standard. sional tectonics between 295 and 260 Ma (e.g., Su et al., 2010, 2013; Xu
+Moreover, the well-constrained late Paleozoic to early Mesozoic time et al., 2021); however, some other studies indicate for them a
+slices of the southern CAOB, especially the P1 one, are of great impor- subduction-related setting (e.g., Ao et al., 2010; Mao et al., 2012). The
+tance to comprehending the process and mechanism of the aforesaid 451–367 Ma volcanic rocks are proposed to have formed in a magmatic
+transition. Xiao et al. (2015) and Zhao et al. (2018) put forward Permian arc setting (Guo et al., 2014). Carboniferous clastic and carbonate strata
+paleogeographic reconstructions of the CAOB based mainly on geologic are widespread in the western part of the Shuangyingshan terrane, while
+and paleontologic evidence, prompting a similar scissor-like closure of sparsely exposed among Paleozoic granites in other areas. Permian
+the PAO with differences in timing. East Asian blocks were paleomag- clastic and volcanic rocks with a pervasively developed sub-vertical
+netically reconstructed in a global frame by Huang et al. (2018) and cleavage are mainly distributed on the southern part of this terrane
+Dong et al. (2021), whereas some details are worth being refined con- (Niu et al., 2020). In the southernmost part of this terrane, medium- to
+cerning the P1 paleogeography of the southern CAOB. Firstly, micro- high-grade metamorphic rocks crop out along a 10-km-wide belt in the
+continents in the southwestern CAOB with high-quality paleomagnetic Gubaoquan area, mainly including gneisses, enclosing retrogressed
+data, such as the Yili and Turpan-Hami blocks (Zhu et al., 2018,2019), Ordovician eclogite boudins, quartz schists, and migmatites (He et al.,
+should be integrated. Secondly, recently published data for the Mongolia 2018a). To the south, the nearly E-W striking Liuyuan Unit mainly
+Block and North China Craton in the southeastern CAOB (e.g., Zhao contains Permian basalts (some with a pillow shape), diabases, gabbros,
+et al., 2020; Zhang et al., 2021a) deserve to be incorporated. Thirdly, and ultramafic rocks (Mao et al., 2012). Recently, Chen et al. (2016)
+large-magnitude strike-slip displacements since the late Paleozoic reported peperites, pillow basalts with interstitial limestones, and
+revealed by both geologic and paleomagnetic studies need to be thinly-interbedded basalts and limestones from the lower Permian
+considered (e.g., Laurent-Charvet et al., 2003; Wang et al., 2007; Roll- volcano-sedimentary sequence in the Liuyuan area.
+and et al., 2013; He et al., 2021). Most importantly, critically located in Doleritic dikes with NE-SW (40◦–60◦) strike and vertical to sub-
+the central part of the southern CAOB, the Beishan region currently does vertical dip are well developed in the Gubaoquan area, intruding Pre-
+not possess any reliable late Paleozoic to early Mesozoic paleomagnetic cambrian gneisses and Silurian-Devonian granites; the emplacement age
+data, hampering both tectonic and paleogeographic linkages between of the dikes was estimated at 282 ±6 Ma and 281 ±4 Ma based on
+the southwestern and southeastern parts of the CAOB. youngest zircons (Zhang et al., 2015; Xu et al., 2021). Their geochemical
+To estimate the scale of the possible P1 “Liuyuan Ocean” and further characteristics reflect an extensional setting although slab break-off and
+constrain the final closure time of the PAO in the Beishan area, a lithosphere delamination scenarios were proposed respectively (Zhang
+paleomagnetic study has been conducted on the P1 doleritic dike swarm et al., 2015; Xu et al., 2021). Our sampling section is close to the location
+in the Gubaoquan area along the southern boundary of the CAOB where the Gubaoquan eclogites were found (Mei et al., 1999; Liu et al.,
+(Fig. 1b and c). The obtained first P1 Beishan paleomagnetic pole bridges 2011). In this area (N40◦59′21″, E95◦02′10″ - N40◦59′37″, E95◦02′24″),
+the current data gap across the southern CAOB, making it possible to numerous vertical to sub-vertical fresh doleritic dikes striking NE-SW
+achieve a well paleomagnetically constrained P1 paleogeographic intrude Neoproterozoic orthogneisses (Yuan et al., 2015; Fig. 2a–d).
+reconstruction for the southern CAOB. Baked contact can be observed between the doleritic dikes and the augen
+orthogneissic country rock (Fig. 2c–e). Due to poor road conditions, a
+2. Geological background and sampling special sampling strategy was applied in this study. One hundred and
+twenty-five specimens were drilled from 20 dikes and their country rock
+The CAOB is situated between the Tarim and North China cratons to with a portable gasoline drill (section A: BS30; section B: BS31; Fig. 1c).
+the south and the Siberia craton to the north (Fig. 1a), being made up of Specifically, six to fifteen specimens were collected from 11 dikes with
+two first-order tectonic units, i.e., the Kazakhstan Orocline and the widths ranging from 3 to 10 m. For the other 9 thinner dikes, two or
+Tuva-Mongolia Orocline (Sengo¨r et al., 1993; Jahn, 2004; Xiao et al., three specimens were taken from each dike to serve as a qualitative
+2015). As a result of the closure of the PAO, the CAOB was finally reference group. Sixteen specimens were drilled from 4 sites in the
+amalgamated via the collision alongside its southern margin (Han and augen gneisses for a possible baked-contact test. For example, orthog-
+Zhao, 2018). Presently, no consensus is achieved concerning the final neissic specimens were taken from site OG04, located 50 cm, 2 m, and 3
+closure time of the PAO with three major viewpoints: (1) a scissor-like m away from the dike DD05. All specimens were oriented by both
+closure from west to east from the Late Carboniferous to the Early magnetic and solar compasses when possible. The average difference
+Triassic (e.g., Eizenho¨fer and Zhao, 2018; Han and Zhao, 2018; Zhao between the two azimuth readings was calculated at (cid:0) 2.6◦±0.6◦(1σ),
+et al., 2018; Liu et al., 2019a,b); (2) a later scissor-like closure from the which is used to correct the orientation of samples measured only by a
+end of Permian to Middle-Late Triassic (e.g., Zhang et al., 2007; Xiao magnetic compass.
+et al., 2015; Song et al., 2021); and (3) a complex diachronous closure
+starting from the Devonian (e.g., Xu et al., 2013; Zhao et al., 2013). 3. Methods
+The Beishan region is located in the southern margin of the CAOB,
+connecting the Solonker Fault to the east and the South Tianshan Suture Core samples were first cut into standard cylindrical paleomagnetic
+to the west (Fig. 1a; Xiao et al., 2010; Zhang et al., 2015). It truncates the specimens, i.e. 2.5 cm in diameter and 2.2 cm in length, for the mea-
+Chinese Eastern Tianshan by the Xingxingxia Fault to the northwest and surements of magnetic remanence and Anisotropy of Magnetic Suscep-
+is framed by the Dunhuang Block to the south with its eastern part tibility (AMS).
+covered by the Badain Jaran Desert (Fig. 1b). From south to north, the
+Beishan region consists of the Shibanshan, Shuangyingshan, Mazong- 3.1. Rock magnetism and AMS analysis
+shan, Hanshan, and Queershan terranes (the latter two are a possible
+extension of the Eastern Tianshan; e.g., Su et al., 2013; Han and Zhao, For revealing the main magnetic minerals of the paleomagnetic
+2018); these terranes are separated by the Liuyuan unit, and Hongliuhe- samples collected from the doleritic dikes and the orthogneissic country
+Xichangjing, Jijitaizi-Xiaohuangshan, and Hongshishan ophiolitic rock, several magnetic experiments were carried out. Thermomagnetic
+m´elanges with different ages (Fig. 1b; Xiao et al., 2010; He et al., 2018a). experiments were performed on 5 representative rock powder samples
+The Shuangyingshan terrane contains Paleozoic granitic and in the atmosphere using a MFK1 susceptibility meter coupled with a CS-
+mafic–ultramafic intrusions, volcanic rocks, and carbonate and clastic 4 furnace at the Paleomagnetism Laboratory of the Institut des Sciences
+rocks. Granitic rocks with different geochemical characteristics intruded de la Terre d’Orl´eans (ISTO), Orl´eans University. Three or four cycles of
+between 442 and 217 Ma (He et al., 2018a; references therein). The successive heating and cooling to different temperatures were
+3
+
+### page_4
+X. Zhu et al. J o u r n a l o f A s ia n E a r t h S c i e n c e s 256(2023)105832
+Fig. 2. (a, b) Panorama photo and a sketch of the studied doleritic dike swarm (black) intruding orthogneisses (white) in the Gubaoquan area; (c) baked contact
+between a doleritic dike and orthogneissic country rock; (d) partial enlarged picture showing vertical to sub-vertical doleritic dikes; (e) augen structure of the
+country rock.
+conducted on each sample to better characterize possible mineral tran- 3.3. Plagioclase 40Ar/39Ar geochronology
+sition temperatures during the experiment. Magnetic hysteresis loops of
+16 representative samples, using either rock powder or chips, were ac- To identify whether the dikes have experienced posterior tectono-
+quired via a MicroMag Princeton Measurements vibrating sample thermal event(s), microscopic observations were performed on sample
+magnetometer (VSM) equipped in the Paleomagnetism Laboratory of BS30-32, and 40Ar/39Ar dating experiments were conducted at the
+Institut de Physique du Globe de Paris (IPGP). To study the magnetic dating laboratory of the ISTO (Orl´eans University) on the plagioclase
+fabrics, the AMS of specimens were measured using a MFK1 suscepti- selected from doleritic sample BS30-32 using standard selection criteria
+bility meter in the Paleomagnetism Laboratory of the ISTO, Orl´eans for freshness. Standard processes (crushing, hand-picking under a
+University. binocular microscope, and ultrasonic cleaning) were applied to achieve
+the highest possible purity of plagioclase concentrates. After neutron
+irradiation for 10 h in the CLICIT Cd-lined slot of Corvallis Nuclear
+3.2. Scanning electronic microscope (SEM) observation
+Reactor (Oregon State University, United States) along with the FCS
+standard (28.02 ±0.28 Ma, Renne et al., 1998), 40Ar/39Ar experiments
+To visually characterize the main magnetic carrier(s), six represen-
+were performed on small-sized plagioclase concentrates (N216: 4 grains,
+tative samples were chosen to make thin sections for SEM observation.
+220 μg; N218, 4 grains, 210 μg; N219: 5 grains, 260 μg) using a high-
+This observation was conducted using a Merlin Compact ZEISS SEM
+coupled with a Bruker (QUANTAX-XFlash6-30 mm2-resolution 129 eV) resolution Helix SFT mass-spectrometer outfitted to a home-built CO2-
+energy dispersive spectroscopy (EDS) system at ISTO, Orl´eans Univer- laser based extraction system featuring ultra-low argon blanks. Detailed
+operating conditions can be found in Corti et al. (2019). Ages and
+sity. Backscattered SEM images combining the EDS system were used to
+isotope ratios are plotted and tabulated at ±2σ and were calculated
+identify the magnetic minerals. A 15-kV accelerating voltage was set for
+according to Scaillet (2000). WMA refers to the Weighted Mean Age
+the instrument during our analysis.
+4
+
+### page_5
+X. Zhu et al. J o u r n a l o f A s ia n E a r t h S c i e n c e s 256(2023)105832
+calculated by inverse-variance weighing of the steps pooled in the Orl´eans University. The magnetic remanence of specimens was
+weighted mean (as indicated by the arrows in the plots). TGA is Total- measured with a JR-5A spinner magnetometer. Demagnetization results
+Gas Age calculated by summing all the fractions released and by were plotted on orthogonal vector diagrams (Zijderveld, 1967). Visually
+quadratically propagating the attached errors. Pooled age errors include identified linear trajectories were used to isolate characteristic remanent
+procedural errors, decay constants, and isotope abundance errors. magnetizations and determine directions of magnetic components by
+principal component analysis, employing a least-square fit comprising
+3.4. Paleomagnetism three or more demagnetization steps (Kirschvink, 1980), anchoring the
+fitting lines to the origin where appropriate. Dike-mean directions were
+Both progressive alternating field (AF) and thermal de- computed using the principal component analysis-calculated sample
+magnetizations were used to demagnetize the magnetic remanence. The directions with Fisher spherical statistics (Fisher, 1953). The paleo-
+AF demagnetization was conducted on 45% of specimens through 11–13 magnetic data were analyzed with PaleoMac software packages offered
+steps up to 100 mT with intervals varying from 1 to 20 mT. Around by Cogn´e (2003), PMGSC (version 42 by R. Enkin, unpublished), and
+11–13 steps with a 50 ◦C increment from room temperature to 500 ◦C Paleomagnetism.org (Koymans et al., 2016). Plate reconstructions were
+and a 20–30 ◦C increment from 500 ◦C to 570 ◦C were applied for built using the open-source software GPlates (https://www.gplates.org).
+thermal demagnetization on 55% of specimens. Thermal and AF de-
+magnetizations were carried out using a laboratory-built furnace and a
+LDA-3 demagnetizer at the Paleomagnetism Laboratories of ISTO,
+Fig. 3. (a–c) Thermomagnetic curves and (d–g) hysteresis loops of representative samples; (h) Day plot of hysteresis parameters of 16 representative samples; (i) plot
+of anisotropy degree (PJ) versus anisotropy shape (T) of magnetic susceptibility of samples collected from doleritic dikes (in black) and country rocks (orthogneisses,
+in blue); (j–k) anisotropy of magnetic susceptibility measurement results of doleritic dikes (in black) and their country rocks (in blue), respectively. (For inter-
+pretation of the references to color in this figure legend, the reader is referred to the web version of this article.)
+5
+
+### page_6
+X. Zhu et al. J o u r n a l o f A s ia n E a r t h S c i e n c e s 256(2023)105832
+4. Results (Fig. 3a-c), and occasionally tiny decreases at 590–700 ℃ (Fig. 3b and
+c); much higher magnetic susceptibility is often observed on cooling
+4.1. Rock magnetism and AMS analysis curves than heating ones (Fig. 3a, c). After the paramagnetic correction
+using the automatic linear function, room-temperature hysteresis loops
+Thermomagnetic experiments with cycles of successive heating and for most doleritic samples show relatively low coercivity and remanence
+cooling to different temperatures show obvious increases of magnetic coercivity (Fig. 3d-e). Loops of other doleritic and all orthogneissic
+susceptibility during heating at 120–280 ℃ and 400–560 ℃ (Fig. 3a–c), samples indicate soft-coercivity magnetic mineral(s) (Fig. 3f and g).
+significant decreases at 280–400 ℃ and a sharp one at 560–590 ℃ More thermomagnetic experiments and hysteresis loops are shown in
+Fig. 4. Scanning electronic microscope observations and representative energy-dispersive X-ray spectrometer results: (a-c) irregular magnetite grains without
+evident alteration showing exsolution; (d) Ti-poor magnetite grains with the appearance of alteration probably due to excessive polishing; (e-f) irregular pyrite (Py),
+chalcopyrite (Cp), and ilmenite (Ilm) grains; (g-h) iron oxide rims of pyrite grains; and (h-i) cracks and pores without authigenic magnetic minerals.
+6
+
+### page_7
+X. Zhu et al. J o u r n a l o f A s ia n E a r t h S c i e n c e s 256(2023)105832
+Fig. S1. which is probably due to excessive polishing (Fig. 4d). Exsolution
+Accordingly, magnetite is likely the principal magnetic mineral in dramatically decreases effective grain size and has a profound influence
+these rocks with some pyrrhotite and hematite. Multi-phase mineral on minerals’ magnetic properties (Lindsley, 1976a,1976b). In our case, a
+transitions occurred during heating and cooling, including pyrite portion of PSD and possible SD (cannot be observed under SEM)
+altering to magnetite and/or pyrrhotite. After plotting hysteresis pa- magnetite grains could form by this pattern. Abundant irregular pyrite
+rameters of 16 samples from dikes and country rock on the Day plot grains and minor ilmenite and chalcopyrite grains are found (Fig. 4e and
+(Dunlop, 2002), data lie in the region with mixtures of single-domain f). Pyrite grains occasionally show iron oxide rims (Fig. 4g and h). No
+(SD) and multi-domain (MD) magnetite, and that of dikes is closer to authigenic magnetic mineral is present within fractures and pores
+the SD and pseudo-single-domain (PSD) regions (Fig. 3h). (Fig. 4h and i). Furthermore, typical pyrrhotite or hematite grain is not
+AMS data from the doleritic specimens present a low anisotropy observed, possibly due to their low contents and/or small sizes. Corre-
+degree (PJ < 1.056) and a slightly prevailing oblate shape (shape sponding energy-dispersive X-ray spectrometer data are presented in
+parameter T >0) (Fig. 3i). The K3 axes (the minimum axis of the mag- Figs. 4 and S2.
+netic anisotropy ellipsoid; pole of magnetic foliation) are nearly vertical.
+Most K1 axes (the maximum axis of the ellipsoid used to represent the 4.3. Plagioclase 40Ar/39Ar geochronology
+magnetic anisotropy; magnetic lineation) are sub-horizontal with a
+significant convergence in NNE-SSW direction, being nearly parallel to The Gubaoquan dike is mainly composed of plagioclase and pyrox-
+the dikes’ strikes (Fig. 3j). The magnetic fabrics of the orthogneissic ene with similar sizes as well as minor hornblende and Fe-Ti oxides
+country rock are scattered (Fig. 3k) and distinct from those of the (Fig. 5a and b). The plagioclase is more euhedral than the pyroxene that
+doleritic dikes. normally fills in the gaps of intersecting plagioclase crystals, constituting
+a typical ophitic structure (Fig. 5a and b). The sample BS30-32 is rela-
+4.2. SEM observations tively fresh with weak sericitization and chloritization; no obvious
+recrystallization feature of minerals can be observed (Fig. 5a and b).
+Irregular titanium-poor magnetite grains with diameters of 30–150 Three 40Ar/39Ar dating runs were performed on plagioclase extrac-
+μm show clear high-temperature exsolution and no evident alteration ted from Sample BS30-32 collected on the margin of a 10 m-wide
+(Fig. 4a-c). Some titanium-poor magnetite grains with diameters of doleritic dike (Figs. 5c and S3; Table S1). Run N216 shows a quasi-
+50–200 μm also exhibit exsolution, having the appearance of alteration plateau age of 283.8 ± 1.8 Ma over the last eleven steps (70% 39Ar
+Fig. 5. (a and b) Representative microphotographs of Sample BS30-32 (Cpx, clinopyroxene; Pl, plagioclase; Hbl, hornblende; Oxd, Fe-Ti oxides); (c) 40Ar/39Ar
+geochronologic results of plagioclases extracted from Sample BS30-32. WMA refers to the weighted mean age.
+7
+
+### page_8
+X. Zhu et al. J o u r n a l o f A s ia n E a r t h S c i e n c e s 256(2023)105832
+released) after some irregular initial steps (Fig. 5c). In contrast, runs 45–70 mT) characteristic remanent magnetization (ChRM) component
+N218 and N219 exhibit initial concordant ages of 259.9 ±2.6 and 265.6 that trends directly to the origin (Fig. 6d and e). However, a few AF
+± 3.0 Ma, respectively, at low temperature (79% and 67% 39Ar demagnetized specimens show a stable remanent component that trends
+released), followed by a common older age over the last steps (16% and to the origin over a range of moderate fields, but deviates from the origin
+33% 39Ar released, Fig. 5c). at high-field steps (normally > 60 mT; Fig. 6f). We consider the
+component isolated over a range of middle-field steps as ChRM and the
+4.4. Paleomagnetism high-field component as a mixture of ChRM and secondary remanence
+carried by high-coercivity phases such as the iron oxide rims of pyrite
+One hundred and nineteen specimens were paleomagnetically grains (Fig. 4g and h). In thermal demagnetization, some specimens
+treated using either alternating field (AF) or thermal demagnetization. show a remanence that tends to linearly decay to the origin after
+Low-coercivity and low unblocking temperature component could be removing a low-temperature component (Fig. 6g and h). The remanent
+identified from 35 specimens by ~10–25 mT or ~200–250 ◦C in directions of most specimens behave erratically after 560 ℃ (Fig. 6h and
+demagnetization (Fig. 6a-b), directing north with downward moderate- i), which probably results from abundant newly-formed magnetite
+deep inclination (Dg = 354.6◦, Ig = 58.4◦, α 95 = 5.7◦, n = 35). This during heating (Fig. 3a, c). Therefore, comparisons were made between
+component is indistinguishable from the present geomagnetic field (D = AF and thermal demagnetization results to obtain representative ChRM
+0.3◦, I =61.6◦; Fig. 6c; Th´ebault et al., 2015) and is interpreted as a directions. Unfortunately, most orthogneissic specimens show chaotic
+viscous remanent magnetization of the present-day geomagnetic field. demagnetization behavior (Fig. 6j), and only 3 meaningful ChRMs were
+Most AF demagnetized specimens show a high-coercivity (up to isolated from country rock adjacent to the dikes (Fig. 6k and S4;
+Fig. 6. Representative demagnetization curves in the geographic coordinates for specimens from (a-b & d-i) the doleritic dikes and (j-k) the orthogneisses. Note: blue
+arrow represents low unblocking temperature or low-coercivity component (LTC or LCC), and red arrow represents characteristic remanent magnetization (ChRM);
+(c) equal-area projection of isolated LTCs and LCCs, and the comparison between their mean-direction (red star) and present earth field (grey diamond). (For
+interpretation of the references to color in this figure legend, the reader is referred to the web version of this article.)
+8
+
+### page_9
+X. Zhu et al. J o u r n a l o f A s ia n E a r t h S c i e n c e s 256(2023)105832
+Table 1
+Paleomagnetic results of the doleritic and orthogneissic specimens collected from the Gubaoquan area, Beishan region.
+Site S-Lat (N) S-Long (E) n/no (N) R/N Dg (◦) Ig (◦) k α 95 (◦) P-Lat (N◦) P-Long (E◦) A95 (◦)
+Group A
+DD01 40◦59′20.679″ 95◦02′9.964″ 5/6 5/0 196.9 (cid:0) 48.7 1644.8 1.9 72.2 219.3 2.0
+DD05 5/6 5/0 170.7 (cid:0) 58.4 523.9 3.3 82.6 353.1 4.2
+DD06 40◦59′21.893″ 95◦02′5.441″ 5/6 5/0 161.6 (cid:0) 46.5 90.0 8.1 69.9 329.5 8.3
+DD09 11/12 11/0 188.6 (cid:0) 56.1 354.8 2.4 82.0 215.2 3.0
+DD10 6/6 6/0 188.6 (cid:0) 54.4 1270.4 1.9 80.9 224.1 2.3
+DDs0910 17/18 17/0 188.6 (cid:0) 55.5 474.8 1.6 81.6 218.7 1.9
+DD11 6/7 6/0 194.7 (cid:0) 64.6 534.6 2.9 78.1 152.7 4.2
+DD12 0/6
+DD13 5/6 5/0 165.6 (cid:0) 35.9 240.3 4.9 65.6 309.5 4.3
+DD14 6/6 6/0 166.7 (cid:0) 40.5 75.9 7.7 68.9 311.0 7.2
+DDs1314 11/11 11/0 166.2 (cid:0) 38.4 256.2 4.4 67.4 310.2 4.0
+DD17 40◦59′41.243″ 95◦02′25.908″ 13/15 13/0 176.3 (cid:0) 49.9 94.2 4.3 79.3 292.3 4.7
+DD19 40◦59′37.725″ 95◦02′24.556″ 5/6 5/0 176.8 (cid:0) 54.7 961.3 2.5 83.7 299.6 3.0
+Mean10 10 10/0 177.4 ¡51.6 48.3 7.0
+Mean8 8 8/0 177.9 (cid:0) 52.7 51.1 7.8 82.8 285.6 9.2
+Mean* 67 s/82 s 67 s/0 178.3 (cid:0) 52.0 48.2 2.5
+Group B (qualitative reference dikes)
+DD02 2/2 2/0 176.9 (cid:0) 51.1
+DD03 40◦59′20.635″ 95◦02′9.063″ 3/3 3/0 163.3 (cid:0) 43.7 71.2 14.7
+DD04 40◦59′21.268″ 95◦02′8.323″ 2/2 2/0 199.2 (cid:0) 48.7
+DD07 2/2 2/0 169.6 (cid:0) 54.1
+DD08 2/2 2/0 159.2 (cid:0) 56.9
+DD15 2/2 2/0 185.6 (cid:0) 53.8
+DD16 3/3 3/0 162.4 (cid:0) 54.7 150.4 10.1
+DD18 40◦59′38.506″ 95◦02′25.636″ 3/3 3/0 173.7 (cid:0) 55.8 761.8 4.5
+DD20 40◦59′37.333″ 95◦02′24.152″ 2/2 2/0 187.5 (cid:0) 54.5
+Mean* 21 s/21 s 21 s/0 174.0 (cid:0) 53.1 63.2 4.0
+Orthogneissic specimens (country rock)
+OG01 40◦59′20.605″ 95◦02′9.676″ 1/1 1/0 163.6 (cid:0) 25.4
+OG02 40◦59′21.707″ 95◦02′7.543″ 0/4
+OG03 1/7 1/0 156.7 (cid:0) 30.7
+OG04 40◦59′25.065″ 95◦02′1.673″ 1/4 1/0 162.6 (cid:0) 43.0
+Abbreviations: Slat (N◦)/ Slong (N◦), latitude and longitude of sampling sites. n/n0 (N), number of specimens (sites) in calculation/studied.
+R/N, reversed/normal polarity.
+Dg and Ig, declination (D) and inclination (I) in geological (g) coordinates; k, precision parameter; α95, 95% confidence interval.
+Platg, Plongg, and A95, latitude and longitude of paleomagnetic poles in geographic (g) coordinates, and 95% confidence interval.
+DD and OG means doleritic dike and orthogneiss, respectively.
+Mean10: Fisher mean from dike-mean directions of Group A. Mean8: Fisher mean from independent direction groups.
+Mean*: Fisher mean in specimen-level.
+Table 1). The obtained 3 ChRMs share similar directions with the ChRMs ones (>2 m away from dikes), are needed to constitute a rigorous baked-
+isolated from doleritic dikes (Fig. S5), probably reflecting a baked effect. contact test.
+More meaningful ChRMs from country rock samples, especially farther The dike-mean direction was calculated for each dike, while Fisher
+Fig. 7. Equal-area projections in the geographic coordinates of (a-b) dike-mean directions and specimens’ ChRM directions of Group A and their Fisher mean di-
+rections (red and blue pentagrams, respectively); (c) specimens’ ChRM directions of Group B and the Fisher mean direction. (For interpretation of the references to
+color in this figure legend, the reader is referred to the web version of this article.)
+9
+
+### page_10
+X. Zhu et al. J o u r n a l o f A s ia n E a r t h S c i e n c e s 256(2023)105832
+statistics were not given for dikes carrying only 2 ChRMs (Table 1). The Given this, the AMS results serve as the only available data to esti-
+paleomagnetic results were divided into two groups: Group A contains mate the potential tilting so far. Because the doleritic dike samples
+thick dikes whose mean directions were calculated from at least 5 generally show an insignificant Hopkinson effect (Fig. 3a–c and S1), we
+ChRMs, and their radii of 95 percent probability cone for the mean- interpret that the PSD magnetite is probably dominant carrying a normal
+direction (α 95) range from 1.9◦ to 8.1◦; Group B is composed of quali- magnetic fabric. The AMS pattern of the studied dikes is rather inter-
+tative reference dikes with only two or three ChRMs (Table 1). Because esting, yet difficult to understand. It exhibits a principal NNE-SSW k1
+no ChRM was isolated from dike DD12, the mean direction of Group A direction with a vertical K3 direction, resembling a sedimentary fabric
+was acquired as Dg =177.4◦, Ig =(cid:0) 51.6◦, α 95 =7.0◦, n =10 on dike- (Fig. 3j). This magnetic fabric could be interpreted by the following
+level (Fig. 7a) and Dg = 178.0◦, Ig = (cid:0) 52.0◦, α 95 = 2.5◦, n = 67 on acquisition mechanism: the doleritic magma ascended vertically, but
+specimen-level (Fig. 7b). Group B consists of the remaining 9 dikes with when it cooled down with sufficient crystals its viscosity increased
+fewer ChRMs and larger α 95, and its mean direction was calculated on significantly. The balance between gravity and buoyancy coupled with
+specimen-level as Dg = 174.0◦, Ig = (cid:0) 53.1◦, α 95 = 4.0◦, and n = 21 pressure could not support vertical flow, then subhorizontal flow with
+(Fig. 7c). pushes of newly coming magma was possible, and the AMS was probably
+obtained and recorded during the last stage. Taking into consideration
+5. Discussions this AMS acquisition mechanism and the vertical to sub-vertical geom-
+etry of the doleritic dikes (Fig. 2), the studied dikes have probably un-
+5.1. Remanence age and acquisition of the paleomagnetic pole dergone insignificant tilting. On these premises, all doleritic rocks hold a
+sole reversed polarity, which is consistent with remanence acquisition
+The 40Ar/39Ar run N216 yields a quasi-plateau age of 283.8 ±1.8 during the Kiaman Reverse Superchron (Opdyke & Channell, 1996),
+Ma, being consistent with the interpreted U/Pb zircon intrusion age of supplementing an argument for primary remanence.
+the Gubaoquan doleritic dikes (Zhang et al, 2015; Xu et al., 2021). The Paleosecular variation (PSV) has to be averaged out before discus-
+runs N218 and N219 show younger plateau ages at ~260–266 Ma, sing any tectonic implication because paleomagnetic data from a single
+which reflects either later magma-thermal activity with local 40Ar dike are regarded as a spot reading of the geomagnetic field (Lippert
+remobilization because magmatism of such age has been reported in the et al., 2014). Only dike-mean directions from Group A are chosen to
+Beishan area (e.g. in the Xuanwoling and Xijianquanzi areas; Su et al., evaluate directional independence using a common direction test
+2010; Zhang et al., 2010) and Middle Permian strike-slip activities has (McFadden and McElhinny, 1990). Doleritic dikes DD09 and DD10, as
+been widely recognized along the southern rim of the CAOB (e.g., well as DD13 and DD14, share identical directions, respectively, and
+Laurent-Charvet et al., 2003; Loury et al., 2018b), or differential cooling thus they are grouped as DDs0910 and DDs1314 (Fig. 8a). Consequently,
+of the plagioclases due to subgrain domain behavior. In either case, a P1 the mean direction of the 8 direction groups is calculated as Dg =177.9◦,
+age can be considered as the time t when the dikes cooled over the Ig = (cid:0) 52.7◦, α 95 = 7.8◦, n = 8 (Fig. 8a), and a Fisher mean virtual
+blocking temperature of titanium-poor magnetite (>500 ◦C, Fig. 3a–c). geomagnetic pole (VGP) is derived from 8 corresponding VGPs at
+Furthermore, based on the weak interaction between the dikes and 82.8◦N, 285.6◦E with A95 =9.2◦ (A95, the radius of the circle of 95%
+country rock indicated by the AMS pattern (Fig. 3j-k), we suggest that confidence about the pole; Fig. 8b). The angular dispersion (S =13.3◦)
+the second scenario is unlikely, and thus t should be ~282–286 Ma. of our data is comparable to that observed in VGP populations from 0 to
+The isolated ChRMs from the doleritic specimens are interpreted to 5 Ma lavas at similar latitudes (paleolatitudeλ =33.9◦±9.2◦; Sλ28.6 =
+be primary based on the following arguments. Abundant titanium-poor 15.6◦[12.5◦, 18.8◦], Sλ36.1 =15.7◦[14.4◦, 17.0◦]; Johnson et al., 2008).
+magnetite grains with diameters of 30–200 μm are observed under SEM, The A95 (2.85◦) of our ChRMs is within the N-dependent A95 envelope
+showing irregular shapes and no intense alteration (Fig. 4a–d). The clear (A95min =2.23, A95min =5.80) proposed by Deenen et al. (2011). These
+high-temperature exsolution decreases effective grain size, reasonably results suggest that the PSV appears to have been averaged out, though
+having formed smaller PSD and SD grains that are stable carriers of the number of valid dikes is relatively limited. In addition, the mean
+primary remanence (Fig. 4a–d; Butler, 1992). No authigenic mineral directions on specimen-level of Group A and Group B are indistin-
+within fractures and pores is found under SEM, precluding any chemical guishable with an angular difference of 2.7◦±4.7◦(Fig. 8c), suggesting
+remagnetization resulting from orogenic fluids (Fig. 4h and i; Jiao et al., that more sampling would yield essentially a coherent result with a
+2019; Zhang et al., 2019). The possible weak influence of posterior smaller confidence interval. In summary, the Fisher mean VGP (82.8◦N,
+magma-thermal events, which only partially reset the 40Ar/39Ar system 285.6◦E with A95 =9.2◦) can be considered as the P1 (at ~ 282–286 Ma)
+of plagioclase (225–300 ◦C; Cassata et al., 2009) at 266–260 Ma, is paleomagnetic pole for the Beishan region.
+unable to blur the P1 ChRMs carried by magnetite, excluding intense
+thermal remagnetization. Although more data are needed to constitute a 5.2. The scale of the P1 Liuyuan basin & the final closure time of the
+more rigorous baked-contact test, the available results from country middle segment of the PAO
+rocks probably indicate a baked effect produced by the intrusion of
+doleritic dikes (Fig. S5). In addition, the doleritic samples’ hysteresis We would like to acknowledge that two inadequacies exist in our
+parameters distribute in the SD-MD mixing region, which is supposed to study which are indirect structural control and lack of robust remanence
+be a hint of primary remanence (Huang et al., 2017; Fig. 3h). Further- stability tests. No suitable stratum could be found to perform an
+more, the low PJ value of the doleritic dikes suggests no intense posterior adequate structural control on the original occurrence of the studied
+deformation (Fig. 3i). doleritic dikes, and the AMS results serve as the only constraint. Most
+No overlying stratum is preserved, disabling a direct tilt correction remanence stability tests cannot be applied in our case because the
+derived from the attitude of cover rocks. In addition, the Permian strata studied dikes intruded during the Kiaman Reverse Superchron for the
+outcropped near and in the southeast of the Gubaoquan-Hongliuyuan reversal test and are short of structural control for the fold one. The
+fault are thought to be inappropriate to perform a tilt correction on baked-contact test seems to be feasible. Unfortunately, only 3 ChRMs
+the studied doleritic dikes because these strata with pervasive cleavage out of 16 specimens were obtained from country rocks due to their weak
+could have experienced a different tectonic evolution from that of the remanent magnetization, though reflecting a baked effect, being unable
+doleritic dikes. Moreover, the strata near and in the southeast of the to constitute a positive test. However, as discussed above, several lines
+Gubaoquan-Liuyuan fault show generally ENE-WSW strike, and their dip of evidence argue that the ChRMs isolated from the dikes are primary.
+angles increase from 9◦at 20 km southward apart from the fault to 83◦ These two inadequacies cannot be perfectly solved so far, therefore, they
+alongside the fault, resembling an attitude pattern caused by strike-slip should be kept in mind when discussing the implications of our newly
+displacement rather than N-S convergence. obtained paleomagnetic pole.
+10
+
+### page_11
+X. Zhu et al. J o u r n a l o f A s ia n E a r t h S c i e n c e s 256(2023)105832
+Fig. 8. (a) Directional independence evaluation of the dike-mean directions from the Group A; (b) equal-area projection of 8 virtual geomagnetic poles (VGPs)
+calculated from independent direction groups and their Fisher mean (red pentagram); (c) the comparison between the mean directions on specimen-level of Group A
+(in black) and Group B (in red). (For interpretation of the references to color in this figure legend, the reader is referred to the web version of this article.)
+Xu et al. (2019) reported the first P1 paleomagnetic pole for the broad oceanic basin existed between them in the P1.
+Dunhuang Block with high-quality geochronologic constraints, passing Previous researchers have not reached a consensus on the P1 tectonic
+both fold and reverse tests, suggesting no significant inclination shal- setting of the Liuyuan Basin. Some suggest a subduction-related envi-
+lowing (Fig. 9a; Table S2). A quite small A95 (1.6◦) was obtained for this ronment, while others invoke a post-orogenic extension or a mantle
+pole, whereas the samples contain mainly sandstones and sedimentary plume setting. The debate derived from contrary geologic evidence: (1)
+tuffs. As the Dunhuang Block and the Beishan region are separated by P1 ophiolites (286 ±2 Ma) in the Liuyuan Unit are reported (Xiao et al.,
+the Liuyuan Unit considered as a suture zone, these poles constitute a 2010; Mao et al., 2012), whereas peperites and other facies originating
+key coeval pair to permit an estimation of the possible existence of an from magma-sediment mingling are found from the Lower Permian
+oceanic basin between them at the P1 time. The angular difference be- strata in the Liuyuan and Hongliuhe areas (Chen et al., 2016), and the
+tween the P1 paleomagnetic poles of the Beishan region (~282–286 Ma) pillow lavas in the Liuyuan Unit are interlayered with lacustrine sand-
+and Dunhuang Block (281–291 Ma; Xu et al., 2019) is calculated as 8.9◦ stone, claystone and clayey lake deposits (Wang et al., 2016); (2)
+± 9.3◦ (reference point: 41◦N, 95◦E), which is paleomagnetically Subduction-related P1 mafic–ultramafic complexes are reported in the
+insignificant. Therefore, the Beishan region and Dunhuang Block have Hongshishan (282 ±3 Ma) and Pobei areas (Ao et al., 2010), but a post-
+been paleomagnetically welded together at least since the P1, and no orogenic extensional setting is suggested for the Bijiashan and other
+Fig. 9. (a) The compilation of Early Permian paleomagnetic poles for major blocks in the southern CAOB (details in Text S1 and Table S2). (b) Early Permian
+paleogeographic reconstruction of south CAOB (achieved using Gplates). The color of the paleopole matches the color of the corresponding block. Fixed plate ID: 000
+(Earth’s spin axis). Euler rotation parameters: Tarim ((cid:0) 4.7◦, 95.2◦, 30.3◦), Junggar ((cid:0) 67.2◦, (cid:0) 120.9◦, 52.9◦), Yili ((cid:0) 64.9◦, 152.9◦, 27.2◦), Turpan-Hami ((cid:0) 70.1◦,
+169.2◦, 28.6◦), Beishan ((cid:0) 66.2◦, (cid:0) 161.4◦, 26.8◦), Dunhuang ((cid:0) 59.1◦, 158.2◦, 24.0◦), Mongolia ((cid:0) 49.3◦, (cid:0) 110.1◦, 58.5◦), and North China ((cid:0) 47.9◦, (cid:0) 112.7◦, 59.3◦).
+The longitude of the Tarim block is assigned according to its absolute reconstruction introduced in Wei et al. (2020). The paleo-position of the Qaidam-Central Qilian
+Block is without constraint from paleomagnetic data. The Early Permian paleogeographic configuration of other East Asian blocks is mainly modified after Dong
+et al. (2021).
+11
+
+### page_12
+X. Zhu et al. J o u r n a l o f A s ia n E a r t h S c i e n c e s 256(2023)105832
+complexes in the Beishan region (Su et al., 2013). Moreover, widespread respectively; the P1 paleomagnetic poles of the major blocks in the
+P1 alkali-rich high-potassium granites (e.g., Zhang et al., 2012; Li et al., southern CAOB principally distribute along a small circle fitting at our
+2013) and bimodal igneous series (e.g., Su et al., 2013; Wang et al., sampling site, revealing large relative rotations among them since then;
+2016) are recorded in the southern Beishan; (3) A major P1 tectonic the P1 paleolatitude of the major blocks in the southern CAOB pro-
+separation is proposed between the Beishan region and Dunhuang Block gressively decreases eastward (reference site: 41.0◦N, 95.0◦E) from 34◦
+based on provenance analysis and isotopic characteristics of the sedi- ± 6◦N (1σ, west), ~30◦N (only 2 poles, middle) to ~26◦ ± 4◦N (1σ,
+mentary rocks (Guo et al., 2012; Liu et al., 2019a); however, the detritus east).
+from the Dunhuang Block is suggested to arrive in the Beishan region Our newly obtained P1 paleomagnetic pole for the Beishan region
+before the Visean (347–331 Ma; Niu et al., 2020), and Tian and Xiao bridges the data gap between the southwestern and southeastern CAOB,
+(2020) consider rocks cropping out on both sides of the Liuyuan Basin providing constraints on the transition from convergent to intra-
+are comparable both in lithology and age. Although the separation and continental tectonics in the southern CAOB: (1) No broad ocean basin
+mixture between the Angara flora and the Cathaysia flora would shed existed in the southern CAOB during the P1. As indicated by paleo-
+light on the late Paleozoic paleogeographic evolution of the southern magnetic and geologic evidence above, the west and central segments of
+CAOB (Deng et al., 2009; Ren et al., 2020), available paleontologic data the PAO probably closed at least in the P1. Further east, a residual ocean
+cannot help settle the abovementioned dispute so far. basin with <580 ±790 km width likely existed between the Xilinhot-
+Based on our new paleomagnetic results, the scale of the P1 Liuyuan Songliao Block and North China Craton at ~265 Ma (Ren et al.,
+Basin between the Beishan region and Dunhuang Block would not be as 2020). Terrestrial floras were different on either side of the Solonker
+considerable as a conventional ocean. Therefore, the Liuyuan Basin was Suture during the Middle Permian (temperate Angara flora to the north
+more likely under a post-orogenic extension or a mantle plume setting in and tropical-subtropical Cathaysia flora to the south), whereas marine
+the P1 as the geological facts support. Furthermore, the middle segment fauna like Zhesi brachiopods was free to mingle then, supporting a small
+of the PAO closed at least in the P1, appealing for pre-Permian paleo- ocean basin (Shen and Shi, 2002; Deng et al., 2009). The nature of this
+magnetic works to provide key constraints on the final closure time. Permian ocean basin (long-lived or reopened) remains unclear (e.g.,
+Xiao et al., 2003; Xu et al., 2013; Eizenho¨fer and Zhao, 2018; Ren et al.,
+5.3. Tectonic implications and P1 paleogeographic reconstruction of the 2020; Zhao et al., 2020); (2) Large-magnitude intracontinental strike-
+southern CAOB slip displacements and related local vertical-axis rotations acted as the
+major tectonic pattern since the P1 in the southern CAOB. In addition to
+The compilation of P1 paleomagnetic poles for the major blocks in the shearing up to several hundred kilometers along the Erqishi, North
+the southern CAOB is shown in Fig. 9a and described in detail in Text S1 Tianshan, and Nalati Faults (Wang et al., 2007; Zhu et al., 2018,2019),
+and Table S2 (Cheng et al., 1983; Bai et al., 1985; Sharps et al., strike-slip-related rotations are also borne out by Mesozoic shear zones
+1989,1992; Zhao et al., 1990; Li et al., 1991; Ma et al., 1992; Pruner, within and along the margin of the Mongolia Block, such as the Xila-
+1992; Nie et al., 1993; Wu et al., 1993; Li et al., 1995; Fang et al., 1996; mulun Fault (Zhao et al., 2015) and East Gobi Fault (Webb et al., 2010).
+Chen et al., 1997; Xu et al., 1997; Huang et al., 1999; Choulet et al., The counterclockwise rotation of the Mongolia Block poles with respect
+2011, 2013; Li et al., 2012; Zhao et al., 2013, 2020; Yuan and Yang, to the North China Craton poles is interpreted by the sinistral shear
+2015a, 2015b; Zhang et al., 2018, 2021a, 2021b; Zhu et al., 2018, 2019; along the East Gobi Fault Zone (Zhao et al., 2020); (3) Chiefly based on
+Wei et al., 2020). available paleomagnetic data, taking into consideration the large-
+From a regional scale, keeping in mind the confidence intervals, it is magnitude strike-slip movements and other geologic and paleonto-
+clear that the P1 pole of the Beishan region clusters together with the logic evidence, a P1 paleogeographic reconstruction for the southern
+poles of Yili, Turpan-Hami, and Dunhuang blocks (Fig. 9a), suggesting CAOB is achieved (Fig. 9b). The major blocks in the southern CAOB
+that they have been quasi-amalgamated together at least since the P1 presented a WNW-ESE distributed paleogeography in the P1 with a rift
+and no paleomagnetically significant relative movement occurred basin or residual ocean basin in the eastern part (Fig. 9b; Huang et al.,
+among them thereafter. In contrast, the P1 poles of Tarim and Junggar 2018; Zhao et al., 2020; Ren et al., 2020). Presently, the highest latitude
+blocks are different from the poles of the above blocks with significant of the southeastern CAOB mainly resulted from the Mesozoic closure of
+relative rotation and weak latitudinal movement (Fig. 9a). Such move- the Mongol-Okhotsk Ocean (Zhao et al., 1990; Zhao et al., 2020).
+ments were previously interpreted as the result of the large-magnitude
+strike-slip displacements along mega-shear zones and the closure of 6. Conclusions
+pull-apart basins triggered by strike-slip displacements since the P1 (e.g.,
+Wang et al., 2007; Zhu et al., 2018,2019). 1. New plagioclase 40Ar/39Ar geochronological results from the
+These conclusions are supported by geologic evidence, for instance, Gubaoquan doleritic dike swarm indicate that the dikes intruded at
+the formation of ophiolites in the Tianshan and Beishan regions lasted ~282–286 Ma.
+until the Carboniferous, with no unambiguous Permian ophiolite as- 2. Rock magnetic mineralogical study and scanning electron micro-
+semblages (Han and Zhao, 2018; reference therein). The (U)HP com- scope observations reveal a primary magnetic remanence for the
+plexes mainly exposed in the Akeyazi and Atbashi areas have Gubaoquan dikes. Hereby, the first Early Permian paleomagnetic
+Pennsylvanian ages of peak metamorphism and exhumation (e.g., pole (~282–286 Ma) for the Beishan region is calculated at 82.8◦N,
+Klemd et al., 2005, 2011; Simonov et al., 2008; Loury et al., 2018a). P1 285.6◦E, A95 =9.2◦, and N =8 direction groups.
+A-type granitoids are widespread in the western and central southern 3. The insignificant polar difference (8.9◦ ±9.3◦) between Beishan
+CAOB, reflecting mantle plume and/or post-collisional extension/strike- region and Dunhuang Block indicates no obvious relative movement
+slip settings (e.g., Zhang et al., 2010; Dong et al., 2011; Li et al., 2013; occurred between them since the Early Permian, negating a broad
+Loury et al., 2018b). Large-magnitude intracontinental strike-slip dis- Early Permian ocean between them.
+placements occurred in this region since the P1 as revealed by both 4. The southern CAOB presented a WNW-ESE distributed paleoge-
+structural and kinematic studies and geochronologic results (e.g., Lau- ography with a rift basin or residual ocean in its eastern part in the
+rent-Charvet et al., 2003; Loury et al., 2017; He et al., 2018b, 2021; Early Permian.
+Rolland et al., 2020). 5. Large-magnitude strike-slip displacements have played a key
+By compiling the available paleomagnetic data from the southern tectonic role in the southern CAOB since the Early Permian.
+CAOB, the following primary features can be observed (Fig. 9a): there
+are no obvious latitudinal differences among major blocks either in the
+western, central, or eastern parts of the southern CAOB since the P1,
+12
+
+### page_13
+X. Zhu et al. J o u r n a l o f A s ia n E a r t h S c i e n c e s 256(2023)105832
+CRediT authorship contribution statement paleomagnetic data and its geodynamic implications. J. Asian Earth Sci. 42 (5),
+867–884. https://doi.org/10.1016/j.jseaes.2010.07.011.
+Choulet, F., Chen, Y., Cogn´e, J.P., Rabillard, A., Wang, B., Lin, W., Michel, F., Cluzel, D.,
+Xin Zhu: Conceptualization, Investigation, Writing – original draft. 2013. First Triassic palaeomagnetic constraints from Junggar (NW China) and their
+Yan Chen: Methodology, Writing – review & editing. Bo Wang: Fund- implications for the Mesozoic tectonics in Central Asia. J. Asian Earth Sci. 78,
+ing acquisition, Writing – review & editing. Yunpeng Dong: Writing – 371–394. https://doi.org/10.1016/j.jseaes.2013.01.023.
+review & editing. Ste´phane Scaillet: Investigation, Formal analysis. Cogn´e, J.P., 2003. PaleoMac: a MacintoshTM application for treating paleomagnetic data
+and making plate reconstructions. Geochem. Geophy. Geosy. 4 (1), 1007. https://
+Michel Faure: Investigation, Writing – review & editing. Xinghua Ni: doi.org/10.1029/2001GC000227.
+Investigation. Florian Duval: Investigation. Corti, G., Cioni, R., Franceschini, Z., Sani, F., Scaillet, S., Glerum, A., 2019. Aborted
+propagation of the Ethiopian rift caused by linkage with the Kenyan rift. Nat.
+commun. 10, 1309. https://doi.org/10.1038/s41467-019-09335-2.
+Deenen, M.H.L., Langereis, C.G., Van Hinsbergen, D.J.J., Biggin, A.J., 2011.
+Declaration of Competing Interest Geomagnetic secular variation and the statistics of palaeomagnetic directions.
+Geophys. J. Int. 186 (2), 509–520. https://doi.org/10.1111/j.1365-
+246X.2011.05050.x.
+The authors declare that they have no known competing financial
+Deng, S., Wan, C., Yang, J., 2009. Discovery of a late Permian Angara-Cathaysia mixed
+interests or personal relationships that could have appeared to influence flora from Acheng of Heilongjiang, China, with discussions on the closure of the
+the work reported in this paper. Paleoasian Ocean. Sci. China Ser. D Earth Sci. 52 (11), 1746–1755. https://doi.org/
+10.1007/s11430-009-0200-2.
+Dong, Y.P., Sun, S.S., Santosh, M., Zhao, J., Sun, J.P., He, D.F., Shi, X.H., Hui, B.,
+Data availability Cheng, C., Zhang, G.W., 2021. Central China Orogenic Belt and amalgamation of
+East Asian continents. Gondwana Res. 100, 131–194. https://doi.org/10.1016/j.
+Data will be made available on request. gr.2021.03.006.
+Dong, X.B., Yang, H.X., Li, P.W., 1995. The Paleomagnetic study of terrane tectonics in
+geoscience transection from Golmud to Ejin Qi. Chinese J. Geophys. 38 (1), 71–85
+Acknowledgments (in Chinese with English abstract) doi: CNKI:SUN:DQWX.0.1995-S2-007.
+Dong, Y.P., Zhang, G.W., Neubauer, F., Liu, X.M., Hauzenberger, C., Zhou, D.W., Li, W.,
+2011. Syn-and post-collisional granitoids in the Central Tianshan orogen:
+We thank Saloua Ouggahi, Yohan Guyodo, France Lagroix, Gonzalez geochemistry, geochronology and implications for tectonic evolution. Gondwana
+Cano Adriana, Maria Jim´enez Mejías, and Ida Di Carlo for their help in Res. 20, 568–581. https://doi.org/10.1016/j.gr.2011.01.013.
+the laboratories. The Editor Prof. Ibrahim Uysal, Prof. Yann Rolland and Dunlop, D. J., 2002. Theory and application of the Day plot (Mrs/Ms versus Hcr/Hc): 2.
+Application to data for rocks, sediments, and soils. J. Geophys. Res. 107(B3), 2057,
+two anonymous reviewers are appreciated for their constructive com- doi: 10.1029/2001JB000487.
+ments and suggestions. Prof. Huang B. C. is thanked for his suggestions Eizenho¨fer, P.R., Zhao, G.C., 2018. Solonker Suture in East Asia and its bearing on the
+on the early version of the manuscript. This study was co-sponsored by final closure of the eastern segment of the Palaeo-Asian Ocean. Earth Sci. Rev. 186,
+153–172. https://doi.org/10.1016/j.earscirev.2017.09.010.
+the National Natural Science Foundation of China (42161144013,
+Fang, D.J., Jin, G.H., Jiang, L.P., Wang, P.Y., Wang, Z.L., 1996. Paleozoic paleomagnetic
+42202234, 41772225) and China Postdoctoral Science Foundation results and the tectonic significance of Tarim plate. Chinese J. Geophys. 39 (4),
+(2021M692606). The Youth Innovation Team of Shaanxi Universities, 522–532 in Chinese with English abstract.
+Fisher, R., 1953. Dispersion on a sphere. Proc. R. Soc. London 217 (1130), 295–305.
+the MOST Special Fund from the State Key Laboratory of Continental
+https://doi.org/10.1098/rspa.1953.0064.
+Dynamics, Northwest University, the China Scholarship Council Guo, Q.Q., Xiao, W.J., Windley, B.F., Mao, Q.G., Han, C.M., Qu, J.F., Ao, S.J., Li, J.L.,
+(201806190163), LABEX VOLTAIRE (ANR-10-LABX-100-01), and Song, D.F., Yong, Y., 2012. Provenance and tectonic settings of Permian turbidites
+from the Beishan mountains, NW China: implications for the late Paleozoic
+EQUIPEX PLANEX (ANR-11-EQPX-0036) projects are appreciated. accretionary tectonics of the southern Altaids. J. Asian Earth Sci. 49, 54–68. https://
+doi.org/10.1016/j.jseaes.2011.03.013.
+Appendix A. Supplementary material Guo, Q.Q., Xiao, W.J., Hou, Q.L., Windley, B.F., Han, C.M., Tian, Z.H., Song, D.F., 2014.
+Construction of Late Devonian Dundunshan arc in the Beishan orogen and its
+implication for tectonics of southern Central Asian Orogenic Belt. Lithos 184–187,
+Supplementary data to this article can be found online at https://doi. 361–378. https://doi.org/10.1016/j.lithos.2013.11.007.
+org/10.1016/j.jseaes.2023.105832. Han, B.F., He, G.Q., Wang, X.C., Guo, Z.J., 2011. Late carboniferous collision between
+the Tarim and Kazakhstan-Yili terranes in the western segment of the South Tian
+Shan Orogen, Central Asia, and implications for the northern Xinjiang, western
+References China. Earth Sci. Rev. 109 (3–4), 74–93. https://doi.org/10.1016/j.
+earscirev.2011.09.001.
+Han, Y.G., Zhao, G.C., 2018. Final amalgamation of the Tianshan and Junggar orogenic
+Ao, S.J., Xiao, W.J., Han, C.M., Mao, Q.G., Zhang, J.E., 2010. Geochronology and
+collage in the southwestern Central Asian Orogenic Belt: constraints on the closure of
+geochemistry of Early Permian mafic–ultramafic complexes in the Beishan area, the Paleo-Asian Ocean. Earth Sci. Rev. 186, 129–152. https://doi.org/10.1016/j.
+Xinjiang, NW china: implications for late Paleozoic tectonic evolution of the
+southern Altaids. Gondwana Res. 18 (2–3), 466–478. https://doi.org/10.1016/j. earscirev.2017.09.012.
+He, Z.Y., Klemd, R., Yan, L.L., Zhang, Z.M., 2018a. The origin and crustal evolution of
+gr.2010.01.004.
+microcontinents in the Beishan orogen of the southern Central Asian Orogenic Belt.
+Bai, Y., Chen, G., Sun, Q., Sun, Y., Li, Y., Dong, Y., Sun, D., 1985. Late Paleozoic polar Earth Sci. Rev. 185, 1–14. https://doi.org/10.1016/j.earscirev.2018.05.012.
+wander path for the Tarim platform and its tectonic significance. Tectonophysics 139
+(1–2), 145–153. https://doi.org/10.1016/0040-1951(87)90203-4. He, Z.Y., Wang, B., Zhong, L.L., Zhu, X.Y., 2018b. Crustal evolution of the Central
+Tianshan Block: Insights from zircon U-Pb isotopic and structural data from meta-
+Branquet, Y., Gumiaux, C., Sizaret, S., Barbanson, L., Wang, B., Cluzel, D., Li, G.R., sedimentary and meta-igneous rocks along the Wulasitai – Wulanmoren shear zone.
+D em el p a l u a n c a e y m , e A n . t , m 20 e 1 ch 2 a . n S i y s n m k i a n n e d m s a tr t a ic i n m r a e fi st c o / r u a l t t i r o a n m o a f fi th c e s h P e e e rm te i d a n in H tr u u a s n io g n s s h : a n Ni–cu ore Precambrian Res. 314, 111–128. https://doi.org/10.1016/j.precamres.2018.06.003.
+belt (eastern Tianshan, NW China). J. Asian Earth Sci. 56, 240–257. https://doi.org/ He, Z.Y., Wang, B., Ni, X.H., De Grave, J., Scaillet, S., Chen, Y., Liu, J.S., Zhu, X., 2021.
+Structural and kinematic evolution of strike-slip shear zones around and in the
+10.1016/j.jseaes.2012.05.021.
+Central Tianshan: insights for eastward tectonic wedging in the southwest Central
+Butler, R.F., 1992. Paleomagnetism: Magnetic Domains to Geologic Terranes. Blackwell
+Asian Orogenic Belt. J. Struct. Geol. 144, 104279 https://doi.org/10.1016/j.
+Scientific Publications, Boston.
+jsg.2021.104279.
+Cassata, W.S., Renne, P.R., Shuster, D.L., 2009. Argon diffusion in plagioclase and
+Huang, W., Lippert, P.C., Zhang, Y., Jackson, M.J., Dekkers, M.J., Li, J., Hu, X., Zhang, B.,
+implications for thermochronometry: a case study from the Bushveld Complex,
+South Africa. Geochim. Cosmochim. Acta 73, 6600–6612. https://doi.org/10.1016/ Guo, Z., Van Hinsbergen, D.J.J., 2017. Remagnetization of carbonate rocks in
+southern Tibet: perspectives from rock magnetic and petrographic investigations.
+j.gca.2009.07.017. J. Geophys. Res. 122 (4), 2434–2456. https://doi.org/10.1002/2017JB013987.
+Chen, H., Dobson, J.P., Heller, F., Hao, J., 1997. Preliminary paleomagnetic results from
+Huang, B.C., Otofuji, Y., Yang, Z.Y., 1999. Paleomagnetic constraints on the tectonic
+the Upper Carboniferous of Uliastai Block, Inner Mongolia, China. Geophys. Res.
+Lett. 24, 2833–2836. https://doi.org/10.1029/97GL02897. r G e e la o t p i h o y n s s . h R ip e b s. e L tw et e t e . n 2 6 th ( e 6 A ), l a 7 s 8 h 7 a – n 7 / 9 H 0 e . x h i t C tp o s r : r / i / d d o o r i T .o e r r g r / a 1 n 0 e . a 1 n 0 d 2 9 th /1 e 9 N 9 o 9 r G th L 9 C 0 h 0 in 0 a 9 7 B . l ock.
+Chen, S., Guo, Z.J., Qi, J.F., Zhang, Y.Y., Pe-Piper, G., Piper, D.J.W., 2016. Early Permian
+Huang, B.C., Wang, Y.C., Zhu, R.X., Zhang, F., Q., 2002. Paleomagnetism of early
+volcano-sedimentary successions, Beishan, NW China: peperites demonstrate an
+evolving rift basin. J. Volcanol. Geoth. Res. 309, 31–44. https://doi.org/10.1016/j. Paleozoic volcanic rocks from the Beishan area, Gansu of northwest China:
+preliminary insight into early Paleozoic kinemics of the Beishan Terrane. Chinese
+jvolgeores.2015.11.004. Sci. Bull. 47 (18), 1561–1567. https://doi.org/10.1360/02tb9344.
+Cheng, G. L., Bai, Y. H., Li, Y. A., 1983. Paleomagnetism of Lower Permian in the Wusha-
+Huang, B.C., Yan, Y.G., Piper, J.D.A., Zhang, D.H., Yi, Z.Y., Yu, S., Zhou, T.H., 2018.
+Aksu area of Xinjiang. Seismol. Geol. 5(4), 12-12 (in Chinese).
+Paleomagnetic constraints on the paleogeography of the East Asian blocks during
+Choulet, F., Chen, Y., Wang, B., Faure, M., Cluzel, D., Charvet, J., Lin, W., Xu, B., 2011.
+Late Paleozoic paleogeographic reconstruction of Western Central Asia based upon
+13
+
+### page_14
+X. Zhu et al. J o u r n a l o f A s ia n E a r t h S c i e n c e s 256(2023)105832
+late Paleozoic and early Mesozoic times. Earth Sci. Rev. 8–36 https://doi.org/ Mao, Q.G., Xiao, W.J., Windley, B.F., Han, C.M., Guo, Q.Q., 2012. The Liuyuan complex
+10.1016/j. earscirev.2018.02.004. in the Beishan, NW China: a Carboniferous-Permian forearc sliver in the Southern
+Jahn, B. M., 2004. The Central Asia Orogenic Belt and growth of the continental crust in Altaids. Geol. Mag. 149 (3), 483–506. https://doi.org/10.1017/
+the Phanerozoic. In J. Malpas et al. (Eds.), Aspects of the tectonic evolution of China. S0016756811000811.
+Geol. Soc. London, Special Pub. 226, 73–100. doi: 10.1144/GSL.SP.2004.226.01.05. McFadden, P.L., McElhinny, M.W., 1990. Classification of the reversal test in
+Jiao, W., Li, Y., Yang, Z., Liu, J., 2019. A widespread Early Mesozoic remagnetization in paleomagnetism. Geophys. J. Int. 103 (3), 725–729. https://doi.org/10.1111/
+South China. J. Geophys. Res. 124, 88–103. https://doi.org/10.1029/ j.1365-246X.1990.tb05683.x.
+2018JB016707. Mei, H., Yu, H., Li, Q., Lu, S., Li, H., Zuo, Y., Zuo, G., Ye, D., Liu, J., 1999. The first
+Johnson, C.L., Constable, C.G., Tauxe, L., Barendregt, R., Brown, L.L., Coe, R.S., Layer, P., discovery of eclogite and palaeoproterozoic granitoids in the Beishan area,
+Mejia, V., Opdyke, N.D., Singer, B.S., Staudigel, H., Stone, D.B., 2008. Recent northwestern Gansu Province, China. Chinese Sci. Bull. 44, 356–361. https://doi.
+investigations of the 0–5 Ma geomagnetic field recorded by lava flows. Geochem. org/10.1007/BF02885491.
+Geophy. Geosy. 9, Q04032. https://doi.org/10.1029/2007GC001696. Nie, S.Y., Rowley, D.B., Van der Voo, R., Li, M.S., 1993. Paleomagnetism of late Paleozoic
+Kirschvink, J.L., 1980. The least squares line and the analysis of paleomagnetic data. rocks in the Tianshan, northwestern China. Tectonics 12, 568–579. https://doi.org/
+Geophy. J. Inter. 62 (3), 699–718. https://doi.org/10.1111/j.1365246X.1980. 10.1029/92TC00657.
+tb02601.x. Niu, Y.Z., Shi, G.R., Wang, J.Q., Liu, C.Y., Zhou, J.L., Lu, J.C., Song, B., Xu, W., 2020. The
+Klemd, R., Bro¨cker, M., Hacker, B.R., Gao, J., Gans, P., Wemmer, K., 2005. New age closing of the southern branch of the Paleo-Asian Ocean: constraints from
+constraints on the metamorphic evolution of the high-pressure/low-temperature belt sedimentary records in the southern Beishan Region of the Central Asian Orogenic
+in the western Tianshan Mountains, NW China. J. Geol. 113, 157–168. https://doi. Belt, NW China. Mar. Petrol. Geol. 124 https://doi.org/10.1016/j.
+org/10.1086/427666. marpetgeo.2020.104791.
+Klemd, R., Gao, J., Li, J.L., Meyer, M., 2015. Metamorphic evolution of (ultra)-high- Opdyke, N.D., Channell, J.E.T., 1996. Magnetic stratigraphy. Int. Geophys. Ser. 64,
+pressure subduction-related transient crust in the South Tianshan Orogen (Central 1–346.
+Asian Orogenic Belt): geodynamic implications. Gondwana Res. 28, 1–25. https:// Pruner, P., 1992. Palaeomagnetism and palaeogeography of Mongolia from the
+doi.org/10.1016/j.gr.2014.11.008. Carboniferous to the Cretaceous-final report. Phys. Earth Planet. In. 70 (3–4),
+Koymans, M.R., Langereis, C.G., Pastor-Gala´n, D., Hinsbergen, D.J.J.V., 2016. 169–177. https://doi.org/10.1016/0031-9201(92)90179-Y.
+Paleomagnetism.org: An online multi-platform open source environment for Ren, Q., Zhang, S., Gao, Y., Zhao, H., Wu, H., Yang, T., Li, H., 2020. New Middle–Late
+paleomagnetic data analysis. Comput. Geosci. 93, 127–137. https://doi.org/ Permian paleomagnetic and geochronological results from Inner Mongolia and their
+10.1016/j.cageo.2016.05.007. paleogeographic implications. J. Geophys. Res. 125, e2019JB019114. doi: 10.1029/
+Laurent-Charvet, S., Charvet, J., Moni´e, P., Shu, L.S., 2003. Late Paleozoic strike-slip 2019JB019114.
+shear zones in eastern Central Asia (NW China): new structural and geochronological Renne, P., Swisher, C., Deino, A., Karner, D., Owens, T., DePaolo, D., 1998.
+data. Tectonics 22 (2), 1009. https://doi.org/10.1029/2001TC901047. Intercalibration of standards, absolute ages and uncertainties in 40Ar/39Ar dating.
+Li, Y. A., Li, Q., Zhang, H., Sun, D. J., Cao, Y., Wu, S. Z., 1995. Paleomagnetic study of Chem. Geol. 145, 117–152. https://doi.org/10.1016/S0009-2541(97)00159-9.
+Tarim and its adjacent area as well as the formation and evolution of the basin. Rolland, Y., Alexeiev, D.V., Kro¨ner, A., Corsini, M., Loury, C., Moni´e, P., 2013. Late
+Xinjiang Geol. 13(4), 293–378 (in Chinese with English abstract). doi: CNKI:SUN: Palaeozoic to Mesozoic kinematic history of the Talas-Ferghana strike-slip fault
+XJDI.0.1995-04-000. (Kyrgyz West Tianshan) as revealed by 40Ar/39Ar dating of syn-kinematic white
+Li, P., Zhang, S., Gao, R., Li, H., Zhao, Q., Li, Q., Guan, Y., 2012. New Upper mica. J. Asian Earth Sci. 67, 76–92. https://doi.org/10.1016/j.jseaes.2013.02.012.
+Carboniferous-Lower Permian Paleomagnetic Results from the Central Inner Rolland, Y., Jourdon, A., Petit, C., Bellahsen, N., Loury, C., Sobel, E.R., Glodny, J., 2020.
+Mongolia and Their Geological Implications. J. Jilin Univ. (Earth Sci. Edition), 42, Thermochronology of the highest central Asian massifs (Khan Tengri-Pobedi, SE
+423–434 (in Chinese with English abstract). doi: 10.13278/j.cnki.jjuese.2012. Kyrgyztan): Evidence for Late Miocene (ca. 8 Ma) reactivation of Permian faults and
+s1.053. insights into building the Tian Shan. J. Asian Earth Sci. 200, 104466 https://doi.org/
+Li, Y.P., Sharps, R., Mcwilliams, M., Li, Y., Li, Q., Zhang, W., 1991. Late Paleozoic 10.1016/j.jseaes.2020.104466.
+paleomagnetic results from the Junggar block, northwestern China. J. Geophys. Res. Scaillet, S., 2000. Numerical error analysis in 40Ar/39Ar dating. Chem. Geol. 162,
+96 (B10), 16047–16060. https://doi.org/10.1029/91JB01619. 269–298. https://doi.org/10.1016/S0009-2541(99)00149-7.
+Li, S., Wilde, S.A., Wang, T., 2013. Early Permian post-collisional high-k granitoids from Sengo¨r, A.M.C., Natal’in, B.A., Burtman, V.S., 1993. Evolution of the Altaid tectonic
+Liuyuan area in southern Beishan orogen, NW China: petrogenesis and tectonic collage and Palaeozoic crustal growth in Eurasia. Nature 364 (6435), 299–307.
+implications. Lithos 179, 99–119. https://doi.org/10.1016/j.lithos.2013.08.002. https://doi.org/10.1038/364299a0.
+Lindsley, D.H., 1976a. The crystal chemistry and structure of oxide minerals as Sharps, R., Mcwilliams, M., Li, Y., Cox, A., Zhang, Z., Zhai, Y., Gao, Z., Li, Y., Li, Q., 1989.
+exemplified by the Fe-Ti oxides. In: Rumble, D. (Ed.), Oxide Minerals. Mineralogical Lower Permian paleomagnetism of the Tarim block, northwestern China. Earth
+Society of America, Washington, D.C., pp. 1–60 Planet. Sci. Lett. 92 (3–4), 275–291. https://doi.org/10.1016/0012-821X(89)90052-
+Lindsley, D.H., 1976b. Experimental studies of oxide minerals. In: Rumble, D. (Ed.), 6.
+Oxide Minerals. Mineralogical Society of America, Washington, D.C., pp. 61–88 Sharps, R., Li, Y.P., McWilliams, M., Li, Y.G., 1992. Paleomagnetic investigation of upper
+Lippert, P.C., Van Hinsbergen, D.J., Dupont-Nivet, G., 2014. Early Cretaceous to present Permian sediments in the south Junggar Basin, China. J. Geophys. Res. 97 (B2),
+latitude of the central proto-Tibetan Plateau: a paleomagnetic synthesis with 1753–1765. https://doi.org/10.1029/91JB02741.
+implications for Cenozoic tectonics, paleogeography, and climate of Asia. Geol. Soc. Shen, S.Z., Shi, G.R., 2002. Paleobiogeographical extinction patterns of Permian
+America Special Papers 507, 1–21. https://doi.org/10.1130/2014.2507(01). brachiopods in the Asian–western Pacific region. Paleobiology 28 (4), 449–463.
+Liu, X., Chen, B., Jahn, B.M., Wu, G., Liu, Y., 2011. Early paleozoic (ca. 465 ma) eclogites https://doi.org/10.1666/0094-8373(2002)028<0449:PEPOPB>2.0.CO;2.
+from Beishan (NW China) and their bearing on the tectonic evolution of the southern Simonov, V.A., Sakiev, K.S., Volkova, N.I., Stupakov, S.I., Travin, A.V., 2008. Conditions
+Central Asian Orogenic Belt. J. Asian Earth Sci. 42 (4), 715–731. https://doi.org/ of formation of the Atbashi Ridge eclogites (South Tien Shan). Russ. Geol. Geophys.
+10.1016/j.jseaes.2010.10.017. 49, 803–815. https://doi.org/10.1016/j.rgg.2008.04.001.
+Liu, Q., Zhao, G.C., Han, Y.G., Zhu, Y.L., Wang, B., Eizenho¨fer, P.R., Zhang, X.R., 2019a. Song, D.F., Xiao, W.J., Windley, B.F., Mao, Q.G., Ao, S.J., Wang, H.Y.C., Li, R., 2021.
+Detrital zircon provenance constraints on the final closure of the middle segment of Closure of the Paleo-Asian Ocean in the Middle-Late Triassic (Ladinian-Carnian):
+the Paleo-Asian Ocean. Gondwana Res. 69, 73–88. https://doi.org/10.1016/j. evidence from provenance analysis of retroarc sediments. Geophys. Res. Lett. 48,
+gr.2019.01.001. e2021GL094276. doi: 10.1029/2021GL094276.
+Liu, Q., Zhao, G.C., Han, Y.G., Zhu, Y.L., Wang, B., Eizenho¨fer, P.R., Zhang, X.R., Tsui, R. Su, B.X., Qin, K.Z., Sun, H., Wang, H., 2010. Geochronological, petrological,
+W.T., 2019b. Timing of the final closure of the middle segment of the Paleo-Asian mineralogical and geochemical studies of the Xuanwoling mafic–ultramafic
+Ocean: insights from geochronology and geochemistry of Carboniferous-Triassic intrusion in the Beishan area, Xinjiang. Acta Petrol. Sin. 26, 3283–3294 in Chinese
+volcanosedimentary successions in western Inner Mongolia, China. Geol. Soc. Am. with English abstract). DOI: CNKI:SUN:YSXB.0.2010-11-011.
+Bull. 131 (5–6), 941–965. https://doi.org/10.1130/B32023.1. Su, B.X., Qin, K.Z., Santosh, M., Sun, H., Tang, D.M., 2013. The Early Permian mafic-
+Loury, C., Rolland, Y., Guillot, S., Mikolaichuk, A.V., Lanari, P., Bruguier, O., Bosch, D., ultramafic complexes in the Beishan Terrane, NW china: Alaskan-type intrusives or
+2017. Crustal-scale structure of South Tien Shan: implications for subduction rift cumulates? J. Asian Earth Sci. 66, 175–187. https://doi.org/10.1016/j.
+polarity and Cenozoic reactivation. Geol. Soc. London 427, 197–229. https://doi. jseaes.2012.12.039.
+org/10.1144/SP427.4. Th´ebault, E., Finlay, C.C., Beggan, C.D., Alken, P., Aubert, J., Barrois, O., et al., 2015.
+Loury, C., Rolland, Y., Guillot, S., Lanari, P., Ganino, C., Melis, R., Jordon, A., Petit, C., International Geomagnetic Reference Field: the 12th generation. Earth Planet Sp. 67
+Beyssac, O., Gallet, S., Moni´e, P., 2018a. Tectonometamorphic evolution of the (1), 79. https://doi.org/10.1186/s40623-015-0228-9.
+Atbashi high-P units (Kyrgyz CAOB, Tien Shan): implications for the closure of the Tian, Z.H., Xiao, W.J., 2020. An Andean-type arc transferred into a Japanese-type arc at
+Turkestan Ocean and continental subduction–exhumation of the South Kazakh final closure stage of the Palaeo-Asian Ocean in the southernmost of Altaids. Geol. J.
+continental margin. J. Metamor. Geol. 36 (8), 959–985. https://doi.org/10.1111/ 55 (3), 2023–2043. https://doi.org/10.1002/gj.3700.
+jmg.12423. Wang, B., Chen, Y., Zhan, S., Shu, L., Faure, M., Cluzel, D., Laurent-Charvet, S., 2007.
+Loury, C., Rolland, Y., Lanari, P., Guillot, S., Bosch, D., Ganino, C., Jourdon, A., Petit, C., Primary Carboniferous and Permian paleomagnetic results from the Yili Block (NW
+Gallet, S., Moni´e, P., Riel, N., 2018b. Permian charnockites in the Pobeda area: China) and their implications on the geodynamic evolution of Chinese Tianshan Belt.
+implications for Tarim mantle plume activity and HT metamorphism in the South Earth Planet. Sci. Lett. 263 (3–4), 288–308. https://doi.org/10.1016/j.
+Tien Shan range. Lithos 304, 135–154. https://doi.org/10.1016/j. epsl.2007.08.037.
+lithos.2018.01.025. Wang, B., Cluzel, D., Shu, L., Faure, M., Charvet, J., Chen, Y., Meffre, S., de Jong, K.,
+Ma, X. H., Yang, Z. Y., Xing, L. S., Xu, S. J., Zhang, J. X., 1992. A preliminary study on the 2009. Evolution of calc-alkaline to alkaline magmatism through carboniferous
+characteristics of the Permian-Triassic magnetostratigraphy in Ordos Basin. Chinese convergence to Permian transcurrent tectonics, western Chinese Tianshan. Int. J.
+Sci. Bull. 37, 252–255 (in Chinese). doi: CNKI:SUN:KXTB.0.1992-03-017. Earth Sci. 98 (6), 1275–1298. https://doi.org/10.1007/s00531-008-0408-y.
+14
+
+### page_15
+X. Zhu et al. J o u r n a l o f A s ia n E a r t h S c i e n c e s 256(2023)105832
+Wang, B., Cluzel, D., Jahn, B.M., Shu, L., Chen, Y., Zhai, Y., Branquet, Y., Barbanson, L., Orogenic Belt. Precambrian Res. 266, 409–424. https://doi.org/10.1016/j.
+Sizaret, S., 2014. Late Paleozoic pre- and syn-kinematic plutons of the Kangguer- precamres.2015.05.034.
+Huangshan shear zone; inference on the tectonic evolution of the eastern Chinese Zhang, L.F., Ai, Y.L., Li, X.P., Rubatto, D., Song, B., Williams, S., Song, S.G., Ellis, D.,
+north Tianshan. Am. J. Sci. 314 (1), 43–79. https://doi.org/10.2475/01.2014.02. Liou, J.G., 2007. Triassic collision of western Tianshan orogenic belt, China:
+Wang, Y., Luo, Z.H., Santosh, M., Wang, S.Z., Wang, N., 2016. The liuyuan volcanic belt evidence from SHRIMP U-Pb dating of zircon from HP/UHP eclogitic rocks. Lithos
+in NW China revisited: evidence for Permian rifting associated with the assembly of 96, 266–280. https://doi.org/10.1016/j.lithos.2006.09.012.
+continental blocks in the Central Asian Orogenic Belt. Geol. Mag. 154 (02), 265–285. Zhang, D. H., Huang, B. C., Zhao, G. C., Meert, J. G., Williams, S., Zhao, J., Zhou, T. H,
+https://doi.org/10.1017/S0016756815001077. 2021a. Quantifying the extent of the paleo-asian ocean during the late carboniferous
+Wang, B., Zhai, Y.Z., Kapp, P., de Jong, K., Zhong, L.L., Liu, H.S., Ma, Y.Z., Gong, H.J., to early permian. Geophys. Res. Lett. 48, e2021GL094498. doi: 10.1029/
+Geng, H.Y., 2018. Accretionary tectonics of back-arc oceanic basins in the South 2021GL094498.
+Tianshan: insights from structural, geochronological, and geochemical studies of the Zhang, D. H, Huang, B. C, Meert, J. G., Zhao, G. C, Zhao, J., Zhao, Q, 2021b. Micro-blocks
+Wuwamen ophiolite melange. Geol. Soc. Am. Bull. 130, 284–306. https://doi.org/ in NE Asia amalgamated into the unified Amuria block by ~300 Ma: First
+10.1130/b31397.1. paleomagnetic evidence from the Songliao block, NE China. J. Geophys. Res. 126,
+Wang, B., Song, F., Ni, X.H., Cao, T.T., Liu, J.S., Zhong, L.L., Sun, Z.C., Sun, Y.X., e2021JB022881. doi: 10.1029/2021JB022881.
+Deng, J., Li, Y.Y., Zhu, X., Liu, H.S., He, Z.Y., 2022. Paleozoic accretionary Zhang, D.H., Huang, B.C., Zhao, J., Meert, J.G., Zhang, Y., Liang, Y.L., Bai, Q.H., Zhou, T.
+orogenesis and major transitional tectonic events of the Tianshan orogen. Acta Geol. H., 2018. Permian paleogeography of the eastern CAOB: Paleomagnetic constraints
+Sin. 96 (10), 3514–3540 (in Chinese with English abstract). doi: 10.19762/j.cnki. from volcanic rocks in central eastern Inner Mongolia, NE China. J. Geophys. Res.
+dizhixuebao.2022081. 123 (4), 2559–2582. https://doi.org/10.1002/2018JB015614.
+Webb, L.E., Johnson, C.L., Minjin, C., 2010. Late triassic sinistral shear in the east gobi Zhang, Y., Muxworthy, A.R., Jia, D., Wei, G., Xia, B., Wen, B., Wang, M., Liu, W.,
+fault zone, Mongolia. Tectonophysics 495, 246–255. https://doi.org/10.1016/j. Brzozowski, M., 2019. Identifying and dating the destruction of hydrocarbon
+tecto.2010.09.033. reservoirs using secondary chemical remanent magnetization. Geophys. Res. Lett. 46
+Wei, B., Yang, X., Cheng, X., Domeier, M., Wu, H., Kravchinsky, V. A., Zhou, Y., Jiang, N., (20), 11100–11108. https://doi.org/10.1029/2019GL084812.
+Wu, Y., Huo, F., Zhang, W., Zhang, Y., Shao, R., 2020. An absolute paleogeographic Zhang, W., Wu, T.R., He, Y.K., Feng, J.C., Zheng, R.G., 2010. LA-ICP-MS zircon U-Pb ages
+positioning of the early Permian Tarim large igneous province. J. Geophys. Res. 125 of Xijianquanzi alkali-rich potassium-high granites in Beishan, Gansu Province, and
+(5), e2019JB019111. doi: 10.1029/2019JB019111. their tectonic significances. Acta Petrol. Miner. 29, 719–731 in Chinese with English
+Wu, H.N., Zhou, L.F., Zhao, Z.Y., 1993. Paleomagnetic study of Carboniferous and abstract. doi: 10.3969/j.issn.1000-6524.2010.06.009.
+Permian rocks from the Alashan and surrounding regions and its tectonic Zhang, W., Wu, T., Zheng, R., Feng, J., Luo, H., He, Y., Cao, X., 2012. Post-collisional
+implications. Sci. China Ser. B 23 (5), 527–536 (in Chinese). doi: CNKI:SUN: Southeastern Beishan granites: geochemistry, geochronology, Sr-Nd-Hf isotopes and
+JBXK.0.1993-05-011. their implications for tectonic evolution. J. Asian Earth Sci. 58, 51–63. https://doi.
+Xiao, W.J., Windley, B.F., Hao, J., Zhai, M.G., 2003. Accretion leading to collision and org/10.1016/j.jseaes.2012.07.004.
+the Permian Solonker suture, Inner Mongolia, China: termination of the central Zhang, Y., Yuan, C., Sun, M., Long, X., Xia, X., Wang, X., Huang, Z., 2015. Permian
+Asian orogenic belt. Tectonics 22 (6), 1069. https://doi.org/10.1029/ doleritic dikes in the Beishan Orogenic Belt, NW China: asthenosphere-lithosphere
+2002TC001484. interaction in response to slab break-off. Lithos 233 (4), 174–192. https://doi.org/
+Xiao, W.J., Mao, Q., Windley, B.F., Han, C.M., Qu, J.F., Zhang, J.E., Ao, S.J., Guo, Q.Q., 10.1016/j.lithos.2015.04.001.
+Cleven, N.R., Lin, S.F., 2010. Paleozoic multiple accretionary and collisional Zhao, P., Chen, Y., Xu, B., Faure, M., Shi, G., Choulet, F., 2013. Did the Paleo-Asian
+processes of the Beishan orogenic collage. Am. J. Sci. 310, 1553–1594. https://doi. Ocean between North China Block and Mongolia Block exist during the late
+org/10.2475/10.2010.12. Paleozoic? First paleomagnetic evidence from central-eastern Inner Mongolia,
+Xiao, W.J., Windley, B.F., Sun, S., Li, J.L., Huang, B.C., Han, C.M., Yuan, C., Sun, M., China. J. Geophys. Res. 118 (5), 1873–1894. https://doi.org/10.1002/jgrb.50198.
+Chen, H.L., 2015. A tale of amalgamation of three Permo-Triassic Collage Systems in Zhao, X., Coe, R.S., Zhou, Y., Wu, H., Wang, J., 1990. New paleomagnetic results from
+Central Asia: oroclines, sutures, and terminal accretion. Annu. Rev. Earth Planet. Sci. northern China: collision and suturing with Siberia and Kazakhstan. Tectonophysics
+43 (1), 477–507. https://doi.org/10.1146/annurev-earth-060614-105254. 181 (1–4), 43–81. https://doi.org/10.1016/0040-1951(90)90008-V.
+Xu, B., Charvet, J., Chen, Y., Zhao, P., Shi, G.Z., 2013. Middle Paleozoic convergent Zhao, P., Appel, E., Xu, B., Sukhbaatar, T., 2020. First paleomagnetic result from the
+orogenic belts in western Inner Mongolia (China): framework, kinematics, Early Permian volcanic rocks in northeastern Mongolia: evolutional implication for
+geochronology and implications for tectonic evolution of the Central Asian Orogenic the Paleo-Asian Ocean and the Mongol-Okhotsk Ocean. J. Geophys. Res. 125,
+Belt. Gondwana Res. 23 (4), 1324–1364. https://doi.org/10.1016/j.gr.2012.05.015. e2019JB017338. doi: 10.1029/2019JB017338.
+Xu, G., Duan, J., Gao, W.B., Wang, R.M., Shi, Z., Ma, B.C., Sun, J., 2021. Zhao, G.C., Wang, Y.J., Huang, B.C., Dong, Y.P., Yu, S., 2018. Geological reconstructions
+Geochronological and geochemical constraints on the petrogenesis of permian of the East Asian blocks: from the breakup of Rodinia to the assembly of Pangea.
+dolerite dyke swarms in the beishan orogenic belt, NW China. Front. Earth Sci. 9, Earth Sci. Rev. 186, 262–286. https://doi.org/10.1016/j.earscirev.2018.10.003.
+657716 https://doi.org/10.3389/feart.2021.657716. Zhu, X., Wang, B., Chen, Y., Liu, H., Horng, C.S., Choulet, F., Faure, M., Shu, L., Xue, Z.,
+Xu, X., Harbert, W., Dril, S., Kravchinksy, V., 1997. New paleomagnetic data from the 2018. First early Permian paleomagnetic pole for the Yili block and its implications
+Mongol-Okhotsk collision zone, Chita region, south-central Russia: Implications for for late Paleozoic postorogenic kinematic evolution of the SW central Asian Orogenic
+Paleozoic paleogeography of the Mongol-Okhotsk Ocean. Tectonophysics 269 (1–2), Belt. Tectonics 37 (6), 1709–1732. https://doi.org/10.1029/2017TC004642.
+113–129. https://doi.org/10.1016/S0040-1951(96)00140-0. Zhu, X., Wang, B., Chen, Y., Liu, H., 2019. Constraining the intracontinental tectonics of
+Xu, W., Sun, Z.M., Shi, G.R., Lu, J.C., Yu, L., Niu, Y.Z., Zhao, Y., Han, X.F., Wang, B.W., the SW central asian orogenic belt by the early permian paleomagnetic pole for the
+Song, B., Cao, Y., 2019. First report of coupled Early Permian paleomagnetic and turfan-hami block. J. Geophys. Res. 124 (12), 12366–12387. https://doi.org/
+geochronologic data from the Dunhuang block (NW China), and its implications for 10.1029/2019JB017680.
+the tectonic evolution of the Paleo-Asian ocean. Gondwana Res. 67, 46–63. https:// Zijderveld, J.D.A., 1967. A.C. demagnetization of rocks: analysis of results. In:
+doi.org/10.1016/j.gr.2018.10.012. Collinson, D.W., Creer, K.M., Runcorn, S.K. (Eds.), Methods on Paleomagnetism.
+Yuan, W., Yang, Z.Y., 2015a. The Alashan Terrane was not part of North China by the Elsevier, New York, pp. 245–286.
+Late Permian: evidence from Carboniferous and Permian paleomagnetic results.
+J. Asian Earth Sci. 104, 145–159. https://doi.org/10.1016/j.jseaes.2014.02.010.
+Further reading
+Yuan, W., Yang, Z.Y., 2015b. The alashan terrane was not part of north china by the late
+devonian: evidence from detrital zircon U-Pb geochronology and Hf isotopes.
+Gondwana Res. 27 (3), 1270–1282. https://doi.org/10.1016/j.gr.2013.12.009. Tian, S., Li, Z., Zhang, Y., Gong, Y., Zhai, D., Wang, M., 2016. Late Carboniferous-
+Yuan, Y., Zong, K., He, Z., Klemd, R., Liu, Y., Hu, Z., Guo, J., Zhang, Z., 2015. Permian tectono-geographical conditions and development in eastern Inner
+Geochemical and geochronological evidence for a former early Neoproterozoic Mengolia and adjacent areas. Acta Geol. Sin. 90(4), 688–707. doi: CNKI:SUN:
+microcontinent in the south Beishan Orogenic Belt, southernmost Central Asian DZXE.0.2016-04-007.
+15

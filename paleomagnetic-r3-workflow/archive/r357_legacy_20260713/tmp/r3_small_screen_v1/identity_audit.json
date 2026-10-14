@@ -1,0 +1,30 @@
+{
+  "schema_version": "strict_identity_refno_partition_v1",
+  "status": "PASS",
+  "partition": "holdout",
+  "split": {
+    "method": "sha256_threshold_by_refno_v1",
+    "salt": "r3-small-screen-v1",
+    "holdout_fraction": 0.28,
+    "assignment_rule": "uint64_be(SHA256(UTF8(salt + NUL + REFNO))[0:8]) / 2^64 < holdout_fraction"
+  },
+  "input": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_distilled_training_preflight/identity.xlsx",
+    "sha256": "7e45020df48b866096ac4bf567102f6a73ce3c12759b19c8550f78de299c72f1",
+    "rows": 2473,
+    "unique_refnos": 1292
+  },
+  "output": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_small_screen_v1/identity.xlsx",
+    "sha256": "aae4577fc7975260f2c4f23bf5618727f42574b53cc87bb67d6f3f6bfe1ef28f",
+    "rows": 710,
+    "unique_refnos": 367
+  },
+  "labels_read": false,
+  "source_tables_read": false,
+  "output_columns": [
+    "REFNO",
+    "RESULTNO",
+    "ROCKNAME"
+  ]
+}

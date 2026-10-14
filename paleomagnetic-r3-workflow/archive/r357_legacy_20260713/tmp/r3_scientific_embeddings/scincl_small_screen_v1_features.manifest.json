@@ -1,0 +1,144 @@
+{
+  "schema_version": "r3_label_free_scientific_embeddings_v1",
+  "status": "PASS",
+  "runtime_boundary": {
+    "labels_read": false,
+    "pmagresult_or_rockmag_read": false,
+    "prior_predictions_or_evaluations_read": false,
+    "identifier_features": false,
+    "numeric_cache_contains_identifiers": false,
+    "allowed_sources": [
+      "identity manifest REFNO/RESULTNO/ROCKNAME for alignment and target text",
+      "local original-paper page cache",
+      "frozen aggregate taxonomy",
+      "fixed pretrained SciNCL weights",
+      "fixed R3 expert retrieval query"
+    ]
+  },
+  "inputs": {
+    "identity": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_small_screen_v1/identity.xlsx",
+      "sha256": "aae4577fc7975260f2c4f23bf5618727f42574b53cc87bb67d6f3f6bfe1ef28f"
+    },
+    "page_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/mineru_cache_all_hard_risk.jsonl",
+      "sha256": "f8ec25c1148c04112ccfc75076743803417effbb833834a136c714dff4e146d7"
+    },
+    "taxonomy": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/calibration/r3_rockmag_text_distillation_v1.json",
+      "sha256": "149df539a937678c8204aa6d6e60e77bd901e4a77975d26caa5362749aa18ad4"
+    },
+    "pdf_dir": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs",
+    "alignment_sha256": "084cc725ed658f1d1ca3f7850e96744395152872050db6d4f5dfffb601756641"
+  },
+  "scope": {
+    "fixed_training_rows": 710,
+    "fixed_training_paper_groups": 367,
+    "pdf_only_rows": 640,
+    "pdf_only_paper_groups": 330,
+    "rows_skipped_without_local_pdf": 70,
+    "paper_groups_skipped_without_local_pdf": 37,
+    "selection": {
+      "mode": "full",
+      "salt": "r3-scincl-source-stratified-pilot-v1",
+      "requested_papers": 0,
+      "selected_papers": 330,
+      "selected_rows": 640
+    },
+    "embedded_rows": 640,
+    "embedded_papers": 330,
+    "embedded_canonical_targets": 544
+  },
+  "knowledge": {
+    "positive_kb_status": "not_present",
+    "positive_kb_pattern_field": null,
+    "concept_count": 21,
+    "runtime_pattern_count": 48,
+    "runtime_pattern_counts_by_source": {
+      "frozen_taxonomy": 48
+    },
+    "invalid_pattern_count": 0,
+    "inputs": {
+      "frozen_taxonomy": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/calibration/r3_rockmag_text_distillation_v1.json",
+        "sha256": "149df539a937678c8204aa6d6e60e77bd901e4a77975d26caa5362749aa18ad4"
+      }
+    }
+  },
+  "model": {
+    "upstream_name": "malteos/scincl",
+    "upstream_revision": "ebc5348d184ba2fc9beee69b4e394263fce57b2e",
+    "local_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/models/scincl",
+    "files": {
+      "config.json": "b1a28b1460d7f0b17e096540e0296e573c210868f7d06c90361bc49f52c597e5",
+      "modules.json": "8f4b264b80206c830bebbdcae377e137925650a433b689343a63bdc9b3145460",
+      "model.safetensors": "d65da219f67f051fdd065bfec666285c136e23002787603b2565e467bfed3c68",
+      "vocab.txt": "69894f6b0401652e74f9f5bf7bf4b587c149a9aa08c094eaed0325889acc449f",
+      "1_Pooling/config.json": "d02ebf56344d20f773449b15d0c10ee9a86a9178f3b3c9bfecb8b87d4350ce38"
+    },
+    "device": "mps",
+    "sentence_transformers_version": "3.4.1",
+    "torch_version": "2.13.0",
+    "embedding_dimension": 768,
+    "maximum_sequence_length": 512
+  },
+  "pooling": {
+    "method": "mean, elementwise maximum, expert-query top-1, expert-query top-3 mean",
+    "expert_query_sha256": "0480f49c71532ce2e8ceef200451987173c952ce3aca289b7c1a4158208957bb",
+    "paper_chunks": 1742,
+    "local_target_chunks": 3118,
+    "paper_maximum_chunks": 12,
+    "local_target_maximum_chunks": 6,
+    "local_shortlisting": "frozen-taxonomy distinct/count ranking; uniform fallback when no hit"
+  },
+  "output": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_scientific_embeddings/scincl_small_screen_v1_features.npz",
+    "sha256": "7409e64f257e6fedbaa20a45a0f9f92c2be4a20f3aaf0aa28753c69aa7a838e2",
+    "arrays": {
+      "abstract": [
+        640,
+        768
+      ],
+      "paper_mean": [
+        640,
+        768
+      ],
+      "paper_max": [
+        640,
+        768
+      ],
+      "paper_top1": [
+        640,
+        768
+      ],
+      "paper_top3": [
+        640,
+        768
+      ],
+      "local_mean": [
+        640,
+        768
+      ],
+      "local_max": [
+        640,
+        768
+      ],
+      "local_top1": [
+        640,
+        768
+      ],
+      "local_top3": [
+        640,
+        768
+      ],
+      "retrieval_scores": [
+        640,
+        6
+      ],
+      "engineered": [
+        640,
+        94
+      ]
+    }
+  }
+}

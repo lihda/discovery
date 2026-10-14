@@ -1,0 +1,135 @@
+{
+  "schema_version": "r3_residual_gate_evaluation_v1",
+  "status": "FROZEN_BEFORE_LABEL_ACCESS",
+  "scope": "all 872 PDF-backed single-target papers at full coverage",
+  "source_refs": [
+    {
+      "source_id": "PATEL_ET_AL_ACL_2025_R2E",
+      "venue": "ACL 2025",
+      "method_mapping": "evidence-focused retrieval and evidence-grounded prediction",
+      "adaptation_boundary": "methodological inspiration only; this evaluator is not a reproduction of R2E"
+    },
+    {
+      "source_id": "TAN_ET_AL_SIGIR_2025_EDU_FILTERING",
+      "venue": "SIGIR 2025",
+      "method_mapping": "fine-grained evidence filtering before document-level aggregation",
+      "adaptation_boundary": "methodological inspiration only; the paleomagnetic filters are domain-specific"
+    },
+    {
+      "source_id": "DU_ET_AL_ICLR_2025_PSMIL",
+      "venue": "ICLR 2025",
+      "method_mapping": "probability-space aggregation under bag-level supervision",
+      "adaptation_boundary": "methodological inspiration only; the bounded residual gate is not a direct PSMIL implementation"
+    }
+  ],
+  "protocol": {
+    "outer_folds": 5,
+    "inner_folds": 3,
+    "inner_seed": 35720260761,
+    "random_state": 35720260,
+    "threshold": 0.5,
+    "outer_test_selection": false,
+    "selection_objective": "inner accuracy, then macro-F1, then balanced accuracy, then frozen order",
+    "minimum_accuracy_gain_over_domain_baseline": 0.0025
+  },
+  "domain_experts": [
+    {"name": "domain_hgb", "kind": "hgb10", "standardized": false},
+    {"name": "domain_rf", "kind": "rf8", "standardized": false},
+    {"name": "domain_extra", "kind": "extra8", "standardized": false},
+    {"name": "domain_logreg", "kind": "logreg001", "standardized": true}
+  ],
+  "query_experts": {
+    "pca": {
+      "name": "query_pca64_logreg",
+      "family": "pca_logistic",
+      "matrix": "v4_plus_retrieval_compact_plus_pooled",
+      "C": 1.0,
+      "pca_dimension": 64
+    },
+    "compact_hgb": {
+      "name": "query_compact_hgb",
+      "family": "hist_gradient_boosting",
+      "matrix": "retrieval_compact"
+    }
+  },
+  "front_text_expert": {
+    "characters": 16000,
+    "prefix_target_name": true,
+    "analyzer": "word",
+    "ngram_range": [1, 2],
+    "min_df": 2,
+    "max_df": 0.997,
+    "max_features": 80000,
+    "sublinear_tf": true,
+    "strip_accents": "unicode",
+    "C": 1.0,
+    "solver": "liblinear",
+    "max_iter": 2000
+  },
+  "trusted_summary_experts": {
+    "hist_gradient_boosting": {
+      "max_iter": 220,
+      "learning_rate": 0.04,
+      "max_leaf_nodes": 7,
+      "min_samples_leaf": 16,
+      "l2_regularization": 2.0
+    },
+    "extra_trees": {
+      "n_estimators": 600,
+      "max_features": 0.5,
+      "min_samples_leaf": 8,
+      "n_jobs": -1
+    },
+    "unavailable_probability": 0.5
+  },
+  "fixed_fusion": {
+    "name": "domain_query_front_trusted_fixed",
+    "weights": {
+      "domain_mean4": 0.43,
+      "query_pca64_logreg": 0.27,
+      "front_word_logreg": 0.25,
+      "trusted_expert_mean": 0.05
+    }
+  },
+  "stack": {
+    "C": 0.01,
+    "solver": "liblinear",
+    "max_iter": 3000,
+    "standardize": true,
+    "probability_clip": 0.000001
+  },
+  "residual_gate": {
+    "base": "domain_mean4",
+    "evidence_components": [
+      "query_pca64_logreg",
+      "query_compact_hgb",
+      "front_word_logreg",
+      "trusted_hgb",
+      "trusted_extra"
+    ],
+    "evidence_aggregation": "median",
+    "C": 0.01,
+    "solver": "liblinear",
+    "max_iter": 3000,
+    "standardize": true,
+    "gate_probability_threshold": 0.7,
+    "maximum_base_margin_for_override": 0.3,
+    "require_trusted_summary": false,
+    "minimum_disagreement_rows": 24,
+    "maximum_probability_step": 0.35
+  },
+  "candidate_order": [
+    "domain_mean4",
+    "fixed_fusion",
+    "low_dimensional_stack",
+    "bounded_residual_gate"
+  ],
+  "runtime_boundary": {
+    "features_frozen_before_labels": true,
+    "pmagresult_or_rockmag_read": false,
+    "prior_predictions_read_before_preaudit": false,
+    "evaluation_results_read_before_preaudit": false,
+    "outer_test_labels_used_for_training_or_selection": false,
+    "selective_abstention_used": false
+  }
+}

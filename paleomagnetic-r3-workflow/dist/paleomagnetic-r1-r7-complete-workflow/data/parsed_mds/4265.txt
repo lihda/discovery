@@ -1,0 +1,2113 @@
+### page_1
+International Journal of Earth Sciences (2019) 108:621–647
+https://doi.org/10.1007/s00531-018-01672-9
+ORIGINAL PAPER
+Paleomagnetism of Permo–Triassic volcanic units in northern
+Patagonia: are we tracking the final stages of collision of Patagonia?
+Tomás Luppo1,2 · Carmen I. Martínez Dopico2,3 · Augusto E. Rapalini1,2 · Mónica G. López de Luchi2,3 ·
+Maximiliano Miguez1 · Christopher M. Fanning4
+Received: 1 May 2018 / Accepted: 10 December 2018 / Published online: 14 January 2019
+© Geologische Vereinigung e.V. (GV) 2019
+Abstract
+A paleomagnetic and geochronologic study was carried out on Late Permian-to-Early Triassic magmatic units exposed in
+the North Patagonian Massif, near the locality of Estancia La Esperanza (Río Negro Province, Argentina), to provide better
+paleogeographic and tectonic constraints on the evolution of Patagonia and its relations with Gondwana in the Late Paleo-
+zoic–Early Mesozoic. The study included the Late Permian (264 ± 2 Ma) Rhyolite Dome, the Collinao Dacite, for which we
+obtained a U–Pb zircon crystallization age of 253 ± 2 Ma, several basic dikes, that intrude older granite units (255 ± 2 Ma),
+and a swarm of acidic dikes for which an Early Triassic age had been previously assigned that we confirmed with a U–Pb
+zircon age of 244 ± 2 Ma. A paleomagnetic pole (C), computed on the basis of seven VGPs, was obtained for the Collinao
+Dacite and associated units (48.3°S, 349.9°E, N = 7, A95 = 15.1°). A single VGP for the somewhat older Rhyolite Dome
+falls close to that pole. A second paleomagnetic pole (A) which strongly disagrees with the C position was computed based
+on 12 VGPs from the same number of acidic dikes (87°S, 51.5°E, N = 12, A95 = 8.1°). The basic dikes, with ages bracketed
+between the dacitic and the rhyolitic dikes, yielded four VGPs, two of which are consistent with the C pole and the other
+two are close to the A pole. The C pole falls on a much older position (Late Carboniferous) on different Gondwana/South
+America reference paths, which is clearly anomalous based on its Late Permian age. The A pole, in turn, is consistent with
+the 250/240 Ma paleomagnetic poles in most reference paths for Gondwana/South America. Either regional tilting or rotation
+around a vertical axis to explain the anomalous C pole is unlikely considering the local geological evidence. A working model
+is presented to explain the discrepancy as due to around 30° CCW rotation of the whole North Patagonian Massif during the
+latest Permian and earliest Triassic, closing a V-shaped basin that separated it from southern Gondwana, as the final stages
+of collision of an allochthonous or para-autochthonous Patagonia terrane. This hypothesis is consistent with Late Permian-
+to-Early Triassic evidence of deformation in the Hespérides Basin as well as in northern Patagonia. Scarce previous paleo-
+magnetic data from this region can be reconciled with this model, considering that they are very loosely constrained in age.
+Keywords North Patagonian Massif · Apparent polar wander path · Gondwana · Late Paleozoic · La Esperanza volcanic
+rocks
+* Carmen I. Martínez Dopico Introduction
+carmen.martinez.dopico@gmail.com
+1 Facultad de Ciencias Exactas y Naturales, Instituto de The origin of Patagonia, i.e., whether its basement rocks
+Geociencias Básicas, Aplicadas y Ambientales de Buenos constitute a geological province of ancestral South America
+Aires (IGEBA), Universidad de Buenos Aires, Ciudad or form an exotic terrane accreted in the Late Paleozoic,
+Universitaria, Pabellón 2, Buenos Aires, Argentina has been a matter of debate for more than 3 decades, since
+2 Consejo Nacional de Investigaciones Científicas y Técnicas the first proposals of an allochthonous origin by Martínez
+(CONICET), Buenos Aires, Argentina (1980) and Ramos (1984, 2008). This debate has proved to
+3 Instituto de Geocronología y Geología Isotópica (INGEIS), be an extremely successful one in catalyzing a great deal of
+Ciudad Universitaria, Pabellon INGEIS, Buenos Aires, different kinds of studies that have substantially improved
+Argentina
+our knowledge of the geological evolution and structure of
+4 School of Earth Sciences, Australian National University, this region. Risking an oversimplification, it may be said that
+Canberra, Australia
+Vol.:(0112 33456789)
+
+### page_2
+6 22 International Journal of Earth Sciences (2019) 108:621–647
+the evidence in favour or against an allochthonous Patagonia In this work, we present SHRIMP U–Pb zircon data and
+lies into two main groups. On one hand, the presence of paleomagnetic results for Permian–Triassic dikes and vol-
+a Late Paleozoic major tectonic phase, far from the west- canic units of the La Esperanza Plutono-Volcanic Complex
+ern Gondwana continental margin, produced the Ventana (Llambías and Rapela 1984; Martínez Dopico et al. 2017b),
+NE verging fold and thrust belt with a trend oblique with exposed in the La Esperanza area, located in a central area
+respect to that margin and close the boundary between the of the northern sector of NPM (Fig. 1a). This area is ideal
+Río de la Plata craton to the north and the North Patagon- to carry out a paleomagnetic study in Late Paleozoic-to-Tri-
+ian Massif (NPM) to the south (von Gosen 2003; Pángaro assic rocks, because it has not suffered a significant tectonic
+and Ramos 2012 and references therein). This has led to the activity since Triassic times (Giacosa et al. 2007).
+idea of a near frontal continent–continent collision between The directional paleomagnetic analysis, combined with
+the NPM and the southern Gondwana margin in the Late magnetic properties, petrological characterization, and pre-
+Paleozoic. The presence of a conjugate deformational belt cise radiometric dating allow us to obtain two reliable paleo-
+of similar age in the North Patagonian Massif verging to magnetic poles of around 253 and 245 Ma, respectively, for
+the SW has added an important evidence in favour of such the NPM that show a significant polar wander during the
+a collision (von Gosen 2003; Rapalini et al. 2010). Further Permian–Triassic transition. Implications of these results in
+support to the allochthonous model has come from the find- the context of the tectonic evolution of Patagonia and the
+ings of Early Cambrian archaeocyathids in the NPM that whole of Gondwana are discussed.
+resemble taxa in the Transantarctic Mountains (González
+et al. 2011, 2018), suggesting that Patagonia originated in
+Geological setting
+a margin-parallel location more than 2500 km from South
+America (Ramos and Naipauer 2014; see also; Dalziel 2013,
+for a different interpretation). On the other hand, correlation The NPM, also called Somuncurá Massif, is located between
+between basement units in the NPM with those in the Sier- 39° and 44°S in northern Patagonia (Fig. 1a). Its northeast-
+ras Pampeanas of central Argentina has been postulated by ern boundary is covered by the thick sedimentary succes-
+a wide range of authors (Dalla Salda et al. 1990; Pankhurst sions of the adjacent Colorado basin (Yrigoyen 1999), while
+et al. 2006, 2014; Martínez Dopico et al. 2011; Rapalini the southern boundary is covered by the Meso-Cenozoic
+et al. 2013, and references therein). Rapalini et al. (2013) sedimentary successions of the San Jorge Basin. The NPM
+and Pankhurst et al. (2014) described that the Cambrian consists of poorly exposed Cambrian igneous and meta-
+magmatism of the northern sector of the NPM correlated sedimentary rocks, an NNW–SSE belt of Ordovician S
+with the Pampean magmatic arc along the Sierras Pampea- and I-type granitoids in its NE corner, and a restricted Late
+nas, suggesting crustal continuity between both terranes. Silurian-to-Devonian sedimentary cover. Extensive Mid-
+Pankhurst et al. (2006) determined the Ordovician age of Permian-to-Middle Triassic magmatism crops out along
+small and undeformed plutons exposed near the northern the northern margin of the NPM (see Pankhurst et al. 2006;
+Patagonia shoreline and suggested that they were part of a Martínez Dopico et al. 2017a, b). All these units are partially
+continuous Ordovician (Famatinian) magmatic arc extending intruded by Jurassic granites (Pankhurst et al. 1993; Gregori
+from northern Argentina into northern Patagonia. Similarly, et al. 2016) and/or covered by Triassic-to-Tertiary volcanic
+Martínez Dopico et al. (2011) presented isotopic evidence and sedimentary rocks.
+that suggest a strong correlation between the basements of The La Esperanza Plutono–Volcanic Complex is the most
+the Sierras Pampeanas (Pampia) and the northeast sector conspicuous Late Paleozoic–Early Triassic composite mag-
+of the North Patagonian Massif. Geophysical evidence in matic system of northern Patagonia covering an area larger
+favour or against the allochthonous origin of NPM has been than 1000 km2. In the study area (Fig. 1b), located near La
+controversial (Chernicoff and Zappettini 2004; Gregori et al. Esperanza Ranch, Llambías and Rapela (1984) and Rapela
+2013), whereas the scarce Paleozoic paleomagnetic data- and Llambías (1985) recognized two magmatic events sep-
+base for NPM (Rapalini 1998, 2005; Tomezzoli et al. 2013) arated by an unconformity. The older was represented by
+suggests that, since the Devonian, it has been an integral intermediate-to-acidic plutonic units (formely known as La
+part of Gondwana or at least has not been located farther Esperanza Plutonic Complex) and the younger by acidic-
+than 1500–2000 km from its margin. In a model attempt- to-intermediate volcanic and subvolcanic rocks (formerly
+ing to reconcile most of the evidence, Rapalini et al. (2010) Dos Lomas Volcanic–Plutonic Complex). Pankhurst et al.
+suggested that NPM was a para-authochtonous terrane that (2006) and Fanning et al. (2011) in a regional isotopical
+rifted apart from southern Gondwana at some time in the study obtained U–Pb zircon crystallization ages coupled
+Early Paleozoic to collide back in the Late Paleozoic closing with Hf-isotope data that produced the first reliable broad
+a small ocean basin called the “Colorado Ocean” or “Sierra isotopic constraints on these plutonic and subvolcanic–vol-
+Grande Sea”. canic rocks and bracketed this magmatism between the late
+1 3
+
+### page_3
+International Journal of Earth Sciences (2019) 108:621–647 623
+Fig. 1 a Location of the North Patagonian Massif and the working Rhyolite Dome (light purple circles), Collinao Dacite (gray circles),
+area (rectangle) in southern South America; b Geological map of the basic dikes (black circles) and acidic dikes (pink circles), and the
+study area with location of the paleomagnetic sampling sites in the spots of geochronological dating
+Permian (273 Ma) and the Middle Triassic (244 Ma). More monzogranites with SHRIMP U–Pb zircon crystallization
+recent studies have refined the geochemical relationship of ages of 273 ± 2 Ma for the equigranular facies (Pankhurst
+the main units and improved their age constraints, redefin- et al. 2006) and 255 ± 2 Ma for the Inequigranular facies
+ing these rocks as La Esperanza Plutono-Volcanic Complex (Martínez Dopico et al. 2017b). The Giménez Granite is a
+(LEPVC) (Martínez Dopico 2013; Miguez 2014; Martínez porphyritic biotite monzogranite, whereas the Donosa Gran-
+Dopico et al. 2017b, unpublished data). ite (260 ± 2 Ma, Martínez Dopico et al. 2017b) is a meg-
+The plutonic units of the LEPVC comprise a composite acrystic biotite monzogranite. All these units are crosscut
+high K calc-alkaline epizonal batholith. Four main intru- by basic and acidic dikes (Fig. 1b).
+sive units (Martínez Dopico et al. 2017b) are distinguished: The LEPVC includes a heterogeneous group of mostly
+the Prieto Granodiorite (Equigranular and Inequigranular volcanic rocks, from dacitic–andesitic-to-rhyolitic composi-
+facies), the Donosa Granite, and the Giménez Granite. Prieto tions and leucogranitic epizonal plutons (i.e., Calvo Granite).
+Granodiorite comprises biotite–amphibole granodiorites and The oldest volcanic unit is a composite Rhyolite Dome that
+1 3
+
+### page_4
+6 24 International Journal of Earth Sciences (2019) 108:621–647
+corresponds to a local topographic high (Paileman dome) dark-gray ignimbrite and lavas that constitute subhorizon-
+consisting of a heterogeneous group of grayish volcanic tal layers mainly exposed to the east of Collinao dwell-
+and volcaniclastic rocks, with mainly rhyolitic composition ings (Figs. 1b, 2b, c) where Llambías and Rapela (1984)
+and porphyritic textures (Figs. 1b, 2a). The main outcrops described dacitic ignimbrites interlayered with ignimbrite
+are located adjacent to the local road connecting Llanquil breccias. The main rock type is porphyritic-to-aphyric with
+and Paileman dwellings (Fig. 1b). Following Llambías and scarce subhedral plagioclase, amphibole, biotite, and quartz
+Rapela (1984), the rhyolitic dome can be subdivided into set in cryptocrystalline groundmass (Fig. 2d). Eutaxitic tex-
+three sections. The lower and middle sections represent the tures are only present locally. The rocks cropping out in the
+main volume of the structure and are constituted by high- eastern part of the dome were tentatively assigned to the
+viscosity rhyolitic lavas and ignimbrites dated as 264 ± 2 Ma Collinao Dacite.
+(U–Pb zircon, Pankhurst et al. 2006). The upper section is Subvertical andesitic dikes (basic dikes) with dominant
+made up of banded black-to-reddish vitrophyric rhyolites. NE–SW and E–W strikes are exposed in the study area.
+They are interpreted as cogenetic variations of the lower They are mainly up to a few meters thick (0.3–3 m) and
+units due to apical vesiculation. The dome postdates the extend along strike for tens to thousands of meters. They are
+Equigranular facies of the Prieto Granodiorite (Martínez dark green colored, with aphyric and, less common, porphy-
+Dopico 2013) as determined by field relations and geo- ritic textures (Miguez 2014). They intrude all plutonic units
+chronologic constraints, and it is intruded in the lower sec- (except for the Calvo Granite) but none of their volcanic
+tion by aplitic felsic dikes. The Collinao Dacite is a welded counterparts.
+Fig. 2 Outcrops views: a ign-
+imbrites of the Rhyolite Dome
+(site Z32); b, c Collinao Dacite
+(sites E5 and E7, respectively);
+d Macroscopic texture of the
+Collinao Dacite; e Acidic rocks
+from the easternmost sector of
+the Paileman Dome; f Rhyolites
+with tourmaline miaroles of site
+Z2 (Collinao Dacite units)
+1 3
+
+### page_5
+International Journal of Earth Sciences (2019) 108:621–647 625
+The Calvo Granite comprises subcircular-to-elongated dikes to be contemporaneous because of their mutual cross-
+medium-to-coarse-grained leucogranite plutons with scarce cutting relations and the possibility of a common structural
+miarolitic cavities. Quartz occurs as interstitial aggregates model for their intrusion. A U–Pb SHRIMP in zircon age of
+up to 0.8 cm in diameter, between subhedral K-feldspar. Bio- 246 ± 2 Ma is reported by Pankhurst et al. (2006) near site
+tite is minor accessory mineral. A SHRIMP U–Pb zircon age DZ16 of the present study (Fig. 1b).
+of 250 ± 2 Ma has been obtained from a pluton located north
+of the study area (Pankhurst et al. 2006).
+Paleomagnetic sampling and laboratory
+Acidic dikes make up an extended swarm of subvertical
+procedures
+dikes of rhyolitic composition, mainly trending E–W and
+NW–SE (frequency peaks at N60°–70°W and N 30°–40°W).
+The dikes are between 3 and 30 m in width and extend along A total of 35 paleomagnetic sites were sampled in vol-
+strike up to 8 km. The areal distribution and typical out- canic units of the LEPVC (Fig. 1b). Thirteen sites were
+crops are shown in Figs. 1b and 3d–f, respectively. They are taken from the Rhyolite Dome (in the Paileman Dome) and
+pink-to-light pink colored and show a wide variety of tex- from the Collinao Dacite. Four rhyolitic units were sam-
+tures: porphyritic-to-micro porphyric or even aphyric with pled from the Dome: Z28 and Z29 are vitrophyric rhyolites
+microgranular, aplitic, felsitic or cryptocrystalline ground- that correspond to its uppermost section and Z30 and Z32
+masses. They intrude all the plutonic and volcanic units of are rhyolitic ignimbrites from the lower section. The age
+the LEPVC. Llambías and Rapela (1984) consider these of 264 ± 2 Ma (Pankhurst et al. 2006) corresponds to rocks
+Fig. 3 Outcrops views. a Thin
+basic dike sharply cross-cutting
+Inequigranular facies of Prieto
+Granodiorite; b basic dike
+cutting equigranular facies of
+Prieto Granodiorite (site DZ13);
+c acidic dike crosscutting a
+basic dike in Linconao dwell
+(DZ7 location); d acidic dike
+in the Rhyolite Dome area (site
+z34); e, f banded acidic dike
+(site DZ16)
+1 3
+
+### page_6
+6 26 International Journal of Earth Sciences (2019) 108:621–647
+cropping out at site Z32. Four sites are located along the Rock-magnetic experiments were conducted on represent-
+main outcrops of the Collinao Dacite (E5, E6, E7, Z2). ative samples of the different lithological units. Isothermal
+Three sites (E1, E2, and E3) were obtained from rhyodac- remanent magnetization (IRM) was imparted with an ASC
+ites of the eastern sector of the Paileman dome whereas Scientific pulse magnetizer and measured with the AGICO
+two (E4, Z33; Fig. 1b), correspond to an andesite of the JR6 spinner magnetometer. Typical magnetization sequences
+western sector, which based on field relations and lithol- were: 15, 30, 45, 60, 90, 150, 250, 350, 500, 700, 1000,
+ogy (see below) belongs to the Collinao Dacite. Sampling 1500, and 2000 mT. Low- and high-temperature thermo-
+also included 7 basic dikes intruding the Prieto Granodi- magnetic curves (K vs T) were measured on crushed repre-
+orite (DZ5, DZ7, DZ8, DZ12, DZ13, DZ14, and DZ15) sentative samples with an AGICO Kappabridge MKF-1A
+and 15 acidic dikes of different textures that intrude the instrument coupled with CSL and CS4 appliances, in a range
+former units (E4d, E6d, Z34, Z35, Z36, Z37, DZ1, DZ2, from − 185 up to 700 °C. High-temperature curves were
+DZ3, DZ4, DZ6, DZ9, DZ10, DZ11, and DZ16). performed in an Ar atmosphere.
+Samples were collected in situ with a gasoline-powered
+portable drill in 26 sites, while another 9 sites were sampled
+Field and petrographic features of studied
+with block samples due to logistical problems in a previous
+units
+field trip. Cores were oriented with both magnetic and sun
+compasses whenever possible. No significant deviations due
+to local magnetic anomalies were found. 2.5 mm-diameter New field observations on the Paileman dome indicate that
+cores were sliced into 2.2 cm-long specimens. Paleomag- three main lithological units crop out located at its western,
+netic measurements and demagnetizations were carried out northern, and eastern sectors (Fig. 1b). The central-to-north-
+on 419 specimens at the Laboratorio de Paleomagnetismo ern part corresponds to the already described lower-to-upper
+Daniel A. Valencio from IGEBA (Instituto de Geociencias sections of high-viscosity rhyolitic lavas and ignimbrites and
+Básicas, Aplicadas y Ambientales de Buenos Aires, Univer- black and red vitrophyres. The eastern sector is made up
+sity of Buenos Aires and CONICET). Measurements were by dark gray-to-green quartz-rich rhyodacites, whereas the
+done with a 2G (DC squids) 755R cryogenic magnetometer western sector is made up by a group of andesitic rocks of
+and an AGICO JR6 spinner magnetometer. Alternating field variable textural types (sites E4 and Z33; Fig. 2e). Both rock
+(AF) demagnetization was performed with a static 3-axis types exhibit lithological affinities with those of the Collinao
+degausser attached to the cryogenic magnetometer and a Dacite. The eastern rocks are porphyritic with phenocrysts/
+tumbler demagnetizer (LDA5-AGICO). Thermal demag- crystaloclasts of subhedral-to-anhedral quartz, subhedral
+netization was carried out with ASC two and one chamber plagioclase, variable amounts of K-feldspar, and ferromag-
+paleomagnetic furnaces, with internal fields < 10 nT. Two- nesian minerals (biotite or amphibole) set in a devitrified
+to-four pilot specimens per site were submitted to stepwise groundmass. Feldspar phenocrysts are partially replaced by
+alternating magnetic fields and thermal demagnetizations sericite and clay minerals, whereas ferromagnesian minerals
+(e.g., Butler, 1992). Assessment of magnetic behavior of are replaced by chlorite aggregates and opaque minerals. In
+pilot specimens permitted to determine the best stepwise the western side, some of the andesitic rocks are porphy-
+demagnetization procedure for the remaining specimens at ritic with well-developed plagioclase and probably pyroxene
+each site. Typical demagnetization sequences were: 3, 6, as phenocrysts set in a microgranular groundmass. Intense
+9, 12, 15, 20, 25, 30, 40, 50, 60, 70, 85, 100, and 120 mT alteration to chlorite, clay minerals, epidote, carbonates, and
+or 100, 150, 200, 250, 300, 350, 400, 450, 500, 525, 550, opaque minerals together with silica in fine-grained aggre-
+575, 600, 650, and 680 °C. Magnetic susceptibility was gates is characteristic of these rocks.
+monitored during thermal demagnetization to detect min- As previously mentioned, Llambías and Rapela (1984)
+eralogical changes at high temperatures. AF demagnetiza- named the Collinao Dacitic Ignimbrites for the volcanic
+tion proved to be a more efficient technique in most sites units to the east of Collinao dwell. New observations along
+that carry a characteristic remanence, and, therefore, was a transect from the central to the eastern border of the
+more widely used in the whole collection of samples than unit indicate that the rocks are mainly greenish gray dac-
+the thermal method. Remasoft 3.0 software (Chadima and ites (sites E5, E6 and E7; Fig. 2d). Phenocryst mineral
+Hrouda 2006) was used to visually analyze and compute the assemblage is dominated by plagioclase (up 50 vol% in the
+magnetic components and calculate site means. Principal coarser grained types), amphibole, biotite, Fe–Ti oxides,
+component analysis (Kirschvink 1980) and Fisherian statis- quartz, and apatite (trace). Groundmass varies from fine-
+tics (Fisher 1953) were, respectively, used for those tasks. grained micropoikilitic crystalline with the development of
+GMap 2015 (Torsvik 2015) was used for paleomagnetic snowflake textures and interstitial quartz-to-felsitic–micro-
+poles statistics and plotting. granular in the subvolcanic types. Groundmass minerals
+are feldspar and quartz with small grains of amphibole,
+1 3
+
+### page_7
+International Journal of Earth Sciences (2019) 108:621–647 627
+biotite and opaque minerals, and titanite and apatite micro- groundmass, opaque minerals commonly appear as irregu-
+lites. Amphibole is the dominant ferromagnesian mineral lar fine-grained aggregates.
+in the dacites with scarce quartz. At the westernmost area
+next to the Collinao dwell, the groundmass comprises pla-
+U–Pb SHRIMP geochronology
+gioclase microlites set in the poikilitic groundmass and the
+ferromagnesian phase is only biotite. Apatite is abundant
+and appears either as stubby prisms when associated with U–Pb SHRIMP zircon geochronology was carried out on
+amphibole or as acicular crystals in the groundmass. In the two samples from La Esperanza area: a dacite from the Col-
+southernmost outcrops of the Collinao Dacite, a subvol- linao Dacite (site E5) and an aplitic dike that intrudes the
+canic facies (site Z2) is exposed comprising an equigranu- Prieto Granodiorite (site DZ3). Once extracted, zircons were
+lar light gray felsic rock, in which tourmaline aggregates mounted in epoxy together with chips of the Temora stand-
+are present (Fig. 2f). Sampled basic dikes exhibit textures ard zircon (Black et al. 2003). Cathodoluminescence (CL)
+varying from porphyritic to aphyric with aphanitic or, in a images were used to discover the internal structures of the
+few cases, microgranular groundmass. They sharply cross- polished grains. Analyses were carried out in the SHRIMP
+cut all the granite unit of the LEPVC, except for the Calvo analyzer at the Research School of Earth Sciences of the
+Granite (Fig. 3a, b), but they are cut by some acidic dikes Australian National University in Canberra following the
+(Fig. 3c). The aphyric rocks are mainly microporphyritic. procedures outlined in Williams (1998). Data were reduced,
+Two main petrographic groups are separated according to statistically analyzed, and plotted with Isoplot 4.1 (Ludwig
+their phenocryst assemblage. One (essentially andesites) is 2008). Common Pb corrections for ages older than 800 Ma
+characterized by the almost exclusive presence of plagio- were made using 204Pb and, for younger ages by means of
+clase and the other (amphibole bearing lamprophyres) by 207Pb. Analyses were filtered if they showed high 206Pb
+the lack of feldspar. In the latter, the dominant phenocryst (> 5%), discordance > 10%, and age error (1-sigma) > 5%
+is amphibole, either isolated or in aggregates, in which (Table 1).
+relics of pyroxene are occasionally found. Typical ground- The sample from site E5 contains zircons that range from
+mass minerals are plagioclase microlites, amphibole crys- slender, elongate euhedral crystals with pyramidal termina-
+tals, and opaque minerals, commonly in pilotaxic textures. tions to subequant, lozenge-shaped grains. Many of the slen-
+Variable degrees of alteration are observed, from almost der grains have central cavities consistent with rapid crystal-
+unaltered samples to cases with intense and pervasive sec- lization in a volcanic-to-subvolcanic setting. The CL images
+ondary assemblage of clay minerals, epidote, carbonates, reveal a variety of internal structures, but many grains have
+chlorites, and fine-grained opaque minerals. simple oscillatory zoning, or oscillatory zoned outer areas
+Sampled acidic dikes include all the types described enclosing more homogeneous CL central areas (Fig. 4a).
+in the study area by the previous authors (Llambías and In some cases, there may be older inherited inner zircon
+Rapela 1984; Martínez Dopico 2013; Miguez 2014). Most components. The slender grains have length parallel zon-
+of them correspond to a dominant system with E–W aver- ing typical for volcanic zircon. Twenty-five areas have been
+age direction (Fig. 3d), while the others represent subor- analyzed on 22 zircon grains. The area analyzed on grain 20
+dinate systems (essentially NE and SE striking). A wide is enriched in common Pb and plots above the Tera–Wasser-
+range of macroscopic textures from aphyric to porphy- burg Concordia. The other analyses form a tight cluster close
+ritic with aplitic-to-aphanitic groundmass are observed. to, or within uncertainty of the Concordia curve (Fig. 4b).
+Textural variations are commonly seen within the thicker A weighted mean for 24 of the 25 areas analyzed has a little
+dikes. Phenocryst/groundmass ratio is also variable, excess scatter (MSWD = 1.2), and from the current data set,
+being 30/70%, the more frequent values. Phenocrysts the 206Pb/238U age of igneous zircon crystallization is placed
+are mainly perthitic K-feldspar, quartz, and plagioclase, at 253.4 ± 1.7 Ma (Fig. 4c).
+either isolated or in aggregates. Biotite partially replaced Zircon grains from site DZ3 are subequant to elon-
+by chlorite and opaque minerals is accessory minerals. The gate euhedral crystals that are predominantly cracked or
+quartz–feldspar groundmass textures vary from microgran- coated with alteration products. Few grains have clear
+ular to felsitic. Spherulites as well as incipient granophyric areas unaffected by alteration. The CL images are dark
+intergrowths are also present. In the subordinate systems, due to high U, but show outer areas that are oscillatory
+flow banding in aphyric rhyolites (Fig. 3e, f) as well as zoned, enclosing central areas that are more homogene-
+conspicuous granophyric intergrowths in porphyritic ous (Fig. 4d). Given the poor state of the zircon grains,
+types are present. In dikes with microgranular textures, areas were analyzed where possible within the grains; a
+accessory opaque minerals appear mainly as disseminated total of 26 grains were dated. Despite the careful selection,
+subhedral crystals of similar sizes to those conforming many of the areas are enriched in common Pb and these
+the groundmass. In dikes with spherulitic-to-felsitic also have lost radiogenic Pb. The probability density plot,
+1 3
+
+### page_8
+6 28 International Journal of Earth Sciences (2019) 108:621–647
+1 3
+)ekid
+etinarg(
+3ZD
+dna
+)eticad(
+5E
+selpmas
+eht
+rof
+atad
+nocriz
+epotosi
+bP-U
+1
+elbaT
+eticaD
+-5E
+ELPMAS
+)aM(
+egA
+cinegoidaR
+latoT
+bP602/U832
+%
+f
+bP602/bP402
+*bP602
+U/hT
+hT
+U
+.niarG
+602
+)mpp(
+)mpp(
+)mpp(
+tops
+±
+U832/bP602
+±
+U832/bP602
+±
+bP602/bP702
+±
+2.3
+6.552
+5000.0
+4040.0
+1100.0
+2650.0
+13.0
+75.42
+16.0
+536000.0
+5
+94.0
+07
+441
+1.1
+2.3
+5.452
+5000.0
+3040.0
+100.0
+2150.0
+13.0
+48.42
+10.0
+<
+–
+6.4
+65.0
+57
+431
+1.2
+1.5
+7.552
+8000.0
+5040.0
+8000.0
+8150.0
+5.0
+7.42
+60.0
+372000.0
+4.9
+66.0
+971
+272
+1.3
+2.3
+3.252
+5000.0
+9930.0
+100.0
+8050.0
+23.0
+70.52
+10.0
+<
+–
+9.4
+5.0
+17
+241
+miR
+1.4
+4.3
+5.352
+5000.0
+1040.0
+2100.0
+7150.0
+43.0
+29.42
+50.0
+793000.0
+4.3
+27.0
+17
+99
+eroC
+2.4
+3
+7.552
+5000.0
+5040.0
+9000.0
+350.0
+92.0
+76.42
+2.0
+–
+1.7
+25.0
+701
+502
+1.5
+3
+2.452
+5000.0
+2040.0
+9000.0
+9250.0
+3.0
+28.42
+2.0
+151000.0
+3.6
+85.0
+601
+281
+1.6
+3.3
+3.852
+5000.0
+9040.0
+1100.0
+250.0
+13.0
+44.42
+80.0
+245000.0
+7.4
+84.0
+56
+431
+1.7
+5.3
+1.742
+6000.0
+1930.0
+6100.0
+3250.0
+73.0
+65.52
+51.0
+–
+9.3
+94.0
+65
+611
+eroC
+1.8
+1.3
+7.842
+5000.0
+3930.0
+1100.0
+3350.0
+23.0
+53.52
+62.0
+555000.0
+7
+84.0
+89
+502
+miR
+2.8
+1.3
+852
+5000.0
+8040.0
+9000.0
+9150.0
+92.0
+74.42
+60.0
+415000.0
+7.7
+95.0
+031
+122
+1.9
+3
+7.742
+5000.0
+2930.0
+100.0
+3150.0
+13.0
+25.52
+20.0
+880000.0
+5.5
+94.0
+18
+461
+miR
+1.01
+4.3
+2.252
+6000.0
+9930.0
+4100.0
+7150.0
+43.0
+50.52
+60.0
+–
+9.3
+5.0
+75
+411
+eroC
+2.01
+3.3
+9.852
+5000.0
+140.0
+100.0
+1150.0
+13.0
+14.42
+10.0
+<
+–
+4.4
+78.0
+901
+521
+1.11
+5.5
+5.252
+9000.0
+40.0
+1100.0
+3350.0
+55.0
+79.42
+62.0
+–
+7.4
+56.0
+88
+631
+1.21
+9.2
+5.552
+5000.0
+4040.0
+8000.0
+5150.0
+92.0
+37.42
+20.0
+–
+6.7
+7.0
+351
+912
+1.31
+2.3
+8.452
+5000.0
+3040.0
+1100.0
+5450.0
+13.0
+17.42
+93.0
+366000.0
+4.4
+15.0
+56
+621
+1.41
+9.2
+3.652
+5000.0
+6040.0
+7000.0
+250.0
+82.0
+36.42
+80.0
+554000.0
+3.9
+99.0
+462
+662
+1.51
+9.2
+6.652
+5000.0
+6040.0
+8000.0
+3250.0
+92.0
+6.42
+21.0
+751000.0
+5.7
+4.0
+78
+612
+1.61
+1.3
+6.942
+5000.0
+5930.0
+1100.0
+1450.0
+23.0
+42.52
+63.0
+475000.0
+4.4
+5.0
+56
+031
+1.71
+3.5
+3.052
+9000.0
+6930.0
+9000.0
+6150.0
+45.0
+52.52
+50.0
+370000.0
+9.6
+84.0
+89
+302
+1.81
+9.2
+5.162
+5000.0
+4140.0
+7000.0
+7150.0
+72.0
+51.42
+30.0
+–
+9.01
+15.0
+751
+603
+1.91
+*4.3
+552
+6000.0
+4040.0
+3400.0
+7401.0
+82.0
+31.32
+76.6
+721200.0
+2.6
+26.0
+201
+661
+1.02
+9.2
+9.742
+5000.0
+2930.0
+8000.0
+6350.0
+3.0
+34.52
+13.0
+562000.0
+3.9
+15.0
+041
+572
+1.12
+1.3
+9.942
+5000.0
+5930.0
+1100.0
+2350.0
+23.0
+32.52
+52.0
+864000.0
+7.5
+26.0
+401
+861
+1.22
+level
+σ eno
+eht
+ta
+nevig
+seitniatrecnU
+.1
+:setoN
+noisses
+lacitylana
+eht
+rof
+%53.0
+saw
+noitarbilac
+nocriz
+ecnerefer
+aromeT
+ni rorrE
+.2
+)stnuom
+tnereffid
+morf
+atad
+gnirapmoc
+nehw
+deriuqer
+tub
+srorre
+evoba
+ni
+dedulcni
+toN(
+bP
+nommoc
+si
+taht
+bP602
+fo egatnecrep
+eht
+setoned
+%
+f
+.3
+602
+soitar
+bP602/bP702
+dna
+bP602/U832
+derusaem
+eht
+gnisu
+edam
+neeb
+sah
+atad
+bP/U
+eht
+rof
+bP
+nommoc
+rof
+noitcerroC
+.4
+)8991(
+smailliW
+ni
+deniltuo
+sa )2791(
+grubressaW
+dna
+areT
+gniwolloF
+
+### page_9
+International Journal of Earth Sciences (2019) 108:621–647 629
+1 3
+)deunitnoc(
+1
+elbaT
+eticaD
+-5E
+ELPMAS
+)aM(
+egA
+cinegoidaR
+latoT
+bP602/U832
+%
+f
+bP602/bP402
+*bP602
+U/hT
+hT
+U
+.niarG
+602
+)mpp(
+)mpp(
+)mpp(
+tops
+±
+U832/bP602
+±
+U832/bP602
+±
+bP602/bP702
+±
+noitaluclac
+eht
+morf
+dedulcxE*
+lanretxe
+ei
+:dts
+edulcnI
+±
+lanretnI
+±
+egA
+52
+fo
+42
+rof
+2.1
+=
+DWSM
+7.1
+96.0
+5.1
+4.352
+tnanimod
+eva
+dtw
+dezylana
+saera
+ekid
+etilpA-3ZD
+ELPMAS
+)aM(
+egA
+cinegoidaR
+±
+latoT
+%
+f
+bP602/bP402
+)mpp(
+*bP602
+U/hT
+)mpp(
+hT
+)mpp(
+U
+.niarG
+602
+tops
+±
+U832/bP602
+±
+U832/bP602
+bP602/bP702
+±
+bP602/U832
+*7.2
+1.912
+4000.0
+6430.0
+8100.0
+9442.0
+32.0
+98.12
+3.42
+958210.0
+84
+81.1
+2441
+4221
+1.1
+6.2
+6.942
+4000.0
+5930.0
+5000.0
+7150.0
+72.0
+13.52
+60.0
+–
+9.22
+17.0
+774
+576
+1.2
+6.2
+5.442
+4000.0
+7830.0
+5000.0
+1150.0
+82.0
+78.52
+10.0
+<
+470000.0
+3.81
+97.0
+334
+155
+1.3
+*3.4
+832
+7000.0
+6730.0
+6010.0
+1021.0
+72.0
+92.42
+46.8
+697400.0
+7.74
+23.1
+0971
+2531
+1.4
+*6.2
+4.222
+4000.0
+1530.0
+9100.0
+5712.0
+32.0
+55.22
+68.02
+346110.0
+5.06
+81.2
+8643
+8851
+1.5
+6.2
+7.642
+4000.0
+930.0
+5000.0
+5150.0
+72.0
+26.52
+50.0
+920000.0
+8.23
+79.0
+749
+879
+1.6
+*5.2
+2.881
+4000.0
+6920.0
+1100.0
+8782.0
+42.0
+7.32
+87.92
+876510.0
+3.14
+45.2
+6982
+8311
+1.7
+*5.2
+8.511
+4000.0
+1810.0
+4100.0
+4144.0
+82.0
+39.72
+93.94
+481620.0
+6.96
+90.3
+9796
+1622
+1.8
+5.2
+9.342
+4000.0
+6830.0
+5000.0
+2650.0
+72.0
+67.52
+46.0
+323000.0
+8.32
+96.0
+194
+317
+1.9
+*3.3
+8.181
+5000.0
+6820.0
+3800.0
+2842.0
+72.0
+62.62
+78.42
+614310.0
+7.14
+73.1
+7471
+5721
+1.01
+*6.2
+2.99
+4000.0
+5510.0
+1200.0
+6984.0
+92.0
+66.82
+45.55
+528920.0
+1.98
+39.2
+4968
+2792
+1.11
+5.2
+3.042
+4000.0
+830.0
+4000.0
+150.0
+82.0
+33.62
+10.0
+–
+9.52
+69.0
+067
+597
+1.21
+5.2
+6.542
+4000.0
+8830.0
+3000.0
+6150.0
+72.0
+37.52
+60.0
+930000.0
+4.44
+40.1
+4831
+9231
+1.31
+*4.2
+7.012
+4000.0
+2330.0
+8000.0
+5412.0
+52.0
+19.32
+45.02
+30110.0
+34
+21.2
+4352
+7911
+1.41
+*6.3
+1.632
+6000.0
+3730.0
+6100.0
+3260.0
+4.0
+34.62
+24.1
+86000.0
+5.34
+71.1
+9651
+4431
+1.51
+*5.2
+9.732
+4000.0
+6730.0
+5100.0
+9480.0
+62.0
+74.52
+42.4
+344200.0
+4.54
+8.0
+1801
+1531
+1.61
+6.2
+3.442
+4000.0
+6830.0
+7000.0
+6150.0
+72.0
+78.52
+70.0
+311000.0
+3.42
+40.1
+567
+337
+1.71
+*6.3
+9.591
+6000.0
+9030.0
+5500.0
+6643.0
+12.0
+93.02
+1.73
+320020.0
+3.56
+77.1
+5472
+0551
+1.81
+*7.2
+4.602
+4000.0
+5230.0
+6400.0
+5191.0
+62.0
+13.52
+76.71
+412900.0
+6.15
+55.1
+1532
+1251
+1.91
+6.2
+3.542
+4000.0
+8830.0
+7000.0
+8150.0
+82.0
+67.52
+80.0
+640000.0
+7.02
+79.0
+606
+226
+1.02
+5.2
+042
+4000.0
+9730.0
+7000.0
+750.0
+82.0
+71.62
+57.0
+154000.0
+1.13
+77.0
+137
+749
+1.12
+6.2
+342
+4000.0
+4830.0
+5000.0
+8050.0
+82.0
+40.62
+10.0
+<
+–
+6.72
+79.0
+618
+838
+1.22
+*6.2
+3.521
+4000.0
+6910.0
+1200.0
+334.0
+72.0
+43.62
+92.84
+516620.0
+28
+30.2
+7015
+4152
+1.32
+5.2
+2.242
+4000.0
+3830.0
+5000.0
+8250.0
+72.0
+40.62
+32.0
+850000.0
+4.03
+82.1
+2811
+429
+1.42
+*4.2
+9.232
+4000.0
+8630.0
+8000.0
+6350.0
+82.0
+90.72
+53.0
+83000.0
+5.13
+11.1
+6011
+499
+1.52
+
+### page_10
+6 30 International Journal of Earth Sciences (2019) 108:621–647
+with stacked histogram highlights the radiogenic Pb loss,
+with a dominant peak, indicating those areas/grains that
+are less affected by alteration (Fig. 4e). A weighted mean
+for 12 analyses gives a 206Pb/238U age of 244.1 ± 1.6 Ma
+(MSWD = 1.08) and this likely constrains the time of igne-
+ous zircon crystallization (Fig. 4f).
+Paleomagnetism
+Twenty-eight out of thirty-five sites showed good within-
+site directional consistency (α95 < 15°), with the char-
+acteristic magnetic components isolated both by AF and
+thermal cleaning. Site locations are shown in Fig. 1b and
+Table 2, together with paleomagnetic results. A maximum
+angular deviation (MAD) up to 15° was accepted, although
+80% of components were determined with MAD values
+under 5°.
+Rhyolite dome
+All four sites showed good within-site directional consist-
+ency, one of them (site Z32) carries a characteristic mag-
+netic component (component C) of reverse polarity, while
+the other three are carriers of characteristic remanence
+coincident with the direction of the present-day Earth
+Magnetic Field Dipole (EMFD, component B). On aver-
+age, the corresponding components were isolated in 54%
+of the studied specimens. Site Z32 (rhyolitic ignimbrite)
+shows magnetite as the magnetic carrier, with a character-
+istic component (C) well defined in a varied range between
+80 and 580 °C and between 12 and 110 mT (Fig. 5a, b).
+Low-coercivity vectors (< 10mT) occur without a clear
+preferred orientation (Fig. 5a). Site Z30 (rhyolitic breccia)
+only shows consistency for a low-coercivity/temperature
+(< 12 mT/< 250 °C) component (B), which accounts only
+for a minor fraction of the natural remanent magnetization.
+The same component is also present in the vitrophyric
+rhyolites (Z28 and Z29, Fig. 5c, d) with similar unblocking
+ranges (< 10 mT, < 400 °C). Component B, from sites Z28,
+Z29, and Z30, shows poorly defined means with α95 from
+12° to 21°, and an overall mean that is consistent with
+the direction and polarity of the present-day dipole field
+direction in the sampling area (Dec: 355.0°, Inc: − 66.2°,
+α95: 13.3° versus dipole-field direction of Dec: 0°, Inc:
+− 59.5°). This and the low unblocking temperatures/coer-
+cive forces strongly suggest that component B is a second-
+ary one. The mean site direction of Z32 for component C
+dips moderately downward to the SE and the associated
+virtual geomagnetic pole is presented in Table 2.
+1 3
+)deunitnoc(
+1 elbaT
+ekid
+etilpA-3ZD
+ELPMAS
+)aM(
+egA
+cinegoidaR
+±
+latoT
+%
+f
+bP602/bP402
+)mpp(
+*bP602
+U/hT
+)mpp(
+hT
+)mpp(
+U
+.niarG
+602
+tops
+±
+U832/bP602
+±
+U832/bP602
+bP602/bP702
+±
+bP602/U832
+5.2
+8.442
+4000.0
+7830.0
+7000.0
+1450.0
+72.0
+37.52
+83.0
+592000.0
+15
+61.1
+7671
+7251
+1.62
+level
+σ
+eno
+eht
+ta
+nevig
+seitniatrecnU
+.1
+:setoN
+noisses
+lacitylana
+eht
+rof
+%53.0
+saw
+noitarbilac
+nocriz
+ecnerefer
+aromeT
+ni
+rorrE
+.2
+)stnuom
+tnereffid
+morf
+atad
+gnirapmoc
+nehw
+deriuqer
+tub
+srorre
+evoba
+ni
+dedulcni
+toN(
+bP nommoc
+si
+taht
+bP602
+fo
+egatnecrep
+eht
+setoned
+%
+f
+.3
+602
+soitar
+bP602/bP702
+dna
+bP602/U832
+derusaem
+eht
+gnisu
+edam
+neeb
+sah
+atad
+bP/U
+eht
+rof
+bP
+nommoc
+rof
+noitcerroC
+.4
+)8991(
+smailliW
+ni
+deniltuo
+sa
+)2791(
+grubressaW
+dna
+areT
+gniwolloF
+noitaluclac
+eht
+morf
+dedulcxE
+*
+lanretxe
+ei
+:dts
+edulcnI
+±
+lanretnI
+±
+egA
+fo
+21
+rof
+80.1
+=
+DWSM
+6.1
+76.0
+4.1
+1.442
+tnanimod
+eva
+dtw
+dezylana
+sniarg
+62
+
+### page_11
+International Journal of Earth Sciences (2019) 108:621–647 631
+Fig. 4 CL-zircon imagining and U–Pb SHRIMP. Sample E5 (dacite) shown in b; sample DZ3 (Acidic dike) d CL image of zircon grains
+a CL image of zircon grains revealing euhedral and slender shapes revealing euhedral shapes. Notice the high U content (dark zones); e
+with simple oscillatory zoning; b Tera–Wasserburg Concordia plot; Tera–Wasserburg Concordia plot; f weighted mean 206Pb/238U age of
+c weighted mean 206Pb/238U age of the concordant zircon age cluster the concordant zircon age cluster shown in e
+1 3
+
+### page_12
+6 32 International Journal of Earth Sciences (2019) 108:621–647
+Table 2 Paleomagnetic results from the study units
+Site no n Dec. (°) Inc. (°) k α95 Site Lat. Site Long. VGP Lat. (°S) VGP Long. (°E) dp dm
+(°S) (°W)
+Rhyolite dome
+Z32 10 8 122.8 30.2 123.9 5 40°21.709 68°25.010 35.26 30.31 3.1 5.5
+Z28 12 5 5.4 − 60.7 18.7 18.2 40 20.473 68 23.983 85.71 221.83 21.1 27.7*
+Z29 8 3 332.8 − 71.9 34.5 21.3 40 20.473 68 23.983 65.89 329.35 33.1 37.5*
+Z30 9 5 358.8 − 64.3 38.6 12.5 40 20.686 68 24.316 84.18 299.82 16 19.9*
+Collinao units
+E1 10 6 85.1 74.9 116.7 6.2 40° 21.132 68° 22.038 32.61 325.8 10.3 11.4
+E2 10 10 122.7 78.4 264.9 3 40° 21.028 68° 22.133 49.05 320.82 5.6 9.3
+E3 12 8 134.9 65.2 38.4 9.1 40° 21.869 68° 22.020 57.21 354.21 11.8 14.6
+E4 13 7 (5) 117.2 54.6 129.1 6.1 40° 21.670 68° 25.200 41.11 6.47 9.8 15.2
+E4a 13 9 21.8 − 53.7 18.9 12.1 40° 21.670 68° 25.200 71.67 189.04 11.8 16.9*
+E6 15 6 141.3 45.4 194.6 4.8 40° 24.896 68° 24.790 55.4 32.44 12.2 13.1
+E7 11 8 135.5 64.9 32.9 9.8 40° 24.864 68° 24.618 57.61 355.03 3.9 6.1
+Z2 10 6 95.7 62.1 100 6.7 40° 27.003 68° 25.478 30 348.3 8.1 10.4
+Basic dykes
+DZ5 13 8 (5) 353.7 − 40.8 49.6 8.6 40°25.319 68°23.415 72.12 92.45 8.2 13.8
+DZ12 10 5 307.1 − 38.7 47.6 11.2 40°28.013 68°20.451 41.86 27.87 7.9 13.3
+DZ13 11 9 303.2 − 50 23.7 10.8 40°30.746 68°24.601 43.64 14.95 9.6 14.4
+DZ15 13 12 356.1 − 67.5 70.4 5.2 40°30.472 68°25.871 79.78 305.79 7.2 8.7
+Acidic dykes
+E4d 4 3 7.7 − 77.1 310.6 7 40° 21.670 68° 25.200 64.59 284.11 12.2 13.1
+Z34 7 6 359.1 − 59 509.7 3 40°22.126 68°25.294 89.08 62.58 3.3 4.4
+Z36 12 5 352.3 − 54.2 252.5 4.8 40°21.901 68°25.034 81.7 61.72 4.8 6.8
+Z37 10 7 337.2 − 51.1 44.7 9.1 40°22.966 68 22.487 69.75 39.53 8.4 12.4
+DZ1 13 6 328.5 − 58.6 107.8 6.5 40°26.993 68°21.518 65.93 13.99 7.2 9.6
+DZ2 9 8 (5) 6 − 55 219.5 4.1 40°27.471 68°20.870 83.17 157.34 9.5 13.4
+DZ3 11 10 (8) 7.3 − 56.2 244.4 10.6 40°26.241 68°22.712 83.21 171.09 11.6 16.5
+DZ6 13 9 (4) 25.6 − 49.8 95.6 5.5 40°24.880 68º23.436 67.08 184.37 9.2 14.3
+DZ9 11 8 (3) 350.8 − 59.8 62 7.4 40°23.671 68°22.582 83 16.31 10.2 12.7
+DZ10 14 11 (9) 353.8 − 57.7 100.9 4.9 40°22.961 68°22.431 84.79 42.68 11.1 17.4
+DZ11 13 10 (7) 354.8 − 51.1 32.8 9.1 40°22.947 68°22.449 80.44 84 9.8 14.4
+DZ16 9 7 359.3 − 51.2 38.2 9.9 40°30.472 68°25.871 81.35 107.68 9.1 13.4
+Paleomagnetic N Pole Lat. (°S) Pole Long. (°E) A95
+pole
+C 7 48.3 349.9 15.1
+A 12 87 51.5 8.1
+In italic, those sites where the magnetic remanence is considered of secondary origin
+no number of specimens measured per site, n number of specimens included in the site mean direction, Dec., Inc., K and α95 declination, incli-
+nation, and directional statistical parameters of Fisher (1953) for the site mean direction, N number of sites included in the Collinao units and the
+acidic Dikes paleomagnetic poles, C and A, respectively
+Collinao Dacite and equivalent units were isolated from 63% of the studied specimens. Step-
+wise demagnetization (Fig. 6a–d) permitted the isolation of
+Collinao units encompass paleomagnetic sites from the a characteristic component (C) that reaches the origin of
+Collinao Dacite and the equivalent units from the eastern coordinates. Maximum unblocking temperatures of 580 °C
+and western sectors of the Paileman Dome. Seven out of suggest magnetite (or Ti-poor titanomagnetite) as the car-
+nine sites show good within-site directional consistency rier of the characteristic remanence. Intermediate coercive
+(α95 < 15°). Sites Z33 and E5 were ruled out due to incon- forces as shown by unblocking fields from 20 to 100 mT
+sistent directions. Characteristic magnetic components are consistent with that carrier (Fig. 6c, d). In many sites,
+1 3
+
+### page_13
+International Journal of Earth Sciences (2019) 108:621–647 633
+Fig. 5 Examples of Zijderveld plots and demagnetization curves for fields demagnetization; b, d thermal demagnetization. Gray shadow
+the rocks of the Rhyolite Dome. Full (open) circles indicate projec- indicates the steps used to define depaleomagnetic vectors of the
+tion on the horizontal (vertical) plane. a, c Alternating magnetic characteristic component in each site
+Fig. 6 Examples of Zijderveld plots and demagnetization curves of ing magnetic fields demagnetization. Gray shadow indicates the steps
+the Collinao Dacite. Full (open) circles indicate projection on the hor- used to define depaleomagnetic vectors of the characteristic compo-
+izontal (vertical) plane. a, b Thermal demagnetization; c, d alternat- nent for each sample
+low-temperature–low-coercivity components (< 300 °C, presence of samples with opposite polarities at the same
+< 20 nT) with high directional dispersion were also pre- site suggests a slow acquisition of the characteristic rema-
+sent (Fig. 6b, c), except for site E4a in which a consist- nence and/or fast polarity changes of the earth magnetic
+ent low-temperature component (B) could be determined field during remanence acquisition time interval. Mean site
+(see Table 2) similar to the present-day dipole field in the directions and corresponding virtual geomagnetic poles are
+sampling locality. Most characteristic components (C) dip presented in Table 2.
+moderately-to-steeply downward to the SE. Only two vec-
+tors from site E7 show an antipodal direction (Fig. 6d). The
+1 3
+
+### page_14
+6 34 International Journal of Earth Sciences (2019) 108:621–647
+Basic dikes a complete demagnetization, although the residual rema-
+nence vectors trend towards the origin of coordinates. In
+Four out of seven sites on these dikes showed good within- those cases, and when the coercivity spectra show large
+site directional consistency (α95 < 15°). Characteristic overlapping, remagnetization circles were calculated and
+magnetic components were isolated from 72% of the stud- combined with components isolated by principal compo-
+ied specimens with magnetite as the likely main carrier. nent analysis to estimate the site mean directions, follow-
+Almost complete thermal demagnetization under 580 °C ing McFadden and McElhinny (1988). Examples of those
+and unblocking fields in the range between 12 and 70 mT behaviors are shown in Fig. 8a–e. As evidenced by Fig. 8f,
+are consistent with that mineralogy (Fig. 7a–c). Site mean g, thermal cleaning did not allow to properly discriminate
+directions dip moderately upwards corresponding to a nor- both components, but indicate that unblocking temperatures
+mal polarity geomagnetic field; two of them trend to the N, are under 610 °C. Mean site directions point moderately up
+while the others point to the NW (Table 2). In site DZ5, a to the north (Table 1).
+combination of five remagnetization circles with three char-
+Field tests of magnetizations
+acteristic remanence directions defined by principal compo-
+nent analysis (McFadden and McElhinny 1988) was used to
+calculate the mean. Site E4 belonging to the Collinao units of the western
+side of the Paileman dome was drilled 10 m away from a
+Acidic dikes 4 m-thick subvertical acidic dike (E4d). Due to lack of suit-
+able outcrops, just a few samples from a small branch of the
+Twelve out of fifteen sites located in acidic dikes showed main dike could be obtained. Ten cores were drilled in the
+good within-site directional consistency of their character- host rock, at distances from 1 to 6 m from the dike branch.
+istic remanence (α95 < 15°) and their results are shown in Two well-defined magnetic components are present in the
+Table 2. The only exceptions were DZ4, E6d, and Z35. Two host rock. As shown in Fig. 9a, one component is erased
+main magnetic components were isolated by AF demag- below 300 °C (gray in Fig. 9a, b) and the other in the range
+netization. A softer one, usually erased with fields under between 300 and 580 °C (dark-gray shadow in Fig. 9a). The
+30mT, accounted for most of the natural remnant magneti- high-temperature component was easily isolated in two
+zation but showed random directions (Fig. 8a). The other samples in which it accounts for 40–50% of the NRM (i.e.
+one (component A) shows medium-to-high coercive forces Fig. 9a, blue and light blue lines). In the other five samples,
+and good directional consistency. For these hard compo- it represents 10% or less of the NRM and remagnetization
+nents, isolated from 70% of the studied specimens, clean- circles were used to better isolate this high-temperature
+ing ranges up to 120 mT were generally unable to produce component (Fig. 9b). The low-temperature component was
+Fig. 7 Examples of Zijderveld plots and demagnetization curves of magnetic field demagnetization. Gray shadow indicates the steps used
+the Basic dikes. Full (open) circles indicate projection on the horizon- to define the paleomagnetic vectors of the characteristic component
+tal (vertical) plane. a, c Thermal demagnetization; b, d Alternating for each sample
+1 3
+
+### page_15
+International Journal of Earth Sciences (2019) 108:621–647 635
+Fig. 8 Demagnetization behavior of the acidic dikes. a Demagnetiza- alternating magnetic field demagnetization (b–e) and thermal demag-
+tion paths showing random directional behavior of the soft compo- netization (f, g). Full (open) circles indicate projection on the hori-
+nents and the convergence of remanence vector during demagnetiza- zontal (vertical) plane. More references in the text
+tion. Examples of Zijderveld plots and demagnetization curves for
+also observed as a mid-to-high-coercivity component on was found in relation to the distance to the dike, the sim-
+four samples submitted to AF demagnetization (Fig. 9c). plest interpretation of the results observed at this site is a
+In Fig. 12a, both mean directions from the host rock are partial remagnetization of the host rock due to the intrusion
+presented, as well as the mean directions of the Collinao of the acidic dikes. Whether this is a thermal or a chemical
+Dacite for comparison (Fig. 12b). The high-temperature remagnetization induced by the acidic magmatism remains
+component (E4) shows positive inclinations in all cases with to be determined. If this interpretation is valid, it means a
+their mean direction coherent with those obtained in other primary origin for the dikes magnetization and a remanence
+Collinao units (component C). On the other hand, the low- for the Collinao units that is older than the dikes intrusion.
+temperature component (E4a) is consistent with the mean Considering that only about 10 Ma separate both volcanic
+directions of the acidic dikes (component A). Although a events, a primary magnetization for the host rock (Collinao
+full contact test was not obtained, since no precise correla- Dacite) is likely.
+tion with unblocking temperature and component magnitude
+1 3
+
+### page_16
+6 36 International Journal of Earth Sciences (2019) 108:621–647
+Fig. 9 Examples of Zijderveld plots and demagnetization curves for demagnetization; b intersection of remagnetization circles (green)
+Site E4 (andesite from de Collinao Dacite located in the western side and individual observations (black full circles with their α95 confi-
+of the dome) in which a contact test was performed. Full (open) cir- dence angle) used to calculate the mean site direction for the high-
+cles indicate projection on the horizontal (vertical) plane. a Thermal temperature component; c Alternating magnetic field demagnetization
+Rock magnetism (Figs. 8, 10) suggests that the characteristic remanence in
+the acidic dikes is carried by a titanohematite phase. This
+Some rock-magnetic experiments were performed to is typical of rhyolites and other acidic volcanic rocks in
+obtain more information on the magnetic carriers of which high-temperature oxidation during cooling produces
+the remanences isolated in the study units. Acquisition antiferromagnetic phases that carry a primary magnetiza-
+of isothermal remanent magnetization (IRM) for repre- tion. For the Collinao units and Basic dikes, the results
+sentative samples of the Collinao units and the basic and confirm that magnetite or (Ti-poor) titanomagnetite is the
+acidic dikes are presented in Fig. 10a–c, respectively. The main carrier of the characteristic magnetization.
+diagrams show that ferrimagnetic minerals dominate the Representative low- and high-temperature thermomag-
+response to the applied field of most samples of the vol- netic curves (magnetic susceptibility-K vs temperature) are
+canic rocks and the basic dikes, as shown by saturation presented in Fig. 11a–g. Collinao units (Fig. 11a, b) are
+remanence acquired at fields around 300 mT, which is consistently characterized by the presence of a well-defined
+typical for magnetite (Özdemir and Dunlop 1999). How- Verwey transition, a relatively small Hopkinson peak, and an
+ever, the acidic dikes, a single basic dike and a sample abrupt decrease in susceptibility around 580 °C, indicating
+from the Rhyolite Dome (Fig. 10b, c) show the presence magnetite as the main magnetic phase. The curves are nearly
+of a second magnetic phase with saturation fields around reversible, suggesting small alteration due to experimental
+1 to 1.5 T, suggesting an antiferromagnetic phase. This heating. Similar behavior is shown by basic dike DZ13
+is systematic in the acidic dikes, except for a particular (Fig. 11d) that carries a consistent remanent magnetiza-
+rhyolitic banded dike (DZ16; Fig. 3f). Titanohematite is a tion. A well-defined Verwey transition and Curie tempera-
+possible candidate for this behavior. Failure of AF demag- ture near 580 °C is indicated in this case too. The possible
+netization is to fully erase the natural remanent magneti- presence of some maghemite that oxidizes into hematite is
+zation in the acidic dikes (Fig. 8b, c, e) is consistent with suggested by the bump in the heating curve between 200
+the presence of an antiferromagnetic phase as shown by and 300 °C and its absence in the cooling curve. The other
+the IRM results. NRM thermal demagnetization showed dike (with no consistent paleomagnetic directions) shows
+unblocking temperatures around or slightly higher than a very small Verwey transition, much lower susceptibility
+600 °C, but failed to discriminate components. Compari- values, and no Hopkinson peak. However, a Curie tempera-
+son of demagnetization plots and IRM acquisition curves ture around 580 °C is observed too. The curve is irreversible
+1 3
+
+### page_17
+International Journal of Earth Sciences (2019) 108:621–647 637
+Fig. 10 Normalized isothermal
+remanent magnetization acqui-
+sition diagrams. a Rhyolitic
+Dome and Collinao Dacite; b
+basic dikes; c acidic dikes
+and suggests neoformation of magnetite during heating. The high-temperature heating curve with Neel temperature in
+high-temperature curve of the sample from the Rhyolite the range 600–670 °C. The cooling curve, however, shows
+Dome (Fig. 11c) shows the presence of hematite from the a Curie temperature in the magnetite range (around 580 °C),
+1 3
+
+### page_18
+6 38 International Journal of Earth Sciences (2019) 108:621–647
+Fig. 11 Representative low- and high-temperature thermomagnetic curves (magnetic susceptibility vs temperature). a, b Collinao units; c Rhyo-
+lite Dome (lower section; d, e basic dikes (with and without paleomagnetic intrasite consistency, respectively); f acidic dikes
+suggesting the reduction of hematite into magnetite. How- suggesting lack of significant tilt. Data for all these units are
+ever, the bulk susceptibility hardly changes. The example presented in Table 1.
+from the acidic dikes shows the presence of the Verwey tran- The Rhyolite Dome has a single site (Z32) for which a
+sition indicative of magnetite, and a gentle decay of suscepti- primary magnetization is interpreted. This shows an SE
+bility from around 500 °C up to 650 °C, suggesting that both downward directed mean remanence. The remaining three
+magnetite and hematite contribute to the bulk susceptibility. mean directions shown in Fig. 12a are not significantly dif-
+Some oxidation of magnetite into hematite is apparent in ferent from the expected EMFD direction at the sampling
+the cooling curve. In brief, the K vs T curves are in general locality and correspond to low unblocking temperatures/
+consistent with the IRM results and the NRM demagnetiza- coercivities (see above), being interpreted as a recently
+tion, indicating that the Collinao units and the basic dikes acquired secondary magnetization.
+carry magnetite as the main magnetic phase. The presence The Collinao Dacite (Fig. 12b) provided seven site mean
+of both magnetite and hematite in the acidic dikes and some directions. They all show positive inclinations trending
+sites of the Rhyolite Dome is likely. towards the east or southeast. The low-temperature com-
+ponent recovered at site E4 (Fig. 12b) is interpreted as pro-
+Directional analysis
+duced by partial remagnetization due to the intrusion of the
+acidic dikes. Note that this direction is similar to those from
+Figure 12 illustrates the site mean directions for the four the dikes (Fig. 12d).
+different geologic units studied, i.e., the Rhyolite Dome The basic dikes yielded four site mean directions of nega-
+(Fig. 12a), the Collinao units (Fig. 12b), the basic dikes tive inclinations with a significant dispersion. SitesDZ5 and
+(Fig. 12c), and the acidic dikes (Fig. 12d). No structural DZ15 point to the north, while directions from sites DZ12
+correction is needed for the paleomagnetic data, since both and DZ13 point towards the NW (Fig. 12c).
+the Rhyolitic Dome and the Collinao units are subhorizontal. The acidic dikes (Fig. 12d) yielded 12 site mean direc-
+Dikes, on the other hand, are subvertical regardless their tions, all with negative moderate inclinations and pointing
+trend, show nearly rectilinear extensions for kilometers and North.
+intrude the subhorizontal Rhyolite Dome and Collinao units, A virtual geomagnetic pole (VGP) was computed for
+each site mean direction, with the exception of those
+1 3
+
+### page_19
+International Journal of Earth Sciences (2019) 108:621–647 639
+Fig. 12 Site mean directions with their corresponding α95, in a Lambert projection. Green cross indicates the present-day dipole-field direction
+in the study area. a Rhyolite Dome. b Collinao Dacite. c Basic dikes. d Acidic dikes
+considered as recent overprints (see Table 2). They are On the other hand, we obtained an age of 244 ± 2 Ma for
+plotted in Fig. 13 in the present-day South American crystallization of the acidic dikes. The basic dikes do not
+coordinates. A clear different position for the VGPs from have any independent radiometric dating; however, field
+the Collinao units (plus the single VGP from the Rhyolite relations indicate that they are younger than 255 ± 2 Ma
+Dome), which falls between 30° and 60°S, is evident with (Martínez Dopico et al. 2017b), but are intruded by the
+respect to the VGPs from the acidic dikes, all of which fall acidic dikes, and, therefore, older than 244 ± 2 Ma.
+in high southern latitudes > 60°S. The four VGPs from the
+basic dikes are divided into two groups; two VGPs appear
+Discussion
+as consistent with the former group of poles, while the
+other two fall within the acidic dikes VGPs. This clear
+different spatial distribution correlates with the different Two accurately dated paleomagnetic poles for the North
+ages of the magmatic units. The Collinao Dacite was dated Patagonian Massif were calculated from the VGPs pre-
+by us at 253 ± 2 Ma, while the Rhyolite Dome has an age sented in Fig. 13, one for the Collinao Dacite (253 ± 2 Ma)
+of 264 ± 2 Ma (Pankhurst et al. 2006) as mentioned above. and the other for the acidic dikes (245 ± 2 Ma), plus four
+1 3
+
+### page_20
+6 40 International Journal of Earth Sciences (2019) 108:621–647
+Fig. 13 Virtual geomagnetic
+poles in a Schmidt projection
+(present-day geographic coor-
+dinates): Rhyolite Dome (light
+blue circle), Collinao Dacite
+(dark blue circles), Basic dikes
+(black squares), and Acidic
+dikes (red circles)
+virtual geomagnetic poles (VGP) for the basic dikes VGPs suggests that remanence most likely was recorded
+(bracketed between 253 and 245 Ma) and a single VGP during the ca. 1 Ma-long reverse chron at the end of the
+for the Rhyolite Dome (264 ± 2 Ma, Fig. 14). Changhsingian (between about 253 and 252 Ma, Ogg et al.
+The Collinao pole (C, 48.3°S, 349.9°W, N = 7, 2016, or between 253.8 and 252.8 Ma; Hounslow and Bal-
+A95 = 15.1°) was obtained as the mean of seven VGPs abanov 2016) which is consistent within the uncertainty of
+(Fig. 14a) from the same number of sites widely distrib- the obtained radiometric age.
+uted along the outcrops of the Collinao units and associ- A paleomagnetic pole from the acidic dikes was obtained
+ated rocks. Angular standard deviation of the VGPs (19.7°) by averaging 12 VGPs from the same number of dikes dis-
+is consistent with that found by McElhinny and McFadden tributed along the study area. Angular standard deviation
+(1997) for reverse polarity lavas of the last 5 Ma between (14.9°) of the VGPs distribution is consistent with the
+40 and 60° latitudes. This suggests that each site repre- range found by McElhinny and McFadden (1997) for the
+sents a different spot reading of the paleomagnetic field normal polarity lavas for the last 5 Ma. This suggests that
+and that a significant amount of paleosecular variation has we have likely sampled a significant amount of the pale-
+been probably sampled. The single VGP obtained from the osecular variation. These dikes are interpreted to share a
+Rhyolite Dome (site Z32) is close to this pole (Fig. 14a). common genesis, based on: mutual cross-cutting relations,
+However, the age of this rhyolitic unit is significantly older general geometry which suggests a unique structural model
+(264 ± 2 Ma) as shown by Pankhurst et al. (2006). Inverse and consistent paleomagnetic directions; plus nearly identi-
+contact test and rock-magnetic results indicating magnet- cal two radiometric datings (246 ± 2 Ma, Pankhurst et al.
+ite as the remanence carrier together with petrographic 2006; 244 ± 2 Ma, this paper). Textural differences observed
+observations suggest a primary magnetization for the Col- between the dikes can be associated with individual vol-
+linao Dacite. The exclusive reverse polarity found in their umes and local intrusion conditions. In any case, these dikes
+1 3
+
+### page_21
+International Journal of Earth Sciences (2019) 108:621–647 641
+Fig. 14 Collinao Dacite (C) and
+acidic dikes (A) paleomagnetic
+poles, in South American coor-
+dinates (Schmidt projection)
+and different reference paths for
+comparison. a Upper Paleozoic-
+to-Triassic Apparent Polar
+Wander Paths for Gondwana
+(Gallo et al. 2017, blue) and for
+South America (Brandt et al.
+2009, green); b Alternative
+Gondwana polar wander path by
+Torsvik et al. 2012 (black) and
+Geuna and Escosteguy 2014
+(red). c Permian–Triassic avail-
+able paleomagnetic poles of the
+NPM: Sierra Grande pole (SG,
+blue, Rapalini 1998) and Punta
+Sierra pole (PS, red, Tomez-
+zoli et al. 2013). The original
+VGPs of Punta Sierra (red
+squares) are plotted, and also
+the recalculated pole (PS’, this
+work). APWP of Torsvik et al.
+(2012, dark gray) and Geuna
+and Escosteguy (2014, gray) for
+comparison
+1 3
+
+### page_22
+6 42 International Journal of Earth Sciences (2019) 108:621–647
+intrude the Collinao Dacite and the Inequigranular facies of C and A poles suggests a fast apparent polar wander path of
+the Prieto Granodiorite (253 ± 2 and 255 ± 2 Ma, respec- the NPM across the Permian–Triassic boundary. Whether
+tively, U–Pb SHRIMP in zircon, Martínez Dopico et al. that is related to displacement of the NPM relative to Gond-
+2017b and this paper). Field relations with the Calvo Gran- wana or due to local tectonics is discussed below.
+ite, dated as 250 ± 2 Ma, led Llambías and Rapela (1984) to The four VGPs obtained from the basic dikes fall rela-
+postulate a common genesis for the rhyolitic dikes and the tively dispersed (Fig. 13). However, when plotted together
+pluton. The exclusive normal polarity found in these dikes with those from the other units, it appears that two of them
+suggests that their magnetization was more likely acquired fall close to the Collinao units VGPs, while the other two
+during the lower Anisian (ca 247 − 244 Ma, Ogg et al. 2016) match those from the acidic dikes. Although precise radio-
+which is consistent with the uncertainty limits of both radio- metric crystallization ages of the basic dikes are not avail-
+metric ages, mentioned above. Therefore, a nominal age of able, they are constrained by field relations as younger than
+245 Ma for this pole (A, 87°S, 51.5°E, N = 12, A95 = 8.1°) 255 Ma (Prieto Granodiorite Inequigranular facies) and
+is proposed. older than 245 Ma (acidic dikes). No definitive association
+In Fig. 14a, b, the new paleomagnetic poles are plot- of these two groups with lithologic variations or other char-
+ted against a selection of Apparent Polar Wander Paths acteristics like orientation or location was observed. In spite
+(APWP) computed by different authors for Gondwana in of that, a roughly correlation with the degree of mineral
+South American coordinates (Torsvik et al. 2012; Geuna and alteration exists. Sites with less or null evidence of second-
+Escosteguy 2014; Gallo et al. 2017) and the South American ary alteration (DZ13 and DZ12, respectively) plot near C,
+path proposed by Brandt et al. (2009). Despite the differ- while those more altered (DZ5 and DZ15) plot near the A
+ences presented by all curves due to different selection of pole. Although the number of VGPs is too low for a definite
+paleomagnetic poles and techniques to construct the path, a conclusion and the characterization of the alteration needs
+broadly similar picture of the South American displacement to be improved, a working hypothesis to be tested with fur-
+(as part of Gondwana) from Early Carboniferous to Triassic ther paleomagnetic studies on these dikes is that some of
+is displayed in all APWP. A progressive increment in the them preserved a primary magnetization associated with
+latitude of the poles and a relative abrupt change in the path the Collinao units, whilst others were affected by alteration
+in the Early Permian appear to some degree in all of them. processes that produced their remagnetization. Considering
+The Collinao paleomagnetic pole (C) and the single VGP the widespread distribution of acidic dikes, the thermal input
+from the 264 Ma rhyolite of the Paileman dome coincide associated with their intrusion is the most likely candidate
+approximately with the different paths, but in all the cases in for such effect. It is important to consider that a recent altera-
+a much older segment (340–300 Ma), far away from the cor- tion could produce a remagnetization of similar direction
+responding positions around 250–260 Ma. This discrepancy due to the close position of the 250 Ma reference pole to
+cannot be assigned to methodological uncertainty, nor to a the present-day rotation axis. Although we cannot rule out
+younger remagnetization as no post-Permian reference poles completely this possibility, we consider it unlikely. This con-
+for South America (see, for instance, Torsvik et al. 2012) sideration is based on the interpretation of the contact test,
+are close to the Late Carboniferous section. On the other the high-temperature unblocking temperature (that would
+hand, the acidic dikes paleomagnetic pole (A) position is rule out a secondary viscous magnetization) and the fact
+equivalent to the reference pole of 250 Ma from Geuna and that the majority of acidic dikes show the same characteris-
+Ecosteguy (2014), and partially coincident with the 250 and tic remanence despite the highly different textures observed
+240 Ma reference poles of Torsvik et al. (2012) and the Mid- (see section on field and petrographic characteristics above).
+Permian–Early Triassic pole of Brandt et al. (2009). Pole Two previous Permian–Triassic paleomagnetic poles for
+A is only discordant with the Late Permian–Early Triassic the NPM are available in the literature (Fig. 14c). The Sierra
+Gondwana pole recently computed by Gallo et al. (2017). In Grande pole (SG, 77°S, 308.9°E, N = 13, A95 = 7.3°, Rapal-
+this case, however, the mean Late Permian–Early Triassic ini 1998) was computed from a late syntectonic magnetiza-
+reference pole appears, perhaps, too old for a precise com- tion of Devonian sandstones of the Sierra Grande Formation.
+parison as its mean age is around 257 Ma. Taken into consid- The time of deformation, and, therefore, of magnetization, is
+eration the different positions for the 250–240 Ma-interval only broadly constrained, but, according to its comparison
+reference poles in the different APWP, the A pole can be with the South American reference APWP, it could be latest
+considered as consistent, within the experimental uncertain- Permian or Early Triassic. The Punta Sierra paleomagnetic
+ties, with the expected position in the Gondwanan or South pole of Tomezzoli et al. (2013) is an average of seven VGP’s
+American APWP. This implies, within the paleomagnetic (PS 65.4°S, 10.8°E, N = 7, A95 = 12.7°) coming from unde-
+error, that, for that time (ca. 245 Ma), Patagonia (or at least formed but remagnetized Ordovician granitoids. Because of
+the NPM) was located at the present-day position in relation the proximity to the Early Permian portion of the APWP of
+to South America. The significantly different position of the South America, the authors assigned that age to the pole. In
+1 3
+
+### page_23
+International Journal of Earth Sciences (2019) 108:621–647 643
+comparison with the positions of the newly obtained poles, any surface expression of domino-pattern faults or similar
+PS lies somewhat in between of the C and A poles (Fig. 14c). structures. A structural framework of the study area (around
+However, if analyzed in detail, this pole may be considered 300 km2) and the entire region is characterized by the pres-
+as made up by two groups of VGPs. One group (S1, S2, S3, ence of E–W transcurrent dextral fault systems that produced
+S5, and S6), is located close to C, while the remaining two important (a few kilometers) lateral displacements, but did
+VGPs (S7 and S8) lie close to A and SG poles. No clear not seem to have generated any significant visible rotation
+relation of these two groups with site location, lithology, or around vertical axes in the rocks and features close to the
+other geological features has been found. The possibility that faults. Furthermore, the counterclockwise rotation needed
+they show a protracted remagnetization that encompassed to explain the anomalous C position seems at odds with the
+several million years would support a fast wander path for dominant dextral displacement seen in these faults. The most
+NPM near the Permian–Triassic boundary and should be conspicuous of such faults is the one that dismembered the
+taken into consideration for future investigations. 250 Ma Calvo Granite (Fig. 1b). The fragile behavior of
+A possible explanation of the fact that C is discordant these faults indicates that this intrusion was already cold
+with respect to the reference South American (Gondwana) when affected, suggesting that it is unlikely that their activity
+APWP, while A is not, may lie in some local tectonic activ- took place before the intrusion of the 245 Ma acidic dikes.
+ity during the brief interval of ca 10 Ma between the acqui- Since local tectonics cannot easily explain the different
+sition of the remanent magnetizations by the Collinao units positions of C and A, the long polar wander suggested by
+and the acidic dikes. Two end-point possibilities can be con- these two poles (plus the Sierra Grande and Punta Sierra
+sidered: tilting or rotation around a vertical axis. poles already mentioned) may reflect a displacement of the
+Anomalous pole position of the Collinao units plus NPM in the latest Permian-to-Early Triassic. The simplest of
+VGPs from the Rhyolite Dome and two basic dikes cannot such displacement is presented in Fig. 15 in which Patagonia
+be explained easily by regional tilting. SW-directed tilting is shown rotated 30° around an Euler pole (39°S; 287°E)
+of 15° up to 25° is needed to reconcile the Collinao mean on its northwestern margin, with respect to Gondwana, in
+direction with the expected directions for the sampling local- the present-day South America coordinates. This movement
+ity according to the reference poles of 250 Ma of Torsvik produces minimum possible separation between both land
+et al. (2012) and Geuna and Escosteguy (2014), respectively. masses and permits to reconcile C pole with the Permo–Tri-
+Such large amount of tilting seems unrealistic considering assic reference poles (Fig. 15). This amount of rotation is
+the large area from which the paleomagnetic data have been the minimum required to become consistent with the latest
+obtained. Both the Rhyolite Dome and the Collinao dacitic Permian mean Gondwana/South America poles.
+units have been recognized as subhorizontal in the field. If this interpretation is correct, the simplest explanation
+Such tilting should have occurred before intrusion of the for such displacement is to relate it to final stages of collision
+acidic dikes that show a consistent paleomagnetic direction of Patagonia with the southern margin of Gondwana (e.g.,
+with that expected for Gondwana, i.e., in about 10 Ma. The Ramos 2008). Is this kinematically and geologically possi-
+fact that these dikes appear as subvertical irrespective of ble? If so, the end of the collision of NPM against southern
+their strike makes the tilting hypothesis unlikely even if a Gondwana should have occurred close to the Permian–Trias-
+younger remagnetization is considered for them. Regional sic boundary or even in the earliest Triassic.
+tilting towards the SW would imply that rocks on the north- Several tectonic models have proposed a nearly frontal
+ern areas of the study locality must have been uplifted collision between Patagonia and Gondwana in the Late Pale-
+3–6 km with respect to those on the southern limits. None ozoic, considering the former either an allochthonous (e.g.,
+of these features are observed in the field. Furthermore, the Ramos 1984, 2008; Ramos and Naipauer 2014) or a para-
+shallower, probably subaerial units (Rhyolite Dome), are autochthonous (e.g., Rapalini 2005; Rapalini et al. 2010) ter-
+exposed in the northern areas. All this permits to rule out rane. In most models, collision was assigned broadly to the
+regional tilting as a likely explanation for the pole positions Late Paleozoic, preferably Late Carboniferous-to-Early Per-
+obtained in this study. mian, based on scarce geochronology of magmatic units in
+Local rotation around a vertical axis can reconcile the C northern Patagonia and syntectonic deposits of Late–Early
+pole with the latest Permian reference pole for most Gond- Permian age in the Ventana Fold Belt. However, recently,
+wanan APWPs. A clockwise rotation between 20° and 30° is Pángaro and Ramos (2012) proposed that the main defor-
+the minimum amount needed for the C pole to become con- mational event took place in Triassic times, consistent with
+sistent with the coeval reference poles. This implies 20–30° our data.
+of a local counterclockwise rotation occurring between Our preferred interpretation also is consistent with
+remanence acquisition by the Collinao units and the acidic the conclusions reached by Pángaro et al. (2015). In this
+dikes. Considering the distribution of the sampling sites, a recent work, the authors integrated the published onshore
+large rigid body rotation must be implied due to the lack of Argentina data with offshore structural and stratigraphic
+1 3
+
+### page_24
+6 44 International Journal of Earth Sciences (2019) 108:621–647
+Fig. 15 Collinao (C) paleomag-
+netic pole, in South American
+coordinates. The red arrow
+indicates the sense of move-
+ment of the pole from a position
+before (C′) and after (C) a
+counterclockwise rotation of
+30°, about an Euler pole located
+in northwestern Patagonia. The
+gray area represents (oceanic)
+crust consumed during hypo-
+thetical final accretion of the
+North Patagonian Massif in the
+Permian–Triassic. Full circles
+indicate the mean poles for
+250 Ma for the different authors
+of Fig. 14a, b (the same colors)
+information at the latitudes of northern Patagonia and the However, good quality and precisely dated paleomagnetic
+Ventana fold and thrust belt. They defined an Upper Pale- data from the NPM in the Carboniferous and early Permian
+ozoic-to-Triassic large basin called “Hesperides” and how could potentially discriminate between both options. Closure
+it evolved in relation to the Gondwanides orogeny (Late of the V-shaped basin by rotation of NPM must generate a
+Paleozoic). These authors proposed that dynamic subsid- W-to-E migration of the peak of tectonic shortening and
+ence was the primary control on long-term accommodation deformation, as proposed by Pángaro et al. (2015). This fact
+in this basin until it was interrupted in Triassic times, as is consistent with the Mid–Late Permian deformation in the
+occurred in the South African counterpart (see Pysklywec San Rafael basin, located near a possible “pivoting” area.
+and Mitrovica 1999). For a constant latitude, they recog- Subsequent reorganization of the regional stresses due to
+nized a general W-to-E migration of the deformation from the rotation of the NPM (and likely the associated terranes)
+Late Cisuralian in the San Rafael area to lower Triassic in could explain not only the eastward advance of the Gond-
+offshore Colorado basin, which they attributed to the final wanides deformation but also the change to an extensional
+stages of collision of Patagonia against the southern Gond- regime associated with syn-rift volcanism in the San Rafael
+wana margin. Our preferred interpretation of the paleomag- area (Kleiman and Japas 2009). The development of a gigan-
+netic data that involves a rotation of the NPM can fit many of tic submarine fan system which prograded to the E–NE, and
+those observations. The V-shaped basin between NPM and the increase of the orogen width to the East are also consist-
+Gondwana, of which a very simplified sketch is presented ent with this kinematic model. Pángaro et al. (2015) have
+in Fig. 15, in the Late Permian may represent the remnant also proposed that the orogenic front of the “Gondwanides
+of the already mentioned hypothetical “Colorado Ocean” or Orogeny” that affected the Sierra de la Ventana sedimentary
+a snapshot during the final stages of a docking process of successions reached its peak in the Lower Triassic, consist-
+the NPM. The previously described evidence in favor of a ent with the age of final closing of the V-shaped basin. Con-
+“para-autochthonous” NPM may hint in favor of the former. sidering its width on the eastern margin of the NPM and its
+1 3
+
+### page_25
+International Journal of Earth Sciences (2019) 108:621–647 645
+likely extension offshore, as well as the relatively short time of 253 ± 2 Ma was obtained and a paleomagnetic pole (C)
+involved (around 10 Ma), subduction of at least some oce- computed on the basis of seven VGPs; (3) basic dikes, dated
+anic or quasi-oceanic crust is probably unavoidable. How- as younger than 255 Ma and older than 245 Ma by field rela-
+ever, not the whole “empty” space shown in Fig. 15 between tions, which yielded four VGPs; (4) acidic dikes, for which
+NPM and Gondwana should be considered oceanic crust. an SHRIMP U–Pb zircon age of 244 ± 2 Ma has been calcu-
+Stretched continental crust as well as some “missing” crust lated, and a paleomagnetic pole (A) computed on the basis
+involved in the collisional orogen may account for some of 12 VGPs.
+of such “empty” space. In fact, the “Colorado syntaxis”, a The position of pole C is clearly anomalous with respect
+nearly 90° rotation of the Gondwanides fold belt, offshore to any recently computed APWP for Gondwana or South
+the Ventana system, indicates a near 200 km northward dis- America, falling close to a position much older (Late Car-
+placement of the orogenic belt, possibly due to an indenter, boniferous) than the radiometric age of these rocks. A simi-
+in the early Triassic times (Pángaro et al. 2015). In any case, lar position is indicated by the single VGP from the Rhyolite
+it must be taken into account that the width of the V-shaped Dome and two out four VGPs of the basic dikes. On the
+basin sketched in Fig. 15 is probably exaggerated due to our other hand, pole A is consistent with the 250–240 Ma poles
+election of a “pivoting” point coinciding with the present- in most reference paths for Gondwana/South America.
+day continental margin of northern Patagonia. Since by the The discrepancy cannot be easily explained by local tec-
+latest Permian, the San Rafael Block experienced extension, tonics, either by regional tilting or rotation around vertical
+and no compressive deformation (Kleiman and Japas 2009), axis. It is interpreted that the discrepancy in pole positions
+a pivoting point located more to the east will reduce the size is likely due to a CCW rotation of the whole NPM of around
+of the basin and account for the coetaneous development of 30° during the latest Permian and earliest Triassic, closing a
+extension in the west and compression in the east (present- V-shaped basin, likely of partially oceanic or quasi-oceanic
+day coordinates). nature, which separated it from southern Gondwana. This
+As previously published (Ramos 1984, 2008; von Gosen hypothesis is consistent with Late Permian-to-Early Triassic
+2003; Rapalini et al. 2010, etc), the polarity of subduction evidence of deformation in the Hespérides Basin as well as
+must have been towards the South. Widespread magmatism in the other sectors of the NPM. Scarce previous paleomag-
+along northern NPM from the early Permian to the Trias- netic data from NPM can be reconciled with this model,
+sic might account for such subduction and subsequent colli- considering that they are very loosely constrained in age.
+sion. SW verging highly deformed granitoids of the Yaminué
+Complex in NPM have been recently dated as Late Permian Acknowledgements Financial support for these investigations is
+from the Agencia Nacional de Investigaciones Científicas y Técnicas
+(Chernicoff et al. 2013; Pankhurst et al. 2014) and even earli-
+(Argentina) through grants PICT2013-1162 to M.G. López de Luchi
+est Triassic (Martínez Dopico et al. 2017a), which is com-
+and PICT2015-206 to A.E. Rapalini. We would like to acknowledge
+patible with our model. This hypothesis does not rule out the M. Domeier and an anonymous reviewer whose comments helped us
+second-order complexities in the deformation pattern of the improving the manuscript. We thank Carlos A. Vasquez (IGEBA) for
+his assistance during the paleomagnetic and rock-magnetic laboratory
+NPM associated with the collisional process as suggested
+procedures. C.I. Martínez Dopico would like to thank FUNDALEU
+by Gregori et al. (2008). The first-order change that induced
+(Fundación de Lucha contra la Leucemia).
+cessation of the dynamic subsidence in the Hespérides basin
+could, therefore, be the final amalgamation of Patagonia near
+the Permian–Triassic boundary. Our model must be tested References
+with further well-dated paleomagnetic data. The complex
+and widespread Permian and Triassic magmatism in north- Black LP, Kamo SL, Allen CM, Aleinikoff JN, Davis DW, Korsch RJ,
+ern Patagonia should also be considered in this model to test Foudoulis C (2003) TEMORA 1: a new zircon standard for Phan-
+erozoic U–Pb geochronology. Chem Geol 200:155–170. https: //
+its coherence with the petrological and geochemical data.
+doi.org/10.1016/S0009- 2541(03)00165- 7
+Brandt D, Ernesto M, Rocha-Campos AC, dos Santos PR (2009) Paleo-
+magnetism of the Santa Fé Group, central Brazil: Implications for
+the Late Paleozoic apparent polar wander path for South America.
+Conclusions J Geophys Res 114:1–19. https: //doi.org/10.1029/2008JB 00573 5
+Chadima M, Hrouda F (2006) Remasoft 3.0 a user-friendly paleomag-
+netic data browser and analyzer. Travaux Géophysiques 27:20–21
+A paleomagnetic and geochronologic study was carried out Chernicoff CJ, Zappettini EO (2004) Geophysical evidence for terrane
+on Late Permian-to-Early Triassic magmatic units exposed boundaries in South-Central Argentina. Gondwana Res 7:1105–
+1116. https: //doi.org/10.1016/S1342- 937X(05)71087- X
+in the central part of North Patagonian Massif (NPM),
+Chernicoff CJ, Zappettini EO, Santos JOS, McNaughton NJ, Belousova
+northern Patagonia. The study included: (1) the 264 ± 2 Ma
+E (2013) Combined U–Pb SHRIMP and Hf isotope study of the
+Rhyolite Dome, for which a single VGP was obtained; (2) Late Paleozoic Yaminué Complex, Río Negro Province, Argen-
+the Collinao Dacite for which a SHRIMP U–Pb zircon age tina: Implications for the origin and evolution of the Patagonia
+1 3
+
+### page_26
+6 46 International Journal of Earth Sciences (2019) 108:621–647
+composite terrane. Geosci Front 4:37–56. https: //doi.org/10.1016/ Martínez C (1980) Structure et évolution de la chaîne hercynienne et la
+S0009- 2541(03)00165- 7 chaîne andine dans le Nord de la Cordillère des Andes de Bolivie.
+Dalla Salda L, Cingolani C, Varela R (1990) The origin of Patagonia. PhD Thesis Université des Sciences et Techniques du Languedoc,
+Comunicaciones: Una revista de geología andina 41:55–61 Montpellier 356 pp
+Dalziel IWD (2013) Antarctica and supercontinental evolution: clues Martínez Dopico CI (2013) Geología, petrogénesis y condiciones de
+and puzzles. Earth Environ Sci Trans R Soc Edinburgh 104:3–16. emplazamiento de los granitoides permo-triásicos del área de La
+https: //doi.org/10.1017/S17556 91012 00009 6 Esperanza, Macizo Norpatagónico: Inferencias sobre la construc-
+Fanning CM, Hervé F, Pankhurst RJ, Rapela CW, Kleiman LE, Yaxley ción del borde SO del Gondwana. PhD Thesis. Universidad de
+GM et al (2011) Lu–Hf isotope evidence for the provenance of Buenos Aires. 580 pp
+Permian detritus in accretionary complexes of western Patagonia Martínez Dopico CI, López de Luchi MG, Rapalini AE, Kleinhanns IC
+and the northern Antarctic Peninsula region. J South Am Earth (2011) Crustal segments in the North Patagonian Massif, Patago-
+Sci 32(4):485–496. https: //doi.org/10.1016/j.jsames .2011.03.007 nia: an integrated perspective based on Sm-Nd isotope systemat-
+Fisher RA (1953) Dispersion on a sphere. Proc R Soc Lond Ser A ics. J South Am Earth Sci 31:324–341. https: //doi.org/10.1016/j.
+217:295–305 jsames .2010.07.009
+Gallo LC, Tomezzoli RN, Cristallini EO (2017) A pure dipole analysis Martínez Dopico CI, López de Luchi MG, Rapalini AE, Wemmer
+of the Gondwana apparent polar wander path: paleogeographic K, Fanning M, Basei M (2017a) Emplacement and temporal
+implications in the evolution of Pangea. Geochem Geophys Geo- constraints of the Gondwanan intrusive complexes of Northern
+syst 18(4):1499–1519. https: //doi.org/10.1002/2016GC 00669 2 Patagonia: La Esperanza plutono-volcanic case. Tectonophysics
+Geuna SE, Escosteguy LD (2014) Geología de superficie. Paleomag- 712–713:249–269. https: //doi.org/10.1016/j.tecto. 2017.05.015
+netismo. In: Martino ED, Guereschi AB (eds) Relatorio XIX Martínez Dopico CI, Tohver E, López de Luchi MG, Rapalini AE,
+Congreso Geológico Argentino. Asociación Geológica Argentina, Wemmer K, Cawood P (2017b) A Jurassic cooling ages in
+Córdoba, pp 831–843 Paleozoic to early Mesozoic granitoids of northeastern Patago-
+Giacosa RE, Lema H, Busteros A, Zubia M, Cucchi R, Tommaso DI nia: 40Ar/39Ar, 40K-40Ar mica and U–Pb zircon evidence. Int
+(2007) Estructura del Triásico de la región norte del Macizo Nor- J Earth Sci 106(7):2343–2357. https: //doi.org/10.1007/s0053
+patagónico (40°–41°S, 67°30ʹ–69ª45ʺO) Río Negro. Rev de la 1-016-1430-0
+Asoc Geol Argent 62(3):355–365 McElhinny MW, McFadden PL (1997) Palaeosecular variation over
+González PD, Tortello MF, Damborenea SE (2011) Early Cambrian the past 5 Myr based on a new generalized database. Geophys J
+archaeocyathan limestone blocks in low-grade meta-conglomerate Int 131:240–252
+from El Jagüelito Formation (Sierra Grande, Río Negro, Argen- McFadden PL, McElhinny MW (1988) The combined analysis of
+tina). Geol Acta 9:159–173. https: //doi.org/10.1344/105.00000 remagnetisation circles and direct observations in paleomag-
+1650 netism. Earth Planet Sci Lett 87:161–172
+González PD, Sato AM, Naipauer M, Varela R, Basei M, Sato K et al Miguez MR (2014) Geología y paleomagnetismo del enjambre de
+(2018) Patagonia-Antarctica Early Paleozoic conjugate margins: diques permotriásicos de La Esperanza, Macizo Norpatagónico,
+Cambrian synsedimentary silicic magmatism, U–Pb dating of provincia de Río Negro. Master Thesis. Universidad de Buenos
+K-bentonites, and related volcanogenic rocks. Gond Res 63:186– Aires. 100 pages
+225. https: //doi.org/10.1016/j.gr.2018.05.015 Ogg JG, Ogg GM, Gradstein FM (2016) Permian, in: A Concise Geo-
+Gregori DA, Kostadinoff J, Strazzere L, Raniolo A (2008) Tectonic logic Time Scale. pp. 115–131. https: //doi.org/10.1016/B978-0-
+significance and consequences of the Gondwanide orogeny in 444-59467- 9.00010- 8
+northern Patagonia, Argentina. Gondwana Res 14:429–450. https Özdemir Ö, Dunlop DJ (1999) Low-temperature properties of a sin-
+://doi.org/10.1016/j.gr.2008.04.005 gle crystal of magnetite oriented along principal magnetic axes.
+Gregori DA, Kostadinoff J, Alvarez G, Raniolo A, Strazzere L, Mar- Earth Planet Sci Lett 165:229–239. https: //doi.org/10.1016/S0012
+tínez JC, Barros M (2013) Preandean geological configuration -821X(98)00269- 6
+of the eastern North Patagonian Massif, Argentina. Geosci Front Pángaro F, Ramos VA (2012) Paleozoic crustal blocks of onshore and
+4:693–708. https: //doi.org/10.1016/j.gsf.2013.01.001 offshore central Argentina: new pieces of the southwestern Gond-
+Gregori DA, Saini-Eidukat B, Benedini L, Strazzere L, Barros M, wana collage and their role in the accretion of Patagonia and the
+Kostadinoff J (2016) The Gondwana Orogeny in northern North evolution of Mesozoic south Atlantic sedimentary basins. Marine
+Patagonian Massif: evidences from the Caita Có granite, La Seña Petroleum Geol 37:162–183. https: //doi.org/10.1016/j.marpe
+and Pangaré mylonites, Argentina. Geosci Front 7(4):621–638. tgeo.2012.05.010
+https: //doi.org/10.1016/j.gsf.2015.06.002 Pángaro F, Ramos VA, Pazos PJ (2015) The Hesperides basin: a conti-
+Hounslow MW, Balabanov YP (2016) A geomagnetic polarity time- nental-scale upper Palaeozoic to Triassic basin in southern Gond-
+scale for the Permian, calibrated to stage boundaries. Geol Soc wana. Basin Res 28:685–711. https: //doi.org/10.1111/bre.12126
+Lond Spec Publ 450:61–103. https: //doi.org/10.1144/SP450. 8 Pankhurst RJ, Caminos R, Rapela CW (1993) Problemas geocronológi-
+Kirschvink JL (1980) The least-square line and plane and the analysis cos de los granitoides gondwánicos de Nahuel Niyeu, Macizo
+of paleomagnetic data. Geophys J R Astron Soc 62:699–718. https Norpatagónico. Conference proceedings XII Congreso Geológico
+://doi.org/10.1111/j.1365-246X.1980.tb0260 1.x Argentino and II Congreso de Exploración de Hidrocarburos 4:
+Kleiman LE, Japas MS (2009) The Choiyoi volcanic province at 99–104 (Buenos Aires)
+34–36°S (San Rafael, Mendoza, Argentina): implications for the Pankhurst RJ, Rapela CW, Fanning CM, Márquez M (2006) Gond-
+Late Palaeozoic evolution of the southwestern margin of Gond- wanide continental collision and the origin of Patagonia. Earth Sci
+wana. Tectonophysics 473:283–299. https: //doi.org/10.1016/j. Rev 76:235–257. https: //doi.org/10.1016/j.earsci rev.2006.02.001
+tecto. 2009.02.046 Pankhurst RJ, Rapela CW, López de Luchi MG, Rapalini AE, Fanning
+Llambías EJ, Rapela CW (1984) Geología de los complejos eruptivos CM, Galindo C (2014) The Gondwana connections of northern
+del Paleozoico superior de La Esperanza, provincia de Río Negro. Patagonia. J Geol Soc Lond 171:313–328. https: //doi.org/10.1144/
+Rev Asoc Geol Argent 39:220–243 jgs201 3-081
+Ludwig KR (2008) User’s Manual for Isoplot 3.70. A Geochronologi- Pysklywec RN, Mitrovica JX (1999) The role of subduction-induced
+cal Toolkit for Microsoft Excel. Berkeley Geochronology Center subsidence in the evolution of the Karoo Basin. J Geol 107:155–
+Special Publication No. 4. 76 p 164. https: //doi.org/10.1086/314338
+1 3
+
+### page_27
+International Journal of Earth Sciences (2019) 108:621–647 647
+Ramos VA (1984) Patagonia: ¿un continente paleozoica a la deriva? Tera F, Wasserburg G (1972) U-Th-Pb systematics in three Apollo 14
+Conference proceedings IX Congreso Geológico Argentino basalts and the problem of initial Pb in lunar rocks. Earth Planet
+2:311–325 Sci Lett 14:281–304
+Ramos VA (2008) A paleozoic continent adrift? J South Am Earth Sci Tomezzoli RN, Rapalini AE, López de Luchi MG, Martínez Dopico
+26:235–251. https: //doi.org/10.1016/j.jsames .2008.06.002 CI (2013) Further evidence of widespread Permian remagnetiza-
+Ramos VA, Naipauer M (2014) Patagonia: where does it come from? tion in the North Patagonian Massif, Argentina. Gondwana Res
+J Iber Geol 40:367–379 24:192–202. https: //doi.org/10.1016/j.gr.2012.08.019
+Rapalini AE (1998) Syntectonic magnetization of the Mid-Palaeozoic Torsvik TH (2015) GMAP 2015 http://www.iggl.no/resour ces.html
+Sierra Grande Formation: further constraints on the tectonic evo- Torsvik TH, Van der Voo R, Preeden U, Niocaill CM, Steinberger B,
+lution of Patagonia. Geol Soc London 155:105–114. https ://doi. Doubrovine PV et al (2012) Phanerozoic polar wander, palaeoge-
+org/10.1144/gsjgs. 155.1.0105 ography and dynamics. Earth-Sci Rev 114:325–368. https: //doi.
+Rapalini AE (2005) The accretionary history of southern South Amer- org/10.1016/j.earsci rev.2012.06.002
+ica from the latest Proterozoic to the Late Palaeozoic: some pal- von Gosen W (2003) Thrust tectonics in the North Patagonian Massif
+aeomagnetic constraints. Geol Soc London 246:305–328. https: // (Argentina): implications for a patagonia plate. Tectonics 22:1–33.
+doi.org/10.1144/GSL.SP.2005.246.01.12 https: //doi.org/10.1029/2001TC 90103 9
+Rapalini AE, López de Luchi MG, Martínez Dopico CI, Lince Klinger Williams IS (1998) U–Th–Pb Geochronology by Ion Microprobe. In:
+F, Giménez M, Martínez P (2010) Did Patagonia collide with McKibben MA, Shanks WC, Ridley WI (eds) Applications of
+Gondwana in the Late Paleozoic? Some insights from a multidis- microanalytical techniques to understanding mineralizing pro-
+ciplinary study of magmatic units of the North Patagonian Massif. cesses. Rev Econ Geol 7:1–35. https: //doi.org/10.5382/Rev.07.01
+Geol Acta 8:349–371. https: //doi.org/10.1344/105.000001 577 Yrigoyen MR (1999) Los depósitos cretácicos y terciarios de las cuen-
+Rapalini AE, López de Luchi MG, Tohver E, Cawood PA (2013) The cas del Salado y del Colorado. In: Caminos R (Ed), Geología
+South American ancestry of the North Patagonian Massif: geo- Argentina (Vol 29) Servicio Geológico Minero Argentino, Insti-
+chronological evidence for an autochthonous origin? Terra Nova tuto de Geología Y Recursos Minerales pp 645–650
+25:337–342. https: //doi.org/10.1111/ter.12043
+Rapela CW, Llambías EJ (1985) Evolución magmática y relaciones
+regionales de los Complejos eruptivos de La Esperanza, Provincia
+de Río Negro. Revista Asoc Geol Argent 40(1–2):4–25
+1 3

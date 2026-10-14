@@ -1,0 +1,3046 @@
+{
+  "schema_version": "r3_exact300_bibliographic_policy_centered_grouped_oof_v2",
+  "status": "complete",
+  "scope": {
+    "evaluated_rows": 300,
+    "evaluated_papers": 258,
+    "evaluated_folds": 5,
+    "full_coverage": true,
+    "full_2172_rows_evaluated": false,
+    "full_pool_coverage": {
+      "fixed_training_rows": 2473,
+      "fixed_training_paper_groups": 1292,
+      "pdf_only_rows": 2172,
+      "pdf_only_paper_groups": 1174,
+      "rows_skipped_without_local_pdf": 301,
+      "paper_groups_skipped_without_local_pdf": 118
+    },
+    "exact_coverage": {
+      "fixed_training_rows": 300,
+      "fixed_training_paper_groups": 258,
+      "pdf_only_rows": 300,
+      "pdf_only_paper_groups": 258,
+      "rows_skipped_without_local_pdf": 0,
+      "paper_groups_skipped_without_local_pdf": 0
+    }
+  },
+  "guardrails": {
+    "canonical_fold_manifest_sha256": "8f6ab8f1a071878e14d4db8e19a7ec0519ed612be107b0f0fdf0489dd59aaf2d",
+    "feature_freeze_before_label_access": true,
+    "feature_freeze_sha256": "a685fb81a4427fd00aa0c0f2235fc1021f240b8265145456879a489b08d49371",
+    "every_outer_test_refno_fully_excluded": true,
+    "inner_empirical_bayes_self_paper_excluded": true,
+    "fusion_selected_from_inner_oof_only": true,
+    "fixed_outer_threshold": 0.5,
+    "posthoc_outer_label_threshold_used": false,
+    "outer_test_labels_used_by_run_fold": false,
+    "all_outer_and_inner_overlap_audits_zero": true,
+    "pmagresult_or_rockmag_source_cells_used": false,
+    "prior_predictions_or_evaluations_used": false,
+    "raw_source_table_fields_used": false,
+    "identifiers_used_as_predictive_features": false,
+    "centered_candidate_protocol_frozen_before_label_access": true,
+    "unsupported_policy_effect_applied": false
+  },
+  "data": {
+    "full_label_counts": {
+      "0": 804,
+      "1": 1368
+    },
+    "exact_label_counts": {
+      "0": 110,
+      "1": 190
+    },
+    "semantic_feature_shape": [
+      2172,
+      351
+    ],
+    "profile_count": 1174
+  },
+  "predeclared_candidate_protocol": {
+    "candidates": [
+      {
+        "name": "semantic_only",
+        "smoothing": null,
+        "fusion_weight": 0.0,
+        "support_gate": 0.0
+      },
+      {
+        "name": "centered_a4_lambda025_gate00",
+        "smoothing": 4.0,
+        "fusion_weight": 0.25,
+        "support_gate": 0.0
+      },
+      {
+        "name": "centered_a4_lambda025_gate50",
+        "smoothing": 4.0,
+        "fusion_weight": 0.25,
+        "support_gate": 0.5
+      },
+      {
+        "name": "centered_a4_lambda050_gate00",
+        "smoothing": 4.0,
+        "fusion_weight": 0.5,
+        "support_gate": 0.0
+      },
+      {
+        "name": "centered_a4_lambda050_gate50",
+        "smoothing": 4.0,
+        "fusion_weight": 0.5,
+        "support_gate": 0.5
+      },
+      {
+        "name": "centered_a4_lambda100_gate00",
+        "smoothing": 4.0,
+        "fusion_weight": 1.0,
+        "support_gate": 0.0
+      },
+      {
+        "name": "centered_a4_lambda100_gate50",
+        "smoothing": 4.0,
+        "fusion_weight": 1.0,
+        "support_gate": 0.5
+      },
+      {
+        "name": "centered_a12_lambda025_gate00",
+        "smoothing": 12.0,
+        "fusion_weight": 0.25,
+        "support_gate": 0.0
+      },
+      {
+        "name": "centered_a12_lambda025_gate50",
+        "smoothing": 12.0,
+        "fusion_weight": 0.25,
+        "support_gate": 0.5
+      },
+      {
+        "name": "centered_a12_lambda050_gate00",
+        "smoothing": 12.0,
+        "fusion_weight": 0.5,
+        "support_gate": 0.0
+      },
+      {
+        "name": "centered_a12_lambda050_gate50",
+        "smoothing": 12.0,
+        "fusion_weight": 0.5,
+        "support_gate": 0.5
+      },
+      {
+        "name": "centered_a12_lambda100_gate00",
+        "smoothing": 12.0,
+        "fusion_weight": 1.0,
+        "support_gate": 0.0
+      },
+      {
+        "name": "centered_a12_lambda100_gate50",
+        "smoothing": 12.0,
+        "fusion_weight": 1.0,
+        "support_gate": 0.5
+      }
+    ],
+    "inner_split": {
+      "folds": 4,
+      "unit": "REFNO",
+      "label_free_assignment": true,
+      "salt": "r3-bibliographic-policy-inner-v1"
+    },
+    "empirical_bayes": {
+      "smoothing_strengths": [
+        4.0,
+        12.0
+      ],
+      "family_rules": {
+        "author": {
+          "minimum_support": 2,
+          "weight": 2.0,
+          "alpha_scale": 1.0
+        },
+        "journal_decade": {
+          "minimum_support": 10,
+          "weight": 1.0,
+          "alpha_scale": 1.0
+        },
+        "publisher_decade": {
+          "minimum_support": 10,
+          "weight": 1.0,
+          "alpha_scale": 1.0
+        },
+        "doi_prefix": {
+          "minimum_support": 5,
+          "weight": 0.75,
+          "alpha_scale": 1.0
+        },
+        "shared_citation_doi": {
+          "minimum_support": 2,
+          "weight": 1.25,
+          "alpha_scale": 1.0
+        },
+        "shared_citation_key": {
+          "minimum_support": 3,
+          "weight": 1.25,
+          "alpha_scale": 1.0
+        },
+        "direct_outgoing_doi": {
+          "minimum_support": 1,
+          "weight": 2.0,
+          "alpha_scale": 0.25
+        },
+        "direct_outgoing_key": {
+          "minimum_support": 1,
+          "weight": 1.5,
+          "alpha_scale": 0.5
+        },
+        "direct_incoming_doi": {
+          "minimum_support": 1,
+          "weight": 2.0,
+          "alpha_scale": 0.25
+        },
+        "direct_incoming_key": {
+          "minimum_support": 1,
+          "weight": 1.5,
+          "alpha_scale": 0.5
+        }
+      },
+      "entity_limits": {
+        "authors": 30,
+        "doi_prefixes": 10,
+        "citation_dois": 100,
+        "citation_keys": 400,
+        "source_dois": 20,
+        "source_author_year_keys": 30
+      },
+      "paper_label_unit": "mean R3 within training paper",
+      "self_paper_labels_excluded_by_inner_cross_fitting": true
+    },
+    "fusion": {
+      "rule": "sigmoid(logit(semantic) + lambda * gated_confidence * (logit(policy)-logit(training prior)))",
+      "lambdas": [
+        0.25,
+        0.5,
+        1.0
+      ],
+      "support_gates": [
+        0.0,
+        0.5
+      ],
+      "threshold": 0.5,
+      "outer_label_threshold_selection": false
+    },
+    "centered_calibration": {
+      "policy_effect": "logit(policy posterior) - logit(allowed training-paper prior)",
+      "semantic_update": "semantic_logit + lambda * effective_confidence * policy_effect",
+      "lambdas": [
+        0.25,
+        0.5,
+        1.0
+      ],
+      "support_gates": [
+        0.0,
+        0.5
+      ],
+      "unsupported_policy_effect_applied": false,
+      "outer_threshold": 0.5
+    }
+  },
+  "outer_fold_audit": [
+    {
+      "fold": 1,
+      "exact_test_rows": 60,
+      "exact_test_papers": 51,
+      "outer_train_rows": 2035,
+      "outer_train_papers": 1123,
+      "full_rows_excluded_for_test_refnos": 137,
+      "outer_train_test_refno_overlap": 0,
+      "outer_train_exact_test_row_overlap": 0,
+      "excluded_test_refno_rows_remaining_in_outer_train": 0,
+      "inner_split": {
+        "method": "label-free deterministic row-balanced REFNO assignment",
+        "salt": "r3-bibliographic-policy-inner-v1",
+        "folds": 4,
+        "fold_id_sha256": "1dce3d4deebe2c9252af94bcbf281109db82f15f73eee73eb3b2ffa45e685c09"
+      },
+      "inner_folds": [
+        {
+          "inner_fold": 1,
+          "fit_rows": 1526,
+          "fit_papers": 843,
+          "validation_rows": 509,
+          "validation_papers": 280,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 280,
+              "rows": 509,
+              "mean_confidence": 0.69611967,
+              "zero_confidence_rows": 12,
+              "mean_supported_families_per_paper": 4.28928571,
+              "outer_allowed_training_prior": 0.6519552,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            },
+            "alpha_12": {
+              "papers": 280,
+              "rows": 509,
+              "mean_confidence": 0.62920467,
+              "zero_confidence_rows": 12,
+              "mean_supported_families_per_paper": 4.28928571,
+              "outer_allowed_training_prior": 0.6519552,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            }
+          }
+        },
+        {
+          "inner_fold": 2,
+          "fit_rows": 1526,
+          "fit_papers": 843,
+          "validation_rows": 509,
+          "validation_papers": 280,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 280,
+              "rows": 509,
+              "mean_confidence": 0.69751038,
+              "zero_confidence_rows": 7,
+              "mean_supported_families_per_paper": 4.58214286,
+              "outer_allowed_training_prior": 0.67681937,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            },
+            "alpha_12": {
+              "papers": 280,
+              "rows": 509,
+              "mean_confidence": 0.6380757,
+              "zero_confidence_rows": 7,
+              "mean_supported_families_per_paper": 4.58214286,
+              "outer_allowed_training_prior": 0.67681937,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            }
+          }
+        },
+        {
+          "inner_fold": 3,
+          "fit_rows": 1526,
+          "fit_papers": 841,
+          "validation_rows": 509,
+          "validation_papers": 282,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 282,
+              "rows": 509,
+              "mean_confidence": 0.72839476,
+              "zero_confidence_rows": 11,
+              "mean_supported_families_per_paper": 4.62411348,
+              "outer_allowed_training_prior": 0.66602757,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            },
+            "alpha_12": {
+              "papers": 282,
+              "rows": 509,
+              "mean_confidence": 0.6623889,
+              "zero_confidence_rows": 11,
+              "mean_supported_families_per_paper": 4.62411348,
+              "outer_allowed_training_prior": 0.66602757,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            }
+          }
+        },
+        {
+          "inner_fold": 4,
+          "fit_rows": 1527,
+          "fit_papers": 842,
+          "validation_rows": 508,
+          "validation_papers": 281,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 281,
+              "rows": 508,
+              "mean_confidence": 0.70851021,
+              "zero_confidence_rows": 10,
+              "mean_supported_families_per_paper": 4.39501779,
+              "outer_allowed_training_prior": 0.66244229,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            },
+            "alpha_12": {
+              "papers": 281,
+              "rows": 508,
+              "mean_confidence": 0.64199974,
+              "zero_confidence_rows": 10,
+              "mean_supported_families_per_paper": 4.39501779,
+              "outer_allowed_training_prior": 0.66244229,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            }
+          }
+        }
+      ],
+      "selection_source": "four-fold REFNO-isolated inner OOF only",
+      "selection_rule": "accuracy, macro-F1, balanced accuracy, specificity, stronger support gate, lower lambda, declaration order",
+      "selected_candidate": {
+        "name": "centered_a4_lambda100_gate50",
+        "smoothing": 4.0,
+        "fusion_weight": 1.0,
+        "support_gate": 0.5
+      },
+      "candidate_metrics": [
+        {
+          "candidate": "semantic_only",
+          "candidate_order": 0,
+          "smoothing": null,
+          "lambda": 0.0,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2035,
+            "coverage": 1.0,
+            "accuracy": 0.81818182,
+            "macro_f1": 0.79924545,
+            "balanced_accuracy": 0.79266822,
+            "confusion": {
+              "tn": 520,
+              "fp": 226,
+              "fn": 144,
+              "tp": 1145
+            },
+            "predicted_positive": 1371,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a4_lambda025_gate00",
+          "candidate_order": 1,
+          "smoothing": 4.0,
+          "lambda": 0.25,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2035,
+            "coverage": 1.0,
+            "accuracy": 0.81769042,
+            "macro_f1": 0.79863571,
+            "balanced_accuracy": 0.79199797,
+            "confusion": {
+              "tn": 519,
+              "fp": 227,
+              "fn": 144,
+              "tp": 1145
+            },
+            "predicted_positive": 1372,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a4_lambda025_gate50",
+          "candidate_order": 2,
+          "smoothing": 4.0,
+          "lambda": 0.25,
+          "support_gate": 0.5,
+          "metric": {
+            "rows": 2035,
+            "coverage": 1.0,
+            "accuracy": 0.81769042,
+            "macro_f1": 0.79863571,
+            "balanced_accuracy": 0.79199797,
+            "confusion": {
+              "tn": 519,
+              "fp": 227,
+              "fn": 144,
+              "tp": 1145
+            },
+            "predicted_positive": 1372,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a4_lambda050_gate00",
+          "candidate_order": 3,
+          "smoothing": 4.0,
+          "lambda": 0.5,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2035,
+            "coverage": 1.0,
+            "accuracy": 0.81818182,
+            "macro_f1": 0.79924545,
+            "balanced_accuracy": 0.79266822,
+            "confusion": {
+              "tn": 520,
+              "fp": 226,
+              "fn": 144,
+              "tp": 1145
+            },
+            "predicted_positive": 1371,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a4_lambda050_gate50",
+          "candidate_order": 4,
+          "smoothing": 4.0,
+          "lambda": 0.5,
+          "support_gate": 0.5,
+          "metric": {
+            "rows": 2035,
+            "coverage": 1.0,
+            "accuracy": 0.81818182,
+            "macro_f1": 0.79924545,
+            "balanced_accuracy": 0.79266822,
+            "confusion": {
+              "tn": 520,
+              "fp": 226,
+              "fn": 144,
+              "tp": 1145
+            },
+            "predicted_positive": 1371,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a4_lambda100_gate00",
+          "candidate_order": 5,
+          "smoothing": 4.0,
+          "lambda": 1.0,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2035,
+            "coverage": 1.0,
+            "accuracy": 0.82063882,
+            "macro_f1": 0.80189228,
+            "balanced_accuracy": 0.79517239,
+            "confusion": {
+              "tn": 522,
+              "fp": 224,
+              "fn": 141,
+              "tp": 1148
+            },
+            "predicted_positive": 1372,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a4_lambda100_gate50",
+          "candidate_order": 6,
+          "smoothing": 4.0,
+          "lambda": 1.0,
+          "support_gate": 0.5,
+          "metric": {
+            "rows": 2035,
+            "coverage": 1.0,
+            "accuracy": 0.82162162,
+            "macro_f1": 0.80284592,
+            "balanced_accuracy": 0.79594819,
+            "confusion": {
+              "tn": 522,
+              "fp": 224,
+              "fn": 139,
+              "tp": 1150
+            },
+            "predicted_positive": 1374,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a12_lambda025_gate00",
+          "candidate_order": 7,
+          "smoothing": 12.0,
+          "lambda": 0.25,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2035,
+            "coverage": 1.0,
+            "accuracy": 0.81670762,
+            "macro_f1": 0.79768509,
+            "balanced_accuracy": 0.79122218,
+            "confusion": {
+              "tn": 519,
+              "fp": 227,
+              "fn": 146,
+              "tp": 1143
+            },
+            "predicted_positive": 1370,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a12_lambda025_gate50",
+          "candidate_order": 8,
+          "smoothing": 12.0,
+          "lambda": 0.25,
+          "support_gate": 0.5,
+          "metric": {
+            "rows": 2035,
+            "coverage": 1.0,
+            "accuracy": 0.81621622,
+            "macro_f1": 0.79707513,
+            "balanced_accuracy": 0.79055194,
+            "confusion": {
+              "tn": 518,
+              "fp": 228,
+              "fn": 146,
+              "tp": 1143
+            },
+            "predicted_positive": 1371,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a12_lambda050_gate00",
+          "candidate_order": 9,
+          "smoothing": 12.0,
+          "lambda": 0.5,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2035,
+            "coverage": 1.0,
+            "accuracy": 0.81769042,
+            "macro_f1": 0.79876989,
+            "balanced_accuracy": 0.79228032,
+            "confusion": {
+              "tn": 520,
+              "fp": 226,
+              "fn": 145,
+              "tp": 1144
+            },
+            "predicted_positive": 1370,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a12_lambda050_gate50",
+          "candidate_order": 10,
+          "smoothing": 12.0,
+          "lambda": 0.5,
+          "support_gate": 0.5,
+          "metric": {
+            "rows": 2035,
+            "coverage": 1.0,
+            "accuracy": 0.81719902,
+            "macro_f1": 0.79816029,
+            "balanced_accuracy": 0.79161008,
+            "confusion": {
+              "tn": 519,
+              "fp": 227,
+              "fn": 145,
+              "tp": 1144
+            },
+            "predicted_positive": 1371,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a12_lambda100_gate00",
+          "candidate_order": 11,
+          "smoothing": 12.0,
+          "lambda": 1.0,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2035,
+            "coverage": 1.0,
+            "accuracy": 0.81621622,
+            "macro_f1": 0.79707513,
+            "balanced_accuracy": 0.79055194,
+            "confusion": {
+              "tn": 518,
+              "fp": 228,
+              "fn": 146,
+              "tp": 1143
+            },
+            "predicted_positive": 1371,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a12_lambda100_gate50",
+          "candidate_order": 12,
+          "smoothing": 12.0,
+          "lambda": 1.0,
+          "support_gate": 0.5,
+          "metric": {
+            "rows": 2035,
+            "coverage": 1.0,
+            "accuracy": 0.81719902,
+            "macro_f1": 0.79789,
+            "balanced_accuracy": 0.79104539,
+            "confusion": {
+              "tn": 517,
+              "fp": 229,
+              "fn": 143,
+              "tp": 1146
+            },
+            "predicted_positive": 1375,
+            "threshold": 0.5
+          }
+        }
+      ],
+      "outer_policy_transform": {
+        "papers": 51,
+        "rows": 60,
+        "mean_confidence": 0.7075945,
+        "zero_confidence_rows": 0,
+        "mean_supported_families_per_paper": 4.50980392,
+        "outer_allowed_training_prior": 0.66431064,
+        "calibration": "logit(posterior) - logit(training-paper prior)",
+        "neutral_effect_probability": 0.5,
+        "unsupported_rows_have_zero_confidence": true
+      },
+      "outer_test_labels_received_by_run_fold": false,
+      "centered_log_odds_calibration": true
+    },
+    {
+      "fold": 2,
+      "exact_test_rows": 60,
+      "exact_test_papers": 51,
+      "outer_train_rows": 2015,
+      "outer_train_papers": 1123,
+      "full_rows_excluded_for_test_refnos": 157,
+      "outer_train_test_refno_overlap": 0,
+      "outer_train_exact_test_row_overlap": 0,
+      "excluded_test_refno_rows_remaining_in_outer_train": 0,
+      "inner_split": {
+        "method": "label-free deterministic row-balanced REFNO assignment",
+        "salt": "r3-bibliographic-policy-inner-v1",
+        "folds": 4,
+        "fold_id_sha256": "29f2a794fec1432c398c75475bfa84e3f72e3d17bcd7934459599bfc24ada780"
+      },
+      "inner_folds": [
+        {
+          "inner_fold": 1,
+          "fit_rows": 1511,
+          "fit_papers": 843,
+          "validation_rows": 504,
+          "validation_papers": 280,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 280,
+              "rows": 504,
+              "mean_confidence": 0.7046018,
+              "zero_confidence_rows": 12,
+              "mean_supported_families_per_paper": 4.17857143,
+              "outer_allowed_training_prior": 0.66842673,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            },
+            "alpha_12": {
+              "papers": 280,
+              "rows": 504,
+              "mean_confidence": 0.63774154,
+              "zero_confidence_rows": 12,
+              "mean_supported_families_per_paper": 4.17857143,
+              "outer_allowed_training_prior": 0.66842673,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            }
+          }
+        },
+        {
+          "inner_fold": 2,
+          "fit_rows": 1511,
+          "fit_papers": 842,
+          "validation_rows": 504,
+          "validation_papers": 281,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 281,
+              "rows": 504,
+              "mean_confidence": 0.69715679,
+              "zero_confidence_rows": 8,
+              "mean_supported_families_per_paper": 4.5088968,
+              "outer_allowed_training_prior": 0.66709931,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            },
+            "alpha_12": {
+              "papers": 281,
+              "rows": 504,
+              "mean_confidence": 0.63353086,
+              "zero_confidence_rows": 8,
+              "mean_supported_families_per_paper": 4.5088968,
+              "outer_allowed_training_prior": 0.66709931,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            }
+          }
+        },
+        {
+          "inner_fold": 3,
+          "fit_rows": 1511,
+          "fit_papers": 842,
+          "validation_rows": 504,
+          "validation_papers": 281,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 281,
+              "rows": 504,
+              "mean_confidence": 0.71747228,
+              "zero_confidence_rows": 15,
+              "mean_supported_families_per_paper": 4.58718861,
+              "outer_allowed_training_prior": 0.66616239,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            },
+            "alpha_12": {
+              "papers": 281,
+              "rows": 504,
+              "mean_confidence": 0.65404995,
+              "zero_confidence_rows": 15,
+              "mean_supported_families_per_paper": 4.58718861,
+              "outer_allowed_training_prior": 0.66616239,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            }
+          }
+        },
+        {
+          "inner_fold": 4,
+          "fit_rows": 1512,
+          "fit_papers": 842,
+          "validation_rows": 503,
+          "validation_papers": 281,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 281,
+              "rows": 503,
+              "mean_confidence": 0.70042655,
+              "zero_confidence_rows": 5,
+              "mean_supported_families_per_paper": 4.42704626,
+              "outer_allowed_training_prior": 0.66821391,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            },
+            "alpha_12": {
+              "papers": 281,
+              "rows": 503,
+              "mean_confidence": 0.63749502,
+              "zero_confidence_rows": 5,
+              "mean_supported_families_per_paper": 4.42704626,
+              "outer_allowed_training_prior": 0.66821391,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            }
+          }
+        }
+      ],
+      "selection_source": "four-fold REFNO-isolated inner OOF only",
+      "selection_rule": "accuracy, macro-F1, balanced accuracy, specificity, stronger support gate, lower lambda, declaration order",
+      "selected_candidate": {
+        "name": "centered_a4_lambda100_gate50",
+        "smoothing": 4.0,
+        "fusion_weight": 1.0,
+        "support_gate": 0.5
+      },
+      "candidate_metrics": [
+        {
+          "candidate": "semantic_only",
+          "candidate_order": 0,
+          "smoothing": null,
+          "lambda": 0.0,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2015,
+            "coverage": 1.0,
+            "accuracy": 0.82878412,
+            "macro_f1": 0.80778584,
+            "balanced_accuracy": 0.79892007,
+            "confusion": {
+              "tn": 502,
+              "fp": 223,
+              "fn": 122,
+              "tp": 1168
+            },
+            "predicted_positive": 1391,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a4_lambda025_gate00",
+          "candidate_order": 1,
+          "smoothing": 4.0,
+          "lambda": 0.25,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2015,
+            "coverage": 1.0,
+            "accuracy": 0.82878412,
+            "macro_f1": 0.80735823,
+            "balanced_accuracy": 0.7980139,
+            "confusion": {
+              "tn": 499,
+              "fp": 226,
+              "fn": 119,
+              "tp": 1171
+            },
+            "predicted_positive": 1397,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a4_lambda025_gate50",
+          "candidate_order": 2,
+          "smoothing": 4.0,
+          "lambda": 0.25,
+          "support_gate": 0.5,
+          "metric": {
+            "rows": 2015,
+            "coverage": 1.0,
+            "accuracy": 0.82878412,
+            "macro_f1": 0.80735823,
+            "balanced_accuracy": 0.7980139,
+            "confusion": {
+              "tn": 499,
+              "fp": 226,
+              "fn": 119,
+              "tp": 1171
+            },
+            "predicted_positive": 1397,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a4_lambda050_gate00",
+          "candidate_order": 3,
+          "smoothing": 4.0,
+          "lambda": 0.5,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2015,
+            "coverage": 1.0,
+            "accuracy": 0.82878412,
+            "macro_f1": 0.80735823,
+            "balanced_accuracy": 0.7980139,
+            "confusion": {
+              "tn": 499,
+              "fp": 226,
+              "fn": 119,
+              "tp": 1171
+            },
+            "predicted_positive": 1397,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a4_lambda050_gate50",
+          "candidate_order": 4,
+          "smoothing": 4.0,
+          "lambda": 0.5,
+          "support_gate": 0.5,
+          "metric": {
+            "rows": 2015,
+            "coverage": 1.0,
+            "accuracy": 0.82878412,
+            "macro_f1": 0.80735823,
+            "balanced_accuracy": 0.7980139,
+            "confusion": {
+              "tn": 499,
+              "fp": 226,
+              "fn": 119,
+              "tp": 1171
+            },
+            "predicted_positive": 1397,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a4_lambda100_gate00",
+          "candidate_order": 5,
+          "smoothing": 4.0,
+          "lambda": 1.0,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2015,
+            "coverage": 1.0,
+            "accuracy": 0.82977667,
+            "macro_f1": 0.80833201,
+            "balanced_accuracy": 0.79878909,
+            "confusion": {
+              "tn": 499,
+              "fp": 226,
+              "fn": 117,
+              "tp": 1173
+            },
+            "predicted_positive": 1399,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a4_lambda100_gate50",
+          "candidate_order": 6,
+          "smoothing": 4.0,
+          "lambda": 1.0,
+          "support_gate": 0.5,
+          "metric": {
+            "rows": 2015,
+            "coverage": 1.0,
+            "accuracy": 0.82977667,
+            "macro_f1": 0.80833201,
+            "balanced_accuracy": 0.79878909,
+            "confusion": {
+              "tn": 499,
+              "fp": 226,
+              "fn": 117,
+              "tp": 1173
+            },
+            "predicted_positive": 1399,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a12_lambda025_gate00",
+          "candidate_order": 7,
+          "smoothing": 12.0,
+          "lambda": 0.25,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2015,
+            "coverage": 1.0,
+            "accuracy": 0.82779156,
+            "macro_f1": 0.80652883,
+            "balanced_accuracy": 0.79754076,
+            "confusion": {
+              "tn": 500,
+              "fp": 225,
+              "fn": 122,
+              "tp": 1168
+            },
+            "predicted_positive": 1393,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a12_lambda025_gate50",
+          "candidate_order": 8,
+          "smoothing": 12.0,
+          "lambda": 0.25,
+          "support_gate": 0.5,
+          "metric": {
+            "rows": 2015,
+            "coverage": 1.0,
+            "accuracy": 0.82828784,
+            "macro_f1": 0.80715762,
+            "balanced_accuracy": 0.79823042,
+            "confusion": {
+              "tn": 501,
+              "fp": 224,
+              "fn": 122,
+              "tp": 1168
+            },
+            "predicted_positive": 1392,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a12_lambda050_gate00",
+          "candidate_order": 9,
+          "smoothing": 12.0,
+          "lambda": 0.5,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2015,
+            "coverage": 1.0,
+            "accuracy": 0.82878412,
+            "macro_f1": 0.80735823,
+            "balanced_accuracy": 0.7980139,
+            "confusion": {
+              "tn": 499,
+              "fp": 226,
+              "fn": 119,
+              "tp": 1171
+            },
+            "predicted_positive": 1397,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a12_lambda050_gate50",
+          "candidate_order": 10,
+          "smoothing": 12.0,
+          "lambda": 0.5,
+          "support_gate": 0.5,
+          "metric": {
+            "rows": 2015,
+            "coverage": 1.0,
+            "accuracy": 0.8292804,
+            "macro_f1": 0.80798807,
+            "balanced_accuracy": 0.79870356,
+            "confusion": {
+              "tn": 500,
+              "fp": 225,
+              "fn": 119,
+              "tp": 1171
+            },
+            "predicted_positive": 1396,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a12_lambda100_gate00",
+          "candidate_order": 11,
+          "smoothing": 12.0,
+          "lambda": 1.0,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2015,
+            "coverage": 1.0,
+            "accuracy": 0.82878412,
+            "macro_f1": 0.80735823,
+            "balanced_accuracy": 0.7980139,
+            "confusion": {
+              "tn": 499,
+              "fp": 226,
+              "fn": 119,
+              "tp": 1171
+            },
+            "predicted_positive": 1397,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a12_lambda100_gate50",
+          "candidate_order": 12,
+          "smoothing": 12.0,
+          "lambda": 1.0,
+          "support_gate": 0.5,
+          "metric": {
+            "rows": 2015,
+            "coverage": 1.0,
+            "accuracy": 0.8292804,
+            "macro_f1": 0.80798807,
+            "balanced_accuracy": 0.79870356,
+            "confusion": {
+              "tn": 500,
+              "fp": 225,
+              "fn": 119,
+              "tp": 1171
+            },
+            "predicted_positive": 1396,
+            "threshold": 0.5
+          }
+        }
+      ],
+      "outer_policy_transform": {
+        "papers": 51,
+        "rows": 60,
+        "mean_confidence": 0.74943299,
+        "zero_confidence_rows": 0,
+        "mean_supported_families_per_paper": 5.23529412,
+        "outer_allowed_training_prior": 0.66747587,
+        "calibration": "logit(posterior) - logit(training-paper prior)",
+        "neutral_effect_probability": 0.5,
+        "unsupported_rows_have_zero_confidence": true
+      },
+      "outer_test_labels_received_by_run_fold": false,
+      "centered_log_odds_calibration": true
+    },
+    {
+      "fold": 3,
+      "exact_test_rows": 60,
+      "exact_test_papers": 52,
+      "outer_train_rows": 2028,
+      "outer_train_papers": 1122,
+      "full_rows_excluded_for_test_refnos": 144,
+      "outer_train_test_refno_overlap": 0,
+      "outer_train_exact_test_row_overlap": 0,
+      "excluded_test_refno_rows_remaining_in_outer_train": 0,
+      "inner_split": {
+        "method": "label-free deterministic row-balanced REFNO assignment",
+        "salt": "r3-bibliographic-policy-inner-v1",
+        "folds": 4,
+        "fold_id_sha256": "7b41ba9c4cde78152cd1fbd776ec77bd9d199a70cb69bff2d5f500002728165c"
+      },
+      "inner_folds": [
+        {
+          "inner_fold": 1,
+          "fit_rows": 1521,
+          "fit_papers": 842,
+          "validation_rows": 507,
+          "validation_papers": 280,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 280,
+              "rows": 507,
+              "mean_confidence": 0.70384179,
+              "zero_confidence_rows": 19,
+              "mean_supported_families_per_paper": 4.47142857,
+              "outer_allowed_training_prior": 0.67137227,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            },
+            "alpha_12": {
+              "papers": 280,
+              "rows": 507,
+              "mean_confidence": 0.6380558,
+              "zero_confidence_rows": 19,
+              "mean_supported_families_per_paper": 4.47142857,
+              "outer_allowed_training_prior": 0.67137227,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            }
+          }
+        },
+        {
+          "inner_fold": 2,
+          "fit_rows": 1521,
+          "fit_papers": 842,
+          "validation_rows": 507,
+          "validation_papers": 280,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 280,
+              "rows": 507,
+              "mean_confidence": 0.6881488,
+              "zero_confidence_rows": 3,
+              "mean_supported_families_per_paper": 4.38928571,
+              "outer_allowed_training_prior": 0.67001235,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            },
+            "alpha_12": {
+              "papers": 280,
+              "rows": 507,
+              "mean_confidence": 0.62819437,
+              "zero_confidence_rows": 3,
+              "mean_supported_families_per_paper": 4.38928571,
+              "outer_allowed_training_prior": 0.67001235,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            }
+          }
+        },
+        {
+          "inner_fold": 3,
+          "fit_rows": 1521,
+          "fit_papers": 841,
+          "validation_rows": 507,
+          "validation_papers": 281,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 281,
+              "rows": 507,
+              "mean_confidence": 0.69854579,
+              "zero_confidence_rows": 11,
+              "mean_supported_families_per_paper": 4.33451957,
+              "outer_allowed_training_prior": 0.68035575,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            },
+            "alpha_12": {
+              "papers": 281,
+              "rows": 507,
+              "mean_confidence": 0.63761893,
+              "zero_confidence_rows": 11,
+              "mean_supported_families_per_paper": 4.33451957,
+              "outer_allowed_training_prior": 0.68035575,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            }
+          }
+        },
+        {
+          "inner_fold": 4,
+          "fit_rows": 1521,
+          "fit_papers": 841,
+          "validation_rows": 507,
+          "validation_papers": 281,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 281,
+              "rows": 507,
+              "mean_confidence": 0.71103828,
+              "zero_confidence_rows": 3,
+              "mean_supported_families_per_paper": 4.60498221,
+              "outer_allowed_training_prior": 0.67106126,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            },
+            "alpha_12": {
+              "papers": 281,
+              "rows": 507,
+              "mean_confidence": 0.64417188,
+              "zero_confidence_rows": 3,
+              "mean_supported_families_per_paper": 4.60498221,
+              "outer_allowed_training_prior": 0.67106126,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            }
+          }
+        }
+      ],
+      "selection_source": "four-fold REFNO-isolated inner OOF only",
+      "selection_rule": "accuracy, macro-F1, balanced accuracy, specificity, stronger support gate, lower lambda, declaration order",
+      "selected_candidate": {
+        "name": "centered_a12_lambda025_gate50",
+        "smoothing": 12.0,
+        "fusion_weight": 0.25,
+        "support_gate": 0.5
+      },
+      "candidate_metrics": [
+        {
+          "candidate": "semantic_only",
+          "candidate_order": 0,
+          "smoothing": null,
+          "lambda": 0.0,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2028,
+            "coverage": 1.0,
+            "accuracy": 0.83727811,
+            "macro_f1": 0.82038165,
+            "balanced_accuracy": 0.81668031,
+            "confusion": {
+              "tn": 538,
+              "fp": 184,
+              "fn": 146,
+              "tp": 1160
+            },
+            "predicted_positive": 1344,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a4_lambda025_gate00",
+          "candidate_order": 1,
+          "smoothing": 4.0,
+          "lambda": 0.25,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2028,
+            "coverage": 1.0,
+            "accuracy": 0.8377712,
+            "macro_f1": 0.82086609,
+            "balanced_accuracy": 0.81706316,
+            "confusion": {
+              "tn": 538,
+              "fp": 184,
+              "fn": 145,
+              "tp": 1161
+            },
+            "predicted_positive": 1345,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a4_lambda025_gate50",
+          "candidate_order": 2,
+          "smoothing": 4.0,
+          "lambda": 0.25,
+          "support_gate": 0.5,
+          "metric": {
+            "rows": 2028,
+            "coverage": 1.0,
+            "accuracy": 0.8382643,
+            "macro_f1": 0.82147025,
+            "balanced_accuracy": 0.81775568,
+            "confusion": {
+              "tn": 539,
+              "fp": 183,
+              "fn": 145,
+              "tp": 1161
+            },
+            "predicted_positive": 1344,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a4_lambda050_gate00",
+          "candidate_order": 3,
+          "smoothing": 4.0,
+          "lambda": 0.5,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2028,
+            "coverage": 1.0,
+            "accuracy": 0.83579882,
+            "macro_f1": 0.81868817,
+            "balanced_accuracy": 0.81491242,
+            "confusion": {
+              "tn": 536,
+              "fp": 186,
+              "fn": 147,
+              "tp": 1159
+            },
+            "predicted_positive": 1345,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a4_lambda050_gate50",
+          "candidate_order": 4,
+          "smoothing": 4.0,
+          "lambda": 0.5,
+          "support_gate": 0.5,
+          "metric": {
+            "rows": 2028,
+            "coverage": 1.0,
+            "accuracy": 0.83678501,
+            "macro_f1": 0.81989744,
+            "balanced_accuracy": 0.81629746,
+            "confusion": {
+              "tn": 538,
+              "fp": 184,
+              "fn": 147,
+              "tp": 1159
+            },
+            "predicted_positive": 1343,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a4_lambda100_gate00",
+          "candidate_order": 5,
+          "smoothing": 4.0,
+          "lambda": 1.0,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2028,
+            "coverage": 1.0,
+            "accuracy": 0.8377712,
+            "macro_f1": 0.82050408,
+            "balanced_accuracy": 0.81613414,
+            "confusion": {
+              "tn": 535,
+              "fp": 187,
+              "fn": 142,
+              "tp": 1164
+            },
+            "predicted_positive": 1351,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a4_lambda100_gate50",
+          "candidate_order": 6,
+          "smoothing": 4.0,
+          "lambda": 1.0,
+          "support_gate": 0.5,
+          "metric": {
+            "rows": 2028,
+            "coverage": 1.0,
+            "accuracy": 0.8382643,
+            "macro_f1": 0.82123073,
+            "balanced_accuracy": 0.81713634,
+            "confusion": {
+              "tn": 537,
+              "fp": 185,
+              "fn": 143,
+              "tp": 1163
+            },
+            "predicted_positive": 1348,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a12_lambda025_gate00",
+          "candidate_order": 7,
+          "smoothing": 12.0,
+          "lambda": 0.25,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2028,
+            "coverage": 1.0,
+            "accuracy": 0.8382643,
+            "macro_f1": 0.82135076,
+            "balanced_accuracy": 0.81744601,
+            "confusion": {
+              "tn": 538,
+              "fp": 184,
+              "fn": 144,
+              "tp": 1162
+            },
+            "predicted_positive": 1346,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a12_lambda025_gate50",
+          "candidate_order": 8,
+          "smoothing": 12.0,
+          "lambda": 0.25,
+          "support_gate": 0.5,
+          "metric": {
+            "rows": 2028,
+            "coverage": 1.0,
+            "accuracy": 0.8387574,
+            "macro_f1": 0.82195505,
+            "balanced_accuracy": 0.81813853,
+            "confusion": {
+              "tn": 539,
+              "fp": 183,
+              "fn": 144,
+              "tp": 1162
+            },
+            "predicted_positive": 1345,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a12_lambda050_gate00",
+          "candidate_order": 9,
+          "smoothing": 12.0,
+          "lambda": 0.5,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2028,
+            "coverage": 1.0,
+            "accuracy": 0.83727811,
+            "macro_f1": 0.82038165,
+            "balanced_accuracy": 0.81668031,
+            "confusion": {
+              "tn": 538,
+              "fp": 184,
+              "fn": 146,
+              "tp": 1160
+            },
+            "predicted_positive": 1344,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a12_lambda050_gate50",
+          "candidate_order": 10,
+          "smoothing": 12.0,
+          "lambda": 0.5,
+          "support_gate": 0.5,
+          "metric": {
+            "rows": 2028,
+            "coverage": 1.0,
+            "accuracy": 0.8377712,
+            "macro_f1": 0.82098567,
+            "balanced_accuracy": 0.81737283,
+            "confusion": {
+              "tn": 539,
+              "fp": 183,
+              "fn": 146,
+              "tp": 1160
+            },
+            "predicted_positive": 1343,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a12_lambda100_gate00",
+          "candidate_order": 11,
+          "smoothing": 12.0,
+          "lambda": 1.0,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2028,
+            "coverage": 1.0,
+            "accuracy": 0.8377712,
+            "macro_f1": 0.82074597,
+            "balanced_accuracy": 0.81675349,
+            "confusion": {
+              "tn": 537,
+              "fp": 185,
+              "fn": 144,
+              "tp": 1162
+            },
+            "predicted_positive": 1347,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a12_lambda100_gate50",
+          "candidate_order": 12,
+          "smoothing": 12.0,
+          "lambda": 1.0,
+          "support_gate": 0.5,
+          "metric": {
+            "rows": 2028,
+            "coverage": 1.0,
+            "accuracy": 0.8377712,
+            "macro_f1": 0.82086609,
+            "balanced_accuracy": 0.81706316,
+            "confusion": {
+              "tn": 538,
+              "fp": 184,
+              "fn": 145,
+              "tp": 1161
+            },
+            "predicted_positive": 1345,
+            "threshold": 0.5
+          }
+        }
+      ],
+      "outer_policy_transform": {
+        "papers": 52,
+        "rows": 60,
+        "mean_confidence": 0.68419396,
+        "zero_confidence_rows": 1,
+        "mean_supported_families_per_paper": 4.82692308,
+        "outer_allowed_training_prior": 0.67319892,
+        "calibration": "logit(posterior) - logit(training-paper prior)",
+        "neutral_effect_probability": 0.5,
+        "unsupported_rows_have_zero_confidence": true
+      },
+      "outer_test_labels_received_by_run_fold": false,
+      "centered_log_odds_calibration": true
+    },
+    {
+      "fold": 4,
+      "exact_test_rows": 60,
+      "exact_test_papers": 52,
+      "outer_train_rows": 2036,
+      "outer_train_papers": 1122,
+      "full_rows_excluded_for_test_refnos": 136,
+      "outer_train_test_refno_overlap": 0,
+      "outer_train_exact_test_row_overlap": 0,
+      "excluded_test_refno_rows_remaining_in_outer_train": 0,
+      "inner_split": {
+        "method": "label-free deterministic row-balanced REFNO assignment",
+        "salt": "r3-bibliographic-policy-inner-v1",
+        "folds": 4,
+        "fold_id_sha256": "ba1d6684c5924e5d2fbe8bff746a0e6dd246d9847b64be36f36bf37cd020ad09"
+      },
+      "inner_folds": [
+        {
+          "inner_fold": 1,
+          "fit_rows": 1527,
+          "fit_papers": 842,
+          "validation_rows": 509,
+          "validation_papers": 280,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 280,
+              "rows": 509,
+              "mean_confidence": 0.69271683,
+              "zero_confidence_rows": 9,
+              "mean_supported_families_per_paper": 4.23214286,
+              "outer_allowed_training_prior": 0.66904646,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            },
+            "alpha_12": {
+              "papers": 280,
+              "rows": 509,
+              "mean_confidence": 0.62082181,
+              "zero_confidence_rows": 9,
+              "mean_supported_families_per_paper": 4.23214286,
+              "outer_allowed_training_prior": 0.66904646,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            }
+          }
+        },
+        {
+          "inner_fold": 2,
+          "fit_rows": 1527,
+          "fit_papers": 842,
+          "validation_rows": 509,
+          "validation_papers": 280,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 280,
+              "rows": 509,
+              "mean_confidence": 0.68822406,
+              "zero_confidence_rows": 8,
+              "mean_supported_families_per_paper": 4.45,
+              "outer_allowed_training_prior": 0.67360498,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            },
+            "alpha_12": {
+              "papers": 280,
+              "rows": 509,
+              "mean_confidence": 0.62872239,
+              "zero_confidence_rows": 8,
+              "mean_supported_families_per_paper": 4.45,
+              "outer_allowed_training_prior": 0.67360498,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            }
+          }
+        },
+        {
+          "inner_fold": 3,
+          "fit_rows": 1527,
+          "fit_papers": 842,
+          "validation_rows": 509,
+          "validation_papers": 280,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 280,
+              "rows": 509,
+              "mean_confidence": 0.70364183,
+              "zero_confidence_rows": 9,
+              "mean_supported_families_per_paper": 4.43928571,
+              "outer_allowed_training_prior": 0.6732136,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            },
+            "alpha_12": {
+              "papers": 280,
+              "rows": 509,
+              "mean_confidence": 0.64240545,
+              "zero_confidence_rows": 9,
+              "mean_supported_families_per_paper": 4.43928571,
+              "outer_allowed_training_prior": 0.6732136,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            }
+          }
+        },
+        {
+          "inner_fold": 4,
+          "fit_rows": 1527,
+          "fit_papers": 840,
+          "validation_rows": 509,
+          "validation_papers": 282,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 282,
+              "rows": 509,
+              "mean_confidence": 0.71215503,
+              "zero_confidence_rows": 10,
+              "mean_supported_families_per_paper": 4.60638298,
+              "outer_allowed_training_prior": 0.67387403,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            },
+            "alpha_12": {
+              "papers": 282,
+              "rows": 509,
+              "mean_confidence": 0.64716756,
+              "zero_confidence_rows": 10,
+              "mean_supported_families_per_paper": 4.60638298,
+              "outer_allowed_training_prior": 0.67387403,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            }
+          }
+        }
+      ],
+      "selection_source": "four-fold REFNO-isolated inner OOF only",
+      "selection_rule": "accuracy, macro-F1, balanced accuracy, specificity, stronger support gate, lower lambda, declaration order",
+      "selected_candidate": {
+        "name": "centered_a4_lambda050_gate50",
+        "smoothing": 4.0,
+        "fusion_weight": 0.5,
+        "support_gate": 0.5
+      },
+      "candidate_metrics": [
+        {
+          "candidate": "semantic_only",
+          "candidate_order": 0,
+          "smoothing": null,
+          "lambda": 0.0,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2036,
+            "coverage": 1.0,
+            "accuracy": 0.84921415,
+            "macro_f1": 0.83450428,
+            "balanced_accuracy": 0.82871854,
+            "confusion": {
+              "tn": 561,
+              "fp": 185,
+              "fn": 122,
+              "tp": 1168
+            },
+            "predicted_positive": 1353,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a4_lambda025_gate00",
+          "candidate_order": 1,
+          "smoothing": 4.0,
+          "lambda": 0.25,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2036,
+            "coverage": 1.0,
+            "accuracy": 0.85314342,
+            "macro_f1": 0.83871302,
+            "balanced_accuracy": 0.83266725,
+            "confusion": {
+              "tn": 564,
+              "fp": 182,
+              "fn": 117,
+              "tp": 1173
+            },
+            "predicted_positive": 1355,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a4_lambda025_gate50",
+          "candidate_order": 2,
+          "smoothing": 4.0,
+          "lambda": 0.25,
+          "support_gate": 0.5,
+          "metric": {
+            "rows": 2036,
+            "coverage": 1.0,
+            "accuracy": 0.85314342,
+            "macro_f1": 0.83871302,
+            "balanced_accuracy": 0.83266725,
+            "confusion": {
+              "tn": 564,
+              "fp": 182,
+              "fn": 117,
+              "tp": 1173
+            },
+            "predicted_positive": 1355,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a4_lambda050_gate00",
+          "candidate_order": 3,
+          "smoothing": 4.0,
+          "lambda": 0.5,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2036,
+            "coverage": 1.0,
+            "accuracy": 0.85265226,
+            "macro_f1": 0.83759189,
+            "balanced_accuracy": 0.83058379,
+            "confusion": {
+              "tn": 558,
+              "fp": 188,
+              "fn": 112,
+              "tp": 1178
+            },
+            "predicted_positive": 1366,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a4_lambda050_gate50",
+          "candidate_order": 4,
+          "smoothing": 4.0,
+          "lambda": 0.5,
+          "support_gate": 0.5,
+          "metric": {
+            "rows": 2036,
+            "coverage": 1.0,
+            "accuracy": 0.85363458,
+            "macro_f1": 0.83867461,
+            "balanced_accuracy": 0.83164162,
+            "confusion": {
+              "tn": 559,
+              "fp": 187,
+              "fn": 111,
+              "tp": 1179
+            },
+            "predicted_positive": 1366,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a4_lambda100_gate00",
+          "candidate_order": 5,
+          "smoothing": 4.0,
+          "lambda": 1.0,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2036,
+            "coverage": 1.0,
+            "accuracy": 0.85068762,
+            "macro_f1": 0.83465461,
+            "balanced_accuracy": 0.8264896,
+            "confusion": {
+              "tn": 549,
+              "fp": 197,
+              "fn": 107,
+              "tp": 1183
+            },
+            "predicted_positive": 1380,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a4_lambda100_gate50",
+          "candidate_order": 6,
+          "smoothing": 4.0,
+          "lambda": 1.0,
+          "support_gate": 0.5,
+          "metric": {
+            "rows": 2036,
+            "coverage": 1.0,
+            "accuracy": 0.8521611,
+            "macro_f1": 0.8363417,
+            "balanced_accuracy": 0.82821768,
+            "confusion": {
+              "tn": 551,
+              "fp": 195,
+              "fn": 106,
+              "tp": 1184
+            },
+            "predicted_positive": 1379,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a12_lambda025_gate00",
+          "candidate_order": 7,
+          "smoothing": 12.0,
+          "lambda": 0.25,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2036,
+            "coverage": 1.0,
+            "accuracy": 0.8497053,
+            "macro_f1": 0.83488374,
+            "balanced_accuracy": 0.82882349,
+            "confusion": {
+              "tn": 560,
+              "fp": 186,
+              "fn": 120,
+              "tp": 1170
+            },
+            "predicted_positive": 1356,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a12_lambda025_gate50",
+          "candidate_order": 8,
+          "smoothing": 12.0,
+          "lambda": 0.25,
+          "support_gate": 0.5,
+          "metric": {
+            "rows": 2036,
+            "coverage": 1.0,
+            "accuracy": 0.8497053,
+            "macro_f1": 0.83488374,
+            "balanced_accuracy": 0.82882349,
+            "confusion": {
+              "tn": 560,
+              "fp": 186,
+              "fn": 120,
+              "tp": 1170
+            },
+            "predicted_positive": 1356,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a12_lambda050_gate00",
+          "candidate_order": 9,
+          "smoothing": 12.0,
+          "lambda": 0.5,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2036,
+            "coverage": 1.0,
+            "accuracy": 0.8521611,
+            "macro_f1": 0.83721116,
+            "balanced_accuracy": 0.83047883,
+            "confusion": {
+              "tn": 559,
+              "fp": 187,
+              "fn": 114,
+              "tp": 1176
+            },
+            "predicted_positive": 1363,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a12_lambda050_gate50",
+          "candidate_order": 10,
+          "smoothing": 12.0,
+          "lambda": 0.5,
+          "support_gate": 0.5,
+          "metric": {
+            "rows": 2036,
+            "coverage": 1.0,
+            "accuracy": 0.85265226,
+            "macro_f1": 0.83769874,
+            "balanced_accuracy": 0.83086643,
+            "confusion": {
+              "tn": 559,
+              "fp": 187,
+              "fn": 113,
+              "tp": 1177
+            },
+            "predicted_positive": 1364,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a12_lambda100_gate00",
+          "candidate_order": 11,
+          "smoothing": 12.0,
+          "lambda": 1.0,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2036,
+            "coverage": 1.0,
+            "accuracy": 0.85117878,
+            "macro_f1": 0.83547606,
+            "balanced_accuracy": 0.82772513,
+            "confusion": {
+              "tn": 552,
+              "fp": 194,
+              "fn": 109,
+              "tp": 1181
+            },
+            "predicted_positive": 1375,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a12_lambda100_gate50",
+          "candidate_order": 12,
+          "smoothing": 12.0,
+          "lambda": 1.0,
+          "support_gate": 0.5,
+          "metric": {
+            "rows": 2036,
+            "coverage": 1.0,
+            "accuracy": 0.85166994,
+            "macro_f1": 0.83596397,
+            "balanced_accuracy": 0.82811273,
+            "confusion": {
+              "tn": 552,
+              "fp": 194,
+              "fn": 108,
+              "tp": 1182
+            },
+            "predicted_positive": 1376,
+            "threshold": 0.5
+          }
+        }
+      ],
+      "outer_policy_transform": {
+        "papers": 52,
+        "rows": 60,
+        "mean_confidence": 0.72477786,
+        "zero_confidence_rows": 0,
+        "mean_supported_families_per_paper": 4.73076923,
+        "outer_allowed_training_prior": 0.67243391,
+        "calibration": "logit(posterior) - logit(training-paper prior)",
+        "neutral_effect_probability": 0.5,
+        "unsupported_rows_have_zero_confidence": true
+      },
+      "outer_test_labels_received_by_run_fold": false,
+      "centered_log_odds_calibration": true
+    },
+    {
+      "fold": 5,
+      "exact_test_rows": 60,
+      "exact_test_papers": 52,
+      "outer_train_rows": 2026,
+      "outer_train_papers": 1122,
+      "full_rows_excluded_for_test_refnos": 146,
+      "outer_train_test_refno_overlap": 0,
+      "outer_train_exact_test_row_overlap": 0,
+      "excluded_test_refno_rows_remaining_in_outer_train": 0,
+      "inner_split": {
+        "method": "label-free deterministic row-balanced REFNO assignment",
+        "salt": "r3-bibliographic-policy-inner-v1",
+        "folds": 4,
+        "fold_id_sha256": "2ba460a30590d417cf87b6aaa2ab929d5a0250690ba14e810c7cb4f59e780115"
+      },
+      "inner_folds": [
+        {
+          "inner_fold": 1,
+          "fit_rows": 1519,
+          "fit_papers": 842,
+          "validation_rows": 507,
+          "validation_papers": 280,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 280,
+              "rows": 507,
+              "mean_confidence": 0.70065684,
+              "zero_confidence_rows": 4,
+              "mean_supported_families_per_paper": 4.51428571,
+              "outer_allowed_training_prior": 0.65794782,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            },
+            "alpha_12": {
+              "papers": 280,
+              "rows": 507,
+              "mean_confidence": 0.63899867,
+              "zero_confidence_rows": 4,
+              "mean_supported_families_per_paper": 4.51428571,
+              "outer_allowed_training_prior": 0.65794782,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            }
+          }
+        },
+        {
+          "inner_fold": 2,
+          "fit_rows": 1519,
+          "fit_papers": 842,
+          "validation_rows": 507,
+          "validation_papers": 280,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 280,
+              "rows": 507,
+              "mean_confidence": 0.68422425,
+              "zero_confidence_rows": 15,
+              "mean_supported_families_per_paper": 4.26785714,
+              "outer_allowed_training_prior": 0.65822944,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            },
+            "alpha_12": {
+              "papers": 280,
+              "rows": 507,
+              "mean_confidence": 0.62526542,
+              "zero_confidence_rows": 15,
+              "mean_supported_families_per_paper": 4.26785714,
+              "outer_allowed_training_prior": 0.65822944,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            }
+          }
+        },
+        {
+          "inner_fold": 3,
+          "fit_rows": 1520,
+          "fit_papers": 841,
+          "validation_rows": 506,
+          "validation_papers": 281,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 281,
+              "rows": 506,
+              "mean_confidence": 0.70075442,
+              "zero_confidence_rows": 10,
+              "mean_supported_families_per_paper": 4.45907473,
+              "outer_allowed_training_prior": 0.66687973,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            },
+            "alpha_12": {
+              "papers": 281,
+              "rows": 506,
+              "mean_confidence": 0.63836383,
+              "zero_confidence_rows": 10,
+              "mean_supported_families_per_paper": 4.45907473,
+              "outer_allowed_training_prior": 0.66687973,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            }
+          }
+        },
+        {
+          "inner_fold": 4,
+          "fit_rows": 1520,
+          "fit_papers": 841,
+          "validation_rows": 506,
+          "validation_papers": 281,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 281,
+              "rows": 506,
+              "mean_confidence": 0.71748975,
+              "zero_confidence_rows": 12,
+              "mean_supported_families_per_paper": 4.54448399,
+              "outer_allowed_training_prior": 0.66161766,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            },
+            "alpha_12": {
+              "papers": 281,
+              "rows": 506,
+              "mean_confidence": 0.65112337,
+              "zero_confidence_rows": 12,
+              "mean_supported_families_per_paper": 4.54448399,
+              "outer_allowed_training_prior": 0.66161766,
+              "calibration": "logit(posterior) - logit(training-paper prior)",
+              "neutral_effect_probability": 0.5,
+              "unsupported_rows_have_zero_confidence": true
+            }
+          }
+        }
+      ],
+      "selection_source": "four-fold REFNO-isolated inner OOF only",
+      "selection_rule": "accuracy, macro-F1, balanced accuracy, specificity, stronger support gate, lower lambda, declaration order",
+      "selected_candidate": {
+        "name": "semantic_only",
+        "smoothing": null,
+        "fusion_weight": 0.0,
+        "support_gate": 0.0
+      },
+      "candidate_metrics": [
+        {
+          "candidate": "semantic_only",
+          "candidate_order": 0,
+          "smoothing": null,
+          "lambda": 0.0,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2026,
+            "coverage": 1.0,
+            "accuracy": 0.83218164,
+            "macro_f1": 0.81786607,
+            "balanced_accuracy": 0.81260486,
+            "confusion": {
+              "tn": 559,
+              "fp": 203,
+              "fn": 137,
+              "tp": 1127
+            },
+            "predicted_positive": 1330,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a4_lambda025_gate00",
+          "candidate_order": 1,
+          "smoothing": 4.0,
+          "lambda": 0.25,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2026,
+            "coverage": 1.0,
+            "accuracy": 0.83168806,
+            "macro_f1": 0.81738518,
+            "balanced_accuracy": 0.81220929,
+            "confusion": {
+              "tn": 559,
+              "fp": 203,
+              "fn": 138,
+              "tp": 1126
+            },
+            "predicted_positive": 1329,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a4_lambda025_gate50",
+          "candidate_order": 2,
+          "smoothing": 4.0,
+          "lambda": 0.25,
+          "support_gate": 0.5,
+          "metric": {
+            "rows": 2026,
+            "coverage": 1.0,
+            "accuracy": 0.83168806,
+            "macro_f1": 0.81727545,
+            "balanced_accuracy": 0.81194869,
+            "confusion": {
+              "tn": 558,
+              "fp": 204,
+              "fn": 137,
+              "tp": 1127
+            },
+            "predicted_positive": 1331,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a4_lambda050_gate00",
+          "candidate_order": 3,
+          "smoothing": 4.0,
+          "lambda": 0.5,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2026,
+            "coverage": 1.0,
+            "accuracy": 0.83218164,
+            "macro_f1": 0.81786607,
+            "balanced_accuracy": 0.81260486,
+            "confusion": {
+              "tn": 559,
+              "fp": 203,
+              "fn": 137,
+              "tp": 1127
+            },
+            "predicted_positive": 1330,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a4_lambda050_gate50",
+          "candidate_order": 4,
+          "smoothing": 4.0,
+          "lambda": 0.5,
+          "support_gate": 0.5,
+          "metric": {
+            "rows": 2026,
+            "coverage": 1.0,
+            "accuracy": 0.83218164,
+            "macro_f1": 0.8177564,
+            "balanced_accuracy": 0.81234426,
+            "confusion": {
+              "tn": 558,
+              "fp": 204,
+              "fn": 136,
+              "tp": 1128
+            },
+            "predicted_positive": 1332,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a4_lambda100_gate00",
+          "candidate_order": 5,
+          "smoothing": 4.0,
+          "lambda": 1.0,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2026,
+            "coverage": 1.0,
+            "accuracy": 0.83119447,
+            "macro_f1": 0.81679469,
+            "balanced_accuracy": 0.81155312,
+            "confusion": {
+              "tn": 558,
+              "fp": 204,
+              "fn": 138,
+              "tp": 1126
+            },
+            "predicted_positive": 1330,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a4_lambda100_gate50",
+          "candidate_order": 6,
+          "smoothing": 4.0,
+          "lambda": 1.0,
+          "support_gate": 0.5,
+          "metric": {
+            "rows": 2026,
+            "coverage": 1.0,
+            "accuracy": 0.83119447,
+            "macro_f1": 0.81668437,
+            "balanced_accuracy": 0.81129253,
+            "confusion": {
+              "tn": 557,
+              "fp": 205,
+              "fn": 137,
+              "tp": 1127
+            },
+            "predicted_positive": 1332,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a12_lambda025_gate00",
+          "candidate_order": 7,
+          "smoothing": 12.0,
+          "lambda": 0.25,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2026,
+            "coverage": 1.0,
+            "accuracy": 0.83168806,
+            "macro_f1": 0.81738518,
+            "balanced_accuracy": 0.81220929,
+            "confusion": {
+              "tn": 559,
+              "fp": 203,
+              "fn": 138,
+              "tp": 1126
+            },
+            "predicted_positive": 1329,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a12_lambda025_gate50",
+          "candidate_order": 8,
+          "smoothing": 12.0,
+          "lambda": 0.25,
+          "support_gate": 0.5,
+          "metric": {
+            "rows": 2026,
+            "coverage": 1.0,
+            "accuracy": 0.83168806,
+            "macro_f1": 0.81727545,
+            "balanced_accuracy": 0.81194869,
+            "confusion": {
+              "tn": 558,
+              "fp": 204,
+              "fn": 137,
+              "tp": 1127
+            },
+            "predicted_positive": 1331,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a12_lambda050_gate00",
+          "candidate_order": 9,
+          "smoothing": 12.0,
+          "lambda": 0.5,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2026,
+            "coverage": 1.0,
+            "accuracy": 0.83070089,
+            "macro_f1": 0.81620375,
+            "balanced_accuracy": 0.81089696,
+            "confusion": {
+              "tn": 557,
+              "fp": 205,
+              "fn": 138,
+              "tp": 1126
+            },
+            "predicted_positive": 1331,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a12_lambda050_gate50",
+          "candidate_order": 10,
+          "smoothing": 12.0,
+          "lambda": 0.5,
+          "support_gate": 0.5,
+          "metric": {
+            "rows": 2026,
+            "coverage": 1.0,
+            "accuracy": 0.83070089,
+            "macro_f1": 0.81609285,
+            "balanced_accuracy": 0.81063636,
+            "confusion": {
+              "tn": 556,
+              "fp": 206,
+              "fn": 137,
+              "tp": 1127
+            },
+            "predicted_positive": 1333,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a12_lambda100_gate00",
+          "candidate_order": 11,
+          "smoothing": 12.0,
+          "lambda": 1.0,
+          "support_gate": 0.0,
+          "metric": {
+            "rows": 2026,
+            "coverage": 1.0,
+            "accuracy": 0.83168806,
+            "macro_f1": 0.81727545,
+            "balanced_accuracy": 0.81194869,
+            "confusion": {
+              "tn": 558,
+              "fp": 204,
+              "fn": 137,
+              "tp": 1127
+            },
+            "predicted_positive": 1331,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "centered_a12_lambda100_gate50",
+          "candidate_order": 12,
+          "smoothing": 12.0,
+          "lambda": 1.0,
+          "support_gate": 0.5,
+          "metric": {
+            "rows": 2026,
+            "coverage": 1.0,
+            "accuracy": 0.83168806,
+            "macro_f1": 0.81716519,
+            "balanced_accuracy": 0.8116881,
+            "confusion": {
+              "tn": 557,
+              "fp": 205,
+              "fn": 136,
+              "tp": 1128
+            },
+            "predicted_positive": 1333,
+            "threshold": 0.5
+          }
+        }
+      ],
+      "outer_policy_transform": {
+        "papers": 52,
+        "rows": 60,
+        "mean_confidence": 0.65397524,
+        "zero_confidence_rows": 2,
+        "mean_supported_families_per_paper": 4.61538462,
+        "outer_allowed_training_prior": 0.66116683,
+        "calibration": "logit(posterior) - logit(training-paper prior)",
+        "neutral_effect_probability": 0.5,
+        "unsupported_rows_have_zero_confidence": true
+      },
+      "outer_test_labels_received_by_run_fold": false,
+      "centered_log_odds_calibration": true
+    }
+  ],
+  "fold_metrics": [
+    {
+      "fold": 1,
+      "bibliographic_policy_fusion": {
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.9,
+        "macro_f1": 0.89010989,
+        "balanced_accuracy": 0.9,
+        "confusion": {
+          "tn": 18,
+          "fp": 2,
+          "fn": 4,
+          "tp": 36
+        },
+        "predicted_positive": 38,
+        "threshold": 0.5
+      },
+      "semantic_hgb": {
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.9,
+        "macro_f1": 0.89010989,
+        "balanced_accuracy": 0.9,
+        "confusion": {
+          "tn": 18,
+          "fp": 2,
+          "fn": 4,
+          "tp": 36
+        },
+        "predicted_positive": 38,
+        "threshold": 0.5
+      },
+      "policy_only_diagnostic": {
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.73333333,
+        "macro_f1": 0.68253968,
+        "balanced_accuracy": 0.675,
+        "confusion": {
+          "tn": 10,
+          "fp": 10,
+          "fn": 6,
+          "tp": 34
+        },
+        "predicted_positive": 44,
+        "threshold": 0.5
+      }
+    },
+    {
+      "fold": 2,
+      "bibliographic_policy_fusion": {
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.86666667,
+        "macro_f1": 0.85645933,
+        "balanced_accuracy": 0.85076381,
+        "confusion": {
+          "tn": 18,
+          "fp": 5,
+          "fn": 3,
+          "tp": 34
+        },
+        "predicted_positive": 39,
+        "threshold": 0.5
+      },
+      "semantic_hgb": {
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.86666667,
+        "macro_f1": 0.85645933,
+        "balanced_accuracy": 0.85076381,
+        "confusion": {
+          "tn": 18,
+          "fp": 5,
+          "fn": 3,
+          "tp": 34
+        },
+        "predicted_positive": 39,
+        "threshold": 0.5
+      },
+      "policy_only_diagnostic": {
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.7,
+        "macro_f1": 0.67703349,
+        "balanced_accuracy": 0.67450059,
+        "confusion": {
+          "tn": 13,
+          "fp": 10,
+          "fn": 8,
+          "tp": 29
+        },
+        "predicted_positive": 39,
+        "threshold": 0.5
+      }
+    },
+    {
+      "fold": 3,
+      "bibliographic_policy_fusion": {
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.78333333,
+        "macro_f1": 0.76888889,
+        "balanced_accuracy": 0.76599327,
+        "confusion": {
+          "tn": 16,
+          "fp": 11,
+          "fn": 2,
+          "tp": 31
+        },
+        "predicted_positive": 42,
+        "threshold": 0.5
+      },
+      "semantic_hgb": {
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.78333333,
+        "macro_f1": 0.76888889,
+        "balanced_accuracy": 0.76599327,
+        "confusion": {
+          "tn": 16,
+          "fp": 11,
+          "fn": 2,
+          "tp": 31
+        },
+        "predicted_positive": 42,
+        "threshold": 0.5
+      },
+      "policy_only_diagnostic": {
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.63333333,
+        "macro_f1": 0.5970696,
+        "balanced_accuracy": 0.60942761,
+        "confusion": {
+          "tn": 10,
+          "fp": 17,
+          "fn": 5,
+          "tp": 28
+        },
+        "predicted_positive": 45,
+        "threshold": 0.5
+      }
+    },
+    {
+      "fold": 4,
+      "bibliographic_policy_fusion": {
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.9,
+        "macro_f1": 0.89819005,
+        "balanced_accuracy": 0.89819005,
+        "confusion": {
+          "tn": 23,
+          "fp": 3,
+          "fn": 3,
+          "tp": 31
+        },
+        "predicted_positive": 34,
+        "threshold": 0.5
+      },
+      "semantic_hgb": {
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.9,
+        "macro_f1": 0.89819005,
+        "balanced_accuracy": 0.89819005,
+        "confusion": {
+          "tn": 23,
+          "fp": 3,
+          "fn": 3,
+          "tp": 31
+        },
+        "predicted_positive": 34,
+        "threshold": 0.5
+      },
+      "policy_only_diagnostic": {
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.56666667,
+        "macro_f1": 0.54861111,
+        "balanced_accuracy": 0.54977376,
+        "confusion": {
+          "tn": 11,
+          "fp": 15,
+          "fn": 11,
+          "tp": 23
+        },
+        "predicted_positive": 38,
+        "threshold": 0.5
+      }
+    },
+    {
+      "fold": 5,
+      "bibliographic_policy_fusion": {
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.91666667,
+        "macro_f1": 0.88632058,
+        "balanced_accuracy": 0.89596273,
+        "confusion": {
+          "tn": 12,
+          "fp": 2,
+          "fn": 3,
+          "tp": 43
+        },
+        "predicted_positive": 45,
+        "threshold": 0.5
+      },
+      "semantic_hgb": {
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.91666667,
+        "macro_f1": 0.88632058,
+        "balanced_accuracy": 0.89596273,
+        "confusion": {
+          "tn": 12,
+          "fp": 2,
+          "fn": 3,
+          "tp": 43
+        },
+        "predicted_positive": 45,
+        "threshold": 0.5
+      },
+      "policy_only_diagnostic": {
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.7,
+        "macro_f1": 0.6,
+        "balanced_accuracy": 0.60559006,
+        "confusion": {
+          "tn": 6,
+          "fp": 8,
+          "fn": 10,
+          "tp": 36
+        },
+        "predicted_positive": 44,
+        "threshold": 0.5
+      }
+    }
+  ],
+  "primary_full_coverage_result": {
+    "strategy": "inner-selected centered-log-odds bibliographic policy correction",
+    "rows": 300,
+    "coverage": 1.0,
+    "accuracy": 0.87333333,
+    "macro_f1": 0.86140829,
+    "balanced_accuracy": 0.85598086,
+    "confusion": {
+      "tn": 87,
+      "fp": 23,
+      "fn": 15,
+      "tp": 175
+    },
+    "predicted_positive": 198,
+    "threshold": 0.5,
+    "folds": [
+      {
+        "fold": 1,
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.9,
+        "macro_f1": 0.89010989,
+        "balanced_accuracy": 0.9,
+        "confusion": {
+          "tn": 18,
+          "fp": 2,
+          "fn": 4,
+          "tp": 36
+        },
+        "predicted_positive": 38,
+        "threshold": 0.5
+      },
+      {
+        "fold": 2,
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.86666667,
+        "macro_f1": 0.85645933,
+        "balanced_accuracy": 0.85076381,
+        "confusion": {
+          "tn": 18,
+          "fp": 5,
+          "fn": 3,
+          "tp": 34
+        },
+        "predicted_positive": 39,
+        "threshold": 0.5
+      },
+      {
+        "fold": 3,
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.78333333,
+        "macro_f1": 0.76888889,
+        "balanced_accuracy": 0.76599327,
+        "confusion": {
+          "tn": 16,
+          "fp": 11,
+          "fn": 2,
+          "tp": 31
+        },
+        "predicted_positive": 42,
+        "threshold": 0.5
+      },
+      {
+        "fold": 4,
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.9,
+        "macro_f1": 0.89819005,
+        "balanced_accuracy": 0.89819005,
+        "confusion": {
+          "tn": 23,
+          "fp": 3,
+          "fn": 3,
+          "tp": 31
+        },
+        "predicted_positive": 34,
+        "threshold": 0.5
+      },
+      {
+        "fold": 5,
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.91666667,
+        "macro_f1": 0.88632058,
+        "balanced_accuracy": 0.89596273,
+        "confusion": {
+          "tn": 12,
+          "fp": 2,
+          "fn": 3,
+          "tp": 43
+        },
+        "predicted_positive": 45,
+        "threshold": 0.5
+      }
+    ]
+  },
+  "semantic_hgb_reference": {
+    "rows": 300,
+    "coverage": 1.0,
+    "accuracy": 0.87333333,
+    "macro_f1": 0.86140829,
+    "balanced_accuracy": 0.85598086,
+    "confusion": {
+      "tn": 87,
+      "fp": 23,
+      "fn": 15,
+      "tp": 175
+    },
+    "predicted_positive": 198,
+    "threshold": 0.5,
+    "folds": [
+      {
+        "fold": 1,
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.9,
+        "macro_f1": 0.89010989,
+        "balanced_accuracy": 0.9,
+        "confusion": {
+          "tn": 18,
+          "fp": 2,
+          "fn": 4,
+          "tp": 36
+        },
+        "predicted_positive": 38,
+        "threshold": 0.5
+      },
+      {
+        "fold": 2,
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.86666667,
+        "macro_f1": 0.85645933,
+        "balanced_accuracy": 0.85076381,
+        "confusion": {
+          "tn": 18,
+          "fp": 5,
+          "fn": 3,
+          "tp": 34
+        },
+        "predicted_positive": 39,
+        "threshold": 0.5
+      },
+      {
+        "fold": 3,
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.78333333,
+        "macro_f1": 0.76888889,
+        "balanced_accuracy": 0.76599327,
+        "confusion": {
+          "tn": 16,
+          "fp": 11,
+          "fn": 2,
+          "tp": 31
+        },
+        "predicted_positive": 42,
+        "threshold": 0.5
+      },
+      {
+        "fold": 4,
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.9,
+        "macro_f1": 0.89819005,
+        "balanced_accuracy": 0.89819005,
+        "confusion": {
+          "tn": 23,
+          "fp": 3,
+          "fn": 3,
+          "tp": 31
+        },
+        "predicted_positive": 34,
+        "threshold": 0.5
+      },
+      {
+        "fold": 5,
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.91666667,
+        "macro_f1": 0.88632058,
+        "balanced_accuracy": 0.89596273,
+        "confusion": {
+          "tn": 12,
+          "fp": 2,
+          "fn": 3,
+          "tp": 43
+        },
+        "predicted_positive": 45,
+        "threshold": 0.5
+      }
+    ]
+  },
+  "policy_only_diagnostic": {
+    "rows": 300,
+    "coverage": 1.0,
+    "accuracy": 0.66666667,
+    "macro_f1": 0.625,
+    "balanced_accuracy": 0.62200957,
+    "confusion": {
+      "tn": 50,
+      "fp": 60,
+      "fn": 40,
+      "tp": 150
+    },
+    "predicted_positive": 210,
+    "threshold": 0.5
+  },
+  "promotion_gate": {
+    "target_accuracy": 0.9,
+    "canonical_reference_accuracy": 0.87333333,
+    "observed_accuracy": 0.87333333,
+    "absolute_delta_from_canonical": 0.0,
+    "absolute_delta_from_recomputed_semantic": 0.0,
+    "passed": false,
+    "decision": "EXACT300_TARGET_NOT_REACHED"
+  },
+  "artifacts": {
+    "feature_freeze": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/bibliographic_policy_centered_v2/feature_freeze.json",
+      "sha256": "a685fb81a4427fd00aa0c0f2235fc1021f240b8265145456879a489b08d49371"
+    },
+    "oof_probabilities": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/bibliographic_policy_centered_v2/oof_probabilities.npz",
+      "sha256": "714663aa132c3e79a2b3868a4b9ff7577e018ef19fda43d82afef416b7cbee52",
+      "rows_per_array": 300,
+      "contains_labels": false,
+      "contains_identifiers": false,
+      "arrays": [
+        "bibliographic_policy_fusion",
+        "policy_confidence",
+        "policy_probability",
+        "semantic_hgb"
+      ]
+    },
+    "implementation": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/experiment_r3_exact300_bibliographic_policy_centered.py",
+      "sha256": "9deff97a8fa2733f148cdca5c34ea6b710ecf127b77980685dd395153897f3e4"
+    }
+  },
+  "calibration": {
+    "policy_effect": "logit(policy posterior) - logit(allowed training-paper prior)",
+    "semantic_update": "semantic_logit + lambda * effective_confidence * policy_effect",
+    "lambdas": [
+      0.25,
+      0.5,
+      1.0
+    ],
+    "support_gates": [
+      0.0,
+      0.5
+    ],
+    "unsupported_policy_effect_applied": false,
+    "outer_threshold": 0.5
+  }
+}

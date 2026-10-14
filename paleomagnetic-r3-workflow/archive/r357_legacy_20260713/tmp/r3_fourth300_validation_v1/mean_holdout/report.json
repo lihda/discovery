@@ -1,0 +1,742 @@
+{
+  "schema_version": "r3_fourth300_mean_paper_holdout_v1",
+  "status": "complete",
+  "scope": {
+    "evaluated_rows": 300,
+    "evaluated_paper_groups": 262,
+    "all_evaluated_rows_have_local_pdf": true,
+    "training_rows": 1834,
+    "training_paper_groups": 912,
+    "all_rows_excluded_for_test_papers": 338
+  },
+  "compliance_audit": {
+    "fourth_cohort_disjoint_from_three_opened_benchmarks": true,
+    "candidate_and_primary_strategy_frozen_before_test_labels": true,
+    "prediction_receipt_written_before_test_scoring": true,
+    "test_labels_used_for_model_or_candidate_selection": false,
+    "all_test_refno_rows_excluded_from_every_fit": true,
+    "train_test_refno_overlap": 0,
+    "prior_oof_or_evaluation_read": false,
+    "pmagresult_or_row_rockmag_used_as_feature": false
+  },
+  "candidate_freeze": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_fourth300_validation_v1/mean_holdout/candidate_freeze.json",
+    "sha256": "a1b3537018365d91b5ac1def6c53741d67c860e44aab02efa86cec663e002276"
+  },
+  "prediction_receipt": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_fourth300_validation_v1/mean_holdout/prediction_receipt.json",
+    "sha256": "4385a204f3b239499b436ba5f9cc34b5c5589206f0b621905509b55a1fb442b3"
+  },
+  "evaluation_labels": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/targets.xlsx",
+    "sha256": "378c17338f3b5cfeff3ccd496894e0f6183f747119b2624c4a9cefaeda02501e",
+    "opened_after_prediction_receipt": true
+  },
+  "models": {
+    "mean6": {
+      "metrics": {
+        "rows": 300,
+        "coverage": 1.0,
+        "accuracy": 0.82333333,
+        "macro_f1": 0.78900994,
+        "balanced_accuracy": 0.784699,
+        "confusion": {
+          "tn": 63,
+          "fp": 29,
+          "fn": 24,
+          "tp": 184
+        },
+        "predicted_positive": 213,
+        "threshold": 0.5
+      },
+      "transition_vs_primary": {
+        "control_errors": 53,
+        "candidate_errors": 53,
+        "errors_resolved": 0,
+        "errors_introduced": 0
+      }
+    },
+    "median6": {
+      "metrics": {
+        "rows": 300,
+        "coverage": 1.0,
+        "accuracy": 0.83666667,
+        "macro_f1": 0.8036623,
+        "balanced_accuracy": 0.79734532,
+        "confusion": {
+          "tn": 64,
+          "fp": 28,
+          "fn": 21,
+          "tp": 187
+        },
+        "predicted_positive": 215,
+        "threshold": 0.5
+      },
+      "transition_vs_primary": {
+        "control_errors": 53,
+        "candidate_errors": 49,
+        "errors_resolved": 6,
+        "errors_introduced": 2
+      }
+    },
+    "trimmed_mean6": {
+      "metrics": {
+        "rows": 300,
+        "coverage": 1.0,
+        "accuracy": 0.82666667,
+        "macro_f1": 0.79365079,
+        "balanced_accuracy": 0.79013378,
+        "confusion": {
+          "tn": 64,
+          "fp": 28,
+          "fn": 24,
+          "tp": 184
+        },
+        "predicted_positive": 212,
+        "threshold": 0.5
+      },
+      "transition_vs_primary": {
+        "control_errors": 53,
+        "candidate_errors": 52,
+        "errors_resolved": 4,
+        "errors_introduced": 3
+      }
+    },
+    "episode_signature_hgb": {
+      "metrics": {
+        "rows": 300,
+        "coverage": 1.0,
+        "accuracy": 0.82,
+        "macro_f1": 0.79204108,
+        "balanced_accuracy": 0.79744983,
+        "confusion": {
+          "tn": 68,
+          "fp": 24,
+          "fn": 30,
+          "tp": 178
+        },
+        "predicted_positive": 202,
+        "threshold": 0.5
+      },
+      "transition_vs_primary": {
+        "control_errors": 53,
+        "candidate_errors": 54,
+        "errors_resolved": 10,
+        "errors_introduced": 11
+      }
+    },
+    "episode_mean7": {
+      "metrics": {
+        "rows": 300,
+        "coverage": 1.0,
+        "accuracy": 0.82666667,
+        "macro_f1": 0.7949419,
+        "balanced_accuracy": 0.79316472,
+        "confusion": {
+          "tn": 65,
+          "fp": 27,
+          "fn": 25,
+          "tp": 183
+        },
+        "predicted_positive": 210,
+        "threshold": 0.5
+      },
+      "transition_vs_primary": {
+        "control_errors": 53,
+        "candidate_errors": 52,
+        "errors_resolved": 4,
+        "errors_introduced": 3
+      }
+    },
+    "full_evidence_hgb": {
+      "metrics": {
+        "rows": 300,
+        "coverage": 1.0,
+        "accuracy": 0.82,
+        "macro_f1": 0.78835702,
+        "balanced_accuracy": 0.78835702,
+        "confusion": {
+          "tn": 65,
+          "fp": 27,
+          "fn": 27,
+          "tp": 181
+        },
+        "predicted_positive": 208,
+        "threshold": 0.5
+      },
+      "transition_vs_primary": {
+        "control_errors": 53,
+        "candidate_errors": 54,
+        "errors_resolved": 2,
+        "errors_introduced": 3
+      }
+    }
+  },
+  "primary_result": {
+    "strategy": "mean6",
+    "rows": 300,
+    "coverage": 1.0,
+    "accuracy": 0.82333333,
+    "macro_f1": 0.78900994,
+    "balanced_accuracy": 0.784699,
+    "confusion": {
+      "tn": 63,
+      "fp": 29,
+      "fn": 24,
+      "tp": 184
+    },
+    "predicted_positive": 213,
+    "threshold": 0.5
+  },
+  "errors": [
+    {
+      "sample_index": 6,
+      "REFNO": "1203",
+      "RESULTNO": "143",
+      "ROCKNAME": "Scisti Silicei Formation",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.23228210700893615,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 7,
+      "REFNO": "1203",
+      "RESULTNO": "144",
+      "ROCKNAME": "Scisti Silicei Formation",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.23228210700893615,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 15,
+      "REFNO": "739",
+      "RESULTNO": "2400",
+      "ROCKNAME": "Big Spruce Complex",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.2866843336113563,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 17,
+      "REFNO": "234",
+      "RESULTNO": "2642",
+      "ROCKNAME": "Sparrow Dykes",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.16737213063015888,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 19,
+      "REFNO": "98",
+      "RESULTNO": "2813",
+      "ROCKNAME": "Beartooth Mountains Dyke 6",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.7290484694309085,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 20,
+      "REFNO": "98",
+      "RESULTNO": "2814",
+      "ROCKNAME": "Beartooth Mountains dykes 3,4,5",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.7297639011290613,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 22,
+      "REFNO": "486",
+      "RESULTNO": "3272",
+      "ROCKNAME": "Roraima Dolerites",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.6758618536155646,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 23,
+      "REFNO": "526",
+      "RESULTNO": "3299",
+      "ROCKNAME": "Gunflint Iron Formation",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.2724946894166158,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 34,
+      "REFNO": "2483",
+      "RESULTNO": "6394",
+      "ROCKNAME": "Hawk Lake, Southern and Eastern External Granites",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.8980606896879882,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 35,
+      "REFNO": "2513",
+      "RESULTNO": "6466",
+      "ROCKNAME": "Bushveld Complex Upper Zone",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.35598256102430165,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 36,
+      "REFNO": "2939",
+      "RESULTNO": "7647",
+      "ROCKNAME": "Akhmalahti Formation",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.7711415985831676,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 37,
+      "REFNO": "2976",
+      "RESULTNO": "7743",
+      "ROCKNAME": "Franciscan Complex Cherts",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.9587472558804429,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 42,
+      "REFNO": "3120",
+      "RESULTNO": "7810",
+      "ROCKNAME": "Ruapehu Volcano",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.6824072166402951,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 50,
+      "REFNO": "3070",
+      "RESULTNO": "8059",
+      "ROCKNAME": "Val Sabbia Sandstone",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.22129097957874655,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 52,
+      "REFNO": "3077",
+      "RESULTNO": "8070",
+      "ROCKNAME": "Late Eocene Sediments",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.47099811306435774,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 53,
+      "REFNO": "3077",
+      "RESULTNO": "8071",
+      "ROCKNAME": "Early Oligocene Sediments",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.476828939158728,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 56,
+      "REFNO": "3096",
+      "RESULTNO": "8108",
+      "ROCKNAME": "Bou-Acila Volcanics",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.06356961928062449,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 57,
+      "REFNO": "3096",
+      "RESULTNO": "8109",
+      "ROCKNAME": "Bou-Acila Volcanics",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.06356961928062449,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 59,
+      "REFNO": "3098",
+      "RESULTNO": "8113",
+      "ROCKNAME": "Gabon Dykes",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.49122811500695635,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 60,
+      "REFNO": "3106",
+      "RESULTNO": "8126",
+      "ROCKNAME": "Sinyai Metadolerite",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.6767089309070697,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 64,
+      "REFNO": "3129",
+      "RESULTNO": "8163",
+      "ROCKNAME": "Chengwatana Volcanics",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.8232312989486225,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 65,
+      "REFNO": "3151",
+      "RESULTNO": "8195",
+      "ROCKNAME": "Rose Hill Formation",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.8459741985655568,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 91,
+      "REFNO": "3288",
+      "RESULTNO": "8449",
+      "ROCKNAME": "Purit Formation",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.957980716707882,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 92,
+      "REFNO": "3288",
+      "RESULTNO": "8450",
+      "ROCKNAME": "Reshun and Drosh Formations",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.9669138429391962,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 93,
+      "REFNO": "3290",
+      "RESULTNO": "8456",
+      "ROCKNAME": "Voronezh Massif",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.7494792273370807,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 107,
+      "REFNO": "3358",
+      "RESULTNO": "8575",
+      "ROCKNAME": "Sierra Nevada-Sierra de Rio Frio Volcanics",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.6700380109143226,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 108,
+      "REFNO": "3358",
+      "RESULTNO": "8576",
+      "ROCKNAME": "Palma Sola Volcanics",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.668049206936704,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 110,
+      "REFNO": "3375",
+      "RESULTNO": "8610",
+      "ROCKNAME": "Possession Island Volcanics",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.50299314983901,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 125,
+      "REFNO": "3452",
+      "RESULTNO": "8768",
+      "ROCKNAME": "Yunmeng Shan Granite",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.7786563308527428,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 127,
+      "REFNO": "3457",
+      "RESULTNO": "8809",
+      "ROCKNAME": "Luanping Group",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.13631872209078452,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 139,
+      "REFNO": "3518",
+      "RESULTNO": "8935",
+      "ROCKNAME": "Kandykskaya suite combined",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.19136690277507282,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 144,
+      "REFNO": "3539",
+      "RESULTNO": "8983",
+      "ROCKNAME": "Kapok Mine",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.8733622901435695,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 149,
+      "REFNO": "3568",
+      "RESULTNO": "9068",
+      "ROCKNAME": "Meseta Visachas Plateau Lavas and Pali-Aike Basalts",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.5891110037788475,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 155,
+      "REFNO": "3596",
+      "RESULTNO": "9117",
+      "ROCKNAME": "Xiaofeng Dykes",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.43738737849761694,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 161,
+      "REFNO": "3633",
+      "RESULTNO": "9185",
+      "ROCKNAME": "Summerville Formation (Trujillo)",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.1883693195493643,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 171,
+      "REFNO": "3671",
+      "RESULTNO": "9250",
+      "ROCKNAME": "Society Cliffs Dolostone",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.8729937091671937,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 178,
+      "REFNO": "3711",
+      "RESULTNO": "9323",
+      "ROCKNAME": "Nuccaleena Formation",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.852746441742394,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 189,
+      "REFNO": "3767",
+      "RESULTNO": "9403",
+      "ROCKNAME": "Vredefort Impact Pseudotachylite",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.739073302156806,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 204,
+      "REFNO": "3943",
+      "RESULTNO": "9667",
+      "ROCKNAME": "Alchanskaya Formation",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.34788893489669515,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 211,
+      "REFNO": "3986",
+      "RESULTNO": "9745",
+      "ROCKNAME": "Chilgok Formation",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.927041255188351,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 212,
+      "REFNO": "3987",
+      "RESULTNO": "9746",
+      "ROCKNAME": "Shexing Formation",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.5322854035171269,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 231,
+      "REFNO": "4099",
+      "RESULTNO": "9909",
+      "ROCKNAME": "Ecca Group",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.5062973242973546,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 235,
+      "REFNO": "4113",
+      "RESULTNO": "9928",
+      "ROCKNAME": "Madiyi Formation",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.7809974886289172,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 237,
+      "REFNO": "4121",
+      "RESULTNO": "9938",
+      "ROCKNAME": "Taylor Mountain Batholith",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.8037296410996025,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 249,
+      "REFNO": "4184",
+      "RESULTNO": "10037",
+      "ROCKNAME": "Shichuanhe Section",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.4911448355348971,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 252,
+      "REFNO": "4199",
+      "RESULTNO": "10059",
+      "ROCKNAME": "Glacial Rhythmites, Mafra Formation",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.34299619808919307,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 259,
+      "REFNO": "4230",
+      "RESULTNO": "10102",
+      "ROCKNAME": "Dashizhai Formation",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.36385590247608063,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 261,
+      "REFNO": "4238",
+      "RESULTNO": "10111",
+      "ROCKNAME": "Srednecheremshansk Dyke",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.42182786259803834,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 262,
+      "REFNO": "4245",
+      "RESULTNO": "10118",
+      "ROCKNAME": "Valcheta Granites",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.3700767525474398,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 263,
+      "REFNO": "4245",
+      "RESULTNO": "10119",
+      "ROCKNAME": "Valcheta Granites",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.3700767525474398,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 269,
+      "REFNO": "4300",
+      "RESULTNO": "10196",
+      "ROCKNAME": "Kupol Volcanics",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.5267966326036405,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 270,
+      "REFNO": "4310",
+      "RESULTNO": "10218",
+      "ROCKNAME": "Khorbusuonka Intrusions",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.8798990063735671,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 285,
+      "REFNO": "4370",
+      "RESULTNO": "10301",
+      "ROCKNAME": "Ignimbrita Panalillo Superior",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.49465414222285936,
+      "error_type": "FN"
+    }
+  ],
+  "promotion_gate": {
+    "target_accuracy": 0.9,
+    "passed": false,
+    "decision": "FOURTH300_TARGET_NOT_REACHED"
+  },
+  "artifacts": {
+    "probabilities": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_fourth300_validation_v1/mean_holdout/holdout_probabilities.npz",
+      "sha256": "f42a811bd530b901e974dce401cf5404c63155fbfedc028fb515ce447bf3e4d9"
+    }
+  },
+  "source_scope": {
+    "fixed_training_rows": 2473,
+    "fixed_training_paper_groups": 1292,
+    "pdf_only_rows": 2172,
+    "pdf_only_paper_groups": 1174,
+    "rows_skipped_without_local_pdf": 301,
+    "paper_groups_skipped_without_local_pdf": 118
+  }
+}

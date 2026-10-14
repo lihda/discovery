@@ -1,0 +1,44 @@
+{
+  "created_at": "2026-07-11T16:47:53",
+  "rows": 3173,
+  "unique_refnos": 1627,
+  "unique_resultnos": 3173,
+  "inputs": {
+    "targets": "data/targets.xlsx",
+    "pmagresult": "data/source_metadata/PMAGRESULT.xlsx",
+    "rockunit": "data/source_metadata/ROCKUNIT.xlsx",
+    "r3": "outputs/r3_07111638_6454.xlsx",
+    "r5": "outputs/r5_07111638_8824.xlsx",
+    "r7": "outputs/r7_07111638_8966.xlsx"
+  },
+  "score_counts": {
+    "R1": {
+      "0": 344,
+      "1": 2829
+    },
+    "R2": {
+      "0": 2217,
+      "1": 956
+    },
+    "R3": {
+      "0": 1193,
+      "1": 1980
+    },
+    "R4": {
+      "0": 2189,
+      "1": 984
+    },
+    "R5": {
+      "0": 556,
+      "1": 2617
+    },
+    "R6": {
+      "0": 2607,
+      "1": 566
+    },
+    "R7": {
+      "0": 52,
+      "1": 3121
+    }
+  }
+}

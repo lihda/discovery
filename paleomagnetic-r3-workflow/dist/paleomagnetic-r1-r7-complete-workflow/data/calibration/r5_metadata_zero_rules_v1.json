@@ -1,0 +1,1075 @@
+{
+  "version": "r5_metadata_zero_rules_v1",
+  "description": "Calibrated source metadata categories for R5=0. Runtime matching uses only ROCKUNIT/PMAGRESULT metadata fields, not REFNO/RESULTNO or target labels.",
+  "calibration_summary": {
+    "selected": 207,
+    "accuracy": 0.9552473999369682,
+    "tn": 667,
+    "fn": 0,
+    "fp": 142
+  },
+  "exact": {
+    "PMAGRESULT.COMMENTS": [
+      "adjusted to the tilt of Carboniferous strata",
+      "Data included in RESULTNO 10239",
+      "Drill cores oriented by Bruhnes-age overprint",
+      "pre-Early-Middle Jurassic folding component",
+      "Some data from REFNOs 1560 and 2859 included"
+    ],
+    "PMAGRESULT.COMPONENT": [
+      "High temperature",
+      "Post-folding"
+    ],
+    "ROCKUNIT.METHOD": [
+      "40Ar/39Ar, K-Ar",
+      "fission-track",
+      "fossils, detrital zircons",
+      "fossils, isotopic",
+      "magnetostratigraphy, detrital zircons, fossils",
+      "U-Pb(z), 40Ar/39Ar",
+      "U-Pb, magnetostratigraphy"
+    ],
+    "ROCKUNIT.PLACE": [
+      "ABDP 1 Drill Core, Western Australia, Australia",
+      "Armorican Massif, France",
+      "Azerbaijan",
+      "Baja California, Mexico",
+      "Bellumo Basin, Italy",
+      "Brittany, France",
+      "Broken Hill, NSW, Australia",
+      "Cadí Basin, Spain",
+      "Carteret, France",
+      "Central Japan",
+      "Central Newfoundland, Canada",
+      "Channel Islands, UK",
+      "Chios Island, Greece",
+      "Chita area, Russia",
+      "Dolomites, Italy and Hydra Island, Greece",
+      "Eastern Alps, Germany",
+      "Gurvan-Saikhan Range, Southern Mongolia",
+      "Hungary",
+      "Hydra Island, Greece",
+      "Inuyama, central Japan",
+      "Jotunheimen area, Norway",
+      "Kerguelen Archipelago, France",
+      "Lhasa Block, Tibet, China",
+      "NE Gobi Altai, Mongolia",
+      "NE Yunnan, China",
+      "New England, NSW, Australia",
+      "North Central New Mexico, USA",
+      "North Kyushu, SW Japan",
+      "Northern China",
+      "Northern Italy",
+      "Northern Sconland, UK",
+      "NW Scotland, UK",
+      "Oman",
+      "Omoe Peninsula, NE Japan",
+      "Peter I Range, Pamirs, Tajikistan",
+      "Qinghai, China",
+      "Southern Mongolia",
+      "Southern Tibet, China",
+      "Southern Urals, Russia",
+      "Southwest Kenya",
+      "SW England, UK",
+      "Tibetan Plateau, China",
+      "Trabsbaikalia, Russia",
+      "Unita Mountains, Utah, USA",
+      "Vilyi Rift, Russia",
+      "West Sudetes, Poland",
+      "Western Nepal",
+      "Zharma-Saur Zone, Saur Range, Eastern Kazakhstan"
+    ],
+    "ROCKUNIT.ROCKTYPE": [
+      "extrusives, andesites, basalts",
+      "extrusives, lavas, tuffs",
+      "intrusives, amphibolites",
+      "intrusives, granite, granodiorite",
+      "intrusives, granophyres",
+      "sediments, conglomerate",
+      "sediments, conglomerates",
+      "sediments, jaspers, claystones, breccias",
+      "sediments, turbidites",
+      "sediments,redbeds,extrusives,andesites"
+    ],
+    "ROCKUNIT.STRATAGE": [
+      "C",
+      "D-T1",
+      "J1-3",
+      "S-D"
+    ],
+    "ROCKUNIT.STRUCTURE": [
+      "2 areas",
+      "Early Permian deformation",
+      "Flat-lying, dips<10 degrees",
+      "Local rotations cannot be excluded",
+      "South of Mongol-Okhotsk suture",
+      "Strikes all directions/Dips 10-86",
+      "suspected terrane"
+    ],
+    "ROCKUNIT.TERRANE": [
+      "Altai",
+      "Altai-Sayan",
+      "Armorican Massif",
+      "Brunosilesian",
+      "Carpathians",
+      "Central Kazakhstan",
+      "Chukotka",
+      "Eastern Svalbard",
+      "Ferghana",
+      "Himalayas",
+      "Inner Mongolia",
+      "Junggar",
+      "Karatau",
+      "Kopet Dag",
+      "Magnitogorsk Arc",
+      "Malopolska",
+      "North Britain",
+      "Northern Caucasus",
+      "Novaya Zemlya",
+      "Omulevka",
+      "Pamirs",
+      "Polar Urals",
+      "Sakhalin",
+      "Sayan",
+      "Sibumasu",
+      "South Kazakhstan",
+      "Spassk",
+      "Tien Shan",
+      "Variscan Belt",
+      "West Kazakhstan",
+      "Yukon"
+    ]
+  },
+  "pairs": [
+    {
+      "fields": [
+        "ROCKUNIT.METHOD",
+        "PMAGRESULT.TESTS"
+      ],
+      "values": [
+        "fossils, stratigraphic",
+        "Rc"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.METHOD",
+        "PMAGRESULT.TESTS"
+      ],
+      "values": [
+        "isotopic",
+        "M"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.METHOD",
+        "PMAGRESULT.TESTS"
+      ],
+      "values": [
+        "K-Ar",
+        "Fo"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.METHOD",
+        "PMAGRESULT.TESTS"
+      ],
+      "values": [
+        "Rb-Sr",
+        "Ro,M"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.METHOD",
+        "PMAGRESULT.TESTS"
+      ],
+      "values": [
+        "stratigraphic",
+        "R-,M"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.METHOD",
+        "PMAGRESULT.TESTS"
+      ],
+      "values": [
+        "U-Pb(z)",
+        "F-"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.METHOD",
+        "PMAGRESULT.TESTS"
+      ],
+      "values": [
+        "U-Pb(z), fossils",
+        "F+"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.METHOD",
+        "PMAGRESULT.TESTS"
+      ],
+      "values": [
+        "U-Pb(z), fossils",
+        "F+,Rc"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.METHOD",
+        "PMAGRESULT.TESTS"
+      ],
+      "values": [
+        "U-Pb,Rb-Sr",
+        "Ro,M"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.PLACE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "Chile",
+        "fossils"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.PLACE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "China",
+        "U-Pb(z,badd)"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.PLACE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "Hubei, China",
+        "stratigraphic"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.PLACE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "Norway",
+        "stratigraphic"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.PLACE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "NW Argentina",
+        "fossils"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.PLACE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "Scotland, UK",
+        "Rb-Sr"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.PLACE",
+        "ROCKUNIT.ROCKTYPE"
+      ],
+      "values": [
+        "Italy",
+        "sediments, limestones"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.PLACE",
+        "ROCKUNIT.ROCKTYPE"
+      ],
+      "values": [
+        "Laos",
+        "sediments"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.PLACE",
+        "ROCKUNIT.ROCKTYPE"
+      ],
+      "values": [
+        "Northern Chile",
+        "intrusives"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.PLACE",
+        "ROCKUNIT.ROCKTYPE"
+      ],
+      "values": [
+        "Qaidam, China",
+        "sediments"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.PLACE",
+        "ROCKUNIT.ROCKTYPE"
+      ],
+      "values": [
+        "Sardinia, Italy",
+        "intrusives"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.PLACE",
+        "ROCKUNIT.ROCKTYPE"
+      ],
+      "values": [
+        "Saskatchewan, Canada",
+        "intrusives, gabbro"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.PLACE",
+        "ROCKUNIT.ROCKTYPE"
+      ],
+      "values": [
+        "Scotland, UK",
+        "intrusives, gabbro"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.PLACE",
+        "ROCKUNIT.ROCKTYPE"
+      ],
+      "values": [
+        "Spitsbergen, Norway",
+        "sediments"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.PLACE",
+        "ROCKUNIT.STRATAGE"
+      ],
+      "values": [
+        "Alaska, USA",
+        "K2"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.PLACE",
+        "ROCKUNIT.STRATAGE"
+      ],
+      "values": [
+        "Argentina",
+        "J3"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.PLACE",
+        "ROCKUNIT.STRATAGE"
+      ],
+      "values": [
+        "France",
+        "C2"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.PLACE",
+        "ROCKUNIT.STRATAGE"
+      ],
+      "values": [
+        "Portugal",
+        "K2"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.PLACE",
+        "ROCKUNIT.STRATAGE"
+      ],
+      "values": [
+        "Scotland, UK",
+        "PP"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.ROCKTYPE",
+        "PMAGRESULT.TESTS"
+      ],
+      "values": [
+        "extrusives, ignimbrites",
+        "F+,Ro"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.ROCKTYPE",
+        "PMAGRESULT.TESTS"
+      ],
+      "values": [
+        "extrusives, tuffs",
+        "F+"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.ROCKTYPE",
+        "PMAGRESULT.TESTS"
+      ],
+      "values": [
+        "intrusives, gabbro",
+        "Co"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.ROCKTYPE",
+        "PMAGRESULT.TESTS"
+      ],
+      "values": [
+        "sediments",
+        "F+,R+"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.ROCKTYPE",
+        "PMAGRESULT.TESTS"
+      ],
+      "values": [
+        "sediments",
+        "F+,R-"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.ROCKTYPE",
+        "PMAGRESULT.TESTS"
+      ],
+      "values": [
+        "sediments, sandstones, limestones",
+        "F+,M"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.ROCKTYPE",
+        "PMAGRESULT.TESTS"
+      ],
+      "values": [
+        "sediments, sandstones, siltstones",
+        "Fo,Ro"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.ROCKTYPE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "extrusives, basalts, andesites",
+        "stratigraphic"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.ROCKTYPE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "extrusives, ignimbrites",
+        "40Ar/39Ar"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.ROCKTYPE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "extrusives, tuffs",
+        "stratigraphic"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.ROCKTYPE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "intrusives",
+        "U-Pb,40Ar/39Ar"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.ROCKTYPE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "intrusives, dyke",
+        "stratigraphic"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.STRATAGE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "C1",
+        "correlation"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.STRATAGE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "C2-P1",
+        "stratigraphic"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.STRATAGE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "D1",
+        "fossils"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.STRATAGE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "K",
+        "stratigraphic"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.STRATAGE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "K1",
+        "geological"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.STRATAGE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "K2",
+        "magnetostratigraphy, fossils"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.STRATAGE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "NP2",
+        "U-Pb(badd)"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.STRATAGE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "O",
+        "stratigraphic"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.STRATAGE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "S2",
+        "fossils"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "PMAGRESULT.TESTS"
+      ],
+      "values": [
+        "East Avalon",
+        "N"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "PMAGRESULT.TESTS"
+      ],
+      "values": [
+        "Lesser Caucasus",
+        "F+"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "PMAGRESULT.TESTS"
+      ],
+      "values": [
+        "Mongolia",
+        "Ro"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "PMAGRESULT.TESTS"
+      ],
+      "values": [
+        "New Siberian Islands",
+        "F+"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "PMAGRESULT.TESTS"
+      ],
+      "values": [
+        "Primorye",
+        "N"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "PMAGRESULT.TESTS"
+      ],
+      "values": [
+        "Yukon-Tanana",
+        "N"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "Amur",
+        "stratigraphic"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "East Avalon",
+        "U-Pb"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "East Kazakhstan",
+        "fossils"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "Lhasa",
+        "stratigraphic"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "Massif Central",
+        "fossils"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "Mongolia",
+        "stratigraphic"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "Pacific Coastal Plain",
+        "stratigraphic"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "Precordillera",
+        "geological"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "Qiangtang",
+        "40Ar/39Ar"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "Sikhote Alin",
+        "K-Ar"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "Tamworth",
+        "stratigraphic"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "Tethyan Himalaya",
+        "stratigraphic"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "Tibet",
+        "magnetostratigraphy, fossils"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "Trans-Baikal",
+        "fossils"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "West Avalon",
+        "U-Pb(z)"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.METHOD"
+      ],
+      "values": [
+        "Yukon-Tanana",
+        "U-Pb"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.ROCKTYPE"
+      ],
+      "values": [
+        "Arabia",
+        "extrusives, basalts"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.ROCKTYPE"
+      ],
+      "values": [
+        "East Avalon",
+        "intrusives, granites"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.ROCKTYPE"
+      ],
+      "values": [
+        "East Kazakhstan",
+        "extrusives, sediments"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.ROCKTYPE"
+      ],
+      "values": [
+        "Iberia",
+        "sediments,limestones,shales"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.ROCKTYPE"
+      ],
+      "values": [
+        "Mongolia",
+        "extrusives, basalts"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.ROCKTYPE"
+      ],
+      "values": [
+        "Patagonia",
+        "intrusives, granites"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.ROCKTYPE"
+      ],
+      "values": [
+        "Russian Platform",
+        "sediments, redbeds"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.ROCKTYPE"
+      ],
+      "values": [
+        "South China",
+        "intrusives, dolerites"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.ROCKTYPE"
+      ],
+      "values": [
+        "Tamworth",
+        "extrusives, basalts"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.ROCKTYPE"
+      ],
+      "values": [
+        "Tethyan Himalaya",
+        "sediments"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.ROCKTYPE"
+      ],
+      "values": [
+        "Tethyan Himalaya",
+        "sediments, limestones"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.ROCKTYPE"
+      ],
+      "values": [
+        "Tibet",
+        "sediments"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.STRATAGE"
+      ],
+      "values": [
+        "Antarctic Peninsula",
+        "K2"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.STRATAGE"
+      ],
+      "values": [
+        "East Kazakhstan",
+        "P1"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.STRATAGE"
+      ],
+      "values": [
+        "Lesser Caucasus",
+        "K2"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.STRATAGE"
+      ],
+      "values": [
+        "Lhasa",
+        "K1-2"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.STRATAGE"
+      ],
+      "values": [
+        "Qiangtang",
+        "J2-3"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.STRATAGE"
+      ],
+      "values": [
+        "Spitsbergen",
+        "D1"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.STRATAGE"
+      ],
+      "values": [
+        "Tamworth",
+        "C1"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.STRATAGE"
+      ],
+      "values": [
+        "Tamworth",
+        "C2"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.STRATAGE"
+      ],
+      "values": [
+        "Tethyan Himalaya",
+        "K1"
+      ]
+    },
+    {
+      "fields": [
+        "ROCKUNIT.TERRANE",
+        "ROCKUNIT.STRATAGE"
+      ],
+      "values": [
+        "Trans-Baikal",
+        "J3"
+      ]
+    }
+  ]
+}

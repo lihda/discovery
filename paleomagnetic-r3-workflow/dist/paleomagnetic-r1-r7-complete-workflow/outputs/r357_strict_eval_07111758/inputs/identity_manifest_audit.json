@@ -1,0 +1,51 @@
+{
+  "schema_version": "strict_identity_manifest_audit_v1",
+  "status": "PASS",
+  "input": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/targets.xlsx",
+    "sha256": "378c17338f3b5cfeff3ccd496894e0f6183f747119b2624c4a9cefaeda02501e",
+    "sheet": "REFERENCE",
+    "columns_present": [
+      "RESULTNO",
+      "ROCKUNITNO",
+      "REFNO",
+      "ROCKNAME",
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6",
+      "R7"
+    ],
+    "columns_read": [
+      "REFNO",
+      "RESULTNO",
+      "ROCKNAME"
+    ]
+  },
+  "output": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_strict_eval_07111758/inputs/identity_manifest.xlsx",
+    "sha256": "5bdb7476a5b7d61494939fc5cd7bc8fa3195ef7b032b29306f146892862b970f",
+    "columns_written": [
+      "REFNO",
+      "RESULTNO",
+      "ROCKNAME"
+    ],
+    "rows": 3173
+  },
+  "scoring_identity_columns": [
+    "REFNO",
+    "RESULTNO",
+    "ROCKNAME"
+  ],
+  "auxiliary_identity_columns": [],
+  "criterion_value_columns_read": [],
+  "guarantees": {
+    "identity_values_non_empty": true,
+    "resultno_globally_unique": true,
+    "identity_tuple_unique": true,
+    "r1_r7_values_read": false,
+    "rockunitno_used_for_scoring": false
+  }
+}

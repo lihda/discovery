@@ -1,0 +1,2437 @@
+{
+  "schema_version": "r3_exact300_auxiliary_numeric_model_sweep_v1",
+  "status": "complete",
+  "mode": "staged_family_screen",
+  "scope": {
+    "evaluated_folds": [
+      1,
+      2,
+      3
+    ],
+    "evaluated_rows": 180,
+    "full_coverage": false,
+    "exact_membership": {
+      "fixed_training_rows": 300,
+      "fixed_training_paper_groups": 258,
+      "pdf_only_rows": 300,
+      "pdf_only_paper_groups": 258,
+      "rows_skipped_without_local_pdf": 0,
+      "paper_groups_skipped_without_local_pdf": 0
+    },
+    "auxiliary_candidate_pool": {
+      "fixed_training_rows": 2473,
+      "fixed_training_paper_groups": 1292,
+      "pdf_only_rows": 2172,
+      "pdf_only_paper_groups": 1174,
+      "rows_skipped_without_local_pdf": 301,
+      "paper_groups_skipped_without_local_pdf": 118
+    }
+  },
+  "guardrails": {
+    "canonical_fold_manifest_sha256": "8f6ab8f1a071878e14d4db8e19a7ec0519ed612be107b0f0fdf0489dd59aaf2d",
+    "feature_cache_frozen_without_labels": true,
+    "labels_opened_after_cache_and_candidate_validation": true,
+    "all_outer_test_refno_rows_excluded_from_training": true,
+    "pmagresult_or_rockmag_used_as_feature": false,
+    "prior_oof_predictions_used_as_feature": false,
+    "identifiers_used_as_predictive_features": false,
+    "hyperparameters_predeclared_before_label_access": true,
+    "model_threshold": 0.5
+  },
+  "inputs": {
+    "cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/auxiliary_numeric_cache_v1/features.npz",
+      "sha256": "12b600c620ce069f3762a2741aff6b803f2295a2d3c834097eb5bdfbebbe07b5"
+    },
+    "cache_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/auxiliary_numeric_cache_v1/features.manifest.json",
+      "sha256": "1dad1f75cbfdb1f1d906e9370951bc8005cb28963ac37ba2d58cf11416246cbb"
+    },
+    "exact_identity": "93ea5dfba0a32501a564d06eb020386fd86b11f59ded0982043f90c064ab960b",
+    "full_identity": "7e45020df48b866096ac4bf567102f6a73ce3c12759b19c8550f78de299c72f1",
+    "fold_manifest": "8f6ab8f1a071878e14d4db8e19a7ec0519ed612be107b0f0fdf0489dd59aaf2d",
+    "targets_postfreeze": "378c17338f3b5cfeff3ccd496894e0f6183f747119b2624c4a9cefaeda02501e"
+  },
+  "candidate_freeze": {
+    "all_predeclared_candidates": [
+      {
+        "name": "logreg_curation_all_c0.01",
+        "family": "linear",
+        "matrix": "curation_all",
+        "kind": "logreg",
+        "parameter": 0.01,
+        "standardized": true
+      },
+      {
+        "name": "logreg_curation_all_c0.1",
+        "family": "linear",
+        "matrix": "curation_all",
+        "kind": "logreg",
+        "parameter": 0.1,
+        "standardized": true
+      },
+      {
+        "name": "logreg_curation_all_c1",
+        "family": "linear",
+        "matrix": "curation_all",
+        "kind": "logreg",
+        "parameter": 1.0,
+        "standardized": true
+      },
+      {
+        "name": "linear_svc_curation_all_c0.001",
+        "family": "linear",
+        "matrix": "curation_all",
+        "kind": "linear_svc",
+        "parameter": 0.001,
+        "standardized": true
+      },
+      {
+        "name": "linear_svc_curation_all_c0.01",
+        "family": "linear",
+        "matrix": "curation_all",
+        "kind": "linear_svc",
+        "parameter": 0.01,
+        "standardized": true
+      },
+      {
+        "name": "linear_svc_curation_all_c0.1",
+        "family": "linear",
+        "matrix": "curation_all",
+        "kind": "linear_svc",
+        "parameter": 0.1,
+        "standardized": true
+      },
+      {
+        "name": "rbf_svc_curation_all_c1",
+        "family": "kernel",
+        "matrix": "curation_all",
+        "kind": "rbf_svc",
+        "parameter": 1.0,
+        "standardized": true
+      },
+      {
+        "name": "rbf_svc_curation_all_c10",
+        "family": "kernel",
+        "matrix": "curation_all",
+        "kind": "rbf_svc",
+        "parameter": 10.0,
+        "standardized": true
+      },
+      {
+        "name": "mlp_curation_all_h32",
+        "family": "mlp",
+        "matrix": "curation_all",
+        "kind": "mlp",
+        "parameter": 32,
+        "standardized": true
+      },
+      {
+        "name": "logreg_combined_c0.01",
+        "family": "linear",
+        "matrix": "combined",
+        "kind": "logreg",
+        "parameter": 0.01,
+        "standardized": true
+      },
+      {
+        "name": "logreg_combined_c0.1",
+        "family": "linear",
+        "matrix": "combined",
+        "kind": "logreg",
+        "parameter": 0.1,
+        "standardized": true
+      },
+      {
+        "name": "logreg_combined_c1",
+        "family": "linear",
+        "matrix": "combined",
+        "kind": "logreg",
+        "parameter": 1.0,
+        "standardized": true
+      },
+      {
+        "name": "linear_svc_combined_c0.001",
+        "family": "linear",
+        "matrix": "combined",
+        "kind": "linear_svc",
+        "parameter": 0.001,
+        "standardized": true
+      },
+      {
+        "name": "linear_svc_combined_c0.01",
+        "family": "linear",
+        "matrix": "combined",
+        "kind": "linear_svc",
+        "parameter": 0.01,
+        "standardized": true
+      },
+      {
+        "name": "linear_svc_combined_c0.1",
+        "family": "linear",
+        "matrix": "combined",
+        "kind": "linear_svc",
+        "parameter": 0.1,
+        "standardized": true
+      },
+      {
+        "name": "rbf_svc_combined_c1",
+        "family": "kernel",
+        "matrix": "combined",
+        "kind": "rbf_svc",
+        "parameter": 1.0,
+        "standardized": true
+      },
+      {
+        "name": "rbf_svc_combined_c10",
+        "family": "kernel",
+        "matrix": "combined",
+        "kind": "rbf_svc",
+        "parameter": 10.0,
+        "standardized": true
+      },
+      {
+        "name": "mlp_combined_h32",
+        "family": "mlp",
+        "matrix": "combined",
+        "kind": "mlp",
+        "parameter": 32,
+        "standardized": true
+      },
+      {
+        "name": "rf_curation_all_leaf3_sqrt",
+        "family": "forest",
+        "matrix": "curation_all",
+        "kind": "rf_leaf3_sqrt",
+        "parameter": 3,
+        "standardized": false
+      },
+      {
+        "name": "rf_combined_leaf3_sqrt",
+        "family": "forest",
+        "matrix": "combined",
+        "kind": "rf_leaf3_sqrt",
+        "parameter": 3,
+        "standardized": false
+      },
+      {
+        "name": "rf_combined_leaf8_half",
+        "family": "forest",
+        "matrix": "combined",
+        "kind": "rf_leaf8_half",
+        "parameter": 8,
+        "standardized": false
+      },
+      {
+        "name": "extra_combined_leaf1_sqrt",
+        "family": "forest",
+        "matrix": "combined",
+        "kind": "extra_leaf1_sqrt",
+        "parameter": 1,
+        "standardized": false
+      },
+      {
+        "name": "extra_combined_leaf8_half",
+        "family": "forest",
+        "matrix": "combined",
+        "kind": "extra_leaf8_half",
+        "parameter": 8,
+        "standardized": false
+      },
+      {
+        "name": "knn_curation_all_k15",
+        "family": "neighbors",
+        "matrix": "curation_all",
+        "kind": "knn",
+        "parameter": 15,
+        "standardized": true
+      },
+      {
+        "name": "knn_curation_all_k31",
+        "family": "neighbors",
+        "matrix": "curation_all",
+        "kind": "knn",
+        "parameter": 31,
+        "standardized": true
+      },
+      {
+        "name": "knn_curation_all_k61",
+        "family": "neighbors",
+        "matrix": "curation_all",
+        "kind": "knn",
+        "parameter": 61,
+        "standardized": true
+      }
+    ],
+    "selected_families_for_this_run": [
+      "linear",
+      "kernel",
+      "forest",
+      "neighbors",
+      "mlp"
+    ],
+    "evaluated_candidates": [
+      "logreg_curation_all_c0.01",
+      "logreg_curation_all_c0.1",
+      "logreg_curation_all_c1",
+      "linear_svc_curation_all_c0.001",
+      "linear_svc_curation_all_c0.01",
+      "linear_svc_curation_all_c0.1",
+      "rbf_svc_curation_all_c1",
+      "rbf_svc_curation_all_c10",
+      "mlp_curation_all_h32",
+      "logreg_combined_c0.01",
+      "logreg_combined_c0.1",
+      "logreg_combined_c1",
+      "linear_svc_combined_c0.001",
+      "linear_svc_combined_c0.01",
+      "linear_svc_combined_c0.1",
+      "rbf_svc_combined_c1",
+      "rbf_svc_combined_c10",
+      "mlp_combined_h32",
+      "rf_curation_all_leaf3_sqrt",
+      "rf_combined_leaf3_sqrt",
+      "rf_combined_leaf8_half",
+      "extra_combined_leaf1_sqrt",
+      "extra_combined_leaf8_half",
+      "knn_curation_all_k15",
+      "knn_curation_all_k31",
+      "knn_curation_all_k61"
+    ]
+  },
+  "outer_fold_audit": [
+    {
+      "fold": 1,
+      "test_rows": 60,
+      "test_papers": 51,
+      "train_rows": 2035,
+      "train_papers": 1123,
+      "train_test_refno_overlap": 0,
+      "excluded_full_rows": 137
+    },
+    {
+      "fold": 2,
+      "test_rows": 60,
+      "test_papers": 51,
+      "train_rows": 2015,
+      "train_papers": 1123,
+      "train_test_refno_overlap": 0,
+      "excluded_full_rows": 157
+    },
+    {
+      "fold": 3,
+      "test_rows": 60,
+      "test_papers": 52,
+      "train_rows": 2028,
+      "train_papers": 1122,
+      "train_test_refno_overlap": 0,
+      "excluded_full_rows": 144
+    }
+  ],
+  "family_continuation_gate": {
+    "linear": {
+      "best_candidate": "logreg_combined_c0.01",
+      "best_accuracy": 0.85,
+      "reference_accuracy_on_same_folds": 0.85,
+      "continuation_minimum": 0.84,
+      "continue_to_full_five_folds": true
+    },
+    "kernel": {
+      "best_candidate": "rbf_svc_combined_c10",
+      "best_accuracy": 0.83333333,
+      "reference_accuracy_on_same_folds": 0.85,
+      "continuation_minimum": 0.84,
+      "continue_to_full_five_folds": false
+    },
+    "forest": {
+      "best_candidate": "rf_combined_leaf8_half",
+      "best_accuracy": 0.86111111,
+      "reference_accuracy_on_same_folds": 0.85,
+      "continuation_minimum": 0.84,
+      "continue_to_full_five_folds": true
+    },
+    "neighbors": {
+      "best_candidate": "knn_curation_all_k15",
+      "best_accuracy": 0.8,
+      "reference_accuracy_on_same_folds": 0.85,
+      "continuation_minimum": 0.84,
+      "continue_to_full_five_folds": false
+    },
+    "mlp": {
+      "best_candidate": "mlp_curation_all_h32",
+      "best_accuracy": 0.84444444,
+      "reference_accuracy_on_same_folds": 0.85,
+      "continuation_minimum": 0.84,
+      "continue_to_full_five_folds": true
+    }
+  },
+  "ranking": [
+    "rf_combined_leaf8_half",
+    "extra_combined_leaf8_half",
+    "logreg_combined_c0.01",
+    "logreg_curation_all_c0.1",
+    "linear_svc_curation_all_c0.01",
+    "mlp_curation_all_h32",
+    "linear_svc_combined_c0.001",
+    "logreg_curation_all_c0.01",
+    "linear_svc_curation_all_c0.001",
+    "rf_curation_all_leaf3_sqrt",
+    "rf_combined_leaf3_sqrt",
+    "extra_combined_leaf1_sqrt",
+    "mlp_combined_h32",
+    "rbf_svc_combined_c10",
+    "linear_svc_curation_all_c0.1",
+    "linear_svc_combined_c0.01",
+    "rbf_svc_curation_all_c1",
+    "logreg_combined_c0.1",
+    "rbf_svc_curation_all_c10",
+    "rbf_svc_combined_c1",
+    "logreg_curation_all_c1",
+    "knn_curation_all_k15",
+    "linear_svc_combined_c0.1",
+    "logreg_combined_c1",
+    "knn_curation_all_k61",
+    "knn_curation_all_k31"
+  ],
+  "best_observed": {
+    "strategy": "rf_combined_leaf8_half",
+    "spec": {
+      "name": "rf_combined_leaf8_half",
+      "family": "forest",
+      "matrix": "combined",
+      "kind": "rf_leaf8_half",
+      "parameter": 8,
+      "standardized": false
+    },
+    "aggregate": {
+      "rows": 180,
+      "coverage": 1.0,
+      "accuracy": 0.86111111,
+      "macro_f1": 0.84898822,
+      "balanced_accuracy": 0.83961039,
+      "confusion": {
+        "tn": 52,
+        "fp": 18,
+        "fn": 7,
+        "tp": 103
+      },
+      "predicted_positive": 121,
+      "threshold": 0.5
+    },
+    "folds": [
+      {
+        "fold": 1,
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.9,
+        "macro_f1": 0.8875,
+        "balanced_accuracy": 0.8875,
+        "confusion": {
+          "tn": 17,
+          "fp": 3,
+          "fn": 3,
+          "tp": 37
+        },
+        "predicted_positive": 40,
+        "threshold": 0.5
+      },
+      {
+        "fold": 2,
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.88333333,
+        "macro_f1": 0.87555556,
+        "balanced_accuracy": 0.87250294,
+        "confusion": {
+          "tn": 19,
+          "fp": 4,
+          "fn": 3,
+          "tp": 34
+        },
+        "predicted_positive": 38,
+        "threshold": 0.5
+      },
+      {
+        "fold": 3,
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.8,
+        "macro_f1": 0.784689,
+        "balanced_accuracy": 0.78114478,
+        "confusion": {
+          "tn": 16,
+          "fp": 11,
+          "fn": 1,
+          "tp": 32
+        },
+        "predicted_positive": 43,
+        "threshold": 0.5
+      }
+    ]
+  },
+  "models": {
+    "logreg_curation_all_c0.01": {
+      "spec": {
+        "name": "logreg_curation_all_c0.01",
+        "family": "linear",
+        "matrix": "curation_all",
+        "kind": "logreg",
+        "parameter": 0.01,
+        "standardized": true
+      },
+      "aggregate": {
+        "rows": 180,
+        "coverage": 1.0,
+        "accuracy": 0.83888889,
+        "macro_f1": 0.8259942,
+        "balanced_accuracy": 0.81883117,
+        "confusion": {
+          "tn": 51,
+          "fp": 19,
+          "fn": 10,
+          "tp": 100
+        },
+        "predicted_positive": 119,
+        "threshold": 0.5
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.86666667,
+          "macro_f1": 0.85645933,
+          "balanced_accuracy": 0.875,
+          "confusion": {
+            "tn": 18,
+            "fp": 2,
+            "fn": 6,
+            "tp": 34
+          },
+          "predicted_positive": 36,
+          "threshold": 0.5
+        },
+        {
+          "fold": 2,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.86666667,
+          "macro_f1": 0.85347985,
+          "balanced_accuracy": 0.84253819,
+          "confusion": {
+            "tn": 17,
+            "fp": 6,
+            "fn": 2,
+            "tp": 35
+          },
+          "predicted_positive": 41,
+          "threshold": 0.5
+        },
+        {
+          "fold": 3,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.78333333,
+          "macro_f1": 0.76888889,
+          "balanced_accuracy": 0.76599327,
+          "confusion": {
+            "tn": 16,
+            "fp": 11,
+            "fn": 2,
+            "tp": 31
+          },
+          "predicted_positive": 42,
+          "threshold": 0.5
+        }
+      ]
+    },
+    "logreg_curation_all_c0.1": {
+      "spec": {
+        "name": "logreg_curation_all_c0.1",
+        "family": "linear",
+        "matrix": "curation_all",
+        "kind": "logreg",
+        "parameter": 0.1,
+        "standardized": true
+      },
+      "aggregate": {
+        "rows": 180,
+        "coverage": 1.0,
+        "accuracy": 0.84444444,
+        "macro_f1": 0.83143813,
+        "balanced_accuracy": 0.82337662,
+        "confusion": {
+          "tn": 51,
+          "fp": 19,
+          "fn": 9,
+          "tp": 101
+        },
+        "predicted_positive": 120,
+        "threshold": 0.5
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.9,
+          "macro_f1": 0.89010989,
+          "balanced_accuracy": 0.9,
+          "confusion": {
+            "tn": 18,
+            "fp": 2,
+            "fn": 4,
+            "tp": 36
+          },
+          "predicted_positive": 38,
+          "threshold": 0.5
+        },
+        {
+          "fold": 2,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.86666667,
+          "macro_f1": 0.85347985,
+          "balanced_accuracy": 0.84253819,
+          "confusion": {
+            "tn": 17,
+            "fp": 6,
+            "fn": 2,
+            "tp": 35
+          },
+          "predicted_positive": 41,
+          "threshold": 0.5
+        },
+        {
+          "fold": 3,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.76666667,
+          "macro_f1": 0.75323149,
+          "balanced_accuracy": 0.75084175,
+          "confusion": {
+            "tn": 16,
+            "fp": 11,
+            "fn": 3,
+            "tp": 30
+          },
+          "predicted_positive": 41,
+          "threshold": 0.5
+        }
+      ]
+    },
+    "logreg_curation_all_c1": {
+      "spec": {
+        "name": "logreg_curation_all_c1",
+        "family": "linear",
+        "matrix": "curation_all",
+        "kind": "logreg",
+        "parameter": 1.0,
+        "standardized": true
+      },
+      "aggregate": {
+        "rows": 180,
+        "coverage": 1.0,
+        "accuracy": 0.81111111,
+        "macro_f1": 0.79531773,
+        "balanced_accuracy": 0.78831169,
+        "confusion": {
+          "tn": 48,
+          "fp": 22,
+          "fn": 12,
+          "tp": 98
+        },
+        "predicted_positive": 120,
+        "threshold": 0.5
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.9,
+          "macro_f1": 0.89010989,
+          "balanced_accuracy": 0.9,
+          "confusion": {
+            "tn": 18,
+            "fp": 2,
+            "fn": 4,
+            "tp": 36
+          },
+          "predicted_positive": 38,
+          "threshold": 0.5
+        },
+        {
+          "fold": 2,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.83333333,
+          "macro_f1": 0.82057416,
+          "balanced_accuracy": 0.81551116,
+          "confusion": {
+            "tn": 17,
+            "fp": 6,
+            "fn": 4,
+            "tp": 33
+          },
+          "predicted_positive": 39,
+          "threshold": 0.5
+        },
+        {
+          "fold": 3,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.7,
+          "macro_f1": 0.67703349,
+          "balanced_accuracy": 0.68013468,
+          "confusion": {
+            "tn": 13,
+            "fp": 14,
+            "fn": 4,
+            "tp": 29
+          },
+          "predicted_positive": 43,
+          "threshold": 0.5
+        }
+      ]
+    },
+    "linear_svc_curation_all_c0.001": {
+      "spec": {
+        "name": "linear_svc_curation_all_c0.001",
+        "family": "linear",
+        "matrix": "curation_all",
+        "kind": "linear_svc",
+        "parameter": 0.001,
+        "standardized": true
+      },
+      "aggregate": {
+        "rows": 180,
+        "coverage": 1.0,
+        "accuracy": 0.83888889,
+        "macro_f1": 0.8259942,
+        "balanced_accuracy": 0.81883117,
+        "confusion": {
+          "tn": 51,
+          "fp": 19,
+          "fn": 10,
+          "tp": 100
+        },
+        "predicted_positive": 119,
+        "threshold": 0.5
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.86666667,
+          "macro_f1": 0.85645933,
+          "balanced_accuracy": 0.875,
+          "confusion": {
+            "tn": 18,
+            "fp": 2,
+            "fn": 6,
+            "tp": 34
+          },
+          "predicted_positive": 36,
+          "threshold": 0.5
+        },
+        {
+          "fold": 2,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.86666667,
+          "macro_f1": 0.85347985,
+          "balanced_accuracy": 0.84253819,
+          "confusion": {
+            "tn": 17,
+            "fp": 6,
+            "fn": 2,
+            "tp": 35
+          },
+          "predicted_positive": 41,
+          "threshold": 0.5
+        },
+        {
+          "fold": 3,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.78333333,
+          "macro_f1": 0.76888889,
+          "balanced_accuracy": 0.76599327,
+          "confusion": {
+            "tn": 16,
+            "fp": 11,
+            "fn": 2,
+            "tp": 31
+          },
+          "predicted_positive": 42,
+          "threshold": 0.5
+        }
+      ]
+    },
+    "linear_svc_curation_all_c0.01": {
+      "spec": {
+        "name": "linear_svc_curation_all_c0.01",
+        "family": "linear",
+        "matrix": "curation_all",
+        "kind": "linear_svc",
+        "parameter": 0.01,
+        "standardized": true
+      },
+      "aggregate": {
+        "rows": 180,
+        "coverage": 1.0,
+        "accuracy": 0.84444444,
+        "macro_f1": 0.83143813,
+        "balanced_accuracy": 0.82337662,
+        "confusion": {
+          "tn": 51,
+          "fp": 19,
+          "fn": 9,
+          "tp": 101
+        },
+        "predicted_positive": 120,
+        "threshold": 0.5
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.88333333,
+          "macro_f1": 0.87315011,
+          "balanced_accuracy": 0.8875,
+          "confusion": {
+            "tn": 18,
+            "fp": 2,
+            "fn": 5,
+            "tp": 35
+          },
+          "predicted_positive": 37,
+          "threshold": 0.5
+        },
+        {
+          "fold": 2,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.86666667,
+          "macro_f1": 0.85347985,
+          "balanced_accuracy": 0.84253819,
+          "confusion": {
+            "tn": 17,
+            "fp": 6,
+            "fn": 2,
+            "tp": 35
+          },
+          "predicted_positive": 41,
+          "threshold": 0.5
+        },
+        {
+          "fold": 3,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.78333333,
+          "macro_f1": 0.76888889,
+          "balanced_accuracy": 0.76599327,
+          "confusion": {
+            "tn": 16,
+            "fp": 11,
+            "fn": 2,
+            "tp": 31
+          },
+          "predicted_positive": 42,
+          "threshold": 0.5
+        }
+      ]
+    },
+    "linear_svc_curation_all_c0.1": {
+      "spec": {
+        "name": "linear_svc_curation_all_c0.1",
+        "family": "linear",
+        "matrix": "curation_all",
+        "kind": "linear_svc",
+        "parameter": 0.1,
+        "standardized": true
+      },
+      "aggregate": {
+        "rows": 180,
+        "coverage": 1.0,
+        "accuracy": 0.82777778,
+        "macro_f1": 0.8139938,
+        "balanced_accuracy": 0.80714286,
+        "confusion": {
+          "tn": 50,
+          "fp": 20,
+          "fn": 11,
+          "tp": 99
+        },
+        "predicted_positive": 119,
+        "threshold": 0.5
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.91666667,
+          "macro_f1": 0.90737882,
+          "balanced_accuracy": 0.9125,
+          "confusion": {
+            "tn": 18,
+            "fp": 2,
+            "fn": 3,
+            "tp": 37
+          },
+          "predicted_positive": 39,
+          "threshold": 0.5
+        },
+        {
+          "fold": 2,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.83333333,
+          "macro_f1": 0.82057416,
+          "balanced_accuracy": 0.81551116,
+          "confusion": {
+            "tn": 17,
+            "fp": 6,
+            "fn": 4,
+            "tp": 33
+          },
+          "predicted_positive": 39,
+          "threshold": 0.5
+        },
+        {
+          "fold": 3,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.73333333,
+          "macro_f1": 0.71797885,
+          "balanced_accuracy": 0.71717172,
+          "confusion": {
+            "tn": 15,
+            "fp": 12,
+            "fn": 4,
+            "tp": 29
+          },
+          "predicted_positive": 41,
+          "threshold": 0.5
+        }
+      ]
+    },
+    "rbf_svc_curation_all_c1": {
+      "spec": {
+        "name": "rbf_svc_curation_all_c1",
+        "family": "kernel",
+        "matrix": "curation_all",
+        "kind": "rbf_svc",
+        "parameter": 1.0,
+        "standardized": true
+      },
+      "aggregate": {
+        "rows": 180,
+        "coverage": 1.0,
+        "accuracy": 0.82222222,
+        "macro_f1": 0.8,
+        "balanced_accuracy": 0.78701299,
+        "confusion": {
+          "tn": 44,
+          "fp": 26,
+          "fn": 6,
+          "tp": 104
+        },
+        "predicted_positive": 130,
+        "threshold": 0.5
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.9,
+          "macro_f1": 0.8875,
+          "balanced_accuracy": 0.8875,
+          "confusion": {
+            "tn": 17,
+            "fp": 3,
+            "fn": 3,
+            "tp": 37
+          },
+          "predicted_positive": 40,
+          "threshold": 0.5
+        },
+        {
+          "fold": 2,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.85,
+          "macro_f1": 0.82905983,
+          "balanced_accuracy": 0.81257344,
+          "confusion": {
+            "tn": 15,
+            "fp": 8,
+            "fn": 1,
+            "tp": 36
+          },
+          "predicted_positive": 44,
+          "threshold": 0.5
+        },
+        {
+          "fold": 3,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.71666667,
+          "macro_f1": 0.68508799,
+          "balanced_accuracy": 0.69191919,
+          "confusion": {
+            "tn": 12,
+            "fp": 15,
+            "fn": 2,
+            "tp": 31
+          },
+          "predicted_positive": 46,
+          "threshold": 0.5
+        }
+      ]
+    },
+    "rbf_svc_curation_all_c10": {
+      "spec": {
+        "name": "rbf_svc_curation_all_c10",
+        "family": "kernel",
+        "matrix": "curation_all",
+        "kind": "rbf_svc",
+        "parameter": 10.0,
+        "standardized": true
+      },
+      "aggregate": {
+        "rows": 180,
+        "coverage": 1.0,
+        "accuracy": 0.81666667,
+        "macro_f1": 0.79778723,
+        "balanced_accuracy": 0.78766234,
+        "confusion": {
+          "tn": 46,
+          "fp": 24,
+          "fn": 9,
+          "tp": 101
+        },
+        "predicted_positive": 125,
+        "threshold": 0.5
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.88333333,
+          "macro_f1": 0.86704653,
+          "balanced_accuracy": 0.8625,
+          "confusion": {
+            "tn": 16,
+            "fp": 4,
+            "fn": 3,
+            "tp": 37
+          },
+          "predicted_positive": 41,
+          "threshold": 0.5
+        },
+        {
+          "fold": 2,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.81666667,
+          "macro_f1": 0.80066445,
+          "balanced_accuracy": 0.79377203,
+          "confusion": {
+            "tn": 16,
+            "fp": 7,
+            "fn": 4,
+            "tp": 33
+          },
+          "predicted_positive": 40,
+          "threshold": 0.5
+        },
+        {
+          "fold": 3,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.75,
+          "macro_f1": 0.7281788,
+          "balanced_accuracy": 0.72895623,
+          "confusion": {
+            "tn": 14,
+            "fp": 13,
+            "fn": 2,
+            "tp": 31
+          },
+          "predicted_positive": 44,
+          "threshold": 0.5
+        }
+      ]
+    },
+    "mlp_curation_all_h32": {
+      "spec": {
+        "name": "mlp_curation_all_h32",
+        "family": "mlp",
+        "matrix": "curation_all",
+        "kind": "mlp",
+        "parameter": 32,
+        "standardized": true
+      },
+      "aggregate": {
+        "rows": 180,
+        "coverage": 1.0,
+        "accuracy": 0.84444444,
+        "macro_f1": 0.83028017,
+        "balanced_accuracy": 0.82077922,
+        "confusion": {
+          "tn": 50,
+          "fp": 20,
+          "fn": 8,
+          "tp": 102
+        },
+        "predicted_positive": 122,
+        "threshold": 0.5
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.95,
+          "macro_f1": 0.94442729,
+          "balanced_accuracy": 0.95,
+          "confusion": {
+            "tn": 19,
+            "fp": 1,
+            "fn": 2,
+            "tp": 38
+          },
+          "predicted_positive": 39,
+          "threshold": 0.5
+        },
+        {
+          "fold": 2,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.78333333,
+          "macro_f1": 0.76442162,
+          "balanced_accuracy": 0.75851939,
+          "confusion": {
+            "tn": 15,
+            "fp": 8,
+            "fn": 5,
+            "tp": 32
+          },
+          "predicted_positive": 40,
+          "threshold": 0.5
+        },
+        {
+          "fold": 3,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.8,
+          "macro_f1": 0.784689,
+          "balanced_accuracy": 0.78114478,
+          "confusion": {
+            "tn": 16,
+            "fp": 11,
+            "fn": 1,
+            "tp": 32
+          },
+          "predicted_positive": 43,
+          "threshold": 0.5
+        }
+      ]
+    },
+    "logreg_combined_c0.01": {
+      "spec": {
+        "name": "logreg_combined_c0.01",
+        "family": "linear",
+        "matrix": "combined",
+        "kind": "logreg",
+        "parameter": 0.01,
+        "standardized": true
+      },
+      "aggregate": {
+        "rows": 180,
+        "coverage": 1.0,
+        "accuracy": 0.85,
+        "macro_f1": 0.84092174,
+        "balanced_accuracy": 0.83831169,
+        "confusion": {
+          "tn": 55,
+          "fp": 15,
+          "fn": 12,
+          "tp": 98
+        },
+        "predicted_positive": 113,
+        "threshold": 0.5
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.88333333,
+          "macro_f1": 0.87555556,
+          "balanced_accuracy": 0.9,
+          "confusion": {
+            "tn": 19,
+            "fp": 1,
+            "fn": 6,
+            "tp": 34
+          },
+          "predicted_positive": 35,
+          "threshold": 0.5
+        },
+        {
+          "fold": 2,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.85,
+          "macro_f1": 0.83690728,
+          "balanced_accuracy": 0.82902468,
+          "confusion": {
+            "tn": 17,
+            "fp": 6,
+            "fn": 3,
+            "tp": 34
+          },
+          "predicted_positive": 40,
+          "threshold": 0.5
+        },
+        {
+          "fold": 3,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.81666667,
+          "macro_f1": 0.81029031,
+          "balanced_accuracy": 0.80639731,
+          "confusion": {
+            "tn": 19,
+            "fp": 8,
+            "fn": 3,
+            "tp": 30
+          },
+          "predicted_positive": 38,
+          "threshold": 0.5
+        }
+      ]
+    },
+    "logreg_combined_c0.1": {
+      "spec": {
+        "name": "logreg_combined_c0.1",
+        "family": "linear",
+        "matrix": "combined",
+        "kind": "logreg",
+        "parameter": 0.1,
+        "standardized": true
+      },
+      "aggregate": {
+        "rows": 180,
+        "coverage": 1.0,
+        "accuracy": 0.81666667,
+        "macro_f1": 0.8019934,
+        "balanced_accuracy": 0.79545455,
+        "confusion": {
+          "tn": 49,
+          "fp": 21,
+          "fn": 12,
+          "tp": 98
+        },
+        "predicted_positive": 119,
+        "threshold": 0.5
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.86666667,
+          "macro_f1": 0.85347985,
+          "balanced_accuracy": 0.8625,
+          "confusion": {
+            "tn": 17,
+            "fp": 3,
+            "fn": 5,
+            "tp": 35
+          },
+          "predicted_positive": 38,
+          "threshold": 0.5
+        },
+        {
+          "fold": 2,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.85,
+          "macro_f1": 0.83690728,
+          "balanced_accuracy": 0.82902468,
+          "confusion": {
+            "tn": 17,
+            "fp": 6,
+            "fn": 3,
+            "tp": 34
+          },
+          "predicted_positive": 40,
+          "threshold": 0.5
+        },
+        {
+          "fold": 3,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.73333333,
+          "macro_f1": 0.71797885,
+          "balanced_accuracy": 0.71717172,
+          "confusion": {
+            "tn": 15,
+            "fp": 12,
+            "fn": 4,
+            "tp": 29
+          },
+          "predicted_positive": 41,
+          "threshold": 0.5
+        }
+      ]
+    },
+    "logreg_combined_c1": {
+      "spec": {
+        "name": "logreg_combined_c1",
+        "family": "linear",
+        "matrix": "combined",
+        "kind": "logreg",
+        "parameter": 1.0,
+        "standardized": true
+      },
+      "aggregate": {
+        "rows": 180,
+        "coverage": 1.0,
+        "accuracy": 0.78888889,
+        "macro_f1": 0.77272727,
+        "balanced_accuracy": 0.76753247,
+        "confusion": {
+          "tn": 47,
+          "fp": 23,
+          "fn": 15,
+          "tp": 95
+        },
+        "predicted_positive": 118,
+        "threshold": 0.5
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.86666667,
+          "macro_f1": 0.85347985,
+          "balanced_accuracy": 0.8625,
+          "confusion": {
+            "tn": 17,
+            "fp": 3,
+            "fn": 5,
+            "tp": 35
+          },
+          "predicted_positive": 38,
+          "threshold": 0.5
+        },
+        {
+          "fold": 2,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.81666667,
+          "macro_f1": 0.80444444,
+          "balanced_accuracy": 0.80199765,
+          "confusion": {
+            "tn": 17,
+            "fp": 6,
+            "fn": 5,
+            "tp": 32
+          },
+          "predicted_positive": 38,
+          "threshold": 0.5
+        },
+        {
+          "fold": 3,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.68333333,
+          "macro_f1": 0.66222222,
+          "balanced_accuracy": 0.66498316,
+          "confusion": {
+            "tn": 13,
+            "fp": 14,
+            "fn": 5,
+            "tp": 28
+          },
+          "predicted_positive": 42,
+          "threshold": 0.5
+        }
+      ]
+    },
+    "linear_svc_combined_c0.001": {
+      "spec": {
+        "name": "linear_svc_combined_c0.001",
+        "family": "linear",
+        "matrix": "combined",
+        "kind": "linear_svc",
+        "parameter": 0.001,
+        "standardized": true
+      },
+      "aggregate": {
+        "rows": 180,
+        "coverage": 1.0,
+        "accuracy": 0.83888889,
+        "macro_f1": 0.82814815,
+        "balanced_accuracy": 0.82402597,
+        "confusion": {
+          "tn": 53,
+          "fp": 17,
+          "fn": 12,
+          "tp": 98
+        },
+        "predicted_positive": 115,
+        "threshold": 0.5
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.86666667,
+          "macro_f1": 0.85645933,
+          "balanced_accuracy": 0.875,
+          "confusion": {
+            "tn": 18,
+            "fp": 2,
+            "fn": 6,
+            "tp": 34
+          },
+          "predicted_positive": 36,
+          "threshold": 0.5
+        },
+        {
+          "fold": 2,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.85,
+          "macro_f1": 0.83690728,
+          "balanced_accuracy": 0.82902468,
+          "confusion": {
+            "tn": 17,
+            "fp": 6,
+            "fn": 3,
+            "tp": 34
+          },
+          "predicted_positive": 40,
+          "threshold": 0.5
+        },
+        {
+          "fold": 3,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.8,
+          "macro_f1": 0.79166667,
+          "balanced_accuracy": 0.78787879,
+          "confusion": {
+            "tn": 18,
+            "fp": 9,
+            "fn": 3,
+            "tp": 30
+          },
+          "predicted_positive": 39,
+          "threshold": 0.5
+        }
+      ]
+    },
+    "linear_svc_combined_c0.01": {
+      "spec": {
+        "name": "linear_svc_combined_c0.01",
+        "family": "linear",
+        "matrix": "combined",
+        "kind": "linear_svc",
+        "parameter": 0.01,
+        "standardized": true
+      },
+      "aggregate": {
+        "rows": 180,
+        "coverage": 1.0,
+        "accuracy": 0.82222222,
+        "macro_f1": 0.80735786,
+        "balanced_accuracy": 0.8,
+        "confusion": {
+          "tn": 49,
+          "fp": 21,
+          "fn": 11,
+          "tp": 99
+        },
+        "predicted_positive": 120,
+        "threshold": 0.5
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.86666667,
+          "macro_f1": 0.85347985,
+          "balanced_accuracy": 0.8625,
+          "confusion": {
+            "tn": 17,
+            "fp": 3,
+            "fn": 5,
+            "tp": 35
+          },
+          "predicted_positive": 38,
+          "threshold": 0.5
+        },
+        {
+          "fold": 2,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.85,
+          "macro_f1": 0.83690728,
+          "balanced_accuracy": 0.82902468,
+          "confusion": {
+            "tn": 17,
+            "fp": 6,
+            "fn": 3,
+            "tp": 34
+          },
+          "predicted_positive": 40,
+          "threshold": 0.5
+        },
+        {
+          "fold": 3,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.75,
+          "macro_f1": 0.73333333,
+          "balanced_accuracy": 0.73232323,
+          "confusion": {
+            "tn": 15,
+            "fp": 12,
+            "fn": 3,
+            "tp": 30
+          },
+          "predicted_positive": 42,
+          "threshold": 0.5
+        }
+      ]
+    },
+    "linear_svc_combined_c0.1": {
+      "spec": {
+        "name": "linear_svc_combined_c0.1",
+        "family": "linear",
+        "matrix": "combined",
+        "kind": "linear_svc",
+        "parameter": 0.1,
+        "standardized": true
+      },
+      "aggregate": {
+        "rows": 180,
+        "coverage": 1.0,
+        "accuracy": 0.8,
+        "macro_f1": 0.784689,
+        "balanced_accuracy": 0.77922078,
+        "confusion": {
+          "tn": 48,
+          "fp": 22,
+          "fn": 14,
+          "tp": 96
+        },
+        "predicted_positive": 118,
+        "threshold": 0.5
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.86666667,
+          "macro_f1": 0.85347985,
+          "balanced_accuracy": 0.8625,
+          "confusion": {
+            "tn": 17,
+            "fp": 3,
+            "fn": 5,
+            "tp": 35
+          },
+          "predicted_positive": 38,
+          "threshold": 0.5
+        },
+        {
+          "fold": 2,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.81666667,
+          "macro_f1": 0.80444444,
+          "balanced_accuracy": 0.80199765,
+          "confusion": {
+            "tn": 17,
+            "fp": 6,
+            "fn": 5,
+            "tp": 32
+          },
+          "predicted_positive": 38,
+          "threshold": 0.5
+        },
+        {
+          "fold": 3,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.71666667,
+          "macro_f1": 0.69777778,
+          "balanced_accuracy": 0.6986532,
+          "confusion": {
+            "tn": 14,
+            "fp": 13,
+            "fn": 4,
+            "tp": 29
+          },
+          "predicted_positive": 42,
+          "threshold": 0.5
+        }
+      ]
+    },
+    "rbf_svc_combined_c1": {
+      "spec": {
+        "name": "rbf_svc_combined_c1",
+        "family": "kernel",
+        "matrix": "combined",
+        "kind": "rbf_svc",
+        "parameter": 1.0,
+        "standardized": true
+      },
+      "aggregate": {
+        "rows": 180,
+        "coverage": 1.0,
+        "accuracy": 0.81666667,
+        "macro_f1": 0.79459871,
+        "balanced_accuracy": 0.78246753,
+        "confusion": {
+          "tn": 44,
+          "fp": 26,
+          "fn": 7,
+          "tp": 103
+        },
+        "predicted_positive": 129,
+        "threshold": 0.5
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.88333333,
+          "macro_f1": 0.87033035,
+          "balanced_accuracy": 0.875,
+          "confusion": {
+            "tn": 17,
+            "fp": 3,
+            "fn": 4,
+            "tp": 36
+          },
+          "predicted_positive": 39,
+          "threshold": 0.5
+        },
+        {
+          "fold": 2,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.85,
+          "macro_f1": 0.82905983,
+          "balanced_accuracy": 0.81257344,
+          "confusion": {
+            "tn": 15,
+            "fp": 8,
+            "fn": 1,
+            "tp": 36
+          },
+          "predicted_positive": 44,
+          "threshold": 0.5
+        },
+        {
+          "fold": 3,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.71666667,
+          "macro_f1": 0.68508799,
+          "balanced_accuracy": 0.69191919,
+          "confusion": {
+            "tn": 12,
+            "fp": 15,
+            "fn": 2,
+            "tp": 31
+          },
+          "predicted_positive": 46,
+          "threshold": 0.5
+        }
+      ]
+    },
+    "rbf_svc_combined_c10": {
+      "spec": {
+        "name": "rbf_svc_combined_c10",
+        "family": "kernel",
+        "matrix": "combined",
+        "kind": "rbf_svc",
+        "parameter": 10.0,
+        "standardized": true
+      },
+      "aggregate": {
+        "rows": 180,
+        "coverage": 1.0,
+        "accuracy": 0.83333333,
+        "macro_f1": 0.81815733,
+        "balanced_accuracy": 0.80909091,
+        "confusion": {
+          "tn": 49,
+          "fp": 21,
+          "fn": 9,
+          "tp": 101
+        },
+        "predicted_positive": 122,
+        "threshold": 0.5
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.9,
+          "macro_f1": 0.8875,
+          "balanced_accuracy": 0.8875,
+          "confusion": {
+            "tn": 17,
+            "fp": 3,
+            "fn": 3,
+            "tp": 37
+          },
+          "predicted_positive": 40,
+          "threshold": 0.5
+        },
+        {
+          "fold": 2,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.81666667,
+          "macro_f1": 0.80066445,
+          "balanced_accuracy": 0.79377203,
+          "confusion": {
+            "tn": 16,
+            "fp": 7,
+            "fn": 4,
+            "tp": 33
+          },
+          "predicted_positive": 40,
+          "threshold": 0.5
+        },
+        {
+          "fold": 3,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.78333333,
+          "macro_f1": 0.76888889,
+          "balanced_accuracy": 0.76599327,
+          "confusion": {
+            "tn": 16,
+            "fp": 11,
+            "fn": 2,
+            "tp": 31
+          },
+          "predicted_positive": 42,
+          "threshold": 0.5
+        }
+      ]
+    },
+    "mlp_combined_h32": {
+      "spec": {
+        "name": "mlp_combined_h32",
+        "family": "mlp",
+        "matrix": "combined",
+        "kind": "mlp",
+        "parameter": 32,
+        "standardized": true
+      },
+      "aggregate": {
+        "rows": 180,
+        "coverage": 1.0,
+        "accuracy": 0.83333333,
+        "macro_f1": 0.8227416,
+        "balanced_accuracy": 0.81948052,
+        "confusion": {
+          "tn": 53,
+          "fp": 17,
+          "fn": 13,
+          "tp": 97
+        },
+        "predicted_positive": 114,
+        "threshold": 0.5
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.88333333,
+          "macro_f1": 0.87033035,
+          "balanced_accuracy": 0.875,
+          "confusion": {
+            "tn": 17,
+            "fp": 3,
+            "fn": 4,
+            "tp": 36
+          },
+          "predicted_positive": 39,
+          "threshold": 0.5
+        },
+        {
+          "fold": 2,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.85,
+          "macro_f1": 0.84478298,
+          "balanced_accuracy": 0.85370153,
+          "confusion": {
+            "tn": 20,
+            "fp": 3,
+            "fn": 6,
+            "tp": 31
+          },
+          "predicted_positive": 34,
+          "threshold": 0.5
+        },
+        {
+          "fold": 3,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.76666667,
+          "macro_f1": 0.75323149,
+          "balanced_accuracy": 0.75084175,
+          "confusion": {
+            "tn": 16,
+            "fp": 11,
+            "fn": 3,
+            "tp": 30
+          },
+          "predicted_positive": 41,
+          "threshold": 0.5
+        }
+      ]
+    },
+    "rf_curation_all_leaf3_sqrt": {
+      "spec": {
+        "name": "rf_curation_all_leaf3_sqrt",
+        "family": "forest",
+        "matrix": "curation_all",
+        "kind": "rf_leaf3_sqrt",
+        "parameter": 3,
+        "standardized": false
+      },
+      "aggregate": {
+        "rows": 180,
+        "coverage": 1.0,
+        "accuracy": 0.83888889,
+        "macro_f1": 0.82093239,
+        "balanced_accuracy": 0.80844156,
+        "confusion": {
+          "tn": 47,
+          "fp": 23,
+          "fn": 6,
+          "tp": 104
+        },
+        "predicted_positive": 127,
+        "threshold": 0.5
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.91666667,
+          "macro_f1": 0.90737882,
+          "balanced_accuracy": 0.9125,
+          "confusion": {
+            "tn": 18,
+            "fp": 2,
+            "fn": 3,
+            "tp": 37
+          },
+          "predicted_positive": 39,
+          "threshold": 0.5
+        },
+        {
+          "fold": 2,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.85,
+          "macro_f1": 0.82905983,
+          "balanced_accuracy": 0.81257344,
+          "confusion": {
+            "tn": 15,
+            "fp": 8,
+            "fn": 1,
+            "tp": 36
+          },
+          "predicted_positive": 44,
+          "threshold": 0.5
+        },
+        {
+          "fold": 3,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.75,
+          "macro_f1": 0.7281788,
+          "balanced_accuracy": 0.72895623,
+          "confusion": {
+            "tn": 14,
+            "fp": 13,
+            "fn": 2,
+            "tp": 31
+          },
+          "predicted_positive": 44,
+          "threshold": 0.5
+        }
+      ]
+    },
+    "rf_combined_leaf3_sqrt": {
+      "spec": {
+        "name": "rf_combined_leaf3_sqrt",
+        "family": "forest",
+        "matrix": "combined",
+        "kind": "rf_leaf3_sqrt",
+        "parameter": 3,
+        "standardized": false
+      },
+      "aggregate": {
+        "rows": 180,
+        "coverage": 1.0,
+        "accuracy": 0.83888889,
+        "macro_f1": 0.82093239,
+        "balanced_accuracy": 0.80844156,
+        "confusion": {
+          "tn": 47,
+          "fp": 23,
+          "fn": 6,
+          "tp": 104
+        },
+        "predicted_positive": 127,
+        "threshold": 0.5
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.93333333,
+          "macro_f1": 0.925,
+          "balanced_accuracy": 0.925,
+          "confusion": {
+            "tn": 18,
+            "fp": 2,
+            "fn": 2,
+            "tp": 38
+          },
+          "predicted_positive": 40,
+          "threshold": 0.5
+        },
+        {
+          "fold": 2,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.83333333,
+          "macro_f1": 0.8125,
+          "balanced_accuracy": 0.79905993,
+          "confusion": {
+            "tn": 15,
+            "fp": 8,
+            "fn": 2,
+            "tp": 35
+          },
+          "predicted_positive": 43,
+          "threshold": 0.5
+        },
+        {
+          "fold": 3,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.75,
+          "macro_f1": 0.7281788,
+          "balanced_accuracy": 0.72895623,
+          "confusion": {
+            "tn": 14,
+            "fp": 13,
+            "fn": 2,
+            "tp": 31
+          },
+          "predicted_positive": 44,
+          "threshold": 0.5
+        }
+      ]
+    },
+    "rf_combined_leaf8_half": {
+      "spec": {
+        "name": "rf_combined_leaf8_half",
+        "family": "forest",
+        "matrix": "combined",
+        "kind": "rf_leaf8_half",
+        "parameter": 8,
+        "standardized": false
+      },
+      "aggregate": {
+        "rows": 180,
+        "coverage": 1.0,
+        "accuracy": 0.86111111,
+        "macro_f1": 0.84898822,
+        "balanced_accuracy": 0.83961039,
+        "confusion": {
+          "tn": 52,
+          "fp": 18,
+          "fn": 7,
+          "tp": 103
+        },
+        "predicted_positive": 121,
+        "threshold": 0.5
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.9,
+          "macro_f1": 0.8875,
+          "balanced_accuracy": 0.8875,
+          "confusion": {
+            "tn": 17,
+            "fp": 3,
+            "fn": 3,
+            "tp": 37
+          },
+          "predicted_positive": 40,
+          "threshold": 0.5
+        },
+        {
+          "fold": 2,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.88333333,
+          "macro_f1": 0.87555556,
+          "balanced_accuracy": 0.87250294,
+          "confusion": {
+            "tn": 19,
+            "fp": 4,
+            "fn": 3,
+            "tp": 34
+          },
+          "predicted_positive": 38,
+          "threshold": 0.5
+        },
+        {
+          "fold": 3,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.8,
+          "macro_f1": 0.784689,
+          "balanced_accuracy": 0.78114478,
+          "confusion": {
+            "tn": 16,
+            "fp": 11,
+            "fn": 1,
+            "tp": 32
+          },
+          "predicted_positive": 43,
+          "threshold": 0.5
+        }
+      ]
+    },
+    "extra_combined_leaf1_sqrt": {
+      "spec": {
+        "name": "extra_combined_leaf1_sqrt",
+        "family": "forest",
+        "matrix": "combined",
+        "kind": "extra_leaf1_sqrt",
+        "parameter": 1,
+        "standardized": false
+      },
+      "aggregate": {
+        "rows": 180,
+        "coverage": 1.0,
+        "accuracy": 0.83888889,
+        "macro_f1": 0.81949583,
+        "balanced_accuracy": 0.80584416,
+        "confusion": {
+          "tn": 46,
+          "fp": 24,
+          "fn": 5,
+          "tp": 105
+        },
+        "predicted_positive": 129,
+        "threshold": 0.5
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.9,
+          "macro_f1": 0.8875,
+          "balanced_accuracy": 0.8875,
+          "confusion": {
+            "tn": 17,
+            "fp": 3,
+            "fn": 3,
+            "tp": 37
+          },
+          "predicted_positive": 40,
+          "threshold": 0.5
+        },
+        {
+          "fold": 2,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.86666667,
+          "macro_f1": 0.84595635,
+          "balanced_accuracy": 0.82608696,
+          "confusion": {
+            "tn": 15,
+            "fp": 8,
+            "fn": 0,
+            "tp": 37
+          },
+          "predicted_positive": 45,
+          "threshold": 0.5
+        },
+        {
+          "fold": 3,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.75,
+          "macro_f1": 0.7281788,
+          "balanced_accuracy": 0.72895623,
+          "confusion": {
+            "tn": 14,
+            "fp": 13,
+            "fn": 2,
+            "tp": 31
+          },
+          "predicted_positive": 44,
+          "threshold": 0.5
+        }
+      ]
+    },
+    "extra_combined_leaf8_half": {
+      "spec": {
+        "name": "extra_combined_leaf8_half",
+        "family": "forest",
+        "matrix": "combined",
+        "kind": "extra_leaf8_half",
+        "parameter": 8,
+        "standardized": false
+      },
+      "aggregate": {
+        "rows": 180,
+        "coverage": 1.0,
+        "accuracy": 0.85555556,
+        "macro_f1": 0.83882077,
+        "balanced_accuracy": 0.82467532,
+        "confusion": {
+          "tn": 48,
+          "fp": 22,
+          "fn": 4,
+          "tp": 106
+        },
+        "predicted_positive": 128,
+        "threshold": 0.5
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.91666667,
+          "macro_f1": 0.90503324,
+          "balanced_accuracy": 0.9,
+          "confusion": {
+            "tn": 17,
+            "fp": 3,
+            "fn": 2,
+            "tp": 38
+          },
+          "predicted_positive": 41,
+          "threshold": 0.5
+        },
+        {
+          "fold": 2,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.88333333,
+          "macro_f1": 0.87033035,
+          "balanced_accuracy": 0.8560517,
+          "confusion": {
+            "tn": 17,
+            "fp": 6,
+            "fn": 1,
+            "tp": 36
+          },
+          "predicted_positive": 42,
+          "threshold": 0.5
+        },
+        {
+          "fold": 3,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.76666667,
+          "macro_f1": 0.74358974,
+          "balanced_accuracy": 0.74410774,
+          "confusion": {
+            "tn": 14,
+            "fp": 13,
+            "fn": 1,
+            "tp": 32
+          },
+          "predicted_positive": 45,
+          "threshold": 0.5
+        }
+      ]
+    },
+    "knn_curation_all_k15": {
+      "spec": {
+        "name": "knn_curation_all_k15",
+        "family": "neighbors",
+        "matrix": "curation_all",
+        "kind": "knn",
+        "parameter": 15,
+        "standardized": true
+      },
+      "aggregate": {
+        "rows": 180,
+        "coverage": 1.0,
+        "accuracy": 0.8,
+        "macro_f1": 0.78728992,
+        "balanced_accuracy": 0.78441558,
+        "confusion": {
+          "tn": 50,
+          "fp": 20,
+          "fn": 16,
+          "tp": 94
+        },
+        "predicted_positive": 114,
+        "threshold": 0.5
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.88333333,
+          "macro_f1": 0.87555556,
+          "balanced_accuracy": 0.9,
+          "confusion": {
+            "tn": 19,
+            "fp": 1,
+            "fn": 6,
+            "tp": 34
+          },
+          "predicted_positive": 35,
+          "threshold": 0.5
+        },
+        {
+          "fold": 2,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.75,
+          "macro_f1": 0.73333333,
+          "balanced_accuracy": 0.73149236,
+          "confusion": {
+            "tn": 15,
+            "fp": 8,
+            "fn": 7,
+            "tp": 30
+          },
+          "predicted_positive": 38,
+          "threshold": 0.5
+        },
+        {
+          "fold": 3,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.76666667,
+          "macro_f1": 0.75323149,
+          "balanced_accuracy": 0.75084175,
+          "confusion": {
+            "tn": 16,
+            "fp": 11,
+            "fn": 3,
+            "tp": 30
+          },
+          "predicted_positive": 41,
+          "threshold": 0.5
+        }
+      ]
+    },
+    "knn_curation_all_k31": {
+      "spec": {
+        "name": "knn_curation_all_k31",
+        "family": "neighbors",
+        "matrix": "curation_all",
+        "kind": "knn",
+        "parameter": 31,
+        "standardized": true
+      },
+      "aggregate": {
+        "rows": 180,
+        "coverage": 1.0,
+        "accuracy": 0.76666667,
+        "macro_f1": 0.7590515,
+        "balanced_accuracy": 0.76493506,
+        "confusion": {
+          "tn": 53,
+          "fp": 17,
+          "fn": 25,
+          "tp": 85
+        },
+        "predicted_positive": 102,
+        "threshold": 0.5
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.81666667,
+          "macro_f1": 0.81029031,
+          "balanced_accuracy": 0.85,
+          "confusion": {
+            "tn": 19,
+            "fp": 1,
+            "fn": 10,
+            "tp": 30
+          },
+          "predicted_positive": 31,
+          "threshold": 0.5
+        },
+        {
+          "fold": 2,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.71666667,
+          "macro_f1": 0.7068123,
+          "balanced_accuracy": 0.71269095,
+          "confusion": {
+            "tn": 16,
+            "fp": 7,
+            "fn": 10,
+            "tp": 27
+          },
+          "predicted_positive": 34,
+          "threshold": 0.5
+        },
+        {
+          "fold": 3,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.76666667,
+          "macro_f1": 0.76,
+          "balanced_accuracy": 0.75757576,
+          "confusion": {
+            "tn": 18,
+            "fp": 9,
+            "fn": 5,
+            "tp": 28
+          },
+          "predicted_positive": 37,
+          "threshold": 0.5
+        }
+      ]
+    },
+    "knn_curation_all_k61": {
+      "spec": {
+        "name": "knn_curation_all_k61",
+        "family": "neighbors",
+        "matrix": "curation_all",
+        "kind": "knn",
+        "parameter": 61,
+        "standardized": true
+      },
+      "aggregate": {
+        "rows": 180,
+        "coverage": 1.0,
+        "accuracy": 0.78333333,
+        "macro_f1": 0.77579764,
+        "balanced_accuracy": 0.78116883,
+        "confusion": {
+          "tn": 54,
+          "fp": 16,
+          "fn": 23,
+          "tp": 87
+        },
+        "predicted_positive": 103,
+        "threshold": 0.5
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.8,
+          "macro_f1": 0.79428571,
+          "balanced_accuracy": 0.8375,
+          "confusion": {
+            "tn": 19,
+            "fp": 1,
+            "fn": 11,
+            "tp": 29
+          },
+          "predicted_positive": 30,
+          "threshold": 0.5
+        },
+        {
+          "fold": 2,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.76666667,
+          "macro_f1": 0.75323149,
+          "balanced_accuracy": 0.75323149,
+          "confusion": {
+            "tn": 16,
+            "fp": 7,
+            "fn": 7,
+            "tp": 30
+          },
+          "predicted_positive": 37,
+          "threshold": 0.5
+        },
+        {
+          "fold": 3,
+          "rows": 60,
+          "coverage": 1.0,
+          "accuracy": 0.78333333,
+          "macro_f1": 0.77834612,
+          "balanced_accuracy": 0.77609428,
+          "confusion": {
+            "tn": 19,
+            "fp": 8,
+            "fn": 5,
+            "tp": 28
+          },
+          "predicted_positive": 36,
+          "threshold": 0.5
+        }
+      ]
+    }
+  },
+  "promotion_gate": {
+    "target_accuracy": 0.9,
+    "full_coverage_required": true,
+    "passed": false,
+    "decision": "STAGED_SCREEN_ONLY"
+  },
+  "artifacts": {
+    "oof_probabilities": null,
+    "script": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/experiment_r3_exact300_auxiliary_model_sweep.py",
+      "sha256": "7f2bb1f58b3ee566a2a367d5ba438dbd5a7efad769e2ec97f214bc3c67e73700"
+    }
+  }
+}

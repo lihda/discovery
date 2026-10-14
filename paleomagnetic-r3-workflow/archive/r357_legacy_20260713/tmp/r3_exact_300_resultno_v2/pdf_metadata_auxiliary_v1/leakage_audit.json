@@ -1,0 +1,75 @@
+{
+  "schema_version": "r3_exact300_pdf_metadata_leakage_audit_v1",
+  "status": "PASS",
+  "scope": {
+    "auxiliary_rows": 2172,
+    "papers": 1174,
+    "exact_evaluation_rows": 300,
+    "canonical_folds": 5
+  },
+  "cache": {
+    "path": "tmp/r3_exact_300_resultno_v2/pdf_metadata_cache_v1/features.npz",
+    "sha256": "624809328b7c17f6f5f5c01a5b6507c4af8a09fe7e18ede75af556f76e9126c8",
+    "keys": [
+      "pdf_metadata"
+    ],
+    "shape": [
+      2172,
+      165
+    ],
+    "dtype": "float32",
+    "finite": true,
+    "contains_identifiers": false,
+    "contains_paths_or_filenames": false
+  },
+  "forbidden_feature_name_search": {
+    "doi": 0,
+    "author": 0,
+    "title": 0,
+    "subject": 0,
+    "keyword": 0,
+    "refno": 0,
+    "resultno": 0,
+    "filename": 0,
+    "filepath": 0
+  },
+  "extraction_policy": {
+    "pdfinfo_field_whitelist": true,
+    "title_author_subject_keywords_ignored": true,
+    "creator_producer_free_text_stored": false,
+    "creator_producer_fixed_family_or_token_encoding_only": true,
+    "identity_used_only_to_align_each_local_pdf_to_its_rows": true
+  },
+  "outer_fold_audit": {
+    "train_test_refno_overlap_by_fold": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "all_rows_of_each_test_refno_excluded": true,
+    "full_300_row_coverage": true
+  },
+  "artifacts": {
+    "cache_manifest": {
+      "path": "tmp/r3_exact_300_resultno_v2/pdf_metadata_cache_v1/features.manifest.json",
+      "sha256": "0f0f25b9e175cfe6864f80647eb6d3285e7a72d4650f7dfb7645078f2303e6e0"
+    },
+    "full_report": {
+      "path": "tmp/r3_exact_300_resultno_v2/pdf_metadata_auxiliary_v1/report.json",
+      "sha256": "ea8d665ffbec81fbe9177eb9e3a031b27462bcd9fc3d5b410f6f67c03fab2470"
+    },
+    "full_oof": {
+      "path": "tmp/r3_exact_300_resultno_v2/pdf_metadata_auxiliary_v1/oof_probabilities.npz",
+      "sha256": "67e50052195a686402898ee3dfa4bda872f28f8b077ca26e0e1ce44ba85369f8"
+    }
+  },
+  "result": {
+    "same_run_control_accuracy": 0.87666667,
+    "best_metadata_accuracy": 0.87,
+    "best_metadata_strategy": "component_bridge_metadata_hgb10",
+    "metadata_promoted_as_standalone_model": false,
+    "allowed_followup_use": "frozen source context inside a separately predeclared strict inner cross-fit router"
+  }
+}

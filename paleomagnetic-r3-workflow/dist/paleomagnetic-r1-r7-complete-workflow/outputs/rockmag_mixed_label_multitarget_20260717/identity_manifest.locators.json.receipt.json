@@ -1,0 +1,32 @@
+{
+  "schema_version": "rockmag_locator_manifest_receipt_v2",
+  "manifest": "outputs/rockmag_mixed_label_multitarget_20260717/identity_manifest.locators.json",
+  "manifest_sha256": "f1be8cfbfc3d2f92fabdc4ce96009f2968ee89bb43520bb25ebc2685061b5018",
+  "papers": 61,
+  "targets": 278,
+  "identity_fields": [
+    "REFNO",
+    "RESULTNO",
+    "ROCKUNITNO",
+    "ROCKNAME",
+    "RLAT",
+    "RLONG",
+    "COMPONENT",
+    "SLAT",
+    "SLONG",
+    "DEC",
+    "INC",
+    "PLAT",
+    "PLONG",
+    "PTYPE"
+  ],
+  "forbidden_fields_not_loaded": [
+    "PMAGRESULT.ROCKMAG",
+    "PMAGRESULT.TESTS",
+    "historical R3",
+    "PMAGRESULT.LABDETAILS",
+    "PMAGRESULT.COMMENTS",
+    "prior predictions",
+    "evaluation reports"
+  ]
+}

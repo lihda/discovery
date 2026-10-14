@@ -1,0 +1,68 @@
+{
+  "schema_version": "r3_supervised_scincl_fold1_protocol_v1",
+  "status": "FROZEN_BEFORE_FOLD1_RESULT",
+  "candidate": "SciNCL supervised last-two-layer fine-tuning",
+  "scope": {
+    "identity": "tmp/r3_small_screen_v1/identity.xlsx",
+    "identity_sha256": "aae4577fc7975260f2c4f23bf5618727f42574b53cc87bb67d6f3f6bfe1ef28f",
+    "pdf_only_rows": 640,
+    "pdf_only_papers": 330,
+    "first_stage": "outer REFNO GroupKFold fold 1 only"
+  },
+  "source_boundary": {
+    "text_cache": "tmp/r3_scientific_finetune/scincl_small_screen_inputs.npz",
+    "text_cache_sha256": "7709a77d6d0785f127e377f59e99b462d664a1d81150d439ce5ad25fdbf37013",
+    "text_manifest_sha256": "266ce0db87f264a3e81c9b0f14e569cabc55be9847a19b4b84e6720f308e6d02",
+    "labels_used_to_build_text_cache": false,
+    "pmagresult_or_rockmag_read": false,
+    "identifier_features": false
+  },
+  "model": {
+    "upstream": "malteos/scincl",
+    "revision": "ebc5348d184ba2fc9beee69b4e394263fce57b2e",
+    "weight_sha256": "d65da219f67f051fdd065bfec666285c136e23002787603b2565e467bfed3c68",
+    "representation": "last_hidden_state CLS",
+    "frozen_encoder_layers": 10,
+    "trainable_encoder_layers": 2,
+    "trainable_head": true
+  },
+  "tokens": {
+    "maximum_sequence_length": 384,
+    "component_order": ["target", "abstract", "local_evidence", "paper_evidence"],
+    "component_budgets": {
+      "target": 24,
+      "abstract": 150,
+      "local_evidence": 105,
+      "paper_evidence": 90
+    }
+  },
+  "training": {
+    "random_state": 357,
+    "inner_epoch_selection": "first validation fold of 5-fold REFNO GroupKFold within outer training",
+    "maximum_selection_epochs": 4,
+    "selection_metric": "validation accuracy, then macro-F1, then loss",
+    "outer_train_refit": "fresh checkpoint on every outer-training row for selected epoch count",
+    "batch_size": 8,
+    "evaluation_batch_size": 16,
+    "encoder_learning_rate": 0.00001,
+    "head_learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "warmup_fraction": 0.1,
+    "gradient_clip_norm": 1.0,
+    "inverse_refno_canonical_target_multiplicity_weight": true
+  },
+  "fold1_smoke_gate": {
+    "strict_baseline_accuracy": 0.671875,
+    "minimum_absolute_gain": 0.02,
+    "minimum_accuracy": 0.691875,
+    "finite_training_and_probabilities_required": true,
+    "failure_action": "stop supervised SciNCL and do not run remaining folds"
+  },
+  "conditional_all_fold_gate": {
+    "prerequisite": "fold1 smoke gate passes",
+    "minimum_aggregate_accuracy": 0.81375,
+    "minimum_folds_not_worse_than_strict_baseline": 3,
+    "maximum_allowed_accuracy_regression_in_any_fold": 0.05,
+    "full_1174_paper_run_forbidden_unless_passed": true
+  }
+}

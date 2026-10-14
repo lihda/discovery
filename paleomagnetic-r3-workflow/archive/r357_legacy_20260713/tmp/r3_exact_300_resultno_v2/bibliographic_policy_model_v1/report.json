@@ -1,0 +1,2082 @@
+{
+  "schema_version": "r3_exact300_bibliographic_policy_grouped_oof_v1",
+  "status": "complete",
+  "scope": {
+    "evaluated_rows": 300,
+    "evaluated_papers": 258,
+    "evaluated_folds": 5,
+    "full_coverage": true,
+    "full_2172_rows_evaluated": false,
+    "full_pool_coverage": {
+      "fixed_training_rows": 2473,
+      "fixed_training_paper_groups": 1292,
+      "pdf_only_rows": 2172,
+      "pdf_only_paper_groups": 1174,
+      "rows_skipped_without_local_pdf": 301,
+      "paper_groups_skipped_without_local_pdf": 118
+    },
+    "exact_coverage": {
+      "fixed_training_rows": 300,
+      "fixed_training_paper_groups": 258,
+      "pdf_only_rows": 300,
+      "pdf_only_paper_groups": 258,
+      "rows_skipped_without_local_pdf": 0,
+      "paper_groups_skipped_without_local_pdf": 0
+    }
+  },
+  "guardrails": {
+    "canonical_fold_manifest_sha256": "8f6ab8f1a071878e14d4db8e19a7ec0519ed612be107b0f0fdf0489dd59aaf2d",
+    "feature_freeze_before_label_access": true,
+    "feature_freeze_sha256": "666ff5f903658734a83a5496fbe1b4b5b96ef2bf136acc7593b05081201fdce1",
+    "every_outer_test_refno_fully_excluded": true,
+    "inner_empirical_bayes_self_paper_excluded": true,
+    "fusion_selected_from_inner_oof_only": true,
+    "fixed_outer_threshold": 0.5,
+    "posthoc_outer_label_threshold_used": false,
+    "outer_test_labels_used_by_run_fold": false,
+    "all_outer_and_inner_overlap_audits_zero": true,
+    "pmagresult_or_rockmag_source_cells_used": false,
+    "prior_predictions_or_evaluations_used": false,
+    "raw_source_table_fields_used": false,
+    "identifiers_used_as_predictive_features": false
+  },
+  "data": {
+    "full_label_counts": {
+      "0": 804,
+      "1": 1368
+    },
+    "exact_label_counts": {
+      "0": 110,
+      "1": 190
+    },
+    "semantic_feature_shape": [
+      2172,
+      351
+    ],
+    "profile_count": 1174
+  },
+  "predeclared_candidate_protocol": {
+    "candidates": [
+      {
+        "name": "semantic_only",
+        "smoothing": null,
+        "fusion_weight": 0.0
+      },
+      {
+        "name": "policy_a4_fusion15",
+        "smoothing": 4.0,
+        "fusion_weight": 0.15
+      },
+      {
+        "name": "policy_a4_fusion30",
+        "smoothing": 4.0,
+        "fusion_weight": 0.3
+      },
+      {
+        "name": "policy_a4_fusion50",
+        "smoothing": 4.0,
+        "fusion_weight": 0.5
+      },
+      {
+        "name": "policy_a12_fusion15",
+        "smoothing": 12.0,
+        "fusion_weight": 0.15
+      },
+      {
+        "name": "policy_a12_fusion30",
+        "smoothing": 12.0,
+        "fusion_weight": 0.3
+      },
+      {
+        "name": "policy_a12_fusion50",
+        "smoothing": 12.0,
+        "fusion_weight": 0.5
+      }
+    ],
+    "inner_split": {
+      "folds": 4,
+      "unit": "REFNO",
+      "label_free_assignment": true,
+      "salt": "r3-bibliographic-policy-inner-v1"
+    },
+    "empirical_bayes": {
+      "smoothing_strengths": [
+        4.0,
+        12.0
+      ],
+      "family_rules": {
+        "author": {
+          "minimum_support": 2,
+          "weight": 2.0,
+          "alpha_scale": 1.0
+        },
+        "journal_decade": {
+          "minimum_support": 10,
+          "weight": 1.0,
+          "alpha_scale": 1.0
+        },
+        "publisher_decade": {
+          "minimum_support": 10,
+          "weight": 1.0,
+          "alpha_scale": 1.0
+        },
+        "doi_prefix": {
+          "minimum_support": 5,
+          "weight": 0.75,
+          "alpha_scale": 1.0
+        },
+        "shared_citation_doi": {
+          "minimum_support": 2,
+          "weight": 1.25,
+          "alpha_scale": 1.0
+        },
+        "shared_citation_key": {
+          "minimum_support": 3,
+          "weight": 1.25,
+          "alpha_scale": 1.0
+        },
+        "direct_outgoing_doi": {
+          "minimum_support": 1,
+          "weight": 2.0,
+          "alpha_scale": 0.25
+        },
+        "direct_outgoing_key": {
+          "minimum_support": 1,
+          "weight": 1.5,
+          "alpha_scale": 0.5
+        },
+        "direct_incoming_doi": {
+          "minimum_support": 1,
+          "weight": 2.0,
+          "alpha_scale": 0.25
+        },
+        "direct_incoming_key": {
+          "minimum_support": 1,
+          "weight": 1.5,
+          "alpha_scale": 0.5
+        }
+      },
+      "entity_limits": {
+        "authors": 30,
+        "doi_prefixes": 10,
+        "citation_dois": 100,
+        "citation_keys": 400,
+        "source_dois": 20,
+        "source_author_year_keys": 30
+      },
+      "paper_label_unit": "mean R3 within training paper",
+      "self_paper_labels_excluded_by_inner_cross_fitting": true
+    },
+    "fusion": {
+      "rule": "semantic + weight * policy_confidence * (policy - semantic)",
+      "weights": [
+        0.15,
+        0.3,
+        0.5
+      ],
+      "threshold": 0.5,
+      "outer_label_threshold_selection": false
+    }
+  },
+  "outer_fold_audit": [
+    {
+      "fold": 1,
+      "exact_test_rows": 60,
+      "exact_test_papers": 51,
+      "outer_train_rows": 2035,
+      "outer_train_papers": 1123,
+      "full_rows_excluded_for_test_refnos": 137,
+      "outer_train_test_refno_overlap": 0,
+      "outer_train_exact_test_row_overlap": 0,
+      "excluded_test_refno_rows_remaining_in_outer_train": 0,
+      "inner_split": {
+        "method": "label-free deterministic row-balanced REFNO assignment",
+        "salt": "r3-bibliographic-policy-inner-v1",
+        "folds": 4,
+        "fold_id_sha256": "1dce3d4deebe2c9252af94bcbf281109db82f15f73eee73eb3b2ffa45e685c09"
+      },
+      "inner_folds": [
+        {
+          "inner_fold": 1,
+          "fit_rows": 1526,
+          "fit_papers": 843,
+          "validation_rows": 509,
+          "validation_papers": 280,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 280,
+              "rows": 509,
+              "mean_confidence": 0.69611967,
+              "zero_confidence_rows": 12,
+              "mean_supported_families_per_paper": 4.28928571
+            },
+            "alpha_12": {
+              "papers": 280,
+              "rows": 509,
+              "mean_confidence": 0.62920467,
+              "zero_confidence_rows": 12,
+              "mean_supported_families_per_paper": 4.28928571
+            }
+          }
+        },
+        {
+          "inner_fold": 2,
+          "fit_rows": 1526,
+          "fit_papers": 843,
+          "validation_rows": 509,
+          "validation_papers": 280,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 280,
+              "rows": 509,
+              "mean_confidence": 0.69751038,
+              "zero_confidence_rows": 7,
+              "mean_supported_families_per_paper": 4.58214286
+            },
+            "alpha_12": {
+              "papers": 280,
+              "rows": 509,
+              "mean_confidence": 0.6380757,
+              "zero_confidence_rows": 7,
+              "mean_supported_families_per_paper": 4.58214286
+            }
+          }
+        },
+        {
+          "inner_fold": 3,
+          "fit_rows": 1526,
+          "fit_papers": 841,
+          "validation_rows": 509,
+          "validation_papers": 282,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 282,
+              "rows": 509,
+              "mean_confidence": 0.72839476,
+              "zero_confidence_rows": 11,
+              "mean_supported_families_per_paper": 4.62411348
+            },
+            "alpha_12": {
+              "papers": 282,
+              "rows": 509,
+              "mean_confidence": 0.6623889,
+              "zero_confidence_rows": 11,
+              "mean_supported_families_per_paper": 4.62411348
+            }
+          }
+        },
+        {
+          "inner_fold": 4,
+          "fit_rows": 1527,
+          "fit_papers": 842,
+          "validation_rows": 508,
+          "validation_papers": 281,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 281,
+              "rows": 508,
+              "mean_confidence": 0.70851021,
+              "zero_confidence_rows": 10,
+              "mean_supported_families_per_paper": 4.39501779
+            },
+            "alpha_12": {
+              "papers": 281,
+              "rows": 508,
+              "mean_confidence": 0.64199974,
+              "zero_confidence_rows": 10,
+              "mean_supported_families_per_paper": 4.39501779
+            }
+          }
+        }
+      ],
+      "selection_source": "four-fold REFNO-isolated inner OOF only",
+      "selection_rule": "accuracy, macro-F1, balanced accuracy, specificity, lower policy weight, declaration order",
+      "selected_candidate": {
+        "name": "policy_a12_fusion50",
+        "smoothing": 12.0,
+        "fusion_weight": 0.5
+      },
+      "candidate_metrics": [
+        {
+          "candidate": "semantic_only",
+          "candidate_order": 0,
+          "smoothing": null,
+          "fusion_weight": 0.0,
+          "metric": {
+            "rows": 2035,
+            "coverage": 1.0,
+            "accuracy": 0.81818182,
+            "macro_f1": 0.79924545,
+            "balanced_accuracy": 0.79266822,
+            "confusion": {
+              "tn": 520,
+              "fp": 226,
+              "fn": 144,
+              "tp": 1145
+            },
+            "predicted_positive": 1371,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "policy_a4_fusion15",
+          "candidate_order": 1,
+          "smoothing": 4.0,
+          "fusion_weight": 0.15,
+          "metric": {
+            "rows": 2035,
+            "coverage": 1.0,
+            "accuracy": 0.81867322,
+            "macro_f1": 0.79918134,
+            "balanced_accuracy": 0.79192674,
+            "confusion": {
+              "tn": 516,
+              "fp": 230,
+              "fn": 139,
+              "tp": 1150
+            },
+            "predicted_positive": 1380,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "policy_a4_fusion30",
+          "candidate_order": 2,
+          "smoothing": 4.0,
+          "fusion_weight": 0.3,
+          "metric": {
+            "rows": 2035,
+            "coverage": 1.0,
+            "accuracy": 0.81867322,
+            "macro_f1": 0.79863161,
+            "balanced_accuracy": 0.79079736,
+            "confusion": {
+              "tn": 512,
+              "fp": 234,
+              "fn": 135,
+              "tp": 1154
+            },
+            "predicted_positive": 1388,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "policy_a4_fusion50",
+          "candidate_order": 3,
+          "smoothing": 4.0,
+          "fusion_weight": 0.5,
+          "metric": {
+            "rows": 2035,
+            "coverage": 1.0,
+            "accuracy": 0.82260442,
+            "macro_f1": 0.80089255,
+            "balanced_accuracy": 0.79079476,
+            "confusion": {
+              "tn": 501,
+              "fp": 245,
+              "fn": 116,
+              "tp": 1173
+            },
+            "predicted_positive": 1418,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "policy_a12_fusion15",
+          "candidate_order": 4,
+          "smoothing": 12.0,
+          "fusion_weight": 0.15,
+          "metric": {
+            "rows": 2035,
+            "coverage": 1.0,
+            "accuracy": 0.81867322,
+            "macro_f1": 0.79918134,
+            "balanced_accuracy": 0.79192674,
+            "confusion": {
+              "tn": 516,
+              "fp": 230,
+              "fn": 139,
+              "tp": 1150
+            },
+            "predicted_positive": 1380,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "policy_a12_fusion30",
+          "candidate_order": 5,
+          "smoothing": 12.0,
+          "fusion_weight": 0.3,
+          "metric": {
+            "rows": 2035,
+            "coverage": 1.0,
+            "accuracy": 0.82063882,
+            "macro_f1": 0.80067699,
+            "balanced_accuracy": 0.7926313,
+            "confusion": {
+              "tn": 513,
+              "fp": 233,
+              "fn": 132,
+              "tp": 1157
+            },
+            "predicted_positive": 1390,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "policy_a12_fusion50",
+          "candidate_order": 6,
+          "smoothing": 12.0,
+          "fusion_weight": 0.5,
+          "metric": {
+            "rows": 2035,
+            "coverage": 1.0,
+            "accuracy": 0.82407862,
+            "macro_f1": 0.80276224,
+            "balanced_accuracy": 0.79280549,
+            "confusion": {
+              "tn": 504,
+              "fp": 242,
+              "fn": 116,
+              "tp": 1173
+            },
+            "predicted_positive": 1415,
+            "threshold": 0.5
+          }
+        }
+      ],
+      "outer_policy_transform": {
+        "papers": 51,
+        "rows": 60,
+        "mean_confidence": 0.65659391,
+        "zero_confidence_rows": 0,
+        "mean_supported_families_per_paper": 4.50980392
+      },
+      "outer_test_labels_received_by_run_fold": false
+    },
+    {
+      "fold": 2,
+      "exact_test_rows": 60,
+      "exact_test_papers": 51,
+      "outer_train_rows": 2015,
+      "outer_train_papers": 1123,
+      "full_rows_excluded_for_test_refnos": 157,
+      "outer_train_test_refno_overlap": 0,
+      "outer_train_exact_test_row_overlap": 0,
+      "excluded_test_refno_rows_remaining_in_outer_train": 0,
+      "inner_split": {
+        "method": "label-free deterministic row-balanced REFNO assignment",
+        "salt": "r3-bibliographic-policy-inner-v1",
+        "folds": 4,
+        "fold_id_sha256": "29f2a794fec1432c398c75475bfa84e3f72e3d17bcd7934459599bfc24ada780"
+      },
+      "inner_folds": [
+        {
+          "inner_fold": 1,
+          "fit_rows": 1511,
+          "fit_papers": 843,
+          "validation_rows": 504,
+          "validation_papers": 280,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 280,
+              "rows": 504,
+              "mean_confidence": 0.7046018,
+              "zero_confidence_rows": 12,
+              "mean_supported_families_per_paper": 4.17857143
+            },
+            "alpha_12": {
+              "papers": 280,
+              "rows": 504,
+              "mean_confidence": 0.63774154,
+              "zero_confidence_rows": 12,
+              "mean_supported_families_per_paper": 4.17857143
+            }
+          }
+        },
+        {
+          "inner_fold": 2,
+          "fit_rows": 1511,
+          "fit_papers": 842,
+          "validation_rows": 504,
+          "validation_papers": 281,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 281,
+              "rows": 504,
+              "mean_confidence": 0.69715679,
+              "zero_confidence_rows": 8,
+              "mean_supported_families_per_paper": 4.5088968
+            },
+            "alpha_12": {
+              "papers": 281,
+              "rows": 504,
+              "mean_confidence": 0.63353086,
+              "zero_confidence_rows": 8,
+              "mean_supported_families_per_paper": 4.5088968
+            }
+          }
+        },
+        {
+          "inner_fold": 3,
+          "fit_rows": 1511,
+          "fit_papers": 842,
+          "validation_rows": 504,
+          "validation_papers": 281,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 281,
+              "rows": 504,
+              "mean_confidence": 0.71747228,
+              "zero_confidence_rows": 15,
+              "mean_supported_families_per_paper": 4.58718861
+            },
+            "alpha_12": {
+              "papers": 281,
+              "rows": 504,
+              "mean_confidence": 0.65404995,
+              "zero_confidence_rows": 15,
+              "mean_supported_families_per_paper": 4.58718861
+            }
+          }
+        },
+        {
+          "inner_fold": 4,
+          "fit_rows": 1512,
+          "fit_papers": 842,
+          "validation_rows": 503,
+          "validation_papers": 281,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 281,
+              "rows": 503,
+              "mean_confidence": 0.70042655,
+              "zero_confidence_rows": 5,
+              "mean_supported_families_per_paper": 4.42704626
+            },
+            "alpha_12": {
+              "papers": 281,
+              "rows": 503,
+              "mean_confidence": 0.63749502,
+              "zero_confidence_rows": 5,
+              "mean_supported_families_per_paper": 4.42704626
+            }
+          }
+        }
+      ],
+      "selection_source": "four-fold REFNO-isolated inner OOF only",
+      "selection_rule": "accuracy, macro-F1, balanced accuracy, specificity, lower policy weight, declaration order",
+      "selected_candidate": {
+        "name": "policy_a4_fusion15",
+        "smoothing": 4.0,
+        "fusion_weight": 0.15
+      },
+      "candidate_metrics": [
+        {
+          "candidate": "semantic_only",
+          "candidate_order": 0,
+          "smoothing": null,
+          "fusion_weight": 0.0,
+          "metric": {
+            "rows": 2015,
+            "coverage": 1.0,
+            "accuracy": 0.82878412,
+            "macro_f1": 0.80778584,
+            "balanced_accuracy": 0.79892007,
+            "confusion": {
+              "tn": 502,
+              "fp": 223,
+              "fn": 122,
+              "tp": 1168
+            },
+            "predicted_positive": 1391,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "policy_a4_fusion15",
+          "candidate_order": 1,
+          "smoothing": 4.0,
+          "fusion_weight": 0.15,
+          "metric": {
+            "rows": 2015,
+            "coverage": 1.0,
+            "accuracy": 0.83275434,
+            "macro_f1": 0.81111657,
+            "balanced_accuracy": 0.80081262,
+            "confusion": {
+              "tn": 498,
+              "fp": 227,
+              "fn": 110,
+              "tp": 1180
+            },
+            "predicted_positive": 1407,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "policy_a4_fusion30",
+          "candidate_order": 2,
+          "smoothing": 4.0,
+          "fusion_weight": 0.3,
+          "metric": {
+            "rows": 2015,
+            "coverage": 1.0,
+            "accuracy": 0.82729529,
+            "macro_f1": 0.80397518,
+            "balanced_accuracy": 0.79292435,
+            "confusion": {
+              "tn": 486,
+              "fp": 239,
+              "fn": 109,
+              "tp": 1181
+            },
+            "predicted_positive": 1420,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "policy_a4_fusion50",
+          "candidate_order": 3,
+          "smoothing": 4.0,
+          "fusion_weight": 0.5,
+          "metric": {
+            "rows": 2015,
+            "coverage": 1.0,
+            "accuracy": 0.82431762,
+            "macro_f1": 0.79852186,
+            "balanced_accuracy": 0.78576584,
+            "confusion": {
+              "tn": 470,
+              "fp": 255,
+              "fn": 99,
+              "tp": 1191
+            },
+            "predicted_positive": 1446,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "policy_a12_fusion15",
+          "candidate_order": 4,
+          "smoothing": 12.0,
+          "fusion_weight": 0.15,
+          "metric": {
+            "rows": 2015,
+            "coverage": 1.0,
+            "accuracy": 0.83225806,
+            "macro_f1": 0.81062788,
+            "balanced_accuracy": 0.80042502,
+            "confusion": {
+              "tn": 498,
+              "fp": 227,
+              "fn": 111,
+              "tp": 1179
+            },
+            "predicted_positive": 1406,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "policy_a12_fusion30",
+          "candidate_order": 5,
+          "smoothing": 12.0,
+          "fusion_weight": 0.3,
+          "metric": {
+            "rows": 2015,
+            "coverage": 1.0,
+            "accuracy": 0.82828784,
+            "macro_f1": 0.80540334,
+            "balanced_accuracy": 0.79460572,
+            "confusion": {
+              "tn": 489,
+              "fp": 236,
+              "fn": 110,
+              "tp": 1180
+            },
+            "predicted_positive": 1416,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "policy_a12_fusion50",
+          "candidate_order": 6,
+          "smoothing": 12.0,
+          "fusion_weight": 0.5,
+          "metric": {
+            "rows": 2015,
+            "coverage": 1.0,
+            "accuracy": 0.82382134,
+            "macro_f1": 0.79868606,
+            "balanced_accuracy": 0.78658647,
+            "confusion": {
+              "tn": 474,
+              "fp": 251,
+              "fn": 104,
+              "tp": 1186
+            },
+            "predicted_positive": 1437,
+            "threshold": 0.5
+          }
+        }
+      ],
+      "outer_policy_transform": {
+        "papers": 51,
+        "rows": 60,
+        "mean_confidence": 0.74943299,
+        "zero_confidence_rows": 0,
+        "mean_supported_families_per_paper": 5.23529412
+      },
+      "outer_test_labels_received_by_run_fold": false
+    },
+    {
+      "fold": 3,
+      "exact_test_rows": 60,
+      "exact_test_papers": 52,
+      "outer_train_rows": 2028,
+      "outer_train_papers": 1122,
+      "full_rows_excluded_for_test_refnos": 144,
+      "outer_train_test_refno_overlap": 0,
+      "outer_train_exact_test_row_overlap": 0,
+      "excluded_test_refno_rows_remaining_in_outer_train": 0,
+      "inner_split": {
+        "method": "label-free deterministic row-balanced REFNO assignment",
+        "salt": "r3-bibliographic-policy-inner-v1",
+        "folds": 4,
+        "fold_id_sha256": "7b41ba9c4cde78152cd1fbd776ec77bd9d199a70cb69bff2d5f500002728165c"
+      },
+      "inner_folds": [
+        {
+          "inner_fold": 1,
+          "fit_rows": 1521,
+          "fit_papers": 842,
+          "validation_rows": 507,
+          "validation_papers": 280,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 280,
+              "rows": 507,
+              "mean_confidence": 0.70384179,
+              "zero_confidence_rows": 19,
+              "mean_supported_families_per_paper": 4.47142857
+            },
+            "alpha_12": {
+              "papers": 280,
+              "rows": 507,
+              "mean_confidence": 0.6380558,
+              "zero_confidence_rows": 19,
+              "mean_supported_families_per_paper": 4.47142857
+            }
+          }
+        },
+        {
+          "inner_fold": 2,
+          "fit_rows": 1521,
+          "fit_papers": 842,
+          "validation_rows": 507,
+          "validation_papers": 280,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 280,
+              "rows": 507,
+              "mean_confidence": 0.6881488,
+              "zero_confidence_rows": 3,
+              "mean_supported_families_per_paper": 4.38928571
+            },
+            "alpha_12": {
+              "papers": 280,
+              "rows": 507,
+              "mean_confidence": 0.62819437,
+              "zero_confidence_rows": 3,
+              "mean_supported_families_per_paper": 4.38928571
+            }
+          }
+        },
+        {
+          "inner_fold": 3,
+          "fit_rows": 1521,
+          "fit_papers": 841,
+          "validation_rows": 507,
+          "validation_papers": 281,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 281,
+              "rows": 507,
+              "mean_confidence": 0.69854579,
+              "zero_confidence_rows": 11,
+              "mean_supported_families_per_paper": 4.33451957
+            },
+            "alpha_12": {
+              "papers": 281,
+              "rows": 507,
+              "mean_confidence": 0.63761893,
+              "zero_confidence_rows": 11,
+              "mean_supported_families_per_paper": 4.33451957
+            }
+          }
+        },
+        {
+          "inner_fold": 4,
+          "fit_rows": 1521,
+          "fit_papers": 841,
+          "validation_rows": 507,
+          "validation_papers": 281,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 281,
+              "rows": 507,
+              "mean_confidence": 0.71103828,
+              "zero_confidence_rows": 3,
+              "mean_supported_families_per_paper": 4.60498221
+            },
+            "alpha_12": {
+              "papers": 281,
+              "rows": 507,
+              "mean_confidence": 0.64417188,
+              "zero_confidence_rows": 3,
+              "mean_supported_families_per_paper": 4.60498221
+            }
+          }
+        }
+      ],
+      "selection_source": "four-fold REFNO-isolated inner OOF only",
+      "selection_rule": "accuracy, macro-F1, balanced accuracy, specificity, lower policy weight, declaration order",
+      "selected_candidate": {
+        "name": "policy_a4_fusion50",
+        "smoothing": 4.0,
+        "fusion_weight": 0.5
+      },
+      "candidate_metrics": [
+        {
+          "candidate": "semantic_only",
+          "candidate_order": 0,
+          "smoothing": null,
+          "fusion_weight": 0.0,
+          "metric": {
+            "rows": 2028,
+            "coverage": 1.0,
+            "accuracy": 0.83727811,
+            "macro_f1": 0.82038165,
+            "balanced_accuracy": 0.81668031,
+            "confusion": {
+              "tn": 538,
+              "fp": 184,
+              "fn": 146,
+              "tp": 1160
+            },
+            "predicted_positive": 1344,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "policy_a4_fusion15",
+          "candidate_order": 1,
+          "smoothing": 4.0,
+          "fusion_weight": 0.15,
+          "metric": {
+            "rows": 2028,
+            "coverage": 1.0,
+            "accuracy": 0.84023669,
+            "macro_f1": 0.82317209,
+            "balanced_accuracy": 0.81866773,
+            "confusion": {
+              "tn": 537,
+              "fp": 185,
+              "fn": 139,
+              "tp": 1167
+            },
+            "predicted_positive": 1352,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "policy_a4_fusion30",
+          "candidate_order": 2,
+          "smoothing": 4.0,
+          "fusion_weight": 0.3,
+          "metric": {
+            "rows": 2028,
+            "coverage": 1.0,
+            "accuracy": 0.84122288,
+            "macro_f1": 0.82304451,
+            "balanced_accuracy": 0.81664638,
+            "confusion": {
+              "tn": 528,
+              "fp": 194,
+              "fn": 128,
+              "tp": 1178
+            },
+            "predicted_positive": 1372,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "policy_a4_fusion50",
+          "candidate_order": 3,
+          "smoothing": 4.0,
+          "fusion_weight": 0.5,
+          "metric": {
+            "rows": 2028,
+            "coverage": 1.0,
+            "accuracy": 0.84418146,
+            "macro_f1": 0.82404862,
+            "balanced_accuracy": 0.81429838,
+            "confusion": {
+              "tn": 513,
+              "fp": 209,
+              "fn": 107,
+              "tp": 1199
+            },
+            "predicted_positive": 1408,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "policy_a12_fusion15",
+          "candidate_order": 4,
+          "smoothing": 12.0,
+          "fusion_weight": 0.15,
+          "metric": {
+            "rows": 2028,
+            "coverage": 1.0,
+            "accuracy": 0.84023669,
+            "macro_f1": 0.82317209,
+            "balanced_accuracy": 0.81866773,
+            "confusion": {
+              "tn": 537,
+              "fp": 185,
+              "fn": 139,
+              "tp": 1167
+            },
+            "predicted_positive": 1352,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "policy_a12_fusion30",
+          "candidate_order": 5,
+          "smoothing": 12.0,
+          "fusion_weight": 0.3,
+          "metric": {
+            "rows": 2028,
+            "coverage": 1.0,
+            "accuracy": 0.84023669,
+            "macro_f1": 0.82256566,
+            "balanced_accuracy": 0.81711937,
+            "confusion": {
+              "tn": 532,
+              "fp": 190,
+              "fn": 134,
+              "tp": 1172
+            },
+            "predicted_positive": 1362,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "policy_a12_fusion50",
+          "candidate_order": 6,
+          "smoothing": 12.0,
+          "fusion_weight": 0.5,
+          "metric": {
+            "rows": 2028,
+            "coverage": 1.0,
+            "accuracy": 0.84122288,
+            "macro_f1": 0.82189955,
+            "balanced_accuracy": 0.81385932,
+            "confusion": {
+              "tn": 519,
+              "fp": 203,
+              "fn": 119,
+              "tp": 1187
+            },
+            "predicted_positive": 1390,
+            "threshold": 0.5
+          }
+        }
+      ],
+      "outer_policy_transform": {
+        "papers": 52,
+        "rows": 60,
+        "mean_confidence": 0.74905227,
+        "zero_confidence_rows": 1,
+        "mean_supported_families_per_paper": 4.82692308
+      },
+      "outer_test_labels_received_by_run_fold": false
+    },
+    {
+      "fold": 4,
+      "exact_test_rows": 60,
+      "exact_test_papers": 52,
+      "outer_train_rows": 2036,
+      "outer_train_papers": 1122,
+      "full_rows_excluded_for_test_refnos": 136,
+      "outer_train_test_refno_overlap": 0,
+      "outer_train_exact_test_row_overlap": 0,
+      "excluded_test_refno_rows_remaining_in_outer_train": 0,
+      "inner_split": {
+        "method": "label-free deterministic row-balanced REFNO assignment",
+        "salt": "r3-bibliographic-policy-inner-v1",
+        "folds": 4,
+        "fold_id_sha256": "ba1d6684c5924e5d2fbe8bff746a0e6dd246d9847b64be36f36bf37cd020ad09"
+      },
+      "inner_folds": [
+        {
+          "inner_fold": 1,
+          "fit_rows": 1527,
+          "fit_papers": 842,
+          "validation_rows": 509,
+          "validation_papers": 280,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 280,
+              "rows": 509,
+              "mean_confidence": 0.69271683,
+              "zero_confidence_rows": 9,
+              "mean_supported_families_per_paper": 4.23214286
+            },
+            "alpha_12": {
+              "papers": 280,
+              "rows": 509,
+              "mean_confidence": 0.62082181,
+              "zero_confidence_rows": 9,
+              "mean_supported_families_per_paper": 4.23214286
+            }
+          }
+        },
+        {
+          "inner_fold": 2,
+          "fit_rows": 1527,
+          "fit_papers": 842,
+          "validation_rows": 509,
+          "validation_papers": 280,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 280,
+              "rows": 509,
+              "mean_confidence": 0.68822406,
+              "zero_confidence_rows": 8,
+              "mean_supported_families_per_paper": 4.45
+            },
+            "alpha_12": {
+              "papers": 280,
+              "rows": 509,
+              "mean_confidence": 0.62872239,
+              "zero_confidence_rows": 8,
+              "mean_supported_families_per_paper": 4.45
+            }
+          }
+        },
+        {
+          "inner_fold": 3,
+          "fit_rows": 1527,
+          "fit_papers": 842,
+          "validation_rows": 509,
+          "validation_papers": 280,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 280,
+              "rows": 509,
+              "mean_confidence": 0.70364183,
+              "zero_confidence_rows": 9,
+              "mean_supported_families_per_paper": 4.43928571
+            },
+            "alpha_12": {
+              "papers": 280,
+              "rows": 509,
+              "mean_confidence": 0.64240545,
+              "zero_confidence_rows": 9,
+              "mean_supported_families_per_paper": 4.43928571
+            }
+          }
+        },
+        {
+          "inner_fold": 4,
+          "fit_rows": 1527,
+          "fit_papers": 840,
+          "validation_rows": 509,
+          "validation_papers": 282,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 282,
+              "rows": 509,
+              "mean_confidence": 0.71215503,
+              "zero_confidence_rows": 10,
+              "mean_supported_families_per_paper": 4.60638298
+            },
+            "alpha_12": {
+              "papers": 282,
+              "rows": 509,
+              "mean_confidence": 0.64716756,
+              "zero_confidence_rows": 10,
+              "mean_supported_families_per_paper": 4.60638298
+            }
+          }
+        }
+      ],
+      "selection_source": "four-fold REFNO-isolated inner OOF only",
+      "selection_rule": "accuracy, macro-F1, balanced accuracy, specificity, lower policy weight, declaration order",
+      "selected_candidate": {
+        "name": "policy_a12_fusion15",
+        "smoothing": 12.0,
+        "fusion_weight": 0.15
+      },
+      "candidate_metrics": [
+        {
+          "candidate": "semantic_only",
+          "candidate_order": 0,
+          "smoothing": null,
+          "fusion_weight": 0.0,
+          "metric": {
+            "rows": 2036,
+            "coverage": 1.0,
+            "accuracy": 0.84921415,
+            "macro_f1": 0.83450428,
+            "balanced_accuracy": 0.82871854,
+            "confusion": {
+              "tn": 561,
+              "fp": 185,
+              "fn": 122,
+              "tp": 1168
+            },
+            "predicted_positive": 1353,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "policy_a4_fusion15",
+          "candidate_order": 1,
+          "smoothing": 4.0,
+          "fusion_weight": 0.15,
+          "metric": {
+            "rows": 2036,
+            "coverage": 1.0,
+            "accuracy": 0.8521611,
+            "macro_f1": 0.83678037,
+            "balanced_accuracy": 0.82934826,
+            "confusion": {
+              "tn": 555,
+              "fp": 191,
+              "fn": 110,
+              "tp": 1180
+            },
+            "predicted_positive": 1371,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "policy_a4_fusion30",
+          "candidate_order": 2,
+          "smoothing": 4.0,
+          "fusion_weight": 0.3,
+          "metric": {
+            "rows": 2036,
+            "coverage": 1.0,
+            "accuracy": 0.85019646,
+            "macro_f1": 0.83325345,
+            "balanced_accuracy": 0.82384085,
+            "confusion": {
+              "tn": 541,
+              "fp": 205,
+              "fn": 100,
+              "tp": 1190
+            },
+            "predicted_positive": 1395,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "policy_a4_fusion50",
+          "candidate_order": 3,
+          "smoothing": 4.0,
+          "fusion_weight": 0.5,
+          "metric": {
+            "rows": 2036,
+            "coverage": 1.0,
+            "accuracy": 0.84086444,
+            "macro_f1": 0.82035059,
+            "balanced_accuracy": 0.80827982,
+            "confusion": {
+              "tn": 512,
+              "fp": 234,
+              "fn": 90,
+              "tp": 1200
+            },
+            "predicted_positive": 1434,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "policy_a12_fusion15",
+          "candidate_order": 4,
+          "smoothing": 12.0,
+          "fusion_weight": 0.15,
+          "metric": {
+            "rows": 2036,
+            "coverage": 1.0,
+            "accuracy": 0.85363458,
+            "macro_f1": 0.83867461,
+            "balanced_accuracy": 0.83164162,
+            "confusion": {
+              "tn": 559,
+              "fp": 187,
+              "fn": 111,
+              "tp": 1179
+            },
+            "predicted_positive": 1366,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "policy_a12_fusion30",
+          "candidate_order": 5,
+          "smoothing": 12.0,
+          "fusion_weight": 0.3,
+          "metric": {
+            "rows": 2036,
+            "coverage": 1.0,
+            "accuracy": 0.85019646,
+            "macro_f1": 0.83382816,
+            "balanced_accuracy": 0.82525407,
+            "confusion": {
+              "tn": 546,
+              "fp": 200,
+              "fn": 105,
+              "tp": 1185
+            },
+            "predicted_positive": 1385,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "policy_a12_fusion50",
+          "candidate_order": 6,
+          "smoothing": 12.0,
+          "fusion_weight": 0.5,
+          "metric": {
+            "rows": 2036,
+            "coverage": 1.0,
+            "accuracy": 0.84675835,
+            "macro_f1": 0.82777199,
+            "balanced_accuracy": 0.81632271,
+            "confusion": {
+              "tn": 524,
+              "fp": 222,
+              "fn": 90,
+              "tp": 1200
+            },
+            "predicted_positive": 1422,
+            "threshold": 0.5
+          }
+        }
+      ],
+      "outer_policy_transform": {
+        "papers": 52,
+        "rows": 60,
+        "mean_confidence": 0.66735315,
+        "zero_confidence_rows": 0,
+        "mean_supported_families_per_paper": 4.73076923
+      },
+      "outer_test_labels_received_by_run_fold": false
+    },
+    {
+      "fold": 5,
+      "exact_test_rows": 60,
+      "exact_test_papers": 52,
+      "outer_train_rows": 2026,
+      "outer_train_papers": 1122,
+      "full_rows_excluded_for_test_refnos": 146,
+      "outer_train_test_refno_overlap": 0,
+      "outer_train_exact_test_row_overlap": 0,
+      "excluded_test_refno_rows_remaining_in_outer_train": 0,
+      "inner_split": {
+        "method": "label-free deterministic row-balanced REFNO assignment",
+        "salt": "r3-bibliographic-policy-inner-v1",
+        "folds": 4,
+        "fold_id_sha256": "2ba460a30590d417cf87b6aaa2ab929d5a0250690ba14e810c7cb4f59e780115"
+      },
+      "inner_folds": [
+        {
+          "inner_fold": 1,
+          "fit_rows": 1519,
+          "fit_papers": 842,
+          "validation_rows": 507,
+          "validation_papers": 280,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 280,
+              "rows": 507,
+              "mean_confidence": 0.70065684,
+              "zero_confidence_rows": 4,
+              "mean_supported_families_per_paper": 4.51428571
+            },
+            "alpha_12": {
+              "papers": 280,
+              "rows": 507,
+              "mean_confidence": 0.63899867,
+              "zero_confidence_rows": 4,
+              "mean_supported_families_per_paper": 4.51428571
+            }
+          }
+        },
+        {
+          "inner_fold": 2,
+          "fit_rows": 1519,
+          "fit_papers": 842,
+          "validation_rows": 507,
+          "validation_papers": 280,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 280,
+              "rows": 507,
+              "mean_confidence": 0.68422425,
+              "zero_confidence_rows": 15,
+              "mean_supported_families_per_paper": 4.26785714
+            },
+            "alpha_12": {
+              "papers": 280,
+              "rows": 507,
+              "mean_confidence": 0.62526542,
+              "zero_confidence_rows": 15,
+              "mean_supported_families_per_paper": 4.26785714
+            }
+          }
+        },
+        {
+          "inner_fold": 3,
+          "fit_rows": 1520,
+          "fit_papers": 841,
+          "validation_rows": 506,
+          "validation_papers": 281,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 281,
+              "rows": 506,
+              "mean_confidence": 0.70075442,
+              "zero_confidence_rows": 10,
+              "mean_supported_families_per_paper": 4.45907473
+            },
+            "alpha_12": {
+              "papers": 281,
+              "rows": 506,
+              "mean_confidence": 0.63836383,
+              "zero_confidence_rows": 10,
+              "mean_supported_families_per_paper": 4.45907473
+            }
+          }
+        },
+        {
+          "inner_fold": 4,
+          "fit_rows": 1520,
+          "fit_papers": 841,
+          "validation_rows": 506,
+          "validation_papers": 281,
+          "fit_validation_refno_overlap": 0,
+          "outer_test_refno_overlap": 0,
+          "policy_transform": {
+            "alpha_4": {
+              "papers": 281,
+              "rows": 506,
+              "mean_confidence": 0.71748975,
+              "zero_confidence_rows": 12,
+              "mean_supported_families_per_paper": 4.54448399
+            },
+            "alpha_12": {
+              "papers": 281,
+              "rows": 506,
+              "mean_confidence": 0.65112337,
+              "zero_confidence_rows": 12,
+              "mean_supported_families_per_paper": 4.54448399
+            }
+          }
+        }
+      ],
+      "selection_source": "four-fold REFNO-isolated inner OOF only",
+      "selection_rule": "accuracy, macro-F1, balanced accuracy, specificity, lower policy weight, declaration order",
+      "selected_candidate": {
+        "name": "policy_a12_fusion50",
+        "smoothing": 12.0,
+        "fusion_weight": 0.5
+      },
+      "candidate_metrics": [
+        {
+          "candidate": "semantic_only",
+          "candidate_order": 0,
+          "smoothing": null,
+          "fusion_weight": 0.0,
+          "metric": {
+            "rows": 2026,
+            "coverage": 1.0,
+            "accuracy": 0.83218164,
+            "macro_f1": 0.81786607,
+            "balanced_accuracy": 0.81260486,
+            "confusion": {
+              "tn": 559,
+              "fp": 203,
+              "fn": 137,
+              "tp": 1127
+            },
+            "predicted_positive": 1330,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "policy_a4_fusion15",
+          "candidate_order": 1,
+          "smoothing": 4.0,
+          "fusion_weight": 0.15,
+          "metric": {
+            "rows": 2026,
+            "coverage": 1.0,
+            "accuracy": 0.83020731,
+            "macro_f1": 0.81550087,
+            "balanced_accuracy": 0.80998019,
+            "confusion": {
+              "tn": 555,
+              "fp": 207,
+              "fn": 137,
+              "tp": 1127
+            },
+            "predicted_positive": 1334,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "policy_a4_fusion30",
+          "candidate_order": 2,
+          "smoothing": 4.0,
+          "fusion_weight": 0.3,
+          "metric": {
+            "rows": 2026,
+            "coverage": 1.0,
+            "accuracy": 0.82971372,
+            "macro_f1": 0.81410901,
+            "balanced_accuracy": 0.80749983,
+            "confusion": {
+              "tn": 547,
+              "fp": 215,
+              "fn": 130,
+              "tp": 1134
+            },
+            "predicted_positive": 1349,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "policy_a4_fusion50",
+          "candidate_order": 3,
+          "smoothing": 4.0,
+          "fusion_weight": 0.5,
+          "metric": {
+            "rows": 2026,
+            "coverage": 1.0,
+            "accuracy": 0.82872655,
+            "macro_f1": 0.81183638,
+            "balanced_accuracy": 0.80384211,
+            "confusion": {
+              "tn": 536,
+              "fp": 226,
+              "fn": 121,
+              "tp": 1143
+            },
+            "predicted_positive": 1369,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "policy_a12_fusion15",
+          "candidate_order": 4,
+          "smoothing": 12.0,
+          "fusion_weight": 0.15,
+          "metric": {
+            "rows": 2026,
+            "coverage": 1.0,
+            "accuracy": 0.83020731,
+            "macro_f1": 0.81550087,
+            "balanced_accuracy": 0.80998019,
+            "confusion": {
+              "tn": 555,
+              "fp": 207,
+              "fn": 137,
+              "tp": 1127
+            },
+            "predicted_positive": 1334,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "policy_a12_fusion30",
+          "candidate_order": 5,
+          "smoothing": 12.0,
+          "fusion_weight": 0.3,
+          "metric": {
+            "rows": 2026,
+            "coverage": 1.0,
+            "accuracy": 0.83218164,
+            "macro_f1": 0.81697408,
+            "balanced_accuracy": 0.81052008,
+            "confusion": {
+              "tn": 551,
+              "fp": 211,
+              "fn": 129,
+              "tp": 1135
+            },
+            "predicted_positive": 1346,
+            "threshold": 0.5
+          }
+        },
+        {
+          "candidate": "policy_a12_fusion50",
+          "candidate_order": 6,
+          "smoothing": 12.0,
+          "fusion_weight": 0.5,
+          "metric": {
+            "rows": 2026,
+            "coverage": 1.0,
+            "accuracy": 0.83267522,
+            "macro_f1": 0.81664791,
+            "balanced_accuracy": 0.80909146,
+            "confusion": {
+              "tn": 544,
+              "fp": 218,
+              "fn": 121,
+              "tp": 1143
+            },
+            "predicted_positive": 1361,
+            "threshold": 0.5
+          }
+        }
+      ],
+      "outer_policy_transform": {
+        "papers": 52,
+        "rows": 60,
+        "mean_confidence": 0.65397524,
+        "zero_confidence_rows": 2,
+        "mean_supported_families_per_paper": 4.61538462
+      },
+      "outer_test_labels_received_by_run_fold": false
+    }
+  ],
+  "fold_metrics": [
+    {
+      "fold": 1,
+      "bibliographic_policy_fusion": {
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.93333333,
+        "macro_f1": 0.925,
+        "balanced_accuracy": 0.925,
+        "confusion": {
+          "tn": 18,
+          "fp": 2,
+          "fn": 2,
+          "tp": 38
+        },
+        "predicted_positive": 40,
+        "threshold": 0.5
+      },
+      "semantic_hgb": {
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.9,
+        "macro_f1": 0.89010989,
+        "balanced_accuracy": 0.9,
+        "confusion": {
+          "tn": 18,
+          "fp": 2,
+          "fn": 4,
+          "tp": 36
+        },
+        "predicted_positive": 38,
+        "threshold": 0.5
+      },
+      "policy_only_diagnostic": {
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.66666667,
+        "macro_f1": 0.4,
+        "balanced_accuracy": 0.5,
+        "confusion": {
+          "tn": 0,
+          "fp": 20,
+          "fn": 0,
+          "tp": 40
+        },
+        "predicted_positive": 60,
+        "threshold": 0.5
+      }
+    },
+    {
+      "fold": 2,
+      "bibliographic_policy_fusion": {
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.86666667,
+        "macro_f1": 0.85645933,
+        "balanced_accuracy": 0.85076381,
+        "confusion": {
+          "tn": 18,
+          "fp": 5,
+          "fn": 3,
+          "tp": 34
+        },
+        "predicted_positive": 39,
+        "threshold": 0.5
+      },
+      "semantic_hgb": {
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.86666667,
+        "macro_f1": 0.85645933,
+        "balanced_accuracy": 0.85076381,
+        "confusion": {
+          "tn": 18,
+          "fp": 5,
+          "fn": 3,
+          "tp": 34
+        },
+        "predicted_positive": 39,
+        "threshold": 0.5
+      },
+      "policy_only_diagnostic": {
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.61666667,
+        "macro_f1": 0.3814433,
+        "balanced_accuracy": 0.5,
+        "confusion": {
+          "tn": 0,
+          "fp": 23,
+          "fn": 0,
+          "tp": 37
+        },
+        "predicted_positive": 60,
+        "threshold": 0.5
+      }
+    },
+    {
+      "fold": 3,
+      "bibliographic_policy_fusion": {
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.76666667,
+        "macro_f1": 0.74880383,
+        "balanced_accuracy": 0.74747475,
+        "confusion": {
+          "tn": 15,
+          "fp": 12,
+          "fn": 2,
+          "tp": 31
+        },
+        "predicted_positive": 43,
+        "threshold": 0.5
+      },
+      "semantic_hgb": {
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.78333333,
+        "macro_f1": 0.76888889,
+        "balanced_accuracy": 0.76599327,
+        "confusion": {
+          "tn": 16,
+          "fp": 11,
+          "fn": 2,
+          "tp": 31
+        },
+        "predicted_positive": 42,
+        "threshold": 0.5
+      },
+      "policy_only_diagnostic": {
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.56666667,
+        "macro_f1": 0.39440994,
+        "balanced_accuracy": 0.51851852,
+        "confusion": {
+          "tn": 1,
+          "fp": 26,
+          "fn": 0,
+          "tp": 33
+        },
+        "predicted_positive": 59,
+        "threshold": 0.5
+      }
+    },
+    {
+      "fold": 4,
+      "bibliographic_policy_fusion": {
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.9,
+        "macro_f1": 0.89819005,
+        "balanced_accuracy": 0.89819005,
+        "confusion": {
+          "tn": 23,
+          "fp": 3,
+          "fn": 3,
+          "tp": 31
+        },
+        "predicted_positive": 34,
+        "threshold": 0.5
+      },
+      "semantic_hgb": {
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.9,
+        "macro_f1": 0.89819005,
+        "balanced_accuracy": 0.89819005,
+        "confusion": {
+          "tn": 23,
+          "fp": 3,
+          "fn": 3,
+          "tp": 31
+        },
+        "predicted_positive": 34,
+        "threshold": 0.5
+      },
+      "policy_only_diagnostic": {
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.56666667,
+        "macro_f1": 0.36170213,
+        "balanced_accuracy": 0.5,
+        "confusion": {
+          "tn": 0,
+          "fp": 26,
+          "fn": 0,
+          "tp": 34
+        },
+        "predicted_positive": 60,
+        "threshold": 0.5
+      }
+    },
+    {
+      "fold": 5,
+      "bibliographic_policy_fusion": {
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.9,
+        "macro_f1": 0.86024845,
+        "balanced_accuracy": 0.86024845,
+        "confusion": {
+          "tn": 11,
+          "fp": 3,
+          "fn": 3,
+          "tp": 43
+        },
+        "predicted_positive": 46,
+        "threshold": 0.5
+      },
+      "semantic_hgb": {
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.91666667,
+        "macro_f1": 0.88632058,
+        "balanced_accuracy": 0.89596273,
+        "confusion": {
+          "tn": 12,
+          "fp": 2,
+          "fn": 3,
+          "tp": 43
+        },
+        "predicted_positive": 45,
+        "threshold": 0.5
+      },
+      "policy_only_diagnostic": {
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.78333333,
+        "macro_f1": 0.5047619,
+        "balanced_accuracy": 0.53571429,
+        "confusion": {
+          "tn": 1,
+          "fp": 13,
+          "fn": 0,
+          "tp": 46
+        },
+        "predicted_positive": 59,
+        "threshold": 0.5
+      }
+    }
+  ],
+  "primary_full_coverage_result": {
+    "strategy": "inner-selected bibliographic policy fusion",
+    "rows": 300,
+    "coverage": 1.0,
+    "accuracy": 0.87333333,
+    "macro_f1": 0.86018446,
+    "balanced_accuracy": 0.85215311,
+    "confusion": {
+      "tn": 85,
+      "fp": 25,
+      "fn": 13,
+      "tp": 177
+    },
+    "predicted_positive": 202,
+    "threshold": 0.5,
+    "folds": [
+      {
+        "fold": 1,
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.93333333,
+        "macro_f1": 0.925,
+        "balanced_accuracy": 0.925,
+        "confusion": {
+          "tn": 18,
+          "fp": 2,
+          "fn": 2,
+          "tp": 38
+        },
+        "predicted_positive": 40,
+        "threshold": 0.5
+      },
+      {
+        "fold": 2,
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.86666667,
+        "macro_f1": 0.85645933,
+        "balanced_accuracy": 0.85076381,
+        "confusion": {
+          "tn": 18,
+          "fp": 5,
+          "fn": 3,
+          "tp": 34
+        },
+        "predicted_positive": 39,
+        "threshold": 0.5
+      },
+      {
+        "fold": 3,
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.76666667,
+        "macro_f1": 0.74880383,
+        "balanced_accuracy": 0.74747475,
+        "confusion": {
+          "tn": 15,
+          "fp": 12,
+          "fn": 2,
+          "tp": 31
+        },
+        "predicted_positive": 43,
+        "threshold": 0.5
+      },
+      {
+        "fold": 4,
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.9,
+        "macro_f1": 0.89819005,
+        "balanced_accuracy": 0.89819005,
+        "confusion": {
+          "tn": 23,
+          "fp": 3,
+          "fn": 3,
+          "tp": 31
+        },
+        "predicted_positive": 34,
+        "threshold": 0.5
+      },
+      {
+        "fold": 5,
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.9,
+        "macro_f1": 0.86024845,
+        "balanced_accuracy": 0.86024845,
+        "confusion": {
+          "tn": 11,
+          "fp": 3,
+          "fn": 3,
+          "tp": 43
+        },
+        "predicted_positive": 46,
+        "threshold": 0.5
+      }
+    ]
+  },
+  "semantic_hgb_reference": {
+    "rows": 300,
+    "coverage": 1.0,
+    "accuracy": 0.87333333,
+    "macro_f1": 0.86140829,
+    "balanced_accuracy": 0.85598086,
+    "confusion": {
+      "tn": 87,
+      "fp": 23,
+      "fn": 15,
+      "tp": 175
+    },
+    "predicted_positive": 198,
+    "threshold": 0.5,
+    "folds": [
+      {
+        "fold": 1,
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.9,
+        "macro_f1": 0.89010989,
+        "balanced_accuracy": 0.9,
+        "confusion": {
+          "tn": 18,
+          "fp": 2,
+          "fn": 4,
+          "tp": 36
+        },
+        "predicted_positive": 38,
+        "threshold": 0.5
+      },
+      {
+        "fold": 2,
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.86666667,
+        "macro_f1": 0.85645933,
+        "balanced_accuracy": 0.85076381,
+        "confusion": {
+          "tn": 18,
+          "fp": 5,
+          "fn": 3,
+          "tp": 34
+        },
+        "predicted_positive": 39,
+        "threshold": 0.5
+      },
+      {
+        "fold": 3,
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.78333333,
+        "macro_f1": 0.76888889,
+        "balanced_accuracy": 0.76599327,
+        "confusion": {
+          "tn": 16,
+          "fp": 11,
+          "fn": 2,
+          "tp": 31
+        },
+        "predicted_positive": 42,
+        "threshold": 0.5
+      },
+      {
+        "fold": 4,
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.9,
+        "macro_f1": 0.89819005,
+        "balanced_accuracy": 0.89819005,
+        "confusion": {
+          "tn": 23,
+          "fp": 3,
+          "fn": 3,
+          "tp": 31
+        },
+        "predicted_positive": 34,
+        "threshold": 0.5
+      },
+      {
+        "fold": 5,
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.91666667,
+        "macro_f1": 0.88632058,
+        "balanced_accuracy": 0.89596273,
+        "confusion": {
+          "tn": 12,
+          "fp": 2,
+          "fn": 3,
+          "tp": 43
+        },
+        "predicted_positive": 45,
+        "threshold": 0.5
+      }
+    ]
+  },
+  "policy_only_diagnostic": {
+    "rows": 300,
+    "coverage": 1.0,
+    "accuracy": 0.64,
+    "macro_f1": 0.40720141,
+    "balanced_accuracy": 0.50909091,
+    "confusion": {
+      "tn": 2,
+      "fp": 108,
+      "fn": 0,
+      "tp": 190
+    },
+    "predicted_positive": 298,
+    "threshold": 0.5
+  },
+  "promotion_gate": {
+    "target_accuracy": 0.9,
+    "canonical_reference_accuracy": 0.87333333,
+    "observed_accuracy": 0.87333333,
+    "absolute_delta_from_canonical": 0.0,
+    "absolute_delta_from_recomputed_semantic": 0.0,
+    "passed": false,
+    "decision": "EXACT300_TARGET_NOT_REACHED"
+  },
+  "artifacts": {
+    "feature_freeze": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/bibliographic_policy_model_v1/feature_freeze.json",
+      "sha256": "666ff5f903658734a83a5496fbe1b4b5b96ef2bf136acc7593b05081201fdce1"
+    },
+    "oof_probabilities": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/bibliographic_policy_model_v1/oof_probabilities.npz",
+      "sha256": "abd56e889e7400322334d91d94a87cf005b466bb4d14f9f0d7e002401aa3b4d2",
+      "rows_per_array": 300,
+      "contains_labels": false,
+      "contains_identifiers": false,
+      "arrays": [
+        "bibliographic_policy_fusion",
+        "policy_confidence",
+        "policy_probability",
+        "semantic_hgb"
+      ]
+    },
+    "implementation": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/experiment_r3_exact300_bibliographic_policy.py",
+      "sha256": "3de26759947feacd53379e5029d832c3d26539c735aeec407a5e21a7dca82f02"
+    }
+  }
+}

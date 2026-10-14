@@ -1,0 +1,407 @@
+{
+  "schema_version": "rockmag_multitarget_pilot_identity_v1",
+  "selected_refnos": [
+    "1152",
+    "3434",
+    "3765",
+    "3774",
+    "3792",
+    "4168",
+    "4181",
+    "4298",
+    "4324",
+    "4339"
+  ],
+  "selection_rationale": "Representative multi-target papers with local parsed full text; includes mixed target-specific ROCKMAG presence, copied paper-level metadata, carrier variation, and historical exceptions.",
+  "scoring_boundary": {
+    "allowed": [
+      "REFNO",
+      "RESULTNO",
+      "ROCKUNITNO",
+      "ROCKNAME",
+      "data/parsed_mds/<REFNO>.txt"
+    ],
+    "forbidden_during_prediction": [
+      "data/source_metadata/PMAGRESULT.xlsx",
+      "data/targets.xlsx::R3",
+      "prior predictions",
+      "evaluation reports"
+    ]
+  },
+  "papers": 10,
+  "targets": 62,
+  "identities": [
+    {
+      "REFNO": "1152",
+      "RESULTNO": "29",
+      "ROCKUNITNO": "22",
+      "ROCKNAME": "Armorican redbeds"
+    },
+    {
+      "REFNO": "1152",
+      "RESULTNO": "30",
+      "ROCKUNITNO": "22",
+      "ROCKNAME": "Armorican redbeds"
+    },
+    {
+      "REFNO": "1152",
+      "RESULTNO": "31",
+      "ROCKUNITNO": "23",
+      "ROCKNAME": "Erquy spillite series"
+    },
+    {
+      "REFNO": "1152",
+      "RESULTNO": "32",
+      "ROCKUNITNO": "24",
+      "ROCKNAME": "Tregastel Ploumanac'h granite"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8719",
+      "ROCKUNITNO": "7034",
+      "ROCKNAME": "West Branch Volcanics"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8720",
+      "ROCKUNITNO": "7035",
+      "ROCKNAME": "Masterson Sandstone"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8721",
+      "ROCKUNITNO": "7036",
+      "ROCKNAME": "Lynott Formation"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8722",
+      "ROCKUNITNO": "7037",
+      "ROCKNAME": "Amos Formation"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8723",
+      "ROCKUNITNO": "7038",
+      "ROCKNAME": "Balbirini Dolomite, lower part"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8724",
+      "ROCKUNITNO": "7039",
+      "ROCKNAME": "Balbirini Dolomite, upper part"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8725",
+      "ROCKUNITNO": "7040",
+      "ROCKNAME": "Peters Creek Volcanics, upper part"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8726",
+      "ROCKUNITNO": "7041",
+      "ROCKNAME": "Buddawadda Basalt (intrusives)"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8727",
+      "ROCKUNITNO": "7042",
+      "ROCKNAME": "Buddawadda Basalt"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8728",
+      "ROCKUNITNO": "7043",
+      "ROCKNAME": "Fish River Formation (Pff1)"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8729",
+      "ROCKUNITNO": "7044",
+      "ROCKNAME": "Fish River Formation (Pff2)"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8730",
+      "ROCKUNITNO": "7045",
+      "ROCKNAME": "Mt Les Siltstone"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8731",
+      "ROCKUNITNO": "7046",
+      "ROCKNAME": "Lochness Formation"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8732",
+      "ROCKUNITNO": "7046",
+      "ROCKNAME": "Lochness Formation"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8733",
+      "ROCKUNITNO": "7047",
+      "ROCKNAME": "Fiery Creek Formation"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8734",
+      "ROCKUNITNO": "7047",
+      "ROCKNAME": "Fiery Creek Formation"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8735",
+      "ROCKUNITNO": "7048",
+      "ROCKNAME": "Gunpowder Creek Formation"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8736",
+      "ROCKUNITNO": "7048",
+      "ROCKNAME": "Gunpowder Creek Formation"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8737",
+      "ROCKUNITNO": "7048",
+      "ROCKNAME": "Gunpowder Creek Formation"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8738",
+      "ROCKUNITNO": "7049",
+      "ROCKNAME": "Paradise Creek Formation"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8739",
+      "ROCKUNITNO": "7050",
+      "ROCKNAME": "Esperanza Formation"
+    },
+    {
+      "REFNO": "3434",
+      "RESULTNO": "8740",
+      "ROCKUNITNO": "7051",
+      "ROCKNAME": "Lawn Hill Formation"
+    },
+    {
+      "REFNO": "3765",
+      "RESULTNO": "9400",
+      "ROCKUNITNO": "7638",
+      "ROCKNAME": "Allanbridge Formation"
+    },
+    {
+      "REFNO": "3765",
+      "RESULTNO": "10019",
+      "ROCKUNITNO": "8244",
+      "ROCKNAME": "Westonaria Basalts"
+    },
+    {
+      "REFNO": "3774",
+      "RESULTNO": "9410",
+      "ROCKUNITNO": "7801",
+      "ROCKNAME": "Modipe Gabbro"
+    },
+    {
+      "REFNO": "3774",
+      "RESULTNO": "9411",
+      "ROCKUNITNO": "7801",
+      "ROCKNAME": "Modipe Gabbro"
+    },
+    {
+      "REFNO": "3792",
+      "RESULTNO": "9430",
+      "ROCKUNITNO": "7666",
+      "ROCKNAME": "Y1 Dyke"
+    },
+    {
+      "REFNO": "3792",
+      "RESULTNO": "9431",
+      "ROCKUNITNO": "7667",
+      "ROCKNAME": "Y2 Dyke"
+    },
+    {
+      "REFNO": "3792",
+      "RESULTNO": "9432",
+      "ROCKUNITNO": "7668",
+      "ROCKNAME": "Falun Dyke"
+    },
+    {
+      "REFNO": "3792",
+      "RESULTNO": "9433",
+      "ROCKUNITNO": "7669",
+      "ROCKNAME": "MEAN 946-935 Ma Swedish Dolerites"
+    },
+    {
+      "REFNO": "3792",
+      "RESULTNO": "9434",
+      "ROCKUNITNO": "7670",
+      "ROCKNAME": "Norrkoping Dykes"
+    },
+    {
+      "REFNO": "3792",
+      "RESULTNO": "9435",
+      "ROCKUNITNO": "7671",
+      "ROCKNAME": "Rejmyre Dyke"
+    },
+    {
+      "REFNO": "4168",
+      "RESULTNO": "10005",
+      "ROCKUNITNO": "8230",
+      "ROCKNAME": "Kopparnäs Dykes"
+    },
+    {
+      "REFNO": "4168",
+      "RESULTNO": "10006",
+      "ROCKUNITNO": "8231",
+      "ROCKNAME": "Ragunda Dykes, Group 2+host"
+    },
+    {
+      "REFNO": "4168",
+      "RESULTNO": "10007",
+      "ROCKUNITNO": "8232",
+      "ROCKNAME": "Ragunda Dykes, Group 1"
+    },
+    {
+      "REFNO": "4168",
+      "RESULTNO": "10008",
+      "ROCKUNITNO": "8233",
+      "ROCKNAME": "Strömsbro Rapakivi Complex"
+    },
+    {
+      "REFNO": "4168",
+      "RESULTNO": "10009",
+      "ROCKUNITNO": "8234",
+      "ROCKNAME": "Strömsbro Dykes"
+    },
+    {
+      "REFNO": "4168",
+      "RESULTNO": "10010",
+      "ROCKUNITNO": "8235",
+      "ROCKNAME": "Rödö Rapakivi Complex"
+    },
+    {
+      "REFNO": "4168",
+      "RESULTNO": "10011",
+      "ROCKUNITNO": "8236",
+      "ROCKNAME": "Rödö Dykes"
+    },
+    {
+      "REFNO": "4168",
+      "RESULTNO": "10012",
+      "ROCKUNITNO": "8237",
+      "ROCKNAME": "Noran Rapakivi Complex"
+    },
+    {
+      "REFNO": "4181",
+      "RESULTNO": "10029",
+      "ROCKUNITNO": "8254",
+      "ROCKNAME": "Bull Arm Formation, Bonavista"
+    },
+    {
+      "REFNO": "4181",
+      "RESULTNO": "10030",
+      "ROCKUNITNO": "8255",
+      "ROCKNAME": "Crown Hill Formation"
+    },
+    {
+      "REFNO": "4298",
+      "RESULTNO": "10189",
+      "ROCKUNITNO": "8409",
+      "ROCKNAME": "Gzhelian Sediments"
+    },
+    {
+      "REFNO": "4298",
+      "RESULTNO": "10190",
+      "ROCKUNITNO": "8410",
+      "ROCKNAME": "Visean Sediments"
+    },
+    {
+      "REFNO": "4298",
+      "RESULTNO": "10191",
+      "ROCKUNITNO": "8410",
+      "ROCKNAME": "Visean Sediments"
+    },
+    {
+      "REFNO": "4298",
+      "RESULTNO": "10192",
+      "ROCKUNITNO": "8411",
+      "ROCKNAME": "Visean Sediments, Priksha River"
+    },
+    {
+      "REFNO": "4298",
+      "RESULTNO": "10193",
+      "ROCKUNITNO": "8411",
+      "ROCKNAME": "Visean Sediments, Priksha River"
+    },
+    {
+      "REFNO": "4298",
+      "RESULTNO": "10194",
+      "ROCKUNITNO": "8411",
+      "ROCKNAME": "Visean Sediments, Priksha River"
+    },
+    {
+      "REFNO": "4324",
+      "RESULTNO": "10236",
+      "ROCKUNITNO": "8453",
+      "ROCKNAME": "Kiuruvesi Gabbrodiorite"
+    },
+    {
+      "REFNO": "4324",
+      "RESULTNO": "10237",
+      "ROCKUNITNO": "8454",
+      "ROCKNAME": "Ylivieska Gabbro"
+    },
+    {
+      "REFNO": "4324",
+      "RESULTNO": "10238",
+      "ROCKUNITNO": "8455",
+      "ROCKNAME": "Mertuanoja Gabbro"
+    },
+    {
+      "REFNO": "4324",
+      "RESULTNO": "10239",
+      "ROCKUNITNO": "8456",
+      "ROCKNAME": "Svecofennian Gabbros Combined"
+    },
+    {
+      "REFNO": "4324",
+      "RESULTNO": "10240",
+      "ROCKUNITNO": "8457",
+      "ROCKNAME": "Jalokoski Gabbro"
+    },
+    {
+      "REFNO": "4324",
+      "RESULTNO": "10241",
+      "ROCKUNITNO": "8458",
+      "ROCKNAME": "Nilsiä Lamprophyre Dyke"
+    },
+    {
+      "REFNO": "4324",
+      "RESULTNO": "10242",
+      "ROCKUNITNO": "8459",
+      "ROCKNAME": "Nilsiä Microtonalite Dykes"
+    },
+    {
+      "REFNO": "4339",
+      "RESULTNO": "10263",
+      "ROCKUNITNO": "8479",
+      "ROCKNAME": "Northeastern Brazil Magmatism-1"
+    },
+    {
+      "REFNO": "4339",
+      "RESULTNO": "10264",
+      "ROCKUNITNO": "8480",
+      "ROCKNAME": "Northeastern Brazil Magmatism-2"
+    },
+    {
+      "REFNO": "4339",
+      "RESULTNO": "10265",
+      "ROCKUNITNO": "8481",
+      "ROCKNAME": "Ceara-Mirim Dikes II"
+    }
+  ]
+}

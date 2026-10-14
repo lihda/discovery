@@ -1,0 +1,88 @@
+{
+  "criterion_practice_comparison_counts": {
+    "AGREE": 553,
+    "INCOMPLETE_NORMATIVE_CHAIN": 118,
+    "NO_PROXY_SUPPORT": 1062,
+    "UNKNOWN": 740
+  },
+  "criterion_practice_conflict_rows": 118,
+  "criterion_practice_unknown_rows": 740,
+  "forbidden_runtime_scoring_sources": [
+    "PMAGRESULT",
+    "ROCKUNIT",
+    "R3/R5/R7 labels",
+    "evaluation results",
+    "prior predictions",
+    "record-level answer mappings"
+  ],
+  "inputs": {
+    "artifact": {
+      "artifact_class": "historically_supervised_distillation",
+      "content_sha256": "8973c56845dc39e7f05f7c2bfdf795e370aaa019c1e8cedb14f12ffe08282890",
+      "file_sha256": "33dbebdffaf935462fdc217fc1c2e0c03b0c0551928642c264eac8c3cbcd8ce6",
+      "label_supervision": true,
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/calibration/r3_rockmag_text_distillation_v1.json",
+      "schema_version": "r3_rockmag_text_distillation_v1"
+    },
+    "identity_manifest": {
+      "columns_read": [
+        "REFNO",
+        "RESULTNO",
+        "ROCKNAME"
+      ],
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_distilled_training_preflight/identity.xlsx",
+      "rows": 2473,
+      "sha256": "7e45020df48b866096ac4bf567102f6a73ce3c12759b19c8550f78de299c72f1",
+      "unique_refnos": 1292
+    },
+    "page_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/mineru_cache_all_hard_risk.jsonl",
+      "sha256": "f8ec25c1148c04112ccfc75076743803417effbb833834a136c714dff4e146d7",
+      "unique_refnos": 1292
+    }
+  },
+  "normative_policy_counts": {
+    "1": 553,
+    "ABSTAIN": 1920
+  },
+  "outcome_counts": {
+    "NEGATIVE": 1062,
+    "POSITIVE": 671,
+    "UNKNOWN": 740
+  },
+  "output": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_scope_mineru_predictions.jsonl",
+    "rows": 2473,
+    "sha256": "6173d22a7da16e3d7245dea735d97b2ac803acfa90b4d09ef87125742159fd97"
+  },
+  "retrieval_policy": {
+    "per_category_limit": 12,
+    "total_limit": 30
+  },
+  "rockmag_proxy_policy_counts": {
+    "0": 1062,
+    "1": 671,
+    "ABSTAIN": 740
+  },
+  "runtime_boundary": {
+    "evaluation_results_read": false,
+    "identity_cache_sets_equal": true,
+    "input_files_unchanged_during_scoring": true,
+    "labels_read": false,
+    "page_and_cache_hashes_verified": true,
+    "prior_predictions_read": false,
+    "source_metadata_tables_read": false
+  },
+  "runtime_scoring_sources": [
+    "identity manifest: REFNO/RESULTNO/ROCKNAME",
+    "original paper page text",
+    "frozen historically supervised aggregate taxonomy"
+  ],
+  "schema_version": "r3_distilled_prediction_summary_v1",
+  "score_counts": {
+    "0": 1802,
+    "1": 671
+  },
+  "status": "PASS",
+  "workflow_profile": "rockmag_text_distilled_v1"
+}

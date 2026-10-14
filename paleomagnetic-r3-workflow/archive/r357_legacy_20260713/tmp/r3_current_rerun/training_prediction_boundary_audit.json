@@ -1,0 +1,56 @@
+{
+  "schema_version": "r357_strict_scoring_boundary_audit_v1",
+  "status": "PASS",
+  "passed": true,
+  "policy": {
+    "allowed_prediction_sources": [
+      "strict identity manifest",
+      "original paper text",
+      "provenanced record-independent knowledge artifacts"
+    ],
+    "forbidden_runtime_source_terms": [
+      "PMAGRESULT",
+      "ROCKUNIT",
+      "evaluation",
+      "label",
+      "previous workbook"
+    ],
+    "forbidden_r5_model": "r5_paper_text_model_v1",
+    "source_metadata_must_be_empty": true,
+    "knowledge_record_identity_keys_forbidden": [
+      "REFNO",
+      "RESULTNO"
+    ],
+    "knowledge_label_supervision_must_be_false": true,
+    "knowledge_provenance_required": true
+  },
+  "inputs": {
+    "predictions": [
+      "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_current_rerun/training_exclusive_scope.jsonl",
+      "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_current_rerun/training_sentence_only.jsonl"
+    ],
+    "knowledge_artifacts": []
+  },
+  "summary": {
+    "files": 2,
+    "prediction_files": 2,
+    "knowledge_artifacts": 0,
+    "violations": 0,
+    "violations_by_code": {}
+  },
+  "files": [
+    {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_current_rerun/training_exclusive_scope.jsonl",
+      "role": "prediction",
+      "records": 2473,
+      "violations": 0
+    },
+    {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_current_rerun/training_sentence_only.jsonl",
+      "role": "prediction",
+      "records": 2473,
+      "violations": 0
+    }
+  ],
+  "violations": []
+}

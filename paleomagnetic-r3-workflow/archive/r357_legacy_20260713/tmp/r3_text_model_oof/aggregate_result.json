@@ -1,0 +1,1099 @@
+{
+  "schema_version": "r3_training_grouped_oof_text_experiment_v1",
+  "status": "complete",
+  "scope": "development-only fixed training partition",
+  "guardrails": {
+    "grouping": "REFNO GroupKFold 5 folds",
+    "labels": "R3 dereferenced only for fixed training identity rows",
+    "runtime_feature_sources": [
+      "training identity ROCKNAME used only to select target neighborhoods",
+      "original-paper text from MinerU-assisted page cache",
+      "frozen R3 taxonomy runtime patterns"
+    ],
+    "identifier_feature_exclusion": [
+      "REFNO is grouping/alignment only and is never inserted into text",
+      "RESULTNO is label alignment only and is never inserted into text"
+    ],
+    "forbidden_sources_not_read": [
+      "held-out R3 labels",
+      "PMAGRESULT",
+      "ROCKMAG",
+      "old predictions/evaluations"
+    ]
+  },
+  "inputs": {
+    "targets": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/targets.xlsx",
+      "sha256": "378c17338f3b5cfeff3ccd496894e0f6183f747119b2624c4a9cefaeda02501e"
+    },
+    "training_identity": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_distilled_training_preflight/identity.xlsx",
+      "sha256": "7e45020df48b866096ac4bf567102f6a73ce3c12759b19c8550f78de299c72f1"
+    },
+    "page_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/mineru_cache_all_hard_risk.jsonl",
+      "sha256": "f8ec25c1148c04112ccfc75076743803417effbb833834a136c714dff4e146d7"
+    },
+    "frozen_taxonomy": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/calibration/r3_rockmag_text_distillation_v1.json",
+      "sha256": "149df539a937678c8204aa6d6e60e77bd901e4a77975d26caa5362749aa18ad4"
+    }
+  },
+  "data": {
+    "rows": 2473,
+    "paper_groups": 1292,
+    "label_counts": {
+      "0": 950,
+      "1": 1523
+    },
+    "papers_with_empty_text": 114,
+    "rows_with_empty_paper_text": 288,
+    "rows_with_empty_target_neighborhood": 288,
+    "taxonomy_runtime_pattern_count": 49
+  },
+  "cross_validation": {
+    "type": "GroupKFold",
+    "n_splits": 5,
+    "group": "REFNO",
+    "paper_overlap_between_train_and_test": false
+  },
+  "models": {
+    "target_word": {
+      "feature_view": "target_neighborhood",
+      "vectorizer": {
+        "analyzer": "word",
+        "ngram_range": [
+          1,
+          2
+        ],
+        "min_df": 2,
+        "max_df": 0.995,
+        "max_features": 80000,
+        "sublinear_tf": true,
+        "strip_accents": "unicode"
+      },
+      "classifier": {
+        "type": "LogisticRegression",
+        "C": 2.0,
+        "solver": "liblinear",
+        "class_weight": null
+      },
+      "aggregate": {
+        "accuracy": 0.72260412,
+        "macro_f1": 0.66369776,
+        "balanced_accuracy": 0.6611252,
+        "confusion": {
+          "tn": 376,
+          "fp": 574,
+          "fn": 112,
+          "tp": 1411
+        },
+        "predicted_positive": 1985,
+        "threshold": 0.5
+      },
+      "folds": [
+        {
+          "accuracy": 0.73535354,
+          "macro_f1": 0.66248536,
+          "balanced_accuracy": 0.65451976,
+          "confusion": {
+            "tn": 67,
+            "fp": 105,
+            "fn": 26,
+            "tp": 297
+          },
+          "predicted_positive": 402,
+          "threshold": 0.5,
+          "fold": 1,
+          "train_rows": 1978,
+          "test_rows": 495,
+          "train_groups": 1036,
+          "test_groups": 256,
+          "vocabulary_size": 80000
+        },
+        {
+          "accuracy": 0.7030303,
+          "macro_f1": 0.63935052,
+          "balanced_accuracy": 0.64161205,
+          "confusion": {
+            "tn": 70,
+            "fp": 123,
+            "fn": 24,
+            "tp": 278
+          },
+          "predicted_positive": 401,
+          "threshold": 0.5,
+          "fold": 2,
+          "train_rows": 1978,
+          "test_rows": 495,
+          "train_groups": 1033,
+          "test_groups": 259,
+          "vocabulary_size": 80000
+        },
+        {
+          "accuracy": 0.73939394,
+          "macro_f1": 0.69865645,
+          "balanced_accuracy": 0.70108007,
+          "confusion": {
+            "tn": 92,
+            "fp": 120,
+            "fn": 9,
+            "tp": 274
+          },
+          "predicted_positive": 394,
+          "threshold": 0.5,
+          "fold": 3,
+          "train_rows": 1978,
+          "test_rows": 495,
+          "train_groups": 1033,
+          "test_groups": 259,
+          "vocabulary_size": 80000
+        },
+        {
+          "accuracy": 0.72064777,
+          "macro_f1": 0.68312137,
+          "balanced_accuracy": 0.67700186,
+          "confusion": {
+            "tn": 93,
+            "fp": 94,
+            "fn": 44,
+            "tp": 263
+          },
+          "predicted_positive": 357,
+          "threshold": 0.5,
+          "fold": 4,
+          "train_rows": 1979,
+          "test_rows": 494,
+          "train_groups": 1033,
+          "test_groups": 259,
+          "vocabulary_size": 80000
+        },
+        {
+          "accuracy": 0.7145749,
+          "macro_f1": 0.62146828,
+          "balanced_accuracy": 0.6305509,
+          "confusion": {
+            "tn": 54,
+            "fp": 132,
+            "fn": 9,
+            "tp": 299
+          },
+          "predicted_positive": 431,
+          "threshold": 0.5,
+          "fold": 5,
+          "train_rows": 1979,
+          "test_rows": 494,
+          "train_groups": 1033,
+          "test_groups": 259,
+          "vocabulary_size": 80000
+        }
+      ]
+    },
+    "target_char": {
+      "feature_view": "target_neighborhood",
+      "vectorizer": {
+        "analyzer": "char_wb",
+        "ngram_range": [
+          3,
+          5
+        ],
+        "min_df": 2,
+        "max_features": 100000,
+        "sublinear_tf": true
+      },
+      "classifier": {
+        "type": "LogisticRegression",
+        "C": 2.0,
+        "solver": "liblinear",
+        "class_weight": null
+      },
+      "aggregate": {
+        "accuracy": 0.73230894,
+        "macro_f1": 0.68630943,
+        "balanced_accuracy": 0.68009331,
+        "confusion": {
+          "tn": 432,
+          "fp": 518,
+          "fn": 144,
+          "tp": 1379
+        },
+        "predicted_positive": 1897,
+        "threshold": 0.5
+      },
+      "folds": [
+        {
+          "accuracy": 0.72323232,
+          "macro_f1": 0.6551049,
+          "balanced_accuracy": 0.64794982,
+          "confusion": {
+            "tn": 69,
+            "fp": 103,
+            "fn": 34,
+            "tp": 289
+          },
+          "predicted_positive": 392,
+          "threshold": 0.5,
+          "fold": 1,
+          "train_rows": 1978,
+          "test_rows": 495,
+          "train_groups": 1036,
+          "test_groups": 256,
+          "vocabulary_size": 100000
+        },
+        {
+          "accuracy": 0.71515152,
+          "macro_f1": 0.662188,
+          "balanced_accuracy": 0.65996123,
+          "confusion": {
+            "tn": 79,
+            "fp": 114,
+            "fn": 27,
+            "tp": 275
+          },
+          "predicted_positive": 389,
+          "threshold": 0.5,
+          "fold": 2,
+          "train_rows": 1978,
+          "test_rows": 495,
+          "train_groups": 1033,
+          "test_groups": 259,
+          "vocabulary_size": 100000
+        },
+        {
+          "accuracy": 0.76969697,
+          "macro_f1": 0.74245107,
+          "balanced_accuracy": 0.73823255,
+          "confusion": {
+            "tn": 110,
+            "fp": 102,
+            "fn": 12,
+            "tp": 271
+          },
+          "predicted_positive": 373,
+          "threshold": 0.5,
+          "fold": 3,
+          "train_rows": 1978,
+          "test_rows": 495,
+          "train_groups": 1033,
+          "test_groups": 259,
+          "vocabulary_size": 100000
+        },
+        {
+          "accuracy": 0.74696356,
+          "macro_f1": 0.72238083,
+          "balanced_accuracy": 0.71698688,
+          "confusion": {
+            "tn": 111,
+            "fp": 76,
+            "fn": 49,
+            "tp": 258
+          },
+          "predicted_positive": 334,
+          "threshold": 0.5,
+          "fold": 4,
+          "train_rows": 1979,
+          "test_rows": 494,
+          "train_groups": 1033,
+          "test_groups": 259,
+          "vocabulary_size": 100000
+        },
+        {
+          "accuracy": 0.70647773,
+          "macro_f1": 0.63135656,
+          "balanced_accuracy": 0.63364055,
+          "confusion": {
+            "tn": 63,
+            "fp": 123,
+            "fn": 22,
+            "tp": 286
+          },
+          "predicted_positive": 409,
+          "threshold": 0.5,
+          "fold": 5,
+          "train_rows": 1979,
+          "test_rows": 494,
+          "train_groups": 1033,
+          "test_groups": 259,
+          "vocabulary_size": 100000
+        }
+      ]
+    },
+    "paper_word": {
+      "feature_view": "full_paper",
+      "vectorizer": {
+        "analyzer": "word",
+        "ngram_range": [
+          1,
+          2
+        ],
+        "min_df": 2,
+        "max_df": 0.995,
+        "max_features": 80000,
+        "sublinear_tf": true,
+        "strip_accents": "unicode"
+      },
+      "classifier": {
+        "type": "LogisticRegression",
+        "C": 2.0,
+        "solver": "liblinear",
+        "class_weight": null
+      },
+      "aggregate": {
+        "accuracy": 0.70885564,
+        "macro_f1": 0.64408048,
+        "balanced_accuracy": 0.64461658,
+        "confusion": {
+          "tn": 349,
+          "fp": 601,
+          "fn": 119,
+          "tp": 1404
+        },
+        "predicted_positive": 2005,
+        "threshold": 0.5
+      },
+      "folds": [
+        {
+          "accuracy": 0.73535354,
+          "macro_f1": 0.6640869,
+          "balanced_accuracy": 0.65587875,
+          "confusion": {
+            "tn": 68,
+            "fp": 104,
+            "fn": 27,
+            "tp": 296
+          },
+          "predicted_positive": 400,
+          "threshold": 0.5,
+          "fold": 1,
+          "train_rows": 1978,
+          "test_rows": 495,
+          "train_groups": 1036,
+          "test_groups": 256,
+          "vocabulary_size": 80000
+        },
+        {
+          "accuracy": 0.69494949,
+          "macro_f1": 0.6264263,
+          "balanced_accuracy": 0.63124936,
+          "confusion": {
+            "tn": 66,
+            "fp": 127,
+            "fn": 24,
+            "tp": 278
+          },
+          "predicted_positive": 405,
+          "threshold": 0.5,
+          "fold": 2,
+          "train_rows": 1978,
+          "test_rows": 495,
+          "train_groups": 1033,
+          "test_groups": 259,
+          "vocabulary_size": 80000
+        },
+        {
+          "accuracy": 0.71313131,
+          "macro_f1": 0.66043478,
+          "balanced_accuracy": 0.67041969,
+          "confusion": {
+            "tn": 79,
+            "fp": 133,
+            "fn": 9,
+            "tp": 274
+          },
+          "predicted_positive": 407,
+          "threshold": 0.5,
+          "fold": 3,
+          "train_rows": 1978,
+          "test_rows": 495,
+          "train_groups": 1033,
+          "test_groups": 259,
+          "vocabulary_size": 80000
+        },
+        {
+          "accuracy": 0.70445344,
+          "macro_f1": 0.66784563,
+          "balanced_accuracy": 0.66292742,
+          "confusion": {
+            "tn": 92,
+            "fp": 95,
+            "fn": 51,
+            "tp": 256
+          },
+          "predicted_positive": 351,
+          "threshold": 0.5,
+          "fold": 4,
+          "train_rows": 1979,
+          "test_rows": 494,
+          "train_groups": 1033,
+          "test_groups": 259,
+          "vocabulary_size": 80000
+        },
+        {
+          "accuracy": 0.69635628,
+          "macro_f1": 0.58487395,
+          "balanced_accuracy": 0.60529256,
+          "confusion": {
+            "tn": 44,
+            "fp": 142,
+            "fn": 8,
+            "tp": 300
+          },
+          "predicted_positive": 442,
+          "threshold": 0.5,
+          "fold": 5,
+          "train_rows": 1979,
+          "test_rows": 494,
+          "train_groups": 1033,
+          "test_groups": 259,
+          "vocabulary_size": 80000
+        }
+      ]
+    }
+  },
+  "fusion": {
+    "equal_weight": {
+      "accuracy": 0.72583906,
+      "macro_f1": 0.67108478,
+      "balanced_accuracy": 0.66711788,
+      "confusion": {
+        "tn": 393,
+        "fp": 557,
+        "fn": 121,
+        "tp": 1402
+      },
+      "predicted_positive": 1959,
+      "threshold": 0.5,
+      "weights": {
+        "target_word": 0.33333333,
+        "target_char": 0.33333333,
+        "paper_word": 0.33333333
+      }
+    },
+    "grid": {
+      "step": 0.1,
+      "candidate_count": 66,
+      "selection_scope": "post-hoc on training-partition OOF probabilities only",
+      "best_accuracy": {
+        "accuracy": 0.73716134,
+        "macro_f1": 0.68878652,
+        "balanced_accuracy": 0.68244877,
+        "confusion": {
+          "tn": 424,
+          "fp": 526,
+          "fn": 124,
+          "tp": 1399
+        },
+        "predicted_positive": 1925,
+        "threshold": 0.5,
+        "weights": {
+          "target_word": 0.3,
+          "target_char": 0.7,
+          "paper_word": 0.0
+        }
+      },
+      "best_macro_f1": {
+        "accuracy": 0.73594824,
+        "macro_f1": 0.68909725,
+        "balanced_accuracy": 0.68265197,
+        "confusion": {
+          "tn": 430,
+          "fp": 520,
+          "fn": 133,
+          "tp": 1390
+        },
+        "predicted_positive": 1910,
+        "threshold": 0.5,
+        "weights": {
+          "target_word": 0.1,
+          "target_char": 0.9,
+          "paper_word": 0.0
+        }
+      }
+    }
+  },
+  "taxonomy_count_experiment": {
+    "feature_scope": "label-free, deterministically recomputable from frozen taxonomy, ROCKNAME, and original-paper text",
+    "raw_paper_features": [
+      "method distinct concept count",
+      "method total hit count capped at 100",
+      "diagnostic distinct concept count",
+      "diagnostic total hit count capped at 100",
+      "carrier distinct concept count",
+      "carrier total hit count capped at 100"
+    ],
+    "raw_target_features": [
+      "count of ROCKNAME-derived target-pattern hits capped at 100"
+    ],
+    "binning": {
+      "distinct_count_upper_bounds": [
+        0,
+        1,
+        2,
+        3,
+        "4+"
+      ],
+      "hit_count_upper_bounds": [
+        0,
+        1,
+        2,
+        5,
+        10,
+        25,
+        "26+"
+      ],
+      "encoding": "fold-local one-hot encoding"
+    },
+    "feature_names": [
+      "method_distinct_bin",
+      "method_hits_bin",
+      "diagnostic_distinct_bin",
+      "diagnostic_hits_bin",
+      "carrier_distinct_bin",
+      "carrier_hits_bin",
+      "target_hits_bin"
+    ],
+    "observed_bin_counts": {
+      "method_distinct_bin": {
+        "0": 741,
+        "1": 494,
+        "2": 472,
+        "3": 341,
+        "4": 425
+      },
+      "method_hits_bin": {
+        "0": 741,
+        "1": 171,
+        "2": 109,
+        "3": 301,
+        "4": 430,
+        "5": 597,
+        "6": 124
+      },
+      "diagnostic_distinct_bin": {
+        "0": 1134,
+        "1": 759,
+        "2": 428,
+        "3": 137,
+        "4": 15
+      },
+      "diagnostic_hits_bin": {
+        "0": 1134,
+        "1": 342,
+        "2": 241,
+        "3": 393,
+        "4": 244,
+        "5": 114,
+        "6": 5
+      },
+      "carrier_distinct_bin": {
+        "0": 487,
+        "1": 296,
+        "2": 610,
+        "3": 564,
+        "4": 516
+      },
+      "carrier_hits_bin": {
+        "0": 487,
+        "1": 107,
+        "2": 136,
+        "3": 334,
+        "4": 391,
+        "5": 535,
+        "6": 483
+      },
+      "target_hits_bin": {
+        "0": 367,
+        "1": 14,
+        "2": 11,
+        "3": 53,
+        "4": 135,
+        "5": 357,
+        "6": 1536
+      }
+    },
+    "model": {
+      "type": "OneHotEncoder + LogisticRegression",
+      "C": 1.0,
+      "solver": "liblinear",
+      "class_weight": null,
+      "aggregate": {
+        "accuracy": 0.75899717,
+        "macro_f1": 0.74542531,
+        "balanced_accuracy": 0.74552269,
+        "confusion": {
+          "tn": 653,
+          "fp": 297,
+          "fn": 299,
+          "tp": 1224
+        },
+        "predicted_positive": 1521,
+        "threshold": 0.5
+      },
+      "folds": [
+        {
+          "accuracy": 0.76565657,
+          "macro_f1": 0.75669492,
+          "balanced_accuracy": 0.77966376,
+          "confusion": {
+            "tn": 142,
+            "fp": 30,
+            "fn": 86,
+            "tp": 237
+          },
+          "predicted_positive": 267,
+          "threshold": 0.5,
+          "fold": 1,
+          "train_rows": 1978,
+          "test_rows": 495,
+          "train_groups": 1036,
+          "test_groups": 256,
+          "encoded_feature_count": 43
+        },
+        {
+          "accuracy": 0.78181818,
+          "macro_f1": 0.76538637,
+          "balanced_accuracy": 0.76041416,
+          "confusion": {
+            "tn": 128,
+            "fp": 65,
+            "fn": 43,
+            "tp": 259
+          },
+          "predicted_positive": 324,
+          "threshold": 0.5,
+          "fold": 2,
+          "train_rows": 1978,
+          "test_rows": 495,
+          "train_groups": 1033,
+          "test_groups": 259,
+          "encoded_feature_count": 43
+        },
+        {
+          "accuracy": 0.72525253,
+          "macro_f1": 0.71649485,
+          "balanced_accuracy": 0.71474765,
+          "confusion": {
+            "tn": 136,
+            "fp": 76,
+            "fn": 60,
+            "tp": 223
+          },
+          "predicted_positive": 299,
+          "threshold": 0.5,
+          "fold": 3,
+          "train_rows": 1978,
+          "test_rows": 495,
+          "train_groups": 1033,
+          "test_groups": 259,
+          "encoded_feature_count": 43
+        },
+        {
+          "accuracy": 0.76923077,
+          "macro_f1": 0.75090234,
+          "balanced_accuracy": 0.74744378,
+          "confusion": {
+            "tn": 123,
+            "fp": 64,
+            "fn": 50,
+            "tp": 257
+          },
+          "predicted_positive": 321,
+          "threshold": 0.5,
+          "fold": 4,
+          "train_rows": 1979,
+          "test_rows": 494,
+          "train_groups": 1033,
+          "test_groups": 259,
+          "encoded_feature_count": 43
+        },
+        {
+          "accuracy": 0.75303644,
+          "macro_f1": 0.73642963,
+          "balanced_accuracy": 0.73593074,
+          "confusion": {
+            "tn": 124,
+            "fp": 62,
+            "fn": 60,
+            "tp": 248
+          },
+          "predicted_positive": 310,
+          "threshold": 0.5,
+          "fold": 5,
+          "train_rows": 1979,
+          "test_rows": 494,
+          "train_groups": 1033,
+          "test_groups": 259,
+          "encoded_feature_count": 43
+        }
+      ]
+    },
+    "target_char_weight_grid_fusion": {
+      "step": 0.1,
+      "candidate_count": 11,
+      "selection_scope": "post-hoc on training-partition OOF probabilities only",
+      "best_accuracy": {
+        "accuracy": 0.76182774,
+        "macro_f1": 0.74661237,
+        "balanced_accuracy": 0.74504855,
+        "confusion": {
+          "tn": 639,
+          "fp": 311,
+          "fn": 278,
+          "tp": 1245
+        },
+        "predicted_positive": 1556,
+        "threshold": 0.5,
+        "weights": {
+          "target_char": 0.3,
+          "taxonomy_count_logistic": 0.7
+        }
+      },
+      "best_macro_f1": {
+        "accuracy": 0.76182774,
+        "macro_f1": 0.74661237,
+        "balanced_accuracy": 0.74504855,
+        "confusion": {
+          "tn": 639,
+          "fp": 311,
+          "fn": 278,
+          "tp": 1245
+        },
+        "predicted_positive": 1556,
+        "threshold": 0.5,
+        "weights": {
+          "target_char": 0.3,
+          "taxonomy_count_logistic": 0.7
+        }
+      }
+    }
+  },
+  "nonlinear_knowledge_experiment": {
+    "feature_scope": "label-free counts recomputable from ROCKNAME, original-paper text, and the frozen taxonomy",
+    "row_feature_names": [
+      "method_distinct",
+      "method_hits",
+      "diagnostic_distinct",
+      "diagnostic_hits",
+      "carrier_distinct",
+      "carrier_hits",
+      "target_hits",
+      "paper_character_count"
+    ],
+    "paper_feature_names": [
+      "method_distinct",
+      "method_hits",
+      "diagnostic_distinct",
+      "diagnostic_hits",
+      "carrier_distinct",
+      "carrier_hits",
+      "paper_character_count"
+    ],
+    "model": {
+      "type": "GradientBoostingClassifier",
+      "n_estimators": 150,
+      "learning_rate": 0.04,
+      "max_depth": 1,
+      "row_min_samples_leaf": 10,
+      "paper_min_samples_leaf": 8
+    },
+    "row_model": {
+      "aggregate": {
+        "accuracy": 0.76870198,
+        "macro_f1": 0.75912939,
+        "balanced_accuracy": 0.76350071,
+        "confusion": {
+          "tn": 704,
+          "fp": 246,
+          "fn": 326,
+          "tp": 1197
+        },
+        "predicted_positive": 1443,
+        "threshold": 0.5
+      },
+      "folds": [
+        {
+          "accuracy": 0.77575758,
+          "macro_f1": 0.76877822,
+          "balanced_accuracy": 0.79691662,
+          "confusion": {
+            "tn": 149,
+            "fp": 23,
+            "fn": 88,
+            "tp": 235
+          },
+          "predicted_positive": 258,
+          "threshold": 0.5,
+          "fold": 1,
+          "train_rows": 1978,
+          "fit_rows": 1978,
+          "test_rows": 495,
+          "train_groups": 1036,
+          "test_groups": 256
+        },
+        {
+          "accuracy": 0.77777778,
+          "macro_f1": 0.76315377,
+          "balanced_accuracy": 0.75990804,
+          "confusion": {
+            "tn": 131,
+            "fp": 62,
+            "fn": 48,
+            "tp": 254
+          },
+          "predicted_positive": 316,
+          "threshold": 0.5,
+          "fold": 2,
+          "train_rows": 1978,
+          "fit_rows": 1978,
+          "test_rows": 495,
+          "train_groups": 1033,
+          "test_groups": 259
+        },
+        {
+          "accuracy": 0.74949495,
+          "macro_f1": 0.74612865,
+          "balanced_accuracy": 0.74837489,
+          "confusion": {
+            "tn": 157,
+            "fp": 55,
+            "fn": 69,
+            "tp": 214
+          },
+          "predicted_positive": 269,
+          "threshold": 0.5,
+          "fold": 3,
+          "train_rows": 1978,
+          "fit_rows": 1978,
+          "test_rows": 495,
+          "train_groups": 1033,
+          "test_groups": 259
+        },
+        {
+          "accuracy": 0.77125506,
+          "macro_f1": 0.75766127,
+          "balanced_accuracy": 0.75847864,
+          "confusion": {
+            "tn": 132,
+            "fp": 55,
+            "fn": 58,
+            "tp": 249
+          },
+          "predicted_positive": 304,
+          "threshold": 0.5,
+          "fold": 4,
+          "train_rows": 1979,
+          "fit_rows": 1979,
+          "test_rows": 494,
+          "train_groups": 1033,
+          "test_groups": 259
+        },
+        {
+          "accuracy": 0.76923077,
+          "macro_f1": 0.75719164,
+          "balanced_accuracy": 0.7606305,
+          "confusion": {
+            "tn": 135,
+            "fp": 51,
+            "fn": 63,
+            "tp": 245
+          },
+          "predicted_positive": 296,
+          "threshold": 0.5,
+          "fold": 5,
+          "train_rows": 1979,
+          "fit_rows": 1979,
+          "test_rows": 494,
+          "train_groups": 1033,
+          "test_groups": 259
+        }
+      ]
+    },
+    "paper_majority_model": {
+      "training_unit": "one majority-labelled row per training REFNO; test predictions remain row-aligned",
+      "aggregate": {
+        "accuracy": 0.77112818,
+        "macro_f1": 0.75696471,
+        "balanced_accuracy": 0.7557677,
+        "confusion": {
+          "tn": 655,
+          "fp": 295,
+          "fn": 271,
+          "tp": 1252
+        },
+        "predicted_positive": 1547,
+        "threshold": 0.5
+      },
+      "folds": [
+        {
+          "accuracy": 0.78787879,
+          "macro_f1": 0.7768595,
+          "balanced_accuracy": 0.79397365,
+          "confusion": {
+            "tn": 140,
+            "fp": 32,
+            "fn": 73,
+            "tp": 250
+          },
+          "predicted_positive": 282,
+          "threshold": 0.5,
+          "fold": 1,
+          "train_rows": 1978,
+          "fit_rows": 1036,
+          "test_rows": 495,
+          "train_groups": 1036,
+          "test_groups": 256
+        },
+        {
+          "accuracy": 0.7959596,
+          "macro_f1": 0.77876459,
+          "balanced_accuracy": 0.77200357,
+          "confusion": {
+            "tn": 128,
+            "fp": 65,
+            "fn": 36,
+            "tp": 266
+          },
+          "predicted_positive": 331,
+          "threshold": 0.5,
+          "fold": 2,
+          "train_rows": 1978,
+          "fit_rows": 1033,
+          "test_rows": 495,
+          "train_groups": 1033,
+          "test_groups": 259
+        },
+        {
+          "accuracy": 0.74343434,
+          "macro_f1": 0.73619498,
+          "balanced_accuracy": 0.73479065,
+          "confusion": {
+            "tn": 143,
+            "fp": 69,
+            "fn": 58,
+            "tp": 225
+          },
+          "predicted_positive": 294,
+          "threshold": 0.5,
+          "fold": 3,
+          "train_rows": 1978,
+          "fit_rows": 1033,
+          "test_rows": 495,
+          "train_groups": 1033,
+          "test_groups": 259
+        },
+        {
+          "accuracy": 0.75506073,
+          "macro_f1": 0.73196838,
+          "balanced_accuracy": 0.72663694,
+          "confusion": {
+            "tn": 114,
+            "fp": 73,
+            "fn": 48,
+            "tp": 259
+          },
+          "predicted_positive": 332,
+          "threshold": 0.5,
+          "fold": 4,
+          "train_rows": 1979,
+          "fit_rows": 1033,
+          "test_rows": 494,
+          "train_groups": 1033,
+          "test_groups": 259
+        },
+        {
+          "accuracy": 0.77327935,
+          "macro_f1": 0.75855327,
+          "balanced_accuracy": 0.75855327,
+          "confusion": {
+            "tn": 130,
+            "fp": 56,
+            "fn": 56,
+            "tp": 252
+          },
+          "predicted_positive": 308,
+          "threshold": 0.5,
+          "fold": 5,
+          "train_rows": 1979,
+          "fit_rows": 1033,
+          "test_rows": 494,
+          "train_groups": 1033,
+          "test_groups": 259
+        }
+      ]
+    },
+    "four_model_weight_grid_fusion": {
+      "step": 0.1,
+      "candidate_count": 286,
+      "selection_scope": "post-hoc on training-partition OOF probabilities only",
+      "best_accuracy": {
+        "accuracy": 0.78123736,
+        "macro_f1": 0.76605473,
+        "balanced_accuracy": 0.76318312,
+        "confusion": {
+          "tn": 651,
+          "fp": 299,
+          "fn": 242,
+          "tp": 1281
+        },
+        "predicted_positive": 1580,
+        "threshold": 0.5,
+        "weights": {
+          "target_char": 0.5,
+          "taxonomy_count_logistic": 0.0,
+          "row_knowledge_gradient_boosting": 0.2,
+          "paper_majority_knowledge_gradient_boosting": 0.3
+        }
+      },
+      "best_macro_f1": {
+        "accuracy": 0.780833,
+        "macro_f1": 0.76802924,
+        "balanced_accuracy": 0.76760722,
+        "confusion": {
+          "tn": 675,
+          "fp": 275,
+          "fn": 267,
+          "tp": 1256
+        },
+        "predicted_positive": 1531,
+        "threshold": 0.5,
+        "weights": {
+          "target_char": 0.3,
+          "taxonomy_count_logistic": 0.2,
+          "row_knowledge_gradient_boosting": 0.4,
+          "paper_majority_knowledge_gradient_boosting": 0.1
+        }
+      }
+    }
+  },
+  "highest_accuracy": {
+    "candidate": "nonlinear_knowledge_fusion",
+    "accuracy": 0.78123736,
+    "macro_f1": 0.76605473,
+    "balanced_accuracy": 0.76318312,
+    "confusion": {
+      "tn": 651,
+      "fp": 299,
+      "fn": 242,
+      "tp": 1281
+    },
+    "predicted_positive": 1580,
+    "threshold": 0.5,
+    "weights": {
+      "target_char": 0.5,
+      "taxonomy_count_logistic": 0.0,
+      "row_knowledge_gradient_boosting": 0.2,
+      "paper_majority_knowledge_gradient_boosting": 0.3
+    }
+  },
+  "interpretation": {
+    "target_accuracy": 0.9,
+    "target_reached": false,
+    "fusion_grid_is_training_partition_post_hoc": true,
+    "formal_scorer_modified": false
+  },
+  "artifacts": {
+    "experiment_script": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/experiment_r3_grouped_oof_text_model.py",
+    "experiment_script_sha256": "663a5d08b6d1edf5e4e01608fbe49b238bc1cb5e19d41e718ac49868eb14b642",
+    "probability_checkpoint": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_text_model_oof/oof_probability_checkpoint.npz"
+  }
+}

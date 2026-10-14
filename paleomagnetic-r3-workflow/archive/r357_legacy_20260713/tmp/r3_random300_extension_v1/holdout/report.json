@@ -1,0 +1,967 @@
+{
+  "schema_version": "r3_random300_extension_paper_holdout_v1",
+  "status": "complete",
+  "scope": {
+    "evaluated_rows": 300,
+    "evaluated_paper_groups": 263,
+    "all_evaluated_rows_have_local_pdf": true,
+    "training_rows": 1652,
+    "training_paper_groups": 911,
+    "all_rows_excluded_for_test_papers": 520,
+    "additional_sibling_rows_excluded": 220
+  },
+  "compliance_audit": {
+    "cohort_frozen_without_label_access": true,
+    "cohort_papers_absent_from_canonical_exact300": true,
+    "all_test_refno_rows_excluded_from_every_fit": true,
+    "train_test_refno_overlap": 0,
+    "prediction_receipt_written_before_test_scoring": true,
+    "test_labels_used_for_model_or_smoother_selection": false,
+    "prior_oof_or_evaluation_read": false,
+    "pmagresult_or_row_rockmag_used_as_feature": false
+  },
+  "inputs": {
+    "cohort": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_random300_extension_v1/cohort_manifest.json",
+      "sha256": "f3692dbf1908fbd00e274491822955cbad27d1d6c9db79b02c01108a56efb5c3"
+    },
+    "numeric_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/auxiliary_numeric_cache_v1/features.npz",
+      "sha256": "12b600c620ce069f3762a2741aff6b803f2295a2d3c834097eb5bdfbebbe07b5"
+    },
+    "numeric_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/auxiliary_numeric_cache_v1/features.manifest.json",
+      "sha256": "1dad1f75cbfdb1f1d906e9370951bc8005cb28963ac37ba2d58cf11416246cbb"
+    },
+    "own_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/own_study_cache_v1/features.npz",
+      "sha256": "7d3f55940762aed5dbe2af2e719793250e81f1aaf1addd3451c599afe1e2684a"
+    },
+    "own_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/own_study_cache_v1/features.manifest.json",
+      "sha256": "275073df50f8d43472a9a75c268f78d634c17d06edf627b20434fd477a01121c"
+    },
+    "component_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/component_bridge_cache_v1/features.npz",
+      "sha256": "484447755c01e2380dabe4887f70108a76df33b50e956b803fd0458467e7eec0"
+    },
+    "component_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/component_bridge_cache_v1/features.manifest.json",
+      "sha256": "21385f08428b659929505154b893ee74a29e89bc2c823d3ae8c7908cf898e04c"
+    },
+    "full_identity": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_distilled_training_preflight/identity.xlsx",
+      "sha256": "7e45020df48b866096ac4bf567102f6a73ce3c12759b19c8550f78de299c72f1"
+    },
+    "exact_identity": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/identity.xlsx",
+      "sha256": "93ea5dfba0a32501a564d06eb020386fd86b11f59ded0982043f90c064ab960b"
+    }
+  },
+  "cohort": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_random300_extension_v1/cohort_manifest.json",
+    "sha256": "f3692dbf1908fbd00e274491822955cbad27d1d6c9db79b02c01108a56efb5c3",
+    "sample_alignment_sha256": "cba3544ebd4bd0b178d12df87fda0c46a0257d2ecc85a209abc222ab377b3288"
+  },
+  "candidate_freeze": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_random300_extension_v1/holdout/candidate_freeze.json",
+    "sha256": "fcaf8f3caf3303c0fa237c282f867312d8328b3dd21a494c91329e148c52fd1b"
+  },
+  "prediction_receipt": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_random300_extension_v1/holdout/prediction_receipt.json",
+    "sha256": "79cf98a80b249ebe8d45747e49559778b72df5ca8cdecdbb1912b19b783fdd6a"
+  },
+  "evaluation_labels": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/targets.xlsx",
+    "sha256": "378c17338f3b5cfeff3ccd496894e0f6183f747119b2624c4a9cefaeda02501e",
+    "opened_for_test_scoring_after_prediction_receipt": true
+  },
+  "model_audit": {
+    "experts": [
+      {
+        "name": "expert_hgb_combined",
+        "matrix": "combined",
+        "kind": "hgb10",
+        "standardized": false
+      },
+      {
+        "name": "expert_rf_combined",
+        "matrix": "combined",
+        "kind": "rf8",
+        "standardized": false
+      },
+      {
+        "name": "expert_extra_combined",
+        "matrix": "combined",
+        "kind": "extra8",
+        "standardized": false
+      },
+      {
+        "name": "expert_logreg_combined",
+        "matrix": "combined",
+        "kind": "logreg001",
+        "standardized": true
+      },
+      {
+        "name": "expert_hgb_component_all",
+        "matrix": "combined_plus_component_all",
+        "kind": "hgb16",
+        "standardized": false
+      },
+      {
+        "name": "expert_rf_component_all",
+        "matrix": "combined_plus_component_all",
+        "kind": "rf8",
+        "standardized": false
+      }
+    ],
+    "router": {
+      "name": "router_loss_hgb_hard",
+      "kind": "loss_hgb_hard",
+      "context": "full_context"
+    },
+    "expert_inner_cross_fitting": [
+      {
+        "inner_fold": 1,
+        "fit_rows": 1239,
+        "validation_rows": 413,
+        "fit_validation_refno_overlap": 0,
+        "test_refno_overlap": 0
+      },
+      {
+        "inner_fold": 2,
+        "fit_rows": 1239,
+        "validation_rows": 413,
+        "fit_validation_refno_overlap": 0,
+        "test_refno_overlap": 0
+      },
+      {
+        "inner_fold": 3,
+        "fit_rows": 1239,
+        "validation_rows": 413,
+        "fit_validation_refno_overlap": 0,
+        "test_refno_overlap": 0
+      },
+      {
+        "inner_fold": 4,
+        "fit_rows": 1239,
+        "validation_rows": 413,
+        "fit_validation_refno_overlap": 0,
+        "test_refno_overlap": 0
+      }
+    ],
+    "selection_branch": "LABEL_FREE_DECISION_INVARIANCE_EARLY_EXIT",
+    "decision_invariance": true,
+    "label_free_decision_audit": {
+      "identity": {
+        "decision_sha256": "02445603860308e1a1b2c770dab2830c9047d60a68b5e7a75423e6314a3cbecf",
+        "rows_changed_vs_identity": 0
+      },
+      "paper_min_blend_050": {
+        "decision_sha256": "02445603860308e1a1b2c770dab2830c9047d60a68b5e7a75423e6314a3cbecf",
+        "rows_changed_vs_identity": 0
+      },
+      "paper_min_blend_075": {
+        "decision_sha256": "02445603860308e1a1b2c770dab2830c9047d60a68b5e7a75423e6314a3cbecf",
+        "rows_changed_vs_identity": 0
+      },
+      "paper_min_blend_100": {
+        "decision_sha256": "02445603860308e1a1b2c770dab2830c9047d60a68b5e7a75423e6314a3cbecf",
+        "rows_changed_vs_identity": 0
+      },
+      "paper_mean": {
+        "decision_sha256": "02445603860308e1a1b2c770dab2830c9047d60a68b5e7a75423e6314a3cbecf",
+        "rows_changed_vs_identity": 0
+      },
+      "paper_majority": {
+        "decision_sha256": "02445603860308e1a1b2c770dab2830c9047d60a68b5e7a75423e6314a3cbecf",
+        "rows_changed_vs_identity": 0
+      }
+    },
+    "router_level_cross_fitting": [],
+    "selected_smoother": "identity",
+    "selection_metrics": null
+  },
+  "models": {
+    "router_identity": {
+      "metrics": {
+        "rows": 300,
+        "coverage": 1.0,
+        "accuracy": 0.84666667,
+        "macro_f1": 0.82183433,
+        "balanced_accuracy": 0.81832108,
+        "confusion": {
+          "tn": 71,
+          "fp": 25,
+          "fn": 21,
+          "tp": 183
+        },
+        "predicted_positive": 208,
+        "threshold": 0.5
+      },
+      "transition_vs_identity": {
+        "control_errors": 46,
+        "candidate_errors": 46,
+        "errors_resolved": 0,
+        "errors_introduced": 0
+      }
+    },
+    "nested_selected": {
+      "metrics": {
+        "rows": 300,
+        "coverage": 1.0,
+        "accuracy": 0.84666667,
+        "macro_f1": 0.82183433,
+        "balanced_accuracy": 0.81832108,
+        "confusion": {
+          "tn": 71,
+          "fp": 25,
+          "fn": 21,
+          "tp": 183
+        },
+        "predicted_positive": 208,
+        "threshold": 0.5
+      },
+      "transition_vs_identity": {
+        "control_errors": 46,
+        "candidate_errors": 46,
+        "errors_resolved": 0,
+        "errors_introduced": 0
+      }
+    },
+    "paper_min_blend_050": {
+      "metrics": {
+        "rows": 300,
+        "coverage": 1.0,
+        "accuracy": 0.84666667,
+        "macro_f1": 0.82183433,
+        "balanced_accuracy": 0.81832108,
+        "confusion": {
+          "tn": 71,
+          "fp": 25,
+          "fn": 21,
+          "tp": 183
+        },
+        "predicted_positive": 208,
+        "threshold": 0.5
+      },
+      "transition_vs_identity": {
+        "control_errors": 46,
+        "candidate_errors": 46,
+        "errors_resolved": 0,
+        "errors_introduced": 0
+      }
+    },
+    "paper_min_blend_075": {
+      "metrics": {
+        "rows": 300,
+        "coverage": 1.0,
+        "accuracy": 0.84666667,
+        "macro_f1": 0.82183433,
+        "balanced_accuracy": 0.81832108,
+        "confusion": {
+          "tn": 71,
+          "fp": 25,
+          "fn": 21,
+          "tp": 183
+        },
+        "predicted_positive": 208,
+        "threshold": 0.5
+      },
+      "transition_vs_identity": {
+        "control_errors": 46,
+        "candidate_errors": 46,
+        "errors_resolved": 0,
+        "errors_introduced": 0
+      }
+    },
+    "paper_min_blend_100": {
+      "metrics": {
+        "rows": 300,
+        "coverage": 1.0,
+        "accuracy": 0.84666667,
+        "macro_f1": 0.82183433,
+        "balanced_accuracy": 0.81832108,
+        "confusion": {
+          "tn": 71,
+          "fp": 25,
+          "fn": 21,
+          "tp": 183
+        },
+        "predicted_positive": 208,
+        "threshold": 0.5
+      },
+      "transition_vs_identity": {
+        "control_errors": 46,
+        "candidate_errors": 46,
+        "errors_resolved": 0,
+        "errors_introduced": 0
+      }
+    },
+    "paper_mean": {
+      "metrics": {
+        "rows": 300,
+        "coverage": 1.0,
+        "accuracy": 0.84666667,
+        "macro_f1": 0.82183433,
+        "balanced_accuracy": 0.81832108,
+        "confusion": {
+          "tn": 71,
+          "fp": 25,
+          "fn": 21,
+          "tp": 183
+        },
+        "predicted_positive": 208,
+        "threshold": 0.5
+      },
+      "transition_vs_identity": {
+        "control_errors": 46,
+        "candidate_errors": 46,
+        "errors_resolved": 0,
+        "errors_introduced": 0
+      }
+    },
+    "paper_majority": {
+      "metrics": {
+        "rows": 300,
+        "coverage": 1.0,
+        "accuracy": 0.84666667,
+        "macro_f1": 0.82183433,
+        "balanced_accuracy": 0.81832108,
+        "confusion": {
+          "tn": 71,
+          "fp": 25,
+          "fn": 21,
+          "tp": 183
+        },
+        "predicted_positive": 208,
+        "threshold": 0.5
+      },
+      "transition_vs_identity": {
+        "control_errors": 46,
+        "candidate_errors": 46,
+        "errors_resolved": 0,
+        "errors_introduced": 0
+      }
+    }
+  },
+  "posthoc_expert_diagnostics": {
+    "selection_effect": "NONE_DIAGNOSTIC_ONLY",
+    "metrics": {
+      "expert_hgb_combined": {
+        "rows": 300,
+        "coverage": 1.0,
+        "accuracy": 0.87333333,
+        "macro_f1": 0.85603152,
+        "balanced_accuracy": 0.85998775,
+        "confusion": {
+          "tn": 79,
+          "fp": 17,
+          "fn": 21,
+          "tp": 183
+        },
+        "predicted_positive": 200,
+        "threshold": 0.5
+      },
+      "expert_rf_combined": {
+        "rows": 300,
+        "coverage": 1.0,
+        "accuracy": 0.85666667,
+        "macro_f1": 0.83486732,
+        "balanced_accuracy": 0.83394608,
+        "confusion": {
+          "tn": 74,
+          "fp": 22,
+          "fn": 21,
+          "tp": 183
+        },
+        "predicted_positive": 205,
+        "threshold": 0.5
+      },
+      "expert_extra_combined": {
+        "rows": 300,
+        "coverage": 1.0,
+        "accuracy": 0.85333333,
+        "macro_f1": 0.8264893,
+        "balanced_accuracy": 0.81770833,
+        "confusion": {
+          "tn": 69,
+          "fp": 27,
+          "fn": 17,
+          "tp": 187
+        },
+        "predicted_positive": 214,
+        "threshold": 0.5
+      },
+      "expert_logreg_combined": {
+        "rows": 300,
+        "coverage": 1.0,
+        "accuracy": 0.81333333,
+        "macro_f1": 0.7974537,
+        "balanced_accuracy": 0.81862745,
+        "confusion": {
+          "tn": 80,
+          "fp": 16,
+          "fn": 40,
+          "tp": 164
+        },
+        "predicted_positive": 180,
+        "threshold": 0.5
+      },
+      "expert_hgb_component_all": {
+        "rows": 300,
+        "coverage": 1.0,
+        "accuracy": 0.87,
+        "macro_f1": 0.85185185,
+        "balanced_accuracy": 0.85477941,
+        "confusion": {
+          "tn": 78,
+          "fp": 18,
+          "fn": 21,
+          "tp": 183
+        },
+        "predicted_positive": 201,
+        "threshold": 0.5
+      },
+      "expert_rf_component_all": {
+        "rows": 300,
+        "coverage": 1.0,
+        "accuracy": 0.86666667,
+        "macro_f1": 0.84681373,
+        "balanced_accuracy": 0.84681373,
+        "confusion": {
+          "tn": 76,
+          "fp": 20,
+          "fn": 20,
+          "tp": 184
+        },
+        "predicted_positive": 204,
+        "threshold": 0.5
+      },
+      "fixed_expert_mean": {
+        "rows": 300,
+        "coverage": 1.0,
+        "accuracy": 0.88333333,
+        "macro_f1": 0.86632888,
+        "balanced_accuracy": 0.86734069,
+        "confusion": {
+          "tn": 79,
+          "fp": 17,
+          "fn": 18,
+          "tp": 186
+        },
+        "predicted_positive": 203,
+        "threshold": 0.5
+      },
+      "fixed_expert_median": {
+        "rows": 300,
+        "coverage": 1.0,
+        "accuracy": 0.87666667,
+        "macro_f1": 0.85944919,
+        "balanced_accuracy": 0.86243873,
+        "confusion": {
+          "tn": 79,
+          "fp": 17,
+          "fn": 20,
+          "tp": 184
+        },
+        "predicted_positive": 201,
+        "threshold": 0.5
+      }
+    }
+  },
+  "best_observed": {
+    "strategy": "nested_selected",
+    "rows": 300,
+    "coverage": 1.0,
+    "accuracy": 0.84666667,
+    "macro_f1": 0.82183433,
+    "balanced_accuracy": 0.81832108,
+    "confusion": {
+      "tn": 71,
+      "fp": 25,
+      "fn": 21,
+      "tp": 183
+    },
+    "predicted_positive": 208,
+    "threshold": 0.5
+  },
+  "errors": [
+    {
+      "sample_index": 1,
+      "REFNO": "1143",
+      "RESULTNO": "5",
+      "ROCKNAME": "Vaster-Norrland dolerites",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.7647741965037628,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 4,
+      "REFNO": "1149",
+      "RESULTNO": "21",
+      "ROCKNAME": "John O'Groats Sandstone",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.5525877953704071,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 9,
+      "REFNO": "1162",
+      "RESULTNO": "62",
+      "ROCKNAME": "Rhyolites",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.18521385618156802,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 21,
+      "REFNO": "1224",
+      "RESULTNO": "182",
+      "ROCKNAME": "Duffer Formation",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.2788988667922491,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 23,
+      "REFNO": "1369",
+      "RESULTNO": "493",
+      "ROCKNAME": "Campo-Alegre Formation",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.0335540949598541,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 34,
+      "REFNO": "239",
+      "RESULTNO": "2672",
+      "ROCKNAME": "Cameron Bay Group",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.5278702449511266,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 38,
+      "REFNO": "1007",
+      "RESULTNO": "3556",
+      "ROCKNAME": "Great Dyke",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.7337439504939502,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 42,
+      "REFNO": "2244",
+      "RESULTNO": "5878",
+      "ROCKNAME": "Nipissing Diabase",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.42891688404188405,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 45,
+      "REFNO": "2895",
+      "RESULTNO": "7526",
+      "ROCKNAME": "Tsuomasavarri Ultramafic Intrusions",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.8486240582634048,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 53,
+      "REFNO": "2992",
+      "RESULTNO": "7767",
+      "ROCKNAME": "Marmarotrapeza Formation",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.5083973484233858,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 63,
+      "REFNO": "3119",
+      "RESULTNO": "8145",
+      "ROCKNAME": "San Francisco Volcanic Field",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.6366471907721909,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 65,
+      "REFNO": "3131",
+      "RESULTNO": "8165",
+      "ROCKNAME": "SHD1 Permo-Triassic Borehole",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.9455536361786357,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 66,
+      "REFNO": "3135",
+      "RESULTNO": "8172",
+      "ROCKNAME": "Lower Khapitsky Formation 1",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.2885037208162209,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 68,
+      "REFNO": "3143",
+      "RESULTNO": "8185",
+      "ROCKNAME": "Fort Irwin Sediments and Volcanics",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.852712620032473,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 79,
+      "REFNO": "3236",
+      "RESULTNO": "8360",
+      "ROCKNAME": "Kaminis Lake Pluton and Amisk Metavolcanics",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.5782935918726295,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 86,
+      "REFNO": "3298",
+      "RESULTNO": "8467",
+      "ROCKNAME": "Wyatt and Akerman Formations",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.6643260119510119,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 87,
+      "REFNO": "3298",
+      "RESULTNO": "8468",
+      "ROCKNAME": "Zanuck Granite",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.6589865065490065,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 93,
+      "REFNO": "3365",
+      "RESULTNO": "8559",
+      "ROCKNAME": "Cismon Section",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.6242633685758686,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 97,
+      "REFNO": "3381",
+      "RESULTNO": "8617",
+      "ROCKNAME": "Rio Chicamo Section",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.1763800736300737,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 99,
+      "REFNO": "3384",
+      "RESULTNO": "8620",
+      "ROCKNAME": "Pizzo Mondello Section",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.7249191803566805,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 100,
+      "REFNO": "3400",
+      "RESULTNO": "8648",
+      "ROCKNAME": "Precordillera carbonates",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.7212547017071038,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 103,
+      "REFNO": "3403",
+      "RESULTNO": "8654",
+      "ROCKNAME": "Jinxing Formation",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.21173478435904114,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 104,
+      "REFNO": "3403",
+      "RESULTNO": "8656",
+      "ROCKNAME": "Yunlong Formation",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.33701473067631205,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 106,
+      "REFNO": "3411",
+      "RESULTNO": "8680",
+      "ROCKNAME": "Cevennes Sediments",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.43951467513967524,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 117,
+      "REFNO": "3447",
+      "RESULTNO": "8764",
+      "ROCKNAME": "Fen Complex",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.41044436355058883,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 128,
+      "REFNO": "3522",
+      "RESULTNO": "8955",
+      "ROCKNAME": "Touyun Basalts and Baked Sediments",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.781476183538684,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 129,
+      "REFNO": "3522",
+      "RESULTNO": "8956",
+      "ROCKNAME": "Touyun Lower Cretaceous Redbeds",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.7643051138676142,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 168,
+      "REFNO": "3734",
+      "RESULTNO": "9357",
+      "ROCKNAME": "Fraser Belt Metamorphics",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.7136158193658194,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 175,
+      "REFNO": "3766",
+      "RESULTNO": "9401",
+      "ROCKNAME": "Allanbridge Formation",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.1474804427586865,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 182,
+      "REFNO": "3810",
+      "RESULTNO": "9458",
+      "ROCKNAME": "Hettangian-Sinemurian Marine Sediments",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.40440375827875824,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 183,
+      "REFNO": "3810",
+      "RESULTNO": "9459",
+      "ROCKNAME": "Pliensbachian-Toarcian Marine Sediments",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.40440375827875824,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 188,
+      "REFNO": "3834",
+      "RESULTNO": "9491",
+      "ROCKNAME": "Post-Guperas Dykes",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.042831629421929446,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 200,
+      "REFNO": "3911",
+      "RESULTNO": "9604",
+      "ROCKNAME": "Siberian Trap Basalts",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.4878331205002606,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 207,
+      "REFNO": "3951",
+      "RESULTNO": "9679",
+      "ROCKNAME": "Aubures Formation",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.0479647028482922,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 226,
+      "REFNO": "4019",
+      "RESULTNO": "9798",
+      "ROCKNAME": "Avilov and Araucarite Formations",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.5607337731712734,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 234,
+      "REFNO": "4095",
+      "RESULTNO": "9904",
+      "ROCKNAME": "Singhbhum Newer Dykes 2760",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.16612187241434173,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 254,
+      "REFNO": "4263",
+      "RESULTNO": "10142",
+      "ROCKNAME": "Qushenla Formation, Volcanics",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.35367770405629984,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 257,
+      "REFNO": "4275",
+      "RESULTNO": "10160",
+      "ROCKNAME": "Jialazi Formation",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.9377531891671979,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 258,
+      "REFNO": "4283",
+      "RESULTNO": "10169",
+      "ROCKNAME": "Zhongba Section, Cretaceous Sediments",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.5072748825248826,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 263,
+      "REFNO": "4305",
+      "RESULTNO": "10206",
+      "ROCKNAME": "Okskii S’ezd Section",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.4881727152241374,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 264,
+      "REFNO": "4305",
+      "RESULTNO": "10208",
+      "ROCKNAME": "Nelben Section",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.4756536880777454,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 275,
+      "REFNO": "4339",
+      "RESULTNO": "10263",
+      "ROCKNAME": "Northeastern Brazil Magmatism-1",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.5338044709919714,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 276,
+      "REFNO": "4339",
+      "RESULTNO": "10264",
+      "ROCKNAME": "Northeastern Brazil Magmatism-2",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.5329641958991685,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 279,
+      "REFNO": "4351",
+      "RESULTNO": "10278",
+      "ROCKNAME": "South Shetland Magmatic Rocks",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.7773023758648754,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 284,
+      "REFNO": "4388",
+      "RESULTNO": "10323",
+      "ROCKNAME": "St.Mary Volcanics",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.49824081936581927,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 285,
+      "REFNO": "4395",
+      "RESULTNO": "10331",
+      "ROCKNAME": "Prado Sediments",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.50393543031043,
+      "error_type": "FP"
+    }
+  ],
+  "extension_gate": {
+    "target_accuracy": 0.9,
+    "passed": false,
+    "decision": "RANDOM300_EXTENSION_TARGET_NOT_REACHED"
+  },
+  "interpretation_limit": "Fit-time paper holdout from the frozen development partition; not a prospectively collected external corpus.",
+  "artifacts": {
+    "probabilities": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_random300_extension_v1/holdout/holdout_probabilities.npz",
+      "sha256": "97f2fdef4c4f7a19e0a0c3569347a470247ec3d0a447982625d5c81647b7233e"
+    },
+    "expert_diagnostic_probabilities": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_random300_extension_v1/holdout/expert_diagnostic_probabilities.npz",
+      "sha256": "a13af11080a5e4169c3d2ea5d457abc4f7693fcb7579dc2037736a6d2ea85820"
+    }
+  }
+}

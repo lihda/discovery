@@ -1,0 +1,75 @@
+{
+  "schema_version": "r3_style_fusion_evaluation_v2",
+  "status": "FROZEN_BEFORE_LABEL_ACCESS",
+  "scope": "all 872 PDF-backed single-target papers at full coverage",
+  "development_notice": "The fixed candidate was selected during internal development on this corpus and requires locked external validation.",
+  "source_refs": [
+    {
+      "source_id": "PATEL_ET_AL_ACL_2025_R2E",
+      "venue": "ACL 2025",
+      "method_mapping": "retrieve target-local evidence before document-level prediction"
+    },
+    {
+      "source_id": "TAN_ET_AL_SIGIR_2025_EDU_FILTERING",
+      "venue": "SIGIR 2025",
+      "method_mapping": "retain domain-relevant evidence counts and suppress unrelated document content"
+    }
+  ],
+  "protocol": {
+    "outer_folds": 5,
+    "threshold": 0.5,
+    "random_state": 357,
+    "outer_test_selection": false,
+    "single_target_training_only_for_knowledge": true
+  },
+  "base": {
+    "components": [
+      "domain_mean4",
+      "query_pca64_logreg",
+      "front_word_logreg"
+    ],
+    "weights": {
+      "domain_mean4": 0.45263157894736844,
+      "query_pca64_logreg": 0.28421052631578947,
+      "front_word_logreg": 0.2631578947368421
+    },
+    "derivation": "V1 non-trusted weights 0.43/0.27/0.25 renormalized by 0.95"
+  },
+  "knowledge_experts": {
+    "hist_gradient_boosting": {
+      "max_iter": 260,
+      "learning_rate": 0.035,
+      "max_leaf_nodes": 7,
+      "min_samples_leaf": 10,
+      "l2_regularization": 1.0
+    },
+    "extra_trees": {
+      "n_estimators": 500,
+      "max_features": "sqrt",
+      "min_samples_leaf": 3,
+      "n_jobs": -1
+    },
+    "gradient_boosting": {
+      "n_estimators": 220,
+      "learning_rate": 0.035,
+      "max_depth": 1,
+      "min_samples_leaf": 8
+    },
+    "aggregation": "uniform_arithmetic_mean"
+  },
+  "primary_fusion": {
+    "name": "no_strict_base_plus_original_text_knowledge_mean3",
+    "base_weight": 0.85,
+    "knowledge_weight": 0.15,
+    "threshold": 0.5
+  },
+  "runtime_boundary": {
+    "features_frozen_before_labels": true,
+    "pmagresult_or_rockmag_read": false,
+    "prior_predictions_read_before_provisional": false,
+    "evaluation_results_read_before_provisional": false,
+    "outer_test_labels_used_for_training_or_selection": false,
+    "posthoc_threshold_search_used": false,
+    "selective_abstention_used": false
+  }
+}

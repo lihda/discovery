@@ -1,0 +1,103 @@
+{
+  "extraction": {
+    "aggregate": {
+      "papers_with_shared_evidence": 1104,
+      "source_scope_records": 40643,
+      "targets_manifest_gate_open": 715,
+      "targets_with_components": 727,
+      "targets_with_direct_scope": 1205,
+      "targets_with_sample_ids": 501
+    },
+    "bridges": [
+      "target-sample-concept",
+      "target-component-concept"
+    ],
+    "manifest_gate": "sample bridge, component bridge, or collective target-bound knowledge scope",
+    "scope_types": [
+      "table_row",
+      "figure_or_table_caption",
+      "paragraph"
+    ],
+    "target_aliases": "identity-derived aliases plus source-anchored parenthetical acronyms"
+  },
+  "guardrails": {
+    "allowed_inputs": [
+      "fixed training identity fields",
+      "original-paper page cache",
+      "local PDF membership",
+      "frozen taxonomy",
+      "frozen positive expert KB"
+    ],
+    "forbidden_sources_not_read": [
+      "held-out labels",
+      "source metadata tables",
+      "historical ROCKMAG cells",
+      "prior predictions",
+      "prior evaluations"
+    ],
+    "manifest_contains_labels": false,
+    "manifest_contains_predictions": false
+  },
+  "inputs": {
+    "identity": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_distilled_training_preflight/identity.xlsx",
+      "sha256": "7e45020df48b866096ac4bf567102f6a73ce3c12759b19c8550f78de299c72f1"
+    },
+    "page_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/mineru_cache_all_hard_risk.jsonl",
+      "sha256": "f8ec25c1148c04112ccfc75076743803417effbb833834a136c714dff4e146d7"
+    },
+    "positive_kb": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/calibration/r3_positive_rockmag_expert_kb_v2.json",
+      "sha256": "b0fc28866fe6702938a7cc02fcf7b87b68abc9e3b4e391a53a53de1615b5e9ef"
+    },
+    "taxonomy": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/calibration/r3_rockmag_text_distillation_v1.json",
+      "sha256": "149df539a937678c8204aa6d6e60e77bd901e4a77975d26caa5362749aa18ad4"
+    }
+  },
+  "knowledge": {
+    "concept_pattern_count": 80,
+    "inputs": {
+      "r3_positive_rockmag_expert_kb_v2.json": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/calibration/r3_positive_rockmag_expert_kb_v2.json",
+        "sha256": "b0fc28866fe6702938a7cc02fcf7b87b68abc9e3b4e391a53a53de1615b5e9ef"
+      },
+      "r3_rockmag_text_distillation_v1.json": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/calibration/r3_rockmag_text_distillation_v1.json",
+        "sha256": "149df539a937678c8204aa6d6e60e77bd901e4a77975d26caa5362749aa18ad4"
+      }
+    },
+    "patterns_by_source": {
+      "r3_positive_rockmag_expert_kb_v2.json": 32,
+      "r3_rockmag_text_distillation_v1.json": 48
+    }
+  },
+  "labels_opened": false,
+  "manifest": {
+    "identity_rows": 2172,
+    "paper_records": 1174,
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_component_manifest/component_manifest.jsonl",
+    "sha256": "709ed82da6526684df303f22ec08ea62e30747cc1c3f51d1f3e312d344bcb8a5",
+    "target_records": 1903
+  },
+  "membership": {
+    "fixed_training_paper_groups": 1292,
+    "fixed_training_rows": 2473,
+    "pdf_membership_sha256": "d659891a1738c88e73714b0a39a3245248226adece0959ff6940e3729a3adf4b",
+    "pdf_only_paper_groups": 1174,
+    "pdf_only_rows": 2172,
+    "skipped_paper_groups_without_pdf": 118,
+    "skipped_rows_without_pdf": 301
+  },
+  "pdf_dir": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs",
+    "selected_membership_sha256": "d659891a1738c88e73714b0a39a3245248226adece0959ff6940e3729a3adf4b"
+  },
+  "schema_version": "r3_source_component_manifest_freeze_v1",
+  "script": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/experiment_r3_component_manifest.py",
+    "sha256": "c2f55680480fab019b22060d8da98b5e1f867900aa3caf7163ce389e97e0ed58"
+  },
+  "status": "FROZEN_BEFORE_LABEL_ACCESS"
+}

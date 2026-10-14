@@ -1,0 +1,5 @@
+# Optional development-only dependencies for grouped R3 text-model experiments.
+# Keep these outside the strict scoring runtime.
+numpy==2.3.5
+scipy==1.18.0
+scikit-learn==1.9.0

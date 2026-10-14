@@ -1,0 +1,33 @@
+{
+  "labels": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/targets.xlsx",
+    "sha256": "378c17338f3b5cfeff3ccd496894e0f6183f747119b2624c4a9cefaeda02501e"
+  },
+  "metrics": {
+    "accuracy": 0.5891629599676507,
+    "balanced_accuracy": 0.6502104572001244,
+    "confusion_matrix": {
+      "false_negative": 934,
+      "false_positive": 82,
+      "true_negative": 868,
+      "true_positive": 589
+    },
+    "correct_rows": 1457,
+    "coverage": 0.7007682976142338,
+    "f1_0": 0.6308139534883721,
+    "f1_1": 0.536918869644485,
+    "known_accuracy": 0.6480092325447201,
+    "known_correct_rows": 1123,
+    "known_rows": 1733,
+    "labelled_rows": 2473,
+    "macro_f1": 0.5838664115664285,
+    "prediction_rows": 2473
+  },
+  "prediction_hash_fixed_before_labels_opened": true,
+  "predictions": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_scope_mineru_predictions.jsonl",
+    "sha256": "6173d22a7da16e3d7245dea735d97b2ac803acfa90b4d09ef87125742159fd97"
+  },
+  "schema_version": "r3_training_posthoc_ablation_v1",
+  "split": "historically supervised training partition; post-hoc development only"
+}

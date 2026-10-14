@@ -1,0 +1,785 @@
+{
+  "schema_version": "r3_mineru_reparse_candidates_v1",
+  "status": "PASS",
+  "selection_scope": "preregistered_training_identity_and_page_cache_only",
+  "selection_policy": {
+    "requires_local_pdf": true,
+    "zero_text_rule": "cached text_length == 0 OR cached page_count == 0 OR no_extractable_text flag",
+    "strong_risk_flags": [
+      "glyph_or_cid_text",
+      "low_ocr_quality",
+      "missing_pages",
+      "no_extractable_text",
+      "poor_ocr",
+      "possibly_incomplete_extraction",
+      "short_text",
+      "truncated_text"
+    ],
+    "generic_no_parsed_text_is_not_sufficient": true,
+    "cost_policy": {
+      "light": "actual PDF pages <= 12 and size <= 10 MiB",
+      "medium": "actual PDF pages <= 30 and size <= 25 MiB",
+      "heavy": "larger than medium limits",
+      "unknown": "actual PDF page count could not be read"
+    },
+    "priority_policy": [
+      "P0: zero cached text with light estimated cost",
+      "P1: remaining zero-text PDFs, then nonzero strong-risk PDFs with light cost",
+      "P2: nonzero strong-risk PDFs with medium cost",
+      "P3: nonzero strong-risk PDFs with heavy or unknown cost"
+    ],
+    "sorting_inputs": [
+      "risk class",
+      "actual PDF page count",
+      "PDF file size",
+      "REFNO tie-breaker"
+    ]
+  },
+  "input_integrity": {
+    "identity_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_distilled_training_preflight/identity.xlsx",
+    "identity_sha256": "7e45020df48b866096ac4bf567102f6a73ce3c12759b19c8550f78de299c72f1",
+    "page_cache_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_distilled_training_preflight/page_cache.jsonl",
+    "page_cache_sha256": "597bc5e11d45528e9249200b92818c328f39b8195b2b75a4f304756388af56f6",
+    "training_identity_refnos": 1292,
+    "page_cache_refnos": 1292,
+    "labels_read": false,
+    "previous_predictions_read": false
+  },
+  "summary": {
+    "candidate_refnos": 30,
+    "risk_class_counts": {
+      "STRONG_EXTRACTION_RISK": 9,
+      "ZERO_CACHED_TEXT": 21
+    },
+    "estimated_cost_counts": {
+      "heavy": 1,
+      "light": 20,
+      "medium": 9
+    },
+    "priority_counts": {
+      "P0_ZERO_TEXT_LIGHT": 15,
+      "P1_STRONG_RISK_LIGHT": 5,
+      "P1_ZERO_TEXT_MEDIUM_OR_HEAVY": 6,
+      "P2_STRONG_RISK_MEDIUM": 3,
+      "P3_STRONG_RISK_HEAVY_OR_UNKNOWN": 1
+    },
+    "total_pdf_pages": 372,
+    "total_pdf_bytes": 95663126,
+    "total_pdf_size_mib": 91.231,
+    "max_pdf_pages": 33,
+    "max_pdf_size_mib": 9.159
+  },
+  "candidates": [
+    {
+      "REFNO": "3129",
+      "priority_rank": 0,
+      "priority": "P0_ZERO_TEXT_LIGHT",
+      "risk_class": "ZERO_CACHED_TEXT",
+      "estimated_cost_class": "light",
+      "pdf_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/3129.pdf",
+      "pdf_pages": 4,
+      "pdf_bytes": 1395504,
+      "pdf_size_mib": 1.331,
+      "cached_source_kind": "missing",
+      "cached_page_count": 0,
+      "cached_text_length": 0,
+      "source_quality_flags": [
+        "no_extractable_text",
+        "no_parsed_text",
+        "short_text"
+      ],
+      "strong_risk_flags": [
+        "no_extractable_text",
+        "short_text"
+      ],
+      "pdf_page_read_error": null
+    },
+    {
+      "REFNO": "2971",
+      "priority_rank": 0,
+      "priority": "P0_ZERO_TEXT_LIGHT",
+      "risk_class": "ZERO_CACHED_TEXT",
+      "estimated_cost_class": "light",
+      "pdf_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/2971.pdf",
+      "pdf_pages": 6,
+      "pdf_bytes": 441682,
+      "pdf_size_mib": 0.421,
+      "cached_source_kind": "missing",
+      "cached_page_count": 0,
+      "cached_text_length": 0,
+      "source_quality_flags": [
+        "no_extractable_text",
+        "no_parsed_text",
+        "short_text"
+      ],
+      "strong_risk_flags": [
+        "no_extractable_text",
+        "short_text"
+      ],
+      "pdf_page_read_error": null
+    },
+    {
+      "REFNO": "3653",
+      "priority_rank": 0,
+      "priority": "P0_ZERO_TEXT_LIGHT",
+      "risk_class": "ZERO_CACHED_TEXT",
+      "estimated_cost_class": "light",
+      "pdf_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/3653.pdf",
+      "pdf_pages": 6,
+      "pdf_bytes": 4034041,
+      "pdf_size_mib": 3.847,
+      "cached_source_kind": "missing",
+      "cached_page_count": 0,
+      "cached_text_length": 0,
+      "source_quality_flags": [
+        "no_extractable_text",
+        "no_parsed_text",
+        "short_text"
+      ],
+      "strong_risk_flags": [
+        "no_extractable_text",
+        "short_text"
+      ],
+      "pdf_page_read_error": null
+    },
+    {
+      "REFNO": "3244",
+      "priority_rank": 0,
+      "priority": "P0_ZERO_TEXT_LIGHT",
+      "risk_class": "ZERO_CACHED_TEXT",
+      "estimated_cost_class": "light",
+      "pdf_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/3244.pdf",
+      "pdf_pages": 9,
+      "pdf_bytes": 416764,
+      "pdf_size_mib": 0.397,
+      "cached_source_kind": "missing",
+      "cached_page_count": 0,
+      "cached_text_length": 0,
+      "source_quality_flags": [
+        "no_extractable_text",
+        "no_parsed_text",
+        "short_text"
+      ],
+      "strong_risk_flags": [
+        "no_extractable_text",
+        "short_text"
+      ],
+      "pdf_page_read_error": null
+    },
+    {
+      "REFNO": "258",
+      "priority_rank": 0,
+      "priority": "P0_ZERO_TEXT_LIGHT",
+      "risk_class": "ZERO_CACHED_TEXT",
+      "estimated_cost_class": "light",
+      "pdf_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/258.pdf",
+      "pdf_pages": 9,
+      "pdf_bytes": 6834977,
+      "pdf_size_mib": 6.518,
+      "cached_source_kind": "missing",
+      "cached_page_count": 0,
+      "cached_text_length": 0,
+      "source_quality_flags": [
+        "no_extractable_text",
+        "no_parsed_text",
+        "short_text"
+      ],
+      "strong_risk_flags": [
+        "no_extractable_text",
+        "short_text"
+      ],
+      "pdf_page_read_error": null
+    },
+    {
+      "REFNO": "3728",
+      "priority_rank": 0,
+      "priority": "P0_ZERO_TEXT_LIGHT",
+      "risk_class": "ZERO_CACHED_TEXT",
+      "estimated_cost_class": "light",
+      "pdf_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/3728.pdf",
+      "pdf_pages": 10,
+      "pdf_bytes": 490071,
+      "pdf_size_mib": 0.467,
+      "cached_source_kind": "missing",
+      "cached_page_count": 0,
+      "cached_text_length": 0,
+      "source_quality_flags": [
+        "no_extractable_text",
+        "no_parsed_text",
+        "short_text"
+      ],
+      "strong_risk_flags": [
+        "no_extractable_text",
+        "short_text"
+      ],
+      "pdf_page_read_error": null
+    },
+    {
+      "REFNO": "3445",
+      "priority_rank": 0,
+      "priority": "P0_ZERO_TEXT_LIGHT",
+      "risk_class": "ZERO_CACHED_TEXT",
+      "estimated_cost_class": "light",
+      "pdf_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/3445.pdf",
+      "pdf_pages": 10,
+      "pdf_bytes": 1047876,
+      "pdf_size_mib": 0.999,
+      "cached_source_kind": "missing",
+      "cached_page_count": 0,
+      "cached_text_length": 0,
+      "source_quality_flags": [
+        "no_extractable_text",
+        "no_parsed_text",
+        "short_text"
+      ],
+      "strong_risk_flags": [
+        "no_extractable_text",
+        "short_text"
+      ],
+      "pdf_page_read_error": null
+    },
+    {
+      "REFNO": "3007",
+      "priority_rank": 0,
+      "priority": "P0_ZERO_TEXT_LIGHT",
+      "risk_class": "ZERO_CACHED_TEXT",
+      "estimated_cost_class": "light",
+      "pdf_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/3007.pdf",
+      "pdf_pages": 10,
+      "pdf_bytes": 5203216,
+      "pdf_size_mib": 4.962,
+      "cached_source_kind": "missing",
+      "cached_page_count": 0,
+      "cached_text_length": 0,
+      "source_quality_flags": [
+        "no_extractable_text",
+        "no_parsed_text",
+        "short_text"
+      ],
+      "strong_risk_flags": [
+        "no_extractable_text",
+        "short_text"
+      ],
+      "pdf_page_read_error": null
+    },
+    {
+      "REFNO": "478",
+      "priority_rank": 0,
+      "priority": "P0_ZERO_TEXT_LIGHT",
+      "risk_class": "ZERO_CACHED_TEXT",
+      "estimated_cost_class": "light",
+      "pdf_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/478.pdf",
+      "pdf_pages": 10,
+      "pdf_bytes": 5828704,
+      "pdf_size_mib": 5.559,
+      "cached_source_kind": "missing",
+      "cached_page_count": 0,
+      "cached_text_length": 0,
+      "source_quality_flags": [
+        "no_extractable_text",
+        "no_parsed_text",
+        "short_text"
+      ],
+      "strong_risk_flags": [
+        "no_extractable_text",
+        "short_text"
+      ],
+      "pdf_page_read_error": null
+    },
+    {
+      "REFNO": "3790",
+      "priority_rank": 0,
+      "priority": "P0_ZERO_TEXT_LIGHT",
+      "risk_class": "ZERO_CACHED_TEXT",
+      "estimated_cost_class": "light",
+      "pdf_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/3790.pdf",
+      "pdf_pages": 11,
+      "pdf_bytes": 1255457,
+      "pdf_size_mib": 1.197,
+      "cached_source_kind": "missing",
+      "cached_page_count": 0,
+      "cached_text_length": 0,
+      "source_quality_flags": [
+        "no_extractable_text",
+        "no_parsed_text",
+        "short_text"
+      ],
+      "strong_risk_flags": [
+        "no_extractable_text",
+        "short_text"
+      ],
+      "pdf_page_read_error": null
+    },
+    {
+      "REFNO": "1179",
+      "priority_rank": 0,
+      "priority": "P0_ZERO_TEXT_LIGHT",
+      "risk_class": "ZERO_CACHED_TEXT",
+      "estimated_cost_class": "light",
+      "pdf_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/1179.pdf",
+      "pdf_pages": 12,
+      "pdf_bytes": 1940444,
+      "pdf_size_mib": 1.851,
+      "cached_source_kind": "missing",
+      "cached_page_count": 0,
+      "cached_text_length": 0,
+      "source_quality_flags": [
+        "no_extractable_text",
+        "no_parsed_text",
+        "short_text"
+      ],
+      "strong_risk_flags": [
+        "no_extractable_text",
+        "short_text"
+      ],
+      "pdf_page_read_error": null
+    },
+    {
+      "REFNO": "3106",
+      "priority_rank": 0,
+      "priority": "P0_ZERO_TEXT_LIGHT",
+      "risk_class": "ZERO_CACHED_TEXT",
+      "estimated_cost_class": "light",
+      "pdf_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/3106.pdf",
+      "pdf_pages": 12,
+      "pdf_bytes": 2279442,
+      "pdf_size_mib": 2.174,
+      "cached_source_kind": "missing",
+      "cached_page_count": 0,
+      "cached_text_length": 0,
+      "source_quality_flags": [
+        "no_extractable_text",
+        "no_parsed_text",
+        "short_text"
+      ],
+      "strong_risk_flags": [
+        "no_extractable_text",
+        "short_text"
+      ],
+      "pdf_page_read_error": null
+    },
+    {
+      "REFNO": "3088",
+      "priority_rank": 0,
+      "priority": "P0_ZERO_TEXT_LIGHT",
+      "risk_class": "ZERO_CACHED_TEXT",
+      "estimated_cost_class": "light",
+      "pdf_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/3088.pdf",
+      "pdf_pages": 12,
+      "pdf_bytes": 2568161,
+      "pdf_size_mib": 2.449,
+      "cached_source_kind": "missing",
+      "cached_page_count": 0,
+      "cached_text_length": 0,
+      "source_quality_flags": [
+        "no_extractable_text",
+        "no_parsed_text",
+        "short_text"
+      ],
+      "strong_risk_flags": [
+        "no_extractable_text",
+        "short_text"
+      ],
+      "pdf_page_read_error": null
+    },
+    {
+      "REFNO": "2513",
+      "priority_rank": 0,
+      "priority": "P0_ZERO_TEXT_LIGHT",
+      "risk_class": "ZERO_CACHED_TEXT",
+      "estimated_cost_class": "light",
+      "pdf_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/2513.pdf",
+      "pdf_pages": 12,
+      "pdf_bytes": 2948670,
+      "pdf_size_mib": 2.812,
+      "cached_source_kind": "missing",
+      "cached_page_count": 0,
+      "cached_text_length": 0,
+      "source_quality_flags": [
+        "no_extractable_text",
+        "no_parsed_text",
+        "short_text"
+      ],
+      "strong_risk_flags": [
+        "no_extractable_text",
+        "short_text"
+      ],
+      "pdf_page_read_error": null
+    },
+    {
+      "REFNO": "2995",
+      "priority_rank": 0,
+      "priority": "P0_ZERO_TEXT_LIGHT",
+      "risk_class": "ZERO_CACHED_TEXT",
+      "estimated_cost_class": "light",
+      "pdf_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/2995.pdf",
+      "pdf_pages": 12,
+      "pdf_bytes": 7406002,
+      "pdf_size_mib": 7.063,
+      "cached_source_kind": "missing",
+      "cached_page_count": 0,
+      "cached_text_length": 0,
+      "source_quality_flags": [
+        "no_extractable_text",
+        "no_parsed_text",
+        "short_text"
+      ],
+      "strong_risk_flags": [
+        "no_extractable_text",
+        "short_text"
+      ],
+      "pdf_page_read_error": null
+    },
+    {
+      "REFNO": "1089",
+      "priority_rank": 1,
+      "priority": "P1_STRONG_RISK_LIGHT",
+      "risk_class": "STRONG_EXTRACTION_RISK",
+      "estimated_cost_class": "light",
+      "pdf_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/1089.pdf",
+      "pdf_pages": 5,
+      "pdf_bytes": 412888,
+      "pdf_size_mib": 0.394,
+      "cached_source_kind": "pypdf",
+      "cached_page_count": 5,
+      "cached_text_length": 1783,
+      "source_quality_flags": [
+        "no_parsed_text",
+        "short_text"
+      ],
+      "strong_risk_flags": [
+        "short_text"
+      ],
+      "pdf_page_read_error": null
+    },
+    {
+      "REFNO": "3058",
+      "priority_rank": 1,
+      "priority": "P1_STRONG_RISK_LIGHT",
+      "risk_class": "STRONG_EXTRACTION_RISK",
+      "estimated_cost_class": "light",
+      "pdf_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/3058.pdf",
+      "pdf_pages": 5,
+      "pdf_bytes": 480769,
+      "pdf_size_mib": 0.458,
+      "cached_source_kind": "pypdf",
+      "cached_page_count": 5,
+      "cached_text_length": 1774,
+      "source_quality_flags": [
+        "no_parsed_text",
+        "short_text"
+      ],
+      "strong_risk_flags": [
+        "short_text"
+      ],
+      "pdf_page_read_error": null
+    },
+    {
+      "REFNO": "3888",
+      "priority_rank": 1,
+      "priority": "P1_STRONG_RISK_LIGHT",
+      "risk_class": "STRONG_EXTRACTION_RISK",
+      "estimated_cost_class": "light",
+      "pdf_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/3888.pdf",
+      "pdf_pages": 7,
+      "pdf_bytes": 1101128,
+      "pdf_size_mib": 1.05,
+      "cached_source_kind": "pypdf",
+      "cached_page_count": 7,
+      "cached_text_length": 860,
+      "source_quality_flags": [
+        "no_parsed_text",
+        "short_text"
+      ],
+      "strong_risk_flags": [
+        "short_text"
+      ],
+      "pdf_page_read_error": null
+    },
+    {
+      "REFNO": "3462",
+      "priority_rank": 1,
+      "priority": "P1_STRONG_RISK_LIGHT",
+      "risk_class": "STRONG_EXTRACTION_RISK",
+      "estimated_cost_class": "light",
+      "pdf_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/3462.pdf",
+      "pdf_pages": 11,
+      "pdf_bytes": 1169435,
+      "pdf_size_mib": 1.115,
+      "cached_source_kind": "pypdf",
+      "cached_page_count": 11,
+      "cached_text_length": 340,
+      "source_quality_flags": [
+        "no_parsed_text",
+        "possibly_incomplete_extraction",
+        "short_text"
+      ],
+      "strong_risk_flags": [
+        "possibly_incomplete_extraction",
+        "short_text"
+      ],
+      "pdf_page_read_error": null
+    },
+    {
+      "REFNO": "4074",
+      "priority_rank": 1,
+      "priority": "P1_STRONG_RISK_LIGHT",
+      "risk_class": "STRONG_EXTRACTION_RISK",
+      "estimated_cost_class": "light",
+      "pdf_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/4074.pdf",
+      "pdf_pages": 11,
+      "pdf_bytes": 7521626,
+      "pdf_size_mib": 7.173,
+      "cached_source_kind": "pypdf",
+      "cached_page_count": 1,
+      "cached_text_length": 44,
+      "source_quality_flags": [
+        "no_parsed_text",
+        "possibly_incomplete_extraction",
+        "short_text"
+      ],
+      "strong_risk_flags": [
+        "possibly_incomplete_extraction",
+        "short_text"
+      ],
+      "pdf_page_read_error": null
+    },
+    {
+      "REFNO": "3440",
+      "priority_rank": 1,
+      "priority": "P1_ZERO_TEXT_MEDIUM_OR_HEAVY",
+      "risk_class": "ZERO_CACHED_TEXT",
+      "estimated_cost_class": "medium",
+      "pdf_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/3440.pdf",
+      "pdf_pages": 14,
+      "pdf_bytes": 6830451,
+      "pdf_size_mib": 6.514,
+      "cached_source_kind": "missing",
+      "cached_page_count": 0,
+      "cached_text_length": 0,
+      "source_quality_flags": [
+        "no_extractable_text",
+        "no_parsed_text",
+        "short_text"
+      ],
+      "strong_risk_flags": [
+        "no_extractable_text",
+        "short_text"
+      ],
+      "pdf_page_read_error": null
+    },
+    {
+      "REFNO": "780",
+      "priority_rank": 1,
+      "priority": "P1_ZERO_TEXT_MEDIUM_OR_HEAVY",
+      "risk_class": "ZERO_CACHED_TEXT",
+      "estimated_cost_class": "medium",
+      "pdf_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/780.pdf",
+      "pdf_pages": 16,
+      "pdf_bytes": 7848231,
+      "pdf_size_mib": 7.485,
+      "cached_source_kind": "missing",
+      "cached_page_count": 0,
+      "cached_text_length": 0,
+      "source_quality_flags": [
+        "no_extractable_text",
+        "no_parsed_text",
+        "short_text"
+      ],
+      "strong_risk_flags": [
+        "no_extractable_text",
+        "short_text"
+      ],
+      "pdf_page_read_error": null
+    },
+    {
+      "REFNO": "98",
+      "priority_rank": 1,
+      "priority": "P1_ZERO_TEXT_MEDIUM_OR_HEAVY",
+      "risk_class": "ZERO_CACHED_TEXT",
+      "estimated_cost_class": "medium",
+      "pdf_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/98.pdf",
+      "pdf_pages": 18,
+      "pdf_bytes": 1143211,
+      "pdf_size_mib": 1.09,
+      "cached_source_kind": "missing",
+      "cached_page_count": 0,
+      "cached_text_length": 0,
+      "source_quality_flags": [
+        "no_extractable_text",
+        "no_parsed_text",
+        "short_text"
+      ],
+      "strong_risk_flags": [
+        "no_extractable_text",
+        "short_text"
+      ],
+      "pdf_page_read_error": null
+    },
+    {
+      "REFNO": "732",
+      "priority_rank": 1,
+      "priority": "P1_ZERO_TEXT_MEDIUM_OR_HEAVY",
+      "risk_class": "ZERO_CACHED_TEXT",
+      "estimated_cost_class": "medium",
+      "pdf_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/732.pdf",
+      "pdf_pages": 18,
+      "pdf_bytes": 2929762,
+      "pdf_size_mib": 2.794,
+      "cached_source_kind": "missing",
+      "cached_page_count": 0,
+      "cached_text_length": 0,
+      "source_quality_flags": [
+        "no_extractable_text",
+        "no_parsed_text",
+        "short_text"
+      ],
+      "strong_risk_flags": [
+        "no_extractable_text",
+        "short_text"
+      ],
+      "pdf_page_read_error": null
+    },
+    {
+      "REFNO": "1192",
+      "priority_rank": 1,
+      "priority": "P1_ZERO_TEXT_MEDIUM_OR_HEAVY",
+      "risk_class": "ZERO_CACHED_TEXT",
+      "estimated_cost_class": "medium",
+      "pdf_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/1192.pdf",
+      "pdf_pages": 18,
+      "pdf_bytes": 9604290,
+      "pdf_size_mib": 9.159,
+      "cached_source_kind": "missing",
+      "cached_page_count": 0,
+      "cached_text_length": 0,
+      "source_quality_flags": [
+        "no_extractable_text",
+        "no_parsed_text",
+        "short_text"
+      ],
+      "strong_risk_flags": [
+        "no_extractable_text",
+        "short_text"
+      ],
+      "pdf_page_read_error": null
+    },
+    {
+      "REFNO": "3405",
+      "priority_rank": 1,
+      "priority": "P1_ZERO_TEXT_MEDIUM_OR_HEAVY",
+      "risk_class": "ZERO_CACHED_TEXT",
+      "estimated_cost_class": "medium",
+      "pdf_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/3405.pdf",
+      "pdf_pages": 22,
+      "pdf_bytes": 8315187,
+      "pdf_size_mib": 7.93,
+      "cached_source_kind": "missing",
+      "cached_page_count": 0,
+      "cached_text_length": 0,
+      "source_quality_flags": [
+        "no_extractable_text",
+        "no_parsed_text",
+        "short_text"
+      ],
+      "strong_risk_flags": [
+        "no_extractable_text",
+        "short_text"
+      ],
+      "pdf_page_read_error": null
+    },
+    {
+      "REFNO": "3776",
+      "priority_rank": 2,
+      "priority": "P2_STRONG_RISK_MEDIUM",
+      "risk_class": "STRONG_EXTRACTION_RISK",
+      "estimated_cost_class": "medium",
+      "pdf_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/3776.pdf",
+      "pdf_pages": 13,
+      "pdf_bytes": 1179176,
+      "pdf_size_mib": 1.125,
+      "cached_source_kind": "parsed_text",
+      "cached_page_count": 13,
+      "cached_text_length": 1566,
+      "source_quality_flags": [
+        "possibly_incomplete_extraction",
+        "short_text"
+      ],
+      "strong_risk_flags": [
+        "possibly_incomplete_extraction",
+        "short_text"
+      ],
+      "pdf_page_read_error": null
+    },
+    {
+      "REFNO": "715",
+      "priority_rank": 2,
+      "priority": "P2_STRONG_RISK_MEDIUM",
+      "risk_class": "STRONG_EXTRACTION_RISK",
+      "estimated_cost_class": "medium",
+      "pdf_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/715.pdf",
+      "pdf_pages": 13,
+      "pdf_bytes": 1880693,
+      "pdf_size_mib": 1.794,
+      "cached_source_kind": "pypdf",
+      "cached_page_count": 13,
+      "cached_text_length": 1522,
+      "source_quality_flags": [
+        "no_parsed_text",
+        "possibly_incomplete_extraction",
+        "short_text"
+      ],
+      "strong_risk_flags": [
+        "possibly_incomplete_extraction",
+        "short_text"
+      ],
+      "pdf_page_read_error": null
+    },
+    {
+      "REFNO": "3369",
+      "priority_rank": 2,
+      "priority": "P2_STRONG_RISK_MEDIUM",
+      "risk_class": "STRONG_EXTRACTION_RISK",
+      "estimated_cost_class": "medium",
+      "pdf_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/3369.pdf",
+      "pdf_pages": 23,
+      "pdf_bytes": 389022,
+      "pdf_size_mib": 0.371,
+      "cached_source_kind": "pypdf",
+      "cached_page_count": 23,
+      "cached_text_length": 62114,
+      "source_quality_flags": [
+        "glyph_or_cid_text",
+        "no_parsed_text"
+      ],
+      "strong_risk_flags": [
+        "glyph_or_cid_text"
+      ],
+      "pdf_page_read_error": null
+    },
+    {
+      "REFNO": "4367",
+      "priority_rank": 3,
+      "priority": "P3_STRONG_RISK_HEAVY_OR_UNKNOWN",
+      "risk_class": "STRONG_EXTRACTION_RISK",
+      "estimated_cost_class": "heavy",
+      "pdf_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs/4367.pdf",
+      "pdf_pages": 33,
+      "pdf_bytes": 766246,
+      "pdf_size_mib": 0.731,
+      "cached_source_kind": "pypdf",
+      "cached_page_count": 1,
+      "cached_text_length": 22,
+      "source_quality_flags": [
+        "no_parsed_text",
+        "possibly_incomplete_extraction",
+        "short_text"
+      ],
+      "strong_risk_flags": [
+        "possibly_incomplete_extraction",
+        "short_text"
+      ],
+      "pdf_page_read_error": null
+    }
+  ]
+}

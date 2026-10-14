@@ -1,0 +1,41 @@
+{
+  "schema_version": "r3_small_screen_protocol_v1",
+  "status": "FROZEN_BEFORE_CANDIDATE_RESULTS",
+  "purpose": "Low-cost promotion screen before any new full PDF-only R3 experiment",
+  "selection": {
+    "identity": "tmp/r3_small_screen_v1/identity.xlsx",
+    "identity_sha256": "aae4577fc7975260f2c4f23bf5618727f42574b53cc87bb67d6f3f6bfe1ef28f",
+    "audit": "tmp/r3_small_screen_v1/identity_audit.json",
+    "method": "SHA-256 threshold by REFNO with salt r3-small-screen-v1 and fraction 0.28",
+    "labels_read_for_selection": false,
+    "source_tables_read_for_selection": false,
+    "pdf_only_rows": 640,
+    "pdf_only_paper_groups": 330,
+    "rows_skipped_without_local_pdf": 70
+  },
+  "evaluation": {
+    "outer_split": "5-fold REFNO GroupKFold",
+    "full_coverage_required": true,
+    "identifier_features_forbidden": true,
+    "runtime_sources": [
+      "identity manifest",
+      "original-paper PDF or frozen page cache",
+      "frozen aggregate knowledge artifacts"
+    ]
+  },
+  "baseline": {
+    "report": "tmp/r3_small_screen_v1/baseline.json",
+    "strict_strategy": "multi_shared_article_50",
+    "strict_accuracy": 0.79375,
+    "strict_fold_accuracy": [0.671875, 0.8046875, 0.796875, 0.8125, 0.8828125],
+    "diagnostic_unscoped_strategy": "multi_all_article_50",
+    "diagnostic_unscoped_accuracy": 0.796875
+  },
+  "promotion_gate": {
+    "minimum_aggregate_accuracy": 0.81375,
+    "minimum_absolute_gain_over_strict_baseline": 0.02,
+    "minimum_folds_not_worse_than_strict_baseline": 3,
+    "maximum_allowed_accuracy_regression_in_any_fold": 0.05,
+    "only_passing_candidates_may_run_on_all_1174_pdf_papers": true
+  }
+}

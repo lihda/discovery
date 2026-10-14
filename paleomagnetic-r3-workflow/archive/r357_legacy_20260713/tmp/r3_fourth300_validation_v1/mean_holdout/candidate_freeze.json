@@ -1,0 +1,329 @@
+{
+  "schema_version": "r3_fourth300_mean_candidate_freeze_v1",
+  "status": "FROZEN_BEFORE_TEST_LABEL_ACCESS",
+  "primary_strategy": "mean6",
+  "candidate_declaration_order": [
+    "mean6",
+    "median6",
+    "trimmed_mean6",
+    "episode_signature_hgb",
+    "episode_mean7",
+    "full_evidence_hgb"
+  ],
+  "selection_rationale": "uniform mean minimized hard-router variance across three opened cohorts; episode candidates are preregistered diagnostics only",
+  "experts": [
+    {
+      "name": "expert_hgb_combined",
+      "matrix": "combined",
+      "kind": "hgb10",
+      "standardized": false
+    },
+    {
+      "name": "expert_rf_combined",
+      "matrix": "combined",
+      "kind": "rf8",
+      "standardized": false
+    },
+    {
+      "name": "expert_extra_combined",
+      "matrix": "combined",
+      "kind": "extra8",
+      "standardized": false
+    },
+    {
+      "name": "expert_logreg_combined",
+      "matrix": "combined",
+      "kind": "logreg001",
+      "standardized": true
+    },
+    {
+      "name": "expert_hgb_component_all",
+      "matrix": "combined_plus_component_all",
+      "kind": "hgb16",
+      "standardized": false
+    },
+    {
+      "name": "expert_rf_component_all",
+      "matrix": "combined_plus_component_all",
+      "kind": "rf8",
+      "standardized": false
+    }
+  ],
+  "scope": {
+    "test_rows": 300,
+    "test_paper_groups": 262,
+    "train_rows": 1834,
+    "train_paper_groups": 912,
+    "all_rows_excluded_for_test_papers": 338,
+    "train_test_refno_overlap": 0
+  },
+  "inputs": {
+    "cohort": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_fourth300_validation_v1/cohort_manifest.json",
+      "sha256": "1ad4d2a61fc8fbb09c67730d1b2c5a433abca3f5765211469615cd5a4c0cad5d"
+    },
+    "random300_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_random300_extension_v1/cohort_manifest.json",
+      "sha256": "f3692dbf1908fbd00e274491822955cbad27d1d6c9db79b02c01108a56efb5c3"
+    },
+    "third300_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_third300_validation_v1/cohort_manifest.json",
+      "sha256": "a275dd97b234a746ce3ba564157de3c7cf9766f37a445f4a8ae1b30307d2e3e1"
+    },
+    "numeric_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/auxiliary_numeric_cache_v1/features.npz",
+      "sha256": "12b600c620ce069f3762a2741aff6b803f2295a2d3c834097eb5bdfbebbe07b5"
+    },
+    "numeric_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/auxiliary_numeric_cache_v1/features.manifest.json",
+      "sha256": "1dad1f75cbfdb1f1d906e9370951bc8005cb28963ac37ba2d58cf11416246cbb"
+    },
+    "own_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/own_study_cache_v1/features.npz",
+      "sha256": "7d3f55940762aed5dbe2af2e719793250e81f1aaf1addd3451c599afe1e2684a"
+    },
+    "own_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/own_study_cache_v1/features.manifest.json",
+      "sha256": "275073df50f8d43472a9a75c268f78d634c17d06edf627b20434fd477a01121c"
+    },
+    "component_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/component_bridge_cache_v1/features.npz",
+      "sha256": "484447755c01e2380dabe4887f70108a76df33b50e956b803fd0458467e7eec0"
+    },
+    "component_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/component_bridge_cache_v1/features.manifest.json",
+      "sha256": "21385f08428b659929505154b893ee74a29e89bc2c823d3ae8c7908cf898e04c"
+    },
+    "field_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/field_signatures_v1/signature_features.npz",
+      "sha256": "dc057f42dac3904daa744e98f5bd7e5f7fdc04170aaedcc9c9303e6b64c6dce9"
+    },
+    "field_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/field_signatures_v1/signature_features.manifest.json",
+      "sha256": "99b0eb53465787bdc0adea27cd0c94a46465978be7da18e7faf15d5f4530afa2"
+    },
+    "field_freeze": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/field_signatures_v1/feature_freeze.json",
+      "sha256": "5d9b18890966f714feac14f9ea68b4b3ec60b1be0836c00eb1a3709c36b77b26"
+    },
+    "full_identity": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_distilled_training_preflight/identity.xlsx",
+      "sha256": "7e45020df48b866096ac4bf567102f6a73ce3c12759b19c8550f78de299c72f1"
+    },
+    "exact_identity": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/identity.xlsx",
+      "sha256": "93ea5dfba0a32501a564d06eb020386fd86b11f59ded0982043f90c064ab960b"
+    }
+  },
+  "feature_summary": {
+    "numeric": {
+      "base_engineered": {
+        "shape": [
+          2172,
+          162
+        ],
+        "dtype": "float32",
+        "sha256": "41e5dd597304fec36d0accd0c2f06d7283834a98f94edbba0154acfbb63596b0",
+        "finite": true
+      },
+      "combined": {
+        "shape": [
+          2172,
+          351
+        ],
+        "dtype": "float32",
+        "sha256": "b1ca1515ad31ff10da86971fe91a66a4376e824d169c229821a8317bbbdf8b98",
+        "finite": true
+      },
+      "curation_all": {
+        "shape": [
+          2172,
+          189
+        ],
+        "dtype": "float32",
+        "sha256": "b3287f28ec1f532d1c5425614c538435556b173c3d59c4486637c6490b885638",
+        "finite": true
+      },
+      "curation_knowledge": {
+        "shape": [
+          2172,
+          84
+        ],
+        "dtype": "float32",
+        "sha256": "779cace3c17a082b36fce710f3c4fe13d7aad092e165894318a452b32dbdbaa4",
+        "finite": true
+      },
+      "curation_style": {
+        "shape": [
+          2172,
+          105
+        ],
+        "dtype": "float32",
+        "sha256": "786181faf233cb1489fd332a1a19b3d4ef383433bb1e3b79918506aeaf71711a",
+        "finite": true
+      }
+    },
+    "own": {
+      "combined_plus_own_all": {
+        "shape": [
+          2172,
+          475
+        ],
+        "dtype": "float32",
+        "sha256": "9c2a8ffe63703828fb8388be21a4ac9c11504b9d8a85a676bd63e39e369ba5e3",
+        "finite": true
+      },
+      "combined_plus_own_article": {
+        "shape": [
+          2172,
+          429
+        ],
+        "dtype": "float32",
+        "sha256": "cc8e93c8fc007ae8713bcbe92da3a03da2ac93bf5d882eea96ac697acce1b256",
+        "finite": true
+      },
+      "combined_plus_own_target": {
+        "shape": [
+          2172,
+          397
+        ],
+        "dtype": "float32",
+        "sha256": "df22780815351bb31ec800170c262dfceb6937b564c5b2f9ea972e0130facc26",
+        "finite": true
+      },
+      "curation_all_plus_own_all": {
+        "shape": [
+          2172,
+          313
+        ],
+        "dtype": "float32",
+        "sha256": "af9d384d6f4ba8bf7f9ed9c10003ab8383a33a33c4f87c4fcfae368f17363135",
+        "finite": true
+      },
+      "curation_all_plus_own_article": {
+        "shape": [
+          2172,
+          267
+        ],
+        "dtype": "float32",
+        "sha256": "e8b9e5f4d8726fe6c0b430706b73b1fe57917366bca2d22e33f0f3e76986439c",
+        "finite": true
+      },
+      "curation_all_plus_own_target": {
+        "shape": [
+          2172,
+          235
+        ],
+        "dtype": "float32",
+        "sha256": "8fe51cbce0e71bd77070eda37f5be3f23158d52edbe9430e24f7e44b936b7e5c",
+        "finite": true
+      },
+      "own_all": {
+        "shape": [
+          2172,
+          124
+        ],
+        "dtype": "float32",
+        "sha256": "a8fbcd4eaff547122e0b1dc7502bba7eda667b05d9db82f61805e6e8bd3eddd5",
+        "finite": true
+      },
+      "own_article": {
+        "shape": [
+          2172,
+          78
+        ],
+        "dtype": "float32",
+        "sha256": "b999fd449d3f44e7ab3f090da1ac8f463d2e3b18c02776f2509b67d72aba6196",
+        "finite": true
+      },
+      "own_target": {
+        "shape": [
+          2172,
+          46
+        ],
+        "dtype": "float32",
+        "sha256": "3e76f8f161b0fff75f9b51d4987374ed970df47a53dea73da3294e32ab0f8bf6",
+        "finite": true
+      }
+    },
+    "component": {
+      "combined_plus_component_all": {
+        "shape": [
+          2172,
+          479
+        ],
+        "dtype": "float32",
+        "sha256": "34097636963aaf42d9b8c4c93c3cec6f9befa63ae87d5aab830c41b849ab77aa",
+        "finite": true
+      },
+      "combined_plus_component_bridge": {
+        "shape": [
+          2172,
+          447
+        ],
+        "dtype": "float32",
+        "sha256": "ede5721d0ca2bfa4c2cead403bb2d04d0a52cf18662f51b1bdee3748289ef34e",
+        "finite": true
+      },
+      "combined_plus_own_target_component_all": {
+        "shape": [
+          2172,
+          525
+        ],
+        "dtype": "float32",
+        "sha256": "5ddf38f08bd7e01b56c6e5db99baa042e3721f3b3e294b390d9d83336628c83b",
+        "finite": true
+      },
+      "combined_plus_own_target_component_bridge": {
+        "shape": [
+          2172,
+          493
+        ],
+        "dtype": "float32",
+        "sha256": "d658b1ebb3c7ef240e785fae79e3aa6b990d18ecc68692f7bd1eeb5cbb563b28",
+        "finite": true
+      },
+      "component_all": {
+        "shape": [
+          2172,
+          128
+        ],
+        "dtype": "float32",
+        "sha256": "1fc7c7b066e4747dc6ae21b1aa7e2e3b540dfbafa2651b5b2ef4bf3fbf1c0185",
+        "finite": true
+      },
+      "component_bridge": {
+        "shape": [
+          2172,
+          96
+        ],
+        "dtype": "float32",
+        "sha256": "6c847e491ebe5f5c3c77480da55599b1fb8ee9822e6781c896b38a0803d31c28",
+        "finite": true
+      }
+    },
+    "episode_signature": {
+      "shape": [
+        2172,
+        531
+      ],
+      "sha256": "7e5074a8dce5b5026a27c48787c76f3816e23c3bb54714351c8035727aa49adf"
+    }
+  },
+  "runtime_boundary": {
+    "labels_read_at_freeze": false,
+    "test_labels_used_for_candidate_selection": false,
+    "prior_oof_or_evaluation_read": false,
+    "pmagresult_or_row_rockmag_used_as_feature": false,
+    "all_test_refno_rows_excluded_from_every_fit": true
+  },
+  "canonical_runtime": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "sklearn": "1.6.1"
+  },
+  "script": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/experiment_r3_fourth300_mean_holdout.py",
+    "sha256": "3d7b2f9caf7d2ec3c949d86793fba52f00e9889b1c8ebae9c0c6cd54b341f622"
+  }
+}

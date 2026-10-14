@@ -1,0 +1,4 @@
+# Optional isolated OCR/layout fallback. Keep separate from the core runtime.
+mineru[all]==3.4.4
+# MinerU 3.4.4 imports six in its pipeline OCR backend but does not declare it.
+six==1.17.0

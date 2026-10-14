@@ -1,0 +1,141 @@
+{
+  "schema_version": "r3_trace_page_graph_candidate_freeze_v4",
+  "status": "FROZEN_BEFORE_LABEL_ACCESS",
+  "primary_candidate": "trace_guarded_nonlinear_fusion",
+  "feature_candidates": {
+    "trace_structured": "TRACE-PMAG graph over original text with criterion concepts, component-aware attribution, and evidence-chain features",
+    "trace_coreference_atomic_events": "conservative same-paragraph paleomagnetic coreference and sentence-level atomic evidence relations",
+    "trace_fuzzy_target_anchors": "document-missing-only compound and orthographic target anchors with sibling arbitration",
+    "trace_monotonic_criterion": "fixed monotonic method/carrier/bridge completeness score with no fitted threshold",
+    "trace_target_context_word": "word TF-IDF fitted inside each training fold on target-bound original-paper evidence contexts",
+    "trace_target_context_char": "character TF-IDF fitted inside each training fold on target-bound original-paper evidence contexts",
+    "trace_structured_plus_target_context": "late fusion of structured TRACE and the two fold-local target-context text models",
+    "trace_nonlinear_structured": "fixed HGB and random-forest learners fitted only inside grouped training folds",
+    "trace_joint_pairwise": "optional guarded within-paper positive-versus-negative target ranking"
+  },
+  "fixed_model_family": "predeclared linear, nonlinear, text, and monotonic models evaluated with complete-document isolation",
+  "model_candidates": {
+    "structured_logistic": {
+      "c_values": [
+        0.01,
+        0.1,
+        1.0
+      ],
+      "standardize": true
+    },
+    "structured_hgb": {
+      "max_iter": 260,
+      "learning_rate": 0.035,
+      "max_leaf_nodes": 7,
+      "min_samples_leaf": 10,
+      "l2_regularization": 1.0
+    },
+    "structured_random_forest": {
+      "n_estimators": 600,
+      "max_features": 0.5,
+      "min_samples_leaf": 8,
+      "n_jobs": -1
+    },
+    "target_context_word": {
+      "ngram_range": [
+        1,
+        2
+      ],
+      "min_df": 2,
+      "max_features": 80000,
+      "c_values": [
+        0.5,
+        1.0,
+        2.0
+      ]
+    },
+    "target_context_char": {
+      "analyzer": "char_wb",
+      "ngram_range": [
+        3,
+        5
+      ],
+      "min_df": 2,
+      "max_features": 100000,
+      "c_values": [
+        0.5,
+        1.0,
+        2.0
+      ]
+    },
+    "within_paper_pairwise": {
+      "c_values": [
+        0.0001,
+        0.001,
+        0.01
+      ],
+      "minimum_distinct_target_counts": [
+        2,
+        4,
+        8
+      ],
+      "alphas": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "minimum_accuracy_gain_over_identity": 0.01,
+      "require_non_decreasing_macro_f1": true
+    }
+  },
+  "fusion_candidates": [
+    "monotonic_criterion",
+    "structured",
+    "hgb",
+    "random_forest",
+    "word",
+    "char",
+    "mean_hgb_random_forest",
+    "mean_structured_hgb",
+    "mean_structured_random_forest",
+    "mean_structured_hgb_random_forest",
+    "mean_structured_word",
+    "mean_structured_char",
+    "mean_hgb_char",
+    "mean_random_forest_char",
+    "mean_structured_hgb_char",
+    "mean_word_char",
+    "mean_all",
+    "weighted_structured_50_word_25_char_25"
+  ],
+  "fusion_selection_guard": {
+    "baseline": "hgb",
+    "minimum_accuracy_gain_over_baseline": 0.005,
+    "require_non_decreasing_macro_f1": true
+  },
+  "monotonic_criterion_formula": {
+    "intercept": 0.08,
+    "query_method_available": 0.16,
+    "query_carrier_available": 0.16,
+    "query_bridge_available": 0.18,
+    "trace_chain_complete": 0.16,
+    "trace_chain_connected": 0.1,
+    "trace_chain_all_pages_exclusive": 0.08,
+    "query_diagnostic_available": 0.08
+  },
+  "outer_folds": 5,
+  "outer_fold_seed": 35720260759,
+  "inner_folds": 3,
+  "fixed_decision_threshold": 0.5,
+  "selection_rule": "select hyperparameters and any fusion or pairwise correction only inside outer training folds with frozen minimum-gain guards; never from outer-fold metrics",
+  "alignment_sha256": "4c66f703ad1c2edc2f7075df4ca55515df4017055336cb7742711ab683d7b58b",
+  "matrix_sha256": "d1f315e36d58cbd008340b9ffed2416a8ae162040a6d56d4ccd4a82bc04e1dba",
+  "target_context_sha256": "4e18f2de876c64abb1be9870211952cf044fc82d0f95a3f0ba796feebd5bf338",
+  "fold_manifest_sha256": "7c35c1ceb2f343dba687d202f6d4ff0f04e1dd200017bf7e3ad622f5480235ce",
+  "runtime_boundary": {
+    "labels_read": false,
+    "pmagresult_or_rockmag_read": false,
+    "prior_predictions_read": false,
+    "evaluation_results_read": false,
+    "resultno_used_only_for_alignment": true,
+    "refno_used_only_for_paper_grouping": true,
+    "pdf_content_sha256_used_only_for_group_isolation": true,
+    "normalized_page_text_sha256_used_only_for_group_isolation": true
+  }
+}

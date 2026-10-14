@@ -1,0 +1,51 @@
+{
+  "schema_version": "r3_small_screen_curation_style_smoke_v1",
+  "status": "pass",
+  "feature_freeze_sha256": "04507969feb72f3b52fca736a5899ee2d3f86aec766d1484e1a55b08897afb92",
+  "scope": {
+    "identity_rows_before_pdf_gate": 300,
+    "identity_papers_before_pdf_gate": 258,
+    "pdf_only_rows": 300,
+    "pdf_only_papers": 258,
+    "rows_skipped_without_pdf": 0
+  },
+  "result": {
+    "fold": 1,
+    "train_rows": 240,
+    "test_rows": 60,
+    "train_papers": 207,
+    "test_papers": 51,
+    "row_all_hgb": {
+      "rows": 60,
+      "coverage": 1.0,
+      "accuracy": 0.85,
+      "macro_f1": 0.84261148,
+      "balanced_accuracy": 0.875,
+      "confusion": {
+        "tn": 19,
+        "fp": 1,
+        "fn": 8,
+        "tp": 32
+      },
+      "predicted_positive": 33,
+      "threshold": 0.5
+    },
+    "paper_all_hgb": {
+      "rows": 60,
+      "coverage": 1.0,
+      "accuracy": 0.83333333,
+      "macro_f1": 0.82057416,
+      "balanced_accuracy": 0.8375,
+      "confusion": {
+        "tn": 17,
+        "fp": 3,
+        "fn": 7,
+        "tp": 33
+      },
+      "predicted_positive": 36,
+      "threshold": 0.5
+    },
+    "finite_probabilities": true
+  },
+  "labels_used": "only outer-fold training labels fit each smoke model; test labels used after prediction for metrics"
+}

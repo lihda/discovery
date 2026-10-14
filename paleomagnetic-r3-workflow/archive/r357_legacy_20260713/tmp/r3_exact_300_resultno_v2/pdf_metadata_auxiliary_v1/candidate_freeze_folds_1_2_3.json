@@ -1,0 +1,138 @@
+{
+  "schema_version": "r3_exact300_pdf_metadata_candidate_freeze_v1",
+  "status": "FROZEN_BEFORE_LABEL_ACCESS",
+  "evaluated_folds": [
+    1,
+    2,
+    3
+  ],
+  "candidates": [
+    {
+      "name": "control_component_all_rf8",
+      "matrix": "component_all",
+      "model": "rf8",
+      "uses_pdf_metadata": false
+    },
+    {
+      "name": "control_component_all_hgb16",
+      "matrix": "component_all",
+      "model": "hgb16",
+      "uses_pdf_metadata": false
+    },
+    {
+      "name": "metadata_only_rf8",
+      "matrix": "metadata_only",
+      "model": "rf8",
+      "uses_pdf_metadata": true
+    },
+    {
+      "name": "metadata_only_hgb16",
+      "matrix": "metadata_only",
+      "model": "hgb16",
+      "uses_pdf_metadata": true
+    },
+    {
+      "name": "combined_metadata_rf4",
+      "matrix": "combined_metadata",
+      "model": "rf4",
+      "uses_pdf_metadata": true
+    },
+    {
+      "name": "combined_metadata_rf8",
+      "matrix": "combined_metadata",
+      "model": "rf8",
+      "uses_pdf_metadata": true
+    },
+    {
+      "name": "combined_metadata_rf12",
+      "matrix": "combined_metadata",
+      "model": "rf12",
+      "uses_pdf_metadata": true
+    },
+    {
+      "name": "combined_metadata_hgb10",
+      "matrix": "combined_metadata",
+      "model": "hgb10",
+      "uses_pdf_metadata": true
+    },
+    {
+      "name": "combined_metadata_hgb16",
+      "matrix": "combined_metadata",
+      "model": "hgb16",
+      "uses_pdf_metadata": true
+    },
+    {
+      "name": "component_all_metadata_rf4",
+      "matrix": "component_all_metadata",
+      "model": "rf4",
+      "uses_pdf_metadata": true
+    },
+    {
+      "name": "component_all_metadata_rf8",
+      "matrix": "component_all_metadata",
+      "model": "rf8",
+      "uses_pdf_metadata": true
+    },
+    {
+      "name": "component_all_metadata_rf12",
+      "matrix": "component_all_metadata",
+      "model": "rf12",
+      "uses_pdf_metadata": true
+    },
+    {
+      "name": "component_all_metadata_hgb10",
+      "matrix": "component_all_metadata",
+      "model": "hgb10",
+      "uses_pdf_metadata": true
+    },
+    {
+      "name": "component_all_metadata_hgb16",
+      "matrix": "component_all_metadata",
+      "model": "hgb16",
+      "uses_pdf_metadata": true
+    },
+    {
+      "name": "component_bridge_metadata_rf8",
+      "matrix": "component_bridge_metadata",
+      "model": "rf8",
+      "uses_pdf_metadata": true
+    },
+    {
+      "name": "component_bridge_metadata_hgb10",
+      "matrix": "component_bridge_metadata",
+      "model": "hgb10",
+      "uses_pdf_metadata": true
+    }
+  ],
+  "threshold": 0.5,
+  "inputs": {
+    "metadata_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/pdf_metadata_cache_v1/features.npz",
+      "sha256": "624809328b7c17f6f5f5c01a5b6507c4af8a09fe7e18ede75af556f76e9126c8"
+    },
+    "metadata_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/pdf_metadata_cache_v1/features.manifest.json",
+      "sha256": "0f0f25b9e175cfe6864f80647eb6d3285e7a72d4650f7dfb7645078f2303e6e0"
+    },
+    "component_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/component_bridge_cache_v1/features.npz",
+      "sha256": "484447755c01e2380dabe4887f70108a76df33b50e956b803fd0458467e7eec0"
+    },
+    "component_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/component_bridge_cache_v1/features.manifest.json",
+      "sha256": "21385f08428b659929505154b893ee74a29e89bc2c823d3ae8c7908cf898e04c"
+    },
+    "fold_manifest": "8f6ab8f1a071878e14d4db8e19a7ec0519ed612be107b0f0fdf0489dd59aaf2d",
+    "staged_gate": null
+  },
+  "runtime_boundary": {
+    "labels_read_at_freeze": false,
+    "pmagresult_or_rockmag_used_as_feature": false,
+    "prior_predictions_or_evaluations_used_as_feature": false,
+    "identifiers_used_as_predictive_features": false
+  },
+  "script": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/experiment_r3_exact300_pdf_metadata_auxiliary.py",
+    "sha256": "d816eb7ee976fca5f336b51052d9ad37877b14b8296594f02fff511c8166622e"
+  }
+}

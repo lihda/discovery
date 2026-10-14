@@ -1,0 +1,328 @@
+{
+  "schema_version": "r3_exact300_own_study_cache_v1",
+  "status": "FROZEN_WITHOUT_LABEL_ACCESS",
+  "scope": {
+    "exact_evaluation": {
+      "fixed_training_rows": 300,
+      "fixed_training_paper_groups": 258,
+      "pdf_only_rows": 300,
+      "pdf_only_paper_groups": 258,
+      "rows_skipped_without_local_pdf": 0,
+      "paper_groups_skipped_without_local_pdf": 0
+    },
+    "auxiliary_candidate_pool": {
+      "fixed_training_rows": 2473,
+      "fixed_training_paper_groups": 1292,
+      "pdf_only_rows": 2172,
+      "pdf_only_paper_groups": 1174,
+      "rows_skipped_without_local_pdf": 301,
+      "paper_groups_skipped_without_local_pdf": 118
+    },
+    "exact_alignment_sha256": "ea3b591bdcaa26d8bfa86aa379c070626c436b889b7ea79cc1385611c6f99126",
+    "full_alignment_sha256": "066aaddd5707f67b7a5183d3861d5301b0019f600f769263a17e959dd1e4c0e9"
+  },
+  "runtime_boundary": {
+    "labels_read": false,
+    "targets_workbook_read": false,
+    "pmagresult_or_rockmag_read": false,
+    "prior_predictions_or_evaluations_read": false,
+    "numeric_cache_contains_identifiers": false
+  },
+  "allowed_sources": [
+    "ROCKNAME from frozen identity",
+    "original-paper page-cache text/layout",
+    "frozen aggregate R3 taxonomy",
+    "frozen positive ROCKMAG expert vocabulary",
+    "frozen label-free auxiliary numeric cache"
+  ],
+  "inputs": {
+    "exact_identity": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/identity.xlsx",
+      "sha256": "93ea5dfba0a32501a564d06eb020386fd86b11f59ded0982043f90c064ab960b"
+    },
+    "full_identity": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_distilled_training_preflight/identity.xlsx",
+      "sha256": "7e45020df48b866096ac4bf567102f6a73ce3c12759b19c8550f78de299c72f1"
+    },
+    "screening_protocol": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/screening_protocol.json",
+      "sha256": "6412244a5d268e6dcabfaed63f6f529d4976dd17ef6c4313f70bdb6748c04b4f"
+    },
+    "fold_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/refno_fold_manifest.json",
+      "sha256": "8f6ab8f1a071878e14d4db8e19a7ec0519ed612be107b0f0fdf0489dd59aaf2d"
+    },
+    "page_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/mineru_cache_all_hard_risk.jsonl",
+      "sha256": "f8ec25c1148c04112ccfc75076743803417effbb833834a136c714dff4e146d7"
+    },
+    "taxonomy": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/calibration/r3_rockmag_text_distillation_v1.json",
+      "sha256": "149df539a937678c8204aa6d6e60e77bd901e4a77975d26caa5362749aa18ad4"
+    },
+    "positive_kb": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/calibration/r3_positive_rockmag_expert_kb_v2.json",
+      "sha256": "b0fc28866fe6702938a7cc02fcf7b87b68abc9e3b4e391a53a53de1615b5e9ef"
+    },
+    "numeric_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/auxiliary_numeric_cache_v1/features.npz",
+      "sha256": "12b600c620ce069f3762a2741aff6b803f2295a2d3c834097eb5bdfbebbe07b5"
+    },
+    "numeric_cache_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/auxiliary_numeric_cache_v1/features.manifest.json",
+      "sha256": "1dad1f75cbfdb1f1d906e9370951bc8005cb28963ac37ba2d58cf11416246cbb"
+    }
+  },
+  "knowledge": {
+    "positive_kb_status": "loaded",
+    "positive_kb_pattern_field": "runtime_original_text_patterns",
+    "concept_count": 38,
+    "runtime_pattern_count": 80,
+    "runtime_pattern_counts_by_source": {
+      "frozen_taxonomy": 48,
+      "positive_rockmag_expert_kb": 32
+    },
+    "invalid_pattern_count": 0,
+    "inputs": {
+      "frozen_taxonomy": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/calibration/r3_rockmag_text_distillation_v1.json",
+        "sha256": "149df539a937678c8204aa6d6e60e77bd901e4a77975d26caa5362749aa18ad4"
+      },
+      "positive_rockmag_expert_kb": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/calibration/r3_positive_rockmag_expert_kb_v2.json",
+        "sha256": "b0fc28866fe6702938a7cc02fcf7b87b68abc9e3b4e391a53a53de1615b5e9ef"
+      }
+    }
+  },
+  "feature_names": {
+    "own_article": [
+      "article_event_count_log",
+      "article_own_strong_count_log",
+      "article_own_likely_count_log",
+      "article_external_count_log",
+      "article_own_strong_ratio",
+      "article_external_ratio",
+      "article_event_density_10k",
+      "article_strong_density_10k",
+      "article_distinct_concepts_log",
+      "article_distinct_own_concepts_log",
+      "article_max_event_score",
+      "article_positive_score_sum_log",
+      "article_first_person_count_log",
+      "article_first_person_ratio",
+      "article_passive_execution_count_log",
+      "article_passive_execution_ratio",
+      "article_procedure_count_log",
+      "article_procedure_ratio",
+      "article_result_verb_count_log",
+      "article_result_verb_ratio",
+      "article_quantitative_count_log",
+      "article_quantitative_ratio",
+      "article_figure_table_count_log",
+      "article_figure_table_ratio",
+      "article_sample_count_log",
+      "article_sample_ratio",
+      "article_citation_count_log",
+      "article_citation_ratio",
+      "article_external_attribution_count_log",
+      "article_external_attribution_ratio",
+      "article_definition_count_log",
+      "article_definition_ratio",
+      "article_future_count_log",
+      "article_future_ratio",
+      "article_method_negation_count_log",
+      "article_method_negation_ratio",
+      "article_section_abstract_count_log",
+      "article_section_abstract_strong_log",
+      "article_section_abstract_external_log",
+      "article_section_introduction_count_log",
+      "article_section_introduction_strong_log",
+      "article_section_introduction_external_log",
+      "article_section_methods_count_log",
+      "article_section_methods_strong_log",
+      "article_section_methods_external_log",
+      "article_section_results_count_log",
+      "article_section_results_strong_log",
+      "article_section_results_external_log",
+      "article_section_discussion_count_log",
+      "article_section_discussion_strong_log",
+      "article_section_discussion_external_log",
+      "article_section_conclusion_count_log",
+      "article_section_conclusion_strong_log",
+      "article_section_conclusion_external_log",
+      "article_section_references_count_log",
+      "article_section_references_strong_log",
+      "article_section_references_external_log",
+      "article_section_unknown_count_log",
+      "article_section_unknown_strong_log",
+      "article_section_unknown_external_log",
+      "article_category_method_count_log",
+      "article_category_method_strong_log",
+      "article_category_method_external_log",
+      "article_category_diagnostic_count_log",
+      "article_category_diagnostic_strong_log",
+      "article_category_diagnostic_external_log",
+      "article_category_carrier_count_log",
+      "article_category_carrier_strong_log",
+      "article_category_carrier_external_log",
+      "article_category_other_count_log",
+      "article_category_other_strong_log",
+      "article_category_other_external_log",
+      "article_episode_count_log",
+      "article_strong_episode_count_log",
+      "article_likely_episode_count_log",
+      "article_external_only_episode_count_log",
+      "article_method_chain_episode_count_log",
+      "article_strong_method_chain_episode_count_log"
+    ],
+    "own_target": [
+      "target_mention_count_log",
+      "target_r180_event_count_log",
+      "target_r180_strong_count_log",
+      "target_r180_likely_count_log",
+      "target_r180_external_count_log",
+      "target_r180_method_count_log",
+      "target_r180_method_strong_log",
+      "target_r180_diagnostic_count_log",
+      "target_r180_diagnostic_strong_log",
+      "target_r180_carrier_count_log",
+      "target_r180_carrier_strong_log",
+      "target_r180_other_count_log",
+      "target_r180_other_strong_log",
+      "target_r500_event_count_log",
+      "target_r500_strong_count_log",
+      "target_r500_likely_count_log",
+      "target_r500_external_count_log",
+      "target_r500_method_count_log",
+      "target_r500_method_strong_log",
+      "target_r500_diagnostic_count_log",
+      "target_r500_diagnostic_strong_log",
+      "target_r500_carrier_count_log",
+      "target_r500_carrier_strong_log",
+      "target_r500_other_count_log",
+      "target_r500_other_strong_log",
+      "target_r1200_event_count_log",
+      "target_r1200_strong_count_log",
+      "target_r1200_likely_count_log",
+      "target_r1200_external_count_log",
+      "target_r1200_method_count_log",
+      "target_r1200_method_strong_log",
+      "target_r1200_diagnostic_count_log",
+      "target_r1200_diagnostic_strong_log",
+      "target_r1200_carrier_count_log",
+      "target_r1200_carrier_strong_log",
+      "target_r1200_other_count_log",
+      "target_r1200_other_strong_log",
+      "target_assigned_event_count_log",
+      "target_assigned_strong_count_log",
+      "target_assigned_external_count_log",
+      "target_local_strong_ratio",
+      "target_local_external_ratio",
+      "target_local_max_score",
+      "target_assigned_episode_count_log",
+      "target_assigned_strong_episode_count_log",
+      "target_assigned_chain_episode_count_log"
+    ]
+  },
+  "event_summary": {
+    "paper_event_count": 36524,
+    "paper_episode_count": 8929,
+    "rows_with_target_mention": 2093,
+    "rows_with_target_local_strong": 1352,
+    "rows_with_target_assigned_strong": 960,
+    "rows_with_article_strong_chain": 1333
+  },
+  "matrices": {
+    "combined_plus_own_all": {
+      "shape": [
+        2172,
+        475
+      ],
+      "dtype": "float32",
+      "sha256": "9c2a8ffe63703828fb8388be21a4ac9c11504b9d8a85a676bd63e39e369ba5e3",
+      "finite": true
+    },
+    "combined_plus_own_article": {
+      "shape": [
+        2172,
+        429
+      ],
+      "dtype": "float32",
+      "sha256": "cc8e93c8fc007ae8713bcbe92da3a03da2ac93bf5d882eea96ac697acce1b256",
+      "finite": true
+    },
+    "combined_plus_own_target": {
+      "shape": [
+        2172,
+        397
+      ],
+      "dtype": "float32",
+      "sha256": "df22780815351bb31ec800170c262dfceb6937b564c5b2f9ea972e0130facc26",
+      "finite": true
+    },
+    "curation_all_plus_own_all": {
+      "shape": [
+        2172,
+        313
+      ],
+      "dtype": "float32",
+      "sha256": "af9d384d6f4ba8bf7f9ed9c10003ab8383a33a33c4f87c4fcfae368f17363135",
+      "finite": true
+    },
+    "curation_all_plus_own_article": {
+      "shape": [
+        2172,
+        267
+      ],
+      "dtype": "float32",
+      "sha256": "e8b9e5f4d8726fe6c0b430706b73b1fe57917366bca2d22e33f0f3e76986439c",
+      "finite": true
+    },
+    "curation_all_plus_own_target": {
+      "shape": [
+        2172,
+        235
+      ],
+      "dtype": "float32",
+      "sha256": "8fe51cbce0e71bd77070eda37f5be3f23158d52edbe9430e24f7e44b936b7e5c",
+      "finite": true
+    },
+    "own_all": {
+      "shape": [
+        2172,
+        124
+      ],
+      "dtype": "float32",
+      "sha256": "a8fbcd4eaff547122e0b1dc7502bba7eda667b05d9db82f61805e6e8bd3eddd5",
+      "finite": true
+    },
+    "own_article": {
+      "shape": [
+        2172,
+        78
+      ],
+      "dtype": "float32",
+      "sha256": "b999fd449d3f44e7ab3f090da1ac8f463d2e3b18c02776f2509b67d72aba6196",
+      "finite": true
+    },
+    "own_target": {
+      "shape": [
+        2172,
+        46
+      ],
+      "dtype": "float32",
+      "sha256": "3e76f8f161b0fff75f9b51d4987374ed970df47a53dea73da3294e32ab0f8bf6",
+      "finite": true
+    }
+  },
+  "output": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/own_study_cache_v1/features.npz",
+    "sha256": "7d3f55940762aed5dbe2af2e719793250e81f1aaf1addd3451c599afe1e2684a",
+    "contains_labels": false,
+    "contains_identifiers": false
+  },
+  "builder": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/build_r3_exact300_own_study_cache.py",
+    "sha256": "eaa32815473e645ffe3a40df09abffe4ee722b09711ce31ae0d54019c1807397"
+  }
+}

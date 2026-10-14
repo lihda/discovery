@@ -1,0 +1,47 @@
+{
+  "schema_version": "r3_exact_300_resultno_protocol_v1",
+  "status": "FROZEN_BEFORE_CANDIDATE_RESULTS",
+  "purpose": "Final REFNO-grouped, full-coverage evaluation on exactly 300 sampled RESULTNO targets",
+  "selection": {
+    "identity": "tmp/r3_exact_300_resultno_v2/identity.xlsx",
+    "identity_sha256": "93ea5dfba0a32501a564d06eb020386fd86b11f59ded0982043f90c064ab960b",
+    "audit": "tmp/r3_exact_300_resultno_v2/identity_audit.json",
+    "audit_sha256": "1ec557fc175fe1164ce98194407c89f493993c6f4221e5aeaf561fa486f6452a",
+    "method": "first 300 local-PDF rows by SHA256(salt + NUL + REFNO + NUL + RESULTNO)",
+    "labels_read_for_selection": false,
+    "source_tables_read_for_selection": false,
+    "pdf_only_rows": 300,
+    "pdf_only_paper_groups": 258,
+    "maximum_selected_rows_per_refno": 4
+  },
+  "evaluation": {
+    "outer_split": "5-fold REFNO GroupKFold",
+    "full_coverage_required": true,
+    "identifier_features_forbidden": true,
+    "runtime_sources": [
+      "identity manifest",
+      "original-paper PDF or frozen page cache",
+      "frozen aggregate knowledge artifacts"
+    ]
+  },
+  "baseline": {
+    "report": "tmp/r3_exact_300_resultno_v2/baseline.json",
+    "report_sha256": "5b2b80228af3985bbaaba40dfdbeea5e84e4d58d1dfe8af7aaed7c20a20bc9bb",
+    "strict_strategy": "row_knowledge_extra_trees",
+    "strict_accuracy": 0.83333333,
+    "strict_fold_accuracy": [
+      0.85,
+      0.83333333,
+      0.71666667,
+      0.9,
+      0.86666667
+    ]
+  },
+  "promotion_gate": {
+    "minimum_aggregate_accuracy": 0.9,
+    "minimum_absolute_gain_over_strict_baseline": 0.06666667,
+    "minimum_folds_not_worse_than_strict_baseline": 0,
+    "maximum_allowed_accuracy_regression_in_any_fold": 1.0,
+    "full_dataset_run_required": false
+  }
+}

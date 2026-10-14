@@ -1,0 +1,151 @@
+{
+  "schema_version": "r3_exact300_paper_consistency_candidate_freeze_v1",
+  "status": "FROZEN_BEFORE_LABEL_ACCESS",
+  "evaluated_folds": [
+    1,
+    2,
+    3
+  ],
+  "inner_experts": [
+    {
+      "name": "expert_hgb_combined",
+      "matrix": "combined",
+      "kind": "hgb10",
+      "standardized": false
+    },
+    {
+      "name": "expert_rf_combined",
+      "matrix": "combined",
+      "kind": "rf8",
+      "standardized": false
+    },
+    {
+      "name": "expert_extra_combined",
+      "matrix": "combined",
+      "kind": "extra8",
+      "standardized": false
+    },
+    {
+      "name": "expert_logreg_combined",
+      "matrix": "combined",
+      "kind": "logreg001",
+      "standardized": true
+    },
+    {
+      "name": "expert_hgb_component_all",
+      "matrix": "combined_plus_component_all",
+      "kind": "hgb16",
+      "standardized": false
+    },
+    {
+      "name": "expert_rf_component_all",
+      "matrix": "combined_plus_component_all",
+      "kind": "rf8",
+      "standardized": false
+    }
+  ],
+  "router": {
+    "name": "router_loss_hgb_hard",
+    "kind": "loss_hgb_hard",
+    "context": "full_context"
+  },
+  "router_level_cross_fitting": {
+    "method": "same deterministic REFNO folds; router never scores its fit groups",
+    "n_splits": 4,
+    "seed": 35731
+  },
+  "paper_smoothing_candidates": [
+    {
+      "name": "identity",
+      "kind": "identity",
+      "alpha": 0.0
+    },
+    {
+      "name": "paper_min_blend_050",
+      "kind": "min",
+      "alpha": 0.5
+    },
+    {
+      "name": "paper_min_blend_075",
+      "kind": "min",
+      "alpha": 0.75
+    },
+    {
+      "name": "paper_min_blend_100",
+      "kind": "min",
+      "alpha": 1.0
+    },
+    {
+      "name": "paper_mean",
+      "kind": "mean",
+      "alpha": 1.0
+    },
+    {
+      "name": "paper_majority",
+      "kind": "majority",
+      "alpha": 1.0
+    }
+  ],
+  "selection": {
+    "source": "router-level outer-training OOF only",
+    "order": "accuracy, then declaration order for every exact tie",
+    "exact_tie_preference": "identity"
+  },
+  "inputs": {
+    "numeric_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/auxiliary_numeric_cache_v1/features.npz",
+      "sha256": "12b600c620ce069f3762a2741aff6b803f2295a2d3c834097eb5bdfbebbe07b5"
+    },
+    "numeric_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/auxiliary_numeric_cache_v1/features.manifest.json",
+      "sha256": "1dad1f75cbfdb1f1d906e9370951bc8005cb28963ac37ba2d58cf11416246cbb"
+    },
+    "own_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/own_study_cache_v1/features.npz",
+      "sha256": "7d3f55940762aed5dbe2af2e719793250e81f1aaf1addd3451c599afe1e2684a"
+    },
+    "own_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/own_study_cache_v1/features.manifest.json",
+      "sha256": "275073df50f8d43472a9a75c268f78d634c17d06edf627b20434fd477a01121c"
+    },
+    "component_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/component_bridge_cache_v1/features.npz",
+      "sha256": "484447755c01e2380dabe4887f70108a76df33b50e956b803fd0458467e7eec0"
+    },
+    "component_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/component_bridge_cache_v1/features.manifest.json",
+      "sha256": "21385f08428b659929505154b893ee74a29e89bc2c823d3ae8c7908cf898e04c"
+    },
+    "exact_identity": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/identity.xlsx",
+      "sha256": "93ea5dfba0a32501a564d06eb020386fd86b11f59ded0982043f90c064ab960b"
+    },
+    "full_identity": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_distilled_training_preflight/identity.xlsx",
+      "sha256": "7e45020df48b866096ac4bf567102f6a73ce3c12759b19c8550f78de299c72f1"
+    },
+    "fold_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/refno_fold_manifest.json",
+      "sha256": "8f6ab8f1a071878e14d4db8e19a7ec0519ed612be107b0f0fdf0489dd59aaf2d"
+    },
+    "targets": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/targets.xlsx",
+      "sha256": "378c17338f3b5cfeff3ccd496894e0f6183f747119b2624c4a9cefaeda02501e"
+    }
+  },
+  "implementation_dependency": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/experiment_r3_exact300_nested_router.py",
+    "sha256": "a83d5d5da99c9a0589375468baabd89d9bdac32fd56cbe767a30709ae861cca7"
+  },
+  "runtime_boundary": {
+    "labels_read_at_freeze": false,
+    "outer_test_labels_used_for_smoother_selection": false,
+    "prior_oof_or_evaluation_read": false,
+    "pmagresult_or_row_rockmag_used_as_feature": false,
+    "refno_used_only_for_group_isolation_and_paper_smoothing": true
+  },
+  "script": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/experiment_r3_exact300_paper_consistency.py",
+    "sha256": "c5342cb2dca64ae43942873e52664cf2234b39071f6353ad680473c61a739221"
+  }
+}

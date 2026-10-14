@@ -1,0 +1,164 @@
+{
+  "schema_version": "rockmag_mixed_label_multitarget_evaluation_v1",
+  "status": "complete",
+  "selection": {
+    "papers": 61,
+    "targets": 278,
+    "definition": "same REFNO has at least two targets and contains historical R3=0 and R3=1",
+    "paper_text_coverage": 1.0
+  },
+  "prediction_coverage": {
+    "status_counts": {
+      "ABSENT": 12,
+      "ABSTAIN_ANCHOR": 11,
+      "ABSTAIN_INSUFFICIENT": 133,
+      "PRESENT": 122
+    },
+    "decided_rows": 134,
+    "abstained_rows": 144,
+    "decided_rate": 0.48201438848920863
+  },
+  "ground_truth_relationship": {
+    "historical_r3_counts": {
+      "0": 141,
+      "1": 137
+    },
+    "historical_rockmag_nonempty": 135,
+    "historical_rockmag_empty": 143,
+    "rockmag_presence_as_r3": {
+      "rows": 278,
+      "accuracy": 0.935251798561151,
+      "precision": 0.9407407407407408,
+      "recall": 0.927007299270073,
+      "f1": 0.9338235294117647,
+      "macro_f1": 0.935221623860812,
+      "balanced_accuracy": 0.9351348553087954,
+      "confusion": {
+        "tn": 133,
+        "fp": 8,
+        "fn": 10,
+        "tp": 127
+      }
+    },
+    "mismatch_rows": 18
+  },
+  "rockmag_presence_prediction": {
+    "full_set": {
+      "rows": 278,
+      "accuracy": 0.6366906474820144,
+      "precision": 0.639344262295082,
+      "recall": 0.5777777777777777,
+      "f1": 0.6070038910505836,
+      "macro_f1": 0.6346056244550577,
+      "balanced_accuracy": 0.635042735042735,
+      "confusion": {
+        "tn": 99,
+        "fp": 44,
+        "fn": 57,
+        "tp": 78
+      }
+    },
+    "decided_only": {
+      "rows": 134,
+      "accuracy": 0.6194029850746269,
+      "precision": 0.639344262295082,
+      "recall": 0.9176470588235294,
+      "f1": 0.7536231884057971,
+      "macro_f1": 0.4587788073176527,
+      "balanced_accuracy": 0.50984393757503,
+      "confusion": {
+        "tn": 5,
+        "fp": 44,
+        "fn": 7,
+        "tp": 78
+      }
+    },
+    "exact_string_match_among_true_and_predicted_present": {
+      "matches": 4,
+      "rows": 78,
+      "rate": 0.05128205128205128
+    }
+  },
+  "direct_r3_prediction": {
+    "full_set": {
+      "rows": 278,
+      "accuracy": 0.6294964028776978,
+      "precision": 0.639344262295082,
+      "recall": 0.5693430656934306,
+      "f1": 0.6023166023166023,
+      "macro_f1": 0.6277576277576278,
+      "balanced_accuracy": 0.6286431640523891,
+      "confusion": {
+        "tn": 97,
+        "fp": 44,
+        "fn": 59,
+        "tp": 78
+      }
+    },
+    "decided_only": {
+      "rows": 134,
+      "accuracy": 0.6194029850746269,
+      "precision": 0.639344262295082,
+      "recall": 0.9176470588235294,
+      "f1": 0.7536231884057971,
+      "macro_f1": 0.4587788073176527,
+      "balanced_accuracy": 0.50984393757503,
+      "confusion": {
+        "tn": 5,
+        "fp": 44,
+        "fn": 7,
+        "tp": 78
+      }
+    },
+    "all_targets_correct_papers": 8,
+    "constant_prediction_papers": 33
+  },
+  "prior_table_comparison": {
+    "old_expanded_baseline": {
+      "rows": 278,
+      "accuracy": 0.4856115107913669,
+      "precision": 0.4846938775510204,
+      "recall": 0.6934306569343066,
+      "f1": 0.5705705705705705,
+      "macro_f1": 0.4646574825947023,
+      "balanced_accuracy": 0.488559300098359,
+      "confusion": {
+        "tn": 40,
+        "fp": 101,
+        "fn": 42,
+        "tp": 95
+      }
+    },
+    "old_pairwise_router": {
+      "rows": 278,
+      "accuracy": 0.5611510791366906,
+      "precision": 0.5423728813559322,
+      "recall": 0.7007299270072993,
+      "f1": 0.6114649681528663,
+      "macro_f1": 0.5536663683739538,
+      "balanced_accuracy": 0.5631309209504581,
+      "confusion": {
+        "tn": 60,
+        "fp": 81,
+        "fn": 41,
+        "tp": 96
+      }
+    },
+    "direct_r3_delta_vs_old_baseline": 0.14388489208633093,
+    "direct_r3_delta_vs_old_pairwise": 0.06834532374100721
+  },
+  "identity_diagnostics": {
+    "duplicate_same_name_rows": 62,
+    "locator_resolution_counts": {
+      "METADATA_UNIQUE": 155,
+      "PAPER_ROW_MATCH": 123
+    },
+    "metadata_unique_rows": 278
+  },
+  "artifacts": {
+    "identity_manifest": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/rockmag_mixed_label_multitarget_20260717/identity_manifest.locators.json",
+    "identity_manifest_sha256": "f1be8cfbfc3d2f92fabdc4ce96009f2968ee89bb43520bb25ebc2685061b5018",
+    "predictions": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/rockmag_mixed_label_multitarget_20260717/predictions.locator.v22.blind.jsonl",
+    "predictions_sha256": "8014d48be11f622e1421cb2f01f907e5a6b43199c719e92c85ab6329d50b97f8"
+  }
+}

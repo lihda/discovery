@@ -1,0 +1,106 @@
+{
+  "schema_version": "r3_exact300_own_study_candidate_freeze_v1",
+  "status": "FROZEN_BEFORE_LABEL_ACCESS",
+  "evaluated_folds": [
+    1,
+    2,
+    3
+  ],
+  "candidates": [
+    {
+      "name": "control_combined_hgb10",
+      "matrix": "combined",
+      "model": "hgb10"
+    },
+    {
+      "name": "curation_plus_own_article_hgb10",
+      "matrix": "curation_all_plus_own_article",
+      "model": "hgb10"
+    },
+    {
+      "name": "curation_plus_own_target_hgb10",
+      "matrix": "curation_all_plus_own_target",
+      "model": "hgb10"
+    },
+    {
+      "name": "curation_plus_own_all_hgb10",
+      "matrix": "curation_all_plus_own_all",
+      "model": "hgb10"
+    },
+    {
+      "name": "combined_plus_own_article_hgb10",
+      "matrix": "combined_plus_own_article",
+      "model": "hgb10"
+    },
+    {
+      "name": "combined_plus_own_target_hgb10",
+      "matrix": "combined_plus_own_target",
+      "model": "hgb10"
+    },
+    {
+      "name": "combined_plus_own_all_hgb10",
+      "matrix": "combined_plus_own_all",
+      "model": "hgb10"
+    },
+    {
+      "name": "combined_plus_own_article_hgb16",
+      "matrix": "combined_plus_own_article",
+      "model": "hgb16"
+    },
+    {
+      "name": "combined_plus_own_target_hgb16",
+      "matrix": "combined_plus_own_target",
+      "model": "hgb16"
+    },
+    {
+      "name": "combined_plus_own_all_hgb16",
+      "matrix": "combined_plus_own_all",
+      "model": "hgb16"
+    },
+    {
+      "name": "control_combined_rf8",
+      "matrix": "combined",
+      "model": "rf8"
+    },
+    {
+      "name": "combined_plus_own_article_rf8",
+      "matrix": "combined_plus_own_article",
+      "model": "rf8"
+    },
+    {
+      "name": "combined_plus_own_target_rf8",
+      "matrix": "combined_plus_own_target",
+      "model": "rf8"
+    },
+    {
+      "name": "combined_plus_own_all_rf8",
+      "matrix": "combined_plus_own_all",
+      "model": "rf8"
+    }
+  ],
+  "threshold": 0.5,
+  "inputs": {
+    "own_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/own_study_cache_v1/features.npz",
+      "sha256": "7d3f55940762aed5dbe2af2e719793250e81f1aaf1addd3451c599afe1e2684a"
+    },
+    "own_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/own_study_cache_v1/features.manifest.json",
+      "sha256": "275073df50f8d43472a9a75c268f78d634c17d06edf627b20434fd477a01121c"
+    },
+    "numeric_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/auxiliary_numeric_cache_v1/features.npz",
+      "sha256": "12b600c620ce069f3762a2741aff6b803f2295a2d3c834097eb5bdfbebbe07b5"
+    },
+    "fold_manifest": "8f6ab8f1a071878e14d4db8e19a7ec0519ed612be107b0f0fdf0489dd59aaf2d"
+  },
+  "runtime_boundary": {
+    "labels_read_at_freeze": false,
+    "pmagresult_or_rockmag_used_as_feature": false,
+    "prior_predictions_or_evaluations_used_as_feature": false
+  },
+  "script": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/experiment_r3_exact300_own_study_auxiliary.py",
+    "sha256": "df07cc36e54ec0ac06635559c04986cae59f9a55cfc79c81758479969400bf1f"
+  }
+}

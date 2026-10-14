@@ -1,0 +1,93 @@
+{
+  "candidate_artifact": {
+    "identity_rows": 2172,
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_source_label_conflict_audit/source_evidence_candidates.jsonl",
+    "sha256": "5927af212f6cbca9fa79ac72e033e6b402afc28430e08cb4c646fbca6b833ca7",
+    "target_candidates": 1903
+  },
+  "candidate_counts": {
+    "criterion_support_status": {
+      "HIGH_CONFIDENCE_COMPLETE_CHAIN": 23,
+      "INCOMPLETE_OR_ABSENT_CHAIN": 1758,
+      "MEDIUM_CONFIDENCE_DISTRIBUTED_CHAIN": 122
+    },
+    "proxy_support_status": {
+      "HIGH_CONFIDENCE_SAME_SCOPE": 51,
+      "MEDIUM_CONFIDENCE_LINKED": 112,
+      "NO_FROZEN_CANDIDATE": 1740
+    }
+  },
+  "criterion_provenance": {
+    "r3_logic": "eligible carrier investigation plus carrier identification plus comment on remanence significance",
+    "source_sha256": "8433f968a4658118dc43a060114b8d2a6a0ca0cbf6ed82ee006d924d970b18e5",
+    "spec_version": "r357_criterion_spec_v2"
+  },
+  "definitions": {
+    "high_confidence_criterion": "high-confidence proxy plus a named carrier and an explicit connection to remanence significance in the same source scope",
+    "high_confidence_proxy": "exclusive target-bound same source scope with an own-study performed method and a carrier or diagnostic concept",
+    "medium_confidence": "own-study method and companion evidence distributed across frozen target/sample/component-linked scopes",
+    "no_frozen_candidate": "the frozen extractor recovered no qualifying candidate; this is not a scientific assertion that evidence is absent from the paper"
+  },
+  "guardrails": {
+    "allowed_inputs": [
+      "identity",
+      "page_cache",
+      "taxonomy",
+      "positive_kb",
+      "criterion",
+      "component_manifest",
+      "component_receipt"
+    ],
+    "candidate_contains_labels": false,
+    "candidate_contains_predictions": false,
+    "forbidden_sources_not_read": [
+      "held-out labels",
+      "source metadata tables",
+      "historical ROCKMAG cells",
+      "prior predictions",
+      "prior evaluations"
+    ]
+  },
+  "inputs": {
+    "component_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_component_manifest/component_manifest.jsonl",
+      "sha256": "709ed82da6526684df303f22ec08ea62e30747cc1c3f51d1f3e312d344bcb8a5"
+    },
+    "component_receipt": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_component_manifest/freeze_receipt.json",
+      "sha256": "37e595503afd30915020e0425400c5a2ec92195aba85231d001d128171a3b79f"
+    },
+    "criterion": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/knowledge/r357_criterion_spec_v2.json",
+      "sha256": "9c8b8674c8f81c8a963a4789d887e3d56e8edfad2274ccdab6bd173ea893dc06"
+    },
+    "identity": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_distilled_training_preflight/identity.xlsx",
+      "sha256": "7e45020df48b866096ac4bf567102f6a73ce3c12759b19c8550f78de299c72f1"
+    },
+    "page_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/mineru_cache_all_hard_risk.jsonl",
+      "sha256": "f8ec25c1148c04112ccfc75076743803417effbb833834a136c714dff4e146d7"
+    },
+    "positive_kb": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/calibration/r3_positive_rockmag_expert_kb_v2.json",
+      "sha256": "b0fc28866fe6702938a7cc02fcf7b87b68abc9e3b4e391a53a53de1615b5e9ef"
+    },
+    "taxonomy": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/calibration/r3_rockmag_text_distillation_v1.json",
+      "sha256": "149df539a937678c8204aa6d6e60e77bd901e4a77975d26caa5362749aa18ad4"
+    }
+  },
+  "labels_opened": false,
+  "pdf_dir": {
+    "membership_sha256": "d659891a1738c88e73714b0a39a3245248226adece0959ff6940e3729a3adf4b",
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs"
+  },
+  "schema_version": "r3_source_label_conflict_candidate_freeze_v1",
+  "script": {
+    "component_script_sha256": "c2f55680480fab019b22060d8da98b5e1f867900aa3caf7163ce389e97e0ed58",
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/audit_r3_source_label_conflict_ceiling.py",
+    "sha256": "521d0ded4abc34531ff58f3e0527bb269d8b94d49428e7c3f0462e7cd0db6573"
+  },
+  "status": "FROZEN_BEFORE_LABEL_ACCESS"
+}

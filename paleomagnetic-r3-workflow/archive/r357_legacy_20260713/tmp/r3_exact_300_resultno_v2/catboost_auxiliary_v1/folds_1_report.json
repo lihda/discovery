@@ -1,0 +1,943 @@
+{
+  "schema_version": "r3_exact300_auxiliary_catboost_grouped_oof_v1",
+  "status": "complete",
+  "scope": {
+    "evaluation_identity": "canonical frozen exact300",
+    "evaluated_folds": [
+      1
+    ],
+    "evaluated_rows": 60,
+    "evaluated_papers": 51,
+    "full_exact300_coverage": false,
+    "auxiliary_candidate_rows": 2172,
+    "auxiliary_candidate_papers": 1174,
+    "full_2172_rows_evaluated": false,
+    "full_pool_coverage": {
+      "fixed_training_rows": 2473,
+      "fixed_training_paper_groups": 1292,
+      "pdf_only_rows": 2172,
+      "pdf_only_paper_groups": 1174,
+      "rows_skipped_without_local_pdf": 301,
+      "paper_groups_skipped_without_local_pdf": 118
+    },
+    "exact_coverage": {
+      "fixed_training_rows": 300,
+      "fixed_training_paper_groups": 258,
+      "pdf_only_rows": 300,
+      "pdf_only_paper_groups": 258,
+      "rows_skipped_without_local_pdf": 0,
+      "paper_groups_skipped_without_local_pdf": 0
+    }
+  },
+  "guardrails": {
+    "canonical_fold_manifest_sha256": "8f6ab8f1a071878e14d4db8e19a7ec0519ed612be107b0f0fdf0489dd59aaf2d",
+    "canonical_fold_manifest_required_sha256": "8f6ab8f1a071878e14d4db8e19a7ec0519ed612be107b0f0fdf0489dd59aaf2d",
+    "outer_split": "frozen five-fold exact300 REFNO manifest",
+    "training_rule": "all PDF-backed fixed-training rows except every row sharing an outer-test REFNO",
+    "candidate_protocol_frozen_before_label_access": true,
+    "feature_freeze_before_label_access": true,
+    "feature_freeze_sha256": "cc72a6a4bb9e09c9a645c40a6cae55b4da854edd3a9c621bdc2536ca0046d255",
+    "candidate_and_threshold_selection_source": "deterministic REFNO-isolated inner validation only",
+    "outer_test_labels_used_for_candidate_iteration_or_threshold_selection": false,
+    "pmagresult_or_rockmag_source_cells_used_as_predictive_input": false,
+    "prior_predictions_or_evaluations_used_as_predictive_input": false,
+    "identifiers_used_as_predictive_features": false,
+    "outer_and_inner_zero_overlap_audit_passed": true,
+    "zero_overlap_fields": [
+      "outer_train_test_refno_overlap",
+      "outer_train_exact_test_row_overlap",
+      "excluded_test_refno_rows_remaining_in_outer_train",
+      "inner_fit_validation_refno_overlap",
+      "inner_fit_outer_test_refno_overlap",
+      "inner_validation_outer_test_refno_overlap"
+    ],
+    "posthoc_outer_label_thresholds_used": false
+  },
+  "data": {
+    "full_label_counts": {
+      "0": 804,
+      "1": 1368
+    },
+    "evaluated_label_counts": {
+      "0": 20,
+      "1": 40
+    },
+    "feature_shapes": {
+      "curation_all": [
+        2172,
+        189
+      ],
+      "combined": [
+        2172,
+        351
+      ]
+    }
+  },
+  "predeclared_candidate_protocol": {
+    "candidate_family": [
+      {
+        "name": "catboost_curation_all_d4_inverse_paper",
+        "matrix": "curation_all",
+        "depth": 4,
+        "weight_mode": "inverse_paper"
+      },
+      {
+        "name": "catboost_curation_all_d4_inverse_paper_class_balanced",
+        "matrix": "curation_all",
+        "depth": 4,
+        "weight_mode": "inverse_paper_class_balanced"
+      },
+      {
+        "name": "catboost_curation_all_d6_inverse_paper",
+        "matrix": "curation_all",
+        "depth": 6,
+        "weight_mode": "inverse_paper"
+      },
+      {
+        "name": "catboost_curation_all_d6_inverse_paper_class_balanced",
+        "matrix": "curation_all",
+        "depth": 6,
+        "weight_mode": "inverse_paper_class_balanced"
+      },
+      {
+        "name": "catboost_curation_all_d8_inverse_paper",
+        "matrix": "curation_all",
+        "depth": 8,
+        "weight_mode": "inverse_paper"
+      },
+      {
+        "name": "catboost_curation_all_d8_inverse_paper_class_balanced",
+        "matrix": "curation_all",
+        "depth": 8,
+        "weight_mode": "inverse_paper_class_balanced"
+      },
+      {
+        "name": "catboost_combined_d4_inverse_paper",
+        "matrix": "combined",
+        "depth": 4,
+        "weight_mode": "inverse_paper"
+      },
+      {
+        "name": "catboost_combined_d4_inverse_paper_class_balanced",
+        "matrix": "combined",
+        "depth": 4,
+        "weight_mode": "inverse_paper_class_balanced"
+      },
+      {
+        "name": "catboost_combined_d6_inverse_paper",
+        "matrix": "combined",
+        "depth": 6,
+        "weight_mode": "inverse_paper"
+      },
+      {
+        "name": "catboost_combined_d6_inverse_paper_class_balanced",
+        "matrix": "combined",
+        "depth": 6,
+        "weight_mode": "inverse_paper_class_balanced"
+      },
+      {
+        "name": "catboost_combined_d8_inverse_paper",
+        "matrix": "combined",
+        "depth": 8,
+        "weight_mode": "inverse_paper"
+      },
+      {
+        "name": "catboost_combined_d8_inverse_paper_class_balanced",
+        "matrix": "combined",
+        "depth": 8,
+        "weight_mode": "inverse_paper_class_balanced"
+      }
+    ],
+    "candidate_count": 12,
+    "matrices": [
+      "curation_all",
+      "combined"
+    ],
+    "depths": [
+      4,
+      6,
+      8
+    ],
+    "weight_modes": [
+      "inverse_paper",
+      "inverse_paper_class_balanced"
+    ],
+    "maximum_iterations": 700,
+    "learning_rate": 0.035,
+    "l2_leaf_reg": 15.0,
+    "early_stopping_rounds": 60,
+    "threshold_grid": [
+      0.3,
+      0.325,
+      0.35,
+      0.375,
+      0.4,
+      0.425,
+      0.45,
+      0.475,
+      0.5,
+      0.525,
+      0.55,
+      0.575,
+      0.6,
+      0.625,
+      0.65,
+      0.675,
+      0.7
+    ],
+    "thread_count": 2,
+    "random_state": 7321,
+    "inner_split": {
+      "unit": "REFNO",
+      "labels_used_to_assign_groups": false,
+      "method": "SHA256-ranked REFNO prefix by row target",
+      "salt": "r3-catboost-auxiliary-inner-v1",
+      "validation_fraction": 0.2
+    },
+    "selection": {
+      "source": "inner validation only",
+      "candidate_order": [
+        "accuracy",
+        "balanced_accuracy",
+        "macro_f1",
+        "specificity",
+        "negative_logloss",
+        "threshold_proximity_to_0.5",
+        "declaration_order"
+      ],
+      "early_stopping_metric": "inner validation Logloss",
+      "threshold_metric": "inner validation row accuracy",
+      "primary_outer_decision": "probability >= per-fold inner-selected threshold"
+    },
+    "smoke_gate": {
+      "fold": 1,
+      "minimum_accuracy": 0.85,
+      "requires_finite_noncollapsed_predictions": true
+    },
+    "promotion_gate": {
+      "minimum_exact300_accuracy": 0.9
+    }
+  },
+  "outer_fold_audit": [
+    {
+      "fold": 1,
+      "exact_test_rows": 60,
+      "exact_test_papers": 51,
+      "auxiliary_candidate_rows": 2172,
+      "outer_train_rows": 2035,
+      "outer_train_papers": 1123,
+      "full_rows_excluded_for_test_refnos": 137,
+      "expected_rows_excluded_for_test_refnos": 137,
+      "outer_train_test_refno_overlap": 0,
+      "outer_train_exact_test_row_overlap": 0,
+      "excluded_test_refno_rows_remaining_in_outer_train": 0,
+      "inner_fit_rows": 1628,
+      "inner_fit_papers": 897,
+      "inner_validation_rows": 407,
+      "inner_validation_papers": 226,
+      "inner_fit_validation_refno_overlap": 0,
+      "inner_fit_outer_test_refno_overlap": 0,
+      "inner_validation_outer_test_refno_overlap": 0,
+      "candidate_selection_source": "inner REFNO-isolated validation only",
+      "candidate_selection_rule": "accuracy, balanced accuracy, macro-F1, specificity, negative logloss, threshold proximity to 0.5, declaration order",
+      "selected_candidate": "catboost_combined_d8_inverse_paper",
+      "selected_iterations": 424,
+      "selected_threshold": 0.375,
+      "selected_inner_validation": {
+        "rows": 407,
+        "coverage": 1.0,
+        "accuracy": 0.88206388,
+        "macro_f1": 0.86265467,
+        "balanced_accuracy": 0.85689789,
+        "confusion": {
+          "tn": 103,
+          "fp": 28,
+          "fn": 20,
+          "tp": 256
+        },
+        "predicted_positive": 284,
+        "threshold": 0.375
+      },
+      "selected_inner_logloss": 0.31719163,
+      "refit_weight_audit": {
+        "mode": "inverse_paper",
+        "rows": 2035,
+        "papers": 1123,
+        "label_rows": {
+          "0": 746,
+          "1": 1289
+        },
+        "raw_inverse_paper_class_mass": {
+          "0": 376.97914863,
+          "1": 746.02085137
+        },
+        "final_class_mass": {
+          "0": 683.1278428,
+          "1": 1351.8721572
+        },
+        "weight_sum": 2035.0,
+        "paper_mass_min": 1.81211042,
+        "paper_mass_max": 1.81211042
+      },
+      "inner_candidates": [
+        {
+          "candidate": "catboost_curation_all_d4_inverse_paper",
+          "candidate_order": 0,
+          "matrix": "curation_all",
+          "depth": 4,
+          "weight_mode": "inverse_paper",
+          "seed": 7421,
+          "selected_iterations": 321,
+          "selected_threshold": 0.375,
+          "inner_logloss": 0.31757134,
+          "inner_validation": {
+            "rows": 407,
+            "coverage": 1.0,
+            "accuracy": 0.87960688,
+            "macro_f1": 0.8600933,
+            "balanced_accuracy": 0.85508629,
+            "confusion": {
+              "tn": 103,
+              "fp": 28,
+              "fn": 21,
+              "tp": 255
+            },
+            "predicted_positive": 283,
+            "threshold": 0.375
+          },
+          "fit_weight_audit": {
+            "mode": "inverse_paper",
+            "rows": 1628,
+            "papers": 897,
+            "label_rows": {
+              "0": 615,
+              "1": 1013
+            },
+            "raw_inverse_paper_class_mass": {
+              "0": 309.51248196,
+              "1": 587.48751804
+            },
+            "final_class_mass": {
+              "0": 561.74617685,
+              "1": 1066.25382315
+            },
+            "weight_sum": 1628.0,
+            "paper_mass_min": 1.81493868,
+            "paper_mass_max": 1.81493868
+          }
+        },
+        {
+          "candidate": "catboost_curation_all_d4_inverse_paper_class_balanced",
+          "candidate_order": 1,
+          "matrix": "curation_all",
+          "depth": 4,
+          "weight_mode": "inverse_paper_class_balanced",
+          "seed": 7422,
+          "selected_iterations": 675,
+          "selected_threshold": 0.525,
+          "inner_logloss": 0.34262918,
+          "inner_validation": {
+            "rows": 407,
+            "coverage": 1.0,
+            "accuracy": 0.87223587,
+            "macro_f1": 0.85984848,
+            "balanced_accuracy": 0.87772431,
+            "confusion": {
+              "tn": 117,
+              "fp": 14,
+              "fn": 38,
+              "tp": 238
+            },
+            "predicted_positive": 252,
+            "threshold": 0.525
+          },
+          "fit_weight_audit": {
+            "mode": "inverse_paper_class_balanced",
+            "rows": 1628,
+            "papers": 897,
+            "label_rows": {
+              "0": 615,
+              "1": 1013
+            },
+            "raw_inverse_paper_class_mass": {
+              "0": 309.51248196,
+              "1": 587.48751804
+            },
+            "final_class_mass": {
+              "0": 814.0,
+              "1": 814.0
+            },
+            "weight_sum": 1628.0,
+            "paper_mass_min": 1.38556135,
+            "paper_mass_max": 2.6299424
+          }
+        },
+        {
+          "candidate": "catboost_curation_all_d6_inverse_paper",
+          "candidate_order": 2,
+          "matrix": "curation_all",
+          "depth": 6,
+          "weight_mode": "inverse_paper",
+          "seed": 7423,
+          "selected_iterations": 352,
+          "selected_threshold": 0.425,
+          "inner_logloss": 0.32073104,
+          "inner_validation": {
+            "rows": 407,
+            "coverage": 1.0,
+            "accuracy": 0.86977887,
+            "macro_f1": 0.84993565,
+            "balanced_accuracy": 0.84783992,
+            "confusion": {
+              "tn": 103,
+              "fp": 28,
+              "fn": 25,
+              "tp": 251
+            },
+            "predicted_positive": 279,
+            "threshold": 0.425
+          },
+          "fit_weight_audit": {
+            "mode": "inverse_paper",
+            "rows": 1628,
+            "papers": 897,
+            "label_rows": {
+              "0": 615,
+              "1": 1013
+            },
+            "raw_inverse_paper_class_mass": {
+              "0": 309.51248196,
+              "1": 587.48751804
+            },
+            "final_class_mass": {
+              "0": 561.74617685,
+              "1": 1066.25382315
+            },
+            "weight_sum": 1628.0,
+            "paper_mass_min": 1.81493868,
+            "paper_mass_max": 1.81493868
+          }
+        },
+        {
+          "candidate": "catboost_curation_all_d6_inverse_paper_class_balanced",
+          "candidate_order": 3,
+          "matrix": "curation_all",
+          "depth": 6,
+          "weight_mode": "inverse_paper_class_balanced",
+          "seed": 7424,
+          "selected_iterations": 483,
+          "selected_threshold": 0.5,
+          "inner_logloss": 0.34222626,
+          "inner_validation": {
+            "rows": 407,
+            "coverage": 1.0,
+            "accuracy": 0.87714988,
+            "macro_f1": 0.86343015,
+            "balanced_accuracy": 0.8753319,
+            "confusion": {
+              "tn": 114,
+              "fp": 17,
+              "fn": 33,
+              "tp": 243
+            },
+            "predicted_positive": 260,
+            "threshold": 0.5
+          },
+          "fit_weight_audit": {
+            "mode": "inverse_paper_class_balanced",
+            "rows": 1628,
+            "papers": 897,
+            "label_rows": {
+              "0": 615,
+              "1": 1013
+            },
+            "raw_inverse_paper_class_mass": {
+              "0": 309.51248196,
+              "1": 587.48751804
+            },
+            "final_class_mass": {
+              "0": 814.0,
+              "1": 814.0
+            },
+            "weight_sum": 1628.0,
+            "paper_mass_min": 1.38556135,
+            "paper_mass_max": 2.6299424
+          }
+        },
+        {
+          "candidate": "catboost_curation_all_d8_inverse_paper",
+          "candidate_order": 4,
+          "matrix": "curation_all",
+          "depth": 8,
+          "weight_mode": "inverse_paper",
+          "seed": 7425,
+          "selected_iterations": 210,
+          "selected_threshold": 0.7,
+          "inner_logloss": 0.31774851,
+          "inner_validation": {
+            "rows": 407,
+            "coverage": 1.0,
+            "accuracy": 0.87469287,
+            "macro_f1": 0.86361396,
+            "balanced_accuracy": 0.8855515,
+            "confusion": {
+              "tn": 120,
+              "fp": 11,
+              "fn": 40,
+              "tp": 236
+            },
+            "predicted_positive": 247,
+            "threshold": 0.7
+          },
+          "fit_weight_audit": {
+            "mode": "inverse_paper",
+            "rows": 1628,
+            "papers": 897,
+            "label_rows": {
+              "0": 615,
+              "1": 1013
+            },
+            "raw_inverse_paper_class_mass": {
+              "0": 309.51248196,
+              "1": 587.48751804
+            },
+            "final_class_mass": {
+              "0": 561.74617685,
+              "1": 1066.25382315
+            },
+            "weight_sum": 1628.0,
+            "paper_mass_min": 1.81493868,
+            "paper_mass_max": 1.81493868
+          }
+        },
+        {
+          "candidate": "catboost_curation_all_d8_inverse_paper_class_balanced",
+          "candidate_order": 5,
+          "matrix": "curation_all",
+          "depth": 8,
+          "weight_mode": "inverse_paper_class_balanced",
+          "seed": 7426,
+          "selected_iterations": 323,
+          "selected_threshold": 0.325,
+          "inner_logloss": 0.34580128,
+          "inner_validation": {
+            "rows": 407,
+            "coverage": 1.0,
+            "accuracy": 0.86732187,
+            "macro_f1": 0.84803352,
+            "balanced_accuracy": 0.84803352,
+            "confusion": {
+              "tn": 104,
+              "fp": 27,
+              "fn": 27,
+              "tp": 249
+            },
+            "predicted_positive": 276,
+            "threshold": 0.325
+          },
+          "fit_weight_audit": {
+            "mode": "inverse_paper_class_balanced",
+            "rows": 1628,
+            "papers": 897,
+            "label_rows": {
+              "0": 615,
+              "1": 1013
+            },
+            "raw_inverse_paper_class_mass": {
+              "0": 309.51248196,
+              "1": 587.48751804
+            },
+            "final_class_mass": {
+              "0": 814.0,
+              "1": 814.0
+            },
+            "weight_sum": 1628.0,
+            "paper_mass_min": 1.38556135,
+            "paper_mass_max": 2.6299424
+          }
+        },
+        {
+          "candidate": "catboost_combined_d4_inverse_paper",
+          "candidate_order": 6,
+          "matrix": "combined",
+          "depth": 4,
+          "weight_mode": "inverse_paper",
+          "seed": 7427,
+          "selected_iterations": 262,
+          "selected_threshold": 0.375,
+          "inner_logloss": 0.32725071,
+          "inner_validation": {
+            "rows": 407,
+            "coverage": 1.0,
+            "accuracy": 0.87960688,
+            "macro_f1": 0.85949004,
+            "balanced_accuracy": 0.85308109,
+            "confusion": {
+              "tn": 102,
+              "fp": 29,
+              "fn": 20,
+              "tp": 256
+            },
+            "predicted_positive": 285,
+            "threshold": 0.375
+          },
+          "fit_weight_audit": {
+            "mode": "inverse_paper",
+            "rows": 1628,
+            "papers": 897,
+            "label_rows": {
+              "0": 615,
+              "1": 1013
+            },
+            "raw_inverse_paper_class_mass": {
+              "0": 309.51248196,
+              "1": 587.48751804
+            },
+            "final_class_mass": {
+              "0": 561.74617685,
+              "1": 1066.25382315
+            },
+            "weight_sum": 1628.0,
+            "paper_mass_min": 1.81493868,
+            "paper_mass_max": 1.81493868
+          }
+        },
+        {
+          "candidate": "catboost_combined_d4_inverse_paper_class_balanced",
+          "candidate_order": 7,
+          "matrix": "combined",
+          "depth": 4,
+          "weight_mode": "inverse_paper_class_balanced",
+          "seed": 7428,
+          "selected_iterations": 658,
+          "selected_threshold": 0.425,
+          "inner_logloss": 0.33911592,
+          "inner_validation": {
+            "rows": 407,
+            "coverage": 1.0,
+            "accuracy": 0.87960688,
+            "macro_f1": 0.86447439,
+            "balanced_accuracy": 0.87112789,
+            "confusion": {
+              "tn": 111,
+              "fp": 20,
+              "fn": 29,
+              "tp": 247
+            },
+            "predicted_positive": 267,
+            "threshold": 0.425
+          },
+          "fit_weight_audit": {
+            "mode": "inverse_paper_class_balanced",
+            "rows": 1628,
+            "papers": 897,
+            "label_rows": {
+              "0": 615,
+              "1": 1013
+            },
+            "raw_inverse_paper_class_mass": {
+              "0": 309.51248196,
+              "1": 587.48751804
+            },
+            "final_class_mass": {
+              "0": 814.0,
+              "1": 814.0
+            },
+            "weight_sum": 1628.0,
+            "paper_mass_min": 1.38556135,
+            "paper_mass_max": 2.6299424
+          }
+        },
+        {
+          "candidate": "catboost_combined_d6_inverse_paper",
+          "candidate_order": 8,
+          "matrix": "combined",
+          "depth": 6,
+          "weight_mode": "inverse_paper",
+          "seed": 7429,
+          "selected_iterations": 249,
+          "selected_threshold": 0.3,
+          "inner_logloss": 0.31972947,
+          "inner_validation": {
+            "rows": 407,
+            "coverage": 1.0,
+            "accuracy": 0.87223587,
+            "macro_f1": 0.84990071,
+            "balanced_accuracy": 0.84163071,
+            "confusion": {
+              "tn": 99,
+              "fp": 32,
+              "fn": 20,
+              "tp": 256
+            },
+            "predicted_positive": 288,
+            "threshold": 0.3
+          },
+          "fit_weight_audit": {
+            "mode": "inverse_paper",
+            "rows": 1628,
+            "papers": 897,
+            "label_rows": {
+              "0": 615,
+              "1": 1013
+            },
+            "raw_inverse_paper_class_mass": {
+              "0": 309.51248196,
+              "1": 587.48751804
+            },
+            "final_class_mass": {
+              "0": 561.74617685,
+              "1": 1066.25382315
+            },
+            "weight_sum": 1628.0,
+            "paper_mass_min": 1.81493868,
+            "paper_mass_max": 1.81493868
+          }
+        },
+        {
+          "candidate": "catboost_combined_d6_inverse_paper_class_balanced",
+          "candidate_order": 9,
+          "matrix": "combined",
+          "depth": 6,
+          "weight_mode": "inverse_paper_class_balanced",
+          "seed": 7430,
+          "selected_iterations": 366,
+          "selected_threshold": 0.3,
+          "inner_logloss": 0.34326318,
+          "inner_validation": {
+            "rows": 407,
+            "coverage": 1.0,
+            "accuracy": 0.86732187,
+            "macro_f1": 0.84678769,
+            "balanced_accuracy": 0.84402312,
+            "confusion": {
+              "tn": 102,
+              "fp": 29,
+              "fn": 25,
+              "tp": 251
+            },
+            "predicted_positive": 280,
+            "threshold": 0.3
+          },
+          "fit_weight_audit": {
+            "mode": "inverse_paper_class_balanced",
+            "rows": 1628,
+            "papers": 897,
+            "label_rows": {
+              "0": 615,
+              "1": 1013
+            },
+            "raw_inverse_paper_class_mass": {
+              "0": 309.51248196,
+              "1": 587.48751804
+            },
+            "final_class_mass": {
+              "0": 814.0,
+              "1": 814.0
+            },
+            "weight_sum": 1628.0,
+            "paper_mass_min": 1.38556135,
+            "paper_mass_max": 2.6299424
+          }
+        },
+        {
+          "candidate": "catboost_combined_d8_inverse_paper",
+          "candidate_order": 10,
+          "matrix": "combined",
+          "depth": 8,
+          "weight_mode": "inverse_paper",
+          "seed": 7431,
+          "selected_iterations": 424,
+          "selected_threshold": 0.375,
+          "inner_logloss": 0.31719163,
+          "inner_validation": {
+            "rows": 407,
+            "coverage": 1.0,
+            "accuracy": 0.88206388,
+            "macro_f1": 0.86265467,
+            "balanced_accuracy": 0.85689789,
+            "confusion": {
+              "tn": 103,
+              "fp": 28,
+              "fn": 20,
+              "tp": 256
+            },
+            "predicted_positive": 284,
+            "threshold": 0.375
+          },
+          "fit_weight_audit": {
+            "mode": "inverse_paper",
+            "rows": 1628,
+            "papers": 897,
+            "label_rows": {
+              "0": 615,
+              "1": 1013
+            },
+            "raw_inverse_paper_class_mass": {
+              "0": 309.51248196,
+              "1": 587.48751804
+            },
+            "final_class_mass": {
+              "0": 561.74617685,
+              "1": 1066.25382315
+            },
+            "weight_sum": 1628.0,
+            "paper_mass_min": 1.81493868,
+            "paper_mass_max": 1.81493868
+          }
+        },
+        {
+          "candidate": "catboost_combined_d8_inverse_paper_class_balanced",
+          "candidate_order": 11,
+          "matrix": "combined",
+          "depth": 8,
+          "weight_mode": "inverse_paper_class_balanced",
+          "seed": 7432,
+          "selected_iterations": 574,
+          "selected_threshold": 0.575,
+          "inner_logloss": 0.32970431,
+          "inner_validation": {
+            "rows": 407,
+            "coverage": 1.0,
+            "accuracy": 0.87960688,
+            "macro_f1": 0.8672882,
+            "balanced_accuracy": 0.88315909,
+            "confusion": {
+              "tn": 117,
+              "fp": 14,
+              "fn": 35,
+              "tp": 241
+            },
+            "predicted_positive": 255,
+            "threshold": 0.575
+          },
+          "fit_weight_audit": {
+            "mode": "inverse_paper_class_balanced",
+            "rows": 1628,
+            "papers": 897,
+            "label_rows": {
+              "0": 615,
+              "1": 1013
+            },
+            "raw_inverse_paper_class_mass": {
+              "0": 309.51248196,
+              "1": 587.48751804
+            },
+            "final_class_mass": {
+              "0": 814.0,
+              "1": 814.0
+            },
+            "weight_sum": 1628.0,
+            "paper_mass_min": 1.38556135,
+            "paper_mass_max": 2.6299424
+          }
+        }
+      ],
+      "outer_test_labels_received_by_run_fold": false
+    }
+  ],
+  "fold_metrics": [
+    {
+      "fold": 1,
+      "inner_selected_threshold_decision": {
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.91666667,
+        "macro_f1": 0.90737882,
+        "balanced_accuracy": 0.9125,
+        "confusion": {
+          "tn": 18,
+          "fp": 2,
+          "fn": 3,
+          "tp": 37
+        },
+        "predicted_positive": 39,
+        "threshold": 0.5
+      },
+      "default_0.5_probability_diagnostic": {
+        "rows": 60,
+        "coverage": 1.0,
+        "accuracy": 0.88333333,
+        "macro_f1": 0.87315011,
+        "balanced_accuracy": 0.8875,
+        "confusion": {
+          "tn": 18,
+          "fp": 2,
+          "fn": 5,
+          "tp": 35
+        },
+        "predicted_positive": 37,
+        "threshold": 0.5
+      }
+    }
+  ],
+  "primary_full_coverage_result": {
+    "strategy": "per-fold inner-selected CatBoost candidate and threshold",
+    "rows": 60,
+    "coverage": 1.0,
+    "accuracy": 0.91666667,
+    "macro_f1": 0.90737882,
+    "balanced_accuracy": 0.9125,
+    "confusion": {
+      "tn": 18,
+      "fp": 2,
+      "fn": 3,
+      "tp": 37
+    },
+    "predicted_positive": 39,
+    "threshold": 0.5,
+    "stable_noncollapsed": true
+  },
+  "default_threshold_diagnostic": {
+    "rows": 60,
+    "coverage": 1.0,
+    "accuracy": 0.88333333,
+    "macro_f1": 0.87315011,
+    "balanced_accuracy": 0.8875,
+    "confusion": {
+      "tn": 18,
+      "fp": 2,
+      "fn": 5,
+      "tp": 35
+    },
+    "predicted_positive": 37,
+    "threshold": 0.5
+  },
+  "smoke_gate": {
+    "applicable": true,
+    "minimum_accuracy": 0.85,
+    "observed_accuracy": 0.91666667,
+    "stable_noncollapsed": true,
+    "continue_to_all_folds": true
+  },
+  "promotion_gate": {
+    "applicable": false,
+    "target_accuracy": 0.9,
+    "canonical_auxiliary_reference_accuracy": 0.87333333,
+    "observed_accuracy": 0.91666667,
+    "absolute_delta_from_reference": 0.04333334,
+    "passed": false,
+    "decision": "PARTIAL_SMOKE_ONLY"
+  },
+  "artifacts": {
+    "feature_freeze": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/catboost_auxiliary_v1/feature_freeze.json",
+      "sha256": "cc72a6a4bb9e09c9a645c40a6cae55b4da854edd3a9c621bdc2536ca0046d255"
+    },
+    "predictions": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/catboost_auxiliary_v1/folds_1_probabilities.npz",
+      "sha256": "8b01537d396d50600c0eb9b8a630ad417ce963c5113f6043d611f587527a4a0a",
+      "rows_per_array": 60,
+      "contains_labels": false,
+      "contains_identifiers": false,
+      "arrays": [
+        "catboost_probability",
+        "catboost_inner_selected_decision"
+      ]
+    },
+    "implementation": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/experiment_r3_exact300_auxiliary_catboost.py",
+      "sha256": "8b5ae1137460ab2a18577270791fab57ce4bfaf334ea29d07a8c3173d7e2661a"
+    }
+  }
+}

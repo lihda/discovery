@@ -1,0 +1,35 @@
+{
+  "schema_version": "r3_exact300_bibliographic_policy_coverage_protocol_v1",
+  "status": "FROZEN_BEFORE_COVERAGE_OBSERVATION",
+  "canonical_fold_manifest_sha256": "8f6ab8f1a071878e14d4db8e19a7ec0519ed612be107b0f0fdf0489dd59aaf2d",
+  "support_thresholds": {
+    "recurring_author_training_papers": 2,
+    "journal_decade_training_papers": 15,
+    "publisher_decade_training_papers": 15,
+    "doi_prefix_training_papers": 10,
+    "shared_citation_training_papers": 3
+  },
+  "continuation_gate": {
+    "minimum_title_extraction_coverage": 0.9,
+    "minimum_year_extraction_coverage": 0.75,
+    "minimum_stable_policy_row_coverage": 0.75,
+    "minimum_specific_relation_row_coverage": 0.35,
+    "minimum_each_fold_stable_policy_row_coverage": 0.65,
+    "decision": "train only if every threshold passes; otherwise stop before R3 access"
+  },
+  "runtime_boundary": {
+    "labels_read": false,
+    "targets_workbook_read": false,
+    "pmagresult_or_rockmag_read": false,
+    "prior_predictions_or_evaluations_read": false,
+    "identifiers_used_for_alignment_and_refno_isolation_only": true
+  },
+  "entity_sources": [
+    "title/front matter from original-paper page cache",
+    "author surnames from original-paper page cache",
+    "publication year from original-paper page cache",
+    "journal family from original-paper page cache",
+    "publisher or source DOI prefix from original-paper page cache",
+    "reference DOI and author-year keys from original-paper page cache"
+  ]
+}

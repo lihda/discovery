@@ -1,0 +1,5212 @@
+{
+  "schema_version": "r3_pdf_citation_relation_grouped_oof_v1",
+  "status": "complete",
+  "scope": "development-only frozen training partition; local PDF required",
+  "guardrails": {
+    "cross_validation": "5-fold GroupKFold by REFNO",
+    "relation_node_source": "page cache only",
+    "relation_attributes": [
+      "title/front matter",
+      "authors",
+      "publication year",
+      "reference strings",
+      "DOI and author-year citation keys",
+      "research-object phrases",
+      "method events"
+    ],
+    "relation_branch_does_not_use_rockname": true,
+    "test_labels_used_for_prediction": false,
+    "train_test_refno_overlap_every_fold": 0,
+    "forbidden_sources_not_read": [
+      "PMAGRESULT",
+      "ROCKMAG source cells",
+      "positive ROCKMAG expert KB",
+      "prior predictions",
+      "prior evaluations",
+      "held-out R3 labels"
+    ],
+    "original_comparison": "recomputed from page text, ROCKNAME, and taxonomy; no stored prediction read",
+    "strategy_ranking_warning": "development OOF strategy ranking is post-hoc and requires external validation"
+  },
+  "inputs": {
+    "training_identity": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_distilled_training_preflight/identity.xlsx",
+      "sha256": "7e45020df48b866096ac4bf567102f6a73ce3c12759b19c8550f78de299c72f1"
+    },
+    "targets": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/targets.xlsx",
+      "sha256": "378c17338f3b5cfeff3ccd496894e0f6183f747119b2624c4a9cefaeda02501e"
+    },
+    "page_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/mineru_cache_all_hard_risk.jsonl",
+      "sha256": "f8ec25c1148c04112ccfc75076743803417effbb833834a136c714dff4e146d7"
+    },
+    "taxonomy": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/calibration/r3_rockmag_text_distillation_v1.json",
+      "sha256": "149df539a937678c8204aa6d6e60e77bd901e4a77975d26caa5362749aa18ad4"
+    },
+    "pdf_dir": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs"
+  },
+  "data": {
+    "fixed_training_rows": 2473,
+    "fixed_training_paper_groups": 1292,
+    "pdf_only_rows": 2172,
+    "pdf_only_paper_groups": 1174,
+    "rows_skipped_without_local_pdf": 301,
+    "paper_groups_skipped_without_local_pdf": 118,
+    "row_label_counts": {
+      "0": 804,
+      "1": 1368
+    },
+    "paper_majority_label_counts": {
+      "0": 376,
+      "1": 798
+    },
+    "homogeneous_papers": 1126,
+    "mixed_papers": 48,
+    "profile_extraction": {
+      "papers": 1174,
+      "title_nonempty": 1166,
+      "author_nonempty": 1030,
+      "year_nonempty": 1077,
+      "references_nonempty": 881,
+      "citation_doi_nonempty": 380,
+      "citation_key_nonempty": 881,
+      "research_object_nonempty": 1173,
+      "method_event_nonempty": 1165
+    }
+  },
+  "fold_leakage_audit": [
+    {
+      "fold": 1,
+      "train_papers": 939,
+      "test_papers": 235,
+      "train_rows": 1737,
+      "test_rows": 435,
+      "train_test_refno_overlap": 0,
+      "test_labels_available_to_predictor": false,
+      "graph": {
+        "vocabulary_size": 120000,
+        "citation_connected_test_papers": 178,
+        "author_series_connected_test_papers": 235,
+        "explicit_citation_strength_edges": 886,
+        "char_vocabulary_size": 100000,
+        "outer_train_label_count": 939,
+        "leave_one_out_training_self_edges_removed": true,
+        "leave_one_out_stacker_audit": {
+          "vocabulary_size": 120000,
+          "citation_connected_test_papers": 703,
+          "author_series_connected_test_papers": 939,
+          "explicit_citation_strength_edges": 3581
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "train_papers": 939,
+      "test_papers": 235,
+      "train_rows": 1737,
+      "test_rows": 435,
+      "train_test_refno_overlap": 0,
+      "test_labels_available_to_predictor": false,
+      "graph": {
+        "vocabulary_size": 120000,
+        "citation_connected_test_papers": 176,
+        "author_series_connected_test_papers": 235,
+        "explicit_citation_strength_edges": 699,
+        "char_vocabulary_size": 100000,
+        "outer_train_label_count": 939,
+        "leave_one_out_training_self_edges_removed": true,
+        "leave_one_out_stacker_audit": {
+          "vocabulary_size": 120000,
+          "citation_connected_test_papers": 705,
+          "author_series_connected_test_papers": 939,
+          "explicit_citation_strength_edges": 3813
+        }
+      }
+    },
+    {
+      "fold": 3,
+      "train_papers": 940,
+      "test_papers": 234,
+      "train_rows": 1738,
+      "test_rows": 434,
+      "train_test_refno_overlap": 0,
+      "test_labels_available_to_predictor": false,
+      "graph": {
+        "vocabulary_size": 120000,
+        "citation_connected_test_papers": 173,
+        "author_series_connected_test_papers": 234,
+        "explicit_citation_strength_edges": 723,
+        "char_vocabulary_size": 100000,
+        "outer_train_label_count": 940,
+        "leave_one_out_training_self_edges_removed": true,
+        "leave_one_out_stacker_audit": {
+          "vocabulary_size": 120000,
+          "citation_connected_test_papers": 708,
+          "author_series_connected_test_papers": 940,
+          "explicit_citation_strength_edges": 3934
+        }
+      }
+    },
+    {
+      "fold": 4,
+      "train_papers": 939,
+      "test_papers": 235,
+      "train_rows": 1738,
+      "test_rows": 434,
+      "train_test_refno_overlap": 0,
+      "test_labels_available_to_predictor": false,
+      "graph": {
+        "vocabulary_size": 120000,
+        "citation_connected_test_papers": 179,
+        "author_series_connected_test_papers": 235,
+        "explicit_citation_strength_edges": 733,
+        "char_vocabulary_size": 100000,
+        "outer_train_label_count": 939,
+        "leave_one_out_training_self_edges_removed": true,
+        "leave_one_out_stacker_audit": {
+          "vocabulary_size": 120000,
+          "citation_connected_test_papers": 702,
+          "author_series_connected_test_papers": 939,
+          "explicit_citation_strength_edges": 3908
+        }
+      }
+    },
+    {
+      "fold": 5,
+      "train_papers": 939,
+      "test_papers": 235,
+      "train_rows": 1738,
+      "test_rows": 434,
+      "train_test_refno_overlap": 0,
+      "test_labels_available_to_predictor": false,
+      "graph": {
+        "vocabulary_size": 120000,
+        "citation_connected_test_papers": 175,
+        "author_series_connected_test_papers": 235,
+        "explicit_citation_strength_edges": 871,
+        "char_vocabulary_size": 100000,
+        "outer_train_label_count": 939,
+        "leave_one_out_training_self_edges_removed": true,
+        "leave_one_out_stacker_audit": {
+          "vocabulary_size": 120000,
+          "citation_connected_test_papers": 706,
+          "author_series_connected_test_papers": 939,
+          "explicit_citation_strength_edges": 3724
+        }
+      }
+    }
+  ],
+  "strategies": {
+    "text_knn": {
+      "family": "pdf_relation",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.7145488,
+        "macro_f1": 0.6193984,
+        "balanced_accuracy": 0.62699114,
+        "confusion": {
+          "tn": 233,
+          "fp": 571,
+          "fn": 49,
+          "tp": 1319
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.74712644,
+          "macro_f1": 0.61153147,
+          "balanced_accuracy": 0.61464891,
+          "confusion": {
+            "tn": 34,
+            "fp": 106,
+            "fn": 4,
+            "tp": 291
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.67356322,
+          "macro_f1": 0.59760006,
+          "balanced_accuracy": 0.62372069,
+          "confusion": {
+            "tn": 52,
+            "fp": 134,
+            "fn": 8,
+            "tp": 241
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.68663594,
+          "macro_f1": 0.59776475,
+          "balanced_accuracy": 0.61995684,
+          "confusion": {
+            "tn": 47,
+            "fp": 129,
+            "fn": 7,
+            "tp": 251
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.70276498,
+          "macro_f1": 0.60609578,
+          "balanced_accuracy": 0.61963501,
+          "confusion": {
+            "tn": 45,
+            "fp": 120,
+            "fn": 9,
+            "tp": 260
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.76267281,
+          "macro_f1": 0.67959001,
+          "balanced_accuracy": 0.66537639,
+          "confusion": {
+            "tn": 55,
+            "fp": 82,
+            "fn": 21,
+            "tp": 276
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.74180328,
+          "macro_f1": 0.65287493,
+          "balanced_accuracy": 0.64881739,
+          "confusion": {
+            "tn": 230,
+            "fp": 457,
+            "fn": 47,
+            "tp": 1218
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.34220023,
+          "balanced_accuracy": 0.50311177,
+          "confusion": {
+            "tn": 3,
+            "fp": 114,
+            "fn": 2,
+            "tp": 101
+          }
+        }
+      }
+    },
+    "citation_knn": {
+      "family": "pdf_relation",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.60819521,
+        "macro_f1": 0.50360285,
+        "balanced_accuracy": 0.52435738,
+        "confusion": {
+          "tn": 162,
+          "fp": 642,
+          "fn": 209,
+          "tp": 1159
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.61609195,
+          "macro_f1": 0.49650335,
+          "balanced_accuracy": 0.50677966,
+          "confusion": {
+            "tn": 28,
+            "fp": 112,
+            "fn": 55,
+            "tp": 240
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.5954023,
+          "macro_f1": 0.50839883,
+          "balanced_accuracy": 0.54592564,
+          "confusion": {
+            "tn": 38,
+            "fp": 148,
+            "fn": 28,
+            "tp": 221
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.63364055,
+          "macro_f1": 0.55228994,
+          "balanced_accuracy": 0.57357734,
+          "confusion": {
+            "tn": 45,
+            "fp": 131,
+            "fn": 28,
+            "tp": 230
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.59907834,
+          "macro_f1": 0.49635854,
+          "balanced_accuracy": 0.52076152,
+          "confusion": {
+            "tn": 32,
+            "fp": 133,
+            "fn": 41,
+            "tp": 228
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.59677419,
+          "macro_f1": 0.45561409,
+          "balanced_accuracy": 0.47338347,
+          "confusion": {
+            "tn": 19,
+            "fp": 118,
+            "fn": 57,
+            "tp": 240
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.62346311,
+          "macro_f1": 0.51072439,
+          "balanced_accuracy": 0.52758398,
+          "confusion": {
+            "tn": 140,
+            "fp": 547,
+            "fn": 188,
+            "tp": 1077
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.43035714,
+          "balanced_accuracy": 0.49207535,
+          "confusion": {
+            "tn": 22,
+            "fp": 95,
+            "fn": 21,
+            "tp": 82
+          }
+        }
+      }
+    },
+    "author_series_knn": {
+      "family": "pdf_relation",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.67909761,
+        "macro_f1": 0.53294775,
+        "balanced_accuracy": 0.57243934,
+        "confusion": {
+          "tn": 130,
+          "fp": 674,
+          "fn": 23,
+          "tp": 1345
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.71264368,
+          "macro_f1": 0.53255964,
+          "balanced_accuracy": 0.562954,
+          "confusion": {
+            "tn": 20,
+            "fp": 120,
+            "fn": 5,
+            "tp": 290
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.65287356,
+          "macro_f1": 0.54474255,
+          "balanced_accuracy": 0.59476616,
+          "confusion": {
+            "tn": 36,
+            "fp": 150,
+            "fn": 1,
+            "tp": 248
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.63364055,
+          "macro_f1": 0.49228562,
+          "balanced_accuracy": 0.553713,
+          "confusion": {
+            "tn": 23,
+            "fp": 153,
+            "fn": 6,
+            "tp": 252
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.67511521,
+          "macro_f1": 0.53370671,
+          "balanced_accuracy": 0.57624197,
+          "confusion": {
+            "tn": 27,
+            "fp": 138,
+            "fn": 3,
+            "tp": 266
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.72119816,
+          "macro_f1": 0.55545962,
+          "balanced_accuracy": 0.57412323,
+          "confusion": {
+            "tn": 24,
+            "fp": 113,
+            "fn": 8,
+            "tp": 289
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.70286885,
+          "macro_f1": 0.55935217,
+          "balanced_accuracy": 0.58519081,
+          "confusion": {
+            "tn": 129,
+            "fp": 558,
+            "fn": 22,
+            "tp": 1243
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.46818182,
+          "macro_f1": 0.32616037,
+          "balanced_accuracy": 0.49941914,
+          "confusion": {
+            "tn": 1,
+            "fp": 116,
+            "fn": 1,
+            "tp": 102
+          }
+        }
+      }
+    },
+    "combined_knn": {
+      "family": "pdf_relation",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.67587477,
+        "macro_f1": 0.5770256,
+        "balanced_accuracy": 0.59013594,
+        "confusion": {
+          "tn": 209,
+          "fp": 595,
+          "fn": 109,
+          "tp": 1259
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.70114943,
+          "macro_f1": 0.58931269,
+          "balanced_accuracy": 0.59013317,
+          "confusion": {
+            "tn": 39,
+            "fp": 101,
+            "fn": 29,
+            "tp": 266
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.66896552,
+          "macro_f1": 0.58782966,
+          "balanced_accuracy": 0.61766421,
+          "confusion": {
+            "tn": 49,
+            "fp": 137,
+            "fn": 7,
+            "tp": 242
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.63133641,
+          "macro_f1": 0.50693024,
+          "balanced_accuracy": 0.55628964,
+          "confusion": {
+            "tn": 28,
+            "fp": 148,
+            "fn": 12,
+            "tp": 246
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.68663594,
+          "macro_f1": 0.61233712,
+          "balanced_accuracy": 0.61716796,
+          "confusion": {
+            "tn": 54,
+            "fp": 111,
+            "fn": 25,
+            "tp": 244
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.69124424,
+          "macro_f1": 0.58182812,
+          "balanced_accuracy": 0.58172971,
+          "confusion": {
+            "tn": 39,
+            "fp": 98,
+            "fn": 36,
+            "tp": 261
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.69979508,
+          "macro_f1": 0.59807448,
+          "balanced_accuracy": 0.60376961,
+          "confusion": {
+            "tn": 192,
+            "fp": 495,
+            "fn": 91,
+            "tp": 1174
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.46363636,
+          "macro_f1": 0.40698099,
+          "balanced_accuracy": 0.48527093,
+          "confusion": {
+            "tn": 17,
+            "fp": 100,
+            "fn": 18,
+            "tp": 85
+          }
+        }
+      }
+    },
+    "metadata_text_logistic": {
+      "family": "pdf_relation",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.77854512,
+        "macro_f1": 0.73251663,
+        "balanced_accuracy": 0.71933098,
+        "confusion": {
+          "tn": 395,
+          "fp": 409,
+          "fn": 72,
+          "tp": 1296
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.80689655,
+          "macro_f1": 0.73971393,
+          "balanced_accuracy": 0.71688862,
+          "confusion": {
+            "tn": 65,
+            "fp": 75,
+            "fn": 9,
+            "tp": 286
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.72183908,
+          "macro_f1": 0.67831933,
+          "balanced_accuracy": 0.68289286,
+          "confusion": {
+            "tn": 77,
+            "fp": 109,
+            "fn": 12,
+            "tp": 237
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.75345622,
+          "macro_f1": 0.71741181,
+          "balanced_accuracy": 0.71137245,
+          "confusion": {
+            "tn": 86,
+            "fp": 90,
+            "fn": 17,
+            "tp": 241
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.76958525,
+          "macro_f1": 0.7300995,
+          "balanced_accuracy": 0.71922947,
+          "confusion": {
+            "tn": 84,
+            "fp": 81,
+            "fn": 19,
+            "tp": 250
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.84101382,
+          "macro_f1": 0.79868912,
+          "balanced_accuracy": 0.77766718,
+          "confusion": {
+            "tn": 83,
+            "fp": 54,
+            "fn": 15,
+            "tp": 282
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.81352459,
+          "macro_f1": 0.77542568,
+          "balanced_accuracy": 0.75802567,
+          "confusion": {
+            "tn": 392,
+            "fp": 295,
+            "fn": 69,
+            "tp": 1196
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.46818182,
+          "macro_f1": 0.33984766,
+          "balanced_accuracy": 0.49825741,
+          "confusion": {
+            "tn": 3,
+            "fp": 114,
+            "fn": 3,
+            "tp": 100
+          }
+        }
+      }
+    },
+    "method_event_gradient_boosting": {
+      "family": "pdf_relation",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.79972376,
+        "macro_f1": 0.77831321,
+        "balanced_accuracy": 0.77101335,
+        "confusion": {
+          "tn": 531,
+          "fp": 273,
+          "fn": 162,
+          "tp": 1206
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.82298851,
+          "macro_f1": 0.78441645,
+          "balanced_accuracy": 0.77003632,
+          "confusion": {
+            "tn": 87,
+            "fp": 53,
+            "fn": 24,
+            "tp": 271
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.74252874,
+          "macro_f1": 0.72170178,
+          "balanced_accuracy": 0.71796865,
+          "confusion": {
+            "tn": 102,
+            "fp": 84,
+            "fn": 28,
+            "tp": 221
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.79032258,
+          "macro_f1": 0.77675276,
+          "balanced_accuracy": 0.77127378,
+          "confusion": {
+            "tn": 118,
+            "fp": 58,
+            "fn": 33,
+            "tp": 225
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.79262673,
+          "macro_f1": 0.77999324,
+          "balanced_accuracy": 0.77999324,
+          "confusion": {
+            "tn": 120,
+            "fp": 45,
+            "fn": 45,
+            "tp": 224
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.85023041,
+          "macro_f1": 0.82633053,
+          "balanced_accuracy": 0.82568999,
+          "confusion": {
+            "tn": 104,
+            "fp": 33,
+            "fn": 32,
+            "tp": 265
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.83760246,
+          "macro_f1": 0.81957625,
+          "balanced_accuracy": 0.81551053,
+          "confusion": {
+            "tn": 509,
+            "fp": 178,
+            "fn": 139,
+            "tp": 1126
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.46363636,
+          "macro_f1": 0.42357225,
+          "balanced_accuracy": 0.48236661,
+          "confusion": {
+            "tn": 22,
+            "fp": 95,
+            "fn": 23,
+            "tp": 80
+          }
+        }
+      }
+    },
+    "method_event_hist_gradient_boosting": {
+      "family": "pdf_relation",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.81123389,
+        "macro_f1": 0.79072115,
+        "balanced_accuracy": 0.78271472,
+        "confusion": {
+          "tn": 541,
+          "fp": 263,
+          "fn": 147,
+          "tp": 1221
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.82988506,
+          "macro_f1": 0.79426577,
+          "balanced_accuracy": 0.78075061,
+          "confusion": {
+            "tn": 90,
+            "fp": 50,
+            "fn": 24,
+            "tp": 271
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.78390805,
+          "macro_f1": 0.76512958,
+          "balanced_accuracy": 0.75887421,
+          "confusion": {
+            "tn": 109,
+            "fp": 77,
+            "fn": 17,
+            "tp": 232
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.79493088,
+          "macro_f1": 0.78112481,
+          "balanced_accuracy": 0.77514975,
+          "confusion": {
+            "tn": 118,
+            "fp": 58,
+            "fn": 31,
+            "tp": 227
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.81336406,
+          "macro_f1": 0.80267744,
+          "balanced_accuracy": 0.80375127,
+          "confusion": {
+            "tn": 126,
+            "fp": 39,
+            "fn": 42,
+            "tp": 227
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.83410138,
+          "macro_f1": 0.80567164,
+          "balanced_accuracy": 0.80210868,
+          "confusion": {
+            "tn": 98,
+            "fp": 39,
+            "fn": 33,
+            "tp": 264
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.84938525,
+          "macro_f1": 0.83248567,
+          "balanced_accuracy": 0.82792689,
+          "confusion": {
+            "tn": 519,
+            "fp": 168,
+            "fn": 126,
+            "tp": 1139
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.43035714,
+          "balanced_accuracy": 0.49207535,
+          "confusion": {
+            "tn": 22,
+            "fp": 95,
+            "fn": 21,
+            "tp": 82
+          }
+        }
+      }
+    },
+    "relation_stacker": {
+      "family": "pdf_relation",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.78959484,
+        "macro_f1": 0.76854603,
+        "balanced_accuracy": 0.76271603,
+        "confusion": {
+          "tn": 530,
+          "fp": 274,
+          "fn": 183,
+          "tp": 1185
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.79310345,
+          "macro_f1": 0.75205198,
+          "balanced_accuracy": 0.74237288,
+          "confusion": {
+            "tn": 84,
+            "fp": 56,
+            "fn": 34,
+            "tp": 261
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.75632184,
+          "macro_f1": 0.73731884,
+          "balanced_accuracy": 0.7327374,
+          "confusion": {
+            "tn": 106,
+            "fp": 80,
+            "fn": 26,
+            "tp": 223
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.7764977,
+          "macro_f1": 0.76524973,
+          "balanced_accuracy": 0.76235465,
+          "confusion": {
+            "tn": 121,
+            "fp": 55,
+            "fn": 42,
+            "tp": 216
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.81336406,
+          "macro_f1": 0.80030108,
+          "balanced_accuracy": 0.79789343,
+          "confusion": {
+            "tn": 121,
+            "fp": 44,
+            "fn": 37,
+            "tp": 232
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.80875576,
+          "macro_f1": 0.78079608,
+          "balanced_accuracy": 0.78359016,
+          "confusion": {
+            "tn": 98,
+            "fp": 39,
+            "fn": 44,
+            "tp": 253
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.82633197,
+          "macro_f1": 0.8081449,
+          "balanced_accuracy": 0.80581724,
+          "confusion": {
+            "tn": 506,
+            "fp": 181,
+            "fn": 158,
+            "tp": 1107
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.46363636,
+          "macro_f1": 0.42924985,
+          "balanced_accuracy": 0.48120488,
+          "confusion": {
+            "tn": 24,
+            "fp": 93,
+            "fn": 25,
+            "tp": 78
+          }
+        }
+      }
+    },
+    "relation_predefined_fusion": {
+      "family": "pdf_relation",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.80985267,
+        "macro_f1": 0.78276292,
+        "balanced_accuracy": 0.77008052,
+        "confusion": {
+          "tn": 496,
+          "fp": 308,
+          "fn": 105,
+          "tp": 1263
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.81609195,
+          "macro_f1": 0.76616675,
+          "balanced_accuracy": 0.74618644,
+          "confusion": {
+            "tn": 77,
+            "fp": 63,
+            "fn": 17,
+            "tp": 278
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.76781609,
+          "macro_f1": 0.74098747,
+          "balanced_accuracy": 0.7366563,
+          "confusion": {
+            "tn": 97,
+            "fp": 89,
+            "fn": 12,
+            "tp": 237
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.80645161,
+          "macro_f1": 0.78984505,
+          "balanced_accuracy": 0.78122798,
+          "confusion": {
+            "tn": 114,
+            "fp": 62,
+            "fn": 22,
+            "tp": 236
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.81336406,
+          "macro_f1": 0.79648123,
+          "balanced_accuracy": 0.78969246,
+          "confusion": {
+            "tn": 114,
+            "fp": 51,
+            "fn": 30,
+            "tp": 239
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.84562212,
+          "macro_f1": 0.81397819,
+          "balanced_accuracy": 0.80266165,
+          "confusion": {
+            "tn": 94,
+            "fp": 43,
+            "fn": 24,
+            "tp": 273
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.84784836,
+          "macro_f1": 0.82546784,
+          "balanced_accuracy": 0.81310677,
+          "confusion": {
+            "tn": 478,
+            "fp": 209,
+            "fn": 88,
+            "tp": 1177
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.41703216,
+          "balanced_accuracy": 0.49439881,
+          "confusion": {
+            "tn": 18,
+            "fp": 99,
+            "fn": 17,
+            "tp": 86
+          }
+        }
+      }
+    },
+    "original_taxonomy_unscoped_current_best": {
+      "family": "recomputed_original_text",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.82550645,
+        "macro_f1": 0.80238121,
+        "balanced_accuracy": 0.78994283,
+        "confusion": {
+          "tn": 525,
+          "fp": 279,
+          "fn": 100,
+          "tp": 1268
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.83678161,
+          "macro_f1": 0.79929296,
+          "balanced_accuracy": 0.78208232,
+          "confusion": {
+            "tn": 88,
+            "fp": 52,
+            "fn": 19,
+            "tp": 276
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.77701149,
+          "macro_f1": 0.75728937,
+          "balanced_accuracy": 0.75148983,
+          "confusion": {
+            "tn": 107,
+            "fp": 79,
+            "fn": 18,
+            "tp": 231
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.80645161,
+          "macro_f1": 0.78984505,
+          "balanced_accuracy": 0.78122798,
+          "confusion": {
+            "tn": 114,
+            "fp": 62,
+            "fn": 22,
+            "tp": 236
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.85253456,
+          "macro_f1": 0.83942652,
+          "balanced_accuracy": 0.83183508,
+          "confusion": {
+            "tn": 123,
+            "fp": 42,
+            "fn": 22,
+            "tp": 247
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.85483871,
+          "macro_f1": 0.82260545,
+          "balanced_accuracy": 0.80742953,
+          "confusion": {
+            "tn": 93,
+            "fp": 44,
+            "fn": 19,
+            "tp": 278
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.86526639,
+          "macro_f1": 0.84684373,
+          "balanced_accuracy": 0.83585676,
+          "confusion": {
+            "tn": 506,
+            "fp": 181,
+            "fn": 82,
+            "tp": 1183
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.42057942,
+          "balanced_accuracy": 0.49381794,
+          "confusion": {
+            "tn": 19,
+            "fp": 98,
+            "fn": 18,
+            "tp": 85
+          }
+        }
+      }
+    },
+    "original_taxonomy_scope_gated": {
+      "family": "recomputed_original_text",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.82918969,
+        "macro_f1": 0.80696409,
+        "balanced_accuracy": 0.79466156,
+        "confusion": {
+          "tn": 532,
+          "fp": 272,
+          "fn": 99,
+          "tp": 1269
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.84367816,
+          "macro_f1": 0.80634264,
+          "balanced_accuracy": 0.78716707,
+          "confusion": {
+            "tn": 88,
+            "fp": 52,
+            "fn": 16,
+            "tp": 279
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.7954023,
+          "macro_f1": 0.77915129,
+          "balanced_accuracy": 0.77231507,
+          "confusion": {
+            "tn": 114,
+            "fp": 72,
+            "fn": 17,
+            "tp": 232
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.80645161,
+          "macro_f1": 0.78984505,
+          "balanced_accuracy": 0.78122798,
+          "confusion": {
+            "tn": 114,
+            "fp": 62,
+            "fn": 22,
+            "tp": 236
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.85253456,
+          "macro_f1": 0.83848533,
+          "balanced_accuracy": 0.82949195,
+          "confusion": {
+            "tn": 121,
+            "fp": 44,
+            "fn": 20,
+            "tp": 249
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.84792627,
+          "macro_f1": 0.81717218,
+          "balanced_accuracy": 0.80631129,
+          "confusion": {
+            "tn": 95,
+            "fp": 42,
+            "fn": 24,
+            "tp": 273
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.86936475,
+          "macro_f1": 0.85185992,
+          "balanced_accuracy": 0.84134664,
+          "confusion": {
+            "tn": 513,
+            "fp": 174,
+            "fn": 81,
+            "tp": 1184
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.42057942,
+          "balanced_accuracy": 0.49381794,
+          "confusion": {
+            "tn": 19,
+            "fp": 98,
+            "fn": 18,
+            "tp": 85
+          }
+        }
+      }
+    },
+    "original_taxonomy_unscoped_current_best_plus_relation_stacker_15": {
+      "family": "fusion",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.82780847,
+        "macro_f1": 0.80547179,
+        "balanced_accuracy": 0.79330868,
+        "confusion": {
+          "tn": 531,
+          "fp": 273,
+          "fn": 101,
+          "tp": 1267
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.83448276,
+          "macro_f1": 0.7969609,
+          "balanced_accuracy": 0.78038741,
+          "confusion": {
+            "tn": 88,
+            "fp": 52,
+            "fn": 20,
+            "tp": 275
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.78390805,
+          "macro_f1": 0.76512958,
+          "balanced_accuracy": 0.75887421,
+          "confusion": {
+            "tn": 109,
+            "fp": 77,
+            "fn": 17,
+            "tp": 232
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.80875576,
+          "macro_f1": 0.79263737,
+          "balanced_accuracy": 0.78406889,
+          "confusion": {
+            "tn": 115,
+            "fp": 61,
+            "fn": 22,
+            "tp": 236
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.86175115,
+          "macro_f1": 0.84946237,
+          "balanced_accuracy": 0.84161316,
+          "confusion": {
+            "tn": 125,
+            "fp": 40,
+            "fn": 20,
+            "tp": 249
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.85023041,
+          "macro_f1": 0.81869597,
+          "balanced_accuracy": 0.80602866,
+          "confusion": {
+            "tn": 94,
+            "fp": 43,
+            "fn": 22,
+            "tp": 275
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.86782787,
+          "macro_f1": 0.85005716,
+          "balanced_accuracy": 0.83949577,
+          "confusion": {
+            "tn": 511,
+            "fp": 176,
+            "fn": 82,
+            "tp": 1183
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.42397978,
+          "balanced_accuracy": 0.49323708,
+          "confusion": {
+            "tn": 20,
+            "fp": 97,
+            "fn": 19,
+            "tp": 84
+          }
+        }
+      }
+    },
+    "original_taxonomy_unscoped_current_best_plus_relation_stacker_25": {
+      "family": "fusion",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.82596685,
+        "macro_f1": 0.80366736,
+        "balanced_accuracy": 0.79184669,
+        "confusion": {
+          "tn": 531,
+          "fp": 273,
+          "fn": 105,
+          "tp": 1263
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.82988506,
+          "macro_f1": 0.79232258,
+          "balanced_accuracy": 0.77699758,
+          "confusion": {
+            "tn": 88,
+            "fp": 52,
+            "fn": 22,
+            "tp": 273
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.78390805,
+          "macro_f1": 0.76512958,
+          "balanced_accuracy": 0.75887421,
+          "confusion": {
+            "tn": 109,
+            "fp": 77,
+            "fn": 17,
+            "tp": 232
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.81336406,
+          "macro_f1": 0.79927026,
+          "balanced_accuracy": 0.79155655,
+          "confusion": {
+            "tn": 119,
+            "fp": 57,
+            "fn": 24,
+            "tp": 234
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.86175115,
+          "macro_f1": 0.84946237,
+          "balanced_accuracy": 0.84161316,
+          "confusion": {
+            "tn": 125,
+            "fp": 40,
+            "fn": 20,
+            "tp": 249
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.84101382,
+          "macro_f1": 0.80571073,
+          "balanced_accuracy": 0.79143012,
+          "confusion": {
+            "tn": 90,
+            "fp": 47,
+            "fn": 22,
+            "tp": 275
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.86577869,
+          "macro_f1": 0.84785405,
+          "balanced_accuracy": 0.8375822,
+          "confusion": {
+            "tn": 510,
+            "fp": 177,
+            "fn": 85,
+            "tp": 1180
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.42723763,
+          "balanced_accuracy": 0.49265621,
+          "confusion": {
+            "tn": 21,
+            "fp": 96,
+            "fn": 20,
+            "tp": 83
+          }
+        }
+      }
+    },
+    "original_taxonomy_unscoped_current_best_plus_relation_stacker_35": {
+      "family": "fusion",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.8218232,
+        "macro_f1": 0.798781,
+        "balanced_accuracy": 0.78701885,
+        "confusion": {
+          "tn": 525,
+          "fp": 279,
+          "fn": 108,
+          "tp": 1260
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.82988506,
+          "macro_f1": 0.79132092,
+          "balanced_accuracy": 0.77512107,
+          "confusion": {
+            "tn": 87,
+            "fp": 53,
+            "fn": 21,
+            "tp": 274
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.7862069,
+          "macro_f1": 0.76729806,
+          "balanced_accuracy": 0.76088224,
+          "confusion": {
+            "tn": 109,
+            "fp": 77,
+            "fn": 16,
+            "tp": 233
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.79953917,
+          "macro_f1": 0.7849613,
+          "balanced_accuracy": 0.7781228,
+          "confusion": {
+            "tn": 117,
+            "fp": 59,
+            "fn": 28,
+            "tp": 230
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.85714286,
+          "macro_f1": 0.84444444,
+          "balanced_accuracy": 0.83672412,
+          "confusion": {
+            "tn": 124,
+            "fp": 41,
+            "fn": 21,
+            "tp": 248
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.83640553,
+          "macro_f1": 0.79910944,
+          "balanced_accuracy": 0.78413085,
+          "confusion": {
+            "tn": 88,
+            "fp": 49,
+            "fn": 22,
+            "tp": 275
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.86116803,
+          "macro_f1": 0.84243881,
+          "balanced_accuracy": 0.83202962,
+          "confusion": {
+            "tn": 504,
+            "fp": 183,
+            "fn": 88,
+            "tp": 1177
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.42723763,
+          "balanced_accuracy": 0.49265621,
+          "confusion": {
+            "tn": 21,
+            "fp": 96,
+            "fn": 20,
+            "tp": 83
+          }
+        }
+      }
+    },
+    "original_taxonomy_unscoped_current_best_plus_relation_stacker_50": {
+      "family": "fusion",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.82320442,
+        "macro_f1": 0.8015145,
+        "balanced_accuracy": 0.79067928,
+        "confusion": {
+          "tn": 535,
+          "fp": 269,
+          "fn": 115,
+          "tp": 1253
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.83218391,
+          "macro_f1": 0.79363924,
+          "balanced_accuracy": 0.77681598,
+          "confusion": {
+            "tn": 87,
+            "fp": 53,
+            "fn": 20,
+            "tp": 275
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.78390805,
+          "macro_f1": 0.7637727,
+          "balanced_accuracy": 0.75751393,
+          "confusion": {
+            "tn": 107,
+            "fp": 79,
+            "fn": 15,
+            "tp": 234
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.79723502,
+          "macro_f1": 0.78384986,
+          "balanced_accuracy": 0.77799066,
+          "confusion": {
+            "tn": 119,
+            "fp": 57,
+            "fn": 31,
+            "tp": 227
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.84792627,
+          "macro_f1": 0.83487825,
+          "balanced_accuracy": 0.82811761,
+          "confusion": {
+            "tn": 123,
+            "fp": 42,
+            "fn": 24,
+            "tp": 245
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.85483871,
+          "macro_f1": 0.82741578,
+          "balanced_accuracy": 0.81922633,
+          "confusion": {
+            "tn": 99,
+            "fp": 38,
+            "fn": 25,
+            "tp": 272
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.86270492,
+          "macro_f1": 0.84522457,
+          "balanced_accuracy": 0.83654084,
+          "confusion": {
+            "tn": 514,
+            "fp": 173,
+            "fn": 95,
+            "tp": 1170
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.42723763,
+          "balanced_accuracy": 0.49265621,
+          "confusion": {
+            "tn": 21,
+            "fp": 96,
+            "fn": 20,
+            "tp": 83
+          }
+        }
+      }
+    },
+    "original_taxonomy_unscoped_current_best_relation_stacker_confidence_gate": {
+      "family": "fusion",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.82044199,
+        "macro_f1": 0.79657295,
+        "balanced_accuracy": 0.784384,
+        "confusion": {
+          "tn": 519,
+          "fp": 285,
+          "fn": 105,
+          "tp": 1263
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.83218391,
+          "macro_f1": 0.79262041,
+          "balanced_accuracy": 0.77493947,
+          "confusion": {
+            "tn": 86,
+            "fp": 54,
+            "fn": 19,
+            "tp": 276
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.77701149,
+          "macro_f1": 0.75658931,
+          "balanced_accuracy": 0.75080969,
+          "confusion": {
+            "tn": 106,
+            "fp": 80,
+            "fn": 17,
+            "tp": 232
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.80184332,
+          "macro_f1": 0.78544,
+          "balanced_accuracy": 0.77735201,
+          "confusion": {
+            "tn": 114,
+            "fp": 62,
+            "fn": 24,
+            "tp": 234
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.85253456,
+          "macro_f1": 0.83942652,
+          "balanced_accuracy": 0.83183508,
+          "confusion": {
+            "tn": 123,
+            "fp": 42,
+            "fn": 22,
+            "tp": 247
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.83870968,
+          "macro_f1": 0.8033657,
+          "balanced_accuracy": 0.78974661,
+          "confusion": {
+            "tn": 90,
+            "fp": 47,
+            "fn": 23,
+            "tp": 274
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.85963115,
+          "macro_f1": 0.84011384,
+          "balanced_accuracy": 0.82884858,
+          "confusion": {
+            "tn": 498,
+            "fp": 189,
+            "fn": 85,
+            "tp": 1180
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.42723763,
+          "balanced_accuracy": 0.49265621,
+          "confusion": {
+            "tn": 21,
+            "fp": 96,
+            "fn": 20,
+            "tp": 83
+          }
+        }
+      }
+    },
+    "original_taxonomy_unscoped_current_best_plus_method_gb_15": {
+      "family": "fusion",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.82688766,
+        "macro_f1": 0.80429338,
+        "balanced_accuracy": 0.79206489,
+        "confusion": {
+          "tn": 529,
+          "fp": 275,
+          "fn": 101,
+          "tp": 1267
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.83678161,
+          "macro_f1": 0.79929296,
+          "balanced_accuracy": 0.78208232,
+          "confusion": {
+            "tn": 88,
+            "fp": 52,
+            "fn": 19,
+            "tp": 276
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.7862069,
+          "macro_f1": 0.76859717,
+          "balanced_accuracy": 0.76224252,
+          "confusion": {
+            "tn": 111,
+            "fp": 75,
+            "fn": 18,
+            "tp": 231
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.80645161,
+          "macro_f1": 0.78984505,
+          "balanced_accuracy": 0.78122798,
+          "confusion": {
+            "tn": 114,
+            "fp": 62,
+            "fn": 22,
+            "tp": 236
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.85023041,
+          "macro_f1": 0.83668247,
+          "balanced_accuracy": 0.82880478,
+          "confusion": {
+            "tn": 122,
+            "fp": 43,
+            "fn": 22,
+            "tp": 247
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.85483871,
+          "macro_f1": 0.82344851,
+          "balanced_accuracy": 0.80939566,
+          "confusion": {
+            "tn": 94,
+            "fp": 43,
+            "fn": 20,
+            "tp": 277
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.86680328,
+          "macro_f1": 0.84877361,
+          "balanced_accuracy": 0.83804017,
+          "confusion": {
+            "tn": 509,
+            "fp": 178,
+            "fn": 82,
+            "tp": 1183
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.42397978,
+          "balanced_accuracy": 0.49323708,
+          "confusion": {
+            "tn": 20,
+            "fp": 97,
+            "fn": 19,
+            "tp": 84
+          }
+        }
+      }
+    },
+    "original_taxonomy_unscoped_current_best_plus_method_gb_25": {
+      "family": "fusion",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.82412523,
+        "macro_f1": 0.8017284,
+        "balanced_accuracy": 0.79012831,
+        "confusion": {
+          "tn": 530,
+          "fp": 274,
+          "fn": 108,
+          "tp": 1260
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.83218391,
+          "macro_f1": 0.79363924,
+          "balanced_accuracy": 0.77681598,
+          "confusion": {
+            "tn": 87,
+            "fp": 53,
+            "fn": 20,
+            "tp": 275
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.7954023,
+          "macro_f1": 0.77973932,
+          "balanced_accuracy": 0.77299521,
+          "confusion": {
+            "tn": 115,
+            "fp": 71,
+            "fn": 18,
+            "tp": 231
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.80414747,
+          "macro_f1": 0.78764068,
+          "balanced_accuracy": 0.77928999,
+          "confusion": {
+            "tn": 114,
+            "fp": 62,
+            "fn": 23,
+            "tp": 235
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.84331797,
+          "macro_f1": 0.8288961,
+          "balanced_accuracy": 0.82088543,
+          "confusion": {
+            "tn": 120,
+            "fp": 45,
+            "fn": 23,
+            "tp": 246
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.84562212,
+          "macro_f1": 0.81397819,
+          "balanced_accuracy": 0.80266165,
+          "confusion": {
+            "tn": 94,
+            "fp": 43,
+            "fn": 24,
+            "tp": 273
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.86372951,
+          "macro_f1": 0.84589815,
+          "balanced_accuracy": 0.83633372,
+          "confusion": {
+            "tn": 511,
+            "fp": 176,
+            "fn": 90,
+            "tp": 1175
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.42057942,
+          "balanced_accuracy": 0.49381794,
+          "confusion": {
+            "tn": 19,
+            "fp": 98,
+            "fn": 18,
+            "tp": 85
+          }
+        }
+      }
+    },
+    "original_taxonomy_unscoped_current_best_plus_method_gb_35": {
+      "family": "fusion",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.82228361,
+        "macro_f1": 0.79965226,
+        "balanced_accuracy": 0.78815353,
+        "confusion": {
+          "tn": 528,
+          "fp": 276,
+          "fn": 110,
+          "tp": 1258
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.83218391,
+          "macro_f1": 0.79363924,
+          "balanced_accuracy": 0.77681598,
+          "confusion": {
+            "tn": 87,
+            "fp": 53,
+            "fn": 20,
+            "tp": 275
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.79310345,
+          "macro_f1": 0.77755682,
+          "balanced_accuracy": 0.77098717,
+          "confusion": {
+            "tn": 115,
+            "fp": 71,
+            "fn": 19,
+            "tp": 230
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.80645161,
+          "macro_f1": 0.79042976,
+          "balanced_accuracy": 0.7821309,
+          "confusion": {
+            "tn": 115,
+            "fp": 61,
+            "fn": 23,
+            "tp": 235
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.84101382,
+          "macro_f1": 0.82612482,
+          "balanced_accuracy": 0.81785513,
+          "confusion": {
+            "tn": 119,
+            "fp": 46,
+            "fn": 23,
+            "tp": 246
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.83870968,
+          "macro_f1": 0.80520147,
+          "balanced_accuracy": 0.79367888,
+          "confusion": {
+            "tn": 92,
+            "fp": 45,
+            "fn": 25,
+            "tp": 272
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.86168033,
+          "macro_f1": 0.84345725,
+          "balanced_accuracy": 0.83375506,
+          "confusion": {
+            "tn": 508,
+            "fp": 179,
+            "fn": 91,
+            "tp": 1174
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.42397978,
+          "balanced_accuracy": 0.49323708,
+          "confusion": {
+            "tn": 20,
+            "fp": 97,
+            "fn": 19,
+            "tp": 84
+          }
+        }
+      }
+    },
+    "original_taxonomy_unscoped_current_best_plus_method_gb_50": {
+      "family": "fusion",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.81952118,
+        "macro_f1": 0.79667972,
+        "balanced_accuracy": 0.78544776,
+        "confusion": {
+          "tn": 526,
+          "fp": 278,
+          "fn": 114,
+          "tp": 1254
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.83678161,
+          "macro_f1": 0.79929296,
+          "balanced_accuracy": 0.78208232,
+          "confusion": {
+            "tn": 88,
+            "fp": 52,
+            "fn": 19,
+            "tp": 276
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.7862069,
+          "macro_f1": 0.76983996,
+          "balanced_accuracy": 0.7636028,
+          "confusion": {
+            "tn": 113,
+            "fp": 73,
+            "fn": 20,
+            "tp": 229
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.80184332,
+          "macro_f1": 0.78544,
+          "balanced_accuracy": 0.77735201,
+          "confusion": {
+            "tn": 114,
+            "fp": 62,
+            "fn": 24,
+            "tp": 234
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.83870968,
+          "macro_f1": 0.82386364,
+          "balanced_accuracy": 0.8159964,
+          "confusion": {
+            "tn": 119,
+            "fp": 46,
+            "fn": 24,
+            "tp": 245
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.83410138,
+          "macro_f1": 0.80055147,
+          "balanced_accuracy": 0.79031188,
+          "confusion": {
+            "tn": 92,
+            "fp": 45,
+            "fn": 27,
+            "tp": 270
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.85860656,
+          "macro_f1": 0.84010485,
+          "balanced_accuracy": 0.83071842,
+          "confusion": {
+            "tn": 506,
+            "fp": 181,
+            "fn": 95,
+            "tp": 1170
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.42397978,
+          "balanced_accuracy": 0.49323708,
+          "confusion": {
+            "tn": 20,
+            "fp": 97,
+            "fn": 19,
+            "tp": 84
+          }
+        }
+      }
+    },
+    "original_taxonomy_unscoped_current_best_method_gb_confidence_gate": {
+      "family": "fusion",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.82550645,
+        "macro_f1": 0.80238121,
+        "balanced_accuracy": 0.78994283,
+        "confusion": {
+          "tn": 525,
+          "fp": 279,
+          "fn": 100,
+          "tp": 1268
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.83678161,
+          "macro_f1": 0.79929296,
+          "balanced_accuracy": 0.78208232,
+          "confusion": {
+            "tn": 88,
+            "fp": 52,
+            "fn": 19,
+            "tp": 276
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.77701149,
+          "macro_f1": 0.75728937,
+          "balanced_accuracy": 0.75148983,
+          "confusion": {
+            "tn": 107,
+            "fp": 79,
+            "fn": 18,
+            "tp": 231
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.80645161,
+          "macro_f1": 0.78984505,
+          "balanced_accuracy": 0.78122798,
+          "confusion": {
+            "tn": 114,
+            "fp": 62,
+            "fn": 22,
+            "tp": 236
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.85253456,
+          "macro_f1": 0.83942652,
+          "balanced_accuracy": 0.83183508,
+          "confusion": {
+            "tn": 123,
+            "fp": 42,
+            "fn": 22,
+            "tp": 247
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.85483871,
+          "macro_f1": 0.82260545,
+          "balanced_accuracy": 0.80742953,
+          "confusion": {
+            "tn": 93,
+            "fp": 44,
+            "fn": 19,
+            "tp": 278
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.86526639,
+          "macro_f1": 0.84684373,
+          "balanced_accuracy": 0.83585676,
+          "confusion": {
+            "tn": 506,
+            "fp": 181,
+            "fn": 82,
+            "tp": 1183
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.42057942,
+          "balanced_accuracy": 0.49381794,
+          "confusion": {
+            "tn": 19,
+            "fp": 98,
+            "fn": 18,
+            "tp": 85
+          }
+        }
+      }
+    },
+    "original_taxonomy_unscoped_current_best_plus_relation_predefined_fusion_15": {
+      "family": "fusion",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.82826888,
+        "macro_f1": 0.80564821,
+        "balanced_accuracy": 0.79316139,
+        "confusion": {
+          "tn": 529,
+          "fp": 275,
+          "fn": 98,
+          "tp": 1270
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.84137931,
+          "macro_f1": 0.80398367,
+          "balanced_accuracy": 0.78547215,
+          "confusion": {
+            "tn": 88,
+            "fp": 52,
+            "fn": 17,
+            "tp": 278
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.78390805,
+          "macro_f1": 0.76512958,
+          "balanced_accuracy": 0.75887421,
+          "confusion": {
+            "tn": 109,
+            "fp": 77,
+            "fn": 17,
+            "tp": 232
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.80645161,
+          "macro_f1": 0.78984505,
+          "balanced_accuracy": 0.78122798,
+          "confusion": {
+            "tn": 114,
+            "fp": 62,
+            "fn": 22,
+            "tp": 236
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.85483871,
+          "macro_f1": 0.84216086,
+          "balanced_accuracy": 0.83486538,
+          "confusion": {
+            "tn": 124,
+            "fp": 41,
+            "fn": 22,
+            "tp": 247
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.85483871,
+          "macro_f1": 0.82344851,
+          "balanced_accuracy": 0.80939566,
+          "confusion": {
+            "tn": 94,
+            "fp": 43,
+            "fn": 20,
+            "tp": 277
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.86834016,
+          "macro_f1": 0.85033779,
+          "balanced_accuracy": 0.83922594,
+          "confusion": {
+            "tn": 509,
+            "fp": 178,
+            "fn": 79,
+            "tp": 1186
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.42397978,
+          "balanced_accuracy": 0.49323708,
+          "confusion": {
+            "tn": 20,
+            "fp": 97,
+            "fn": 19,
+            "tp": 84
+          }
+        }
+      }
+    },
+    "original_taxonomy_unscoped_current_best_plus_relation_predefined_fusion_25": {
+      "family": "fusion",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.82965009,
+        "macro_f1": 0.80714275,
+        "balanced_accuracy": 0.79451427,
+        "confusion": {
+          "tn": 530,
+          "fp": 274,
+          "fn": 96,
+          "tp": 1272
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.84597701,
+          "macro_f1": 0.8106004,
+          "balanced_accuracy": 0.79261501,
+          "confusion": {
+            "tn": 90,
+            "fp": 50,
+            "fn": 17,
+            "tp": 278
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.7816092,
+          "macro_f1": 0.76229371,
+          "balanced_accuracy": 0.75618603,
+          "confusion": {
+            "tn": 108,
+            "fp": 78,
+            "fn": 17,
+            "tp": 232
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.80645161,
+          "macro_f1": 0.78984505,
+          "balanced_accuracy": 0.78122798,
+          "confusion": {
+            "tn": 114,
+            "fp": 62,
+            "fn": 22,
+            "tp": 236
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.859447,
+          "macro_f1": 0.84673278,
+          "balanced_accuracy": 0.83858285,
+          "confusion": {
+            "tn": 124,
+            "fp": 41,
+            "fn": 20,
+            "tp": 249
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.85483871,
+          "macro_f1": 0.82344851,
+          "balanced_accuracy": 0.80939566,
+          "confusion": {
+            "tn": 94,
+            "fp": 43,
+            "fn": 20,
+            "tp": 277
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.86987705,
+          "macro_f1": 0.852025,
+          "balanced_accuracy": 0.84074426,
+          "confusion": {
+            "tn": 510,
+            "fp": 177,
+            "fn": 77,
+            "tp": 1188
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.42397978,
+          "balanced_accuracy": 0.49323708,
+          "confusion": {
+            "tn": 20,
+            "fp": 97,
+            "fn": 19,
+            "tp": 84
+          }
+        }
+      }
+    },
+    "original_taxonomy_unscoped_current_best_plus_relation_predefined_fusion_35": {
+      "family": "fusion",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.82918969,
+        "macro_f1": 0.80669032,
+        "balanced_accuracy": 0.79414877,
+        "confusion": {
+          "tn": 530,
+          "fp": 274,
+          "fn": 97,
+          "tp": 1271
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.84597701,
+          "macro_f1": 0.8106004,
+          "balanced_accuracy": 0.79261501,
+          "confusion": {
+            "tn": 90,
+            "fp": 50,
+            "fn": 17,
+            "tp": 278
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.7908046,
+          "macro_f1": 0.77357357,
+          "balanced_accuracy": 0.76693872,
+          "confusion": {
+            "tn": 112,
+            "fp": 74,
+            "fn": 17,
+            "tp": 232
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.80184332,
+          "macro_f1": 0.78484136,
+          "balanced_accuracy": 0.77644908,
+          "confusion": {
+            "tn": 113,
+            "fp": 63,
+            "fn": 23,
+            "tp": 235
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.859447,
+          "macro_f1": 0.84673278,
+          "balanced_accuracy": 0.83858285,
+          "confusion": {
+            "tn": 124,
+            "fp": 41,
+            "fn": 20,
+            "tp": 249
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.84792627,
+          "macro_f1": 0.81370968,
+          "balanced_accuracy": 0.79844675,
+          "confusion": {
+            "tn": 91,
+            "fp": 46,
+            "fn": 20,
+            "tp": 277
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.86936475,
+          "macro_f1": 0.85150247,
+          "balanced_accuracy": 0.840349,
+          "confusion": {
+            "tn": 510,
+            "fp": 177,
+            "fn": 78,
+            "tp": 1187
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.42397978,
+          "balanced_accuracy": 0.49323708,
+          "confusion": {
+            "tn": 20,
+            "fp": 97,
+            "fn": 19,
+            "tp": 84
+          }
+        }
+      }
+    },
+    "original_taxonomy_unscoped_current_best_plus_relation_predefined_fusion_50": {
+      "family": "fusion",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.82826888,
+        "macro_f1": 0.80509086,
+        "balanced_accuracy": 0.79213581,
+        "confusion": {
+          "tn": 525,
+          "fp": 279,
+          "fn": 94,
+          "tp": 1274
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.84597701,
+          "macro_f1": 0.80966531,
+          "balanced_accuracy": 0.7907385,
+          "confusion": {
+            "tn": 89,
+            "fp": 51,
+            "fn": 16,
+            "tp": 279
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.79310345,
+          "macro_f1": 0.77448157,
+          "balanced_accuracy": 0.76758647,
+          "confusion": {
+            "tn": 110,
+            "fp": 76,
+            "fn": 14,
+            "tp": 235
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.80184332,
+          "macro_f1": 0.7836039,
+          "balanced_accuracy": 0.77464323,
+          "confusion": {
+            "tn": 111,
+            "fp": 65,
+            "fn": 21,
+            "tp": 237
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.859447,
+          "macro_f1": 0.84628426,
+          "balanced_accuracy": 0.83741129,
+          "confusion": {
+            "tn": 123,
+            "fp": 42,
+            "fn": 19,
+            "tp": 250
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.84101382,
+          "macro_f1": 0.8075388,
+          "balanced_accuracy": 0.79536238,
+          "confusion": {
+            "tn": 92,
+            "fp": 45,
+            "fn": 24,
+            "tp": 273
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.86834016,
+          "macro_f1": 0.8498497,
+          "balanced_accuracy": 0.83789576,
+          "confusion": {
+            "tn": 505,
+            "fp": 182,
+            "fn": 75,
+            "tp": 1190
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.42397978,
+          "balanced_accuracy": 0.49323708,
+          "confusion": {
+            "tn": 20,
+            "fp": 97,
+            "fn": 19,
+            "tp": 84
+          }
+        }
+      }
+    },
+    "original_taxonomy_unscoped_current_best_relation_predefined_fusion_confidence_gate": {
+      "family": "fusion",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.82550645,
+        "macro_f1": 0.80238121,
+        "balanced_accuracy": 0.78994283,
+        "confusion": {
+          "tn": 525,
+          "fp": 279,
+          "fn": 100,
+          "tp": 1268
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.83678161,
+          "macro_f1": 0.79929296,
+          "balanced_accuracy": 0.78208232,
+          "confusion": {
+            "tn": 88,
+            "fp": 52,
+            "fn": 19,
+            "tp": 276
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.77701149,
+          "macro_f1": 0.75728937,
+          "balanced_accuracy": 0.75148983,
+          "confusion": {
+            "tn": 107,
+            "fp": 79,
+            "fn": 18,
+            "tp": 231
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.80645161,
+          "macro_f1": 0.78984505,
+          "balanced_accuracy": 0.78122798,
+          "confusion": {
+            "tn": 114,
+            "fp": 62,
+            "fn": 22,
+            "tp": 236
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.85253456,
+          "macro_f1": 0.83942652,
+          "balanced_accuracy": 0.83183508,
+          "confusion": {
+            "tn": 123,
+            "fp": 42,
+            "fn": 22,
+            "tp": 247
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.85483871,
+          "macro_f1": 0.82260545,
+          "balanced_accuracy": 0.80742953,
+          "confusion": {
+            "tn": 93,
+            "fp": 44,
+            "fn": 19,
+            "tp": 278
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.86526639,
+          "macro_f1": 0.84684373,
+          "balanced_accuracy": 0.83585676,
+          "confusion": {
+            "tn": 506,
+            "fp": 181,
+            "fn": 82,
+            "tp": 1183
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.42057942,
+          "balanced_accuracy": 0.49381794,
+          "confusion": {
+            "tn": 19,
+            "fp": 98,
+            "fn": 18,
+            "tp": 85
+          }
+        }
+      }
+    },
+    "original_taxonomy_scope_gated_plus_relation_stacker_15": {
+      "family": "fusion",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.82550645,
+        "macro_f1": 0.8032168,
+        "balanced_accuracy": 0.79148119,
+        "confusion": {
+          "tn": 531,
+          "fp": 273,
+          "fn": 106,
+          "tp": 1262
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.83218391,
+          "macro_f1": 0.79463749,
+          "balanced_accuracy": 0.77869249,
+          "confusion": {
+            "tn": 88,
+            "fp": 52,
+            "fn": 21,
+            "tp": 274
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.7908046,
+          "macro_f1": 0.7741884,
+          "balanced_accuracy": 0.76761886,
+          "confusion": {
+            "tn": 113,
+            "fp": 73,
+            "fn": 18,
+            "tp": 231
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.80414747,
+          "macro_f1": 0.78764068,
+          "balanced_accuracy": 0.77928999,
+          "confusion": {
+            "tn": 114,
+            "fp": 62,
+            "fn": 23,
+            "tp": 235
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.85023041,
+          "macro_f1": 0.83620454,
+          "balanced_accuracy": 0.82763321,
+          "confusion": {
+            "tn": 121,
+            "fp": 44,
+            "fn": 21,
+            "tp": 248
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.85023041,
+          "macro_f1": 0.81953108,
+          "balanced_accuracy": 0.80799479,
+          "confusion": {
+            "tn": 95,
+            "fp": 42,
+            "fn": 23,
+            "tp": 274
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.86526639,
+          "macro_f1": 0.84745537,
+          "balanced_accuracy": 0.83751949,
+          "confusion": {
+            "tn": 511,
+            "fp": 176,
+            "fn": 87,
+            "tp": 1178
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.42397978,
+          "balanced_accuracy": 0.49323708,
+          "confusion": {
+            "tn": 20,
+            "fp": 97,
+            "fn": 19,
+            "tp": 84
+          }
+        }
+      }
+    },
+    "original_taxonomy_scope_gated_plus_relation_stacker_25": {
+      "family": "fusion",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.82550645,
+        "macro_f1": 0.80294057,
+        "balanced_accuracy": 0.7909684,
+        "confusion": {
+          "tn": 529,
+          "fp": 275,
+          "fn": 104,
+          "tp": 1264
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.82988506,
+          "macro_f1": 0.79232258,
+          "balanced_accuracy": 0.77699758,
+          "confusion": {
+            "tn": 88,
+            "fp": 52,
+            "fn": 22,
+            "tp": 273
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.79310345,
+          "macro_f1": 0.7763675,
+          "balanced_accuracy": 0.76962689,
+          "confusion": {
+            "tn": 113,
+            "fp": 73,
+            "fn": 17,
+            "tp": 232
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.80414747,
+          "macro_f1": 0.78704244,
+          "balanced_accuracy": 0.77838707,
+          "confusion": {
+            "tn": 113,
+            "fp": 63,
+            "fn": 22,
+            "tp": 236
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.86175115,
+          "macro_f1": 0.84946237,
+          "balanced_accuracy": 0.84161316,
+          "confusion": {
+            "tn": 125,
+            "fp": 40,
+            "fn": 20,
+            "tp": 249
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.83870968,
+          "macro_f1": 0.8033657,
+          "balanced_accuracy": 0.78974661,
+          "confusion": {
+            "tn": 90,
+            "fp": 47,
+            "fn": 23,
+            "tp": 274
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.86526639,
+          "macro_f1": 0.84709006,
+          "balanced_accuracy": 0.83652185,
+          "confusion": {
+            "tn": 508,
+            "fp": 179,
+            "fn": 84,
+            "tp": 1181
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.42723763,
+          "balanced_accuracy": 0.49265621,
+          "confusion": {
+            "tn": 21,
+            "fp": 96,
+            "fn": 20,
+            "tp": 83
+          }
+        }
+      }
+    },
+    "original_taxonomy_scope_gated_plus_relation_stacker_35": {
+      "family": "fusion",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.82596685,
+        "macro_f1": 0.80394116,
+        "balanced_accuracy": 0.79235947,
+        "confusion": {
+          "tn": 533,
+          "fp": 271,
+          "fn": 107,
+          "tp": 1261
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.82988506,
+          "macro_f1": 0.79132092,
+          "balanced_accuracy": 0.77512107,
+          "confusion": {
+            "tn": 87,
+            "fp": 53,
+            "fn": 21,
+            "tp": 274
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.77931034,
+          "macro_f1": 0.759447,
+          "balanced_accuracy": 0.75349786,
+          "confusion": {
+            "tn": 107,
+            "fp": 79,
+            "fn": 17,
+            "tp": 232
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.80645161,
+          "macro_f1": 0.79264214,
+          "balanced_accuracy": 0.7857426,
+          "confusion": {
+            "tn": 119,
+            "fp": 57,
+            "fn": 27,
+            "tp": 231
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.86175115,
+          "macro_f1": 0.84946237,
+          "balanced_accuracy": 0.84161316,
+          "confusion": {
+            "tn": 125,
+            "fp": 40,
+            "fn": 20,
+            "tp": 249
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.85253456,
+          "macro_f1": 0.82189848,
+          "balanced_accuracy": 0.80967829,
+          "confusion": {
+            "tn": 95,
+            "fp": 42,
+            "fn": 22,
+            "tp": 275
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.86577869,
+          "macro_f1": 0.84809555,
+          "balanced_accuracy": 0.83824729,
+          "confusion": {
+            "tn": 512,
+            "fp": 175,
+            "fn": 87,
+            "tp": 1178
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.42723763,
+          "balanced_accuracy": 0.49265621,
+          "confusion": {
+            "tn": 21,
+            "fp": 96,
+            "fn": 20,
+            "tp": 83
+          }
+        }
+      }
+    },
+    "original_taxonomy_scope_gated_plus_relation_stacker_50": {
+      "family": "fusion",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.8213628,
+        "macro_f1": 0.79971995,
+        "balanced_accuracy": 0.78921729,
+        "confusion": {
+          "tn": 535,
+          "fp": 269,
+          "fn": 119,
+          "tp": 1249
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.83218391,
+          "macro_f1": 0.79363924,
+          "balanced_accuracy": 0.77681598,
+          "confusion": {
+            "tn": 87,
+            "fp": 53,
+            "fn": 20,
+            "tp": 275
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.7862069,
+          "macro_f1": 0.76594095,
+          "balanced_accuracy": 0.75952196,
+          "confusion": {
+            "tn": 107,
+            "fp": 79,
+            "fn": 14,
+            "tp": 235
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.79723502,
+          "macro_f1": 0.78384986,
+          "balanced_accuracy": 0.77799066,
+          "confusion": {
+            "tn": 119,
+            "fp": 57,
+            "fn": 31,
+            "tp": 227
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.84562212,
+          "macro_f1": 0.83261089,
+          "balanced_accuracy": 0.82625887,
+          "confusion": {
+            "tn": 123,
+            "fp": 42,
+            "fn": 25,
+            "tp": 244
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.84562212,
+          "macro_f1": 0.81802935,
+          "balanced_accuracy": 0.81249232,
+          "confusion": {
+            "tn": 99,
+            "fp": 38,
+            "fn": 29,
+            "tp": 268
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.86065574,
+          "macro_f1": 0.84315727,
+          "balanced_accuracy": 0.83495981,
+          "confusion": {
+            "tn": 514,
+            "fp": 173,
+            "fn": 99,
+            "tp": 1166
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.42723763,
+          "balanced_accuracy": 0.49265621,
+          "confusion": {
+            "tn": 21,
+            "fp": 96,
+            "fn": 20,
+            "tp": 83
+          }
+        }
+      }
+    },
+    "original_taxonomy_scope_gated_relation_stacker_confidence_gate": {
+      "family": "fusion",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.82688766,
+        "macro_f1": 0.80470615,
+        "balanced_accuracy": 0.79283408,
+        "confusion": {
+          "tn": 532,
+          "fp": 272,
+          "fn": 104,
+          "tp": 1264
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.83678161,
+          "macro_f1": 0.79729065,
+          "balanced_accuracy": 0.7783293,
+          "confusion": {
+            "tn": 86,
+            "fp": 54,
+            "fn": 17,
+            "tp": 278
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.7908046,
+          "macro_f1": 0.77357357,
+          "balanced_accuracy": 0.76693872,
+          "confusion": {
+            "tn": 112,
+            "fp": 74,
+            "fn": 17,
+            "tp": 232
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.80875576,
+          "macro_f1": 0.79376757,
+          "balanced_accuracy": 0.78587474,
+          "confusion": {
+            "tn": 117,
+            "fp": 59,
+            "fn": 24,
+            "tp": 234
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.85253456,
+          "macro_f1": 0.83848533,
+          "balanced_accuracy": 0.82949195,
+          "confusion": {
+            "tn": 121,
+            "fp": 44,
+            "fn": 20,
+            "tp": 249
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.84562212,
+          "macro_f1": 0.81564816,
+          "balanced_accuracy": 0.80659392,
+          "confusion": {
+            "tn": 96,
+            "fp": 41,
+            "fn": 26,
+            "tp": 271
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.86680328,
+          "macro_f1": 0.84913557,
+          "balanced_accuracy": 0.83903781,
+          "confusion": {
+            "tn": 512,
+            "fp": 175,
+            "fn": 85,
+            "tp": 1180
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.42397978,
+          "balanced_accuracy": 0.49323708,
+          "confusion": {
+            "tn": 20,
+            "fp": 97,
+            "fn": 19,
+            "tp": 84
+          }
+        }
+      }
+    },
+    "original_taxonomy_scope_gated_plus_method_gb_15": {
+      "family": "fusion",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.82596685,
+        "macro_f1": 0.80339128,
+        "balanced_accuracy": 0.7913339,
+        "confusion": {
+          "tn": 529,
+          "fp": 275,
+          "fn": 103,
+          "tp": 1265
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.83908046,
+          "macro_f1": 0.80163383,
+          "balanced_accuracy": 0.78377724,
+          "confusion": {
+            "tn": 88,
+            "fp": 52,
+            "fn": 18,
+            "tp": 277
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.79310345,
+          "macro_f1": 0.77696883,
+          "balanced_accuracy": 0.77030703,
+          "confusion": {
+            "tn": 114,
+            "fp": 72,
+            "fn": 18,
+            "tp": 231
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.80184332,
+          "macro_f1": 0.7836039,
+          "balanced_accuracy": 0.77464323,
+          "confusion": {
+            "tn": 111,
+            "fp": 65,
+            "fn": 21,
+            "tp": 237
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.84792627,
+          "macro_f1": 0.833438,
+          "balanced_accuracy": 0.82460291,
+          "confusion": {
+            "tn": 120,
+            "fp": 45,
+            "fn": 21,
+            "tp": 248
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.84792627,
+          "macro_f1": 0.81799466,
+          "balanced_accuracy": 0.80827742,
+          "confusion": {
+            "tn": 96,
+            "fp": 41,
+            "fn": 25,
+            "tp": 272
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.86577869,
+          "macro_f1": 0.84773247,
+          "balanced_accuracy": 0.83724966,
+          "confusion": {
+            "tn": 509,
+            "fp": 178,
+            "fn": 84,
+            "tp": 1181
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.42397978,
+          "balanced_accuracy": 0.49323708,
+          "confusion": {
+            "tn": 20,
+            "fp": 97,
+            "fn": 19,
+            "tp": 84
+          }
+        }
+      }
+    },
+    "original_taxonomy_scope_gated_plus_method_gb_25": {
+      "family": "fusion",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.82274401,
+        "macro_f1": 0.79982089,
+        "balanced_accuracy": 0.78800624,
+        "confusion": {
+          "tn": 526,
+          "fp": 278,
+          "fn": 107,
+          "tp": 1261
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.83448276,
+          "macro_f1": 0.79596623,
+          "balanced_accuracy": 0.7785109,
+          "confusion": {
+            "tn": 87,
+            "fp": 53,
+            "fn": 19,
+            "tp": 276
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.78850575,
+          "macro_f1": 0.77139789,
+          "balanced_accuracy": 0.76493069,
+          "confusion": {
+            "tn": 112,
+            "fp": 74,
+            "fn": 18,
+            "tp": 231
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.79953917,
+          "macro_f1": 0.78140577,
+          "balanced_accuracy": 0.77270525,
+          "confusion": {
+            "tn": 111,
+            "fp": 65,
+            "fn": 22,
+            "tp": 236
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.85023041,
+          "macro_f1": 0.83620454,
+          "balanced_accuracy": 0.82763321,
+          "confusion": {
+            "tn": 121,
+            "fp": 44,
+            "fn": 21,
+            "tp": 248
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.84101382,
+          "macro_f1": 0.81014512,
+          "balanced_accuracy": 0.80126078,
+          "confusion": {
+            "tn": 95,
+            "fp": 42,
+            "fn": 27,
+            "tp": 270
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.86219262,
+          "macro_f1": 0.84385128,
+          "balanced_accuracy": 0.83381777,
+          "confusion": {
+            "tn": 507,
+            "fp": 180,
+            "fn": 89,
+            "tp": 1176
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.42057942,
+          "balanced_accuracy": 0.49381794,
+          "confusion": {
+            "tn": 19,
+            "fp": 98,
+            "fn": 18,
+            "tp": 85
+          }
+        }
+      }
+    },
+    "original_taxonomy_scope_gated_plus_method_gb_35": {
+      "family": "fusion",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.81813996,
+        "macro_f1": 0.79519486,
+        "balanced_accuracy": 0.78409488,
+        "confusion": {
+          "tn": 525,
+          "fp": 279,
+          "fn": 116,
+          "tp": 1252
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.83448276,
+          "macro_f1": 0.7969609,
+          "balanced_accuracy": 0.78038741,
+          "confusion": {
+            "tn": 88,
+            "fp": 52,
+            "fn": 20,
+            "tp": 275
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.7862069,
+          "macro_f1": 0.77044073,
+          "balanced_accuracy": 0.76428294,
+          "confusion": {
+            "tn": 114,
+            "fp": 72,
+            "fn": 21,
+            "tp": 228
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.79493088,
+          "macro_f1": 0.7770209,
+          "balanced_accuracy": 0.76882928,
+          "confusion": {
+            "tn": 111,
+            "fp": 65,
+            "fn": 24,
+            "tp": 234
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.84101382,
+          "macro_f1": 0.82612482,
+          "balanced_accuracy": 0.81785513,
+          "confusion": {
+            "tn": 119,
+            "fp": 46,
+            "fn": 23,
+            "tp": 246
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.83410138,
+          "macro_f1": 0.80144872,
+          "balanced_accuracy": 0.79227801,
+          "confusion": {
+            "tn": 93,
+            "fp": 44,
+            "fn": 28,
+            "tp": 269
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.85758197,
+          "macro_f1": 0.83907285,
+          "balanced_accuracy": 0.82992791,
+          "confusion": {
+            "tn": 506,
+            "fp": 181,
+            "fn": 97,
+            "tp": 1168
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.46818182,
+          "macro_f1": 0.41731749,
+          "balanced_accuracy": 0.48896357,
+          "confusion": {
+            "tn": 19,
+            "fp": 98,
+            "fn": 19,
+            "tp": 84
+          }
+        }
+      }
+    },
+    "original_taxonomy_scope_gated_plus_method_gb_50": {
+      "family": "fusion",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.81813996,
+        "macro_f1": 0.79575887,
+        "balanced_accuracy": 0.78512045,
+        "confusion": {
+          "tn": 529,
+          "fp": 275,
+          "fn": 120,
+          "tp": 1248
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.83908046,
+          "macro_f1": 0.80260087,
+          "balanced_accuracy": 0.78565375,
+          "confusion": {
+            "tn": 89,
+            "fp": 51,
+            "fn": 19,
+            "tp": 276
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.78390805,
+          "macro_f1": 0.76705633,
+          "balanced_accuracy": 0.76091463,
+          "confusion": {
+            "tn": 112,
+            "fp": 74,
+            "fn": 20,
+            "tp": 229
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.79032258,
+          "macro_f1": 0.77265061,
+          "balanced_accuracy": 0.76495331,
+          "confusion": {
+            "tn": 111,
+            "fp": 65,
+            "fn": 26,
+            "tp": 232
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.83640553,
+          "macro_f1": 0.8221178,
+          "balanced_accuracy": 0.81530923,
+          "confusion": {
+            "tn": 120,
+            "fp": 45,
+            "fn": 26,
+            "tp": 243
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.84101382,
+          "macro_f1": 0.8117965,
+          "balanced_accuracy": 0.80519305,
+          "confusion": {
+            "tn": 97,
+            "fp": 40,
+            "fn": 29,
+            "tp": 268
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.85809426,
+          "macro_f1": 0.83996472,
+          "balanced_accuracy": 0.8313208,
+          "confusion": {
+            "tn": 509,
+            "fp": 178,
+            "fn": 99,
+            "tp": 1166
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.46363636,
+          "macro_f1": 0.41736242,
+          "balanced_accuracy": 0.48352834,
+          "confusion": {
+            "tn": 20,
+            "fp": 97,
+            "fn": 21,
+            "tp": 82
+          }
+        }
+      }
+    },
+    "original_taxonomy_scope_gated_method_gb_confidence_gate": {
+      "family": "fusion",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.82918969,
+        "macro_f1": 0.80696409,
+        "balanced_accuracy": 0.79466156,
+        "confusion": {
+          "tn": 532,
+          "fp": 272,
+          "fn": 99,
+          "tp": 1269
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.84367816,
+          "macro_f1": 0.80634264,
+          "balanced_accuracy": 0.78716707,
+          "confusion": {
+            "tn": 88,
+            "fp": 52,
+            "fn": 16,
+            "tp": 279
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.7954023,
+          "macro_f1": 0.77915129,
+          "balanced_accuracy": 0.77231507,
+          "confusion": {
+            "tn": 114,
+            "fp": 72,
+            "fn": 17,
+            "tp": 232
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.80645161,
+          "macro_f1": 0.78984505,
+          "balanced_accuracy": 0.78122798,
+          "confusion": {
+            "tn": 114,
+            "fp": 62,
+            "fn": 22,
+            "tp": 236
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.85253456,
+          "macro_f1": 0.83848533,
+          "balanced_accuracy": 0.82949195,
+          "confusion": {
+            "tn": 121,
+            "fp": 44,
+            "fn": 20,
+            "tp": 249
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.84792627,
+          "macro_f1": 0.81717218,
+          "balanced_accuracy": 0.80631129,
+          "confusion": {
+            "tn": 95,
+            "fp": 42,
+            "fn": 24,
+            "tp": 273
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.86936475,
+          "macro_f1": 0.85185992,
+          "balanced_accuracy": 0.84134664,
+          "confusion": {
+            "tn": 513,
+            "fp": 174,
+            "fn": 81,
+            "tp": 1184
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.42057942,
+          "balanced_accuracy": 0.49381794,
+          "confusion": {
+            "tn": 19,
+            "fp": 98,
+            "fn": 18,
+            "tp": 85
+          }
+        }
+      }
+    },
+    "original_taxonomy_scope_gated_plus_relation_predefined_fusion_15": {
+      "family": "fusion",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.82642726,
+        "macro_f1": 0.80356401,
+        "balanced_accuracy": 0.79118661,
+        "confusion": {
+          "tn": 527,
+          "fp": 277,
+          "fn": 100,
+          "tp": 1268
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.84137931,
+          "macro_f1": 0.80398367,
+          "balanced_accuracy": 0.78547215,
+          "confusion": {
+            "tn": 88,
+            "fp": 52,
+            "fn": 17,
+            "tp": 278
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.7908046,
+          "macro_f1": 0.77357357,
+          "balanced_accuracy": 0.76693872,
+          "confusion": {
+            "tn": 112,
+            "fp": 74,
+            "fn": 17,
+            "tp": 232
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.80414747,
+          "macro_f1": 0.78704244,
+          "balanced_accuracy": 0.77838707,
+          "confusion": {
+            "tn": 113,
+            "fp": 63,
+            "fn": 22,
+            "tp": 236
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.84792627,
+          "macro_f1": 0.833438,
+          "balanced_accuracy": 0.82460291,
+          "confusion": {
+            "tn": 120,
+            "fp": 45,
+            "fn": 21,
+            "tp": 248
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.84792627,
+          "macro_f1": 0.81633281,
+          "balanced_accuracy": 0.80434515,
+          "confusion": {
+            "tn": 94,
+            "fp": 43,
+            "fn": 23,
+            "tp": 274
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.86629098,
+          "macro_f1": 0.84813092,
+          "balanced_accuracy": 0.83731237,
+          "confusion": {
+            "tn": 508,
+            "fp": 179,
+            "fn": 82,
+            "tp": 1183
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.42057942,
+          "balanced_accuracy": 0.49381794,
+          "confusion": {
+            "tn": 19,
+            "fp": 98,
+            "fn": 18,
+            "tp": 85
+          }
+        }
+      }
+    },
+    "original_taxonomy_scope_gated_plus_relation_predefined_fusion_25": {
+      "family": "fusion",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.82642726,
+        "macro_f1": 0.80384222,
+        "balanced_accuracy": 0.7916994,
+        "confusion": {
+          "tn": 529,
+          "fp": 275,
+          "fn": 102,
+          "tp": 1266
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.84137931,
+          "macro_f1": 0.80494668,
+          "balanced_accuracy": 0.78734867,
+          "confusion": {
+            "tn": 89,
+            "fp": 51,
+            "fn": 18,
+            "tp": 277
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.78850575,
+          "macro_f1": 0.77139789,
+          "balanced_accuracy": 0.76493069,
+          "confusion": {
+            "tn": 112,
+            "fp": 74,
+            "fn": 18,
+            "tp": 231
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.80875576,
+          "macro_f1": 0.7920532,
+          "balanced_accuracy": 0.78316596,
+          "confusion": {
+            "tn": 114,
+            "fp": 62,
+            "fn": 21,
+            "tp": 237
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.84792627,
+          "macro_f1": 0.833438,
+          "balanced_accuracy": 0.82460291,
+          "confusion": {
+            "tn": 120,
+            "fp": 45,
+            "fn": 21,
+            "tp": 248
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.84562212,
+          "macro_f1": 0.81397819,
+          "balanced_accuracy": 0.80266165,
+          "confusion": {
+            "tn": 94,
+            "fp": 43,
+            "fn": 24,
+            "tp": 273
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.86629098,
+          "macro_f1": 0.84825288,
+          "balanced_accuracy": 0.83764491,
+          "confusion": {
+            "tn": 509,
+            "fp": 178,
+            "fn": 83,
+            "tp": 1182
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.42397978,
+          "balanced_accuracy": 0.49323708,
+          "confusion": {
+            "tn": 20,
+            "fp": 97,
+            "fn": 19,
+            "tp": 84
+          }
+        }
+      }
+    },
+    "original_taxonomy_scope_gated_plus_relation_predefined_fusion_35": {
+      "family": "fusion",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.82550645,
+        "macro_f1": 0.80252191,
+        "balanced_accuracy": 0.79019922,
+        "confusion": {
+          "tn": 526,
+          "fp": 278,
+          "fn": 101,
+          "tp": 1267
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.84367816,
+          "macro_f1": 0.80824085,
+          "balanced_accuracy": 0.7909201,
+          "confusion": {
+            "tn": 90,
+            "fp": 50,
+            "fn": 18,
+            "tp": 277
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.78850575,
+          "macro_f1": 0.77076937,
+          "balanced_accuracy": 0.76425055,
+          "confusion": {
+            "tn": 111,
+            "fp": 75,
+            "fn": 17,
+            "tp": 232
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.80645161,
+          "macro_f1": 0.78924731,
+          "balanced_accuracy": 0.78032505,
+          "confusion": {
+            "tn": 113,
+            "fp": 63,
+            "fn": 21,
+            "tp": 237
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.85253456,
+          "macro_f1": 0.83799925,
+          "balanced_accuracy": 0.82832038,
+          "confusion": {
+            "tn": 120,
+            "fp": 45,
+            "fn": 19,
+            "tp": 250
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.83640553,
+          "macro_f1": 0.80287241,
+          "balanced_accuracy": 0.79199538,
+          "confusion": {
+            "tn": 92,
+            "fp": 45,
+            "fn": 26,
+            "tp": 271
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.86526639,
+          "macro_f1": 0.84684373,
+          "balanced_accuracy": 0.83585676,
+          "confusion": {
+            "tn": 506,
+            "fp": 181,
+            "fn": 82,
+            "tp": 1183
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.42397978,
+          "balanced_accuracy": 0.49323708,
+          "confusion": {
+            "tn": 20,
+            "fp": 97,
+            "fn": 19,
+            "tp": 84
+          }
+        }
+      }
+    },
+    "original_taxonomy_scope_gated_plus_relation_predefined_fusion_50": {
+      "family": "fusion",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.82642726,
+        "macro_f1": 0.80242802,
+        "balanced_accuracy": 0.78913546,
+        "confusion": {
+          "tn": 519,
+          "fp": 285,
+          "fn": 92,
+          "tp": 1276
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.84827586,
+          "macro_f1": 0.81203844,
+          "balanced_accuracy": 0.79243341,
+          "confusion": {
+            "tn": 89,
+            "fp": 51,
+            "fn": 15,
+            "tp": 280
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.78390805,
+          "macro_f1": 0.7630719,
+          "balanced_accuracy": 0.75683379,
+          "confusion": {
+            "tn": 106,
+            "fp": 80,
+            "fn": 14,
+            "tp": 235
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.79723502,
+          "macro_f1": 0.77921147,
+          "balanced_accuracy": 0.77076727,
+          "confusion": {
+            "tn": 111,
+            "fp": 65,
+            "fn": 23,
+            "tp": 235
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.859447,
+          "macro_f1": 0.84535763,
+          "balanced_accuracy": 0.83506815,
+          "confusion": {
+            "tn": 121,
+            "fp": 44,
+            "fn": 17,
+            "tp": 252
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.84331797,
+          "macro_f1": 0.80988456,
+          "balanced_accuracy": 0.79704588,
+          "confusion": {
+            "tn": 92,
+            "fp": 45,
+            "fn": 23,
+            "tp": 274
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.86629098,
+          "macro_f1": 0.847135,
+          "balanced_accuracy": 0.83465201,
+          "confusion": {
+            "tn": 500,
+            "fp": 187,
+            "fn": 74,
+            "tp": 1191
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.42057942,
+          "balanced_accuracy": 0.49381794,
+          "confusion": {
+            "tn": 19,
+            "fp": 98,
+            "fn": 18,
+            "tp": 85
+          }
+        }
+      }
+    },
+    "original_taxonomy_scope_gated_relation_predefined_fusion_confidence_gate": {
+      "family": "fusion",
+      "aggregate": {
+        "rows": 2172,
+        "coverage": 1.0,
+        "accuracy": 0.82918969,
+        "macro_f1": 0.80696409,
+        "balanced_accuracy": 0.79466156,
+        "confusion": {
+          "tn": 532,
+          "fp": 272,
+          "fn": 99,
+          "tp": 1269
+        }
+      },
+      "folds": [
+        {
+          "fold": 1,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.84367816,
+          "macro_f1": 0.80634264,
+          "balanced_accuracy": 0.78716707,
+          "confusion": {
+            "tn": 88,
+            "fp": 52,
+            "fn": 16,
+            "tp": 279
+          }
+        },
+        {
+          "fold": 2,
+          "rows": 435,
+          "coverage": 1.0,
+          "accuracy": 0.7954023,
+          "macro_f1": 0.77915129,
+          "balanced_accuracy": 0.77231507,
+          "confusion": {
+            "tn": 114,
+            "fp": 72,
+            "fn": 17,
+            "tp": 232
+          }
+        },
+        {
+          "fold": 3,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.80645161,
+          "macro_f1": 0.78984505,
+          "balanced_accuracy": 0.78122798,
+          "confusion": {
+            "tn": 114,
+            "fp": 62,
+            "fn": 22,
+            "tp": 236
+          }
+        },
+        {
+          "fold": 4,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.85253456,
+          "macro_f1": 0.83848533,
+          "balanced_accuracy": 0.82949195,
+          "confusion": {
+            "tn": 121,
+            "fp": 44,
+            "fn": 20,
+            "tp": 249
+          }
+        },
+        {
+          "fold": 5,
+          "rows": 434,
+          "coverage": 1.0,
+          "accuracy": 0.84792627,
+          "macro_f1": 0.81717218,
+          "balanced_accuracy": 0.80631129,
+          "confusion": {
+            "tn": 95,
+            "fp": 42,
+            "fn": 24,
+            "tp": 273
+          }
+        }
+      ],
+      "diagnostic_subsets": {
+        "homogeneous_paper_rows": {
+          "rows": 1952,
+          "coverage": 1.0,
+          "accuracy": 0.86936475,
+          "macro_f1": 0.85185992,
+          "balanced_accuracy": 0.84134664,
+          "confusion": {
+            "tn": 513,
+            "fp": 174,
+            "fn": 81,
+            "tp": 1184
+          }
+        },
+        "mixed_paper_rows": {
+          "rows": 220,
+          "coverage": 1.0,
+          "accuracy": 0.47272727,
+          "macro_f1": 0.42057942,
+          "balanced_accuracy": 0.49381794,
+          "confusion": {
+            "tn": 19,
+            "fp": 98,
+            "fn": 18,
+            "tp": 85
+          }
+        }
+      }
+    }
+  },
+  "ranking_by_full_coverage_row_accuracy": [
+    "original_taxonomy_unscoped_current_best_plus_relation_predefined_fusion_25",
+    "original_taxonomy_scope_gated",
+    "original_taxonomy_scope_gated_method_gb_confidence_gate",
+    "original_taxonomy_scope_gated_relation_predefined_fusion_confidence_gate",
+    "original_taxonomy_unscoped_current_best_plus_relation_predefined_fusion_35",
+    "original_taxonomy_unscoped_current_best_plus_relation_predefined_fusion_15",
+    "original_taxonomy_unscoped_current_best_plus_relation_predefined_fusion_50",
+    "original_taxonomy_unscoped_current_best_plus_relation_stacker_15",
+    "original_taxonomy_scope_gated_relation_stacker_confidence_gate",
+    "original_taxonomy_unscoped_current_best_plus_method_gb_15",
+    "original_taxonomy_scope_gated_plus_relation_predefined_fusion_25",
+    "original_taxonomy_scope_gated_plus_relation_predefined_fusion_15",
+    "original_taxonomy_scope_gated_plus_relation_predefined_fusion_50",
+    "original_taxonomy_scope_gated_plus_relation_stacker_35",
+    "original_taxonomy_unscoped_current_best_plus_relation_stacker_25",
+    "original_taxonomy_scope_gated_plus_method_gb_15",
+    "original_taxonomy_scope_gated_plus_relation_stacker_15",
+    "original_taxonomy_scope_gated_plus_relation_stacker_25",
+    "original_taxonomy_scope_gated_plus_relation_predefined_fusion_35",
+    "original_taxonomy_unscoped_current_best",
+    "original_taxonomy_unscoped_current_best_method_gb_confidence_gate",
+    "original_taxonomy_unscoped_current_best_relation_predefined_fusion_confidence_gate",
+    "original_taxonomy_unscoped_current_best_plus_method_gb_25",
+    "original_taxonomy_unscoped_current_best_plus_relation_stacker_50",
+    "original_taxonomy_scope_gated_plus_method_gb_25",
+    "original_taxonomy_unscoped_current_best_plus_method_gb_35",
+    "original_taxonomy_unscoped_current_best_plus_relation_stacker_35",
+    "original_taxonomy_scope_gated_plus_relation_stacker_50",
+    "original_taxonomy_unscoped_current_best_relation_stacker_confidence_gate",
+    "original_taxonomy_unscoped_current_best_plus_method_gb_50",
+    "original_taxonomy_scope_gated_plus_method_gb_50",
+    "original_taxonomy_scope_gated_plus_method_gb_35",
+    "method_event_hist_gradient_boosting",
+    "relation_predefined_fusion",
+    "method_event_gradient_boosting",
+    "relation_stacker",
+    "metadata_text_logistic",
+    "text_knn",
+    "author_series_knn",
+    "combined_knn",
+    "citation_knn"
+  ],
+  "best_relation_only": {
+    "strategy": "method_event_hist_gradient_boosting",
+    "rows": 2172,
+    "coverage": 1.0,
+    "accuracy": 0.81123389,
+    "macro_f1": 0.79072115,
+    "balanced_accuracy": 0.78271472,
+    "confusion": {
+      "tn": 541,
+      "fp": 263,
+      "fn": 147,
+      "tp": 1221
+    }
+  },
+  "best_full_coverage": {
+    "strategy": "original_taxonomy_unscoped_current_best_plus_relation_predefined_fusion_25",
+    "rows": 2172,
+    "coverage": 1.0,
+    "accuracy": 0.82965009,
+    "macro_f1": 0.80714275,
+    "balanced_accuracy": 0.79451427,
+    "confusion": {
+      "tn": 530,
+      "fp": 274,
+      "fn": 96,
+      "tp": 1272
+    }
+  },
+  "paper_majority_metrics": {
+    "text_knn": {
+      "rows": 1174,
+      "coverage": 1.0,
+      "accuracy": 0.77086882,
+      "macro_f1": 0.67180497,
+      "balanced_accuracy": 0.65846131,
+      "confusion": {
+        "tn": 130,
+        "fp": 246,
+        "fn": 23,
+        "tp": 775
+      }
+    },
+    "citation_knn": {
+      "rows": 1174,
+      "coverage": 1.0,
+      "accuracy": 0.6439523,
+      "macro_f1": 0.51228016,
+      "balanced_accuracy": 0.52501933,
+      "confusion": {
+        "tn": 73,
+        "fp": 303,
+        "fn": 115,
+        "tp": 683
+      }
+    },
+    "author_series_knn": {
+      "rows": 1174,
+      "coverage": 1.0,
+      "accuracy": 0.72827939,
+      "macro_f1": 0.56948731,
+      "balanced_accuracy": 0.58564296,
+      "confusion": {
+        "tn": 71,
+        "fp": 305,
+        "fn": 14,
+        "tp": 784
+      }
+    },
+    "combined_knn": {
+      "rows": 1174,
+      "coverage": 1.0,
+      "accuracy": 0.71890971,
+      "macro_f1": 0.59899059,
+      "balanced_accuracy": 0.59984736,
+      "confusion": {
+        "tn": 101,
+        "fp": 275,
+        "fn": 55,
+        "tp": 743
+      }
+    },
+    "metadata_text_logistic": {
+      "rows": 1174,
+      "coverage": 1.0,
+      "accuracy": 0.82793867,
+      "macro_f1": 0.78045104,
+      "balanced_accuracy": 0.75880859,
+      "confusion": {
+        "tn": 213,
+        "fp": 163,
+        "fn": 39,
+        "tp": 759
+      }
+    },
+    "method_event_gradient_boosting": {
+      "rows": 1174,
+      "coverage": 1.0,
+      "accuracy": 0.83560477,
+      "macro_f1": 0.81212901,
+      "balanced_accuracy": 0.81367315,
+      "confusion": {
+        "tn": 283,
+        "fp": 93,
+        "fn": 100,
+        "tp": 698
+      }
+    },
+    "method_event_hist_gradient_boosting": {
+      "rows": 1174,
+      "coverage": 1.0,
+      "accuracy": 0.84327087,
+      "macro_f1": 0.82001546,
+      "balanced_accuracy": 0.82001546,
+      "confusion": {
+        "tn": 284,
+        "fp": 92,
+        "fn": 92,
+        "tp": 706
+      }
+    },
+    "relation_stacker": {
+      "rows": 1174,
+      "coverage": 1.0,
+      "accuracy": 0.82367973,
+      "macro_f1": 0.7993237,
+      "balanced_accuracy": 0.80208833,
+      "confusion": {
+        "tn": 279,
+        "fp": 97,
+        "fn": 110,
+        "tp": 688
+      }
+    },
+    "relation_predefined_fusion": {
+      "rows": 1174,
+      "coverage": 1.0,
+      "accuracy": 0.8483816,
+      "macro_f1": 0.8191489,
+      "balanced_accuracy": 0.808304,
+      "confusion": {
+        "tn": 262,
+        "fp": 114,
+        "fn": 64,
+        "tp": 734
+      }
+    }
+  },
+  "interpretation": {
+    "full_coverage_90_percent_reached": false,
+    "relation_only_90_percent_reached": false,
+    "paper_majority_oracle_row_accuracy": 0.96823204,
+    "paper_majority_oracle_definition": "sum of the larger R3 class count within each REFNO divided by evaluated rows",
+    "mixed_paper_target_attribution_remains_unresolved": true
+  },
+  "artifacts": {
+    "script": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/experiment_r3_citation_graph.py",
+    "script_sha256": "3c87b4c30da3aaf366aacae4cdbae475f181f3cb7fd41042f405c6dbb32eb067",
+    "output": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_citation_graph/aggregate_result.json",
+    "oof_probability_npz": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_citation_graph/oof_probabilities.npz",
+      "sha256": "54315f18407699d032b9262073cef3f3b2be490bf445aff6112e9a7591efb998",
+      "row_count_per_array": 2172,
+      "array_names": [
+        "author_series_knn",
+        "citation_knn",
+        "combined_knn",
+        "metadata_text_logistic",
+        "method_event_gradient_boosting",
+        "method_event_hist_gradient_boosting",
+        "original_taxonomy_scope_gated",
+        "original_taxonomy_scope_gated_method_gb_confidence_gate",
+        "original_taxonomy_scope_gated_plus_method_gb_15",
+        "original_taxonomy_scope_gated_plus_method_gb_25",
+        "original_taxonomy_scope_gated_plus_method_gb_35",
+        "original_taxonomy_scope_gated_plus_method_gb_50",
+        "original_taxonomy_scope_gated_plus_relation_predefined_fusion_15",
+        "original_taxonomy_scope_gated_plus_relation_predefined_fusion_25",
+        "original_taxonomy_scope_gated_plus_relation_predefined_fusion_35",
+        "original_taxonomy_scope_gated_plus_relation_predefined_fusion_50",
+        "original_taxonomy_scope_gated_plus_relation_stacker_15",
+        "original_taxonomy_scope_gated_plus_relation_stacker_25",
+        "original_taxonomy_scope_gated_plus_relation_stacker_35",
+        "original_taxonomy_scope_gated_plus_relation_stacker_50",
+        "original_taxonomy_scope_gated_relation_predefined_fusion_confidence_gate",
+        "original_taxonomy_scope_gated_relation_stacker_confidence_gate",
+        "original_taxonomy_unscoped_current_best",
+        "original_taxonomy_unscoped_current_best_method_gb_confidence_gate",
+        "original_taxonomy_unscoped_current_best_plus_method_gb_15",
+        "original_taxonomy_unscoped_current_best_plus_method_gb_25",
+        "original_taxonomy_unscoped_current_best_plus_method_gb_35",
+        "original_taxonomy_unscoped_current_best_plus_method_gb_50",
+        "original_taxonomy_unscoped_current_best_plus_relation_predefined_fusion_15",
+        "original_taxonomy_unscoped_current_best_plus_relation_predefined_fusion_25",
+        "original_taxonomy_unscoped_current_best_plus_relation_predefined_fusion_35",
+        "original_taxonomy_unscoped_current_best_plus_relation_predefined_fusion_50",
+        "original_taxonomy_unscoped_current_best_plus_relation_stacker_15",
+        "original_taxonomy_unscoped_current_best_plus_relation_stacker_25",
+        "original_taxonomy_unscoped_current_best_plus_relation_stacker_35",
+        "original_taxonomy_unscoped_current_best_plus_relation_stacker_50",
+        "original_taxonomy_unscoped_current_best_relation_predefined_fusion_confidence_gate",
+        "original_taxonomy_unscoped_current_best_relation_stacker_confidence_gate",
+        "relation_predefined_fusion",
+        "relation_stacker",
+        "text_knn"
+      ],
+      "contains_labels": false,
+      "contains_refno": false,
+      "contains_resultno": false
+    }
+  }
+}

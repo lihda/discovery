@@ -1,0 +1,23 @@
+{
+  "candidate_rows": 2172,
+  "candidate_sha256": "8ff1a752c079474b22ce48bea88e9d48fe8825c6f381bb353ff10db2216984d7",
+  "forbidden_sources_not_read": [
+    "PMAGRESULT",
+    "row-level ROCKMAG values",
+    "R3 labels",
+    "prior predictions",
+    "old evaluations"
+  ],
+  "input_hashes": {
+    "artifact": "149df539a937678c8204aa6d6e60e77bd901e4a77975d26caa5362749aa18ad4",
+    "identity": "7e45020df48b866096ac4bf567102f6a73ce3c12759b19c8550f78de299c72f1",
+    "page_cache": "f8ec25c1148c04112ccfc75076743803417effbb833834a136c714dff4e146d7"
+  },
+  "pdf_eligible_papers": 1174,
+  "phase": "candidates_frozen_before_labels_or_predictions_opened",
+  "runtime_sources": [
+    "strict REFNO/RESULTNO/ROCKNAME identity manifest",
+    "original-paper PDF page cache",
+    "frozen aggregate ROCKMAG expert taxonomy"
+  ]
+}

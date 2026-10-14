@@ -1,0 +1,90 @@
+{
+  "schema_version": "r3_exact300_bge_semantic_cache_v1",
+  "status": "FROZEN_WITHOUT_LABEL_ACCESS",
+  "runtime_boundary": {
+    "labels_read": false,
+    "targets_workbook_read": false,
+    "pmagresult_or_rockmag_read": false,
+    "prior_predictions_or_evaluations_read": false,
+    "cache_contains_identifiers": false,
+    "target_names_are_semantic_text": true
+  },
+  "scope": {
+    "rows": 2172,
+    "alignment_sha256": "2b8b2eacac8cb370dff898614a7a0cfdb054ea8b9766c7459a3f6b28affdce5d"
+  },
+  "encoder": {
+    "model": "BAAI/bge-base-en-v1.5",
+    "local_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/models/bge-base-en-v1.5",
+    "tree_sha256": "59a99be8eb012aa750bba80634d0240e7ca311271f279b1209d32ee6a20f3522",
+    "maximum_sequence_length": 384,
+    "normalized_embeddings": true,
+    "device_is_not_part_of_runtime_features": "mps"
+  },
+  "inputs": {
+    "component_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/scincl_auxiliary_pool_v1/full_pool_inputs.npz",
+      "sha256": "f6d3b64bf14fc8200fa3555d132bb92d68d98d98aecb569c1ecb67fbb272ec62"
+    },
+    "component_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/scincl_auxiliary_pool_v1/full_pool_inputs.manifest.json",
+      "sha256": "507e9b437eee61f9f336fa82cc07568af4b39fa99a1df2c7fb6534fb1720b835"
+    }
+  },
+  "matrices": {
+    "target_query": {
+      "shape": [
+        2172,
+        768
+      ],
+      "dtype": "float32",
+      "sha256": "ae89993f9c4c9ea14ceb8df161330ed73f9f3639f0e85a836b4837cd19b0b484",
+      "finite": true
+    },
+    "abstract": {
+      "shape": [
+        2172,
+        768
+      ],
+      "dtype": "float32",
+      "sha256": "235f233a85c355c5c3a455e3eb1f1cee8d95fa637b98d88bc68f623dd3bda1b4",
+      "finite": true
+    },
+    "target_local": {
+      "shape": [
+        2172,
+        768
+      ],
+      "dtype": "float32",
+      "sha256": "4d57faef30c974b737587e0bbc9cbf1056aa6b05a15a8d12e30e972da5020454",
+      "finite": true
+    },
+    "target_paper": {
+      "shape": [
+        2172,
+        768
+      ],
+      "dtype": "float32",
+      "sha256": "8bb75d8cf8908490a67666b40296c08bd78dae0eb826c90e0ebd606beafa1eef",
+      "finite": true
+    },
+    "relation": {
+      "shape": [
+        2172,
+        4
+      ],
+      "dtype": "float32",
+      "sha256": "670582e150a988e6b83d4b69aff870ee14aac0ae449a79db6ed074d9d8aa79fc",
+      "finite": true
+    }
+  },
+  "output": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/bge_semantic_cache_v1/features.npz",
+    "sha256": "38e8826dbd7dab58ca21a1b0efe5eedbcf09c2b9b12c37b7576446d6f8cfd126",
+    "contains_labels_or_identifiers": false
+  },
+  "builder": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/build_r3_exact300_bge_semantic_cache.py",
+    "sha256": "cd50eae5f5e1995b1c4aef7e1cf8ad70ceeb415b609fdddc77602edf119b3931"
+  }
+}

@@ -1,0 +1,713 @@
+{
+  "schema_version": "r3_third300_robust_paper_holdout_v1",
+  "status": "complete",
+  "scope": {
+    "evaluated_rows": 300,
+    "evaluated_paper_groups": 263,
+    "all_evaluated_rows_have_local_pdf": true,
+    "training_rows": 1720,
+    "training_paper_groups": 911,
+    "all_rows_excluded_for_test_papers": 452,
+    "additional_sibling_rows_excluded": 152
+  },
+  "compliance_audit": {
+    "third_cohort_frozen_without_label_access": true,
+    "third_cohort_disjoint_from_both_opened_benchmarks": true,
+    "candidate_family_and_primary_strategy_frozen_before_test_labels": true,
+    "prediction_receipt_written_before_test_scoring": true,
+    "test_labels_used_for_model_candidate_or_weight_selection": false,
+    "all_test_refno_rows_excluded_from_every_fit": true,
+    "train_test_refno_overlap": 0,
+    "prior_oof_or_evaluation_read": false,
+    "pmagresult_or_row_rockmag_used_as_feature": false
+  },
+  "candidate_freeze": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_third300_validation_v1/robust_holdout/candidate_freeze.json",
+    "sha256": "20b33f3e9d5315100daefbc1980f31163701d729d9ce3e364c09bcc2bb076218"
+  },
+  "prediction_receipt": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_third300_validation_v1/robust_holdout/prediction_receipt.json",
+    "sha256": "9cdabd581a169c2987b61c56177d56c23bb647a251d8edc327ee1a461c67d714"
+  },
+  "evaluation_labels": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/targets.xlsx",
+    "sha256": "378c17338f3b5cfeff3ccd496894e0f6183f747119b2624c4a9cefaeda02501e",
+    "opened_after_prediction_receipt": true
+  },
+  "model_audit": {
+    "inner_cross_fitting": [
+      {
+        "fold": 1,
+        "fit_rows": 1290,
+        "validation_rows": 430,
+        "fit_validation_refno_overlap": 0,
+        "test_refno_overlap": 0
+      },
+      {
+        "fold": 2,
+        "fit_rows": 1290,
+        "validation_rows": 430,
+        "fit_validation_refno_overlap": 0,
+        "test_refno_overlap": 0
+      },
+      {
+        "fold": 3,
+        "fit_rows": 1290,
+        "validation_rows": 430,
+        "fit_validation_refno_overlap": 0,
+        "test_refno_overlap": 0
+      },
+      {
+        "fold": 4,
+        "fit_rows": 1290,
+        "validation_rows": 430,
+        "fit_validation_refno_overlap": 0,
+        "test_refno_overlap": 0
+      }
+    ],
+    "direct_scope_rescue_rows": 5,
+    "primary_formula": {
+      "mean6_weight": 0.9,
+      "hard_router_weight": 0.1,
+      "decision_threshold": 0.5,
+      "weights_selected_from_opened_development_cohorts_only": true
+    }
+  },
+  "models": {
+    "mean6": {
+      "metrics": {
+        "rows": 300,
+        "coverage": 1.0,
+        "accuracy": 0.87333333,
+        "macro_f1": 0.8582019,
+        "balanced_accuracy": 0.85650624,
+        "confusion": {
+          "tn": 82,
+          "fp": 20,
+          "fn": 18,
+          "tp": 180
+        },
+        "predicted_positive": 200,
+        "threshold": 0.5
+      },
+      "transition_vs_primary": {
+        "control_errors": 39,
+        "candidate_errors": 38,
+        "errors_resolved": 2,
+        "errors_introduced": 1
+      }
+    },
+    "median6": {
+      "metrics": {
+        "rows": 300,
+        "coverage": 1.0,
+        "accuracy": 0.86333333,
+        "macro_f1": 0.8466315,
+        "balanced_accuracy": 0.84417706,
+        "confusion": {
+          "tn": 80,
+          "fp": 22,
+          "fn": 19,
+          "tp": 179
+        },
+        "predicted_positive": 201,
+        "threshold": 0.5
+      },
+      "transition_vs_primary": {
+        "control_errors": 39,
+        "candidate_errors": 41,
+        "errors_resolved": 0,
+        "errors_introduced": 2
+      }
+    },
+    "trimmed_mean6": {
+      "metrics": {
+        "rows": 300,
+        "coverage": 1.0,
+        "accuracy": 0.86666667,
+        "macro_f1": 0.85,
+        "balanced_accuracy": 0.84670232,
+        "confusion": {
+          "tn": 80,
+          "fp": 22,
+          "fn": 18,
+          "tp": 180
+        },
+        "predicted_positive": 202,
+        "threshold": 0.5
+      },
+      "transition_vs_primary": {
+        "control_errors": 39,
+        "candidate_errors": 40,
+        "errors_resolved": 0,
+        "errors_introduced": 1
+      }
+    },
+    "hard_router": {
+      "metrics": {
+        "rows": 300,
+        "coverage": 1.0,
+        "accuracy": 0.85666667,
+        "macro_f1": 0.83834384,
+        "balanced_accuracy": 0.83437314,
+        "confusion": {
+          "tn": 78,
+          "fp": 24,
+          "fn": 19,
+          "tp": 179
+        },
+        "predicted_positive": 203,
+        "threshold": 0.5
+      },
+      "transition_vs_primary": {
+        "control_errors": 39,
+        "candidate_errors": 43,
+        "errors_resolved": 2,
+        "errors_introduced": 6
+      }
+    },
+    "conservative_soft_router_010": {
+      "metrics": {
+        "rows": 300,
+        "coverage": 1.0,
+        "accuracy": 0.87,
+        "macro_f1": 0.85411289,
+        "balanced_accuracy": 0.85160428,
+        "confusion": {
+          "tn": 81,
+          "fp": 21,
+          "fn": 18,
+          "tp": 180
+        },
+        "predicted_positive": 201,
+        "threshold": 0.5
+      },
+      "transition_vs_primary": {
+        "control_errors": 39,
+        "candidate_errors": 39,
+        "errors_resolved": 0,
+        "errors_introduced": 0
+      }
+    },
+    "episode_signature_hgb": {
+      "metrics": {
+        "rows": 300,
+        "coverage": 1.0,
+        "accuracy": 0.83666667,
+        "macro_f1": 0.8175975,
+        "balanced_accuracy": 0.81684492,
+        "confusion": {
+          "tn": 77,
+          "fp": 25,
+          "fn": 24,
+          "tp": 174
+        },
+        "predicted_positive": 199,
+        "threshold": 0.5
+      },
+      "transition_vs_primary": {
+        "control_errors": 39,
+        "candidate_errors": 49,
+        "errors_resolved": 5,
+        "errors_introduced": 15
+      }
+    },
+    "episode_mean7": {
+      "metrics": {
+        "rows": 300,
+        "coverage": 1.0,
+        "accuracy": 0.87666667,
+        "macro_f1": 0.8622675,
+        "balanced_accuracy": 0.8614082,
+        "confusion": {
+          "tn": 83,
+          "fp": 19,
+          "fn": 18,
+          "tp": 180
+        },
+        "predicted_positive": 199,
+        "threshold": 0.5
+      },
+      "transition_vs_primary": {
+        "control_errors": 39,
+        "candidate_errors": 37,
+        "errors_resolved": 2,
+        "errors_introduced": 0
+      }
+    },
+    "full_evidence_hgb": {
+      "metrics": {
+        "rows": 300,
+        "coverage": 1.0,
+        "accuracy": 0.86,
+        "macro_f1": 0.84327578,
+        "balanced_accuracy": 0.84165181,
+        "confusion": {
+          "tn": 80,
+          "fp": 22,
+          "fn": 20,
+          "tp": 178
+        },
+        "predicted_positive": 200,
+        "threshold": 0.5
+      },
+      "transition_vs_primary": {
+        "control_errors": 39,
+        "candidate_errors": 42,
+        "errors_resolved": 3,
+        "errors_introduced": 6
+      }
+    },
+    "direct_scope_rescue_045": {
+      "metrics": {
+        "rows": 300,
+        "coverage": 1.0,
+        "accuracy": 0.85333333,
+        "macro_f1": 0.83329966,
+        "balanced_accuracy": 0.82709447,
+        "confusion": {
+          "tn": 76,
+          "fp": 26,
+          "fn": 18,
+          "tp": 180
+        },
+        "predicted_positive": 206,
+        "threshold": 0.5
+      },
+      "transition_vs_primary": {
+        "control_errors": 39,
+        "candidate_errors": 44,
+        "errors_resolved": 0,
+        "errors_introduced": 5
+      }
+    }
+  },
+  "primary_result": {
+    "strategy": "conservative_soft_router_010",
+    "rows": 300,
+    "coverage": 1.0,
+    "accuracy": 0.87,
+    "macro_f1": 0.85411289,
+    "balanced_accuracy": 0.85160428,
+    "confusion": {
+      "tn": 81,
+      "fp": 21,
+      "fn": 18,
+      "tp": 180
+    },
+    "predicted_positive": 201,
+    "threshold": 0.5
+  },
+  "errors": [
+    {
+      "sample_index": 0,
+      "REFNO": "1147",
+      "RESULTNO": "17",
+      "ROCKNAME": "Douglas Peninsula Formation, Pethei Group",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.11617366453370251,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 4,
+      "REFNO": "1164",
+      "RESULTNO": "64",
+      "ROCKNAME": "Redbeds",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.37304269572105053,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 5,
+      "REFNO": "1168",
+      "RESULTNO": "67",
+      "ROCKNAME": "Deccan traps, Dhar region",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.40463375758976045,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 14,
+      "REFNO": "1194",
+      "RESULTNO": "126",
+      "ROCKNAME": "San Pedro Formation",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.08127083444168054,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 20,
+      "REFNO": "1599",
+      "RESULTNO": "1077",
+      "ROCKNAME": "Granitic rocks, Wright Valley",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.914015621151435,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 28,
+      "REFNO": "312",
+      "RESULTNO": "3464",
+      "ROCKNAME": "Superior Province Dykes, West Directions",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.027432105339295527,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 39,
+      "REFNO": "2977",
+      "RESULTNO": "7744",
+      "ROCKNAME": "Rajmahal Traps",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.3973929652161692,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 40,
+      "REFNO": "2980",
+      "RESULTNO": "7750",
+      "ROCKNAME": "Iztaccihuatl Volcano",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.12661990082528998,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 45,
+      "REFNO": "3031",
+      "RESULTNO": "7822",
+      "ROCKNAME": "Western U.S.A. Holocene Lavas",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.7018548221293566,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 47,
+      "REFNO": "3064",
+      "RESULTNO": "8045",
+      "ROCKNAME": "Member III, Gamba Formation",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.88396591314683,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 70,
+      "REFNO": "3133",
+      "RESULTNO": "8169",
+      "ROCKNAME": "Anisian/Ladinian Boundary Sections",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.5867787383896337,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 72,
+      "REFNO": "3142",
+      "RESULTNO": "8183",
+      "ROCKNAME": "Himalayan Leucogranites",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.9022507107521023,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 73,
+      "REFNO": "3142",
+      "RESULTNO": "8184",
+      "ROCKNAME": "Himalayan Leucogranites",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.9022507107521023,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 74,
+      "REFNO": "3160",
+      "RESULTNO": "8211",
+      "ROCKNAME": "Oman Ophiolite Unit V2",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.37286581190571505,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 75,
+      "REFNO": "3168",
+      "RESULTNO": "8235",
+      "ROCKNAME": "Coats Land Nunataks",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.9209099199534925,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 99,
+      "REFNO": "3341",
+      "RESULTNO": "8550",
+      "ROCKNAME": "Bambui Group",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.9303814051930992,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 100,
+      "REFNO": "3341",
+      "RESULTNO": "8551",
+      "ROCKNAME": "Bambui Group",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.9303814051930992,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 101,
+      "REFNO": "3341",
+      "RESULTNO": "8552",
+      "ROCKNAME": "Bambui Group",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.9303814051930992,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 106,
+      "REFNO": "3390",
+      "RESULTNO": "8629",
+      "ROCKNAME": "Trans-Mexican Volcanic Belt",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.986137392730602,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 111,
+      "REFNO": "3416",
+      "RESULTNO": "8687",
+      "ROCKNAME": "Ulfo Complex",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.6642745071871933,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 116,
+      "REFNO": "3455",
+      "RESULTNO": "8781",
+      "ROCKNAME": "Bangemall Sills",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.09325607611015976,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 134,
+      "REFNO": "3558",
+      "RESULTNO": "9047",
+      "ROCKNAME": "Hot Springs Sediments",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.8396096221782734,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 135,
+      "REFNO": "3562",
+      "RESULTNO": "9058",
+      "ROCKNAME": "Dayu Group Sandstone",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.1571115291075183,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 165,
+      "REFNO": "3709",
+      "RESULTNO": "9319",
+      "ROCKNAME": "Kyutingde Formation",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.8320713156586836,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 199,
+      "REFNO": "3921",
+      "RESULTNO": "9620",
+      "ROCKNAME": "Fiskeklofta Formation",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.5268053914051839,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 200,
+      "REFNO": "3926",
+      "RESULTNO": "9635",
+      "ROCKNAME": "Loiyangalani Lavas",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.3817865935717689,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 213,
+      "REFNO": "3983",
+      "RESULTNO": "9738",
+      "ROCKNAME": "Khorat Group",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.27830211959024453,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 221,
+      "REFNO": "4016",
+      "RESULTNO": "9790",
+      "ROCKNAME": "Kurchavinskaya and Kruzhilikhinskaya Formations",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.9140337041436246,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 231,
+      "REFNO": "4079",
+      "RESULTNO": "9881",
+      "ROCKNAME": "Devonian Redbeds",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.12362480063784922,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 232,
+      "REFNO": "4106",
+      "RESULTNO": "9918",
+      "ROCKNAME": "Chernokamenskay Formation",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.21090295550567587,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 233,
+      "REFNO": "4107",
+      "RESULTNO": "9919",
+      "ROCKNAME": "Basu Formation",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.1148436146598755,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 235,
+      "REFNO": "4129",
+      "RESULTNO": "9950",
+      "ROCKNAME": "Dividal Group",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.25867840210315685,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 243,
+      "REFNO": "4169",
+      "RESULTNO": "10014",
+      "ROCKNAME": "Beaver River Anorthosite",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.5003693678217485,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 248,
+      "REFNO": "4205",
+      "RESULTNO": "10066",
+      "ROCKNAME": "Badami and Bhima Groups",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.5038926792568915,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 254,
+      "REFNO": "4229",
+      "RESULTNO": "10101",
+      "ROCKNAME": "Batang Group Volcanics",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.43352532370873836,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 271,
+      "REFNO": "4303",
+      "RESULTNO": "10202",
+      "ROCKNAME": "Puchezh Sediments",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.8964437459678342,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 272,
+      "REFNO": "4303",
+      "RESULTNO": "10203",
+      "ROCKNAME": "Zhukov Ravine Sediments",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.8920363898401995,
+      "error_type": "FP"
+    },
+    {
+      "sample_index": 284,
+      "REFNO": "4371",
+      "RESULTNO": "10302",
+      "ROCKNAME": "Talerua Member Lavas",
+      "label": 1,
+      "prediction": 0,
+      "probability": 0.14687911914496282,
+      "error_type": "FN"
+    },
+    {
+      "sample_index": 287,
+      "REFNO": "4376",
+      "RESULTNO": "10307",
+      "ROCKNAME": "Strand Fiord Formation",
+      "label": 0,
+      "prediction": 1,
+      "probability": 0.8277409761139888,
+      "error_type": "FP"
+    }
+  ],
+  "promotion_gate": {
+    "target_accuracy": 0.9,
+    "passed": false,
+    "decision": "THIRD300_TARGET_NOT_REACHED"
+  },
+  "artifacts": {
+    "probabilities": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_third300_validation_v1/robust_holdout/holdout_probabilities.npz",
+      "sha256": "e13e2752395a2b86e6c40edeb87a86cd0562b2981daa95b2ad9776db4c2b3b78"
+    }
+  },
+  "interpretation_limit": "Prospectively sealed within the existing PDF-backed partition; not an independently collected external corpus.",
+  "source_scope": {
+    "fixed_training_rows": 2473,
+    "fixed_training_paper_groups": 1292,
+    "pdf_only_rows": 2172,
+    "pdf_only_paper_groups": 1174,
+    "rows_skipped_without_local_pdf": 301,
+    "paper_groups_skipped_without_local_pdf": 118
+  }
+}

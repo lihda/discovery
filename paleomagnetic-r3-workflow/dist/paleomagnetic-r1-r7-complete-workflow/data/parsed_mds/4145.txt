@@ -1,0 +1,2366 @@
+### page_1
+RESEARCH ARTICLE A Consistently High-Latitude South China From 820 to
+10.1029/2020JB021541
+780 Ma: Implications for Exclusion From Rodinia and the
+Key Points: Feasibility of Large-Scale True Polar Wander
+• South China was either connected to
+the Tonian supercontinent Rodinia Yuem Park1 , Nicholas L. Swanson-Hysell1 , Hanbiao Xian2 , Shihong Zhang2 ,
+along its periphery or disconnected Daniel J. Condon3 , Hairuo Fu2,4, and Francis A. Macdonald5
+from it entirely
+• If the Bitter Springs Stage true polar 1Department of Earth and Planetary Science, University of California, Berkeley, CA, USA, 2State Key Laboratory of
+wander hypothesis is correct, South
+China must have been disconnected Biogeology and Environmental Geology, China University of Geosciences, Beijing, China, 3Natural Environment
+from Rodinia Research Council Isotope Geosciences Laboratory, British Geological Survey, Keyworth, UK, 4Department of Earth and
+Planetary Sciences, Harvard University, Cambridge, MA, USA, 5Department of Earth Science, University of California,
+Santa Barbara, CA, USA
+Supporting Information:
+Supporting Information may be found
+in the online version of this article. Abstract The Tonian supercontinent Rodinia is hypothesized to have included almost all Proterozoic
+continental blocks. Competing models variably place South China at the core or periphery of Rodinia
+Correspondence to: or separated from it entirely. Tonian paleogeographic models also vary in whether they incorporate
+Y. Park,
+hypothesized large and rapid oscillatory true polar wander associated with the ca. 810–795 Ma Bitter
+yuempark@berkeley.edu
+Springs Stage. Here, we present paleomagnetic data paired with U-Pb chemical abrasion isotope dilution
+thermal ionization mass spectrometry zircon geochronology from the Tonian Xiajiang Group in South
+Citation:
+China to establish the craton's position and test the Bitter Springs Stage true polar wander hypothesis.
+Park, Y., Swanson-Hysell, N. L., Xian,
+H., Zhang, S., Condon, D. J., Fu, H., & Fine-grained siliciclastic sediments and ashes of the Xiajiang Group post-date the Jiangnan Orogeny,
+Macdonald, F. A. (2021). A consistently which united the Yangtze and Cathaysia blocks. A U-Pb zircon date of 815.73 ± 0.18 Ma from a tuff
+high-latitude South China from 820
+near the base of the Xiajiang Group constrains the Jiangnan Orogeny to have ended between ca. 830
+to 780 Ma: Implications for exclusion
+from Rodinia and the feasibility of and 816 Ma. The paleomagnetic and geochronologic data constrain South China to high latitudes
+large-scale true polar wander. Journal ca. 813 Ma and indicate a relatively stable high-latitude position from ca. 821 to 805 Ma. These high-
+of Geophysical Research: Solid Earth,
+latitude constraints either connect the craton to Rodinia along its periphery or disconnect it from the
+126, e2020JB021541. https://doi.
+org/10.1029/2020JB021541 supercontinent entirely. The difference in pole position between the pre-Bitter Springs Stage Xiajiang
+Group pole and the syn-Bitter Springs Stage Madiyi Formation pole is significantly less than that predicted
+Received 15 DEC 2020 for the Bitter Springs Stage true polar wander hypothesis. If this pole difference is interpreted as true polar
+Accepted 8 MAY 2021
+wander superimposed upon differential plate motion, it requires South China to have been separate from
+Rodinia.
+1. Introduction
+Earth's lithosphere moves through two fundamental mechanisms. The more familiar of these mechanisms
+are tectonic motions—that is, differential movement between lithospheric plates. The second mechanism is
+the rotation of the entire silicate Earth in order to maintain rotational equilibrium. On any rotating plane-
+tary body, changes in the distribution of mass on (e.g., the melting of ice sheets; Cambiotti et al., 2010; Mat-
+suyama et al., 2010; Mitrovica et al., 2005) or within (e.g., mantle convection; Spada et al., 1992) can cause
+reorientation of the planetary surface relative to the rotational axis (Evans, 2003; Matsuyama et al., 2014).
+Such reorientation causes all of Earth's tectonic plates, as well as the underlying mantle, to rotate in unison
+relative to the spin axis and the core. To an observer on Earth's surface, it would appear that the pole is
+changing position and the process is therefore referred to as true polar wander (TPW). Differential plate tec-
+tonics and TPW are operating today and were in Earth's past. Both processes are built into paleogeographic
+models over the past 400 million years (Myr), with an overall dominance of differential plate tectonics
+(Steinberger & Torsvik, 2008; Torsvik et al., 2012).
+Plate kinematic reconstructions indicate that the median plate velocity over the past 200 Myr, during which
+a seafloor spreading record is preserved, is 4 cm/year (Zahirovic et al., 2015). Although plate velocities
+have been observed to significantly exceed t∼his median value, such as during the rapid northward motion
+of India toward Eurasia ca. 55 Ma when its velocity was as high as 19 cm/yr (van Hinsbergen et al., 2011;
+© 2021. American Geophysical Union.
+All Rights Reserved. Zahirovic et al., 2012), such motions are short lived (up to 10 Myr; Zahirovic et al., 2015). Based on these
+∼
+PARK ET AL. 1 of 29
+
+### page_2
+Journal of Geophysical Research: Solid Earth 10.1029/2020JB021541
+plate kinematic reconstructions, it has been argued that plate velocities rarely exceed 20 cm/year (Meert
+et al., 1993; Zahirovic et al., 2015). ∼
+Over the past 300 Myr, there has been near continuous TPW at rates of 1–10 cm/yr attributed to advection
+of mass heterogeneities in the mantle (Steinberger & Torsvik, 2008; Torsvik et al., 2012), with the possibility
+of more rapid TPW in the Jurassic (Kent et al., 2015). These rates are comparable to rates of differential plate
+motion, which can make TPW difficult to distinguish in the record. While it is a matter of contention (Tsai
+& Stevenson, 2007), it has been considered theoretically possible for TPW to occur at rates exceeding those
+of typical plate tectonics (Evans, 2003; Fisher, 1974; Gold, 1955; Steinberger & O’Connell, 1997). Therefore,
+TPW has been proposed as an explanation for large rapid shifts in paleomagnetic poles in the geological
+record (e.g., Kirschvink, 1997). The rate at which TPW can occur is a function of the magnitude of the per-
+turbation to Earth's moment of inertia tensor, the time scale over which that perturbation is applied, and
+the time scale for viscoelastic adjustment of Earth's rotational bulge, which is itself largely a function of
+mantle viscosity (Creveling et al., 2012; Steinberger & Torsvik, 2010; Tsai & Stevenson, 2007). Additionally,
+stabilization is thought to result from TPW-induced stresses in the lithosphere that can form a remanent
+bulge (Chan et al., 2014; Ricard et al., 1993). Numerical models have suggested that velocities due to TPW
+motion can be higher than 150 cm/yr (Spada et al., 1992), although other treatments have argued that
+TPW exceeding 25 cm/yr is∼ unlikely (Tsai & Stevenson, 2007). Ultimately, however, the rate at which TPW
+has proceeded a∼t different periods of Earth history is a question for geologic and paleomagnetic records.
+A pair of oscillatory TPW events ca. 810 and 795 Ma have been proposed to have occurred during the Tonian
+Period of the Neoproterozoic Era (Maloof et al., 2006). This hypothesis is based on paleomagnetic, isotopic,
+and stratigraphic data from carbonate strata in the Akademikerbreen Group of East Svalbard—a terrane
+that was part of Laurentia in the Tonian (Maloof et al., 2006). Two >50° shifts in paleomagnetic direction
+from East Svalbard, with associated plate velocities implied to be >50 cm/yr based on an interpretation that
+the directions are primary, were observed to be coincident with abrupt shifts in δ13C (referred to as the Bitter
+Springs Stage; Maloof et al., 2006). These poles are from carbonate units that are separated by unconformi-
+ties that were interpreted to reflect the transient changes in local relative sea level predicted to occur given
+the differential response of the fluid and solid Earth (Maloof et al., 2006; Mound et al., 1999). These shifts
+were interpreted as “there and back again” TPW rotations in which the entire solid Earth (and therefore
+all of Rodinia) rotated 50° about an equatorial axis and then returned to near its prior position (Maloof
+et al., 2006). Further geochronologic constraints on δ13C records correlated to the Bitter Springs Stage, and
+therefore the proposed oscillatory TPW, constrain it to have started after 811.51 ± 0.25 Ma (U-Pb chemical
+abrasion isotope dilution thermal ionization mass spectrometry [CA-ID-TIMS] zircon from a tuff 50 m
+below carbonates that record the first abrupt shift to negative δ13C values in the Fifteenmile Group of∼ north-
+west Canada; Macdonald et al., 2010) and to have ended by 788.72 ± 0.24 Ma (U–Pb CA-ID-TIMS zircon
+from a tuff 250 m above carbonates that record the second abrupt shift to positive δ13C values in the Tam-
+bien Group∼ of northern Ethiopia; Park et al., 2020; Swanson-Hysell et al., 2015). Interpolation using these
+and other geochronologic constraints suggests that the Bitter Springs Stage started before 807.9 ± 0.2 Ma
+and ended after 800.6 ± 0.2 Ma (Swanson-Hysell et al., 2015). However, no direct geochronologic con-
+straints exist on the Akademikerbreen Group stratigraphy, and therefore the ages of these paleomagnetic
+poles for Svalbard are reliant on carbon and strontium isotope chemostratigraphic correlations (Halverson
+et al., 2007).
+Given that TPW results in rotation of the entire lithosphere around the spin axis, it should manifest in the
+paleomagnetic record as simultaneous motion of paleomagnetic poles across all continents, once standard
+differential plate tectonic motion has been subtracted out (Evans, 2003). Efforts to test the Bitter Springs
+Stage TPW hypothesis within the Bitter Springs Group of central Australia led to distinct paleomagnetic
+pole positions from syn-Bitter Springs Stage to post-Bitter Springs Stage sedimentary rocks (Swanson-Hysell
+et al., 2012). The post-Bitter Springs Stage pole was developed from a hematite remanence held in Johnny's
+Creek Formation siltstone and is included as a constraint for Australia in models of Rodinia (e.g., Merdith
+et al., 2017). The syn-Bitter Springs Stage pole from Love's Creek Formation carbonate overlaps with the
+Cambrian apparent polar wander path (APWP) of Australia, raising the possibility that the difference in
+position between the Love's Creek and Johnny's Creek poles is the result of remagnetization, leaving am-
+biguity in using these data to test the TPW hypothesis (Swanson-Hysell et al., 2012). The paleomagnetic
+PARK ET AL. 2 of 29
+21699356,
+2021,
+6,
+Downloaded
+from
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JB021541
+by
+Readcube-Labtiva,
+Wiley
+Online
+Library
+on
+[05/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+### page_3
+Journal of Geophysical Research: Solid Earth 10.1029/2020JB021541
+remanence of carbonate rocks can be challenging to interpret as they are prone to remagnetization (Jackson
+& Swanson-Hysell, 2012; Van Der Voo & Torsvik, 2012). Carbonate remagnetization can be particularly
+vexing as it can result from chemical alteration at low temperatures such as the conversion of smectite clay
+minerals to illite. This process can lead to the authigenic formation of magnetite at temperatures as low
+as 70°C (Katz et al., 1998; Tohver et al., 2008). This mechanism may explain the magnetization obtained
+from carbonates of the Love's Creek Formation of the Bitter Springs Group as a Cambrian overprint from
+authigenic magnetite formation during burial (Swanson-Hysell et al., 2012). This clay transformation mech-
+anism or other processes associated with fluid flow have been invoked to explain widespread remagnetiza-
+tion of carbonates particularly at time periods of regional orogenesis (Van Der Voo & Torsvik, 2012). For
+example, at the time of the Alleghenian orogeny, North American carbonates both proximal to the orogen
+and hundreds of kilometers away were remagnetized through the precipitation of authigenic magnetite
+(McCabe & Elmore, 1989; Van Der Voo & Torsvik, 2012).
+Of potential relevance to the data upon which the Bitter Springs Stage TPW hypothesis was formulated,
+Michalski et al. (2011) developed paleomagnetic data from metasedimentary rocks from the central terrane
+of Svalbard that were metamorphosed and remagnetized ca. 430 Ma during the Caledonian orogeny. The
+remagnetization direction in these rocks has a similar position to the pre-Bitter Springs Stage pole of the
+Akademikerbreen Group (lGfm from Maloof et al., 2006), leading Michalski et al. (2011) to suggest that the
+pole does not record a primary magnetization, and is instead the result of remagnetization at the time of the
+Caledonian orogeny that effected both Central and East Svalbard. However, the post-Bitter Springs Stage
+pole from the Akademikerbreen Group (S4fm) passes a syn-sedimentary fold test which provides strong
+support for a primary remanence held by magnetite for that pole. These constraints seemingly require var-
+iable remagnetization in different units of the Akademikerbreen Group for the interpretation of Michalski
+et al. (2011) to be correct.
+These potential complexities associated with the specter of carbonate remagnetization highlight the im-
+portance of testing the Bitter Springs Stage TPW hypothesis using other lithologies such as detrital hema-
+tite-bearing siliciclastics and igneous rocks. Tonian deposition in the Nanhua Basin of South China includes
+reds beds and volcanic tuffs. These units potentially span the Bitter Spring Stage and provide an opportunity
+to develop high-quality paleomagnetic data paired with precise geochronology to test both the Bitter Springs
+Stage TPW hypothesis and models of the configuration of the Neoproterozoic supercontinent Rodinia.
+2. Geologic Setting
+This study presents paleomagnetic and U-Pb CA-ID-TIMS zircon geochronologic data from the Xiajiang
+Group in the Fanjingshan region of Guizhou province, China (Figure 1a). The Fanjingshan region lies with-
+in the Jiangnan orogenic belt that separates the Yangtze and Cathaysia blocks of the South China craton
+and is characterized by a regional anticline that developed in the Mesozoic (Figure 1b; J. Li et al., 2016; H.
+Ma et al., 2019). At the core of the anticline is the Fanjingshan Group, dominantly composed of sandstones
+intruded by intermediate to ultramafic sills (Figure 1b; W. Wang et al., 2014). These sills are interpreted to
+have formed in a subduction-related environment just prior to amalgamation of the Yangtze and Cathaysia
+blocks (W. Wang et al., 2014).
+Both the sedimentary rocks and the intrusive sills of the Fanjingshan Group are folded and are separated
+from the overlying Xiajiang Group by an angular unconformity (Figure 1b). Tuffs of the Fanjingshan
+Group in the Fanjingshan region have yielded U–Pb laser ablation inductively coupled plasma mass spec-
+trometry (LA-ICP-MS) zircon dates of 851.3 ± 4.0, 840 ± 5, and 832.0 ± 8.5 Ma (Gao et al., 2014; M.
+Wang et al., 2012). U–Pb LA-ICP-MS zircon dates for the mafic sills are 831 ± 4 and 827 ± 15 Ma (Zhao
+et al., 2011), and U–Pb LA-ICP-MS detrital zircon dates within the sediments are as young as 849 ± 6.5 Ma
+(Zhao et al., 2011). These dates constrain the exposure, folding, and erosion of the Fanjingshan Group
+to have been after ca. 830 Ma. A cobble to boulder conglomerate is often the lowest unit of the Xiajiang
+Group, before the sedimentary rocks transition into hundreds of meters of red, purple, green, and gray-
+blue graded beds of siltstone and fine-grained sandstone interbedded with volcanic ashes (Figure 2). The
+fine-grained sandstone-siltstone interbeds locally exhibit ripple cross-stratification, which are interpreted
+PARK ET AL. 3 of 29
+21699356,
+2021,
+6,
+Downloaded
+from
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JB021541
+by
+Readcube-Labtiva,
+Wiley
+Online
+Library
+on
+[05/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+### page_4
+Journal of Geophysical Research: Solid Earth 10.1029/2020JB021541
+Figure 1. (a) Summary geologic map of South China, adapted from Cawood et al. (2017), showing the Fanjingshan region from where the Xiajiang Group
+pole is developed in this study, as well as the localities where other Neoproterozoic poles are developed (Table 3). (b) Geologic map of the Fanjingshan region.
+The distribution of volcanic units within the Fanjingshan Group and the contact between the Fanjingshan and Xiajiang Groups were adapted from M. Wang
+et al. (2016). Both the sedimentary and volcanic units of the Fanjingshan Group were folded, uplifted, and eroded prior to Xiajiang Group deposition. The
+contact between the Xiajiang Group and the overlying Cryogenian units was adapted from Zhao et al. (2011). Unit boundaries were adjusted to be consistent
+with our geologic data where available. Red lines show the location of the measured stratigraphic sections in Figure 2. Note that the Luoman section consists of
+seven individually measured sections that were correlated to each other based on local bedding and elevation measurements.
+to have formed as Bouma-C beds associated with distal turbidity currents. The presence of 1–5 cm vol-
+canic ashes throughout the stratigraphy without lithic fragments indicates the presence of ∼a nearby, but
+not immediately adjacent, volcanic arc. Existing U-Pb LA-ICP-MS zircon dates for tuffs of the Xiajiang
+Group in the Fanjingshan region of 814.0 ± 6.3 and 813.5 ± 9.6 Ma (Gao et al., 2014, 2010) suggest that
+deposition of Xiajiang Group began by ca. 815 Ma. Unconformably overlying the Xiajiang Group in the
+Fanjingshan region are glacial deposits correlated with the Cryogenian Sturtian “Snowball Earth” glaci-
+ation (referred to locally as the Tiesi’ao Formation; Xiong et al., 2014). Geochronologic constraints from
+South China, Laurentia, Oman, and the Arabian-Nubian Shield indicate that onset of the Sturtian glaci-
+ation was rapid and globally synchronous within the available precision of the geochronology (Bowring
+et al., 2007; Lan et al., 2020; Macdonald et al., 2010; MacLennan et al., 2018). These constraints on the
+Sturtian glaciation constrain Xiajiang Group deposition to have ended prior to ca. 717 Ma. During our
+fieldwork, no continuous individual section was identified that captures both the Fanjingshan-Xiajiang
+Group contact and the contact between the Xiajiang Group and the Sturtian glacial deposits (Figure 2).
+However, correlation of our individually measured sections based on aligning the bounding unconform-
+ities of the Xiajiang Group and the geochronologic results suggests that the Xiajiang Group is 3,000-m
+thick in this region (Figure 2). ∼
+We note that the nomenclature of pre-Sturtian Neoproterozoic strata in South China varies in the litera-
+ture. In some publications, the term the “Banxi Group” is used to refer to any ca. 815–717 Ma sediments
+in South China, including those in our study area (e.g., J. Zhang et al., 2019; Zhao et al., 2011). In other
+publications, the term the “Banxi Group” is used to refer exclusively to ca. 815–717 Ma sediments in the
+Hunan province, and equivalent strata in our study area in the Guizhou province are referred to as the
+“Xiajiang Group” (e.g., Bureau of Geology and Mineral Resources of Guizhou Province, 1984; Geng, 2015;
+L. Li et al., 2016; M. Wang et al., 2016; W. Wang et al., 2014; Xiong et al., 2014; Yan et al., 2019). Further to
+PARK ET AL. 4 of 29
+21699356,
+2021,
+6,
+Downloaded
+from
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JB021541
+by
+Readcube-Labtiva,
+Wiley
+Online
+Library
+on
+[05/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+### page_5
+Journal of Geophysical Research: Solid Earth 10.1029/2020JB021541
+Figure 2. Stratigraphic sections measured in the Fanjingshan region. Locations of measured sections are shown in Figure 1. The colors are associated with the
+color of the sedimentary rocks. U-Pb CA-ID-TIMS dates from the Xiajiang Group are from this study and are shown at the stratigraphic levels where the tuffs
+were collected. The dates from the Fanjingshan Group are not from the section shown but are from other studies of the rocks elsewhere in the region.
+PARK ET AL. 5 of 29
+21699356,
+2021,
+6,
+Downloaded
+from
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JB021541
+by
+Readcube-Labtiva,
+Wiley
+Online
+Library
+on
+[05/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+### page_6
+Journal of Geophysical Research: Solid Earth 10.1029/2020JB021541
+the southeast, sedimentary rocks interpreted to correlate with the Banxi and Xiajiang Groups are referred
+to as the “Danzhou Group” (Yan et al., 2019). There are similar regional nomenclature differences for
+the older Fanjingshan Group, which is referred to as the “Fanjingshan Group” in our study area and is
+correlated with units known as the “Lengjiaxi Group” and the “Sibao Group” elsewhere, and the younger
+Tiesi’ao Formation, which is referred to as the “Tiesi’ao Formation” in our study area and is correlated
+with units known as the “Chang’an Formation” elsewhere. In this study, we follow the nomenclature most
+widely used for the Guizhou province, using the term Fanjingshan Group, and referring to the sediments
+unconformably bounded by the Fanjingshan Group and Sturtian glacial deposits in the Fanjingshan re-
+gion as the Xiajiang Group.
+3. Methods
+3.1. Paleomagnetism
+Where exposure of the stratigraphy was good, sections were measured using a Jacob's staff. In cases where
+vegetation obscured the stratigraphy for hundreds of meters, the thickness of covered stratigraphy was esti-
+mated based on GPS measurements and local bedding orientations, leading to the covered intervals shown
+in Figure 2.
+Cores from the studied sedimentary rocks were collected using a gas-powered drill and a Pomeroy orienting
+device. Sun compass data were used for sample orientations when possible, and magnetic compass orienta-
+tions were used when necessitated by cloud cover. Sample collection was organized into “sites”, where each
+site consists of a set of samples that were obtained from within a few meters of stratigraphy. This grouping
+provides a useful organizational framework although it does not correspond to the definition of a site within
+the framework of the MagIC database wherein every sample in a site should be expected to record a direc-
+tion from the same moment in time. In most cases, cores were collected from the least foliated purple/red
+siltstone of the Xiajiang Group, but when no such lithologies were present, green/gray-blue siltstones were
+also collected.
+Thermal demagnetization and magnetic remanence measurements were conducted at UC Berkeley and the
+China University of Geosciences, Beijing. At the UC Berkeley Paleomagnetism Laboratory, measurements
+were made using a 2G Enterprises DC-SQUID superconducting rock magnetometer with an automated
+pick-and-place sample changer system (Kirschvink et al., 2008). Samples are brought into the measurement
+region with a quartz glass sample rod and is typically measured at 5 × 10−12 A m2. The magnetostatic
+shield that houses the magnetometer has magnetic fields <500 nT. S∼amples were progressively step heat-
+ed and thermally demagnetized in an ASC thermal specimen demagnetizer (residual fields <10 nT) after
+measurement of the natural remanent magnetization (NRM).
+At the China University of Geosciences, Beijing, paleomagnetic analyses were conducted at the Laboratory
+of Paleomagnetism and Environmental Magnetism in a magnetically shielded room with a residual field
+of <300 nT. Magnetic remanence was measured using a 2G 755-4 K three-axis cryogenic magnetometer,
+and stepwise thermal demagnetizations were carried out with an ASC TD-48 or MMTDSC furnace, both of
+which have an internal residual field of <10 nT.
+All paleomagnetic data to the measurements level, as well as interpreted fits made using the PmagPy soft-
+ware package (Tauxe et al., 2016), are available in the MagIC database (https://www.earthref.org/MagIC/
+doi/10.1029/2020JB021541).
+3.2. Geochronology
+Tuffs collected for U-Pb geochronology typically appear as 1–5 cm horizons within the Xiajiang Group
+of the Fanjingshan region. Their tan/white color is distingu∼ishable from the purple/red/green/gray-blue
+of the adjacent siltstone and fine sandstone. In some cases, the exposed surface of the tuffs has weathered
+into a clay-rich unlithified mud, likely due to the weathering of the volcanic ash to clays (e.g., bentonite).
+In these cases, the mud was removed before sampling of the lithified tuff. All samples were scrubbed with
+steel brushes to remove any recent detritus prior to further analysis.
+PARK ET AL. 6 of 29
+21699356,
+2021,
+6,
+Downloaded
+from
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JB021541
+by
+Readcube-Labtiva,
+Wiley
+Online
+Library
+on
+[05/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+### page_7
+Journal of Geophysical Research: Solid Earth 10.1029/2020JB021541
+Standard mineral separation techniques were used to separate zircon grains from bulk rock samples. U-Pb
+zircon geochronology methods used in this study follow the protocols and data reduction methods of Mey-
+ers et al. (2012). Zircon grains were first subjected to chemical abrasion in order to minimize the effects
+of Pb loss through the removal of zones with radiation damage (Mattinson, 2005). The overall accuracy
+of the 238U/206Pb dates is associated with the gravimetric calibration of the EARTHTIME U-Pb tracer used
+during the analysis as well as uncertainty associated with the 238U decay constant (Condon et al., 2015;
+Jaffey et al., 1971). Unless stated otherwise, uncertainties on U-Pb dates reported in this manuscript are
+the internal (analytical) uncertainties in the absence of external or systematic errors, with these additional
+uncertainties reported in Table 2.
+4. Results
+4.1. Paleomagnetism
+Thermal demagnetization data from siltstones of the Xiajiang Group in the Fanjingshan region show varia-
+ble behavior from site to site. A component removed during initial thermal demagnetization steps (<300°C)
+is present in most samples and typically yields a direction that is consistent with a present local field over-
+print acquired via viscous remanent magnetization (Figure 3). Samples within 29 of the 44 sites yield either
+unstable or inconsistent behavior at temperatures >300°C. However, the remaining 15 sites yield stable and
+consistent behavior at high temperatures. This high-temperature component is well fit by least squares lines
+that intersect the origin on a Zijderveld plot between 650°C and 690°C (Figure 3). These high unblocking
+temperatures are close to the Néel temperature of >5∼00 nm hema∼tite and are therefore consistent with the
+high-temperature component being dominantly held by primary detrital hematite rather than finer-grained
+authigenic pigmentary hematite (Dunlop & Özdemir, 2001; Jiang et al., 2015; Swanson-Hysell et al., 2019).
+Two polarities are recorded by the high-temperature component. Of the 15 successful sites, 4 sites yield
+normal polarity (positive inclination) directions, while the other 11 sites yield reversed polarity (negative
+inclination) directions (Figures 2 and 4; Table 1). We interpret positive inclinations to correspond to nor-
+mal geomagnetic polarity, although we recognize that a correlation of positive inclination to reversed geo-
+magnetic polarity could be permissible in alternative paleogeographic reconstructions. When all sites are
+converted into a single polarity, the null hypothesis that the specimen mean directions of the normal and
+reversed polarity sites were drawn from distributions that share a common mean direction cannot be re-
+jected at the 95% confidence level (in the Watson V test, V = 4.9 and V = 7.4). Since V < V , the two
+crit crit
+polarities recorded by the high-temperature component pass a reversal test after tilt corrections are applied
+to the high-temperature component site mean directions.
+A bootstrap fold test (Tauxe & Watson, 1994) finds that the tightest grouping of site mean directions is
+obtained between 68% and 103% unfolding at the 95% confidence level (Figure S1). Since this range of
+unfolding encompasses 100%, the high-temperature component passes a fold test, thereby constraining the
+high-temperature component to have been acquired prior to Mesozoic folding of the Xiajiang Group (J. Li
+et al., 2016; H. Ma et al., 2019).
+Anisotropy of magnetic susceptibility (AMS) experiments indicate that rocks of the Xiajiang Group have
+a composite fabric with contributions from an original sedimentary fabric and a weakly developed defor-
+mation fabric (Figure S2; Parés et al., 1999). This fabric is manifest in a grouping of K axes normal to the min
+deposition plane and a grouping of K axes as is very typical where fine-grained siliciclastic rocks have max
+experienced any tectonic strain leading to alignment of phyllosilicates (Type II fabric of Parés, 2015). This
+weak deformation fabric is consistent with the regional fabric of South China with remanence components
+in other Tonian/Cryogenian rocks in Guizhou and the surrounding regions having been shown to vary in-
+dependently of the regional fabric (e.g., S. Zhang et al., 2013). Additionally, there is no observed correlation
+between the remanence components of the Xiajiang Group samples and the AMS principle axes. Together,
+these observations suggest that the high-temperature component of the Xiajiang Group is minimally affect-
+ed by the weak deformation fabric.
+PARK ET AL. 7 of 29
+21699356,
+2021,
+6,
+Downloaded
+from
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JB021541
+by
+Readcube-Labtiva,
+Wiley
+Online
+Library
+on
+[05/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+### page_8
+Journal of Geophysical Research: Solid Earth 10.1029/2020JB021541
+Figure 3. Thermal demagnetization results. Specimens TR004-Q, TR020-B, and TR024-A exhibit magnetic behavior typical of specimens that yield a stable
+and consistent high-temperature component. Specimen TR004-Q exhibits magnetic behavior typical of specimens that do not yield a stable high-temperature
+component. In the Zijderveld plots, the specimen magnetizations at a given thermal demagnetization step (gray numbers) are shown (NRM = natural remanent
+magnetization). Fits to the low and high-temperature components are shown in green and purple respectively. Note that the Zijderveld plots and the upper
+equal area plots are in geographic coordinates, whereas the lower equal area plot is in tilt-corrected coordinates.
+Based on the high unblocking temperatures characteristic of detrital hematite, the positive reversal test,
+and the positive fold test, we interpret the high-temperature component (Figure 4) as being primary and
+acquired at the time of deposition.
+Deposition and burial compaction can result in detrital hematite magnetization being shallower in incli-
+nation than the local magnetic field direction at the time of deposition (Bilardello, 2016; Tauxe, 2005). The
+degree to which the inclination (I) has been shallowed can be expressed by the flattening factor (f) in the
+equation tan(I ) = f tan(I ), where f = 1 indicates no inclination shallowing and f = 0 indicates a
+observed original
+completely flattened direction (King, 1955). Although the flattening factor in any given sedimentary unit
+depends on a variety of factors such as the composition of the sediment, values of f obtained from empirical
+PARK ET AL. 8 of 29
+21699356,
+2021,
+6,
+Downloaded
+from
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JB021541
+by
+Readcube-Labtiva,
+Wiley
+Online
+Library
+on
+[05/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+### page_9
+Journal of Geophysical Research: Solid Earth 10.1029/2020JB021541
+Table 1
+Paleomagnetic Results for Individual Sites With Stable and Consistent High-Temperature Components in the Xiajiang
+Group of the Fanjingshan Region
+Site Section Lab Site lat. Site lon. n dec1.0 inc1.0 dec0.6 inc0.6 α 95 k Polarity
+TR007 Hongzixi Beijing 27.991 108.797 13 14.1 64.4 14.1 73.9 8.9 22.8 N
+TR014 Hongzixi Berkeley 28.014 108.805 12 150.2 −66.8 330.2 75.6 12.1 14.0 R
+TR018 Kuaichang Berkeley 27.867 108.820 14 208.3 −64.0 28.3 73.7 14.2 9.0 R
+TR020 Kuaichang Berkeley 27.866 108.821 10 111.6 −76.9 291.6 82.1 11.2 20.0 R
+TR021 Kuaichang Beijing 27.864 108.822 9 208.0 −71.5 28.0 78.6 17.0 10.1 R
+TR024 Kuaichang Berkeley 27.872 108.811 9 124.9 −63.5 304.9 73.3 18.2 9.0 R
+TR026 Kuaichang Berkeley 27.872 108.811 9 150.3 −85.7 330.3 87.4 16.0 11.0 R
+TR004a Mamagou Berkeley 27.835 108.797 10 334.8 71.4 334.8 78.6 8.2 35.3 N
+TR004b Mamagou Berkeley 27.835 108.797 5 106.4 −75.9 286.4 81.4 12.6 37.9 R
+TR031 Luoman Beijing 27.938 108.831 8 337.6 65.2 337.6 74.5 14.5 15.5 N
+TR034 Luoman Beijing 27.939 108.831 11 291.6 −75.9 111.6 81.5 13.0 13.4 R
+TR035 Luoman Berkeley 27.954 108.821 19 42.4 68.4 42.4 76.6 14.9 6.0 N
+TR037 Luoman Beijing 27.946 108.829 17 202.1 −86.3 22.1 87.8 17.2 5.3 R
+TR039 Luoman Beijing 27.946 108.829 9 136.8 −78.1 316.8 82.8 21.2 6.8 R
+TR042 Luoman Berkeley 27.943 108.839 14 131.5 −71.9 311.5 78.9 11.5 13.0 R
+Note. (1) All directions are for the high-temperature component. (2) dec1.0 and inc1.0 refer to the declination and
+inclination of the mean tilt-corrected direction, without correcting for polarity or inclination shallowing. (3) dec0.6
+and inc0.6 refer to the declination and inclination of the mean tilt-corrected direction, after correcting for polarity and
+inclination shallowing using a flattening factor of 0.6. (4) For the polarity, we interpret the mean directions with a
+positive inclination as normal polarity (N), and the mean directions with a negative inclination as reverse polarity (R).
+studies of detrital hematite-bearing rocks can be reasonably well explained by a normal distribution about a
+mean of 0.6 (Bilardello, 2016; Tauxe & Kent, 1984). We therefore apply this empirically derived inclination
+correctio∼n (f = 0.6) to the specimen means obtained from individual sites (Figure 4) and interpret the result-
+ing direction as approximating the direction of the geomagnetic field at the time of deposition. Directions
+and poles calculated with and without this inclination correction are shown in Figures 4 and 7.
+4.2. Geochronology
+U-Pb zircon secondary ion mass spectrometry (SIMS) and LA-ICP-MS analyses can be conducted relatively
+rapidly and are often utilized to determine the age of tuff samples. However, U-Pb determinations using
+SIMS are significantly less precise than those developed with CA-ID-TIMS and are subject to an U-Pb cali-
+bration correction that contributes additional uncertainty. This single data point imprecision makes it dif-
+ficult to recognize real age variation within a sampled population (due to either analyses of domains with
+Pb loss and/or older zircon). As a result, isotope ratios measured using SIMS can be affected by Pb loss that
+cannot be identified at the precision of SIMS, which can bias SIMS-derived weighted mean dates toward
+younger ages. Conversely, deriving a weighted mean from a nonsingle age population (with variation not
+resolvable by the single data point analyses) can bias the interpreted age toward being too old. An addi-
+tional issue in the interpretation of microbeam U-Pb geochronology is that there are dates in the literature
+where the youngest dates are deconvolved from a larger age population to derive a weighted mean that
+approximates the ages of eruption. Calculating a weighted mean from the “young tail” for a distribution of
+imprecise dates could result in a date that is too young either due to Pb loss in these grains or simply through
+arbitrary grouping of the youngest dates in a low precision normal distribution of dates. Such a bias could
+explain calculated SIMS dates from pre-Sturtian strata that are younger than ca. 717 Ma in South China
+(e.g., Lan et al., 2015) and in practice requires other independent information to defend the interpretation.
+In addition to the issues surrounding age interpretations, microbeam U-Pb dates require consideration of
+the U/Pb calibration uncertainty that is typically 1%–2% and is a limiting uncertainty.
+PARK ET AL. 9 of 29
+21699356,
+2021,
+6,
+Downloaded
+from
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JB021541
+by
+Readcube-Labtiva,
+Wiley
+Online
+Library
+on
+[05/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+### page_10
+Journal of Geophysical Research: Solid Earth 10.1029/2020JB021541
+Figure 4. Paleomagnetic results for sites that yielded specimens with stable and consistent high-temperature components in the Xiajiang Group of the
+Fanjingshan region (Table 1). For the low temperature component, each point represents an individual specimen. For the high-temperature component, each
+point and associated uncertainty ellipse represents the specimen mean for individual sites. The reported site means are the means of these specimen means.
+The chemical abrasion step of the CA-ID-TIMS method has been developed to effectively remove (i.e.,
+leach) the analyses of radiation-damaged zones of zircon grains, which are most likely to suffer Pb loss,
+prior to analysis (Mattinson, 2005). This technique is not perfect—depending on the nature of the material
+being analyzed (U content, zonation patterns), for some samples a proportion of analyses suffering Pb loss
+may still persist. The higher precision of the CA-ID-TIMS single data points often reveals age complexity
+with excess variance ascribed to geological age variation and residual Pb loss.
+Evaluating a hypothesis such as the Bitter Springs Stage TPW hypothesis requires precise age constraints on
+poles. The SIMS dates prevalent in the literature could have true age uncertainty well beyond the weighted
+mean uncertainty, particularly if the assumptions made are incorrect (i.e., a single age population, no Pb
+loss). As a result, it is essential to develop CA-ID-TIMS dates in order to have high-precision age constraints
+on paleomagnetic poles.
+We developed U-Pb CA-ID-TIMS ages from zircon for six tuff samples collected from the Xiajiang Group
+in the Fanjingshan region (Figures 2 and 5; Table 2). For each of these ash layers, we make a subjective age
+interpretation based on the U-Pb zircon data combined with information about the general nature of the
+materials. Five tuffs from the lower and middle Xiajiang Group yield dates ca. 816–810 Ma, and one tuff
+from near the top of the Xiajiang Group in the Hongzixi section yields a younger date of ca. 805 Ma. Within
+100 m of this youngest tuff, a major unconformity separates ca. 805 Ma sediments of the Xiajiang Group
+∼with <717 Ma Sturtian Snowball Earth glacial deposits (Bowring et al., 2007; Lan et al., 2020; Macdonald
+et al., 2010; MacLennan et al., 2018).
+Prior to this study, age constraints on Tonian paleomagnetic poles from the Madiyi and Liantuo Formations
+were based on U-Pb SIMS analyses. In order to improve the precision of these age constraints, as well as evalu-
+ate whether they might be biased toward younger ages, we developed new age constraints for these poles using
+U-Pb CA-ID-TIMS. These new CA-ID-TIMS age constraints supersede the previous SIMS age constraints.
+PARK ET AL. 10 of 29
+21699356,
+2021,
+6,
+Downloaded
+from
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JB021541
+by
+Readcube-Labtiva,
+Wiley
+Online
+Library
+on
+[05/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+### page_11
+Journal of Geophysical Research: Solid Earth 10.1029/2020JB021541
+Table 2
+Summary of CA-ID-TIMS 206Pb/238U Dates From Tuffs Developed in This Study
+Error (2σ)
+Latitude Longitude Stratigraphic 206Pb/238U
+Sample (°N) (°E) Section height (m) date (Ma) X Y Z MSWD n N
+Xiajiang group of the Fanjingshan region (Guizhou province)
+H2-470 27.99396 108.79792 Hongzixi 1,586.2 815.73 0.18 0.28 0.92 1.6 6 16
+L1-27 27.93856 108.83107 Luoman 1,752.3 814.19 0.21 0.31 0.92 1.7 5 9
+L4-2 27.94335 108.83931 Luoman 1,815.5 813.06 0.35 0.48 1.0 1.8 3 4
+H3-60 28.01002 108.80240 Hongzixi 2,622.4 809.52 0.50 0.62 1.1 1.9 6 10
+QR-74 27.86578 108.82076 Kuaichang 2,850.3 811.47 0.67 0.77 1.2 1.9 3 6
+H3-8 28.02468 108.81506 Hongzixi 3,389.3 804.56 0.39 0.52 1.0 0.6 3 4
+Madiyi formation in the Zhijiang region (Hunan province)
+ZJ-B 27.5 109.6 – – 804.90 0.36 0.49 0.99 0.9 5 6
+Liantuo formation in the three Gorges region (Hubei province)
+FDM14-1 30.8527 111.1512 – – 779.52 0.26 0.38 0.92 2.0 8 16
+Note. (1) Stratigraphic height is the estimated composite stratigraphic height derived from correlation of individually
+measured sections based on aligning the bounding unconformities of the Xiajiang Group and the geochronologic
+results. (2) For the errors, X is the internal (analytical) uncertainty in the absence of external or systematic errors, Y is
+the uncertainty incorporating the U-Pb tracer calibration error, and Z is the uncertainty including X and Y, as well as
+238U decay constant uncertainty (0.108%; Jaffey et al., 1971). This Z error needs to be utilized when comparing to dates
+developed using other decay systems (e.g., 40Ar/39Ar, 187Re–187Os). (3) MSWD is the mean square of weighted deviates.
+(4) n is the number of individual zircon dates included in the calculated weighted sample mean date. (5) N is the total
+number of individual zircons analzed. (6) Data for individual zircons are provided in the supporting information.
+The tuff associated with the paleomagnetic pole for the Madiyi Formation in the Hunan province (sample
+ZJ-B of Xian et al., 2020) is within the 12-m-thick succession of the Madiyi Formation from which the
+paleomagnetic data were developed. A U-Pb zircon SIMS date of 801.9 ± 6.3 Ma was reported for the tuff in
+Xian et al. (2020). The new CA-ID-TIMS data from five zircons result in a weighted mean 206Pb/238U date of
+804.90 ± 0.36 Ma (Figure 5 and Table 2). This date overlaps with the SIMS date of Xian et al. (2020) within
+uncertainty and constrains the age of the Madiyi Formation pole to higher precision.
+The tuff associated with the paleomagnetic pole for the Liantuo Formation (Evans et al., 2000; X.-Q. Jing
+et al., 2015) lies 15 m below the base of the stratigraphic interval which was sampled for paleomagnetic
+analysis in Evans∼ et al. (2000) (the upper Liantuo Formation), is approximately stratigraphically equivalent
+to the stratigraphic interval which was sampled for paleomagnetic analysis in X. Jing et al. (2021) (the
+lower Liantuo Formation), and is in the vicinity of a tuff that was previously dated at 748 ± 12 Ma using
+SIMS (Figure S6; G. Ma et al., 1984). The new CA-ID-TIMS data from eight zircons result in a weighted
+mean 206Pb/238U date of 779.52 ± 0.26 Ma— 20 Myr older than the maximum reported uncertainty of the
+SIMS-derived date (Figure 5 and Table 2). ∼
+5. Discussion
+5.1. Tectonic Setting
+The South China craton consists of two distinct tectonic blocks, the Yangtze and Cathaysia blocks, sep-
+arated by the Jiangnan Orogen (Figure 1). However, the depositional setting of sedimentary units in the
+Jiangnan Orogen as well as the tectonic context of the intrusive units and deformation found throughout
+the orogen continues to be debated in the literature. A widely adopted model proposed that the Fanjingshan
+Group (and equivalent strata) was deposited in a Grenvillian-age (ca. 1.3–0.9 Ga) arc-related basin on the
+Yangtze block as the oceanic crust formerly separating the Yangtze and Cathaysia blocks subducted under
+the Yangtze block (e.g., X.-H. Li et al., 2009; Z.-X. Li et al., 2002). In this model, deformation of the Fan-
+jingshan Group was interpreted to reflect collision of the Yangtze and Cathaysia blocks as the superconti-
+nent Rodinia came together around South China ca. 1.0–0.9 Ga, with Laurentia on the Cathaysia-side of
+PARK ET AL. 11 of 29
+21699356,
+2021,
+6,
+Downloaded
+from
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JB021541
+by
+Readcube-Labtiva,
+Wiley
+Online
+Library
+on
+[05/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+### page_12
+Journal of Geophysical Research: Solid Earth 10.1029/2020JB021541
+Figure 5. 2σ uncertainty of CA-ID-TIMS U-Pb dates for zircons analyzed in this study. The previously reported SIMS dates for sample ZJ-B of the Madiyi
+Formation (Xian et al., 2020) and sample YC01 of the Liantuo Formation (Lan et al., 2015) are also shown. For sample YC01, we show the weighted mean dates
+that result from isolating the two youngest zircons (as is preferred in Lan et al., 2015) and from including all of the zircons. Solid vertical bars indicate zircons
+that are included in the calculation of the weighted mean date. Faded vertical bars indicate zircons interpreted to have been inherited or affected by Pb or U loss
+and are excluded in the calculation of the weighted mean date. Measurement data and concordia diagrams are shown in the supporting information.
+South China and Australia on the Yangtze-side (i.e., the Missing Link model, as shown in Figure 6; Z.-X. Li
+et al., 1995). The model then proposes that later Tonian (ca. 850–750 Ma) magmatism in the Jiangnan Oro-
+gen is associated with a mantle superplume that initiated the breakup of Rodinia (e.g., X.-H. Li et al., 2009;
+Z. Li et al., 2003). In this scenario, the Xiajiang Group (and equivalent strata) is interpreted to have been
+deposited within a failed intracontinental rift basin between the Yangtze and Cathaysia blocks as Australia,
+South China, and Laurentia rifted apart. Geochronologic and geochemical data initially appeared to support
+this Missing Link model (e.g., X.-H. Li et al., 2009; Z. Li et al., 2003; Z.-X. Li et al., 2002), and consequently
+many Neoproterozoic paleogeographic models adopted it (e.g., Z. X. Li et al., 2008).
+However, subsequent geochronologic, geochemical, and paleomagnetic data introduce new constraints that
+are difficult to reconcile with this model. The timing of Yangtze and Cathaysia block collision represented
+by the Jiangnan Orogen can no longer be considered to be coeval with the ca. 1,080–980 Ma Grenvillian
+Orogen. U-Pb LA-ICP-MS geochronologic constraints from the tuffs, sedimentary rocks, and sills of the
+Fanjingshan Group (Gao et al., 2014; M. Wang et al., 2012; Zhao et al., 2011) indicate that deformation
+of the group occurred after ca. 830 Ma. Our new U-Pb CA-ID-TIMS results constrain initiation of Xia-
+jiang Group deposition, and therefore termination of Fanjingshan Group deformation, to have occurred
+by 815.73 ± 0.18 Ma (Figure 2). The interpretation that the Jiangnan Orogeny, and the associated deforma-
+tion of the Fanjingshan Group, was the result of collision between the Yangtze and Cathaysia blocks gains
+support from the geochemistry and geochronology of the igneous rocks of the Jiangnan Orogen that are
+indicative of a suprasubduction, volcanic arc setting (Cawood et al., 2013, 2017).
+PARK ET AL. 12 of 29
+21699356,
+2021,
+6,
+Downloaded
+from
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JB021541
+by
+Readcube-Labtiva,
+Wiley
+Online
+Library
+on
+[05/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+### page_13
+Journal of Geophysical Research: Solid Earth 10.1029/2020JB021541
+Figure 6. Paleogeographic reconstructions for Rodinia at 755 Ma. The Missing Link model places South China at low latitudes between Australia and
+Laurentia, which is inconsistent with both the paleomagnetic data as well as the tectonic context of South China. The Periphery model instead places South
+China at high latitudes connected to India, which satisfies the ca. 755 and 780 Ma paleomagnetic data and allows for an active margin along the Panxi-Hannan
+Belt at this time. In order to satisfy ca. 821–805 Ma paleomagnetic data from South China, anticlockwise rotation of the entire Rodinia supercontinent from
+ca. 821–805 to ca. 780 Ma is required in this Periphery model. The Separate model disconnects South China–India–Rayner from Rodinia. The Euler rotation
+parameters for South China relative to India in the Periphery and Separate models are (6.72°N, 77.69°E, 67.96°). Blocks that are not directly relevant to the
+relationship between South China and Rodinia are shown in gray.
+The Fanjingshan Group is dominated by siliciclastic sediments and also contains horizons of volcanic
+rocks including pillow basalts (Zhou et al., 2009). These units were intruded by ca. 830 Ma mafic sills with
+geochemical signatures consistent with subduction-related magmatism (W. Wang et al., 2014) as well as
+835 ± 5 Ma (U-Pb SIMS) felsic intrusive rocks (Figure 1b; Gao et al., 2011). Both fore-arc (Zhao et al., 2011)
+and retro/back-arc (Lin et al., 2016; Yao et al., 2019) settings have been interpreted for the Fanjingshan
+Group deposition. However, fore-arc settings are typically cold and amagmatic, and consequently we prefer
+a syn-collisional retro-arc foreland model with ultramafic magmatism associated with slab-breakoff. In ei-
+ther model, the Fanjingshan Group was deposited and intruded in an arc-related basin as the oceanic crust
+formerly separating the Yangtze and Cathaysia blocks subducted under the Yangtze block (Lin et al., 2016).
+As Yangtze and Cathaysia (or at least a portion of Cathaysia) collided between ca. 830 and 815.73 ± 0.18 Ma,
+sedimentary rocks of the Fanjingshan Group were folded, uplifted, and eroded. Following this deformation
+and the development of an erosional unconformity, subsidence enabled deposition of the overlying Xia-
+jiang Group. Taken together, these data constrain the collision of the Yangtze and Cathaysia blocks to have
+occurred between ca. 830 and 815.73 ± 0.18 Ma, not ca. 1,000–900 Ma as is proposed in the Missing Link
+model implemented in Z. X. Li et al. (2008).
+In addition to this evidence of Tonian convergence between the Yangtze and Cathaysia blocks, the record
+of the northwest Yangtze block indicates a convergent tectonic setting in the Tonian that extended into the
+Cryogenian. Geochronologic and geochemical constraints from the Panxi-Hannan Belt (Figure 1) indicate
+that arc-related magmatism was occurring in that belt ca. 870–706 Ma (Dong et al., 2012), and therefore
+that the northwestern margin of the Yangtze block was an active margin throughout the time that Rodin-
+ia is hypothesized to have been a coherent supercontinent. This arc-related magmatic activity associated
+with subduction along the northwestern margin of the Yangtze block is the likely source for the ashes that
+formed the tuffs within the Xiajiang Group that we have targeted for geochronology (Figure 2).
+Finally, paleomagnetic constraints indicate that South China was at high latitudes throughout the late To-
+nian (discussed further in Tonian APWP of South China) rather than at low latitudes as would be required
+by the Missing Link model (discussed further in South China and Rodinia; Figure 6). Additionally, the
+paleomagnetic data suggest that the Panxi-Hannan Belt lay from the east to the north relative to the Fan-
+jingshan region in reconstructed coordinates during the time of Xiajiang Group deposition (ca. 815–800 Ma;
+Figure 7). At these high latitudes, the prevailing winds are polar easterlies, which is consistent with the idea
+PARK ET AL. 13 of 29
+21699356,
+2021,
+6,
+Downloaded
+from
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JB021541
+by
+Readcube-Labtiva,
+Wiley
+Online
+Library
+on
+[05/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+### page_14
+Journal of Geophysical Research: Solid Earth 10.1029/2020JB021541
+that the ashes that formed the tuffs within the Xiajiang Group were transported from the Panxi-Hannan
+Belt (Hildebrand, 1988).
+Together, these constraints are inconsistent with South China being within the interior of a stable supercon-
+tinent during the Tonian. Instead, they indicate a convergent setting with the northwestern margin of the
+Yangtze block being an active margin into the Cryogenian rather than being juxtaposed against a conjugate
+continent. Therefore, the data are more compatible with South China on the periphery of Rodinia or dis-
+connected from it entirely (Figure 6).
+The tectonic setting of the basin in which the Xiajiang Group (and equivalent strata) was deposited is
+commonly interpreted as a failed intracontinental rift basin (J. Zhang et al., 2019), potentially associated
+with the hypothesized mantle superplume that initiated the breakup of Rodinia (X.-H. Li et al., 2009; Z. Li
+et al., 2003). However, this basin development framework is rooted in a tectonic setting interpretation that
+would have South China within the interior of a supercontinent undergoing breakup—a setting that is
+inconsistent with available constraints. Rather, any basin development model needs to honor the following:
+• There was a geologically short interval (ca. 15 Myr) between the orogenesis that deformed the Fan-
+jingshan Group and the subsidence that enabled deposition of the Xiajiang Group.
+• There was an active margin along the northwestern margin of the Yangtze block at the time of Xia-
+jiang Group subsidence. This margin is the likely source of the tuffs throughout the Xiajiang Group
+stratigraphy.
+• The site of Xiajiang Group deposition must have been folded, uplifted, and eroded prior to subsidence.
+• Subsidence rates were initially quite high as evidenced by the rapid sediment accumulation rates in
+the Xiajiang Group. These high subsidence rates led to the deepwater setting of the Xiajiang Group
+sediments.
+• While some strata could be missing through glacial erosion, the duration of missing time ( 90 Myr)
+in the ca. 805 and 717 Ma pre-Sturtian unconformity suggests limited sediment accumulati∼on in the
+pre-Sturtian interval relative to the thick ca. 815–805 Ma succession.
+The Nanhua Basin, into which the Xiajiang Group was deposited, formed inland from the Panxi-Hannan
+Belt (Cawood et al., 2017). Based on the interpretation that the Panxi-Hannan Belt was an active arc at the
+time of Xiajiang Group deposition, Qi et al. (2019) argued that Nanhua Basin formation was the result of
+back-arc extension. Importantly, the timing of deposition of the Xiajiang Group coincides with the initiation
+of back-arc extension in the Panxi-Hannan arc (Dong et al., 2012). Back-arc extension provides a mecha-
+nism to explain regional extension and subsidence in the region of the Jiangnan suture. Furthermore, given
+that back-arc basin formation is the result of the combined driving mechanisms of surface kinematics and
+dynamic mantle flow (Sdrolias & Müller, 2006), it can lead to both rapid and transient subsidence. Geologic
+observations in more recent backarcs have been interpreted to indicate significant back-arc extension in
+regions where lithosphere has been thickened through orogenesis (Göğüş, 2015). Numerical modeling has
+shown that postorogenic lithosphere removal (such as that occurring as a result of delamination) in conti-
+nental back-arc settings can lead to large-scale subsidence (Göğüş, 2015). This mechanism could explain the
+transition at the site of Xiajiang Group deposition from folding, uplift, and erosion in the Jiangnan Orogen
+as Yangtze collided with Cathaysia between ca. 830 and 815.73 ± 0.18 Ma, to Nanhua Basin subsidence as
+a back-arc basin formed. The Nanhua Basin is therefore, best interpreted as a polyphase basin wherein this
+Tonian subsidence was followed by Cryogenian and Ediacaran subsidence potentially as the result of other
+mechanisms. The tuffs found throughout the Xiajiang Group stratigraphy are the result of the arc on the
+northwestern margin of the Yangtze block that was active throughout deposition, both driving subsidence
+through back-arc extension and contributing ashes via the prevailing polar easterly winds that enable us to
+develop geochronologic constraints.
+5.2. Tonian APWP of South China
+With the exception of the highest ash sample in the Hongzixi section, all dated ash samples from the Xia-
+jiang Group of the Fanjingshan region yield ages of ca. 816–810 Ma (Figure 2). Furthermore, the high-tem-
+perature components in all sites record similar directions (Figure 4). We therefore take the parsimonious
+PARK ET AL. 14 of 29
+21699356,
+2021,
+6,
+Downloaded
+from
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JB021541
+by
+Readcube-Labtiva,
+Wiley
+Online
+Library
+on
+[05/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+### page_15
+Journal of Geophysical Research: Solid Earth 10.1029/2020JB021541
+Table 3
+Neoproterozoic Paleomagnetic Poles for South China
+Nominal age Site Site Pole Pole
+Pole (Ma) Age method lat. lon. lat. lon. A 95 f Pole ref. Age ref. Note
+Yanbian dikes 824 ± 6 SIMS 26.9 101.5 45.1 130.4 19.0 1.0 Niu et al. (2016) Niu et al. (2016) (2)
+Xiaofeng dikes 821.64 ± 0.2 CA-ID-TIMS 31.0 111.2 26.1 82.1 14.6 1.0 X. Jing T. Wang (3)
+et al. (2020) et al. (2016)
+Xiajiang Group 816–810 CA-ID-TIMS 27.9 108.8 42.7 104.0 8.1 0.6 This study This study –
+Madiyi Formation 804.90 ± 0.99 CA-ID-TIMS 27.5 109.6 34.7 82.0 6.7 0.6 Xian et al. (2020) This study (4)
+Chengjiang Formation 799.5 ± 8.4 SIMS 25.1 102.4 29.7 75.3 7.9 0.6 X. Jing X. Jing (5)
+et al. (2020) et al. (2020)
+Lower Liantuo Formation (Member 1) 779.52 ± 0.92 CA-ID-TIMS 30.8 110.9 24.9 136.4 6.6 0.6 X. Jing This study (5)
+∼ et al. (2021)
+Upper Liantuo Formation (Member 2) ≤779.52 ± 0.92 CA-ID-TIMS 30.8 111.1 19.6 144.4 4.2 0.6 X.-Q. Jing This study (5)
+et al. (2015)
+Note. (1) f is the flattening factor, where f = 1 indicates no inclination shallowing and f = 0 indicates a completely flattened direction. (2) Located within mobile
+belt. (3) Pole recalculated after Z. X. Li et al. (2004). (4) Pole converted from specimen to site mean in this study. (5) Inclination correction applied in this study.
+interpretation that variability in the high-temperature component between specimens/sites is largely re-
+cording short time scale secular variation in the magnetic field and therefore develop a single paleomag-
+netic pole from the mean direction of the high-temperature component from all sites (Figure 4). Based on
+the geochronologic constraints (Figure 2), we assign a nominal age to this pole of 813 ± 3 Ma. However, we
+discuss the possibility of multiple poles being recorded in the Xiajiang Group below.
+This new pole can be combined with existing Neoproterozoic paleomagnetic poles for South China (sum-
+marized in Table 3) to develop an apparent polar wander path. There are complications associated with the
+interpretation of some of these poles and their assigned ages and we will discuss each in turn.
+The Yanbian dikes pole (Niu et al., 2016) was obtained from a deformed region on the western-most margin
+of the South China craton that experienced vertical axis rotation during the Cenozoic collision of India with
+Asia (Gao et al., 2017; Zheng et al., 2010; Zhu et al., 2008). The magnitude of this vertical axis rotation was
+estimated to be 5.3 ± 3.0° based on paleomagnetic data from Pliocene sedimentary rocks in the region (Zhu
+et al., 2008), and Niu et al. (2016) applied a 5° vertical axis rotation correction to their Yanbian dikes pole.
+However, the vertical axis rotation correction may be as little as 2.3° or as high as 8.3° at the 95% confidence
+level (Zhu et al., 2008). The Yanbian dikes may also have experienced pre-Pliocene vertical axis rotation.
+Furthermore, no tilt-correction was applied to the majority of the directions obtained from the Yanbian
+dikes, despite observations that the dikes exhibit dips that range from 43° to vertical (Niu et al., 2016). Fi-
+nally, the Yanbian dikes pole is inconsistent with the Xiaofeng dikes pole (Figure 7a) despite the similar
+age of these two poles. Given these complications, we exclude the Yanbian dikes pole as a constraint in our
+preferred Tonian South China APWP (Figure 7c).
+The Xiaofeng dikes pole has had both its direction and age revised since its initial publication in Z. X. Li
+et al. (2004). X. Jing et al. (2020) argued that a subset of the dikes that were used to obtain the Xiaofeng dikes
+pole are located between two faults and have paleomagnetic directions that may have been rotated relative
+to the rest of the dikes. Therefore, to account for the possibility of vertical axis rotation affecting this subset
+of dikes, X. Jing et al. (2020) recalculated the Xiaofeng dikes pole by excluding them. The resulting pole is
+closer to the other ca. 820–800 Ma poles for South China (Figure 7), although further work is needed to sub-
+stantiate whether this difference in pole position is robust, especially since it has been argued that the entire
+central Yangtze region experienced some vertical axis rotation (Shen et al., 1999). In addition, the Xiaofeng
+dikes were originally dated to 802 ± 10 Ma based on U-Pb SIMS analyses on zircon from the dikes (Z. X. Li
+et al., 2004). When zircon from these dikes were reanalyzed at higher precision using CA-ID-TIMS, their age
+was revealed to be significantly older (821.64 ± 0.2 Ma; T. Wang et al., 2016). This revised age constraint for
+the Xiaofeng dikes pole is utilized here (Table 3 and Figure 7).
+PARK ET AL. 15 of 29
+21699356,
+2021,
+6,
+Downloaded
+from
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JB021541
+by
+Readcube-Labtiva,
+Wiley
+Online
+Library
+on
+[05/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+### page_16
+Journal of Geophysical Research: Solid Earth 10.1029/2020JB021541
+Figure 7. Tonian apparent polar wander paths (APWPs) and paleogeographic models for South China. (a) Alternative/problematic paleomagnetic poles. See
+text for details. (b) APWP using the preferred poles, with poles derived from sedimentary rocks shown as site means without an inclination correction. (c)
+APWP using the preferred poles, with poles derived from sedimentary rocks shown as site means with an inclination correction. (f = 0.6). (d) Paleogeographic
+model based on the preferred APWP in (c) South China is reconstructed using the means of the poles. (e) Paleogeographic model based on the preferred APWP
+with South China reconstructed to maximize the difference in position between the pre-, syn-, and post-Bitter Springs Stage (BSS) poles as permitted by the A 95
+uncertainties. (f) Paleogeographic model based on the preferred APWP with South China reconstructed to minimize the difference in position permitted by the
+A 95 uncertainties of all poles.
+The previous age constraint on the Madiyi Formation pole of 801.9 ± 6.3 Ma was also developed using U–Pb
+SIMS measurements on zircon from a tuff within the section where the paleomagnetic data were developed
+(Xian et al., 2020). Our new CA-ID-TIMS date of 804.90 ± 0.36 Ma is within the uncertainty of this SIMS
+date and provides a higher precision age constraint on the age of the pole (Figure 5) which supersedes the
+previous age and is utilized here (Table 3 and Figure 7).
+The paleomagnetic pole for the upper Liantuo Formation (Member 2) has long been an important con-
+straint for the Neoproterozoic paleogeography of South China (Evans et al., 2000). The Liantuo Formation
+unconformably overlies the Huangling granite suite for which U-Pb SIMS dates of 863 ± 9, 844 ± 10, and
+842 ± 10 Ma have been developed (Wei et al., 2012). These granites are intruded by the 821.64 ± 0.2 Ma
+PARK ET AL. 16 of 29
+21699356,
+2021,
+6,
+Downloaded
+from
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JB021541
+by
+Readcube-Labtiva,
+Wiley
+Online
+Library
+on
+[05/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+### page_17
+Journal of Geophysical Research: Solid Earth 10.1029/2020JB021541
+Xiaofeng dikes (T. Wang et al., 2016). The Liantuo Formation is unconformably overlain by Cryogenian gla-
+cial deposits. The age assigned to the Liantuo Formation pole has varied in the literature. When a paleomag-
+netic pole from the formation was first reported in Evans et al. (2000), it was assigned an age of 748 ± 12 Ma
+based on an U–Pb SIMS date on a tuff 15 m below the base of the stratigraphic interval that was sampled
+for paleomagnetic analysis (G. Ma et a∼l., 1984; Figure S6). When this paleomagnetic pole was updated in
+X.-Q. Jing et al. (2015) with the addition of paleomagnetic data from additional sites to the southwest of the
+stratigraphic section sampled in Evans et al. (2000), its age was interpreted to be ca. 720 Ma based on U-Pb
+SIMS dates on tuffs within the upper 20 m of the Liantuo Formation across the Three Gorges Area (Lan
+et al., 2015). A challenge with these U-Pb SIMS dates is that there is a distribution of dated grains around a
+peak of ca. 780–770 Ma that includes sparse younger dates (Figure 5; Lan et al., 2015). In Lan et al. (2015),
+these younger dates are interpreted as the eruptive age of the tuffs, but it is possible that these grains are
+biased young. Ambiguity associated with correlation of the Liantuo Formation with possibly equivalent
+stratigraphy adds further complexity to the interpretation of geochronologic constraints on the Liantuo
+Formation. For example, zircons from a tuffaceous siltstone 25 m below Sturtian glacial deposits in the
+Gongdong Formation of northern Guangxi, which is often in∼terpreted to be a deeper water equivalent to
+the Liantuo Formation (Pi & Jiang, 2016; Wang & Li, 2003), yield a weighted mean CA-ID-IRMS date of
+720.16 ± 1.40 Ma (Lan et al., 2020). If this interpretation that the Gongdong Formation correlates to the Li-
+antuo Formation is correct, it suggests that, at least in some parts of the Nanhua Basin, sediments as young
+as ca. 720 Ma are preserved. On the other hand, if the two formations are not correlative, then the CA-ID-
+IRMS date of 720.16 ± 1.40 Ma (Lan et al., 2020) does not place any geochronologic constraints on the Lian-
+tuo Formation. Finally, an additional pole for the lower Liantuo Formation (Member 1) was reported in X.
+Jing et al. (2021), based on paleomagnetic data from sites to the west of the stratigraphic sections sampled
+in X.-Q. Jing et al. (2015). The lower Liantuo Formation pole lies slightly closer to the other ca. 800 Ma poles
+for South China than the upper Liantuo Formation pole (Figure 7).
+We have developed a new CA-ID-TIMS date of 779.52 ± 0.26 Ma for a tuff in the Liantuo Formation at the
+same location studied by G. Ma et al. (1984). Similar to the updated Xiaofeng dikes geochronology, this
+date is appreciably older than interpretations based on the previous SIMS U-Pb dates. It is possible that
+some or all of the zircons included in the calculation of the weighted mean date may be detrital and not
+representative of the eruptive age of the tuff, but the consistency of the zircon dates (Figure 5) suggests that
+the weighted mean date represents an eruptive age. Stratigraphically, this tuff correlates with the paleomag-
+netic sites in the lower Liantuo Formation sampled in X. Jing et al. (2021) (Figure S6), hence we pair this
+new age constraint with this paleomagnetic pole for the lower Liantuo Formation. However, this tuff also
+provides a high-precision geochronologic constraint for the upper Liantuo Formation. The tuff lies 15 m
+below the stratigraphic interval sampled by Evans et al. (2000), and the similar lithologies througho∼ut this
+interval (fine to medium sandstone interbedded with siltstone; Figure S6) suggest conformable deposition.
+Therefore, the age of the tuff is unlikely to be tens of millions of years older than the sedimentary rocks
+from which the paleomagnetic data for the upper Liantuo Formation were developed. As such, we prefer
+the interpretation that the age of the upper Liantuo Formation and its pole is close to 779.52 ± 0.26 Ma and
+that the Liantuo Formation is not correlative to the ca. 720 Ma Gongdong Formation, although without
+further high-precision geochronologic constraints from higher in the Liantuo Formation stratigraphy the
+possibility remains that the upper Liantuo Formation pole post-dates this date.
+The existing date of 799.5 ± 8.4 Ma for the Chengjiang Formation pole was also developed using SIMS
+(Table 3). As evidenced for the Xiaofeng dikes and the Liantuo Formation, when SIMS-derived ages are
+reinvestigated through CA-ID-TIMS, the result can be a significantly different date. Therefore, the accuracy
+of the SIMS-derived dates for the Chengjiang Formation pole remains uncertain.
+The Xiajiang Group paleomagnetic pole developed in this study is calculated as a site mean (i.e., the mean of
+the means of specimen directions for each site; Figure 4). However, the Madiyi Formation pole is reported
+in Xian et al. (2020) as a specimen mean (i.e., the mean of specimen directions across all sites). While both
+methods can be justified for sedimentary rocks, the specimen mean direction leads to paleomagnetic poles
+with smaller A uncertainty ellipses due to the larger number of directions used to obtain the mean which
+95
+has the potential to underestimate the uncertainty. We recalculate the paleomagnetic poles for the Madiyi
+Formation as a site mean, to be consistent with the methodology used to develop our Xiajiang Group pole
+(Figure 7).
+PARK ET AL. 17 of 29
+21699356,
+2021,
+6,
+Downloaded
+from
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JB021541
+by
+Readcube-Labtiva,
+Wiley
+Online
+Library
+on
+[05/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+### page_18
+Journal of Geophysical Research: Solid Earth 10.1029/2020JB021541
+Figure 8. Paleolatitudes of points in the center of South China and other cratons implied by available paleomagnetic poles shown with age and paleolatitude
+uncertainty (Tables 3 and 4). The light blue “Laurentia (Svalbard poles)” are for the centroid of Laurentia reconstructed using Svalbard poles with Svalbard
+rotated back to Laurentia. Points with a circle in the center indicate paleomagnetic poles that were given an “A” rating by the Nordic Paleomagnetism
+Workshops. The gray bar indicates the timing of the ca. 810–795 Ma Bitter Springs Stage which is hypothesized to have been bracketed by rapid true polar
+wander rotations.
+An inclination correction has been applied to the paleomagnetic pole obtained from the Xiajiang Group in
+this study. Similarly, an inclination correction was applied to the pole obtained from the Madiyi Formation
+(Xian et al., 2020). Given that the poles from the Chengjiang and Liantuo Formations are also derived
+from the hematite-held magnetization of similar siliciclastic sedimentary rocks, we apply the same incli-
+nation correction (f = 0.6) to these poles as that applied to the Xiajiang Group and Madiyi Formation poles
+(Figure 7). Given potential variability in inclination shallowing, the flattening could vary from this value
+which is an additional source of uncertainty.
+The 821.6 ± 0.2 Ma Xiaofeng dikes and the inclination-corrected 804.9 ± 0.4 Ma Madiyi and 799.5 ± 8.4 Ma
+Chengjiang poles all overlap within uncertainty, and the ca. 816–810 Ma Xiajiang Group records a dis-
+tinct, but similar, position as well (Figure 7). Together, these poles constrain South China to have been in
+a roughly stable position at high latitudes ( 60°) ca. 820–800 Ma (Figures 7 and 8). The 779.5 ± 0.3 and
+<779.5 ± 0.3 Ma Liantuo Formation poles a≳lso constrain South China to be at high latitud∼es, although with
+a different orientation to the ca. 820–800 Ma position (Figures 7 and 8). The poles constrain South China to
+be at high latitudes in the latter half of the Tonian, likely drifting across the pole after ca. 805 Ma (Figure 7).
+5.3. South China and Rodinia
+Connections between Siberia (Ernst et al., 2016; Evans et al., 2016), Australia-East Antarctica (Duebendorf-
+er, 2002; Eyster et al., 2019; Goodge & Fanning, 2010; Goodge et al., 2008; Li & Evans, 2011; Swanson-Hysell
+et al., 2012; Veevers & Eittreim, 1988), and the western margin of Laurentia are reasonably well established
+for the late Tonian (Figure 6). Paleomagnetic poles from India ca. 1,070 and 750 Ma permit a connection
+with northwest Australia through the Tonian (Swanson-Hysell et al., 2012), although it has also been sug-
+gested that India was disconnected from Rodinia during this time (Merdith et al., 2017). Within this paleo-
+geographic context of northern Rodinia, three models of South China's relationship with Rodinia have been
+proposed, which we refer to as the “Missing Link”, “Periphery”, and “Separate” models (Figure 6).
+The Missing Link model proposes that the supercontinent Rodinia came together around South China ca.
+1.0–0.9 Ga, with Laurentia on the Cathaysia-side of South China and Australia on the Yangtze-side (Fig-
+ure 6). Paleomagnetic poles from South China including the new Xiajiang Group pole constrain it to be at
+high latitudes from ca. 821 Ma to at least 780 Ma (Tonian APWP of South China, Figure 7), whereas paleo-
+magnetic data from Australia, Laurentia, and Siberia constrain those cratons to be at relatively low latitudes
+PARK ET AL. 18 of 29
+21699356,
+2021,
+6,
+Downloaded
+from
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JB021541
+by
+Readcube-Labtiva,
+Wiley
+Online
+Library
+on
+[05/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+### page_19
+Journal of Geophysical Research: Solid Earth 10.1029/2020JB021541
+ca. 775 Ma (Figures 6 and 8). The collision between the Yangtze and Cathaysia blocks between ca. 830 and
+815.73 ± 0.18 Ma and subduction along northwestern Yangtze ca. 870–706 Ma also cannot be reconciled
+with a position of South China within the interior of a stable supercontinent anytime in the Tonian Period.
+On the other hand, the Periphery model (Figure 6) is consistent with both the paleomagnetic constraints
+as well as our current understanding of the tectonic context of South China. In our Periphery model
+configuration, South China is at high latitudes, connected to Rodinia via northwestern India. Yangtze is
+free to have traveled across an open ocean to collide with Cathaysia between ca. 830 and 815.73 ± 0.18 Ma.
+Northwestern Yangtze faces this open ocean, allowing for subduction along that margin in the Tonian and
+into the Cryogenian. Tonian volcanism in northwest India shares geochemical characteristics with arc mag-
+matism in the Panxi-Hannan Belt (Ashwal et al., 2013; Cawood et al., 2017), which has been interpreted
+as the result of a continuous subduction zone along northwestern Yangtze and western India and consist-
+ent with a connection between western South China and northwestern India. Detrital zircon spectra of
+Cryogenian sediments in South China also appear similar to that observed in northwestern India, further
+supporting this connection (Cawood et al., 2017; Qi et al., 2020). However, the ca. 755 Ma paleomagnetic
+poles result in a Periphery model configuration that differs from the paleogeographic models proposed in
+the literature that also place South China along the periphery of Rodinia (Figure 6). For example, it has been
+proposed that India-South China was connected to Rodinia, but further south along the western margin of
+Rodinia such that eastern India was juxtaposed against western East Antarctica and eastern South China
+was juxtaposed against western Australia (Cawood et al., 2017). However, ca. 755 Ma paleomagnetic poles
+from South China, India, and Australia are inconsistent with this alternative position.
+It has also been proposed that India-South China was disconnected from Rodinia entirely (Merdith
+et al., 2017). In this Separate model, the Rayner province is also interpreted to be a terrane disconnected
+from Rodinia that amalgamated with India ca. 900 Ma resulting in the Eastern Ghats Orogen in eastern
+India, with subduction continuing along Rayner's margin until India-Rayner collides with East Antarcti-
+ca near the Precambrian-Cambrian boundary (Merdith et al., 2017). In contrast, other models of Rodinia
+interpret Rayner to have been part of Rodinia by 900 Ma, and that the Eastern Ghats Orogen records amal-
+gamation of India with Rodinia (Z. X. Li et al., 2008). Current geologic constraints from Rayner do not
+differentiate between these two scenarios.
+Importantly, paleomagnetic data indicate that South China drifted across the pole after ca. 800 Ma (Fig-
+ure 7). In order to satisfy these paleomagnetic constraints, the Periphery model in which South China is in a
+constant position relative to the core of Rodinia would need to call upon anticlockwise vertical axis rotation
+of the entire Rodinia supercontinent (Figure 6). Furthermore, the Periphery model would imply that the
+Lower and Upper Grusdievbreen Formation poles from Svalbard are inconsistent with the paleomagnetic
+data from South China and therefore require that the Svalbard poles cannot be interpreted as robust ca.
+800 Ma paleomagnetic constraints on the configuration and orientation of Rodinia. On the other hand, the
+Separate model does not require rotation of Rodinia to satisfy the paleomagnetic constraints from South
+China and could allow the Svalbard poles to be reconciled with the South China poles.
+A fourth model of South China's relationship with Rodinia has also been proposed (the “Inverted South
+China” model), which places India-South China in the southern hemisphere connected to Rodinia via Kal-
+ahari until ca. 780 Ma (X. Jing et al., 2021). The model then hypothesizes that India-South China moves rap-
+idly northward toward a position close to Australia (such as that depicted in the Separate model of Figure 6)
+via a large dextral strike-slip fault ca. 780–760 Ma. The new paleomagnetic data in X. Jing et al. (2021) are
+from the lower Liantuo Formation and are similar to previous poles from that formation, albeit implying a
+slightly higher latitude position than poles from the upper Liantuo Formation, consistent with a progressive
+APWP path (Figure 7). However, rather than being based on these Liantuo Formation poles, the interpreted
+position of India-South China in the southern hemisphere before ca. 780 Ma is based on inverting the po-
+larity of older South China poles and seeking to satisfy a subset of poles from the Yanbian dikes (Group B)
+and a subset of poles from the Chengjiang Formation sites (CJH3; X. Jing et al., 2021). However, the Yanbian
+dikes Group B pole used in this reconstruction is composed of just three dikes (Niu et al., 2016), and, as
+discussed above, may have experienced vertical axis rotation. Furthermore, the CJH3 directional grouping
+from the Chengjiang Formation sites does not have a supporting field test and is from a section that lacks ge-
+ochronologic constraints (the Douzui Village section in X. Jing et al., 2020). Given the ambiguity regarding
+PARK ET AL. 19 of 29
+21699356,
+2021,
+6,
+Downloaded
+from
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JB021541
+by
+Readcube-Labtiva,
+Wiley
+Online
+Library
+on
+[05/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+### page_20
+Journal of Geophysical Research: Solid Earth 10.1029/2020JB021541
+these poles, these constraints should not be prioritized in the reconstruction of South China in the Tonian
+and we exclude them from our paleogeographic models.
+5.4. Bitter Springs Stage True Polar Wander
+TPW should result in the same magnitude of angular change in paleomagnetic pole positions for all conti-
+nents. As a result, the Bitter Springs Stage TPW hypothesis predicts a 50° change in pole position between
+pre-Bitter Springs Stage poles (>ca. 810 Ma) and syn-Bitter Springs ∼Stage poles (ca. 810–795 Ma), with a
+similar angular difference between syn-Bitter Springs Stage poles and post-Bitter Springs Stage poles (<ca.
+795 Ma).
+Paleomagnetic data from the Xiajiang Group of the Fanjingshan region have the potential to test this hy-
+pothesis. Our U-Pb dates demonstrate that there are Xiajiang Group sedimentary rocks that are both older
+and younger than the onset of the Bitter Springs Stage (ca. 810 Ma) preserved in at least some parts of the
+Fanjingshan region (Figure 2). The bulk of the high-temperature component paleomagnetic data (11 of 15
+sites) were developed from strata below tuffs that are dated to be >810 Ma and are therefore constrained
+to have been deposited prior to the Bitter Springs Stage. However, the remaining four sites could have been
+deposited during the Bitter Springs Stage. One site that yielded a stable and consistent high-temperature
+component in the Hongzixi section is bracketed by tuffs that constrain it to be between 809.52 ± 0.50 and
+804.56 ± 0.39 Ma (Figure 2). However, this site cannot definitively be interpreted to have been deposited
+during the Bitter Springs Stage, since the onset of the Bitter Springs Stage can only be constrained to have
+occurred after 811.51 ± 0.25 Ma (based on CA-ID-TIMS on a tuff 50 m below carbonates that record
+the first abrupt shift to negative δ13C values in the Fifteenmile Gro∼up of northwest Canada; Macdonald
+et al., 2010) and before ca. 807.9 ± 0.2 Ma (based on interpolation between geochronologic constraints
+paired to the δ13C record; Swanson-Hysell et al., 2015). Paleomagnetic data were not developed from sedi-
+ments in the Hongzixi section in the proximity of the tuff that yielded the 804.56 ± 0.39 Ma date, because
+these coarser-grained sediments were judged in the field to be not as amenable for preserving a primary
+magnetic remanence and were not sampled. Another site in the Kuaichang section is above a tuff dated at
+811.47 ± 0.67 Ma (Figure 2). However, the age of this site may be very close to 811.47 ± 0.67 Ma and there-
+fore also cannot be unambiguously interpreted to have been deposited during the Bitter Springs Stage.
+Stable dual-polarity paleomagnetic data were developed from the uppermost Xiajiang Group at two sites
+in the Mamagou section 35 m below the unconformity with the overlying Cryogenian glacial sediments
+(Figure 2). If this uncon∼formity is assumed to be time correlative between the Hongzixi and Mamagou
+sections, then these Mamagou sites approximately correlate to the 804.56 ± 0.39 Ma tuff in the Hong-
+zixi section, suggesting that they are syn-Bitter Springs Stage in age. However, the Mamagou section lies
+20 km to the south of the Hongzixi section, and along-strike variability of the erosional unconformity
+∼at the top of the Xiajiang Group could have resulted in the Mamagou section not being syn-Bitter Springs
+Stage in age.
+We compare the high-temperature components obtained from the 11 sites that are unambiguously pre-Bit-
+ter Springs Stage, with the high-temperature components obtained from the 4 sites that could be syn-Bitter
+Springs Stage. After converting all sites into a single polarity and applying a tilt and inclination correction,
+the two site mean directions have an angular difference of 3.0°, and a common mean test cannot reject the
+null hypothesis at the 95% confidence level that the specimen mean directions were drawn from distribu-
+tions that share a common mean direction (in the Watson V test, V = 0.8 and V = 6.9; Figure 9). This
+crit
+angular difference is much less than would be expected for Bitter Springs Stage TPW, indicating that the
+Nanhua Basin was in a similar position throughout Xiajiang Group deposition and that the sites can be
+grouped into a single paleomagnetic pole. However, ambiguity surrounding the age of the four sites that
+could be syn-Bitter Springs Stage hinders the ability to draw firm conclusions regarding TPW using the Xia-
+jiang Group data alone. To gain more robust insight, we can assess the Xiajiang Group data in the context
+of the other Tonian South China poles.
+The new 813 ± 3 Ma Xiajiang Group pole and the new 804.9 ± 0.4 Ma date on the Madiyi Formation pole
+provide paleomagnetic constraints on the position of South China before and during the Bitter Springs
+Stage. Additionally, the 821.6 ± 0.2 Ma date on the Xiaofeng dikes pole constrains it to be pre-Bitter Springs
+PARK ET AL. 20 of 29
+21699356,
+2021,
+6,
+Downloaded
+from
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JB021541
+by
+Readcube-Labtiva,
+Wiley
+Online
+Library
+on
+[05/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+### page_21
+Journal of Geophysical Research: Solid Earth 10.1029/2020JB021541
+Figure 9. Comparison of the high-temperature component from sites that are unambiguously constrained by the geochronology to be pre-Bitter Springs Stage
+and sites that could be syn-Bitter Springs Stage (Figure 2). The angular difference between the two site mean directions is 3.0°.
+Stage (although prior interpretations have taken the Xiaofeng dikes pole to represent a syn-Bitter Springs
+Stage position of South China using its previously assigned age of 802 ± 10 Ma; X. Jing et al., 2020; Maloof
+et al., 2006). The pre-Bitter Springs Stage Xiaofeng dikes pole and the syn-Bitter Springs Stage Madiyi For-
+mation pole share a common mean (Figure 7). Interpreting these two poles alone would suggest that South
+China was in a stable position between ca. 821 and 805 Ma inconsistent with the prediction of the TPW
+hypothesis.
+However, the pre-Bitter Springs Stage Xiajiang Group pole has a distinct position from the syn-Bitter Springs
+Stage Madiyi Formation pole, with an angular difference of 19° between the means of the poles (Figure 7).
+In order to assess this angular difference in comparison to the poles from Svalbard while accounting for the
+uncertainty on the pole positions and ages, we take a Monte Carlo approach in which 10,000 random draws
+are taken from Fisherian distributions for the pole positions and from Gaussian distributions for the pole
+ages (Figures 10a and 10b; Swanson-Hysell et al., 2014). Taking this approach, the angular difference be-
+tween the Xiajiang Group and Madiyi Formation poles is 11°–27° at the 95% confidence level, whereas the
+angular difference between the Lower and Upper Grusdievbreen Formation poles is much higher at 41°–62°
+at the 95% confidence level (Figure 10c). In fact, the probability that a Xiajiang Group–Madiyi Formation
+pole pair has an equal or larger angular difference than a Lower–Upper Grusdievbreen Formation pole
+pair is only 8.5 × 10−5% (calculated using the means and standard deviations of the normal distributions in
+Figure 10c). As such, the angular difference between the pre- and syn-Bitter Springs Stage poles is signif-
+icantly less than predicted by the hypothesis that the Svalbard paleomagnetic poles are primary and that
+their differing positions is the result of TPW. Therefore, this Monte Carlo analysis suggests that the angular
+difference between the pole pairs from South China and Svalbard can’t be straight-forwardly interpreted to
+be associated with a single TPW rotation (Table 4).
+The velocity of South China implied by the Xiajiang Group and Madiyi Formation poles is also slower than
+that implied for Svalbard by the Lower and Upper Grusdievbreen Formation poles, being 14–48 cm/year
+rather than 60–284 cm/year at the 95% confidence level, if the Upper Grusdievbreen Formation pole is tak-
+en to be 1–10 Myr younger than the Lower Grusdievbreen Formation pole (Maloof et al., 2006, Figure 10d).
+In contrast to the very rapid rates implied by the Svalbard poles, the rate for South China's motion is at
+the upper end of the range of velocities suggested by plate kinematic reconstructions (Figure 10d; Meert
+et al., 1993; Zahirovic et al., 2015).
+However, the smaller angular difference between the Xiajiang Group and Madiyi Formation poles relative
+to the Lower and Upper Grusdievbreen Formation poles could be reconciled with the TPW hypothesis if dif-
+ferential plate motion between South China and Svalbard is superimposed on TPW motion between ca. 813
+and 805 Ma (Evans, 2003). For example, if rapid TPW occurred ca. 810 Ma, the Xiajiang Group and Madiyi
+Formation poles should lie along the great circle between the Lower and Upper Grusdievbreen Formation
+PARK ET AL. 21 of 29
+21699356,
+2021,
+6,
+Downloaded
+from
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JB021541
+by
+Readcube-Labtiva,
+Wiley
+Online
+Library
+on
+[05/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+### page_22
+Journal of Geophysical Research: Solid Earth 10.1029/2020JB021541
+Figure 10. Results of Monte Carlo analysis of hypothesized ca. 810 Ma rapid true polar wander motion. (a) Virtual geomagnetic poles (VGPs) for the Xiajiang
+Group, Madiyi Formation, and Lower and Upper Grusdievbreen Formation paleomagnetic poles randomly sampled from Fisherian distributions (n = 10,000).
+South China is shown in its present day location, and Svalbard is rotated such that the four poles lie along a great circle. (b) Ages of the Xiajiang Group and
+Madiyi Formation poles randomly sampled from uniform and Gaussian distributions respectively. (c) Angular difference between randomly selected VGP pairs
+in (a). (d) Plate velocity of South China implied by (a) and (b), and the plate velocity of Svalbard implied by (a) and assuming that the Upper Grusdievbreen
+Formation pole is 1–10 Myr younger than the Lower Grusdievbreen Formation pole. The dashed vertical line is the 20 cm/yr plate velocity limit suggested by
+Conrad and Hager (2001) and Zahirovic et al. (2015). ∼
+poles, implying a unique reconstruction for South China relative to Svalbard (Figure 11). This configura-
+tion also aligns the great circle between the syn-Bitter Springs Stage Upper Grusdievbreen Formation and
+post-Bitter Springs Stage Svanbergfjellet Formation Svalbard poles with that of the syn-Bitter Springs Stage
+Madiyi Formation and post-Bitter Springs Stage Liantuo Formation South China poles (Figure 11). In the
+TPW hypothesis, this second great circle would represent the second rapid TPW event ca. 795 Ma. However,
+South China could have continued to move via differential plate tectonics along the trajectory implied by
+the difference between the ca. 821 Ma Xiaofeng dikes and the ca. 813 Ma Xiajiang Formation poles through
+ca. 810 Ma TPW rotation (Figure 11). In such a scenario, the differential plate tectonic motion of South
+China is approximately opposite the trajectory of the hypothesized TPW rotation (Figure 11), which would
+be observed in the paleomagnetic record as a smaller angular difference between pre- to syn-Bitter Springs
+Stage paleomagnetic poles from South China than what would be predicted for TPW alone. Put another
+way, differential plate tectonic motion could have driven South China in the opposite direction of TPW
+motion, causing South China to move a smaller distance in a celestial (spin axis) reference frame relative
+to other tectonic blocks that were not experiencing such differential plate tectonic motion between ca. 813
+and 805 Ma, such as Svalbard.
+PARK ET AL. 22 of 29
+21699356,
+2021,
+6,
+Downloaded
+from
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JB021541
+by
+Readcube-Labtiva,
+Wiley
+Online
+Library
+on
+[05/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+### page_23
+Journal of Geophysical Research: Solid Earth 10.1029/2020JB021541
+Table 4
+900–700 Ma Paleomagnetic Poles Used in the Reconstructions
+Pole Nominal age (Ma) Site lat. Site lon. Pole lat. Pole lon. A 95 f Ref. Grade
+Laurentia
+Gunbarrel dikes 778   2 2 44.8 248.7 9.1 138.2 12.0 1.0 Eyster et al. (2019) B
+Uinta Mountain Group 760   6 10 40.8 250.7 1.2 161.8 4.7 0.6 Weil et al. (2006) B
+Carbon Canyon 757   7 7 36.1 248.2 −0.5 166 9.7 0.5 Eyster et al. (2019) NR
+Carbon Butte/Awatubi 751   8 8 35.2 248.5 14.2 163.8 3.5 0.9 Eyster et al. (2019) NR
+Franklin event grand mean 724   3 3 73.0 275.4 6.7 162.1 3.0 1.0 Denyszyn et al. (2009) A
+Svalbard
+Lower Grusdievbreen Formation 815   5 5 79.0 18.0 19.6 204.9 10.9 1.0 Maloof et al. (2006) B
+Upper Grusdievbreen Formation 802   8 7 78.9 18.2 −1.1 252.6 6.2 1.0 Maloof et al. (2006) B
+Svanbergfjellet Formation 785   5 5 78.5 18.0 25.9 226.8 5.8 1.0 Maloof et al. (2006) B
+Siberia
+Kitoi Cryogenian dikes 758   4 4 52.3 102.8 1.1 21.8 5.6 1.0 Pisarevsky et al. (2013) A
+Australia
+Browne Formation 855   4 4 5 5 −25.0 123.8 34.3 138.0 8.4 0.6 Pisarevsky et al. (2007) B
+Johnny's Creek siltstones 760   3 3 0 0 −24.0 133.5 7.1 92.6 14.7 0.6 Swanson-Hysell et al (2012) B
+Mundine Well dikes combined 755   3 3 −25.5 115.0 45.3 135.4 4.1 1.0 Wingate and Giddings (2000) A
+India
+Malani Igneous Suite combined 752   1 1 8 8 25.3 72.6 69.4 78.6 6.0 1.0 Meert et al. (2013) A
+Note. (1) Grade is the quality of the pole as assessed by the Nordic Paleomagnetism Workshops (Evans et al., 2021). “A” refers to poles that are considered to
+provide essential constraints given their high quality. “B” refers to poles that are likely high quality but retain some ambiguity about their age or direction. “NR”
+refers to poles that were not rated at the Nordic Paleomagnetism Workshops. (2) f is the flattening factor, where f = 1 indicates no inclination shallowing and
+f = 0 indicates a completely flattened direction. An inclination correction using f = 0.6 has been applied to all paleomagnetic poles derived from sedimentary
+rocks, with the exception of the Carbon Canyon and Carbon Butte/Awatubi poles, for which we retain the flattening factor preferred by Eyster et al. (2019),
+and the poles from Svalbard, which were derived from carbonates that experienced early cementation, and therefore are unlikely to be affected by inclination
+shallowing related to compaction (Maloof et al., 2006).
+Importantly, if rapid TPW did occur ca. 810 Ma, and differential plate motion between South China and Svalbard
+ca. 813–805 Ma is superimposed upon that TPW motion to explain the smaller angular difference between the
+Xiajiang Group and Madiyi Formation poles relative to the Lower and Upper Grusdievbreen Formation poles,
+then it is required that South China was separate from Rodinia (i.e., the Separate model in Figure 6). It is well
+established that Svalbard was connected to Laurentia via Greenland until Silurian-Devonian translation along
+Greenland's margin and subsequent rifting away from Greenland in the Eocene (Torsvik & Cocks, 2016). There-
+fore, if South China was moving differentially relative to Svalbard ca. 813–805 Ma, South China must have been
+moving differentially relative to Rodinia, and therefore must have been separate from Rodinia. Furthermore,
+the alignment of paleomagnetic poles from South China and Svalbard along great circles places South China at
+high latitudes, with the long southeastern margin of the Cathaysia block facing Svalbard (Figure 11). However,
+ca. 755 Ma paleomagnetic poles require that a Periphery model has South China-India-Rayner connected to
+Rodinia in a different orientation via northwestern Australia (Figure 6). Even if the Lower Grusdievbreen For-
+mation pole is interpreted as a Paleozoic overprint (Michalski et al., 2011), if the syn-Bitter Springs Stage Upper
+Grusdievbreen Formation and post-Bitter Springs Stage Svanbergfjellet Formation Svalbard poles are primary,
+rapid TPW could be interpreted to have occurred ca. 795 Ma. In this scenario, South China is still required to be
+PARK ET AL. 23 of 29
+21699356,
+2021,
+6,
+Downloaded
+from
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JB021541
+by
+Readcube-Labtiva,
+Wiley
+Online
+Library
+on
+[05/05/2026].
+See
+the Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+### page_24
+Journal of Geophysical Research: Solid Earth 10.1029/2020JB021541
+Figure 11. Continuous paleogeographic model if Tonian paleomagnetic poles from South China are interpreted as recording differential plate motion
+superimposed upon Bitter Springs Stage (BSS) true polar wander (TPW). In the upper left, the tectonic blocks are shown in a ca. 813 Ma reconstruction, and
+the apparent polar wander paths (APWPs) of South China and Svalbard are aligned along two great circles. In the upper right, Rodinia (Laurentia + associated
+cratons) is fixed in a ca. 755 Ma reconstruction to show the differential motion of South China-India-Rayner relative to Rodinia. The seven lower
+reconstructions show pre-, syn-, and post-BSS reconstructions in a celestial reference frame. Note that differential plate motion of South China–India–Rayner
+continues through ca. 810 Ma rapid TPW defined by the Lower and Upper Grusdievbreen Formation poles of Svalbard. Euler rotations for this paleogeographic
+model are shown in Table S9.
+separate from Rodinia in order to align the great circle between path with that of the syn-Bitter Springs Stage
+Madiyi Formation and post-Bitter Springs Stage Liantuo Formation South China poles (Figure 11).
+Regardless of whether the ca. 821–805 Ma poles are interpreted as recording TPW counteracted by plate
+tectonic motion or a relatively stable position of South China in a scenario without TPW (Figure 12), South
+China is peripheral and likely disconnected from Rodinia.
+PARK ET AL. 24 of 29
+21699356,
+2021,
+6,
+Downloaded
+from
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JB021541
+by
+Readcube-Labtiva,
+Wiley
+Online
+Library
+on
+[05/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+### page_25
+Journal of Geophysical Research: Solid Earth 10.1029/2020JB021541
+Figure 12. Paleogeographic model if paleomagnetic data from Svalbard are interpreted as problematic and removed as constraints, resulting in a model that
+does not incorporate Bitter Springs Stage (BSS) true polar wander (TPW). A running mean approach (10 million year time steps with 20 million year windows;
+Table S10) is used to produce the apparent polar wander path (APWP) for South China, as is done for Phanerozoic APWPs (Torsvik et al., 2012). This APWP is
+parsimoniously interpreted to represent a stable South China-India-Rayner at high latitudes ca. 815–795 Ma that subsequently traverses the north pole ca. 795–
+775 Ma. In the left panel, the tectonic blocks are shown in a ca. 815 Ma reconstruction with the running mean APWP, and in the right panel a paleogeographic
+model is shown where South China-India-Rayner are reconstructed using the means of the running mean poles.
+6. Conclusions
+The geochronologic and paleomagnetic data developed from the Xiajiang Group constrain the amal-
+gamation of the Yangtze and Cathaysia blocks of South China to have completed between ca. 830 and
+815.73 ± 0.18 Ma at high latitudes. A consistent high-latitude position is implied by poles from ca. 821
+to 805 Ma with a continued high-latitude position ca. 780 Ma following South China transiting over the
+pole. These paleolatitudes, as well as convergent orogenesis between the Yangtze and Cathaysia blocks and
+continued arc activity along the northwest margin of the South China craton during the Tonian and into
+the Cryogenian, cannot be reconciled with the Missing Link model that places South China in the core of a
+stable Rodinia continent. The angular difference in pole position between the ca. 813 Ma (pre-Bitter Springs
+Stage) Xiajiang Group pole and ca. 805 Ma (syn-Bitter Springs Stage) Madiyi Formation pole is significantly
+less than that predicted for the Bitter Springs Stage TPW hypothesis. The poles could be interpreted to indi-
+cate a relatively stable high-latitude position for South China inconsistent with TPW. However, it is possible
+to interpret the poles as TPW rotation counteracted by plate tectonic motion. In this scenario, South China
+must be considered to be distinct from Rodinia. Whether or not the paleomagnetic poles are interpreted as
+recording TPW, they constrain South China to either have been connected to Rodinia along its periphery, or
+disconnected from the (super)continent entirely.
+Data Availability Statement
+Code and data used in this study is available on Zenodo at https://doi.org/10.5281/zenodo.4660237 and
+GitHub at https://github.com/Swanson-Hysell-Group/Xiajiang_Paleomagnetism. The paleomagnetic data
+have also been uploaded to the MagIC database https://www.earthref.org/MagIC/doi/10.1029/2020JB021541.
+PARK ET AL. 25 of 29
+21699356,
+2021,
+6,
+Downloaded
+from
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JB021541
+by
+Readcube-Labtiva,
+Wiley
+Online
+Library
+on
+[05/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+### page_26
+Journal of Geophysical Research: Solid Earth 10.1029/2020JB021541
+Acknowledgments References
+The Research was supported by the
+National Science Foundation Grants Ashwal, L. D., Solanki, A. M., Pandit, M. K., Corfu, F., Hendriks, B. W. H., Burke, K., & Torsvik, T. H. (2013). Geochronology and geochem-
+EAR-1547434 and EAR-1547537 to N. istry of Neoproterozoic Mt. Abu granitoids, NW India: Regional correlation and implications for Rodinia paleogeography. Precambrian
+L. Swanson-Hysell and F. A. Macdonald Research, 236, 265–281. https://doi.org/10.1016/j.precamres.2013.07.018
+CUGB research was supported by Bilardello, D. (2016). The do's and don’ts of inclination shallowing corrections. IRM Quarterly, 26, 1–11.
+National Natural Science Foundation of Bowring, S. A., Grotzinger, J. P., Condon, D. J., Ramezani, J., Newall, M. J., & Allen, P. A. (2007). Geochronologic constraints on the chron-
+China Grant 41830215 to S. Zhang M. ostratigraphic framework of the Neoproterozoic Huqf Supergroup, Sultanate of Oman. American Journal of Science, 307, 1097–1145.
+Zhu supported research logistics in the https://doi.org/10.2475/10.2007.01
+field. O. Abbitt prepared specimens for Bureau of Geology and Mineral Resources of Guizhou Province (1984). Regional geology of Guizhou province. Beijing: Geological Publish-
+paleomagnetic analyses. ing House.
+Cambiotti, G., Ricard, Y., & Sabadini, R. (2010). Ice age true polar wander in a compressible and non-hydrostatic Earth. Geophysical Jour-
+nal International, 183, 1248–1264. https://doi.org/10.1111/j.1365-246x.2010.04791.x
+Cawood, P. A., Wang, Y., Xu, Y., & Zhao, G. (2013). Locating south China in Rodinia and Gondwana: A fragment of greater India litho-
+sphere? Geology, 41, 903–906. https://doi.org/10.1130/G34395.1
+Cawood, P. A., Zhao, G., Yao, J., Wang, W., Xu, Y., & Wang, Y. (2017). Reconstructing south China in Phanerozoic and Precambrian super-
+continents. Earth-Science Reviews, 186, 173–194. https://doi.org/10.1016/j.earscirev.2017.06.001
+Chan, N.-H., Mitrovica, J. X., Daradich, A., Creveling, J. R., Matsuyama, I., & Stanley, S. (2014). Time-dependent rotational stability of dy-
+namic planets with elastic lithospheres. Journal of Geophysical Research: Planets, 119, 169–188. https://doi.org/10.1002/2013JE004466
+Condon, D. J., Schoene, B., McLean, N. M., Bowring, S. A., & Parrish, R. R. (2015). Metrology and traceability of U-Pb isotope dilution
+geochronology (EARTHTIME tracer calibration part I). Geochimica et Cosmochimica Acta, 164, 464–480. https://doi.org/10.1016/j.
+gca.2015.05.026
+Conrad, C. P., & Hager, B. H. (2001). Mantle convection with strong subduction zones. Geophysical Journal International, 144, 271–288.
+https://doi.org/10.1046/j.1365-246x.2001.00321.x
+Creveling, J. R., Mitrovica, J. X., Chan, N.-H., Latychev, K., & Matsuyama, I. (2012). Mechanisms for oscillatory true polar wander. Nature,
+491, 244–248. https://doi.org/10.1038/nature11571
+Denyszyn, S. W., Halls, H. C., Davis, D. W., & Evans, D. A. D. (2009). Paleomagnetism and U-Pb geochronology of Franklin dykes in high
+Arctic Canada and Greenland: A revised age and paleomagnetic pole constraining block rotations in the Nares Strait region. Canadian
+Journal of Earth Sciences, 46, 689–705. https://doi.org/10.1139/E09-042
+Dong, Y., Liu, X., Santosh, M., Chen, Q., Zhang, X., Li, W., et al. (2012). Neoproterozoic accretionary tectonics along the northwestern
+margin of the Yangtze Block, China: Constraints from zircon U-Pb geochronology and geochemistry. Precambrian Research, 196–197,
+247–274. https://doi.org/10.1016/j.precamres.2011.12.007
+Duebendorfer, E. M. (2002). Regional correlation of Mesoproterozoic structures and deformational events in the Albany-Fraser orogen,
+Western Australia. Precambrian Research, 116, 129–154. https://doi.org/10.1016/s0301-9268(02)00017-7
+Dunlop, D. J., & Özdemir, Ö. (2001). Rock magnetism: Fundamentals and frontiers (Vol. 3). Cambridge: Cambridge University Press.
+Ernst, R. E., Hamilton, M. A., Söderlund, U., Hanes, J. A., Gladkochub, D. P., Okrugin, A. V., et al. (2016). Long-lived connection between
+southern Siberia and northern Laurentia in the Proterozoic. Nature Geoscience, 9, 464–469. https://doi.org/10.1038/ngeo2700
+Evans, D., Pesonen, L., Eglington, B., Elming, S.-Å., Gong, Z., Li, Z.-X., et al. (2021). An expanding list of reliable paleomagnetic poles for
+Precambrian tectonic reconstructions. In L. Pesonen, J. Salminen, S.-Å. Elming, D. Evans, & T. Veikkolainen (Eds.), Ancient superconti-
+nents and the paleogeography of the Earth. Amsterdam: Elsevier.
+Evans, D. A. D. (2003). True polar wander and supercontinents. Tectonophysics, 362, 303–320. https://doi.org/10.1016/s0040-1951(02)000642-x
+Evans, D. A. D., Li, Z. X., Kirschvink, J. L., & Wingate, M. T. D. (2000). A high-quality mid-Neoproterozoic paleomagnetic pole from
+south China, with implications for ice ages and the breakup configuration of Rodinia. Precambrian Research, 100, 313–334. https://doi.
+org/10.1016/S0301-9268(99)00079-0
+Evans, D. A. D., Veselovsky, R. V., Petrov, P. Y., Shatsillo, A. V., & Pavlov, V. E. (2016). Paleomagnetism of Mesoproterozoic margins of the
+Anabar Shield: A hypothesized billion-year partnership of Siberia and northern Laurentia. Precambrian Research, 281, 639–655. https://
+doi.org/10.1016/j.precamres.2016.06.017
+Eyster, A., Weiss, B. P., Karlstrom, K., & Macdonald, F. A. (2019). Paleomagnetism of the Chuar Group and evaluation of the late Tonian
+Laurentian apparent polar wander path with implications for the makeup and breakup of Rodinia. GSA Bulletin, 132, 710–738. https://
+doi.org/10.1130/b32012.1
+Fisher, D. (1974). Some more remarks on polar wandering. Journal of Geophysical Research, 79, 4041–4045. https://doi.org/10.1029/
+JB079i026p04041
+Gao, L., Chen, J., Dai, C., Ding, X., Wang, X., Liu, Y., et al. (2014). SHRIMP zircon U-Pb dating of tuff in Fanjingshan Group and Xiajiang
+Group from Guizhou and Hunan provinces and its stratigraphic implications. Geological Bulletin of China, 33, 949–959.
+Gao, L., Yang, Z., Tong, Y., Wang, H., An, C., & Zhang, H. (2017). Cenozoic clockwise rotation of the Chuan Dian fragment, southeastern
+edge of the Tibetan Plateau: Evidence from a new paleomagnetic study. Journal of Geodynamics, 112, 46–57. https://doi.org/10.1016/j.
+jog.2017.10.001
+Gao, L.-Z., Dai, C.-G., Ding, X.-Z., Wang, M., Liu, Y.-X., Wang, X.-H., & Chen, J.-S. (2011). SHRIMP U-Pb dating of intrusive alaskite in
+the Fanjigshan Group and alaskite basal conglomerates: Constraints on the deposition of the Xiajiang Group. Geology in China, 38,
+1413–1420.
+Gao, L. Z., Dai, C. G., Liu, Y. X., Wang, M., Wang, X. H., Chen, J. S., & Ding, X. Z. (2010). Zircon SHRIMP U-Pb dating of the tuffaceous bed
+of Xiajiang Group in Guizhou province and its stratigraphic implication. Geology in China, 37, 1071–1080.
+Geng, Y.-S. (2015). Neoproterozoic Era of south China craton. In Springer Geology (pp. 263–301). Berlin: Springer. https://doi.
+org/10.1007/978-3-662-47885-1_7
+Göğüş, O. H. (2015). Rifting and subsidence following lithospheric removal in continental back arcs. Geology, 43, 3–6. https://doi.
+org/10.1130/g36305.1
+Gold, T. (1955). Instability of the Earth's axis of rotation. Nature, 175, 526–529. https://doi.org/10.1038/175526a0
+Goodge, J. W., & Fanning, C. M. (2010). Composition and age of the East Antarctic Shield in eastern Wilkes Land determined by proxy
+from Oligocene-Pleistocene glaciomarine sediment and Beacon Supergroup sandstones, Antarctica. The Geological Society of America
+Bulletin, 122, 1135–1159. https://doi.org/10.1130/b30079.1
+Goodge, J. W., Vervoort, J. D., Fanning, C. M., Brecke, D. M., Farmer, G. L., Williams, I. S., et al. (2008). A positive test of East Antarcti-
+ca-Laurentia juxtaposition within the Rodinia supercontinent. Science, 321, 235–240. https://doi.org/10.1126/science.1159189
+PARK ET AL. 26 of 29
+21699356,
+2021,
+6,
+Downloaded
+from
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JB021541
+by
+Readcube-Labtiva,
+Wiley
+Online
+Library
+on
+[05/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+### page_27
+Journal of Geophysical Research: Solid Earth 10.1029/2020JB021541
+Halverson, G. P., Maloof, A. C., Schrag, D. P., Dudás, F. Ö., & Hurtgen, M. (2007). Stratigraphy and geochemistry of a ca 800 Ma negative
+carbon isotope interval in northeastern Svalbard. Chemical Geology, 237, 5–27. https://doi.org/10.1016/j.chemgeo.2006.06.013
+Hildebrand, R. S. (1988). Implications of ash dispersal for tectonic models with an example from Wopmay orogen. Geology, 16, 1089–1091.
+https://doi.org/10.1130/0091-7613(1988)016<1089:IOADFT>2.3.CO;2
+Jackson, M., & Swanson-Hysell, N. L. (2012). Rock magnetism of remagnetized carbonate rocks: Another look. Geological Society, London,
+Special Publications, 371, 229–251. https://doi.org/10.1144/sp371.3
+Jaffey, A. H., Flynn, K. F., Glendenin, L. E., Bentley, W. C., & Essling, A. M. (1971). Precision measurement of half-lives and specific activ-
+ities of 235U and 238U. Physical Review C, 4, 1889–1906. https://doi.org/10.1103/PhysRevC.4.1889
+Jiang, Z., Liu, Q., Dekkers, M. J., Tauxe, L., Qin, H., Barrón, V., & Torrent, J. (2015). Acquisition of chemical remanent magnetization
+during experimental ferrihydrite-hematite conversion in Earth-like magnetic field-implications for paleomagnetic studies of red beds.
+Earth and Planetary Science Letters, 428, 1–10. https://doi.org/10.1016/j.epsl.2015.07.024
+Jing, X., Evans, D. A. D., Yang, Z., Tong, Y., Xu, Y., & Wang, H. (2021). Inverted south China: A novel configuration for Rodinia and its
+breakup. Geology, 49, 463–467. https://doi.org/10.1130/g47807.1
+Jing, X., Yang, Z., Evans, D. A. D., Tong, Y., Xu, Y., & Wang, H. (2020). A pan-latitudinal Rodinia in the Tonian true polar wander frame.
+Earth and Planetary Science Letters, 530, 115880. https://doi.org/10.1016/j.epsl.2019.115880
+Jing, X.-Q., Yang, Z., Tong, Y., & Han, Z. (2015). A revised paleomagnetic pole from the mid-Neoproterozoic Liantuo Formation in the Yang-
+tze block and its paleogeographic implications. Precambrian Research, 268, 194–211. https://doi.org/10.1016/j.precamres.2015.07.007
+Katz, B., Elmore, R. D., & Engel, M. H. (1998). Authigenesis of magnetite in organic-rich sediment next to a dike: Implications for thermovis-
+cous and chemical remagnetizations. Earth and Planetary Science Letters, 163, 221–234. https://doi.org/10.1016/s0012-821x(98)00189-7
+Kent, D. V., Kjarsgaard, B. A., Gee, J. S., Muttoni, G., & Heaman, L. M. (2015). Tracking the Late Jurassic apparent (or true) polar shift in
+U-Pb-dated kimberlites from cratonic North America (superior province of Canada). Geochemistry, Geophysics, Geosystems, 16, 983–994.
+https://doi.org/10.1002/2015GC005734
+King, R. F. (1955). The remanent magnetism of artificially deposited sediments. Geophysical Journal International, 7, 115–134. https://doi.
+org/10.1111/j.1365-246x.1955.tb06558.x
+Kirschvink, J. L. (1997). Evidence for a large-scale reorganization of early Cambrian continental masses by inertial interchange true polar
+wander. Science, 277, 541–545. https://doi.org/10.1126/science.277.5325.541
+Kirschvink, J. L., Kopp, R. E., Raub, T. D., Baumgartner, C. T., & Holt, J. W. (2008). Rapid, precise, and high-sensitivity acquisition of
+paleomagnetic and rock-magnetic data: Development of a low-noise automatic sample changing system for superconducting rock mag-
+netometers. Geochemistry, Geophysics, Geosystems, 9, Q05Y01. https://doi.org/10.1029/2007GC001856
+Lan, Z., Huyskens, M. H., Lu, K., Li, X.-H., Zhang, G., Lu, D., & Yin, Q.-Z. (2020). Toward refining the onset age of Sturtian glaciation in
+south China. Precambrian Research, 338, 105555. https://doi.org/10.1016/j.precamres.2019.105555
+Lan, Z., Li, X.-H., Zhu, M., Zhang, Q., & Li, Q.-L. (2015). Revisiting the Liantuo formation in Yangtze Block, south China: SIMS U-Pb zircon
+age constraints and regional and global significance. Precambrian Research, 263, 123–141. https://doi.org/10.1016/j.precamres.2015.03.012
+Li, J., Dong, S., Zhang, Y., Zhao, G., Johnston, S. T., Cui, J., & Xin, Y. (2016). New insights into Phanerozoic tectonics of south China: Part 1,
+polyphase deformation in the Jiuling and Lianyunshan domains of the central Jiangnan Orogen. Journal of Geophysical Research: Solid
+Earth, 121, 3048–3080. https://doi.org/10.1002/2015JB012778
+Li, L., Lin, S., Xing, G., Davis, D. W., Jiang, Y., Davis, W., & Zhang, Y. (2016). Ca. 830 Ma back-arc type volcanic rocks in the eastern part of
+the Jiangnan orogen: Implications for the Neoproterozoic tectonic evolution of south China Block. Precambrian Research, 275, 209–224.
+https://doi.org/10.1016/j.precamres.2016.01.016
+Li, X.-H., Li, W.-X., Li, Z.-X., Lo, C.-H., Wang, J., Ye, M.-F., & Yang, Y.-H. (2009). Amalgamation between the Yangtze and Cathaysia Blocks
+in south China: Constraints from SHRIMP U-Pb zircon ages, geochemistry and Nd-Hf isotopes of the Shuangxiwu volcanic rocks. Pre-
+cambrian Research, 174, 117–128. https://doi.org/10.1016/j.precamres.2009.07.004
+Li, Z., Li, X., Kinny, P., Wang, J., Zhang, S., & Zhou, H. (2003). Geochronology of Neoproterozoic syn-rift magmatism in the Yangtze Craton,
+south China and correlations with other continents: Evidence for a mantle superplume that broke up Rodinia. Precambrian Research,
+122, 85–109. https://doi.org/10.1016/S0301-9268(02)00208-5
+Li, Z.-X., & Evans, D. A. D. (2011). Late Neoproterozoic 40 intraplate rotation within Australia allows for a tighter-fitting and longer-lasting
+Rodinia. Geology, 39, 39–42. https://doi.org/10.1130/g31461.1
+Li, Z.-X., Li, X.-H., Zhou, H., & Kinny, P. D. (2002). Grenvillian continental collision in south China: New SHRIMP U-Pb zircon re-
+sults and implications for the configuration of Rodinia. Geology, 30, 163–166. https://doi.org/10.1130/0091-7613(2002)030<0163
+:GCCISC>2.0.CO;2
+Li, Z.-X., Zhang, L., & Powell, C. M. (1995). South China in Rodinia: Part of the missing link between Australia-East Antarctica and Lau-
+rentia? Geology, 23, 407–410. https://doi.org/10.1130/0091-7613(1995)023<0407:SCIRPO>2.3.CO;2
+Li, Z. X., Bogdanova, S. V., Collins, A. S., Davidson, A., De Waele, B., Ernst, R. E., et al. (2008). Assembly, configuration, and break-up
+history of Rodinia: A synthesis. Precambrian Research, 160, 179–210. https://doi.org/10.1016/j.precamres.2007.04.021
+Li, Z. X., Evans, D. A. D., & Zhang, S. (2004). A 90° spin on Rodinia: Possible causal links between the Neoproterozoic supercontinent,
+superplume, true polar wander and low-latitude glaciation. Earth and Planetary Science Letters, 220, 409–421. https://doi.org/10.1016/
+S0012-821X(04)00064-0
+Lin, M., Peng, S., Jiang, X., Polat, A., Kusky, T., Wang, Q., & Deng, H. (2016). Geochemistry, petrogenesis and tectonic setting of Ne-
+oproterozoic mafic-ultramafic rocks from the western Jiangnan orogen, south China. Gondwana Research, 35, 338–356.
+https://doi.org/10.1016/j.gr.2015.05.015
+Ma, G., Li, H., & Zhang, Z. (1984). An investigation of the age limits of the Sinian system in south China. Bulletin of Yichang Institute of
+Geology and Mineral Resources, 8, 1–29.
+Ma, H., Wang, Y., Huang, Y., & Xie, Y. (2019). Three-stage Mesozoic intracontinental tectonic evolution of south China recorded in an
+overprinted basin: Evidence from stratigraphy and detrital zircon U-Pb dating. Geological Magazine, 156, 2085–2103. https://doi.
+org/10.1017/s0016756819000451
+Macdonald, F. A., Schmitz, M. D., Crowley, J. L., Roots, C. F., Jones, D. S., Maloof, A. C., et al. (2010). Calibrating the Cryogenian. Science,
+327, 1241–1243. https://doi.org/10.1126/science.1183325
+MacLennan, S., Park, Y., Swanson-Hysell, N., Maloof, A., Schoene, B., Gebreslassie, M., et al. (2018). The arc of the Snowball: U-Pb dates
+constrain the Islay anomaly and the initiation of the Sturtian glaciation. Geology, 46, 539–542. https://doi.org/10.1130/G40171.1
+Maloof, A. C., Halverson, G. P., Kirschvink, J. L., Schrag, D. P., Weiss, B. P., & Hoffman, P. F. (2006). Combined paleomagnetic, isotopic,
+and stratigraphic evidence for true polar wander from the Neoproterozoic Akademikerbreen Group, Svalbard, Norway. The Geological
+Society of America Bulletin, 118, 1099–1124. https://doi.org/10.1130/B25892.1
+PARK ET AL. 27 of 29
+21699356,
+2021,
+6,
+Downloaded
+from
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JB021541
+by
+Readcube-Labtiva,
+Wiley
+Online
+Library
+on
+[05/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+### page_28
+Journal of Geophysical Research: Solid Earth 10.1029/2020JB021541
+Matsuyama, I., Mitrovica, J. X., Daradich, A., & Gomez, N. (2010). The rotational stability of a triaxial ice-age Earth. Journal of Geophysical
+Research, 115, B05401. https://doi.org/10.1029/2009JB006564
+Matsuyama, I., Nimmo, F., & Mitrovica, J. X. (2014). Planetary reorientation. Annual Review of Earth and Planetary Sciences, 42, 605–634.
+https://doi.org/10.1146/annurev-earth-060313-054724
+Mattinson, J. M. (2005). Zircon U-Pb chemical abrasion (“CA-TIMS”) method: Combined annealign and multi-step partial dissolution anal-
+ysis for improved precision and accuracy of zircon ages. Chemical Geology, 220, 47–66. https://doi.org/10.1016/j.chemgeo.2005.03.011
+McCabe, C., & Elmore, R. D. (1989). The occurrence and origin of Late Paleozoic remagnetization in the sedimentary rocks of North
+America. Reviews of Geophysics, 27, 471–494. https://doi.org/10.1029/RG027i004p00471
+Meert, J. G., Pandit, M. K., & Kamenov, G. D. (2013). Further geochronological and paleomagnetic constraints on Malani (and pre-Malani)
+magmatism in NW India. Tectonophysics, 608, 1254–1267. https://doi.org/10.1016/j.tecto.2013.06.019
+Meert, J. G., Van der Voo, R., Powell, C. M., Li, Z.-X., McElhinny, M. W., Chen, Z., & Symons, D. T. A. (1993). A plate-tectonic speed limit?
+Nature, 363, 216–217. https://doi.org/10.1038/363216a0
+Merdith, A. S., Collins, A. S., Williams, S. E., Pisarevsky, S., Foden, J. D., Archibald, D. B., et al. (2017). A full-plate global reconstruction of
+the Neoproterozoic. Gondwana Research, 50, 84–134. https://doi.org/10.1016/j.gr.2017.04.001
+Meyers, S. R., Siewert, S. E., Singer, B. S., Sageman, B. B., Condon, D. J., Obradovich, J. D., et al. (2012). Intercalibration of radioisotopic and
+astrochronologic time scales for the Cenomanian-Turonian boundary interval, western Interior Basin, USA. Geology, 40, 7–10. https://
+doi.org/10.1130/g32261.1
+Michalski, K., Lewandowski, M., & Manby, G. (2011). New paleomagnetic, petrographic and 40Ar/39Ar data to test palaeogeographic recon-
+structions of Caledonide Svalbard. Geological Magazine, 149, 696–721. https://doi.org/10.1017/s0016756811000835
+Mitrovica, J. X., Wahr, J., Matsuyama, I., & Paulson, A. (2005). The rotational stability of an ice-age earth. Geophysical Journal Internation-
+al, 161, 491–506. https://doi.org/10.1111/j.1365-246x.2005.02609.x
+Mound, J. E., Mitrovica, J. X., Evans, D. A. D., & Kirschvink, J. L. (1999). A sea-level test for inertial interchange true polar wander events.
+Geophysical Journal International, 136, F5–F10. https://doi.org/10.1046/j.1365-246x.1999.00791.x
+Niu, J., Li, Z.-X., & Zhu, W. (2016). Palaeomagnetism and geochronology of mid-Neoproterozoic Yanbian dykes, south China: Implications
+for a c. 820–800 Ma true polar wander event and the reconstruction of Rodinia. Geological Society, London, Special Publications, 424,
+191–211. https://doi.org/10.1144/SP424.11
+Parés, J. M. (2015). Sixty years of anisotropy of magnetic susceptibility in deformed sedimentary rocks. Frontiers in Earth Science, 3, 4.
+https://doi.org/10.3389/feart.2015.00004
+Parés, J. M., van der Pluijm, B. A., & Dinarès-Turell, J. (1999). Evolution of magnetic fabrics during incipient deformation of mudrocks
+(Pyrenees, northern Spain). Tectonophysics, 307, 1–14. https://doi.org/10.1016/s0040-1951(99)00115-8
+Park, Y., Swanson-Hysell, N. L., MacLennan, S. A., Maloof, A. C., Gebreslassie, M., Tremblay, M. M., et al. (2020). The lead-up to the
+Sturtian Snowball Earth: Neoproterozoic chemostratigraphy time-calibrated by the Tambien Group of Ethiopia. GSA Bulletin, 132,
+1119–1149. https://doi.org/10.1130/b35178.1
+Pi, D.-H., & Jiang, S.-Y. (2016). U-Pb dating of zircons from tuff layer, sandstone and tillite samples in the uppermost Liantuo Formation
+and the lowermost Nantuo Formation in Three Gorges Area, south China. Chemie der Erde–Geochemistry, 76, 103–109. https://doi.
+org/10.1016/j.chemer.2015.12.003
+Pisarevsky, S. A., Gladkochub, D. P., Konstantinov, K. M., Mazukabzov, A. M., Stanevich, A. M., Murphy, J. B., et al. (2013). Paleomagne-
+tism of Cryogenian Kitoi mafic dykes in South Siberia: Implications for Neoproterozoic paleogeography. Precambrian Research, 231,
+372–382. https://doi.org/10.1016/j.precamres.2013.04.007
+Pisarevsky, S. A., Wingate, M. T. D., Stevens, M. K., & Haines, P. W. (2007). Palaeomagnetic results from the Lancer 1 stratigraphic drillhole,
+officer basin, western Australia, and implications for Rodinia reconstructions. Australian Journal of Earth Sciences, 54, 561–572. https://
+doi.org/10.1080/08120090701188962
+Qi, L., Cawood, P. A., Xu, Y., Du, Y., Zhang, H., & Zhang, Z. (2020). Linking south China to North India from the late Tonian to Ediacaran:
+Constraints from the Cathaysia block. Precambrian Research, 350, 105898. https://doi.org/10.1016/j.precamres.2020.105898
+Qi, L., Xu, Y., Cawood, P. A., Wang, W., & Du, Y. (2019). Implications of 770 Ma rhyolitic tuffs, eastern south China Craton in constraining
+the tectonic setting of the Nanhua Basin. Lithos, 324–325, 842–858. https://doi.org/10.1016/j.lithos.2018.12.004
+Ricard, Y., Spada, G., & Sabadini, R. (1993). Polar wandering of a dynamic earth. Geophysical Journal International, 113, 284–298. https://
+doi.org/10.1111/j.1365-246x.1993.tb00888.x
+Sdrolias, M., & Müller, R. D. (2006). Controls on back-arc basin formation. Geochemistry, Geophysics, Geosystems, 7, Q04016. https://doi.
+org/10.1029/2005GC001090
+Shen, Z., Fang, D., Wang, P., Tan, X., & Wang, Z. (1999). Paleomagnetism of early Triassic Daye formation and its tectonic implications.
+Chinese Science Bulletin, 44, 412–418. https://doi.org/10.1007/bf02977877
+Spada, G., Ricard, Y., & Sabadini, R. (1992). Excitation of true polar wander by subduction. Nature, 360, 452–454. https://doi.
+org/10.1038/360452a0
+Steinberger, B., & O’Connell, R. J. (1997). Changes of the Earth's rotation axis owing to advection of mantle density heterogeneities. Nature,
+387, 169–173. https://doi.org/10.1038/387169a0
+Steinberger, B., & Torsvik, T. H. (2008). Absolute plate motions and true polar wander in the absence of hotspot tracks. Nature, 452,
+620–623. https://doi.org/10.1038/nature06824
+Steinberger, B., & Torsvik, T. H. (2010). Toward an explanation for the present and past locations of the poles. Geochemistry, Geophysics,
+Geosystems, 11, Q06W06. https://doi.org/10.1029/2009GC002889
+Swanson-Hysell, N. L., Fairchild, L. M., & Slotznick, S. P. (2019). Primary and secondary red bed magnetization constrained by fluvial
+intraclasts. Journal of Geophysical Research: Solid Earth, 124, 4276–4289. https://doi.org/10.1029/2018JB017067
+Swanson-Hysell, N. L., Maloof, A. C., Condon, D. J., Jenkin, G. R. T., Alene, M., Tremblay, M. M., et al. (2015). Stratigraphy and geochro-
+nology of the Tambien Group, Ethiopia: Evidence for globally synchronous carbon isotope change in the Neoproterozoic. Geology, 43,
+323–326. https://doi.org/10.1130/G36347.1
+Swanson-Hysell, N. L., Maloof, A. C., Kirschvink, J. L., Evans, D. A. D., Halverson, G. P., & Hurtgen, M. T. (2012). Constraints on Neopro-
+terozoic paleogeography and paleozoic orogenesis from paleomagnetic records of the Bitter Springs formation, Amadeus basin, central
+Australia. American Journal of Science, 312, 817–884. https://doi.org/10.2475/08.2012.01
+Swanson-Hysell, N. L., Vaughan, A. A., Mustain, M. R., & Asp, K. E. (2014). Confirmation of progressive plate motion during the Midconti-
+nent Rift's early magmatic stage from the Osler Volcanic Group, Ontario, Canada. Geochemistry, Geophysics, Geosystems, 15, 2039–2047.
+https://doi.org/10.1002/2013GC005180
+PARK ET AL. 28 of 29
+21699356,
+2021,
+6,
+Downloaded
+from
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JB021541
+by
+Readcube-Labtiva,
+Wiley
+Online
+Library
+on
+[05/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+### page_29
+Journal of Geophysical Research: Solid Earth 10.1029/2020JB021541
+Tauxe, L. (2005). Inclination flattening and the geocentric axial dipole hypothesis. Earth and Planetary Science Letters, 233, 247–261.
+https://doi.org/10.1016/j.epsl.2005.01.027
+Tauxe, L., & Kent, D. V. (1984). Properties of a detrital remanence carried by haematite from study of modern river deposits and laboratory
+redeposition experiments. Geophysical Journal International, 76, 543–561. https://doi.org/10.1111/j.1365-246X.1984.tb01909.x
+Tauxe, L., Shaar, R., Jonestrask, L., Swanson-Hysell, N. L., Minnett, R., Koppers, A. A. P., et al. (2016). PmagPy: Software package for paleo-
+magnetic data analysis and a bridge to the magnetics information consortium (MagIC) database. Geochemistry, Geophysics, Geosystems,
+17, 2450–2463. https://doi.org/10.1002/2016GC006307
+Tauxe, L., & Watson, G. S. (1994). The fold test: An eigen analysis approach. Earth and Planetary Science Letters, 122, 331–341. https://doi.
+org/10.1016/0012-821x(94)90006-x
+Tohver, E., Weil, A. B., Solum, J. G., & Hall, C. M. (2008). Direct dating of carbonate remagnetization by 40Ar/39Ar analysis of the smec-
+tite-illite transformation. Earth and Planetary Science Letters, 274, 524–530. https://doi.org/10.1016/j.epsl.2008.08.002
+Torsvik, T. H., & Cocks, L. R. M. (2016). Earth history and paleogeography. Cambridge: Cambridge University Press. https://doi.
+org/10.1017/9781316225523
+Torsvik, T. H., Van der Voo, R., Preeden, U., Mac Niocaill, C., Steinberger, B., Doubrovine, P. V., et al. (2012). Phanerozoic polar wander,
+paleogeography and dynamics. Earth-Science Reviews, 114, 325–368. https://doi.org/10.1016/j.earscirev.2012.06.007
+Tsai, V. C., & Stevenson, D. J. (2007). Theoretical constraints on true polar wander. Journal of Geophysical Research, 112, B05415. https://
+doi.org/10.1029/2005JB003923
+Van Der Voo, R., & Torsvik, T. H. (2012). The history of remagnetization of sedimentary rocks: Deceptions, developments and discoveries.
+Geological Society, London, Special Publications, 371, 23–53. https://doi.org/10.1144/sp371.2
+van Hinsbergen, D. J. J., Steinberger, B., Doubrovine, P. V., & Gassmöller, R. (2011). Acceleration and deceleration of India-Asia conver-
+gence since the Cretaceous: Roles of mantle plumes and continental collision. Journal of Geophysical Research, 116, B06101. https://
+doi.org/10.1029/2010JB008051
+Veevers, J. J., & Eittreim, S. L. (1988). Reconstruction of Antarctica and Australia at breakup (95 ± 5 Ma) and before rifting (160 Ma).
+Australian Journal of Earth Sciences, 35, 355–362. https://doi.org/10.1080/08120098808729453
+Wang, J., & Li, Z.-X. (2003). History of Neoproterozoic rift basins in south China: Implications for Rodinia break-up. Precambrian Research,
+122, 141–158. https://doi.org/10.1016/S0301-9268(02)00209-7
+Wang, M., Dai, C., Chen, J., Wang, X., & Ma, H. (2016). Neoproterozoic geochronologic framework of magmatism in Fanjingshan area and
+its tectonic implications. Geology in China, 43, 843–856.
+Wang, M., Dai, C., Wang, X., Ma, H., Peng, C., & Yang, K. (2012). Sedimentation age of the Fanjingshan Group in East Guizhou province:
+Evidence from in-situ zircon LA-ICP-MS U–Pb dating. Acta Petrologica et Mineralogica, 31, 843–857.
+Wang, T., Zhang, S., & Ramezani, J. (2016). Age recalibration of the Xiaofeng Dykes, south China, and its implications for true polar wan-
+der at 820 Ma. Acta Geologica Sinica—English Edition, 90, 47. https://doi.org/10.1111/1755-6724.12878
+Wang, W.∼, Zhao, J.-H., Zhou, M.-F., Yang, S.-H., & Chen, F.-K. (2014). Neoproterozoic mafic-ultramafic intrusions from the Fanjingshan
+region, south China: Implications for subduction-related magmatism in the Jiangnan Fold Belt. The Journal of Geology, 122, 455–473.
+https://doi.org/10.1086/676596
+Weil, A. B., Geissman, J. W., & Ashby, J. M. (2006). A new paleomagnetic pole for the Neoproterozoic Uinta Mountain supergroup, central
+Rocky Mountain States, USA. Precambrian Research, 147, 234–259. https://doi.org/10.1016/j.precamres.2006.01.017
+Wei, Y., Peng, S., Jiang, X., Peng, Z., Peng, L., Li, Z., et al. (2012). SHRIMP zircon U-Pb ages and geochemical characteristics of the Neopro-
+terozoic granitoids in the Huangling anticline and its tectonic setting. Journal of Earth Sciences, 23, 659–676. https://doi.org/10.1007/
+s12583-012-0284-z
+Wingate, M. T. D., & Giddings, J. W. (2000). Age and palaeomagnetism of the Mundine Well dyke swarm, Western Australia: Implications
+for an Australia-Laurentia connection at 755 Ma. Precambrian Research, 100, 335–357. https://doi.org/10.1016/S0301-9268(99)00080-7
+Xian, H., Zhang, S., Li, H., Yang, T., & Wu, H. (2020). Geochronological and palaeomagnetic investigation of the Madiyi Formation,
+lower Banxi Group, south China: Implications for Rodinia reconstruction. Precambrian Research, 336, 105494–105513. https://doi.
+org/10.1016/j.precamres.2019.105494
+Xiong, G., Wang, J., Wu, H., Zhang, H., Yu, Q., Yan, J., et al. (2014). Trace element and REE geochemistry of the Ediacaran Doushantuo For-
+mation from Fanjingshan area, northeast Guizhou province, China. Carbonates and Evaporites, 29, 363–394. https://doi.org/10.1007/
+s13146-014-0217-2
+Yan, C., Shu, L., Faure, M., Chen, Y., & Huang, R. (2019). Time constraints on the closure of the Paleo-south China Ocean and the Neo-
+proterozoic assembly of the Yangtze and Cathaysia blocks: Insight from new detrital zircon analyses. Gondwana Research, 73, 175–189.
+https://doi.org/10.1016/j.gr.2019.03.018
+Yao, J., Cawood, P. A., Shu, L., & Zhao, G. (2019). Jiangnan Orogen, south China: A 970–820 Ma Rodinia margin accretionary belt.
+Earth-Science Reviews, 196, 102872. https://doi.org/10.1016/j.earscirev.2019.05.016 ∼
+Zahirovic, S., Müller, R. D., Seton, M., & Flament, N. (2015). Tectonic speed limits from plate kinematic reconstructions. Earth and Plane-
+tary Science Letters, 418, 40–52. https://doi.org/10.1016/j.epsl.2015.02.037
+Zahirovic, S., Müller, R. D., Seton, M., Flament, N., Gurnis, M., & Whittaker, J. (2012). Insights on the kinematics of the India-Eurasia
+collision from global geodynamic models. Geochemistry, Geophysics, Geosystems, 13, Q04W11. https://doi.org/10.1029/2011GC003883
+Zhang, J., Ye, T., Dai, Y., Chen, J., Zhang, H., Dai, C., et al. (2019). Provenance and tectonic setting transition as recorded in the Ne-
+oproterozoic strata, western Jiangnan Orogen: Implications for south China within Rodinia. Geoscience Frontiers, 10, 1823–1839.
+https://doi.org/10.1016/j.gsf.2018.10.009
+Zhang, S., Evans, D. A. D., Li, H., Wu, H., Jiang, G., Dong, J., et al. (2013). Paleomagnetism of the late Cryogenian Nantuo formation
+and paleogeographic implications for the south China Block. Journal of Asian Earth Sciences, 72, 164–177. https://doi.org/10.1016/j.
+jseaes.2012.11.022
+Zhao, J.-H., Zhou, M.-F., Yan, D.-P., Zheng, J.-P., & Li, J.-W. (2011). Reappraisal of the ages of Neoproterozoic strata in south China: No
+connection with the Grenvillian orogeny. Geology, 39, 299–302. https://doi.org/10.1130/g31701.1
+Zheng, L., Yang, Z., Tong, Y., & Yuan, W. (2010). Magnetostratigraphic constraints on two-stage eruptions of the Emeishan continental
+flood basalts. Geochemistry, Geophysics, Geosystems, 11, Q12014. https://doi.org/10.1029/2010GC003267
+Zhou, J.-C., Wang, X.-L., & Qiu, J.-S. (2009). Geochronology of Neoproterozoic mafic rocks and sandstones from northeastern Guizhou, south
+China: Coeval arc magmatism and sedimentation. Precambrian Research, 170, 27–42. https://doi.org/10.1016/j.precamres.2008.11.002
+Zhu, R. X., Potts, R., Pan, Y. X., Lü, L. Q., Yao, H. T., Deng, C. L., & Qin, H. F. (2008). Paleomagnetism of the Yuanmou basin near the south-
+eastern margin of the Tibetan Plateau and its constraints on late Neogene sedimentation and tectonic rotation. Earth and Planetary
+Science Letters, 272, 97–104. https://doi.org/10.1016/j.epsl.2008.04.016
+PARK ET AL. 29 of 29
+21699356,
+2021,
+6,
+Downloaded
+from
+https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JB021541
+by
+Readcube-Labtiva,
+Wiley
+Online
+Library
+on
+[05/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License

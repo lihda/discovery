@@ -1,0 +1,218 @@
+{
+  "schema_version": "r3_own_study_feature_candidate_freeze_v1",
+  "status": "frozen_before_label_access",
+  "allowed_inputs": [
+    "REFNO/RESULTNO/ROCKNAME identity",
+    "original-paper page cache",
+    "frozen taxonomy",
+    "frozen positive expert KB"
+  ],
+  "forbidden_inputs_not_read": [
+    "R3 labels",
+    "PMAGRESULT",
+    "ROCKMAG cells",
+    "prior predictions",
+    "prior evaluations"
+  ],
+  "rows": 2172,
+  "paper_groups": 1174,
+  "candidate_spec": {
+    "sections": [
+      "abstract",
+      "introduction",
+      "methods",
+      "results",
+      "discussion",
+      "conclusion",
+      "references",
+      "unknown"
+    ],
+    "categories": [
+      "method",
+      "diagnostic",
+      "carrier",
+      "other"
+    ],
+    "target_radii_characters": [
+      180,
+      500,
+      1200
+    ],
+    "episode_gap_characters": 800,
+    "strong_score_threshold": 6,
+    "likely_score_threshold": 3,
+    "article_feature_names": [
+      "article_event_count_log",
+      "article_own_strong_count_log",
+      "article_own_likely_count_log",
+      "article_external_count_log",
+      "article_own_strong_ratio",
+      "article_external_ratio",
+      "article_event_density_10k",
+      "article_strong_density_10k",
+      "article_distinct_concepts_log",
+      "article_distinct_own_concepts_log",
+      "article_max_event_score",
+      "article_positive_score_sum_log",
+      "article_first_person_count_log",
+      "article_first_person_ratio",
+      "article_passive_execution_count_log",
+      "article_passive_execution_ratio",
+      "article_procedure_count_log",
+      "article_procedure_ratio",
+      "article_result_verb_count_log",
+      "article_result_verb_ratio",
+      "article_quantitative_count_log",
+      "article_quantitative_ratio",
+      "article_figure_table_count_log",
+      "article_figure_table_ratio",
+      "article_sample_count_log",
+      "article_sample_ratio",
+      "article_citation_count_log",
+      "article_citation_ratio",
+      "article_external_attribution_count_log",
+      "article_external_attribution_ratio",
+      "article_definition_count_log",
+      "article_definition_ratio",
+      "article_future_count_log",
+      "article_future_ratio",
+      "article_method_negation_count_log",
+      "article_method_negation_ratio",
+      "article_section_abstract_count_log",
+      "article_section_abstract_strong_log",
+      "article_section_abstract_external_log",
+      "article_section_introduction_count_log",
+      "article_section_introduction_strong_log",
+      "article_section_introduction_external_log",
+      "article_section_methods_count_log",
+      "article_section_methods_strong_log",
+      "article_section_methods_external_log",
+      "article_section_results_count_log",
+      "article_section_results_strong_log",
+      "article_section_results_external_log",
+      "article_section_discussion_count_log",
+      "article_section_discussion_strong_log",
+      "article_section_discussion_external_log",
+      "article_section_conclusion_count_log",
+      "article_section_conclusion_strong_log",
+      "article_section_conclusion_external_log",
+      "article_section_references_count_log",
+      "article_section_references_strong_log",
+      "article_section_references_external_log",
+      "article_section_unknown_count_log",
+      "article_section_unknown_strong_log",
+      "article_section_unknown_external_log",
+      "article_category_method_count_log",
+      "article_category_method_strong_log",
+      "article_category_method_external_log",
+      "article_category_diagnostic_count_log",
+      "article_category_diagnostic_strong_log",
+      "article_category_diagnostic_external_log",
+      "article_category_carrier_count_log",
+      "article_category_carrier_strong_log",
+      "article_category_carrier_external_log",
+      "article_category_other_count_log",
+      "article_category_other_strong_log",
+      "article_category_other_external_log",
+      "article_episode_count_log",
+      "article_strong_episode_count_log",
+      "article_likely_episode_count_log",
+      "article_external_only_episode_count_log",
+      "article_method_chain_episode_count_log",
+      "article_strong_method_chain_episode_count_log"
+    ],
+    "target_feature_names": [
+      "target_mention_count_log",
+      "target_r180_event_count_log",
+      "target_r180_strong_count_log",
+      "target_r180_likely_count_log",
+      "target_r180_external_count_log",
+      "target_r180_method_count_log",
+      "target_r180_method_strong_log",
+      "target_r180_diagnostic_count_log",
+      "target_r180_diagnostic_strong_log",
+      "target_r180_carrier_count_log",
+      "target_r180_carrier_strong_log",
+      "target_r180_other_count_log",
+      "target_r180_other_strong_log",
+      "target_r500_event_count_log",
+      "target_r500_strong_count_log",
+      "target_r500_likely_count_log",
+      "target_r500_external_count_log",
+      "target_r500_method_count_log",
+      "target_r500_method_strong_log",
+      "target_r500_diagnostic_count_log",
+      "target_r500_diagnostic_strong_log",
+      "target_r500_carrier_count_log",
+      "target_r500_carrier_strong_log",
+      "target_r500_other_count_log",
+      "target_r500_other_strong_log",
+      "target_r1200_event_count_log",
+      "target_r1200_strong_count_log",
+      "target_r1200_likely_count_log",
+      "target_r1200_external_count_log",
+      "target_r1200_method_count_log",
+      "target_r1200_method_strong_log",
+      "target_r1200_diagnostic_count_log",
+      "target_r1200_diagnostic_strong_log",
+      "target_r1200_carrier_count_log",
+      "target_r1200_carrier_strong_log",
+      "target_r1200_other_count_log",
+      "target_r1200_other_strong_log",
+      "target_assigned_event_count_log",
+      "target_assigned_strong_count_log",
+      "target_assigned_external_count_log",
+      "target_local_strong_ratio",
+      "target_local_external_ratio",
+      "target_local_max_score",
+      "target_assigned_episode_count_log",
+      "target_assigned_strong_episode_count_log",
+      "target_assigned_chain_episode_count_log"
+    ],
+    "model_threshold": 0.5,
+    "cross_validation": "5-fold GroupKFold by REFNO"
+  },
+  "matrix_hashes": {
+    "base": {
+      "shape": [
+        2172,
+        162
+      ],
+      "sha256": "c09d29fbb61fc7ff34969843fc7025043b477a0f39fd2555c44680e3906a021d"
+    },
+    "own_only": {
+      "shape": [
+        2172,
+        124
+      ],
+      "sha256": "c1baf86dd390f655ab5255f8b261372f03cb5576d3b21466279835fa8a42470d"
+    },
+    "base_plus_target": {
+      "shape": [
+        2172,
+        208
+      ],
+      "sha256": "19c246c23337d91c1a186de2f00c60663d97b2b608d873cbc7b3b2c539e0cf78"
+    },
+    "base_plus_article": {
+      "shape": [
+        2172,
+        240
+      ],
+      "sha256": "40c9b02695be330d3ca1e5be59735ea7f747d0e42d3e256fd4f11da9fd399a89"
+    },
+    "base_plus_all": {
+      "shape": [
+        2172,
+        286
+      ],
+      "sha256": "4db781829512ced5baa9f4b4f57126eaaafdcf500d3fae99b416387abb4ec13f"
+    }
+  },
+  "input_hashes": {
+    "identity": "7e45020df48b866096ac4bf567102f6a73ce3c12759b19c8550f78de299c72f1",
+    "page_cache": "f8ec25c1148c04112ccfc75076743803417effbb833834a136c714dff4e146d7",
+    "taxonomy": "149df539a937678c8204aa6d6e60e77bd901e4a77975d26caa5362749aa18ad4",
+    "positive_kb": "b0fc28866fe6702938a7cc02fcf7b87b68abc9e3b4e391a53a53de1615b5e9ef"
+  }
+}

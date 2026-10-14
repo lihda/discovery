@@ -1,0 +1,1390 @@
+{
+  "artifacts": {
+    "candidate_artifact": {
+      "identity_rows": 2172,
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_source_label_conflict_audit/source_evidence_candidates.jsonl",
+      "sha256": "5927af212f6cbca9fa79ac72e033e6b402afc28430e08cb4c646fbca6b833ca7",
+      "target_candidates": 1903
+    },
+    "candidate_receipt": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_source_label_conflict_audit/candidate_freeze_receipt.json",
+      "sha256": "e507aa26e7bbff6d25956a59731931bff126a924061342cf1bf16e92f1dc83f2"
+    },
+    "output_json": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_source_label_conflict_audit/audit.json",
+    "output_markdown": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_source_label_conflict_audit/audit.md",
+    "script": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/audit_r3_source_label_conflict_ceiling.py",
+      "sha256": "521d0ded4abc34531ff58f3e0527bb269d8b94d49428e7c3f0462e7cd0db6573"
+    }
+  },
+  "audit": {
+    "coarse_semantic_signature_diagnostic": {
+      "interpretation": "Coarse evidence-signature diagnostic only. It is not an unavoidable-error bound because target text and other source details are intentionally omitted.",
+      "majority_accuracy": 0.73526703,
+      "majority_error_count": 575,
+      "mixed_label_groups": 42,
+      "semantic_signature_groups": 523
+    },
+    "criterion_logic_audit": {
+      "assessment": "A manually confirmed complete source chain with gold R3=0 conflicts with the uploaded criterion's positive condition. Gold R3=1 without a recovered complete chain is unresolved rather than a logical contradiction because the extractor may have missed evidence and historical practice may use a weaker ROCKMAG-style proxy.",
+      "gold_one_without_complete_frozen_chain": 1343,
+      "potential_direct_logical_conflict_rate": 0.00138122,
+      "potential_direct_logical_conflicts": 3
+    },
+    "empirical_conflict_flags": {
+      "gold_one_but_incomplete_frozen_criterion_chain": {
+        "denominator_rows": 1368,
+        "rate": 0.98172515,
+        "rows": 1343
+      },
+      "gold_one_but_no_frozen_proxy_candidate": {
+        "denominator_rows": 1368,
+        "rate": 0.88377193,
+        "rows": 1209
+      },
+      "gold_one_but_no_high_confidence_proxy": {
+        "denominator_rows": 1368,
+        "rate": 0.9627193,
+        "rows": 1317
+      },
+      "high_confidence_complete_criterion_chain_but_gold_zero": {
+        "denominator_rows": 2172,
+        "rate": 0.00138122,
+        "rows": 3
+      },
+      "high_confidence_proxy_support_but_gold_zero": {
+        "denominator_rows": 2172,
+        "rate": 0.00322284,
+        "rows": 7
+      },
+      "interpretation": {
+        "gold_one_no_candidate": "Frozen retrieval/extraction misses or possible criterion-practice mismatch; absence of a recovered candidate is not evidence that the paper lacks evidence.",
+        "support_gold_zero": "Empirical conflict candidates requiring manual confirmation of target binding and own-study scope; not automatically proven label errors."
+      }
+    },
+    "near_duplicate_opposite_label_pairs": {
+      "method": "same frozen semantic signature and bottom-k five-token shingle sketch overlap >= 0.55; review heuristic, not a mathematical equivalence relation",
+      "pair_count_retained": 3,
+      "pairs": [
+        {
+          "left": {
+            "label": 0,
+            "refno": "252",
+            "resultnos": [
+              "2524"
+            ],
+            "review_quotes": [
+              {
+                "kind": "paragraph",
+                "page": "7",
+                "scope_id": "0c9a469b5d8f34650559b20d",
+                "text": "When laboratory TRMs are imposed on those samples (Fig. 5) they acquire a moment which is one to two orders of magnitude greater than the total NRM. The TRMs also show an approximately exponential fall in their moments with demagneti- zation which in nearly all cases is more dramatic than the NRM, and is commensurate with their being held by a range of domain sizes (Stacey 1963). This cannot be used to infer much about the carrier of the original NRM since all the specimens were observed to undergo an oxidation on heating and it may be expected that single domain material was generated during the experiment. The demagnetization characteristic",
+                "text_sha256": "0c9a469b5d8f34650559b20d1ac7eed4b998cdf8dbea9214f289b2d8380fab7c"
+              }
+            ],
+            "rocknames": [
+              "Dolerite dyke, Obuasi"
+            ]
+          },
+          "right": {
+            "label": 1,
+            "refno": "252",
+            "resultnos": [
+              "2522"
+            ],
+            "review_quotes": [
+              {
+                "kind": "paragraph",
+                "page": "7",
+                "scope_id": "0c9a469b5d8f34650559b20d",
+                "text": "When laboratory TRMs are imposed on those samples (Fig. 5) they acquire a moment which is one to two orders of magnitude greater than the total NRM. The TRMs also show an approximately exponential fall in their moments with demagneti- zation which in nearly all cases is more dramatic than the NRM, and is commensurate with their being held by a range of domain sizes (Stacey 1963). This cannot be used to infer much about the carrier of the original NRM since all the specimens were observed to undergo an oxidation on heating and it may be expected that single domain material was generated during the experiment. The demagnetization characteristic",
+                "text_sha256": "0c9a469b5d8f34650559b20d1ac7eed4b998cdf8dbea9214f289b2d8380fab7c"
+              }
+            ],
+            "rocknames": [
+              "Obuasi Greenstone"
+            ]
+          },
+          "semantic_signature": "003b4f24d23e3ab7103b1d2478d2af32327341f046bf216d4cf6aaa8c35b39ad",
+          "sketch_overlap": 1.0
+        },
+        {
+          "left": {
+            "label": 0,
+            "refno": "3613",
+            "resultnos": [
+              "9148"
+            ],
+            "review_quotes": [
+              {
+                "kind": "paragraph",
+                "page": "7",
+                "scope_id": "2c076afeb16029f9e3ba84a5",
+                "text": "After this LTC, the high temperature component (HTC) unblocks between 450 and 590 uC (Fig. 3). This temperature range, together with the low-coercivity minerals evidenced by the isothermal remanent magnetization (IRM) acquisition curves (Fig. 3b), shows that magnetite is the most likely carrier of this component. This HTC could be isolated in only 50 per cent of the samples. About 50 per cent of the rest of the samples displayed remagnetization great circles, and the McFadden & McElhinny (1988) statistics were used to determine the site-mean directions of the HTC.",
+                "text_sha256": "2c076afeb16029f9e3ba84a5a274f6c6c6a2b45b075c7b486e2f117229ee6b15"
+              }
+            ],
+            "rocknames": [
+              "Badin Formation"
+            ]
+          },
+          "right": {
+            "label": 1,
+            "refno": "3613",
+            "resultnos": [
+              "9146"
+            ],
+            "review_quotes": [
+              {
+                "kind": "paragraph",
+                "page": "7",
+                "scope_id": "2c076afeb16029f9e3ba84a5",
+                "text": "After this LTC, the high temperature component (HTC) unblocks between 450 and 590 uC (Fig. 3). This temperature range, together with the low-coercivity minerals evidenced by the isothermal remanent magnetization (IRM) acquisition curves (Fig. 3b), shows that magnetite is the most likely carrier of this component. This HTC could be isolated in only 50 per cent of the samples. About 50 per cent of the rest of the samples displayed remagnetization great circles, and the McFadden & McElhinny (1988) statistics were used to determine the site-mean directions of the HTC.",
+                "text_sha256": "2c076afeb16029f9e3ba84a5a274f6c6c6a2b45b075c7b486e2f117229ee6b15"
+              }
+            ],
+            "rocknames": [
+              "Shadaron Formation"
+            ]
+          },
+          "semantic_signature": "03fc3335f93ea3bb6d5e4512de66ef250d3e9a7352c36973d1f7ce7efc85e601",
+          "sketch_overlap": 1.0
+        },
+        {
+          "left": {
+            "label": 0,
+            "refno": "3463",
+            "resultnos": [
+              "8817"
+            ],
+            "review_quotes": [
+              {
+                "kind": "paragraph",
+                "page": "16",
+                "scope_id": "55650624213b981e65a7a016",
+                "text": "well-defined HT components show no or very limited pres- ence of MD magnetite (e.g. the High Valley andesite tuff, most of the Yuendoo Rhyolite, Kooringal Dacite, most of the Peri Rhyolite, Boomi Rhyolite, the Tycannah Rhyodacite, the Tops Ignimbrite, the Pine Cliffs Rhyolite and the Darthula Rhyodacite). The MD magnetite signature shows up more consistently in the volcaniclastic rocks (e.g. in the matrix of the conglomerate horizon in the Lark Hill Formation from the Tops Road section).",
+                "text_sha256": "55650624213b981e65a7a016b0be5a7f48bb4e527cc83f4edddadc48ea5acd68"
+              }
+            ],
+            "rocknames": [
+              "Kooringal Dacite"
+            ]
+          },
+          "right": {
+            "label": 1,
+            "refno": "3463",
+            "resultnos": [
+              "8821"
+            ],
+            "review_quotes": [
+              {
+                "kind": "paragraph",
+                "page": "24",
+                "scope_id": "5e3d7570216eb53d3929dbf0",
+                "text": "CLIFDEN FORMATION AND ROCKY CREEK CONGLOMERATE Tuff below the Glen Idle Rhyolite (site 22) Pole positions for the HT components (P0–P2) for this site fall on a great circle with the pole for the harder (500–580°C) P2 component close to the well-defined pole position for the Yuendoo Rhyolite. The IRM acquisition curve indicates the presence of MD magnetite. In the absence of a fold test it cannot be established whether this harder P2 component represents the primary magnetisation or a composite.",
+                "text_sha256": "5e3d7570216eb53d3929dbf05cf4ec1ff92c93660a5108445176165318abb823"
+              }
+            ],
+            "rocknames": [
+              "Rocky Creek Conglomerate"
+            ]
+          },
+          "semantic_signature": "dade0472adb6fcb42e8cc57baf41fe771d96c4ffd35b2f687de61a0237246d6f",
+          "sketch_overlap": 0.56097561
+        }
+      ]
+    },
+    "ninety_percent_target_context": {
+      "dominant_empirical_observation": "1209 of 1368 gold-positive rows have no candidate under the conservative frozen extractor",
+      "exact_representation_conflicts_alone_prevent_target": false,
+      "exact_representation_minimum_errors": 9,
+      "interpretation": "The exact mixed-label lower bound does not explain failure to reach 90%. The much larger no-candidate count identifies retrieval and target/component attribution as the observed bottleneck, but it remains an extractor-recall statistic rather than an all-source impossibility bound.",
+      "maximum_errors_at_or_above_target": 217,
+      "remaining_error_budget_after_exact_bound": 208,
+      "target_accuracy": 0.9
+    },
+    "population": {
+      "label_counts": {
+        "0": 804,
+        "1": 1368
+      },
+      "paper_groups": 1174,
+      "rows": 2172,
+      "target_candidates": 1903
+    },
+    "representation_specific_mathematical_bound": {
+      "accuracy_upper_bound": 0.99585635,
+      "error_rate_lower_bound": 0.00414365,
+      "limitation": "This is not a mathematical ceiling for all source-only systems. A richer source representation or a newly recovered component locator may separate rows that this frozen representation treats as identical.",
+      "minimum_unavoidable_errors": 9,
+      "mixed_representation_groups": 8,
+      "review_groups": [
+        {
+          "canonical_target": "iberian range sediments",
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "label_counts": {
+            "0": 4,
+            "1": 2
+          },
+          "minimum_errors_in_group": 2,
+          "proxy_support_status": "NO_FROZEN_CANDIDATE",
+          "refno": "2985",
+          "representation_fingerprint": "150185c26b60a791fe0ac512e93cfcb4c1898034d85704448be3c8be8ef7a27d",
+          "resultnos_by_label": {
+            "0": [
+              "7755",
+              "7756",
+              "7757",
+              "7758"
+            ],
+            "1": [
+              "8323",
+              "8324"
+            ]
+          },
+          "review_quotes": [],
+          "rocknames": [
+            "Iberian Range Sediments"
+          ]
+        },
+        {
+          "canonical_target": "duffer formation",
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "label_counts": {
+            "0": 1,
+            "1": 2
+          },
+          "minimum_errors_in_group": 1,
+          "proxy_support_status": "NO_FROZEN_CANDIDATE",
+          "refno": "1224",
+          "representation_fingerprint": "0d3478c222487060e78e557afce2d44ce593fe577cbcc33bf5c51aa7c915bd68",
+          "resultnos_by_label": {
+            "0": [
+              "184"
+            ],
+            "1": [
+              "182",
+              "183"
+            ]
+          },
+          "review_quotes": [
+            {
+              "kind": "paragraph",
+              "page": "1",
+              "scope_id": "2e921d23112c4c9854723260",
+              "text": "0148-0227/80/009B- 1706501.00 Columnar dacite from the Duffer Formation of the Warra- woona Group represents the rock type dated at 3452 Ma. It is a highly oxidized lava, and examination of polished sections shows that it is class 6 on the scale of Wilson and Watkins [1967]. The presence of pseudobrookite in association with ru- tile and hematite indicates high-temperature oxidation [Hag- gerty and Lindsley, 1969]. In view of the low-grade meta- morphism associated with these rocks the oxidation almost certainly took place during initial ooling. The magnetic min- erals have been oxidized very largely to hematite. In com- parison with more ty",
+              "text_sha256": "2e921d23112c4c985472326077702247cb475c98e279e8e114245e437db44c02"
+            }
+          ],
+          "rocknames": [
+            "Duffer Formation"
+          ]
+        },
+        {
+          "canonical_target": "devonian sediments",
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "label_counts": {
+            "0": 1,
+            "1": 1
+          },
+          "minimum_errors_in_group": 1,
+          "proxy_support_status": "NO_FROZEN_CANDIDATE",
+          "refno": "3032",
+          "representation_fingerprint": "23abe00d920379d2445856ae8dc6c1ed829c1e9e78d8e07100cc4d0be95a1c1c",
+          "resultnos_by_label": {
+            "0": [
+              "7823"
+            ],
+            "1": [
+              "7824"
+            ]
+          },
+          "review_quotes": [],
+          "rocknames": [
+            "Devonian Sediments"
+          ]
+        },
+        {
+          "canonical_target": "brive basin sediments",
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "label_counts": {
+            "0": 1,
+            "1": 1
+          },
+          "minimum_errors_in_group": 1,
+          "proxy_support_status": "NO_FROZEN_CANDIDATE",
+          "refno": "3144",
+          "representation_fingerprint": "9cd2598c465f9e82eac7f197e532cb2a32e3bf2dc3cb5aa34aa19f7353a566b6",
+          "resultnos_by_label": {
+            "0": [
+              "8188"
+            ],
+            "1": [
+              "9776"
+            ]
+          },
+          "review_quotes": [],
+          "rocknames": [
+            "Brive Basin Sediments"
+          ]
+        },
+        {
+          "canonical_target": "voronezh massif",
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "label_counts": {
+            "0": 1,
+            "1": 1
+          },
+          "minimum_errors_in_group": 1,
+          "proxy_support_status": "NO_FROZEN_CANDIDATE",
+          "refno": "3290",
+          "representation_fingerprint": "bfbe9b2584e1cab1e567c2e550bcc7686853a91ef16d55cee8171e69f437b4ff",
+          "resultnos_by_label": {
+            "0": [
+              "8456"
+            ],
+            "1": [
+              "8455"
+            ]
+          },
+          "review_quotes": [
+            {
+              "kind": "paragraph",
+              "page": "4",
+              "scope_id": "2a42fb0d73d602d40c7f097a",
+              "text": "haematite only as carriers of the magnetization. Susceptibility P10S1 all show a decrease in K above 400 ° C of 25–40 per cent, while no decrease was observed in specimen P16S2. Thisversus temperature results, measured after each heating– cooling step, are presented in Figs 3 and 4. Two types of is a further indication that haematite was formed during heating. In sample P16 the changes in NRM became irregularcurves were obtained: specimens P2–1 L, P4–2 L, P9S1 and Figure 3. Typical demagnetization results for granite (samples P2–1I, P4–2 L, P8–4 L) and quartz syenite (sample P16S2) from the Pavlovsk quarry; component A. Left: NRM-decay curves",
+              "text_sha256": "2a42fb0d73d602d40c7f097a9e0f3176a369b671b3b287d6cc118686a64abed3"
+            }
+          ],
+          "rocknames": [
+            "Voronezh Massif"
+          ]
+        },
+        {
+          "canonical_target": "tobacco root mountains dykes b",
+          "criterion_support_status": "MEDIUM_CONFIDENCE_DISTRIBUTED_CHAIN",
+          "label_counts": {
+            "0": 1,
+            "1": 1
+          },
+          "minimum_errors_in_group": 1,
+          "proxy_support_status": "MEDIUM_CONFIDENCE_LINKED",
+          "refno": "3695",
+          "representation_fingerprint": "ee4a77f0f2d751a0b91d5cb98cdfa5492d555db5cf586ed893b1d2def1f5f4ca",
+          "resultnos_by_label": {
+            "0": [
+              "9292"
+            ],
+            "1": [
+              "9293"
+            ]
+          },
+          "review_quotes": [
+            {
+              "kind": "paragraph",
+              "page": "13",
+              "scope_id": "093cbd7d594797776b724c1f",
+              "text": "Site-mean directions are generally well grouped as evidenced by Fisher (1953)k values that ranged from 17 to 244 andα95 val- ues of 3.6–16.2◦ (Table 2; Fig. 5A). Where multiple sites were collected from the same dike, the dike mean direction was cal- culated by averaging site-mean directions (three or more sites) or by averaging sample directions (only two sites). This gave what we interpret to be 14 independent recordings of the geo- magnetic ﬁeld ( Fig. 5B). The reverse and normal group-mean directions (D = 248.7 ◦, I = 63.5◦, k = 71.6,α95 = 8.0◦, N = 6 dike Fig. 6. Rock magnetic data from dikes from the southern Tobacco Root Mountains. (A)",
+              "text_sha256": "093cbd7d594797776b724c1fe2b24286fa4448b234091014f960a93d5e4d988d"
+            }
+          ],
+          "rocknames": [
+            "Tobacco Root Mountains Dykes B"
+          ]
+        },
+        {
+          "canonical_target": "modipe gabbro",
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "label_counts": {
+            "0": 1,
+            "1": 1
+          },
+          "minimum_errors_in_group": 1,
+          "proxy_support_status": "NO_FROZEN_CANDIDATE",
+          "refno": "3774",
+          "representation_fingerprint": "e4ef552e7fe167f5a05be466d88b7e99cd68ef2aa6b9138518f9da4e9de2df5d",
+          "resultnos_by_label": {
+            "0": [
+              "9410"
+            ],
+            "1": [
+              "9411"
+            ]
+          },
+          "review_quotes": [],
+          "rocknames": [
+            "Modipe Gabbro"
+          ]
+        },
+        {
+          "canonical_target": "big spruce complex",
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "label_counts": {
+            "0": 1,
+            "1": 1
+          },
+          "minimum_errors_in_group": 1,
+          "proxy_support_status": "NO_FROZEN_CANDIDATE",
+          "refno": "739",
+          "representation_fingerprint": "e0a26217d78b9b9ec5288e7f8f84f94e1d9cab1d8daef0878f8ff12a9b3fa4e1",
+          "resultnos_by_label": {
+            "0": [
+              "2403"
+            ],
+            "1": [
+              "2400"
+            ]
+          },
+          "review_quotes": [
+            {
+              "kind": "paragraph",
+              "page": "2",
+              "scope_id": "3629ff4d831748fd680f52c3",
+              "text": "Geology The Big Spruce Complex occurs about 140 km northwest of Yellowknife (Fig. 1). It intrudes Archean granitic and supracrustal rocks of the Slave Structural Province. Martineau and Lam- bert (1974) have shown that the northeastern part consists of silica-saturated layered diorites and gabbros intruded by magnetite-rich pyroxenites and a syenite ring dike (Fig. 2). The rest of the complex comprises silica-saturated and over- saturated syenites, and undersaturated foyaites and ijolites, which we refer to collectively as 'syenites'. There are local swarms of thin basic dikes and a carbonatite plug. Fenites are well developed about the margi",
+              "text_sha256": "3629ff4d831748fd680f52c39ba0173837ffcb076f08ea6226789a6d30d75aea"
+            }
+          ],
+          "rocknames": [
+            "Big Spruce Complex"
+          ]
+        }
+      ],
+      "rows_in_mixed_groups": 21,
+      "scope": "deterministic full-coverage classifiers restricted to the exact frozen representation fingerprint"
+    },
+    "review_examples": {
+      "complete_criterion_chain_gold_zero": [
+        {
+          "concept_signature": {
+            "carrier": [
+              "magnetite"
+            ],
+            "diagnostic": [
+              "curie_temperature",
+              "mineral_alteration_texture"
+            ],
+            "method": [
+              "irm_acquisition",
+              "unblocking_spectrum"
+            ]
+          },
+          "criterion_support_status": "HIGH_CONFIDENCE_COMPLETE_CHAIN",
+          "gold_r3": 0,
+          "proxy_support_status": "HIGH_CONFIDENCE_SAME_SCOPE",
+          "refno": "3106",
+          "resultno": "8126",
+          "review_quotes": [
+            {
+              "kind": "paragraph",
+              "page": "4",
+              "scope_id": "2429eb38b69e4bb077fbda2a",
+              "text": "Most samples show two components of magnetization (figure 3). The first, low-temperature component is removed by 500°C. The declinations for this component show considerable scatter between northwest and northeast with consistently shallow inclinations. We attribute this direction to a viscous overprint of recent origin superimposed on the ancient remanence. The second, hightemperature vector is directed to the northeast and shallow-up or to the southwest and shallow-down (figure 4; table 1). The southwest-down direction predominates in most samples and yields a mean direction of D = 244°, I = 20° (N = 28 samples, k = 20 α95 = 6°). The northe",
+              "text_sha256": "2429eb38b69e4bb077fbda2a18f454e6642051b3466a56d71b88e49a5d618654"
+            },
+            {
+              "kind": "figure_or_table_caption",
+              "page": "7",
+              "scope_id": "da2b5a45e4ae8a65fbebf1aa",
+              "text": "Figure 5. (a,b) Isothermal remanence acquisition (IRM) on two samples of the Sinyai metadolerite that show saturation near 0.4 Tesla and (c,d) Curie temperature analyses of Sinyai metadolerite samples that exhibit Curie temperatures near 590°C.",
+              "text_sha256": "da2b5a45e4ae8a65fbebf1aad458c79b19f1c283e8c47657480aa138020bc06d"
+            }
+          ],
+          "rocknames": [
+            "Sinyai Metadolerite"
+          ]
+        },
+        {
+          "concept_signature": {
+            "carrier": [
+              "hematite",
+              "maghemite",
+              "magnetite"
+            ],
+            "diagnostic": [
+              "curie_temperature"
+            ],
+            "method": [
+              "thermomagnetic_curve"
+            ]
+          },
+          "criterion_support_status": "HIGH_CONFIDENCE_COMPLETE_CHAIN",
+          "gold_r3": 0,
+          "proxy_support_status": "HIGH_CONFIDENCE_SAME_SCOPE",
+          "refno": "3166",
+          "resultno": "8230",
+          "review_quotes": [
+            {
+              "kind": "paragraph",
+              "page": "8",
+              "scope_id": "d19de69a275009d52324ac0b",
+              "text": "580øC, while AF demagnetization in peak fields up to 100 mT was not sufficient to demagnetize the ChRMs (Figure 4c). These demagnetization results suggest that hematite is the principal magnetic carrier. Pilot specimens from the other three sites showed unstable behavior of NRM in the demagnetization levels above about 400øC and/or 20 mT, although some of the specimens showed linear trends of vector endpoints which did not decay toward the origin of the diagrams below these demagnetization levels. Strong-field thermomagnetic curves up to 700øC (0.85 T in argon gas) of bulk samples from the Akasaki Group showed irreversible behavior in the tem",
+              "text_sha256": "d19de69a275009d52324ac0b72f11a110574b68adf33e000f8989e28c330b5bc"
+            }
+          ],
+          "rocknames": [
+            "Akasaki Group"
+          ]
+        },
+        {
+          "concept_signature": {
+            "carrier": [
+              "goethite",
+              "hematite"
+            ],
+            "diagnostic": [],
+            "method": [
+              "remanence_temperature_experiment"
+            ]
+          },
+          "criterion_support_status": "HIGH_CONFIDENCE_COMPLETE_CHAIN",
+          "gold_r3": 0,
+          "proxy_support_status": "HIGH_CONFIDENCE_SAME_SCOPE",
+          "refno": "3332",
+          "resultno": "8533",
+          "review_quotes": [
+            {
+              "kind": "paragraph",
+              "page": "3",
+              "scope_id": "d01742f080b20fd4cbd43da3",
+              "text": "No pervasive regional overprint was reported in either study. a small low-temperature component, most probably due to recent weathering, is visible in many specimens, it is prominentThe target of this study, the Elgee Formation, consists of purple siltstone and silty shale with minor quartz sandstone. enough to give a site mean direction for two of the seven sites only (Table 1). The unblocking temperature of the charac-In the sampling region, the formation is gently tilted with dip angles ranging between 8 °and 19 °. Although cleavages are teristic remanence is always above 600 °C, indicating haematite as the magnetic carrier. The low-temper",
+              "text_sha256": "d01742f080b20fd4cbd43da35c8681171963abf78618fd2df64b4cdfdbafc1da"
+            }
+          ],
+          "rocknames": [
+            "Elgee Formation"
+          ]
+        }
+      ],
+      "gold_one_no_frozen_candidate": [
+        {
+          "concept_signature": {
+            "carrier": [],
+            "diagnostic": [],
+            "method": []
+          },
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "gold_r3": 1,
+          "proxy_support_status": "NO_FROZEN_CANDIDATE",
+          "refno": "1089",
+          "resultno": "2146",
+          "review_quotes": [],
+          "rocknames": [
+            "Gowganda and Chibougamau Formations"
+          ]
+        },
+        {
+          "concept_signature": {
+            "carrier": [],
+            "diagnostic": [],
+            "method": []
+          },
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "gold_r3": 1,
+          "proxy_support_status": "NO_FROZEN_CANDIDATE",
+          "refno": "1142",
+          "resultno": "4",
+          "review_quotes": [],
+          "rocknames": [
+            "Ingleside Formation"
+          ]
+        },
+        {
+          "concept_signature": {
+            "carrier": [
+              "titanomagnetite"
+            ],
+            "diagnostic": [],
+            "method": [
+              "thermomagnetic_curve"
+            ]
+          },
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "gold_r3": 1,
+          "proxy_support_status": "NO_FROZEN_CANDIDATE",
+          "refno": "1145",
+          "resultno": "8",
+          "review_quotes": [
+            {
+              "kind": "paragraph",
+              "page": "1",
+              "scope_id": "a7c20098ffac3fae16a50be2",
+              "text": "University of Nairobi, PO Box 30197, Nairobi, Kenya Received 1978 December 1; in original form 1978 April 18 Summary. This paper reports a palaeomagnetic study of the lower Proterozoic granites, exposed in the western part of Kenya and dated at 2530 k 50 Ma (ARb = 1.39 x lO-\"yr-'). Ten sites out of 13 have yielded stable palaeo- magnetic directions which are believed to be primary. Polished section and thermomagnetic analyses indicate titanomagnetite grains as the main carrier of the primary component of the natural remanence. The mean palaeo- magnetic north pole is calculated at 2 10.7\" E, 60.9\" N with Ag5 = 13.5\".",
+              "text_sha256": "a7c20098ffac3fae16a50be2b89633c34cef42f1d45e81f99adf25f567050c3f"
+            }
+          ],
+          "rocknames": [
+            "Proterozoic granites"
+          ]
+        },
+        {
+          "concept_signature": {
+            "carrier": [
+              "hematite",
+              "ilmenite"
+            ],
+            "diagnostic": [],
+            "method": []
+          },
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "gold_r3": 1,
+          "proxy_support_status": "NO_FROZEN_CANDIDATE",
+          "refno": "1147",
+          "resultno": "16",
+          "review_quotes": [
+            {
+              "kind": "paragraph",
+              "page": "9",
+              "scope_id": "db58bd623c897c4aa2bc4bc7",
+              "text": "Douglas Peninsula Formation The Douglas Peninsula Formation, the lowest formation of the Pethei Group, occurs throughout the aulacogen and varies in thickness from 16-33 m (Hoffman 1968). The type section was sampled. It is 25 m thick and it is autochthonous (Hoffman er al. 1977). The rock is a thin-bedded, fissile, red marlstone, that is composed of small lenticles of pink or brown limestone in dark reddish-brown mudstone. The dominant opaque mineral is haematite, which occurs as a dusting on sedimentary grains, and as very fine blebs on sand grain boundaries. There are detrital grains of haematite, up to 50 pm in diameter. Haematite, leucox",
+              "text_sha256": "db58bd623c897c4aa2bc4bc7912fc79d1d0bceea90be08e39f48b4da0912c94f"
+            }
+          ],
+          "rocknames": [
+            "Douglas Peninsula Formation, Pethei Group"
+          ]
+        },
+        {
+          "concept_signature": {
+            "carrier": [
+              "hematite",
+              "ilmenite"
+            ],
+            "diagnostic": [],
+            "method": []
+          },
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "gold_r3": 1,
+          "proxy_support_status": "NO_FROZEN_CANDIDATE",
+          "refno": "1147",
+          "resultno": "17",
+          "review_quotes": [
+            {
+              "kind": "paragraph",
+              "page": "9",
+              "scope_id": "db58bd623c897c4aa2bc4bc7",
+              "text": "Douglas Peninsula Formation The Douglas Peninsula Formation, the lowest formation of the Pethei Group, occurs throughout the aulacogen and varies in thickness from 16-33 m (Hoffman 1968). The type section was sampled. It is 25 m thick and it is autochthonous (Hoffman er al. 1977). The rock is a thin-bedded, fissile, red marlstone, that is composed of small lenticles of pink or brown limestone in dark reddish-brown mudstone. The dominant opaque mineral is haematite, which occurs as a dusting on sedimentary grains, and as very fine blebs on sand grain boundaries. There are detrital grains of haematite, up to 50 pm in diameter. Haematite, leucox",
+              "text_sha256": "db58bd623c897c4aa2bc4bc7912fc79d1d0bceea90be08e39f48b4da0912c94f"
+            }
+          ],
+          "rocknames": [
+            "Douglas Peninsula Formation, Pethei Group"
+          ]
+        },
+        {
+          "concept_signature": {
+            "carrier": [],
+            "diagnostic": [],
+            "method": []
+          },
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "gold_r3": 1,
+          "proxy_support_status": "NO_FROZEN_CANDIDATE",
+          "refno": "1147",
+          "resultno": "19",
+          "review_quotes": [],
+          "rocknames": [
+            "Peninsular Sill"
+          ]
+        },
+        {
+          "concept_signature": {
+            "carrier": [],
+            "diagnostic": [],
+            "method": []
+          },
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "gold_r3": 1,
+          "proxy_support_status": "NO_FROZEN_CANDIDATE",
+          "refno": "1147",
+          "resultno": "14",
+          "review_quotes": [],
+          "rocknames": [
+            "Seton Formation, Kahochella Group"
+          ]
+        },
+        {
+          "concept_signature": {
+            "carrier": [],
+            "diagnostic": [],
+            "method": []
+          },
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "gold_r3": 1,
+          "proxy_support_status": "NO_FROZEN_CANDIDATE",
+          "refno": "1147",
+          "resultno": "15",
+          "review_quotes": [],
+          "rocknames": [
+            "Seton Formation, Kahochella Group"
+          ]
+        },
+        {
+          "concept_signature": {
+            "carrier": [],
+            "diagnostic": [],
+            "method": []
+          },
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "gold_r3": 1,
+          "proxy_support_status": "NO_FROZEN_CANDIDATE",
+          "refno": "1147",
+          "resultno": "18",
+          "review_quotes": [],
+          "rocknames": [
+            "Takiyuak Formation"
+          ]
+        },
+        {
+          "concept_signature": {
+            "carrier": [
+              "magnetite"
+            ],
+            "diagnostic": [],
+            "method": []
+          },
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "gold_r3": 1,
+          "proxy_support_status": "NO_FROZEN_CANDIDATE",
+          "refno": "1148",
+          "resultno": "20",
+          "review_quotes": [
+            {
+              "kind": "paragraph",
+              "page": "2",
+              "scope_id": "6f391366daa889c1ddcb1266",
+              "text": "This suggests that the primary magnetite of the quartz-magnetites had been remobilized and recrystallized during the second phase, which must be very intensive. The third event was characterized by the absence of any visible alteration and this is positively due to its lesser intensity.",
+              "text_sha256": "6f391366daa889c1ddcb12663bc072f62060a7f47272e5299ca0f726f0a20a2e"
+            },
+            {
+              "kind": "paragraph",
+              "page": "2",
+              "scope_id": "fe45dd484e5ca410e15d3171",
+              "text": "Three axial plane traces were observed in the folds of these rocks and suggest three phases of deformation and metamorphic activity in them. Petrographic studies indicated the presence of orthopyroxene as a primary metamorphic mineral, and secondary development of garnet and amphibole around ferrohypersthene margins and in the crushed zones (Subba Rao 1974). These lead to the interpretation that both the original ferruginous quartzites and granites were deposited together, and were involved in the initial stage of tectonism and metamorphism probably at 2590 Myr giving rise to quartz-magnetites and explaining the presence of orthopyroxene. The",
+              "text_sha256": "fe45dd484e5ca410e15d317111b5352c9d873852e4a2b60252da0a9e9b0d8fc9"
+            }
+          ],
+          "rocknames": [
+            "Quartz-magnetites"
+          ]
+        },
+        {
+          "concept_signature": {
+            "carrier": [],
+            "diagnostic": [],
+            "method": []
+          },
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "gold_r3": 1,
+          "proxy_support_status": "NO_FROZEN_CANDIDATE",
+          "refno": "1150",
+          "resultno": "23",
+          "review_quotes": [],
+          "rocknames": [
+            "Central Lewisian dykes"
+          ]
+        },
+        {
+          "concept_signature": {
+            "carrier": [],
+            "diagnostic": [],
+            "method": []
+          },
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "gold_r3": 1,
+          "proxy_support_status": "NO_FROZEN_CANDIDATE",
+          "refno": "1150",
+          "resultno": "24",
+          "review_quotes": [],
+          "rocknames": [
+            "Central Lewisian dykes"
+          ]
+        },
+        {
+          "concept_signature": {
+            "carrier": [],
+            "diagnostic": [],
+            "method": []
+          },
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "gold_r3": 1,
+          "proxy_support_status": "NO_FROZEN_CANDIDATE",
+          "refno": "1150",
+          "resultno": "25",
+          "review_quotes": [],
+          "rocknames": [
+            "Central Lewisian dykes"
+          ]
+        },
+        {
+          "concept_signature": {
+            "carrier": [],
+            "diagnostic": [],
+            "method": []
+          },
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "gold_r3": 1,
+          "proxy_support_status": "NO_FROZEN_CANDIDATE",
+          "refno": "1150",
+          "resultno": "26",
+          "review_quotes": [],
+          "rocknames": [
+            "Central Lewisian dykes"
+          ]
+        },
+        {
+          "concept_signature": {
+            "carrier": [
+              "hematite",
+              "iron_titanium_oxide",
+              "magnetite"
+            ],
+            "diagnostic": [
+              "coercivity_parameter"
+            ],
+            "method": [
+              "coercivity_backfield",
+              "thermomagnetic_curve"
+            ]
+          },
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "gold_r3": 1,
+          "proxy_support_status": "NO_FROZEN_CANDIDATE",
+          "refno": "1152",
+          "resultno": "29",
+          "review_quotes": [
+            {
+              "kind": "paragraph",
+              "page": "5",
+              "scope_id": "2bf309444774233e317f341b",
+              "text": "One or two specimens from most sites were leached in 10N HC1 following the technique of Park (1970). Specimens were immersed in the acid for a given time, washed in water, measured and then replaced in fresh acid. Measurements were made over a period of eight to nine weeks and typical results are shown in Fig. 4 and Table 2. During preferential removal of the soluble hematite pigment, the resultant NRM vector rotates from the direction of the total NRM toward an endpoint corresponding to the NRM of the insoluble specular hematite and magnetite fraction. This separation of the soluble and insoluble magnetic fractions is marked by a change of s",
+              "text_sha256": "2bf309444774233e317f341be4f4f4440e37b1d5dcada181407f9ef410e865b2"
+            },
+            {
+              "kind": "paragraph",
+              "page": "5",
+              "scope_id": "3642f4cbac4e8b67e363c06a",
+              "text": "One specimen from each site was progressively af demagnetized in peak fields up to 160mT. The NRM of the red shales and grits from Normandy, Jersey and central and southern Brittany generally decayed only slightly during af demagnetization and yielded endpoints close to the direction of total NRM (Fig. 3) as expected where specular hematite or hematite pigment is the dominant magnetic phase. In contrast, the arkoses are only slightly pigmented and show changes of NRM direction and intensity in low peak fields consistent with the presence of magnetite (Fig. 3 (d) and (9).",
+              "text_sha256": "3642f4cbac4e8b67e363c06ab72c06a2531ec6acf033bdf9b68b8cf73478e645"
+            }
+          ],
+          "rocknames": [
+            "Armorican redbeds"
+          ]
+        },
+        {
+          "concept_signature": {
+            "carrier": [
+              "hematite",
+              "iron_titanium_oxide",
+              "magnetite"
+            ],
+            "diagnostic": [
+              "coercivity_parameter"
+            ],
+            "method": [
+              "coercivity_backfield",
+              "thermomagnetic_curve"
+            ]
+          },
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "gold_r3": 1,
+          "proxy_support_status": "NO_FROZEN_CANDIDATE",
+          "refno": "1152",
+          "resultno": "30",
+          "review_quotes": [
+            {
+              "kind": "paragraph",
+              "page": "5",
+              "scope_id": "2bf309444774233e317f341b",
+              "text": "One or two specimens from most sites were leached in 10N HC1 following the technique of Park (1970). Specimens were immersed in the acid for a given time, washed in water, measured and then replaced in fresh acid. Measurements were made over a period of eight to nine weeks and typical results are shown in Fig. 4 and Table 2. During preferential removal of the soluble hematite pigment, the resultant NRM vector rotates from the direction of the total NRM toward an endpoint corresponding to the NRM of the insoluble specular hematite and magnetite fraction. This separation of the soluble and insoluble magnetic fractions is marked by a change of s",
+              "text_sha256": "2bf309444774233e317f341be4f4f4440e37b1d5dcada181407f9ef410e865b2"
+            },
+            {
+              "kind": "paragraph",
+              "page": "5",
+              "scope_id": "3642f4cbac4e8b67e363c06a",
+              "text": "One specimen from each site was progressively af demagnetized in peak fields up to 160mT. The NRM of the red shales and grits from Normandy, Jersey and central and southern Brittany generally decayed only slightly during af demagnetization and yielded endpoints close to the direction of total NRM (Fig. 3) as expected where specular hematite or hematite pigment is the dominant magnetic phase. In contrast, the arkoses are only slightly pigmented and show changes of NRM direction and intensity in low peak fields consistent with the presence of magnetite (Fig. 3 (d) and (9).",
+              "text_sha256": "3642f4cbac4e8b67e363c06ab72c06a2531ec6acf033bdf9b68b8cf73478e645"
+            }
+          ],
+          "rocknames": [
+            "Armorican redbeds"
+          ]
+        },
+        {
+          "concept_signature": {
+            "carrier": [],
+            "diagnostic": [],
+            "method": []
+          },
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "gold_r3": 1,
+          "proxy_support_status": "NO_FROZEN_CANDIDATE",
+          "refno": "1152",
+          "resultno": "31",
+          "review_quotes": [],
+          "rocknames": [
+            "Erquy spillite series"
+          ]
+        },
+        {
+          "concept_signature": {
+            "carrier": [],
+            "diagnostic": [],
+            "method": []
+          },
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "gold_r3": 1,
+          "proxy_support_status": "NO_FROZEN_CANDIDATE",
+          "refno": "1153",
+          "resultno": "33",
+          "review_quotes": [],
+          "rocknames": [
+            "Dykes"
+          ]
+        },
+        {
+          "concept_signature": {
+            "carrier": [],
+            "diagnostic": [],
+            "method": []
+          },
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "gold_r3": 1,
+          "proxy_support_status": "NO_FROZEN_CANDIDATE",
+          "refno": "1153",
+          "resultno": "34",
+          "review_quotes": [],
+          "rocknames": [
+            "Mesudiye formation tuffs"
+          ]
+        },
+        {
+          "concept_signature": {
+            "carrier": [],
+            "diagnostic": [],
+            "method": []
+          },
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "gold_r3": 1,
+          "proxy_support_status": "NO_FROZEN_CANDIDATE",
+          "refno": "1154",
+          "resultno": "35",
+          "review_quotes": [],
+          "rocknames": [
+            "Vestfjella lavas and dykes"
+          ]
+        },
+        {
+          "concept_signature": {
+            "carrier": [],
+            "diagnostic": [],
+            "method": []
+          },
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "gold_r3": 1,
+          "proxy_support_status": "NO_FROZEN_CANDIDATE",
+          "refno": "1155",
+          "resultno": "36",
+          "review_quotes": [],
+          "rocknames": [
+            "Bohuslan Dykes"
+          ]
+        },
+        {
+          "concept_signature": {
+            "carrier": [],
+            "diagnostic": [],
+            "method": []
+          },
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "gold_r3": 1,
+          "proxy_support_status": "NO_FROZEN_CANDIDATE",
+          "refno": "1156",
+          "resultno": "37",
+          "review_quotes": [],
+          "rocknames": [
+            "Umbrian pelagic carbonates"
+          ]
+        },
+        {
+          "concept_signature": {
+            "carrier": [
+              "hematite",
+              "ilmenite",
+              "magnetite"
+            ],
+            "diagnostic": [
+              "curie_temperature"
+            ],
+            "method": [
+              "irm_acquisition",
+              "thermomagnetic_curve"
+            ]
+          },
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "gold_r3": 1,
+          "proxy_support_status": "NO_FROZEN_CANDIDATE",
+          "refno": "1157",
+          "resultno": "39",
+          "review_quotes": [
+            {
+              "kind": "paragraph",
+              "page": "10",
+              "scope_id": "0b3e10351778d8ead041aebf",
+              "text": "Reflected light observations indicate that light brown or grey magnetite is the most common magnetic phase in the Jersey dolerites. It is present as discrete homogeneous crystals with few or no observable ilmenite or haematite lamellae, and therefore belongs to the lowest oxidation classes 1 and 2 (Wilson & Haggerty 1966). The steel grey colour of the magnetites in some dykes, especially those in group C, and the relatively high Curie points suggest that the magGCtites contain little titanium. The paradox of high Curie points of magnetites in basic rocks (which are expected to be high in titanium and hence have relatively low Curie points) ha",
+              "text_sha256": "0b3e10351778d8ead041aebf308ffdc0eceaa926b0540ba80be50f7485cb436c"
+            },
+            {
+              "kind": "paragraph",
+              "page": "3",
+              "scope_id": "10718e981c5a94e1c96fc1aa",
+              "text": "The rhyolite dyke and andesites are less resistant to a.f. demagnetization (Fig. 3(d)) than the acid volcanics, and this is consistent with indications that magnetite carries most of the NRM in the dyke and andesites. Three-quarters of the original dyke NRM is demagnetized in peak fields of 30mT. Most acid volcanic sites and the rhyolite dyke yield steep endpoints (dip corrected, Fig. 3(b)-(d)).",
+              "text_sha256": "10718e981c5a94e1c96fc1aa5a7e382e2d3cd7d83dd0adbce1490249f7640998"
+            }
+          ],
+          "rocknames": [
+            "Jersey dykes Group A"
+          ]
+        },
+        {
+          "concept_signature": {
+            "carrier": [
+              "hematite",
+              "ilmenite",
+              "magnetite"
+            ],
+            "diagnostic": [
+              "curie_temperature"
+            ],
+            "method": [
+              "irm_acquisition",
+              "thermomagnetic_curve"
+            ]
+          },
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "gold_r3": 1,
+          "proxy_support_status": "NO_FROZEN_CANDIDATE",
+          "refno": "1157",
+          "resultno": "40",
+          "review_quotes": [
+            {
+              "kind": "paragraph",
+              "page": "10",
+              "scope_id": "0b3e10351778d8ead041aebf",
+              "text": "Reflected light observations indicate that light brown or grey magnetite is the most common magnetic phase in the Jersey dolerites. It is present as discrete homogeneous crystals with few or no observable ilmenite or haematite lamellae, and therefore belongs to the lowest oxidation classes 1 and 2 (Wilson & Haggerty 1966). The steel grey colour of the magnetites in some dykes, especially those in group C, and the relatively high Curie points suggest that the magGCtites contain little titanium. The paradox of high Curie points of magnetites in basic rocks (which are expected to be high in titanium and hence have relatively low Curie points) ha",
+              "text_sha256": "0b3e10351778d8ead041aebf308ffdc0eceaa926b0540ba80be50f7485cb436c"
+            },
+            {
+              "kind": "paragraph",
+              "page": "3",
+              "scope_id": "10718e981c5a94e1c96fc1aa",
+              "text": "The rhyolite dyke and andesites are less resistant to a.f. demagnetization (Fig. 3(d)) than the acid volcanics, and this is consistent with indications that magnetite carries most of the NRM in the dyke and andesites. Three-quarters of the original dyke NRM is demagnetized in peak fields of 30mT. Most acid volcanic sites and the rhyolite dyke yield steep endpoints (dip corrected, Fig. 3(b)-(d)).",
+              "text_sha256": "10718e981c5a94e1c96fc1aa5a7e382e2d3cd7d83dd0adbce1490249f7640998"
+            }
+          ],
+          "rocknames": [
+            "Jersey dykes Group B"
+          ]
+        },
+        {
+          "concept_signature": {
+            "carrier": [
+              "hematite",
+              "ilmenite",
+              "magnetite"
+            ],
+            "diagnostic": [
+              "curie_temperature"
+            ],
+            "method": [
+              "irm_acquisition",
+              "thermomagnetic_curve"
+            ]
+          },
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "gold_r3": 1,
+          "proxy_support_status": "NO_FROZEN_CANDIDATE",
+          "refno": "1157",
+          "resultno": "41",
+          "review_quotes": [
+            {
+              "kind": "paragraph",
+              "page": "10",
+              "scope_id": "0b3e10351778d8ead041aebf",
+              "text": "Reflected light observations indicate that light brown or grey magnetite is the most common magnetic phase in the Jersey dolerites. It is present as discrete homogeneous crystals with few or no observable ilmenite or haematite lamellae, and therefore belongs to the lowest oxidation classes 1 and 2 (Wilson & Haggerty 1966). The steel grey colour of the magnetites in some dykes, especially those in group C, and the relatively high Curie points suggest that the magGCtites contain little titanium. The paradox of high Curie points of magnetites in basic rocks (which are expected to be high in titanium and hence have relatively low Curie points) ha",
+              "text_sha256": "0b3e10351778d8ead041aebf308ffdc0eceaa926b0540ba80be50f7485cb436c"
+            },
+            {
+              "kind": "paragraph",
+              "page": "3",
+              "scope_id": "10718e981c5a94e1c96fc1aa",
+              "text": "The rhyolite dyke and andesites are less resistant to a.f. demagnetization (Fig. 3(d)) than the acid volcanics, and this is consistent with indications that magnetite carries most of the NRM in the dyke and andesites. Three-quarters of the original dyke NRM is demagnetized in peak fields of 30mT. Most acid volcanic sites and the rhyolite dyke yield steep endpoints (dip corrected, Fig. 3(b)-(d)).",
+              "text_sha256": "10718e981c5a94e1c96fc1aa5a7e382e2d3cd7d83dd0adbce1490249f7640998"
+            }
+          ],
+          "rocknames": [
+            "Jersey dykes Group C"
+          ]
+        }
+      ],
+      "high_proxy_support_gold_zero": [
+        {
+          "concept_signature": {
+            "carrier": [
+              "magnetite"
+            ],
+            "diagnostic": [
+              "curie_temperature"
+            ],
+            "method": [
+              "thermomagnetic_curve"
+            ]
+          },
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "gold_r3": 0,
+          "proxy_support_status": "HIGH_CONFIDENCE_SAME_SCOPE",
+          "refno": "1007",
+          "resultno": "3556",
+          "review_quotes": [
+            {
+              "kind": "paragraph",
+              "page": "8",
+              "scope_id": "46e16fc40ddea31efd95228e",
+              "text": "Palaeomagnetic Measurements on the Great Dyke, S. Rhodesia 219 A number of thermo-magnetic curves were made on a modified Chevallier balance, built by Parry (1957), in order to determine the Curie point of the magnetic phase. Specimens were mounted on a torsion arm lying between the poles of an electromagnet and movement of this arm reflects changes in the magnetic properties of the specimen as it is heated, the balance deflection falling to zero at the Curie point. The electromagnet gave inhomogeneous fields of up to 1650 oe although, in general, lower fields were applied. The value of the field to which the specimen was subjected was closel",
+              "text_sha256": "46e16fc40ddea31efd95228e7c84a158b6ea710ac2cba333c7a59e65d0500a07"
+            }
+          ],
+          "rocknames": [
+            "Great Dyke"
+          ]
+        },
+        {
+          "concept_signature": {
+            "carrier": [
+              "magnetite"
+            ],
+            "diagnostic": [
+              "curie_temperature",
+              "mineral_alteration_texture"
+            ],
+            "method": [
+              "irm_acquisition",
+              "unblocking_spectrum"
+            ]
+          },
+          "criterion_support_status": "HIGH_CONFIDENCE_COMPLETE_CHAIN",
+          "gold_r3": 0,
+          "proxy_support_status": "HIGH_CONFIDENCE_SAME_SCOPE",
+          "refno": "3106",
+          "resultno": "8126",
+          "review_quotes": [
+            {
+              "kind": "paragraph",
+              "page": "4",
+              "scope_id": "2429eb38b69e4bb077fbda2a",
+              "text": "Most samples show two components of magnetization (figure 3). The first, low-temperature component is removed by 500°C. The declinations for this component show considerable scatter between northwest and northeast with consistently shallow inclinations. We attribute this direction to a viscous overprint of recent origin superimposed on the ancient remanence. The second, hightemperature vector is directed to the northeast and shallow-up or to the southwest and shallow-down (figure 4; table 1). The southwest-down direction predominates in most samples and yields a mean direction of D = 244°, I = 20° (N = 28 samples, k = 20 α95 = 6°). The northe",
+              "text_sha256": "2429eb38b69e4bb077fbda2a18f454e6642051b3466a56d71b88e49a5d618654"
+            },
+            {
+              "kind": "figure_or_table_caption",
+              "page": "7",
+              "scope_id": "da2b5a45e4ae8a65fbebf1aa",
+              "text": "Figure 5. (a,b) Isothermal remanence acquisition (IRM) on two samples of the Sinyai metadolerite that show saturation near 0.4 Tesla and (c,d) Curie temperature analyses of Sinyai metadolerite samples that exhibit Curie temperatures near 590°C.",
+              "text_sha256": "da2b5a45e4ae8a65fbebf1aad458c79b19f1c283e8c47657480aa138020bc06d"
+            }
+          ],
+          "rocknames": [
+            "Sinyai Metadolerite"
+          ]
+        },
+        {
+          "concept_signature": {
+            "carrier": [
+              "hematite",
+              "maghemite",
+              "magnetite"
+            ],
+            "diagnostic": [
+              "curie_temperature"
+            ],
+            "method": [
+              "thermomagnetic_curve"
+            ]
+          },
+          "criterion_support_status": "HIGH_CONFIDENCE_COMPLETE_CHAIN",
+          "gold_r3": 0,
+          "proxy_support_status": "HIGH_CONFIDENCE_SAME_SCOPE",
+          "refno": "3166",
+          "resultno": "8230",
+          "review_quotes": [
+            {
+              "kind": "paragraph",
+              "page": "8",
+              "scope_id": "d19de69a275009d52324ac0b",
+              "text": "580øC, while AF demagnetization in peak fields up to 100 mT was not sufficient to demagnetize the ChRMs (Figure 4c). These demagnetization results suggest that hematite is the principal magnetic carrier. Pilot specimens from the other three sites showed unstable behavior of NRM in the demagnetization levels above about 400øC and/or 20 mT, although some of the specimens showed linear trends of vector endpoints which did not decay toward the origin of the diagrams below these demagnetization levels. Strong-field thermomagnetic curves up to 700øC (0.85 T in argon gas) of bulk samples from the Akasaki Group showed irreversible behavior in the tem",
+              "text_sha256": "d19de69a275009d52324ac0b72f11a110574b68adf33e000f8989e28c330b5bc"
+            }
+          ],
+          "rocknames": [
+            "Akasaki Group"
+          ]
+        },
+        {
+          "concept_signature": {
+            "carrier": [
+              "magnetite"
+            ],
+            "diagnostic": [
+              "curie_temperature",
+              "domain_state"
+            ],
+            "method": [
+              "irm_acquisition",
+              "temperature_dependent_susceptibility"
+            ]
+          },
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "gold_r3": 0,
+          "proxy_support_status": "HIGH_CONFIDENCE_SAME_SCOPE",
+          "refno": "3187",
+          "resultno": "8272",
+          "review_quotes": [
+            {
+              "kind": "paragraph",
+              "page": "3",
+              "scope_id": "430ba4ff173e25cf2dc5b5a7",
+              "text": "The IRM measurements showed that saturation is always reached at ﬁeld values between 0.1 and 0.2 T, and the remanent coercive force in the specimens from Mount Keinath (16–23 mT) is lower than in those from Teall Nunatak (50–70 mT, 28 mT at site TN3). These results point to low-Ti titanomagnet- ite as the main ferromagnetic mineral in both plutons, and suggest that the grains are mainly multidomain in the Mount Keinath monzogranite and (pseudo) single-domain in the Teall Nunatak quartz-diorite.",
+              "text_sha256": "430ba4ff173e25cf2dc5b5a73b2f66c90b70d973fcafe70249dc1c9f025cb23d"
+            }
+          ],
+          "rocknames": [
+            "Teall Nunatak"
+          ]
+        },
+        {
+          "concept_signature": {
+            "carrier": [
+              "goethite",
+              "hematite"
+            ],
+            "diagnostic": [],
+            "method": [
+              "remanence_temperature_experiment"
+            ]
+          },
+          "criterion_support_status": "HIGH_CONFIDENCE_COMPLETE_CHAIN",
+          "gold_r3": 0,
+          "proxy_support_status": "HIGH_CONFIDENCE_SAME_SCOPE",
+          "refno": "3332",
+          "resultno": "8533",
+          "review_quotes": [
+            {
+              "kind": "paragraph",
+              "page": "3",
+              "scope_id": "d01742f080b20fd4cbd43da3",
+              "text": "No pervasive regional overprint was reported in either study. a small low-temperature component, most probably due to recent weathering, is visible in many specimens, it is prominentThe target of this study, the Elgee Formation, consists of purple siltstone and silty shale with minor quartz sandstone. enough to give a site mean direction for two of the seven sites only (Table 1). The unblocking temperature of the charac-In the sampling region, the formation is gently tilted with dip angles ranging between 8 °and 19 °. Although cleavages are teristic remanence is always above 600 °C, indicating haematite as the magnetic carrier. The low-temper",
+              "text_sha256": "d01742f080b20fd4cbd43da35c8681171963abf78618fd2df64b4cdfdbafc1da"
+            }
+          ],
+          "rocknames": [
+            "Elgee Formation"
+          ]
+        },
+        {
+          "concept_signature": {
+            "carrier": [
+              "hematite",
+              "magnetite"
+            ],
+            "diagnostic": [
+              "curie_temperature"
+            ],
+            "method": [
+              "thermomagnetic_curve"
+            ]
+          },
+          "criterion_support_status": "INCOMPLETE_OR_ABSENT_CHAIN",
+          "gold_r3": 0,
+          "proxy_support_status": "HIGH_CONFIDENCE_SAME_SCOPE",
+          "refno": "3434",
+          "resultno": "8740",
+          "review_quotes": [
+            {
+              "kind": "paragraph",
+              "page": "5",
+              "scope_id": "da88319b52c85c50377cd51d",
+              "text": "AGICO CS-3 Kappabridge. Normally two or more specimens were demagnetised per sample.Both thermomagnetic analysis (Figure 3a) and RESULTS remanence intensity behaviour during thermal demag- Four formations were sampled in the McArthur Basin and netisation (Figure 3b) indicated the presence in the nine formations in the Lawn Hill Platform,yielding a total volcanics of a mineral with a Curie temperature of ≤580°C, 9002 yraurbeF 21 80:01 :tA ]ailartsuA nretseW fO ytisrevinU[ :yB dedaolnwoD",
+              "text_sha256": "da88319b52c85c50377cd51d8c0f9300ec948303686aff20d866a209902aa0a2"
+            }
+          ],
+          "rocknames": [
+            "Lawn Hill Formation"
+          ]
+        },
+        {
+          "concept_signature": {
+            "carrier": [
+              "hematite",
+              "magnetite"
+            ],
+            "diagnostic": [],
+            "method": [
+              "thermomagnetic_curve"
+            ]
+          },
+          "criterion_support_status": "MEDIUM_CONFIDENCE_DISTRIBUTED_CHAIN",
+          "gold_r3": 0,
+          "proxy_support_status": "HIGH_CONFIDENCE_SAME_SCOPE",
+          "refno": "3986",
+          "resultno": "9745",
+          "review_quotes": [
+            {
+              "kind": "paragraph",
+              "page": "2",
+              "scope_id": "f6ebecddab664fdb95578951",
+              "text": "3.2. Results One of the main objectives of this study is to reveal the characteristic magnetization in the red beds of the Chilgok Formation. Typical thermomagnetic results in this study suggest magnetite and hematite to be the predominant magnetic minerals in the samples. The unblocking temperatures of about 570° –575 °C and 675° –680 °C conﬁrm the presence of magnetite and hematite, respectively. The irreversible portion of the cooling cycle may result from the creation of new ferromagnetic minerals from the paramagnetic and superpara- magnetic materials due to recrystallization during heating (Fig. A1).",
+              "text_sha256": "f6ebecddab664fdb955789518de178d6a0884fbbc23ba06982561b2e851ef4a9"
+            }
+          ],
+          "rocknames": [
+            "Chilgok Formation"
+          ]
+        }
+      ]
+    }
+  },
+  "candidate_definitions": {
+    "high_confidence_criterion": "high-confidence proxy plus a named carrier and an explicit connection to remanence significance in the same source scope",
+    "high_confidence_proxy": "exclusive target-bound same source scope with an own-study performed method and a carrier or diagnostic concept",
+    "medium_confidence": "own-study method and companion evidence distributed across frozen target/sample/component-linked scopes",
+    "no_frozen_candidate": "the frozen extractor recovered no qualifying candidate; this is not a scientific assertion that evidence is absent from the paper"
+  },
+  "criterion_provenance": {
+    "r3_logic": "eligible carrier investigation plus carrier identification plus comment on remanence significance",
+    "source_sha256": "8433f968a4658118dc43a060114b8d2a6a0ca0cbf6ed82ee006d924d970b18e5",
+    "spec_version": "r357_criterion_spec_v2"
+  },
+  "freeze_boundary": {
+    "all_source_hashes_verified_before_label_access": true,
+    "candidate_frozen_before_label_access": true,
+    "candidate_sha256": "5927af212f6cbca9fa79ac72e033e6b402afc28430e08cb4c646fbca6b833ca7",
+    "label_file_hash_omitted_to_avoid_heldout_byte_access": true
+  },
+  "guardrails": {
+    "empirical_flags_are_not_mathematical_errors": true,
+    "forbidden_sources_not_read": [
+      "held-out labels",
+      "source metadata tables",
+      "historical ROCKMAG cells",
+      "prior predictions",
+      "prior evaluations"
+    ],
+    "formal_scorer_modified": false,
+    "manual_review_required_for_logical_conflict_claim": true,
+    "representation_bound_not_general_source_only_bound": true
+  },
+  "schema_version": "r3_source_label_conflict_ceiling_audit_v1",
+  "scope": "fixed PDF-only training partition",
+  "status": "complete"
+}

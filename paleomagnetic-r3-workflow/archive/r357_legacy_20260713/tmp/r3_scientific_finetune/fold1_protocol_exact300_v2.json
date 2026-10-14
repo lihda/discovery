@@ -1,0 +1,81 @@
+{
+  "schema_version": "r3_supervised_scincl_fold1_protocol_exact300_v2",
+  "status": "FROZEN_BEFORE_FOLD1_RESULT",
+  "candidate": "SciNCL supervised last-two-layer fine-tuning",
+  "scope": {
+    "identity": "tmp/r3_exact_300_resultno_v2/identity.xlsx",
+    "identity_sha256": "93ea5dfba0a32501a564d06eb020386fd86b11f59ded0982043f90c064ab960b",
+    "identity_audit_sha256": "1ec557fc175fe1164ce98194407c89f493993c6f4221e5aeaf561fa486f6452a",
+    "selection": "first 300 local-PDF rows ranked by SHA256(salt + NUL + REFNO + NUL + RESULTNO)",
+    "rows": 300,
+    "refno_groups": 258,
+    "first_stage": "outer REFNO GroupKFold fold 1 only",
+    "full_2172_row_run_forbidden": true
+  },
+  "source_boundary": {
+    "text_cache": "tmp/r3_scientific_finetune/scincl_exact300_v2_inputs.npz",
+    "text_cache_sha256": "75cc13713f8f98693eb2a545921ba16e3ff317fb4788e214fdd958f857327ac8",
+    "text_manifest_sha256": "6d71790a7287325d5cf65f77e6875e7cb9c7d123fb126038ee9f93c702248db0",
+    "labels_used_to_build_text_cache": false,
+    "pmagresult_or_rockmag_read": false,
+    "identifier_features": false
+  },
+  "baseline": {
+    "report_sha256": "5b2b80228af3985bbaaba40dfdbeea5e84e4d58d1dfe8af7aaed7c20a20bc9bb",
+    "primary_strategy": "row_knowledge_extra_trees",
+    "primary_accuracy": 0.83333333,
+    "primary_fold_accuracy": [0.85, 0.83333333, 0.71666667, 0.9, 0.86666667],
+    "secondary_strict_propagation_strategy": "single_target_article_100",
+    "secondary_strict_propagation_accuracy": 0.8,
+    "secondary_strict_fold_accuracy": [0.81666667, 0.81666667, 0.71666667, 0.8, 0.85]
+  },
+  "model": {
+    "upstream": "malteos/scincl",
+    "revision": "ebc5348d184ba2fc9beee69b4e394263fce57b2e",
+    "weight_sha256": "d65da219f67f051fdd065bfec666285c136e23002787603b2565e467bfed3c68",
+    "representation": "last_hidden_state CLS",
+    "frozen_encoder_layers": 10,
+    "trainable_encoder_layers": 2,
+    "trainable_head": true
+  },
+  "tokens": {
+    "maximum_sequence_length": 384,
+    "component_order": ["target", "abstract", "local_evidence", "paper_evidence"],
+    "component_budgets": {
+      "target": 24,
+      "abstract": 150,
+      "local_evidence": 105,
+      "paper_evidence": 90
+    }
+  },
+  "training": {
+    "random_state": 357,
+    "inner_epoch_selection": "first validation fold of 5-fold REFNO GroupKFold within outer training",
+    "maximum_selection_epochs": 4,
+    "selection_metric": "validation accuracy, then macro-F1, then loss",
+    "outer_train_refit": "fresh checkpoint on every outer-training row for selected epoch count",
+    "batch_size": 8,
+    "evaluation_batch_size": 16,
+    "encoder_learning_rate": 0.00001,
+    "head_learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "warmup_fraction": 0.1,
+    "gradient_clip_norm": 1.0,
+    "inverse_refno_canonical_target_multiplicity_weight": true
+  },
+  "fold1_smoke_gate": {
+    "primary_baseline_accuracy": 0.85,
+    "secondary_strict_baseline_accuracy": 0.81666667,
+    "minimum_absolute_gain_over_primary": 0.02,
+    "minimum_accuracy": 0.87,
+    "finite_training_and_probabilities_required": true,
+    "failure_action": "stop supervised SciNCL and do not run remaining folds"
+  },
+  "conditional_all_fold_gate": {
+    "prerequisite": "fold1 smoke gate passes",
+    "full_coverage_rows": 300,
+    "minimum_aggregate_accuracy": 0.9,
+    "only_this_exact300_scope_may_run": true,
+    "full_2172_row_run_forbidden": true
+  }
+}

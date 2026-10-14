@@ -1,0 +1,144 @@
+{
+  "schema_version": "r3_scientific_auxiliary_pool_fold1_protocol_v1",
+  "status": "FROZEN_BEFORE_OUTER_TEST",
+  "frozen_date": "2026-07-13",
+  "candidate": "SciNCL last-two-layer fine-tuning with leakage-safe 2,172-row auxiliary training pool",
+  "scope": {
+    "evaluation_identity": "tmp/r3_exact_300_resultno_v2/identity.xlsx",
+    "evaluation_rows": 300,
+    "evaluation_groups": 258,
+    "auxiliary_identity": "tmp/r3_distilled_training_preflight/identity.xlsx",
+    "auxiliary_rows": 2172,
+    "auxiliary_groups": 1174,
+    "outer_split": "frozen label-free exact300 REFNO fold manifest",
+    "first_stage_fold": 1,
+    "full_2172_row_evaluation_forbidden": true
+  },
+  "per_fold_training_boundary": {
+    "rule": "Fit on every PDF-backed fixed-training row except every row whose REFNO occurs in the exact300 outer-test fold",
+    "all_rows_of_outer_test_papers_excluded": true,
+    "zero_train_test_refno_overlap_required": true,
+    "inner_epoch_and_threshold_selection": "label-free SHA256-ranked REFNO validation split inside the allowed auxiliary rows",
+    "outer_test_labels_used_for_training_epoch_or_threshold_selection": false
+  },
+  "source_boundary": {
+    "predictive_text_sources": [
+      "ROCKNAME from frozen identity manifests",
+      "original-paper text from frozen page cache",
+      "frozen aggregate R3 taxonomy",
+      "frozen positive ROCKMAG expert vocabulary"
+    ],
+    "offline_training_labels": "R3 from data/targets.xlsx after all text and protocol hashes pass",
+    "pmagresult_or_rockmag_read_at_training_runtime": false,
+    "prior_predictions_or_evaluations_read": false,
+    "record_identifiers_in_predictive_arrays": false,
+    "positive_kb_historical_label_supervision_disclosed": true
+  },
+  "inputs": {
+    "exact_identity": {
+      "path": "tmp/r3_exact_300_resultno_v2/identity.xlsx",
+      "sha256": "93ea5dfba0a32501a564d06eb020386fd86b11f59ded0982043f90c064ab960b"
+    },
+    "full_identity": {
+      "path": "tmp/r3_distilled_training_preflight/identity.xlsx",
+      "sha256": "7e45020df48b866096ac4bf567102f6a73ce3c12759b19c8550f78de299c72f1"
+    },
+    "text_cache": {
+      "path": "tmp/r3_exact_300_resultno_v2/scincl_auxiliary_pool_v1/full_pool_inputs.npz",
+      "sha256": "f6d3b64bf14fc8200fa3555d132bb92d68d98d98aecb569c1ecb67fbb272ec62"
+    },
+    "text_manifest": {
+      "path": "tmp/r3_exact_300_resultno_v2/scincl_auxiliary_pool_v1/full_pool_inputs.manifest.json",
+      "sha256": "507e9b437eee61f9f336fa82cc07568af4b39fa99a1df2c7fb6534fb1720b835"
+    },
+    "fold_manifest": {
+      "path": "tmp/r3_exact_300_resultno_v2/refno_fold_manifest.json",
+      "sha256": "8f6ab8f1a071878e14d4db8e19a7ec0519ed612be107b0f0fdf0489dd59aaf2d"
+    },
+    "screening_protocol": {
+      "path": "tmp/r3_exact_300_resultno_v2/screening_protocol.json",
+      "sha256": "6412244a5d268e6dcabfaed63f6f529d4976dd17ef6c4313f70bdb6748c04b4f"
+    },
+    "baseline_report": {
+      "path": "tmp/r3_exact_300_resultno_v2/baseline.json",
+      "sha256": "5b2b80228af3985bbaaba40dfdbeea5e84e4d58d1dfe8af7aaed7c20a20bc9bb"
+    },
+    "targets": {
+      "path": "data/targets.xlsx",
+      "sha256": "378c17338f3b5cfeff3ccd496894e0f6183f747119b2624c4a9cefaeda02501e"
+    },
+    "page_cache": {
+      "path": "tmp/mineru_cache_all_hard_risk.jsonl",
+      "sha256": "f8ec25c1148c04112ccfc75076743803417effbb833834a136c714dff4e146d7"
+    },
+    "taxonomy": {
+      "path": "data/calibration/r3_rockmag_text_distillation_v1.json",
+      "sha256": "149df539a937678c8204aa6d6e60e77bd901e4a77975d26caa5362749aa18ad4"
+    },
+    "positive_kb": {
+      "path": "data/calibration/r3_positive_rockmag_expert_kb_v2.json",
+      "sha256": "b0fc28866fe6702938a7cc02fcf7b87b68abc9e3b4e391a53a53de1615b5e9ef"
+    },
+    "model_weights": {
+      "path": "tmp/models/scincl/model.safetensors",
+      "sha256": "d65da219f67f051fdd065bfec666285c136e23002787603b2565e467bfed3c68"
+    }
+  },
+  "knowledge": {
+    "taxonomy_patterns": 48,
+    "positive_kb_patterns": 32,
+    "combined_runtime_patterns": 80,
+    "retrieval": "highest distinct/count expert-pattern chunk at paper and target-local scope",
+    "labels_used_to_build_text_cache": false
+  },
+  "model": {
+    "upstream": "malteos/scincl",
+    "revision": "ebc5348d184ba2fc9beee69b4e394263fce57b2e",
+    "representation": "last_hidden_state CLS",
+    "maximum_sequence_length": 384,
+    "component_order": [
+      "target",
+      "abstract",
+      "local_evidence",
+      "paper_evidence"
+    ],
+    "component_token_budgets": {
+      "target": 24,
+      "abstract": 150,
+      "local_evidence": 105,
+      "paper_evidence": 90
+    }
+  },
+  "training": {
+    "random_state": 7357,
+    "maximum_selection_epochs": 3,
+    "batch_size": 16,
+    "evaluation_batch_size": 32,
+    "last_unfrozen_encoder_layers": 2,
+    "encoder_learning_rate": 0.00001,
+    "head_learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "paper_inverse_multiplicity_weight": true,
+    "class_balanced_weighted_loss": true,
+    "inner_selected_noncollapsed_threshold": true,
+    "deterministic_label_free_inner_split": true,
+    "inner_split_salt": "r3-scincl-auxiliary-inner-v1",
+    "inner_validation_fraction": 0.2,
+    "threshold_candidates": "fixed 0.15..0.85 step 0.025 plus inner-validation probability midpoints",
+    "threshold_selection_order": "both predicted classes required, then accuracy, balanced accuracy, macro-F1, distance to 0.5",
+    "epoch_selection_order": "noncollapsed threshold available, then inner accuracy, balanced accuracy, macro-F1, loss",
+    "outer_train_refit": "fresh SciNCL checkpoint on every allowed auxiliary row for the selected epoch count"
+  },
+  "baseline": {
+    "strategy": "row_knowledge_extra_trees",
+    "fold1_accuracy": 0.85,
+    "aggregate_accuracy": 0.83333333
+  },
+  "fold1_smoke_gate": {
+    "minimum_absolute_gain_over_baseline": 0.02,
+    "minimum_accuracy": 0.87,
+    "finite_training_required": true,
+    "both_outer_test_decision_classes_required": true,
+    "failure_action": "do not run auxiliary SciNCL folds 2-5"
+  }
+}

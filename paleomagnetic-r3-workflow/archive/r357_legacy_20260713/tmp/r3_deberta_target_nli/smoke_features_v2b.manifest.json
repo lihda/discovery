@@ -1,0 +1,265 @@
+{
+  "schema_version": "r3_deberta_target_nli_embeddings_v2",
+  "status": "PASS",
+  "runtime_boundary": {
+    "labels_read": false,
+    "pmagresult_or_rockmag_read": false,
+    "prior_predictions_or_evaluations_read": false,
+    "identifier_features": false,
+    "numeric_cache_contains_identifiers": false,
+    "allowed_sources": [
+      "identity manifest REFNO/RESULTNO/ROCKNAME for scope, alignment, and target text",
+      "original-paper text from the frozen page cache",
+      "frozen aggregate R3 taxonomy",
+      "frozen positive ROCKMAG expert vocabulary",
+      "fixed pretrained DeBERTa NLI weights"
+    ]
+  },
+  "inputs": {
+    "identity": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_small_screen_v1/identity.xlsx",
+      "sha256": "aae4577fc7975260f2c4f23bf5618727f42574b53cc87bb67d6f3f6bfe1ef28f"
+    },
+    "page_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/mineru_cache_all_hard_risk.jsonl",
+      "sha256": "f8ec25c1148c04112ccfc75076743803417effbb833834a136c714dff4e146d7"
+    },
+    "taxonomy": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/calibration/r3_rockmag_text_distillation_v1.json",
+      "sha256": "149df539a937678c8204aa6d6e60e77bd901e4a77975d26caa5362749aa18ad4"
+    },
+    "positive_kb": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/calibration/r3_positive_rockmag_expert_kb_v2.json",
+      "sha256": "b0fc28866fe6702938a7cc02fcf7b87b68abc9e3b4e391a53a53de1615b5e9ef"
+    },
+    "reused_passages": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_nli_evidence/retrieved_passages.jsonl",
+      "sha256": "a704219df287ea37d71f1571c47cd17aa8b23227c78e756bc96106a9d39b7438"
+    },
+    "pdf_dir": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs",
+    "alignment_sha256": "6c78af9c2b86922906ba844eb7f21a7d4393f01dfe7356e48fda81d28ca16330"
+  },
+  "scope": {
+    "fixed_training_rows": 710,
+    "fixed_training_paper_groups": 367,
+    "pdf_only_rows": 640,
+    "pdf_only_paper_groups": 330,
+    "rows_skipped_without_local_pdf": 70,
+    "paper_groups_skipped_without_local_pdf": 37,
+    "embedded_rows": 2,
+    "embedded_papers": 1,
+    "embedded_canonical_targets": 2,
+    "target_limit": 2
+  },
+  "knowledge": {
+    "positive_kb_status": "loaded",
+    "positive_kb_pattern_field": "runtime_original_text_patterns",
+    "concept_count": 38,
+    "runtime_pattern_count": 80,
+    "runtime_pattern_counts_by_source": {
+      "frozen_taxonomy": 48,
+      "positive_rockmag_expert_kb": 32
+    },
+    "invalid_pattern_count": 0,
+    "inputs": {
+      "frozen_taxonomy": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/calibration/r3_rockmag_text_distillation_v1.json",
+        "sha256": "149df539a937678c8204aa6d6e60e77bd901e4a77975d26caa5362749aa18ad4"
+      },
+      "positive_rockmag_expert_kb": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/calibration/r3_positive_rockmag_expert_kb_v2.json",
+        "sha256": "b0fc28866fe6702938a7cc02fcf7b87b68abc9e3b4e391a53a53de1615b5e9ef"
+      }
+    }
+  },
+  "retrieval": {
+    "fresh_retrieval": {
+      "candidate_passages": 5668,
+      "raw_pattern_matches": 10959,
+      "selected_passages": 2048
+    },
+    "fresh_passages_per_paper": 8,
+    "maximum_selected_passages_per_target": 4,
+    "target_local": {
+      "maximum_passages_per_target": 4,
+      "radius_characters": 700,
+      "target_anchor_prefixed": true
+    },
+    "selected_passages_by_origin": {
+      "fresh_expert_retrieval": 1,
+      "reused": 1,
+      "target_local": 6
+    },
+    "selected_passages_by_matched_knowledge_source": {},
+    "target_binding": "exact normalized target phrase plus informative target-token coverage",
+    "method_only_is_retrieval_not_proof": true
+  },
+  "nli": {
+    "model_path": "/Users/lihd/.cache/huggingface/hub/models--cross-encoder--nli-deberta-v3-base/snapshots/6c749ce3425cd33b46d187e45b92bbf96ee12ec7",
+    "upstream_name": "cross-encoder/nli-deberta-v3-base",
+    "revision": "6c749ce3425cd33b46d187e45b92bbf96ee12ec7",
+    "model_files": {
+      "config.json": "897e756eb59d3183adb505952e7910e7cbc7750a43f3b3747a96b688d2b02a47",
+      "model.safetensors": "d8148c6d49e0a7925134294c56326c71fe0ab1dc390e37355e00c7efbb488afa",
+      "tokenizer.json": "5124ef2ead1a10a717703bc436de7f353da76d6340e4587719b42b1693707964",
+      "spm.model": "c679fbf93643d19aab7ee10c0b99e460bdbc02fedf34b92b05af343b4af586fd"
+    },
+    "device": "mps",
+    "batch_size": 8,
+    "max_length": 256,
+    "pair_count": 35,
+    "hypothesis_names": [
+      "paper_criterion",
+      "target_criterion",
+      "target_method",
+      "target_carrier",
+      "concept_method"
+    ],
+    "hypothesis_templates": {
+      "paper_criterion": "This study uses rock-magnetic, mineralogical, or petrographic evidence to characterize magnetic minerals or remanence carriers.",
+      "target_criterion": "For {target}, this study uses rock-magnetic, mineralogical, or petrographic evidence to characterize magnetic minerals or remanence carriers.",
+      "target_method": "The authors performed rock-magnetic, mineralogical, or petrographic measurements on {target}.",
+      "target_carrier": "The authors identify or interpret the magnetic mineral or remanence carrier of {target}."
+    },
+    "model_audit": {
+      "architecture": [
+        "DebertaV2ForSequenceClassification"
+      ],
+      "hidden_size": 768,
+      "label_order": [
+        "contradiction",
+        "entailment",
+        "neutral"
+      ],
+      "max_position_embeddings": 512
+    }
+  },
+  "output": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_deberta_target_nli/smoke_features_v2b.npz",
+    "sha256": "63d91cadca14f5b76fea78514bd0c05a1a4ce4f19650c31ae5e34fc30500b844",
+    "array_names": [
+      "concept_method__cls",
+      "concept_method__mean",
+      "concept_method__top",
+      "paper_criterion__cls",
+      "paper_criterion__mean",
+      "paper_criterion__top",
+      "structured",
+      "target_carrier__cls",
+      "target_carrier__mean",
+      "target_carrier__top",
+      "target_criterion__cls",
+      "target_criterion__mean",
+      "target_criterion__top",
+      "target_method__cls",
+      "target_method__mean",
+      "target_method__top"
+    ],
+    "array_shapes": {
+      "concept_method__cls": [
+        2,
+        768
+      ],
+      "concept_method__mean": [
+        2,
+        768
+      ],
+      "concept_method__top": [
+        2,
+        768
+      ],
+      "paper_criterion__cls": [
+        2,
+        768
+      ],
+      "paper_criterion__mean": [
+        2,
+        768
+      ],
+      "paper_criterion__top": [
+        2,
+        768
+      ],
+      "structured": [
+        2,
+        38
+      ],
+      "target_carrier__cls": [
+        2,
+        768
+      ],
+      "target_carrier__mean": [
+        2,
+        768
+      ],
+      "target_carrier__top": [
+        2,
+        768
+      ],
+      "target_criterion__cls": [
+        2,
+        768
+      ],
+      "target_criterion__mean": [
+        2,
+        768
+      ],
+      "target_criterion__top": [
+        2,
+        768
+      ],
+      "target_method__cls": [
+        2,
+        768
+      ],
+      "target_method__mean": [
+        2,
+        768
+      ],
+      "target_method__top": [
+        2,
+        768
+      ]
+    },
+    "structured_feature_names": [
+      "paper_criterion__entailment_max",
+      "paper_criterion__entailment_top2_mean",
+      "paper_criterion__entailment_mean",
+      "paper_criterion__contradiction_mean",
+      "paper_criterion__neutral_mean",
+      "target_criterion__entailment_max",
+      "target_criterion__entailment_top2_mean",
+      "target_criterion__entailment_mean",
+      "target_criterion__contradiction_mean",
+      "target_criterion__neutral_mean",
+      "target_method__entailment_max",
+      "target_method__entailment_top2_mean",
+      "target_method__entailment_mean",
+      "target_method__contradiction_mean",
+      "target_method__neutral_mean",
+      "target_carrier__entailment_max",
+      "target_carrier__entailment_top2_mean",
+      "target_carrier__entailment_mean",
+      "target_carrier__contradiction_mean",
+      "target_carrier__neutral_mean",
+      "concept_method__entailment_max",
+      "concept_method__entailment_top2_mean",
+      "concept_method__entailment_mean",
+      "concept_method__contradiction_mean",
+      "concept_method__neutral_mean",
+      "retrieval__passage_count",
+      "retrieval__method_hits",
+      "retrieval__diagnostic_hits",
+      "retrieval__carrier_hits",
+      "retrieval__own_study_hits",
+      "retrieval__result_hits",
+      "retrieval__max_score",
+      "retrieval__strong_chain_passages",
+      "retrieval__positive_kb_passages",
+      "retrieval__target_local_passages",
+      "target__exact_passages",
+      "target__token_hit_passages",
+      "target__maximum_token_coverage"
+    ]
+  }
+}

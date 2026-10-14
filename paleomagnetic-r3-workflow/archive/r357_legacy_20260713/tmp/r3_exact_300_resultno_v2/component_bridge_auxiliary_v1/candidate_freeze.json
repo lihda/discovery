@@ -1,0 +1,89 @@
+{
+  "schema_version": "r3_exact300_component_bridge_candidate_freeze_v1",
+  "status": "FROZEN_BEFORE_LABEL_ACCESS",
+  "evaluated_folds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "candidates": [
+    {
+      "name": "control_combined_hgb10",
+      "matrix": "combined",
+      "model": "hgb10"
+    },
+    {
+      "name": "control_combined_rf8",
+      "matrix": "combined",
+      "model": "rf8"
+    },
+    {
+      "name": "combined_plus_component_all_hgb10",
+      "matrix": "combined_plus_component_all",
+      "model": "hgb10"
+    },
+    {
+      "name": "combined_plus_component_all_hgb16",
+      "matrix": "combined_plus_component_all",
+      "model": "hgb16"
+    },
+    {
+      "name": "combined_plus_component_all_rf8",
+      "matrix": "combined_plus_component_all",
+      "model": "rf8"
+    },
+    {
+      "name": "combined_plus_component_bridge_hgb10",
+      "matrix": "combined_plus_component_bridge",
+      "model": "hgb10"
+    },
+    {
+      "name": "combined_plus_component_bridge_rf8",
+      "matrix": "combined_plus_component_bridge",
+      "model": "rf8"
+    },
+    {
+      "name": "combined_plus_own_target_component_all_hgb10",
+      "matrix": "combined_plus_own_target_component_all",
+      "model": "hgb10"
+    },
+    {
+      "name": "combined_plus_own_target_component_all_rf8",
+      "matrix": "combined_plus_own_target_component_all",
+      "model": "rf8"
+    },
+    {
+      "name": "combined_plus_own_target_component_bridge_hgb10",
+      "matrix": "combined_plus_own_target_component_bridge",
+      "model": "hgb10"
+    },
+    {
+      "name": "combined_plus_own_target_component_bridge_rf8",
+      "matrix": "combined_plus_own_target_component_bridge",
+      "model": "rf8"
+    }
+  ],
+  "threshold": 0.5,
+  "inputs": {
+    "component_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/component_bridge_cache_v1/features.npz",
+      "sha256": "484447755c01e2380dabe4887f70108a76df33b50e956b803fd0458467e7eec0"
+    },
+    "component_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/component_bridge_cache_v1/features.manifest.json",
+      "sha256": "21385f08428b659929505154b893ee74a29e89bc2c823d3ae8c7908cf898e04c"
+    },
+    "fold_manifest": "8f6ab8f1a071878e14d4db8e19a7ec0519ed612be107b0f0fdf0489dd59aaf2d"
+  },
+  "runtime_boundary": {
+    "labels_read_at_freeze": false,
+    "pmagresult_or_rockmag_used_as_feature": false,
+    "prior_predictions_or_evaluations_used_as_feature": false
+  },
+  "script": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/experiment_r3_exact300_component_bridge_auxiliary.py",
+    "sha256": "d541e235938a6d53a0f3f6ae1b99a37f6263181ae38cb1c1a3ade57894622697"
+  }
+}

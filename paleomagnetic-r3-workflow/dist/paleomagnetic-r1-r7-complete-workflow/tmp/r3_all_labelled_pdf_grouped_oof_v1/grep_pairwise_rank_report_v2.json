@@ -1,0 +1,484 @@
+{
+  "schema_version": "r3_grep_pairwise_rank_nested_grouped_oof_v2",
+  "status": "complete_development_nested_oof",
+  "primary_paper_reference": {
+    "title": "Retrieve to Explain: Evidence-driven Predictions for Explainable Drug Target Identification",
+    "authors": [
+      "Ravi Patel",
+      "Angus Brayne",
+      "Rogier Hintzen",
+      "Daniel Jaroslawicz",
+      "Georgiana Neculae",
+      "Dane S. Corneil"
+    ],
+    "venue": "Proceedings of ACL 2025, Volume 1: Long Papers",
+    "publication_date": "2025-07",
+    "url": "https://aclanthology.org/2025.acl-long.167/",
+    "doi": "10.18653/v1/2025.acl-long.167"
+  },
+  "supporting_paper_reference": {
+    "title": "Document-Level Relation Extraction with Global Relations and Entity Pair Reasoning",
+    "authors": [
+      "Fu Zhang",
+      "Yi Yan",
+      "Jingwei Cheng"
+    ],
+    "venue": "Findings of the Association for Computational Linguistics: ACL 2025",
+    "publication_date": "2025-07",
+    "url": "https://aclanthology.org/2025.findings-acl.1002/",
+    "code": "https://github.com/yanyi74/GREP"
+  },
+  "primary_strategy": "grep_pairwise_nested_router",
+  "claim_boundary": {
+    "internal_refno_grouped_nested_oof": true,
+    "independent_external_validation": false,
+    "candidate_family_informed_by_prior_development_analysis": true,
+    "feature_and_candidate_artifacts_frozen_before_label_access": true,
+    "outer_test_labels_excluded_from_training_and_selection": true,
+    "pmagresult_or_row_rockmag_used_as_feature": false,
+    "prior_oof_or_evaluation_used_as_model_input": false,
+    "paper_method_adapted_not_architecture_reproduced": true
+  },
+  "baseline_reproduction": {
+    "prior_oof_path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/grep_entity_pair_oof_v1.npz",
+    "maximum_absolute_probability_difference": 2.9788371991301688e-08,
+    "within_numeric_tolerance_1e_7": true
+  },
+  "nested_selection": {
+    "selected_candidate_counts": {
+      "pair_logreg_c0001__heterogeneity_hgb_leaf20__t0.70__a1.00": 2,
+      "pair_logreg_c01__heterogeneity_logreg_c01__t0.50__a0.35": 1,
+      "pair_logreg_c001__heterogeneity_hgb_leaf20__t0.70__a0.75": 1,
+      "pair_logreg_c01__heterogeneity_hgb_leaf20__t0.50__a0.75": 1
+    },
+    "outer_folds": [
+      {
+        "outer_fold": 1,
+        "selected": {
+          "name": "pair_logreg_c0001__heterogeneity_hgb_leaf20__t0.70__a1.00",
+          "rank": "pair_logreg_c0001",
+          "gate": "heterogeneity_hgb_leaf20",
+          "gate_threshold": 0.7,
+          "alpha": 1.0
+        },
+        "inner_selection_metrics": {
+          "multi_target_accuracy": 0.7997338656021291,
+          "mixed_label_accuracy": 0.5565610859728507,
+          "overall_accuracy": 0.8236363636363636
+        },
+        "outer_train_mixed_label_papers": 52,
+        "pair_training_audit": {
+          "mixed_papers": 52,
+          "unordered_pairs": 264
+        }
+      },
+      {
+        "outer_fold": 2,
+        "selected": {
+          "name": "pair_logreg_c01__heterogeneity_logreg_c01__t0.50__a0.35",
+          "rank": "pair_logreg_c01",
+          "gate": "heterogeneity_logreg_c01",
+          "gate_threshold": 0.5,
+          "alpha": 0.35
+        },
+        "inner_selection_metrics": {
+          "multi_target_accuracy": 0.7837658017298735,
+          "mixed_label_accuracy": 0.49557522123893805,
+          "overall_accuracy": 0.8123580190822354
+        },
+        "outer_train_mixed_label_papers": 51,
+        "pair_training_audit": {
+          "mixed_papers": 51,
+          "unordered_pairs": 271
+        }
+      },
+      {
+        "outer_fold": 3,
+        "selected": {
+          "name": "pair_logreg_c0001__heterogeneity_hgb_leaf20__t0.70__a1.00",
+          "rank": "pair_logreg_c0001",
+          "gate": "heterogeneity_hgb_leaf20",
+          "gate_threshold": 0.7,
+          "alpha": 1.0
+        },
+        "inner_selection_metrics": {
+          "multi_target_accuracy": 0.8142476697736352,
+          "mixed_label_accuracy": 0.5411255411255411,
+          "overall_accuracy": 0.8318945933666515
+        },
+        "outer_train_mixed_label_papers": 47,
+        "pair_training_audit": {
+          "mixed_papers": 47,
+          "unordered_pairs": 280
+        }
+      },
+      {
+        "outer_fold": 4,
+        "selected": {
+          "name": "pair_logreg_c001__heterogeneity_hgb_leaf20__t0.70__a0.75",
+          "rank": "pair_logreg_c001",
+          "gate": "heterogeneity_hgb_leaf20",
+          "gate_threshold": 0.7,
+          "alpha": 0.75
+        },
+        "inner_selection_metrics": {
+          "multi_target_accuracy": 0.8257978723404256,
+          "mixed_label_accuracy": 0.6106194690265486,
+          "overall_accuracy": 0.8364379827351204
+        },
+        "outer_train_mixed_label_papers": 46,
+        "pair_training_audit": {
+          "mixed_papers": 46,
+          "unordered_pairs": 277
+        }
+      },
+      {
+        "outer_fold": 5,
+        "selected": {
+          "name": "pair_logreg_c01__heterogeneity_hgb_leaf20__t0.50__a0.75",
+          "rank": "pair_logreg_c01",
+          "gate": "heterogeneity_hgb_leaf20",
+          "gate_threshold": 0.5,
+          "alpha": 0.75
+        },
+        "inner_selection_metrics": {
+          "multi_target_accuracy": 0.805186170212766,
+          "mixed_label_accuracy": 0.5048076923076923,
+          "overall_accuracy": 0.8246251703771014
+        },
+        "outer_train_mixed_label_papers": 48,
+        "pair_training_audit": {
+          "mixed_papers": 48,
+          "unordered_pairs": 196
+        }
+      }
+    ]
+  },
+  "strategies": {
+    "grep_expanded_mean4_recomputed": {
+      "overall": {
+        "rows": 2751,
+        "coverage": 1.0,
+        "accuracy": 0.82697201,
+        "macro_f1": 0.81230564,
+        "balanced_accuracy": 0.80644355,
+        "confusion": {
+          "tn": 753,
+          "fp": 291,
+          "fn": 185,
+          "tp": 1522
+        },
+        "predicted_positive": 1813,
+        "threshold": 0.5
+      },
+      "segments": {
+        "single_target": {
+          "rows": 872,
+          "coverage": 1.0,
+          "accuracy": 0.87958716,
+          "macro_f1": 0.8660728,
+          "balanced_accuracy": 0.86759393,
+          "confusion": {
+            "tn": 245,
+            "fp": 50,
+            "fn": 55,
+            "tp": 522
+          },
+          "predicted_positive": 572,
+          "threshold": 0.5
+        },
+        "multi_target": {
+          "rows": 1879,
+          "coverage": 1.0,
+          "accuracy": 0.80255455,
+          "macro_f1": 0.78802108,
+          "balanced_accuracy": 0.7815967,
+          "confusion": {
+            "tn": 508,
+            "fp": 241,
+            "fn": 130,
+            "tp": 1000
+          },
+          "predicted_positive": 1241,
+          "threshold": 0.5
+        },
+        "two_targets": {
+          "rows": 652,
+          "coverage": 1.0,
+          "accuracy": 0.85889571,
+          "macro_f1": 0.84487752,
+          "balanced_accuracy": 0.84287051,
+          "confusion": {
+            "tn": 182,
+            "fp": 49,
+            "fn": 43,
+            "tp": 378
+          },
+          "predicted_positive": 427,
+          "threshold": 0.5
+        },
+        "three_or_four_targets": {
+          "rows": 693,
+          "coverage": 1.0,
+          "accuracy": 0.84271284,
+          "macro_f1": 0.82903722,
+          "balanced_accuracy": 0.81940839,
+          "confusion": {
+            "tn": 194,
+            "fp": 80,
+            "fn": 29,
+            "tp": 390
+          },
+          "predicted_positive": 470,
+          "threshold": 0.5
+        },
+        "five_or_more_targets": {
+          "rows": 534,
+          "coverage": 1.0,
+          "accuracy": 0.68164794,
+          "macro_f1": 0.67007806,
+          "balanced_accuracy": 0.6704918,
+          "confusion": {
+            "tn": 132,
+            "fp": 112,
+            "fn": 58,
+            "tp": 232
+          },
+          "predicted_positive": 344,
+          "threshold": 0.5
+        },
+        "multi_target_uniform_labels": {
+          "rows": 1601,
+          "coverage": 1.0,
+          "accuracy": 0.85758901,
+          "macro_f1": 0.84612466,
+          "balanced_accuracy": 0.84055825,
+          "confusion": {
+            "tn": 468,
+            "fp": 140,
+            "fn": 88,
+            "tp": 905
+          },
+          "predicted_positive": 1045,
+          "threshold": 0.5
+        },
+        "multi_target_mixed_labels": {
+          "rows": 278,
+          "coverage": 1.0,
+          "accuracy": 0.48561151,
+          "macro_f1": 0.46465748,
+          "balanced_accuracy": 0.4885593,
+          "confusion": {
+            "tn": 40,
+            "fp": 101,
+            "fn": 42,
+            "tp": 95
+          },
+          "predicted_positive": 196,
+          "threshold": 0.5
+        }
+      },
+      "mixed_label_paper_diagnostics": {
+        "papers": 61,
+        "all_targets_correct_papers": 1,
+        "all_targets_correct_rate": 0.01639344,
+        "constant_prediction_papers": 60,
+        "constant_prediction_rate": 0.98360656
+      }
+    },
+    "grep_pairwise_nested_router": {
+      "overall": {
+        "rows": 2751,
+        "coverage": 1.0,
+        "accuracy": 0.83605961,
+        "macro_f1": 0.82304733,
+        "balanced_accuracy": 0.81823071,
+        "confusion": {
+          "tn": 777,
+          "fp": 267,
+          "fn": 184,
+          "tp": 1523
+        },
+        "predicted_positive": 1790,
+        "threshold": 0.5
+      },
+      "segments": {
+        "single_target": {
+          "rows": 872,
+          "coverage": 1.0,
+          "accuracy": 0.87958716,
+          "macro_f1": 0.8660728,
+          "balanced_accuracy": 0.86759393,
+          "confusion": {
+            "tn": 245,
+            "fp": 50,
+            "fn": 55,
+            "tp": 522
+          },
+          "predicted_positive": 572,
+          "threshold": 0.5
+        },
+        "multi_target": {
+          "rows": 1879,
+          "coverage": 1.0,
+          "accuracy": 0.8158595,
+          "macro_f1": 0.80362524,
+          "balanced_accuracy": 0.79806054,
+          "confusion": {
+            "tn": 532,
+            "fp": 217,
+            "fn": 129,
+            "tp": 1001
+          },
+          "predicted_positive": 1218,
+          "threshold": 0.5
+        },
+        "two_targets": {
+          "rows": 652,
+          "coverage": 1.0,
+          "accuracy": 0.85736196,
+          "macro_f1": 0.84303188,
+          "balanced_accuracy": 0.84070601,
+          "confusion": {
+            "tn": 181,
+            "fp": 50,
+            "fn": 43,
+            "tp": 378
+          },
+          "predicted_positive": 428,
+          "threshold": 0.5
+        },
+        "three_or_four_targets": {
+          "rows": 693,
+          "coverage": 1.0,
+          "accuracy": 0.83549784,
+          "macro_f1": 0.8210357,
+          "balanced_accuracy": 0.81154731,
+          "confusion": {
+            "tn": 191,
+            "fp": 83,
+            "fn": 31,
+            "tp": 388
+          },
+          "predicted_positive": 471,
+          "threshold": 0.5
+        },
+        "five_or_more_targets": {
+          "rows": 534,
+          "coverage": 1.0,
+          "accuracy": 0.73970037,
+          "macro_f1": 0.73446237,
+          "balanced_accuracy": 0.73304127,
+          "confusion": {
+            "tn": 160,
+            "fp": 84,
+            "fn": 55,
+            "tp": 235
+          },
+          "predicted_positive": 319,
+          "threshold": 0.5
+        },
+        "multi_target_uniform_labels": {
+          "rows": 1601,
+          "coverage": 1.0,
+          "accuracy": 0.86008745,
+          "macro_f1": 0.84904568,
+          "balanced_accuracy": 0.84384772,
+          "confusion": {
+            "tn": 472,
+            "fp": 136,
+            "fn": 88,
+            "tp": 905
+          },
+          "predicted_positive": 1041,
+          "threshold": 0.5
+        },
+        "multi_target_mixed_labels": {
+          "rows": 278,
+          "coverage": 1.0,
+          "accuracy": 0.56115108,
+          "macro_f1": 0.55366637,
+          "balanced_accuracy": 0.56313092,
+          "confusion": {
+            "tn": 60,
+            "fp": 81,
+            "fn": 41,
+            "tp": 96
+          },
+          "predicted_positive": 177,
+          "threshold": 0.5
+        }
+      },
+      "mixed_label_paper_diagnostics": {
+        "papers": 61,
+        "all_targets_correct_papers": 2,
+        "all_targets_correct_rate": 0.03278689,
+        "constant_prediction_papers": 52,
+        "constant_prediction_rate": 0.85245902
+      }
+    }
+  },
+  "delta_vs_recomputed_expanded_baseline": {
+    "overall_accuracy": 0.0090876,
+    "multi_target_accuracy": 0.01330495,
+    "mixed_label_accuracy": 0.07553957,
+    "uniform_multi_target_accuracy": 0.00249844
+  },
+  "paired_refno_cluster_bootstrap": {
+    "overall": {
+      "resampling_unit": "REFNO",
+      "groups": 1478,
+      "rows": 2751,
+      "iterations": 10000,
+      "observed_accuracy_delta": 0.0090876,
+      "percentile_95_interval": [
+        0.00037078,
+        0.02004168
+      ],
+      "bootstrap_probability_delta_positive": 0.9786
+    },
+    "multi_target": {
+      "resampling_unit": "REFNO",
+      "groups": 606,
+      "rows": 1879,
+      "iterations": 10000,
+      "observed_accuracy_delta": 0.01330495,
+      "percentile_95_interval": [
+        0.00055005,
+        0.02890233
+      ],
+      "bootstrap_probability_delta_positive": 0.9786
+    },
+    "multi_target_mixed_labels": {
+      "resampling_unit": "REFNO",
+      "groups": 61,
+      "rows": 278,
+      "iterations": 10000,
+      "observed_accuracy_delta": 0.07553957,
+      "percentile_95_interval": [
+        0.00421941,
+        0.14532221
+      ],
+      "bootstrap_probability_delta_positive": 0.9799
+    }
+  },
+  "promotion_decision": {
+    "promote_to_current_supervised_evaluation": true,
+    "promote_to_strict_production_scoring": false,
+    "rule": "supervised evaluation promotion requires strict nested-OOF improvement in overall and multi-target accuracy; strict production remains label-free"
+  },
+  "artifacts": {
+    "candidate_freeze": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/grep_pairwise_rank_candidate_freeze_v2.json",
+      "sha256": "518ffc9a91d257ec470cf6b560da52d3fb701b59fe540a98bd65779720d402f2"
+    },
+    "prediction_receipt": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/grep_pairwise_rank_prediction_receipt_v2.json",
+      "sha256": "56b7caa00f7e21b980305993097bf8cb5a151fabe0ab9f3b4bb923d0c652d6d7"
+    },
+    "oof_probabilities": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/grep_pairwise_rank_oof_v2.npz",
+      "sha256": "9beb4c351b42b6691cdc73a736116fb3d03216f534a0bf5b7ee8e6aa5f606abc"
+    }
+  }
+}

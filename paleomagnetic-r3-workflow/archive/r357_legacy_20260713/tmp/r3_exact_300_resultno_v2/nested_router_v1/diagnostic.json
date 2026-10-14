@@ -1,0 +1,187 @@
+{
+  "schema_version": "r3_exact300_nested_router_v1_diagnostic_v1",
+  "status": "complete",
+  "usage_boundary": {
+    "diagnostic_only": true,
+    "contains_oof_derived_statistics": true,
+    "contains_label_derived_statistics": true,
+    "contains_row_identifiers": false,
+    "permitted_as_runtime_feature": false,
+    "permitted_for_candidate_or_threshold_selection": false
+  },
+  "inputs": {
+    "report": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/nested_router_v1/report.json",
+      "sha256": "9fcd3f6e01deab658280a6c2272e3da1dc4e8f96830dc6a08b24f82ae6b45b64"
+    },
+    "oof": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_exact_300_resultno_v2/nested_router_v1/oof_probabilities.npz",
+      "sha256": "750f917bb7c6ac6d3b20b9bdaa02a33b5f8ef4d26a6ef4736b5822087a45f5ea"
+    },
+    "fold_manifest_sha256": "8f6ab8f1a071878e14d4db8e19a7ec0519ed612be107b0f0fdf0489dd59aaf2d",
+    "targets_sha256": "378c17338f3b5cfeff3ccd496894e0f6183f747119b2624c4a9cefaeda02501e"
+  },
+  "canonical_audit": {
+    "rows": 300,
+    "outer_folds": 5,
+    "outer_refno_overlap_zero": true,
+    "inner_refno_overlap_zero": true,
+    "oof_full_coverage": true
+  },
+  "router": {
+    "name": "router_loss_hgb_hard",
+    "errors": 32,
+    "accuracy": 0.89333333,
+    "false_positive": 21,
+    "false_negative": 11
+  },
+  "error_decomposition": {
+    "all_six_experts_wrong": 20,
+    "at_least_one_expert_could_fix": 12,
+    "all_six_experts_agree_on_wrong_decision": 20,
+    "six_expert_oracle_errors": 20,
+    "six_expert_oracle_accuracy": 0.93333333
+  },
+  "selected_expert": {
+    "expert_extra_combined": {
+      "selected_rows": 61,
+      "selected_errors": 9,
+      "conditional_error_rate": 0.14754098
+    },
+    "expert_hgb_combined": {
+      "selected_rows": 58,
+      "selected_errors": 5,
+      "conditional_error_rate": 0.0862069
+    },
+    "expert_hgb_component_all": {
+      "selected_rows": 44,
+      "selected_errors": 3,
+      "conditional_error_rate": 0.06818182
+    },
+    "expert_logreg_combined": {
+      "selected_rows": 55,
+      "selected_errors": 9,
+      "conditional_error_rate": 0.16363636
+    },
+    "expert_rf_combined": {
+      "selected_rows": 33,
+      "selected_errors": 2,
+      "conditional_error_rate": 0.06060606
+    },
+    "expert_rf_component_all": {
+      "selected_rows": 49,
+      "selected_errors": 4,
+      "conditional_error_rate": 0.08163265
+    }
+  },
+  "expert_corrections_available_on_router_errors": {
+    "expert_extra_combined": 4,
+    "expert_hgb_combined": 3,
+    "expert_hgb_component_all": 3,
+    "expert_logreg_combined": 8,
+    "expert_rf_combined": 2,
+    "expert_rf_component_all": 2
+  },
+  "confidence": {
+    "mean_absolute_margin_on_errors": 0.31306313,
+    "mean_absolute_margin_on_correct_rows": 0.35548671,
+    "bands": [
+      {
+        "absolute_margin_lower": 0.0,
+        "absolute_margin_upper": 0.05,
+        "rows": 5,
+        "errors": 0,
+        "error_rate": 0.0
+      },
+      {
+        "absolute_margin_lower": 0.05,
+        "absolute_margin_upper": 0.1,
+        "rows": 12,
+        "errors": 4,
+        "error_rate": 0.33333333
+      },
+      {
+        "absolute_margin_lower": 0.1,
+        "absolute_margin_upper": 0.2,
+        "rows": 25,
+        "errors": 4,
+        "error_rate": 0.16
+      },
+      {
+        "absolute_margin_lower": 0.2,
+        "absolute_margin_upper": 0.3,
+        "rows": 47,
+        "errors": 5,
+        "error_rate": 0.10638298
+      },
+      {
+        "absolute_margin_lower": 0.3,
+        "absolute_margin_upper": 0.5,
+        "rows": 211,
+        "errors": 19,
+        "error_rate": 0.09004739
+      }
+    ],
+    "expert_vote_summary": [
+      {
+        "positive_vote_fraction": 0.0,
+        "rows": 82,
+        "errors": 8
+      },
+      {
+        "positive_vote_fraction": 0.16666667,
+        "rows": 16,
+        "errors": 5
+      },
+      {
+        "positive_vote_fraction": 0.33333333,
+        "rows": 3,
+        "errors": 0
+      },
+      {
+        "positive_vote_fraction": 0.5,
+        "rows": 3,
+        "errors": 1
+      },
+      {
+        "positive_vote_fraction": 0.66666667,
+        "rows": 6,
+        "errors": 0
+      },
+      {
+        "positive_vote_fraction": 0.83333333,
+        "rows": 23,
+        "errors": 6
+      },
+      {
+        "positive_vote_fraction": 1.0,
+        "rows": 167,
+        "errors": 12
+      }
+    ]
+  },
+  "routing_loss": {
+    "observed_loss": "squared probability error (p-y)^2",
+    "mean_selected_loss_regret_all_rows": 0.04153937,
+    "mean_selected_loss_regret_on_router_errors": 0.24699713,
+    "router_errors_where_selected_expert_has_minimum_actual_loss": 2,
+    "predicted_route_loss_matrix_persisted": false,
+    "interpretation": "The hard output identifies the selected expert exactly, but v1 did not persist each expert's predicted route loss; diagnostics therefore measure realized loss regret rather than calibration of latent losses."
+  },
+  "structure": {
+    "errors_by_fold": {
+      "1": 5,
+      "2": 5,
+      "3": 11,
+      "4": 6,
+      "5": 5
+    },
+    "errors_by_exact300_paper_multiplicity": {
+      "1": 24,
+      "2": 5,
+      "3": 2,
+      "4": 1
+    },
+    "errors_in_multirow_exact300_papers": 8
+  }
+}

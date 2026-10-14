@@ -1,0 +1,122 @@
+{
+  "schema_version": "r3_label_free_nli_evidence_features_v1",
+  "status": "PASS",
+  "runtime_boundary": {
+    "labels_read": false,
+    "pmagresult_or_rockmag_read": false,
+    "prior_predictions_or_evaluations_read": false,
+    "allowed_sources": [
+      "strict identity manifest",
+      "original-paper page cache",
+      "frozen aggregate R3 knowledge",
+      "pretrained NLI model"
+    ]
+  },
+  "inputs": {
+    "identity": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_distilled_training_preflight/identity.xlsx",
+      "sha256": "7e45020df48b866096ac4bf567102f6a73ce3c12759b19c8550f78de299c72f1"
+    },
+    "page_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/mineru_cache_all_hard_risk.jsonl",
+      "sha256": "f8ec25c1148c04112ccfc75076743803417effbb833834a136c714dff4e146d7"
+    },
+    "taxonomy": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/calibration/r3_rockmag_text_distillation_v1.json",
+      "sha256": "149df539a937678c8204aa6d6e60e77bd901e4a77975d26caa5362749aa18ad4"
+    },
+    "positive_kb": null,
+    "pdf_dir": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs"
+  },
+  "scope": {
+    "fixed_training_rows": 2473,
+    "fixed_training_paper_groups": 1292,
+    "pdf_only_rows": 2172,
+    "pdf_only_paper_groups": 1174,
+    "rows_skipped_without_local_pdf": 301,
+    "paper_groups_skipped_without_local_pdf": 118,
+    "processed_papers": 10,
+    "paper_limit": 10
+  },
+  "knowledge": {
+    "positive_kb_status": "not_present",
+    "positive_kb_pattern_field": null,
+    "concept_count": 21,
+    "runtime_pattern_count": 48,
+    "runtime_pattern_counts_by_source": {
+      "frozen_taxonomy": 48
+    },
+    "invalid_pattern_count": 0,
+    "inputs": {
+      "frozen_taxonomy": {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/calibration/r3_rockmag_text_distillation_v1.json",
+        "sha256": "149df539a937678c8204aa6d6e60e77bd901e4a77975d26caa5362749aa18ad4"
+      }
+    }
+  },
+  "retrieval": {
+    "maximum_passages_per_paper": 6,
+    "candidate_passages": 97,
+    "raw_pattern_matches": 115,
+    "selected_passages": 42
+  },
+  "nli": {
+    "model": "cross-encoder/nli-deberta-v3-base",
+    "device": "mps",
+    "batch_size": 10,
+    "hypotheses": {
+      "names": [
+        "own_study_generic",
+        "concept_specific_method",
+        "carrier_identification"
+      ],
+      "own_study_generic": "Measurements were performed in this study.",
+      "concept_specific_method": {
+        "irm_acquisition": "Isothermal remanent magnetization measurements were performed in this study.",
+        "thermomagnetic_curve": "Thermomagnetic measurements were performed in this study.",
+        "temperature_dependent_susceptibility": "Temperature-dependent magnetic susceptibility measurements were performed in this study.",
+        "three_axis_irm": "Three-axis IRM measurements were performed in this study.",
+        "low_temperature_irm": "Low-temperature IRM measurements were performed in this study.",
+        "hysteresis_forc": "Magnetic hysteresis measurements were performed in this study.",
+        "magnetic_fabric": "Magnetic fabric measurements were performed in this study.",
+        "petrographic_microscopy": "Microscopic examination of the samples was performed in this study.",
+        "mineralogical_phase_analysis": "Mineralogical phase measurements were performed in this study."
+      },
+      "concept_specific_fallback": "Measurements of magnetic properties were performed in this study.",
+      "carrier_identification": "The passage identifies a remanence carrier."
+    },
+    "pair_count": 126
+  },
+  "output": {
+    "features": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_nli_evidence/sample_features_v2.npz",
+      "sha256": "0339bb0bf3eaafe185777218bcc8ccc78b5a7b80e2cd0bc0c23b19bf8f856ccd"
+    },
+    "evidence": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_nli_evidence/sample_passages_v2.jsonl",
+      "sha256": "8198d587aa2e2503595a4e93aa9a514241a903d50dd1f9db30f9b4129b427f1f"
+    },
+    "feature_names": [
+      "own_study_generic__max",
+      "own_study_generic__top2_mean",
+      "own_study_generic__top3_mean",
+      "own_study_generic__mean",
+      "concept_specific_method__max",
+      "concept_specific_method__top2_mean",
+      "concept_specific_method__top3_mean",
+      "concept_specific_method__mean",
+      "carrier_identification__max",
+      "carrier_identification__top2_mean",
+      "carrier_identification__top3_mean",
+      "carrier_identification__mean",
+      "retrieval__passage_count",
+      "retrieval__method_hits",
+      "retrieval__diagnostic_hits",
+      "retrieval__carrier_hits",
+      "retrieval__own_study_hits",
+      "retrieval__result_hits",
+      "retrieval__max_score",
+      "retrieval__citation_heavy_count"
+    ]
+  }
+}

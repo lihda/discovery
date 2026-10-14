@@ -1,0 +1,138 @@
+{
+  "schema_version": "r3_pdf_only_strategy_comparison_summary_v1",
+  "status": "complete",
+  "evaluation_scope": {
+    "fixed_training_partition_only": true,
+    "local_pdf_required": true,
+    "rows": 2172,
+    "paper_groups": 1174,
+    "rows_skipped_without_local_pdf": 301,
+    "grouped_oof": "5-fold GroupKFold by REFNO",
+    "held_out_labels_read": false,
+    "pmagresult_read": false,
+    "prior_predictions_or_evaluations_read": false
+  },
+  "artifacts": {
+    "experiment_script": "scripts/experiment_r3_pdf_only_strategies.py",
+    "experiment_script_sha256": "46c368cc409deaa9fd6ed7f72a1b8aba8543eeb99cf736700cb4eccfd655f3a8",
+    "positive_kb": "data/calibration/r3_positive_rockmag_expert_kb_v2.json",
+    "positive_kb_sha256": "b0fc28866fe6702938a7cc02fcf7b87b68abc9e3b4e391a53a53de1615b5e9ef",
+    "with_positive_kb_aggregate": "tmp/r3_pdf_only_strategies/aggregate_result.json",
+    "with_positive_kb_aggregate_sha256": "f6e2590b3e0300e95cecd6b8fe7809d1f11947980462ac36cf0fd26c5460f155",
+    "taxonomy_only_same_config_aggregate": "tmp/r3_pdf_only_strategies/aggregate_taxonomy_same_config.json",
+    "taxonomy_only_same_config_aggregate_sha256": "e1126bdc43c74fea3ed2d1a2099bf10bfe9451396551820f179630883962bf8d"
+  },
+  "full_coverage": {
+    "taxonomy_only_unscoped_multi_article_ablation": {
+      "strategy": "multi_all_article_100",
+      "deployment_status": "diagnostic_ablation_not_a_strict_scope_policy",
+      "accuracy": 0.8305709,
+      "macro_f1": 0.80818523,
+      "balanced_accuracy": 0.79550166,
+      "confusion": {"tn": 531, "fp": 273, "fn": 95, "tp": 1273},
+      "fold_accuracy_range": [0.7862069, 0.859447]
+    },
+    "taxonomy_only_best_shared_evidence_policy": {
+      "strategy": "multi_shared_article_100",
+      "accuracy": 0.82826888,
+      "macro_f1": 0.80592346,
+      "balanced_accuracy": 0.79367417,
+      "confusion": {"tn": 531, "fp": 273, "fn": 100, "tp": 1268}
+    },
+    "taxonomy_only_best_scope_gated_policy": {
+      "strategy": "scope_gated_article_50",
+      "accuracy": 0.82642726,
+      "macro_f1": 0.80411813,
+      "balanced_accuracy": 0.79221218,
+      "confusion": {"tn": 531, "fp": 273, "fn": 104, "tp": 1264}
+    },
+    "positive_kb_unscoped_multi_article_ablation": {
+      "strategy": "multi_all_article_100",
+      "deployment_status": "diagnostic_ablation_not_a_strict_scope_policy",
+      "accuracy": 0.82734807,
+      "macro_f1": 0.80404578,
+      "balanced_accuracy": 0.79114842,
+      "confusion": {"tn": 524, "fp": 280, "fn": 95, "tp": 1273},
+      "fold_accuracy_range": [0.77701149, 0.86635945]
+    },
+    "positive_kb_best_shared_evidence_policy": {
+      "strategy": "multi_shared_article_75",
+      "accuracy": 0.82642726,
+      "macro_f1": 0.80342405,
+      "balanced_accuracy": 0.79093022,
+      "confusion": {"tn": 526, "fp": 278, "fn": 99, "tp": 1269}
+    },
+    "positive_kb_best_scope_gated_policy": {
+      "strategy": "scope_gated_article_75",
+      "accuracy": 0.82596685,
+      "macro_f1": 0.80269104,
+      "balanced_accuracy": 0.79005193,
+      "confusion": {"tn": 524, "fp": 280, "fn": 98, "tp": 1270}
+    }
+  },
+  "positive_kb_local_model_effect": {
+    "model": "row_knowledge_hist_gradient_boosting",
+    "taxonomy_only": {
+      "accuracy": 0.81169429,
+      "macro_f1": 0.7924742,
+      "balanced_accuracy": 0.78564415,
+      "confusion": {"tn": 551, "fp": 253, "fn": 156, "tp": 1212}
+    },
+    "with_positive_kb": {
+      "accuracy": 0.82550645,
+      "macro_f1": 0.80874485,
+      "balanced_accuracy": 0.8027625,
+      "confusion": {"tn": 575, "fp": 229, "fn": 150, "tp": 1218}
+    },
+    "accuracy_delta": 0.01381216,
+    "balanced_accuracy_delta": 0.01711835,
+    "interpretation": "The positive KB improves a target-local nonlinear discriminator, but widening article propagation with the same KB does not improve the best full-coverage result."
+  },
+  "paper_homogeneity_diagnostic": {
+    "homogeneous_paper_rows": 1952,
+    "mixed_label_paper_rows": 220,
+    "mixed_label_papers": 48,
+    "taxonomy_best_homogeneous_accuracy": 0.87090164,
+    "taxonomy_best_mixed_accuracy": 0.47272727,
+    "positive_kb_best_homogeneous_accuracy": 0.86731557,
+    "positive_kb_best_mixed_accuracy": 0.47272727,
+    "interpretation": "Article propagation works mainly because most papers are label-homogeneous; target attribution remains unresolved in mixed-label papers."
+  },
+  "threshold_diagnostics": {
+    "positive_kb_nested_full_coverage": {
+      "strategy": "row_knowledge_gb_nested_threshold_decision",
+      "accuracy": 0.78913444,
+      "macro_f1": 0.76500437,
+      "balanced_accuracy": 0.75696627,
+      "confusion": {"tn": 509, "fp": 295, "fn": 163, "tp": 1205},
+      "inner_selected_threshold_range": [0.375, 0.65]
+    },
+    "positive_kb_posthoc_full_threshold_upper_bound": {
+      "threshold": 0.425,
+      "accuracy": 0.82965009,
+      "warning": "selected post-hoc on the same OOF predictions"
+    }
+  },
+  "selective_policy": {
+    "with_positive_kb_posthoc": {
+      "negative_threshold": 0.325,
+      "positive_threshold": 0.9,
+      "coverage": 0.48941068,
+      "known_accuracy": 0.90310442,
+      "macro_f1": 0.90220398,
+      "folds_reaching_90_percent": 3,
+      "fold_count": 5,
+      "warning": "post-hoc and unstable; not a validated 90 percent result"
+    }
+  },
+  "conclusion": {
+    "full_coverage_90_percent_reached": false,
+    "strict_scope_90_percent_reached": false,
+    "primary_remaining_bottlenecks": [
+      "paper-level class generalization across held-out REFNO groups",
+      "target/component attribution in the 48 mixed-label papers",
+      "false-positive propagation from article-wide expert terms to negative targets",
+      "unstable probability calibration across paper folds"
+    ]
+  }
+}
