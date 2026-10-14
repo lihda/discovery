@@ -1,0 +1,1101 @@
+{
+  "schema_version": "r3_query_adaptive_evaluation_freeze_v1",
+  "status": "FROZEN_BEFORE_LABEL_ACCESS",
+  "primary_scope": "872 PDF-backed single-target rows at full coverage",
+  "raw_specs": [
+    {
+      "name": "v4_rf",
+      "family": "random_forest",
+      "matrix": "v4",
+      "c_value": null,
+      "pca_dimension": null,
+      "eligible_for_nested_selection": true
+    },
+    {
+      "name": "retrieval_compact_rf",
+      "family": "random_forest",
+      "matrix": "retrieval_compact",
+      "c_value": null,
+      "pca_dimension": null,
+      "eligible_for_nested_selection": true
+    },
+    {
+      "name": "v4_retrieval_compact_rf",
+      "family": "random_forest",
+      "matrix": "v4_plus_retrieval_compact",
+      "c_value": null,
+      "pca_dimension": null,
+      "eligible_for_nested_selection": true
+    },
+    {
+      "name": "retrieval_compact_extra",
+      "family": "extra_trees",
+      "matrix": "retrieval_compact",
+      "c_value": null,
+      "pca_dimension": null,
+      "eligible_for_nested_selection": true
+    },
+    {
+      "name": "v4_retrieval_compact_extra",
+      "family": "extra_trees",
+      "matrix": "v4_plus_retrieval_compact",
+      "c_value": null,
+      "pca_dimension": null,
+      "eligible_for_nested_selection": true
+    },
+    {
+      "name": "retrieval_compact_hgb",
+      "family": "hist_gradient_boosting",
+      "matrix": "retrieval_compact",
+      "c_value": null,
+      "pca_dimension": null,
+      "eligible_for_nested_selection": true
+    },
+    {
+      "name": "v4_retrieval_compact_hgb",
+      "family": "hist_gradient_boosting",
+      "matrix": "v4_plus_retrieval_compact",
+      "c_value": null,
+      "pca_dimension": null,
+      "eligible_for_nested_selection": true
+    },
+    {
+      "name": "retrieval_pooled_logreg_c001",
+      "family": "logistic",
+      "matrix": "retrieval_pooled",
+      "c_value": 0.01,
+      "pca_dimension": null,
+      "eligible_for_nested_selection": true
+    },
+    {
+      "name": "retrieval_pooled_logreg_c01",
+      "family": "logistic",
+      "matrix": "retrieval_pooled",
+      "c_value": 0.1,
+      "pca_dimension": null,
+      "eligible_for_nested_selection": true
+    },
+    {
+      "name": "retrieval_pooled_logreg_c1",
+      "family": "logistic",
+      "matrix": "retrieval_pooled",
+      "c_value": 1.0,
+      "pca_dimension": null,
+      "eligible_for_nested_selection": true
+    },
+    {
+      "name": "retrieval_compact_pooled_logreg_c01",
+      "family": "logistic",
+      "matrix": "retrieval_compact_plus_pooled",
+      "c_value": 0.1,
+      "pca_dimension": null,
+      "eligible_for_nested_selection": true
+    },
+    {
+      "name": "v4_retrieval_all_logreg_c01",
+      "family": "logistic",
+      "matrix": "v4_plus_retrieval_compact_plus_pooled",
+      "c_value": 0.1,
+      "pca_dimension": null,
+      "eligible_for_nested_selection": true
+    },
+    {
+      "name": "retrieval_pooled_pca64_logreg_c1",
+      "family": "pca_logistic",
+      "matrix": "retrieval_pooled",
+      "c_value": 1.0,
+      "pca_dimension": 64,
+      "eligible_for_nested_selection": false
+    },
+    {
+      "name": "v4_retrieval_all_pca64_logreg_c1",
+      "family": "pca_logistic",
+      "matrix": "v4_plus_retrieval_compact_plus_pooled",
+      "c_value": 1.0,
+      "pca_dimension": 64,
+      "eligible_for_nested_selection": false
+    }
+  ],
+  "nested_candidates": [
+    {
+      "name": "all_pdf_training::v4_rf",
+      "scope": "all_pdf_training",
+      "kind": "raw",
+      "raw_name": "v4_rf",
+      "alpha": null
+    },
+    {
+      "name": "all_pdf_training::retrieval_compact_rf",
+      "scope": "all_pdf_training",
+      "kind": "raw",
+      "raw_name": "retrieval_compact_rf",
+      "alpha": null
+    },
+    {
+      "name": "all_pdf_training::v4_retrieval_compact_rf",
+      "scope": "all_pdf_training",
+      "kind": "raw",
+      "raw_name": "v4_retrieval_compact_rf",
+      "alpha": null
+    },
+    {
+      "name": "all_pdf_training::retrieval_compact_extra",
+      "scope": "all_pdf_training",
+      "kind": "raw",
+      "raw_name": "retrieval_compact_extra",
+      "alpha": null
+    },
+    {
+      "name": "all_pdf_training::v4_retrieval_compact_extra",
+      "scope": "all_pdf_training",
+      "kind": "raw",
+      "raw_name": "v4_retrieval_compact_extra",
+      "alpha": null
+    },
+    {
+      "name": "all_pdf_training::retrieval_compact_hgb",
+      "scope": "all_pdf_training",
+      "kind": "raw",
+      "raw_name": "retrieval_compact_hgb",
+      "alpha": null
+    },
+    {
+      "name": "all_pdf_training::v4_retrieval_compact_hgb",
+      "scope": "all_pdf_training",
+      "kind": "raw",
+      "raw_name": "v4_retrieval_compact_hgb",
+      "alpha": null
+    },
+    {
+      "name": "all_pdf_training::retrieval_pooled_logreg_c001",
+      "scope": "all_pdf_training",
+      "kind": "raw",
+      "raw_name": "retrieval_pooled_logreg_c001",
+      "alpha": null
+    },
+    {
+      "name": "all_pdf_training::retrieval_pooled_logreg_c01",
+      "scope": "all_pdf_training",
+      "kind": "raw",
+      "raw_name": "retrieval_pooled_logreg_c01",
+      "alpha": null
+    },
+    {
+      "name": "all_pdf_training::retrieval_pooled_logreg_c1",
+      "scope": "all_pdf_training",
+      "kind": "raw",
+      "raw_name": "retrieval_pooled_logreg_c1",
+      "alpha": null
+    },
+    {
+      "name": "all_pdf_training::retrieval_compact_pooled_logreg_c01",
+      "scope": "all_pdf_training",
+      "kind": "raw",
+      "raw_name": "retrieval_compact_pooled_logreg_c01",
+      "alpha": null
+    },
+    {
+      "name": "all_pdf_training::v4_retrieval_all_logreg_c01",
+      "scope": "all_pdf_training",
+      "kind": "raw",
+      "raw_name": "v4_retrieval_all_logreg_c01",
+      "alpha": null
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_compact_rf__a0.20",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_rf",
+      "alpha": 0.2
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_compact_rf__a0.35",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_rf",
+      "alpha": 0.35
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_compact_rf__a0.50",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_rf",
+      "alpha": 0.5
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_compact_rf__a0.65",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_rf",
+      "alpha": 0.65
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_compact_rf__a0.80",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_rf",
+      "alpha": 0.8
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__v4_retrieval_compact_rf__a0.20",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_compact_rf",
+      "alpha": 0.2
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__v4_retrieval_compact_rf__a0.35",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_compact_rf",
+      "alpha": 0.35
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__v4_retrieval_compact_rf__a0.50",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_compact_rf",
+      "alpha": 0.5
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__v4_retrieval_compact_rf__a0.65",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_compact_rf",
+      "alpha": 0.65
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__v4_retrieval_compact_rf__a0.80",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_compact_rf",
+      "alpha": 0.8
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_compact_extra__a0.20",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_extra",
+      "alpha": 0.2
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_compact_extra__a0.35",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_extra",
+      "alpha": 0.35
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_compact_extra__a0.50",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_extra",
+      "alpha": 0.5
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_compact_extra__a0.65",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_extra",
+      "alpha": 0.65
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_compact_extra__a0.80",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_extra",
+      "alpha": 0.8
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__v4_retrieval_compact_extra__a0.20",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_compact_extra",
+      "alpha": 0.2
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__v4_retrieval_compact_extra__a0.35",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_compact_extra",
+      "alpha": 0.35
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__v4_retrieval_compact_extra__a0.50",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_compact_extra",
+      "alpha": 0.5
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__v4_retrieval_compact_extra__a0.65",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_compact_extra",
+      "alpha": 0.65
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__v4_retrieval_compact_extra__a0.80",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_compact_extra",
+      "alpha": 0.8
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_compact_hgb__a0.20",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_hgb",
+      "alpha": 0.2
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_compact_hgb__a0.35",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_hgb",
+      "alpha": 0.35
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_compact_hgb__a0.50",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_hgb",
+      "alpha": 0.5
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_compact_hgb__a0.65",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_hgb",
+      "alpha": 0.65
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_compact_hgb__a0.80",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_hgb",
+      "alpha": 0.8
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__v4_retrieval_compact_hgb__a0.20",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_compact_hgb",
+      "alpha": 0.2
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__v4_retrieval_compact_hgb__a0.35",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_compact_hgb",
+      "alpha": 0.35
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__v4_retrieval_compact_hgb__a0.50",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_compact_hgb",
+      "alpha": 0.5
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__v4_retrieval_compact_hgb__a0.65",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_compact_hgb",
+      "alpha": 0.65
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__v4_retrieval_compact_hgb__a0.80",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_compact_hgb",
+      "alpha": 0.8
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_pooled_logreg_c001__a0.20",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_pooled_logreg_c001",
+      "alpha": 0.2
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_pooled_logreg_c001__a0.35",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_pooled_logreg_c001",
+      "alpha": 0.35
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_pooled_logreg_c001__a0.50",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_pooled_logreg_c001",
+      "alpha": 0.5
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_pooled_logreg_c001__a0.65",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_pooled_logreg_c001",
+      "alpha": 0.65
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_pooled_logreg_c001__a0.80",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_pooled_logreg_c001",
+      "alpha": 0.8
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_pooled_logreg_c01__a0.20",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_pooled_logreg_c01",
+      "alpha": 0.2
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_pooled_logreg_c01__a0.35",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_pooled_logreg_c01",
+      "alpha": 0.35
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_pooled_logreg_c01__a0.50",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_pooled_logreg_c01",
+      "alpha": 0.5
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_pooled_logreg_c01__a0.65",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_pooled_logreg_c01",
+      "alpha": 0.65
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_pooled_logreg_c01__a0.80",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_pooled_logreg_c01",
+      "alpha": 0.8
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_pooled_logreg_c1__a0.20",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_pooled_logreg_c1",
+      "alpha": 0.2
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_pooled_logreg_c1__a0.35",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_pooled_logreg_c1",
+      "alpha": 0.35
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_pooled_logreg_c1__a0.50",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_pooled_logreg_c1",
+      "alpha": 0.5
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_pooled_logreg_c1__a0.65",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_pooled_logreg_c1",
+      "alpha": 0.65
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_pooled_logreg_c1__a0.80",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_pooled_logreg_c1",
+      "alpha": 0.8
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_compact_pooled_logreg_c01__a0.20",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_pooled_logreg_c01",
+      "alpha": 0.2
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_compact_pooled_logreg_c01__a0.35",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_pooled_logreg_c01",
+      "alpha": 0.35
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_compact_pooled_logreg_c01__a0.50",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_pooled_logreg_c01",
+      "alpha": 0.5
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_compact_pooled_logreg_c01__a0.65",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_pooled_logreg_c01",
+      "alpha": 0.65
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__retrieval_compact_pooled_logreg_c01__a0.80",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_pooled_logreg_c01",
+      "alpha": 0.8
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__v4_retrieval_all_logreg_c01__a0.20",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_all_logreg_c01",
+      "alpha": 0.2
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__v4_retrieval_all_logreg_c01__a0.35",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_all_logreg_c01",
+      "alpha": 0.35
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__v4_retrieval_all_logreg_c01__a0.50",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_all_logreg_c01",
+      "alpha": 0.5
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__v4_retrieval_all_logreg_c01__a0.65",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_all_logreg_c01",
+      "alpha": 0.65
+    },
+    {
+      "name": "all_pdf_training::v4_rf__mix__v4_retrieval_all_logreg_c01__a0.80",
+      "scope": "all_pdf_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_all_logreg_c01",
+      "alpha": 0.8
+    },
+    {
+      "name": "single_target_training::v4_rf",
+      "scope": "single_target_training",
+      "kind": "raw",
+      "raw_name": "v4_rf",
+      "alpha": null
+    },
+    {
+      "name": "single_target_training::retrieval_compact_rf",
+      "scope": "single_target_training",
+      "kind": "raw",
+      "raw_name": "retrieval_compact_rf",
+      "alpha": null
+    },
+    {
+      "name": "single_target_training::v4_retrieval_compact_rf",
+      "scope": "single_target_training",
+      "kind": "raw",
+      "raw_name": "v4_retrieval_compact_rf",
+      "alpha": null
+    },
+    {
+      "name": "single_target_training::retrieval_compact_extra",
+      "scope": "single_target_training",
+      "kind": "raw",
+      "raw_name": "retrieval_compact_extra",
+      "alpha": null
+    },
+    {
+      "name": "single_target_training::v4_retrieval_compact_extra",
+      "scope": "single_target_training",
+      "kind": "raw",
+      "raw_name": "v4_retrieval_compact_extra",
+      "alpha": null
+    },
+    {
+      "name": "single_target_training::retrieval_compact_hgb",
+      "scope": "single_target_training",
+      "kind": "raw",
+      "raw_name": "retrieval_compact_hgb",
+      "alpha": null
+    },
+    {
+      "name": "single_target_training::v4_retrieval_compact_hgb",
+      "scope": "single_target_training",
+      "kind": "raw",
+      "raw_name": "v4_retrieval_compact_hgb",
+      "alpha": null
+    },
+    {
+      "name": "single_target_training::retrieval_pooled_logreg_c001",
+      "scope": "single_target_training",
+      "kind": "raw",
+      "raw_name": "retrieval_pooled_logreg_c001",
+      "alpha": null
+    },
+    {
+      "name": "single_target_training::retrieval_pooled_logreg_c01",
+      "scope": "single_target_training",
+      "kind": "raw",
+      "raw_name": "retrieval_pooled_logreg_c01",
+      "alpha": null
+    },
+    {
+      "name": "single_target_training::retrieval_pooled_logreg_c1",
+      "scope": "single_target_training",
+      "kind": "raw",
+      "raw_name": "retrieval_pooled_logreg_c1",
+      "alpha": null
+    },
+    {
+      "name": "single_target_training::retrieval_compact_pooled_logreg_c01",
+      "scope": "single_target_training",
+      "kind": "raw",
+      "raw_name": "retrieval_compact_pooled_logreg_c01",
+      "alpha": null
+    },
+    {
+      "name": "single_target_training::v4_retrieval_all_logreg_c01",
+      "scope": "single_target_training",
+      "kind": "raw",
+      "raw_name": "v4_retrieval_all_logreg_c01",
+      "alpha": null
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_compact_rf__a0.20",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_rf",
+      "alpha": 0.2
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_compact_rf__a0.35",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_rf",
+      "alpha": 0.35
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_compact_rf__a0.50",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_rf",
+      "alpha": 0.5
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_compact_rf__a0.65",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_rf",
+      "alpha": 0.65
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_compact_rf__a0.80",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_rf",
+      "alpha": 0.8
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__v4_retrieval_compact_rf__a0.20",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_compact_rf",
+      "alpha": 0.2
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__v4_retrieval_compact_rf__a0.35",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_compact_rf",
+      "alpha": 0.35
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__v4_retrieval_compact_rf__a0.50",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_compact_rf",
+      "alpha": 0.5
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__v4_retrieval_compact_rf__a0.65",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_compact_rf",
+      "alpha": 0.65
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__v4_retrieval_compact_rf__a0.80",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_compact_rf",
+      "alpha": 0.8
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_compact_extra__a0.20",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_extra",
+      "alpha": 0.2
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_compact_extra__a0.35",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_extra",
+      "alpha": 0.35
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_compact_extra__a0.50",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_extra",
+      "alpha": 0.5
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_compact_extra__a0.65",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_extra",
+      "alpha": 0.65
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_compact_extra__a0.80",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_extra",
+      "alpha": 0.8
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__v4_retrieval_compact_extra__a0.20",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_compact_extra",
+      "alpha": 0.2
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__v4_retrieval_compact_extra__a0.35",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_compact_extra",
+      "alpha": 0.35
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__v4_retrieval_compact_extra__a0.50",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_compact_extra",
+      "alpha": 0.5
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__v4_retrieval_compact_extra__a0.65",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_compact_extra",
+      "alpha": 0.65
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__v4_retrieval_compact_extra__a0.80",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_compact_extra",
+      "alpha": 0.8
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_compact_hgb__a0.20",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_hgb",
+      "alpha": 0.2
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_compact_hgb__a0.35",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_hgb",
+      "alpha": 0.35
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_compact_hgb__a0.50",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_hgb",
+      "alpha": 0.5
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_compact_hgb__a0.65",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_hgb",
+      "alpha": 0.65
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_compact_hgb__a0.80",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_hgb",
+      "alpha": 0.8
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__v4_retrieval_compact_hgb__a0.20",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_compact_hgb",
+      "alpha": 0.2
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__v4_retrieval_compact_hgb__a0.35",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_compact_hgb",
+      "alpha": 0.35
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__v4_retrieval_compact_hgb__a0.50",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_compact_hgb",
+      "alpha": 0.5
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__v4_retrieval_compact_hgb__a0.65",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_compact_hgb",
+      "alpha": 0.65
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__v4_retrieval_compact_hgb__a0.80",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_compact_hgb",
+      "alpha": 0.8
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_pooled_logreg_c001__a0.20",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_pooled_logreg_c001",
+      "alpha": 0.2
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_pooled_logreg_c001__a0.35",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_pooled_logreg_c001",
+      "alpha": 0.35
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_pooled_logreg_c001__a0.50",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_pooled_logreg_c001",
+      "alpha": 0.5
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_pooled_logreg_c001__a0.65",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_pooled_logreg_c001",
+      "alpha": 0.65
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_pooled_logreg_c001__a0.80",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_pooled_logreg_c001",
+      "alpha": 0.8
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_pooled_logreg_c01__a0.20",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_pooled_logreg_c01",
+      "alpha": 0.2
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_pooled_logreg_c01__a0.35",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_pooled_logreg_c01",
+      "alpha": 0.35
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_pooled_logreg_c01__a0.50",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_pooled_logreg_c01",
+      "alpha": 0.5
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_pooled_logreg_c01__a0.65",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_pooled_logreg_c01",
+      "alpha": 0.65
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_pooled_logreg_c01__a0.80",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_pooled_logreg_c01",
+      "alpha": 0.8
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_pooled_logreg_c1__a0.20",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_pooled_logreg_c1",
+      "alpha": 0.2
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_pooled_logreg_c1__a0.35",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_pooled_logreg_c1",
+      "alpha": 0.35
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_pooled_logreg_c1__a0.50",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_pooled_logreg_c1",
+      "alpha": 0.5
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_pooled_logreg_c1__a0.65",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_pooled_logreg_c1",
+      "alpha": 0.65
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_pooled_logreg_c1__a0.80",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_pooled_logreg_c1",
+      "alpha": 0.8
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_compact_pooled_logreg_c01__a0.20",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_pooled_logreg_c01",
+      "alpha": 0.2
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_compact_pooled_logreg_c01__a0.35",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_pooled_logreg_c01",
+      "alpha": 0.35
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_compact_pooled_logreg_c01__a0.50",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_pooled_logreg_c01",
+      "alpha": 0.5
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_compact_pooled_logreg_c01__a0.65",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_pooled_logreg_c01",
+      "alpha": 0.65
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__retrieval_compact_pooled_logreg_c01__a0.80",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "retrieval_compact_pooled_logreg_c01",
+      "alpha": 0.8
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__v4_retrieval_all_logreg_c01__a0.20",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_all_logreg_c01",
+      "alpha": 0.2
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__v4_retrieval_all_logreg_c01__a0.35",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_all_logreg_c01",
+      "alpha": 0.35
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__v4_retrieval_all_logreg_c01__a0.50",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_all_logreg_c01",
+      "alpha": 0.5
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__v4_retrieval_all_logreg_c01__a0.65",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_all_logreg_c01",
+      "alpha": 0.65
+    },
+    {
+      "name": "single_target_training::v4_rf__mix__v4_retrieval_all_logreg_c01__a0.80",
+      "scope": "single_target_training",
+      "kind": "fusion",
+      "raw_name": "v4_retrieval_all_logreg_c01",
+      "alpha": 0.8
+    }
+  ],
+  "selection_objective": "inner single-target accuracy, then macro-F1, then balanced accuracy, then stable candidate order",
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "inner_seed": 35720260761,
+  "threshold": 0.5,
+  "inputs": {
+    "query_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_query_adaptive_single872_v1/r3_query_adaptive_features_v1.manifest.json",
+      "sha256": "2a2fe4eeb175fd9c3847adabaed6c99b29a30be2b9e8cad21cac63fd4960fc76"
+    },
+    "query_features": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_query_adaptive_single872_v1/r3_query_adaptive_features_v1.npz",
+      "sha256": "c4ceb077f73123c6106a0408e04c172228bd14a9cd37c8e59f0f2e1adb9f96e1"
+    },
+    "query_candidate": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_query_adaptive_single872_v1/r3_query_adaptive_candidate_freeze_v1.json",
+      "sha256": "cf1fcc50765ce89d3180bd75849681d1756834fa9dc93328c018ec05a024d4d1"
+    },
+    "v4_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/trace_page_graph_features_v4.manifest.json",
+      "sha256": "a8d43e27bb3f26c9d3cc36833a7cc2cd68ea716928d43bb410a3dd8be1147c1c"
+    },
+    "v4_features": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/trace_page_graph_features_v4.npz",
+      "sha256": "609df745905feca238133ecaba721fa34db20898818456c35e4d89e9977a8f1b"
+    },
+    "v4_folds": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/trace_refno_fold_manifest_v4.json",
+      "sha256": "7c35c1ceb2f343dba687d202f6d4ff0f04e1dd200017bf7e3ad622f5480235ce"
+    },
+    "evaluator_code": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/evaluate_r3_query_adaptive_single872_oof.py",
+      "sha256": "32ad18d9abdca8ebb198e92d248b84d6f5da6837b17ddcea7745f3e1c3006294"
+    }
+  },
+  "runtime_boundary": {
+    "labels_read": false,
+    "pmagresult_or_rockmag_read": false,
+    "prior_predictions_read": false,
+    "evaluation_results_read": false,
+    "outer_test_labels_used_for_training_or_selection": false
+  }
+}

@@ -1,0 +1,407 @@
+{
+  "schema_version": "r3_query_adaptive_distractor_stats_v1",
+  "status": "FROZEN_WITHOUT_LABEL_ACCESS",
+  "bank_definition": "PDF-backed REFNO values with multiplicity greater than one in the complete three-column identity manifest",
+  "bank_papers": 605,
+  "sampled_chunks": 4840,
+  "chunks_per_document": 8,
+  "statistics": {
+    "bridge_primary_secondary::all": {
+      "documents": 605.0,
+      "median": 0.661124587059021,
+      "mad": 0.016843557357788086,
+      "q90": 0.6951391816139221,
+      "q95": 0.7049498438835143
+    },
+    "bridge_primary_secondary::page_window": {
+      "documents": 527.0,
+      "median": 0.6261788606643677,
+      "mad": 0.02929401397705078,
+      "q90": 0.6707110166549682,
+      "q95": 0.6851972877979278
+    },
+    "bridge_primary_secondary::paragraph": {
+      "documents": 496.0,
+      "median": 0.6275787055492401,
+      "mad": 0.029912292957305908,
+      "q90": 0.6761686205863953,
+      "q95": 0.6851790696382523
+    },
+    "bridge_primary_secondary::section_window": {
+      "documents": 581.0,
+      "median": 0.6195996999740601,
+      "mad": 0.033200085163116455,
+      "q90": 0.6677410006523132,
+      "q95": 0.680145800113678
+    },
+    "bridge_primary_secondary::sentence_window": {
+      "documents": 605.0,
+      "median": 0.6355237364768982,
+      "mad": 0.028828084468841553,
+      "q90": 0.6823335647583009,
+      "q95": 0.6989174842834471
+    },
+    "bridge_remanence_significance::all": {
+      "documents": 605.0,
+      "median": 0.6445708274841309,
+      "mad": 0.021819233894348145,
+      "q90": 0.6862132310867309,
+      "q95": 0.6956510066986085
+    },
+    "bridge_remanence_significance::page_window": {
+      "documents": 527.0,
+      "median": 0.6001695394515991,
+      "mad": 0.037051379680633545,
+      "q90": 0.6602242946624756,
+      "q95": 0.6709669291973114
+    },
+    "bridge_remanence_significance::paragraph": {
+      "documents": 496.0,
+      "median": 0.6062265634536743,
+      "mad": 0.033496737480163574,
+      "q90": 0.6591692566871643,
+      "q95": 0.6735978275537491
+    },
+    "bridge_remanence_significance::section_window": {
+      "documents": 581.0,
+      "median": 0.5914282202720642,
+      "mad": 0.03976172208786011,
+      "q90": 0.6529909372329712,
+      "q95": 0.6668832898139954
+    },
+    "bridge_remanence_significance::sentence_window": {
+      "documents": 605.0,
+      "median": 0.612455427646637,
+      "mad": 0.03188818693161011,
+      "q90": 0.6722724676132202,
+      "q95": 0.6849741578102112
+    },
+    "carrier_identification::all": {
+      "documents": 605.0,
+      "median": 0.683761477470398,
+      "mad": 0.02310723066329956,
+      "q90": 0.7190840244293213,
+      "q95": 0.7322484254837036
+    },
+    "carrier_identification::page_window": {
+      "documents": 527.0,
+      "median": 0.6272754073143005,
+      "mad": 0.03795748949050903,
+      "q90": 0.6926204919815063,
+      "q95": 0.7041583478450775
+    },
+    "carrier_identification::paragraph": {
+      "documents": 496.0,
+      "median": 0.6282789409160614,
+      "mad": 0.03910750150680542,
+      "q90": 0.6976391077041626,
+      "q95": 0.711609736084938
+    },
+    "carrier_identification::section_window": {
+      "documents": 581.0,
+      "median": 0.6177380084991455,
+      "mad": 0.03706580400466919,
+      "q90": 0.6893006563186646,
+      "q95": 0.7012202143669128
+    },
+    "carrier_identification::sentence_window": {
+      "documents": 605.0,
+      "median": 0.658141553401947,
+      "mad": 0.03775709867477417,
+      "q90": 0.7112767100334167,
+      "q95": 0.7268029570579528
+    },
+    "carrier_measurement_inference::all": {
+      "documents": 605.0,
+      "median": 0.659313976764679,
+      "mad": 0.02302253246307373,
+      "q90": 0.6989668369293213,
+      "q95": 0.7106804609298706
+    },
+    "carrier_measurement_inference::page_window": {
+      "documents": 527.0,
+      "median": 0.6121895909309387,
+      "mad": 0.03808516263961792,
+      "q90": 0.6717020988464355,
+      "q95": 0.6868934988975525
+    },
+    "carrier_measurement_inference::paragraph": {
+      "documents": 496.0,
+      "median": 0.617808610200882,
+      "mad": 0.03630971908569336,
+      "q90": 0.6705120503902435,
+      "q95": 0.6866234242916107
+    },
+    "carrier_measurement_inference::section_window": {
+      "documents": 581.0,
+      "median": 0.5988803505897522,
+      "mad": 0.0434185266494751,
+      "q90": 0.6653553247451782,
+      "q95": 0.6800205111503601
+    },
+    "carrier_measurement_inference::sentence_window": {
+      "documents": 605.0,
+      "median": 0.6253441572189331,
+      "mad": 0.03735274076461792,
+      "q90": 0.6852332949638367,
+      "q95": 0.700273597240448
+    },
+    "counter_demagnetization_only::all": {
+      "documents": 605.0,
+      "median": 0.6026234030723572,
+      "mad": 0.022812366485595703,
+      "q90": 0.6461066126823425,
+      "q95": 0.6551402091979981
+    },
+    "counter_demagnetization_only::page_window": {
+      "documents": 527.0,
+      "median": 0.5564764142036438,
+      "mad": 0.03905695676803589,
+      "q90": 0.6235193967819214,
+      "q95": 0.6388332426548005
+    },
+    "counter_demagnetization_only::paragraph": {
+      "documents": 496.0,
+      "median": 0.5586419403553009,
+      "mad": 0.04071483016014099,
+      "q90": 0.6248491108417511,
+      "q95": 0.6390703320503235
+    },
+    "counter_demagnetization_only::section_window": {
+      "documents": 581.0,
+      "median": 0.5445002913475037,
+      "mad": 0.046602845191955566,
+      "q90": 0.6169552206993103,
+      "q95": 0.6347388029098511
+    },
+    "counter_demagnetization_only::sentence_window": {
+      "documents": 605.0,
+      "median": 0.5626307725906372,
+      "mad": 0.03605377674102783,
+      "q90": 0.6216635704040527,
+      "q95": 0.6384769558906555
+    },
+    "counter_external_or_future::all": {
+      "documents": 605.0,
+      "median": 0.5389044880867004,
+      "mad": 0.011637270450592041,
+      "q90": 0.5606678605079651,
+      "q95": 0.5671317100524902
+    },
+    "counter_external_or_future::page_window": {
+      "documents": 527.0,
+      "median": 0.5137724280357361,
+      "mad": 0.019026756286621094,
+      "q90": 0.5465293526649475,
+      "q95": 0.5548762023448943
+    },
+    "counter_external_or_future::paragraph": {
+      "documents": 496.0,
+      "median": 0.515198826789856,
+      "mad": 0.01880824565887451,
+      "q90": 0.5448053479194641,
+      "q95": 0.5525628179311752
+    },
+    "counter_external_or_future::section_window": {
+      "documents": 581.0,
+      "median": 0.5100598931312561,
+      "mad": 0.022203445434570312,
+      "q90": 0.5460593104362488,
+      "q95": 0.5532583594322205
+    },
+    "counter_external_or_future::sentence_window": {
+      "documents": 605.0,
+      "median": 0.520668625831604,
+      "mad": 0.018602311611175537,
+      "q90": 0.5528446435928345,
+      "q95": 0.5609616279602051
+    },
+    "diagnostic_broad_result::all": {
+      "documents": 605.0,
+      "median": 0.670194685459137,
+      "mad": 0.019680380821228027,
+      "q90": 0.707640528678894,
+      "q95": 0.7177876830101013
+    },
+    "diagnostic_broad_result::page_window": {
+      "documents": 527.0,
+      "median": 0.6365446448326111,
+      "mad": 0.03316044807434082,
+      "q90": 0.6869420766830444,
+      "q95": 0.6992585062980652
+    },
+    "diagnostic_broad_result::paragraph": {
+      "documents": 496.0,
+      "median": 0.6382654309272766,
+      "mad": 0.034724295139312744,
+      "q90": 0.68985316157341,
+      "q95": 0.7027725428342819
+    },
+    "diagnostic_broad_result::section_window": {
+      "documents": 581.0,
+      "median": 0.622439444065094,
+      "mad": 0.039318621158599854,
+      "q90": 0.6820812821388245,
+      "q95": 0.6955975294113159
+    },
+    "diagnostic_broad_result::sentence_window": {
+      "documents": 605.0,
+      "median": 0.6389341354370117,
+      "mad": 0.03164803981781006,
+      "q90": 0.6904483318328858,
+      "q95": 0.7038432478904724
+    },
+    "diagnostic_self_authenticating::all": {
+      "documents": 605.0,
+      "median": 0.5937579870223999,
+      "mad": 0.018686115741729736,
+      "q90": 0.6265054225921631,
+      "q95": 0.6335798025131225
+    },
+    "diagnostic_self_authenticating::page_window": {
+      "documents": 527.0,
+      "median": 0.5552834272384644,
+      "mad": 0.03024733066558838,
+      "q90": 0.6040284037590027,
+      "q95": 0.6144699573516845
+    },
+    "diagnostic_self_authenticating::paragraph": {
+      "documents": 496.0,
+      "median": 0.5609360039234161,
+      "mad": 0.027909070253372192,
+      "q90": 0.6069068610668182,
+      "q95": 0.6173831522464752
+    },
+    "diagnostic_self_authenticating::section_window": {
+      "documents": 581.0,
+      "median": 0.5477826595306396,
+      "mad": 0.03216773271560669,
+      "q90": 0.5993982553482056,
+      "q95": 0.6116888523101807
+    },
+    "diagnostic_self_authenticating::sentence_window": {
+      "documents": 605.0,
+      "median": 0.5700004696846008,
+      "mad": 0.028743088245391846,
+      "q90": 0.6171991944313049,
+      "q95": 0.6287554025650024
+    },
+    "method_broad_execution::all": {
+      "documents": 605.0,
+      "median": 0.6449710726737976,
+      "mad": 0.02076256275177002,
+      "q90": 0.6841986417770385,
+      "q95": 0.6921642899513244
+    },
+    "method_broad_execution::page_window": {
+      "documents": 527.0,
+      "median": 0.6085132360458374,
+      "mad": 0.030485868453979492,
+      "q90": 0.6597330689430236,
+      "q95": 0.6743531048297882
+    },
+    "method_broad_execution::paragraph": {
+      "documents": 496.0,
+      "median": 0.6092632710933685,
+      "mad": 0.033452898263931274,
+      "q90": 0.665387898683548,
+      "q95": 0.6805961430072784
+    },
+    "method_broad_execution::section_window": {
+      "documents": 581.0,
+      "median": 0.6002012491226196,
+      "mad": 0.03657251596450806,
+      "q90": 0.656029462814331,
+      "q95": 0.6680941581726074
+    },
+    "method_broad_execution::sentence_window": {
+      "documents": 605.0,
+      "median": 0.6122162342071533,
+      "mad": 0.026798129081726074,
+      "q90": 0.6606865286827087,
+      "q95": 0.6761211991310119
+    },
+    "method_hysteresis_microscopy::all": {
+      "documents": 605.0,
+      "median": 0.6108551621437073,
+      "mad": 0.015379130840301514,
+      "q90": 0.6405768394470215,
+      "q95": 0.6531182408332824
+    },
+    "method_hysteresis_microscopy::page_window": {
+      "documents": 527.0,
+      "median": 0.5820033550262451,
+      "mad": 0.024296164512634277,
+      "q90": 0.6215925574302673,
+      "q95": 0.6322778701782227
+    },
+    "method_hysteresis_microscopy::paragraph": {
+      "documents": 496.0,
+      "median": 0.5827098786830902,
+      "mad": 0.02407100796699524,
+      "q90": 0.6239870488643646,
+      "q95": 0.6324833035469055
+    },
+    "method_hysteresis_microscopy::section_window": {
+      "documents": 581.0,
+      "median": 0.574962854385376,
+      "mad": 0.0245324969291687,
+      "q90": 0.6142553091049194,
+      "q95": 0.6240203976631165
+    },
+    "method_hysteresis_microscopy::sentence_window": {
+      "documents": 605.0,
+      "median": 0.5903457999229431,
+      "mad": 0.020964503288269043,
+      "q90": 0.6309765458106995,
+      "q95": 0.6477805495262144
+    },
+    "method_irm_thermomagnetic::all": {
+      "documents": 605.0,
+      "median": 0.6368610262870789,
+      "mad": 0.03118962049484253,
+      "q90": 0.693304443359375,
+      "q95": 0.7124857664108276
+    },
+    "method_irm_thermomagnetic::page_window": {
+      "documents": 527.0,
+      "median": 0.5837962031364441,
+      "mad": 0.03971540927886963,
+      "q90": 0.6611068487167359,
+      "q95": 0.6792497038841248
+    },
+    "method_irm_thermomagnetic::paragraph": {
+      "documents": 496.0,
+      "median": 0.586458146572113,
+      "mad": 0.04492998123168945,
+      "q90": 0.6634552180767059,
+      "q95": 0.6811278462409973
+    },
+    "method_irm_thermomagnetic::section_window": {
+      "documents": 581.0,
+      "median": 0.5713847875595093,
+      "mad": 0.04425692558288574,
+      "q90": 0.649730920791626,
+      "q95": 0.6704057455062866
+    },
+    "method_irm_thermomagnetic::sentence_window": {
+      "documents": 605.0,
+      "median": 0.5893557071685791,
+      "mad": 0.03912341594696045,
+      "q90": 0.6721399068832398,
+      "q95": 0.6965402126312256
+    }
+  },
+  "runtime_boundary": {
+    "labels_read": false,
+    "pmagresult_or_rockmag_read": false,
+    "prior_predictions_read": false,
+    "evaluation_results_read": false
+  },
+  "inputs": {
+    "preinference_freeze_sha256": "00e01778e921e1acc3c5b1fa669ad0d52ce9046be17937991513f7298a32390b",
+    "model_snapshot_sha256": "f485c4048f6ece224e392bedf008b05b8dc38a18ccbaee1b83c045ebf84a2600",
+    "query_kb_sha256": "50adf966d9f7fb341d939285c34028bd36e6e70adeb47ce6bcd85658faf96b2f",
+    "chunk_inventory_sha256": "5dc66905cc42c3880b7246a60ac585cbd5ef0264b9e01d67c7d1da53829e10a8"
+  }
+}

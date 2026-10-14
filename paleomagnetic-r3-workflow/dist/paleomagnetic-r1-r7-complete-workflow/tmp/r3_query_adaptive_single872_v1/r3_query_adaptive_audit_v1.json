@@ -1,0 +1,54 @@
+{
+  "schema_version": "r3_query_adaptive_audit_v1",
+  "status": "FROZEN_WITHOUT_LABEL_ACCESS",
+  "rows": 2751,
+  "papers": 1478,
+  "single_target_rows": 872,
+  "multi_target_rows": 1879,
+  "compact_shape": [
+    2751,
+    612
+  ],
+  "pooled_shape": [
+    2751,
+    4608
+  ],
+  "embedding_dimension": 768,
+  "mps_cpu_fallback_batches": 0,
+  "mps_cpu_fallback_rows": 0,
+  "mps_cpu_fallback_exception_batches": 0,
+  "pool_groups": [
+    "document",
+    "method",
+    "diagnostic",
+    "carrier",
+    "bridge",
+    "counter"
+  ],
+  "chunk_inventory": {
+    "papers": 1478,
+    "chunks": 70326,
+    "papers_without_chunks": 2,
+    "inventory_sha256": "5dc66905cc42c3880b7246a60ac585cbd5ef0264b9e01d67c7d1da53829e10a8",
+    "scale_counts": {
+      "sentence_window": 20607,
+      "paragraph": 17557,
+      "page_window": 17552,
+      "section_window": 14610
+    }
+  },
+  "chunk_audit_totals": {
+    "body_characters": 72443269,
+    "reference_characters_excluded": 14922359,
+    "lexical_chunks": 33641
+  },
+  "runtime_boundary": {
+    "labels_read": false,
+    "pmagresult_or_rockmag_read": false,
+    "prior_predictions_read": false,
+    "evaluation_results_read": false,
+    "combined_supervised_features_read": false,
+    "resultno_used_only_for_alignment": true,
+    "refno_used_for_grouping_and_multiplicity": true
+  }
+}

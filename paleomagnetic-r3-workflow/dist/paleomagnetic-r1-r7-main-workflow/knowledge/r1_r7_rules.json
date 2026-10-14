@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "profile": "single_excel_table_v1",
+  "description": "Frozen thresholds and text rules for the standalone Excel-to-HTML R1-R7 workflow.",
+  "table_indicators": {
+    "R1": {
+      "max_age_span_difference_ma": 15
+    },
+    "R2": {
+      "min_B": 8,
+      "min_N": 25,
+      "min_KD": 10,
+      "max_KD": 70,
+      "max_ED95": 16,
+      "min_DEMAGCODE": 3
+    },
+    "R4": {
+      "excluded_exact_token": "R+"
+    },
+    "R6": {
+      "accepted_tokens": [
+        "R+",
+        "Ra",
+        "Rb",
+        "Rc"
+      ]
+    }
+  },
+  "R3": {
+    "method": "rockmag_metadata_v1_table_only",
+    "excerpt_method": "target_bound_excerpt_chain_v1",
+    "description": "R3 is positive only when ROCKMAG contains an accepted diagnostic method or carrier code and no table-verifiable weak-evidence exception applies.",
+    "diagnostic_patterns": [
+      "\\bIRM\\b|SIRM|3[- ]axis|Jrs[-/]?T|Js[- ]?T|SUSC[- ]?T|SUSC\\(T\\)|X/T|HYST|FORC|\\bOP\\b|SEM|TEM|EDS|microprobe|Lowrie|CT\\(|Curie|Hcr|Hc,|Jrs/Js|Hcr/Hc|Low temp|low temperature|thermomagnetic"
+    ],
+    "carrier_patterns": [
+      "MAGN|HEM|MAGH|TM|ILM|PYRR|goeth|magnetite|hematite|haematite|titanomag|greig|pyrrhot"
+    ],
+    "independent_method_patterns": [
+      "\\bIRM\\b|SIRM|3[- ]axis|Jrs[-/]?T|Jrs\\(?T\\)?|\\bJrs\\b|Js[- ]?T|Js\\(?T\\)?|\\bJs\\b|\\bJn\\b|SUSC[- ]?T|SUSC\\(T\\)|HYST|FORC|Lowrie|thermomagnetic|\\bOP\\b|SEM|TEM|EDS|microprobe|petrograph|thin sect|mineralogical|miner\\.analysis|magnetic mineralogy"
+    ],
+    "tub_carrier_pattern": "\\b(MAGN|MAGH|TM|PYRR|ILM)\\b",
+    "bare_carrier_code_pattern": "^\\s*(MAGN|HEM|MAGH|TM|ILM|PYRR)(\\s*[,;/]\\s*(MAGN|HEM|MAGH|TM|ILM|PYRR))*\\s*$",
+    "secondary_context_pattern": "post[- ]folding|secondary|overprint|remagneti[sz]|post[- ]tectonic",
+    "excerpt_method_patterns": [
+      "\\bIRM\\b|SIRM|isothermal remanent magneti[sz]ation|hysteresis|\\bFORC\\b|first[- ]order reversal curve",
+      "thermomagnetic|Curie temperature|Curie point|Js[- /]?T|susceptibility[- /]?(?:temperature|T)|low[- ]temperature magnetic",
+      "\\bSEM\\b|\\bTEM\\b|\\bEDS\\b|electron microprobe|optical microscopy|petrograph|thin section|X[- ]?ray diffraction|\\bXRD\\b|Mossbauer",
+      "three[- ]axis IRM|3[- ]axis IRM|Lowrie test|coercivity spectrum|magnetic mineralogy"
+    ],
+    "excerpt_carrier_patterns": [
+      "magnetite|hematite|haematite|maghemite|titanomagnetite|titanohematite|ilmenite|pyrrhotite|greigite|goethite",
+      "\\bMAGN\\b|\\bHEM\\b|\\bMAGH\\b|\\bILM\\b|\\bPYRR\\b"
+    ],
+    "excerpt_bridge_patterns": [
+      "(?:carrier|host)s?\\s+(?:of|for)\\s+(?:the\\s+)?(?:ChRM|characteristic reman(?:ence|ent magneti[sz]ation)|reman(?:ence|ent magneti[sz]ation)|component)",
+      "(?:ChRM|characteristic reman(?:ence|ent magneti[sz]ation)|reman(?:ence|ent magneti[sz]ation)|component).{0,100}(?:carried|hosted)\\s+by",
+      "(?:carr(?:y|ies)|hosts?|is responsible for|are responsible for).{0,100}(?:ChRM|characteristic reman(?:ence|ent magneti[sz]ation)|reman(?:ence|ent magneti[sz]ation)|component)"
+    ],
+    "excerpt_negation_patterns": [
+      "(?:magnetic\\s+)?carrier.{0,60}(?:unknown|uncertain|unidentified|not identified|could not be (?:identified|determined))",
+      "(?:no|insufficient)\\s+evidence.{0,80}(?:carrier|magnetite|hematite|haematite|maghemite|titanomagnetite|pyrrhotite|greigite)",
+      "(?:cannot|could not|unable to)\\s+(?:identify|determine|constrain).{0,60}(?:carrier|magnetic mineral)"
+    ],
+    "historical_consistency_check": {
+      "rows": 3173,
+      "correct": 3093,
+      "accuracy": 0.9747872675701229,
+      "scope": "Historical labelled rows, evaluated against source ROCKMAG/COMPONENT/COMMENTS on the same records; this is not an independent holdout accuracy."
+    }
+  },
+  "R5": {
+    "method": "target_bound_excerpt_rules_v1",
+    "default_score": 1,
+    "risk_rules": [
+      {
+        "id": "tilting_not_excluded",
+        "label": "Possible tilting could not be ruled out",
+        "decisive": true,
+        "pattern": "possible\\s+tilting\\s+(?:could|can)\\s+not\\s+be\\s+ruled\\s+out|tilting\\s+(?:could|can)\\s+not\\s+be\\s+(?:excluded|ruled\\s+out)"
+      },
+      {
+        "id": "missing_paleohorizontal_control",
+        "label": "Explicit lack of paleohorizontal control",
+        "decisive": true,
+        "pattern": "no\\s+palaeohorizontal\\s+control|no\\s+paleohorizontal\\s+control"
+      },
+      {
+        "id": "missing_structural_correction",
+        "label": "No structural or bedding correction",
+        "decisive": true,
+        "pattern": "without\\s+(?:any\\s+)?structural\\s+correction|not\\s+structurally\\s+corrected|no\\s+structural\\s+correction|uncorrected\\s+for\\s+(?:bedding|tilt)"
+      },
+      {
+        "id": "unknown_structural_attitude",
+        "label": "Unknown site or bedding attitude",
+        "decisive": true,
+        "pattern": "positions?\\s+are\\s+not\\s+known\\s+with\\s+certainty|attitudes?\\s+(?:are\\s+)?not\\s+known|bedding\\s+(?:is|was)\\s+unknown|unknown\\s+(?:bedding|structural)\\s+attitude"
+      },
+      {
+        "id": "rotation",
+        "label": "Documented vertical-axis or block rotation",
+        "decisive": true,
+        "pattern": "vertical[- ]axis\\s+rotation|block\\s+rotation|rotated\\s+(?:clockwise|counter[- ]?clockwise)|(?:clockwise|counter[- ]?clockwise)\\s+rotation"
+      },
+      {
+        "id": "mobile_setting",
+        "label": "Allochthonous, translated, or displaced block",
+        "decisive": true,
+        "pattern": "allochthonous|translated\\s+block|displaced\\s+block|noticeably\\s+shifted"
+      },
+      {
+        "id": "inclination_correction_review",
+        "label": "Inclination shallowing or flattening correction requires review",
+        "decisive": false,
+        "pattern": "inclination\\s+shallowing|flattening\\s+correction|corrected\\s+inclination"
+      },
+      {
+        "id": "syn_folding_review",
+        "label": "Syn-folding magnetization requires review",
+        "decisive": false,
+        "pattern": "syn[- ]?fold(?:ing)?|magneti[sz]ation\\s+acquired\\s+during\\s+folding"
+      },
+      {
+        "id": "post_folding_secondary",
+        "label": "Post-folding secondary remanence or component",
+        "decisive": true,
+        "pattern": "post[- ]?fold(?:ing|ed)?.{0,140}(?:secondary|overprint|remanence|magneti[sz]ation|component)|(?:secondary|overprint|remanence|magneti[sz]ation|component).{0,140}post[- ]?fold(?:ing|ed)?"
+      }
+    ],
+    "rescue_rules": [
+      {
+        "id": "no_tilting",
+        "label": "No significant tilting occurred",
+        "pattern": "no\\s+(?:detectable|significant\\s+)?tilting\\s+(?:has\\s+)?(?:occurred|taken\\s+place)"
+      },
+      {
+        "id": "rotation_negated",
+        "label": "Rotation is explicitly absent or unlikely",
+        "pattern": "no\\s+(?:evidence\\s+(?:for|of)\\s+)?(?:vertical[- ]axis\\s+|block\\s+)?rotation|(?:vertical[- ]axis\\s+|block\\s+)?rotation.{0,70}\\bunlikely\\b|argue(?:s|d)?\\s+against.{0,70}\\brotation\\b"
+      },
+      {
+        "id": "correction_not_needed",
+        "label": "Structural correction is unnecessary or negligible",
+        "pattern": "undeformed|requires?\\s+no\\s+structural\\s+correction|(?:tilt|dip).{0,35}(?:less\\s+than|<)\\s*(?:[0-9](?:\\.[0-9]+)?|10)\\s*(?:degrees?|°)"
+      },
+      {
+        "id": "structural_attitude",
+        "label": "Bedding strike or dip is reported",
+        "pattern": "bedding.{0,90}(?:strike|dip)|strikes?\\s+[^.;\\n]{0,70}\\s+dips?|dip(?:s|ping)?\\s+(?:at|between|from|of)?\\s*\\d{1,2}(?:\\.\\d+)?\\s*(?:degrees?|°)"
+      },
+      {
+        "id": "structural_correction",
+        "label": "Tilt or structural correction is reported",
+        "pattern": "tilt[- ]corrected|tilt\\s+correction|structural\\s+correction|corrected\\s+for\\s+(?:geological\\s+)?(?:bedding|dip)|restored\\s+to\\s+palaeohorizontal|restored\\s+to\\s+paleohorizontal"
+      },
+      {
+        "id": "paleohorizontal",
+        "label": "Target is flat or subhorizontal",
+        "pattern": "flat[- ]lying|sub[- ]?horizontal|nearly\\s+horizontal|almost\\s+horizontal|gently\\s+dipping"
+      },
+      {
+        "id": "positive_field_test",
+        "label": "Positive fold, contact, baked-contact, or conglomerate test",
+        "pattern": "positive\\s+(?:fold|contact|baked\\s+contact|conglomerate)\\s+test|fold\\s+test.{0,100}(?:positive|passed)|baked\\s+contact\\s+test"
+      }
+    ]
+  },
+  "R7": {
+    "method": "target_bound_excerpt_rules_v1",
+    "default_score": 1,
+    "zero_rules": [
+      {
+        "id": "younger_pole_similarity",
+        "label": "Pole is explicitly similar to a younger reference pole",
+        "pattern": "(?:striking\\s+similarity|similarity\\s+of\\s+these\\s+paleopole\\s+orientations).{0,260}(?:younger|Bushveld)|(?:palaeo|paleo)?pole.{0,220}(?:overlap|coincid|similar).{0,120}younger"
+      },
+      {
+        "id": "younger_remagnetization_explanation",
+        "label": "Pole mismatch is explained by younger remagnetization",
+        "pattern": "(?:palaeomagnetic|paleomagnetic)\\s+pole\\s+does\\s+not\\s+match\\s+contemporaneous\\s+poles.{0,280}younger.{0,80}remagneti[sz]ation"
+      },
+      {
+        "id": "dated_younger_remagnetization",
+        "label": "Target is explicitly remagnetized at a younger age",
+        "pattern": "(?:were|was|is|are)\\s+remagneti[sz]ed\\s+(?:at|during|about|around)|younger\\s+remagneti[sz]ation"
+      },
+      {
+        "id": "secondary_overprint",
+        "label": "Secondary or younger overprint component",
+        "pattern": "overprinted\\s+with\\s+(?:a\\s+)?secondary\\s+magneti[sz]ation\\s+component|components?.{0,100}(?:much\\s+younger|younger).{0,100}overprints?|younger\\s+overprints?"
+      },
+      {
+        "id": "invalid_paleogeography",
+        "label": "Observed pole is rejected as actual paleogeography",
+        "pattern": "observed\\s+(?:paleo|palaeo)-?pole\\s+do(?:es)?\\s+not\\s+correspond\\s+to\\s+the\\s+actual\\s+paleogeography"
+      },
+      {
+        "id": "post_cooling_remagnetization",
+        "label": "Target was remagnetized after initial cooling",
+        "pattern": "remagneti[sz]ed\\s+after\\s+(?:their|its|the)\\s+initial\\s+cooling"
+      },
+      {
+        "id": "younger_age_ambiguity",
+        "label": "Multiple dyke ages create a younger-pole ambiguity",
+        "pattern": "dyke.{0,220}older\\s+and\\s+younger\\s+ages|older.{0,120}younger\\s+ages"
+      },
+      {
+        "id": "present_day_overprint",
+        "label": "Component is interpreted as a present-day overprint",
+        "pattern": "present[- ]day\\s+overprints?"
+      },
+      {
+        "id": "impact_reset",
+        "label": "Impact or pseudotachylite context creates an age-reset risk",
+        "pattern": "impact\\s+(?:dykes?|pseudotachylite|structure)|pseudotachylite.{0,160}(?:reset|remagnet|overprint|younger)"
+      }
+    ]
+  }
+}

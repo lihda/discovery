@@ -1,0 +1,682 @@
+{
+  "schema_version": "r3_residual_gate_single872_grouped_oof_report_v1",
+  "status": "POSTHOC_EVALUATION_OF_FROZEN_FEATURES_AND_NESTED_GATE",
+  "scope": {
+    "rows": 872,
+    "coverage": 1.0,
+    "skipped_without_pdf_not_in_scope": true
+  },
+  "primary_strategy": "outer-train-selected low-dimensional residual candidate",
+  "threshold": 0.5,
+  "metrics": {
+    "strict_v4_random_forest": {
+      "rows": 872,
+      "accuracy": 0.8646789,
+      "balanced_accuracy": 0.84556003,
+      "macro_f1": 0.8478509,
+      "precision_1": 0.89230769,
+      "recall_1": 0.90467938,
+      "confusion": {
+        "tn": 232,
+        "fp": 63,
+        "fn": 55,
+        "tp": 522
+      }
+    },
+    "domain_mean4": {
+      "rows": 872,
+      "accuracy": 0.87844037,
+      "balanced_accuracy": 0.86589901,
+      "macro_f1": 0.86468745,
+      "precision_1": 0.91099476,
+      "recall_1": 0.90467938,
+      "confusion": {
+        "tn": 244,
+        "fp": 51,
+        "fn": 55,
+        "tp": 522
+      }
+    },
+    "nested_primary": {
+      "rows": 872,
+      "accuracy": 0.88876147,
+      "balanced_accuracy": 0.87038451,
+      "macro_f1": 0.87438499,
+      "precision_1": 0.90677966,
+      "recall_1": 0.92720971,
+      "confusion": {
+        "tn": 240,
+        "fp": 55,
+        "fn": 42,
+        "tp": 535
+      }
+    },
+    "fixed_candidates": {
+      "domain_mean4": {
+        "rows": 872,
+        "accuracy": 0.87844037,
+        "balanced_accuracy": 0.86589901,
+        "macro_f1": 0.86468745,
+        "precision_1": 0.91099476,
+        "recall_1": 0.90467938,
+        "confusion": {
+          "tn": 244,
+          "fp": 51,
+          "fn": 55,
+          "tp": 522
+        }
+      },
+      "fixed_fusion": {
+        "rows": 872,
+        "accuracy": 0.88876147,
+        "balanced_accuracy": 0.87038451,
+        "macro_f1": 0.87438499,
+        "precision_1": 0.90677966,
+        "recall_1": 0.92720971,
+        "confusion": {
+          "tn": 240,
+          "fp": 55,
+          "fn": 42,
+          "tp": 535
+        }
+      },
+      "low_dimensional_stack": {
+        "rows": 872,
+        "accuracy": 0.875,
+        "balanced_accuracy": 0.86992627,
+        "macro_f1": 0.86290554,
+        "precision_1": 0.92238267,
+        "recall_1": 0.88561525,
+        "confusion": {
+          "tn": 252,
+          "fp": 43,
+          "fn": 66,
+          "tp": 511
+        }
+      },
+      "bounded_residual_gate": {
+        "rows": 872,
+        "accuracy": 0.87729358,
+        "balanced_accuracy": 0.86420409,
+        "macro_f1": 0.86329946,
+        "precision_1": 0.90940767,
+        "recall_1": 0.90467938,
+        "confusion": {
+          "tn": 243,
+          "fp": 52,
+          "fn": 55,
+          "tp": 522
+        }
+      }
+    }
+  },
+  "delta_vs_strict_v4": {
+    "repairs": 41,
+    "degradations": 20,
+    "net_repairs": 21,
+    "accuracy_delta": 0.02408257
+  },
+  "delta_vs_domain_mean4": {
+    "repairs": 26,
+    "degradations": 17,
+    "net_repairs": 9,
+    "accuracy_delta": 0.0103211
+  },
+  "fold_audit": [
+    {
+      "outer_fold": 1,
+      "test_rows": 175,
+      "all_pdf_training_rows": 2200,
+      "single_training_rows": 697,
+      "selected": "fixed_fusion",
+      "inner_ranked_candidates": [
+        {
+          "name": "fixed_fusion",
+          "metrics": {
+            "rows": 697,
+            "accuracy": 0.89813486,
+            "balanced_accuracy": 0.87974654,
+            "macro_f1": 0.88281692,
+            "precision_1": 0.91841004,
+            "recall_1": 0.93205945,
+            "confusion": {
+              "tn": 187,
+              "fp": 39,
+              "fn": 32,
+              "tp": 439
+            }
+          }
+        },
+        {
+          "name": "domain_mean4",
+          "metrics": {
+            "rows": 697,
+            "accuracy": 0.87661406,
+            "balanced_accuracy": 0.86612461,
+            "macro_f1": 0.86109103,
+            "precision_1": 0.91938998,
+            "recall_1": 0.89596603,
+            "confusion": {
+              "tn": 189,
+              "fp": 37,
+              "fn": 49,
+              "tp": 422
+            }
+          }
+        },
+        {
+          "name": "bounded_residual_gate",
+          "metrics": {
+            "rows": 697,
+            "accuracy": 0.87661406,
+            "balanced_accuracy": 0.86612461,
+            "macro_f1": 0.86109103,
+            "precision_1": 0.91938998,
+            "recall_1": 0.89596603,
+            "confusion": {
+              "tn": 189,
+              "fp": 37,
+              "fn": 49,
+              "tp": 422
+            }
+          }
+        },
+        {
+          "name": "low_dimensional_stack",
+          "metrics": {
+            "rows": 697,
+            "accuracy": 0.87087518,
+            "balanced_accuracy": 0.86878323,
+            "macro_f1": 0.85701586,
+            "precision_1": 0.93002257,
+            "recall_1": 0.87473461,
+            "confusion": {
+              "tn": 195,
+              "fp": 31,
+              "fn": 59,
+              "tp": 412
+            }
+          }
+        }
+      ],
+      "selection_guard": {
+        "unconstrained_best": "fixed_fusion",
+        "selected": "fixed_fusion",
+        "accepted_non_baseline": true,
+        "accuracy_gain_over_domain_baseline": 0.0215208,
+        "minimum_accuracy_gain": 0.0025
+      },
+      "gate_training_enabled": true,
+      "gate_training_disagreement_rows": 101,
+      "gate_test_switches": 0,
+      "outer_test_metrics": {
+        "rows": 175,
+        "accuracy": 0.87428571,
+        "balanced_accuracy": 0.86081488,
+        "macro_f1": 0.86620795,
+        "precision_1": 0.875,
+        "recall_1": 0.9245283,
+        "confusion": {
+          "tn": 55,
+          "fp": 14,
+          "fn": 8,
+          "tp": 98
+        }
+      }
+    },
+    {
+      "outer_fold": 2,
+      "test_rows": 174,
+      "all_pdf_training_rows": 2201,
+      "single_training_rows": 698,
+      "selected": "fixed_fusion",
+      "inner_ranked_candidates": [
+        {
+          "name": "fixed_fusion",
+          "metrics": {
+            "rows": 698,
+            "accuracy": 0.9025788,
+            "balanced_accuracy": 0.88728224,
+            "macro_f1": 0.88901671,
+            "precision_1": 0.92389006,
+            "recall_1": 0.93176972,
+            "confusion": {
+              "tn": 193,
+              "fp": 36,
+              "fn": 32,
+              "tp": 437
+            }
+          }
+        },
+        {
+          "name": "domain_mean4",
+          "metrics": {
+            "rows": 698,
+            "accuracy": 0.8739255,
+            "balanced_accuracy": 0.86260836,
+            "macro_f1": 0.85856911,
+            "precision_1": 0.91503268,
+            "recall_1": 0.89552239,
+            "confusion": {
+              "tn": 190,
+              "fp": 39,
+              "fn": 49,
+              "tp": 420
+            }
+          }
+        },
+        {
+          "name": "low_dimensional_stack",
+          "metrics": {
+            "rows": 698,
+            "accuracy": 0.87249284,
+            "balanced_accuracy": 0.87494995,
+            "macro_f1": 0.86045613,
+            "precision_1": 0.93778802,
+            "recall_1": 0.86780384,
+            "confusion": {
+              "tn": 202,
+              "fp": 27,
+              "fn": 62,
+              "tp": 407
+            }
+          }
+        },
+        {
+          "name": "bounded_residual_gate",
+          "metrics": {
+            "rows": 698,
+            "accuracy": 0.87249284,
+            "balanced_accuracy": 0.86042495,
+            "macro_f1": 0.85680995,
+            "precision_1": 0.91304348,
+            "recall_1": 0.89552239,
+            "confusion": {
+              "tn": 189,
+              "fp": 40,
+              "fn": 49,
+              "tp": 420
+            }
+          }
+        }
+      ],
+      "selection_guard": {
+        "unconstrained_best": "fixed_fusion",
+        "selected": "fixed_fusion",
+        "accepted_non_baseline": true,
+        "accuracy_gain_over_domain_baseline": 0.0286533,
+        "minimum_accuracy_gain": 0.0025
+      },
+      "gate_training_enabled": true,
+      "gate_training_disagreement_rows": 92,
+      "gate_test_switches": 1,
+      "outer_test_metrics": {
+        "rows": 174,
+        "accuracy": 0.85057471,
+        "balanced_accuracy": 0.82954545,
+        "macro_f1": 0.83712558,
+        "precision_1": 0.85344828,
+        "recall_1": 0.91666667,
+        "confusion": {
+          "tn": 49,
+          "fp": 17,
+          "fn": 9,
+          "tp": 99
+        }
+      }
+    },
+    {
+      "outer_fold": 3,
+      "test_rows": 174,
+      "all_pdf_training_rows": 2201,
+      "single_training_rows": 698,
+      "selected": "fixed_fusion",
+      "inner_ranked_candidates": [
+        {
+          "name": "fixed_fusion",
+          "metrics": {
+            "rows": 698,
+            "accuracy": 0.88681948,
+            "balanced_accuracy": 0.86615721,
+            "macro_f1": 0.87235028,
+            "precision_1": 0.89894737,
+            "recall_1": 0.93231441,
+            "confusion": {
+              "tn": 192,
+              "fp": 48,
+              "fn": 31,
+              "tp": 427
+            }
+          }
+        },
+        {
+          "name": "domain_mean4",
+          "metrics": {
+            "rows": 698,
+            "accuracy": 0.87249284,
+            "balanced_accuracy": 0.86019833,
+            "macro_f1": 0.85912708,
+            "precision_1": 0.90549451,
+            "recall_1": 0.89956332,
+            "confusion": {
+              "tn": 197,
+              "fp": 43,
+              "fn": 46,
+              "tp": 412
+            }
+          }
+        },
+        {
+          "name": "bounded_residual_gate",
+          "metrics": {
+            "rows": 698,
+            "accuracy": 0.87249284,
+            "balanced_accuracy": 0.86019833,
+            "macro_f1": 0.85912708,
+            "precision_1": 0.90549451,
+            "recall_1": 0.89956332,
+            "confusion": {
+              "tn": 197,
+              "fp": 43,
+              "fn": 46,
+              "tp": 412
+            }
+          }
+        },
+        {
+          "name": "low_dimensional_stack",
+          "metrics": {
+            "rows": 698,
+            "accuracy": 0.85530086,
+            "balanced_accuracy": 0.85106441,
+            "macro_f1": 0.84305143,
+            "precision_1": 0.91034483,
+            "recall_1": 0.86462882,
+            "confusion": {
+              "tn": 201,
+              "fp": 39,
+              "fn": 62,
+              "tp": 396
+            }
+          }
+        }
+      ],
+      "selection_guard": {
+        "unconstrained_best": "fixed_fusion",
+        "selected": "fixed_fusion",
+        "accepted_non_baseline": true,
+        "accuracy_gain_over_domain_baseline": 0.01432664,
+        "minimum_accuracy_gain": 0.0025
+      },
+      "gate_training_enabled": true,
+      "gate_training_disagreement_rows": 85,
+      "gate_test_switches": 0,
+      "outer_test_metrics": {
+        "rows": 174,
+        "accuracy": 0.8908046,
+        "balanced_accuracy": 0.87127578,
+        "macro_f1": 0.87309508,
+        "precision_1": 0.91666667,
+        "recall_1": 0.92436975,
+        "confusion": {
+          "tn": 45,
+          "fp": 10,
+          "fn": 9,
+          "tp": 110
+        }
+      }
+    },
+    {
+      "outer_fold": 4,
+      "test_rows": 174,
+      "all_pdf_training_rows": 2201,
+      "single_training_rows": 698,
+      "selected": "fixed_fusion",
+      "inner_ranked_candidates": [
+        {
+          "name": "fixed_fusion",
+          "metrics": {
+            "rows": 698,
+            "accuracy": 0.87679083,
+            "balanced_accuracy": 0.85915978,
+            "macro_f1": 0.86264496,
+            "precision_1": 0.89699571,
+            "recall_1": 0.91666667,
+            "confusion": {
+              "tn": 194,
+              "fp": 48,
+              "fn": 38,
+              "tp": 418
+            }
+          }
+        },
+        {
+          "name": "low_dimensional_stack",
+          "metrics": {
+            "rows": 698,
+            "accuracy": 0.86246418,
+            "balanced_accuracy": 0.86176961,
+            "macro_f1": 0.85195136,
+            "precision_1": 0.92056075,
+            "recall_1": 0.86403509,
+            "confusion": {
+              "tn": 208,
+              "fp": 34,
+              "fn": 62,
+              "tp": 394
+            }
+          }
+        },
+        {
+          "name": "domain_mean4",
+          "metrics": {
+            "rows": 698,
+            "accuracy": 0.86103152,
+            "balanced_accuracy": 0.84903763,
+            "macro_f1": 0.84734501,
+            "precision_1": 0.89800443,
+            "recall_1": 0.88815789,
+            "confusion": {
+              "tn": 196,
+              "fp": 46,
+              "fn": 51,
+              "tp": 405
+            }
+          }
+        },
+        {
+          "name": "bounded_residual_gate",
+          "metrics": {
+            "rows": 698,
+            "accuracy": 0.86103152,
+            "balanced_accuracy": 0.84903763,
+            "macro_f1": 0.84734501,
+            "precision_1": 0.89800443,
+            "recall_1": 0.88815789,
+            "confusion": {
+              "tn": 196,
+              "fp": 46,
+              "fn": 51,
+              "tp": 405
+            }
+          }
+        }
+      ],
+      "selection_guard": {
+        "unconstrained_best": "fixed_fusion",
+        "selected": "fixed_fusion",
+        "accepted_non_baseline": true,
+        "accuracy_gain_over_domain_baseline": 0.01575931,
+        "minimum_accuracy_gain": 0.0025
+      },
+      "gate_training_enabled": true,
+      "gate_training_disagreement_rows": 89,
+      "gate_test_switches": 0,
+      "outer_test_metrics": {
+        "rows": 174,
+        "accuracy": 0.9137931,
+        "balanced_accuracy": 0.89560268,
+        "macro_f1": 0.89770723,
+        "precision_1": 0.93442623,
+        "recall_1": 0.94214876,
+        "confusion": {
+          "tn": 45,
+          "fp": 8,
+          "fn": 7,
+          "tp": 114
+        }
+      }
+    },
+    {
+      "outer_fold": 5,
+      "test_rows": 175,
+      "all_pdf_training_rows": 2201,
+      "single_training_rows": 697,
+      "selected": "fixed_fusion",
+      "inner_ranked_candidates": [
+        {
+          "name": "fixed_fusion",
+          "metrics": {
+            "rows": 697,
+            "accuracy": 0.87804878,
+            "balanced_accuracy": 0.85952938,
+            "macro_f1": 0.8640025,
+            "precision_1": 0.89507495,
+            "recall_1": 0.92070485,
+            "confusion": {
+              "tn": 194,
+              "fp": 49,
+              "fn": 36,
+              "tp": 418
+            }
+          }
+        },
+        {
+          "name": "bounded_residual_gate",
+          "metrics": {
+            "rows": 697,
+            "accuracy": 0.86083214,
+            "balanced_accuracy": 0.8482261,
+            "macro_f1": 0.84722684,
+            "precision_1": 0.89578714,
+            "recall_1": 0.88986784,
+            "confusion": {
+              "tn": 196,
+              "fp": 47,
+              "fn": 50,
+              "tp": 404
+            }
+          }
+        },
+        {
+          "name": "domain_mean4",
+          "metrics": {
+            "rows": 697,
+            "accuracy": 0.85939742,
+            "balanced_accuracy": 0.84712478,
+            "macro_f1": 0.84579646,
+            "precision_1": 0.89555556,
+            "recall_1": 0.8876652,
+            "confusion": {
+              "tn": 196,
+              "fp": 47,
+              "fn": 51,
+              "tp": 403
+            }
+          }
+        },
+        {
+          "name": "low_dimensional_stack",
+          "metrics": {
+            "rows": 697,
+            "accuracy": 0.85365854,
+            "balanced_accuracy": 0.85036983,
+            "macro_f1": 0.84230769,
+            "precision_1": 0.90930233,
+            "recall_1": 0.86123348,
+            "confusion": {
+              "tn": 204,
+              "fp": 39,
+              "fn": 63,
+              "tp": 391
+            }
+          }
+        }
+      ],
+      "selection_guard": {
+        "unconstrained_best": "fixed_fusion",
+        "selected": "fixed_fusion",
+        "accepted_non_baseline": true,
+        "accuracy_gain_over_domain_baseline": 0.01865136,
+        "minimum_accuracy_gain": 0.0025
+      },
+      "gate_training_enabled": true,
+      "gate_training_disagreement_rows": 95,
+      "gate_test_switches": 0,
+      "outer_test_metrics": {
+        "rows": 175,
+        "accuracy": 0.91428571,
+        "balanced_accuracy": 0.90572233,
+        "macro_f1": 0.89904234,
+        "precision_1": 0.95,
+        "recall_1": 0.92682927,
+        "confusion": {
+          "tn": 46,
+          "fp": 6,
+          "fn": 9,
+          "tp": 114
+        }
+      }
+    }
+  ],
+  "selected_candidate_counts": {
+    "fixed_fusion": 872
+  },
+  "gate_switches": 1,
+  "v4_reproduction_audit": {
+    "saved_oof": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/trace_clean_nested_oof_v4.npz",
+      "sha256": "8e4ec8ce81d1fa4f562557b8f845132b66803562fbb39109a0cfa8142d66d1fe"
+    },
+    "saved_report": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/trace_clean_nested_oof_report_v4.json",
+      "sha256": "de243489b5d043047e37bf22d3515430c217f8ef54583aae4faf3109b7fd950d"
+    },
+    "float32_probability_exact": true,
+    "labels_exact": true,
+    "folds_exact": true,
+    "metrics_exact": true
+  },
+  "boundary": {
+    "feature_generation_used_labels": false,
+    "pmagresult_or_rockmag_read_by_evaluator": false,
+    "existing_knowledge_features_disclosed": true,
+    "all_experts_fit_inside_outer_or_inner_training_partitions": true,
+    "meta_models_selected_with_cross_fitted_outer_train_predictions": true,
+    "outer_test_labels_used_for_model_or_selection": false,
+    "prior_oof_opened_only_after_provisional_predictions_written": true,
+    "selective_abstention_used": false,
+    "development_internal_oof_not_external_validation": true
+  },
+  "promotion_decision": {
+    "reaches_90_percent_full_coverage_internal_oof": false,
+    "improves_strict_v4": true,
+    "promote_without_external_validation": false,
+    "reason": "The 872-paper corpus has already informed method development; a locked external set remains required."
+  },
+  "runtime": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "sklearn": "1.6.1"
+  },
+  "outputs": {
+    "oof": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_residual_gate_single872_v1/r3_residual_gate_single872_grouped_oof_v1.npz",
+      "sha256": "4e3ebaca7df967d7d89d4d33b71f7d9b7fe9905a8036fb9bdbfbf5e6a2073520"
+    },
+    "receipt": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_residual_gate_single872_v1/r3_residual_gate_single872_grouped_oof_receipt_v1.json",
+      "sha256": "260536d42e280d27935a95daa2be3f6d61d121eba2805bd16eb4a17d26a7b064"
+    }
+  }
+}

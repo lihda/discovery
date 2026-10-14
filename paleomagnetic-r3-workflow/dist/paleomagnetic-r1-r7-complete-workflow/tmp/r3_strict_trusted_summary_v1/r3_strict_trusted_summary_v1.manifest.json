@@ -1,0 +1,187 @@
+{
+  "schema_version": "r3_strict_trusted_summary_manifest_v1",
+  "feature_schema_version": "r3_strict_trusted_summary_v1",
+  "status": "COMPLETE_FROZEN_WITHOUT_LABEL_ACCESS",
+  "bags": 872,
+  "source_instances": 45904,
+  "strict_trusted_instances": 15630,
+  "available_bags": 802,
+  "unavailable_bags": 70,
+  "summary_feature_count": 62,
+  "summary_feature_names": [
+    "mean_lexical_method_count_clip",
+    "mean_lexical_diagnostic_count_clip",
+    "mean_lexical_carrier_count_clip",
+    "mean_lexical_bridge_count_clip",
+    "mean_lexical_total_log",
+    "mean_lexical_category_coverage",
+    "mean_scale_sentence_window",
+    "mean_scale_paragraph",
+    "mean_section_methods",
+    "mean_section_results",
+    "mean_section_discussion",
+    "mean_own_study_language",
+    "mean_result_language",
+    "mean_support_without_citation",
+    "mean_event_first_person",
+    "mean_event_passive_execution",
+    "mean_event_procedure",
+    "mean_event_result_verb",
+    "mean_event_quantitative",
+    "mean_event_figure_table",
+    "mean_event_sample",
+    "mean_event_own_strong",
+    "mean_event_own_likely",
+    "mean_event_score_scaled",
+    "mean_trusted_method",
+    "mean_trusted_diagnostic",
+    "mean_trusted_carrier",
+    "mean_trusted_bridge",
+    "max_lexical_method_count_clip",
+    "max_lexical_diagnostic_count_clip",
+    "max_lexical_carrier_count_clip",
+    "max_lexical_bridge_count_clip",
+    "max_lexical_total_log",
+    "max_lexical_category_coverage",
+    "max_scale_sentence_window",
+    "max_scale_paragraph",
+    "max_section_methods",
+    "max_section_results",
+    "max_section_discussion",
+    "max_own_study_language",
+    "max_result_language",
+    "max_support_without_citation",
+    "max_event_first_person",
+    "max_event_passive_execution",
+    "max_event_procedure",
+    "max_event_result_verb",
+    "max_event_quantitative",
+    "max_event_figure_table",
+    "max_event_sample",
+    "max_event_own_strong",
+    "max_event_own_likely",
+    "max_event_score_scaled",
+    "max_trusted_method",
+    "max_trusted_diagnostic",
+    "max_trusted_carrier",
+    "max_trusted_bridge",
+    "strict_trusted_count_log1p",
+    "strict_trusted_fraction",
+    "strict_trusted_method_count_log1p",
+    "strict_trusted_diagnostic_count_log1p",
+    "strict_trusted_carrier_count_log1p",
+    "strict_trusted_bridge_count_log1p"
+  ],
+  "summary_feature_names_sha256": "d4235fd0580b96b4d0019c43e16a9ecc7046aaf7a999d6821a7a22fd2f9f7695",
+  "aggregate_instance_features": [
+    "lexical_method_count_clip",
+    "lexical_diagnostic_count_clip",
+    "lexical_carrier_count_clip",
+    "lexical_bridge_count_clip",
+    "lexical_total_log",
+    "lexical_category_coverage",
+    "scale_sentence_window",
+    "scale_paragraph",
+    "section_methods",
+    "section_results",
+    "section_discussion",
+    "own_study_language",
+    "result_language",
+    "support_without_citation",
+    "event_first_person",
+    "event_passive_execution",
+    "event_procedure",
+    "event_result_verb",
+    "event_quantitative",
+    "event_figure_table",
+    "event_sample",
+    "event_own_strong",
+    "event_own_likely",
+    "event_score_scaled",
+    "trusted_method",
+    "trusted_diagnostic",
+    "trusted_carrier",
+    "trusted_bridge"
+  ],
+  "strict_trusted_filter": {
+    "require_true_features": [
+      "trusted_any"
+    ],
+    "require_empty_receipt_fields": [
+      "exclusion_codes"
+    ],
+    "require_false_features": [
+      "support_blocked",
+      "event_external",
+      "event_future",
+      "event_method_negation"
+    ],
+    "conditional_requirements": [
+      {
+        "if_feature": "event_citation",
+        "then_true_feature": "event_own_likely"
+      }
+    ]
+  },
+  "empty_bag_policy": "retain_zero_summary_and_set_available_false",
+  "array_sha256": {
+    "summary": "24df767545990031c874b8eb5a914f2dace98f711f423e949b0d2e3d2f814503",
+    "available": "aa1aa4580df1fdcc7c4dc5084460dfa8f2f991257286fd07736f57aa729c3ff5",
+    "source_row_indices": "20ad83267eff7f62cfb0d6653a48762255a55ce283a56ac8e897ec2890e30548",
+    "fold_ids": "90519a70722dce7355b33725ffa4864ed9c3c53391bd8109adff1f7d165b55a7",
+    "refnos": "406e5803738905e3548387e7c4a52144c0ebc5436718793d930b02d52a2abafd",
+    "resultnos": "78b3b1a38a07e767e1f916c156b50b74c1fcc92d3e57b980bb04b1941dd85478",
+    "rocknames": "fc77046e9d7a0feb7b8068f3afa5329cb37f78819731b1a94f6e683075b0fa4f",
+    "document_groups": "44ed5cf6b5237d5df2aeb2db8a132d9947a05c1300ea4ac7bcebf0848aec3ab5",
+    "strict_trusted_counts": "150640670bae65ba3ff0d0a9f2408b3dfbb8c8eba896d546b208c9298e3e3ec6",
+    "strict_trusted_fraction": "cea12894eafeb948a2a924ec9c6717ba89c22aebd6836c6fa7ad75d21388bacc",
+    "strict_trusted_category_counts": "f75121bcb69cb93130b853f6a2bdaf955e08c025c65440299e0f5211b2f363b7",
+    "strict_trusted_indptr": "01af59b54c484b35a9971574ff6c417d8f9b0d72eeeb39b0aa95589c1dc76d63",
+    "strict_trusted_global_indices": "82d82aca296bd6a2947bed7ce75a0c75d13326a355392a684f38c2bc873b41d5",
+    "summary_feature_names": "094834c808194dadb3dfe92002825c73ee60c2d38152e95de6d33e25fbc49df9"
+  },
+  "inputs": {
+    "mil_npz": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_evidence_mil_single872_v1/r3_evidence_mil_bags_v1.npz",
+      "sha256": "87df34786ec6867cfa5ace12ff5487df6e6b60d1b22ddeeb602f8756b3320cec"
+    },
+    "mil_receipt": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_evidence_mil_single872_v1/r3_evidence_mil_receipt_v1.jsonl",
+      "sha256": "421c6d51954a1f9b59017598f808b07fc079dc16ed2af4ee8c8547b47d4bb209"
+    },
+    "mil_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_evidence_mil_single872_v1/r3_evidence_mil_bags_v1.manifest.json",
+      "sha256": "40099f1dbda6ff10ee04ec5a9d710e90fbee90e56d5cf12989fd56e475eb2130"
+    }
+  },
+  "knowledge": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/knowledge/r3_strict_trusted_summary_v1.json",
+    "sha256": "e57d0bbcc2cfc96c4e3f8083214feda768242e2140c8bd15415cbea0de17f6d0"
+  },
+  "code": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/build_r3_strict_trusted_bag_features.py",
+    "sha256": "13b9d28058192a706a679d3de858a947cf2019bd4991be1743611f63a3aac2cb"
+  },
+  "outputs": {
+    "summary": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_strict_trusted_summary_v1/r3_strict_trusted_summary_v1.npz",
+      "sha256": "165a26142a8786bc906e490fb8d2ef360afe87d4be6d32a8327ba9ef337b47a0"
+    },
+    "receipt": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_strict_trusted_summary_v1/r3_strict_trusted_summary_v1.receipt.jsonl",
+      "sha256": "7c5aba5fea84e8b075f1f68c6f6d7a345b5b182b2ee85358b205b17dc02922b8"
+    }
+  },
+  "runtime": {
+    "python": "3.9.6",
+    "numpy": "2.0.2"
+  },
+  "runtime_boundary": {
+    "labels_read": false,
+    "pmagresult_or_rockmag_read": false,
+    "prior_predictions_read": false,
+    "evaluation_results_read": false,
+    "source_table_fields_read": false,
+    "identity_values_used_as_features": false
+  }
+}

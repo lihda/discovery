@@ -1,0 +1,458 @@
+{
+  "schema_version": "r3_paleomag_domain_router_candidate_freeze_v1",
+  "status": "FROZEN_BEFORE_LABEL_ACCESS",
+  "purpose": "use paleomagnetic structure only when a label-free paper gate predicts target heterogeneity",
+  "current_pairwise_candidates": [
+    {
+      "name": "identity",
+      "rank": null,
+      "gate": null,
+      "gate_threshold": 1.0,
+      "alpha": 0.0
+    },
+    {
+      "name": "pair_logreg_c0001__heterogeneity_logreg_c01__t0.50__a0.35",
+      "rank": "pair_logreg_c0001",
+      "gate": "heterogeneity_logreg_c01",
+      "gate_threshold": 0.5,
+      "alpha": 0.35
+    },
+    {
+      "name": "pair_logreg_c0001__heterogeneity_logreg_c01__t0.50__a0.50",
+      "rank": "pair_logreg_c0001",
+      "gate": "heterogeneity_logreg_c01",
+      "gate_threshold": 0.5,
+      "alpha": 0.5
+    },
+    {
+      "name": "pair_logreg_c0001__heterogeneity_logreg_c01__t0.50__a0.75",
+      "rank": "pair_logreg_c0001",
+      "gate": "heterogeneity_logreg_c01",
+      "gate_threshold": 0.5,
+      "alpha": 0.75
+    },
+    {
+      "name": "pair_logreg_c0001__heterogeneity_logreg_c01__t0.50__a1.00",
+      "rank": "pair_logreg_c0001",
+      "gate": "heterogeneity_logreg_c01",
+      "gate_threshold": 0.5,
+      "alpha": 1.0
+    },
+    {
+      "name": "pair_logreg_c0001__heterogeneity_logreg_c01__t0.70__a0.35",
+      "rank": "pair_logreg_c0001",
+      "gate": "heterogeneity_logreg_c01",
+      "gate_threshold": 0.7,
+      "alpha": 0.35
+    },
+    {
+      "name": "pair_logreg_c0001__heterogeneity_logreg_c01__t0.70__a0.50",
+      "rank": "pair_logreg_c0001",
+      "gate": "heterogeneity_logreg_c01",
+      "gate_threshold": 0.7,
+      "alpha": 0.5
+    },
+    {
+      "name": "pair_logreg_c0001__heterogeneity_logreg_c01__t0.70__a0.75",
+      "rank": "pair_logreg_c0001",
+      "gate": "heterogeneity_logreg_c01",
+      "gate_threshold": 0.7,
+      "alpha": 0.75
+    },
+    {
+      "name": "pair_logreg_c0001__heterogeneity_logreg_c01__t0.70__a1.00",
+      "rank": "pair_logreg_c0001",
+      "gate": "heterogeneity_logreg_c01",
+      "gate_threshold": 0.7,
+      "alpha": 1.0
+    },
+    {
+      "name": "pair_logreg_c0001__heterogeneity_hgb_leaf20__t0.50__a0.35",
+      "rank": "pair_logreg_c0001",
+      "gate": "heterogeneity_hgb_leaf20",
+      "gate_threshold": 0.5,
+      "alpha": 0.35
+    },
+    {
+      "name": "pair_logreg_c0001__heterogeneity_hgb_leaf20__t0.50__a0.50",
+      "rank": "pair_logreg_c0001",
+      "gate": "heterogeneity_hgb_leaf20",
+      "gate_threshold": 0.5,
+      "alpha": 0.5
+    },
+    {
+      "name": "pair_logreg_c0001__heterogeneity_hgb_leaf20__t0.50__a0.75",
+      "rank": "pair_logreg_c0001",
+      "gate": "heterogeneity_hgb_leaf20",
+      "gate_threshold": 0.5,
+      "alpha": 0.75
+    },
+    {
+      "name": "pair_logreg_c0001__heterogeneity_hgb_leaf20__t0.50__a1.00",
+      "rank": "pair_logreg_c0001",
+      "gate": "heterogeneity_hgb_leaf20",
+      "gate_threshold": 0.5,
+      "alpha": 1.0
+    },
+    {
+      "name": "pair_logreg_c0001__heterogeneity_hgb_leaf20__t0.70__a0.35",
+      "rank": "pair_logreg_c0001",
+      "gate": "heterogeneity_hgb_leaf20",
+      "gate_threshold": 0.7,
+      "alpha": 0.35
+    },
+    {
+      "name": "pair_logreg_c0001__heterogeneity_hgb_leaf20__t0.70__a0.50",
+      "rank": "pair_logreg_c0001",
+      "gate": "heterogeneity_hgb_leaf20",
+      "gate_threshold": 0.7,
+      "alpha": 0.5
+    },
+    {
+      "name": "pair_logreg_c0001__heterogeneity_hgb_leaf20__t0.70__a0.75",
+      "rank": "pair_logreg_c0001",
+      "gate": "heterogeneity_hgb_leaf20",
+      "gate_threshold": 0.7,
+      "alpha": 0.75
+    },
+    {
+      "name": "pair_logreg_c0001__heterogeneity_hgb_leaf20__t0.70__a1.00",
+      "rank": "pair_logreg_c0001",
+      "gate": "heterogeneity_hgb_leaf20",
+      "gate_threshold": 0.7,
+      "alpha": 1.0
+    },
+    {
+      "name": "pair_logreg_c001__heterogeneity_logreg_c01__t0.50__a0.35",
+      "rank": "pair_logreg_c001",
+      "gate": "heterogeneity_logreg_c01",
+      "gate_threshold": 0.5,
+      "alpha": 0.35
+    },
+    {
+      "name": "pair_logreg_c001__heterogeneity_logreg_c01__t0.50__a0.50",
+      "rank": "pair_logreg_c001",
+      "gate": "heterogeneity_logreg_c01",
+      "gate_threshold": 0.5,
+      "alpha": 0.5
+    },
+    {
+      "name": "pair_logreg_c001__heterogeneity_logreg_c01__t0.50__a0.75",
+      "rank": "pair_logreg_c001",
+      "gate": "heterogeneity_logreg_c01",
+      "gate_threshold": 0.5,
+      "alpha": 0.75
+    },
+    {
+      "name": "pair_logreg_c001__heterogeneity_logreg_c01__t0.50__a1.00",
+      "rank": "pair_logreg_c001",
+      "gate": "heterogeneity_logreg_c01",
+      "gate_threshold": 0.5,
+      "alpha": 1.0
+    },
+    {
+      "name": "pair_logreg_c001__heterogeneity_logreg_c01__t0.70__a0.35",
+      "rank": "pair_logreg_c001",
+      "gate": "heterogeneity_logreg_c01",
+      "gate_threshold": 0.7,
+      "alpha": 0.35
+    },
+    {
+      "name": "pair_logreg_c001__heterogeneity_logreg_c01__t0.70__a0.50",
+      "rank": "pair_logreg_c001",
+      "gate": "heterogeneity_logreg_c01",
+      "gate_threshold": 0.7,
+      "alpha": 0.5
+    },
+    {
+      "name": "pair_logreg_c001__heterogeneity_logreg_c01__t0.70__a0.75",
+      "rank": "pair_logreg_c001",
+      "gate": "heterogeneity_logreg_c01",
+      "gate_threshold": 0.7,
+      "alpha": 0.75
+    },
+    {
+      "name": "pair_logreg_c001__heterogeneity_logreg_c01__t0.70__a1.00",
+      "rank": "pair_logreg_c001",
+      "gate": "heterogeneity_logreg_c01",
+      "gate_threshold": 0.7,
+      "alpha": 1.0
+    },
+    {
+      "name": "pair_logreg_c001__heterogeneity_hgb_leaf20__t0.50__a0.35",
+      "rank": "pair_logreg_c001",
+      "gate": "heterogeneity_hgb_leaf20",
+      "gate_threshold": 0.5,
+      "alpha": 0.35
+    },
+    {
+      "name": "pair_logreg_c001__heterogeneity_hgb_leaf20__t0.50__a0.50",
+      "rank": "pair_logreg_c001",
+      "gate": "heterogeneity_hgb_leaf20",
+      "gate_threshold": 0.5,
+      "alpha": 0.5
+    },
+    {
+      "name": "pair_logreg_c001__heterogeneity_hgb_leaf20__t0.50__a0.75",
+      "rank": "pair_logreg_c001",
+      "gate": "heterogeneity_hgb_leaf20",
+      "gate_threshold": 0.5,
+      "alpha": 0.75
+    },
+    {
+      "name": "pair_logreg_c001__heterogeneity_hgb_leaf20__t0.50__a1.00",
+      "rank": "pair_logreg_c001",
+      "gate": "heterogeneity_hgb_leaf20",
+      "gate_threshold": 0.5,
+      "alpha": 1.0
+    },
+    {
+      "name": "pair_logreg_c001__heterogeneity_hgb_leaf20__t0.70__a0.35",
+      "rank": "pair_logreg_c001",
+      "gate": "heterogeneity_hgb_leaf20",
+      "gate_threshold": 0.7,
+      "alpha": 0.35
+    },
+    {
+      "name": "pair_logreg_c001__heterogeneity_hgb_leaf20__t0.70__a0.50",
+      "rank": "pair_logreg_c001",
+      "gate": "heterogeneity_hgb_leaf20",
+      "gate_threshold": 0.7,
+      "alpha": 0.5
+    },
+    {
+      "name": "pair_logreg_c001__heterogeneity_hgb_leaf20__t0.70__a0.75",
+      "rank": "pair_logreg_c001",
+      "gate": "heterogeneity_hgb_leaf20",
+      "gate_threshold": 0.7,
+      "alpha": 0.75
+    },
+    {
+      "name": "pair_logreg_c001__heterogeneity_hgb_leaf20__t0.70__a1.00",
+      "rank": "pair_logreg_c001",
+      "gate": "heterogeneity_hgb_leaf20",
+      "gate_threshold": 0.7,
+      "alpha": 1.0
+    },
+    {
+      "name": "pair_logreg_c01__heterogeneity_logreg_c01__t0.50__a0.35",
+      "rank": "pair_logreg_c01",
+      "gate": "heterogeneity_logreg_c01",
+      "gate_threshold": 0.5,
+      "alpha": 0.35
+    },
+    {
+      "name": "pair_logreg_c01__heterogeneity_logreg_c01__t0.50__a0.50",
+      "rank": "pair_logreg_c01",
+      "gate": "heterogeneity_logreg_c01",
+      "gate_threshold": 0.5,
+      "alpha": 0.5
+    },
+    {
+      "name": "pair_logreg_c01__heterogeneity_logreg_c01__t0.50__a0.75",
+      "rank": "pair_logreg_c01",
+      "gate": "heterogeneity_logreg_c01",
+      "gate_threshold": 0.5,
+      "alpha": 0.75
+    },
+    {
+      "name": "pair_logreg_c01__heterogeneity_logreg_c01__t0.50__a1.00",
+      "rank": "pair_logreg_c01",
+      "gate": "heterogeneity_logreg_c01",
+      "gate_threshold": 0.5,
+      "alpha": 1.0
+    },
+    {
+      "name": "pair_logreg_c01__heterogeneity_logreg_c01__t0.70__a0.35",
+      "rank": "pair_logreg_c01",
+      "gate": "heterogeneity_logreg_c01",
+      "gate_threshold": 0.7,
+      "alpha": 0.35
+    },
+    {
+      "name": "pair_logreg_c01__heterogeneity_logreg_c01__t0.70__a0.50",
+      "rank": "pair_logreg_c01",
+      "gate": "heterogeneity_logreg_c01",
+      "gate_threshold": 0.7,
+      "alpha": 0.5
+    },
+    {
+      "name": "pair_logreg_c01__heterogeneity_logreg_c01__t0.70__a0.75",
+      "rank": "pair_logreg_c01",
+      "gate": "heterogeneity_logreg_c01",
+      "gate_threshold": 0.7,
+      "alpha": 0.75
+    },
+    {
+      "name": "pair_logreg_c01__heterogeneity_logreg_c01__t0.70__a1.00",
+      "rank": "pair_logreg_c01",
+      "gate": "heterogeneity_logreg_c01",
+      "gate_threshold": 0.7,
+      "alpha": 1.0
+    },
+    {
+      "name": "pair_logreg_c01__heterogeneity_hgb_leaf20__t0.50__a0.35",
+      "rank": "pair_logreg_c01",
+      "gate": "heterogeneity_hgb_leaf20",
+      "gate_threshold": 0.5,
+      "alpha": 0.35
+    },
+    {
+      "name": "pair_logreg_c01__heterogeneity_hgb_leaf20__t0.50__a0.50",
+      "rank": "pair_logreg_c01",
+      "gate": "heterogeneity_hgb_leaf20",
+      "gate_threshold": 0.5,
+      "alpha": 0.5
+    },
+    {
+      "name": "pair_logreg_c01__heterogeneity_hgb_leaf20__t0.50__a0.75",
+      "rank": "pair_logreg_c01",
+      "gate": "heterogeneity_hgb_leaf20",
+      "gate_threshold": 0.5,
+      "alpha": 0.75
+    },
+    {
+      "name": "pair_logreg_c01__heterogeneity_hgb_leaf20__t0.50__a1.00",
+      "rank": "pair_logreg_c01",
+      "gate": "heterogeneity_hgb_leaf20",
+      "gate_threshold": 0.5,
+      "alpha": 1.0
+    },
+    {
+      "name": "pair_logreg_c01__heterogeneity_hgb_leaf20__t0.70__a0.35",
+      "rank": "pair_logreg_c01",
+      "gate": "heterogeneity_hgb_leaf20",
+      "gate_threshold": 0.7,
+      "alpha": 0.35
+    },
+    {
+      "name": "pair_logreg_c01__heterogeneity_hgb_leaf20__t0.70__a0.50",
+      "rank": "pair_logreg_c01",
+      "gate": "heterogeneity_hgb_leaf20",
+      "gate_threshold": 0.7,
+      "alpha": 0.5
+    },
+    {
+      "name": "pair_logreg_c01__heterogeneity_hgb_leaf20__t0.70__a0.75",
+      "rank": "pair_logreg_c01",
+      "gate": "heterogeneity_hgb_leaf20",
+      "gate_threshold": 0.7,
+      "alpha": 0.75
+    },
+    {
+      "name": "pair_logreg_c01__heterogeneity_hgb_leaf20__t0.70__a1.00",
+      "rank": "pair_logreg_c01",
+      "gate": "heterogeneity_hgb_leaf20",
+      "gate_threshold": 0.7,
+      "alpha": 1.0
+    }
+  ],
+  "domain_route_candidates": [
+    {
+      "name": "identity_current_pairwise",
+      "gate_threshold": 1.1,
+      "paleomag_weight": 0.0
+    },
+    {
+      "name": "paleomag_hgb_t0.50_w0.50",
+      "gate_threshold": 0.5,
+      "paleomag_weight": 0.5
+    },
+    {
+      "name": "paleomag_hgb_t0.50_w0.75",
+      "gate_threshold": 0.5,
+      "paleomag_weight": 0.75
+    },
+    {
+      "name": "paleomag_hgb_t0.50_w1.00",
+      "gate_threshold": 0.5,
+      "paleomag_weight": 1.0
+    },
+    {
+      "name": "paleomag_hgb_t0.60_w0.50",
+      "gate_threshold": 0.6,
+      "paleomag_weight": 0.5
+    },
+    {
+      "name": "paleomag_hgb_t0.60_w0.75",
+      "gate_threshold": 0.6,
+      "paleomag_weight": 0.75
+    },
+    {
+      "name": "paleomag_hgb_t0.60_w1.00",
+      "gate_threshold": 0.6,
+      "paleomag_weight": 1.0
+    },
+    {
+      "name": "paleomag_hgb_t0.70_w0.50",
+      "gate_threshold": 0.7,
+      "paleomag_weight": 0.5
+    },
+    {
+      "name": "paleomag_hgb_t0.70_w0.75",
+      "gate_threshold": 0.7,
+      "paleomag_weight": 0.75
+    },
+    {
+      "name": "paleomag_hgb_t0.70_w1.00",
+      "gate_threshold": 0.7,
+      "paleomag_weight": 1.0
+    },
+    {
+      "name": "paleomag_hgb_t0.80_w0.50",
+      "gate_threshold": 0.8,
+      "paleomag_weight": 0.5
+    },
+    {
+      "name": "paleomag_hgb_t0.80_w0.75",
+      "gate_threshold": 0.8,
+      "paleomag_weight": 0.75
+    },
+    {
+      "name": "paleomag_hgb_t0.80_w1.00",
+      "gate_threshold": 0.8,
+      "paleomag_weight": 1.0
+    }
+  ],
+  "domain_gate": {
+    "name": "paleomag_domain_gate",
+    "kind": "hgb_leaf20"
+  },
+  "selection_objective": "multi-target accuracy, then overall accuracy, then mixed-label accuracy",
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "coverage": {
+    "labelled_rows": 3173,
+    "labelled_paper_groups": 1627,
+    "pdf_rows": 2751,
+    "pdf_paper_groups": 1478,
+    "skipped_without_pdf_rows": 422,
+    "skipped_without_pdf_paper_groups": 149
+  },
+  "runtime_boundary": {
+    "labels_read_at_freeze": false,
+    "pmagresult_or_row_rockmag_used_as_feature": false,
+    "prior_predictions_or_evaluations_used_as_model_input": false,
+    "paleomagnetic_features_frozen_without_label_access": true,
+    "refno_used_for_group_isolation_and_sibling_reasoning": true
+  },
+  "feature_manifests": {
+    "combined": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/combined_features.manifest.json",
+      "sha256": "cd9263e1a8c018f9f0d4cc25c8a1878ed1ae52254423c17968b104d07079bea6"
+    },
+    "grep": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/grep_entity_pair_features_v1.manifest.json",
+      "sha256": "880a38cead7dd1d2c23974af63d06733b4f877743051f673234b3f8ad0a929ba"
+    },
+    "paleomag": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/paleomag_scope_features_v1.manifest.json",
+      "sha256": "3ab759bfe7ac983bb3dce1ea88cb5a6123f2942e0feeb96c2182d011a0a747e9"
+    }
+  },
+  "canonical_runtime": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "sklearn": "1.6.1"
+  }
+}

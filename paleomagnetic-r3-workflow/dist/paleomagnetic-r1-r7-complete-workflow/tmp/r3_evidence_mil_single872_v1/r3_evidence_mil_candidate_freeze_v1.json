@@ -1,0 +1,168 @@
+{
+  "schema_version": "r3_evidence_mil_candidate_freeze_v1",
+  "status": "FROZEN_BEFORE_LABEL_ACCESS",
+  "primary_scope": "all 872 PDF-backed single-target papers at full coverage",
+  "complete_alignment_sha256": "4c66f703ad1c2edc2f7075df4ca55515df4017055336cb7742711ab683d7b58b",
+  "single_target_rows": 872,
+  "single_source_row_indices_sha256": "20ad83267eff7f62cfb0d6653a48762255a55ce283a56ac8e897ec2890e30548",
+  "single_fold_ids_sha256": "90519a70722dce7355b33725ffa4864ed9c3c53391bd8109adff1f7d165b55a7",
+  "single_document_groups_sha256": "44ed5cf6b5237d5df2aeb2db8a132d9947a05c1300ea4ac7bcebf0848aec3ab5",
+  "candidate_selection": {
+    "allowed_scales": [
+      "sentence_window",
+      "paragraph"
+    ],
+    "deduplication_key": "normalized_text_sha256",
+    "selection_order": [
+      "lexical_anchor",
+      "own_result_context",
+      "counter_evidence",
+      "uniform_fallback"
+    ],
+    "quotas": {
+      "lexical_anchor": 32,
+      "own_result_context": 16,
+      "counter_evidence": 8,
+      "uniform_fallback": 8
+    },
+    "max_instances_per_bag": 64,
+    "lexical_category_round_robin": [
+      "method",
+      "diagnostic",
+      "carrier",
+      "bridge"
+    ],
+    "own_result_sections": [
+      "methods",
+      "results",
+      "discussion",
+      "conclusion"
+    ]
+  },
+  "instance_feature_names": [
+    "lexical_method_count_clip",
+    "lexical_diagnostic_count_clip",
+    "lexical_carrier_count_clip",
+    "lexical_bridge_count_clip",
+    "lexical_total_log",
+    "lexical_category_coverage",
+    "scale_sentence_window",
+    "scale_paragraph",
+    "section_abstract",
+    "section_introduction",
+    "section_geology",
+    "section_methods",
+    "section_results",
+    "section_discussion",
+    "section_conclusion",
+    "section_other",
+    "own_study_language",
+    "result_language",
+    "citation_language",
+    "adverse_language",
+    "own_and_result_language",
+    "own_or_result_section",
+    "support_without_citation",
+    "event_first_person",
+    "event_passive_execution",
+    "event_procedure",
+    "event_result_verb",
+    "event_quantitative",
+    "event_figure_table",
+    "event_sample",
+    "event_citation",
+    "event_external_attribution",
+    "event_definition",
+    "event_future",
+    "event_method_negation",
+    "event_own_strong",
+    "event_own_likely",
+    "event_external",
+    "event_score_scaled",
+    "trusted_method",
+    "trusted_diagnostic",
+    "trusted_carrier",
+    "trusted_bridge",
+    "trusted_category_fraction",
+    "trusted_any",
+    "support_blocked",
+    "counter_demagnetization_only_count_clip",
+    "counter_external_attribution_count_clip",
+    "counter_future_recommendation_count_clip",
+    "counter_total_log",
+    "counter_without_normative_support",
+    "word_count_log_scaled",
+    "page_position",
+    "primary_route_lexical_anchor",
+    "primary_route_own_result_context",
+    "primary_route_counter_evidence",
+    "primary_route_uniform_fallback",
+    "eligible_route_lexical_anchor",
+    "eligible_route_own_result_context",
+    "eligible_route_counter_evidence",
+    "eligible_route_uniform_fallback"
+  ],
+  "instance_feature_names_sha256": "0fbbec4cf84fb9f51b047aa74935af587824eb40800ad6e79f247fccef074126",
+  "inputs": {
+    "identity": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_strict_eval_07111758/inputs/identity_manifest.xlsx",
+      "sha256": "5bdb7476a5b7d61494939fc5cd7bc8fa3195ef7b032b29306f146892862b970f"
+    },
+    "page_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_page_cache_v1/page_cache.jsonl",
+      "sha256": "388bd9d405119a2ee19aa08d9b0194c3902bdcb0b52b9d5e8925f7ff2405a076"
+    },
+    "pdf_membership": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/raw_pdfs",
+      "sha256": "7a5f64d16a2f51614337d39a850ec8220607bb8dbc3bd9a7f5e253e7f5ac3d4c"
+    },
+    "target_context": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/trace_target_context_documents_v4.jsonl",
+      "sha256": "4e18f2de876c64abb1be9870211952cf044fc82d0f95a3f0ba796feebd5bf338",
+      "usage": "alignment_only"
+    },
+    "fold_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/trace_refno_fold_manifest_v4.json",
+      "sha256": "7c35c1ceb2f343dba687d202f6d4ff0f04e1dd200017bf7e3ad622f5480235ce"
+    },
+    "concept_snapshot": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/trace_page_graph_concepts_v4.json",
+      "sha256": "109a9b593284c25b135f64bbad91f75206be5ca51e5606dee900f0af8d39c012"
+    },
+    "knowledge": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/knowledge/r3_evidence_mil_v1.json",
+      "sha256": "3f2acd0e2aaff1b78705baa9afdc55009d05cd3ccd84d008411fe340c49ab674"
+    },
+    "code": [
+      {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/build_r3_evidence_mil_bags.py",
+        "sha256": "73999e2152ee4ffff5e06c1dd7bdc1b4045ef517da44e5e33f06dfad2198ea58"
+      },
+      {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/r3_scientific_evidence_chunks.py",
+        "sha256": "eea5677768c93dc7f07aace39ff1dc3e1e6e41428bfe09841b5a5f7e1b617796"
+      },
+      {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/build_r3_trace_page_graph_features.py",
+        "sha256": "39f98577b7080f5f76c5a3ca9fb2325dca7acd10d7d00ed461562a01519c8a1f"
+      },
+      {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/paper_text_retrieval.py",
+        "sha256": "edb425ef0f86ca88417b0a24e3917747410b05118b6ca2fd05aefdee040dabed"
+      },
+      {
+        "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/experiment_r3_own_study_events.py",
+        "sha256": "7feb0c23b6cb4728e095b7f07cd62403ee40f0974b86e6de1f23d9ac009738a4"
+      }
+    ]
+  },
+  "runtime_boundary": {
+    "labels_read": false,
+    "pmagresult_or_rockmag_read": false,
+    "prior_predictions_read": false,
+    "evaluation_results_read": false,
+    "target_context_used_only_for_alignment": true,
+    "resultno_used_only_for_alignment": true,
+    "refno_used_for_document_scope": true
+  }
+}

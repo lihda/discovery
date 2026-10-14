@@ -1,0 +1,257 @@
+{
+  "schema_version": "r3_residual_gate_evaluation_freeze_v1",
+  "status": "FROZEN_BEFORE_LABEL_ACCESS",
+  "scope": "872 PDF-backed single-target papers at full coverage",
+  "config": {
+    "schema_version": "r3_residual_gate_evaluation_v1",
+    "status": "FROZEN_BEFORE_LABEL_ACCESS",
+    "scope": "all 872 PDF-backed single-target papers at full coverage",
+    "source_refs": [
+      {
+        "source_id": "PATEL_ET_AL_ACL_2025_R2E",
+        "venue": "ACL 2025",
+        "method_mapping": "evidence-focused retrieval and evidence-grounded prediction",
+        "adaptation_boundary": "methodological inspiration only; this evaluator is not a reproduction of R2E"
+      },
+      {
+        "source_id": "TAN_ET_AL_SIGIR_2025_EDU_FILTERING",
+        "venue": "SIGIR 2025",
+        "method_mapping": "fine-grained evidence filtering before document-level aggregation",
+        "adaptation_boundary": "methodological inspiration only; the paleomagnetic filters are domain-specific"
+      },
+      {
+        "source_id": "DU_ET_AL_ICLR_2025_PSMIL",
+        "venue": "ICLR 2025",
+        "method_mapping": "probability-space aggregation under bag-level supervision",
+        "adaptation_boundary": "methodological inspiration only; the bounded residual gate is not a direct PSMIL implementation"
+      }
+    ],
+    "protocol": {
+      "outer_folds": 5,
+      "inner_folds": 3,
+      "inner_seed": 35720260761,
+      "random_state": 35720260,
+      "threshold": 0.5,
+      "outer_test_selection": false,
+      "selection_objective": "inner accuracy, then macro-F1, then balanced accuracy, then frozen order",
+      "minimum_accuracy_gain_over_domain_baseline": 0.0025
+    },
+    "domain_experts": [
+      {
+        "name": "domain_hgb",
+        "kind": "hgb10",
+        "standardized": false
+      },
+      {
+        "name": "domain_rf",
+        "kind": "rf8",
+        "standardized": false
+      },
+      {
+        "name": "domain_extra",
+        "kind": "extra8",
+        "standardized": false
+      },
+      {
+        "name": "domain_logreg",
+        "kind": "logreg001",
+        "standardized": true
+      }
+    ],
+    "query_experts": {
+      "pca": {
+        "name": "query_pca64_logreg",
+        "family": "pca_logistic",
+        "matrix": "v4_plus_retrieval_compact_plus_pooled",
+        "C": 1.0,
+        "pca_dimension": 64
+      },
+      "compact_hgb": {
+        "name": "query_compact_hgb",
+        "family": "hist_gradient_boosting",
+        "matrix": "retrieval_compact"
+      }
+    },
+    "front_text_expert": {
+      "characters": 16000,
+      "prefix_target_name": true,
+      "analyzer": "word",
+      "ngram_range": [
+        1,
+        2
+      ],
+      "min_df": 2,
+      "max_df": 0.997,
+      "max_features": 80000,
+      "sublinear_tf": true,
+      "strip_accents": "unicode",
+      "C": 1.0,
+      "solver": "liblinear",
+      "max_iter": 2000
+    },
+    "trusted_summary_experts": {
+      "hist_gradient_boosting": {
+        "max_iter": 220,
+        "learning_rate": 0.04,
+        "max_leaf_nodes": 7,
+        "min_samples_leaf": 16,
+        "l2_regularization": 2.0
+      },
+      "extra_trees": {
+        "n_estimators": 600,
+        "max_features": 0.5,
+        "min_samples_leaf": 8,
+        "n_jobs": -1
+      },
+      "unavailable_probability": 0.5
+    },
+    "fixed_fusion": {
+      "name": "domain_query_front_trusted_fixed",
+      "weights": {
+        "domain_mean4": 0.43,
+        "query_pca64_logreg": 0.27,
+        "front_word_logreg": 0.25,
+        "trusted_expert_mean": 0.05
+      }
+    },
+    "stack": {
+      "C": 0.01,
+      "solver": "liblinear",
+      "max_iter": 3000,
+      "standardize": true,
+      "probability_clip": 1e-06
+    },
+    "residual_gate": {
+      "base": "domain_mean4",
+      "evidence_components": [
+        "query_pca64_logreg",
+        "query_compact_hgb",
+        "front_word_logreg",
+        "trusted_hgb",
+        "trusted_extra"
+      ],
+      "evidence_aggregation": "median",
+      "C": 0.01,
+      "solver": "liblinear",
+      "max_iter": 3000,
+      "standardize": true,
+      "gate_probability_threshold": 0.7,
+      "maximum_base_margin_for_override": 0.3,
+      "require_trusted_summary": false,
+      "minimum_disagreement_rows": 24,
+      "maximum_probability_step": 0.35
+    },
+    "candidate_order": [
+      "domain_mean4",
+      "fixed_fusion",
+      "low_dimensional_stack",
+      "bounded_residual_gate"
+    ],
+    "runtime_boundary": {
+      "features_frozen_before_labels": true,
+      "pmagresult_or_rockmag_read": false,
+      "prior_predictions_read_before_preaudit": false,
+      "evaluation_results_read_before_preaudit": false,
+      "outer_test_labels_used_for_training_or_selection": false,
+      "selective_abstention_used": false
+    }
+  },
+  "component_order": [
+    "v4_random_forest",
+    "domain_hgb",
+    "domain_rf",
+    "domain_extra",
+    "domain_logreg",
+    "domain_mean4",
+    "query_pca64_logreg",
+    "query_compact_hgb",
+    "front_word_logreg",
+    "trusted_hgb",
+    "trusted_extra"
+  ],
+  "meta_components": [
+    "v4_random_forest",
+    "domain_mean4",
+    "query_pca64_logreg",
+    "query_compact_hgb",
+    "front_word_logreg",
+    "trusted_hgb",
+    "trusted_extra"
+  ],
+  "candidate_order": [
+    "domain_mean4",
+    "fixed_fusion",
+    "low_dimensional_stack",
+    "bounded_residual_gate"
+  ],
+  "inputs": {
+    "config": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/knowledge/r3_residual_gate_evaluation_v1.json",
+      "sha256": "e314b2d4269f0a0a36cfb46c706af6f2e5decffb497cdb40eac01dc3618a9313"
+    },
+    "domain_features": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/combined_features.npz",
+      "sha256": "dc9163c35699582acda29c457eb8ab2eeef41b8e50eba02af6807e56e90b6f7f"
+    },
+    "domain_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/combined_features.manifest.json",
+      "sha256": "cd9263e1a8c018f9f0d4cc25c8a1878ed1ae52254423c17968b104d07079bea6"
+    },
+    "page_cache": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_page_cache_v1/page_cache.jsonl",
+      "sha256": "388bd9d405119a2ee19aa08d9b0194c3902bdcb0b52b9d5e8925f7ff2405a076"
+    },
+    "trusted_features": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_strict_trusted_summary_v1/r3_strict_trusted_summary_v1.npz",
+      "sha256": "165a26142a8786bc906e490fb8d2ef360afe87d4be6d32a8327ba9ef337b47a0"
+    },
+    "trusted_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_strict_trusted_summary_v1/r3_strict_trusted_summary_v1.manifest.json",
+      "sha256": "7ca1ca211f8bb521d73ced1e5ce2b3846bbab5d2c0410fc2824d18bac1246f81"
+    },
+    "v4_features": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/trace_page_graph_features_v4.npz",
+      "sha256": "609df745905feca238133ecaba721fa34db20898818456c35e4d89e9977a8f1b"
+    },
+    "v4_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/trace_page_graph_features_v4.manifest.json",
+      "sha256": "a8d43e27bb3f26c9d3cc36833a7cc2cd68ea716928d43bb410a3dd8be1147c1c"
+    },
+    "v4_context": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/trace_target_context_documents_v4.jsonl",
+      "sha256": "4e18f2de876c64abb1be9870211952cf044fc82d0f95a3f0ba796feebd5bf338"
+    },
+    "v4_candidate": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/trace_page_graph_candidate_freeze_v4.json",
+      "sha256": "d3bc12e79eb9f0688e9074f4cc229ab491370ba9eb48917b7a0b231cc3efa8e6"
+    },
+    "v4_folds": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_all_labelled_pdf_grouped_oof_v1/trace_refno_fold_manifest_v4.json",
+      "sha256": "7c35c1ceb2f343dba687d202f6d4ff0f04e1dd200017bf7e3ad622f5480235ce"
+    },
+    "query_features": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_query_adaptive_single872_v1/r3_query_adaptive_features_v1.npz",
+      "sha256": "c4ceb077f73123c6106a0408e04c172228bd14a9cd37c8e59f0f2e1adb9f96e1"
+    },
+    "query_manifest": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_query_adaptive_single872_v1/r3_query_adaptive_features_v1.manifest.json",
+      "sha256": "2a2fe4eeb175fd9c3847adabaed6c99b29a30be2b9e8cad21cac63fd4960fc76"
+    },
+    "query_candidate": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_query_adaptive_single872_v1/r3_query_adaptive_candidate_freeze_v1.json",
+      "sha256": "cf1fcc50765ce89d3180bd75849681d1756834fa9dc93328c018ec05a024d4d1"
+    },
+    "evaluator_code": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/scripts/evaluate_r3_residual_gate_single872_oof.py",
+      "sha256": "b8885e3d45f7c87071228b72feb86627c7ccb7acda7e14c9474272820ab7a7ba"
+    }
+  },
+  "runtime_boundary": {
+    "labels_read": false,
+    "pmagresult_or_rockmag_read": false,
+    "prior_predictions_read": false,
+    "evaluation_results_read": false,
+    "outer_test_labels_used_for_training_or_selection": false,
+    "trusted_summary_generated_without_labels": true
+  }
+}

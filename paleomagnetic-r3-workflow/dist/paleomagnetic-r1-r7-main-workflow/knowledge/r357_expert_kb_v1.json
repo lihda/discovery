@@ -1,0 +1,1081 @@
+{
+  "schema_version": "1.3",
+  "kb_version": "r357_expert_kb_v1.3",
+  "title": {
+    "en": "Paleomagnetic R3/R5/R7 expert knowledge for original-paper conflict detection",
+    "zh": "用于原始文献冲突检测的古地磁 R3/R5/R7 专家知识库"
+  },
+  "provenance": {
+    "origin": "expert_curated_domain_knowledge",
+    "label_supervision": false,
+    "contains_row_answer_mapping": false,
+    "knowledge_induction": {
+      "offline_sources": [
+        "de-identified PMAGRESULT.ROCKMAG terminology taxonomy",
+        "paleomagnetic domain terminology"
+      ],
+      "frozen_aggregate_artifact": "r3_rockmag_lexicon_v1.json",
+      "frozen_aggregate_sha256": "8f7e5b66d590844befc86013149b1cedb3445a477c939189e274093fcecb5ce6",
+      "source_columns_read": ["ROCKMAG"],
+      "record_identifiers_read": false,
+      "raw_values_retained": false,
+      "runtime_source_table_access": false,
+      "evaluation_labels_used": false,
+      "exact_field_value_lookup_retained": false
+    },
+    "criterion_sources": [
+      "Reliability Criterion 3.3 - Characterization of magnetic mineralogy/rock magnetism",
+      "Reliability Criterion 3.5 - Structural control",
+      "Reliability Criterion 3.7 - No qualified resemblance to younger poles"
+    ],
+    "criterion_spec": {
+      "artifact": "r357_criterion_spec_v2.json",
+      "spec_version": "r357_criterion_spec_v2",
+      "source_sha256": "8433f968a4658118dc43a060114b8d2a6a0ca0cbf6ed82ee006d924d970b18e5"
+    },
+    "review_status": "initial_expert_review_required"
+  },
+  "runtime_policy": {
+    "allowed_sources": [
+      "identity_manifest",
+      "original_paper",
+      "expert_knowledge_base"
+    ],
+    "forbid_previous_predictions": true,
+    "forbid_source_database_fields": true
+  },
+  "r7_quantitative_knowledge": {
+    "schema_version": "r7_quantitative_knowledge_v1",
+    "minimum_candidate_reliability_R": 3,
+    "reference_poles": {
+      "poles": [],
+      "source": {
+        "status": "NOT_POPULATED",
+        "requirement": "Independently curated published poles with coordinates, A95, age, period, reliability R, stable connected craton, and citation"
+      }
+    },
+    "qualified_search_manifest": null,
+    "provenance": {
+      "label_supervision": false,
+      "contains_row_answer_mapping": false,
+      "note": "An empty catalogue cannot establish R7 support or conflict; original-paper extraction remains available and missing gates produce UNKNOWN."
+    }
+  },
+  "indicators": {
+    "R3": {
+      "claim": {
+        "en": "The target has an eligible carrier investigation, a carrier identification, and an interpretation of its significance.",
+        "zh": "目标对象具有合格的载体研究、载体识别及其意义解释。"
+      },
+      "decision_policy": {
+        "required_support_groups": ["method", "carrier", "bridge"],
+        "optional_support_groups": [],
+        "conflict_overrides_incomplete_support": true
+      }
+    },
+    "R5": {
+      "claim": {
+        "en": "The target direction has adequate structural and paleohorizontal control.",
+        "zh": "目标方向具有充分的构造校正和古水平面控制。"
+      },
+      "decision_policy": {
+        "required_support_groups": [],
+        "required_support_sets": [
+          ["cratonic_rigidity"],
+          ["temporal_rescue"]
+        ],
+        "optional_support_groups": [
+          "structural_rescue",
+          "temporal_rescue",
+          "cratonic_rigidity",
+          "flattening_volcanic_corroboration",
+          "flattening_sedimentary_corroboration"
+        ],
+        "conflict_overrides_incomplete_support": true,
+        "conflict_overrides_support": true
+      }
+    },
+    "R7": {
+      "claim": {
+        "en": "The target magnetization is primary rather than a demonstrably younger pole or overprint.",
+        "zh": "目标磁化为原生磁化，而非可证实的年轻磁极或后期叠加。"
+      },
+      "decision_policy": {
+        "required_support_groups": ["formal_r7_decision"],
+        "optional_support_groups": ["primary_rescue", "field_test_rescue"],
+        "conflict_overrides_incomplete_support": true,
+        "conflict_overrides_support": true
+      }
+    }
+  },
+  "concepts": [
+    {
+      "concept_id": "rock_magnetic_method",
+      "claim": {
+        "en": "A carrier-diagnostic rock-magnetic or mineralogical method was performed.",
+        "zh": "实施了能够诊断载磁矿物的岩石磁学或矿物学方法。"
+      },
+      "terms": [
+        "IRM", "SIRM", "isothermal remanent magnetization", "hysteresis", "FORC",
+        "three-axis IRM", "Lowrie", "Lowrie-Fuller", "thermomagnetic", "Js-T",
+        "Jrs-T", "susceptibility-temperature", "chi-T", "Curie temperature",
+        "Hc", "Hcr", "Bcr", "Day plot", "SD", "PSD", "MD",
+        "low-temperature IRM", "unblocking spectrum", "coercivity spectrum",
+        "AMS", "AIR", "AAR", "magnetic fabric", "mineral separation",
+        "optical microscopy", "SEM", "TEM", "EDS", "XRD", "Mossbauer", "coercivity"
+      ]
+    },
+    {
+      "concept_id": "remanence_carrier",
+      "claim": {
+        "en": "A magnetic mineral or mineral family can carry remanence.",
+        "zh": "某一磁性矿物或矿物族可作为剩磁载体。"
+      },
+      "terms": [
+        "magnetite", "titanomagnetite", "hematite", "haematite", "maghemite",
+        "pyrrhotite", "greigite", "goethite", "ilmenite", "iron sulphide"
+      ]
+    },
+    {
+      "concept_id": "deformation_timing",
+      "claim": {
+        "en": "Magnetization timing must be bound to both the target and the relevant deformation event.",
+        "zh": "磁化时序必须同时绑定目标对象与相关构造变形事件。"
+      },
+      "terms": ["pre-folding", "syn-folding", "post-folding", "post-kinematic", "post-tectonic"]
+    },
+    {
+      "concept_id": "younger_overprint",
+      "claim": {
+        "en": "A younger pole, remagnetization, or secondary overprint can invalidate primary-age interpretation.",
+        "zh": "年轻磁极、重磁化或次生叠加可能否定原生年龄解释。"
+      },
+      "terms": ["younger pole", "remagnetization", "remagnetisation", "secondary overprint"]
+    }
+  ],
+  "rules": [
+    {
+      "rule_id": "R3.METHOD.CARRIER_DIAGNOSTIC",
+      "indicator": "R3",
+      "group": "method",
+      "claim": {
+        "en": "The target was examined with a carrier-diagnostic method.",
+        "zh": "目标对象接受了载磁矿物诊断方法研究。"
+      },
+      "predicate": "carrier_diagnostic_method_performed",
+      "effect": {"relation": "SUPPORT", "value": 1},
+      "evidence": {
+        "minimum_target_binding": 0.48,
+        "hit_subtypes": [
+          "rock_magnetic_experiment", "thermal_magnetic_experiment",
+          "low_temperature_irm_experiment", "carrier_spectrum_experiment",
+          "domain_state_experiment", "magnetic_fabric_experiment",
+          "mineralogical_observation"
+        ],
+        "patterns": [
+          "\\b(?:IRM|SIRM|FORC|hysteresis)\\b|(?:IRM|remanence)\\s+acquisition\\s+curve",
+          "isothermal\\s+remanent\\s+magneti[sz]ation|back[- ]field|coerciv(?:e|ity)|\\bHc(?:r)?\\b|\\bBcr\\b",
+          "three[- ]axis|3[- ]axis|Lowrie(?:[- ]Fuller)?",
+          "low[- ]temperature.{0,100}(?:IRM|isothermal\\s+remanent\\s+magneti[sz]ation)|(?:IRM|isothermal\\s+remanent\\s+magneti[sz]ation).{0,100}low[- ]temperature|(?:Verwey|Morin)\\s+transition",
+          "unblocking(?:[- ]temperature)?\\s+(?:spectra|spectrum|distribution)|coerciv(?:ity|e)\\s+(?:spectra|spectrum|distribution)",
+          "thermo[- ]?magnetic|Curie\\s+(?:point|temperature)|susceptibility.{0,80}temperature|temperature.{0,80}susceptibility|(?:kappa|chi)[- ]?T|\\bJ(?:s|rs)[- ]?\\(?T\\)?\\b",
+          "Day\\s+plot|Henkel\\s+plot|domain\\s+state|single[- ]domain|pseudo[- ]single[- ]domain|multi[- ]domain|\\b(?:SD|PSD|MD)\\b",
+          "\\bAMS\\b|anisotropy\\s+of\\s+magnetic\\s+susceptibility|\\bAIR\\b|anisotropy\\s+of\\s+isothermal\\s+remanence|\\bAAR\\b|anisotropy\\s+of\\s+anhysteretic\\s+remanence|magnetic\\s+fabric",
+          "reflected[- ]light|optical\\s+microscop|ore\\s+microscop|thin\\s+sections?|petrograph(?:y|ic)|\\bSEM\\b|\\bTEM\\b|\\bEDS\\b|\\bEPMA\\b|energy[- ]dispersive\\s+(?:spectroscopy|analysis)|electron\\s+microprobe|\\bXRD\\b|X[- ]?ray\\s+diffraction|M[oö]ssbauer|magnetic\\s+(?:extract|separate)|mineral\\s+separation",
+          "magnetic\\s+susceptibility|susceptibility\\s+(?:measurement|experiment|curve)|saturation\\s+(?:isothermal\\s+)?remanence"
+        ]
+      },
+      "base_confidence": 0.88,
+      "conflict_type": "NONE",
+      "provenance": {"origin": "expert_curated", "label_supervision": false}
+    },
+    {
+      "rule_id": "R3.CARRIER.NAMED_MINERAL",
+      "indicator": "R3",
+      "group": "carrier",
+      "claim": {
+        "en": "The paper identifies a named magnetic carrier for the target.",
+        "zh": "原文为目标对象识别出具体的磁性载体。"
+      },
+      "predicate": "named_carrier_identified",
+      "effect": {"relation": "SUPPORT", "value": 1},
+      "evidence": {
+        "minimum_target_binding": 0.48,
+        "hit_subtypes": ["named_carrier"],
+        "patterns": [
+          "\\b(?:titano[- ]?magnetite|magnetite|hematite|haematite|maghemite|pyrrhotite|greigite|goethite|ilmenite)\\b",
+          "\\b(?:magnetic|remanence)\\s+carriers?\\b"
+        ],
+        "exclude_patterns": [
+          "(?:no|neither).{0,60}(?:magnetite|hematite|haematite|maghemite|pyrrhotite|greigite).{0,80}(?:identified|detected|observed|present)",
+          "(?:magnetite|hematite|haematite|maghemite|pyrrhotite|greigite).{0,60}(?:not|never).{0,30}(?:identified|detected|observed|present)"
+        ]
+      },
+      "base_confidence": 0.86,
+      "conflict_type": "NONE",
+      "provenance": {"origin": "expert_curated", "label_supervision": false}
+    },
+    {
+      "rule_id": "R3.BRIDGE.CARRIER_REMANENCE",
+      "indicator": "R3",
+      "group": "bridge",
+      "claim": {
+        "en": "The identified carrier is linked to remanence and its origin, alteration, or interpretive significance.",
+        "zh": "已识别载体与剩磁及其成因、蚀变或解释意义建立联系。"
+      },
+      "predicate": "carrier_linked_to_remanence",
+      "effect": {"relation": "SUPPORT", "value": 1},
+      "evidence": {
+        "minimum_target_binding": 0.48,
+        "hit_subtypes": ["explicit_carrier_bridge", "mineral_remanence_bridge", "carrier_significance"],
+        "patterns": [
+          "(?:carrier|carried\\s+by|hosted\\s+by|attributed\\s+to).{0,160}(?:remanence|magneti[sz]ation|ChRM|component)",
+          "(?:remanence|magneti[sz]ation|ChRM|component).{0,160}(?:carrier|carried\\s+by|hosted\\s+by|attributed\\s+to)",
+          "(?:magnetic\\s+carrier|remanence\\s+carrier|magnetite|titano[- ]?magnetite|hematite|haematite|maghemite|pyrrhotite|greigite).{0,180}(?:indicat(?:e|es|ed)|suggest(?:s|ed)?|impli(?:es|ed)|support(?:s|ed)?|consistent\\s+with|significan(?:ce|t)|alter(?:ation|ed)|primary|secondary|detrital|chemical|authigenic|overprint|remagneti[sz])"
+        ]
+      },
+      "base_confidence": 0.96,
+      "conflict_type": "NONE",
+      "provenance": {"origin": "expert_curated", "label_supervision": false}
+    },
+    {
+      "rule_id": "R3.CARRIER.EXPLICIT_ABSENCE",
+      "indicator": "R3",
+      "group": "carrier_absence",
+      "claim": {
+        "en": "The paper explicitly states that a remanence carrier was not identified.",
+        "zh": "原文明示未能识别剩磁载体。"
+      },
+      "predicate": "carrier_identification_absent",
+      "effect": {"relation": "CONFLICT", "value": 0},
+      "evidence": {
+        "minimum_target_binding": 0.78,
+        "patterns": [
+          "no\\s+(?:magnetic\\s+|remanence\\s+)?carrier.{0,40}(?:identified|determined|found)",
+          "(?:carrier|magnetic\\s+mineral).{0,50}(?:could\\s+not|cannot|was\\s+not|were\\s+not).{0,35}(?:identified|determined)"
+        ]
+      },
+      "base_confidence": 0.97,
+      "conflict_type": "POLARITY",
+      "provenance": {"origin": "expert_curated", "label_supervision": false}
+    },
+    {
+      "rule_id": "R5.TEMP.POST_FOLD_SECONDARY",
+      "indicator": "R5",
+      "group": "temporal_review",
+      "claim": {
+        "en": "A target-bound secondary component was acquired after folding; this is a review flag, not by itself a structural-control conflict.",
+        "zh": "与目标绑定的次生磁化分量形成于褶皱之后；该证据仅触发复核，不能单独判为构造控制冲突。"
+      },
+      "predicate": "secondary_component_acquired_after_folding",
+      "effect": {"relation": "UNKNOWN", "value": null},
+      "temporal": {"event": "magnetization_acquisition", "relation": "AFTER", "reference_event": "folding"},
+      "evidence": {
+        "minimum_target_binding": 0.78,
+        "claim_scope": "same_sentence",
+        "require_target_in_claim": true,
+        "require_exact_target_in_claim": true,
+        "maximum_target_distance_chars": 180,
+        "reference_sections_unknown": true,
+        "required_claim_patterns": [
+          "post[- ]?fold(?:ing)?",
+          "(?:secondary|overprint|remanence|magneti[sz]ation|component)"
+        ],
+        "patterns": [
+          "post[- ]?fold(?:ing)?.{0,100}(?:secondary|overprint|remanence|magneti[sz]ation|component)",
+          "(?:secondary|overprint|remanence|magneti[sz]ation|component).{0,100}post[- ]?fold(?:ing)?",
+          "(?:remanence|magneti[sz]ation|component).{0,100}(?:acquired|formed).{0,40}after\\s+(?:the\\s+)?folding"
+        ],
+        "exclude_patterns": [
+          "post[- ]?(?:kinematic|tectonic).{0,120}(?:primary|TRM|thermoremanent).{0,120}(?:intrusion|pluton|dyke|dike|sill)"
+        ]
+      },
+      "base_confidence": 0.96,
+      "conflict_type": "TEMPORAL_ORDER",
+      "provenance": {"origin": "expert_curated", "label_supervision": false}
+    },
+    {
+      "rule_id": "R5.TEMP.POST_KINEMATIC_PRIMARY_INTRUSION",
+      "indicator": "R5",
+      "group": "temporal_rescue",
+      "claim": {
+        "en": "The target result is from an intrusion emplaced after the last deformational event.",
+        "zh": "目标结果来自最后一期构造变形事件之后侵位的侵入体。"
+      },
+      "predicate": "intrusion_younger_than_last_deformation",
+      "effect": {"relation": "SUPPORT", "value": 1},
+      "temporal": {"event": "intrusion_emplacement", "relation": "AFTER", "reference_event": "deformation"},
+      "evidence": {
+        "minimum_target_binding": 0.70,
+        "claim_scope": "same_sentence",
+        "require_target_in_claim": true,
+        "reference_sections_unknown": true,
+        "required_claim_patterns": [
+          "(?:intrusion|pluton|dyke|dike|sill)",
+          "(?:post[- ]?(?:kinematic|tectonic|deformation)|after\\s+(?:the\\s+)?(?:(?:last|latest|final)\\s+)?(?:deformation|deformational\\s+event|folding)|younger\\s+than\\s+(?:the\\s+)?(?:(?:last|latest|final)\\s+)?(?:deformation|deformational\\s+event))"
+        ],
+        "patterns": [
+          "post[- ]?(?:kinematic|tectonic|deformation).{0,140}(?:intrusion|pluton|dyke|dike|sill)",
+          "(?:intrusion|pluton|dyke|dike|sill).{0,120}(?:emplaced|intruded|formed).{0,60}after\\s+(?:the\\s+)?(?:(?:last|latest|final)\\s+)?(?:deformation|deformational\\s+event|folding)",
+          "(?:intrusion|pluton|dyke|dike|sill).{0,100}younger\\s+than\\s+(?:the\\s+)?(?:(?:last|latest|final)\\s+)?(?:deformation|deformational\\s+event)",
+          "(?:(?:last|latest|final)\\s+)?(?:deformation|deformational\\s+event|folding).{0,80}predates?.{0,80}(?:intrusion|pluton|dyke|dike|sill)"
+        ]
+      },
+      "base_confidence": 0.95,
+      "conflict_type": "NONE",
+      "provenance": {"origin": "expert_curated", "label_supervision": false}
+    },
+    {
+      "rule_id": "R5.RISK.ALLOCHTHONOUS_TERRANE",
+      "indicator": "R5",
+      "group": "structural_risk",
+      "claim": {
+        "en": "The target is an allochthonous or parautochthonous terrane.",
+        "zh": "目标属于外来或准原地地体。"
+      },
+      "predicate": "target_is_allochthonous_or_parautochthonous",
+      "effect": {"relation": "CONFLICT", "value": 0},
+      "unless_support_groups": ["temporal_rescue"],
+      "unless_support_policy": "ANY",
+      "evidence": {
+        "minimum_target_binding": 0.78,
+        "claim_scope": "same_sentence",
+        "require_target_in_claim": true,
+        "require_exact_target_in_claim": true,
+        "maximum_target_distance_chars": 160,
+        "reference_sections_unknown": true,
+        "required_claim_patterns": [
+          "\\b(?:allochthonous|parautochthonous)\\b",
+          "\\b(?:terrane|terrain|block|unit|assemblage)\\b"
+        ],
+        "patterns": [
+          "(?:allochthonous|parautochthonous).{0,70}(?:terrane|terrain|block|unit|assemblage)",
+          "(?:terrane|terrain|block|unit|assemblage).{0,70}(?:is|was|interpreted\\s+as|considered).{0,25}(?:allochthonous|parautochthonous)"
+        ],
+        "exclude_patterns": [
+          "(?:not|neither|no\\s+evidence\\s+(?:for|of)).{0,35}(?:allochthonous|parautochthonous)",
+          "(?:autochthonous|cratonic).{0,25}(?:rather\\s+than|not).{0,20}(?:allochthonous|parautochthonous)"
+        ]
+      },
+      "base_confidence": 0.97,
+      "conflict_type": "TARGET_SCOPE",
+      "provenance": {
+        "origin": "published_revised_r5_criterion",
+        "criterion_section": "3.5 Structural control",
+        "label_supervision": false
+      }
+    },
+    {
+      "rule_id": "R5.RISK.NON_STRATIFIED_TARGET",
+      "indicator": "R5",
+      "group": "structural_risk",
+      "claim": {
+        "en": "The target result comes from non-stratified or non-layered rock.",
+        "zh": "目标结果来自非地层化或非层状岩石。"
+      },
+      "predicate": "target_is_non_stratified_rock",
+      "effect": {"relation": "CONFLICT", "value": 0},
+      "unless_support_groups": ["temporal_rescue"],
+      "unless_support_policy": "ANY",
+      "evidence": {
+        "minimum_target_binding": 0.78,
+        "claim_scope": "same_sentence",
+        "require_target_in_claim": true,
+        "require_exact_target_in_claim": true,
+        "maximum_target_distance_chars": 180,
+        "reference_sections_unknown": true,
+        "required_claim_patterns": [
+          "\\b(?:non[- ]?stratified|unstratified|non[- ]?layered|unlayered)\\b",
+          "\\b(?:rock|rocks|rock\\s+body|unit|complex|intrusion|pluton|dyke|dike|sill)\\b"
+        ],
+        "patterns": [
+          "(?:non[- ]?stratified|unstratified|non[- ]?layered|unlayered).{0,55}(?:rock|rocks|rock\\s+body|unit|complex|intrusion|pluton|dyke|dike|sill)",
+          "(?:rock|rocks|rock\\s+body|unit|complex|intrusion|pluton|dyke|dike|sill).{0,55}(?:is|are|was|were|comprises?|consists?\\s+of)?.{0,20}(?:non[- ]?stratified|unstratified|non[- ]?layered|unlayered)"
+        ],
+        "exclude_patterns": [
+          "(?:not|neither).{0,25}(?:non[- ]?stratified|unstratified|non[- ]?layered|unlayered)"
+        ]
+      },
+      "base_confidence": 0.96,
+      "conflict_type": "VALUE_RANGE",
+      "provenance": {
+        "origin": "published_revised_r5_criterion",
+        "criterion_section": "3.5 Structural control",
+        "label_supervision": false
+      }
+    },
+    {
+      "rule_id": "R5.RISK.INTERNAL_VERTICAL_AXIS_ROTATION",
+      "indicator": "R5",
+      "group": "structural_risk",
+      "claim": {
+        "en": "The target region underwent internal vertical-axis rotation.",
+        "zh": "目标区域经历了内部垂直轴旋转。"
+      },
+      "predicate": "region_underwent_internal_vertical_axis_rotation",
+      "effect": {"relation": "CONFLICT", "value": 0},
+      "unless_support_groups": ["temporal_rescue"],
+      "unless_support_policy": "ANY",
+      "evidence": {
+        "minimum_target_binding": 0.78,
+        "claim_scope": "same_sentence",
+        "require_target_in_claim": true,
+        "require_exact_target_in_claim": true,
+        "maximum_target_distance_chars": 180,
+        "reference_sections_unknown": true,
+        "required_claim_patterns": [
+          "(?:internal|intraplate|intra[- ]?block|within[- ]block)",
+          "vertical[- ]axis\\s+rotat|rotat.{0,30}(?:about|around)\\s+(?:a\\s+)?vertical\\s+axis"
+        ],
+        "patterns": [
+          "(?:internal|intraplate|intra[- ]?block|within[- ]block).{0,60}vertical[- ]axis\\s+rotat(?:ion|ed|ing)",
+          "vertical[- ]axis\\s+rotat(?:ion|ed|ing).{0,60}(?:internal|intraplate|intra[- ]?block|within[- ]block)",
+          "rotat(?:ed|ion).{0,35}(?:internally|within\\s+the\\s+(?:block|region)).{0,35}(?:about|around)\\s+(?:a\\s+)?vertical\\s+axis"
+        ],
+        "exclude_patterns": [
+          "(?:no|without|negligible).{0,35}(?:internal|intraplate|intra[- ]?block)?.{0,25}vertical[- ]axis\\s+rotat",
+          "vertical[- ]axis\\s+rotat.{0,35}(?:was\\s+)?(?:not\\s+detected|absent|negligible)"
+        ]
+      },
+      "base_confidence": 0.97,
+      "conflict_type": "TEMPORAL_ORDER",
+      "provenance": {
+        "origin": "published_revised_r5_criterion",
+        "criterion_section": "3.5 Structural control",
+        "label_supervision": false
+      }
+    },
+    {
+      "rule_id": "R5.RISK.PALEOHORIZONTAL_UNKNOWN",
+      "indicator": "R5",
+      "group": "structural_risk",
+      "claim": {
+        "en": "The target lacks known paleohorizontal or structural attitude control.",
+        "zh": "目标对象缺少已知的古水平面或构造产状控制。"
+      },
+      "predicate": "paleohorizontal_control_missing",
+      "effect": {"relation": "CONFLICT", "value": 0},
+      "evidence": {
+        "minimum_target_binding": 0.78,
+        "claim_scope": "same_sentence",
+        "require_target_in_claim": true,
+        "reference_sections_unknown": true,
+        "hit_subtypes": ["missing_paleohorizontal_control", "unknown_structural_attitude"],
+        "patterns": [
+          "no\\s+pala?eohorizontal\\s+control",
+          "(?:bedding|structural|site)\\s+attitude.{0,40}(?:unknown|not\\s+known)",
+          "positions?\\s+are\\s+not\\s+known\\s+with\\s+certainty"
+        ]
+      },
+      "base_confidence": 0.96,
+      "conflict_type": "VALUE_RANGE",
+      "provenance": {"origin": "expert_curated", "label_supervision": false}
+    },
+    {
+      "rule_id": "R5.RISK.UNCORRECTED_DEFORMATION",
+      "indicator": "R5",
+      "group": "structural_risk",
+      "claim": {
+        "en": "A deformed target direction is reported without structural correction.",
+        "zh": "发生变形的目标方向未进行构造校正。"
+      },
+      "predicate": "required_structural_correction_missing",
+      "effect": {"relation": "CONFLICT", "value": 0},
+      "evidence": {
+        "minimum_target_binding": 0.78,
+        "claim_scope": "same_sentence",
+        "require_target_in_claim": true,
+        "reference_sections_unknown": true,
+        "context_veto": "structural_correction_unnecessary",
+        "required_claim_patterns": [
+          "\\b(?:deformed|folded|folding|tilted|tilting)\\b|\\b(?:beds?|bedding|strata)\\b.{0,35}\\b(?:dip|dipping|inclined)\\b"
+        ],
+        "hit_subtypes": ["missing_structural_correction"],
+        "patterns": [
+          "without\\s+(?:any\\s+)?structural\\s+correction|not\\s+structurally\\s+corrected|no\\s+structural\\s+correction",
+          "uncorrected\\s+for\\s+(?:bedding|tilt)"
+        ],
+        "exclude_patterns": [
+          "(?:figure|fig\\.?|projection|Zijderveld).{0,180}uncorrected\\s+for\\s+tilt",
+          "uncorrected\\s+for\\s+tilt.{0,180}(?:figure|fig\\.?|projection|Zijderveld)"
+        ]
+      },
+      "base_confidence": 0.9,
+      "conflict_type": "POLARITY",
+      "provenance": {"origin": "expert_curated", "label_supervision": false}
+    },
+    {
+      "rule_id": "R5.RISK.TILTING_NOT_EXCLUDED",
+      "indicator": "R5",
+      "group": "structural_risk",
+      "claim": {
+        "en": "Possible target tilting or rotation cannot be excluded.",
+        "zh": "无法排除目标对象发生倾斜或旋转的可能性。"
+      },
+      "predicate": "post_acquisition_tilting_possible",
+      "effect": {"relation": "CONFLICT", "value": 0},
+      "evidence": {
+        "minimum_target_binding": 0.78,
+        "claim_scope": "same_sentence",
+        "require_target_in_claim": true,
+        "reference_sections_unknown": true,
+        "hit_subtypes": ["tilting_not_excluded"],
+        "patterns": [
+          "(?:tilting|rotation).{0,50}(?:cannot|can\\s+not|could\\s+not).{0,30}(?:be\\s+)?(?:excluded|ruled\\s+out)",
+          "possible\\s+(?:tilting|rotation).{0,60}(?:cannot|can\\s+not|could\\s+not).{0,30}(?:excluded|ruled\\s+out)"
+        ]
+      },
+      "base_confidence": 0.97,
+      "conflict_type": "MODALITY",
+      "provenance": {"origin": "expert_curated", "label_supervision": false}
+    },
+    {
+      "rule_id": "R5.RISK.POST_ACQUISITION_ROTATION",
+      "indicator": "R5",
+      "group": "structural_risk",
+      "claim": {
+        "en": "The target rotated after acquisition of the evaluated magnetization.",
+        "zh": "目标对象在待评价磁化形成之后发生了旋转。"
+      },
+      "predicate": "rotation_after_magnetization",
+      "effect": {"relation": "CONFLICT", "value": 0},
+      "temporal": {"event": "rotation", "relation": "AFTER", "reference_event": "magnetization_acquisition"},
+      "evidence": {
+        "minimum_target_binding": 0.78,
+        "claim_scope": "same_sentence",
+        "require_target_in_claim": true,
+        "reference_sections_unknown": true,
+        "required_claim_patterns": [
+          "(?:vertical[- ]axis|block)\\s+rotation",
+          "(?:remanence|magneti[sz]ation|acquisition)",
+          "(?:after|postdates?|predates?|before)"
+        ],
+        "patterns": [
+          "(?:vertical[- ]axis|block)\\s+rotation.{0,100}(?:after|postdates?).{0,80}(?:remanence|magneti[sz]ation|acquisition)",
+          "(?:remanence|magneti[sz]ation).{0,100}(?:predates?|before).{0,80}(?:vertical[- ]axis|block)\\s+rotation"
+        ]
+      },
+      "base_confidence": 0.94,
+      "conflict_type": "TEMPORAL_ORDER",
+      "provenance": {"origin": "expert_curated", "label_supervision": false}
+    },
+    {
+      "rule_id": "R5.RISK.INCLINATION_FLATTENING_CORRECTION",
+      "indicator": "R5",
+      "group": "flattening_correction_risk",
+      "claim": {
+        "en": "The target pole or direction depends on an inclination-flattening correction.",
+        "zh": "目标磁极或方向依赖倾角压扁校正。"
+      },
+      "predicate": "result_depends_on_inclination_flattening_correction",
+      "effect": {"relation": "CONFLICT", "value": 0},
+      "unless_support_groups": [
+        "flattening_volcanic_corroboration",
+        "flattening_sedimentary_corroboration"
+      ],
+      "unless_support_policy": "ANY",
+      "evidence": {
+        "minimum_target_binding": 0.78,
+        "claim_scope": "same_sentence",
+        "require_target_in_claim": true,
+        "require_exact_target_in_claim": true,
+        "maximum_target_distance_chars": 180,
+        "reference_sections_unknown": true,
+        "required_claim_patterns": [
+          "(?:inclination[- ]flattening|flattening\\s+correction|correct(?:ed|ion).{0,45}(?:inclination\\s+shallowing|flattened\\s+inclination)|(?:E\\s*[/\\-]\\s*I|elongation[- /]inclination).{0,25}(?:correct(?:ed|ion)|method))",
+          "(?:pole|direction|inclination|remanence|magneti[sz]ation|data|result)"
+        ],
+        "patterns": [
+          "(?:pole|direction|inclination|remanence|magneti[sz]ation|data|result).{0,100}(?:inclination[- ]flattening|flattening\\s+correction|correct(?:ed|ion).{0,35}(?:inclination\\s+shallowing|flattened\\s+inclination))",
+          "(?:inclination[- ]flattening|flattening\\s+correction|correct(?:ed|ion).{0,35}(?:inclination\\s+shallowing|flattened\\s+inclination)).{0,100}(?:pole|direction|inclination|remanence|magneti[sz]ation|data|result)",
+          "(?:E\\s*[/\\-]\\s*I|elongation[- /]inclination).{0,25}(?:correct(?:ed|ion)|method).{0,100}(?:pole|direction|inclination|data|result)"
+        ],
+        "exclude_patterns": [
+          "(?:no|without|not).{0,35}(?:inclination[- ]flattening|flattening\\s+correction|correct(?:ed|ion).{0,30}inclination\\s+shallowing)",
+          "(?:flattening\\s+correction|inclination\\s+shallowing).{0,45}(?:was\\s+)?(?:not\\s+required|unnecessary|not\\s+applied)"
+        ]
+      },
+      "base_confidence": 0.98,
+      "conflict_type": "VALUE_RANGE",
+      "provenance": {
+        "origin": "published_revised_r5_criterion",
+        "criterion_section": "3.5 Structural control",
+        "label_supervision": false
+      }
+    },
+    {
+      "rule_id": "R5.RESCUE.STRUCTURAL_CORRECTION",
+      "indicator": "R5",
+      "group": "structural_rescue",
+      "claim": {
+        "en": "The target direction was restored using bedding, dip, or tilt correction.",
+        "zh": "目标方向依据层面、倾角或倾斜校正得到恢复。"
+      },
+      "predicate": "structural_correction_applied",
+      "effect": {"relation": "SUPPORT", "value": 1},
+      "evidence": {
+        "minimum_target_binding": 0.70,
+        "claim_scope": "same_sentence",
+        "require_target_in_claim": true,
+        "reference_sections_unknown": true,
+        "hit_subtypes": ["structural_correction"],
+        "patterns": [
+          "tilt[- ]corrected|tilt\\s+correction|structural\\s+correction",
+          "corrected\\s+for\\s+(?:geological\\s+)?(?:bedding|dip)|restored\\s+to\\s+pala?eohorizontal"
+        ],
+        "exclude_patterns": ["(?:no|without|not).{0,25}(?:tilt|structural)\\s+correction"]
+      },
+      "base_confidence": 0.93,
+      "conflict_type": "NONE",
+      "provenance": {"origin": "expert_curated", "label_supervision": false}
+    },
+    {
+      "rule_id": "R5.RESCUE.UNDEFORMED_OR_NEGLIGIBLE_TILT",
+      "indicator": "R5",
+      "group": "structural_rescue",
+      "claim": {
+        "en": "The target is undeformed, untilted, or has negligible tilt since acquisition.",
+        "zh": "目标对象自磁化形成以来未变形、未倾斜或倾斜可忽略。"
+      },
+      "predicate": "structural_correction_unnecessary",
+      "effect": {"relation": "SUPPORT", "value": 1},
+      "evidence": {
+        "minimum_target_binding": 0.70,
+        "claim_scope": "same_sentence",
+        "require_target_in_claim": true,
+        "reference_sections_unknown": true,
+        "hit_subtypes": ["no_tilting", "paleohorizontal"],
+        "patterns": [
+          "\\bundeformed\\b|no\\s+(?:discernible|significant|appreciable)\\s+(?:tectonic\\s+)?(?:disturbance|deformation)",
+          "no\\s+(?:detectable|significant\\s+)?tilting\\s+(?:has\\s+)?(?:occurred|taken\\s+place)",
+          "(?:bedding|beds?|strata|layers?|formation|unit|rock\\s+body|intrusion|pluton|dyke|dike|sill).{0,55}(?:flat[- ]lying|sub[- ]?horizontal|nearly\\s+horizontal|gently\\s+dipping)",
+          "(?:flat[- ]lying|sub[- ]?horizontal|nearly\\s+horizontal|gently\\s+dipping).{0,55}(?:bedding|beds?|strata|layers?|formation|unit|rock\\s+body|intrusion|pluton|dyke|dike|sill)",
+          "(?:tilt|dip).{0,30}(?:less\\s+than|<)\\s*(?:[0-9](?:\\.[0-9]+)?|10)\\s*(?:degrees?|°)"
+        ],
+        "exclude_patterns": [
+          "(?:direction|axis|inclination|(?:palaeo|paleo)?pole).{0,55}(?:flat[- ]lying|sub[- ]?horizontal|nearly\\s+horizontal|gently\\s+dipping)",
+          "(?:flat[- ]lying|sub[- ]?horizontal|nearly\\s+horizontal|gently\\s+dipping).{0,55}(?:direction|axis|inclination|(?:palaeo|paleo)?pole)"
+        ]
+      },
+      "base_confidence": 0.88,
+      "conflict_type": "NONE",
+      "provenance": {"origin": "expert_curated", "label_supervision": false}
+    },
+    {
+      "rule_id": "R5.RESCUE.POSITIVE_FIELD_TEST",
+      "indicator": "R5",
+      "group": "structural_rescue",
+      "claim": {
+        "en": "A positive fold or contact test constrains the structural timing of magnetization.",
+        "zh": "正褶皱检验或正接触检验约束了磁化的构造时序。"
+      },
+      "predicate": "positive_structural_field_test",
+      "effect": {"relation": "SUPPORT", "value": 1},
+      "evidence": {
+        "minimum_target_binding": 0.70,
+        "claim_scope": "same_sentence",
+        "require_target_in_claim": true,
+        "reference_sections_unknown": true,
+        "hit_subtypes": ["field_test"],
+        "patterns": [
+          "positive\\s+(?:fold|contact|baked\\s+contact)\\s+test",
+          "fold\\s+test.{0,100}(?:positive|passed)"
+        ],
+        "exclude_patterns": ["(?:negative|failed|unsuccessful).{0,50}(?:fold|contact)\\s+test"]
+      },
+      "base_confidence": 0.94,
+      "conflict_type": "NONE",
+      "provenance": {"origin": "expert_curated", "label_supervision": false}
+    },
+    {
+      "rule_id": "R5.SUPPORT.RIGID_CRATON_SINCE_MAGNETIZATION",
+      "indicator": "R5",
+      "group": "cratonic_rigidity",
+      "claim": {
+        "en": "The target region remained a rigid part of the craton since magnetization acquisition.",
+        "zh": "目标区域自获得磁化以来一直是克拉通的刚性组成部分。"
+      },
+      "predicate": "region_rigidly_attached_to_craton_since_magnetization",
+      "effect": {"relation": "SUPPORT", "value": 1},
+      "temporal": {
+        "event": "cratonic_rigidity",
+        "relation": "SINCE",
+        "reference_event": "magnetization_acquisition"
+      },
+      "evidence": {
+        "minimum_target_binding": 0.70,
+        "claim_scope": "same_sentence",
+        "require_target_in_claim": true,
+        "reference_sections_unknown": true,
+        "required_claim_patterns": [
+          "(?:rigid\\s+part|rigidly\\s+attached|remained\\s+rigid|stable\\s+part)",
+          "(?:craton|cratonic\\s+block|stable\\s+cratonic\\s+region)",
+          "(?:since|at\\s+the\\s+time).{0,60}(?:remanence|magneti[sz]ation).{0,35}(?:acquired|acquisition|formed)|(?:remanence|magneti[sz]ation).{0,35}(?:acquired|acquisition|formed).{0,60}(?:since|at\\s+the\\s+time)"
+        ],
+        "patterns": [
+          "(?:rigid\\s+part|rigidly\\s+attached|remained\\s+rigid|stable\\s+part).{0,80}(?:craton|cratonic\\s+block|stable\\s+cratonic\\s+region).{0,100}(?:since|at\\s+the\\s+time).{0,60}(?:remanence|magneti[sz]ation).{0,35}(?:acquired|acquisition|formed)",
+          "(?:remanence|magneti[sz]ation).{0,35}(?:acquired|acquisition|formed).{0,80}(?:rigid\\s+part|rigidly\\s+attached|remained\\s+rigid|stable\\s+part).{0,80}(?:craton|cratonic\\s+block|stable\\s+cratonic\\s+region)"
+        ],
+        "exclude_patterns": [
+          "(?:not|never|cannot|could\\s+not).{0,35}(?:rigid\\s+part|rigidly\\s+attached|remained\\s+rigid)",
+          "(?:rigid\\s+part|rigidly\\s+attached|remained\\s+rigid).{0,35}(?:uncertain|unknown|not\\s+established)"
+        ]
+      },
+      "base_confidence": 0.97,
+      "conflict_type": "NONE",
+      "provenance": {
+        "origin": "published_revised_r5_criterion",
+        "criterion_section": "3.5 Structural control",
+        "label_supervision": false
+      }
+    },
+    {
+      "rule_id": "R5.EXCEPTION.FLATTENING_INTERCALATED_VOLCANIC",
+      "indicator": "R5",
+      "group": "flattening_volcanic_corroboration",
+      "claim": {
+        "en": "Intercalated volcanic rocks from the target corroborate the corrected inclination with a similar R-value.",
+        "zh": "目标中的夹层火山岩以相近的 R 值佐证了校正后的倾角。"
+      },
+      "predicate": "intercalated_volcanic_similar_r_value_corroborates_inclination",
+      "effect": {"relation": "SUPPORT", "value": 1},
+      "evidence": {
+        "minimum_target_binding": 0.78,
+        "claim_scope": "same_sentence",
+        "require_target_in_claim": true,
+        "reference_sections_unknown": true,
+        "required_claim_patterns": [
+          "intercalated.{0,25}(?:volcanic|lava)|(?:volcanic|lava).{0,25}intercalated",
+          "(?:similar|comparable|matching|same).{0,30}R[- ]?(?:value|parameter)|R[- ]?(?:value|parameter).{0,30}(?:similar|comparable|matching|same)"
+        ],
+        "patterns": [
+          "intercalated.{0,25}(?:volcanic|lava).{0,130}(?:similar|comparable|matching|same).{0,30}R[- ]?(?:value|parameter)",
+          "intercalated.{0,25}(?:volcanic|lava).{0,130}R[- ]?(?:value|parameter).{0,30}(?:similar|comparable|matching|same)",
+          "R[- ]?(?:value|parameter).{0,30}(?:similar|comparable|matching|same).{0,130}intercalated.{0,25}(?:volcanic|lava)"
+        ],
+        "exclude_patterns": [
+          "(?:dissimilar|different|non[- ]?matching).{0,30}R[- ]?(?:value|parameter)",
+          "R[- ]?(?:value|parameter).{0,30}(?:dissimilar|different|non[- ]?matching)"
+        ]
+      },
+      "base_confidence": 0.98,
+      "conflict_type": "NONE",
+      "provenance": {
+        "origin": "published_revised_r5_criterion_exception",
+        "criterion_section": "3.5 Structural control",
+        "label_supervision": false
+      }
+    },
+    {
+      "rule_id": "R5.EXCEPTION.FLATTENING_UNCORRECTED_SEDIMENTARY",
+      "indicator": "R5",
+      "group": "flattening_sedimentary_corroboration",
+      "claim": {
+        "en": "Other sedimentary rocks in the same target sequence corroborate the inclination without requiring flattening correction.",
+        "zh": "同一目标层序中的其他沉积岩在无需压扁校正的情况下佐证了该倾角。"
+      },
+      "predicate": "same_sequence_uncorrected_sedimentary_rocks_corroborate_inclination",
+      "effect": {"relation": "SUPPORT", "value": 1},
+      "evidence": {
+        "minimum_target_binding": 0.78,
+        "claim_scope": "same_sentence",
+        "require_target_in_claim": true,
+        "reference_sections_unknown": true,
+        "required_claim_patterns": [
+          "(?:other\\s+)?sedimentary\\s+rocks?",
+          "(?:same|within\\s+the\\s+same).{0,25}(?:sequence|succession|stratigraphic\\s+section)",
+          "(?:do|does|did)\\s+not\\s+require.{0,35}(?:flattening|inclination).{0,20}correction|without.{0,35}(?:flattening|inclination).{0,20}correction|no.{0,25}(?:flattening|inclination).{0,20}correction.{0,20}(?:was\\s+)?(?:required|needed)"
+        ],
+        "patterns": [
+          "(?:other\\s+)?sedimentary\\s+rocks?.{0,90}(?:same|within\\s+the\\s+same).{0,25}(?:sequence|succession|stratigraphic\\s+section).{0,130}(?:(?:do|does|did)\\s+not\\s+require|without|no).{0,40}(?:flattening|inclination).{0,20}correction",
+          "(?:same|within\\s+the\\s+same).{0,25}(?:sequence|succession|stratigraphic\\s+section).{0,100}(?:other\\s+)?sedimentary\\s+rocks?.{0,130}(?:(?:do|does|did)\\s+not\\s+require|without|no).{0,40}(?:flattening|inclination).{0,20}correction",
+          "(?:(?:do|does|did)\\s+not\\s+require|without|no).{0,40}(?:flattening|inclination).{0,20}correction.{0,130}(?:other\\s+)?sedimentary\\s+rocks?.{0,90}(?:same|within\\s+the\\s+same).{0,25}(?:sequence|succession|stratigraphic\\s+section)"
+        ],
+        "exclude_patterns": [
+          "(?:also|likewise).{0,25}(?:require|required|needed).{0,30}(?:flattening|inclination).{0,20}correction"
+        ]
+      },
+      "base_confidence": 0.98,
+      "conflict_type": "NONE",
+      "provenance": {
+        "origin": "published_revised_r5_criterion_exception",
+        "criterion_section": "3.5 Structural control",
+        "label_supervision": false
+      }
+    },
+    {
+      "rule_id": "R7.RISK.YOUNGER_POLE_MATCH",
+      "indicator": "R7",
+      "group": "younger_pole_risk",
+      "claim": {
+        "en": "The target pole agrees more closely with a demonstrably younger reference pole.",
+        "zh": "目标磁极与有明确证据的年轻参考磁极更为一致。"
+      },
+      "predicate": "target_pole_matches_younger_reference",
+      "effect": {"relation": "UNKNOWN", "value": null},
+      "temporal": {"event": "reference_pole_age", "relation": "AFTER", "reference_event": "target_formation_age"},
+      "evidence": {
+        "minimum_target_binding": 0.82,
+        "claim_scope": "same_sentence",
+        "require_target_in_claim": true,
+        "require_exact_target_in_claim": true,
+        "maximum_target_distance_chars": 180,
+        "reference_sections_unknown": true,
+        "required_claim_patterns": [
+          "\\b(?:palaeo|paleo)?pole\\b",
+          "\\b(?:younger|later)\\b",
+          "\\b(?:similar|overlap(?:s|ped|ping)?|coincid(?:e|es|ed|ent)|match(?:es|ed)?|resembl(?:e|es|ed)|agree(?:s|d)?|consistent)\\b"
+        ],
+        "patterns": [
+          "(?:palaeo|paleo)?pole.{0,160}(?:similar|overlap|coincid|match|resembl|agree|consistent).{0,100}(?:younger|later)",
+          "(?:younger|later).{0,100}(?:reference\\s+)?(?:palaeo|paleo)?pole.{0,160}(?:similar|overlap|coincid|match|resembl|agree|consistent)"
+        ],
+        "exclude_patterns": [
+          "(?:does|do|did)\\s+not.{0,20}(?:match|resemble|coincide|overlap|agree)",
+          "(?:fail(?:s|ed)?\\s+to|cannot|can\\s+not).{0,20}(?:match|resemble|coincide|overlap|agree)",
+          "\\b(?:distinct|different|inconsistent)\\b.{0,45}(?:from|than|with)?\\s*(?:a\\s+)?(?:younger|later)?",
+          "(?:younger|later).{0,80}\\b(?:distinct|different|inconsistent)\\b"
+        ]
+      },
+      "base_confidence": 0.95,
+      "conflict_type": "TEMPORAL_ORDER",
+      "provenance": {"origin": "expert_curated", "label_supervision": false}
+    },
+    {
+      "rule_id": "R7.FORMAL.COMPLETE_A95_NONOVERLAP",
+      "indicator": "R7",
+      "group": "formal_r7_decision",
+      "claim": {
+        "en": "A documented complete search of eligible R>=3 younger poles in the stable connected craton found no A95 overlap.",
+        "zh": "有记录的完整检索表明，在稳定相连克拉通内所有 R>=3 的合格年轻磁极均不与目标 A95 包络重叠。"
+      },
+      "predicate": "complete_qualified_younger_pole_search_has_no_a95_overlap",
+      "effect": {"relation": "SUPPORT", "value": 1},
+      "evidence": {
+        "minimum_target_binding": 0.86,
+        "claim_scope": "same_sentence",
+        "require_target_in_claim": true,
+        "reference_sections_unknown": true,
+        "required_claim_patterns": [
+          "(?:complete|exhaustive|all\\s+eligible)",
+          "R\\s*(?:>=|≥|at\\s+least)\\s*3",
+          "younger.{0,40}(?:palaeo|paleo)?poles?",
+          "stable.{0,50}connected.{0,50}craton|connected.{0,50}stable.{0,50}craton",
+          "A95",
+          "(?:no|none|without).{0,35}overlap|(?:disjoint|non[- ]overlap)"
+        ],
+        "patterns": [
+          "A95.{0,100}(?:(?:does|do|did)\\s+not|no|without).{0,30}overlap",
+          "(?:no|none).{0,45}A95.{0,35}overlap|A95.{0,80}(?:disjoint|non[- ]overlap)"
+        ]
+      },
+      "base_confidence": 0.99,
+      "conflict_type": "NONE",
+      "provenance": {
+        "origin": "published_revised_r7_criterion",
+        "criterion_section": "3.7 qualified younger-pole comparison",
+        "label_supervision": false
+      }
+    },
+    {
+      "rule_id": "R7.FORMAL.FIELD_OLDER_THAN_YOUNGER",
+      "indicator": "R7",
+      "group": "formal_r7_decision",
+      "claim": {
+        "en": "Target-bound field evidence constrains magnetization to predate the younger pole it resembles.",
+        "zh": "与目标绑定的野外证据将磁化年龄限定为早于所相似的年轻磁极。"
+      },
+      "predicate": "field_evidence_proves_magnetization_older_than_younger_pole",
+      "effect": {"relation": "SUPPORT", "value": 1},
+      "temporal": {
+        "event": "magnetization_acquisition",
+        "relation": "BEFORE",
+        "reference_event": "younger_reference_pole_age"
+      },
+      "evidence": {
+        "minimum_target_binding": 0.86,
+        "claim_scope": "same_sentence",
+        "require_target_in_claim": true,
+        "reference_sections_unknown": true,
+        "required_claim_patterns": [
+          "(?:fold|contact|baked\\s+contact|conglomerate|reversal)\\s+test|field\\s+evidence",
+          "(?:older\\s+than|predates?|before)",
+          "younger.{0,45}(?:palaeo|paleo)?poles?"
+        ],
+        "patterns": [
+          "(?:field\\s+evidence|(?:fold|contact|baked\\s+contact|conglomerate|reversal)\\s+test).{0,180}(?:older\\s+than|predates?|before).{0,100}younger.{0,45}(?:palaeo|paleo)?poles?",
+          "younger.{0,45}(?:palaeo|paleo)?poles?.{0,140}(?:older\\s+than|predates?|before).{0,160}(?:field\\s+evidence|(?:fold|contact|conglomerate|reversal)\\s+test)"
+        ]
+      },
+      "base_confidence": 0.99,
+      "conflict_type": "NONE",
+      "provenance": {
+        "origin": "published_revised_r7_criterion",
+        "criterion_section": "3.7 older-magnetization field-evidence exception",
+        "label_supervision": false
+      }
+    },
+    {
+      "rule_id": "R7.RISK.REMAGNETIZATION",
+      "indicator": "R7",
+      "group": "younger_overprint_risk",
+      "claim": {
+        "en": "The evaluated target component is explicitly interpreted as a younger remagnetization or secondary overprint.",
+        "zh": "待评价目标分量被明确解释为年轻重磁化或次生叠加。"
+      },
+      "predicate": "target_component_is_younger_overprint",
+      "effect": {"relation": "CONFLICT", "value": 0},
+      "evidence": {
+        "minimum_target_binding": 0.82,
+        "claim_scope": "same_sentence",
+        "require_target_in_claim": true,
+        "require_exact_target_in_claim": true,
+        "maximum_target_distance_chars": 180,
+        "reference_sections_unknown": true,
+      "required_claim_patterns": [
+        "(?:component|remanence|magneti[sz]ation|remagneti[sz](?:ation|ed)|overprint)",
+        "(?:(?:component|remanence|magneti[sz]ation|pole|direction|ChRM|LTC|HTC).{0,100}(?:is|are|was|were|interpreted\\s+as|represents?).{0,45}(?:younger|later|secondary|remagneti[sz])|(?:poles?|directions?).{0,100}resulting\\s+from.{0,60}remagneti[sz]|acquired.{0,45}(?:chemical|younger|later|secondary).{0,25}remagneti[sz])"
+        ],
+        "patterns": [
+          "(?:younger|later|secondary).{0,90}(?:remagneti[sz](?:ation|ed)|overprint|magneti[sz]ation\\s+component)",
+          "(?:remagneti[sz](?:ation|ed)|overprint).{0,90}(?:younger|later|secondary)",
+          "present[- ]day\\s+overprint"
+        ],
+      "exclude_patterns": [
+        "\\bno\\s+(?:detectable\\s+|discernible\\s+|significant\\s+)?(?:secondary\\s+)?(?:overprint|remagneti[sz]ation)\\b",
+        "(?:secondary|younger|later|present[- ]day).{0,55}(?:overprint|remagneti[sz](?:ation|ed)|component).{0,55}(?:removed|erased|demagneti[sz]ed|isolated\\s+away)",
+        "(?:removed|erased|demagneti[sz]ed|isolated\\s+away).{0,55}(?:secondary|younger|later|present[- ]day).{0,45}(?:overprint|remagneti[sz](?:ation|ed)|component)",
+        "(?:possib(?:le|ility)|may|might|could|cannot\\s+be\\s+decided|either).{0,100}(?:overprint|remagneti[sz])",
+        "(?:overprint|remagneti[sz]).{0,100}(?:possib(?:le|ility)|may|might|could|either)",
+        "(?:not|cannot|can\\s+not|excluding\\s+the\\s+possibility\\s+of).{0,65}(?:an?\\s+)?(?:overprint|remagneti[sz])",
+        "(?:preserved|protected).{0,65}from.{0,45}(?:later|secondary)?\\s*(?:overprint|remagneti[sz])",
+        "(?:we|the\\s+authors?)\\s+prefer.{0,100}(?:primary|original)"
+      ]
+      },
+      "base_confidence": 0.96,
+      "conflict_type": "TEMPORAL_ORDER",
+      "provenance": {"origin": "expert_curated", "label_supervision": false}
+    },
+    {
+      "rule_id": "R7.SUPPORT.YOUNGER_POLE_MISMATCH",
+      "indicator": "R7",
+      "group": "pole_age_support",
+      "claim": {
+        "en": "The target pole is explicitly distinguished from a demonstrably younger reference pole.",
+        "zh": "原文明示目标磁极与有明确年代依据的年轻参考磁极不匹配。"
+      },
+      "predicate": "target_pole_mismatches_younger_reference",
+      "effect": {"relation": "SUPPORT", "value": 1},
+      "temporal": {"event": "reference_pole_age", "relation": "AFTER", "reference_event": "target_formation_age"},
+      "evidence": {
+        "minimum_target_binding": 0.82,
+        "claim_scope": "same_sentence",
+        "require_target_in_claim": true,
+        "reference_sections_unknown": true,
+        "required_claim_patterns": [
+          "\\b(?:palaeo|paleo)?pole\\b",
+          "\\b(?:younger|later)\\b",
+          "(?:does|do|did)\\s+not|fail(?:s|ed)?\\s+to|cannot|can\\s+not|\\b(?:distinct|different|inconsistent)\\b"
+        ],
+        "patterns": [
+          "(?:palaeo|paleo)?pole.{0,100}(?:(?:does|do|did)\\s+not|fail(?:s|ed)?\\s+to|cannot|can\\s+not).{0,25}(?:match|resemble|coincide|overlap|agree).{0,100}(?:younger|later).{0,60}(?:palaeo|paleo)?pole",
+          "(?:palaeo|paleo)?pole.{0,100}(?:distinct|different|inconsistent).{0,40}(?:from|with|than).{0,80}(?:younger|later).{0,60}(?:palaeo|paleo)?pole",
+          "(?:younger|later).{0,60}(?:palaeo|paleo)?pole.{0,100}(?:(?:does|do|did)\\s+not|fail(?:s|ed)?\\s+to|cannot|can\\s+not).{0,25}(?:match|resemble|coincide|overlap|agree).{0,100}(?:palaeo|paleo)?pole"
+        ]
+      },
+      "base_confidence": 0.96,
+      "conflict_type": "NONE",
+      "provenance": {"origin": "expert_curated", "label_supervision": false}
+    },
+    {
+      "rule_id": "R7.SUPPORT.AGE_APPROPRIATE_APWP_MATCH",
+      "indicator": "R7",
+      "group": "pole_age_support",
+      "claim": {
+        "en": "The target pole agrees with an explicitly coeval or age-appropriate apparent polar-wander path.",
+        "zh": "目标磁极与原文明示为同期或年龄适配的视极移曲线一致。"
+      },
+      "predicate": "target_pole_matches_age_appropriate_apwp",
+      "effect": {"relation": "SUPPORT", "value": 1},
+      "temporal": {"event": "reference_path_age", "relation": "COEVAL", "reference_event": "target_formation_age"},
+      "evidence": {
+        "minimum_target_binding": 0.82,
+        "claim_scope": "same_sentence",
+        "require_target_in_claim": true,
+        "reference_sections_unknown": true,
+        "required_claim_patterns": [
+          "\\b(?:palaeo|paleo)?pole\\b",
+          "\\b(?:APWP|apparent\\s+polar\\s+wander\\s+path)\\b",
+          "\\b(?:coeval|contemporaneous|age[- ]appropriate|same[- ]age)\\b",
+          "\\b(?:match(?:es|ed)?|coincid(?:e|es|ed|ent)|agree(?:s|d)?|consistent|overlap(?:s|ped|ping)?)\\b"
+        ],
+        "patterns": [
+          "(?:palaeo|paleo)?pole.{0,120}(?:match|coincid|agree|consistent|overlap).{0,100}(?:coeval|contemporaneous|age[- ]appropriate|same[- ]age).{0,60}(?:APWP|apparent\\s+polar\\s+wander\\s+path)",
+          "(?:coeval|contemporaneous|age[- ]appropriate|same[- ]age).{0,60}(?:APWP|apparent\\s+polar\\s+wander\\s+path).{0,120}(?:match|coincid|agree|consistent|overlap).{0,100}(?:palaeo|paleo)?pole"
+        ],
+        "exclude_patterns": [
+          "(?:does|do|did)\\s+not.{0,20}(?:match|coincide|agree|overlap)",
+          "(?:fail(?:s|ed)?\\s+to|cannot|can\\s+not).{0,20}(?:match|coincide|agree|overlap)"
+        ]
+      },
+      "base_confidence": 0.96,
+      "conflict_type": "NONE",
+      "provenance": {"origin": "expert_curated", "label_supervision": false}
+    },
+    {
+      "rule_id": "R7.RESCUE.PRIMARY_MAGNETIZATION",
+      "indicator": "R7",
+      "group": "primary_rescue",
+      "claim": {
+        "en": "Independent source evidence identifies the target component as primary and coeval with formation or cooling.",
+        "zh": "独立原文证据表明目标分量为原生，并与形成或冷却同期。"
+      },
+      "predicate": "target_component_primary_and_coeval",
+      "effect": {"relation": "SUPPORT", "value": 1},
+      "evidence": {
+        "minimum_target_binding": 0.72,
+        "claim_scope": "same_sentence",
+        "require_target_in_claim": true,
+        "reference_sections_unknown": true,
+        "required_claim_patterns": [
+          "(?:magneti[sz]ation|remanence|TRM|DRM|component)",
+          "(?:primary|coeval|(?:during|at).{0,50}(?:emplacement|deposition|cooling))"
+        ],
+        "patterns": [
+          "primary\\s+(?:thermo)?remanent\\s+magneti[sz]ation|primary\\s+(?:TRM|DRM)",
+          "magneti[sz]ation.{0,100}(?:acquired|locked\\s+in).{0,60}(?:during|at).{0,50}(?:emplacement|deposition|cooling)",
+          "coeval.{0,80}(?:magneti[sz]ation|remanence)|(?:magneti[sz]ation|remanence).{0,80}coeval"
+        ],
+        "exclude_patterns": ["(?:not|unlikely).{0,30}primary"]
+      },
+      "base_confidence": 0.94,
+      "conflict_type": "NONE",
+      "provenance": {"origin": "expert_curated", "label_supervision": false}
+    },
+    {
+      "rule_id": "R7.RESCUE.PRIMARY_FIELD_TEST",
+      "indicator": "R7",
+      "group": "field_test_rescue",
+      "claim": {
+        "en": "A positive fold, contact, conglomerate, or reversal test supports a primary interpretation.",
+        "zh": "正褶皱、接触、砾石或倒转检验支持原生磁化解释。"
+      },
+      "predicate": "field_test_supports_primary_origin",
+      "effect": {"relation": "SUPPORT", "value": 1},
+      "evidence": {
+        "minimum_target_binding": 0.72,
+        "claim_scope": "same_sentence",
+        "require_target_in_claim": true,
+        "reference_sections_unknown": true,
+        "patterns": [
+          "positive\\s+(?:fold|contact|baked\\s+contact|conglomerate|reversal)\\s+test",
+          "(?:fold|contact|conglomerate|reversal)\\s+test.{0,100}(?:positive|passed)"
+        ],
+        "exclude_patterns": ["(?:negative|failed|unsuccessful).{0,50}(?:fold|contact|conglomerate|reversal)\\s+test"]
+      },
+      "base_confidence": 0.93,
+      "conflict_type": "NONE",
+      "provenance": {"origin": "expert_curated", "label_supervision": false}
+    }
+  ]
+}
