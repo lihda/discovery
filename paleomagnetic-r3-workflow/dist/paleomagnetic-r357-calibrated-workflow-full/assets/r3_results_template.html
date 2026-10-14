@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Indicator Results Visual Review</title>
+<style>
+  :root {
+    --ink:#1c1e1b; --muted:#5b5e5a; --line:#e3e4e0; --bg:#fcfcfb;
+    --accent:#3a6ea5; --green:#3f7d4e; --greenbg:#eef6f0; --quotebg:#f4f6f9;
+    --warn:#b5651d; --warnbg:#fbf2e8; --code:#f2f2ef; --bad:#b23b3b; --badbg:#fff0f0;
+  }
+  * { box-sizing:border-box; }
+  html { scroll-behavior:smooth; }
+  body {
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.62 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  }
+  .page { display:flex; gap:2.5em; max-width:1360px; margin:0 auto; padding:1.5em; }
+  .toc {
+    flex:0 0 290px; position:sticky; top:1em; max-height:calc(100vh - 2em); overflow:auto;
+    font-size:13.5px; border-right:1px solid var(--line); padding-right:1em;
+  }
+  .toc h2 { font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin:.2em 0 1em; }
+  .toc a { display:block; color:var(--muted); text-decoration:none; padding:.15em 0; }
+  .toc a.primary { color:var(--ink); font-weight:700; }
+  .toc a:hover { color:var(--accent); }
+  .toc .error-links { margin:.45em 0 1em; padding:.45em 0; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+  .toc .error-links a { color:var(--bad); font-weight:700; overflow-wrap:anywhere; }
+  .article { flex:1 1 auto; max-width:1000px; min-width:0; }
+  h1 { font-size:30px; line-height:1.2; margin:.1em 0 .1em; }
+  h2 { font-size:23px; margin:1.9em 0 .5em; padding-bottom:.2em; border-bottom:2px solid var(--line); scroll-margin-top:1em; }
+  h3 { font-size:18px; line-height:1.25; margin:0 0 .2em; color:#26302b; }
+  .subtitle, .muted, .meta { color:var(--muted); }
+  .subtitle { margin:0 0 1.5em; font-size:15px; }
+  code {
+    background:var(--code); padding:.08em .35em; border-radius:4px; font-size:.88em;
+    font-family:"SF Mono",ui-monospace,Menlo,Consolas,monospace;
+  }
+  blockquote {
+    margin:.7em 0; padding:.55em .9em; background:var(--quotebg);
+    border-left:3px solid var(--accent); border-radius:0 6px 6px 0; color:#2b3138; font-size:.95em;
+  }
+  .callout {
+    background:var(--greenbg); border:1px solid #cfe3d5; border-left:4px solid var(--green);
+    border-radius:0 8px 8px 0; padding:.8em 1em; margin:1em 0; font-size:.95em;
+  }
+  .kpi { display:flex; flex-wrap:wrap; gap:.8em; margin:1.1em 0; }
+  .kpi div { flex:1 1 140px; border:1px solid var(--line); border-radius:8px; padding:.7em .9em; background:#fff; }
+  .kpi b { display:block; font-size:24px; color:var(--accent); line-height:1.1; }
+  .kpi span { font-size:12.5px; color:var(--muted); }
+  .toolbar {
+    display:flex; gap:.6em; align-items:center; flex-wrap:wrap; margin:1em 0;
+    border:1px solid var(--line); border-radius:8px; padding:.75em; background:#fff;
+  }
+  .toolbar input, .toolbar select {
+    min-height:34px; border:1px solid var(--line); border-radius:6px; background:#fff;
+    padding:.35em .55em; font:inherit; font-size:14px;
+  }
+  .toolbar input { flex:1 1 260px; }
+  .toolbar .count { margin-left:auto; color:var(--muted); font-size:13px; }
+  .record {
+    border:1px solid var(--line); border-radius:8px; background:#fff; padding:1em 1.1em;
+    margin:.9em 0;
+  }
+  .record.mismatch { border-color:var(--bad); border-left:6px solid var(--bad); background:var(--badbg); }
+  .record[hidden] { display:none; }
+  .record-head { display:flex; gap:1em; align-items:flex-start; justify-content:space-between; }
+  .record-flags { display:flex; gap:.35em; justify-content:flex-end; flex-wrap:wrap; flex:0 0 auto; }
+  .meta { margin:.15em 0 0; font-size:13px; }
+  .summary { margin:.75em 0; color:#23261f; }
+  .score, .pill {
+    display:inline-flex; align-items:center; min-height:24px; border-radius:20px;
+    padding:.1em .7em; font-size:12px; font-weight:700;
+  }
+  .score-yes { background:#e8f3eb; color:var(--green); }
+  .score-no { background:#f8e8e8; color:var(--bad); }
+  .score-unknown { background:#f1f1ee; color:var(--muted); }
+  .pill.warn { background:var(--warnbg); color:var(--warn); }
+  .pill.bad { background:#f8e8e8; color:var(--bad); }
+  .pill.mismatch { background:#ffe1e1; color:var(--bad); border:1px solid #efb6b6; }
+  .evidence-row { display:flex; flex-wrap:wrap; gap:.45em; margin:.6em 0 .2em; }
+  .evidence-badge {
+    display:inline-flex; gap:.45em; align-items:center; border-radius:6px; padding:.25em .55em;
+    font-size:12.5px; border:1px solid var(--line);
+  }
+  .evidence-badge.ok { background:#eef6f0; color:#245b31; border-color:#cfe3d5; }
+  .evidence-badge.no { background:#fbeeee; color:#933131; border-color:#efc9c9; }
+  .evidence-badge.unknown { background:#f4f4f1; color:var(--muted); }
+  details { margin-top:.8em; }
+  details summary { cursor:pointer; color:var(--accent); font-weight:600; }
+  table { border-collapse:collapse; width:100%; margin:1em 0; font-size:14px; }
+  th,td { border:1px solid var(--line); padding:.5em .65em; text-align:left; vertical-align:top; }
+  th { background:#f3f4f1; font-weight:600; }
+  .meta-foot { color:var(--muted); font-size:13px; margin-top:2.5em; }
+  @media (max-width:900px) {
+    .page { display:block; }
+    .toc {
+      position:static; max-height:none; border-right:none; border-bottom:1px solid var(--line);
+      padding-right:0; padding-bottom:1em; margin-bottom:1.5em; flex-basis:auto;
+    }
+    .record-head { display:block; }
+    .record-flags { justify-content:flex-start; margin-top:.5em; }
+    .toolbar .count { margin-left:0; width:100%; }
+    code, .summary, .meta, blockquote { overflow-wrap:anywhere; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+<nav class="toc">
+  <h2>Contents</h2>
+  <a class="primary" href="#overview">1. 总览</a>
+  <a href="#distribution">1.1 指标分布</a>
+  <a href="#mismatches">1.2 错误结果</a>
+  <a class="primary" href="#records">2. 结果记录</a>
+  <div class="error-links" id="errorLinks"></div>
+</nav>
+<main class="article">
+  <h1 id="pageTitle">Indicator Results Visual Review</h1>
+  <p class="subtitle" id="subtitle"></p>
+
+  <h2 id="overview">1. 总览</h2>
+  <div class="callout">
+    <div class="kpi" id="kpi"></div>
+  </div>
+
+  <h2 id="distribution">1.1 指标分布</h2>
+  <table>
+    <thead>
+      <tr><th>Evidence condition</th><th>Satisfied rows</th><th>Share</th></tr>
+    </thead>
+    <tbody id="distributionRows"></tbody>
+  </table>
+
+  <h2 id="mismatches">1.2 错误结果</h2>
+  <table>
+    <thead>
+      <tr><th>REFNO</th><th>RESULTNO</th><th>Target</th><th>Predicted</th><th>Standard</th><th>Type</th></tr>
+    </thead>
+    <tbody id="mismatchRows"></tbody>
+  </table>
+
+  <h2 id="records">2. 结果记录</h2>
+  <div class="toolbar">
+    <input id="search" type="search" placeholder="搜索 REFNO / RESULTNO / TARGET / summary">
+    <select id="scoreFilter" aria-label="score filter">
+      <option value="all">All scores</option>
+      <option value="1">Score = 1</option>
+      <option value="0">Score = 0</option>
+      <option value="UNKNOWN">Unknown</option>
+    </select>
+    <select id="mismatchFilter" aria-label="mismatch filter">
+      <option value="all">All rows</option>
+      <option value="mismatch">Only mismatches</option>
+      <option value="correct">Only correct</option>
+    </select>
+    <span class="count" id="visibleCount">0 / 0 visible</span>
+  </div>
+  <div id="recordList"></div>
+  <p class="meta-foot" id="metaFoot"></p>
+</main>
+</div>
+
+<script id="r3-payload" type="application/json">__R3_RESULTS_PAYLOAD__</script>
+<script>
+(() => {
+  const payload = JSON.parse(document.getElementById("r3-payload").textContent);
+  const stats = payload.stats || {};
+  const rows = payload.rows || [];
+  const unlabelledMode = payload.standard_mode === "unlabelled_extension_rows";
+
+  const text = (value) => value == null ? "" : String(value);
+  const indicator = text(payload.indicator || payload.score_label || "R3");
+  const scoreLabel = text(payload.score_label || indicator);
+  const pct = (count, total) => total > 0 ? `${((count / total) * 100).toFixed(1)}%` : "0.0%";
+  const el = (tag, attrs = {}, children = []) => {
+    const node = document.createElement(tag);
+    for (const [key, value] of Object.entries(attrs)) {
+      if (key === "class") node.className = value;
+      else if (key === "text") node.textContent = text(value);
+      else if (key.startsWith("data-")) node.setAttribute(key, text(value));
+      else node.setAttribute(key, text(value));
+    }
+    for (const child of children) node.append(child);
+    return node;
+  };
+  const code = (value) => el("code", { text: value });
+
+  document.title = text(payload.title || `${indicator} Results Visual Review`);
+  document.getElementById("pageTitle").textContent = document.title;
+
+  const subtitle = document.getElementById("subtitle");
+  subtitle.textContent = "页面仅展示最终判定、判定条件与必要的原始证据摘录。";
+
+  const kpi = document.getElementById("kpi");
+  const total = stats.total || 0;
+  const yesCount = stats.score_yes ?? stats.r3_yes ?? 0;
+  const noCount = stats.score_no ?? stats.r3_no ?? 0;
+  const mismatchCount = stats.mismatches || 0;
+  [
+    [total, "total target rows"],
+    [yesCount, `${scoreLabel} = 1 (${pct(yesCount, total)})`],
+    [noCount, `${scoreLabel} = 0 (${pct(noCount, total)})`],
+    [mismatchCount, unlabelledMode ? "standard comparison not run" : `mismatches (${pct(mismatchCount, total)})`],
+  ].forEach(([value, label]) => {
+    kpi.append(el("div", {}, [el("b", { text: value }), el("span", { text: label })]));
+  });
+
+  const distributionRows = document.getElementById("distributionRows");
+  const conditionRows = Array.isArray(stats.conditions) && stats.conditions.length
+    ? stats.conditions.map((item) => [item.label || item.key, item.satisfied || 0, item.total || total])
+    : [
+        ["A. Carrier investigation", stats.a_yes || 0, total],
+        ["B. Carrier identity", stats.b_yes || 0, total],
+        ["C. Carrier significance", stats.c_yes || 0, total],
+      ];
+  conditionRows.forEach(([label, count, denominator]) => {
+    distributionRows.append(el("tr", {}, [
+      el("td", { text: label }),
+      el("td", { text: count }),
+      el("td", { text: pct(count, denominator || total) }),
+    ]));
+  });
+
+  const mismatches = rows.filter((row) => row.mismatch);
+  const mismatchRows = document.getElementById("mismatchRows");
+  if (mismatches.length) {
+    mismatches.forEach((row) => {
+      const anchor = `record-${rows.indexOf(row) + 1}`;
+      mismatchRows.append(el("tr", {}, [
+        el("td", {}, [el("a", { href: `#${anchor}`, text: row.refno })]),
+        el("td", {}, [el("a", { href: `#${anchor}`, text: row.resultno })]),
+        el("td", { text: row.target }),
+        el("td", { text: `${scoreLabel} = ${row.score || "UNKNOWN"}` }),
+        el("td", { text: `${scoreLabel} std = ${row.standard_score || "UNKNOWN"}` }),
+        el("td", { text: text(row.error_type || "mismatch").replaceAll("_", " ") }),
+      ]));
+    });
+  } else {
+    mismatchRows.append(el("tr", {}, [
+      el("td", { colspan: "6", text: unlabelledMode ? "No standard labels provided; accuracy and mismatch comparison were not run." : "No mismatches found against the standard workbook." }),
+    ]));
+  }
+
+  const errorLinks = document.getElementById("errorLinks");
+  if (mismatches.length) {
+    errorLinks.append(el("a", { class: "primary", href: "#mismatches", text: `错误结果 ${mismatches.length}` }));
+    mismatches.slice(0, 24).forEach((row) => {
+      const anchor = `record-${rows.indexOf(row) + 1}`;
+      errorLinks.append(el("a", { href: `#${anchor}`, text: `${row.refno}/${row.resultno}` }));
+    });
+    if (mismatches.length > 24) {
+      errorLinks.append(el("span", { class: "muted", text: `+ ${mismatches.length - 24} more` }));
+    }
+  } else {
+    errorLinks.append(el("span", { class: "muted", text: unlabelledMode ? "无标准比较" : "无错误结果" }));
+  }
+
+  function scoreClass(score) {
+    if (score === "1") return "score score-yes";
+    if (score === "0") return "score score-no";
+    return "score score-unknown";
+  }
+
+  function evidenceClass(satisfied) {
+    if (satisfied === true) return "evidence-badge ok";
+    if (satisfied === false) return "evidence-badge no";
+    return "evidence-badge unknown";
+  }
+
+  function evidenceBadge(key, evidence) {
+    return el("span", { class: evidenceClass(evidence?.satisfied) }, [
+      el("b", { text: key }),
+      document.createTextNode(text(evidence?.status || "UNKNOWN").replaceAll("_", " ")),
+    ]);
+  }
+
+  function quoteBlock(label, quote) {
+    const block = el("blockquote");
+    block.append(el("b", { text: `Evidence ${label}` }), document.createTextNode(`: ${quote}`));
+    return block;
+  }
+
+  function renderRecord(row, index) {
+    const searchable = [row.refno, row.resultno, row.target, row.score, row.outcome, row.summary].map(text).join(" ").toLowerCase();
+    const record = el("section", {
+      class: row.mismatch ? "record mismatch" : "record",
+      id: `record-${index + 1}`,
+      "data-score": row.score || "UNKNOWN",
+      "data-mismatch": row.mismatch ? "mismatch" : "correct",
+      "data-search": searchable,
+    });
+
+    const titleBlock = el("div", {}, [
+      el("h3", { text: row.target || "Untitled target" }),
+      el("p", { class: "meta" }, [
+        document.createTextNode("REFNO "),
+        code(row.refno),
+        document.createTextNode(" · RESULTNO "),
+        code(row.resultno),
+      ]),
+    ]);
+
+    const flags = el("div", { class: "record-flags" }, [
+      el("span", { class: scoreClass(row.score), text: `${scoreLabel} = ${row.score || "UNKNOWN"}` }),
+    ]);
+    if (row.outcome === "UNKNOWN") {
+      flags.append(el("span", { class: "score score-unknown", text: "UNKNOWN · source unavailable" }));
+    }
+    if (row.mismatch) {
+      flags.append(el("span", {
+        class: "pill mismatch",
+        text: `${text(row.error_type || "mismatch").replaceAll("_", " ")} · std ${row.standard_score || "UNKNOWN"}`,
+      }));
+    }
+
+    record.append(el("div", { class: "record-head" }, [titleBlock, flags]));
+    record.append(el("p", { class: "summary", text: row.summary }));
+
+    const evidenceRow = el("div", { class: "evidence-row" });
+    const conditions = Array.isArray(row.conditions) && row.conditions.length
+      ? row.conditions
+      : Object.entries(row.evidence || {}).map(([key, value]) => ({ key, ...value }));
+    conditions.forEach((condition) => evidenceRow.append(evidenceBadge(condition.label || condition.key, condition)));
+    record.append(evidenceRow);
+
+    const detail = el("details");
+    detail.append(el("summary", { text: "查看判定依据与证据摘录" }));
+    const quoteArea = el("div");
+    const quotes = conditions
+      .map((condition) => [condition.label || condition.key, condition.quote])
+      .filter(([, quote]) => quote);
+    if (quotes.length) {
+      quotes.forEach(([key, quote]) => quoteArea.append(quoteBlock(key, quote)));
+    } else {
+      quoteArea.append(el("p", { class: "muted", text: "没有可展示的简短原始证据摘录。" }));
+    }
+    detail.append(quoteArea);
+    record.append(detail);
+    return record;
+  }
+
+  const recordList = document.getElementById("recordList");
+  rows.forEach((row, index) => recordList.append(renderRecord(row, index)));
+
+  const search = document.getElementById("search");
+  const filter = document.getElementById("scoreFilter");
+  const mismatchFilter = document.getElementById("mismatchFilter");
+  mismatchFilter.hidden = unlabelledMode;
+  const count = document.getElementById("visibleCount");
+  const records = Array.from(document.querySelectorAll(".record"));
+  function applyFilters() {
+    const query = search.value.trim().toLowerCase();
+    const score = filter.value;
+    const mismatchMode = mismatchFilter.value;
+    let visible = 0;
+    for (const record of records) {
+      const matchesText = !query || record.dataset.search.includes(query);
+      const matchesScore = score === "all" || record.dataset.score === score;
+      const matchesMismatch = mismatchMode === "all" || record.dataset.mismatch === mismatchMode;
+      const show = matchesText && matchesScore && matchesMismatch;
+      record.hidden = !show;
+      if (show) visible += 1;
+    }
+    count.textContent = `${visible} / ${records.length} visible`;
+  }
+  search.addEventListener("input", applyFilters);
+  filter.addEventListener("change", applyFilters);
+  mismatchFilter.addEventListener("change", applyFilters);
+  applyFilters();
+
+  document.getElementById("metaFoot").textContent = `Generated ${text(payload.generated)}.`;
+})();
+</script>
+</body>
+</html>

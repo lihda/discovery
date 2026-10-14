@@ -1,0 +1,1441 @@
+{
+  "schema_version": "r3_deidentified_terminology_graph_v1",
+  "knowledge_version": "r3_rockmag_lexicon_v1",
+  "provenance": {
+    "phase": "offline_knowledge_induction",
+    "source_field": "PMAGRESULT.ROCKMAG",
+    "source_sha256": "3ff2c01ce08b01622aaee0531426fa50c5439b251cb8be0f78f83b6591b87a8c",
+    "columns_read": [
+      "ROCKMAG"
+    ],
+    "label_supervision": false,
+    "evaluation_results_used": false,
+    "record_identifiers_read": false,
+    "raw_values_retained": false
+  },
+  "runtime_policy": {
+    "scoring_may_read_source_workbook": false,
+    "scoring_uses_frozen_aggregate_only": true,
+    "contains_record_answer_mapping": false
+  },
+  "minimum_document_frequency": 2,
+  "counts": {
+    "nonempty_source_values": 4775,
+    "values_matching_known_concepts": 4704,
+    "coverage": 0.98513089,
+    "category_document_frequency": {
+      "carrier": 2175,
+      "diagnostic": 1522,
+      "method": 4521
+    }
+  },
+  "concepts": [
+    {
+      "concept_id": "thin_section_petrography",
+      "category": "method",
+      "document_frequency": 565,
+      "normalized_frequency": 0.11832461,
+      "search_patterns": [
+        "\\bTS\\b",
+        "thin\\s+sections?",
+        "petrograph(?:y|ic)"
+      ]
+    },
+    {
+      "concept_id": "optical_microscopy",
+      "category": "method",
+      "document_frequency": 1261,
+      "normalized_frequency": 0.26408377,
+      "search_patterns": [
+        "\\bOP\\b",
+        "optical\\s+microscop",
+        "reflected[- ]light"
+      ]
+    },
+    {
+      "concept_id": "electron_microscopy_microanalysis",
+      "category": "method",
+      "document_frequency": 91,
+      "normalized_frequency": 0.01905759,
+      "search_patterns": [
+        "\\bSEM\\b",
+        "\\bTEM\\b",
+        "\\bEDS\\b",
+        "\\bEPMA\\b",
+        "microprobe"
+      ]
+    },
+    {
+      "concept_id": "xray_diffraction",
+      "category": "method",
+      "document_frequency": 163,
+      "normalized_frequency": 0.03413613,
+      "search_patterns": [
+        "\\bX[- ]?RAY\\b",
+        "\\bXRD\\b",
+        "x[- ]ray\\s+diffraction"
+      ]
+    },
+    {
+      "concept_id": "chemical_analysis",
+      "category": "method",
+      "document_frequency": 115,
+      "normalized_frequency": 0.02408377,
+      "search_patterns": [
+        "\\bCHEM\\b",
+        "chemical\\s+analys"
+      ]
+    },
+    {
+      "concept_id": "irm_acquisition",
+      "category": "method",
+      "document_frequency": 1805,
+      "normalized_frequency": 0.37801047,
+      "search_patterns": [
+        "\\bS?IRM\\b",
+        "isothermal\\s+remanent\\s+magneti[sz]ation"
+      ]
+    },
+    {
+      "concept_id": "three_axis_thermal_demagnetization",
+      "category": "method",
+      "document_frequency": 330,
+      "normalized_frequency": 0.06910995,
+      "search_patterns": [
+        "3[- ]axis\\s+Jrs[- ]?T",
+        "three[- ]axis",
+        "\\bLowrie\\b"
+      ]
+    },
+    {
+      "concept_id": "thermomagnetic_curve",
+      "category": "method",
+      "document_frequency": 2023,
+      "normalized_frequency": 0.42366492,
+      "search_patterns": [
+        "\\bJ(?:s|rs)[- ]?T\\b",
+        "\\bSUSC[- ]?T\\b",
+        "\\bHcs[- ]?T\\b",
+        "thermo[- ]?magnetic",
+        "Curie\\s+(?:point|temperature)"
+      ]
+    },
+    {
+      "concept_id": "magnetic_susceptibility",
+      "category": "method",
+      "document_frequency": 937,
+      "normalized_frequency": 0.19623037,
+      "search_patterns": [
+        "\\bSUSC\\b",
+        "magnetic\\s+susceptibility"
+      ]
+    },
+    {
+      "concept_id": "hysteresis",
+      "category": "method",
+      "document_frequency": 477,
+      "normalized_frequency": 0.09989529,
+      "search_patterns": [
+        "\\bHYST\\b",
+        "hysteresis",
+        "\\bFORC\\b"
+      ]
+    },
+    {
+      "concept_id": "coercivity_measurement",
+      "category": "method",
+      "document_frequency": 242,
+      "normalized_frequency": 0.05068063,
+      "search_patterns": [
+        "\\bHc(?:r|s)?\\s*=",
+        "coerciv(?:e|ity)",
+        "back[- ]field"
+      ]
+    },
+    {
+      "concept_id": "magnetic_anisotropy",
+      "category": "method",
+      "document_frequency": 198,
+      "normalized_frequency": 0.04146597,
+      "search_patterns": [
+        "\\bAN\\b",
+        "anisotrop(?:y|ic)"
+      ]
+    },
+    {
+      "concept_id": "redeposition_test",
+      "category": "method",
+      "document_frequency": 58,
+      "normalized_frequency": 0.0121466,
+      "search_patterns": [
+        "\\bREDEP\\b",
+        "redeposition"
+      ]
+    },
+    {
+      "concept_id": "magnetite",
+      "category": "carrier",
+      "document_frequency": 1547,
+      "normalized_frequency": 0.32397906,
+      "search_patterns": [
+        "\\bMAGN\\b",
+        "\\bmagnetite\\b"
+      ]
+    },
+    {
+      "concept_id": "titanomagnetite",
+      "category": "carrier",
+      "document_frequency": 404,
+      "normalized_frequency": 0.08460733,
+      "search_patterns": [
+        "\\bTM\\b",
+        "titano[- ]?magnetite"
+      ]
+    },
+    {
+      "concept_id": "hematite",
+      "category": "carrier",
+      "document_frequency": 906,
+      "normalized_frequency": 0.18973822,
+      "search_patterns": [
+        "\\bHEM\\b",
+        "ha?ematite"
+      ]
+    },
+    {
+      "concept_id": "maghemite",
+      "category": "carrier",
+      "document_frequency": 79,
+      "normalized_frequency": 0.0165445,
+      "search_patterns": [
+        "\\bMAGH\\b",
+        "maghemite"
+      ]
+    },
+    {
+      "concept_id": "ilmenite",
+      "category": "carrier",
+      "document_frequency": 219,
+      "normalized_frequency": 0.04586387,
+      "search_patterns": [
+        "\\bILM\\b",
+        "ilmenite"
+      ]
+    },
+    {
+      "concept_id": "goethite",
+      "category": "carrier",
+      "document_frequency": 59,
+      "normalized_frequency": 0.01235602,
+      "search_patterns": [
+        "\\bGOETH\\b",
+        "goethite"
+      ]
+    },
+    {
+      "concept_id": "pyrrhotite",
+      "category": "carrier",
+      "document_frequency": 98,
+      "normalized_frequency": 0.02052356,
+      "search_patterns": [
+        "\\bPYRR\\b",
+        "pyrrhotite"
+      ]
+    },
+    {
+      "concept_id": "saturation_behavior",
+      "category": "diagnostic",
+      "document_frequency": 835,
+      "normalized_frequency": 0.17486911,
+      "search_patterns": [
+        "\\bno\\s+sat\\b",
+        "\\bsat\\.?\\s*[0-9]",
+        "saturat(?:e|ed|ion)"
+      ]
+    },
+    {
+      "concept_id": "curie_temperature",
+      "category": "diagnostic",
+      "document_frequency": 526,
+      "normalized_frequency": 0.11015707,
+      "search_patterns": [
+        "\\bCT\\s*[0-9]",
+        "Curie\\s+(?:point|temperature)"
+      ]
+    },
+    {
+      "concept_id": "domain_state",
+      "category": "diagnostic",
+      "document_frequency": 123,
+      "normalized_frequency": 0.02575916,
+      "search_patterns": [
+        "\\b(?:SD|PSD|MD)\\b",
+        "domain\\s+state"
+      ]
+    },
+    {
+      "concept_id": "koenigsberger_ratio",
+      "category": "diagnostic",
+      "document_frequency": 192,
+      "normalized_frequency": 0.04020942,
+      "search_patterns": [
+        "\\bQ\\s*=",
+        "K[oö]nigsberger"
+      ]
+    }
+  ],
+  "cooccurrence_edges": [
+    {
+      "source_concept": "magnetite",
+      "target_concept": "thermomagnetic_curve",
+      "cooccurrence_count": 965,
+      "normalized_frequency": 0.20209424
+    },
+    {
+      "source_concept": "irm_acquisition",
+      "target_concept": "saturation_behavior",
+      "cooccurrence_count": 833,
+      "normalized_frequency": 0.17445026
+    },
+    {
+      "source_concept": "irm_acquisition",
+      "target_concept": "thermomagnetic_curve",
+      "cooccurrence_count": 827,
+      "normalized_frequency": 0.17319372
+    },
+    {
+      "source_concept": "irm_acquisition",
+      "target_concept": "magnetite",
+      "cooccurrence_count": 691,
+      "normalized_frequency": 0.14471204
+    },
+    {
+      "source_concept": "magnetic_susceptibility",
+      "target_concept": "thermomagnetic_curve",
+      "cooccurrence_count": 680,
+      "normalized_frequency": 0.14240838
+    },
+    {
+      "source_concept": "magnetic_susceptibility",
+      "target_concept": "magnetite",
+      "cooccurrence_count": 529,
+      "normalized_frequency": 0.11078534
+    },
+    {
+      "source_concept": "hematite",
+      "target_concept": "magnetite",
+      "cooccurrence_count": 528,
+      "normalized_frequency": 0.11057592
+    },
+    {
+      "source_concept": "hematite",
+      "target_concept": "thermomagnetic_curve",
+      "cooccurrence_count": 526,
+      "normalized_frequency": 0.11015707
+    },
+    {
+      "source_concept": "curie_temperature",
+      "target_concept": "thermomagnetic_curve",
+      "cooccurrence_count": 518,
+      "normalized_frequency": 0.10848168
+    },
+    {
+      "source_concept": "magnetite",
+      "target_concept": "optical_microscopy",
+      "cooccurrence_count": 503,
+      "normalized_frequency": 0.10534031
+    },
+    {
+      "source_concept": "optical_microscopy",
+      "target_concept": "thermomagnetic_curve",
+      "cooccurrence_count": 448,
+      "normalized_frequency": 0.09382199
+    },
+    {
+      "source_concept": "hematite",
+      "target_concept": "irm_acquisition",
+      "cooccurrence_count": 418,
+      "normalized_frequency": 0.08753927
+    },
+    {
+      "source_concept": "irm_acquisition",
+      "target_concept": "magnetic_susceptibility",
+      "cooccurrence_count": 405,
+      "normalized_frequency": 0.08481675
+    },
+    {
+      "source_concept": "hysteresis",
+      "target_concept": "thermomagnetic_curve",
+      "cooccurrence_count": 382,
+      "normalized_frequency": 0.08
+    },
+    {
+      "source_concept": "hematite",
+      "target_concept": "optical_microscopy",
+      "cooccurrence_count": 371,
+      "normalized_frequency": 0.07769634
+    },
+    {
+      "source_concept": "hysteresis",
+      "target_concept": "magnetite",
+      "cooccurrence_count": 359,
+      "normalized_frequency": 0.07518325
+    },
+    {
+      "source_concept": "thermomagnetic_curve",
+      "target_concept": "three_axis_thermal_demagnetization",
+      "cooccurrence_count": 324,
+      "normalized_frequency": 0.0678534
+    },
+    {
+      "source_concept": "irm_acquisition",
+      "target_concept": "optical_microscopy",
+      "cooccurrence_count": 291,
+      "normalized_frequency": 0.06094241
+    },
+    {
+      "source_concept": "optical_microscopy",
+      "target_concept": "titanomagnetite",
+      "cooccurrence_count": 276,
+      "normalized_frequency": 0.05780105
+    },
+    {
+      "source_concept": "hysteresis",
+      "target_concept": "magnetic_susceptibility",
+      "cooccurrence_count": 265,
+      "normalized_frequency": 0.05549738
+    },
+    {
+      "source_concept": "hysteresis",
+      "target_concept": "irm_acquisition",
+      "cooccurrence_count": 249,
+      "normalized_frequency": 0.0521466
+    },
+    {
+      "source_concept": "thermomagnetic_curve",
+      "target_concept": "titanomagnetite",
+      "cooccurrence_count": 247,
+      "normalized_frequency": 0.05172775
+    },
+    {
+      "source_concept": "magnetite",
+      "target_concept": "three_axis_thermal_demagnetization",
+      "cooccurrence_count": 236,
+      "normalized_frequency": 0.04942408
+    },
+    {
+      "source_concept": "irm_acquisition",
+      "target_concept": "three_axis_thermal_demagnetization",
+      "cooccurrence_count": 232,
+      "normalized_frequency": 0.04858639
+    },
+    {
+      "source_concept": "hematite",
+      "target_concept": "magnetic_susceptibility",
+      "cooccurrence_count": 231,
+      "normalized_frequency": 0.04837696
+    },
+    {
+      "source_concept": "ilmenite",
+      "target_concept": "optical_microscopy",
+      "cooccurrence_count": 217,
+      "normalized_frequency": 0.04544503
+    },
+    {
+      "source_concept": "saturation_behavior",
+      "target_concept": "thermomagnetic_curve",
+      "cooccurrence_count": 200,
+      "normalized_frequency": 0.04188482
+    },
+    {
+      "source_concept": "hematite",
+      "target_concept": "three_axis_thermal_demagnetization",
+      "cooccurrence_count": 185,
+      "normalized_frequency": 0.03874346
+    },
+    {
+      "source_concept": "curie_temperature",
+      "target_concept": "optical_microscopy",
+      "cooccurrence_count": 182,
+      "normalized_frequency": 0.03811518
+    },
+    {
+      "source_concept": "curie_temperature",
+      "target_concept": "irm_acquisition",
+      "cooccurrence_count": 161,
+      "normalized_frequency": 0.03371728
+    },
+    {
+      "source_concept": "magnetic_susceptibility",
+      "target_concept": "optical_microscopy",
+      "cooccurrence_count": 159,
+      "normalized_frequency": 0.03329843
+    },
+    {
+      "source_concept": "magnetite",
+      "target_concept": "titanomagnetite",
+      "cooccurrence_count": 154,
+      "normalized_frequency": 0.03225131
+    },
+    {
+      "source_concept": "hematite",
+      "target_concept": "hysteresis",
+      "cooccurrence_count": 153,
+      "normalized_frequency": 0.03204188
+    },
+    {
+      "source_concept": "curie_temperature",
+      "target_concept": "saturation_behavior",
+      "cooccurrence_count": 146,
+      "normalized_frequency": 0.03057592
+    },
+    {
+      "source_concept": "optical_microscopy",
+      "target_concept": "saturation_behavior",
+      "cooccurrence_count": 139,
+      "normalized_frequency": 0.02910995
+    },
+    {
+      "source_concept": "ilmenite",
+      "target_concept": "magnetite",
+      "cooccurrence_count": 133,
+      "normalized_frequency": 0.0278534
+    },
+    {
+      "source_concept": "magnetic_susceptibility",
+      "target_concept": "titanomagnetite",
+      "cooccurrence_count": 119,
+      "normalized_frequency": 0.02492147
+    },
+    {
+      "source_concept": "domain_state",
+      "target_concept": "magnetite",
+      "cooccurrence_count": 112,
+      "normalized_frequency": 0.0234555
+    },
+    {
+      "source_concept": "irm_acquisition",
+      "target_concept": "titanomagnetite",
+      "cooccurrence_count": 104,
+      "normalized_frequency": 0.0217801
+    },
+    {
+      "source_concept": "magnetite",
+      "target_concept": "saturation_behavior",
+      "cooccurrence_count": 102,
+      "normalized_frequency": 0.02136126
+    },
+    {
+      "source_concept": "hysteresis",
+      "target_concept": "optical_microscopy",
+      "cooccurrence_count": 100,
+      "normalized_frequency": 0.02094241
+    },
+    {
+      "source_concept": "magnetic_susceptibility",
+      "target_concept": "three_axis_thermal_demagnetization",
+      "cooccurrence_count": 98,
+      "normalized_frequency": 0.02052356
+    },
+    {
+      "source_concept": "domain_state",
+      "target_concept": "thermomagnetic_curve",
+      "cooccurrence_count": 96,
+      "normalized_frequency": 0.02010471
+    },
+    {
+      "source_concept": "hematite",
+      "target_concept": "saturation_behavior",
+      "cooccurrence_count": 93,
+      "normalized_frequency": 0.01947644
+    },
+    {
+      "source_concept": "magnetic_susceptibility",
+      "target_concept": "saturation_behavior",
+      "cooccurrence_count": 93,
+      "normalized_frequency": 0.01947644
+    },
+    {
+      "source_concept": "ilmenite",
+      "target_concept": "titanomagnetite",
+      "cooccurrence_count": 91,
+      "normalized_frequency": 0.01905759
+    },
+    {
+      "source_concept": "domain_state",
+      "target_concept": "magnetic_susceptibility",
+      "cooccurrence_count": 88,
+      "normalized_frequency": 0.01842932
+    },
+    {
+      "source_concept": "curie_temperature",
+      "target_concept": "magnetite",
+      "cooccurrence_count": 87,
+      "normalized_frequency": 0.0182199
+    },
+    {
+      "source_concept": "ilmenite",
+      "target_concept": "thermomagnetic_curve",
+      "cooccurrence_count": 87,
+      "normalized_frequency": 0.0182199
+    },
+    {
+      "source_concept": "irm_acquisition",
+      "target_concept": "magnetic_anisotropy",
+      "cooccurrence_count": 86,
+      "normalized_frequency": 0.01801047
+    },
+    {
+      "source_concept": "curie_temperature",
+      "target_concept": "titanomagnetite",
+      "cooccurrence_count": 83,
+      "normalized_frequency": 0.0173822
+    },
+    {
+      "source_concept": "domain_state",
+      "target_concept": "hysteresis",
+      "cooccurrence_count": 77,
+      "normalized_frequency": 0.01612565
+    },
+    {
+      "source_concept": "magnetic_anisotropy",
+      "target_concept": "saturation_behavior",
+      "cooccurrence_count": 75,
+      "normalized_frequency": 0.01570681
+    },
+    {
+      "source_concept": "curie_temperature",
+      "target_concept": "magnetic_susceptibility",
+      "cooccurrence_count": 74,
+      "normalized_frequency": 0.01549738
+    },
+    {
+      "source_concept": "koenigsberger_ratio",
+      "target_concept": "optical_microscopy",
+      "cooccurrence_count": 72,
+      "normalized_frequency": 0.01507853
+    },
+    {
+      "source_concept": "magnetite",
+      "target_concept": "pyrrhotite",
+      "cooccurrence_count": 72,
+      "normalized_frequency": 0.01507853
+    },
+    {
+      "source_concept": "domain_state",
+      "target_concept": "irm_acquisition",
+      "cooccurrence_count": 71,
+      "normalized_frequency": 0.01486911
+    },
+    {
+      "source_concept": "thin_section_petrography",
+      "target_concept": "xray_diffraction",
+      "cooccurrence_count": 71,
+      "normalized_frequency": 0.01486911
+    },
+    {
+      "source_concept": "hematite",
+      "target_concept": "ilmenite",
+      "cooccurrence_count": 70,
+      "normalized_frequency": 0.01465969
+    },
+    {
+      "source_concept": "thermomagnetic_curve",
+      "target_concept": "xray_diffraction",
+      "cooccurrence_count": 68,
+      "normalized_frequency": 0.01424084
+    },
+    {
+      "source_concept": "magnetic_anisotropy",
+      "target_concept": "magnetic_susceptibility",
+      "cooccurrence_count": 67,
+      "normalized_frequency": 0.01403141
+    },
+    {
+      "source_concept": "curie_temperature",
+      "target_concept": "hematite",
+      "cooccurrence_count": 64,
+      "normalized_frequency": 0.01340314
+    },
+    {
+      "source_concept": "hematite",
+      "target_concept": "titanomagnetite",
+      "cooccurrence_count": 64,
+      "normalized_frequency": 0.01340314
+    },
+    {
+      "source_concept": "curie_temperature",
+      "target_concept": "ilmenite",
+      "cooccurrence_count": 63,
+      "normalized_frequency": 0.01319372
+    },
+    {
+      "source_concept": "electron_microscopy_microanalysis",
+      "target_concept": "magnetite",
+      "cooccurrence_count": 62,
+      "normalized_frequency": 0.01298429
+    },
+    {
+      "source_concept": "maghemite",
+      "target_concept": "magnetite",
+      "cooccurrence_count": 62,
+      "normalized_frequency": 0.01298429
+    },
+    {
+      "source_concept": "chemical_analysis",
+      "target_concept": "optical_microscopy",
+      "cooccurrence_count": 61,
+      "normalized_frequency": 0.01277487
+    },
+    {
+      "source_concept": "hysteresis",
+      "target_concept": "three_axis_thermal_demagnetization",
+      "cooccurrence_count": 60,
+      "normalized_frequency": 0.01256545
+    },
+    {
+      "source_concept": "hysteresis",
+      "target_concept": "titanomagnetite",
+      "cooccurrence_count": 60,
+      "normalized_frequency": 0.01256545
+    },
+    {
+      "source_concept": "thermomagnetic_curve",
+      "target_concept": "thin_section_petrography",
+      "cooccurrence_count": 59,
+      "normalized_frequency": 0.01235602
+    },
+    {
+      "source_concept": "pyrrhotite",
+      "target_concept": "thermomagnetic_curve",
+      "cooccurrence_count": 57,
+      "normalized_frequency": 0.01193717
+    },
+    {
+      "source_concept": "coercivity_measurement",
+      "target_concept": "koenigsberger_ratio",
+      "cooccurrence_count": 55,
+      "normalized_frequency": 0.01151832
+    },
+    {
+      "source_concept": "maghemite",
+      "target_concept": "thermomagnetic_curve",
+      "cooccurrence_count": 54,
+      "normalized_frequency": 0.0113089
+    },
+    {
+      "source_concept": "electron_microscopy_microanalysis",
+      "target_concept": "irm_acquisition",
+      "cooccurrence_count": 53,
+      "normalized_frequency": 0.01109948
+    },
+    {
+      "source_concept": "magnetic_anisotropy",
+      "target_concept": "thermomagnetic_curve",
+      "cooccurrence_count": 52,
+      "normalized_frequency": 0.01089005
+    },
+    {
+      "source_concept": "coercivity_measurement",
+      "target_concept": "optical_microscopy",
+      "cooccurrence_count": 50,
+      "normalized_frequency": 0.0104712
+    },
+    {
+      "source_concept": "electron_microscopy_microanalysis",
+      "target_concept": "thermomagnetic_curve",
+      "cooccurrence_count": 50,
+      "normalized_frequency": 0.0104712
+    },
+    {
+      "source_concept": "coercivity_measurement",
+      "target_concept": "thin_section_petrography",
+      "cooccurrence_count": 49,
+      "normalized_frequency": 0.01026178
+    },
+    {
+      "source_concept": "chemical_analysis",
+      "target_concept": "thin_section_petrography",
+      "cooccurrence_count": 43,
+      "normalized_frequency": 0.00900524
+    },
+    {
+      "source_concept": "irm_acquisition",
+      "target_concept": "pyrrhotite",
+      "cooccurrence_count": 42,
+      "normalized_frequency": 0.00879581
+    },
+    {
+      "source_concept": "optical_microscopy",
+      "target_concept": "pyrrhotite",
+      "cooccurrence_count": 42,
+      "normalized_frequency": 0.00879581
+    },
+    {
+      "source_concept": "ilmenite",
+      "target_concept": "irm_acquisition",
+      "cooccurrence_count": 41,
+      "normalized_frequency": 0.00858639
+    },
+    {
+      "source_concept": "irm_acquisition",
+      "target_concept": "xray_diffraction",
+      "cooccurrence_count": 41,
+      "normalized_frequency": 0.00858639
+    },
+    {
+      "source_concept": "koenigsberger_ratio",
+      "target_concept": "thin_section_petrography",
+      "cooccurrence_count": 40,
+      "normalized_frequency": 0.00837696
+    },
+    {
+      "source_concept": "optical_microscopy",
+      "target_concept": "thin_section_petrography",
+      "cooccurrence_count": 38,
+      "normalized_frequency": 0.00795812
+    },
+    {
+      "source_concept": "optical_microscopy",
+      "target_concept": "xray_diffraction",
+      "cooccurrence_count": 38,
+      "normalized_frequency": 0.00795812
+    },
+    {
+      "source_concept": "ilmenite",
+      "target_concept": "saturation_behavior",
+      "cooccurrence_count": 35,
+      "normalized_frequency": 0.00732984
+    },
+    {
+      "source_concept": "chemical_analysis",
+      "target_concept": "koenigsberger_ratio",
+      "cooccurrence_count": 34,
+      "normalized_frequency": 0.00712042
+    },
+    {
+      "source_concept": "electron_microscopy_microanalysis",
+      "target_concept": "hysteresis",
+      "cooccurrence_count": 34,
+      "normalized_frequency": 0.00712042
+    },
+    {
+      "source_concept": "goethite",
+      "target_concept": "optical_microscopy",
+      "cooccurrence_count": 34,
+      "normalized_frequency": 0.00712042
+    },
+    {
+      "source_concept": "optical_microscopy",
+      "target_concept": "three_axis_thermal_demagnetization",
+      "cooccurrence_count": 34,
+      "normalized_frequency": 0.00712042
+    },
+    {
+      "source_concept": "saturation_behavior",
+      "target_concept": "titanomagnetite",
+      "cooccurrence_count": 34,
+      "normalized_frequency": 0.00712042
+    },
+    {
+      "source_concept": "electron_microscopy_microanalysis",
+      "target_concept": "hematite",
+      "cooccurrence_count": 32,
+      "normalized_frequency": 0.00670157
+    },
+    {
+      "source_concept": "electron_microscopy_microanalysis",
+      "target_concept": "magnetic_susceptibility",
+      "cooccurrence_count": 32,
+      "normalized_frequency": 0.00670157
+    },
+    {
+      "source_concept": "maghemite",
+      "target_concept": "optical_microscopy",
+      "cooccurrence_count": 32,
+      "normalized_frequency": 0.00670157
+    },
+    {
+      "source_concept": "magnetic_anisotropy",
+      "target_concept": "optical_microscopy",
+      "cooccurrence_count": 32,
+      "normalized_frequency": 0.00670157
+    },
+    {
+      "source_concept": "goethite",
+      "target_concept": "hematite",
+      "cooccurrence_count": 29,
+      "normalized_frequency": 0.0060733
+    },
+    {
+      "source_concept": "goethite",
+      "target_concept": "magnetite",
+      "cooccurrence_count": 29,
+      "normalized_frequency": 0.0060733
+    },
+    {
+      "source_concept": "magnetic_anisotropy",
+      "target_concept": "magnetite",
+      "cooccurrence_count": 29,
+      "normalized_frequency": 0.0060733
+    },
+    {
+      "source_concept": "domain_state",
+      "target_concept": "optical_microscopy",
+      "cooccurrence_count": 28,
+      "normalized_frequency": 0.00586387
+    },
+    {
+      "source_concept": "domain_state",
+      "target_concept": "three_axis_thermal_demagnetization",
+      "cooccurrence_count": 28,
+      "normalized_frequency": 0.00586387
+    },
+    {
+      "source_concept": "magnetic_susceptibility",
+      "target_concept": "pyrrhotite",
+      "cooccurrence_count": 28,
+      "normalized_frequency": 0.00586387
+    },
+    {
+      "source_concept": "three_axis_thermal_demagnetization",
+      "target_concept": "titanomagnetite",
+      "cooccurrence_count": 28,
+      "normalized_frequency": 0.00586387
+    },
+    {
+      "source_concept": "curie_temperature",
+      "target_concept": "magnetic_anisotropy",
+      "cooccurrence_count": 27,
+      "normalized_frequency": 0.00565445
+    },
+    {
+      "source_concept": "goethite",
+      "target_concept": "irm_acquisition",
+      "cooccurrence_count": 27,
+      "normalized_frequency": 0.00565445
+    },
+    {
+      "source_concept": "koenigsberger_ratio",
+      "target_concept": "thermomagnetic_curve",
+      "cooccurrence_count": 27,
+      "normalized_frequency": 0.00565445
+    },
+    {
+      "source_concept": "redeposition_test",
+      "target_concept": "thin_section_petrography",
+      "cooccurrence_count": 27,
+      "normalized_frequency": 0.00565445
+    },
+    {
+      "source_concept": "maghemite",
+      "target_concept": "magnetic_susceptibility",
+      "cooccurrence_count": 26,
+      "normalized_frequency": 0.00544503
+    },
+    {
+      "source_concept": "irm_acquisition",
+      "target_concept": "maghemite",
+      "cooccurrence_count": 25,
+      "normalized_frequency": 0.0052356
+    },
+    {
+      "source_concept": "coercivity_measurement",
+      "target_concept": "xray_diffraction",
+      "cooccurrence_count": 24,
+      "normalized_frequency": 0.00502618
+    },
+    {
+      "source_concept": "hematite",
+      "target_concept": "maghemite",
+      "cooccurrence_count": 23,
+      "normalized_frequency": 0.00481675
+    },
+    {
+      "source_concept": "hematite",
+      "target_concept": "magnetic_anisotropy",
+      "cooccurrence_count": 22,
+      "normalized_frequency": 0.00460733
+    },
+    {
+      "source_concept": "chemical_analysis",
+      "target_concept": "coercivity_measurement",
+      "cooccurrence_count": 21,
+      "normalized_frequency": 0.00439791
+    },
+    {
+      "source_concept": "electron_microscopy_microanalysis",
+      "target_concept": "saturation_behavior",
+      "cooccurrence_count": 21,
+      "normalized_frequency": 0.00439791
+    },
+    {
+      "source_concept": "koenigsberger_ratio",
+      "target_concept": "xray_diffraction",
+      "cooccurrence_count": 21,
+      "normalized_frequency": 0.00439791
+    },
+    {
+      "source_concept": "chemical_analysis",
+      "target_concept": "hematite",
+      "cooccurrence_count": 20,
+      "normalized_frequency": 0.00418848
+    },
+    {
+      "source_concept": "electron_microscopy_microanalysis",
+      "target_concept": "three_axis_thermal_demagnetization",
+      "cooccurrence_count": 20,
+      "normalized_frequency": 0.00418848
+    },
+    {
+      "source_concept": "chemical_analysis",
+      "target_concept": "xray_diffraction",
+      "cooccurrence_count": 19,
+      "normalized_frequency": 0.00397906
+    },
+    {
+      "source_concept": "goethite",
+      "target_concept": "saturation_behavior",
+      "cooccurrence_count": 18,
+      "normalized_frequency": 0.00376963
+    },
+    {
+      "source_concept": "goethite",
+      "target_concept": "thermomagnetic_curve",
+      "cooccurrence_count": 18,
+      "normalized_frequency": 0.00376963
+    },
+    {
+      "source_concept": "ilmenite",
+      "target_concept": "magnetic_susceptibility",
+      "cooccurrence_count": 18,
+      "normalized_frequency": 0.00376963
+    },
+    {
+      "source_concept": "magnetite",
+      "target_concept": "xray_diffraction",
+      "cooccurrence_count": 18,
+      "normalized_frequency": 0.00376963
+    },
+    {
+      "source_concept": "domain_state",
+      "target_concept": "titanomagnetite",
+      "cooccurrence_count": 17,
+      "normalized_frequency": 0.00356021
+    },
+    {
+      "source_concept": "chemical_analysis",
+      "target_concept": "irm_acquisition",
+      "cooccurrence_count": 16,
+      "normalized_frequency": 0.00335079
+    },
+    {
+      "source_concept": "chemical_analysis",
+      "target_concept": "thermomagnetic_curve",
+      "cooccurrence_count": 16,
+      "normalized_frequency": 0.00335079
+    },
+    {
+      "source_concept": "coercivity_measurement",
+      "target_concept": "redeposition_test",
+      "cooccurrence_count": 16,
+      "normalized_frequency": 0.00335079
+    },
+    {
+      "source_concept": "curie_temperature",
+      "target_concept": "pyrrhotite",
+      "cooccurrence_count": 16,
+      "normalized_frequency": 0.00335079
+    },
+    {
+      "source_concept": "goethite",
+      "target_concept": "titanomagnetite",
+      "cooccurrence_count": 16,
+      "normalized_frequency": 0.00335079
+    },
+    {
+      "source_concept": "ilmenite",
+      "target_concept": "pyrrhotite",
+      "cooccurrence_count": 16,
+      "normalized_frequency": 0.00335079
+    },
+    {
+      "source_concept": "electron_microscopy_microanalysis",
+      "target_concept": "optical_microscopy",
+      "cooccurrence_count": 15,
+      "normalized_frequency": 0.00314136
+    },
+    {
+      "source_concept": "pyrrhotite",
+      "target_concept": "titanomagnetite",
+      "cooccurrence_count": 15,
+      "normalized_frequency": 0.00314136
+    },
+    {
+      "source_concept": "pyrrhotite",
+      "target_concept": "three_axis_thermal_demagnetization",
+      "cooccurrence_count": 14,
+      "normalized_frequency": 0.00293194
+    },
+    {
+      "source_concept": "saturation_behavior",
+      "target_concept": "three_axis_thermal_demagnetization",
+      "cooccurrence_count": 14,
+      "normalized_frequency": 0.00293194
+    },
+    {
+      "source_concept": "domain_state",
+      "target_concept": "hematite",
+      "cooccurrence_count": 13,
+      "normalized_frequency": 0.00272251
+    },
+    {
+      "source_concept": "hematite",
+      "target_concept": "pyrrhotite",
+      "cooccurrence_count": 13,
+      "normalized_frequency": 0.00272251
+    },
+    {
+      "source_concept": "hysteresis",
+      "target_concept": "xray_diffraction",
+      "cooccurrence_count": 13,
+      "normalized_frequency": 0.00272251
+    },
+    {
+      "source_concept": "irm_acquisition",
+      "target_concept": "thin_section_petrography",
+      "cooccurrence_count": 13,
+      "normalized_frequency": 0.00272251
+    },
+    {
+      "source_concept": "magnetic_susceptibility",
+      "target_concept": "xray_diffraction",
+      "cooccurrence_count": 12,
+      "normalized_frequency": 0.00251309
+    },
+    {
+      "source_concept": "hematite",
+      "target_concept": "thin_section_petrography",
+      "cooccurrence_count": 11,
+      "normalized_frequency": 0.00230366
+    },
+    {
+      "source_concept": "hematite",
+      "target_concept": "xray_diffraction",
+      "cooccurrence_count": 11,
+      "normalized_frequency": 0.00230366
+    },
+    {
+      "source_concept": "hysteresis",
+      "target_concept": "saturation_behavior",
+      "cooccurrence_count": 11,
+      "normalized_frequency": 0.00230366
+    },
+    {
+      "source_concept": "koenigsberger_ratio",
+      "target_concept": "redeposition_test",
+      "cooccurrence_count": 11,
+      "normalized_frequency": 0.00230366
+    },
+    {
+      "source_concept": "maghemite",
+      "target_concept": "three_axis_thermal_demagnetization",
+      "cooccurrence_count": 11,
+      "normalized_frequency": 0.00230366
+    },
+    {
+      "source_concept": "curie_temperature",
+      "target_concept": "maghemite",
+      "cooccurrence_count": 10,
+      "normalized_frequency": 0.00209424
+    },
+    {
+      "source_concept": "hysteresis",
+      "target_concept": "maghemite",
+      "cooccurrence_count": 10,
+      "normalized_frequency": 0.00209424
+    },
+    {
+      "source_concept": "maghemite",
+      "target_concept": "titanomagnetite",
+      "cooccurrence_count": 9,
+      "normalized_frequency": 0.00188482
+    },
+    {
+      "source_concept": "coercivity_measurement",
+      "target_concept": "thermomagnetic_curve",
+      "cooccurrence_count": 8,
+      "normalized_frequency": 0.00167539
+    },
+    {
+      "source_concept": "curie_temperature",
+      "target_concept": "hysteresis",
+      "cooccurrence_count": 8,
+      "normalized_frequency": 0.00167539
+    },
+    {
+      "source_concept": "domain_state",
+      "target_concept": "saturation_behavior",
+      "cooccurrence_count": 8,
+      "normalized_frequency": 0.00167539
+    },
+    {
+      "source_concept": "goethite",
+      "target_concept": "ilmenite",
+      "cooccurrence_count": 8,
+      "normalized_frequency": 0.00167539
+    },
+    {
+      "source_concept": "ilmenite",
+      "target_concept": "maghemite",
+      "cooccurrence_count": 8,
+      "normalized_frequency": 0.00167539
+    },
+    {
+      "source_concept": "magnetic_susceptibility",
+      "target_concept": "redeposition_test",
+      "cooccurrence_count": 8,
+      "normalized_frequency": 0.00167539
+    },
+    {
+      "source_concept": "titanomagnetite",
+      "target_concept": "xray_diffraction",
+      "cooccurrence_count": 8,
+      "normalized_frequency": 0.00167539
+    },
+    {
+      "source_concept": "curie_temperature",
+      "target_concept": "xray_diffraction",
+      "cooccurrence_count": 7,
+      "normalized_frequency": 0.00146597
+    },
+    {
+      "source_concept": "electron_microscopy_microanalysis",
+      "target_concept": "xray_diffraction",
+      "cooccurrence_count": 7,
+      "normalized_frequency": 0.00146597
+    },
+    {
+      "source_concept": "hysteresis",
+      "target_concept": "pyrrhotite",
+      "cooccurrence_count": 7,
+      "normalized_frequency": 0.00146597
+    },
+    {
+      "source_concept": "ilmenite",
+      "target_concept": "magnetic_anisotropy",
+      "cooccurrence_count": 7,
+      "normalized_frequency": 0.00146597
+    },
+    {
+      "source_concept": "ilmenite",
+      "target_concept": "xray_diffraction",
+      "cooccurrence_count": 7,
+      "normalized_frequency": 0.00146597
+    },
+    {
+      "source_concept": "saturation_behavior",
+      "target_concept": "xray_diffraction",
+      "cooccurrence_count": 7,
+      "normalized_frequency": 0.00146597
+    },
+    {
+      "source_concept": "coercivity_measurement",
+      "target_concept": "irm_acquisition",
+      "cooccurrence_count": 6,
+      "normalized_frequency": 0.00125654
+    },
+    {
+      "source_concept": "electron_microscopy_microanalysis",
+      "target_concept": "titanomagnetite",
+      "cooccurrence_count": 6,
+      "normalized_frequency": 0.00125654
+    },
+    {
+      "source_concept": "goethite",
+      "target_concept": "magnetic_susceptibility",
+      "cooccurrence_count": 6,
+      "normalized_frequency": 0.00125654
+    },
+    {
+      "source_concept": "goethite",
+      "target_concept": "three_axis_thermal_demagnetization",
+      "cooccurrence_count": 6,
+      "normalized_frequency": 0.00125654
+    },
+    {
+      "source_concept": "hysteresis",
+      "target_concept": "magnetic_anisotropy",
+      "cooccurrence_count": 6,
+      "normalized_frequency": 0.00125654
+    },
+    {
+      "source_concept": "irm_acquisition",
+      "target_concept": "koenigsberger_ratio",
+      "cooccurrence_count": 6,
+      "normalized_frequency": 0.00125654
+    },
+    {
+      "source_concept": "magnetite",
+      "target_concept": "thin_section_petrography",
+      "cooccurrence_count": 6,
+      "normalized_frequency": 0.00125654
+    },
+    {
+      "source_concept": "pyrrhotite",
+      "target_concept": "saturation_behavior",
+      "cooccurrence_count": 6,
+      "normalized_frequency": 0.00125654
+    },
+    {
+      "source_concept": "redeposition_test",
+      "target_concept": "xray_diffraction",
+      "cooccurrence_count": 6,
+      "normalized_frequency": 0.00125654
+    },
+    {
+      "source_concept": "three_axis_thermal_demagnetization",
+      "target_concept": "xray_diffraction",
+      "cooccurrence_count": 6,
+      "normalized_frequency": 0.00125654
+    },
+    {
+      "source_concept": "curie_temperature",
+      "target_concept": "electron_microscopy_microanalysis",
+      "cooccurrence_count": 5,
+      "normalized_frequency": 0.00104712
+    },
+    {
+      "source_concept": "curie_temperature",
+      "target_concept": "goethite",
+      "cooccurrence_count": 5,
+      "normalized_frequency": 0.00104712
+    },
+    {
+      "source_concept": "domain_state",
+      "target_concept": "electron_microscopy_microanalysis",
+      "cooccurrence_count": 5,
+      "normalized_frequency": 0.00104712
+    },
+    {
+      "source_concept": "irm_acquisition",
+      "target_concept": "redeposition_test",
+      "cooccurrence_count": 5,
+      "normalized_frequency": 0.00104712
+    },
+    {
+      "source_concept": "maghemite",
+      "target_concept": "saturation_behavior",
+      "cooccurrence_count": 5,
+      "normalized_frequency": 0.00104712
+    },
+    {
+      "source_concept": "magnetic_anisotropy",
+      "target_concept": "pyrrhotite",
+      "cooccurrence_count": 5,
+      "normalized_frequency": 0.00104712
+    },
+    {
+      "source_concept": "magnetic_anisotropy",
+      "target_concept": "titanomagnetite",
+      "cooccurrence_count": 5,
+      "normalized_frequency": 0.00104712
+    },
+    {
+      "source_concept": "curie_temperature",
+      "target_concept": "three_axis_thermal_demagnetization",
+      "cooccurrence_count": 4,
+      "normalized_frequency": 0.0008377
+    },
+    {
+      "source_concept": "magnetic_anisotropy",
+      "target_concept": "xray_diffraction",
+      "cooccurrence_count": 4,
+      "normalized_frequency": 0.0008377
+    },
+    {
+      "source_concept": "redeposition_test",
+      "target_concept": "thermomagnetic_curve",
+      "cooccurrence_count": 4,
+      "normalized_frequency": 0.0008377
+    },
+    {
+      "source_concept": "chemical_analysis",
+      "target_concept": "magnetic_susceptibility",
+      "cooccurrence_count": 3,
+      "normalized_frequency": 0.00062827
+    },
+    {
+      "source_concept": "curie_temperature",
+      "target_concept": "domain_state",
+      "cooccurrence_count": 3,
+      "normalized_frequency": 0.00062827
+    },
+    {
+      "source_concept": "domain_state",
+      "target_concept": "pyrrhotite",
+      "cooccurrence_count": 3,
+      "normalized_frequency": 0.00062827
+    },
+    {
+      "source_concept": "electron_microscopy_microanalysis",
+      "target_concept": "magnetic_anisotropy",
+      "cooccurrence_count": 3,
+      "normalized_frequency": 0.00062827
+    },
+    {
+      "source_concept": "electron_microscopy_microanalysis",
+      "target_concept": "pyrrhotite",
+      "cooccurrence_count": 3,
+      "normalized_frequency": 0.00062827
+    },
+    {
+      "source_concept": "goethite",
+      "target_concept": "hysteresis",
+      "cooccurrence_count": 3,
+      "normalized_frequency": 0.00062827
+    },
+    {
+      "source_concept": "hysteresis",
+      "target_concept": "ilmenite",
+      "cooccurrence_count": 3,
+      "normalized_frequency": 0.00062827
+    },
+    {
+      "source_concept": "optical_microscopy",
+      "target_concept": "redeposition_test",
+      "cooccurrence_count": 3,
+      "normalized_frequency": 0.00062827
+    },
+    {
+      "source_concept": "coercivity_measurement",
+      "target_concept": "hysteresis",
+      "cooccurrence_count": 2,
+      "normalized_frequency": 0.00041885
+    },
+    {
+      "source_concept": "electron_microscopy_microanalysis",
+      "target_concept": "maghemite",
+      "cooccurrence_count": 2,
+      "normalized_frequency": 0.00041885
+    },
+    {
+      "source_concept": "goethite",
+      "target_concept": "magnetic_anisotropy",
+      "cooccurrence_count": 2,
+      "normalized_frequency": 0.00041885
+    },
+    {
+      "source_concept": "goethite",
+      "target_concept": "xray_diffraction",
+      "cooccurrence_count": 2,
+      "normalized_frequency": 0.00041885
+    },
+    {
+      "source_concept": "maghemite",
+      "target_concept": "xray_diffraction",
+      "cooccurrence_count": 2,
+      "normalized_frequency": 0.00041885
+    }
+  ]
+}

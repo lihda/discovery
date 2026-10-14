@@ -1,0 +1,924 @@
+{
+  "schema_version": "2.0",
+  "spec_version": "r357_criterion_spec_v2",
+  "freeze_status": "frozen",
+  "title": {
+    "en": "Record-independent normative specification for paleomagnetic reliability criteria R3, R5, and R7",
+    "zh": "古地磁可靠性判据 R3、R5 与 R7 的记录无关规范"
+  },
+  "provenance": {
+    "origin": "expert_formalization_of_uploaded_criterion_text",
+    "label_supervision": false,
+    "contains_record_identifiers": false,
+    "contains_answer_mapping": false,
+    "runtime_record_lookup": false,
+    "derivation": {
+      "en": "The rules below are a frozen, human-auditable formalization of the uploaded criterion text. They were not induced from target records or evaluation outcomes.",
+      "zh": "以下规则是对用户上传判据原文的冻结、可人工审计形式化；其内容并非从目标记录或评测结果中归纳而来。"
+    }
+  },
+  "source_artifact": {
+    "artifact_id": "SRC.ATTACHMENT.CRITERIA_357",
+    "kind": "uploaded_original_criterion_excerpt",
+    "original_name": "pasted-text.txt",
+    "byte_size": 11793,
+    "sha256": "8433f968a4658118dc43a060114b8d2a6a0ca0cbf6ed82ee006d924d970b18e5"
+  },
+  "logic_language": {
+    "truth_values": ["true", "false", "unknown"],
+    "semantics": {
+      "en": "Expressions use three-valued logic. Missing or unbound documentary evidence remains unknown and is never converted to false merely because retrieval found no passage.",
+      "zh": "逻辑表达式采用三值逻辑。缺失或未与目标绑定的文献证据保持未知，不得仅因检索不到片段而转成假。"
+    },
+    "operators": {
+      "all": "logical conjunction",
+      "any": "logical disjunction",
+      "not": "logical negation",
+      "implies": "material implication under three-valued evaluation"
+    }
+  },
+  "source_propositions": [
+    {
+      "source_id": "SRC.R3.P1",
+      "criterion": "R3",
+      "artifact_ref": "SRC.ATTACHMENT.CRITERIA_357",
+      "kind": "normative",
+      "locator": {"section": "3.3", "paragraph": 1},
+      "statement": {
+        "en": "Modern studies should investigate magnetic carriers by rock-magnetic tests and/or petrography because carrier characterization bears on whether a remanence is primary or secondary.",
+        "zh": "现代研究应通过岩石磁学测试和/或岩相学研究载磁矿物，因为载体表征关系到剩磁属于原生还是次生。"
+      }
+    },
+    {
+      "source_id": "SRC.R3.P2",
+      "criterion": "R3",
+      "artifact_ref": "SRC.ATTACHMENT.CRITERIA_357",
+      "kind": "definition",
+      "locator": {"section": "3.3", "paragraph": 2},
+      "statement": {
+        "en": "Eligible carrier investigations include unblocking or coercivity spectra, IRM tests, temperature-susceptibility, three-axis and low-temperature IRM, hysteresis, Day plots, FORC, AMS, AIR, and AAR.",
+        "zh": "合格的载体研究包括解阻或矫顽力谱、IRM 测试、磁化率-温度分析、三轴和低温 IRM、磁滞、Day 图、FORC、AMS、AIR 与 AAR。"
+      }
+    },
+    {
+      "source_id": "SRC.R3.P3",
+      "criterion": "R3",
+      "artifact_ref": "SRC.ATTACHMENT.CRITERIA_357",
+      "kind": "definition",
+      "locator": {"section": "3.3", "paragraph": 3},
+      "statement": {
+        "en": "Eligible microscopic work includes reflected-light study of polished thin sections, scanning or transmission electron microscopy, and, for fine sediments, mineral separation for size and composition.",
+        "zh": "合格的显微研究包括抛光薄片反射光观察、扫描或透射电子显微镜，以及对细粒沉积物开展用于粒度和成分识别的矿物分离。"
+      }
+    },
+    {
+      "source_id": "SRC.R3.P4",
+      "criterion": "R3",
+      "artifact_ref": "SRC.ATTACHMENT.CRITERIA_357",
+      "kind": "rationale",
+      "locator": {"section": "3.3", "paragraph": 4},
+      "statement": {
+        "en": "Carrier significance is especially important where DRM inclination shallowing or a later CRM overprint can alter tectonic and age interpretations.",
+        "zh": "当 DRM 倾角变浅或较晚的 CRM 叠加可能改变构造和年代解释时，载体意义的讨论尤其重要。"
+      }
+    },
+    {
+      "source_id": "SRC.R3.P5",
+      "criterion": "R3",
+      "artifact_ref": "SRC.ATTACHMENT.CRITERIA_357",
+      "kind": "normative",
+      "locator": {"section": "3.3", "paragraph": 5},
+      "statement": {
+        "en": "R3 is met only by a reasonable attempt both to identify the magnetic carriers and to comment on their significance through petrography, micro-imaging, or rock-magnetic investigation.",
+        "zh": "R3 只有在通过岩相学、显微成像或岩石磁学研究合理尝试识别载磁矿物并同时评论其意义时才满足。"
+      }
+    },
+    {
+      "source_id": "SRC.R5.P1",
+      "criterion": "R5",
+      "artifact_ref": "SRC.ATTACHMENT.CRITERIA_357",
+      "kind": "normative",
+      "locator": {"section": "3.5", "paragraph": 1},
+      "statement": {
+        "en": "Allochthonous or parautochthonous terranes, non-stratified rocks, and internally vertical-axis-rotated regions fail R5; an intrusion younger than the last deformation may qualify, and otherwise the region must be presumed rigid since remanence acquisition.",
+        "zh": "外来或准原地地体、非层状岩石及发生内部垂直轴旋转的区域不满足 R5；晚于最后变形事件的侵入岩可作为例外，否则须推定该区域自剩磁获得以来一直是克拉通的刚性部分。"
+      }
+    },
+    {
+      "source_id": "SRC.R5.P2",
+      "criterion": "R5",
+      "artifact_ref": "SRC.ATTACHMENT.CRITERIA_357",
+      "kind": "normative",
+      "locator": {"section": "3.5", "paragraph": 2},
+      "statement": {
+        "en": "Precambrian craton scope must follow assembly history: a pole may represent the region to which it remained rigidly attached, and the present and paleogeographic bounds of that craton should be stated.",
+        "zh": "前寒武纪克拉通范围须结合拼合历史界定：磁极可代表其始终刚性连接的区域，并应说明该克拉通的现代和古地理边界。"
+      }
+    },
+    {
+      "source_id": "SRC.R5.P3",
+      "criterion": "R5",
+      "artifact_ref": "SRC.ATTACHMENT.CRITERIA_357",
+      "kind": "rationale",
+      "locator": {"section": "3.5", "paragraph": 3},
+      "statement": {
+        "en": "Detrital remanence in clastic sediments can be inclination-shallowed during deposition and compaction, motivating explicit treatment of flattening corrections.",
+        "zh": "碎屑沉积物中的碎屑剩磁可在沉积和压实期间发生倾角变浅，因此需要显式审查压扁校正。"
+      }
+    },
+    {
+      "source_id": "SRC.R5.P4",
+      "criterion": "R5",
+      "artifact_ref": "SRC.ATTACHMENT.CRITERIA_357",
+      "kind": "normative",
+      "locator": {"section": "3.5", "paragraph": 4},
+      "statement": {
+        "en": "A pole based on flattening correction fails R5 unless its inclination is independently corroborated by intercalated volcanic rocks with a similar R-value or by uncorrected sedimentary rocks in the same sequence.",
+        "zh": "基于压扁校正的磁极不满足 R5，除非其倾角得到独立佐证：层间火山岩具有相近 R 值，或同一层序中另有无需压扁校正的沉积岩数据。"
+      }
+    },
+    {
+      "source_id": "SRC.R7.P1",
+      "criterion": "R7",
+      "artifact_ref": "SRC.ATTACHMENT.CRITERIA_357",
+      "kind": "definition",
+      "locator": {"section": "3.7", "paragraph": 1},
+      "statement": {
+        "en": "R7 concerns resemblance to a younger paleopole separated by more than one geological period and the risk that such resemblance records remagnetization.",
+        "zh": "R7 关注与年轻超过一个地质纪的古地磁极相似以及这种相似可能代表重磁化的风险。"
+      }
+    },
+    {
+      "source_id": "SRC.R7.P2",
+      "criterion": "R7",
+      "artifact_ref": "SRC.ATTACHMENT.CRITERIA_357",
+      "kind": "rationale",
+      "locator": {"section": "3.7", "paragraph": 2},
+      "statement": {
+        "en": "An alarm-band analysis found many Precambrian poles clustered near a younger APWP and treated those clusters as suspicious for remagnetization.",
+        "zh": "警戒带分析发现许多前寒武纪磁极成簇靠近较年轻的 APWP，并将这些簇视为可疑重磁化。"
+      }
+    },
+    {
+      "source_id": "SRC.R7.P3",
+      "criterion": "R7",
+      "artifact_ref": "SRC.ATTACHMENT.CRITERIA_357",
+      "kind": "rationale",
+      "locator": {"section": "3.7", "paragraph": 3},
+      "statement": {
+        "en": "Synthetic APWPs show that path self-intersection is common over long intervals, so resemblance alone is not conclusive evidence of remagnetization.",
+        "zh": "合成 APWP 表明路径在长时间尺度上自相交很常见，因此仅有相似性并不能确证重磁化。"
+      }
+    },
+    {
+      "source_id": "SRC.R7.P4",
+      "criterion": "R7",
+      "artifact_ref": "SRC.ATTACHMENT.CRITERIA_357",
+      "kind": "rationale",
+      "locator": {"section": "3.7", "paragraph": 4},
+      "statement": {
+        "en": "The source authors disagreed between retaining a conservative resemblance test and abolishing the criterion.",
+        "zh": "原文作者在保留保守的相似性检验和取消该判据之间存在分歧。"
+      }
+    },
+    {
+      "source_id": "SRC.R7.P5",
+      "criterion": "R7",
+      "artifact_ref": "SRC.ATTACHMENT.CRITERIA_357",
+      "kind": "rationale",
+      "locator": {"section": "3.7", "paragraph": 5},
+      "statement": {
+        "en": "Any operational resemblance test must define similarity, the reliability required of a younger comparator, and the geographic comparison boundary.",
+        "zh": "任何可执行的相似性检验都必须界定相似、年轻对比磁极所需的可靠性以及地理比较边界。"
+      }
+    },
+    {
+      "source_id": "SRC.R7.P6",
+      "criterion": "R7",
+      "artifact_ref": "SRC.ATTACHMENT.CRITERIA_357",
+      "kind": "normative",
+      "locator": {"section": "3.7", "paragraph": 6},
+      "statement": {
+        "en": "Field tests that constrain magnetization to be older than a resembling younger pole rescue the candidate and make it meet R7.",
+        "zh": "若野外检验将磁化年龄限定为早于所相似的年轻磁极，则该证据可救援候选磁极并使其满足 R7。"
+      }
+    },
+    {
+      "source_id": "SRC.R7.P7",
+      "criterion": "R7",
+      "artifact_ref": "SRC.ATTACHMENT.CRITERIA_357",
+      "kind": "rationale",
+      "locator": {"section": "3.7", "paragraph": 7},
+      "statement": {
+        "en": "A younger-path comparison requires a sufficiently defined APWP and knowledge of when the craton became coherent.",
+        "zh": "与年轻路径进行比较需要足够明确的 APWP，并需要了解克拉通何时形成稳定整体。"
+      }
+    },
+    {
+      "source_id": "SRC.R7.P8",
+      "criterion": "R7",
+      "artifact_ref": "SRC.ATTACHMENT.CRITERIA_357",
+      "kind": "normative",
+      "locator": {"section": "3.7", "paragraph": 8},
+      "statement": {
+        "en": "Under the conservative operational rule, overlapping A95 envelopes with a younger pole of R at least 3 cause R7 to fail.",
+        "zh": "按照保守的可执行规则，若 A95 置信包络与 R 不低于 3 的年轻磁极重叠，则 R7 不满足。"
+      }
+    },
+    {
+      "source_id": "SRC.R7.P9",
+      "criterion": "R7",
+      "artifact_ref": "SRC.ATTACHMENT.CRITERIA_357",
+      "kind": "normative",
+      "locator": {"section": "3.7", "paragraph": 9},
+      "statement": {
+        "en": "Younger comparators must come from stable regions within the connected craton; poles from orogenic belts are excluded because they lack a unique position.",
+        "zh": "年轻对比磁极必须来自相连克拉通内的稳定区域；造山带磁极因不具唯一位置而应排除。"
+      }
+    },
+    {
+      "source_id": "SRC.R7.P10",
+      "criterion": "R7",
+      "artifact_ref": "SRC.ATTACHMENT.CRITERIA_357",
+      "kind": "rationale",
+      "locator": {"section": "3.7", "paragraph": 10},
+      "statement": {
+        "en": "Because remagnetization has no perfect test, the source adopts a conservative presumption until positive evidence resolves the suspicion.",
+        "zh": "由于重磁化没有完美检验方法，原文采用保守推定，直至正面证据能够消除疑点。"
+      }
+    }
+  ],
+  "criteria": {
+    "R3": {
+      "title": {
+        "en": "Characterization of magnetic mineralogy and rock magnetism",
+        "zh": "磁性矿物学与岩石磁学表征"
+      },
+      "source_refs": ["SRC.R3.P1", "SRC.R3.P2", "SRC.R3.P3", "SRC.R3.P4", "SRC.R3.P5"],
+      "propositions": [
+        {
+          "proposition_id": "R3.P.METHOD.UNBLOCKING_COERCIVITY",
+          "value_type": "boolean",
+          "statement": {
+            "en": "Unblocking-temperature or coercivity spectra were evaluated as evidence about magnetic carriers.",
+            "zh": "对解阻温度谱或矫顽力谱进行了分析，并将其用于判断载磁矿物。"
+          },
+          "source_refs": ["SRC.R3.P2"]
+        },
+        {
+          "proposition_id": "R3.P.METHOD.IRM",
+          "value_type": "boolean",
+          "statement": {
+            "en": "Isothermal remanent magnetization tests were used to investigate magnetic carriers.",
+            "zh": "采用等温剩磁测试研究载磁矿物。"
+          },
+          "source_refs": ["SRC.R3.P2"]
+        },
+        {
+          "proposition_id": "R3.P.METHOD.TEMPERATURE_SUSCEPTIBILITY",
+          "value_type": "boolean",
+          "statement": {
+            "en": "Temperature-dependent magnetic susceptibility was analyzed for carrier characterization.",
+            "zh": "采用随温度变化的磁化率分析表征载磁矿物。"
+          },
+          "source_refs": ["SRC.R3.P2"]
+        },
+        {
+          "proposition_id": "R3.P.METHOD.THREE_AXIS_IRM",
+          "value_type": "boolean",
+          "statement": {
+            "en": "Three-axis IRM analysis was performed for carrier characterization.",
+            "zh": "采用三轴 IRM 分析表征载磁矿物。"
+          },
+          "source_refs": ["SRC.R3.P2"]
+        },
+        {
+          "proposition_id": "R3.P.METHOD.LOW_TEMPERATURE_IRM",
+          "value_type": "boolean",
+          "statement": {
+            "en": "Low-temperature treatment of IRM was performed for carrier characterization.",
+            "zh": "采用 IRM 低温处理表征载磁矿物。"
+          },
+          "source_refs": ["SRC.R3.P2"]
+        },
+        {
+          "proposition_id": "R3.P.METHOD.HYSTERESIS",
+          "value_type": "boolean",
+          "statement": {
+            "en": "Magnetic hysteresis properties were evaluated for carrier domain state or size.",
+            "zh": "通过磁滞性质评估载体的磁畴状态或尺度。"
+          },
+          "source_refs": ["SRC.R3.P2"]
+        },
+        {
+          "proposition_id": "R3.P.METHOD.DAY_PLOT",
+          "value_type": "boolean",
+          "statement": {
+            "en": "A Day plot was used to evaluate magnetic carrier domain state.",
+            "zh": "采用 Day 图评估载磁矿物的磁畴状态。"
+          },
+          "source_refs": ["SRC.R3.P2"]
+        },
+        {
+          "proposition_id": "R3.P.METHOD.FORC",
+          "value_type": "boolean",
+          "statement": {
+            "en": "First-order reversal curves were used to evaluate magnetic carriers.",
+            "zh": "采用一阶反转曲线评估载磁矿物。"
+          },
+          "source_refs": ["SRC.R3.P2"]
+        },
+        {
+          "proposition_id": "R3.P.METHOD.AMS",
+          "value_type": "boolean",
+          "statement": {
+            "en": "Anisotropy of magnetic susceptibility was used to evaluate carriers or deformation.",
+            "zh": "采用磁化率各向异性评估载磁矿物或变形。"
+          },
+          "source_refs": ["SRC.R3.P2"]
+        },
+        {
+          "proposition_id": "R3.P.METHOD.AIR",
+          "value_type": "boolean",
+          "statement": {
+            "en": "Anisotropy of isothermal remanence was used to evaluate carriers or deformation.",
+            "zh": "采用等温剩磁各向异性评估载磁矿物或变形。"
+          },
+          "source_refs": ["SRC.R3.P2"]
+        },
+        {
+          "proposition_id": "R3.P.METHOD.AAR",
+          "value_type": "boolean",
+          "statement": {
+            "en": "Anisotropy of anhysteretic remanence was used to evaluate carriers or deformation.",
+            "zh": "采用非滞后剩磁各向异性评估载磁矿物或变形。"
+          },
+          "source_refs": ["SRC.R3.P2"]
+        },
+        {
+          "proposition_id": "R3.P.METHOD.REFLECTED_LIGHT",
+          "value_type": "boolean",
+          "statement": {
+            "en": "Polished thin sections were examined under reflected light to investigate possible carriers or alteration.",
+            "zh": "通过反射光观察抛光薄片，以研究可能的载磁矿物或蚀变。"
+          },
+          "source_refs": ["SRC.R3.P3"]
+        },
+        {
+          "proposition_id": "R3.P.METHOD.SEM",
+          "value_type": "boolean",
+          "statement": {
+            "en": "Scanning electron microscopy was used to investigate possible carriers or alteration.",
+            "zh": "采用扫描电子显微镜研究可能的载磁矿物或蚀变。"
+          },
+          "source_refs": ["SRC.R3.P3"]
+        },
+        {
+          "proposition_id": "R3.P.METHOD.TEM",
+          "value_type": "boolean",
+          "statement": {
+            "en": "Transmission electron microscopy was used to investigate possible carriers or alteration.",
+            "zh": "采用透射电子显微镜研究可能的载磁矿物或蚀变。"
+          },
+          "source_refs": ["SRC.R3.P3"]
+        },
+        {
+          "proposition_id": "R3.P.METHOD.MINERAL_SEPARATION",
+          "value_type": "boolean",
+          "statement": {
+            "en": "Mineral separation was used in fine-grained sediment to determine carrier size or composition.",
+            "zh": "对细粒沉积物采用矿物分离，以确定载体粒度或成分。"
+          },
+          "source_refs": ["SRC.R3.P3"]
+        },
+        {
+          "proposition_id": "R3.P.CARRIER.IDENTIFIED",
+          "value_type": "boolean",
+          "statement": {
+            "en": "The study identifies a magnetic carrier or carrier family for the evaluated remanence.",
+            "zh": "研究为被评估的剩磁识别出载磁矿物或载体族。"
+          },
+          "source_refs": ["SRC.R3.P1", "SRC.R3.P5"]
+        },
+        {
+          "proposition_id": "R3.P.CARRIER.REASONABLE_INCONCLUSIVE_ATTEMPT",
+          "value_type": "boolean",
+          "statement": {
+            "en": "A carrier-focused eligible investigation was reasonably attempted and its inconclusive identification outcome was explicitly reported.",
+            "zh": "研究合理实施了面向载体的合格方法，并明确报告了未能确定载体的结果。"
+          },
+          "source_refs": ["SRC.R3.P5"]
+        },
+        {
+          "proposition_id": "R3.P.CARRIER.SIGNIFICANCE_COMMENTED",
+          "value_type": "boolean",
+          "statement": {
+            "en": "The carrier evidence is interpreted for remanence origin, primary-secondary status, alteration, inclination shallowing, overprinting, or the resulting tectonic significance.",
+            "zh": "研究解释了载体证据对剩磁成因、原生/次生属性、蚀变、倾角变浅、叠加或相应构造意义的影响。"
+          },
+          "source_refs": ["SRC.R3.P1", "SRC.R3.P4", "SRC.R3.P5"]
+        }
+      ],
+      "eligible_methods": [
+        "R3.P.METHOD.UNBLOCKING_COERCIVITY",
+        "R3.P.METHOD.IRM",
+        "R3.P.METHOD.TEMPERATURE_SUSCEPTIBILITY",
+        "R3.P.METHOD.THREE_AXIS_IRM",
+        "R3.P.METHOD.LOW_TEMPERATURE_IRM",
+        "R3.P.METHOD.HYSTERESIS",
+        "R3.P.METHOD.DAY_PLOT",
+        "R3.P.METHOD.FORC",
+        "R3.P.METHOD.AMS",
+        "R3.P.METHOD.AIR",
+        "R3.P.METHOD.AAR",
+        "R3.P.METHOD.REFLECTED_LIGHT",
+        "R3.P.METHOD.SEM",
+        "R3.P.METHOD.TEM",
+        "R3.P.METHOD.MINERAL_SEPARATION"
+      ],
+      "required_groups": [
+        {
+          "group_id": "R3.G.ELIGIBLE_METHOD",
+          "role": "support_requirement",
+          "statement": {
+            "en": "At least one source-authorized carrier investigation must be applied to the target material.",
+            "zh": "目标材料至少须采用一种原文认可的载体研究方法。"
+          },
+          "source_refs": ["SRC.R3.P2", "SRC.R3.P3", "SRC.R3.P5"],
+          "expression": {
+            "op": "any",
+            "args": [
+              "R3.P.METHOD.UNBLOCKING_COERCIVITY",
+              "R3.P.METHOD.IRM",
+              "R3.P.METHOD.TEMPERATURE_SUSCEPTIBILITY",
+              "R3.P.METHOD.THREE_AXIS_IRM",
+              "R3.P.METHOD.LOW_TEMPERATURE_IRM",
+              "R3.P.METHOD.HYSTERESIS",
+              "R3.P.METHOD.DAY_PLOT",
+              "R3.P.METHOD.FORC",
+              "R3.P.METHOD.AMS",
+              "R3.P.METHOD.AIR",
+              "R3.P.METHOD.AAR",
+              "R3.P.METHOD.REFLECTED_LIGHT",
+              "R3.P.METHOD.SEM",
+              "R3.P.METHOD.TEM",
+              "R3.P.METHOD.MINERAL_SEPARATION"
+            ]
+          }
+        },
+        {
+          "group_id": "R3.G.IDENTIFY",
+          "role": "support_requirement",
+          "statement": {
+            "en": "The paper must make a reasonable carrier-identification attempt, with either an identification or an explicitly reported inconclusive result.",
+            "zh": "论文必须合理尝试识别载体，可得到明确识别，也可明确报告未能确定的结果。"
+          },
+          "source_refs": ["SRC.R3.P1", "SRC.R3.P5"],
+          "expression": {
+            "op": "any",
+            "args": [
+              "R3.P.CARRIER.IDENTIFIED",
+              "R3.P.CARRIER.REASONABLE_INCONCLUSIVE_ATTEMPT"
+            ]
+          }
+        },
+        {
+          "group_id": "R3.G.SIGNIFICANCE",
+          "role": "support_requirement",
+          "statement": {
+            "en": "The significance of the carrier evidence must be interpreted; a method name or mineral name alone is insufficient.",
+            "zh": "必须解释载体证据的意义；仅出现方法名或矿物名不足以满足本组。"
+          },
+          "source_refs": ["SRC.R3.P1", "SRC.R3.P4", "SRC.R3.P5"],
+          "expression": "R3.P.CARRIER.SIGNIFICANCE_COMMENTED"
+        }
+      ],
+      "exceptions": [],
+      "decision_logic": {
+        "meets": {
+          "op": "all",
+          "args": ["R3.G.ELIGIBLE_METHOD", "R3.G.IDENTIFY", "R3.G.SIGNIFICANCE"]
+        },
+        "does_not_meet": {
+          "op": "not",
+          "args": [
+            {
+              "op": "all",
+              "args": ["R3.G.ELIGIBLE_METHOD", "R3.G.IDENTIFY", "R3.G.SIGNIFICANCE"]
+            }
+          ]
+        },
+        "unknown_policy": {
+          "en": "If full-text evidence leaves any required group unresolved, return unknown; do not treat a retrieved method keyword alone as satisfaction or retrieval silence as failure.",
+          "zh": "若全文证据仍无法确定任一必需组，则返回未知；不得把单个方法关键词视为满足，也不得把检索无结果直接视为不满足。"
+        }
+      }
+    },
+    "R5": {
+      "title": {
+        "en": "Structural control",
+        "zh": "构造控制"
+      },
+      "source_refs": ["SRC.R5.P1", "SRC.R5.P2", "SRC.R5.P3", "SRC.R5.P4"],
+      "propositions": [
+        {
+          "proposition_id": "R5.P.RIGID_CRATON_SINCE_ACQUISITION",
+          "value_type": "boolean",
+          "statement": {
+            "en": "The sampled region is presumed to have remained a rigid part of the applicable craton since magnetization acquisition.",
+            "zh": "采样区域被推定自磁化获得以来一直是适用克拉通的刚性部分。"
+          },
+          "source_refs": ["SRC.R5.P1"]
+        },
+        {
+          "proposition_id": "R5.P.RIGIDLY_ATTACHED_REGIONAL_SCOPE",
+          "value_type": "boolean",
+          "statement": {
+            "en": "The pole is explicitly restricted to a region that remained rigidly attached, with present and paleogeographic bounds defined.",
+            "zh": "该磁极被明确限定于始终刚性连接的区域，并界定了现代及古地理边界。"
+          },
+          "source_refs": ["SRC.R5.P2"]
+        },
+        {
+          "proposition_id": "R5.P.SETTING.ALLOCHTHONOUS",
+          "value_type": "boolean",
+          "statement": {
+            "en": "The target comes from an allochthonous terrane.",
+            "zh": "目标来自外来地体。"
+          },
+          "source_refs": ["SRC.R5.P1"]
+        },
+        {
+          "proposition_id": "R5.P.SETTING.PARAUTOCHTHONOUS",
+          "value_type": "boolean",
+          "statement": {
+            "en": "The target comes from a parautochthonous terrane.",
+            "zh": "目标来自准原地地体。"
+          },
+          "source_refs": ["SRC.R5.P1"]
+        },
+        {
+          "proposition_id": "R5.P.SETTING.NON_STRATIFIED",
+          "value_type": "boolean",
+          "statement": {
+            "en": "The target is a non-stratified rock for which the structural frame is not independently fixed.",
+            "zh": "目标属于构造参照未被独立限定的非层状岩石。"
+          },
+          "source_refs": ["SRC.R5.P1"]
+        },
+        {
+          "proposition_id": "R5.P.SETTING.INTERNAL_VERTICAL_AXIS_ROTATION",
+          "value_type": "boolean",
+          "statement": {
+            "en": "The region underwent internal vertical-axis rotation relevant to the pole.",
+            "zh": "该区域发生了与磁极有关的内部垂直轴旋转。"
+          },
+          "source_refs": ["SRC.R5.P1"]
+        },
+        {
+          "proposition_id": "R5.P.EXCEPTION.POST_DEFORMATION_INTRUSION",
+          "value_type": "boolean",
+          "statement": {
+            "en": "The result is from an intrusion emplaced after the last deformation event relevant to structural control.",
+            "zh": "结果来自晚于与构造控制有关的最后一次变形事件侵位的侵入岩。"
+          },
+          "source_refs": ["SRC.R5.P1"]
+        },
+        {
+          "proposition_id": "R5.P.FLATTENING_CORRECTION_USED",
+          "value_type": "boolean",
+          "statement": {
+            "en": "The reported pole or inclination depends on an inclination-flattening correction.",
+            "zh": "报告的磁极或倾角依赖于倾角压扁校正。"
+          },
+          "source_refs": ["SRC.R5.P3", "SRC.R5.P4"]
+        },
+        {
+          "proposition_id": "R5.P.CORROBORATION.INTERCALATED_VOLCANIC_SIMILAR_R",
+          "value_type": "boolean",
+          "statement": {
+            "en": "Intercalated volcanic rocks independently corroborate the corrected inclination and have a similar R-value.",
+            "zh": "层间火山岩独立佐证校正后的倾角，并具有相近的 R 值。"
+          },
+          "source_refs": ["SRC.R5.P4"]
+        },
+        {
+          "proposition_id": "R5.P.CORROBORATION.SAME_SEQUENCE_UNCORRECTED_SEDIMENT",
+          "value_type": "boolean",
+          "statement": {
+            "en": "Sedimentary rocks in the same sequence independently corroborate the inclination without requiring flattening correction.",
+            "zh": "同一层序中的沉积岩在无需压扁校正的情况下独立佐证该倾角。"
+          },
+          "source_refs": ["SRC.R5.P4"]
+        }
+      ],
+      "required_groups": [
+        {
+          "group_id": "R5.G.RIGID_FRAME",
+          "role": "support_requirement",
+          "statement": {
+            "en": "Structural support requires either craton-scale rigidity since acquisition or a correctly bounded rigid regional frame.",
+            "zh": "构造支持要求自磁化获得以来的克拉通尺度刚性，或边界正确界定的区域刚性参照。"
+          },
+          "source_refs": ["SRC.R5.P1", "SRC.R5.P2"],
+          "expression": {
+            "op": "any",
+            "args": ["R5.P.RIGID_CRATON_SINCE_ACQUISITION", "R5.P.RIGIDLY_ATTACHED_REGIONAL_SCOPE"]
+          }
+        },
+        {
+          "group_id": "R5.G.DISQUALIFYING_SETTING",
+          "role": "conflict_gate",
+          "statement": {
+            "en": "Any allochthonous, parautochthonous, non-stratified, or internally vertical-axis-rotated setting activates the structural conflict gate.",
+            "zh": "外来、准原地、非层状或发生内部垂直轴旋转的任一环境都会触发构造冲突门。"
+          },
+          "source_refs": ["SRC.R5.P1"],
+          "expression": {
+            "op": "any",
+            "args": [
+              "R5.P.SETTING.ALLOCHTHONOUS",
+              "R5.P.SETTING.PARAUTOCHTHONOUS",
+              "R5.P.SETTING.NON_STRATIFIED",
+              "R5.P.SETTING.INTERNAL_VERTICAL_AXIS_ROTATION"
+            ]
+          }
+        },
+        {
+          "group_id": "R5.G.INDEPENDENT_FLATTENING_CORROBORATION",
+          "role": "conditional_requirement",
+          "statement": {
+            "en": "An inclination-flattening correction is independently corroborated only by one of the two source-authorized evidence paths.",
+            "zh": "倾角压扁校正只有通过原文认可的两类证据路径之一才能获得独立佐证。"
+          },
+          "source_refs": ["SRC.R5.P4"],
+          "expression": {
+            "op": "any",
+            "args": [
+              "R5.P.CORROBORATION.INTERCALATED_VOLCANIC_SIMILAR_R",
+              "R5.P.CORROBORATION.SAME_SEQUENCE_UNCORRECTED_SEDIMENT"
+            ]
+          }
+        },
+        {
+          "group_id": "R5.G.FLATTENING_GUARD",
+          "role": "conditional_requirement",
+          "statement": {
+            "en": "If flattening correction is used, independent corroboration is mandatory.",
+            "zh": "若使用压扁校正，则必须具备独立佐证。"
+          },
+          "source_refs": ["SRC.R5.P3", "SRC.R5.P4"],
+          "expression": {
+            "op": "implies",
+            "args": ["R5.P.FLATTENING_CORRECTION_USED", "R5.G.INDEPENDENT_FLATTENING_CORROBORATION"]
+          }
+        },
+        {
+          "group_id": "R5.G.STRUCTURAL_BASIS",
+          "role": "support_requirement",
+          "statement": {
+            "en": "The structural basis is supplied by a rigid frame or by the post-deformation-intrusion exception.",
+            "zh": "构造基础由刚性参照或变形后侵入岩例外提供。"
+          },
+          "source_refs": ["SRC.R5.P1", "SRC.R5.P2"],
+          "expression": {
+            "op": "any",
+            "args": ["R5.G.RIGID_FRAME", "R5.X.POST_DEFORMATION_INTRUSION"]
+          }
+        },
+        {
+          "group_id": "R5.G.SETTING_GUARD",
+          "role": "exception_guard",
+          "statement": {
+            "en": "A disqualifying setting must be absent unless the post-deformation-intrusion exception applies.",
+            "zh": "否决性构造环境必须不存在，除非变形后侵入岩例外成立。"
+          },
+          "source_refs": ["SRC.R5.P1"],
+          "expression": {
+            "op": "any",
+            "args": [
+              {"op": "not", "args": ["R5.G.DISQUALIFYING_SETTING"]},
+              "R5.X.POST_DEFORMATION_INTRUSION"
+            ]
+          }
+        }
+      ],
+      "exceptions": [
+        {
+          "exception_id": "R5.X.POST_DEFORMATION_INTRUSION",
+          "statement": {
+            "en": "An intrusion younger than the last relevant deformation may meet R5; the exception removes a setting conflict but does not waive any applicable flattening-corroboration requirement.",
+            "zh": "晚于最后相关变形事件的侵入岩可满足 R5；该例外解除构造环境冲突，但不免除任何适用的压扁校正佐证要求。"
+          },
+          "source_refs": ["SRC.R5.P1", "SRC.R5.P4"],
+          "trigger": "R5.P.EXCEPTION.POST_DEFORMATION_INTRUSION",
+          "effect": {
+            "outcome": "PERMITS_MEETING",
+            "overrides": ["R5.G.DISQUALIFYING_SETTING"]
+          }
+        }
+      ],
+      "decision_logic": {
+        "meets": {
+          "op": "all",
+          "args": ["R5.G.STRUCTURAL_BASIS", "R5.G.SETTING_GUARD", "R5.G.FLATTENING_GUARD"]
+        },
+        "does_not_meet": {
+          "op": "any",
+          "args": [
+            {
+              "op": "all",
+              "args": [
+                "R5.G.DISQUALIFYING_SETTING",
+                {"op": "not", "args": ["R5.X.POST_DEFORMATION_INTRUSION"]}
+              ]
+            },
+            {
+              "op": "all",
+              "args": [
+                "R5.P.FLATTENING_CORRECTION_USED",
+                {"op": "not", "args": ["R5.G.INDEPENDENT_FLATTENING_CORROBORATION"]}
+              ]
+            }
+          ]
+        },
+        "unknown_policy": {
+          "en": "Unknown structural attachment, deformation timing, rotation scope, or applicability of flattening correction remains unknown; an unqualified phrase such as corrected for tilt is not enough.",
+          "zh": "若刚性连接、变形时序、旋转范围或压扁校正适用性不明，则保持未知；仅有“已作倾斜校正”等笼统表述不足以判定。"
+        }
+      }
+    },
+    "R7": {
+      "title": {
+        "en": "No qualified resemblance to a younger pole by more than a period unless older magnetization is established by field evidence",
+        "zh": "不得与年轻超过一个地质纪的合格磁极相似，除非野外证据确立更老的磁化"
+      },
+      "source_refs": [
+        "SRC.R7.P1", "SRC.R7.P2", "SRC.R7.P3", "SRC.R7.P4", "SRC.R7.P5",
+        "SRC.R7.P6", "SRC.R7.P7", "SRC.R7.P8", "SRC.R7.P9", "SRC.R7.P10"
+      ],
+      "propositions": [
+        {
+          "proposition_id": "R7.P.COMPARISON.QUALIFIED_SEARCH_COMPLETE",
+          "value_type": "boolean",
+          "statement": {
+            "en": "The paper documents a sufficiently complete search for eligible younger comparators over the stable connected-craton scope.",
+            "zh": "论文记录了在稳定相连克拉通范围内对合格年轻对比磁极的充分完整检索。"
+          },
+          "source_refs": ["SRC.R7.P5", "SRC.R7.P7", "SRC.R7.P9"]
+        },
+        {
+          "proposition_id": "R7.P.COMPARISON.A95_OVERLAP",
+          "value_type": "boolean",
+          "statement": {
+            "en": "The candidate and younger comparator have overlapping A95 confidence envelopes, not merely nearby point estimates.",
+            "zh": "候选磁极与年轻对比磁极的 A95 置信包络发生重叠，而非仅点估计接近。"
+          },
+          "source_refs": ["SRC.R7.P8"]
+        },
+        {
+          "proposition_id": "R7.P.COMPARISON.YOUNGER_R_GE_3",
+          "value_type": "boolean",
+          "statement": {
+            "en": "The younger comparator has a published reliability R-value of at least 3.",
+            "zh": "年轻对比磁极具有不低于 3 的已发表可靠性 R 值。"
+          },
+          "source_refs": ["SRC.R7.P5", "SRC.R7.P8"]
+        },
+        {
+          "proposition_id": "R7.P.COMPARISON.MORE_THAN_ONE_PERIOD_YOUNGER",
+          "value_type": "boolean",
+          "statement": {
+            "en": "Under the adopted chronostratigraphic timescale, the comparator is younger by more than one named geological period.",
+            "zh": "按照所采用的年代地层表，对比磁极年轻超过一个具名地质纪。"
+          },
+          "source_refs": ["SRC.R7.P1"]
+        },
+        {
+          "proposition_id": "R7.P.COMPARISON.STABLE_CONNECTED_CRATON",
+          "value_type": "boolean",
+          "statement": {
+            "en": "The younger comparator comes from a stable region within the craton connected to the candidate at the relevant time.",
+            "zh": "年轻对比磁极来自相关时期与候选区域相连克拉通内的稳定区域。"
+          },
+          "source_refs": ["SRC.R7.P7", "SRC.R7.P9"]
+        },
+        {
+          "proposition_id": "R7.P.COMPARISON.OROGENIC_BELT",
+          "value_type": "boolean",
+          "statement": {
+            "en": "The proposed younger comparator comes from an orogenic belt and therefore lacks a unique stable pole position.",
+            "zh": "拟用的年轻对比磁极来自造山带，因而不具唯一稳定的磁极位置。"
+          },
+          "source_refs": ["SRC.R7.P9"]
+        },
+        {
+          "proposition_id": "R7.P.FIELD_EVIDENCE.MAGNETIZATION_OLDER",
+          "value_type": "boolean",
+          "statement": {
+            "en": "Target-bound field evidence constrains magnetization to predate the resembling younger pole or poles.",
+            "zh": "与目标绑定的野外证据将磁化年龄限定为早于所相似的一个或多个年轻磁极。"
+          },
+          "source_refs": ["SRC.R7.P6"]
+        }
+      ],
+      "required_groups": [
+        {
+          "group_id": "R7.G.GEOGRAPHICALLY_VALID_COMPARATOR",
+          "role": "comparison_gate",
+          "statement": {
+            "en": "A valid comparator must lie in the stable connected craton and must not be an orogenic-belt pole.",
+            "zh": "有效对比磁极必须位于稳定的相连克拉通内，且不得是造山带磁极。"
+          },
+          "source_refs": ["SRC.R7.P7", "SRC.R7.P9"],
+          "expression": {
+            "op": "all",
+            "args": [
+              "R7.P.COMPARISON.STABLE_CONNECTED_CRATON",
+              {"op": "not", "args": ["R7.P.COMPARISON.OROGENIC_BELT"]}
+            ]
+          }
+        },
+        {
+          "group_id": "R7.G.QUALIFIED_YOUNGER_RESEMBLANCE",
+          "role": "conflict_gate",
+          "statement": {
+            "en": "A disqualifying resemblance requires A95 overlap, a younger R-value of at least 3, an age gap exceeding one period, and a geographically valid comparator.",
+            "zh": "否决性相似必须同时满足 A95 重叠、年轻磁极 R 值不低于 3、年龄差超过一个地质纪以及对比磁极地理有效。"
+          },
+          "source_refs": ["SRC.R7.P1", "SRC.R7.P5", "SRC.R7.P8", "SRC.R7.P9"],
+          "expression": {
+            "op": "all",
+            "args": [
+              "R7.P.COMPARISON.A95_OVERLAP",
+              "R7.P.COMPARISON.YOUNGER_R_GE_3",
+              "R7.P.COMPARISON.MORE_THAN_ONE_PERIOD_YOUNGER",
+              "R7.G.GEOGRAPHICALLY_VALID_COMPARATOR"
+            ]
+          }
+        },
+        {
+          "group_id": "R7.G.DOCUMENTED_NO_QUALIFIED_RESEMBLANCE",
+          "role": "support_requirement",
+          "statement": {
+            "en": "A no-resemblance support finding requires a documented qualified search and absence of any qualified younger resemblance.",
+            "zh": "支持“不相似”的结论需要有记录的合格检索，并且不存在任何合格的年轻磁极相似。"
+          },
+          "source_refs": ["SRC.R7.P5", "SRC.R7.P7", "SRC.R7.P8", "SRC.R7.P9"],
+          "expression": {
+            "op": "all",
+            "args": [
+              "R7.P.COMPARISON.QUALIFIED_SEARCH_COMPLETE",
+              {"op": "not", "args": ["R7.G.QUALIFIED_YOUNGER_RESEMBLANCE"]}
+            ]
+          }
+        },
+        {
+          "group_id": "R7.G.OLDER_FIELD_EVIDENCE_RESCUE",
+          "role": "exception_guard",
+          "statement": {
+            "en": "Field evidence that independently makes the magnetization older than the resembling pole supplies the explicit rescue path.",
+            "zh": "能够独立证明磁化早于相似磁极的野外证据构成明确的救援路径。"
+          },
+          "source_refs": ["SRC.R7.P6"],
+          "expression": "R7.P.FIELD_EVIDENCE.MAGNETIZATION_OLDER"
+        }
+      ],
+      "exceptions": [
+        {
+          "exception_id": "R7.X.OLDER_MAGNETIZATION_FIELD_EVIDENCE",
+          "statement": {
+            "en": "Target-bound field evidence that proves the magnetization older overrides an otherwise qualified younger-pole resemblance.",
+            "zh": "与目标绑定且证明磁化更老的野外证据，可覆盖原本合格的年轻磁极相似冲突。"
+          },
+          "source_refs": ["SRC.R7.P6"],
+          "trigger": "R7.G.OLDER_FIELD_EVIDENCE_RESCUE",
+          "effect": {
+            "outcome": "MEETS",
+            "overrides": ["R7.G.QUALIFIED_YOUNGER_RESEMBLANCE"]
+          }
+        }
+      ],
+      "decision_logic": {
+        "meets": {
+          "op": "any",
+          "args": [
+            "R7.G.DOCUMENTED_NO_QUALIFIED_RESEMBLANCE",
+            "R7.X.OLDER_MAGNETIZATION_FIELD_EVIDENCE"
+          ]
+        },
+        "does_not_meet": {
+          "op": "all",
+          "args": [
+            "R7.G.QUALIFIED_YOUNGER_RESEMBLANCE",
+            {"op": "not", "args": ["R7.X.OLDER_MAGNETIZATION_FIELD_EVIDENCE"]}
+          ]
+        },
+        "unknown_policy": {
+          "en": "An unscoped statement of similarity, a point-distance comparison without A95, an unreliable or geographically invalid younger pole, or unresolved field-test age remains unknown rather than activating the conflict gate.",
+          "zh": "未限定范围的相似表述、缺少 A95 的点距离比较、不可靠或地理无效的年轻磁极，以及年龄约束不清的野外检验均保持未知，不触发冲突门。"
+        }
+      }
+    }
+  }
+}

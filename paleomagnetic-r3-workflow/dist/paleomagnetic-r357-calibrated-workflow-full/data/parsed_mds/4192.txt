@@ -1,0 +1,687 @@
+### page_1
+Geophys.J.Int.(2018)215,303–313 doi:10.1093/gji/ggy281
+AdvanceAccesspublication2018July11
+GJIGeomagnetism,rockmagnetismandpalaeomagnetism
+Palaeomagnetism of mid-Miocene leucitite volcanics in eastern
+Australia
+J. Hansma1 and E. Tohver2
+1SchoolofEarthSciences,UniversityofWesternAustralia,Perth,WA6009,Australia.E-mail:jeroen.hansma@research.uwa.edu.au
+2InstituteofAstronomy,GeophysicsandAtmosphericSciences,UniversityofSa˜oPaulo,Brazil
+Accepted2018July13.Received2018June28;inoriginalform2018March26
+SUMMARY
+The purpose of this study is to provide a new high-quality palaeomagnetic pole for mid-
+MioceneAustraliausingresultsfromleucititelavasinEasternAustralia,giventheirprecise
+40Ar/39Ar ages. We review published palaeomagnetic data for Australia during the mid-
+Miocene and examine palaeosecular variation during the 15–17 Ma interval. The average
+palaeomagneticdirectionfromleucititelavas(D=190.2◦,I=57.1◦,k=33.9,a =6.7◦)
+95
+andthepalaeomagneticpole(λ=−80.2◦,φ =95.4◦,K=20.5,A =8.6◦,N=15,Q=5)
+95
+arestatisticallyindistinguishablefromearlymid-MiocenepolesfromNandewarVolcanoand
+fromthePortCampbellandGlenampleFormations,demonstratingthatolderpalaeomagnetic
+resultscanberobustdespiteoutdatedmethodology(e.g.blanketdemagnetization,fewsam-
+ples per site). We evaluate palaeosecular variation (PSV) during the mid-Miocene utilizing
+thecombineddataset(N=85/93;cut-off),andcalculateamid-Miocenecombinedpolefor
+Australia(λ=−80.0◦,φ =103.6◦,K=26.9,A =3.0◦,N=85,Q=6).Thepoleyields
+95
+apalaeolatitudeestimatefortheCosgroveHotspotofλ
+15−17Ma
+=40.3◦S±3.0◦,consistent
+with the present-day inferred location of the Cosgrove Hotspot at 40.5◦S. Scatter of virtual
+geomagnetic poles (VGPs) is estimated at 15.7◦(17.4; 95 per cent limits), and is remarkably
+14.1
+similartotheModelGandTK03valuesfrom0to5Maand0to10Malavasatcomparable
+latitudes.
+Keywords: Palaeomagneticsecularvariation;Palaeomagnetism;Australia;Hotspots.
+(Green&Irving1958;Irving&Green1958;Irvingetal.1961).
+1 INTRODUCTION
+AnearlyfocuswasonCenozoicigneousrocksofEasternAustralia
+The process of reconstructing Earth palaeogeography for Juras- (Mumme1963;Robertson1966;Facer1968;Wellmanetal.1969;
+sicandyoungertimesreliesstronglyupondecipheringtherecord McElhinny et al. 1974; Wellman 1975), and study of sediments
+ofmarineseafloormagneticanomalies,anduponpalaeomagnetic (Bishopetal.1982;Idnurm1985)andlaterites(Schmidtetal.1976;
+poles forvarious continents toconfirmsuchinterpretations.Sub- Schmidt&Embleton1976;Embleton1981;Schmidtetal.1982)
+duction of pre-Jurassic seafloor precludes the use of any marine followed.Bythelate1980saseriesofresultshadbeenpublishedfor
+magneticanomalyrecordsforoldertimes,leavingpalaeomagnetic theAustralianPlateandalthoughargumentspersistedoverdetails
+polesasthesolebasisforquantitativepalaeogeographicreconstruc- intheCenozoicpathofAustralia(Idnurm1990;Musgrave1989,
+tion.Givenasequenceofpolesfromacontinentalblockthrough 1991),itseemedthatagoodrepresentationofpolesforAustralia
+time,anapparentpolarwanderpath(APWP)canbedefined.From duringthepost-Cretaceousexisted.
+this path the continent’s ancient latitude and orientation relative However, as the number of poles in global data sets grew, and
+to the N–S oriented geomagnetic field lines can be determined asrefinedanalytictechniquesfacilitatedthereliablemeasurement
+(palaeolongitudecannotbedirectlyconstrainedusingpalaeomag- ofstablepalaeomagneticremanencesfrommorediverserocktypes
+neticmethods).TheshapeofanygivenAPWPisdeterminedbythe andfromdeeperingeologictime,itbecameapparentthatnotall
+choiceofpalaeomagneticpolesused,andthemethodofinterpola- palaeomagneticresultswereuniformlyreliable.Remagnetization,
+tionusedtofitdata.Largetimegapsbetweenpolesmayobscure incompletely removed overprints, uncorrected tectonic tilting, in-
+tectonicchanges,andassuch,amajorgoalofpalaeomagnetismhas correct age assignments, and insufficient sampling affected some
+been,andcontinuestobe,thenarrowingofthesegapswithreliable older,publishedpalaeomagneticdatasets.Itwasnolongerfeasible
+poles. tobuildplatemodelssimplybyindiscriminatelycompilingallthe
+Itwastothisendthat,inthemiddleoflastcentury,pioneering resultsforeachplate,andselectingamethodoffittingthroughthe
+palaeomagnetistsbeganstudyingthemagnetismofAustralianrocks data.Inresponsetothispressure,aschemaofqualitycriteria(Q)
+(cid:3)C TheAuthor(s)2018.PublishedbyOxfordUniversityPressonbehalfofTheRoyalAstronomicalSociety. 303
+Downloaded
+from
+https://academic.oup.com/gji/article/215/1/303/5054044
+by
+guest
+on
+05
+May
+2026
+
+### page_2
+304 J.HansmaandE.Tohver
+for addressing the reliability of palaeomagnetic results was pro- The leucitite volcanics form low-lying (often <30 m thick),
+posed(VanderVoo1990).High-qualitypoleshadwell-constrained monogenetic flows presumed to have been erupted from vents or
+ages,documentedmagneticmineralogy,detaileddemagnetization fissuresduringsingleevents.Themagmaseruptedontobasement
+andfieldteststodemonstrateprimarymagnetization. rocks: deformed Palaeozoic sediments and granitic rocks, and at
+The intended consequence of applying quality filter to palaeo- some localities (e.g. Mt Bygalorie and Wilga Tank, El Capitan)
+magneticdataweretodischargeanypolesthatmayhavesuffered upon Cenozoic sediments that unconformably overlie basement.
+fromaforementionedproblems,leavingafitonlythroughdemon- Themagmasareinterpretedtohavefollowedshallowdepressions
+strablyhigher-qualitydata.Whiletheuseofmorerobustdataare thathavesinceerodedleavingthelavaflowsexposedaslobatehills
+unquestionablydesirable,qualityfilteringheraldedaphilosophical andridgelines.
+shift in the way palaeomagnetic data was appraised. The relative The leucitite mineral assemblage in New South Wales (NSW)
+abundance of palaeomagnetic data and resultant increase in the is characterized by iddingsitized olivine and less commonly by
+scrutinyandfilteringofthisdatasetplacedtheonusonthemodern clinopyroxenephenocrystssetinagroundmassofclinopyroxene,
+researchertodemonstratetheapriorireliabilityofdata.Whileit leucite,titanomagnetite(andtitanomaghemite),nephelineandmica.
+wasstressedoriginally(andlaterreiterated)thatthecriteriaschema Sparse,microscopicpegmatoidveinletshavebeencommonlyob-
+proposeddidnotdemonstratethatlowQpoleswerebad(Vander servedandarecomprisedofsimilarmineralswiththeexceptionof
+Voo1990,1993),theunintentionalconsequenceremainsthatearly olivine,whichisabsentfromtheseveins(Cundari1973).Alllavas
+studies,havingbeenpublishedbeforethemanysourcesofpalaeo- along the Cosgrove track exhibit OIB-like trace element patterns
+magneticcomplexitywerewidelyrecognizedandbeforeaccepted (Davies et al. 2015). The leucitites are silica-undersaturated and,
+solutionsexisted,areroutinelydisregarded. compared to their basaltic counterparts in Queensland, composi-
+TheeffectsofthisareevidentinthepolechoicesmadeforAus- tions have higher concentrations of Ti, Mg, K, P, Cr, Ni, Zn and
+traliainmodernplatereconstructions.Thereare42polesfromthe trace elements, and lower Si, Al and Na concentrations. Isotopic
+post-Cretaceous record of Australia listed in the recent compiled datafortheleucitites(Sr-Nd,Nd-Hf,Pb-Pb)indicateametasom-
+database (GPMDB v4.6b Pisarevsky 2011; McElhinny & Lock atized mantle source (EM-1/EM-2), with no evidence for crustal
+1996),butthevariedapplicationoftheQ-indexhasledtoinconsis- assimilation(Ewart1982;Pauletal.2005).
+tentandunder-representedpost-CretaceousresultsforAustraliain Thetotalvolumeofleucititelavaisestimatedatlessthan3 km3,
+modernpalaeomagneticpolecompilations(compareBesse&Cour- astrikinglysmallmagmavolumewhencomparedtothe∼10000
+tillot 2002; Torsviket al. 2008, 2012). The purpose of this study km3 magma volumes that comprise each central volcano of the
+is to begin to address this shortcoming, and to compare modern northern Cosgrove Track (Wellman & McDougall 1974; Cundari
+resultswithearlierpalaeomagneticstudiesforthisinterval. 1989).Differencesincompositionandgreaterabundanceoftrace
+elements in leucitites compared to their basaltic counterparts in
+centralQueenslandhavebeenattributedtogreaterdepthofmelting
+beneaththethickerlithosphereofcentralNSWcomparedtothatof
+1.1 Geologicalbackgroundandsampling
+Queensland(Daviesetal.2015).
+LeucititelavasineasternAustraliaareexposedalonga∼630-km- Withtheexceptionoforientedhandspecimenscollectedatthe
+longnorth–southlinearchainfromByrocktoCosgrove(Birch1976; Cosgrovelocality(CG1),allsampleswerecollectedfromoutcrop
+Cundari1973,1989;Fig.1).TherocksweregeneratedbytheCos- withagasolinepowered,handheldPomeroydrill.Multiplesamples
+grove Hotspot, that, along with the volcanos preserved in central (from 8 to 12) were collected at 23 individual sites. Site location
+Queenslandformthelongestcontinentalhotspotchainintheworld wasrecordedbyhandheldGPS,andsampleorientationwastaken
+(∼2000 km;Daviesetal.2015;Sutherland1981).Otherhotspot bymagneticandsolarcompass,althoughprevalentovercastcondi-
+trackspreservedontheAustralianPlatefromthistimearetheEast- tionsduringalargedurationoffieldworkpreventedsolarmeasure-
+ern Australian hotspot track (located to the east of the Cosgrove mentsatalllocalities.Magneticorientationswerecorrectedusing
+track),aswellastheTasmantidandLordHoweseamountchains. WMM2015-2015(Chulliatetal.2015).Specimenswereprepared
+Results of 40Ar/39Ar geochronology indicate that the Cosgrove fromsamplesbyslicingcoresinto2.1cmlengthswithabrass-blade
+hotspotwasactivefromatleast34Ma(CapeHillsboroughBeds)to rocksaw,inpreparationfordemagnetization.
+9Ma(Cosgrove),withthelineararrangementofleucititevolcanic
+fieldsreflectingthepathoftheAustralianPlatemovingNorthover
+theCosgrovehotspotduringthe18–9Mainterval(McQueenetal.
+2007;Cohenetal.2008,2013).Mostoftheleucititemagmaswere
+2 ROCK MAGNETIC ANALYSIS AND
+eruptedbetween15and17Ma,contemporaneouswithEastAus-
+ANISOTROPY OF MAGNETIC
+tralianhotspotactivityatWarrumbungleVolcanotothenortheast,
+SUSCEPTIBILITY (AMS)
+being∼1.5MayoungerthanactivityatNandewarVolcano(north-
+east)and2Maolderthan40Ar/39AragesatCanobolastotheEast
+2.1 IRMacquisitionandcuriebalance
+(Cohen et al. 2008; Vasconcelos et al. 2008). Although leucitite
+flowsyoungerthanattheCosgrovelocalityhavenotbeenfound, Small volumes of crushed rock were prepared from specimens
+ashieldvolcano,Macedon,liestothesouthwestamongstmagmas at each site and loaded into a quartz glass holder enclosed by
+oftheNewerVolcanicProvince(NVP),andunliketheedgedriven quartzwoolformeasurementsonaPetersenInstrumentsVariable
+convectionthatproducedNVPmagmas,Macedonmaybetheresult FieldTranslationBalance(VFTB).Isothermalremanentmagneti-
+ofthemeltingofCosgroveHotspotmaterial(Davies&Rawlinson zation (IRM) was acquired at room temperature with increasing
+2014). The present-day location of the Cosgrove Hotspot is in- fields(to500mT)toidentifythepresenceofmagneticphasesof
+ferredfromfinitefrequencytomographytolie∼300 kmbeneath highercoercivitythantitanomagnetiteseriesminerals(>300mT).
+northeastern Tasmania and the Bass Strait (Montelli et al. 2006; Temperature-Magnetization heating and cooling curves were also
+Whittakeretal.2013). acquired to further characterize carriers of magnetization in the
+Downloaded
+from
+https://academic.oup.com/gji/article/215/1/303/5054044
+by
+guest
+on
+05
+May
+2026
+
+### page_3
+PalaeomagneticstudyofAustralianleucitites 305
+Figure1. Mapoverviewof(A)CentralVolcanicprovincesofEasternAustralia,withellipseencompassingleucititeoccurences.Thedashedarrowrepresents
+the approximate path of the Cosgrove Hotspot. (B) Leucitite occurences with 40Ar/39Ar ages indicated (Ma) (Cohen et al. 2013, 2008; McQueen et al.
+2007).Greendotsindicatepalaeoomagneticsamplingsites.Greystarsindicatehotspotderivedvolcanos.GreycircleindicatessamplinglocalityforthePort
+Campbell-Glenamplepaleomagneticstudy(Idnurm1985).QLD:Queensland,NSW:NewSouthWales,VIC:Victoria.
+leucitites(0–700◦C).Wheresuchcurveswereirreversible,asec- degreeofanisotropyisreflectedwithineachsiteaswell(Fig.A2).
+ondcurvewasacquiredtoconfirmthenatureofthenewlyformed TheshapeoftheAMSellipsoidsarevariablebetweenspecimens
+magneticphase(Fig.A1). andrangefromveryprolate(T=–0.891;K –K )toveryoblate(T
+1 3
+WefoundthatsamplesshowIRMsaturationbelow300mTindi- =0.967;K –K ),andwhilesitesBH1andCG1exhibitadominant
+1 2
+catinglittle(ifany)hematitepresent,althoughCuriebalancecurves oblate fabric, there is considerable variation in shape parameter
+forsomesiteswereirreversible.Curiebalancemeasurementswere withinsites(Fig.A2b).Nosystematicshapefabricisevidentwithin
+eitherreversibleandindicativeoftitanomagnetitedominatedmag- theleucititesasawhole(meanT=0.118,σ =0.403)(Fig.A2).
+neticassemblages,orirreversible,indicativeofthetransformation Atthesitelevel,principalaxesdirectionsoftheAMSellipsoid
+ofmaghemitetohematiteuponheating(e.g.BK2-2,Fig.A1).The oftencluster(Fig.A2c),withsteeplyinclined(>50◦)K axes(with
+3
+degree of maghemitization reflects post-eruptive alteration of the theexceptionofTB3andEC3)andshallowinclinationK andK
+1 2
+original igneous mineralogy, possibly by deuteric oxidation dur- axes(ingeographiccoordinates)(Fig.A2).K andK axescluster
+1 2
+ingcooling(Dunlop&O¨zdemir2001).Regardless,theabsenceof aselongatedellipsesalongashallowlyinclinedgirdle.Thispattern
+hematiteisevidencedbyeffectiveAFdemagnetizationandthermal however,doesnotholdforallanalysesfromagivensite,orforthat
+demagnetizationbeingcompleteby600◦C. matter,forallsites.ExamplesofinverseAMSfabricsarepresent
+(e.g.siteEC3hasasteepK axisandshallowK andK axis)and
+2 1 3
+withinsitesindividualspecimensoccasionallyshowinversefabrics
+(K -K -K substitution), a phenomenon reported from studies of
+2.2 Anisotropyofmagneticsusceptibility 1 2 3
+otherundeformedmaficrockswheresingledomainmagnetitecon-
+ThepurposeofmeasuringAMSellipsoidswastoexaminetherock tributionsdominatetheAMSsignal(Tarling&Hrouda1993).The
+fabricandassessflowfabricpreservationateachsite,andtoevaluate AMS signal could also have been subject to erasure and replace-
+the possibilityoftilting ofthesampled flows.Bulksusceptibility mentiftheflowsettledbeforesolidifying(e.g.convectionand/or
+(K )variesfrom2.26×10−3SIto5.25×10−2SI,withameanof gravitysettling).Complicationofanyprimaryfabricbysecondary
+m
+1.38×10−2SIacrosstheentiredataset,consistentwiththevolcanic fabrics produced during maghemitization (which would be con-
+nature of the rocks (Fig. A2). This range of values indicate that trolledbymicrofractureorientation)anderasurebycoolingstresses
+themeasuredfabricsaredominatedbytheferromagneticmineral (localresidualstressespresentduetotemperaturegradientsduring
+assemblage.Thedegreeofanisotropyofthemagneticsusceptibility cooling)isalsopossible(Rochetteetal.1999).Furthermore,itis
+ellipsoidislow,astobeexpectedforundeformedvolcanicrocks, reasonabletopresumethatsomemeasurementscouldbearesultof
+withcorrectedanisotropyfactor(P )valuesacrosstheentiredata amixtureofmultipleandsingledomainmagnetitegrainsinrelative
+J
+settrangingfrom1.003to1.047,withameanof1.017.Thislow quantitiessuchthatintermediateAMSfabricsresult.
+Downloaded
+from
+https://academic.oup.com/gji/article/215/1/303/5054044
+by
+guest
+on
+05
+May
+2026
+
+### page_4
+306 J.HansmaandE.Tohver
+Table 1. Site mean Fisher’s statistics for eastern Australian leucitite lavas. Dec: Declination, Inc: Inclination, k: precision parameter (directions), a95:
+95 per centconfidenceangle(directions),n:numberofsamples,A95:95 per centconfidenceangle(VGPs).∗Siteexcludedfrompolecalculation(seetext).
+Site Site VGP VGP
+Sample Dec Inc k a95 n Latitude Longitude Latitude Longitude A95 PolarityChron
+(◦) (◦) (◦) (◦N) (◦E) (◦N) (◦E) (◦)
+CG1 170.2 47.2 419.22 2.99 6 –36.351 145.599 –78.5 276.8 3.12 C4.r.2r/C4Ar.1r
+GQ1 – – – – - - - - - - -
+GQ2 – – - - - - - - - - -
+BH1 – – - - - - - - - - -
+BH2∗ 165.1 69.9 9.44 21.76 6.5 -33.527 146.361 -67.2 169.5 34.65 C5Br/C5Bn.1r
+FH1 168.1 61.6 83.28 6.73 6 -33.793 146.087 -77.1 188.7 9.13 C5Br
+LC1 180.3 54.6 29.85 9.01 9 -33.285 146.388 -88.1 138.8 10.69 C5Br/C5Bn.1r
+LC2 193.4 54.5 32.01 11.38 6.5 -33.285 146.348 -78.8 69.0 13.47 C5Br/C5Bn.1r
+LC3 189.1 45.4 32.77 11.88 6 -33.282 146.344 -79.9 19.6 12.03 C5Br/C5Bn.1r
+LC4 164.2 56 62.64 8.7 5 -33.282 146.344 -76.7 217.7 10.59 C5Br/C5Bn.1r
+LC5 187.2 51.9 62.24 7.37 7.5 -33.286 146.345 -83.9 51.1 8.32 C5Br/C5Bn.1r
+TB1 169 69.5 66.38 7.84 6.5 -33.444 146.673 -68.7 165.0 12.40 C5Br/C5Bn.1r
+TB2 173.8 69.4 46.89 9.88 6 -33.463 146.654 -69.9 157.5 15.59 C5Br/C5Bn.1r
+TB3 197.5 66.5 132.11 5.85 6 -33.46 146.653 -69.7 111.9 8.73 C5Br/C5Bn.1r
+TB4 174.1 51.5 37.56 10.48 6.5 -33.493 146.783 -84.9 250.3 11.75 C5Br/C5Bn.1r
+TB5 201.5 36.4 76.12 7.73 6 -33.486 146.768 -66.8 27.4 6.88 C5Br/C5Bn.1r
+TB6 222.9 48.9 45.36 9.52 6.5 -33.345 146.785 -53.5 63.2 10.21 C5Br/C5Bn.1r
+EC1 - - - - - - - - - - -
+EC2 1.3 -49.4 41.03 8.81 7 -31.217 146.251 88.5 195.9 9.53 C5En/D5Dr.1r
+EC3∗ 209.9 26.6 2.75 44.15 6.5 -31.259 146.176 -57.7 30.7 35.26 -
+BK1 221.3 64.5 128.95 6.3 5.5 -30.706 146.327 -54.6 94.4 9.04 C5Cr
+BK2 - - - - - - - - - - -
+BK3 216.3 55.4 30.17 12.39 6 -30.693 146.307 -59.4 76.0 14.92 C5Cr
+3 PALAEOMAGNETIC ANALYSIS 0.71–8.32Am–1).Thismedianisslightlyhigherthanexpectedin-
+tensityforbasalts(∼1Am–1)andhighintensitiesareprobablythe
+3.1 Demagnetization resultoflightningIRMoverprintsasdiscussedindetailbelow.
+Mostsamplesfromsitesexhibitedstabledemagnetization(21/23
+Demagnetization and rock magnetic measurements were carried
+sites), the exception being Griffith Quarry sites GQ1 and GQ2.
+outattheCurtinUniversityPalaeomagneticLaboratory.Magnetic
+Example demagnetizations are shown in Fig. 2. Directions were
+remanencewasmeasuredusinganAgicoJR6SpinnerMagnetome-
+consistentandwell-clustered(k>30)for16ofthe23sitessam-
+ter in a field free room made of mu-metal. Progressive AF and
+pled (Table 1, Fig. 3). Progressive demagnetization revealed one
+Thermaldemagnetization(atleast17stepsperspecimen)wasem-
+tothreecomponentsofmagnetization;alowcoercivitycomponent
+ployedusingatumblingAFdemagnetizer(maximumfield100mT)
+(s1)unblockedatlowtemperature<200◦Corwithpeakfieldsof
+andanASCmagneticallyshieldedfurnace(maximumtemperature
+700 ◦C). Component magnetizations were determined by princi- <20 mT,revealingeitherahighcoercivitycharacteristiccompo-
+nentofmagnetization(c1),oranintermediatecoercivityoverprint
+pal component analysis using at least four demagnetization steps
+withmaximumangulardeviation(MAD)<10◦ (Zijderveld1967; alongwithacharacteristiccomponent(s2,c1),orsimultaneously
+demagnetizing two high coercivity components, necessitating the
+Kirschvink1980)andincaseswheresimultaneousremovalofmag-
+neticcomponentsoccurred,bythearcmethod(n≥4,MAD<15◦; use of demagnetization arcs (c1a). A small number of samples
+showed only a single component of magnetization (either as the
+Zijderveld1967;Kirschvink1980;McFadden&McElhinny1988)
+resultofsamplingquarryfaces,orremagnetizationbylightning).
+usingPalaeoMagsoftwareJones(2002).Sitemeandirectionswere
+ComparisonofAFandthermaldemagnetizationshowednoobvious
+determinedbyFisherstatisticsFisher(1953),assigninga0.5weight-
+differenceinresolvingindividualpalaeomagneticcomponents,and
+ingtodirectionsfitbythearcmethod.VirtualGeomagneticPoles
+withAFdemagnetizationprovingeffectivethismethodwaschosen
+(VGPs)werecalculatedusingsitemeandirections,andpaleomag-
+astreatmentforthemajorityofsamples.
+netic poles were calculated as Fisher means of VGPs calculated
+Asthelavaflowscommonlyoccurasslightlyelevatedtopogra-
+fromindividualsites.Furthertestsandcalculationswerefacilitated
+phy relative to the surrounding flat plains we suspected both the
+bytheuseandexpansionofselecttoolsinthepmagpycatalogue
+overprint (s1, s2) components and simultaneous demagnetization
+Tauxeetal.(2016).SitemeanresultsaregiveninTable1andall
+ofhighercoercivitycomponents(c1a)tobetheresultoflightning
+fitsaredescribedinSupplementaryInformation.
+IRMoverprintingaprimaryTRM.ThedirectionoflightningIRM
+should be random (Watson 1956), so we used a randomness test
+to check for lightning-induced directions. In contrast, character-
+istic remanences that have a primary origin are expected to have
+3.2 NRMandmagneticcomponents
+non-random,well-clustereddirections.Overprintcomponents1is
+Naturalremanentmagnetizations(NRMs)showednopreferreddi- random for the majority of sites (16/21: 95 per cent confidence,
+rectionalclustering,andintensitiesareskewedfromamedianin- 19/21:99 per centconfidence).Secondarycomponentswithinsites
+tensityof1.97Am–1towardshigherintensities(interquartilerange: BH1,BH2,EC1,EC2andLC5arenotrandomatthe95 per cent
+Downloaded
+from
+https://academic.oup.com/gji/article/215/1/303/5054044
+by
+guest
+on
+05
+May
+2026
+
+### page_5
+PalaeomagneticstudyofAustralianleucitites 307
+Figure2. Orthogonalvectordiagramsoftypicaldemagnetizationbehavior(bluelinesonorthographicplotsshowlinearfitstocharacteristicmagnetization).
+LC2.8DandLC5.2Bshowarcfits(blackline:c1a)withsquaresindicatingbestfitalongarc.BH1.7Adepictsasampleinferredtobelightningremagnetized
+(c1L).Nindicatesnumberofstabledemagnetizationsteps(shown).
+confidencelevel,butonlywithinsitesEC1andLC5aretheynot 95percent confidence, 16/21: 99 per cent confidence), these di-
+randomat99 per centconfidence.Evenso,s1directionsatthese rections are interpreted as primary, reflecting the acquisition of
+sitesareincrediblyscatteredwithprecisionparameters(k)of2.78 magnetizationuponcooling(i.e.magnetization).Theonlysitesthat
+(EC1)and1.92(LC5).Also,itsuggeststhatdifferentialoverprint- reject the null hypothesis at 95 per cent confidence and not at
+ingbylightningislikelyresponsibleforcasesofhighercoercivity 99 per centareEC3(k=2.75)andBH2(k=9.44),andbothhave
+overprints(s2)andthesimultaneousremovalofhighercoercivity lowprecision.Whilewearenotconfidentinassigningapolarityto
+componentsinsomesamples(c1a). thescatterofdirectionsatEC3,BH2isinterpretedtobeofreversed
+Conversely,characteristiccomponents(c1andc1a)aregrouped polarityalthoughthelarge,within-sitescatterprecludestheuseof
+(not random: Watson 1956) for the majority of sites (18/21 sites: this site in calculating a paleomagnetic pole. Sites that failed to
+Downloaded
+from
+https://academic.oup.com/gji/article/215/1/303/5054044
+by
+guest
+on
+05
+May
+2026
+
+### page_6
+308 J.HansmaandE.Tohver
+Figure3. RepresentativeequalareastereonetsofdirectionalcomponentsandVGPsbysite.FilledSymbolsindicatepositive(downward)inclinationdirections
+andNorthHemisphereVGPlatitudes.Opensymbolsindicatenegative(upward)inclinationdirectionsandSouthHemisphereVGPlatitudes.Greysymbols
+indicateoverprintdirections(s1,s2),Blackcircles/squaresindicatedirectionsinferredtobeprimarydeterminedbyline/arcfittingrespectively(c1/c1a).
+Arcsegmentsforsuchfitsaredottedinupperhemisphereandsolidinlowerhemisphere.Blacktrianglesindicatedirectionsinferredtoreflectlightning
+remagnetization(c1L).FishermeansforbothdirectionsandtheirVGPs(witha95andA95,respectively)areplottedinblue.RemainingsitesillustratedinFigs
+A3–A4.
+rejectbeingdrawnfromarandomdistribution(at99 per centcon- thatpolaritydeterminationsarecompatiblewiththemagneticpolar-
+fidence)areconsideredtobedominatedbylightningIRM(fitsfrom itytimescale(Ogg2012;Fig.4).ElCapitansiteEC2eruptedeither
+samplessuspectedoflightningremagneizationaregiventhelabel inchronC5EnorD5Dr.1r,sitesatByrock(BK)coincidewithchron
+c1L).Thesesampleswereexcludedfromfurtherconsiderationand C5Cr,theflowatFlagstaffHill(FH1)eruptedduringreversedchron
+sitemeancalculations.Somesamplesarecompletelyremagnetized C5Br,andtheremainderalsofallwithinchronC5BrorC5Bn.1r.
+bylightning,eveninsiteswhereothersamplespreserveaprimary ThatmanymeasuredVGPscouldcomefromwithinchronC5Bris
+magnetization(9/131samples).Theselightningremagnetizedsam- unsurprisingbecauseits∼0.8Madurationisrelativelylongcom-
+plesdisplayedasinglecomponentdemagnetizationtotheoriginnot paredwiththemid-Mioceneaverageof∼0.2Ma(Ogg2012).The
+consistentwiththedirectionofothersamplesatthesite,andoften ageoflavaatCosgrove(CG)fallswithinashort-normalpolarity
+hadsignificantlyhigherNRMintensitiesthanothersamplesfrom chron(C4An)although2σ upperandlowererrorlimitscoincide,
+thesamesite. respectively, with upper and lower reversal boundaries of chron
+C4An.Thereversepolarityrecordedherecouldreflecteitherone
+oftheadjacentreversedchrons(C4r.2r,orC4Ar.1r).
+3.3 Polarity,fieldtestsandsamplingpalaeosecular
+Characteristicmagnetizationatallsitesarewelldetermined,with
+variation
+k>30anda <15◦.Notably,asmalloutcropofbakedsediment
+95
+Allofthesiteswithinterpretedprimarymagnetization(N =16)are atthebaseofalavaflowwassampled(LC4),carryingareversed
+ofreversedpolarity,withtheexceptionofEC2,whichisofnormal magnetization(D=164.2◦,I=56◦,k=62.64,a =8.7◦,N=5)
+95
+polarity.Combinationof40Ar/39Arages(with2σ errors)indicate withsimilardirectiontotheoverlyinglava,buttheabsenceofany
+Downloaded
+from
+https://academic.oup.com/gji/article/215/1/303/5054044
+by
+guest
+on
+05
+May
+2026
+
+### page_7
+PalaeomagneticstudyofAustralianleucitites 309
+is no field test supporting a primary magnetization for the lavas
+in our study (positive contact test), magnetization directions are
+compatible with other mid-Miocene poles from Australia during
+thistime(GlenampleandPortCampbellFormations,Hawkesbury
+Sandstone,NandewarVolcano)andthereisnoevidenceofregional
+remagnetizationofrocksthroughtheregionsincetheeruptionof
+leucitites.
+4 MID-MIOCENE PALAEOMAGNETIC
+POLE FOR EASTERN AUSTRALIAN
+4.1 palaeomagneticpolefromleucititelavas
+Fishermeansofcharacteristicmagnetizationsforwelldefinedsites
+(Table 1) were used to calculate individual VGPs from which a
+palaeomagnetic pole for eastern Australian leucitites was deter-
+mined. We exclude the Cosgrove locality’s VGP (CG) from the
+polecalculationbecauseofitsmuchyoungerage(8.9±0.2Ma;
+Cohenetal.2008)comparedwiththeagefromtheremainderof
+sites(15–17Ma).IncludingtheCosgrovesiteresultwouldchange
+thepolelocationbylessthan2◦inspiteofthe6–8Maagedifference
+from the other, older sites. The average palaeomagnetic direction
+forallsites(excludingCosgrove)isD=190.2◦,I=57.1◦,(k=
+33.9, a = 6.7◦, N = 15). The Fisher mean of VGPs indicates a
+95
+polepositionforAustraliaofλ=−80.2◦,φ =95.4◦ (K=20.5,
+S=18.1◦,A =8.6◦,N=15)(Figs5aandb).Weassignamag-
+95
+netizationageforthispoleof15–17Maonthebasisofpublished
+40Ar/39Arages.WeassignthepoleaQscoreof5(or6ifthere-
+versals in palaeosol beneath the Wilga Tank Leucitite McQueen
+etal.(2007)areconsideredasapositivecontacttest)tothispole.
+Thelackofnormalpolarityflows(onlyonenormalpolarityflow
+sampled)preventameaningfulreversaltest(category6)andpoorly
+exposedbasalcontactspreventedsensustrictofieldtestsforbaked
+contacts(Q-category4).
+TheangulardispersionofVGPsof18.1◦ (14.2 95 per centcon-
+24.2
+fidencebounds)istypicalforintermediatelatitudesitesindicating
+thatpalaeosecularvariation(PSV)hasbeensampled,andthatthe
+geomagnetic field has been adequately represented. This conclu-
+sion is strengthened by a continuum of 40Ar/39Ar ages, and field
+evidenceindicatingindividualeruptionsfromsolitaryvents.Also,
+Figure4. PolaritycomparisonofleucititelavaflowsandtheGeomagnetic asdiscussedinthefollowingsection,VGPsfromthispolearesta-
+PolarityTimeScaleOgg(2012).Possiblepolaritychronsforlavasareindi- tisticallyindistinguishablewithotherAustralianpolesofthisage,
+cated.Sitesmarkedwithanasteriskwerenotincludedinpolecalculation indicatingtherobustnessandconsistencyofmid-Mioceneresults
+(see text). CG: Cosgrove, GQ: Griffith Quarry, FH: Flagstaff Hill, BH: fromAustralia.
+BegargoHill,LC:LakeCargelligo,TB:Tullibigeal,EC:ElCapitan,BK:
+Byrock.
+4.2 Polecomparisonandcombinedmid-Miocenepolefor
+surroundingcountryrockoutcroppreventedacompletecontacttest.
+Australia
+Inmostlocationsthebasementuponwhichtheserockswereerupted
+isnotexposed,preventingextensiveuseofthecontacttest.Despite WeconductedcommonmeantestsusingWatson’sVstatisticand
+this,McQueenetal.(2007)reporteddual-polarityremanencefrom McFadden & McElhinny’s (1990) test to determine if VGP dis-
+apaleosolsectionbeneathareverselymagnetizedleucititelavaat tributions from published Australian poles (Table 2) could have
+Wilga Tank (El Capitan region) with VGPs that are distinct from beendrawnfromthesameunderlyingdistributionasresultsfrom
+thepolecalculatedforleucititelavasinthisstudybybothWatson’s leucititelavas(andeachother)(Watson1983;McFadden&McEl-
+V test (V: 8.0, V = 7.0) (Tauxe et al. 1991; Watson 1983) and hinny 1990; Tauxe et al. 1991). We foundthat VGP distributions
+crit
+McFadden & McElhinny’s (1990) common mean test (Angle = forNandewarVolcano(Wellmanetal.1969),GlenampleandPort
+10.7◦,Criticalangle=10.1◦).Thepaleomagneticdirectionforthe Campbell Formations (Idnurm 1985) and leucitite lavas are sta-
+paleosol is steeper, and therefore older, since Australia has been tisticallyindistinguishable.AsdiscussedbyMusgrave(1989),the
+movingnorthwardthroughtheCenozoic,suggestingpreservation originalfilteringmethodusedtoidentifytransitionalVGPsatNan-
+of magnetizations older than leucitite volcanism in surrounding dewarVolcanoisbiasedbecausetransitionalsitesarenotrandomly
+countryrock.Theirresultsuggeststhat,atleastintheElCapitan distributed, so we test using the more robust unfiltered data set
+region,regionalremagnetisationhasnottakenplace.Whilethere and later apply a variable VGP cutoff to robustly estimate VGP
+Downloaded
+from
+https://academic.oup.com/gji/article/215/1/303/5054044
+by
+guest
+on
+05
+May
+2026
+
+### page_8
+310 J.HansmaandE.Tohver
+Figure5. [A]EqualareastereonetofsitemeanVGPs(grey)andpalaeomagneticpole(red)forleucititelavas,[B]OrthographicprojectionofleucititeVGPs
+(blue)andmean(red),[C]VGPdistributionforcombinedmid-Miocenepole,withblackcircleindicatinglimitsofVandamme(1994)cut-off[D]Orthographic
+projectionofcombinedVGPdata(included:blue,excluded:grey),mean(red)andVandamme(1994)cut-off(black).
+Table2. Mid-Miocenepalaeomagneticpoles(North)forAustralia(λ=PoleLatitude,φ =PoleLongitude),withassociatedprecisionparameter(K)and
+confidenceangle(A95)aftervariableVGPcut-offhasbeenappliedVandamme(1994).Nindicatesnumberofsitesincludedinpole,whileVandammecolumn
+indicatesnumberofsitesidentifiedastransitionalbyfilter.QafterVanderVoo(1990).Agedeterminationsbya:40Ar/39Arages,b:biostratigraphicages
+(foraminifera),c:K-Arages,d:magnetizationagepresumedfrommagneticdirection.i:includedinmid-Miocenecombinedpole.
+Name λ φ A95 K N Age Q Reference Vandamme
+(◦N) (◦E) (◦) (Ma)
+LeucititePole(thisstudy) 80.2 275.4 8.6 20.5 15 15–17a 5 thisstudy 0i
+mid-MioceneCombinedPole(thisstudy) 80.0 283.6 3.0 26.9 85 ∼12–17 6 thisstudy
+GlenampleFm./PortCampbellLst. 77.2 303.5 3.9 40.7 30 ∼12b 6 Idnurm(1985) 0i
+NandewarVolcano 79.7 257.5 4.5 26.5 40 ∼17c 5 Wellmanetal.(1969) -8i
+HematizedHawkesburySandstone 82.9 294.4 2.5 281.3 13 ∼15 3d Bishopetal.(1982) 0
+WilgaTankpalaeosol 78.5 323.2 3.2 69.5 30 >17 4d McQueenetal.(2007) -5
+WarrumbungleVolcano 78.7 320.9 17.2 8 11 ∼14–16c 4 McElhinnyetal.(1974) -1
+dispersion (Wellman et al. 1969; Vandamme 1994). VGPs from Onlyeightsiteswererecognizedaspreservingtransitionalfielddi-
+Warrumbungle Volcano (McElhinny et al. 1974) are highly scat- rections(allfromNandewarVolcano).Thecombinedpoleposition
+tered[K=8afterVandamme(1994)filteringremovingonesite]so isλ=−80.0◦,φ=103.6◦,withK=26.9,S=15.7◦,A =3.0◦,
+95
+whilecommonmeantestsindicateeachVGPsamplecouldbeing N=85(Figs5candd).Includingtransitionaldirectionsdoesnot
+drawn from the same VGP population, the McFadden & McEl- significantlyalterthepoleposition((cid:5)1.9◦).Thecombinedpolehas
+hinny (1990) classification is indeterminate. It is not clear why aQ-scoreof6,becausealthoughvalidatedbystep-wisedemagne-
+suchhighscatterispresentatWarrumbungleVolcano,butitcould tizationandprincipalcomponentanalysisfrombothleucititelavas
+be due to incompletely removed overprints, or a preponderance andPortCampbellandGlenampleFormations,NandewarVolcano
+of transitional VGPs combined with limited sampling (N = 12 resultswereblanketdemagnetized(violatingQ-category3inastrict
+sites). Given this ambiguity we do not include VGPs from War- sense).Inspiteofthis,thecombinedpolebothcontainsreversals,
+rumbungleVolcanointhecombinedpoleanddonotconsideritin andpassesareversalstest(C-class;5◦betweenmeans,10.1◦critical
+furtheranalysis. angle),atestthatwasnotpossibleonleucititelavasalone(McFad-
+ThepolefromtheLapstoneMonoclineintheHawkesburySand- den&McElhinny1990).Aquantile–quantiletestoftheVGPdata
+stone (Bishop et al. 1982) is not included in combined analysis isconsistentwithaFisheriandistribution,VGPlongitudesareuni-
+because the magnetization is secondary, and the age of its mag- formlydistributedandVGPlatitudesareexponentiallydistributed
+netization is presumed from the pole position along Australia’s (M =0.818,M =0.968(criticalvalues=1.094,1.207). e u
+APWP. Although hematite magnetization in these beds may have
+beenacquiredcontemporaneouslywithleucititeandNandewarVol-
+5 MID-MIOCENE PALAEOSECULAR
+canomagmatismthedependenceofitsageuponitspalaeomagnetic
+VARIATION
+direction would invoke circular reasoning. We also disqualify the
+WilgaTankpalaeoosolbecauseitsageispresumedfromitsposition Our new integration of the mid-Miocene palaeomagnetic results
+along Australia’s APWP, and as discussed earlier, the results are from Australia allows us to examine the reconstructed field and
+distinct from leucitite VGPs and possibly older (McQueen et al. characterizepalaeosecularvariationatthistime.Fig.6showsthe
+2007). angulardispersionasafunctionoflatitude(with95 per centcon-
+GiventheconsistencyofbothageandVGPsfromleucititelavas, fidencebounds)forindividualstudies,aswellasforthecombined
+NandewarVolcano,andGlenampleandPortCampbellFormations, poleresult.TheVandamme(1994)variablecut-offwasappliedto
+itisacceptabletocombinethem,therebyimprovingtheprecision sitemeanVGPpopulationsforeachpole,withtheonlyexclusions
+of the palaeomagnetic pole for Australia and facilitating a mean- beingfortheeighttransitionalresultsofNandewarVolcanoprevi-
+ingfulstudyofmid-MiocenePSV.SitemeanVGPswereobtained ouslydescribed,andforfiveresultsfromtheWilgaTankPalaeosol.
+from the aforementioned poles, and we applied a variable cutoff ThesedimentarypolesoftheGlenampleandPortCampbellForma-
+(Vandamme1994)todeconvolvetransitionaldirectionsfromthose tion(Idnurm,1985),WilgaTankpaleosol(McQueenetal.2007)
+reflectingsecularvariationofastablegeomagneticfield(Fig.5c). andHematizedHawkesburySandstone(Bishopetal.1982)allshow
+Downloaded
+from
+https://academic.oup.com/gji/article/215/1/303/5054044
+by
+guest
+on
+05
+May
+2026
+
+### page_9
+PalaeomagneticstudyofAustralianleucitites 311
+Figure6. Angulardispersionwithpalaeoolatitudeformid-MiocenepalaeomagneticresultsfromAustraliacomparedwithfieldmodelsderivedfromdatabases
+ofrecentlavas(0–5MalavasofthePSVRLdatabase:ModelG,andTK03McElhinny&McFadden(1997);Tauxe&Kent(2004),and0–10Malavasfrom
+thePSV10vcutdatabase:TK03Cromwelletal.(2018).WhitecirclesandblacksquaresillustratedatafromthePSV10vcutdatabasefromtheNorthernand
+SouthernHemispheres,respectively.
+lowerthanexpectedscatter,whichisprobablyaresultofacquisition 2004;Cromwelletal.2018).Therobustnessofthecombinedpole
+ofmagnetizationoverlongerintervalswithinsamplesthemselves, result(N =85)isevidenthere,andyieldsaVGPscatterof15.7◦,
+soratherthanrecordinganinstantaneousmeasurementofthegeo- (17.4 95 per centconfidencelimits),thatisremarkablyconsistent
+14.1
+centricaxialdipole(asisthecaseforTRMfromvolcanicresults), withexpectedangulardispersionformiddlelatitudesbasedupon
+some averaging of palaeosecular variation has already occurred both0–5Maand0–10Malavas(ModelGandTK03fitsforboth
+withinsites.FortheHematizedHawkesburySandstone,theeffect PSVRLandPSV10 databases)(McElhinny&McFadden1997;
+vcut
+isparticularlypronounced,andtheeffectofPSVaveragingwithin Tauxe & Kent2004; Cromwell etal. 2018). Confidence intervals
+sampleswasdiscussedindetailbytheoriginalauthors.Theangular forthecombinedpolesalsooverlapwithlimitsofPSV10 data
+vcut
+dispersion is slightly higher than expected for the leucitite lavas between35◦and45◦latitudeforbothhemispheres(Cromwelletal.
+and marginally so for Nandewar Volcano (Wellman et al. 1969), 2018).Onthebasisofthisconsistencyweconcludethatgeomag-
+but confidence limits overlap with model G and TK03 predicted neticfieldscatterfrommid-MioceneAustralianresultswassimilar
+valuesinbothcases(McElhinny&McFadden1997;Tauxe&Kent tothatduringthe0–10Mainterval.
+Downloaded
+from
+https://academic.oup.com/gji/article/215/1/303/5054044
+by
+guest
+on
+05
+May
+2026
+
+### page_10
+312 J.HansmaandE.Tohver
+6 CONCLUSIONS Ewart,A.,1982.PetrogenesisoftheTertiaryanorogenicvolcanicseriesof
+southernQueensland,Australia,inthelightoftraceelementgeochemistry
+Wehavepresentednewpalaeomagneticdataforleucititelavasin
+andO,SrandPbisotopes,J.Petrol.,23,344–382.
+eastern Australia, and compared results with previous paleomag-
+Facer,R.,1968.MagneticstudiesoftheCanoblasMountains,centralwestern
+neticdatafromAustraliaduringthemid-Miocene.Goodagreement NewSouthWales,J.Proc.R.Soc.Victoria,70,1–17.
+betweentheresultsobtainedinourstudywithmoderntechniques, Fisher,R.,1953.Dispersiononasphere,Proc.R.Soc.Lond.,A217,295–
+and those of previous researchers, indicates that older paleomag- 305.
+neticresultscanstillbereliablethereforeshouldnotbedisregarded Green,R.&Irving,E.,1958.ThepalaeomagnetismoftheCainozoicbasalts
+simplyonthebasisoftheirantiquityalone.Forthemid-Miocene fromAustralia,Proc.R.Soc.Victoria,70,1–17.
+wehavepresentedacaseforthoseAustraliandatathatshouldbe Idnurm,M.,1985.LateMesozoicandCenozoicpalaeomagnetismofAus-
+tralia.aredeterminedapparentpolarwanderpath,Geophys.J.Int.,83(2),
+includedinCenozoicplatereconstructions.Wehavecombinedmid-
+399–418.
+MioceneVGPdatawhereappropriatetoprovidearobustandpre-
+Idnurm,M.,1990.Commentson:aweightedleast-squaresfitoftheAus-
+ciseestimateofthepolepositionofAustraliaduringmid-Miocene
+tralianapparentpolarwanderpathforthelast100MyrbyRJMusgrave,
+times.Lastly,weshowthatpaleosecularvariationfromAustralian
+Geophys.J.Int.,102(1),191–193.
+mid-Miocenerocksaresimilartoexpectedvaluesfromfieldmod- Irving,E.&Green,R.,1958.PolarmovementrelativetoAustralia,Geophys.
+elsbasedonrecentpaleomagneticdata(0–5Maand0–10Madata J.Int.,1,64–72.
+sets). Irving,E.,Stott,P.&Ward,M.,1961.Demagnetizationofigneousrocksby
+alternatingmagneticfields,Philos.Mag.,6(62),225–241.
+Jones,C.H.,2002.User-drivenintegratedsoftwarelives:PaleoMagpale-
+omagneticsanalysisontheMacintosh,Comput.Geosci.,28(10),1145–
+ACKNOWLEDGEMENTS
+1151.
+WewouldliketothanktheEarthDynamicsResearchGroupand Kirschvink,J.,1980.Theleast-squareslineandplaneanalysisofpalaeo-
+ProfessorZheng-XiangLifortheuseoftheirpaleomagneticlab- magneticdata,Geophys.J.R.astr.Soc.,62,699–718.
+oratory. I would also like to thank reviews and comments from McElhinny,M.,Embleton,B.&Wellman,P.,1974.AsynthesisofAustralian
+ProfessorsXixiZhao,AndrewBiggin,andananonymousreviewer Cenozoicpalaeomagneticresults,Geophys.J.Int.,36(1),141–151.
+McElhinny,M.W.&Lock,J.,1996.IAGApaleomagneticdatabaseswith
+in improving this manuscript. JH acknowledges the receipt of a
+Access,SurveysinGeophysics55,17(5),575–591.
+Robert and Maude Gledden Scholarship from the University of
+McElhinny,M.W.&McFadden,P.L.,1997.Palaeosecularvariationoverthe
+WesternAustraliaandETacknowledgesVisitingProfessorFellow-
+past5Myrbasedonanewgeneralizeddatabase,Geophys.J.Int.,131(2),
+shipfromtheFundac¸a˜oCAPES.
+240–252.
+McFadden,P.&McElhinny,M.,1990.Classificationofthereversaltestin
+palaeomagnetism,Geophys.J.Int.,103(3),725–729.
+REFERENCES McFadden, P. & McElhinny, M.W., 1988. The combined analysis of re-
+Besse,J.&Courtillot,V.,2002.Apparentandtruepolarwanderandthe magnetizationcirclesanddirectobservationsinpalaeomagnetism,Earth
+geometry of the geomagnetic field over the last 200 myr, J. geophys. Planet.Sci.Lett.,87,161–172.
+Res..,107(B11),EPM6–1-EPM6-31. McQueen,K.,Gonzalez,O.,Roach,I.,Pillans,B.,Dunlap,W.&Smith,
+Birch,W.D.,1976.Mineralogicalnotetheoccurenceofaleucitite-bearing M.,2007.LandscapeandregolithfeaturesrelatedtoMioceneleucitite
+lavaatCosgrove,Victoria,J.Geol.Soc.Aust.,23,435–437. lavaflows,ElCapitannortheastofCobar,NewSouthWales,Australian
+Bishop,P.,Hunt,P.&Schmidt,P.,1982.LimitstotheageoftheLapstone JournalofEarthSciences,54,1–17.
+Monocline,NSWapalaeomagneticstudy,J.Geol.Soc.Aust.,29,319– Montelli, R., Nolet, G., Dahlen, F.A. & Masters, G., 2006. A catalogue
+326. ofdeepmantleplumes:Newresultsfromfinite-frequencytomography,
+Chulliat,A.etal.,2015.TheUS/UKworldmagneticmodelfor2015-2020. Geochem.Geophys.Geosyst.,Q11007.
+Cohen,B.,Knesel,K.,Vasconcelos,P.&Schellart,W.,2013.Trackingthe Mumme,W.,1963.Thermalandalternatingmagneticfielddemagnetization
+Australia,platemotionthroughtheCenozoic:constraintsfrom40Ar/39Ar experimentsonCainozoicbasaltsfromVictoria,Australia,Geophys.J.
+geochronology,Tectonics,32,1371–1383. Int.,7(3),314–327.
+Cohen, B., Knesel, K., Vasconcelos, P., Thiede, D. & Hergt, J., 2008. Musgrave, R., 1989. A weighted least-squares fit of the Australian ap-
+40Ar/39ArconstraintsonthetimingandoriginofMioceneleucititevol- parentpolarwanderpathforthelast100Myr,Geophys.J.Int.,96(2),
+canisminsoutheasternAustralia,Aust.J.EarthSci.,55,407–418. 231–243.
+Cromwell, G., Johnson, C.L., Tauxe, L., Constable, C.G. & Jarboe, N., Musgrave, R., 1991. Reply to comments by M. Idnurm on: a weighted
+2018. PSV10: a global data set for 0-10 Ma time-averaged field and least-squaresfitoftheAustralianapparentpolarwanderpathforthelast
+paleosecularvariationstudies,Geochem.Geophys.Geosyst.,19,https: 100Myr,Geophys.J.Int.,106(3),695–698.
+//doi.org/10.1002/2017GC007318. Ogg,J.,2012.GeomagneticPolarityTimeScale,inThegeologictimescale,
+Cundari,A.,1973.Petrologyoftheleucitite-bearinglavasinNewSouth pp.85–113,Elsevier.
+Wales,J.Geol.Soc.Aust.,20,465–492. Paul, B., Hergt, J. & Woodhead, J., 2005. Mantle heterogeneity beneath
+Cundari,A.,1989.EastAustralianleucititesuite,inIntraplateVolcanism theCenozoicvolcanicprovincesofcentralVictoriainferredfromtrace-
+in Eastern Australia and NewZealand, pp. 131–132,ed. Johnson, R., elementandSr,Nd,PbandHfisotopedata,Aust.J.EarthSci.,52(2),
+CambridgeUniversityPress. 243–260.
+Davies,D.,Rawlinson,N.,Iaffaldano,G.&Campbell,I.,2015.Lithospheric Pisarevsky,S.,2011.NeweditionoftheGlobalPaleomagneticDatabase,
+controlsonmagmacompositionalongEarth’slongestcontinentalhotspot Eos,86(17),170–170.
+track,Nature,525,511–514. Robertson,W.,1966.PalaeomagnetismofsomeCainozoicigneousrocks
+Davies, D.R. & Rawlinson, N., 2014. On the origin of recent intraplate fromsouth-eastQueensland,Proc.R.Soc.Queensland,78,87–100.
+volcanisminAustralia,Geology,42,1031–1034. Rochette,P.,Aubourg,C.&Perrin,M.,1999.Isthismagneticfabricnormal?
+Dunlop,D.J.&O¨zdemir,O¨.,2001.RockMagnetism:Fundamentalsand areviewandcasestudiesinvolcanicformations,Tectonophysics,307(1–
+Frontiers,CambridgeUniversityPress. 2),219–234.
+Embleton, B., 1981. A review of the paleomagnetism of Australia and Schmidt,P.,Currey,D.&Ollier,C.,1976.Sub-basalticweathering,damsites,
+AntarcticainPaleoreconstructionoftheContinents,pp.77–92,edsMcEl- palaeomagnetism,andtheageoflateritization,J.Geol.Soc.Aust.,23(4),
+hinny,M.&Valencio,D.,AmericanGeophysicalUnion 367–370.
+Downloaded
+from
+https://academic.oup.com/gji/article/215/1/303/5054044
+by
+guest
+on
+05
+May
+2026
+
+### page_11
+PalaeomagneticstudyofAustralianleucitites 313
+Schmidt,P.&Embleton,B.,1976.Palaeomagneticresultsfromsediments Wellman,P.,McElhinny,M.&McDougall,I.,1969.Onthepolar-wander
+ofthePerthBasin,WesternAustralia,andtheirbearingonthetimingof pathforAustraliaduringtheCenozoic,Geophys.J.Int.,18(4),371–395.
+regionallateritisation,Palaeogeogr.,Palaeoclimatol.,Palaeoecol.,19(4), Whittaker, J.M., Williams, S., Masterton, S.M., Afonso, J.C., Seton, M.,
+257–273. Landgrebe,T.C.,Coffin,M.F.&Mu¨ller,D.,2013.Interactionsamong
+Schmidt,P.,Taylor,G.&Walker,P.,1982.Palaeomagneticdatingandstratig- plumes,mantlecirculationandmid-oceanridges,inProceedingsofthe
+raphyofaCainozoiclakenearCooma,NSW,J.Geol.Soc.Aust.,29(1–2), AGUFallMeetingAbstracts,DI13A–04.
+49–53. Zijderveld, J., 1967. Ac demagnetization of rocks: analysis of results, in
+Sutherland,F.L.,1981.Migrationinrelationtopossibletectonicandregional MethodsinPaleomagnetism,pp.254–286,edsCollinson,D.,Creer,K.&
+controlsineasternAustralianvolcanism,J.Volc.Geother.Res.,9,181– Runcorn,S.,Elsevier.
+213.
+Tarling,D.&Hrouda,F.,1993.TheMagneticAnisotropyofRocks,Chapman
+&Hall. SUPPORTING INFORMATION
+Tauxe,L.&Kent,D.V.,2004.Asimplifiedstatisticalmodelforthegeomag-
+SupplementarydataareavailableatGJIonline.
+neticfieldandthedetectionofshallowbiasinpaleomagneticinclinations:
+FigureS1.RepresentativeIRMacquisitioncurvesandCuriebal-
+Wastheancientmagneticfielddipolar?inTimescalesofthePaleomag-
+ancemeasurementsforleucitites.Heatingcurveisrepresentedby
+neticField,Vol.145,pp.101–116edsChannell,J.E.T,Kent,D.V.,Lowrie,
+the solid line, and cooling by the dashed line. For sample BK2-2
+W.&Meert,J.G.,AmericanGeophysicalUnion.
+Tauxe,L.,Kylstra,N.&Constable,C.,1991.Bootstrapstatisticsforpaleo- theblackandgreycuriecurvesrepresentfirstandsecondheating,
+magneticdata,J.geophys.Res.,96,B7–11740,. respectively.M:Magnetization,normalizedtoone(IRM)orinitial
+Tauxe,L.etal.,2016.Pmagpy:Softwarepackageforpaleomagneticdata value(curiebalance).
+analysisandabridgetothemagneticsinformationconsortium,MagIC FigureS2.SiteMeanaveragesformultiplesamplesfromindivid-
+database,Geochem.Geophys.Geosyst.,17(6),2450–2463. ual sites (2σ errors). Corrected degree of anisotropy (P ), Shape
+J Torsvik,T.H.,Mu¨ller,R.D.,VanderVoo,R.,Steinberger,B.&Gaina,C., Parameter(T),andequalareaprojectionsofsitemeanAMSFabric
+2008.Globalplatemotionframes:towardaunifiedmodel,Rev.Geophys.,
+principalaxes,indicatingasteeplyinclinedminimumaxis(K )and 46RG3004. 3
+shallowgirdleofK –K axes.
+Torsvik,T.H.etal.,2012.Phanerozoicpolarwander,palaeogeographyand 1 2
+Figure S3. Equal area stereonets of directional components and
+dynamics,Earth-Sci.Rev.,114(3–4),325–368.
+VGPsbysite.SeeFig.A4forsymbology.
+Vandamme,D.,1994.Anewmethodtodeterminepaleosecularvariation,
+Phys.Earthplanet.Int.,85,131–142. Figure S4. Equal area stereonets of directional components and
+VanderVoo,R.,1990.Thereliabilityofpaleomagneticdata,Tectonophysics, VGPsbysite.FilledSymbolsindicatepositive(downward)inclina-
+184(1),1–9. tiondirectionsandNorthHemisphereVGPlatitudes.Opensymbols
+VanderVoo,R.,1993.PaleomagnetismoftheAtlantic,Tethys,andIapetus indicatenegative(upward)inclinationdirectionsandSouthHemi-
+Oceans,CambridgeUniversityPress. sphere VGP latitudes. Grey symbols indicate overprint directions
+Vasconcelos,P.,Knesel,K.,Cohen,B.&Heim,J.,2008.Geochronology (s1, s2), Black circles/squares indicate directions inferred to be
+of the Australian Cenozoic: a history of tectonic and igneous activity,
+primary determined by line/arc fitting, respectively (c1/c1a). Arc
+weathering,erosion,andsedimentation,Aust.J.EarthSci.,55(6-7),865–
+segmentsforsuchfitsaredottedinupperhemisphereandsolidin
+914.
+lower hemisphere. Black triangles indicate directions inferred to
+Watson,G.,1956.Analysisofdispersiononasphere,Geophys.Suppl.Mon.
+reflectlightningremagnetization(c1L).Fishermeansforbothdi-
+Not.R.Astron.Soc.,7(4),153–159.
+Watson,G.S.,1983.StatisticsonSpheres,Wiley-Interscience. rectionsandtheirVGPs(witha 95 andA 95 ,respectively)areplotted
+Wellman, P., 1975. Palaeomagnetism of two mid-Tertiary basaltic vol- inblue.
+canoes in Queensland, Australia, Proc. R. Soc. Queensland, 86, Pleasenote:OxfordUniversityPressisnotresponsibleforthecon-
+147–153. tent or functionality of any supporting materials supplied by the
+Wellman,P.&McDougall,I.,1974.Cainozoicigneousactivityineastern authors. Any queries (other than missing material) should be di-
+Australia,Tectonophysics,23(1–2),49–65. rectedtothecorrespondingauthorforthearticle.
+Downloaded
+from
+https://academic.oup.com/gji/article/215/1/303/5054044
+by
+guest
+on
+05
+May
+2026

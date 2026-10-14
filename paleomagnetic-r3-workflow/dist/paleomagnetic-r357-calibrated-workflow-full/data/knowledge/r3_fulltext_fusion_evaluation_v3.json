@@ -1,0 +1,42 @@
+{
+  "schema_version": "r3_fulltext_fusion_evaluation_v3",
+  "status": "FROZEN_BEFORE_LABEL_ACCESS",
+  "scope": "all 872 PDF-backed single-target papers at full coverage",
+  "development_notice": "The fixed full-text candidate was selected during internal development and requires locked external validation.",
+  "protocol": {
+    "outer_folds": 5,
+    "threshold": 0.5,
+    "random_state": 357,
+    "outer_test_selection": false,
+    "single_target_training_only_for_fulltext": true
+  },
+  "fulltext_expert": {
+    "prefix_target_name": true,
+    "analyzer": "word",
+    "ngram_range": [1, 2],
+    "min_df": 2,
+    "max_df": 0.997,
+    "max_features": 100000,
+    "sublinear_tf": true,
+    "strip_accents": "unicode",
+    "C_values": [0.5, 1.0, 2.0],
+    "solver": "liblinear",
+    "max_iter": 2500,
+    "aggregation": "uniform_arithmetic_mean"
+  },
+  "primary_fusion": {
+    "name": "v2_original_text_knowledge_plus_full_document_word_mean3",
+    "v2_weight": 0.95,
+    "fulltext_weight": 0.05,
+    "threshold": 0.5
+  },
+  "runtime_boundary": {
+    "features_frozen_before_labels": true,
+    "pmagresult_or_rockmag_read": false,
+    "prior_predictions_read_before_provisional": false,
+    "evaluation_results_read_before_provisional": false,
+    "outer_test_labels_used_for_training_or_selection": false,
+    "posthoc_threshold_search_used": false,
+    "selective_abstention_used": false
+  }
+}

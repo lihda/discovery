@@ -1,0 +1,983 @@
+{
+  "artifact_class": "historically_supervised_distillation",
+  "carrier_taxonomy": [
+    {
+      "concept_id": "magnetite",
+      "runtime_original_text_patterns": [
+        "\\bmagnetite\\b"
+      ],
+      "training_statistics": {
+        "paper_deduplicated": {
+          "conflict_excluded": 6,
+          "negative": 11,
+          "observations": 545,
+          "positive": 534,
+          "precision": 0.97981651,
+          "wilson_lower_bound_95": 0.96422316
+        },
+        "row_level": {
+          "conflict_excluded": 0,
+          "negative": 23,
+          "observations": 922,
+          "positive": 899,
+          "precision": 0.97505423,
+          "wilson_lower_bound_95": 0.96284563
+        }
+      }
+    },
+    {
+      "concept_id": "titanomagnetite",
+      "runtime_original_text_patterns": [
+        "\\btitano[- ]?magnetite\\b"
+      ],
+      "training_statistics": {
+        "paper_deduplicated": {
+          "conflict_excluded": 1,
+          "negative": 5,
+          "observations": 106,
+          "positive": 101,
+          "precision": 0.95283019,
+          "wilson_lower_bound_95": 0.89430101
+        },
+        "row_level": {
+          "conflict_excluded": 0,
+          "negative": 9,
+          "observations": 160,
+          "positive": 151,
+          "precision": 0.94375,
+          "wilson_lower_bound_95": 0.8965638
+        }
+      }
+    },
+    {
+      "concept_id": "hematite",
+      "runtime_original_text_patterns": [
+        "\\bha?ematite\\b"
+      ],
+      "training_statistics": {
+        "paper_deduplicated": {
+          "conflict_excluded": 1,
+          "negative": 6,
+          "observations": 289,
+          "positive": 283,
+          "precision": 0.97923875,
+          "wilson_lower_bound_95": 0.95545328
+        },
+        "row_level": {
+          "conflict_excluded": 0,
+          "negative": 9,
+          "observations": 480,
+          "positive": 471,
+          "precision": 0.98125,
+          "wilson_lower_bound_95": 0.96475341
+        }
+      }
+    },
+    {
+      "concept_id": "maghemite",
+      "runtime_original_text_patterns": [
+        "\\bmaghemite\\b"
+      ],
+      "training_statistics": {
+        "paper_deduplicated": {
+          "conflict_excluded": 0,
+          "negative": 1,
+          "observations": 27,
+          "positive": 26,
+          "precision": 0.96296296,
+          "wilson_lower_bound_95": 0.81716534
+        },
+        "row_level": {
+          "conflict_excluded": 0,
+          "negative": 1,
+          "observations": 47,
+          "positive": 46,
+          "precision": 0.9787234,
+          "wilson_lower_bound_95": 0.88887019
+        }
+      }
+    },
+    {
+      "concept_id": "pyrrhotite",
+      "runtime_original_text_patterns": [
+        "\\bpyrrhotite\\b"
+      ],
+      "training_statistics": {
+        "paper_deduplicated": {
+          "conflict_excluded": 0,
+          "negative": 2,
+          "observations": 35,
+          "positive": 33,
+          "precision": 0.94285714,
+          "wilson_lower_bound_95": 0.81392943
+        },
+        "row_level": {
+          "conflict_excluded": 0,
+          "negative": 3,
+          "observations": 53,
+          "positive": 50,
+          "precision": 0.94339623,
+          "wilson_lower_bound_95": 0.84629792
+        }
+      }
+    },
+    {
+      "concept_id": "greigite",
+      "runtime_original_text_patterns": [
+        "\\bgreigite\\b"
+      ],
+      "training_statistics": {
+        "paper_deduplicated": {
+          "conflict_excluded": 0,
+          "negative": 0,
+          "observations": 0,
+          "positive": 0,
+          "precision": null,
+          "wilson_lower_bound_95": 0.0
+        },
+        "row_level": {
+          "conflict_excluded": 0,
+          "negative": 0,
+          "observations": 0,
+          "positive": 0,
+          "precision": null,
+          "wilson_lower_bound_95": 0.0
+        }
+      }
+    },
+    {
+      "concept_id": "goethite",
+      "runtime_original_text_patterns": [
+        "\\bgoethite\\b"
+      ],
+      "training_statistics": {
+        "paper_deduplicated": {
+          "conflict_excluded": 0,
+          "negative": 0,
+          "observations": 9,
+          "positive": 9,
+          "precision": 1.0,
+          "wilson_lower_bound_95": 0.70085495
+        },
+        "row_level": {
+          "conflict_excluded": 0,
+          "negative": 0,
+          "observations": 11,
+          "positive": 11,
+          "precision": 1.0,
+          "wilson_lower_bound_95": 0.74116703
+        }
+      }
+    },
+    {
+      "concept_id": "ilmenite",
+      "runtime_original_text_patterns": [
+        "\\bilmenite\\b"
+      ],
+      "training_statistics": {
+        "paper_deduplicated": {
+          "conflict_excluded": 0,
+          "negative": 2,
+          "observations": 25,
+          "positive": 23,
+          "precision": 0.92,
+          "wilson_lower_bound_95": 0.75033891
+        },
+        "row_level": {
+          "conflict_excluded": 0,
+          "negative": 3,
+          "observations": 38,
+          "positive": 35,
+          "precision": 0.92105263,
+          "wilson_lower_bound_95": 0.79200629
+        }
+      }
+    }
+  ],
+  "decision_policy": {
+    "always_required": [
+      "original-paper evidence",
+      "target binding",
+      "non-reference context",
+      "performed-or-reported experimental context"
+    ],
+    "identity_granularity": "canonical_target",
+    "missing_or_ambiguous_source": "ABSTAIN",
+    "positive_requires_any": [
+      "target-bound performed method distilled from a ROCKMAG semantic class",
+      "target-bound quantified diagnostic result that entails a performed method",
+      "target-bound performed method plus diagnostic result",
+      "target-bound performed method plus named carrier identification"
+    ],
+    "rockmag_proxy_policy": "distilled_method_or_self_authenticating_result",
+    "standalone_non_support": [
+      "component unblocking-temperature interval",
+      "bare susceptibility code",
+      "bare anisotropy code",
+      "bare carrier name"
+    ]
+  },
+  "diagnostic_taxonomy": [
+    {
+      "concept_id": "saturation_behavior",
+      "runtime_original_text_patterns": [
+        "(?:does\\s+not|did\\s+not|failed\\s+to)\\s+saturate",
+        "saturat(?:e|ed|ion).{0,50}(?:at|by|above|below)\\s*[0-9]"
+      ],
+      "training_statistics": {
+        "paper_deduplicated": {
+          "conflict_excluded": 0,
+          "negative": 0,
+          "observations": 124,
+          "positive": 124,
+          "precision": 1.0,
+          "wilson_lower_bound_95": 0.96995138
+        },
+        "row_level": {
+          "conflict_excluded": 0,
+          "negative": 0,
+          "observations": 215,
+          "positive": 215,
+          "precision": 1.0,
+          "wilson_lower_bound_95": 0.98244638
+        }
+      }
+    },
+    {
+      "concept_id": "curie_temperature",
+      "runtime_original_text_patterns": [
+        "Curie\\s+(?:point|temperature)"
+      ],
+      "training_statistics": {
+        "paper_deduplicated": {
+          "conflict_excluded": 0,
+          "negative": 0,
+          "observations": 46,
+          "positive": 46,
+          "precision": 1.0,
+          "wilson_lower_bound_95": 0.92292644
+        },
+        "row_level": {
+          "conflict_excluded": 0,
+          "negative": 0,
+          "observations": 70,
+          "positive": 70,
+          "precision": 1.0,
+          "wilson_lower_bound_95": 0.94797694
+        }
+      }
+    },
+    {
+      "concept_id": "domain_state",
+      "runtime_original_text_patterns": [
+        "(?:single|pseudo[- ]single|multi)[- ]domain",
+        "\\b(?:SD|PSD|MD)\\b.{0,40}domain",
+        "domain\\s+(?:state|size)"
+      ],
+      "training_statistics": {
+        "paper_deduplicated": {
+          "conflict_excluded": 0,
+          "negative": 0,
+          "observations": 65,
+          "positive": 65,
+          "precision": 1.0,
+          "wilson_lower_bound_95": 0.94419847
+        },
+        "row_level": {
+          "conflict_excluded": 0,
+          "negative": 0,
+          "observations": 95,
+          "positive": 95,
+          "precision": 1.0,
+          "wilson_lower_bound_95": 0.96113515
+        }
+      }
+    },
+    {
+      "concept_id": "mineral_transition",
+      "runtime_original_text_patterns": [
+        "(?:Verwey|Morin)\\s+transition"
+      ],
+      "training_statistics": {
+        "paper_deduplicated": {
+          "conflict_excluded": 0,
+          "negative": 0,
+          "observations": 0,
+          "positive": 0,
+          "precision": null,
+          "wilson_lower_bound_95": 0.0
+        },
+        "row_level": {
+          "conflict_excluded": 0,
+          "negative": 0,
+          "observations": 0,
+          "positive": 0,
+          "precision": null,
+          "wilson_lower_bound_95": 0.0
+        }
+      }
+    }
+  ],
+  "method_taxonomy": [
+    {
+      "concept_id": "irm_acquisition",
+      "runtime_original_text_patterns": [
+        "\\b(?:IRM|SIRM)\\b",
+        "isothermal\\s+remanent\\s+magneti[sz]ation",
+        "(?:IRM|remanence)\\s+acquisition\\s+curves?"
+      ],
+      "training_statistics": {
+        "paper_deduplicated": {
+          "conflict_excluded": 2,
+          "negative": 1,
+          "observations": 477,
+          "positive": 476,
+          "precision": 0.99790356,
+          "wilson_lower_bound_95": 0.98822176
+        },
+        "row_level": {
+          "conflict_excluded": 0,
+          "negative": 3,
+          "observations": 806,
+          "positive": 803,
+          "precision": 0.99627792,
+          "wilson_lower_bound_95": 0.98911431
+        }
+      }
+    },
+    {
+      "concept_id": "thermomagnetic_curve",
+      "runtime_original_text_patterns": [
+        "thermo[- ]?magnetic",
+        "\\bJ(?:s|rs)[- ]?\\(?T\\)?\\b",
+        "saturation\\s+magneti[sz]ation.{0,60}temperature"
+      ],
+      "training_statistics": {
+        "paper_deduplicated": {
+          "conflict_excluded": 3,
+          "negative": 4,
+          "observations": 324,
+          "positive": 320,
+          "precision": 0.98765432,
+          "wilson_lower_bound_95": 0.96869172
+        },
+        "row_level": {
+          "conflict_excluded": 0,
+          "negative": 7,
+          "observations": 595,
+          "positive": 588,
+          "precision": 0.98823529,
+          "wilson_lower_bound_95": 0.97591697
+        }
+      }
+    },
+    {
+      "concept_id": "temperature_dependent_susceptibility",
+      "runtime_original_text_patterns": [
+        "temperature[- ]dependent\\s+(?:magnetic\\s+)?susceptibility",
+        "susceptibility.{0,80}(?:heating|cooling|temperature)",
+        "(?:heating|cooling|temperature).{0,80}susceptibility",
+        "\\b(?:kappa|chi|[κχ])[- ]?T\\b"
+      ],
+      "training_statistics": {
+        "paper_deduplicated": {
+          "conflict_excluded": 2,
+          "negative": 1,
+          "observations": 271,
+          "positive": 270,
+          "precision": 0.99630996,
+          "wilson_lower_bound_95": 0.97939776
+        },
+        "row_level": {
+          "conflict_excluded": 0,
+          "negative": 4,
+          "observations": 446,
+          "positive": 442,
+          "precision": 0.99103139,
+          "wilson_lower_bound_95": 0.97716946
+        }
+      }
+    },
+    {
+      "concept_id": "three_axis_irm",
+      "runtime_original_text_patterns": [
+        "three[- ]axis\\s+(?:IRM|isothermal\\s+remanent\\s+magneti[sz]ation)",
+        "3[- ]axis\\s+(?:IRM|isothermal\\s+remanent\\s+magneti[sz]ation)",
+        "\\bLowrie(?:[- ]Fuller)?\\s+test"
+      ],
+      "training_statistics": {
+        "paper_deduplicated": {
+          "conflict_excluded": 1,
+          "negative": 2,
+          "observations": 168,
+          "positive": 166,
+          "precision": 0.98809524,
+          "wilson_lower_bound_95": 0.95763887
+        },
+        "row_level": {
+          "conflict_excluded": 0,
+          "negative": 3,
+          "observations": 277,
+          "positive": 274,
+          "precision": 0.98916968,
+          "wilson_lower_bound_95": 0.96864724
+        }
+      }
+    },
+    {
+      "concept_id": "low_temperature_irm",
+      "runtime_original_text_patterns": [
+        "low[- ]temperature.{0,100}(?:IRM|isothermal\\s+remanent\\s+magneti[sz]ation)",
+        "(?:IRM|isothermal\\s+remanent\\s+magneti[sz]ation).{0,100}low[- ]temperature",
+        "(?:Verwey|Morin)\\s+transition"
+      ],
+      "training_statistics": {
+        "paper_deduplicated": {
+          "conflict_excluded": 0,
+          "negative": 0,
+          "observations": 0,
+          "positive": 0,
+          "precision": null,
+          "wilson_lower_bound_95": 0.0
+        },
+        "row_level": {
+          "conflict_excluded": 0,
+          "negative": 0,
+          "observations": 0,
+          "positive": 0,
+          "precision": null,
+          "wilson_lower_bound_95": 0.0
+        }
+      }
+    },
+    {
+      "concept_id": "hysteresis_forc",
+      "runtime_original_text_patterns": [
+        "hysteresis\\s+(?:loops?|properties|parameters)",
+        "first[- ]order\\s+reversal\\s+curves?",
+        "\\bFORC\\s+(?:diagrams?|distributions?|analys[ei]s)",
+        "(?:Day|Henkel)\\s+plots?"
+      ],
+      "training_statistics": {
+        "paper_deduplicated": {
+          "conflict_excluded": 2,
+          "negative": 0,
+          "observations": 221,
+          "positive": 221,
+          "precision": 1.0,
+          "wilson_lower_bound_95": 0.98291481
+        },
+        "row_level": {
+          "conflict_excluded": 0,
+          "negative": 3,
+          "observations": 359,
+          "positive": 356,
+          "precision": 0.99164345,
+          "wilson_lower_bound_95": 0.97572267
+        }
+      }
+    },
+    {
+      "concept_id": "magnetic_fabric",
+      "runtime_original_text_patterns": [
+        "anisotropy\\s+of\\s+magnetic\\s+susceptibility",
+        "anisotropy\\s+of\\s+isothermal\\s+remanence",
+        "anisotropy\\s+of\\s+anhysteretic\\s+remanence",
+        "\\b(?:AMS|AIR|AAR)\\b.{0,50}(?:measurements?|analys[ei]s|fabric)"
+      ],
+      "training_statistics": {
+        "paper_deduplicated": {
+          "conflict_excluded": 0,
+          "negative": 0,
+          "observations": 0,
+          "positive": 0,
+          "precision": null,
+          "wilson_lower_bound_95": 0.0
+        },
+        "row_level": {
+          "conflict_excluded": 0,
+          "negative": 0,
+          "observations": 0,
+          "positive": 0,
+          "precision": null,
+          "wilson_lower_bound_95": 0.0
+        }
+      }
+    },
+    {
+      "concept_id": "petrographic_microscopy",
+      "runtime_original_text_patterns": [
+        "reflected[- ]light\\s+microscop",
+        "polished\\s+thin\\s+sections?",
+        "scanning\\s+electron\\s+microscop",
+        "transmission\\s+electron\\s+microscop",
+        "electron\\s+microprobe",
+        "energy[- ]dispersive\\s+(?:spectroscopy|analysis)"
+      ],
+      "training_statistics": {
+        "paper_deduplicated": {
+          "conflict_excluded": 1,
+          "negative": 7,
+          "observations": 212,
+          "positive": 205,
+          "precision": 0.96698113,
+          "wilson_lower_bound_95": 0.93342464
+        },
+        "row_level": {
+          "conflict_excluded": 0,
+          "negative": 12,
+          "observations": 354,
+          "positive": 342,
+          "precision": 0.96610169,
+          "wilson_lower_bound_95": 0.94169182
+        }
+      }
+    },
+    {
+      "concept_id": "mineralogical_phase_analysis",
+      "runtime_original_text_patterns": [
+        "X[- ]?ray\\s+diffraction",
+        "\\bXRD\\b.{0,50}(?:analys[ei]s|patterns?|measurements?)",
+        "M[oö]ssbauer\\s+(?:spectroscopy|spectra)",
+        "mineral\\s+separation"
+      ],
+      "training_statistics": {
+        "paper_deduplicated": {
+          "conflict_excluded": 0,
+          "negative": 0,
+          "observations": 9,
+          "positive": 9,
+          "precision": 1.0,
+          "wilson_lower_bound_95": 0.70085495
+        },
+        "row_level": {
+          "conflict_excluded": 0,
+          "negative": 0,
+          "observations": 14,
+          "positive": 14,
+          "precision": 1.0,
+          "wilson_lower_bound_95": 0.7846892
+        }
+      }
+    }
+  ],
+  "offline_source_access": {
+    "nonempty_training_field_values": 1567,
+    "source_rows_scanned_by_identity_only": 10421,
+    "training_rows_with_field_cell_access": 2473
+  },
+  "profile": "rockmag_text_distilled_v1",
+  "provenance": {
+    "identity_use_offline": {
+      "paper_identity": "paper-group split only",
+      "record_identity": "training-only table join only"
+    },
+    "input_hash_access_is_nonsemantic": true,
+    "input_sha256": {
+      "source_metadata_table": "3ff2c01ce08b01622aaee0531426fa50c5439b251cb8be0f78f83b6591b87a8c",
+      "target_manifest_source": "378c17338f3b5cfeff3ccd496894e0f6183f747119b2624c4a9cefaeda02501e"
+    },
+    "label_supervision": true,
+    "phase": "offline_training_only",
+    "raw_field_values_retained": false,
+    "row_identity_mapping_retained": false,
+    "source_fields_used_offline": [
+      "R3",
+      "ROCKMAG"
+    ],
+    "source_paper_quotes_retained": false,
+    "supervision_scope": "pre_registered_training_partition_only"
+  },
+  "runtime_policy": {
+    "allowed_scoring_sources": [
+      "identity manifest",
+      "original paper page text",
+      "this frozen aggregate artifact"
+    ],
+    "contains_record_answer_mapping": false,
+    "previous_prediction_access": false,
+    "source_metadata_table_access": false,
+    "supervised_field_access": false
+  },
+  "schema_version": "r3_rockmag_text_distillation_v1",
+  "split": {
+    "algorithm": "SHA256(salt + NUL + canonical paper identity), first 8 bytes as unsigned big-endian / 2^64",
+    "held_out_supervision_accessed": false,
+    "holdout_fraction": 0.2,
+    "identity_counts": {
+      "holdout": {
+        "paper_groups": 335,
+        "rows": 700
+      },
+      "skipped_blank_paper_identity_rows": 0,
+      "training": {
+        "paper_groups": 1292,
+        "rows": 2473
+      }
+    },
+    "salt": "r3-rockmag-distillation-v1",
+    "unit": "paper_identity"
+  },
+  "standalone_exclusions": [
+    {
+      "exclusion_id": "demagnetization_unblocking_interval",
+      "field_pattern": "\\bT(?:ub|b)\\s*(?:=|>|<|:)",
+      "policy": "A component cleaning or unblocking interval is not by itself a carrier investigation."
+    },
+    {
+      "exclusion_id": "bare_susceptibility",
+      "field_pattern": "^\\s*SUSC\\s*$",
+      "policy": "Bare susceptibility lacks a temperature-dependent carrier diagnostic."
+    },
+    {
+      "exclusion_id": "bare_anisotropy_code",
+      "field_pattern": "^\\s*AN\\s*$",
+      "policy": "The ambiguous legacy AN code is not an online evidence pattern."
+    },
+    {
+      "exclusion_id": "bare_carrier_name",
+      "field_pattern": "derived:carrier_without_method",
+      "policy": "A mineral name without an investigation or diagnostic result is insufficient."
+    }
+  ],
+  "training_statistics": {
+    "aggregate_counts": {
+      "rows_joined_to_source_table": 1567,
+      "rows_matching_reportable_template": 1345,
+      "rows_with_nonempty_field_value": 1567,
+      "training_rows": 2473
+    },
+    "paper_deduplicated_statistics": {
+      "carrier:goethite": {
+        "conflict_excluded": 0,
+        "negative": 0,
+        "observations": 9,
+        "positive": 9,
+        "precision": 1.0,
+        "wilson_lower_bound_95": 0.70085495
+      },
+      "carrier:hematite": {
+        "conflict_excluded": 1,
+        "negative": 6,
+        "observations": 289,
+        "positive": 283,
+        "precision": 0.97923875,
+        "wilson_lower_bound_95": 0.95545328
+      },
+      "carrier:ilmenite": {
+        "conflict_excluded": 0,
+        "negative": 2,
+        "observations": 25,
+        "positive": 23,
+        "precision": 0.92,
+        "wilson_lower_bound_95": 0.75033891
+      },
+      "carrier:maghemite": {
+        "conflict_excluded": 0,
+        "negative": 1,
+        "observations": 27,
+        "positive": 26,
+        "precision": 0.96296296,
+        "wilson_lower_bound_95": 0.81716534
+      },
+      "carrier:magnetite": {
+        "conflict_excluded": 6,
+        "negative": 11,
+        "observations": 545,
+        "positive": 534,
+        "precision": 0.97981651,
+        "wilson_lower_bound_95": 0.96422316
+      },
+      "carrier:pyrrhotite": {
+        "conflict_excluded": 0,
+        "negative": 2,
+        "observations": 35,
+        "positive": 33,
+        "precision": 0.94285714,
+        "wilson_lower_bound_95": 0.81392943
+      },
+      "carrier:titanomagnetite": {
+        "conflict_excluded": 1,
+        "negative": 5,
+        "observations": 106,
+        "positive": 101,
+        "precision": 0.95283019,
+        "wilson_lower_bound_95": 0.89430101
+      },
+      "diagnostic:curie_temperature": {
+        "conflict_excluded": 0,
+        "negative": 0,
+        "observations": 46,
+        "positive": 46,
+        "precision": 1.0,
+        "wilson_lower_bound_95": 0.92292644
+      },
+      "diagnostic:domain_state": {
+        "conflict_excluded": 0,
+        "negative": 0,
+        "observations": 65,
+        "positive": 65,
+        "precision": 1.0,
+        "wilson_lower_bound_95": 0.94419847
+      },
+      "diagnostic:saturation_behavior": {
+        "conflict_excluded": 0,
+        "negative": 0,
+        "observations": 124,
+        "positive": 124,
+        "precision": 1.0,
+        "wilson_lower_bound_95": 0.96995138
+      },
+      "method:hysteresis_forc": {
+        "conflict_excluded": 2,
+        "negative": 0,
+        "observations": 221,
+        "positive": 221,
+        "precision": 1.0,
+        "wilson_lower_bound_95": 0.98291481
+      },
+      "method:irm_acquisition": {
+        "conflict_excluded": 2,
+        "negative": 1,
+        "observations": 477,
+        "positive": 476,
+        "precision": 0.99790356,
+        "wilson_lower_bound_95": 0.98822176
+      },
+      "method:mineralogical_phase_analysis": {
+        "conflict_excluded": 0,
+        "negative": 0,
+        "observations": 9,
+        "positive": 9,
+        "precision": 1.0,
+        "wilson_lower_bound_95": 0.70085495
+      },
+      "method:petrographic_microscopy": {
+        "conflict_excluded": 1,
+        "negative": 7,
+        "observations": 212,
+        "positive": 205,
+        "precision": 0.96698113,
+        "wilson_lower_bound_95": 0.93342464
+      },
+      "method:temperature_dependent_susceptibility": {
+        "conflict_excluded": 2,
+        "negative": 1,
+        "observations": 271,
+        "positive": 270,
+        "precision": 0.99630996,
+        "wilson_lower_bound_95": 0.97939776
+      },
+      "method:thermomagnetic_curve": {
+        "conflict_excluded": 3,
+        "negative": 4,
+        "observations": 324,
+        "positive": 320,
+        "precision": 0.98765432,
+        "wilson_lower_bound_95": 0.96869172
+      },
+      "method:three_axis_irm": {
+        "conflict_excluded": 1,
+        "negative": 2,
+        "observations": 168,
+        "positive": 166,
+        "precision": 0.98809524,
+        "wilson_lower_bound_95": 0.95763887
+      },
+      "template:rockmag_reportable": {
+        "conflict_excluded": 3,
+        "negative": 12,
+        "observations": 775,
+        "positive": 763,
+        "precision": 0.98451613,
+        "wilson_lower_bound_95": 0.97313197
+      }
+    },
+    "row_level_statistics": {
+      "carrier:goethite": {
+        "conflict_excluded": 0,
+        "negative": 0,
+        "observations": 11,
+        "positive": 11,
+        "precision": 1.0,
+        "wilson_lower_bound_95": 0.74116703
+      },
+      "carrier:hematite": {
+        "conflict_excluded": 0,
+        "negative": 9,
+        "observations": 480,
+        "positive": 471,
+        "precision": 0.98125,
+        "wilson_lower_bound_95": 0.96475341
+      },
+      "carrier:ilmenite": {
+        "conflict_excluded": 0,
+        "negative": 3,
+        "observations": 38,
+        "positive": 35,
+        "precision": 0.92105263,
+        "wilson_lower_bound_95": 0.79200629
+      },
+      "carrier:maghemite": {
+        "conflict_excluded": 0,
+        "negative": 1,
+        "observations": 47,
+        "positive": 46,
+        "precision": 0.9787234,
+        "wilson_lower_bound_95": 0.88887019
+      },
+      "carrier:magnetite": {
+        "conflict_excluded": 0,
+        "negative": 23,
+        "observations": 922,
+        "positive": 899,
+        "precision": 0.97505423,
+        "wilson_lower_bound_95": 0.96284563
+      },
+      "carrier:pyrrhotite": {
+        "conflict_excluded": 0,
+        "negative": 3,
+        "observations": 53,
+        "positive": 50,
+        "precision": 0.94339623,
+        "wilson_lower_bound_95": 0.84629792
+      },
+      "carrier:titanomagnetite": {
+        "conflict_excluded": 0,
+        "negative": 9,
+        "observations": 160,
+        "positive": 151,
+        "precision": 0.94375,
+        "wilson_lower_bound_95": 0.8965638
+      },
+      "diagnostic:curie_temperature": {
+        "conflict_excluded": 0,
+        "negative": 0,
+        "observations": 70,
+        "positive": 70,
+        "precision": 1.0,
+        "wilson_lower_bound_95": 0.94797694
+      },
+      "diagnostic:domain_state": {
+        "conflict_excluded": 0,
+        "negative": 0,
+        "observations": 95,
+        "positive": 95,
+        "precision": 1.0,
+        "wilson_lower_bound_95": 0.96113515
+      },
+      "diagnostic:saturation_behavior": {
+        "conflict_excluded": 0,
+        "negative": 0,
+        "observations": 215,
+        "positive": 215,
+        "precision": 1.0,
+        "wilson_lower_bound_95": 0.98244638
+      },
+      "method:hysteresis_forc": {
+        "conflict_excluded": 0,
+        "negative": 3,
+        "observations": 359,
+        "positive": 356,
+        "precision": 0.99164345,
+        "wilson_lower_bound_95": 0.97572267
+      },
+      "method:irm_acquisition": {
+        "conflict_excluded": 0,
+        "negative": 3,
+        "observations": 806,
+        "positive": 803,
+        "precision": 0.99627792,
+        "wilson_lower_bound_95": 0.98911431
+      },
+      "method:mineralogical_phase_analysis": {
+        "conflict_excluded": 0,
+        "negative": 0,
+        "observations": 14,
+        "positive": 14,
+        "precision": 1.0,
+        "wilson_lower_bound_95": 0.7846892
+      },
+      "method:petrographic_microscopy": {
+        "conflict_excluded": 0,
+        "negative": 12,
+        "observations": 354,
+        "positive": 342,
+        "precision": 0.96610169,
+        "wilson_lower_bound_95": 0.94169182
+      },
+      "method:temperature_dependent_susceptibility": {
+        "conflict_excluded": 0,
+        "negative": 4,
+        "observations": 446,
+        "positive": 442,
+        "precision": 0.99103139,
+        "wilson_lower_bound_95": 0.97716946
+      },
+      "method:thermomagnetic_curve": {
+        "conflict_excluded": 0,
+        "negative": 7,
+        "observations": 595,
+        "positive": 588,
+        "precision": 0.98823529,
+        "wilson_lower_bound_95": 0.97591697
+      },
+      "method:three_axis_irm": {
+        "conflict_excluded": 0,
+        "negative": 3,
+        "observations": 277,
+        "positive": 274,
+        "precision": 0.98916968,
+        "wilson_lower_bound_95": 0.96864724
+      },
+      "template:rockmag_reportable": {
+        "conflict_excluded": 0,
+        "negative": 20,
+        "observations": 1345,
+        "positive": 1325,
+        "precision": 0.98513011,
+        "wilson_lower_bound_95": 0.97714331
+      }
+    },
+    "standalone_exclusion_counts": {
+      "bare_anisotropy_code": 13,
+      "bare_carrier_name": 41,
+      "bare_susceptibility": 19,
+      "demagnetization_unblocking_interval": 14
+    },
+    "training_rule_evaluation": {
+      "independent_generalization_claim": false,
+      "reportable_semantic_template": {
+        "accuracy": 0.9118479579458147,
+        "balanced_accuracy": 0.9244704012164358,
+        "confusion_matrix": {
+          "false_negative": 198,
+          "false_positive": 20,
+          "true_negative": 930,
+          "true_positive": 1325
+        },
+        "f1_0": 0.8950914340712224,
+        "f1_1": 0.9239888423988842,
+        "precision_1": 0.9851301115241635,
+        "recall_1": 0.8699934340118188,
+        "rows": 2473
+      },
+      "rockmag_nonempty_baseline": {
+        "accuracy": 0.9603720177921553,
+        "balanced_accuracy": 0.9537674949027197,
+        "confusion_matrix": {
+          "false_negative": 27,
+          "false_positive": 71,
+          "true_negative": 879,
+          "true_positive": 1496
+        },
+        "f1_0": 0.947198275862069,
+        "f1_1": 0.968284789644013,
+        "precision_1": 0.9546904913848118,
+        "recall_1": 0.9822718319107026,
+        "rows": 2473
+      },
+      "scope": "pre_registered_training_partition_only"
+    }
+  }
+}

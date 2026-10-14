@@ -1,0 +1,884 @@
+### page_1
+eprints@whiterose.ac.uk
+https://eprints.whiterose.ac.uk
+Universities of Leeds, Sheffield and York
+Deposited via The University of Leeds.
+White Rose Research Online URL for this paper:
+https://eprints.whiterose.ac.uk/id/eprint/186497/
+Version: Accepted Version
+Article:
+Guo, W, Tong, J, He, Q et al. (2022) Late Permian–Middle Triassic magnetostratigraphy in
+North China and its implications for terrestrial-marine correlations. Earth and Planetary
+Science Letters, 585. 117519. ISSN: 0012-821X
+https://doi.org/10.1016/j.epsl.2022.117519
+© 2022, Elsevier. This manuscript version is made available under the CC-BY-NC-ND 4.0
+license http://creativecommons.org/licenses/by-nc-nd/4.0/.
+Reuse
+This article is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivs
+(CC BY-NC-ND) licence. This licence only allows you to download this work and share it with others as long
+as you credit the authors, but you can’t change the article in any way or use it commercially. More
+information and the full terms of the licence here: https://creativecommons.org/licenses/
+Takedown
+If you consider content in White Rose Research Online to be in breach of UK law, please notify us by
+emailing eprints@whiterose.ac.uk including the URL of the record and the reason for the withdrawal request.
+
+### page_2
+Late Permian–Middle Triassic magnetostratigraphy in North China and its
+1
+implications for terrestrial-marine correlations
+2
+3 Wenwei Guoa, Jinnan Tonga, *, Qi Heb, Mark W. Hounslowc, d, Huyue Songa, Jacopo Dal
+4 Corsoa, Paul B. Wignall e, Jahandar Ramezanif, Li Tiana, Daoliang Chua
+5 aState Key Laboratory of Biogeology and Environmental Geology, School of Earth Science, China
+6 University of Geosciences, Wuhan 430074, China
+7 bState Key Laboratory of Geological Processes and Mineral Resources, Planetary Science Institute,
+8 School of Earth Sciences, China University of Geosciences, Wuhan 430074, China
+9 cLancaster Environment Centre, Lancaster University, Lancaster, UK
+10 dEarth, Ocean and Ecological Sciences, University of Liverpool, Liverpool, Jane Herdman Building,
+11 UK
+12 eSchool of Earth and Environment, University of Leeds, Leeds, UK
+13 f Department of Earth, Atmospheric and Planetary Sciences, Massachusetts Institute of Technology,
+14 Cambridge, MA 02139, USA
+15 *Corresponding author: jntong@cug.edu.cn (J.N. Tong)
+16
+17 Abstract
+18 A detailed magnetostratigraphic study, linked to a new latest Permian U–Pb ID-TIMS age, was
+19 undertaken on the continental Shichuanhe section (SCH) in North China in order to provide a
+20 magnetic polarity scale for the Late Permian–early Middle Triassic interval. Tilt-corrected mean
+21 directions of the characteristic remanent magnetization pass the reversal test and correspond to a
+22 site paleolatitude of 18.1°N during the Early Triassic, consistent with previous results from the
+
+### page_3
+23 North China Block. The magnetostratigraphy shows close similarity with previous studies, allowing
+24 interregional correlations with both marine and non-marine records. Normal magnetozone SCH3n,
+25 constrained by an absolute age of 252.21 ± 0.15 Ma from an ash bed 3.5 m below its base, is
+26 unambiguously correlated to the earliest Triassic normal magnetochron LT1n. Our newly
+27 established magnetostratigraphic framework and published carbon-isotope chemostratigraphy,
+28 indicate that the Permian–Triassic Boundary is ca. 8 m above the base of SCH3n (within the middle
+29 part of the Sunjiagou Formation) at SCH. The overlying reverse polarity dominated interval
+30 (SCH3r–SCH5r) ranges to the middle Liujiagou Formation, and straddles an interval from the mid-
+31 Griesbachian to mid-Smithian. The base of the Olenekian is provisionally located in the lower part
+32 of the Liujiagou Formation, near the base of magnetozone SCH5n. The succeeding thick normal
+33 magnetozone SCH6n persists into the upper Heshanggou Formation, with the inferred Smithian–
+34 Spathian boundary located in the upper part of the Liujiagou Formation. The transition from reverse
+35 magnetozone SCH6r to the overlying normal magnetozone SCH7n, coincides with a clear erosional
+36 contact with the base of the Ermaying Formation. Consequently, magnetozone SCH7n is matched
+37 to the Early Anisian magnetochron MT3n, with the Olenekian–Anisian boundary interval missing.
+38 Our new timescale provides additional magnetostratigraphic constraints on the timing of the
+39 terrestrial ecological crisis in North China, which is found to lie within reverse magnetozone SCH2r
+40 (equivalent with reverse magnetochron LP3r), a level some 270 ± 150 kyrs before the main marine
+41 extinction, that falls in the overlying normal magnetochron LT1n.
+42
+43 Key words: Magnetostratigraphy, marine-terrestrial correlation, ID-TIMS age, Permo–Triassic
+44 terrestrial extinction
+
+### page_4
+45
+46 1. Introduction
+47 The Late Permian–Middle Triassic is a key interval in the history of life, which is marked by the
+48 Permian–Triassic mass extinction (PTME) at about 252 Ma, the most severe extinction of the
+49 Phanerozoic (e.g., Wignall, 2015; Benton, 2018). Harsh environmental conditions persisted through
+50 the Early Triassic (e.g., Payne et al., 2004; Sun et al., 2012; Wu et al., 2021), resulting in a delayed
+51 recovery of more than 5 Myrs after the PTME (Chen and Benton, 2012), with marine ecosystem
+52 recovery still underway in the latest Triassic (Song et al., 2018). Our understanding of the timing,
+53 magnitude and duration of the PTME and its aftermath are largely derived from marine records
+54 because they are stratigraphically most complete, can be more easily correlated using
+55 biostratigraphy and are better constrained by absolute ages (Chen and Benton, 2012; Burgess et al.,
+56 2014).
+57 In contrast, a full understanding of the PTME and ecosystem restoration on land is more
+58 challenging, due to a less-than-continuous sedimentary record and typically rather poor age
+59 constraints. Recent studies have shed light on the timing of the terrestrial ecological crisis, which is
+60 suggested to have occurred anywhere between 50–640 kyr earlier than marine extinctions, with
+61 substantial variation of timing amongst continental basins (Fielding et al., 2019, 2021; Chu et al.,
+62 2020; Gastaldo et al., 2020). Despite these advances it’s still difficult to study the relative timing of
+63 biotic and environmental events on land because a globally unified fine-scale chronostratigraphy is
+64 not available. Furthermore, causal links between unusual Early Triassic sedimentary structures, such
+65 as microbial mats and possible hurricanes, and abnormal environmental conditions are challenging
+66 to understand (Chu et al., 2017; Ji et al., 2021). An improved age framework for the Permo–Triassic
+
+### page_5
+67 and the Early Triassic, using magnetostratigraphy, is required for a better appreciation of the global
+68 evolution in both terrestrial and marine settings.
+69 The global and nearly-synchronous nature of geomagnetic polarity boundaries have made
+70 magnetostratigraphy an important approach for precise correlation between successions, a tool
+71 which is independent of facies control. Significant progress has been achieved in establishing a
+72 comprehensive time-calibrated magnetostratigraphy during the Permian and Triassic, that provides
+73 a scale for interregional correlations (e.g., Steiner, 2006; Hounslow and Muttoni, 2010; Hounslow
+74 and Balabanov, 2018). A reliable Permo–Triassic Boundary (PTB) magnetostratigraphy has also
+75 been constructed in continental successions, including in Europe and eastern Australia (Szurlies,
+76 2013; Belica, 2017), but a detailed continental-succession based magnetic stratigraphy through the
+77 entire Early Triassic is only available in the Central European Basin (Szurlies, 2007). In North China,
+78 magnetostratigraphic study of the Late Permian to Middle Triassic has rarely been undertaken and
+79 a detailed regional polarity reversal pattern is not available due to the coarse sampling and a lack of
+80 specific correlation anchors (e.g., using biostratigraphy or radioisotopic ages). Thus, regional
+81 lithostratigraphic templates have been widely used for correlation (Ma et al., 1992; Embleton et al.,
+82 1996).
+83 We present a high resolution magnetostratigraphy from the Upper Permian through the Lower
+84 Triassic to the earliest Anisian (Middle Triassic) in central North China. A new U-Pb CA-ID-TIMS
+85 (chemical abrasion isotope dilution thermal ionization mass spectrometry) age from an ash bed
+86 within the middle part of the Sunjiagou Formation provides a geochronological anchor for our new
+87 magnetostratigraphic framework. Coupled to available biostratigraphy and carbon-isotope
+88 chemostratigraphy, our multi-disciplinary approaches enable us to establish a detailed Late Permian
+
+### page_6
+89 to the earliest Middle Triassic timescale in North China, to locate the PTB at Shichuanhe section
+90 and to understand the relative timing of the terrestrial PTME in North China and the marine
+91 extinctions.
+92
+93 2. Geological setting
+94 The Ordos Basin was a large depocenter that formed part of the intracratonic central North China
+95 Basin, located at 10–20°N paleolatitude during the Paleozoic–Mesozoic transition, which was
+96 bordered by the Liupan-Helan-Yin-Lvliang uplands to the west and southeast and passed into further
+97 terrestrial basins to the east (Huang et al., 2018; Meng et al., 2019; Fig. 1A). In North China,
+98 sedimentation was interrupted by a major hiatus that began in the Middle Ordovician due to regional
+99 uplift, but restarted in the Pennsylvanian, with alternating marine and coal-rich terrestrial sequences
+100 (Yang et al., 2017). During the Permian the North China block was largely comprised of terrestrial
+101 systems, in which coal-forming environments ceased in the upper Shihhotse Formation. The
+102 succeeding Permian–Triassic Shiqianfeng Group is characterized by red beds, which contains rare
+103 body fossils that are inadequate to establish a detailed biostratigraphy (Tong et al., 2019). This
+104 interval is also poorly dated apart from few LA-ICP-MS ages obtained from detrital zircons (Zhu et
+105 al., 2019; Fig. 1C). However, a mixed terrestrial spinicaudatan-marine bivalve assemblage in the
+106 southern Ordos Basin, allows identification of the Permian–Triassic transitional interval at SCH
+107 (Chu et al., 2019).
+108 The Shiqianfeng Group is divided, from base to top, into the Sunjiagou, Liujiagou and
+109 Heshanggou formations, and is overlain by the Ermaying Formation (Fig. 1C). The Sunjiagou
+110 Formation consists of green sandstone with interbedded mudstone in the lower part, containing a
+
+### page_7
+111 Late Permian Ullmannia bronnii-Pseudovoltzia cf. libeana flora assemblage (Lu et al., 2020), and
+112 records fluvial channels and floodplain deposition (Zhu et al., 2019, 2020). However, this unit is
+113 poorly exposed at SCH and thus, the nature of the boundary with underlying strata is unclear. The
+114 overlying portion is characterized by a color change to a succession of dominantly red siltstone and
+115 minor sandstone horizons, with several paleosol horizons that formed on a floodplain (Yu et al.,
+116 2022; Zhu et al., 2020). This is followed by alternating thin beds of fine-grained sandstone, massive
+117 mudstone and marlstone, interpreted to be restricted coastal facies (Supplementary Data A). The
+118 age of the Sunjiagou Formation is somewhat controversial, with the supposed PTB, defined by
+119 tetrapods, organic carbon isotopes and a mixed marine-terrestrial biota, occurring somewhere
+120 between the middle to top of the Sunjiagou Formation (Chu et al., 2019; Zhu et al., 2019, 2020; Lu
+121 et al., 2020; Wu et al., 2020).
+122 The mud-rich floodplain and coastal facies of the Sunjiagou Formation were replaced by the
+123 fluvial and shallow lacustrine-dominated, sandstone-rich Liujiagou Formation (Zhu et al., 2020; Ji
+124 et al., 2021). Conglomeratic intraclasts, concentrically-laminated concretions and microbial mats
+125 are found within the lacustrine facies of the Liujiagou Formation (Chu et al., 2017; Ji et al., 2021).
+126 Aeolian deposits are also reported in the northern part of the basin (Zhu et al., 2020). The Liujiagou
+127 Formation contains very rare fossils, with a few plants in the middle to upper parts attributed to the
+128 Pleuromeia jiaochengensis assemblage (Wang and Wang, 1990). The sharp base of the Liujiagou
+129 Formation has traditionally been considered conformable, although a disconformity has also been
+130 suggested (IGCAGS, 1980).
+131 The overlying Heshanggou Formation is marked by a change to dominantly dark red mudstone
+132 and siltstone, which rest conformably on the underlying strata. Laterally persistent sandstone
+
+### page_8
+133 becomes prevalent at higher level and well-developed paleosols occur throughout the formation (Yu
+134 et al., 2022). Overbank and shallow lacustrine facies are considered to dominate deposition of the
+135 Heshanggou Formation (Zhu et al., 2020). Diverse fossils (e.g., vertebrates, ostracods and
+136 sporomorphs) indicate a late Early Triassic age (IGCAGS, 1980).
+137 The conformably-overlying Ermaying Formation is characterized by massive green fluvial
+138 sandstone with interbedded green and red mudstone and conglomerate (IGCAGS, 1980). The basal
+139 sandstone of the Ermaying Formation at SCH contains imbricated pebbles and large mud clasts,
+140 implying an erosional contact and a possible hiatus (Supplementary Fig. S2). A Parakannemeyeria
+141 fauna and an U-Pb ID-TIMS age of 243.528 ± 0.069 Ma suggest the Ermaying Formation is
+142 Anisian (Middle Triassic) in age (Liu et al., 2018).
+143
+144 3. Materials and methods
+145 3.1 Paleomagnetic methods and analysis
+146 Magnetostratigraphic, sedimentological and geochronological analyses were undertaken at the
+147 Shichuanhe section (GPS: 35.03°N, 108.88°E), located near Tongchuan, 90 km north of Xi’an City,
+148 Shaanxi Province. Magnetostratigraphic samples were collected throughout the section, using both
+149 hand samples, oriented in situ by a magnetic compass, and oriented core-plugs made by a portable
+150 field drill. In total, 272 hand samples from fine-grained mudstones and marlstones, and 39 core
+151 plugs from sandstones, were collected, covering an interval spanning the inferred Late Permian to
+152 basal Middle Triassic (Supplementary Fig. S1). Sample spacing ranges from 0.5 to 2.5 m, depending
+153 on suitable lithologies. In the laboratory, 56 hand samples were excluded from paleomagnetic
+154 studies because they were too fractured and could not be prepared into specimens. Each of the
+
+### page_9
+155 remaining samples was cut into at least two 2 cm cubes or 2 cm long cylinders for paleomagnetic
+156 measurements.
+157 All specimens were subjected to stepwise thermal demagnetization using 16–19 steps (up to
+158 680℃) in a Magnetic Measurements ASC TD48 thermal specimen demagnetizer. Each heating was
+159 followed by cooling in a residual magnetic field ≤20 nT. Specimens were housed in a magnetically
+160 shielded room with ambient magnetic field ≤300 nT and measured on a 2G Enterprises 755-4K U-
+161 Channel magnetometer at the China University of Geosciences (Wuhan), China. Characteristic
+162 remanent magnetization directions (ChRMs) were isolated using principal component analysis, as
+163 implemented in the PuffinPlot software (Lurcock and Wilson, 2012). Both linear trajectory fits and
+164 great circles (remagnetization circles) were used in defining the paleomagnetic behaviors. The
+165 PMAGTOOL v5. software (Hounslow, 2006) was also used for calculation of mean directions,
+166 virtual geomagnetic poles (VGP) and performing the reversal tests. The isolated ChRM directions
+167 were classified into different categories based on their demagnetization behavior and quality, similar
+168 to the method of Hounslow et al. (2008). ChRMs displaying clear linearity or exhibiting great-circle
+169 trends were categorized into S-type or T-type behaviors, respectively. For S-type data, specimens
+170 were subdivided into three quality levels (S1, S2 and S3) based on the visual noisiness and length
+171 of colinear points, with S1 showing best quality and S3 the lowest quality. T-type data were also
+172 reclassified into three levels (T1, T2 and T3) according to the visual length and scatter of the
+173 demagnetization points about the great circle, with T1 having the best-quality great circle trend,
+174 which terminated near the expected Triassic direction, and T3 for the poorer results. Specimen
+175 demagnetization results were interpreted with a polarity quality rating on the basis of a semi-
+176 subjective judgment (e.g., for normal polarity, N = best quality, N? = intermediate quality and N??
+
+### page_10
+177 = poorest quality). Specimens without an interpreted Permian‒Triassic magnetizations are labelled
+178 as X quality. Poorer quality data (e.g., S3 and T3 demagnetization behaviors) were not used for
+179 mean direction calculations, but were used for VGP latitude calculations.
+180 Representative specimens from green and red lithologies were selected to determine the main
+181 magnetic remanence carriers using magnetic susceptibility versus temperature experiments (K-T
+182 curves). Specimens were heated up to 700℃ in air at 10℃/min, and subsequently cooled at the same
+183 rate to room temperature. The K-T curves were measured using an AGICO, MFK1-FA Kappabridge,
+184 at the China University of Geosciences (Wuhan).
+185
+186 3.2 U-Pb geochronology
+187 Zircons were separated from a ~1 cm thick ash bed in the middle part of the Sunjiagou Formation
+188 at SCH. Forty extracted zircons were initially analyzed by U-Pb LA-ICP-MS (Laser Ablation
+189 Inductively Coupled Plasma Mass Spectrometry) at the Mineral Rock Laboratory, Hubei Province
+190 Geological Experimental Testing Center, with an additional seven zircons analyzed by the U-Pb
+191 CA-ID-TIMS method at the Massachusetts Institute of Technology (MIT) Isotope Laboratory, USA.
+192 Details of U-Pb analytical methods are provided in Supplementary Data A.
+193 Complete U-Pb isotopic data are given in Supplementary Data C. Calculated weighted mean
+194 206Pb/238U ages are reported at 95% confidence interval and for the CA-ID-TIMS analyses is
+195 reported in the format ±x/y/z Ma, where x is the analytical (internal) uncertainty only, y includes
+196 the additional tracer calibration error and z includes the latter as well as the 238U decay constant
+197 error of Jaffey et al. (1971).
+198
+
+### page_11
+199 4. Results
+200 4.1 Rock magnetism
+201 Susceptibility of most of the red specimens consistently reduces at around 700℃, which is attributed
+202 to hematite. One sample exhibits a large rise in susceptibility at 450℃ (from thermal alteration), but
+203 subsequently decreases at 585℃ and 680℃, suggesting the presence of both magnetite and hematite.
+204 The susceptibility of green lithologies generally shows curve inflexions at around 585℃,
+205 corresponding to the Curie temperature of magnetite. Therefore, magnetite and hematite appear to
+206 be the main magnetic remanence carriers of the magnetization in green and red sediments,
+207 respectively (Supplementary Fig. S4). A decline in susceptibility below 100℃ in many samples may
+208 be due to goethite. The magnetization carriers are consistent with the thermal demagnetization
+209 behavior of the natural remanent magnetization (NRM) and previous investigations (Yang et al.,
+210 1991).
+211
+212 4.2 U-Pb geochronology
+213 Fifteen grains from forty zircons analyzed by LA-ICP-MS that are less than 10% discordant, yield
+214 a weighted mean ages 206Pb/238U age of 252.9 ± 2.1 Ma (Supplementary Fig. S5 and Supplementary
+215 data C). Five CA-ID-TIMS analyses yielded overlapping 206Pb/238U dates, with a weighted mean of
+216 252.21 ± 0.15/0.19/0.33 Ma and a mean square of weighted deviates (MSWD) of 0.45 (Fig. 5). One
+217 CA-ID-TIMS analysis produced a significantly younger Jurassic age (157.79 ± 0.74 Ma), which is
+218 in conflict with regional stratigraphy and LA-ICP-MS results, and is therefore rejected (see
+219 Supplementary Data A). The above CA-ID-TIMS weighted mean date serves as the best estimate
+220 for the (maximum) age of deposition of the corresponding ash bed.
+
+### page_12
+221
+222 4.3 Paleomagnetic properties
+223 Commonly, the untreated NRM intensities range between 0.1‒10 mA/m, with a few exceptions up
+224 to 30 mA/m (Fig. 4 and Supplementary Fig. S3). There was considerable variation in
+225 demagnetization behavior between different lithologies but usually, specimens showed two
+226 components, a low-temperature component (LTC) and a high-temperature component (HTC), which
+227 could be isolated during thermal demagnetization. More details about the demagnetization behavior
+228 and polarity interpretations are in Supplementary files A and B.
+229 (a) A LTC was obtained in most specimens, which generally unblocked between NRM to ca.
+230 200–450℃ (Fig. 2B–2E, 2H–2I). This LTC is generally northerly directed with a relatively steep
+231 inclination in geographic coordinates (Fisher mean of D=355.4°, I=55.3°, α95=5.1°, n=244; Fig.
+232 3A). The direction is comparable to the present-day field at the site (D=355.9°, I=54.1°, World
+233 Magnetic Model 2019–2024), which is inferred to be a recently acquired or more likely a Brunhes-
+234 age overprint.
+235 (b) The HTC is isolated by both line fit and great circle fit (Fig. 2). Red and some green colored
+236 sediments fully demagnetized at 600‒680℃, indicating hematite is the main carrier of the NRM
+237 (Fig. 2A–2E). A third of the greenish specimens became directionally erratic above 600℃,
+238 suggesting hematite is less important in these specimens (Fig. 2H). Some 55% of specimens display
+239 stable endpoints with a linear segment towards the origin in orthogonal projections (i.e., S-type; Fig.
+240 2A–2F), and 87% of line-fit results yield acceptable quality (S1 and S2) that could be used in a
+241 mean direction calculation (see Supplementary Table S1 for details). After tilt correction the mean
+242 normal-polarity HTC direction is concentrated in the NW with shallow positive inclination
+
+### page_13
+243 (D=325.0°, I=34.0°, α =2.9°, n=93), and the mean reverse-polarity HTC direction is D=146.4°, I=-
+95
+244 28.5°, (α =4.9°, n=31; Fig. 3B). The site paleolatitude of all the data converted to normal polarity
+95
+245 is 17.7°N, regardless of potential inclination shallowing produced during later compaction (Table
+246 1). Paleomagnetic mean directions pass the reversal test with class Rb (McFadden and McElhinny,
+247 1990). A fold test is not possible due to the shallow bedding dips in the section.
+248 (c) For the HTC, 37% of samples yield a great circle trend toward the characteristic directions.
+249 These were used for great circle fits to determine the unresolved directions (T-type; Fig. 2G–2I).
+250 About three-quarters of the T-type data display scatter terminating at around the observed mean S-
+251 class direction. T1 and T2 quality great circles were used in the mean direction calculation. A
+252 combination of line-fit ChRM directions and great circle poles (Fig. 3C), using the method of
+253 McFadden and McElhinny (1988), gave a combined mean direction for the HTC of D=325.6°,
+254 I=33.3° (α =1.9°, n=197), corresponding to a paleopole at 55.2°N, 359.0°E (dp/dm=1.23/2.16) and
+95
+255 site paleolatitude of 18.1°N (Table 1). The combined mean directions have a positive reversal test
+256 with class Ra (McFadden and McElhinny, 1990).
+257 The antipodal nature of the normal- and reverse-polarity subsets (Fig. 3B) and the statistically
+258 similar directions compared to previously published Lower Triassic direction in nearby regions
+259 (Yang et al., 1991; Ma et al., 1992; Table 1), suggest that the magnetization is primary and obtained
+260 near the time of deposition.
+261
+262 4.4 Magnetostratigraphy
+263 The line-fit ChRM directions were converted to virtual geomagnetic pole (VGP) latitude using the
+264 combined great circle-fixed point mean direction as the reference pole. VGP latitudes reveal the
+
+### page_14
+265 polarity changes in the section with positive/negative values indicating normal/reverse polarity (Fig.
+266 4). For specimens that display great circle trends, the point on the fitted great circle nearest the
+267 combined mean direction was used to calculate the VGP latitude (Hounslow et al., 2008). Major
+268 magnetozone normal and reverse couplets are labelled upward from the base of the section using
+269 the prefix SCH (Shichuanhe), with polarity magnetozones pairs comprising a lower predominantly
+270 normal-polarity (“N”) and an overlying reversed-polarity “R”. Intervals denoted by lowest quality
+271 and poorly defined directions (e.g., S3, T3 and X), are indicated with a gray bar to display
+272 uncertainly. Seven main magnetozones, from SCH1 to SCH7, are recognized based on at least three
+273 successive specimens with consistent polarity. Also present are a number of tentative
+274 submagnetozones (less than full width bars marked as .1r, .1n etc.), defined by a single specimen
+275 with acceptable quality (Fig. 4).
+276
+277 5. Discussion
+278 5.1 Permian‒Triassic boundary magnetostratigraphy in North China
+279 The Permian‒Triassic Boundary occurs in normal magnetochron LT1n, a position which has been
+280 well documented in both marine and non-marine successions (Hounslow and Balabanov, 2018 and
+281 references therein). At the Induan Global Boundary Stratotype Section and Point (GSSP) in Meishan,
+282 South China, the base of the Triassic is marked by the first occurrence (FO) of the conodont
+283 Hindeodus parvus in Bed 27c (Yin et al., 2001). However, magnetostratigraphic studies from
+284 Meishan display poor inter-study consistency, thus the exact relationship between the FO of H.
+285 parvus and magnetozones are unclear in the GSSP (Hounslow and Muttoni, 2010; Zhang et al.,
+286 2021). At the Shangsi section, the base of magnetochron LT1n coincides with the base of the
+
+### page_15
+287 Feixianguan Formation (base of bed 28), within the Clarkina meishanensis conodont zone, and was
+288 estimated at 252.23 ± 0.08 Ma using a Monte Carlo statistical method (Yuan et al., 2019; Fig. 6 and
+289 7). This is similar to the 252.2 ± 0.23 Ma age for the base of LT1n estimated using Bayesian methods
+290 in Hounslow and Balabanov (2018). Hence, at the SCH section, magnetozone SCH3n is equivalent
+291 to magnetochron LT1n, based on our new age of 252.21 ± 0.15 Ma obtained from an ash bed 3.5 m
+292 below the base of SCH3n (Fig. 6). Given the latest calibration of the PTB at 251.902 ± 0.024 Ma
+293 based on U-Pb CA-ID-TIMS geochronology (Burgess et al., 2014), our latest Changhsingian date
+294 provides independent, radioisotopic evidence to establish a robust PTB magnetostratigraphic
+295 framework for North China. The comparative age and the polarity stratigraphy indicate that the base
+296 of LT1n is a synchronous marker useful for global correlation, occurring ca. 0.3 Ma prior to the PTB
+297 (Fig. 7).
+298 The correlation is also supported by biostratigraphic evidence from the mixed marine-
+299 terrestrial biota found at SCH. This fauna consists of a frashwater spinicaudatan (conchostracan)
+300 Euestheria gutta-Magniestheria mangaliensis-Palaeolimnadiopsis vilujensis assemblage and the
+301 marine bivalve Pteria variabilis, which is found about 1 m above the base of magnetozone SCH3n.
+302 This fauna is akin to the mixed terrestrial-marine biota in South China, which appears immediately
+303 after the demise of the Late Permian Gigantopteris flora (Chu et al., 2019). The Euestheria gutta
+304 assemblage with cooccurring marine bivalves has been considered an important marker for the
+305 Permian‒Triassic transitional beds (Chu et al., 2019). A similar spinicaudatan fauna (Euestheria
+306 gutta-Palaeolimnadiopsis vilujensis assemblage) was also recognized in the lower Buntsandstein
+307 coeval with the Central German Composite magnetozone interval CG3n‒4n, which is equivalent to
+308 magnetochron LT1n (Szurlies, 2007, 2013; Scholze et al., 2017; Fig. 6).
+
+### page_16
+309 Compiled data from many marine carbonate successions have indicated a major minimum in
+310 δ13C around the PTB (e.g., Korte and Kozur, 2010), falling within the lower part of LT1n (Shen
+carb
+311 et al., 2019; Zhang et al., 2021). Such carbon isotopic excursions have also been suggested to be
+312 nearly synchronous with the changes in δ13C in terrestrial facies (Wu et al., 2021). Thus, by
+org
+313 combining the magnetostratigraphy and geochronology with the organic carbon isotope curve (Wu
+314 et al., 2020), the PTB at SCH is estimated to occur at a level about 8 m higher than the base of
+315 magnetozone SCH3n, around the largest negative excursion in δ13C , within the upper part of the
+org
+316 middle Sunjiagou Formation (Fig. 7). Additionally, our new magnetostratigraphic data also allows
+317 a better constraint for the onset of the carbon isotope excursion (CIE) during the latest Permian.
+318 This was previously suggested to be located at ~27 m below the base of SCH3n on the basis of
+319 purely chemostratigraphic consideration (Wu et al., 2020); it is now placed ~3 m below the base of
+320 SCH3n, within the upper part of magnetozone SCH2r (i.e., magnetochron LP3r; Fig. 7).
+321 Our results are also in good agreement with the age-constrained magnetostratigraphy from
+322 the Sydney Basin, eastern Australia. The Permian‒Triassic transition of the Sydney Basin contains
+323 three normal magnetozones, with normal magnetozone C2n first detected in the base of the Coalcliff
+324 Sandstone (Belica, 2017; Fig. 7). Radioisotopic ages from the basal Bulli Coal (Metcalfe et al., 2015)
+325 and basal Coalcliff Sandstone (Fielding et al., 2019, 2021) allow a robust correlation of
+326 magnetozone C2n with LT1n. However, the position of the base of magnetozone C2n is unclear,
+327 since there is ~3.5 m unsampled interval that includes the underlying Bulli Coal bed (Fig. 7).
+328 The Permian‒Triassic magnetostratigraphy of the Karoo Basin, South Africa is equivocal.
+329 The integrated magnetic polarity stratigraphy of Ward et al. (2005) showed two reverse-to-normal
+330 couplets. The longer normal magnetozone of the lower couplet, has its base slightly preceding the
+
+### page_17
+331 vertebrate turnover, with an associated negative δ13C excursion, which was suggested to be
+carb
+332 equivalent with magnetochron LT1n. However, this situation has not been confirmed by
+333 subsequently studies. The Daptocephalus‒Lystrosaurus transition is mostly within a normal
+334 magnetozone (see summaries in Gastaldo et al., 2021), which is, coupled to a U-Pb ID-TIMS age
+335 of 253.48 Ma from ~60 m below the vertebrate-defined PTB and is so considered to be early
+336 Changshingian (Gastaldo et al., 2015). This inconsistency could either be due to a local hiatus
+337 (Gastaldo et al. 2015) or difficulties in isolating the primary magnetization from Jurassic partial
+338 remagnetization (Belica, 2017).
+339 Correlation of magnetozone interval SCH1‒SCH2 to the Geomagnetic polarity timescale
+340 (GPTS) is not straightforward due to the lack of supporting fossil markers within this interval. Also,
+341 intrabasinal correlation with the nearby Hancheng section at this level is difficult owing to
+342 infrequent magnetostratigraphic sampling, which defines magnetozone O1 (Ma et al., 1992; Fig. 6).
+343 Overall, the relative thickness of magnetozones SCH1n‒SCH2r is similar to magnetozone interval
+344 CG1n‒CG2r in the Central German Composite (Szurlies, 2013; Fig. 6). In the Germanic Basin,
+345 magnetozones CG1n and CG2n were correlated to magnetozones IRA1n and IRA2n from the
+346 Abadeh section (Gallet et al., 2000; Fig. 6), corresponding to the late Wuchiapingian and early
+347 Changhsingian on the basis of the conodonts (Merrillina divergens and Mesogondolella britannica)
+348 and Re-Os dating from the Zechstein successions (Szurlies, 2013; Fig. 6). However, these conodonts
+349 occur throughout the Lopingian and do not provide a precise timescale (Henderson and Mei, 2000).
+350 Instead, magnetozone CG1n has been correlated to magnetochron LP2n.3n (equivalent to IRA2n),
+351 with its upper boundary at ca. 253.2 Ma, within the Clarkina subcarinata conodont zone at the
+352 Abadeh section and probably within the C. changxingensis zone at Shangsi (Hounslow and
+
+### page_18
+353 Balabanov, 2018). Accordingly, magnetozone SCH1n is tentatively correlated to magnetochron
+354 LP2n.3n and SCH2n to LP3n (Fig. 6).
+355
+356 5.2 Lower Triassic magnetostratigraphy in North China
+357 The two reference polarity scales for the remainder of the Lower Triassic, that from Buntsandstein
+358 (Szurlies, 2007, 2013) and the marine composite GPTS (Hounslow and Muttoni, 2010), are
+359 generally similar, but show a few differences in number and relative duration of the briefer
+360 magnetochrons (Fig. 6). The placement of the Induan‒Olenekian Boundary (IOB) in the
+361 Buntsandstein composite also has some divergences of interpretation (Szurlies, 2007; Hounslow
+362 and Muttoni, 2010). In China, the IOB is informally defined by the FAD of Novispathodus waageni
+363 s.l. at the West Pingdingshan section, ~2.5 m from the top of reverse magnetozone WP4r and
+364 equivalent to the topmost part of magnetochron LT2r (Sun et al., 2009; Fig. 6). The Densoisporites
+365 nejburgii palynological assemblage from the Middle Buntsandstein, spans the late Dienerian to
+366 Smithian, suggesting that the IOB in Central Germany is within the lower part of the Middle
+367 Buntsandstein (Kürschner and Herngreen, 2010; Fig. 6), suggesting that CG6n is the equivalent to
+368 LT3n in the GPTS.
+369 At SCH, the reverse polarity dominated interval SCH3r‒SCH5r is correlated to the dominantly
+370 reverse magnetochron interval LT1r‒LT4r and CG4r‒CG7r, spanning from the mid-Griesbachian
+371 to mid-Smithian (Hounslow and Muttoni, 2010; Fig. 6). Correlation to the same lithostratigraphic
+372 interval at the Hancheng section reveals much similarity in the number and relative thickness of
+373 magnetozones. Crucially there are two major normal polarity magnetozones (SCH4n and SCH5n)
+374 with a third tentative normal submagnetozone SCH5r.1n in this interval at SCH, similar to that in
+
+### page_19
+375 the GPTS and Buntsandstein Composite which also have three normal magnetozones. The wide
+376 sample spacing at Hancheng probably missed the upper normal polarity magnetozone (SCH5r.1n)
+377 seen at SCH (Fig. 6). Overall, the relative thickness of magnetozones in the SCH3r‒SCH5r is most
+378 similar to the Buntsandstein composite in the CG4r‒CG7r interval. Thus, the IOB at SCH is placed
+379 at the base of SCH5n in the lower part of the Liujiagou Formation (Fig. 6). However, a hiatus could
+380 be present given that there is an abrupt change in depositional environments from the shallow
+381 lacustrine facies of the Sunjiagou Formation to the overlying channelized, conglomeratic sandstones
+382 of the basal Liujiagou Formation (see Supplementary data A for a sedimentological description). As
+383 a result, magnetozone SCH4n could be the equivalent of LT2n‒LT3n and SCH5n=LT4n, suggesting
+384 that magnetochron LT2r is missing.
+385 Like the underlying magnetozone interval SCH3r‒SCH5, the succeeding thick normal SCH6n
+386 is more like the CG8n to CG10n interval in the Central German composite, than the marine-based
+387 magnetochrons LT5n to LT9n (Fig. 6), which range in age from the mid Smithian to late Spathian
+388 (Hounslow and Muttoni, 2010). Four reverse magnetozones within the LT5n‒LT9n interval occur
+389 in Arctic Canadian and Norwegian sections (Ogg and Steiner, 1991; Hounslow et al., 2008), but
+390 their thicknesses differ greatly compared to the equivalent interval in the Central German Composite.
+391 Notably, only two major reverse magnetozones were recovered from this interval at the Majiashan
+392 section (South China; Li et al., 2016; Fig. 6). At Majiashan, the cyclostratigraphically-calibrated
+393 polarity stratigraphy can be readily matched with the Central German Composite, providing
+394 important constraints for marine to non-marine correlations (Li et al., 2016; Fig. 6). No major
+395 reverse polarity magnetozones were occurred within SCH6n, but three tentative submagnetozones
+396 SCH6n.1r‒SCH6n.3r were detected (Fig. 4). However, in the nearby Hancheng section, reverse
+
+### page_20
+397 magnetozones O4r and O5r, straddling the Liujiagou and Heshanggou formations, were recognized
+398 (Ma et al., 1992; Fig. 6). The absence of such major reverse magnetozones at SCH could be related
+399 to local erosional loss. Sparse flora assigned to the Pleuromeia sternbergii assemblage in SCH6n
+400 interval suggests an Olenekian age (Wang and Wang, 1990), consistent with the
+401 magnetostratigraphic results. The Smithian‒Spathian transition is marked by consistent normal
+402 polarity in the Arctic sections of Canada and Norway, and in South China. This interval is likely
+403 condensed in the upper part of magnetochron LT6n due to a major boreal transgression (Ogg and
+404 Steiner, 1991; Hounslow et al., 2008; Li et al., 2016). The well-defined reverse magnetozones O4r‒
+405 O5r in Hancheng are probably equivalent to magnetozones MJ1r‒MJ2r at Majiashan and LT6r‒
+406 LT8r, CG8r‒CG9n.2r in the reference sections (marked with blue correlated interval in Fig. 6; Li et
+407 al., 2016). Hence the base of the Spathian is interpreted to be in the middle of SCH6n, in the upper
+408 Liujiagou Formation at SCH (Fig. 6).
+409 Magnetozone SCH6r represents the late Spathian magnetochron LT9r and CG10r from the
+410 Buntsandstein (Fig. 6). This late Spathian reverse magnetochron has been widely recognized and
+411 contains at least one normal submagnetochron (Hounslow and Muttoni, 2010). Only normal polarity
+412 is found in the overlying Ermaying Formation (SCH7n or upper part of O6n) and is likely correlative
+413 to MT3n of the early Anisian (Fig. 6). The formational boundary is represented by a distinct
+414 sedimentary facies switch: the conglomeratic fluvial sandstones of the basal Ermaying Formation
+415 resting with erosional contact on the underlying red, siltstone-dominated lacustrine facies of the
+416 Heshanggou Formation (Supplementary Fig. S1). The absence of a magnetozone equivalent to
+417 SCH6r in Hancheng is likely due to removal of the upper most Spathian LT9r. The brief
+418 magnetochrons MT1‒MT 2 of the GPTS, which characterize the Olenekian‒Anisian transition,
+
+### page_21
+419 appear to be missing in many Chinese sections, and in other continental successions (Hounslow and
+420 Muttoni, 2010). The occurrence of the Sinokannemeyeria fauna and a CA-ID-TIMS U-Pb age
+421 (243.528 ± 0.069 Ma), unequivocally place the Ermaying Formation within the Middle Triassic (Liu
+422 et al., 2018). Moreover, a diverse spinicaudatan Protimonocarina-Euestheria assemblage found in
+423 the lowermost part of the Ermaying Formation also indicates an early Middle Triassic age (Wu,
+424 1991). Accordingly, the base of the Anisian is placed at the hiatus between the Heshanggou and
+425 Ermaying formations, with magnetochons MT1 and MT2 being removed at the hiatus.
+426
+427 5.3 Magnetostratigraphic implications for the timing of the end-Permian terrestrial crisis in
+428 North China
+429 The Permian‒Triassic GSSP section at Meishan is thought to record two pulses of marine biotic
+430 extinctions (Song et al., 2013) at 251.941 ± 0.037 Ma and 251.880 ± 0.031 Ma (Burgess et al., 2014),
+431 all within the lower part of LT1n and its equivalents (Zhang et al., 2021; Fig. 7). At Shangsi, the
+432 distinctive changeover of conodonts from Clarkina-dominated to Hindeodus-dominated faunas (FO
+433 of Hindeodus changxingensis) marks the extinction interval, starting in bed 28a, within the lower
+434 part of magnetochron LT1n (Metcalfe et al., 2007; Glen et al., 2009; Yuan et al., 2019; Fig. 7).
+435 The timing of the terrestrial ecological crisis has been constrained by absolute ages or high-
+436 resolution chemostratigraphy (e.g., Fielding et al., 2019, 2021; Chu et al., 2020; Gastaldo et al.,
+437 2020). Detailed sedimentological investigations in the Sydney Basin (eastern Australia), have
+438 demonstrated that the Permian‒Triassic transitional sequences are stratigraphically complete, and
+439 record the disappearance of a Glossopteris flora within the top of the Bulli Coal (Fielding et al.,
+440 2019, 2021). This floral extinction occurred ~160‒600 kyrs before the marine biotic crisis,
+
+### page_22
+441 according to several ID-TIMS ages from the base of the Bulli Coal and the basal Coalcliff Sandstone
+442 (Fielding et al., 2019, 2021). However, the relationship between the extinction interval and magnetic
+443 polarity cannot be precisely confirmed owing to the sampling gap in the coal bed (Fig. 7).
+444 In North China, the collapse of terrestrial palaeofloras was marked by the extinction of
+445 approximately 54% of plant genera within the Sunjiagou Formation (Chu et al. 2019). This floral
+446 extinction predated the latest Permian negative carbon-isotope excursion (Wu et al., 2020), and falls
+447 in magnetozone SCH2r (equivalent to magnetochron LP3r, immediately below LT1n; Fig. 7).
+448 According to our proposed magnetostratigraphic correlations, corroborated by our new absolute age
+449 (252.21 ± 0.15 Ma), the collapse of plant communities therefore occurred about 270 ± 150 kyrs
+450 earlier than the marine extinction (Fig. 7). Hence, our new magnetostratigraphic framework
+451 provides additional independent evidence that the terrestrial ecological crisis started before the
+452 marine mass extinction.
+453
+454 6 Conclusion
+455 A detailed magnetostratigraphic investigation, spanning the early Changhsingian to early Anisian,
+456 was undertaken at the continental Shichuanhe section, yielding the first detailed Early Triassic non-
+457 marine timescale in North China. Results from the ~300 m thick red-bed dominated sequence
+458 exhibit dual polarity magnetizations, with the magnetic remanence mainly carried by hematite. The
+459 antipodal distributed directions are statistically indistinguishable to those expected in the Early
+460 Triassic (Yang et al., 1991), pass the reversal test, and indicate a paleolatitude for the Shichuanhe
+461 section of 18.1°N.
+462 Seven main magnetozones are recognized and the relative thickness of magnetozones is
+
+### page_23
+463 comparable to those seen in the composite section from the Buntsandstein in Europe (Fig. 6). A new
+464 Late Permian CA-ID-TIMS U-Pb age of 252.21 ± 0.15 Ma, provides direct evidence for the
+465 correlation of magnetozone SCH3n at Shichuanhe to magnetochron LT1n of the GPTS. According
+466 to our multi-disciplinary approach, the PTB is placed at ca. 8 m above the base of SCH3n, around
+467 a minimum in the δ13C record, within the middle part of the Sunjiagou Formation. The
+org
+468 spinicaudatan fauna within SCH3n is identical to that found in Central Germany within
+469 magnetozones CG3n‒CG4n (equivalent to LT1n), adding additional paleontological support for our
+470 correlations. According to our composite magnetostratigraphy, the base of the Olenekian is placed
+471 in the lower part of the Liujiagou Formation (base of SCH5n) and the Smithian‒Spathian boundary
+472 is placed in the upper part of the Liujiagou Formation. Combined magnetic polarity and sedimentary
+473 facies analysis reveal that the Olenekian‒Anisian transitional strata are absent.
+474 Establishing a polarity timescale in North China enables us to show that the collapse of the
+475 terrestrial ecosystem during the Permian–Triassic transition started within the upper part of
+476 magnetochron LP3r, 270 ± 150 kyrs. This was before the onset of the marine crisis, which falls
+477 within the base of the overlying normal magnetochron LT1n. The Shichuanhe section preserves a
+478 complete terrestrial Permian‒Triassic boundary record and is therefore an important reference
+479 section for terrestrial and marine stratigraphic correlation.
+480
+481 Acknowledgements
+482 We thank Yingchao Xu and Yiming Ma for the help in paleomagnetic data analysis. We also
+483 thank Haijun Song, Wenchao Shu, Kaixuan Ji, Yuyang Wu and Gan Liu for the invaluable advice in
+484 stratigraphic correlation and discussions about the PTME on land. This work was supported by the
+
+### page_24
+485 National Natural Science Foundation of China [grant number 41530104, 41661134047, 42030513],
+486 and the UK Natural Environment Research Council Eco-PT Project (NE/P0137724/1), which is part
+487 of the Biosphere Evolution, Transitions and Resilience (BETR) Program.
+488
+489 Supplementary material
+490 Supplementary files A, B, C
+491
+492 Figures and figure captions
+493 Fig 1. Simplified paleotectonic map of the North China Block and its sedimentary basins (modified
+494 from Meng et al., 2019). The red star marks the studied Shichuanhe (SCH) section and the blue
+495 point indicates the Hancheng section. Inset B shows a detailed location of the SCH section. C.
+496 Permian–Triassic chrono- and lithostratigraphic framework in North China. ID-TIMS age is from
+497 Liu et al. (2018), LA-ICP-MS ages are from Zhu et al. (2019). The orange bar represents the studied
+498 interval.
+499
+500 Fig 2. Representative demagnetization behaviors with polarity interpretation of specimens from
+501 Shichuanhe section. A–F: Principal Component Analysis (PCA), steps used for ChRM line-fits are
+502 highlighted in red. A. A largely single component magnetization shows a stable end-point that is
+503 close to the expected Early Triassic direction in North China (polarity N; S1 class), Sunjiagou
+504 Formation. B. After removal of an eastward LTC below 400℃, specimen shows good linearity to
+505 the origin with the ChRM from 630–680℃ steps, polarity N (S1), Heshanggou Formation. C.
+506 Similar demagnetization behavior to B, but the ChRM direction is a little deviated from expected
+507 direction (N?, S2), Liujiagou Formation. D. Two component magnetizations with the ChRM 630℃
+508 to the origin (R, S1). Apparent mid-stable component is from blocking temperature overlap between
+509 the ChRM and the LTC, Sunjiagou Formation. E. Specimen shows good linearity above 600℃, but
+510 isolated ChRM is deviated from the expected direction (N??, S3), Liujiagou Formation. F. The last
+511 three steps show moderately linear ChRM component and the LTC is a composite LTC and Triassic
+
+### page_25
+512 reverse component (R??, S3), Sunjiagou Formation. Filled (open) symbols are lower (upper)
+513 hemisphere. G–I: Great-circle (GC) fits, red arc represents fitted great circle and blue indicates
+514 points used. Lower projection paths dashed and upper projection paths are solid. G. Great circle
+515 plane from 200–680℃, specimen shows a clear great circle trend towards the expected reverse
+516 direction (R, T1). LTC (100–500℃) is likely a composite component, Heshanggou Formation. H.
+517 Well-defined LTC 100–400 ℃ and a somewhat scattered trend (moderate arc length 100–540℃)
+518 towards Triassic reverse, with erratic directions above 600℃, due to thermal alteration (R?, T2),
+519 Sunjiagou Formation. I. Well-defined LTC NRM–400℃ and a trend towards expected Triassic
+520 reverse direction with the great circle fitted to the higher temperature steps (R??, T3), Liujiagou
+521 Formation.
+522
+523 Fig 3. Equal-area stereographic projection of the low-temperature components (LTC) and
+524 characteristic (ChRM) components of the Shichuanhe section. A. LTC in geographic coordinates,
+525 with the Fisher means (red star) close to the recent geomagnetic dipole field direction (orange star)
+526 at the SCH site (IGRF, computed from
+527 https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml#igrfwmm). B. Dual polarity ChRM
+528 line fits (in stratigraphic coordinates), with calculated Fisher (dual) mean (only S1 and S2 data used)
+529 and Fisher means of all converted to normal (Blue star with 95% confidence ellipse). C. Poles to
+530 the great circle planes of T1 and T2 class data, along with the mean of the combined great circle and
+531 line-fits (McFadden and McElhinny, 1988). The single girdle plane (dotted) is the plane normal to
+532 the mean direction calculated using both the great circle poles and ChRM fits. Red star indicates the
+533 mean pole to the great circle girdle of points and its elliptical 95% confidence cone. The filled (open)
+534 circles refer to the lower (upper) hemisphere, respectively.
+535
+536 Fig 4. Magnetostratigraphy of the Shichuanhe (SCH) section with polarity quality ratings.
+537 Demagnetization behavior of S and T refer to ChRM line-fits (filled circles) and great circle fits
+538 (open circles), respectively, which are subdivided into S1, S2, S3 and T1, T2, T3 class (see text for
+539 details). Specimens with no Triassic magnetization are marked X. Half-width bars indicate a single
+540 sample with high quality (S1, S2 or T1, T2), showing opposite polarity interpretation with respect
+541 to adjacent samples. For the gray bar, one-quarter-width means single poorest quality or
+
+### page_26
+542 undetermined polarity (S3, T3 and X), whereas half-width indicates successive poorest or
+543 undetermined polarities.
+544
+545 Fig 5. Concordia diagram and ranked 206Pb/238U plot of the analyzed zircon grains by the CA-ID-
+546 TIMS method from the Shichuanhe ash bed (upper right inset marked by yellow arrow). Each
+547 vertical bar represents a single zircon analysis included in the weighted mean age and the bar height
+548 is proportional to the 2σ analytical uncertainty. The horizontal black line and gray band represent
+549 the calculated weighted mean age and its 2σ analytical uncertainty envelope, respectively. Two
+550 outlier analyses excluded from age calculation plot outside the diagram area and are not shown here.
+551 See Supplementary data C for complete U-Pb data.
+552
+553 Table 1. Permian–Triassic mean directions and virtual geomagnetic poles for the Shichuanhe section
+554 and other sections in North China. Paleolatitude and reversal test of Yang et al. (1991) were not
+555 provided in the original study.
+556
+557 Fig 6. Changhsingian–Anisian magnetic polarity stratigraphy of North China and comparison with
+558 other non-marine and marine successions. The geomagnetic polarity timescale (GPTS) is based on
+559 Hounslow and Muttoni (2010) and Hounslow and Balabanov (2018). Compiled Central German
+560 Composite and biostratigraphy (Szurlies, 2007, 2013; Kürschner and Herngreen, 2010; Scholze et
+561 al., 2017). Hancheng section (Ma et al., 1992). Distance between sampling sites >30 m is marked
+562 by a sampling gap. West Pingdingshan (Sun et al., 2009), Majiangshan (Li et al., 2016), Meishan
+563 (modified from Hounslow and Balabanov, 2018), Abadeh (Gallet et al., 2000; Szurlies, 2013),
+564 Guangdao (Lehrmann et al., 2006), Shangsi (Hounslow and Balabanov, 2018; Yuan et al., 2019).
+565 Desli Caira (Grǎdinaru et al., 2007). Question marks indicate uncertain correlations. D.
+566 Beds=Deslicairites Beds; P. Beds=Paracrocordicera Beds; J. Beds=Japonites Beds; P. vilujensis–
+567 E. gutta=Palaeolimnadiopsis vilujensis–Euetheria gutta; L. virkkiae=Lueckisporites virkkiae Zone.
+568
+569 Fig 7. Correlation of the Permian–Triassic interval at Shichuanhe with the GSSP at Meishan
+570 (Burgess et al., 2014), Shangsi (Yuan et al., 2019) and Australian sections (Belica, 2017; Fielding
+
+### page_27
+571 et al., 2019, 2021). Ages of 1=calculated by Hounslow and Balabanov, 2018, 2=Burgess et al., 2014,
+572 3=calculated magnetozone boundary ages by Yuan et al., 2019, 4=Metcalfe et al., 2015, 5=Fielding
+573 et al., 2019, 6=Fielding et al., 2021. GPTS is from (Hounslow and Balabanov, 2018). Carbon isotope
+574 curve of Shichuanhe (Wu et al., 2020).
+575
+576 References
+577 Belica, M.E., 2017. Improving Early Permian-Triassic chronostratigraphic correlation and the
+578 apparent polar wander path of Gondwana: A magnetostratigraphic investigation of the Kiaman
+579 Reverse Superchron. Ph.D thesis, 1–223.
+580 Benton, M.J., 2018. Hyperthermal-driven mass extinctions: killing models during the Permian–
+581 Triassic mass extinction. Philosophical Transactions of the Royal Society A: Mathematical,
+582 Physical and Engineering Sciences 376, 20170076. https://doi.org/10.1098/rsta.2017.0076.
+583 Burgess, S.D., Bowring, S., Shen, S.Z., 2014. High-precision timeline for Earth’s most severe
+584 extinction. Proceedings of the National Academy of Sciences 111, 3316–3321.
+585 https://doi.org/10.1073/pnas.1317692111.
+586 Chen, Z.Q., Benton, M.J., 2012. The timing and pattern of biotic recovery following the end-
+587 Permian mass extinction. Nature Geoscience 5, 375–383. https://doi.org/10.1038/ngeo1475.
+588 Chu, D., Tong, J., Bottjer, D.J., Song, H., Song, H., Benton, M.J., Tian, L., Guo, W., 2017. Microbial
+589 mats in the terrestrial Lower Triassic of North China and implications for the Permian–Triassic
+590 mass extinction. Palaeogeography, Palaeoclimatology, Palaeoecology 474, 214–231.
+591 https://doi.org/10.1016/j.palaeo.2016.06.013.
+592 Chu, D.L., Tong, J.N., Benton, M.J., Yu, J.X., Huang, Y.F., 2019. Mixed continental-marine biotas
+
+### page_28
+593 following the Permian–Triassic mass extinction in South and North China. Palaeogeography,
+594 Palaeoclimatology, Palaeoecology 519, 95–107. https://doi.org/10.1016/j.palaeo.2017.10.028.
+595 Chu, D.L., Grasby, S.E., Song, H.J., Dal Corso, J., Wang, Y., Mather, T.A., Wu, Y.Y., Song, H.Y.,
+596 Shu, W.C., Tong, J.N., Wignall, P.B., 2020. Ecological disturbance in tropical peatlands prior
+597 to marine Permian–Triassic mass extinction: Geology 48, 288–292,
+598 https://doi .org/10.1130/G46631.1.
+599 Embleton, B.J.J., McElhinny, M.W., Ma, X.H., Zhang, Z.K., Li, Z.X., 1996. Permo–Triassic
+600 magnetostratigraphy in China: the type section near Taiyuan, Shanxi Province, North China.
+601 Geophysical Journal International 126, 382–388. https://doi.org/10.1111/j.1365-
+602 246X.1996.tb05298.x.
+603 Fielding, C.R., Frank, T.D., McLoughlin, S., Vajda, V., Mays, C., Tevyaw, A.P., Winguth, A.,
+604 Winguth, C., Nicoll, R.S., Bocking, M., Crowley, J.L., 2019. Age and pattern of the southern
+605 high-latitude continental end-Permian extinction constrained by multiproxy analysis. Nature
+606 Communications 10, 385, https://doi .org/10.1038/s41467-018-07934-z.
+607 Fielding, C.R., Frank, T.D., Tevyaw, A.P., Savatic, K., Vajda, V., McLoughlin, S., Mays, C., Nicoll,
+608 R.S., Bocking, M., Crowley, J.L., 2021. Sedimentology of the continental end-Permian
+609 extinction event in the Sydney Basin, eastern Australia. Sedimentology 68, 30–62.
+610 Gallet, Y., Krystyn, L., Besse, J., Saidi, A., Ricou, L.E., 2000. New constraints on the Upper Permian
+611 and Lower Triassic geomagnetic polarity timescale from the Abadeh section (central Iran).
+612 Journal of Geophysical Research: Solid Earth 105, 2805–2815.
+613 https://doi.org/10.1029/1999JB900218.
+614 Gastaldo, R.A., Kamo, S.L., Neveling, J., Geissman, J.W., Bamford, M., Looy, C.V., 2015. Is the
+
+### page_29
+615 vertebrate-defined Permian–Triassic boundary in the Karoo Basin, South Africa, the terrestrial
+616 expression of the end-Permian marine event? Geology 43, 939–942.
+617 Gastaldo, R.A., Kamo, S.L., Neveling, J., Geissman, J.W., Looy, C.V., Martini, A.M., 2020. The
+618 base of the Lystrosaurus Assemblage Zone, Karoo Basin, predates the end-Permian marine
+619 extinction. Nature Communications 11, 1428. https://doi.org/10.1038/s41467-020-15243-7.
+620 Gastaldo, R.A., Neveling, J., Geissman, J.W., Kamo, S.L. and Looy, C.V., 2021. A tale of two
+621 Tweefonteins: What physical correlation, geochronology, magnetic polarity stratigraphy, and
+622 palynology reveal about the end-Permian terrestrial extinction paradigm in South Africa. GSA
+623 Bulletin. https://doi.org/10.1130/B35830.1.
+624 Glen, J.M.G., Nomade, S., Lyons, J.J., Metcalfe, I., Mundil, R., Renne, P.R., 2009.
+625 Magnetostratigraphic correlations of Permian–Triassic marine-to-terrestrial sections from
+626 China. Journal of Asian Earth Sciences 36, 521–540.
+627 https://doi.org/10.1016/j.jseaes.2009.03.003.
+628 Grǎdinaru. E., Orchard, M.J., Nicora, A., Gallet, Y., Besse, J., Krystyn, L., Sobolev, E.S., Atudorei,
+629 N., Ivanova, D., 2007. The global boundary stratotype section and point (GSSP) for the base
+630 of the Anisian stage: Deşli Caira Hill, North Dobrogea, Romania. Albertiana 36, 54–71.
+631 Henderson, C.M., Mei, S. 2000. Preliminary cool water Permian conodont zonation in North Pangea:
+632 a review. Permophiles 36, 16–23.
+633 Hounslow, M.W., 2006. PMagTools version 4.2-a tool for analysis of 2D and 3D directional data.
+634 http://dx.doi.org/10.13140/RG.2.2.19872.58880.
+635 Hounslow, M.W., Balabanov, Y.P., 2018. A geomagnetic polarity timescale for the Permian,
+636 calibrated to stage boundaries. Geological Society, London, Special Publications 450, 61–103.
+
+### page_30
+637 Hounslow, M.W., Muttoni, G., 2010. The geomagnetic polarity timescale for the Triassic: linkage
+638 to stage boundary definitions, in: Lucas, S.G. (Ed.), Triassic Timescale, Geological Society,
+639 London, Special Publications 334, 61–102. https://doi.org/10.1144/SP334.4.
+640 Hounslow, M.W., Peters, C., Mork, A., Weitschat, W., Vigran, J.O., 2008. Biomagnetostratigraphy
+641 of the Vikinghogda Formation, Svalbard (Arctic Norway), and the geomagnetic polarity
+642 timescale for the Lower Triassic. Geological Society of America Bulletin 120, 1305–1325.
+643 https://doi.org/10.1130/B26103.1.
+644 Huang, B.C., Yan, Y.G., Piper, J.D.A., Zhang, D.H., Yi, Z.Y., Yu, S., Zhou, T.H., 2018.
+645 Paleomagnetic constraints on the paleogeography of the East Asian blocks during Late
+646 Paleozoic and Early Mesozoic times. Earth-Science Reviews 186, 8–36.
+647 https://doi.org/10.1016/j.earscirev.2018.02.004.
+648 IGCAGS (Institute of Geology Chinese Academy of Geological Sciences), 1980. Mesozoic
+649 stratigraphy and paleontology of Shanganning Basin (I). Geological Publishing House, Beijing,
+650 pp. 1–212 [in Chinese].
+651 Jaffey, A.H., Flynn, K.F., Glendenin, L.E., Bentley, W.C., Essling, A.M., 1971. Precision
+652 measurement of half-lives and specific activities of 235U and 238U. Physical review C 4, 1889–
+653 1906. DOI: https://doi.org/10.1103/PhysRevC.4.1889.
+654 Ji, K.X., Wignall, P.B., Peakall, J., Tong, J.N., Chu, D.L., Pruss, S.B., 2021. Unusual intraclast
+655 conglomerates in a stormy, hot-house lake: The Early Triassic North China Basin.
+656 Sedimentology. doi: 10.1111/sed.12903.
+657 Korte, C., Kozur, H.W., 2010. Carbon-isotope stratigraphy across the Permian–Triassic boundary:
+658 A review. Journal of Asian Earth Sciences 39, 215–235.
+
+### page_31
+659 https://doi.org/10.1016/j.jseaes.2010.01.005.
+660 Kürschner, W.M., Herngreen, G.W., 2010. Triassic palynology of central and northwestern Europe:
+661 a review of palynofloral diversity patterns and biostratigraphic subdivisions. Geological
+662 Society, London, Special Publications 334, 263–283. https://doi.org/10.1144/SP334.11.
+663 Lehrmann, D.J., Ramezani, J., Bowring, S.A., Martin, M.W., Montgomery, P., Enos, P., Payne, J.L.,
+664 Orchard, M.J., Hongmei, W., Jiayong, W., 2006. Timing of recovery from the end-Permian
+665 extinction: Geochronologic and biostratigraphic constraints from south China. Geology 34,
+666 1053–1056. https://doi.org/10.1130/G22827A.1.
+667 Li, M.S., Ogg, J., Zhang, Y., Huang, C.J., Hinnov, L., Chen, Z.Q., Zou, Z.Y., 2016. Astronomical
+668 tuning of the end-Permian extinction and the Early Triassic Epoch of South China and Germany.
+669 Earth and Planetary Science Letters 441, 10–25. https://doi.org/10.1016/j.epsl.2016.02.017.
+670 Liu, J., Ramezani, J., Li, L., Shang, Q., Xu, G., Wang, Y., Yang, J., 2018. High-precision temporal
+671 calibration of Middle Triassic vertebrate biostratigraphy: U-Pb zircon constraints for the
+672 Sinokannemeyeria Fauna and Yonghesuchus. Vertebrata PalAsiatica 55, 1–9.
+673 https://doi.org/10.19615/j.cnki.1000-3118.170808.
+674 Lu, J., Zhang, P., Yang, M., Shao, L., Hilton, J., 2020. Continental records of organic carbon isotopic
+675 composition (δ13C ), weathering, paleoclimate and wildfire linked to the End-Permian Mass
+org
+676 Extinction. Chemical Geology 558, 119764. https://doi.org/10.1016/j.chemgeo.2020.119764.
+677 Lurcock, P.C., Wilson, G.S., 2012. PuffinPlot: A versatile, user-friendly program for paleomagnetic
+678 analysis. Geochemistry, Geophysics, Geosystems 13, Q06Z45, doi:10.1029/2012GC004098.
+679 Ma, X.H., Xing, L.S., Yang, Z.Y., Xu, S.J., Zhang, J.X., 1992. Paleomagnetic study since late
+680 Paleozoic in the Ordos basin, Seismological Press, Beijing, pp. 1–99 [in Chinese].
+
+### page_32
+681 McFadden, P.L., McElhinny, M.W., 1988. The combined analysis of remagnetization circles and
+682 direct observations in palaeomagnetism. Earth and Planetary Science Letters 87, 161‒172.
+683 https://doi.org/10.1016/0012-821X(88)90072-6.
+684 McFadden, P.L., McElhinny, M.W., 1990. Classification of the reversal test in palaeomagnetism.
+685 Geophysical Journal International 103, 725‒729. https://doi.org/10.1111/j.1365-
+686 246X.1990.tb05683.x.
+687 Meng, Q.R., Wu, G.L., Fan, L.G., Wei, H.H., 2019. Tectonic evolution of early Mesozoic
+688 sedimentary basins in the North China block. Earth-Science Reviews 190, 416‒438.
+689 https://doi.org/10.1016/j.earscirev.2018.12.003.
+690 Metcalfe, I., Nicoll, R.S. and Wardlaw, B.R., 2007. Conodont index fossil Hindeodus
+691 changxingensis Wang fingers greatest mass extinction event. Palaeoworld 16, 202‒207.
+692 Metcalfe, I., Crowley, J.L., Nicoll, R.S., Schmitz, M., 2015. High-precision U-Pb CA-TIMS
+693 calibration of Middle Permian to Lower Triassic sequences, mass extinction and extreme
+694 climate-change in eastern Australian Gondwana. Gondwana Research 28, 61‒81.
+695 https://doi.org/10.1016/j.gr.2014.09.002.
+696 Ogg, J.G., Steiner, M.B., 1991. Early Triassic magnetic polarity time scale-integration of
+697 magnetostratigraphy, ammonite zonation and sequence stratigraphy from stratotype sections
+698 (Canadian Arctic Archipelago). Earth and Planetary Science Letters 107, 69–89.
+699 https://doi.org/10.1016/0012-821X(91)90044-I.
+700 Payne, J.L., Lehrmann, D.J., Wei, J., Orchard, M.J., Schrag, D.P., Knoll, A.H., 2004. Large
+701 perturbations of the carbon cycle during recovery from the end-permian extinction. Science
+702 305, 506‒509. DOI: 10.1126/science.1097023.
+
+### page_33
+703 Scholze, F., Wang, X., Kirscher, U., Kraft, J., Schneider, J.W., Götz, A.E., Joachimski, M.M.,
+704 Bachtadse, V., 2017. A multistratigraphic approach to pinpoint the Permian‒Triassic boundary
+705 in continental deposits: The Zechstein–Lower Buntsandstein transition in Germany. Global and
+706 Planetary Change 152, 129‒151. https://doi.org/10.1016/j.gloplacha.2017.03.004.
+707 Shen, S.Z., Zhang, H., Zhang, Y.C., Yuan, D.X., Chen, B., He, W.H., Mu, L., Lin, W., Wang, W.Q.,
+708 Chen, J., Wu, Q., Cao, C.Q., Wang, Y., Wang, X.D., 2019. Permian integrative stratigraphy and
+709 timescale of China. Science China Earth Sciences 62, 154–188,
+710 https://doi.org/10.1007/s11430-017-9228-4
+711 Song, H., Wignall, P.B., Tong, J., Yin, H., 2013. Two pulses of extinction during the Permian–
+712 Triassic crisis. Nature Geoscience 6, 52‒56. https://doi.org/10.1038/ngeo1649.
+713 Song, H.J., Wignall, P.B., Dunhill, A.M., 2018. Decoupled taxonomic and ecological recoveries
+714 from the Permo‒Triassic extinction. Sci Adv 4, eaat5091. DOI: 10.1126/sciadv.aat5091.
+715 Steiner, M.B., 2006. The magnetic polarity time scale across the Permian‒Triassic boundary.
+716 Geological Society, London, Special Publications 265, 15‒38.
+717 https://doi.org/10.1144/GSL.SP.2006.265.01.02.
+718 Sun, Y.D., Joachimski, M.M., Wignall, P.B., Yan, C.B., Chen, Y.L., Jiang, H.S., Wang, L.N., Lai,
+719 X.L., 2012. Lethally hot temperatures during the Early Triassic greenhouse. Science 338, 366‒
+720 370. DOI: 10.1126/science.1224126.
+721 Sun, Z.M., Hounslow, M.W., Pei, J.L., Zhao, L.S., Tong, J.N., Ogg, J.G., 2009. Magnetostratigraphy
+722 of the Lower Triassic beds from Chaohu (China) and its implications for the Induan–Olenekian
+723 stage boundary. Earth and Planetary Science Letters 279, 350‒361.
+724 https://doi.org/10.1016/j.epsl.2009.01.009.
+
+### page_34
+725 Szurlies, M., 2007. Latest Permian to Middle Triassic cyclo-magnetostratigraphy from the Central
+726 European Basin, Germany: Implications for the geomagnetic polarity timescale. Earth and
+727 Planetary Science Letters 261, 602‒619. https://doi.org/10.1016/j.epsl.2007.07.018.
+728 Szurlies, M., 2013. Late Permian (Zechstein) magnetostratigraphy in Western and Central Europe.
+729 Geological Society, London, Special Publications 376, 73‒85. https://doi.org/10.1144/SP376.7.
+730 Tong, J.N., Chu, D.L., Liang, L., Shu, W.C., Song, H.J., Song, T., Song, H.Y., Wu, Y.Y., 2019.
+731 Triassic integrative stratigraphy and timescale of China. Science China (Earth Sciences) 62,
+732 189‒222. https://doi.org/10.1007/s11430-018-9278-0.
+733 Wang, Z.Q., Wang, L.X., 1990. Late Early Triassic fossil plants from upper part of the Shiqianfeng
+734 Group in North China. Shanxi Geology 5, 195–212 [in Chinese with English abstract].
+735 Ward, P.D., Botha, J., Buick, R., De Kock, M.O., Erwin, D.H., Garrison, G.H., Kirschvink, J.L.,
+736 Smith, R., 2005. Abrupt and Gradual Extinction Among Late Permian Land Vertebrates in the
+737 Karoo Basin, South Africa. Science 307, 709–714. DOI: 10.1126/science.1107068.
+738 Wignall, P.B., 2015, The Worst of Times: How Life on Earth Survived Eighty Million Years of
+739 Extinction: Princeton, New Jersey, Princeton University Press, pp. 1–224.
+740 World Magnetic Model 2019–2024;
+741 https://www.ngdc.noaa.gov/geomag/calculators/magcalc.shtml#igrfwmm.
+742 Wu, T.Y., 1991. Conchostracan assemblage from bottom of Ermaying Formation, Shaanxi. Acta
+743 Paleontological Sinica 30, 631‒642. [in Chinese with English abstract].
+744 Wu, Y.Y., Tong, J.N., Algeo, T.J., Chu, D.L., Cui, Y., Song, H.Y., Shu, W.C., Du, Y., 2020. Organic
+745 carbon isotopes in terrestrial Permian-Triassic boundary sections of North China: Implications
+746 for global carbon cycle perturbations. Geological Society of America Bulletin 132, 1106–1118.
+
+### page_35
+747 https://doi.org/10.1130/B35228.1.
+748 Wu, Y.Y., Chu, D.L., Tong, J.N., Song, H.J., Dal Corso, J., Wignall, P.B., Song, H.Y., Du, Y., Cui,
+749 Y., 2021. Six-fold increase of atmospheric pCO during the Permian–Triassic mass extinction.
+2
+750 Nature Communications 12, 2137. https://doi.org/10.1038/s41467-021-22298-7.
+751 Yang, D. B., Yang, H. T., Shi, J. P., Xu, W. L., Wang, F., 2017. Sedimentary response to the
+752 paleogeographic and tectonic evolution of the southern North China Craton during the late
+753 Paleozoic and Mesozoic. Gondwana Research 49, 278–295.
+754 https://doi.org/10.1016/j.gr.2017.06.009.
+755 Yang, Z.Y., Ma, X.H., Besse, J., Courtillot, V., Xing, L.S., Xu, S.J., Zhang, J.X., 1991.
+756 Paleomagnetic results from Triassic sections in the Ordos Basin, North China. Earth and
+757 Planetary Science Letters 104, 258–277. https://doi.org/10.1016/0012-821X(91)90208-Y.
+758 Yin, H.F., Zhang, K.X., Tong, J.N., Yang, Z.Y., Wu, S.B., 2001. The global stratotype section and
+759 point (GSSP) of the Permian–Triassic boundary. Episodes 24, 102‒114.
+760 Yu, Y.Y., Tian, L., Chu, D., Song, H., Guo, W., Tong, J., 2022. Latest Permian–Early Triassic
+761 paleoclimatic reconstruction by sedimentary and isotopic analyses of paleosols from the
+762 Shichuanhe section in central North China Basin. Palaeogeography, Palaeoclimatology,
+763 Palaeoecology 585, 110726. https://doi.org/10.1016/j.palaeo.2021.110726.
+764 Yuan, D.X., Shen, S.Z., Henderson, C.M., Chen, J., Zhang, H., Zheng, Q.F., Wu, H.C., 2019.
+765 Integrative timescale for the Lopingian (Late Permian): A review and update from Shangsi,
+766 South China. Earth-Science Reviews 188, 190‒209.
+767 https://doi.org/10.1016/j.earscirev.2018.11.002.
+768 Zhang, M., Qin, H.F., He, K., Hou, Y.F., Zheng, Q.F., Deng, C.L., He, Y., Shen, S.Z., Zhu, R.X.,
+
+### page_36
+769 Pan, Y.X., 2021. Magnetostratigraphy across the end-Permian mass extinction event from the
+770 Meishan sections, southeastern China. Geology 49, 1289‒1294.
+771 https://doi.org/10.1130/G49072.1.
+772 Zhu, Z., Liu, Y., Kuang, H., Benton, M.J., Newell, A.J., Xu, H., An, W., Ji, S., Xu, S., Peng, N.,
+773 Zhai, Q., 2019. Altered fluvial patterns in North China indicate rapid climate change linked to
+774 the Permian-Triassic mass extinction. Scientific Reports 9, 16818.
+775 https://doi.org/10.1038/s41598-019-53321-z.
+776 Zhu, Z., Kuang, H., Liu, Y., Benton, M.J., Newell, A.J., Xu, H., An, W., Ji, S.A., Xu, S., Peng, N.,
+777 Zhai, Q., 2020. Intensifying aeolian activity following the end-Permian mass extinction:
+778 Evidence from the Late Permian–Early Triassic terrestrial sedimentary record of the Ordos
+779 Basin, North China. Sedimentology 67, 2691‒2720. https://doi.org/10.1111/sed.12716.

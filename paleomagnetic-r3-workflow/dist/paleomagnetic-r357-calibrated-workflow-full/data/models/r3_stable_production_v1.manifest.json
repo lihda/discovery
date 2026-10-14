@@ -1,0 +1,109 @@
+{
+  "schema_version": "r3_stable_production_model_manifest_v1",
+  "status": "TRAINED_ON_ALL_2751_PDF_BACKED_LABELLED_ROWS",
+  "created_at": "2026-07-22T07:55:02+00:00",
+  "model": {
+    "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/models/r3_stable_production_v1.joblib",
+    "sha256": "c8e170b4907e8c236a2de47490aae286a7fb9f1844e9382690ff83ccb02aa81c",
+    "schema_version": "r3_stable_production_model_v1"
+  },
+  "training": {
+    "rows": 2751,
+    "single_target_rows": 872,
+    "multi_target_rows": 1879,
+    "historical_r3_labels_used": true,
+    "grouped_oof_accuracy": 0.84187568,
+    "grouped_oof_correct": 2316,
+    "grouped_oof_rows": 2751,
+    "resubstitution_accuracy_not_for_reporting": 0.9233006179571065,
+    "labels_source": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/data/targets.xlsx",
+      "sha256": "378c17338f3b5cfeff3ccd496894e0f6183f747119b2624c4a9cefaeda02501e"
+    },
+    "identity": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/outputs/r357_strict_eval_07111758/inputs/identity_manifest.xlsx",
+      "sha256": "5bdb7476a5b7d61494939fc5cd7bc8fa3195ef7b032b29306f146892862b970f"
+    },
+    "oof_report": {
+      "path": "/Users/lihd/discovery/paleomagnetic-r3-workflow/dist/paleomagnetic-r357-calibrated-workflow-full/tmp/r3_scope_fusion_all_oof_v1/r3_scope_fusion_all_grouped_oof_report_v1.json",
+      "sha256": "dbc5163c76273abd7fd79f9de408e5bc055ad7f2210c8fbaddbccc181358c5b5"
+    }
+  },
+  "runtime_boundary": {
+    "runtime_inputs": [
+      "REFNO/RESULTNO/ROCKNAME identity",
+      "original-paper page text",
+      "frozen knowledge and feature specifications",
+      "this historically supervised model"
+    ],
+    "runtime_reads_r3_labels": false,
+    "runtime_reads_pmagresult_or_rockmag": false,
+    "historical_r3_labels_encoded_in_model": true,
+    "paper_only_evidence_retained_for_audit_and_fallback": true
+  },
+  "bge_model_snapshot": {
+    "model_id": "BAAI/bge-base-en-v1.5",
+    "revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+    "path": "/Users/lihd/.cache/huggingface/hub/models--BAAI--bge-base-en-v1.5/snapshots/a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+    "files": [
+      {
+        "name": "config.json",
+        "size_bytes": 777,
+        "sha256": "bc00af31a4a31b74040d73370aa83b62da34c90b75eb77bfa7db039d90abd591"
+      },
+      {
+        "name": "model.safetensors",
+        "size_bytes": 437955512,
+        "sha256": "c7c1988aae201f80cf91a5dbbd5866409503b89dcaba877ca6dba7dd0a5167d7"
+      },
+      {
+        "name": "tokenizer.json",
+        "size_bytes": 711396,
+        "sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66"
+      },
+      {
+        "name": "tokenizer_config.json",
+        "size_bytes": 366,
+        "sha256": "9261e7d79b44c8195c1cada2b453e55b00aeb81e907a6664974b4d7776172ab3"
+      },
+      {
+        "name": "special_tokens_map.json",
+        "size_bytes": 125,
+        "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3"
+      },
+      {
+        "name": "vocab.txt",
+        "size_bytes": 231508,
+        "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+      },
+      {
+        "name": "modules.json",
+        "size_bytes": 349,
+        "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+      },
+      {
+        "name": "sentence_bert_config.json",
+        "size_bytes": 52,
+        "sha256": "84e39fda68ccbff05bfa723ae9c0e70e23e2ec373b76e0f8c6e71af72a693cbf"
+      },
+      {
+        "name": "config_sentence_transformers.json",
+        "size_bytes": 124,
+        "sha256": "940d5f50db195fa6e5e6a4f122c095f77880de259d74b14a65779ed48bdd7c56"
+      },
+      {
+        "name": "1_Pooling/config.json",
+        "size_bytes": 190,
+        "sha256": "c9bef85e8bbf4b2eab4941b3fb62bd33f88686748b478f2e264d256472d9643b"
+      }
+    ],
+    "snapshot_sha256": "f485c4048f6ece224e392bedf008b05b8dc38a18ccbaee1b83c045ebf84a2600"
+  },
+  "versions": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "scikit_learn": "1.6.1",
+    "joblib": "1.5.3"
+  },
+  "warning": "84.19% is grouped OOF on the development corpus, not external validation. The final model is fit on all labelled rows and its resubstitution score must not be reported."
+}

@@ -1,0 +1,391 @@
+### page_1
+Rock Magnetic Cyclostratigraphy of the Doushantuo Formation, South China and
+Its Implications for the Duration of the Shuram-Wonoka Excursion
+by
+Zheng Gong
+W
+E
+A Thesis
+I
+Presented to thVe Graduate and Research Committee
+of Lehigh University
+E
+in Candidacy for the Degree of
+R
+P
+Master of Science
+in
+Earth and Environmental Sciences
+Lehigh University
+May 2016
+
+### page_2
+ProQuest Number: 10125857
+All rights reserved
+INFORMATION TO ALL USERS
+The quality of this reproduction is dependent upon the quality of the copy submitted.
+In the unlikely event that the author did not send a complete manuscript
+and there are missing pages, these will be noted. Also, if material had to be removed,
+W
+a note will indicate the deletion.
+E
+I
+V
+E
+ProQuest 10125857
+R
+Published by ProQuest LLC (2016). Copyright of the Dissertation is held by the Author.
+P All rights reserved.
+This work is protected against unauthorized copying under Title 17, United States Code
+Microform Edition © ProQuest LLC.
+ProQuest LLC.
+789 East Eisenhower Parkway
+P.O. Box 1346
+Ann Arbor, MI 48106 - 1346
+
+### page_3
+W
+E
+I
+V
+E
+R
+P
+© 2016 Copyright
+Zheng Gong
+ii
+
+### page_4
+Thesis is accepted and approved in partial fulfillment of the requirements for the Master
+of Science in Earth and Environmental Sciences.
+Rock Magnetic Cyclostratigraphy of the Doushantuo Formation, South China and Its
+Implications for the Shuram-Wonoka Excursion
+Zheng Gong
+W
+E
+Date Approved
+I
+V
+Kenneth P. Kodama
+E
+Thesis Advisor
+R
+P
+Frank J. Pazzaglia
+Committee Member
+Gray E. Bebout
+Committee Member
+David J. Anastasio
+Department Chair
+iii
+
+### page_5
+ACKNOWLEDGEMENTS
+I would like to express my deepest gr atitude to my advisor, Kenneth Kodama,
+without the guidance of whom this manuscript could never have been accomplished. I
+would like to thank my committee members, Frank Pazzaglia and Gray Bebout, for
+providing insightful suggestions for improving this manuscript. I am grateful to my
+undergraduate advisor, Yong-Xiang Li, who introduced me to paleomagnetism and
+W
+offered great assistance in the field. I would also like to thank all the faculties, staffs and
+fellow students of the EES department for creating such a lovely and supportive research
+E
+community. It is my privilege to work with, learn from and study with you. Joining
+I
+Lehigh University is one of the mVost unregretful decisions I have ever made and is a
+significant step in my career. The financial sources of this study are the National Science
+E
+Foundation (EAR-1322002) and the National Nature Science Foundation of China
+R
+(41230208).
+P
+iv
+
+### page_6
+TABLE OF CONTENTS
+Abstract 1
+1. Introduction 2
+2. Geologic Background 5
+3. Methods 7
+3.1 Sampling and Preparation 7
+3.2 Magnetic Measurements 8
+3.3 Spectral Analysis 10
+W
+3.4 Carbon Isotope 11
+3.5 Scanning Electron Microscopy (SEM) 12
+4. Results E 12
+4.1 Paleomagnetic results 12
+I
+4.2 Magnetic Mineralogy 13
+V
+4.3 Spectral Analysis 14
+4.4 Carbon IsotopeE Stratigraphy 15
+4.5 SEM Examination 15
+R
+5. Discussion 16
+5.1 Remagnetization 16
+P
+5.2 Duration of the Shuram-Wonoka Excursion 18
+5.3 Age of the Shuram-Wonoka Excursion 21
+6. Conclusions 23
+References 25
+Appendix 47
+Curriculum Vita 64
+v
+
+### page_7
+LIST OF TABLES
+Table 1 Isothermal Remanent Magnetization Modeling 34
+Table 2 Results of Spectral Analysis 35
+W
+E
+I
+V
+E
+R
+P
+vi
+
+### page_8
+LIST OF FIGURES
+Figure 1 Geologic Map 36
+Figure 2 Stratigraphic Column, Car bon Isotope Stratigraphy
+and Rock Magnetic Cyclostratigraphies 37
+Figure 3 Thermal and Alternating-field Demagnetization 38
+Figure 4 Equal Area Projection of Paleomagnetic Results 39
+Figure 5 Isothermal Remanent Magnetization Modeling 40
+Figure 6 Lowrie test 41
+Figure 7 Thermomagnetic Analysis W 42
+Figure 8 Partial Anhysteretic Remanent Magnetization 43
+Figure 9 Spectral Analysis 44
+E
+Figure 10 Amplitude Modulation Analysis 45
+Figure 11 Scanning Electron MicrosIcopy 46
+V
+E
+R
+P
+vii
+
+### page_9
+Abstract
+The Shuram-Wonoka excursion, the largest documented negative carbon isotope
+anomaly, occurs globally in the Ediacaran . Precise determination of the duration of the
+Shuram-Wonoka excursion is pivotal in understanding its controversial origin. Here, we
+present a detailed paleo- and rock magnetic, cyclostratigraphic and carbon isotope study
+of a complete record of the Shuram-Wonoka excursion in the Doushantuo Formation at
+the Dongdahe section in eastern Yunnan Province, South China. Although paleomagnetic
+W
+results indicate a Cretaceous thermoviscous remanent magnetization related to the
+Yanshanian orogeny in South China, careful mineralogical examination shows that
+E
+variations in the concentration of detrital magnetite can faithfully record astronomically-
+I
+forced climate oscillations in the EVdiacaran. Multi-taper method spectral analysis of
+magnetic susceptibility and anhysteretic remanent magnetization (ARM)
+E
+cyclostratigraphies yields significant peaks at consistent frequencies. Based on the ratios
+R
+of their wavelengths, these peaks are assigned to a suite of Milankovitch cycles (long
+P
+eccentricity, short eccentricity, obliquity and precession), permitting the sediment
+accumulation rate of the Doushantuo Formation to be calculated as 1.03 cm/kyr. By
+extrapolation, a 9.4 ± 1.0 Myr duration is suggested for the entire Shuram-Wonoka
+excursion in South China. This result is in good agreement with independent estimates
+from exposures in North America and South Australia, thus supporting a primary origin
+for the Shuram-Wonoka excursion. In combination with published geochronological data,
+we suggest that the age of the excursion’s onset is possibly ca. 560 Ma, thus providing a
+robust chronostratigraphic framework for evaluating the relationship between the
+excursion and the life evolution in the Ediacaran.
+1
+
+### page_10
+1. Introduction
+The Ediacaran Period (ca. 635-541 Ma; Knoll et al., 2006) witnessed the Earth’s
+largest negative carbon isotope anomaly, the Shuram-Wonoka excursion. This excursion
+is distinguished by its pronounced depletion in δ13C values (as low as -12‰), extended
+stratigraphic persistence and wide global distribution (Grotzinger et al., 2011). The origin
+of the Shuram-Wonoka excursion remains enigmatic because the persistent depleted δ13C
+values are not easily understood in terms of the modern Earth’s carbon cycle (Bristow
+W
+and Kennedy, 2008; Bjerrum and Canfield, 2011). Although a range of qualitative and
+quantitative models have been proposed to explain the unusual negative δ13C values
+E
+(Rothman et al., 2003; Knauth and Kennedy, 2009; Derry, 2010; Bjerrum and Canfield,
+I
+2011), there is no consensus regarVding whether they record the ancient ocean’s
+geochemistry or are the products of diagenetic alteration (Grotzinger et al., 2011).
+E
+It is believed that there is a causal link between the Shuram-Wonoka excursion and
+R
+the evolution of the Ediacaran-type biota (Condon et al., 2005; Zhu et al., 2007). This
+P
+contention is based on the assumptions that the excursion was generated by the oxidation
+of organic carbon in the deep ocean, coeval with the rise of the oxygen content during the
+late Neoproterozoic (Fike et al., 2006; Canfield et al., 2007; McFadden et al., 2008).
+Hence, to understand the origin of the Shuram-Wonoka excursion and its implications for
+life evolution in the Ediacaran, it is important to have a detailed chronostratigraphic
+framework. However, due to the lack of robust biostratigraphic and radiometric age
+constraints, global stratigraphic correlations of the Shuram-Wonoka excursion are based
+mainly on the chemostratigraphy of its global occurrences (Grotzinger et al., 2011).
+Alternatively, determining the duration of the Shuram-Wonoka excursion at high
+2
+
+### page_11
+resolution is useful for global comparisons and for understanding its controversial origin.
+If the excursion represents a primary depositional event, its duration should be identical
+at any of its global occurrences. But if the excursion was produced by diagenetic
+alteration, its duration would likely differ between occurrences. Many
+chronostratigraphic studies have been conducted to directly estimate the duration of the
+Shuram-Wonoka excursion in North America (Minguez et al., 2015); in Oman (Le
+Guerroué et al., 2006; Bowring et al., 2007); in South Australia (Minguez and Kodama,
+W
+in prep.) and in Siberia (Melezhik et al., 2009). However, only a few studies have been
+conducted in South China, where the Shuram-Wonoka excursion has been widely
+E
+observed across the Yangtze carbonate platform in fossiliferous Doushantuo Formation
+I
+(Condon et al., 2005; Zhu et al., 2V007; Lu et al., 2013). On the basis of zircon U-Pb ages
+obtained from an ash layer in the Yangtze Gorges area, Condon et al. (2005) estimated
+E
+that the excursion lasted for 1-10 million years in South China and terminated at ca. 551
+R
+Ma. A more recent Sr isotope study suggests that the minimum duration of the excursion
+P
+in South China is 15 Myr and could be as long as 30 Myr (Cui et al., 2015). These
+estimates have considerable uncertainties and are insufficiently precise for global
+correlations, pointing to the need for a high-resolution study of the duration for the
+Shuram-Wonoka excursion in South China.
+Rock magnetic cyclostratigraphy has been shown to be a useful tool for determining
+a high-resolution chronostratigraphy in both Phanerozoic and Precambrian age
+sedimentary sequences (Kodama and Hinnov, 2015). Using this technique, Minguez et al.
+(2015) suggest that the Shuram-Wonoka excursion lasted for 8.2 ± 1.2 million years
+based on the Johnnie Formation of the Death Valley region, North America. Applying the
+3
+
+### page_12
+same method to the Wonoka Formation, South Australia yields an 8.0 ± 0.5 Myr duration
+for the excursion (Minguez and Kodama, in prep.). In addition, a reversed-to-normal
+geomagnetic polarity transition was disco vered at the nadir of the carbon isotope
+stratigraphy in both the Johnnie and Wonoka formations, further supporting the global
+synchroneity of the Shuram-Wonoka excursion (Minguez et al., 2015; Minguez and
+Kodama, in prep.). Although rock magnetic cyclostratigraphic studies provide similar
+durations for the Shuram-Wonoka excursion, the accuracy of the duration estimated from
+W
+the North American strata should be considered with some caution. The magnetic
+susceptibility cyclostratigraphy from the Johnnie Formation covers only 10% of the
+E
+Shuram-Wonoka excursion (Minguez et al., 2015). Linear extrapolation assumes that the
+I
+sediment accumulation rate remaiVned unchanged for the remaining 90% of the excursion,
+whereas changes in lithology have been observed over the 300-500 stratigraphic
+E
+thickness of the Johnnie Formation (Corsetti and Kaufman, 2003), suggesting changes in
+R
+the depositional environment and, thus, different sediment accumulation rates.
+P
+Furthermore, in the Johnnie Formation, Minguez et al. (2015) identified Milankovitch
+cycles mainly by the ratio of short eccentricity to obliquity. Although the period of
+eccentricity cycle is regarded as stable over geologic time, the periods of obliquity and
+precession cycles have larger uncertainties in the deep past compared to present values
+(Laskar et al., 2011). Given the uncertainties in precession and obliquity, the ratio of
+short eccentricity to obliquity is indistinguishable from the ratio of short eccentricity to
+precession at times before 300 Ma (Waltham, 2015). Therefore, using the ratio of only
+two Milankovitch cycles might complicate the identification of significant peaks in
+spectral analysis.
+4
+
+### page_13
+The power of rock magnetic cyclostratigraphy for determining a high-resolution
+duration for the Shuram-Wonoka excursion, as well as the extrapolation and the use of
+ratio of only two Milankovitch cycles in M inguez et al. (2015)’s study in North America,
+prompted us to apply this technique to another occurrence of the excursion, where a more
+complete record of the excursion could be used for correct interpretation of the
+significant peaks in spectral analysis. In this paper, we present a detailed paleo- and rock
+magnetic, cyclostratigraphic and carbon isotope study of the Doushantuo Formation at
+W
+the Dongdahe section in eastern Yunnan Province, South China. Based on our results, the
+duration of the Shuram-Wonoka excursion in South China is 9.4 ± 1.0 Myr, agreeing well
+E
+with the results from North America and South Australia, and supporting a primary origin
+I
+for the excursion. Combining the Vestimated duration of the Shuram-Wonoka excursion
+with published geochronological data, we propose that the age of the excursion’s onset is
+E
+ca. 560 Ma, thus providing a robust chronostratigraphic framework for accessing the
+R
+relationship between the excursion and life evolution in the Ediacaran.
+P
+2. Geologic Background
+The Ediacaran sequence on the Yangtze carbonate platform in South China consists
+of the Doushantuo and Dengying formations, both deposited on a rifted continental
+margin after the breakup of Rodinia (Wang and Li, 2003). Stratigraphically sandwiched
+between the Cryogenian Nantuo diamictite and the Ediacaran Dengying dolostone, the
+Doushantuo Formation is usually divided into four stratigraphic members based on facies
+variations (Jiang et al., 2011). Two lithological marker beds, a cap carbonate bed
+(Member I) at the base and an organic-rich black shale (Member IV) at the top of the
+5
+
+### page_14
+Doushantuo Formation, are widely used in stratigraphic correlations across the Yangtze
+carbonate platform in South China (Jiang et al., 2011). The Doushantuo Formation hosts
+three negative carbon isotope excursions, among which the one with the most depleted
+δ13C values in Doushantuo Members III and IV is regarded as equivalent to the Shuram-
+Wonoka excursion (Zhu et al., 2007; McFadden et al., 2008). The Doushantuo/Dengying
+boundary is generally accepted as the termination of the Shuram-Wonoka excursion in
+South China (Lu et al., 2013). The age of the Doushantuo/Dengying boundary is
+W
+constrained to be ca. 551 Ma based on zircon U-Pb ages from an ash layer in the Yangtze
+Gorges area (Condon et al., 2005) and has been widely regarded as the age of the
+E
+excursion’s termination (Zhu et al., 2007; Fike et al., 2006; Grotingzer et al., 2006).
+I
+Previous studies show that thVe Dongdahe section (24.7°N, 102.9°E; Figure 1) was
+paleogeographically located at the southwestern margin of the Yangtze carbonate
+E
+platform and was deposited in a shallow-water basin (Jiang et al., 2011; Lu et al., 2013).
+R
+Here, the Doushantuo Formation is about 180 m thick, which consists of 50-m of
+P
+brownish sandstone and silty shale (Member I); approximately 120-m of thickly-bedded
+dolostone interbedded shale and thinly-bedded, laminated muddy limestone (Member II
+and III); and an 8-m black shale (Member IV; Zhu et al., 2007). The entire Shuram-
+Wonoka excursion was recorded in 91.2 ± 9.5 m in the Doushantuo Members III and IV
+at the Dongdahe section. The uncertainty of this thickness is because that the carbon
+isotope stratigraphy of Zhu et al. (2007) does not constrain the exact position of the
+beginning of the excursion (Figure 2b). The asymmetric morphology of the excursion is
+the result of a quick decrease and a relatively prolonged recovery in δ13C values in the
+Doushantuo Members III and IV (Zhu et al., 2007; Figure 2b). In the field, we observed
+6
+
+### page_15
+that the lower Dongdahe section is inaccessible in a cliff, prohibiting stratigraphically
+continuous sampling of this part of the excursion. The upper Dongdahe section, which
+includes the upper part of Doushantuo Me mber III and the entire Doushantuo Member
+IV, is along a roadcut with bedding dipping to the east (mean bedding: strike/dip =
+9°NE/40°E) and has a stratigraphic thickness of 53 m. Regional geologic investigations
+show that the folding was of mid-Tertiary age (Liang et al., 1984) and probably related to
+the Indo-Asian collision in the Cenozoic. The Mesozoic Yanshanian and Indosinian
+W
+orogenies in South China pervasively affected the geology of this area (Zhang et al.,
+2013).
+E
+I
+3. Methods V
+3.1 Sampling and Preparation
+E
+The highest frequency resolvable in spectral analysis, known as the Nyquist
+R
+frequency [f =1/(2*sampling interval)], directly determines the cycle with the shortest
+N
+P
+wavelength that could be observed in the power spectrum. Theoretical estimates of
+Milankovitch cycles suggest that the longest precession period at 550 Ma is of 20.3 ± 1.7
+kyr (Waltham, 2015). The average thickness of the bedding in the Doushantuo limestone
+is ~ 10 cm so we chose this sampling interval for rock magnetic cyclostratigraphy, which
+means that our Nyquist frequency is 5 m-1. As long as the sediment accumulation rate of
+the Doushantuo Formation is higher than 0.98 cm/kyr, this Nyquist frequency should
+allow us to observe the variations in rock magnetic parameters beating to all
+Milankovitch cycles in the power spectrum. Otherwise, we would not be able to observe
+precession but would still be able to see long eccentricity, short eccentricity and
+7

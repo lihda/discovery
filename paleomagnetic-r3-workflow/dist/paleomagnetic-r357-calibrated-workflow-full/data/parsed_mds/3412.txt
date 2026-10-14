@@ -1,0 +1,421 @@
+### page_1
+Geophys.J.Int.(2001)146,531–538
+The magnetostratigraphy and a 1780 Ma palaeomagnetic
+pole from the red sandstones of the Vazhinka River section,
+Karelia, Russia
+S. A. Pisarevsky1 and S. J. Sokolov2
+1TectonicsSpecialResearchCentre,TheUniversityofWesternAustralia,Nedlands,WA6907,Australia.E-mail:spisarev@tsrc.uwa.edu.au
+2InstituteofGeology,KarelianScientificCentre,Pushkinskaya11,185610Petrozavodsk,Russia.
+Accepted2001April3.Received2001March14;inoriginalform2000October18
+SUMMARY
+A palaeomagnetic study of the Vepsian sandstones of the upper part of the Shoksha
+Formation has revealed a stable remanence. Rock magnetic and mineralogical studies
+suggest diagenetic haematite as the main carrier of this remanence. Two magnetic
+polarities with a regular stratigraphic zonation have been found. The reversal test
+is positive. The tilt-corrected palaeomagnetic direction is: N=36, D=354.3u, I=21.6u,
+k=22.3, a =5.2u. The corresponding palaeomagnetic pole of 39.7uN, 221.1uE
+95
+(D =2.9u, D =5.5u) is proposed as a ‘key pole’ for 1790–1770 Ma for Fennoscandia.
+p m
+Key words: Fennoscandia, magnetostratigraphy, palaeomagnetism, Palaeoproterozoic,
+sandstone.
+basicreliabilitycriteria.AsearchoftheGlobalPalaeomagnetic
+1 INTRODUCTION
+DatabasebyMcElhinny&Lock(1996)reveals15palaeopoles
+The late Svecofennian and post-Svecofennian rocks (c. 1850– with Q>2 (Van der Voo 1990). These poles are shown in
+1750Ma) of Fennoscandia have undergone extensive palaeo- Table1.Twofeaturesareinterestinginthistable.First,these
+magnetic study. Elming et al. (1993), for example, reported data are almost exclusively of single polarity with positive
+about18reliablepalaeomagneticresultsforthesetimeintervals. inclination (we will refer to this polarity as ‘normal’). There
+However, the recent analysis of Buchan et al. (2000) did not are only two exceptions—the result from Shoksha red sand-
+revealany‘keypole’forthistime.Theirrequirementsfora‘key stones in Karelia (Damm et al. 1997) and a few samples
+pole’includegooddating(<t20Ma)andthesatisfactionof fromTavinunnanengabbroinnorthernSweden(Elming1994).
+Table1 LateSvecofennianandpost-SvecofennianpalaeomagneticdatafromFennoscandiawithQ>2.
+Rockname Age Decl. Incl. Plat Plong %R Reference
+(Ma) (u) (u) (u) (u)
+Jokkmokkbasicrocks 1731–1829 349 33 41 214 0 Piper1980
+HaukivesiIntrusives 1837–1840 348 39 49 225 0 Neuvonenetal.1981
+KiuruvesiIntrusions 1881–1891 338 35 43 235 0 Neuvonenetal.1981
+Nilsia–VarpaisjarviDykes 1830–1860 349 38 47 224 0 Neuvonenetal.1981
+TarendoGabbro 1714–1800 339 42 45 230 0 Elming1985
+SvappavaaraGabbro 1860–1880 336 52 52 235 0 Elming1985
+VittangiGabbro 1707–1880 340 39 43 228 0 Elming1985
+ShokshaFormation 1770–1800 6 31 45 206 0 Dammetal.1997
+ShokshaFormation 1770–1800 161 x33 44 242 100 Dammetal.1997
+RoprucheySill 1758–1782 3 18 38 211 0 Dammetal.1997
+RoprucheySill 1758–1782 349 24 41 230 0 Fedotovaetal.1999
+RoprucheySill 1758–1782 6 15 39 209 0 Fedotovaetal.1999
+RoprucheySill 1758–1782 357 23 41 218 0 Fedotovaetal.1999
+Post–SvecofennianIntrusions 1730–1830 5 39 48 201 MIX Elming1994
+Post–SvecofennianIntrusions 1730–1830 20 51 53 171 0 Elming1994
+Decl,Incl=declinationandinclinationofremanence;Plat,Plong=latitudeandlongitudeofpalaeopole;
+%R=percentageof‘‘reversed’’(withnegativeinclination)polarity.
+#2001RAS 531
+Downloaded
+from
+https://academic.oup.com/gji/article/146/2/531/641475
+by
+guest
+on
+12
+May
+2026
+
+### page_2
+532 S. A. Pisarevsky and S. J. Sokolov
+Second, almost all these directions lie close to (but are signi-
+ficantlydifferentfrom)thedirectionofthepresent-daymagnetic
+field(PDF).Theonlyexceptionisthepalaeomagneticdirection
+fortheRoprucheySillinKarelia(Dammetal.1997;Fedotova
+et al. 1999). These two features beg the question—is there a
+strongpredominanceof‘normal’geomagneticfieldduringlate
+Svecofennianandpost-Svecofenniantimes,or,atleastinsome
+cases, are we dealing with incomplete isolation of the ancient
+magnetization? It is well known in palaeomagnetism that
+unipolardatacanbeslightlybiasedtowardsthePDFtherefore
+newpalaeomagneticresultswithdualpolaritywouldbeuseful
+inresolving this problem.
+Katseblin (1968) reported three samples with ‘reverse’
+magnetizationintheupperpartofVepsianPukhtaFormation,
+which is the top part of Shoksha Formation according to
+the present stratigraphic scheme for Karelia (Sokolov et al.
+1987).HeusedonlyprimarymeasurementsoftheNRM.The
+‘reverse’polaritywasalsofoundinlowerlevelsoftheShoksha
+Formation (Damm et al. 1997), see Table1. Katseblin (1968)
+studied the Vazhinka River section, which is the biggest out-
+cropoftheShokshaFormationandtheonlyonewithexposed
+upper horizons. In order to obtain more information about
+‘reverse’magnetizationintheShokshaFormationusingmodern
+palaeomagnetic techniques we decided to study the Vazhinka
+sectionagain,especiallytheupperlayersnotstudiedbyKatseblin
+(1968).ThissectionliesatsomedistancefromtheRopruchey
+Sill,whichhascausedpartialremagnetizationofnearbyShoksha
+sediments (Dammet al.1997).
+2 GEOLOGY AND SAMPLING
+According to Sokolov et al. (1987), the Vepsian Group is the
+toplithostratigraphicunitofthelowerProterozoic(Karelian)
+stratainSouthernKarelia.Theloweranduppertimeboundaries
+fortheVepsianareabout1850and1750Ma(Heiskanen1990).
+Heiskanen(1990)correlatestheVepsianGroupwiththeVakko Figure 1. (a) Simplified tectonic map of the southeastern part of
+sedimentaryseriesoftheKirunadistrictandwiththeVargfors theFennoscandianShield.1=Murmanskblock(Archaean);2=Kola
+seriesoftheSkelleftedistrictinnorthernSweden.TheVakko block(Archaean);3=BelomorianBelt(Archaean);4=Karelianblock
+sediments are postdated by the Lina Granite (1794t24Ma, (Archaean);5=Svecofennianblock(Palaeoproterozoic);6=Phanerozoic
+U-Pb zircon), and the Vargfors sediments are postdated by
+cover. (b) Simplified geological map of Prionezhie area. 1=Archaean
+granitoids; 2=Jatulian (2.3–2.1 Ma), Ludikovian (2.1–1.95 Ma) and
+theRevsund-typegranites(1778t16Ma,U-Pbzircon)(Skio¨ld
+Kalevian(1.95–1.92Ma)rocks;3=Vepsian(1.85–1.77Ma)Petrozavodsk
+1988).
+andShokshaFormations;4=RoprycheymaficSill(1.77Ma);5=Vendian
+ThestudyareabelongstotheKareliancrustalblockofthe toPhanerozoicsediments.
+FennoscandianShield(Fig.1a).Vepsiansedimentscoverawide
+region along the western coast of the Onega Lake (Fig.1b).
+The Vepsian unit is divided into two formations. The lower
+PetrozavodskFormation(300–450m) consistsmainly of grey the western limb of the syncline, mainly in the E–W trending
+quartzsandstones.ThereisoneknownK-Ardate(onglauconite) Genoi-Selga Gorge of the Vazhinka River. The uppermost
+of1800Ma(Sokolovetal.1987)forthisformation.Theupper part of the section was sampled outside the gorge, in the sub-
+Shoksha Formation (y1000m) is made up of red and pink meridional part of the river. The studied sandstones dip up
+quartzites and quartzsandstones. It is divided into three sub- to 10u NEE in the eastern part of outcrop (upper part of the
+formations (Sokolov et al. 1987). The Shoksha sediments are sequence) andupto 20u in thewestern part.
+intrudedbythegabbro-doleriteRoprucheySill(Fig.1b).The The section studied is made up of red to pink quartz
+U–Pb (zircon) age of this sill, 1770t12Ma (Bibikova et al. sandstones(Fig.2).Thereisa100mlayerofintraformational
+1990)markstheyoungeragelimitfortheShokshaFormation. conglomerateatthebottompartofthesection.Theupperpart
+The Vepsian sediments form a gentle syncline (Fig. 1b). The ofthesectionwasstudiedinseveralriveroutcrops.Themiddle
+timeoffoldingprobablycorrespondstothetimeoftheintrusion part is exposed in the gorge and consists mostly of talus with
+ofthe RoprucheySill (Simanovich1966). a number of outcrops. Unlike the upper part of the section,
+The Vazhinka section is the most exposed of the Shoksha some blocks in this part have been slightly dislocated during
+Sandstone in Karelia and the only one where the uppermost recentneotectonicevents.Inoursamplingwehaveavoidedsuch
+part of the Shoksha Formation is exposed. It is situated on outcrops.
+#2001RAS,GJI146,531–538
+Downloaded
+from
+https://academic.oup.com/gji/article/146/2/531/641475
+by
+guest
+on
+12
+May
+2026
+
+### page_3
+Magnetostratigraphy, Vazhinka River section, Russia 533
+Figure2.SimplifiedlithologicalcolumnandmagnetostratigraphyoftheVazhinkasection.1=conglomerate;2=redquartzsandstone;3=‘‘normal’’
+polarity;4=‘‘reversed’’polarity;5=notsampled.
+Thesectionstudiedcorrespondstotheuppersubformation Magnetic remanence was measured using a 2G755R cryo-
+oftheShokshaFormation,soaccordingtotheageconstraints genicmagnetometerandJR4spinnermagnetometer(Geofyzika,
+mentioned above an age of between 1790 and 1770Ma can Brno, Czech Republic). All specimens were subjected to step-
+reasonablybeassignedtothesesediments.Theageoffoldingis wisethermaldemagnetizationusingMMTD2furnacesmanu-
+supposedtobe about1770Ma(see above). facturedbyMagneticMeasurementsandVNIGRIhome-made
+Katseblin (1968) studied the middle part of the section screenedfurnace(y10nTresidualfield).Afewspecimenswere
+(Fig.2). In order to trace the scope of the ‘reverse’ polarity subjected to stepwise alternating field (AF) demagnetization
+zone we collected oriented samples both at the upper part, using a 2G600 automated degaussing system, but this type
+which has never been studied palaeomagnetically and at the of magnetic cleaning proved to be ineffective for the studied
+middle part (Fig.2). We did not find any undisturbed out- rocks.Magneticsusceptibilitywasmeasuredaftereachheating
+crop of the conglomerate unit near the bottom of the section stepwithaKLY-2bridge(Geofyzika,Brno,CzechRepublic).
+(Fig.2),soitwasimpossibletocarryoutaconglomeratetest. Isothermal remanent magnetization (IRM) experiments were
+Additionally,therewereonlyfewpebbleslargeenoughtocut carriedoutusinga MMPM9pulse magnetiser.
+atleasttwospecimens.However, wewereabletocollectfour
+pebblesin twolarge boulders, takingtwosamples from each.
+4 MAGNETIC MINERALS AND ROCK
+Altogetherwecollected53orientatedsamples—25fromthe
+MAGNETISM
+upper part of the section, 24 from the lower part and 4 from
+theconglomerateboulders.2–10cubicspecimenswithsidesof PetrographicandX-rayanalysesshowthathaematiteismainly
+2cmwere trimmed fromeach orientatedsample. presentintheformoffine-grained(0.1–1 mm)pigmentinthin
+films over quartz grains. Detailed studies of these films led
+Simanovich(1966)totheconclusionthattheywereformedby
+the redistribution of colloid ferric oxides during diagenesis.
+3 MEASURING TECHNIQUES
+Additionallythereissomeminorfine-grainedclastichaematite
+The palaeomagnetic study of the collection was carried out and magnetite. Very small amounts of secondary haematite,
+inthepalaeomagneticlaboratoryofVNIGRI(St.Petersburg, martiteandferric hydroxides werealso found.
+Russia)andinthepalaeomagneticlaboratoryoftheTectonics Thenaturalremanentmagnetization(NRM)ofthestudied
+SpecialResearchCentreattheUniversityofWesternAustralia. sandstonesrangesfrom0.3to70mA mx1,andtheirmagnetic
+#2001RAS,GJI146,531–538
+Downloaded
+from
+https://academic.oup.com/gji/article/146/2/531/641475
+by
+guest
+on
+12
+May
+2026
+
+### page_4
+534 S. A. Pisarevsky and S. J. Sokolov
+susceptibilityfromabout0 to1.6r10x4SIunits.Rockmag-
+neticstudiesconfirmthedominanceofhaematite.IRMcurves
+(Fig.3) show that the saturation was not achieved even in
+magnetic fieldsof about3 T.
+Twospecimenswereusedfortheanalysisofrockmagnetic
+mineralogyfollowingthemethodproposedbyLowrie (1990).
+Fields of 2900, 400 and 120mT were applied successively
+alongthreeorthogonalaxesofeachspecimen.Thesespecimens
+were then subjected to stepwise thermal demagnetization
+(Fig.4).Thisprocedureenablesdetectionofthepredominance
+ofhaematitewiththewiderangeofthecoercivity.Themedium-
+coercivityfractionalsoshowsapeculiarityneartheCurietem-
+peratureofmagnetite(y585uC).Allthesefeaturesconfirmthe
+resultsof the petrographicand X-raystudies.
+Thedominanceofsingle-domain(SD)diagenetichaematite
+andthepresenceofsomefineclasticmagnetiteandhaematitepro-
+videevidenceinfavourofaprimarynatureofthemagnetization
+ofthe sandstones.
+5 PALAEOMAGNETIC ANALYSIS
+ThecharacteristiccomponentsofNRM(ChRM)wereisolated
+usingaleast-squaresalgorithm(Torsvik1986),combinedwith
+analysis of stereograms. Fisher (1953) statistics were used for
+calculations.
+Some typical examples of the thermal demagnetization are Figure4.Three-axisIRS(T)curves(Lowrie1990).Themagnetization
+shownon Figs 5and6.Allstudiedsamplesshowverystable fieldsare2.9T(hard),0.4T(medium)and0.12T(soft).
+remanence.Inmostcasesonlyonecomponentispresent(Fig.5).
+This is a high-temperature component with unblocking tem-
+peraturesabove600uC.Insomesamplesthelow-temperature
+componentisalsopresent(Fig. 6).Itsdirectionisclosetothat
+ofthe present-dayfield (PDF)(Fig.7a).
+Figure5.Exampleofthermaldemagnetizationforthe‘‘reversed’’part
+of the section (equal-angle projection, normalized demagnetization
+curve and orthogonal plot). Solid and open symbols on the stereo-
+projection represent downward and upward directions, respectively;
+Figure3.ExamplesofIRMsaturationcurves,(a)upperpartofthe solid and open symbols on the Zijdelveld (1967) diagram denote
+section,(b)lowerpartofthesection. horizontalandverticalprojections,respectively.
+#2001RAS,GJI146,531–538
+Downloaded
+from
+https://academic.oup.com/gji/article/146/2/531/641475
+by
+guest
+on
+12
+May
+2026
+
+### page_5
+Magnetostratigraphy, Vazhinka River section, Russia 535
+(Figs5and6),soNRMdirectionscanbeusedatleastforthe
+determination of magnetic polarity. We compare Katseblin’s
+magnetostratigraphy column with ours in Fig. 2 and there is
+goodagreement.
+Themeanpalaeomagneticdirectionsforthehigh-temperature
+componentareshowninTable2.Thedirectionsbeforeandafter
+tiltcorrectionareveryclosetoeachotherandtheirstatisticsare
+practicallythesame.Thisisnotsurprising,becausethebedding
+isalmostuniformandthedipsarequiteshallow.However,the
+goodstratigraphiczonationofthemagnetic polarityintervals
+(Fig.2) together with mineralogical evidence (see Section 3)
+suggestaprimarynatureforthehigh-temperaturecomponent.
+So,weprefertousethepalaeopolebasedonthetilt-corrected
+results.
+Fig.8showsthedifferencesbetweenthedirectionsofthehigh-
+temperature component in the pebbles of two conglomerate
+boulders. The between-pebbles difference obviously exceeds the
+within-pebbledifference,butthenumberofsamplesisinsufficient
+fora proper conglomerate test.
+6 DISCUSSION
+Buchan et al. (2000) proposed the use of ‘key poles’ rather
+thantheapparentpolarwanderpath(APWP)approachforthe
+analysis of Precambrian plate tectonics. Their definition of a
+‘key pole’ includes reliable dating (<t20Ma) and the satis-
+factionofbasicreliabilitycriteria.Theiranalysisoftheavailable
+palaeomagneticinformationfromFennoscandiarevealedonly
+twoProterozoickeypoleswithages>1600Ma.Theyareboth
+fromSubjotnianquartzporphyrydykesfromFinland—30uN,
+Figure6.Exampleofthermaldemagnetizationforthe‘‘normal’’part 175uE(Neuvonen1986)and26uN,180uE(Mertanen&Pesonen
+ofthesection(seenotestoFig.5). 1995;To¨rnroos1984).ThesepolesareshownonFig. 9(a)asSE
+andSI respectively. Buchanet al. (2000)also used some non-
+keypolesfortheiranalysis.Theclosestinagetoourpoleisthe
+onefromtheHaukivesiLamprophyres(Neuvonenetal.1981;
+The high-temperature component is bipolar (Fig. 7b,c), Huhma1981)—seeTable1(entry2).Wehavealsoshownthis
+and the reversal test of McFadden & McElhinny (1990) gives poleonFig. 9(a)(HL pole).
+a positive result with classification C both for in situ and tilt Webelievethatournew palaeopolefrom Vazhinkasection
+correcteddistributions. canbeacceptedasthe‘keypole’forthetimeintervalbetween
+All ‘reverse’ palaeomagnetic directions were only found in 1790and1770Ma.TheQfactor(VanderVoo1990)isequalto
+theupperpartofthesection(Fig. 2).Thispermitsustobuild 6.Unfortunately(seeprevioussections)itisimpossibletocarry
+a magnetostratigraphy column for the Vazhinka section. The outaproperconglomeratetestorafoldtestfortheVazhinka
+topfewmetrescombinea‘normal’zone,thereisy170mthick section. However, good mineralogical and rock magnetic evi-
+‘reverse’zonebelowit,andtherestofthesectionisrepresented denceoftheprimary(diagenetic)natureofthehaematiteand
+bya‘normal’zone(Fig. 2).Katseblin(1968)studiedthepartof its remanence (see sections 3 and 4), and a regular behaviour
+VazhinkasectionusingNRM,withoutthermaldemagnetization. of the magnetic polarity through the section (Fig. 2), lead to
+However, our results show the high stability of remanence the reasonable suggestion about the primary nature of the
+Table2 Sample mean palaeomagnetic directions from the Shoksha Formation in Vazhinka River section, Karelia,
+Russia(61.3uN,33.8uE).
+Componentof N/n Decl. Incl. k a Plat Plong Dp Dm
+95
+magnetisation (u) (u) (u) (uN) (uE) (u) (u)
+1High-T,tiltcorr. 36/61 354.3 21.6 22.3 5.2 39.7 221.1 2.9 5.5
+2High-T,insitu 36/61 347.4 23.7 22.1 5.2 40.2 230.0 3.0 5.5
+N/n=number of samples/specimens; Decl, Incl=sample mean declination, inclination; k=best estimate of the precision
+parameterofFisher(1953);a 95=thesemi-angleofthe95%coneofconfidence;Plat,Plong=latitude,longitudeofthepalaeopole;
+D
+p
+,D m=thesemi-axesoftheconeofconfidenceaboutthepoleatthe95%probabilitylevel.
+#2001RAS,GJI146,531–538
+Downloaded
+from
+https://academic.oup.com/gji/article/146/2/531/641475
+by
+guest
+on
+12
+May
+2026
+
+### page_6
+536 S. A. Pisarevsky and S. J. Sokolov
+Figure 8. Remanence directions of the pebbles in two boulders
+of conglomerate: (a) and (b) correspondingly. Absolute direction is
+arbitrary.
+remanence. In our view, the presence of both polarities pro-
+videsapolepositionthatismorereliable,thanmostofstudies
+presented in Table 1. Fig. 2 shows that there were at least
+two polarity reversals during the deposition of the studied
+sediments. Therefore, the time interval covered is enough to
+averagethe effectof palaeosecular variations.
+The Vazhinka pole (VS) is shown on Fig. 9(a) (star).
+The dashed line shows the possible APWP for Fennoscandia
+betweeny1840Maandy1630Ma.However,atimeinterval
+ofabout150Mawithoutany‘keypoles’allowsamorecomplex
+APWP. Fig. 9(b) shows the corresponding palaeopositions of
+Fennoscandia atthreetime slices.
+7 CONCLUSIONS
+First,apalaeomagneticstudyoftheupperpartoftheShoksha
+Formation at Vazhinka River section has revealed a stable
+bipolar remanence. Mineralogical and rock magnetic studies
+suggest that diagenetic haematite is the main carrier of this
+remanence.
+Second,regularmagnetostratigraphiczonationinthesection
+(Fig.2) is evidence in favour of the primary nature of the
+remanenceandfinallythestratigraphicpositionofthestudied
+Figure 7. Stereoplots (equal-angle projection): (a) low-temperature sectiontogetherwithgeochronologicaldatafromtheRopruchey
+component(PDF);(b)high-temperaturecomponentinsitu; (c)high- Sill suggest that the age of the new palaeomagnetic pole lies
+temperaturecomponentaftertiltcorrection. between1790and1770Ma.
+#2001RAS,GJI146,531–538
+Downloaded
+from
+https://academic.oup.com/gji/article/146/2/531/641475
+by
+guest
+on
+12
+May
+2026
+
+### page_7
+Magnetostratigraphy, Vazhinka River section, Russia 537
+Figure 9. (a) Post-svecofennian palaeomagnetic poles for Fennoscandia: SE–SE quartz porphyry dykes (Neuvonen 1986); SI–Sipoo quartz
+porphyrydykes(Mertanen&Pesonen1995),ageafter(To¨rnroos1984);HL–Haukivesilamprophyres(Neuvonenetal.1981),ageafter(Huhma1981);
+VS (star)–Vazhinka section (this study). SE and SI are ‘‘key poles’’ according to (Buchan et al. 2000). (b) Corresponding palaeopositions of
+Fennoscandia.
+and M. Smethurst was used for calculations and the pro-
+ACKNOWLEDGMENTS
+gramofP.McFadden(AGSO)wasusedforthereversaltest.
+WeareverygratefultoProfM.W.McElhinnyfortheinformal TectonicsSpecial ResearchCentre publicationno.140.
+reviewofourmanuscriptandtoDrHerveTheveniautforthe
+formalreviewanduseful remarks. Weare alsogratefulto Dr
+REFERENCES
+A.GolubevandDrA.Ein(InstituteofGeology,Petrozavodsk,
+Bibikova, E.V., Kirnozova, T.I., Lazarev, Yu.I., Makarov, V.A. &
+Russia)forthefieldassistance.SAPacknowledgestheUniversity
+Nikolaev,A.A.,1990.U–PbisotopicageofKarelianVepsian,Dokl.
+ofWesternAustraliaGleddenSeniorVisitingFellowship.This
+ANSSSR,310,189–191.
+research was supported by the Australian Research Council
+Buchan,K.L.,Mertanen,S.,Park,R.G.,Pesonen,L.J.,Elming,S.-A.,
+(ARC) through its Research Centres program. The recon- Abrahamsen, N. & Bylund, G., 2000. Comparing the drift of
+structionwasmadewiththeGMAPprogramofT.Torsvikand Laurentia and Baltica in the Proterozoic: the importance of key
+M. Smethurst (NGU). The IAPD program of T. Torsvik palaeomagneticpoles,Tectonophysics,319,167–198.
+#2001RAS,GJI146,531–538
+Downloaded
+from
+https://academic.oup.com/gji/article/146/2/531/641475
+by
+guest
+on
+12
+May
+2026
+
+### page_8
+538 S. A. Pisarevsky and S. J. Sokolov
+Damm,V., et al., 1997.Palaeomagnetic studies ofProterozoicrocks Mertanen,S.&Pesonen,L.J.,1995.Palaeomagneticandrockmagnetic
+from the Lake Onega region, southeast Fennoscandian Shield, investigationsoftheSipooSubjotnianquartzporphyryanddiabase
+Geophys.J.Int.,122,518–530. dykes, southern Fennoscandia, Phys. Earth planet. Inter., 88,
+Elming,S.-A.,1985.ApalaeomagneticstudyofSvecokarelianbasicrocks 145–175.
+fromnorthernSweden,Geol.Foren.StocckholmForh.,107,17–35. Neuvonen,K.J.,1986.Onthedirectionofremanentmagnetizationof
+Elming,S.-A.,1994.PalaeomagnetismofPrecambrianrocksinnorthern thequartzporphyrydikesinSEFinland,Bull.geol.Soc.Finland,58,
+Swedenanditscorrelationtoradiometricdata,PrecambrianRes.,69, 195–201.
+61–79. Neuvonen, K.J., Korsman, K., Kouvo, O. & Paavola, J., 1981.
+Elming, S.-A., et al., 1993. The drift of the Fennoscandian and Paleomagnetismandagerelationsoftherocksinthemainsulphide
+UkrainianshieldsduringthePrecambrian:apalaeomagneticanalysis, orebeltincentralFinland,Bull.geol.Soc.Finland,53,109–133.
+Tectonophysics,223,177–1198. Piper, J.D.A., 1980. A paleomagnetic study of Svecofennian basic
+Fedotova, M.A., Khramov, A.N., Pisakin, B.N. & Priyatkin, A.A., rocks: Middle Proterozoic configuration of the Fennoscandian,
+1999. Early Proterozoic palaeomagnetism: new results from the Laurentian and Siberian shields, Phys. Earth planet. Inter., 23,
+intrusivesandrelatedrocksoftheKarelian,BelomorianandKola 165–187.
+provinces, eastern Fennoscandian Shield, Geophys. J. Int., 137, Simanovich, I.M., 1966. Epigenesis and Early Metamorphism of the
+691–712. ShokshaQuartzSandstones,Nauka,Moscow.
+Fisher,R.A.,1953.Dispersiononasphere,Proc.R.Soc.Lond,A217, Skio¨ld,T.,1988.ImplicationsofnewU–PbzirconchronologytoEarly
+295–305. ProterozoiccrustalaccretioninnorthernSweden,PrecambrianRes.,
+Heiskanen, K.I., 1990. The palaeogeography of the Baltic Shield at 38,147–164.
+Kareliantimes,KNCANSSSR,Petrozavodsk. Sokolov, V.A., Kulikov, V.S. & Stenar, M.M., 1987. Geology of
+Huhma,A.,1981.YoungestPrecambriandykerocksinNorthKarelia, Karelia,Nauka,Leningrad.
+EastFinland,Bull.geol.Soc.Finland,53,67–82. To¨rnroos, R., 1984. Petrography, mineral chemistry and petro-
+Katseblin, P.L., 1968. Direction of magnetization of the Jotnii chemistry of granite porphyry dykes from Sibbo, southern Finland,
+Sandstones of Southern Karelia, Akad. Nauk SSSR Izv. Earth Bull.geol.Soc.Finland,326,1–43.
+Phys.Ser.,N7,107–114. Torsvik, T.H., 1986. Interactive Analysis of Palaeomagnetic Data,
+Lowrie, W., 1990. Identification of ferromagnetic minerals in a rock IAPDUserGuide,UniversityofBergen,Bergen.
+bycoercivityandunblockingtemperatureproperties,Geophys.Res. Van der Voo, R., 1990. The reliability of paleomagnetic data,
+Lett.,17,159–162. Tectonophysics,184,11–19.
+McElhinny,M.W.&Lock,J.,1996.IAGApaleomagneticdatabases Zijderveld, J.D.A., 1967. AC, demagnetization of rocks: analysis
+withAccess,Surv.Geophys.,17,575–591. of results, in: Methods in Palaeomagnetism, pp. 254–286, eds.
+McFadden, P.L. & McElhinny, M.W., 1990. Classification of the Collinson, D.W., Creer, K.M. & Runcorn, S.K, Elsevier,
+reversaltestinpaleomagnetism,Geophys.J.Int.,103,725–729. Amsterdam.
+#2001RAS,GJI146,531–538
+Downloaded
+from
+https://academic.oup.com/gji/article/146/2/531/641475
+by
+guest
+on
+12
+May
+2026

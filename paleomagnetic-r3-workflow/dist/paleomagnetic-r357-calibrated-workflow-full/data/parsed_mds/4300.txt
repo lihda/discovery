@@ -1,0 +1,2725 @@
+### page_1
+ISSN 1069-3513, Izvestiya, Physics of the Solid Earth, 2022, Vol. 58, No. 2, pp. 185–202. © Pleiades Publishing, Ltd., 2022.
+Russian Text © The Author(s), 2022, published in Fizika Zemli, 2022, No. 2, pp. 41–59.
+Amplitude of Secular Geomagnetic Variation in Late Cretaceous
+Based on Paleomagnetic Studies of the Okhotsk–Chukotka Volcanic
+Belt from Upper Reaches of Malyi Anyui River, West Chukotka
+I. E. Lebedeva, *, E. M. Bobrovnikovaa, P. L. Tikhomirova, c, B. Eidb, F. Lhuillierb, and V. E. Pavlova
+a Schmidt Institute of Physics of the Earth, Russian Academy of Sciences, Moscow, 123242 Russia
+b Department of Earth and Environmental Sciences, Ludwig Maximilian University, Munich, 80539 Germany
+c Shilo North-Eastern Interdisciplinary Scientific Research Institute, Far Eastern Branch,
+Russian Academy of Sciences, Magadan, 685000 Russia
+*e-mail: lebedev232@ya.ru
+Received May 18, 2021; revised June 20, 2021; accepted June 20, 2021
+Abstract—A paleomagnetic study of the Okhotsk–Chukotka belt volcanics exposed in the region of the Kupol
+field (~66.9° N, 170.1° E) has been carried out. The studied rocks were formed between 85 and 95 Ma during
+the Cretaceous Normal Superchron (CNS). In most of the studied samples, the characteristic magnetization
+component is isolated. Its primary origin is supported by the positive fold test, magnetic mineralogy data, and
+similarity of the calculated paleomagnetic pole with that of coeval rocks from the same region. It is shown
+that the studied rocks were formed in high polar latitudes close to 80° N. The amplitude of paleosecular vari-
+ation (PSV) of the geomagnetic field during CNS has been estimated. Depending on the calculation method,
+the estimates (and their confidence intervals) for ~81° N are Sb = 22.1° (19.5°; 24.7°) in case of using a fixed
+cut-off angle of 45° and Sb = 23.1° (20.3°; 25.7°) in case of the cut-off angle calculated by the Vandamme
+method. The obtained estimates generally support the existing models of PSV latitudinal dependence for
+CNS. At the same time, the estimates are less consistent with the model (McFadden et al., 1991) where PSV
+values are low at the equator and sharply increase with latitude than with the model (Biggin et al., 2008) pre-
+dicting higher PSV values at the equator and their more gentle increase towards polar latitudes. Irrespective
+of the calculation method, the obtained estimates almost perfectly fit the PSV latitudinal dependences for the
+last 5 Ma. This means that the amplitude of secular geomagnetic variation during CNS, at least at high lati-
+tudes, was the same as it was during the last 5 Ma. The obtained result does not support the hypothesis that
+geodynamo regimes change at the transition from the periods of frequent geomagnetic reversals to super-
+chrons (e.g., (Gallet and Pavlov, 2016)), which suggests, in particular, that the modern numerical models are
+not fully adequate to the real processes of generation of the geomagnetic field.
+Keywords: Late Cretaceous, amplitude of secular variation, Okhotsk–Chukotka volcanic belt
+DOI: 10.1134/S1069351322020045
+INTRODUCTION et al., 2012; Opdyke and Channell, 1996). To date,
+three Phanerozoic superchrons have been established,
+The dynamics of changes in the polarity of the geo-
+each with a duration of at least several tens of millions
+magnetic field during the last 150 Ma is well known
+of years: the Ordovician Moyero (Pavlov and Gallet,
+from the study of the marine magnetic anomalies and
+2005), the Late Paleozoic Kiama (e.g., (Opdyke and
+due to extensive magnetostratigraphic research. For
+Channell, 1996)), and the youngest one—the Creta-
+the more ancient periods of the Phanerozoic, the
+ceous superchron discovered by Helsley and Steiner
+magnetostratigraphic data obtained from the well bio-
+(1968). Several superchrons have been also identified
+stratigraphically dated sections are not as ample and
+the Precambrian (e.g., (Driscoll, 2016)), among
+they provide an incomplete and sometimes fragmen-
+which the two most confidently established are the
+tary record of the evolution of the geomagnetic field.
+Meso-Neoproterozoic Maya superchron (Gallet
+Nevertheless, the existing information confidently
+etal., 2012; Pavlov et al., 2019) and the Early Meso-
+indicates that the frequency of geomagnetic reversal
+proterozoic Belt superchron (Elston et al., 2002).
+substantially varied during the Phanerozoic from zero
+during the so called superchrons to rather high values Why the magnetic reversals typically quite fre-
+(7–8 over Ma) in the Miocene, Mid-Jurassic, and quently (on the geological time scale) freezes up for
+Mid-Cambrian (e.g., (Pavlov and Gallet, 2020; Gallet tens of millions of years in one of its two possible sta-
+185
+
+### page_2
+186 LEBEDEV et al.
+tionary states is still unclear. Most authors relate the that concerns secular variation of the directions of the
+occurrence of superchrons to the long-period varia- geomagnetic field.
+tion (a characteristic time of the order of 10 Ma and
+Rather, the data acquired in recent decades support
+longer) in the conditions at the core–mantle bound-
+the conclusion that the geomagnetic field during
+ary (CMB) (e.g., (McFadden et al., 1991)), which, in
+superchrons was much more stable than in the last
+turn, can be caused by various mantle processes.
+5Ma (Biggin et al., 2008). This interpretation, how-
+Importantly, the numerical geodynamo simulations
+ever, is based on the determinations obtained from the
+(e.g., (Coe and Glatzmaier, 2006; Landeau et al.,
+very few studied sections. Moreover, practically all the
+2017)) support these views.
+existing determinations for the Cretaceous superchron
+On the other hand, Hulot and Gallet (2003) note were obtained from the low or middle latitudes, and
+that the transitions between the reversing and non- only one estimate of the PSV amplitude for polar lati-
+reversing (superchron) geodynamo states can be sud- tudes has been obtained so far (Tarduno et al., 2002).
+den, perhaps indicating that the occurrence of super- This significantly complicates the construction of the
+chrons can probably be a consequence of the nonlin- PSV latitudinal dependence which is currently the
+ear nature of the magnetohydrodynamic processes in main characteristic allowing the study of the character
+the Earth’s core and can be purely stochastic. If this is of PSV changes during the geological time.
+confirmed, the very idea of the connection between
+The recent analysis of a much larger data set which
+the changes in the frequency of geomagnetic reversals
+includes the results obtained in the last years on the
+and the processes in the mantle and at CMB will be
+amplitude of secular variation gives reason to doubt
+challenged. Since the first standpoint implies a neces-
+the validity of the claimed greater stability of the geo-
+sary substantial change in the boundary conditions for
+magnetic field during superchrons. However, the reli-
+the superchrons to occur, then, if this standpoint is
+ability of this analysis is also strongly limited by the
+correct, the geomagnetic field parameters during the
+absence of data on the high-latitude secular geomag-
+superchrons should significantly differ from those for
+netic variation in the Cretaceous superchron. The
+the periods of the normally reversing field. On the
+study results from the rocks of the Okhotsk–Chukotka
+contrary, if Hulot and Gallet (2003) are right, the
+volcanic belt (OCVB), which are presented in this
+transition to the superchron state is not necessarily
+work, to an extent fill this gap.
+connected with changes in the geomagnetic field
+parameters. A considerable part of the volcanics of the
+Okhotsk–Chukotka belt was formed during the Creta-
+Practically all numerical models proposed to date
+ceous Normal Superchron below 70°–80° latitudes of
+cannot produce superchrons without changing the
+the northern hemisphere (Akinin and Miller, 2011;
+boundary conditions. On the one hand, this can be
+Tikhomirov, 2020; Stone et al., 2009) and is therefore
+interpreted in support of the first standpoint; on the
+an extremely important object for paleomagnetic
+other hand, it can testify to the inadequacy of
+examination to study the Late Cretaceous high-lati-
+themodels. The latter is likely to be supported by the
+tude variations. We carried out these studies in 2019–
+recent results (Shcherbakov and Fabian, 2012) that the
+2021 on a few segments of the Okhotsk–Chukotka
+known durations of the geomagnetic polarity chrons
+volcanic belt.
+can be described by a distribution in which super-
+chrons will not be anomalous events. In the latter case,
+we may expect the geomagnetic field parameters of a
+STUDY OBJECT AND SAMPLING
+superchron to not differ substantially from those in the
+periods of frequent reversals. Solving the above ques- The Okhotsk-Chukotka volcanic belt stretches for
+tions requires sufficiently large amount of high-quality more than 3000 km along the Pacific margin of Asia
+data describing the behavior of the field within and and is one of the Earth’s largest subduction-related
+beyond the superchrons. igneous provinces (Belyi, 1977; Tikhomirov, 2020;
+The main parameters of the geomagnetic field that Akinin and Miller, 2011). Most researchers use the
+can be used for comparing its states within and beyond OCVB zoning scheme proposed by V.F. Belyi (1977).
+superchrons are field geometry (i.e., the ratio of dipole In this scheme, in accordance with the differences in
+and nondipole components), field strength, and char- the basement structures of the belt, six segments (or
+acter of paleosecular variations (PSV). Studying the sectors, according to Belyi) are distinguished in OCVB
+geometry of the ancient magnetic field is an extremely from the southwest to the northeast, namely, the West
+challenging task which requires huge data distributed Okhotsk, Okhotsk, Penzhina, Anadyr, Central Chu-
+over different latitudes for its strict solution. In this kotka, and East Chukotka segments.
+work, we do not consider this issue.
+Generally, the belt’s volcanics do not have signs of
+Thus, we only have a field strength and its secular significant deformations (Sokolov et al., 2010; Akinin
+(paleosecular) variation to study superchrons. We plan et al., 2020; Tikhomirov, 2020). The attitude of the
+to present the data on the field strength in our next volcanic units is typically controlled by the primary
+paper. This work addresses the aspect of the problem relief and by structures of compensating subsidence—
+IZVESTIYA, PHYSICS OF THE SOLID EARTH Vol. 58 No. 2 2022
+
+### page_3
+AMPLITUDE OF SECULAR GEOMAGNETIC VARIATION 187
+132° E 144° E 156° E 168° E 180° E 68° N
+68°
+m o
+c
+nigra m
+evissap
+V
+e
+rk
+h
+o y
+South
+A nyui
+suture
+CCS ECS
+p lexes
+of Siberian
+p la
+tfo
+fo
+ld
+r
+a
+e
+n
+g
+s
+i
+k
+o
+–
+n
+C
+h u
+k o tk
+a
+ANS
+h
+at
+k a
+BE
+S
+R
+E
+I
+A
+NG
+rm
+a m
+c
+o n N
+m PS K gi
+60°
+pl
+a
+tf o r
+K
+or
+y a k –
+f
+ol d r e 60°
+N n
+a
+ri
+b e WOS OS
+Si
+SEA OF OKHOTSK
+0 400 km
+Fig. 1. Tectonic scheme of northeastern Asia according to (Tikhomirov, 2020; Sokolov, 2010) with simplifications. Light green is
+Late Jurassic–Early Cretaceous (Pre-Albian) volcanic complexes of Pacific active margin; green is Okhotsk–Chukotka volcanic
+belt with segment boundaries: ECS, East Chukotka segment; CCS, Central Chukotka segment; ANS, Anadyr segment; PS, Pen-
+zhina segment; OS, Okhotsk segment; WOS, West Okhotsk segment; red asterisk is study object.
+calderas and volcano-tectonic depressions (Tikhomirov, Turonian and Coniacian ages (93.9–85.7 Ma (Grad-
+2020). stein et al., 2020)). The Pykarvaam Formation is
+OCVB was formed beginning from 106 and ending mainly composed of lavas, ignimbrites, and tuffs of
+76 Ma (Akinin et al., 2020, with the most powerful acid composition; the Koekvun Formation, of andes-
+volcanic pulses between 89 and 80 Ma (Tikhomirov, itic and basalt lavas and tuffs of the same composition;
+2020; Akinin and Miller, 2011). Thus, a significant and the Emuneret Formation, of acidic tuffs and
+part of the OCVB volcanics was formed during the ignimbrites (Malysheva et al., 2012). Most sections
+Cretaceous Normal superchron. studied in this work pertain to the Albian Koekvun
+Formation.
+The study region is located in the western part of
+Chukotka at the boundary of the Anadyr and Central The published 40Ar/39Ar and U-Pb and U-Pb iso-
+Chukotka OCVB segments, to the northeast of the topic dates closest to the sections are obtained for the
+Kupol gold deposit, in the upper reaches of the Malyi samples from the vicinity of the Kupol deposit and
+Anyui River (Figs. 1 and 2). upper reaches of the Ugatkyn River (Fig. 2). The
+Overall, nine sections were sampled in this region 40Ar/39Ar ages of monofractions extracted from rhyo-
+(Fig. 2). Each section includes from 4 to 17 sites, and litic tuff of the Pykarvaam Formation at Mt. Kova-
+each site has from 8 to 18 individually oriented sam- lenko (Fig. 2) are 93.7 ± 1.2 Ma for amphibole and
+ples. Each site is an individual lava flow, less fre- 91.8 ± 1.6 Ma for plagioclase (Tikhomirov et al.,
+quently an outcrop of tuffs or ignimbrites. The samples 2006). The 40Ar/39Ar age obtained for plagioclase from
+were oriented using a magnetic compass with declina- olivine basalts attributed to the Emuneret Formation
+tion correction based on the 12th generation IGRF is 86.8 ± 2.7 Ma (Tikhomirov et al., 2006). These dates
+model (Thébault et al., 2015). During sampling, we characterize the upper part of the K section shown in
+controlled whether the sampled rocks affect the mag- Fig. 2. Zircon from rhyodacite tuff of the Pyakarvaam
+netic compass arrow. Formation from the upper reaches of the Ugatkyn
+The studied sections pertain to the Pykarvaam, River has an U-Pb age of 85.4±1.2 Ma (Tikhomirov,
+Koekvun, and Emuneret formations (Malysheva 2020). In the overall volcanics section present at this
+etal., 2012). According to (Resheniya…, 2009) pri- site, this sample is acquired somewhat above the upper-
+marily based on gthe paleobotanical data, the first two most point of section U (Fig. 2). The datings obtained
+formations are dated to the Albian (113.2–100.5 Ma from the vicinity of the Kupol deposit are ~3 km away
+(Gradstein et al., 2020)) and the latter one to the from our extreme sections (1, 2, K), and a distance
+IZVESTIYA, PHYSICS OF THE SOLID EARTH Vol. 58 No. 2 2022
+
+### page_4
+188 LEBEDEV et al.
+67°00′
+Fig. 2. Schematic layout of studied sections in region of Kupol deposit. Sections: U, Ugatkyn; K, Kupol, Mt. Kovalenko;
+A1,Anyuy 1, Mt. Kayemnay; A2, Anyuy 2, Mt. Timofeevka; 1, Mt. Belaya; 2, Yur’evka River; 3, upper reaches of Timofeevka
+River; 4, Anyuy River; 5, Vetvistyi creek; blue circles are sampling sites of closest isotope datings discussed in text and their ages.
+IZVESTIYA, PHYSICS OF THE SOLID EARTH Vol. 58 No. 2 2022
+′03°961
+′03°701
+1048
+Ugatkyn
+River
+85.4 ± 1.2
+U
+1066
+700
+River
+m
+I
+mrevee
+700
+1080
+700
+1290
+700
+Malyi
+Anyui
+River
+500
+1051
+Anadyr
+River
+4
+500
+Staric
+h
+naya
+River
+1
+Yur’evka
+River
+5
+А2
+Timofeevka River 920 3
+500
+Varenokvaam River
+А1
+2
+937
+1025 700
+999
+86.8 ± 2.7
+93.7 ± 1.2, 91.8 ± 1.6 K
+700
+22 km
+1014
+Kupol deposit
+between section U and the sample taken from the is located along the strike of the Ugatkyn monocline.
+upper reaches of the Ugatkyin River is 13 km. The morphology of the Timofeevskaya subsidence is
+quite similar to that of the downsag caldera type (Cole
+Tikhomirov (2020) argues in favor of the OCVB
+et al., 2005). The nature of the Ugatkyn monocline is
+stratigraphic models based on the results of 40Ar/39Ar
+less obvious. It was hypothesized that this structure is
+and U-Pb dating. Considering the lower reliability of
+related to weak extension transverse to the volcanic
+paleofloristic data compared to isotopic data, we pre-
+belt strike (Tikhomirov, 2020). The idea that both
+fer datings obtained by isotopic methods. Due to the
+structures emerged after the formation of the volcanics
+complexity of lateral correlations in the OCVB volca-
+rather than reflect the paleorelief is favored, in partic-
+nic complexes, we estimate the age of our sections at
+ular, by the substantial size of the Ugatkyn monocline
+95–85 Ma.
+and the positive paleomagnetic fold test (details are in
+Most of the studied sections except for the western- the next section).
+most ones (1, 2, and K) are located within the gentle
+Ugatkyn (Ugatkyn-Yurumkuveem) monocline Sections 1, 2, and K are located to the west of the
+(Tikhomirov, 2020; Belyi, 1977). The monocline dips monocline in the upper reaches of the Yurievka River,
+southeast at up to 15° and its total length reaches a left tributary of Malyi Anyi. The stratified volcanics
+120km. In the study region is also a lower order struc- in these sections have a horizontal attitude or very gen-
+ture—the Timofeevskaya subsidence (Senotrusov, tly (1°–3°) dip south. All the three formations out-
+1990). This is a rounded in plan, gentle negative struc- cropping in this region have been sampled in these
+ture with a diameter of about 10 km, with the youngest three sections. The rocks are mainly basic lavas—por-
+volcanics outcropping in the center. The center of the phyritic, aphyric basaltic lavas, sometimes with oliv-
+structure is located in the upper reaches of the Timo- ine. Among 41 sites sampled in these sections, only
+feevka River. The northwestern limb of the subsidence five more acidic flows were diagnosed.
+
+### page_5
+AMPLITUDE OF SECULAR GEOMAGNETIC VARIATION 189
+Sections A1, A2, 4, and 5 are located east of the used thermal demagnetization for sections K and U
+above sections, in the lower reaches of the Timofeevka and AF demagnetization for the remaining sections.
+River. The sections capture the Pykarvaam and The samples from 74 sites out of the 79 studied
+Koekvun formations. The rocks in these sections dip ones contain a good and satisfactory paleomagnetic
+southeast at 5°–12°. The sections are mainly repre- record. Their natural remanent magnetization (NRM)
+sented by basaltic and andesite basaltic lavas but acidic contains predominantly a single characteristic compo-
+varieties are more common. Ignimbrites, dacite lavas, and nent which is stable to demagnetization.
+rhyolite tuffs occurred in different parts of the section.
+Sometimes, samples also contain a low-coercive or
+Sections 3 and U are located some distance away low-temperature components which have chaotic
+from the above sections (Fig. 2). Section 3 is located in directions and are most likely to be related to the pres-
+the upper reaches of the Timofeevka River. Its position ent-day viscous remagnetization during the storage or
+on the eastern limb of the Timofeevskaya subsidence transportation of samples. The characteristic high-
+makes this section particularly interesting for conduct- coercive or high-temperature component has very
+ing the field paleomagnetic fold test. The strata in this steep inclinations and different declinations (Fig. 3
+section have a reversed westward dip but the dip angle and Table 1).
+is relatively small, only 3°. The section is composed of The primary origin of the identified characteristic
+porphyritic basaltic lavas of the Koekvun Formation. component is suggested by the positive fold test (field
+Section U is located in the upper reaches of the Ugat- test), electron microscopy data and microprobe anal-
+kyn River, about 30 km northeast of the other sections. ysis, and coincidence of the calculated pole with the
+The studied section only encompasses the Pykarvaam coeval poles of Chukotka obtained in the previous
+Formation. In contrast to the above sections, the rocks works (Stone et al., 2009; Lebedev et al., 2021).
+composing section U predominantly have intermedi-
+For the fold test we used the Enkin’s program
+ate and acidic composition. The section begins from
+package which implements two versions of the test
+rhyolite/dacite lavas and their tuffs which also crown
+(Watson and Enkin, 1993) and (Enkin, 2003). The test
+the section; lavas and tuffs of andesites and basalts are
+was performed at the section-mean level, with the
+found in the middle of the section.
+rocks within each section having the same attitude in
+all the studied sites. Comparing mean directions at the
+Confident correlation of the sections with each
+section rather than site level avoids excessive influence
+other is challenging because of the absence of any
+on the results by the sections with more sites than oth-
+marker beds and the presence of significant lateral
+ers. The Watson–Enkin test (Watson and Enkin,
+variations of the volcanic complexes. Based on the
+1993) yields a maximum at 97.8% of unfolding with a
+results of satellite image interpretation and field obser-
+95% confidence interval of 63.6–133%. Accordiong to
+vations, in this study we assume (with possible partial
+the Enkin test (Enkin, 2003), an untilting value (direc-
+overlapping) the following age sequence of the studied
+tion-correction (DC) parameter) is 0.98 ± 0.63. Thus,
+sections (from bottom to top): U, 4, 1, 2, K, 5, A1, A2,
+both tests are positive indicating that the magnetiza-
+and 3.
+tion components isolated in the studied rocks were
+firmed before tectonic deformation (tilting). The rela-
+tively large confidence intervals are due to the small
+PALEOMAGNETISM
+difference in attitude elements between the studied
+The laboratory paleomagnetic studies were con- sections.
+ducted by the standard technique (Khramov et al., Since the deformations of the primary attitude of
+1982; Butler, 1998; Tauxe, 2010) in the paleomagnetic rocks on the studied segments are likely to have
+laboratories of Schmidt Institute of Physics of the Earth occurred during compensatory subsidence immedi-
+of the Russian Academy of Sciences (IPE RAS), Mos- ately following the formation of the volcanic sections,
+cow, and Ludwig-Maximilian University, Munich. The positive test definitely indicates that the isolated char-
+electron-microscopic and microprobe studies were acteristic magnetization component was formed
+carried out on the TESCAN Vega II scanning electron during or shortly after the effusion of lava units.
+microscope in IPE RAS Geophysical Observatory in
+The electron microscopic studies and microprobe
+Borok and on the Jeol JSM-6480LV electron micro-
+analysis of volcanic samples revealed titanomagnetite
+scope in the laboratory of Petrology Department,
+grains with structures of high-temperature heterophase
+Faculty of Geology of Moscow State University.
+oxidation with ilmenite lamellas and low-Ti titanomag-
+At the first step of the laboratory study, we com- netite between them (Fig. 4, samples 010108A, B,
+pared the results of thermal demagnetization and 020407). These structures are formed directly during
+demagnetization by the alternating magnetic field cooling of rocks after their crystallization from magma
+(AF) on duplicate specimens of several samples from a and definitely indicate the primary magmatic origin of
+number of sections. The comparison has shown that the respective grains.
+both demagnetization types give statistically indistin- Besides, the studied basalts are abundant in pri-
+guishable results. In the subsequent experiments, we mary magmatic small homogeneous idiomorphic tita-
+IZVESTIYA, PHYSICS OF THE SOLID EARTH Vol. 58 No. 2 2022
+
+### page_6
+190 LEBEDEV et al.
+N UP
+N UP N UP
+7.5 mT NRM
+NRM
+15 mT
+NRM E E
+E E
+600°
+60 mT sample
+U4-1
+sample K5-16
+E E
+25 mT 90 mT
+sample 010704
+510°
+NRM
+7.5 mT
+NRM
+NRM
+8 mT
+NRM = 1.3 A/m NRM = 2.0 A/m NRM = 0.02 A/m
+NUP
+NUP
+NUP
+NRM NRM
+NRM
+EE
+EE
+130 mT
+sample
+480°
+600°
+030701
+sample A11-13
+EE
+560°
+50 mT
+480° sample 040501
+40 mT
+12 mT
+NRM
+NRM
+NRM
+NRM = 8.1 A/m NRM = 0.9 A/m NRM = 0.6 A/m
+Fig. 3. Examples of Zijderveld diagrams based on thermal demagnetization results for rocks from sections K (sample K5-16),
+U(sample U4-1), 01 (sample 010704), 03 (sample 030701), A1 (sample A11-13), and 04 (sample 040501). Black (white) circles
+are projections of NRM vector on horizontal (vertical) plane.
+IZVESTIYA, PHYSICS OF THE SOLID EARTH Vol. 58 No. 2 2022
+
+### page_7
+AMPLITUDE OF SECULAR GEOMAGNETIC VARIATION 191
+IZVESTIYA, PHYSICS OF THE SOLID EARTH Vol. 58 No. 2 2022
+skcor
+deiduts
+ni
+denimreted
+snoitcerid
+citengamoelaP
+.1
+elbaT
+spuorg
+etis
+rof
+sPGV
+3–01×
+,mK
+setis
+laudividni
+rof
+PGV
+atad
+noitisopmoc
+kcor
+dna
+snoitamroF
+59a
+K
+sI
+sD
+gI
+gD
+n
+N
+.on
+etiS
+59A
+TALP
+GNOLP
+stinu
+iS
+59A
+TALP
+GNOLP
+)2102
+,.la
+te
+avehsylaM(
+ot gnidrocca
+)nyktagU(
+U
+°4 elgna
+pid
+,°041
+htumiza
+pid
+;Ε
+°171
+,Ν
+°2.76
+8.21
+2.8
+3.75
+6.521
+3.4
+9.39
+2.87
+5.662
+5.57
+1.972
+31
+41
+70U
+90.7
+01
+0.08
+7.661
+1.5
+5.98
+5.38
+6.653
+08
+9.243
+01
+31
+60U
+etiloyhr
+,setirbmingi
+:noitamroF
+maavrakyP
+53.6
+5.8
+4.54
+6.921
+9.4
+8.78
+5.37
+7.542
+27
+7.752
+11
+31
+50U
+seryhportiv
+eticad
+,sffut
+eticad
+dna
+7.22
+4.7
+6.76
+5.471
+9.3
+401
+3.98
+8.17
+2.68
+6.923
+41
+51
+40U
+7.21
+1.9
+3.65
+9.061
+9.4
+8.08
+0.48
+1.802
+2.48
+7.742
+21
+21
+30U
+1.61
+4.26
+3.541
+3.8
+58
+48
+3.852
+4.18
+3.282
+5
+8
+naeM
+780.0
+780.0
+ORN
+)iuynA(
+40
+°6 elgna
+pid
+,°941
+htumiza
+pid
+;Ε
+°3.071
+,Ν
+°76
+7.11
+4.3
+3.45
+1.741
+8.1
+446
+4.18
+6.232
+1.08
+3.962
+11
+21
+etiloyhr
+,setirbmingi
+:noitamroF
+maavrakyP
+1040
+seryhportiv
+eticad
+,sffut
+eticad
+dna
+84.1
+5.7
+1.38
+542
+1.4
+951
+5.87
+81
+9.37
+9.1
+9
+51
+5040
+2.3
+7.48
+7.182
+6.21
+4.4
+87
+1.212
+3.2
+992
+8.18
+03
+7.77
+5
+41
+51
+-etisedna
+,stlasab
+:noitamroF
+nuvkeoK
+3040
+sffut
+rieht
+dna
+,setisedna
+,stlasab
+43.9
+6
+7.67
+7.342
+3.3
+951
+1.87
+5.43
+6.47
+1.41
+31
+51
+4040
+4.12
+6.77
+6.781
+9.01
+4.27
+48
+5.81
+1.97
+9.353
+4
+4
+naeM
+5.0
+17.0
+ORN
+)ayaleB
+.tM(
+1
+°3 elgna
+pid
+,°071
+htumiza
+pid
+;Ε
+°8.961
+,Ν
+°9.66
+60.1
+1.11
+5.96
+8.222
+9.5
+1.77
+1.08
+2.85
+6.87
+2.44
+9
+41
+etiloyhr
+,setirbmingi
+:noitamroF
+maavrakyP
+7010
+seryhportiv
+eticad
+,sffut
+eticad
+dna
+59.6
+7.01
+7.24
+451
+6
+2.68
+5.67
+6.702
+7.87
+8.612
+8
+31
+1010
+6.32
+9.11
+2.17
+3.342
+6.6
+5.45
+9.67
+2.74
+1.57
+6.73
+01
+41
+2110
+8.42
+7.7
+3.06
+9.88
+7.4
+402
+4.17
+7.892
+4.96
+503
+6
+21
+3110
+7.4
+5.65
+1.101
+71.5
+2.7
+6.25
+3.401
+4.4
+2.89
+4.17
+3.872
+3.07
+3.682
+21
+51
+4010
+4.53
+01
+2.95
+7.401
+8.5
+901
+5.47
+6.682
+37
+4.592
+7
+8
+5010
+5.52
+7
+3.76
+1.753
+5
+701
+9.26
+1.653
+9.95
+5.553
+9
+41
+8010
+-etisedna
+,stlasab
+:noitamroF
+nuvkeoK
+8.22
+3.5
+8.08
+2.203
+1.3
+442
+9.37
+6.31
+1.17
+1.01
+01
+01
+9010
+sffut
+rieht
+dna
+,setisedna
+,stlasab
+9.12
+5.7
+28
+5.74
+3.4
+441
+57
+5.543
+27
+2.643
+9
+21
+0110
+5.62
+1.7
+8.96
+7.802
+7.3
+171
+7.28
+8.06
+2.18
+1.24
+01
+31
+1110
+4.42
+1.6
+1.77
+9.452
+4.3
+181
+7.67
+4.13
+3.47
+3.42
+11
+21
+4110
+53
+5.7
+7.46
+1.432
+2.4
+151
+7.67
+5.46
+6.57
+1.35
+9
+01
+5110
+7.6
+8.66
+2.522
+3.83
+1.21
+6.86
+4.212
+3.6
+2.87
+9.18
+6.46
+6.08
+8.64
+8
+51
+6110
+
+### page_8
+192 LEBEDEV et al.
+IZVESTIYA, PHYSICS OF THE SOLID EARTH Vol. 58 No. 2 2022
+).dtnoC(
+.1
+elbaT
+spuorg
+etis
+rof
+sPGV
+3–01×
+,mK
+setis
+laudividni
+rof
+PGV
+atad
+noitisopmoc
+kcor
+dna
+snoitamroF
+59a
+K
+sI
+sD
+gI
+gD
+n
+N
+.on
+etiS
+59A
+TALP
+GNOLP
+stinu
+iS
+59A
+TALP
+GNOLP
+)2102
+,.la
+te
+avehsylaM(
+ot
+gnidrocca
+82.9
+3.7
+6.75
+1.431
+9.3
+042
+4.08
+4.752
+1.08
+9.472
+7
+01
+,setirbmingi
+:noitamroF
+terenumE
+7110
+sffut
+eticad
+dna
+etiloyhr
+8.21
+1.08
+1.951
+8.6
+9.43
+9.28
+7.053
+9.97
+5.053
+41
+71
+naeM
+5444.0
+9949.0
+ORN
+)akve’ruY
+.tM(
+2
+°0 elgna
+pid
+,°0
+htumiza
+pid
+;Ε
+°9.961
+,Ν
+°9.66
+7.61
+5.5
+5.65
+6.061
+8.2
+892
+3.48
+2.702
+3.48
+2.702
+01
+11
+1020
+6.12
+3.3
+7.36
+9.192
+3.2
+593
+1.56
+5.33
+1.56
+5.33
+11
+21
+2020
+4.12
+2.5
+4.67
+6.492
+1.3
+081
+2.27
+12
+2.27
+12
+31
+61
+3020
+5.3
+8.18
+6.792
+1.83
+8.4
+3.58
+2.492
+7.2
+123
+3.67
+8.8
+3.67
+8.8
+01
+11
+6020
+5.03
+7.8
+8.58
+9.023
+9.4
+921
+8.57
+5.4
+8.57
+5.4
+8
+11
+5020
+9.93
+5.7
+78
+59
+1.4
+951
+3.87
+5.253
+3.87
+5.253
+9
+11
+4020
+66.7
+1.6
+4.57
+6.171
+1.3
+442
+7.58
+8.2
+7.58
+8.2
+01
+21
+0120
+73.9
+7.2
+2.43
+1.412
+8.1
+446
+2.66
+4.911
+2.66
+4.911
+11
+11
+9020
+,stlasab
+:noitamroF
+nuvkeoK
+2.61
+8
+8.45
+6.471
+1.4
+381
+8.38
+2.761
+8.38
+2.761
+8
+21
+sffut
+rieht
+dna
+,setisedna
+,stlasab-etisedna
+7020
+77.5
+9.5
+1.66
+7.282
+8.3
+361
+1.86
+6.63
+1.86
+6.63
+01
+21
+8020
+8.51
+4.4
+8.85
+9.042
+6.2
+972
+37
+7.96
+37
+7.96
+21
+21
+1120
+8.3
+1.26
+5.932
+5.41
+6.6
+66
+8.832
+7.3
+591
+2.67
+5.95
+2.67
+5.95
+9
+11
+2120
+61
+9.8
+6.24
+6.602
+3.5
+131
+1.37
+2.221
+1.37
+2.221
+7
+21
+3120
+51
+2.6
+1.76
+2.602
+2.3
+581
+9.28
+5.27
+9.28
+5.27
+21
+11
+4120
+11.2
+2.7
+2.68
+7.17
+4
+911
+5.77
+8.053
+5.77
+8.053
+21
+41
+5120
+23.7
+4.7
+6.76
+3.061
+7.3
+351
+1.88
+8.582
+1.88
+8.582
+11
+21
+6120
+7.01
+7.37
+1.512
+8.5
+6.14
+3.18
+3.64
+3.18
+3.64
+61
+61
+naeM
+676.0
+9159.0
+ORN
+)oknelavoK
+.tM
+,lopuK(
+K
+°0 elgna
+pid
+,°0
+htumiza
+pid
+;Ε
+°8.961
+,Ν
+°8.66
+3.22
+1.6
+1.36
+2.56
+4
+761
+8.76
+2.613
+8.76
+2.613
+9
+41
+80K
+32
+1.8
+08
+1.2
+9.4
+3.37
+27
+1.653
+27
+1.653
+31
+21
+70K
+,stlasab
+:noitamroF
+nuvkeoK
+sffut
+rieht
+dna
+,setisedna
+,stlasab-etisedna
+6.91
+3.9
+8.56
+5.391
+7.4
+6.77
+2.58
+58
+2.58
+58
+31
+41
+60K
+2.32
+9.7
+5.47
+5.841
+4
+9.79
+8.48
+2.723
+8.48
+2.723
+41
+61
+50K
+
+### page_9
+AMPLITUDE OF SECULAR GEOMAGNETIC VARIATION 193
+IZVESTIYA, PHYSICS OF THE SOLID EARTH Vol. 58 No. 2 2022
+).dtnoC(
+.1
+elbaT
+spuorg
+etis
+rof
+sPGV
+3–01×
+,mK
+setis
+laudividni
+rof
+PGV
+atad
+noitisopmoc
+kcor
+dna
+snoitamroF
+59a
+K
+sI
+sD
+gI
+gD
+n
+N
+.on
+etiS
+59A
+TALP
+GNOLP
+stinu
+iS
+59A
+TALP
+GNOLP
+)2102
+,.la
+te
+avehsylaM(
+ot
+gnidrocca
+51
+2.5
+9.26
+5.192
+6.3
+572
+5.46
+2.43
+5.46
+2.43
+7
+31
+40K
+71.3
+9.7
+1.58
+9.802
+2.4
+351
+9.97
+3.9
+9.97
+3.9
+9
+31
+etiloyhr
+,setirbmingi
+:noitamroF
+terenumE
+30K
+5.4
+6.28
+332
+73.5
+1.5
+08
+9.342
+8.2
+203
+3.87
+62
+3.87
+62
+01
+31
+saval
+dna
+sffut
+eticad
+dna
+20K
+92.5
+9.3
+9.27
+4.302
+2
+445
+5.38
+1.74
+5.38
+1.74
+11
+41
+10K
+6.31
+6.58
+2.802
+7.7
+6.25
+3.97
+6.7
+3.97
+6.7
+8
+8
+naeM
+1447.0
+8887.0
+ORN
+)iytsivteV(
+5
+°5 elgna
+pid
+,°701
+htumiza
+pid
+;Ε
+°1.071
+,Ν
+°9.66
+6.61
+4.11
+1.68
+371
+1.6
+2.27
+1.08
+6.0
+7.77
+9.733
+9
+51
+4050
+7
+48
+3.231
+,stlasab
+:noitamroF
+nuvkeoK
+5.41
+9
+9.08
+8.711
+8.4
+201
+3.08
+2.733
+5.67
+8.023
+01
+41
+3050
+sffut
+rieht
+dna
+,setisedna
+,stlasab-etisedna
+41
+3.6
+6.85
+8.861
+2.3
+551
+8.58
+5.481
+2.48
+7.142
+41
+81
+1050
+1.62
+2.67
+1.951
+5.21
+3.89
+9.48
+8.443
+2.18
+2.613
+3
+3
+naeM
+5.0
+4338.0
+ORN
+)ianmeiaK
+.tM
+,1
+iuynA(
+1А
+°6 elgna
+pid
+,°641
+htumiza
+pid
+;Ε
+°2.071
+,Ν
+°9.66
+91
+7.6
+4.77
+6.212
+5.3
+471
+8.18
+1.23
+87
+1.5
+11
+61
+02a
+6.71
+1.7
+7.18
+3.751
+7.3
+721
+3.28
+9.253
+7.67
+2.143
+31
+31
+91a
+2.43
+8.8
+8.05
+5.841
+7.4
+2.78
+08
+7.422
+4.97
+852
+21
+41
+81a
+2.6
+8.35
+6.341
+1.81
+7.8
+1.85
+1.531
+6.4
+441
+7.08
+9.752
+2.77
+4.382
+8
+21
+71a
+,stlasab
+:noitamroF
+nuvkeoK
+8.71
+7.9
+8.15
+851
+1.5
+471
+7.18
+8.702
+4.28
+5.152
+6
+01
+sffut
+rieht
+dna
+,setisedna
+,stlasab-etisedna
+51a
+02
+2.4
+7.66
+02
+3
+061
+6.36
+8.343
+8.75
+8.043
+51
+51
+31a
+4.91
+7.4
+7.56
+3.26
+3
+691
+7.86
+4.023
+7.26
+6.123
+31
+31
+11a
+1.31
+2.8
+9.97
+4.631
+3.4
+201
+28
+9.833
+1.67
+4.333
+21
+41
+21a
+8.51
+3.47
+5.231
+7.8
+6.14
+2.28
+3.913
+2.67
+2.223
+8
+8
+naeM
+2138.0
+7299.0
+ORN
+)akveefomiT
+,2
+iuynA(
+2A
+°21 elgna
+pid
+,°301
+htumiza
+pid
+;Ε
+°4.071,Ν
+°9.66
+3.61
+8.02
+48
+9.013
+3
+622
+1.57
+2.8
+2.07
+1.233
+11
+31
+40a
+6.82
+9.12
+5.68
+5.803
+4
+8.89
+4.67
+4.5
+8.07
+823
+41
+51
+50a
+4.3
+6.88
+2.953
+1.81
+2.81
+1.28
+98
+6.4
+6.28
+9.77
+7.933
+9.76
+9.613
+31
+31
+,stlasab
+:noitamroF
+nuvkeoK
+60a
+5.32
+9.7
+4.58
+2.371
+7.2
+242
+5.08
+7.0
+2.37
+713
+31
+31
+sffut
+rieht
+dna
+,setisedna
+,stlasab-etisedna
+70a
+1.02
+9.11
+9.27
+8.361
+1.2
+683
+8.68
+3.243
+1.67
+4.492
+31
+31
+90a
+3.42
+2.81
+4.36
+9.932
+3.7
+4.44
+2.57
+8.36
+7.08
+3.01
+01
+31
+01a
+5.11
+5.48
+8.012
+2.6
+911
+08
+2.11
+47
+6.323
+6
+6
+naeM
+4638.0
+7278.0
+ORN
+
+### page_10
+194 LEBEDEV et al.
+IZVESTIYA, PHYSICS OF THE SOLID EARTH Vol. 58 No. 2 2022
+).dtnoC(
+.1
+elbaT
+spuorg
+etis
+rof
+sPGV
+3–01×
+,mK
+setis
+laudividni
+rof
+PGV
+atad
+noitisopmoc
+kcor
+dna snoitamroF
+59a
+K
+sI
+sD
+gI
+gD
+n
+N
+.on
+etiS
+59A
+TALP
+GNOLP
+stinu
+iS
+59A
+TALP
+GNOLP
+)2102
+,.la
+te
+avehsylaM(
+ot gnidrocca
+)reviR
+akveefomiT
+fo
+sehcaer
+reppu(
+3
+°3 elgna
+pid
+,°932
+htumiza
+pid
+;Ε
+°7.071
+,Ν °9.66
+5.84
+8.5
+4.56
+3.571
+9.2
+942
+8.88
+7.721
+4.68
+8.67
+11
+11
+2030
+4.4
+17
+5.861
+5.54
+4.5
+9.27
+9.661
+7.2
+123
+9.68
+7.943
+58
+8.32
+01
+21
+3030
+1.84
+3.11
+6.47
+9.851
+7.5
+8.27
+7.58
+5.833
+4.48
+3.01
+01
+11
+4030
+9.76
+3.5
+8.55
+6.871
+7.2
+463
+1.48
+7.751
+8.38
+2.921
+9
+21
+7030
+5.3
+6.55
+5.171
+2.47
+2.01
+2.65
+2.961
+2.5
+631
+6.48
+4.481
+6.58
+8.051
+7
+21
+6030
+,stlasab
+:noitamroF
+nuvkeoK
+sffut
+rieht
+dna
+,setisedna
+,stlasab-etisedna
+4.66
+1.4
+7.45
+5.561
+1.2
+696
+7.38
+1.491
+3.58
+4.761
+8
+21
+8030
+6.82
+7.7
+4.93
+1.161
+4.4
+981
+1.57
+9.591
+1.77
+9.681
+7
+21
+9030
+3.52
+1.7
+1.05
+8.051
+8.3
+312
+9.97
+7.022
+7.28
+4.312
+8
+51
+0130
+8.14
+1.7
+3.06
+7.961
+6.3
+321
+7.68
+5.481
+1.78
+3.721
+41
+51
+5030
+1.5
+2.85
+8.271
+3.41
+6.6
+5.25
+7.771
+4.3
+662
+5.28
+2.361
+6.28
+2.041
+8
+01
+1030
+7
+5.85
+2.761
+6.3
+081
+6.58
+6.291
+8.68
+051
+01
+01
+naeM
+6726.0
+889.0
+ORN
+snoitceriD
+59a
+sK
+sI
+sD
+59a
+gK
+gI
+gD
+)N(
+n
+5.2
+8.44
+9.48
+7.4
+6.2
+04
+7.28
+8.053
+)97(
+47
+naem
+etiS
+3
+8.04
+2.58
+8.6
+2.3
+4.73
+1.38
+6.253
+)55(55
+spuorg
+lanoitcerid
+dna
+snoitcerid
+laudividni
+revo
+naeM
+9.3
+4.671
+58
+3.653
+8.4
+711
+28
+7.833
+)9(
+9
+naem
+noitceS
+seloP
+E
+°1.071
+,N
+°9.66
+tniop
+egareva
+lanoitidnoc
+rof
+edutitaloelaP
+59A
+TALP
+GNOLP
+)N(
+n
+°9.4
+±
+5.08
+9.4
+3.67
+5.371
+)97(
+47
+elop
+naem-etiS
+°6.5
+±
+1.18
+6.5
+7.57
+3.471
+)55(
+55
+spuorg
+lanoitcerid
+dna snoitcerid
+laudividni
+revo
+elop
+naeM
+°3.7
+±
+6.08
+3.7
+3.67
+7.761
+)9(9
+naem
+noitceS
+dna
+snoitanilcni
+era
+)sI(
+gI
+,)sD(
+gD
+;snoitcerid
+citengamoelap
+fo noitaluclac
+eht
+ni
+desu
+selpmas
+fo
+rebmun
+eht
+si
+n
+;etis
+a
+morf
+nekat
+selpmas
+fo
+rebmun
+eht
+si
+N
+edutital
+dna
+edutignol
+eht
+era
+59A
+,talP
+,nolP
+;elcric
+ecnedifnoc
+fo suidar
+dna
+retemarap
+noisicerp
+era
+59a
+,K
+;setanidrooc
+)cihpargitarts(
+cihpargoeg
+ni
+snoitanilced
+gniredro
+modnar-non
+eht
+si ORN
+;ytilibitpecsus
+citengam
+cirtemulov
+si
+mK
+;ylevitcepser
+,setis
+fo
+spuorg
+dna
+setis
+laudividni
+rof
+)sPGV(
+selop
+citengamoeg
+lautriv
+fo
+.eulav
+retemarap
+
+### page_11
+AMPLITUDE OF SECULAR GEOMAGNETIC VARIATION 195
+Sample 010108 Sample 020407
+(a) (b)
+TTTmmm
+TTTmmm
+TTTmmm
+10 μm 2 μm 10 μm
+Sample 030608 Sample 040107 Sample 050415
+TTTmmm
+IIIlllmmm
+TTTmmm
+TTTmmm TTTmmm
+TTTmmm
+TTTmmm
+TTTmmm IIIlllmmm
+20 μm 50 μm 10 μm
+Fig. 4. Backscattered electron (BSE) images of polished thin sections, samples 010108 (section 01), 020407 (section 02), 030608
+(section 03), 040107 (section 04): Tm, titanomagnetite; Ilm, ilmenite; Mt, magnetite.
+nomagnetite grains (Fig. 5, samples 030608, 050415) 67.0° N, 171.0° E at A95 = 9.8° and N = 40 (Stone et al.,
+and intergrowths of ilmenite (Ilm) with titanomagne- 2009). The angular difference between these poles is
+tite (Tm) (Fig. 4, sample 040107). The presence of pri- insignificant: –7.7 ± 8.2° (Debiche and Watson, 1995),
+mary magmatic grains of magnetic minerals is a strong which again supports the reliability of our results.
+evidence in favor of the preservation of primary mag-
+netization in the rocks.
+DATA PROCESSING PROCEDURE A
+In the scope of this work, we have also carried out ND DISCUSSION OF THE RESULTS
+some thermomagnetic and coercitimetric studies. As
+The paleomagnetic data derived from the studied
+the obtained data do not provide additional informa-
+volcanics allow us to estimate the amplitude of high-
+tion on the acquisition time of the characteristic mag-
+latitude paleosecular geomagnetic variation during
+netization, we decided to not discuss them in the
+CNS on a time level of ~90 Ma ago.
+paper.
+Traditionally, the amplitude of paleosecular geo-
+Based on the results of our studies, we calculated
+magnetic variation is described by a measure of scatter
+the mean paleomagnetic pole (Table 1) whose coordi-
+of the virtual geomagnetic poles (VGP) (Khramov
+nates are 75.7° N, 174.3° E at N = 55 and a radius of
+etal., 1982) calculated for individual paleomagnetic
+the confidence circle A95 = 5.6° (the calculation takes
+sites. The VGPs in this case are determined by the
+into account the directional groups, the details are in
+dipole formula (Khramov et al., 1982) from the mean
+the next section).
+direction estimated for each studied flow. For the last
+The paleomagnetic pole of a similar age was previ- 5 Ma, this scatter is considered with respect to the geo-
+ously obtained by Stone et al. (2009) from the OCVB graphic pole. For more ancient time intervals, the
+volcanics outcropping close to our study region near VGP scatter is calculated either about the mean pole
+Lake Elgygytgyn and in the upper reaches of the over the entire set of the obtained virtual poles or
+Enmyvaam River. The coordinates of this pole are about the geographic pole but provided that the VGP
+IZVESTIYA, PHYSICS OF THE SOLID EARTH Vol. 58 No. 2 2022
+
+### page_12
+196 LEBEDEV et al.
+N
+°
+0
+3
+or
+at
+u
+q
+E
+Fig. 5. Distribution of VGPs (purple circles) calculated over all 74 individual sites (flows). Red circle is mean paleomagnetic pole
+and radius of its 95% confidence circle; blue dashed circle is critical cutoff angle of 45°; green circle is critical cutoff angle (44.1°)
+calculated by Vandamme method.
+position is corrected for the tectonic plate motion and random within-site scatter of paleomagnetic
+(Doubrovine et al., 2019). The VGP scatter is com- directions (S ). The first source provides the domi-
+wi
+monly estimated based on quantity Sb which is equal nant contribution to the dispersion of the virtual geo-
+to RMS deviation of VGP from the geographic or from magnetic poles.
+the mean pole corrected for the scatter of paleomag-
+netic directions within sites (Cox, 1970): We are interested in the PSV amplitude during
+“normal” (non-excursing, non-reversing) field states.
+Sb =   1  N  Δ 2− S w 2 i     1/2 ( i= 1…, , N ) , (1) T re h la e t r e e d fo t r o e , t h w e e t h im av e e i n to t e d r i v s a c l a s r w d h th en e d th ir e e c fi t e io ld n s w p a r s o i b n a t b h ly e
+N −1
+i=1
+ i n
+i
+
+excursing or reversing state. Besides, the crude mea-
+where Δ is the angular distance of the ith VGP calcu- surement errors leading to the noticeable VGP devia-
+lated for i each ith flow from the mean VGP (or from tions from the mean should also be eliminated. Since
+the geographical pole); N is the number of flows and VGP deviations enter the Sb calculation quadratically,
+n is the number of samples taken from the ith flow; S the VGPs associated with the “anomalous” field states
+i wi
+or with crude errors will strongly affect the calculated
+is the VGP dispersion within the site calculated for
+each ith flow by the following formula Sb values.
+S2 = 81 K, Such VGPs are rejected based on some threshold
+wi value—a critical cutoff or a cutoff angle. Virtual poles
+( )
+K = k 1 (5+18sin2λ +9sin2λ )
+−1
+, that deviate from the mean pole by an angle greater
+8 than the cutoff angle are rejected, and only the VGPs
+that are distant from the mean pole by a smaller angle
+where k is the precision parameter of paleomagnetic
+directions within sampling sites and λ is the paleolati- are included in the Sb calculation. The critical angle
+(Δ max) is either selected constant, e.g., 45° (a review
+tude of the site (Cox, 1970).
+is presented in (McElhinny and McFadden, 1997)) or
+VGP angular dispersion given by Eq. (1) includes
+calculated using the Vandamme’s iterative method
+two sources of dispersion: secular field variation (Δ 2) (Vandamme, 1994):
+i
+IZVESTIYA, PHYSICS OF THE SOLID EARTH Vol. 58 No. 2 2022
+
+### page_13
+AMPLITUDE OF SECULAR GEOMAGNETIC VARIATION 197
+Δ max= 1.95S+' °5 , directions representing individual directions and
+directional groups.
+where S' is equal to Sb for the initial and each subse-
+In four sections (1, 2, 3, and A1) of the nine stud-
+quent distribution obtained with a current rejection of
+ied, the NRO value before grouping the flows was
+anomalous VGPs.
+above 0.95 (Table 1). After the grouping, NRO
+Following (Biggin et al., 2008; Pavlov et al., 2019; dropped notably below this threshold value (Table 1).
+Doubrovine et al., 2019), we used two approaches to Hence, the directions obtained after grouping form a
+remove the VGP outliers. According to the first statistically random field sample and fairly adequately
+method, the critical angle was selected fixed and equal represent the dimension of the paleosecular variation.
+to 45°; according to the second method, this angle was
+This result provides us with an additional indica-
+calculated based on the Vandamme method (Fig. 5).
+tion that the Sb calculation from directional groups
+Observations in the regions of the present-day con- and individual directions is more correct than the cal-
+tinental margin volcanism show that volcanic flows culation at the level of individual sites without group-
+are formed irregularly. Single volcanic eruptions sepa- ing the directions.
+rated by fairly long time intervals can produce single
+Nevertheless, for comparison, we calculated Sb both
+flows. Volcanic pulses consisting of a series of erup-
+with and without grouping (Table 2). Calculations were
+tions can form a series (groups) of practically coeval or conducted with the fixed cutoff angle cutoff = 45° and
+close in age volcanic flows. In the latter case, in the Sb
+with the cutoff angle calculated by the Vandamme
+calculations at the level of individual flows, the contri-
+method. To assess how the quality of the paleomag-
+bution of the field states during which these volcanic
+netic record affects the final result of Sb determina-
+series were formed will be greater than the contribu-
+tion, we performed calculations using all individual
+tion of the field states recorded in the single flows,
+directions and groups and using only those where the
+which will result in the underestimation of the calcu-
+within-site (within-group) precision parameter K is
+lated Sb values relative to the true value. To avoid this,
+greater than 50 and 100. The results are presented in
+we used two procedures: comparing the mean paleo-
+Table 2 and Fig. 6.
+magnetic directions of neighboring flows by the
+From Table 2 and Fig. 6 it can be seen that irre-
+method (McFadden and McElhinny, 1991) and esti-
+spective of the calculation method, the Sb values fall in
+mating the serial correlation of paleomagnetic direc-
+a narrow range from 21.3° to 23.5°, and the confidence
+tions within the studied sections by the method
+intervals for these quantities substantially overlap
+described in (Biggin et al., 2008).
+making them statistically indistinguishable. We note,
+Using the first procedure, we identified the groups however, that in the case of using the sites (groups)
+of the successive flows with statistically indistinguish- with K > 100, the Sb value always but insignificantly
+able mean paleomagnetic directions. Accordingly, the increases and the confidence interval increses. For our
+entire data for calculating the variation were repre- analysis, we select the Sb values obtained with group-
+sented as a set of individual directions corresponding to ing the directions for the sites and the groups where
+the individual flows and directional groups correspond- the precision parameter is higher than 50. Considering
+ing to the groups (series) of the coeval or almost coeval the fact that in the paleosecular variation studies, both
+flows (see Table 1). As a result, a total of 55 directions fixed cutoff angles and the cutoff angles calculated by
+(VGPs) determined from 43 individual flows (sites) the Vandamme method are widely used, below we will
+and 12 groups were accepted for the final calculation. analyze both the corresponding Sb values (Table 2):
+The second procedure calculates the NRO (non- 22.1° [19.5°; 24.7°] and 23.1° [20.3°; 25.7°].
+random ordering) parameter allows estimation of the Let us compare the obtained values with the mod-
+degree of serial correlation of paleomagnetic direc- els of PSV latitudinal dependence for CNS proposed
+tions in a section (Biggin et al., 2008). NRO above in (McFadden et al., 1991; Biggin et al., 2008; Dou-
+0.95 means that the correlation of paleomagnetic brovine et al., 2019). As can be seen from Fig. 7a, when
+directions in a section (serial correlation) is significant we use a fixed cutoff angle, the resulting Sb values
+at 95% confidence level and the obtained sequence of excellently agree with the model of (Doubrovine et al.,
+directions probably reflects the close-in-time states of 2019) and slightly differ from the values predicted by
+the field. The latter may lead to an underestimation of the model of (McFadden et al., 1991). In the case of
+the PSV amplitude. If NRO is below 0.95, it can be the cutoff angle determined by the Vandamme
+assumed that the considered paleomagnetic directions method (Fig. 7b), our result nonsignificantly differs
+are uncorrelated, reflect independent states of the from the model (Doubrovine et al., 2019) but even
+geomagnetic field states, and can be confidently used better agrees with the model (Biggin et al., 2008).
+for calculating the unbiased estimate of the amplitude
+Thus, our data for the high latitudes generally sup-
+of the paleosecular variation.
+port the existing models. The agreement with the
+We calculated the NRO parameter for each studied model (McFaddenetal., 1991) where the PSV values
+section (Table 1). The calculations were carried out are low at the equator and sharply increase latitude is
+both for the single flows and for the sequences of worse than with the model (Biggin et al., 2008) which
+IZVESTIYA, PHYSICS OF THE SOLID EARTH Vol. 58 No. 2 2022
+
+### page_14
+198 LEBEDEV et al.
+Table 2. PSV amplitude estimates
+Selection criteria n(N) Sb [Sb–; Sb+]
+All sites without grouping, fixed cutoff angle cutoff = 45°
+All 73(74) 21.3 [19.1; 23.5]
+K > 50 72(73) 21.2 [19.0; 23.4]
+K > 100 55(56) 22.0 [19.4; 24.4]
+All sites without grouping, cutoff angle determined by Vandamme method
+All, cutoff = 44.1° 73(74) 21.7[19.5; 23.9]
+K > 50, cutoff = 44.0° 72(73) 21.7 [19.3; 23.8]
+K > 100, cutoff = 46.2° 56(56) 22.9 [20.1; 25.7]
+Sites with grouping, fixed cutoff angle cutoff = 45°
+All 54(55) 22.1 [19.0; 24.6]
+K > 50 53(54) 22.1 [19.5; 24.7],
+K > 100 41(42) 22.4 [19.1; 25.6]
+Sites with grouping, cutoff angle determined by Vandamme method
+All, cutoff = 46.7° 55(55) 23.2 [20.2; 26.0]
+K > 50, cutoff = 46.6° 54(54) 23.1 [20.3; 25.7]
+K > 100, cutoff = 47.3° 42(42) 23.5 [20.2; 26.7]
+N is the number of sites (individual flows, individual directions) or number of individual flows and flow groups (individual directions
+and directional groups); n is the number of sites (individual flows, individual directions) or number of individual flows and flow groups
+(individual directions and directional groups) used in Sb calculation after cutting off at critical cutoff angle; cutoff is the critical cutoff
+angle to eliminate VGP “outliers”; K is the within-site (within-group) precision parameter of paleomagnetic directions. Sb° is the VGP
+dispersion (amplitude of variations); Sb+ and Sb− are the upper and lower limits of the 95% confidence interval.
+27
+26
+25
+24 42
+55 54
+56 23
+41
+55 54 53
+22 73 72
+73 72
+21
+20
+19
+18
+C ut K o ff > 4 5 5 0 ° , c u K t o > ff 1 4 0 5 0 ° , c ut o ff 4 5 ° V c K u t > o ff 5 0, V K c > ut o 1 0 ff 0, V c u S t o S C ff C , , c u K t o > ff 5 4 0 5 C , ° c , u K t o > ff 1 4 0 5 0 ° , c ut o ff 4 S 5 ° C, S V C c , u K t o > ff S 5 C 0 , , K c u > t o 1 ff 0 0 V c ut o ff
+S
+Fig. 6. Sb° values (VGPs angular dispersion) and their 95% confidence intervals for OCVB volcanic flows calculated with differ-
+ent flow selection criteria. Numerals at top of bars are number (N) of flows or DG&DI after rejection by cutoff angle and preci-
+sion parameter (K). Different criteria and cutoffs are indicated on X-axis, where V is iterative cutoff according to (Vandamme,
+1994), 45° is fixed cutoff, and SC means application of serial correlation procedure (blue bars).
+IZVESTIYA, PHYSICS OF THE SOLID EARTH Vol. 58 No. 2 2022
+ged
+,bS
+predicts higher PSV values at the equator and their considered until recently as most promising for
+more gradual increase towards polar latitudes. We revealing the differences in the behavior of the geo-
+recall that it is these PSV properties that have been magnetic field during and between the geomagnetic
+VGPs angular dispersion
+Application of different criteria
+
+### page_15
+AMPLITUDE OF SECULAR GEOMAGNETIC VARIATION 199
+40
+30
+20
+10
+0 10 20 30 40 50 60 70 80 90
+Paleolatitude, deg
+Fig. 7. Based on (Doubrovine et al., 2019) with modifications and additions. (a), (b) Comparison of obtained data with models
+of PSV latitudinal dependence during CNS (84–126 Ma): (a) with fixed cutoff angle 45°; (b) with cutoff angle calculated by Van-
+damme method; (c), (d) comparison of obtained data with models of PSV latitudinal dependence for last 5 Ma: (c) with cutoff
+angle calculated by Vandamme method (Opdyke et al. , 2015); (d) with fixed cutoff angle 45° (Johnson et al., 2008). Red square
+and corresponding line show Sb values and their confidence intervals obtained in this study. Red solid line is data approximation
+in (Doubrovine et al., 2019) based on model (McFadden et al., 1988) with parameters a and b and their confidence intervals (in
+parentheses) shown on diagram. Gray shading shows 95% confidence intervals for corresponding models. Black triangles and
+corresponding segments show data of other authors for CNS. Blue (green) dashed line shows approximation of latitude depen-
+dence of PSV according to (Biggin et al., 2008; McFadden et al., 1991).
+superchrons. Our results do not support this stand- of the geodynamo or are the manifestation of the same
+point. stochastic process that is responsible for the “normal
+It is also interesting to compare our data for the reversing regime.” Our data rather support the second
+superchron with the results for the last five million standpoint.
+years when the rate of geomagnetic reversals was quite If this standpoint is right, we can speak of incom-
+high averaging about five reversals per million years. plete adequacy of the modern numerical geodynamo
+From Figs. 7c and 7d it can be seen that our results models for the real processes of geomagnetic field gen-
+almost perfectly fit the latitude dependences of PSV eration. This is due to the fact that all these models
+for the last 5 Ma irrespective of whether the calcula- require a change in the geodynamo operation condi-
+tions used a fixed cutoff angle (Johnson et al., 2008) or tions during superchrons (e.g., a change in the convec-
+an angle determined by the Vandamme method tion parameters due to the change in the magnitude or
+(Opdyke et al., 2015). This means that at least at high character of distribution of the heat flow at CMB).
+latitudes, the amplitude of secular geomagnetic varia- The absence of clear differences in the amplitude of
+tion during CNS was the same as during the last 5 Ma. secular variation during the Cretaceous superchron
+The obtained results may have important implica- and during the last 5 Ma does not support the hypoth-
+tions for the discussion of the fundamental question of esis that the regime of geomagnetic field generation
+whether the superchrons reflect a special physical state changes during the establishment and termination of
+IZVESTIYA, PHYSICS OF THE SOLID EARTH Vol. 58 No. 2 2022
+ged
+,bS
+40
+30
+20
+10
+0 10 20 30 40 50 60 70 80 90
+Paleolatitude, deg
+ged
+,bS
+40
+30
+20
+10
+0 10 20 30 40 50 60 70 80 90
+Paleolatitude, deg
+ged
+,bS
+40
+30
+20
+10
+0 10 20 30 40 50 60 70 80 90
+Paleolatitude, deg
+ged
+,bS
+CNS (126–84 Ma) 0–5 Ma
+(a) (c)
+cutoff angle according to (Vandamme, 1994) cutoff angle according to (Vandamme, 1994)
+a = 10.7°(8.3°–12.9°) a = 11.6°(10.3°–13.0°)
+b = 0.21(0.05–0.26) b = 0.26(0.22–0.29)
+(b) (d)
+Fixed cutoff 45° Fixed cutoff 45°
+a = 11.1°(11.1°–13.7°) a = 14.5°(12.8°–16.0°)
+b = 0.21(0.02–0.27) b = 0.21(0.05–0.26)
+
+### page_16
+200 LEBEDEV et al.
+the superchrons (e.g., (Gallet and Pavlov, 2016)). Oth- The presented result does not support the hypoth-
+erwise, it would have to be assumed that the change of esis of a change in the geodynamo regime at the tran-
+the generation regimes does not necessarily lead to the sitions from the periods of frequent geomagnetic
+substantial changes in the PSV amplitude, which raises reversals to superchrons, which suggests incomplete
+new questions for the modern geodynamo models. adequacy of the modern numerical models for the real
+processes of generation of the geomagnetic field.
+Speaking about the absence of a sharp contrast
+between the amplitude of secular variation during the
+Cretaceous superchron and that during the last five
+ACKNOWLEDGMENTS
+million years, we have to make one important reserva-
+tion. Recently, the data have emerged probably indi- We are particularly grateful to V.A. Tselmovich and
+cating that the scatter of paleomagnetic directions N.N. Koshlyakova for their help in conducting the electron
+could markedly increase on some time intervals within microscopic studies and microprobe analysis. All measure-
+CNS (Guzhikov and Feduleev, 2019; Guzhikova et al., ments have been carried out at the IPE RAS Research
+2020; Lhuillier et al., 2016). Whether this increase is Equipment Sharing Center “Petrophysics, geomechanics,
+related to the widening of the scatter around a single and paleomagnetism.”
+central direction or to the presence of several (two?)
+clusters of the preferred VGP positions is unclear. It is
+FUNDING
+obvious that the solution of these questions requires
+further accumulation of the new high-quality data on The work was supported by the Russian Science Founda-
+the secular variation in the geomagnetic field of the tion under project no. 19-47-04110 (field work, demagnetiza-
+superchrons and periods of frequent reversals. tion experiments, data interpretation) and carried out in partial
+fulfillment of the state contract of the North-Eastern Interdis-
+ciplinary Scientific Research Institute, Far Eastern Branch
+CONCLUSIONS RAS (Magadan) under project no. 121031700312-1 (petro-
+graphic studies).
+The paleomagnetic studies of the Okhotsk–Chu-
+kotka belt volcanics outcropping in the region of
+Kupol deposit (~66.9° N, 170.1° E) and formed about
+CONFLICT OF INTEREST
+90 Ma ago during CNS have been carried out. The
+The authors declare that they have no conflicts of interest.
+characteristic magnetization component is isolated in
+most of the studied samples. The primary origin of this
+component is supported by the positive fold test, the
+REFERENCES
+electron microscopic and microprobe analysis data,
+and the closeness of the calculated paleomagnetic pole Akinin, V.V. and Miller, E.L., Evolution of calc-alkaline
+magmas of the Okhotsk-Chukotka volcanic belt, Petrology,
+to that of the coeval rocks from the same region. It is
+2011, vol. 19, no. 3, pp. 237–277.
+shown that the studied rocks were formed at high polar
+latitudes close to 81° N. Akinin, V.V., Miller, E.L., Toro, J., Prokopiev, A.V.,
+Gottlieb, E.S., Pearcey, S., Polzunenkov, G.O., and Truni-
+The amplitudes of the geomagnetic paleosecular
+lina, V.A., Episodicity and the dance of late Mesozoic mag-
+variation (PSV) during CNS have been estimated. matism and deformation along the northern circum-pacific
+Depending on the calculation method, these estimates margin: north-eastern Russia to the Cordillera, Earth-Sci.
+for ~81° N (and their confidence intervals) are Sb = Rev., 2020, vol. 208, Paper ID 103272.
+22.1° (19.5°; 24.7°) when calculated with a fixed cutoff Belyi, V.F., Stratigrafiya i struktury Okhotsko-Chukotskogo
+angle of 45° and Sb = 23.18° (20.3°; 25.7°) when cal- vulkanogennogo poyasa (Stratigraphy and Structures of the
+culated with the cutoff angle determined by the Vann- Okhotsk-Chukotka Volcanic Belt), Moscow: Nauka, 1977.
+damme method. Biggin, A.J., van Hinsbergen, D.J.J., Langereis, C.G.,
+Straathof, G.B., and Deenen, M.H.L., Geomagnetic secu-
+The obtained estimates generally support the exist-
+lar variation in the Cretaceous Normal Superchron and in
+ing models of the latitudinal dependence of PSV for
+the Jurassic, Phys. Earth Planet. Inter., 2008, vol. 169,
+CNS. The agreement with the model (McFadden et al.,
+nos.1–4, pp. 3–19.
+1991) in which PSV is assumed to be low at the equator
+Butler, R.F., Paleomagnetism: Magnetic Domains to Geologi-
+and to sharply increase with latitude is worse than with
+cal Terranes, Oxford: Blackwell Scientific, 1992.
+the model (Biggin et al., 2008) which predicts higher
+Coe, R.S. and Glatzmaier, G.A., Symmetry and stability of
+PSV values at the equator and their more gentle
+the geomagnetic field, Geophys. Res. Lett., 2006, vol. 33,
+increase towards polar latitudes.
+no.21, Paper ID L21311.
+Irrespective of the calculation method, the
+Cole, J.W., Milner, D.M., and Spinks, K.D., Calderas and
+obtained estimates almost perfectly fit the latitude caldera structures: a review, Earth-Sci. Rev., 2005, vol. 69,
+dependences of PSV for the last 5 Ma. This means that pp. 1–26.
+the amplitude of secular geomagnetic variation during
+Cox, A., Latitude dependence of the angular dispersion of
+CNS, at least at high latitudes and during the time the geomagnetic field, Geophys. J. R. Astron. Soc., 1970,
+interval under study, was the same as in the last 5 Ma. vol.20, pp. 253–269.
+IZVESTIYA, PHYSICS OF THE SOLID EARTH Vol. 58 No. 2 2022
+
+### page_17
+AMPLITUDE OF SECULAR GEOMAGNETIC VARIATION 201
+Debiche, M.G. and Watson, G.S., Confidence limits and Khramov, A.N., Goncharov, G.I., Komissarova, R.A.,
+bias correction for estimating angles between directions etal., Paleomagnitologiya (Paleomagnetology), Leningrad:
+with applications to paleomagnetism, J. Geophys. Res., Nedra, 1982.
+1995, vol. 100, no. B12, pp. 24405–24430. Landeau, M., Aubert, J., and Olson, P., The signature of
+Doubrovine, P.V., Veikkolainen, T., Pesonen, L.J., Piispa, E., inner-core nucleation on the geodynamo, Earth Planet. Sci.
+Ots, S., Smirnov, A.V., Kulakov, E.V., and Biggin, A.J., Lett., 2017, vol. 465, pp. 193–204.
+Latitude dependence of geomagnetic paleosecular variation Lebedev, I.E., Tikhomirov, P.L., Pasenko, A.M., Eid, B.,
+and its relation to the frequency of magnetic reversals: Ob- Lhuillier, F., and Pavlov, V.E., New paleomagnetic data on
+servations from the Cretaceous and Jurassic, Geochem. Geo- Late Cretaceous Chukotka volcanics: the Chukotka block
+phys. Geosyst., 2019, vol. 20, pp. 1240–1279. probably underwent displacements relative to the North
+American and Eurasian plates after the formation of the
+Driscoll, P.E., Simulating 2 Ga of geodynamo history, Geo-
+Okhotsk-Chukotka volcanic belt?, Izv., Phys. Solid Earth,
+phys. Res. Lett., 2016, vol. 43, pp. 5680–5687.
+2021, vol. 57, no. 2, pp. 232–246.
+Elston, D.P., Enkin, R.J., Baker, J., and Kisilevsky, D.K.,
+Lhuillier, F., Gilder, S.A., Wack, M., He, K., Petersen, N.,
+Tightening the Belt: Paleomagnetic-stratigraphic con-
+Singer, B.S., Jicha, B.R., Schaen, A.J., and Colon, D.,
+straints on deposition, correlation, and deformation of the
+More stable yet bimodal geodynamo during the Cretaceous
+Middle Proterozoic (ca. 1.4 Ga) Belt-Purcell Supergroup,
+superchron?, Geophys. Res. Lett., 2016, vol. 43, pp. 6170–
+United States and Canada, Geol. Soc. Am. Bull., 2002,
+6177.
+vol.114, pp. 619–638.
+Malysheva, G.M., Isaeva, E.P., Tikhomirov, Yu.B., and
+Enkin, R.J., The direction-correction tilt test: an all pur- Vyatkin, B.V., Gosudarstvennaya geologicheskaya karta Ros-
+pose tilt/fold test for palaeomagnetic studies, Earth Planet. siiskoi Federatsii. Masshtab 1 : 1000000 (tret’e pokolenie).
+Sci. Lett., 2003, vol. 212, pp. 151–166. Seriya Chukotskaya: List Q-59 – Markovo. Ob”yasnitel’naya
+Gallet, Y. and Pavlov, V.E., Three distinct reversing modes zapiska (Scale 1 : 1000000 State Geological Map of the Rus-
+in the geodynamo, Izv., Phys. Solid Earth, 2016, vol. 52, sian Federation (Third Generation). Chukotka Series:
+no.2, pp. 291–296. Sheet Q-59 – Markovo. Explanatory Note), St. Petersburg:
+Cartographic factory VSEGEI, 2012.
+Gallet, Y., Pavlov, V., Halverson, G.P., and Hulot, G., To-
+McElhinny, M.W. and McFadden, P.L., Palaeosecular
+ward constraining the long-term reversing behavior of the
+variation over the past 5 Myr based on a new generalized da-
+geodynamo: A new “Maya” superchron ~1000 Ma ago from
+tabase, Geophys. J. Int., 1997, vol. 131, pp. 240–252.
+the magnetostratigraphy of the Kartochka Formation
+(southwestern Siberia), Earth Planet. Sci. Lett., 2012, McFadden, P.L., Merrill, R.T., and McElhinny, M.W., Di-
+vols.339–340, pp. 117–126. pole/quadrupole family modeling of paleosecular variation,
+J. Geophys. Res., 1988, vol. 93, pp. 11583–11588.
+Geologic Time Scale 2020, vol. 2, Gradstein, F.M., Ogg, J.G.,
+McFadden, P.L., Merrill, R.T., McElhinny, M.W., and
+Schmitz, M.B., and Ogg, G.M., Eds., Amsterdam: Elsevier,
+Lee, S., Reversals of the Earth’s magnetic field and tempo-
+2020.
+ral variations of the dynamo families, J. Geophys. Res., 1991,
+Guzhikov, A.Yu. and Feduleev, D.V., Paleomagnetism of vol. 96, pp. 3923–3933.
+the Konyak-Santonian deposits of the southwest Crimea,
+Opdyke, N.D. and Channell, J.E.T., Magnetic Stratigraphy,
+Mater. XXV yubileinoi Vseross. shk.-semin. mezhdunar.
+Int. Geophys. Ser., vol. 64, San Diego: Academic Press,
+uchastiem “Paleomagnetizm i magnetizm gornykh porod”
+1996.
+(Proc. XXV Jubilee All-Russ. Workshop Int. Participation
+Opdyke, N.D., Kent, D.V., Foster, D.A., and Huang, K.,
+“Paleomagnetism and Rocks Magnetism”), Moscow–
+Paleomagnetism of Miocene volcanics on Sao Tome: Pale-
+Borok, 2019, Yaroslavl: Filigran’, 2019, pp. 103–107.
+osecular variation at the Equator and a comparison to its
+Guzhikova, A.A., Ryabov, I.P., and Kopaevich, L.F., New latitudinal dependence over the last 5 Myr, Geochem. Geo-
+paleomagnetic and microfaunistic data on the turonian- phys. Geosyst., 2015, vol. 16, pp. 3870–3882.
+santonian section “Aksu-Dere” (southwestern Crimea), Ma-
+Pavlov, V.E. and Gallet, Y., A third superchron during the
+ter. X Vseross. soveshch. “Melovaya sistema Rossii i blizhnego
+Early Paleozoic, Episodes, 2005, vol. 28, no. 2, pp. 78–84.
+zarubezh’ya: problemy stratigrafii i paleogeografii” (Proc. X All-
+Pavlov, V.E. and Gallet, Y., Developing the Cambrian and
+Russ. Conf. “Cretaceous System of Russia and the Near
+Ordovician magnetic polarity time scale: current data and
+Abroad: Problems of Stratigraphy and Paleogeography”),
+attempt of synthesis, Izv., Phys. Solid Earth, 2020, vol. 56,
+Magadan, 2020, Magadan: MAOBTI, 2020, pp. 81–84.
+no. 4, pp. 437–460.
+Helsley, C.E. and Steiner, M.B., Evidence for long intervals
+Pavlov, V.E., Gallet, Y., and Petrov, P.Y., A new Siberian
+of normal polarity during the cretaceous period, Earth record of the ∼1.0 Gyr-old Maya superchron, Precambrian
+Planet. Sci. Lett., 1968, vol. 5, pp. 325–332.
+Res., 2019, vol. 320, pp. 350–370.
+Hulot, G. and Gallet, Y., Do superchrons occur without Resheniya 3-go Mezhved. reg. stratigraficheskogo soveshch. po
+any palaeomagnetic warning?, Earth Planet. Sci. Lett., dokembriyu, paleozoyu i mezozoyu Severo-Vostoka Rossii
+2003, vol. 210, pp. 191–201. (Decis. 3rd Interdep. Reg. Stratigraphic Meeting on Pre-
+Johnson, C.L., Constable, C.G., Tauxe, L., Barendregt, R., cambrian, Paleozoic and Mesozoic of the North-East of
+Brown, L.L., Coe, R.S., Layer, P., Mejia, V., Opdyke, N.D., Russia), St. Petersburg, 2002, St. Petersburg: VSEGEI,
+Singer, B.S., Staudigel, H., and Stone, D.B., Recent inves- 2009.
+tigations of the 0–5 Ma geomagnetic field recorded by lava Senotrusov, A.G., Geologicheskaya karta SSSR. Masshtab
+flows, Geochem. Geophys. Geosyst., 2008, vol. 9, no. 4, Pa- 1:200000 (pervoe pokolenie). Seriya Anadyrskaya: List Q-
+per ID Q04032. 59-IX. Ob”yasnitel’naya zapiska (Scale 1 : 200000 Geologi-
+IZVESTIYA, PHYSICS OF THE SOLID EARTH Vol. 58 No. 2 2022
+
+### page_18
+202 LEBEDEV et al.
+cal Map of the USSR (First Generation). Anadyr Series: Tikhomirov, P.L., Melovoi okrainno-kontinental’nyi mag-
+Sheet Q-59-IX. Explanatory Note), Leningrad: VSEGEI, matizm Severo-Vostoka Azii i voprosy genezisa krupneishikh
+1990. fanerozoiskikh provintsii kremnekislogo vulkanizma (Creta-
+Shcherbakov, V. and Fabian, K., The geodynamo as a ran- ceous Continental Marginal Magmatism of Northeast Asia
+dom walker: A view on reversal statistics, J. Geophys. Res., and the Origin of the Largest Phanerozoic Provinces of Si-
+2012, vol. 117, no. B3, Paper ID B03101. licic Volcanism), Moscow: GEOS, 2020.
+Sokolov, S.D., Tectonics of Northeast Asia: an overview,
+Tikhomirov, P.L., Akinin, V.V., Ispolatov, V.O., Alexander, P.,
+Geotectonics, 2010, vol. 44, no. 6, pp. 493–509.
+Cherepanova, I.Yu., and Zagoskin, V.V., The Okhotsk-
+Stone, D.B., Layer, P.W., and Raikevich, M.I., Age and pa- Chukotka volcanic belt: Age of its northern part according
+leomagnetism of the Okhotsk-Chukotka Volcanic Belt to new Ar-Ar and U-Pb geochronological data, Stratigr.
+(OCVB) near Lake El’gygytgyn, Chukotka, Russia, in Geol. Correl., 2006, vol. 14, no. 5, pp. 524–537.
+Stephan Mueller Spec. Publ. Ser., vol. 4, 2009, pp. 243–260.
+Tarduno, J.A., Cottrell, R.D., and Smirnov, A.V., The Cre- Vandamme, D., A new method to determine paleosecular
+taceous superchron geodynamo: observations near the tan- variation, Phys. Earth Planet. Inter., 1994, vol. 85, nos. 1–2,
+gent cylinder, Proc. Natl. Acad. Sci. U. S. A., 2002, vol. 99, pp. 131–142.
+no. 22, pp. 14020–14025.
+Watson, G.S. and Enkin, R.J., The fold test in palaeomag-
+Tauxe, L., Essentials of Paleomagnetism, Berkeley: Univ.
+netism as a parameter estimation problem, Geophys. Res.
+California Press, 2010.
+Lett., 1993, vol. 20, pp. 2135–2137.
+Thébault, E., Finlay, C.C., Beggan, C.D., et al., Interna-
+tional Geomagnetic Reference Field: the 12th generation,
+Earth, Planets Space, 2015, vol. 67, no. 1, pp. 79–97. Translated by M. Nazarenko
+IZVESTIYA, PHYSICS OF THE SOLID EARTH Vol. 58 No. 2 2022

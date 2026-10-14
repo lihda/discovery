@@ -1,0 +1,2365 @@
+### page_1
+[AmericanJournalofScience,Vol.318,March,2018,P.300–334,DOI10.2475/03.2018.02]
+HIGH-RESOLUTIONMAGNETOSTRATIGRAPHYOFTHEUPPER
+NACIMIENTOFORMATION,SANJUANBASIN,NEWMEXICO,USA:
+IMPLICATIONSFORBASINEVOLUTIONAND
+MAMMALIANTURNOVER
+CAITLINLESLIE*,†,DANIELPEPPE*,THOMASWILLIAMSON**,
+DARIOBILARDELLO***,MATTHEWHEIZLER§,ROSSSECORD§§,and
+TYLERLEGGETT*
+ABSTRACT. LowerPaleocenedepositsintheSanJuanBasindocumentoneofthe
+bestrecordsofmammalianchangeandturnoverfollowingtheCretaceous-Paleogene
+massextinctionandisthetypeareaforthePuercan(Pu)andTorrejonian(To)North
+AmericaLandMammalage(NALMA).Oneofthelargestmammalianturnoverevents
+in the early Paleocene occurs between the Torrejonian 2 (To2) and Torrejonian 3
+(To3)NALMAintervalzones.TheNacimientoFormationcontainstheonlydepositsin
+NorthAmericawheretheTo2-To3mammalianturnovercanbeconstrained;however,
+thepreciseageanddurationoftheturnoverispoorlyunderstoodduetothelackofa
+precise chronostratigraphic framework. We analyzed paleomagnetic samples, pro-
+duceda40Ar/39Ardetritalsanidineage,anddevelopedadetailedlithostratigraphyfor
+foursectionsoftheupperNacimientoFormationintheSanJuanBasin,NewMexico
+(Kutz Canyon, Escavada Wash, Torreon West and East) to constrain the age and
+duration of the deposits and the To2-To3 turnover. The polarity stratigraphy for the
+foursectionscanbecorrelatedtochronsC27r-C26rofthegeomagneticpolaritytime
+scale (GPTS). Using the local polarity stratigraphy for each section, we calculated a
+meansedimentaccumulationrateanddevelopedapreciseagemodel,whichallowsus
+to determine the age of important late Torrejonian mammalian localities. Using the
+assigned ages, we estimate the To2-To3 turnover was relatively rapid and occurred
+over (cid:2)120 kyr ((cid:2)60/(cid:3)50 kyr) between 62.59 and 62.47 Ma. This rapid duration of
+mammalian turnover suggests that it was driven by external forcing factors, such as
+environmental change driven by the progradation of the distributive fluvial system
+across the basin and/or changes in regional or global climate. Additionally, compari-
+sonsofthemeansedimentaccumulationratesamongthesectionsthatspanfromthe
+basin margin to the basin center indicate that sediment accumulation rates equalized
+across the basin from the end of C27r through the start of C26r, suggesting an
+accommodationminimuminthebasinassociatedwiththeprogradationofadistribu-
+tivefluvialsystemintothebasin.Thisaccommodationminimumalsolikelyledtothe
+long hiatus of deposition between the Paleocene Nacimiento Formation and the
+overlyingEoceneSanJoseFormation.
+Keywords:Paleocene,paleomagnetism,rockmagnetism,basinevolution,mamma-
+lianevolution,NorthAmericanLandMammalage,Torrejonian
+introduction
+TheNacimientoFormationoutcropsintheSanJuanBasinofnorthwesternNew
+Mexico(fig.1)andiscomposedprimarilyofterrestrialfluvialrocks.TheNacimiento
+FormationcontainsoneofthemostcontinuousrecordsoflowerPaleoceneterrestrial
+evolutioninNorthAmericaanddocumentstheearlyPaleoceneradiationofmammals
+*Terrestrial Paleoclimatology Research Group, Department of Geosciences, Baylor University, One
+BearPlace#97354,Waco,Texas76706,USA
+**NewMexicoMuseumofNaturalHistoryandScience,Albuquerque,NewMexico87104,USA
+***InstituteforRockMagnetism,UniversityofMinnesota,Minneapolis,Minnesota55455,USA
+§NewMexicoBureauofGeology,NewMexicoTech,Socorro,NewMexico87801,USA
+§§UniversityofNebraska-Lincoln,DepartmentofEarthandAtmosphericSciences,Lincoln,Nebraska
+68588,USA
+†Correspondingauthor:Caitlin_Leslie@baylor.edu;CaitlinELeslie@gmail.com
+300
+
+### page_2
+C.Leslieandothers 301
+Tsj SanJoseFormation
+Tn NacimientoFormation
+Toa OjoAlamoSandstone
+Farmington Kkf F F r o u r i m tla a n ti d on & s Kirtland
+Kpc P S i a c n tu d r s e t d on C e liffs
+KutzCanyon
+Tsj
+Tn
+Toa
+Kkf
+Kpc
+EscavadaWash
+N
+Cuba
+TorreonWest
+TorreonEast
+NEW
+MEXICO
+50km
+Fig. 1. Geologic map of the San Juan Basin, New Mexico showing the Cretaceous through Eocene
+sediments and the locations of the four sections collected in this study, Kutz Canyon, Escavada Wash,
+TorreonWest,andTorreonEast,indicatedbywhitesquares(modifiedfromWilliamsonandothers,2008).
+when mammals rapidly diversified following the Cretaceous-Paleogene (K-Pg) mass
+extinction (Williamson, 1996). The San Juan Basin is the “type” area for the early
+Paleocene Puercan (Pu) and Torrejonian (To) North American Land Mammal age
+interval zones (NALMAs) that were first defined based on mammalian assemblages
+from the Nacimiento Formation (Wood and others, 1941). These mammal assem-
+blagescontinuetobecriticalforthecharacterizationanddefinitionofearlyPaleocene
+NALMAs and their subdivisions (Archibald and others, 1987; Lofgren and others,
+2004).
+Matthew (1937) provided the first comprehensive review of the long history of
+fossil mammalian collections from the Nacimiento Formation. Williamson (1996)
+documented two significant intervals of mammalian turnover within the formation,
+betweenPuercan2(Pu2)andPuercan3(Pu3)andbetweenTorrejonian2(To2)and
+Torrejonian3(To3)thatexhibithighratesofturnover.However,theprecisetimingof
+theseturnoversandtheircontemporaneousnatureacrossthebasinisuncertain.The
+NacimientoFormationistheonlycontinuousrecordoftheTo2-To3turnoverinterval
+in North America, therefore a more precise geochronologic framework is needed to
+betterevaluatebioticchangethroughthiscriticalintervaloftime.
+Magnetostratigraphy has been used to develop a chronostratigraphic framework
+fortheNacimientoFormationwiththeaimofprovidingageochronologicframework
+for study of vertebrate evolution and evaluating the timing of mammalian faunal
+change for much of the early Paleocene (Butler and others, 1977; Taylor, ms, 1977;
+
+### page_3
+302 C.Leslieandothers—High-resolutionmagnetostratigraphyoftheUpperNacimientoFormation,
+Butler and Taylor, 1978; Lindsay and others, 1978, 1981; Taylor and Butler, 1980;
+ButlerandLindsay,1985).However,ahigh-resolutionagemodelinconjunctionwith
+detailedstratigraphyisstilllackingforportionsoftheformation,andparticularlyfor
+theTo2-To3interval.
+Inthisstudy,wefocusondevelopingahigh-resolutionagemodelformammalian
+turnover between the To2 and To3 interval zones across the San Juan Basin. We
+develop a detailed lithostratigraphy in conjunction with the Torrejonian mammal
+localitiesanddeterminethemagnetostratigraphyoffoursectionsacrossthebasinthat
+spantheTo2-To3boundary.Thesesectionsare:KutzCanyon,EscavadaWash,Torreon
+West, and Torreon East (fig. 1). We then correlate the polarity stratigraphy of each
+section to the global geomagnetic polarity time scale (GPTS) (Ogg, 2012) with the
+help of a 40Ar/39Ar detrital sanidine age to constrain the timing and duration of
+sediment deposition in each section. Using calculated sediment accumulation rates,
+weassignanagetoeachfossillocalitywithinthesectionstocorrelatetheTorrejonian
+mammallocalitiesacrossthebasinandconstraintheageoftheTo2-To3mammalian
+turnover.Finally,weusecomparisonsofsedimentaccumulationratesamongthefour
+sectionstoassesstheevolutionofdepositionintheupperNacimientoFormation.
+previous work
+Lithostratigraphy
+The San Juan Basin of northwestern New Mexico is a Laramide foreland basin
+containing Upper Cretaceous through lower Eocene deposits (fig. 1) (Chapin and
+Cather, 1981). Cather (2004) documents three phases of subsidence in the San Juan
+basin: an early phase during the late Campanian-early Maastrichtian, a medial phase
+during the latest Maastrichtian-early Paleocene, and a last phase during the Eocene.
+The medial phase ((cid:2)74–67 Ma) allowed for the deposition of the Nacimiento
+Formation which is composed of alluvial deposits that are subdivided into three
+members:theArroyoChijuillita,theOjoEncino,andtheEscavadamembers(William-
+son and Lucas, 1992; Williamson, 1996). The Ojo Alamo Sandstone underlies the
+Nacimiento Formation, representing earliest Paleocene deposition in the basin, and
+thelowerEoceneSanJoseFormationunconformablyoverliestheNacimientoForma-
+tion.ThisstudyfocusesontheOjoEncinoMemberoftheNacimientoFormationthat
+contains variegated red and drab paleosols, sheet and channel sandstone units, and
+threepersistent“black”paleosolsthatwerefertoasthe“lowerblack”,“middleblack”,
+and“upperblack”.Theseblackbedsareusefulmarkerbedsastheycanbecorrelated
+acrossthebasin.TheabundantredbedsintheOjoEncinoMemberdistinguishitfrom
+the drab colored mudstone and sandstone beds of the underlying Arroyo Chijuillita
+MemberandthehighproportionofsandstonesandsilcretesoftheoverlyingEscavada
+Member(WilliamsonandLucas,1992;Williamson,1996;Davisandothers,2016).
+Thefoursectionsinvestigatedinthisstudyarespreadalonganorthwest-southeast
+transect through the basin and span from basin center to basin margin (fig. 1). Kutz
+Canyon, the northernmost section, is near the center of the basin, Escavada Wash is
+near the basin margin approximately 48 km southeast of Kutz Canyon, and Torreon
+West and East, the southernmost sections, are approximately 32 km southeast of
+EscavadaWashnearthebasinmargin.TorreonWestandEastareseparatedbyabout
+10km.Taylor(ms,1977)producedthefirststratigraphicsections,collectedpaleomag-
+netic samples, and documented the stratigraphic position of fossil mammal localities
+forTorreonWest,TorreonEast,andtheBigPocketfossillocalityinKutzCanyon.In
+the measured sections, lithologies were generalized and lumped into siltstone, sand-
+stone,volcanicash,andcoalintervals.Taylor(ms,1977)alsoidentifiedlower,middle,
+andupper“carbonaceous”claybedsthatoutcropasdistinctblackintervals,referredto
+the lower, middle, and upper blacks in this paper. Williamson (1996) subsequently
+
+### page_4
+SanJuanBasin,NewMexico,USA:Implicationsforbasinevolutionandmammalian 303
+produced more detailed measured sections for Torreon West, Torreon East, Kutz
+Canyon, and Escavada Wash by documenting pedogenic features and reporting
+Munsellcolorsformudstones.However,hissectionsarenottieddirectlytomagneto-
+stratigraphicsections,andthusarenotwellconstrainedgeochronologically.
+PaleomagnetismandRockMagnetism
+Taylor and Butler (1980) constructed the magnetic polarity stratigraphy of a
+185msectionatTorreonWest,a62msectionatTorreonEast,anda420msectionat
+Kutz Canyon. The Deltatherium mammalian zone (equivalent to Torrejonian 2, sensu
+Lofgren and others, 2004) was recognized at all three sections and the “Pantolambda
+mammalianzone”(sensuOsborn,1929,seebelow;equivalenttoTorrejonian3,sensu
+Lofgren and others, 2004) at Torreon West and Kutz Canyon. The two zones were
+estimatedtobeseparatedbyabout500kyr.ThesectionatKutzCanyon,measuredat
+the Big Pocket fossil locality, includes approximately 100 m of strata below the
+Deltatherium zone. The paleomagnetic sample spacing for all sections was approxi-
+mately 3 meters. The Torreon West, Torreon East, and upper portion of the Kutz
+Canyon sections were correlated to C26r to C25r based on previous work correlating
+the Upper Cretaceous through middle Paleocene San Juan Basin deposits to the
+geomagneticpolaritytimescale(GPTS)(Taylor,ms,1977;Lindsayandothers,1978).
+FollowingtheworkofTaylorandButler(1980),ButlerandLindsay(1985)recognized
+magnetic overprinting in the lower part of the section and revised correlation of the
+polarity zones to C27r to C26r rather than C26r to C25r. Despite the numerous
+mammalianlocalitiesidentifiedatEscavadaWash,apolaritystratigraphyhasnotbeen
+constructeduntilnow.
+Taylor and Butler (1980) identified the persistent black mudstones at Torreon
+West and East that function as excellent marker beds to reference the stratigraphic
+position of reversals in each section. The C27r-C27n reversal was reported near the
+base of the middle black at Torreon West and near the top of the middle black at
+TorreonEastandtheC26r-C27nreversalwasreportedatthebaseoftheupperblackat
+TorreonWestand9mbelowthebaseatTorreonEast.Thesefindingssuggestthatthe
+blacksarediachronousdespitetheproximityofthetwosections.
+ArockmagneticstudyoftheSanJuanBasindepositswasalsoconductedbyButler
+and Lindsay (1985) who analyzed magnetic separates from nine stratigraphic levels
+through Upper Cretaceous to middle Paleocene deposits; however, the exact sample
+locations are unclear and therefore it is unknown whether any sample overlap exists
+with the new sections presented here. Butler and Lindsay (1985) determined that
+titanohematite of intermediate composition was the dominant magnetic mineral
+based on microprobe and X-ray analyses, supported by Curie temperatures ranging
+from 180 to 300 °C. These findings indicate the sediments were likely sourced from
+volcanicrocksoftheSanJuanMountainregiontothenorth,basedonthepresenceof
+titanohematite.Kodama(1997)measuredtheanisotropyofremanenceonsamplesof
+the Nacimiento Formation collected from Kutz Canyon to conduct an inclination
+shallowingcorrectionandfoundsupportforaprimarydetritalmagnetizationforthe
+formation.
+MammalianBiostratigraphy
+Mammalian interval zones in the San Juan Basin have a long and complicated
+history.SinclairandGranger(1914)establishedthepresenceoftwozonesofdistinct
+mammalian assemblages at Torreon Wash, the Deltatherium and Pantolambda zones,
+which are separated by approximately 30 m of non-fossiliferous deposits. Osborn
+(1929) treated the two zones as separate life zones representing different ages and
+formallynamedandcharacterizedtheDeltatheriumzonebythepresenceofDeltatherium
+fundaminis, Mioclaenus turgidus, and Haploconus angustus and the Pantolambda zone by
+
+### page_5
+304 C.Leslieandothers—High-resolutionmagnetostratigraphyoftheUpperNacimientoFormation,
+thepresenceofPantolambdacavirictumandArctocyonferox.However,othersconsidered
+thesetwozonestobeafacieseffect,samplingbias,orinaccurateduetothepresenceof
+thesamespeciesinbothzones(Granger,1917;Matthew,1937;Wilson,1956;Russell,
+1967). Using magnetostratigraphy, Taylor and Butler (1980) demonstrated that the
+Deltatherium and Pantolambda zones represent different ages at Torreon Wash. Taylor
+(ms,1984)renamedtheDeltatheriumandPantolambdazonesDeltatherium–Tetraclaeno-
+don(D-T)andPantolambdabathmodon–Mixodectespungens(P-M)afterthediscoveryof
+Pantolambdacavirictuminotherlocalitiesinthebasinwithintheupperportionofthe
+“Deltatheriumzone”.
+Archibald and others (1987) updated the Paleocene NALMAs and divided the
+Torrejonian into three zones, To1-To3, using the San Juan Basin mammalian assem-
+blages to establish the To2 and To3 mammal ages. The Deltatherium and Pantolambda
+zones established by Sinclair and Granger (1914) are equivalent to To2 and To3,
+respectively,ofArchibaldandothers(1987).Archibaldandothers(1987)definedTo2
+astheTetraclaenodon-PantolambdazoneandTo3asthePantolambda-Plesiadapispraecursor
+zone, placing the boundary between the two zones within the upper part of the
+Deltatherium zone of Sinclair and Granger (1914). Williamson (1996) further subdi-
+vided the To2 and To3 interval into five biostratigraphic zones within the San Juan
+Basin: P-E zone (lowest occurrence of Protoselene opisthacus and lowest occurrence of
+Ellipsodon granger), E-A zone (lowest occurrence of Ellipsodon granger and first occur-
+rence of Arctocyon ferox), A-P zone (lowest occurrence of Arctocyon ferox and lowest
+occurrence of Pantolambda cavirictum), P-M zone (lowest occurrence of Pantolambda
+cavirictum and first occurrence of Mixodectes pungens), and M zone (first and last
+occurrenceofMixodectespungens).Williamson(1996)definedtheA-Pzoneexclusively
+fromKutzCanyonandtheP-MzonefromTorreonWest,KutzCanyon,andtwoother
+locationsinthebasin,KimbetoandBetonnie-Tsosiewashes.TheMzonewasdefined
+fromTorreonEastandWestandEscavadaWash.
+IntheirrevisionofPaleoceneNALMAs,Lofgrenandothers(2004)redefinedthe
+To2 interval zone as the Protoselene opisthacus-Mixodectes pungens interval zone, based
+primarilyonthefaunalsuccessionobservedatKutzCanyonandtheTo3intervalzone
+as the Mixodectes pungens-Plesiadapis praecursor interval zone based primarily on the
+faunalrecordatTorreonWash.Withtheserevisions,To2isapproximatelyequivalent
+to the duration of the local San Juan Basin biozones P-E through P-M (Williamson,
+1996), and approximately equivalent to the Deltatherium zone (Sinclair and Granger,
+1914). To3 is nearly equivalent to the duration of the M biozone (Williamson, 1996)
+andthePantolambdazone(sensuSinclairandGranger,1914).
+Using the Torrejonian zonation of Lofgren and others (2004), there are signifi-
+cantchangesintherianmammalsacrosstheTo2-To3boundaryintheSanJuanBasin.
+The changes observed between the last two San Juan Basin biozones in To2, the A-P
+and P-M zones, and To3, the M zone are locally considerable (Williamson, 1996).
+Intense collecting efforts over the last twenty years have resulted in modifications of
+theSanJuanBasinbiozonesofWilliamson(1996),includingthemovementofseveral
+localities from the P-M zone to the older A-P zone (table 1). Despite this extensive
+collecting,collectionbiasesremainamongthefossilzones.Forexample,theA-Pand
+P-M zones contain few microvertebrate sites, but several are present in the M zone.
+Additionally, the A-P and P-M zones are generally less fossiliferous and have signifi-
+cantlyfewerfossilsitesthantheMzone.
+Despite potential issues with collection biases, there are notable differences
+between the P-M and M zones in species occurrences and abundance. Several taxa
+found in the P-M zone, but not the M zone represent medium- to large-bodied taxa
+thatareabundantinP-Mzonefaunas,makingtheirdisappearanceacrosstheTo2-To3
+boundary particularly significant. These are the ‘triisodontid’ ‘condylarth’ Triisodon
+
+### page_6
+SanJuanBasin,NewMexico,USA:Implicationsforbasinevolutionandmammalian 305
+TABLE1
+Selected Mammal Localities and Calculated Ages
+NALMA San Juan Strati-
+interval zone Basin biozone graphic
+Mammal Localities Calculated age (Ma)
+(Lofgren and (Williamson, position
+others, 2004) 1996) (m)
+Kutz Canyon
+Sedimentation rate: 119.9(-16.3, +18.7) m/myr
+1: L-00400 To2 A-P zone 1-6 62.76-62.71 (-0.04, +0.05)
+2: L-06419 To2 A-P zone 1-6 62.76-62.71 (-0.04, +0.05)
+3: L-09907, L-09908, L-09909 To2 A-P zone 10 62.68 (-0.00, +0.00)
+4: L-08234 To2 P-M zone 16 62.63 (-0.00, +0.01)
+Escavada Wash
+Sedimentation rate: 115.7 (-30.3, +34.7) m/myr
+5: L-10453 To2 P-M zone 6.5 62.80 (-0.09, +0.11)
+6: L-09187 To2 P-M zone 15.25 62.72 (-0.08, +0.08)
+7: L-09985 To2 P-M zone 15.25 62.72 (-0.08, +0.08)
+8: L-10554 To2 P-M zone 15.25 62.72 (-0.08, +0.08)
+9: L-10350 To2 P-M zone 16.5 62.71 (-0.07, +0.08)
+10: L-09981 To3 M zone 59 62.35 (-0.10, +0.05)
+11: L-10444 To3 M zone 59 62.35 (-0.10, +0.05)
+12: L-10556 To3 M zone 61 62.33 (-0.10, +0.06)
+13: L-09982 To3 M zone 62 62.32 (-0.10, +0.06)
+14: L-10415 To3 M zone 63 62.31 (-0.11, +0.06)
+15: L-10660 To3 M zone 63.25 62.31 (-0.11, +0.06)
+16: L-10414 To3 M zone 64.5 62.30 (-0.11, +0.06)
+17: L-10403 To3 M zone 65 62.29 (-0.11, +0.06)
+18: L-09197 To3 M zone 65.15 62.29 (-0.11, +0.06)
+Torreon West
+Sedimentation rate: 119.9 (-10.1, +11.6) m/myr
+19: L-08182 To2 A-P zone 19.75 62.66 (-0.03, +0.04)
+20: L-08178 To2 A-P zone 23.25 62.63 (-0.03, +0.03)
+21: L-08180 To2 P-M zone 27.5 62.59 (-0.02, +0.03)
+22: L-09173 To3 M zone 43 62.46 (-0.02, +0.03)
+23: L-08183 To3 M zone 45 62.45 (-0.02, +0.03)
+24: L-10500 To3 M zone 48 62.42 (-0.03, +0.03)
+25: L-06898 To3 M zone 50.5 62.40 (-0.03, +0.03)
+26: L-10490 To3 M zone 55.5 62.36 (-0.03, +0.04)
+27: L-07108 To3 M zone 57 62.35 (-0.03, +0.04)
+28: L-07582 To3 M zone 57 62.35 (-0.03, +0.04)
+29: L-10493 To3 M zone 57.75 62.34 (-0.03, +0.04)
+30: L-10494 To3 M zone 57.75 62.34 (-0.03, +0.04)
+31: L-10495 To3 M zone 57.75 62.34 (-0.03, +0.04)
+32: L-01121 To3 M zone 58.5 62.33 (-0.03, +0.04)
+33: L-10534 To3 M zone 59.25 62.33 (-0.04, +0.04)
+34: L-10558 To3 M zone 59.25 62.33 (-0.04, +0.04)
+35: L-10561 To3 M zone 59.25 62.33 (-0.04, +0.04)
+36: L-07848 To3 M zone 59.75 62.32 (-0.04, +0.04)
+37: L-08205 To3 M zone 59.75 62.32 (-0.04, +0.04)
+38: L-10506 To3 M zone 61.5 62.31 (-0.04, +0.04)
+39: L-10535 To3 M zone 61.5 62.31 (-0.04, +0.04)
+40: L-10512 To3 M zone 63.5 62.29 (-0.04, +0.04)
+41: L-10560 To3 M zone 63.5 62.29 (-0.04, +0.04)
+42: L-10505 To3 M zone 66 62.27 (-0.04, +0.04)
+
+### page_7
+306 C.Leslieandothers—High-resolutionmagnetostratigraphyoftheUpperNacimientoFormation,
+TABLE1
+(continued)
+NALMA San Juan Strati-
+interval zone Basin biozone graphic
+Mammal Localities Calculated age (Ma)
+(Lofgren and (Williamson, position
+others, 2004) 1996) (m)
+Torreon East
+Sedimentation rate: 87.0 (-8.0, +9.0) m/myr
+43: L-07725 To2 A-P zone 18.5 62.66 (-0.03, +0.04)
+44: L-08227 To2 A-P zone 18.5 62.66 (-0.03, +0.04)
+45: L-08228 To2 A-P zone 18.5 62.66 (-0.03, +0.04)
+46: L-07583 To2 A-P zone 21.25 62.63 (-0.02, +0.04)
+47: L-04954 To2 A-P zone 21.25 62.63 (-0.02, +0.04)
+48: L-04950 To2 A-P zone 21.25 62.63 (-0.02, +0.04)
+49: L-10013 To3 M zone 35 62.47 (-0.02, +0.03)
+50: L-10432 To3 M zone 35 62.47 (-0.02, +0.03)
+51: L-09166 To3 M zone 39 62.43 (-0.02, +0.03)
+52: L-09167 To3 M zone 39 62.43 (-0.02, +0.03)
+53: L-01079 To3 M zone 52 62.28 (-0.04, +0.05)
+54: L-09169 To3 M zone 52 62.28 (-0.04, +0.05)
+55: L-10454 To3 M zone 52 62.28 (-0.04, +0.05)
+56: L-09172 To3 M zone 52 62.28 (-0.04, +0.05)
+quivirensis,theperiptychid‘condylarth’Haploconusangustus,andtheenigmatic‘condy-
+larth’? Deltatherium fundaminis. The taeniodont Huerfanodon torrejonius and the mio-
+claenid ‘condylarth’ Ellipsodon yotankae are uncommon in the P-M zone and do not
+appear in the M zone. Considering the difference in collection size and localities
+between the P-M and M zones, the disappearance of these taxa appears to be
+significant.SeveraltaxareportedfromtheMzone,butnotfromtheP-Mzone(Picrodus
+calgariensis,thepalaeanodont?Escavadodonzygus,thehyopsodontid‘condylarth’Hap-
+laletessp.,andthearctocyonid‘condylarth’Colpoclaneusprocyonoides)arerareintheM
+zone, and thus their absence from the P-M zone could be due to sampling biases
+betweenthezones.
+In addition to differences in taxonomic occurrences, there are notable differ-
+ences in the morphology of the mammalian taxa between the P-M and M zones.
+Several of the changes in mammal taxa between the two zones may reflect anagenic
+changeswithinalineageastheyrepresenttwospecies,usuallyincludedwithinasingle
+genus,distinguishedprimarilybyasignificantdifferenceinsize,forexample:Swaindel-
+physjohansoniandS.encinensis,MixodectesmalarisandM.pungens(contraTsentas,1981
+and Szalay and Lucas, 1996, M. malaris is not present in the M. zone), Anasazia
+williamsoniandTorrejoniawilsoni,andPentacodoninversusandP.occultus.Interestingly,
+forallthese“speciespairs”,theMzonetaxonislargerthantheP-Mzonetaxon.
+Although the mammalian turnover between To2 and To3 is well defined, the
+fossilscomefromdifferentlocationsandtheexacttimingoftheTo2-To3turnoveris
+uncertain. This demonstrates the need for a robust age model for the To2-To3
+intervalsintheNacimientoFormationtoallowforcorrelationsoftheSanJuanBasin
+mammalian assemblages to other contemporaneous assemblages across North Amer-
+icaandtoothercontinents,andtopreciselyconstraintheageoftheTo2-To3turnover.
+Forthepurposesofthispaper,weusethedefinitionofLofgrenandothers(2004)for
+theTo2andTo3intervalzones.
+
+### page_8
+SanJuanBasin,NewMexico,USA:Implicationsforbasinevolutionandmammalian 307
+methodology
+MeasuredSections
+A total of four sections were measured: a 70 m section at Kutz Canyon, a 87 m
+section at Escavada Wash, a 79 m section at Torreon West, and a 76 m section at
+Torreon East (figs. 2 and 3). At Torreon West and Torreon East, the base of the
+lithostratigraphicandmagnetostratigraphicsectionswasthelowerblackmarkerbed.
+TheEscavadaWashsectioncontainsmultiplemiddleblackmarkerbedssothesection
+began at the lowest black marker bed present at that locality. Kutz Canyon does not
+contain the lower or middle black marker beds, so this section was measured from a
+known late To2 mammal locality (Bab’s Basin) to ensure overlap with the other
+sections.
+At each section, the outcrop was trenched to remove weathered material and
+document the lithologic contacts. The paleosols were described at the centimeter
+scale.Thetexture,color,pedstructure,andshrink-swellfeaturesofeachpaleosolwere
+documentedusingtheguidelinesofSoilSurveyStaff(1999).Forsandstones,thegrain
+sizeandrelationshiptounderlyingstratawascharacterized.
+Thestratigraphicpositionsofmammallocalitiesthatoccurwithineachmeasured
+section were documented in the field (figs. 2 and 3). Some mammal localities occur
+lateral to the measured sections and these localities were placed into each section
+using measurements from marker beds. Here we recognize A-P zone localities at
+TorreonWestandTorreonEastforthefirsttime.Table1showseachselectedmammal
+locality (localities that contain multiple taxa and can be precisely placed into the
+section), the numeric code it has been given for this paper, the associated NALMA
+intervalzone,SanJuanBasinbiozone,andstratigraphicposition.
+Paleomagnetism
+Fourpaleomagneticblocksampleswerecollectedfrompaleosols,mudstone,and
+fine grained sandstone beds at (cid:2)1 m intervals (0.25 m minimum and 7 m maximum
+sample spacing) in each section, defining a study site. Lithologies coarser than fine
+grained sandstones were avoided. Site spacing was primarily dictated by stratigraphic
+exposureandlithology.Whensampling,aflatfacewasshavedontothesamplesinsitu
+using a hand rasp and its orientation was measured using a Brunton Pocket Transit
+Compass.Inthelaboratory,thesampleswerecutintoapproximately4cm3cubesusing
+adiamond-bitsaw.Eachsampleyieldedonecubicspecimen.
+At Kutz Canyon and Escavada Wash, the entire sections spanning from late To2
+throughTo3strataweresampled.Atotalof48sitesweresampledatKutzCanyonand
+50sitesatEscavadaWash.AtTorreonWestandEast,thepositionofreversalshadbeen
+reported by Taylor and Butler (1980) for the entire late To2-To3 succession. Conse-
+quently, full sections were not sampled but rather the deposits surrounding the
+approximatereversalpositionsweredenselysampledtobetterconstraineachreversal.
+Atotalof38sitesweresampledatTorreonWestand44sitesatTorreonEast.
+SpecimensweremeasuredatBaylorUniversityusinga2GEnterprises(Mountain
+View, California) cryogenic DC-SQuID magnetometer located in a 2-layer magneto-
+staticshieldedroomwithabackgroundfieldtypicallylessthan300nT.Allspecimens
+weredemagnetizedusingathermaldemagnetizationstrategy.Rockmagneticanalyses
+determined the magnetic carriers in the samples had relatively low unblocking
+temperatures (see below), therefore thermal demagnetization steps were performed
+in25°incrementsuptothemaximumunblockingtemperatureoruntilthemagnetiza-
+tions became erratic and unstable, ranging between 225° to 400 °C. To minimize
+oxidation reactions, thermal demagnetization was performed using a nitrogen atmo-
+sphere using ASC (Carlsbad, California) controlled atmosphere thermal demagne-
+tizer.
+
+### page_9
+80
+70
+16
+60
+50
+40
+30
+20
+10
+0
+m
+Principal-component analysis (PCA) was used to isolate the characteristic rema-
+nence for each demagnetized specimen (Kirschvink, 1980). A best-fit line was calcu-
+latedfromatleastthreedemagnetizationstepsthattrendedtowardtheoriginandhad
+U
+M
+M
+M
+-90 0 90 VGPlatitude
+=linefitwithMAD<20°
+=sitemean
+U C-
+B+
+A-
+3
+1,2
+ms vf f mcvc
+L
+Kutz Canyon Escavada Wash
+70 C-
+60
+18
+17
+15
+14
+13
+12
+50 10,11
+B+
+40
+30
+20
+4
+A- 10
+9
+6,7,8
+0
+m -90 0 90
+VGPlatitude 5
+=linefitwithMAD<20°
+=sitemean
+ms vf f mcvc
+M
+r62C
+n72C
+r72C
+308 C.Leslieandothers—High-resolutionmagnetostratigraphyoftheUpperNacimientoFormation,
+Base: 13S, 241518.6 m E, 4048605.3 m N
+Top: 13S, 242771.9 m E, 4049052.9 m N
+= detrital sanidine age
+Base: 13S, 264743.9 m E, 4006639.6 m N
+Top: 13S, 265545.7 m E, 4008764.9 m N
+Fig.2.Measuredsectionswithfossillocalities,VGPlatitude,andinterpretedpolarityzonationsforthe
+KutzCanyonandEscavadaWashsections.NotethepresenceoftheblackbedshighlightedandlabeledL
+(lower),M(middle)andU(upper).ThebaseoftheB(cid:3)magnetozoneisusedasthedatum.Fossillocalities
+1–4fromKutzCanyonand5–18fromEscavadaWasharedescribedintable1.SectionbaseandtopUTM
+coordinatesshown,NAD27datum.
+
+### page_10
+m
+amaximumangleofdeviation(MAD)(cid:4)20°(Appendix1).Datafromspecimensthat
+had erratic demagnetization behaviors were excluded from further analysis. A site
+mean direction was calculated for all sites with three specimens with statistically
+significantdirectionsusingFisherstatistics(Appendix2)(Fisher,1953).Ifsitemeans
+U
+M
+L
+42
+40,41
+38,39
+36,37
+33,34,35 32 29,30,31
+27,28
+26
+25
+24
+23
+22
+21
+20
+19
+m
+m s vf f m c vc
+U
+M
+L
+53,54,
+55,56
+51,52
+49,50
+46,47,
+48
+43,44,45
+m s vf f m c vc
+r62C
+n72C
+r72C
+SanJuanBasin,NewMexico,USA:Implicationsforbasinevolutionandmammalian 309
+Torreon West Torreon East
+C- 70
+C-
+70
+60
+60
+B+
+50
+50 B+
+40
+40
+30
+A-
+A-
+30 -90 0 90
+VGPlatitude
+-90 0 90 =linefitwithMAD<20°
+VGPlatitude =sitemean 20
+=linefitwithMAD<20° =sitemean
+20
+10
+10
+0
+0 Base: 13S, 294487.6 m E, 3985480.9 m N
+Top: 13S, 294885.9 m E, 3986124.9 m N
+Base: 13S, 285714.0 m E, 3988696.0 m N
+Top: 13S, 286383.0 m E, 3989637.9 m N
+Fig.3.Measuredsectionswithfossillocalities,VGPlatitude,andinterpretedpolarityzonationsforthe
+TorreonWestandTorreonEastsections.NotethepresenceoftheblackbedshighlightedandlabeledL
+(lower),M(middle)andU(upper).ThebaseoftheB(cid:3)magnetozoneisusedasthedatum.Fossillocalities
+19–42fromTorreonWestand43–56fromTorreonEastaredescribedintable1.SectionbaseandtopUTM
+coordinatesshown,NAD27datum.
+
+### page_11
+310 C.Leslieandothers—High-resolutionmagnetostratigraphyoftheUpperNacimientoFormation,
+hada95percentconfidencecircle((cid:5) )(cid:6)35°,whichexceedscut-offvaluesbasedon
+95
+the randomness criteria of Watson (1956), they were not used. Reversal boundaries
+wereplacedatthestratigraphicmidpointsbetweensamplesofopposingpolarity.The
+local polarity stratigraphy was then correlated to the geomagnetic polarity time scale
+(GPTS)(Ogg,2012).ThepolaritystratigraphyoftheTorreonWestandEastdeposits
+coarsely resolved by Taylor and Butler (1980) determined the base and top of each
+sectionwasreversed,thereforethedepositsbelowandabovethesamplingintervalsin
+thisstudywereinterpretedtobereversed.
+RockMagnetism
+RockmagneticanalyseswereperformedattheInstituteforRockMagnetismatthe
+University of Minnesota. To characterize the full suite of magnetic mineralogies
+presentwithinthestudyinterval,representativesampleswerechosenthatcapturedthe
+range of lithologies present. The lithologies were categorized into the following
+categories: black slickensided paleosols, red calcareous paleosols, brown to gray
+slickensidedpaleosols,drab-coloredslickensidedpaleosols,andsiltyweakly-developed
+paleosols.SaturationmagnetizationwasmeasuredonaMicroMagPrincetonMeasure-
+mentsCorporation(Princeton,NewJersey)vibratingsamplemagnetometer(VSM)on
+11specimensattemperaturesrangingfrom30°Cto600°C.
+A Quantum Design (San Diego, California) Magnetic Properties Measurement
+System (MPMS) was used for low-temperature remanence measurements on 18
+specimens. The protocol included field-cooled (FC) remanence, zero-field-cooled
+(ZFC) low-temperature saturation isothermal remanent magnetization (LTSIRM),
+and room temperature saturation isothermal remanent magnetization (RTSIRM).
+The method involves applying a sustained DC field of 2.5 T as a specimen is cooled
+from300Kto20K(FC)anditsmagneticremanenceismeasureduponwarmingback
+to room temperature (300 K). Subsequently the specimen is cooled to 20 K with no
+applied field (ZFC) and a 2.5 T LTSIRM is applied. The magnetic remanence is
+measuredwhilethespecimenwarmsbackto300K.A2.5TroomtemperatureSIRM
+(RTSIRM) is then applied at 300K and the magnetic remanence is measured upon
+coolingto20Kandwarmingbacktoroomtemperature.
+An additional goethite test was performed on four specimens to determine
+whether goethite was present. The method, similar to that of Guyodo and others
+(2006), involves heating a sample up to 400 K and then applying a thermal remnant
+magnetization(TRM)asthesamplecoolsfrom400to300K,magnetizinganygoethite
+throughitsNe´eltemperature.Theappliedfieldisthenturnedoffandtheremanence
+ismeasuredasthespecimeniscooledto20Kandwarmedbackupto300K,allowingthe
+specimenstocyclethroughthemagnetitestructuralphasetransitiontemperatureof(cid:2)120
+K (the Verwey transition, for example Dunlop and Ozdemir, 1997) resulting in loss of
+remanenceifanymagnetiteispresent.Thespecimenisthenheatedto400Kagaininzero
+field, demagnetizing goethite through its Ne´el ordering temperature. Remanence is
+measuredwhilethesamplecoolsto20Kandwarmsto300Ktodeterminewhich,ifany,
+magneticphasesremainafterthecontributionofgoethiteisremoved.
+A triaxial-IRM Lowrie test was performed at Baylor University on 11 samples to
+determinetheprimarymagneticcarrieronmixedmineralogysamples(Lowrie,1990).
+11cubicspecimenswereimpartedwitha1T,300mT,and100mTfieldalongtheX,Y,
+and Z axes respectively with an ASC pulse magnetizer. Samples were thermally
+demagnetized in 50 °C increments from 100 to 650 °C in an ASC controlled atmo-
+sphere thermal demagnetizer. Samples were measured using the 2G cryogenic DC-
+SQuIDmagnetometer.
+
+### page_12
+SanJuanBasin,NewMexico,USA:Implicationsforbasinevolutionandmammalian 311
+DetritalSanidineDating
+Onesample,H16-SJ-11,wascollectedfromasandstonebodyat64minEscavada
+Wash (fig. 2). Processing and mineral separation was done at the New Mexico
+Geochronology Research Laboratory (NMGRL). Sample separation included: crush-
+ing&grindingtherocksample,cleaningwithH Oand5percentHFacid,andsieving
+2
+grainsizebetween40and80mesh.Magneticandheavyliquiddensityseparationwas
+used to concentrate the K-feldspar grains. Sanidine was hand-picked from the bulk
+K-feldsparseparatebasedonopticalpropertiesindicativeofsanidineasviewedwhile
+immersedinwintergreenoilunderapolarizingbinocularmicroscope.Approximately
+100grainswereselectedandthenwashedinacetonetoremovethewintergreenoil.
+ThecrystalswereirradiatedattheTRIGAreactorinDenver,Colorado,for8hours
+intheNM-291packagealongwithFishCanyonSanidineinterlaboratorystandardFC-2
+withanassignedageof28.201Ma(Kuiperandothers,2008).Agesarecalculatedwith
+atotal40Kdecayconstantof5.463e-10/a(Appendix3)(Minandothers,2000).
+Afterirradiation,sixcrystalsofFC-2fromeachof8monitorholesfroma24-hole
+irradiationtray,alongwith89samplecrystalswereloadedintoacoppertray,evacuated
+andbakedat140°Cfor2hours.SamplecrystalswerefusedwithaCO laserandthe
+2
+extractedgaswascleanedwithaNP10getteroperatedat1.6Afor30seconds.Thegas
+wasanalyzedforargonisotopesusinganARGUSVImulticollectormassspectrometer
+equipped with five Faraday cups, and one ion counting multiplier (CDD). The
+configuration had 40Ar, 39Ar, 38Ar, 37Ar and 36Ar on the H1, AX, L1, L2, and CDD
+detectors, respectively. H1, AX and L2 utilized Faraday detectors equipped with
+1(cid:7)1013OhmresistorswhereasL1hadaFaradaywitha1(cid:7)1014Ohmresistor.TheCDD
+is an ion counting detector with a dead time of 14 nS. All data acquisition was
+accomplishedwithNMTechPychronsoftwareanddatareductionusedMassSpec(v.
+7.875)writtenbyAlDeinoattheBerkeleyGeochronologyLaboratory.Extractionline
+blankplusmassspectrometerbackgroundvaluesareaveragesofnumerousmeasure-
+mentsinterspersedwiththeunknownmeasurements.Thesevaluesare3(cid:8)12percent,
+0.16(cid:8)12 percent, 0.05(cid:8)11 percent, 0.3(cid:8)4 percent, 0.03(cid:8)2.5 percent, (cid:7)10 (cid:9)17 moles
+frommasses40,39,38,37,and36,respectively.
+Theminimumagepopulationisdefinedbychoosingtheyoungestdatesthatform
+a near Gaussian distribution as defined by the MSWD value of the distribution. The
+minimum age is the inverse variance weighted mean of the selected crystals and the
+error is the square root of the sum of 1/(cid:10) 2 values. The error is also multiplied by
+thesquarerootoftheMSWDforMSWDgreaterthan1.J-error(0.03%)isincludedfor
+theweightedmeanageerrorandallerrorsarereportedat1(cid:10).
+results
+Magnetostratigraphy
+One hundred and forty-four samples were analyzed from 48 sampling horizons
+fromKutzCanyon,150samplesfrom50samplinghorizonsfromEscavadaWash,114
+samples from 38 sampling horizons from Torreon West, and 132 samples from 44
+sampling horizons from Torreon East. The demagnetization trajectory of most speci-
+menstrendedtowardstheoriginafterafewstepsandwerefullydemagnetizedby200°
+to 400 °C (figs. 4A, 4B, and 4C). All specimens with coherent demagnetization
+trajectories and stable endpoints were characterized by line fits. In total, reliable
+paleomagnetic directions were obtained for 353 specimens from 160 sampling hori-
+zons(fig.5A;Appendix1):96specimens(27%oftotalspecimens)from46sampling
+horizons from Kutz Canyon, 114 specimens (32% of total specimens) from 47
+samplinghorizonsfromEscavadaWash,53specimens(15%oftotalspecimens)from
+31samplinghorizonsfromTorreonWest,and90specimens(25%oftotalspecimens)
+from36samplinghorizonsfromTorreonEast.
+
+### page_13
+312 C.Leslieandothers—High-resolutionmagnetostratigraphyoftheUpperNacimientoFormation,
+A B
+C27r West NRM C27n
+125 1 2 5 5 0 0 275 West P16EM13A 40 3 0 25 275 200 175 150 125 100 North,up P16EM33C
+300 N N
+NRM 375 400 3 3 0 2 0 5
+325 350 2 2 7 5 5 0 400
+400 2 2 2 0 5 0 350 NRM 225
+W E W E
+175
+NRM 275 400 150
+NRM 175 125
+175 250 N 325 12 1 5 00
+350 S S
+125 150 275 400 NRM
+C D
+C26r
+150 125 West C15KC48A West NRM C15ET01D
+225
+NRM
+275 250 N N
+225
+275 100 250
+325 325 NRM 300
+NRM
+375 400 W 400 E 300 325 W E
+3 3 5 7 0 5 375 100
+North, 1 u 5 p 0 2 1 2 2 2 5 7 5 5 30 2 0 50 350 400 3 S 25 275 32 2 5 00 1 1 2 5 5 2 0 0 5 175 100 North,up S
+175
+300
+100 NRM 125
+100
+Expecteddirection Antipodeofexpecteddirection Temperaturestepnotused Presentdipolefield
+Fig.4.Representativeorthogonalendvectordemagnetizationdiagramsandequal-areaplotsforeach
+subset of data. (A) Demagnetization trajectory of a reversed polarity sample from C27r that allowed
+line-fittingtodetermineacharacteristicdirection(21%ofdata).(B)Demagnetizationtrajectoryofanormal
+polaritysamplefromC27nwherealinewascalculated(27%ofdata).(C)Demagnetizationtrajectoryofa
+reversedpolaritysamplefromC26rwherealinewascalculated(17%ofdata).(D)Representativesampleof
+erraticdatathatwasnotusedforinterpretations(35%ofdata).
+Ofthesesamplinghorizons,sixty-six(41%oftotalsamplinghorizons)hadatleast
+three samples with statistically significant directions that could be used to calculate
+site-meandirectionswith(cid:5) s(cid:4)35°:15fromKutzCanyon,26fromEscavadaWash,8
+95
+fromTorreonWest,and17fromTorreonEast(fig.5B;Appendix2).Theremaining
+187samples(35%ofthedata)haderraticdemagnetizationtrajectoriesandcoherent
+directionscouldnotbeobtained(fig.4D).
+Thesite-meandirectionswereaveragedbysectionaccordingtotheirpolarity(fig.
+5C), and also averaged at the formation-level, yielding normal (chron 27n) and
+reversed (chrons 26r and 27r) Upper Nacimiento Formation-mean directions (fig.
+5D), and were used to calculate mean VGP latitude and longitude (table 2). The
+average Upper Nacimiento Formation direction for all the normal site-mean direc-
+tions is oriented 352.8°, 56.1° ((cid:5) (cid:11) 4.9°, n(cid:11) 28), whereas that of all the reversed
+95
+polaritysite-meandirectionsisoriented164.4°,(cid:9)55°((cid:5) (cid:11)5°,n(cid:11)38).Thereversal
+95
+test of McFadden and McElhinny (1990) returned a positive, class A test, indicating
+thatthesedirectionsshareacommonmeanatthe95percentconfidencelevel.These
+directions plot close to the expected Paleocene (62.5 Ma) direction of 341.8°, 60.1°
+recalculated from Torsvik and others (2008) and our mean sampling location. In
+addition,thesedirectionsalsoagreewiththemeancharacteristicremanentdirection
+
+### page_14
+SanJuanBasin,NewMexico,USA:Implicationsforbasinevolutionandmammalian 313
+N N
+W E
+A B
+EW
+KC
+TW
+TE
+W E
+TW
+TE
+KC
+EW
+C D
+S S
+Lower hemisphere Lower hemisphere expected direction
+Upper hemisphere Antipode to expected direction
+Present dipole field Kodama (1997) Nacimiento mean direction
+Fig.5.(A)Equal-areaplotofallcharacteristicmagnetizationdirectionsobtainedfromthisstudy.(B)
+Equal-areaplotofnormalandreversedsite-meandirectionsfromallsections.(C)Equal-areaplotofnormal
+andreversedsite-meandirectionsaveragedbysection,andplottedalongsidethepresent-dayfieldposition,
+theearlyPaleocenedirectionrecalculatedfromTorsvikandothers(2008)(seetextfordetails),andthe
+antipode to the early Paleocene direction. The ellipse around the mean direction represents the 95%
+confidence cone (Fisher, 1953). TW: Torreon West, TE: Torreon East, KC: Kutz Canyon, EW: Escavada
+Wash.(D)UpperNacimientoFormationnormalandreversedformation-meandirectionsplottedalongside
+thepresent-dayfieldposition,theearlyPaleocenedirectionrecalculatedfromTorsvikandothers(2008),
+theantipodetotheearlyPaleocenedirection,andthemeanNacimientoFormationdirectionreportedby
+Kodama(1997).Theellipsearoundthemeandirectionrepresentsthe95%confidencecone(Fisher,1953).
+of 342.1°, 49.6° ((cid:5) (cid:11) 7.1°, n (cid:11) 20) for the Nacimiento Formation reported by
+95
+Kodama(1997)afterreversingallsite-meandirectionstonormalpolarity.
+The mean VGP latitude and longitude calculated from all reversed (C26r and
+C27r)polaritysitesis77.2°N,171.0°E(n(cid:11)38;A (cid:11)6.2),andthatcalculatedfromthe
+95
+normal polarity sites (C27n) is 84.1°N, 184.3°E (n (cid:11) 28; A (cid:11) 6.1), and can be
+95
+compared to the expected paleopole of 74.9°N, 7.6°E recalculated from Torsvik and
+others(2008).
+
+### page_15
+314 C.Leslieandothers—High-resolutionmagnetostratigraphyoftheUpperNacimientoFormation,
+TABLE2
+Mean Paleomagnetic Directional Data From the Upper Nacaimiento Formation
+Subset n D (°) I (°) k a95 (°) Pole (°N) Pole (°E) K A95 (°)
+Kutz Canyon normal sites 9 359.3 55.2 57.0 5.3 89.6 203.6 47.3 7.6
+Kutz Canyon reversed sites 6 169.5 -53.7 12.3 19.9 79.5 174.8 9.3 23.1
+Escavada Wash normal 13 349.7 54.6 20.1 9.5 81.9 174.4 12.2 12.4
+sites
+Escavada Wash reversed 13 164.3 -55.3 30.4 7.6 77.6 168.3 18.6 9.9
+sites
+Torreon West normal sites 5 351.2 58.8 116.3 7.1 82.1 195.1 83.0 8.4
+Torreon West reversed 3 168.4 -54.2 38.1 20.3 81.5 162.0 28.6 23.5
+sites
+Torreon East normal site 1 337.3 66.5 -- 9.3 -- -- -- --
+Torreon East reversed sites 16 161.6 -55.4 19.2 8.6 75.1 172.8 12.5 10.9
+C27r-sites 16 166.7 -53.2 24.8 7.6 79.0 161.5 19.3 8.6
+C27n -sites 28 352.8 56.1 32.5 4.9 84.1 184.3 20.8 6.1
+C26r -sites 22 162.5 -56.3 20.4 7.0 75.6 178.5 12.6 9.1
+C26r + C27r -sites 38 164.4 -55.0 22.3 5.0 77.2 171.0 14.9 6.2
+Note:n–numberofsite-meandirectionsusedtocalculatethesectionandformationaverages(seetextfor
+details);D–declination;I–inclination;k–Fisher’s(1953)precisionparameter;a95–radiusof95%confidencecone
+aroundmean(Fisher,1953);poleNandE–meanofvirtualgeomagneticpolescalculatedfromeachlineorsitemean;
+KandA95–Fisherstatisticsofpaleomagneticpole.
+Figures 2 and 3 show the local polarity stratigraphy for each section including
+each specimen and site mean polarity and VGP latitude. At Kutz Canyon, the lower
+reversal is constrained within a 1 m interval while the upper reversal is constrained
+withina4.5minterval.Lowerresolutiononthelatterisduetothepresenceofcoarse
+grainedsandstoneatthetopofthesectionthatwasnotsampled(fig.2;table3).The
+presence of coarse grained sandstones and friable paleosols near the reversals at
+EscavadaWashresultedinpoorerresolution.Thelowerreversalisconstrainedwithin
+an 8 m interval and the upper reversal is constrained within a 6.5 m interval (fig. 2;
+table3).AtTorreonWest,thelowerandupperreversalsoccurwithin1.2mand0.4m
+intervals, respectively (fig. 3; table 3). We assumed that the underlying deposits were
+reversed, based on the results of Taylor and Butler (1980). The lower and upper
+reversals at Torreon East are constrained within 0.5 m and 1 m intervals, and the
+underlyingdepositswereassumedtobereversed(fig.3;table3).
+RockMagnetism
+RockmagneticanalysesshowthattheupperNacimientoFormationhasamixed
+magneticmineralogy.Lowtemperaturemagnetometryforarepresentativesampleofa
+black slickensided paleosol shows a two-fold increase on cooling of the RTSIRM and
+the magnetite Verwey transition ((cid:2)120 K), indicating that goethite and magnetite
+coexistinthesamespecimen(forexample,figs.6Aand6B).
+Hightemperaturesusceptibilitycurvesforrepresentativeredcalcareouspaleosol
+specimensdecreaseduntil(cid:2)125°Candsubsequentlydroppedat(cid:2)550°C,suggesting
+the presence of goethite and titanomagnetite (figs. 6C and 6I). Low temperature
+magnetic measurements for these specimens also reveal a hematite Morin transition
+((cid:2)260 K) and a diffuse Verwey transition between (cid:2)130 to 90 K, indicating the
+presenceofmagnetiteindifferentoxidationstates(maghemite).
+Lowtemperaturemagnetometrymeasurementsfromabrown,weakly-developed
+paleosol specimen reveal a magnetite Verwey transition and a (cid:2)two-fold increase of
+
+### page_16
+3ELBAT
+yradnuoB
+enoZ
+ytiraloP
+fo
+noitisoP
+cihpargitartS
+ytniatrecnU
+norhC
+cihpargitartS
+cihpargitartS
+tsomreppU
+tsomrewoL
+noitacoL
+norhC
+enoz
+ytiralop
+lacoL
+)m(
+ssenkciht
+fo
+noitisop
+fo
+noitisop
+ni
+elpmas
+ni
+elpmas
+)m(
+)m(
+pot
+)m(
+esab
+norhc
+norhc
+5.0
+±
+0.92
+0.92
+0.0
+A31CK
+A54CK
+noynaC
+ztuK
+0.4
+±
+0.83
+0.83
+0.0
+C02ME
+A10ME
+hsaW
+adavacsE
+r72C
+-A
+6.0
+±
+7.63
+7.63
+0.0
+A41WT
+A10WT
+tseW
+noerroT
+52.0
+±
+8.13
+8.13
+0.0
+D11TE
+A20TE
+tsaE
+noerroT
+57.2
+±
+5.53
+5.46
+0.92
+D93CK
+A51CK
+noynaC
+ztuK
+52.7
+±
+3.43
+3.27
+0.83
+C24ME
+A12ME
+hsaW
+adavacsE
+n72C
++B
+8.0
+±
+5.53
+2.27
+7.63
+D32WT
+B51WT
+tseW
+noerroT
+57.0
+±
+0.62
+5.75
+8.13
+C04TE
+A21TE
+tsaE
+noerroT
+52.2
+±
+5.4
+0.96
+5.46
+D44CK
+A14CK
+noynaC
+ztuK
+52.3
+±
+3.5
+6.77
+3.27
+C05ME
+B54ME
+hsaW
+adavacsE
+r62C
+-C
+2.0
+±
+2.6
+4.87
+2.27
+C83WT
+A42WT
+tseW
+noerroT
+5.0
+±
+5.61
+0.47
+5.75
+C53TE
+C81TE
+tsaE
+noerroT
+.ytiralopgnisoppofoselpmasneewtebsretemforebmunehtsiytniatrecnU:etoN
+SanJuanBasin,NewMexico,USA:Implicationsforbasinevolutionandmammalian 315
+
+### page_17
+FC,remanence
+ZFC,remanence
+0.2
+RTremanenceoncooling
+RTremanenceonwarming
+50 100 150 200 250 300
+T[K]
+)gk/2mA4-01x(M
+10.0
+9.0
+7.5
+7.0
+6.5 6.0 5.5
+5.0
+)gk/2mA2-01x(M 1.0
+FC,remanence
+ZFC,remanence 0.3
+0.2
+50 100 150 200 250 300
+T[K]
+)gk/2mA2-01x(sM
+C15TW06A
+black
+RTremanenceoncooling
+RTremanenceonwarming
+50 100 150 200 250 300
+2.0
+0.4
+0.2
+1.3
+100 200 300 400 500 600 700
+T[°C]
+)gk/2mA4-01x(M 4.0 1.6 1.4
+1.2 1.0
+2.8
+2.6 0.8
+2.4 0.6
+2.2
+2.0 0.4
+1.8
+)gk/2mA4-01x(M
+)gk/2mA3-01x(M
+F
+4.0
+C15ET11 3.5 3.5 brown
+3.0
+FC,remanence
+3.0 2.5 ZFC,remanence
+2.5 RTremanenceoncooling 2.0
+1.5
+2.0 RTremanenceonwarming 1.0
+50 100 150 200 250 300 50 100 150 200 250 300 350 400
+T[K]
+)gk/2mA4-01x(M
+T[K] T[K]
+E 4.5
+4.0
+C15ET11 brown
+T[K]
+)gk/2mA2-01x(sM
+10 1.42
+9 1.40 8 1.38 7 1.36
+6 1.34
+5 1.32
+4 1.30
+3 1.28 2 1.26
+1 1.24
+0 1.22
+100 200 300 400 500 600 700 300
+T[°C] T[K]
+)gk/2mA2-01x(M
+C
+C15TW23 red D
+C15TW23
+red
+RTremanenceoncooling
+RTremanenceonwarming
+50 100 150 200 250
+1.3 9.5 1.2
+1.1 8.5
+8.0 0 0 . . 8 9
+0.7
+0.6
+0.5 0.4
+4.5 0.1
+250 300
+T[K]
+)gk/2mA3-01x(M
+316 C.Leslieandothers—High-resolutionmagnetostratigraphyoftheUpperNacimientoFormation,
+A B 3.8 C15TW06A 3.6
+3.4 black 3.2 3.0
+50 100 150 200 250 300
+G H
+C15KC35 C15KC35
+tan tan
+I 2.2 J
+1.4 2.1 1.2 C15KC12 C15KC31
+1.0 red 1.9 tan,silty
+0.8 1.8
+0.6 1.7
+1.6
+1.5 RTremanenceoncooling
+1.4 RTremanenceonwarming
+0
+50 100 150 200
+Fig.6.Rockmagneticanalysisresultsincludinglowtemperaturemagnetizationcurveofrepresentative
+samplesandhightemperatureVSM(vibratingsamplemagnetometer)curvesofsaturationmagnetization.Room
+temperature (RT) plots show magnetization measurements upon cooling and warming between 20K and
+roomtemperature(300K)followingtheapplicationofsaturationisothermalremanentmagnetization(SIRM)at
+roomtemperature.FC(field-cooled)andZFC(zerofield-cooled)plotsshowmagnetizationduringwarming
+followingasustaineddirectcurrentfieldof2.5Tduringcooling(FC),andmagnetizationduringwarming
+followingaSIRMimpartedatlowtemperature(ZFC).(A)RTcurvesforablack,slickensidedpaleosolsample
+indicating goethite and magnetite. (B) FC/ZFC curves for a black, slickensided paleosol sample indicating
+goethite.(C)HightemperatureVSMcurveforared,calcareouspaleosolsampleindicatinggoethite,titanomag-
+netite,andhematite.(D)RTcurvesforared,calcareouspaleosolsampleindicatingmaghemite.(E)RTcurves
+forabrownpaleosolsampleindicatingmagnetiteandgoethite.(F)FC/ZFCcurvesfromthegoethitetestfora
+brown paleosol sample indicating goethite and titanohematite. (G) RT curves for a tan paleosol sample
+indicating magnetite and goethite. (H) FC/ZFC curves for a tan paleosol sample indicating Al-substituted
+goethite.(I)HightemperatureVSMcurvesforared,calcareouspaleosolindicatinggoethite,titanomagnetite,
+magnetite,andhematite.(J)RTcurvesforatan,siltyweakly-developedpaleosolsampleindicatingtitanomagne-
+titeandmagnetite(seetextfordetails).
+
+### page_18
+magnetic remanence upon cooling, indicating the presence of goethite (fig. 6E). A
+goethitetestperformedonthesamespecimen(fig.6F)showsthatremanenceislost
+when warming to 400 K as goethite is demagnetized through its Ne´el ordering
+temperature. However, some magnetic remanence persists upon subsequent cooling
+to20Kindicatingthepresenceofahighcoercivityphasethatisnotdemagnetizedat
+lowtemperature,norupto400K,likelyindicatingthepresenceoftitanohematite.
+RTSIRM curves for a representative specimen of a tan paleosol suggests both
+magnetiteandgoethitefromthepresenceoftheVerweytransitionandanincreaseof
+remanenceuponcooling(fig.6G).FC-ZFC-LTSIRMcurvesconvergeat190K,which
+indicates Al-substituted or nano-goethite (fig. 6H). RTSIRM curves for a tan, silty
+weakly-paleosol sample have a separation at 90 K indicating maghemite and a slight
+Morintransitionindicatinghematite(fig.6J).
+Triaxial-IRMLowrietestswereperformedtodeterminetherelativeabundanceof
+magneticcarriersineachsample.ForallsamplesanalyzedthemajorityoftheIRMis
+heldbygrainswhosecoercivitiesaregreaterthan1T(fig.7).Thelargestremanence
+dropoccursbetween100to150°Csuggestinggoethiteisthemostabundantmineral-
+ogyinthesamples.Somesamplesalsoshowadecreaseinremanencebetween150to
+200 °C suggesting titanohematite may also be present. Remanence remaining after
+200°CislikelyheldbypigmentaryhematiteforsamplesTW23andKC12,supportedby
+)1-gk2mA4-01x(noitazitengaM 6 TW06A-black
+5 Total
+4 X=1T
+3 Y=300mT
+Z=100mT
+2
+1
+0
+100 200 300 400 500 600
+Temperature(°C)
+)1-gk2mA4-01x(noitazitengaM 1.6 ET11-brown
+1.4
+Total
+1.2
+X=1T
+1.0
+Y=300mT 0.8
+Z=100mT
+0.6
+0.2
+0
+100 200 300 400 500 600
+Temperature(°C)
+)1-gk2mA3-01x(noitazitengaM TW23-red
+Total
+6 X=1T
+5 Y=300mT
+4 Z=100mT
+3
+2
+1
+0
+100 200 300 400 500 600
+Temperature(°C)
+)1-gk2mA3-01x(noitazitengaM 9 2.0 KC12-red
+8
+7 1.5 Total
+X=1T
+1.0 Y=300mT
+Z=100mT
+0.5
+0
+100 200 300 400 500 600
+Temperature(°C)
+)1-gk2mA3-01x(noitazitengaM 2.5 KC31-tan,silty
+2 Total
+X=1T
+1.5
+Y=300mT
+1 Z=100mT
+0.5
+0 100 200 300 400 500 600
+Temperature(°C)
+)1-gk2mA3-01x(noitazitengaM
+SanJuanBasin,NewMexico,USA:Implicationsforbasinevolutionandmammalian 317
+A B
+0.4
+C D
+1.2 KC35-tan E F
+1.0
+Total
+0.8
+X=1T
+0.6 Y=300mT
+0.4 Z=100mT
+0.2
+0 100 200 300 400 500 600
+Temperature(°C)
+Fig.7.Thermaldemagnetizationoforthogonalisothermalremanentmagnetization(IRM)imparted
+alongX,Y,andZaxesforsixspecimensfollowingLowrie(1990)indicatingamixedmagneticmineralogy
+withgoethiteasthedominantcarrier.
+
+### page_19
+318 C.Leslieandothers—High-resolutionmagnetostratigraphyoftheUpperNacimientoFormation,
+thelossofremanencebetween600to650°C,redcoloring,andthelowtemperature
+rock magnetometry experiments. In all other samples, the remaining remanence is
+likelymaghemitethatinvertedtohematiteuponheatingabove(cid:2)450°C.Allsamples,
+except TW06A, also show remanence held by the 300 mT curve up to (cid:2)300 °C,
+indicatingthepresenceofmagnetite/maghemite.
+DetritalSanidineDating
+The age probability plot for sample HJ16-SJ-11 from Escavada Wash is shown in
+figure8.ThesampleisdominatedbyPaleocenegrainswhere66ofthe86crystalsgivea
+weightedmeanageof62.48(cid:8)0.02Ma.Oldergrainsconcentratearound68and70Ma
+with8crystalsgivingapparentages(cid:6)200Ma.Thedominanceofahighproportionof
+grainsnear62.5Masuggeststhatthissamplemaybeaminimallyreworkedtephralayer
+suchthatthemaximumdepositionagecloselyapproximatestheactualdepositionage.
+discussion
+MagneticMineralogy
+TheupperNacimientoFormationhasamixedmagneticmineralogywithtitanohe-
+matiteandmaghemiteasthecharacteristicremanentmagnetizationcarriers.Goethite
+isalsopresentinalllithologiesanddominatesthelow-temperaturemagneticmeasure-
+ments, however it does not contribute to the characteristic remanence direction.
+Titanohematiteislikelypresentinmostsamples,supportedbythedropinremanence
+between 150 to 200 °C in the orthogonal IRM measurements and low temperature
+magnetometry measurements. Figure 6F shows that during the goethite test, there is
+an increase in remanence from room temperature to low temperatures after the
+goethite is removed. The phase must be high coercivity because it persists after the
+goethite test and the 1T orthogonal demagnetizations (fig. 7) and must have an
+ordering temperature above 400 K since it survives heating to that point (fig. 6F).
+Thesecharacteristicscollectivelyindicatetitanohematiteasacharacteristicremanent
+magnetization carrier, in agreement with the observations of Butler and Lindsay
+(1985). However, although titanohematite along with maghemite constitute the
+primary magnetic mineralogy, titanohematite does not appear to be the most abun-
+dantremanencecarrierassuggestedbyButlerandLindsay(1985).Itispossiblethat
+given the broad sample spacing in Butler and Lindsay (1985), our samples do not
+overlap. Nonetheless, the presence of detrital titanohematite in the sections does
+support their conclusion that sediments were derived from the volcanic San Juan
+Mountainstothenorth.Goethiteisthemostabundantmagneticmineralandlikelyan
+alteration product, whereas the titanohematite is likely detrital. Agreement of the
+characteristicremanentdirectionsobtainedinthisstudytothosereportedbyKodama
+(1997) for the Nacimiento Formation confirm the primary nature of the magnetiza-
+tions residing in maghemite and titanohematite. Kodama (1997) performed an
+inclination-correctionstudyoftheformation,andreporteda7to8°inclinationbias,
+however,itshouldbenotedthatanyinclinationshallowingwouldnotaffectareversal
+stratigraphy.
+RelationshipofPolarityStratigraphytoGPTS
+Taylor and Butler (1980) reconstructed the magnetic polarity stratigraphy at
+TorreonWest,TorreonEast,andKutzCanyonandcorrelatedthestratatoC26r-C25r
+based on previous work by Lindsay and others (1978) and Taylor (ms, 1977). Butler
+and Lindsay (1985) revised the correlation of the polarity zones to the GPTS to
+correlate the late To2-To3 deposits at Torreon Wash and Kutz Canyon with C27r
+through C26r. We use the Butler and Lindsay (1985) interpretations for the base of
+theNacimientoFormationandcorrelatetheA(cid:9),B(cid:3),andC(cid:9)magnetozonesfromthe
+
+### page_20
+H16-SJ-11 detrital sanidine
+omitted
+Age (Ma)
+sections in our study to C27r-C26r (figs. 2 and 3). The polarity stratigraphy of the
+To2-To3strataofEscavadaWashhasnotbeenpreviouslypublished.Thissectionalso
+contains A(cid:9), B(cid:3), and C(cid:9) magnetozones. A detrital sanidine age of 62.48(cid:8)0.02 Ma
+from 64 meters in the section, within the B(cid:3) magnetozone, indicates correlation to
+C27n(Ogg,2012).ThuswecancorrelatetheunderlyingA(cid:9)intervaltoC27randthe
+overlyingC(cid:3)intervaltoC26r.
+aC/K
+ytilibaborp
+evitaleR
+*rA04%
+SanJuanBasin,NewMexico,USA:Implicationsforbasinevolutionandmammalian 319
+105
+100
+95
+90
+100
+10 80
+40 N
+0
+Age = 62.48 ± 0.02 Ma
+MSWD = 9.8
+n = 66 of 86
+60 64 68 72 76 80
+Fig.8.Ageprobabilitydiagramfortheanalyzedsample,H16-SJ-11.Theplotshows,frombottomtotop,
+theageprobabilitydistributionspectrumforthedatashownwithsolidsquares,distributionofindividual
+single-crystalageswith1(cid:10)errors,K:Caratios,andpercentageofradiogenic40Ar*.
+
+### page_21
+320 C.Leslieandothers—High-resolutionmagnetostratigraphyoftheUpperNacimientoFormation,
+SedimentAccumulationRatesandSectionDurations
+Given that the entire C27n polarity zone (local polarity B(cid:3)) occurs in each
+section and the temporal duration of the corresponding polarity chron has been
+estimated (Ogg, 2012), we were able to calculate mean sediment accumulation
+ratesforeachsectionshownintable4.Uncertaintyassociatedwiththedurationof
+C27n(Ogg,2012)wastakenfromCandeandKent(1992),wheretheuncertaintyin
+the time scale was assumed to be the same as the uncertainty in the width of the
+magnetic anomaly for C27n, which was (cid:8)6.9 percent. Uncertainties for the
+calculated sediment accumulation rates are asymmetrical because different stratal
+thicknessesanddurationsforC27nwereused.Themaximumsedimentaccumula-
+tion rate was calculated by dividing the maximum thickness of C27n strata by the
+minimum duration of C27n. The minimum sediment accumulation rate was
+calculated by dividing the minimum thickness of C27n strata by the maximum
+duration of C27n. Kutz Canyon, Torreon West, and Escavada Wash have similar
+mean sediment accumulation rates ranging from 115.7 to 119.9 m/myr and the
+ratesareindistinguishablewhenfactoringintheiruncertainties.TorreonEasthas
+a lower sediment accumulation rate of 87.0 m/myr ((cid:9)8.0, (cid:3)9.0 m/myr). Large
+channelbodieswithintheC27nintervalofthissectionsuggestthaterosionintothe
+landscapeoccurred,reducingtheoverallpreservedsedimentthicknessandresult-
+ing in a lower calculated accumulation rate. As a result, application of the
+calculated mean sediment accumulation rate to the remainder of the section may
+overestimatetheamountoftimethesectionspansiflesserosionormoresediment
+accumulation occurred over the C27r and C26r intervals. The similarity of sedi-
+ment accumulation rates at Kutz Canyon, Escavada Wash, and Torreon West
+suggests that sedimentation was similar across the basin as sampled sections are
+located both near the basin center (Kutz Canyon) and southern edges (Torreon
+West and Escavada Wash). This similarity is important because the Nacimiento
+Formation thins from north to south in the basin. The work of Taylor (ms, 1977)
+indicatesthattheentireC27rthroughC27nsectionisnearlytwiceasthickinKutz
+Canyon(150m)asinTorreonWest(58m).Consequently,sedimentaccumulation
+ratesatKutzCanyonforthelowerpartoftheNacimientoFormation(thatis,early
+inC27r)musthavebeenmuchgreaterthaninTorreonWash,butequalizehigher
+in the section (Taylor, ms, 1977). This interpretation is supported by sediment
+accumulationratescalculatedforC27rinKutzCanyonbasedonthemagnetostratig-
+raphy of Taylor (ms, 1977), which suggest mean rates of (cid:2)120 to 150 m/myr
+compared to preliminary mean accumulation rates for C27r-C28n from Kutz
+Canyonof(cid:2)180m/myr(Peppe,unpublisheddata).
+The duration of each section and the ages of all of the mammal fossil localities
+within each section was determined by extrapolating each section’s C27n calculated
+sedimentaccumulationratetothetopandthebottomofeachsection(fig.9;tables1
+and 4). Uncertainties for the duration of each section are also asymmetrical because
+themaximumandminimumsedimentaccumulationrateswereusedtocalculatethe
+uncertainties.KutzCanyonisestimatedtospantheleastamountoftime,580kyr((cid:9)90,
+(cid:3)100 kyr), from 62.76 to 62.18 Ma. Escavada Wash spans 750 kyr ((cid:9)190, (cid:3)280 kyr)
+from 62.85 to 62.10 Ma. Torreon West spans 650 kyr ((cid:9)80, (cid:3)80 kyr) from 62.82 to
+62.17Ma.TorreonEastiscalculatedtospan870kyr((cid:9)100,(cid:3)100kyr)from62.88to
+62.01 Ma, but as noted above, the presence of large channel bodies within the C27n
+intervalsuggeststhaterosionoccurredandthecalculatedsedimentaccumulationrate
+may be an underestimation for the remainder of the section, which results in an
+overestimateofthedurationofdepositionintheTorreonEastsection.
+
+### page_22
+4ELBAT
+senoZ
+ytiraloP
+fo
+snoitaruD
+dna
+setaR
+noitalumuccA
+tnemideS
+detaluclaC
+tsaE
+noerroT
+tseW
+noerroT
+hsaW
+adavacsE
+noynaC
+ztuK
+20.0
+±
+692.0
+20.0
+±
+692.0
+20.0
+±
+692.0
+20.0
+±
+692.0
+)rym(
+*noitarud
+n72C
+)0.9+
+,0.8-(
+0.78
+)6.11+
+,1.01-(
+9.911
+)7.43+
+,3.03-(
+7.511
+)7.81+
+,3.61-(
+9.911
+tnemides
+detaluclaC
+)rym/m(
+etar
+noitalumucca
+)40.0+
+,40.0-(
+63.0
+)40.0+
+,30.0-(
+03.0
+)61.0+
+,01.0-(
+33.0
+)40.0+
+,30.0-(
+42.0
+atarts
+r72C
+fo
+noitarud
+detaluclaC
+)rym(
+)30.0+
+,20.0-(
+12.0
+)10.0+
+,10.0-(
+50.0
+)80.0+
+,50.0-(
+21.0
+)20.0+
+,20.0-(
+40.0
+atarts
+r62C
+fo
+noitarud
+detaluclaC
+)rym(
+)60.0+
+,60.0-(
+88.26
+)60.0+
+,50.0-(
+28.26
+)81.0+
+,21.0-(
+58.26
+)60.0+
+,50.0-(
+67.26
+esab
+noitces
+fo
+ega
+detaluclaC
+)aM(
+)40.0+
+,50.0-(
+10.26
+)20.0+
+,30.0-(
+71.26
+)70.0+
+,01.0-(
+01.26
+)40.0+
+,40.0-(
+81.26
+pot
+noitces
+fo
+ega
+detaluclaC
+)aM(
+)01.+
+,01.-(
+78.0
+)80.0+
+,80.0-(
+56.0
+)82.0+
+,91.0-(
+57.0
+)01.0+
+,90.0-(
+85.0
+noitarud
+noitces
+latot
+detaluclaC
+)rym(
+ehtniytniatrecnusaemasehtebotdemussasawelacsemitehtniytniatrecnuehterehw,)2991(tneKdnaednaCmorfnekatsawytniatrecnu,)2102(ggOmorfnoitarudn72C* erasnoitarudnoitcesdna,seganoitces,snoitarudatarts,setarnoitalumuccatnemidesehthtiwdetaicossaseitniatrecnU.%9.6(cid:8)sawhcihw,n72Crofylamonacitengamehtfohtdiw tnemidesmumixamehT.desuerewn72CrofsnoitaruddnasessenkcihtlatartstnereffidesuaceblacirtemmysaeraseitniatrecnunoitalumuccatnemideS.sesehtnerapninwohs ybdetaluclacsawetarnoitalumuccatnemidesmuminimehT.n72Cfonoitarudmuminimehtybatartsn72Cfossenkcihtmumixamehtgnidividybdetaluclacsawetarnoitalumucca rofseitniatrecnuetaluclacotdesuerewsetarnoitalumuccatnemidesmuminimdnamumixamehT.n72Cfonoitarudmumixamehtybatartsn72Cfossenkcihtmuminimehtgnidivid
+.seitniatrecnulacirtemmysanignitluserosla,segadnasnoitarud
+SanJuanBasin,NewMexico,USA:Implicationsforbasinevolutionandmammalian 321
+
+### page_23
+EvolutionoftheSanJuanBasin
+The calculated sediment accumulation rates for C27n, which are considerably
+lowerthanthoseforC27r,suggestthatthebasinwasprobablymostlyfilledpriortothe
+endofC27r(lateTo2)andsedimentationequalizedacrossthebasinduringtheendof
+C27r through the start of C26r. These findings support the three phase subsidence
+1.26
+2.26
+3.26
+4.26
+5.26
+6.26
+7.26
+8.26
+Kutz Escavada Torreon Torreon NALMA
+Canyon Wash West East interval
+zone
+C-
+C26r
+C-
+C- C-
+18
+17 16 15
+14
+13
+12 10,11
+C27n B+ B+ B+ B+
+To3
+A-
+A-
+A-
+A- To2
+9
+C27r 6,7,8
+5
+Ma
+U
+U
+M
+M
+M
+U
+M
+L
+U
+M
+L
+53,54,
+55,56
+51,52
+49,50
+46,47,
+4 48
+43,44,
+3 45
+1,2
+M
+42
+40,41
+38,39
+3 2 3 6 7 2 , , 3 2 7 8 3 2 3 9 , , 3 3 4 0 , , 3 3 5 1
+26
+25
+24
+23
+22
+21
+20
+19
+L
+322 C.Leslieandothers—High-resolutionmagnetostratigraphyoftheUpperNacimientoFormation,
+Fig. 9. Chronostratigraphy of the Upper Nacimiento Formation showing the age and calculated
+durationoftheKutzCanyon,EscavadaWash,TorreonWest,andTorreonEastsections.Timescalefrom
+Ogg(2012)isshowntotheleft.Lithologiesarehighlightedforeachsectionalongwithfossillocalities.Fossil
+localities1–4fromKutzCanyon,5–18fromEscavadaWash,19–42fromTorreonWest,and43–56from
+TorreonEastaredescribedintable1.
+
+### page_24
+SanJuanBasin,NewMexico,USA:Implicationsforbasinevolutionandmammalian 323
+modelproposedbyCather(2004)thatdeterminedaphaseofsubsidencefrom(cid:2)74to
+67MaresultedinthedepositionoftheNacimientoFormation.Followingthisphaseof
+subsidence,thespaceavailableforsedimentstofilllikelydecreasedwithtimethrough-
+out the early Paleocene so that during the late part of C27r through early in C26r
+((cid:2)63–62 Ma) there was little accommodation space in the basin. This lack of
+accommodationspacelikelycausedtheunconformitybetweentheupperNacimiento
+Formation and the overlying Eocene San Jose Formation. Sedimentation resumed in
+the Eocene once additional accommodation space was created, the third phase of
+subsidencedocumentedbyCather(2004).
+This interpretation of equalized accommodation space in the San Juan Basin
+plausiblyexplainsthedominanceofsheetsandsratherthanchannelsthroughoutthe
+top of C27r-C26r interval in all four sections (figs. 2 and 3) and the similar sediment
+accumulationratesfrombasincentertobasinmargin(table3).Ifaccommodationwas
+low in the basin during this time, the sediment transport capacity of a channel was
+likely frequently exceeded, resulting in unconfined flow and deposition of laterally
+continuous sheet sands. This evidence for unconfined flow also suggests that the
+NacimientoFormationrecordstheprogradationand/oraggradationofadistributive
+fluvial system (DFS), characterized by a radial channel pattern and aggradational
+depositionbelowthepointwhereflowbecomesunconfined(Weissmannandothers,
+2010;Hobbs,ms,2016).Lowaccommodationandfanprogradationcouldalsoexplain
+the presence of better drained soils embodied by red, calcareous paleosols. Well-
+developedsoilsareexpectedduringaccommodationminimumsandfanprogradation
+becausethedistancetothewatertableincreasesanddistancetothesourcedecreases
+(Weissmannandothers,2010;Atchleyandothers,2013).However,itisimportantto
+notethatvariationsinclimatemayhavealsobeenanimportantcontributingfactorin
+generatingthesefeatures.
+MammalianBiostratigraphy
+The Nacimiento Formation contains the only deposits in North America where
+mammalianturnoverbetweenTo2-To3canbeconstrained,andtemporalconstraintof
+this turnover may provide a better understanding of possible driving mechanisms.
+Using estimated sediment accumulation rates (table 4), an age was assigned to each
+To2andTo3mammallocalityineachsection(table1,fig.9).Ourmagnetostratigra-
+phy for the upper Nacimiento Formation corroborates the interpretation of Lofgren
+andothers(2004)thattheTo2NALMAintervalzoneoccurswithinC27randtheTo3
+NALMAintervalzoneoccurswithinC27n.Additionally,thereisnoevidencethatthe
+turnoverisdiachronousacrosstheSanJuanBasin.
+BothlateTo2andTo3mammalsarefoundatEscavadaWash,TorreonWest,and
+TorreonEast,andthustheseareasarethebestlocationstodeterminethetimingofthe
+To2-To3 turnover. At Escavada Wash the youngest To2 locality (L-10350) occurs at
+62.71 Ma ((cid:9)0.07, (cid:3)0.08 myr) and the oldest To3 localities (L-09981 and L-10444)
+occurat62.35Ma((cid:9)0.10,(cid:3)0.05myr),whichindicatestheturnoveroccurredover360
+kyr((cid:9)120,(cid:3)180kyr).AtTorreonWest,theyoungestTo2locality(L-08180)occursat
+62.59Ma((cid:9)0.02,(cid:3)0.03myr)andtheoldestTo3locality(L-09173)occursat62.46Ma
+((cid:9)0.02,(cid:3)0.03myr)foradurationof130kyr((cid:9)50,(cid:3)50kyr)betweenNALMAinterval
+zones. At Torreon East the youngest To2 localities (L-07583, L-04954, and L-04950)
+occur at 62.63 Ma ((cid:9)0.02, (cid:3)0.04 myr) and the oldest To3 localities (L-10013 and
+L-10432)occurat62.47Ma((cid:9)0.02,(cid:3)0.04myr)foradurationof160kyr((cid:9)60,(cid:3)60
+kyr) between the interval zones. When using the youngest To2 locality in the basin,
+whichisalocalityinTorreonWest(L-08180),andtheoldestTo3localities,whichare
+localities in Torreon East (L-10013 and L-10432), the duration between the To2-To3
+NALMAintervalzonesis120kyr((cid:9)60,(cid:3)50kyr)andoccurredbetween62.59to62.47
+Ma. This indicates that To2-To3 turnover occurred over a relatively short period of
+
+### page_25
+324 C.Leslieandothers—High-resolutionmagnetostratigraphyoftheUpperNacimientoFormation,
+time and suggests that the To2-To3 transition was probably not driven exclusively by
+typical patterns of origination and extinction. Instead, they may be due to very rapid
+rates of speciation, migration of new taxa into the basin, or both. The driver of an
+increase in mammalian speciation rates and/or dispersal of taxa into the basin is
+uncertain, but we posit that it was driven by external factors such as environmental
+change associated with changes in basin dynamics or regional/global changes in
+climate.Furtherworkfocusedonreconstructingtheenvironmentandclimateofthis
+intervalwillhelpresolvethisquestion.
+conclusions
+Thepolarityzonesforthefoursectionsinthisstudy,KutzCanyon,EscavadaWash,
+Torreon West, and Torreon East, are correlated to chrons C27r-C26r of the geomag-
+netic polarity time scale. This study is the first published polarity stratigraphy for the
+EscavadaWashsection,anda40Ar/39Ardetritalsanidineagefurtherconstrainstheage
+of the section. Rock magnetic analyses indicate that although goethite is the most
+abundant magnetic mineral, titanohematite and maghemite carry the characteristic
+remanent magnetization. The age model for the upper Nacimiento Formation pre-
+sentedherehasimportantimplicationsfortheevolutionoftheSanJuanBasinandthe
+timing and nature of the To2-To3 mammalian turnover. Our results indicate that
+sedimentaccumulationratesnearthebasincenterweresimilartothosenearthebasin
+edge, which signals that from the end of C27r through the start of C26r sediment
+accumulationrateshadequalizedacrossthebasin.Thissuggeststhatthedepositionof
+the upper Ojo Encino Member occurred during a basin accommodation minimum,
+which was associated with the progradation of a distributive fluvial system across the
+basin. The later unconformity between the Paleocene Nacimiento Formation and
+thelowerEoceneSanJoseFormationwaslikelydrivenbyalackofaccommodationin
+theSanJuanBasinandsedimentationcouldnotresumeuntiladditionalaccommoda-
+tion space was created in the Eocene. This is consistent with Cather’s (2004) three
+phasemodelofbasinsubsidence.
+EstimatesofsedimentaccumulationratesforstrataintheEscavada,TorreonWest
+andEast,andKutzCanyonsectionswereusedtodeterminetheagetoeachTo2-To3
+fossil locality in those sections, and in turn constrain the duration of the To2-To3
+turnover. These results indicate that the To2-To3 turnover was rapid and occurred
+over (cid:2)120 kyr ((cid:9)60, (cid:3)50 kyr) between 62.59 and 62.47 Ma. The rapid nature of the
+mammalianturnoversuggeststhattherewaslikelyanexternalforcingfactor,suchas
+anenvironmentalchangedrivenbytheprogradationofthedistributivefluvialsystem
+acrossthebasinand/orchangesinregionalorglobalclimate.
+ACKNOWLEDGMENTS
+This work was supported by SEPM (CL), National Science Foundation EAR-
+132552(DP),(cid:9)1325612(RS),(cid:9)0207750and(cid:9)1325544(TEW),AmericanChemical
+SocietyPetroleumResearchFund(PRF#52822-DN18)(DP),BaylorUniversityDepart-
+mentofGeosciences’DixonFund(CL,TL),andtheUniversityofMinnesotaInstitute
+for Rock Magnetism visiting student fellowship (CL). This is IRM publication #1706.
+We thank K. Kodama, D. Lofgren, and one anonymous reviewer for their helpful
+commentsandP.Gingerichfortheeditorialassistance.ThankstoA.Flynn,A.Davis,J.
+Milligan, and A. Baumgartner for assistance with sample collection and section
+measuring.
+
+### page_26
+SanJuanBasin,NewMexico,USA:Implicationsforbasinevolutionandmammalian 325
+APPENDIX1
+Paleomagnetic data: lines
+Location Paleosol Strat Sample Temp. steps Strat. Strat. MAD Strat. VGP Strat. VGP
+# level (m) Declination Inclination latitude longitude
+Kutz P34 1 C15KC45A 200,250,275 174.3 -39.3 19.1 -74.9 272
+Kutz P34 1 C15KC45B 250-300 197.2 -68.1 18.1 -70.9 106.5
+Kutz P34 1 C15KC45C 250-300 163.8 -26 4 -63 288.7
+Kutz P35 2 C15KC46C 250-300 136.3 -29.2 11.7 -46 325.5
+Kutz P35 2 C15KC46D 200-250 146 -33.8 8.3 -55.2 320.3
+Kutz P36 2 C15KC47A 225,250,300 127.6 -73.2 16.6 -49.7 32.8
+Kutz P37 4.5 C15KC48A 250-300 178 -64.2 9.9 -80.4 63.7
+Kutz P37 4.5 C15KC48B 250-300 157.4 -69.8 8.3 -66.8 36.8
+Kutz P37 4.5 C15KC48C 150,225,250 125.3 -65 12.6 -48.7 14.5
+Kutz P1 15.5 C15KC01B 225-275 171.9 -41.5 9.3 -75.6 283.2
+Kutz P1 15.5 C15KC01D 250-300 189.4 -24.1 18.8 -64.7 230.2
+Kutz P1 16 C15KC02A 175, 250, 275 251.3 -56.2 20 -34.2 138.7
+Kutz P1B 16 C15KC02B 150-225 173.1 -58.2 5.4 -84 7.8
+Kutz P1 16 C15KC02D 250-275 129.6 -62.3 5.8 -51.4 8.7
+Kutz P2 18.5 C15KC03A 150-200 217.7 -29.9 9.8 -50.9 183.5
+Kutz P3 19 C15KC04A 175, 200, 250 65.9 -62.5 8.3 -10.1 30.1
+Kutz P3 19.5 C15KC05A 150-200 167.8 -28.6 7.6 -66.1 282.4
+Kutz P4 20.5 C15KC06A 150-200 138.9 -24.8 3.1 -46.4 320.3
+Kutz P5 21.8 C15KC07B 150-200 145.9 -50.5 12.4 -61.4 341.6
+Kutz P5 21.8 C15KC07C 250-300 171.7 -32.9 4.9 -70.0 275.8
+Kutz P5 21.8 C15KC07D 125-175 160.3 -23.6 16.7 -060.0 293.3
+Kutz P6 24.8 C15KC08C 175-225 221.2 -59.4 9.3 -57.8 142.7
+Kutz P7 26.3 C15KC09A 250-300 116.7 -31.1 19.3 -31.2 340.5
+Kutz P7 26.3 C15KC09C 275-325 197 -28.5 14.9 -63.9 212.3
+Kutz P7 26.5 C15KC10A 250-300 183.7 -25.9 11.1 -66.9 242.9
+Kutz P7 26.5 C15KC10B 250-300 191.1 -18.1 11 -61 229
+Kutz P7 26.5 C15KC10D 250-300 190.9 -35 19.1 -70.3 220.1
+Kutz P8 27.8 C15KC11B 225-300 171.6 -13.9 12.3 -59.6 268.7
+Kutz P8 27.8 C15KC11D 150-200 220.7 -46.4 7.7 -54.7 164.6
+Kutz P9 27.5 C15KC12A 250-300 176.7 -46.2 4 -80.6 270.3
+Kutz P9 27.5 C15KC12C 250-300 182.7 -40.4 10.1 -76.4 241.5
+Kutz P9 27.5 C15KC12D 250-300 186.5 -46.9 9.2 -79.3 245.8
+Kutz P10 28.5 C15KC13A 250-300 141.9 -55.2 14.7 -59.4 352.2
+Kutz P11 29.5 C15KC15A 250-300 103.4 74.8 13.4 25.7 283.1
+Kutz P11 29.5 C15KC15B NRM, 125, 150 331.7 38.5 4.1 61.3 138.8
+Kutz P11 29.5 C15KC15D NRM, 125, 150 355.3 44.4 7.5 78.8 94.5
+Kutz P11 30.5 C15KC16A NRM, 125, 150 22.4 73.4 7.3 63.1 277.6
+Kutz P11 30.5 C15KC16B NRM, 125, 150 350.6 62.3 3.7 79.9 209.7
+Kutz P11 30.5 C15KC16C 125, 225, 275 340.2 47.4 5.3 71.6 142.2
+Kutz P12s 31.5 C15KC17A 150-200 334.7 44.1 15.2 66 143
+Kutz P12 31.5 C15KC17B 250-300 351.6 17 15.8 61.2 89.5
+Kutz P12 31.5 C15KC17D 125-175 355.5 53.2 2.8 85.4 126.7
+Kutz P13 32.5 C15KC18A 250-300 16.9 65.7 3.7 73.1 294.3
+Kutz P13 32.5 C15KC 150-200 2.4 63.2 5.1 81.6 263.8
+Kutz P13 32.5 C15KC18D 225-275 349 58.2 4.5 81 180.7
+Kutz P13 32.8 C15KC19A 250-300 357.1 47.6 2.9 81.8 90.3
+Kutz P13 32.8 C15KC19B 225-275 352.4 45.6 13.8 78.6 108.5
+Kutz P13 32.8 C15KC19C 200-250 24.6 58.3 6.2 70.4 327.3
+Kutz P14 33.5 C15KC20B 175,225,275 1.5 54.7 5.2 88.2 27.9
+Kutz P14 33.5 C15KC20C 125,175,200 347.8 56.7 4.1 80.2 170.3
+Kutz P14 33.5 C15KC20D 125,150,200 5.7 45.6 8.2 79.4 43.4
+Kutz P14 33.8 C15KC21A 200, 275, 325 274.7 74.5 9 33.5 216.7
+Kutz P14 33.8 C15KC21B 150-200 337.6 18.1 20 56 114.4
+Kutz P14 33.8 C15KC21C NRM, 125, 200 23.6 47 9.7 68.5 358
+Kutz P15 35.5 C15KC22A 125,175,200 2.2 50.7 4.7 84.6 51.7
+Kutz P15 35.5 C15KC22D NRM, 125, 150 264.5 82.3 15.6 33.6 233.9
+Kutz P16 36.2 C15KC23A 225,250,300 354 31.3 14.3 69.7 88.9
+Kutz P16 36.2 C15KC23D 125-175 14.6 30.3 8.9 66 35.6
+Kutz P16 36.5 C15KC24A 225,250,300 14 54.5 4.4 78.6 345.3
+Kutz P16 36.5 C15KC24C 225-275 354.6 44.5 6.7 78.7 97.6
+Kutz P16 36.5 C15KC24D 225,275,300 11.3 49.9 4.8 49 10.5
+Kutz P17 39.7 C15KC25C 125, 175, 225 4.2 34.4 13.8 72 59.1
+Kutz P18 39.3 C15KC26C NRM, 125, 175 10.1 36.9 11.4 71.8 40.4
+Kutz P19 39.8 C15KC27D 125-175 341.7 69.4 5.3 69.1 220.2
+Kutz P20 41.5 C15KC28A 125-175 349.3 43.8 11.7 75.8 115.1
+Kutz P20 41.5 C15KC28C 250-300 332.9 40.1 16.5 62.9 139.3
+Kutz P21 43 C15KC29B 125, 200, 225 25.2 27.7 7.3 58.7 19.6
+Kutz P21 43 C15KC29C 125, 175, 325 332.2 59.6 15.2 68 180.9
+Kutz P22 44 C15KC30C NRM, 125, 250 73.2 69.2 8.8 37.9 299.3
+Kutz P22 44 C15KC30D NRM, 125, 150 10.8 21.9 13 63 48.2
+Kutz P23 44.6 C15KC31C 125-175 359.4 36.1 13.4 73.5 74.1
+Kutz P24B 46 C15KC32B 125, 200, 225 16 77.7 14.3 58.7 264.3
+Kutz P24 46 C15KC32C 250-300 346 63 12 76.7 203.3
+Kutz P24 46 C15KC32D 125, 175, 200 359.6 65.1 4.8 79.4 250.6
+
+### page_27
+326 C.Leslieandothers—High-resolutionmagnetostratigraphyoftheUpperNacimientoFormation,
+APPENDIX1
+(continued)
+Location Paleosol Strat Sample Temp. steps Strat. Strat. MAD Strat. VGP Strat. VGP
+# level (m) Declination Inclination latitude longitude
+Kutz P25 47 C15KC33D 100-150 70.3 64.5 9.6 38.1 307.8
+Kutz P26 47.8 C15KC34B 250-300 346.8 12.8 12.8 76.5 131.1
+Kutz P26 47.8 C15KC34C 250-300 12.6 38.4 10 71.5 32.7
+Kutz P26 47.8 C15KC34D 250-300 348.7 51 9.2 79.5 138.2
+Kutz P27 48.5 C15KC35A 100, 275, 300 316.5 61.8 4.3 56.3 186.9
+Kutz P27 48.5 C15KC35D 200, 250, 275 354.4 53 9.9 84.6 131.1
+Kutz P28 56.5 C15KC36B 100-200 2.6 63 6.1 81.8 265.2
+Kutz P28 56.5 C15KC36D NRM-150 322.6 44.2 13.1 56.6 154.4
+Kutz P29 57.8 C15KC37A 100, 200, 225 18.4 30.2 6.6 64 28.4
+Kutz P30 58.4 C15KC38A 225-275 156.1 -23 14.2 -57.4 299.4
+Kutz P30 58.4 C15KC38C NRM, 100, 350 322.7 53.1 10.6 59.5 169.4
+Kutz P31 62.3 C15KC39A NRM, 100, 225 328.5 67.5 5.7 63.5 203.7
+Kutz P31 62.3 C15KC39B NRM, 100, 250 17.9 51.4 9 74.6 353.6
+Kutz P31 62.3 C15KC39D NRM-150 45.1 57.9 9.2 54.5 324.8
+Kutz P32 66.8 C15KC41A 200, 300, 325 185.5 -26.3 15.4 -66.9 238.4
+Kutz P32 66.8 C15KC41C 125, 150, 250 84.5 -66.3 9.7 -23.3 26.4
+Kutz P32 67 C15KC42A 125-200 149.9 -68.8 5.8 -63.7 28.2
+Kutz P32 67 C15KC42C 150-225 128.9 -70.1 12 -51.1 25.5
+Kutz P32 67 C15KC42D 150-225 37.3 -69 10 -4.7 50.4
+Kutz P33 68.5 C15KC43A 200-275 122.4 -49.7 9.9 -42.3 352.5
+Kutz P33 69 C15KC44A 250-300 208.5 -62.2 15.9 -67.2 135.4
+Kutz P33 69 C15KC44C 250-300 168.2 -66.2 16.9 -75.2 40.2
+Kutz P33 69 C15KC44D 225-275 148.6 -49 8 -63 337.1
+Torreon West P22 29.4 C15TW01A 225-275 178.3 -63.2 1.3 -81.2 64.7
+Torreon West P22 29.4 C15TW01B 225-275 198.6 -61.8 3.9 -74.1 130.9
+Torreon West P22 29.4 C15TW01C 225-275 179.6 -64.4 2.7 -79.8 71
+Torreon West P24 31.5 C15TW02A 225-275 167.3 -65.8 1.7 -74.7 38.7
+Torreon West P24 31.5 C15TW02C 225-275 163.3 -55.6 3.8 -76.5 348.1
+Torreon West P24 31.5 C15TW02D 225-275 169.7 -44.9 3.3 -77.1 298.2
+Torreon West P24 31.7 C15TW03B 300, 350-375 167.4 -18.8 13.7 -61.3 279.2
+Torreon West P24 31.7 C15TW03C 225-275 195 -54 3.6 -77.7 165
+Torreon West P24 31.7 C15TW03D 225-275 172.2 -53.1 2.1 -83.2 324.8
+Torreon West P24 31.9 C15TW04A 225-275 180.3 -50.9 11.6 -85.6 249.3
+Torreon West P24 32.1 C15TW05C 225, 250, 325 171.2 -26.5 8.7 -66.6 274.6
+Torreon West P24 32.3 C15TW06A 225-275 125.6 -77.4 11.2 -46.8 43.6
+Torreon West P24 32.8 C15TW07A 125, 150, 225 167 -32.9 6.3 -68.6 288.5
+Torreon West P24 32.8 C15TW07C 225-275 147.8 -40 11 -59.2 326.1
+Torreon West P24 33.3 C15TW08A NRM, 150, 175 170.5 -31.8 7.3 -69.4 279.2
+Torreon West P24 33.3 C15TW08B 715, 225, 275 132.9 -36.9 5.2 -46.2 335.1
+Torreon West P24 35.2 C15TW11C 200-250 219.6 -37.1 4.7 -52.3 175.6
+Torreon West P24 35.2 C15TW11D 225-275 221.4 -45.6 13.4 -53.9 165
+Torreon West P25 35.5 C15TW12B 125-275 203.9 -37.2 9.8 -64.2 192.2
+Torreon West P25 35.8 C15TW13D 100-150 38.2 72.8 6.8 56.6 288.8
+Torreon West P26 36.1 C15TW14A 125, 200, 300 174.8 -36.5 19.8 -73.7 270.2
+Torreon West P26 37.3 C15TW15B 225-275 1 20.8 7 64.7 70.3
+Torreon West P26 38.2 C15TW16D 125, 250, 225 296.2 51.7 13.2 38 178.3
+Torreon West P26 39 C15TW17B 150, 200, 250 353.6 45.1 17.5 79.2 104.6
+Torreon West P27 40 C15TW18C 150, 200, 225 12.3 31.5 9.4 68.1 39.5
+Torreon West P29 43.2 C15TW19A 100, 125, 175 8 39.2 4.8 74.5 43.7
+Torreon West P29 43.2 C15TW19B 100-150 342.2 59.7 4 75.3 186
+Torreon West P29 43.2 C15TW19C 225-275 309.9 48.7 9.9 47.9 168.8
+Torreon West P39 56.7 C15TW20A 225-275 355.2 63.6 1.5 80.1 232.5
+Torreon West P39 56.7 C15TW20C 225-275 358.7 60 3.4 85 241.2
+Torreon West P39 56.7 C15TW20D 225-275 359.6 66.5 3 77 251.4
+Torreon West P40 61.4 C15TW21A 125, 175, 200 16 52.7 3.9 76.6 349.6
+Torreon West P40 61.4 C15TW21B 225-275 353.2 58 8.8 84 190.9
+Torreon West P40 61.4 C15TW21C 175-225 296 72.5 5.2 43.3 211.4
+Torreon West P43 66.7 C15TW22A 225-275 0.2 80.5 5 54.5 252.7
+Torreon West P43 66.7 C15TW22B 125, 150, 225 350 55.7 1 81.9 167.3
+Torreon West P43 66.7 C15TW22D 175-225 341.2 50 4.1 73.5 149.6
+Torreon West P49 72 C15TW23A 125, 250, 275 5.2 43.3 2.4 78.3 48.7
+Torreon West P49 72 C15TW23C 100-150 355.2 42.8 4.1 78.1 94.2
+Torreon West P49 72 C15TW23D 100-150 349.6 67.3 4.5 74 227.7
+Torreon West P49 72.4 C15TW24A 100-150 5.2 -74.6 4.8 -7.2 70.1
+Torreon West P50 72.7 C15TW25C 225-275 131 -49.5 13.4 -49 349.3
+Torreon West P50 73.3 C15TW27D 125, 275, 200 152.8 -75.2 15.3 -58.9 48.2
+Torreon West P50 73.8 C15TW28A 175, 200, 250 230.1 -51.2 10.1 -48.7 153.3
+Torreon West P50 73.8 C15TW28B 175, 275, 325 302.4 -79.7 19.9 -23.9 91
+Torreon West P50 74 C15TW29B 100-150 160.3 -42.9 10.7 -69.8 314.8
+Torreon West P51 74.6 C15TW30A 250, 275, 325 196.7 -36.8 14.2 -68.7 204.8
+Torreon West P51 74.6 C15TW30B 175-225 7.5 73.5 8.4 66.1 262.1
+Torreon West P52 75.9 C15TW32A 300, 325, 375 173.2 -25.7 18.4 -66.7 269.5
+Torreon West P52 76.8 C15TW36C 150-200 149.1 -48.9 15.6 -63.5 338.1
+Torreon West P53 77.4 C15TW37B 225-275 170.4 -28.6 7.2 -67.5 277.5
+
+### page_28
+SanJuanBasin,NewMexico,USA:Implicationsforbasinevolutionandmammalian 327
+APPENDIX1
+(continued)
+Location Paleosol Strat Sample Temp. steps Strat. Strat. MAD Strat. VGP Strat. VGP
+# level (m) Declination Inclination latitude longitude
+Torreon West P53 77.4 C15TW37C 250, 275, 325 140.2 -36.6 17.8 -51.9 329.3
+Torreon West P53 77.4 C15TW37D 200-250 168.6 -59.2 8.1 -80.2 10
+Torreon West P53 78.4 C15TW38B 125, 300, 325 119.5 -25.1 5 -31.5 336
+Torreon West P53 78.4 C15TW38C 225, 250, 300 128.7 -51.9 19.2 -47.9 353.4
+Torreon East P7 27.5 C15ET02A 175-225 153.3 -43 6.8 -64.6 324.5
+Torreon East P7 27.8 C15ET03A NRM-125 203.5 -47.7 8.3 -69 176
+Torreon East P7B 27.8 C15ET03B 200, 250, 275 142.4 -64.5 7.4 -60.2 14.8
+Torreon East P7 27.8 C15ET03D 150, 200, 250 233.4 -76.9 9 -47.4 102.7
+Torreon East P7 28 C15ET04A 275-325 144.3 -24.4 7.3 -50.4 316
+Torreon East P7 28 C15ET04B 200-250 121.4 -50.7 10.4 -41.8 355.1
+Torreon East P7 28.5 C15ET05C 125-175 124.6 -37.8 11.5 -39.9 341.3
+Torreon East P8 29.8 C15ET07A 225-275 208.1 -68.3 9.4 -64.7 116.1
+Torreon East P8 29.8 C15ET07B 125-175 117.8 -41.5 10 -35.7 348.1
+Torreon East P8 29.8 C15ET07C 125, 175, 275 154.9 -54.8 15.3 -69.7 348.2
+Torreon East P9 31.5 C15ET11D 225, 250, 300 105 -38.8 12.9 -24.4 352.9
+Torreon East P10 32 C15ET12A 225-275 9.6 80.2 1 54.7 258.1
+Torreon East P10 32 C15ET12B 100-150 12.9 46 4.9 76.1 17.3
+Torreon East P10 32 C15ET12D 150, 300, 325 220.4 70.6 0.6 7.2 230.6
+Torreon East OVBK 32.5 C15ET13A 125-175 261.9 85.8 1.2 34.4 242.7
+Torreon East OVBK 32.5 C15ET13B 100, 125, 200 170.4 75 4.5 8.1 257.3
+Torreon East OVBK 32.5 C15ET13C 100-150 200.1 76.5 3.5 11.6 244
+Torreon East P11 33 C15ET14B 100-150 355.4 30.6 13.2 70 85.7
+Torreon East P11 33 C15ET14C 100-150 59.1 50.4 17.4 41.3 330.4
+Torreon East P11 33 C15ET14D 175-225 4.2 50.9 7.4 84.4 33.1
+Torreon East P12 35 C15ET16C NRM-150 44.3 70.5 14.4 54.5 296.8
+Torreon East P17 46 C15ET44A 200-250 340.9 64.1 12.3 72.6 203
+Torreon East P17 46 C15ET44C 100-150 353.7 69.8 12.2 71.8 240.7
+Torreon East P17 48 C15ET43B 100-150 250.6 72.8 7.9 21 220.6
+Torreon East P17 48 C15ET43C 150-200 350.5 68.6 7.9 72.7 232.7
+Torreon East P17 48 C15ET43D NRM-125 41.7 60.6 3.5 57.3 319.9
+Torreon East P17 50 C15ET42B NRM-125 51.9 74.5 16.5 49.1 288.4
+Torreon East P17 50 C15ET42C 150, 175, 225 345.1 36.4 10.2 69.5 116.3
+Torreon East P17 50 C15ET42D 150-200 335.6 61.5 12 70.1 189.6
+Torreon East P19 55 C15ET41C NRM-125 340.5 76 13.7 60 235.3
+Torreon East P19 55 C15ET41D 150, 175, 225 346.2 63.7 7.7 76 208.8
+Torreon East P19 55.5 C15ET17A 125-175 332.9 24.5 3.7 56.4 126.1
+Torreon East P19 55.5 C15ET17B 100, 225, 275 353.6 21.9 4.3 64.7 87.5
+Torreon East P19 57 C15ET40A 125, 150, 200 331.1 65.2 6.2 65.8 199.4
+Torreon East P19 57 C15ET40B 100-150 354.3 65.8 3.5 77.2 235.2
+Torreon East P19 57 C15ET40C 125, 150, 275 326.4 67.1 5.7 62.1 202.9
+Torreon East P20 58 C15ET18C 225, 275, 300 110.2 -33 13.9 -26.6 346.3
+Torreon East P21 60 C15ET39C 225-275 191.3 -69.5 8.2 -71.1 93.9
+Torreon East P21 60 C15ET39D 250-300 33.1 -81.4 18.2 -21.5 62.9
+Torreon East P22 61 C15ET38A 150, 175, 275 168.5 -15.4 9.5 -59.9 275.9
+Torreon East P22 61 C15ET38C NRM, 100, 175 164 -36.2 6.1 -68.8 298.4
+Torreon East P22 61 C15ET38D 250-300 189.3 -32.3 0.8 -69.8 226.2
+Torreon East P22 61.5 C15ET37B 175, 200, 275 172.8 -46 2.7 -79.4 290
+Torreon East P22 61.5 C15ET37C NRM-125 181.6 -60.1 11.5 -84.8 86.2
+Torreon East P22 61.5 C15ET37D 200, 250, 275 143.4 -60 4.3 -61.1 3.7
+Torreon East SS10 61.8 C15ET36A 175, 225, 250 173.2 -50.3 15.7 -82.5 303.5
+Torreon East SS10 61.8 C15ET36B 125-175 171.7 -20.3 13.8 -63.4 271.2
+Torreon East SS10 61.8 C15ET36D 175, 200, 275 162.1 -40.9 4.4 -70.1 308.5
+Torreon East P23 62 C15ET19A 200, 225, 300 214.8 -40.4 4 -57.3 176.3
+Torreon East P23 62 C15ET19C 200-250 141.2 -78 13 -52 49.3
+Torreon East P23 63 C15ET21A 200, 250, 275 135 -39.8 13.6 -48.9 336.4
+Torreon East P23 63 C15ET21B 225-275 145 -68.1 13.3 -60.8 25.2
+Torreon East P23 63 C15ET21D 125-175 141.2 -78 7.3 -55.1 345.7
+Torreon East P23 63.5 C15ET22A 125-175 171.8 -29.6 7.6 -68.6 274.8
+Torreon East P23 63.5 C15ET22B 125, 150, 250 191.5 -45.6 15.9 -76.7 202
+Torreon East P23 63.5 C15ET22D 200, 225, 275 169.3 -34.4 11.9 -70.5 284.4
+Torreon East P23 64 C15ET23A 150, 175, 300 182.1 -48.8 7.7 -83.5 236.4
+Torreon East P23 64 C15ET23B 250-300 164.3 -33.3 11.4 -67.4 294.7
+Torreon East P23 64.5 C15ET24B 225-275 205.4 -61.7 6.2 -69.3 135.5
+Torreon East P23 64.5 C15ET24C 225-275 218.9 -64.3 4.5 -59.3 131.3
+Torreon East P23 64.5 C15ET24D 225-275 204 -61.7 7.1 -70.3 134.9
+Torreon East P23 65 C15ET25B 100, 125, 175 187.7 -50.9 8.9 -82.2 195
+Torreon East P23 65 C15ET25C 250-300 143.6 -49.4 12.4 -59.2 342.6
+Torreon East P23 65 C15ET25D 125, 225, 250 170.3 -63.3 6.4 -78.5 35.9
+Torreon East P24 65.2 C15ET26A 125-175 175 -57.8 10.2 -85.3 15.8
+Torreon East P24 65.2 C15ET26B 150, 250, 300 176.2 -36.8 3.7 -74.2 265.8
+Torreon East P24 65.2 C15ET26C 125-175 203 -46.6 5.7 -68.9 178.9
+Torreon East P24 65.8 C15ET27A 150-200 155.6 -59.3 12.5 -70.4 2.2
+Torreon East P24 65.8 C15ET27C 225-275 214.8 -79.7 2.7 -51.2 90.8
+Torreon East P24 65.8 C15ET27D 250-300 174.8 -82.5 3 -50.7 70.6
+
+### page_29
+328 C.Leslieandothers—High-resolutionmagnetostratigraphyoftheUpperNacimientoFormation,
+APPENDIX1
+(continued)
+Location Paleosol Strat Sample Temp. steps Strat. Strat. MAD Strat. VGP Strat. VGP
+# level (m) Declination Inclination latitude longitude
+Torreon East P24 66.3 C15ET28B 225-275 155.4 -42.8 7.3 -66.1 321.7
+Torreon East P24 66.3 C15ET28C 150, 175, 250 158.3 -33 5.4 -63.7 305.2
+Torreon East P24 66.3 C15ET28D 150-200 119.4 -42 4.4 -37.1 347.7
+Torreon East P24 66.8 C15ET30A 125-175 124.7 -52 16.1 -44.8 355.3
+Torreon East P24 66.8 C15ET30B 200-250 131.3 -60 8.7 -52 5.3
+Torreon East P24 66.8 C15ET30D 125-175 139.8 -30 14.6 -49.2 324.2
+Torreon East P24 67 C15ET31A 150-200 129.1 -65.6 7.5 -51.1 16.6
+Torreon East P24 67 C15ET31C 150, 175, 250 154.8 -46 20.4 -67 327.8
+Torreon East P24 67 C15ET31D 150-200 134.9 -53.5 9.1 -53.3 353.2
+Torreon East P25 70 C15ET32A 225-275 172.6 -67.3 4.8 -74.9 54.2
+Torreon East P25 70 C15ET32C 225-275 147.3 -55 5.9 -63.6 351.4
+Torreon East P25 70 C15ET32D 225-275 157.5 -57.9 4.2 -72 357.6
+Torreon East P26 71.5 C15ET33A 225-275 163.2 -62.6 4 -74.9 19.7
+Torreon East P26 71.5 C15ET33B 225-275 139.6 -57.4 4.2 -57.9 358.6
+Torreon East P26 71.5 C15ET33D 150-200 155.8 -58.3 8.6 -70.6 358.9
+Torreon East P26 72.5 C15ET34A 175, 275, 300 101.8 -72.6 8.9 -35.9 32.8
+Torreon East P26 72.5 C15ET34B 175, 200, 250 103.4 -62.2 6.5 -32.7 15.7
+Torreon East P26 72.5 C15ET34D 175, 200, 250 100 -66.2 5.4 -32.3 22.3
+Torreon East ss13m 74 C15ET35B 150, 175, 225 192.6 -29.8 3.4 -67 220.2
+Torreon East ss13m 74 C15ET35C 200-250 157 -66.1 6.8 -69 26.3
+Escavada Wash P1 1 C15EM01A 100, 150, 175 213.5 -49.6 4.2 -61.6 164.1
+Escavada Wash P1 1 C15EM01B 125-175 233.2 -67.9 7.6 -49.6 123.8
+Escavada Wash P2 2.6 C15EM02B 150-200 155.6 -25.9 15.1 -58.7 303.2
+Escavada Wash P3 4.3 C15EM03B 225, 275, 300 118.4 -55.8 3.9 -41.2 2.3
+Escavada Wash P3 4.3 C15EM03C 200-250 122.1 -58.7 4 -44.9 5.2
+Escavada Wash P3 4.3 C15EM04B 275-325 109.1 -43.9 4.3 -29.6 354.4
+Escavada Wash P5 5.9 C15EM04B 275-325 149 -64.3 4.4 -64.7 15.8
+Escavada Wash P5 5.9 C15EM04C 150-200 133.1 -53.3 4.8 -51.9 353.5
+Escavada Wash P5 5.9 C15EM04D 250-300 156.9 -52.3 4.8 -70.7 340.1
+Escavada Wash P8 7.2 C15EM05B 275-325 142.8 -26.4 6.2 -50.1 318.7
+Escavada Wash P8 7.2 C15EM05D 275-325 167.4 -26.9 4.3 -65.5 283.2
+Escavada Wash SS05 8.5 C15EM06B 275-325 112.1 -40.6 10.7 -30.8 350.3
+Escavada Wash SS05 8.5 C15EM06D 350-400 181.1 -19 16.7 -63.7 250.2
+Escavada Wash SS06 10 C15EM07B 125-175 1.2 50.7 4.7 85.3 60
+Escavada Wash SS06 10 C15EM07C 125-175 19.6 49 2.9 72.5 357.4
+Escavada Wash SS06 10 C15EM07D 225-275 347.3 66.2 2.1 74.3 220
+Escavada Wash P9 12.5 C15EM08A 275-325 183.9 -60.4 2.1 -83.8 101
+Escavada Wash P9 12.5 C15EM08C 275-325 150.8 -68.3 6.1 -64.1 28.5
+Escavada Wash P9 12.5 C15EM08D 275-325 161.1 -65.9 5.8 -71.5 29.7
+Escavada Wash SS07 13. 8 C15EM09A 275-325 173.9 -53.6 7.5 -84.7 324
+Escavada Wash SS07 13.8 C15EM09B 275-325 160.9 -54.1 2.3 -74.4 343.2
+Escavada Wash SS07 13.8 C15EM09C 225-275 149.9 -47.6 1.8 -63.7 335.2
+Escavada Wash P10 15 C15EM10A 275-325 134.7 -47.8 6 -75.3 318
+Escavada Wash P10 15 C15EM10C 200-250 196.3 -62.1 4.5 -75.5 127.2
+Escavada Wash P10 15 C15EM10D 250-300 180.2 -39.6 5.1 -76.5 251.8
+Escavada Wash P11 16.6 C15EM11A 250-300 184.8 -28.9 4.2 -69 239.6
+Escavada Wash P11 16.6 C15EM11C 250-300 139.7 -48.4 4.7 -55.7 343.2
+Escavada Wash P11 16.6 C15EM11D 225, 300, 325 169.4 -24.4 11 -64.9 277.6
+Escavada Wash P14 17.6 C15EM12A 150-200 183.1 -25.4 13.2 -67.2 244.8
+Escavada Wash P18 19.1 C15EM13A 250-300 173 -53 5 -83.8 321.7
+Escavada Wash P18 19.1 C15EM13B 200-250 159.6 -46.9 1.8 -71 323.8
+Escavada Wash P18 19.1 C15EM13D 275-325 146.4 -58.7 2.2 -63.4 0.2
+Escavada Wash P19 20.5 C15EM14A 225-275 164.5 -61.4 4.1 -76.4 15.9
+Escavada Wash P19 20.5 C15EM14B 275-325 175.2 -34.5 6 -72.4 267.8
+Escavada Wash P19 20.5 C15EM14C 275-325 171.8 -26.4 7.2 -66.7 273.1
+Escavada Wash P21 22 C15EM15B 275-325 189.9 -48.4 2.8 -79.4 198.3
+Escavada Wash P21 22 C15EM15C 225-275 149.2 -63.3 6.5 -65.1 12.9
+Escavada Wash P21 22 C15EM15D 250-300 179.7 -67.1 4.3 -76.2 71.8
+Escavada Wash P24 23.5 C15EM16A 100-150 140.3 -22.6 7.6 -46.8 318.6
+Escavada Wash P24 23.5 C15EM16C 125-175 171.5 -64.6 2.8 -77.7 44
+Escavada Wash P24 23.5 C15EM16D 125-175 151.9 -34 7 -59.8 315.1
+Escavada Wash P26 30.9 C15EM18C 225-275 158.7 -28 13 -61.6 300.1
+Escavada Wash P27 32.3 C15EM19A 250-300 215.6 -66.1 2.2 -61.2 125.8
+Escavada Wash P27 32.3 C15EM19B 250-300 161.5 -38.4 7 -68.4 305.9
+Escavada Wash P27 32.3 C15EM19D 150, 200,275 225.1 -57.4 6.3 -54.3 145.5
+Escavada Wash P29 34 C15EM20B 275-325 166.8 -45.3 5.6 -75.5 307
+Escavada Wash P29 34 C15EM20C 275-325 154.1 -49.8 4.8 -67.8 336.1
+Escavada Wash SS12 42 C15EM21A 175-225 329.7 50.6 5 64.5 160.9
+Escavada Wash SS12 42 C15EM21B 100, 125, 200 325.4 46.4 5.5 59.6 156.7
+Escavada Wash SS12 42 C15EM21C 100-150 335.7 27.4 6 59.5 124.2
+Escavada Wash SS12 43.3 C15EM22B 100-150 346.4 56.7 4.9 79 173.3
+Escavada Wash SS12 43.3 C15EM22C 100-150 322.5 51.3 3.5 58.8 166.2
+EscavadaWash SS12 43.3 C15EM22D 100-150 341.3 46.2 2.2 72 139.8
+
+### page_30
+SanJuanBasin,NewMexico,USA:Implicationsforbasinevolutionandmammalian 329
+APPENDIX1
+(continued)
+Location Paleosol Strat Sample Temp. steps Strat. Strat. MAD Strat. VGP Strat. VGP
+# level (m) Declination Inclination latitude longitude
+Escavada Wash P30 45 C15EM23B 100-150 330.5 49.3 8.6 64.7 157.8
+Escavada Wash P30 45 C15EM23C 100-150 310.6 54.7 5.3 50.3 176.6
+Escavada Wash P30 46.3 C15EM24A 150-200 360 18.1 4.7 63.3 72.6
+Escavada Wash P31 48 C15EM25B 125, 200, 250 42.1 58.3 9.2 56.8 324.5
+Escavada Wash P32 49.5 C15EM26A 275-325 327.3 38.7 2.8 58.3 145.1
+Escavada Wash SS13 51 C15EM27A 250-300 28.1 48.6 3.8 65.6 349.8
+Escavada Wash SS13 51 C15EM27B 250-300 7.7 39.5 4.3 74.8 44.3
+Escavada Wash SS13 51 C15EM27C 100-150 315.7 63.4 7.3 55.6 191.6
+Escavada Wash P33 52.5 C15EM28A 100, 125, 175 3.9 43.9 9.3 79.2 53.6
+Escavada Wash P33 52.5 C15EM28B NRM-125 17 68.7 15.1 69.9 284.2
+Escavada Wash P33 52.5 C15EM28D 100-150 351.6 43.2 15.2 77 108.5
+Escavada Wash P33 54 C15EM29C 100-150 25.8 47.5 4.4 67.1 354
+Escavada Wash P33 54 C15EM29D 125, 150, 200 12.1 70.7 18.3 69.3 272.5
+Escavada Wash P35 55.5 C15EM30A NRM-125 23.8 26.4 7.1 59.3 22.5
+Escavada Wash P35 55.5 C15EM30C 150, 200, 225 28.7 28.2 5.4 56.9 14.5
+Escavada Wash P37 57 C15EM31B NRM-125 350.1 23.9 4 64.9 95.9
+Escavada Wash P37 57 C15EM31C NRM, 100, 200 336.7 27.6 5.1 60.2 122.9
+Escavada Wash P37 57 C15EM31D NRM, 100, 250 16.9 43.6 9.7 72.1 14
+Escavada Wash P39 58.5 C15EM32A 275-325 353.6 69.3 2.9 72.5 239.7
+Escavada Wash P39 58.5 C15EM32C NRM, 125, 175 324 29.2 6.1 52.1 139.6
+Escavada Wash P39 58.5 C15EM32D 125-175 343.9 48.1 3.8 74.8 140.3
+Escavada Wash P40 59.5 C15EM33A 150-200 20.8 55.2 7.3 73.2 337.4
+Escavada Wash P40 59.5 C15EM33B 150-200 354.5 66.5 3.5 76.4 237.1
+Escavada Wash P40 59.5 C15EM33C 150-200 355.9 62.3 2.5 81.8 231.4
+Escavada Wash P42 59 C15EM34A NRM, 100, 150 309.2 52 6.9 48.4 173.3
+Escavada Wash P42 59 C15EM34B NRM, 100, 150 333.8 54.3 4.8 68.7 167.2
+Escavada Wash P42 59 C15EM34D NRM-125 317.4 62.2 7.8 56.8 188.9
+Escavada Wash SS15 59.5 C15EM35A 225-275 351.4 64.9 1 77.4 224.7
+Escavada Wash SS15 59.5 C15EM35B 125-175 348.9 60.4 2.9 79.8 197.7
+Escavada Wash SS15 59.5 C15EM35D 200-250 357 62.6 3.8 81.7 237.5
+Escavada Wash SS15 59.8 C15EM36B 100-150 338.4 67 7.4 69.2 210.4
+Escavada Wash SS15 59.8 C15EM36D 100-150 340.7 59.7 2.5 74.2 185.2
+Escavada Wash SS16 61.5 C15EM37A NRM-125 355.9 21.2 13.3 64.7 82.1
+Escavada Wash SS16 61.5 C15EM37B NRM-125 358.4 38.6 4 75.7 78.6
+Escavada Wash SS16 61.5 C15EM37D NRM-125 346 44.6 7.4 74.6 127.3
+Escavada Wash P45 63 C15EM38B NRM-125 348.4 41.7 4.4 74.4 115.6
+Escavada Wash P45 63 C15EM38C 100-150 359.9 53.1 5 87.7 74.6
+Escavada Wash P45 63 C15EM38D 100-150 356.1 30.4 4.9 70 83.6
+Escavada Wash P47 64.5 C15EM39B 200-250 16.2 59.5 5.8 76.6 318.9
+Escavada Wash P47 64.5 C15EM39C 100-150 353.7 49.3 5.5 82.1 116.5
+Escavada Wash P47 64.5 C15EM39D 200-250 354.7 59.6 3.4 83.9 211
+Escavada Wash P47 66 C15EM40A 100-150 8.8 44.4 4.9 77.6 33
+Escavada Wash P47 66 C15EM40B 100, 175, 200 32.4 65 6.8 63.6 307.9
+Escavada Wash P47 66 C15EM40C NRM-125 83.6 68.3 6 31.1 298.9
+Escavada Wash P48 67.5 C15EM41A 125-175 194.8 86.1 4.2 28.5 250.4
+Escavada Wash P48 67.5 C15EM41B 225, 275, 300 179.6 87.6 12 31.2 252.6
+EscavadaWash P48 67.5 C15EM41D 125, 150, 200 276.6 81.5 7.1 36.1 232
+Escavada Wash P48 69 C15EM42A NRM, 150, 175 349 75 3.6 63.3 241
+Escavada Wash P48 69 C15EM42C 125-175 308.4 34.4 2.7 41.7 156.2
+Escavada Wash SS21 75.5 C15EM45B 100-150 153.6 -50.3 2.7 -67.5 337.6
+Escavada Wash SS21 75.5 C15EM45C 200, 250, 275 146.2 -52.9 15.8 -62.2 347.4
+Escavada Wash SS21 75.5 C15EM45D 225-275 164.3 -48.7 3.5 -75.4 321.3
+Escavada Wash P52 78 C15EM46B 225-275 207 -77.8 5.9 -55.6 91.2
+Escavada Wash P52 79 C15EM47A 225-275 159.5 -53.5 7.4 -73.1 342
+Escavada Wash P52 79 C15EM47B 150-200 200.3 -59.1 7.7 -73.5 141.7
+Escavada Wash P52 79 C15EM47D 250-300 169.9 -60 15 -80.7 17.4
+Escavada Wash P53 81 C15EM48B 125-175 192 -60.7 12.1 -79.1 127.5
+Escavada Wash P53 81 C15EM48C 100-150 152.4 -57.1 5.3 -67.9 355.3
+Escavada Wash P53 81 C15EM48D 100, 150, 175 155.1 -56.3 7.7 -70 352.5
+Escavada Wash P54 82 C15EM49A 200, 250, 275 191 -78.7 3.7 -57.2 80.1
+Escavada Wash P54 82 C15EM49C 150-200 207.3 -50.2 4.8 -66.8 167.2
+EscavadaWash P54 82 C15EM49D 100-150 229.4 -41.9 16.5 -46.1 164.1
+Escavada Wash P56 84 C15EM50A 150-250 167.4 -57.2 16.7 -79.8 356.5
+Escavada Wash P56 84 C15EM50C 125, 150, 200 207.6 -55.2 7.7 -67.7 155.1
+
+### page_31
+330 C.Leslieandothers—High-resolutionmagnetostratigraphyoftheUpperNacimientoFormation,
+APPENDIX2
+Paleomagnetic data: site means
+Location Paleosol # Strat Sample # n* Strat. Strat. alpha-95 Strat. VGP Strat. VGP
+level (m) Declination Inclination latitude longitude
+Kutz P37 4.5 C15KC48 3 153.7 -67.9 17.1 -66.4 28
+Kutz P5 21.75 C15KC7 3 160.5 -36 26.2 -066.2 303.3
+Kutz P7 26.5 C15KC10 3 188.6 -26.4 14.2 -66.2 231.1
+Kutz P9 27.5 C15KC12 3 180.1 -44.5 6.3 -79.7 251.6
+Kutz P11 30.5 C15KC16 3 351.8 62 24.7 80.8 211.6
+Kutz P12 31.5 C15KC17 3 347.3 38.5 32.3 71.5 112.3
+Kutz P13 32.5 C15KC18 3 1.6 62.9 11.4 82.1 260.4
+Kutz P13 32.75 C15KC19 3 2.9 51.2 19.2 84.8 43.9
+Kutz P14 33.5 C15KC20 3 359 52.9 12.5 86.9 87.5
+Kutz P16 36.5 C15KC24 3 6 50 13 82.4 29.2
+Kutz P24 46 C15KC32 3 357.1 68.9 14.3 74 245.7
+Kutz P26 47.8 C15KC34 3 357 46.3 18.7 80.8 88.9
+Kutz P31 62.25 C15KC39 3 15.9 62.1 30.4 76 307.8
+Kutz P32 67 C15KC42 3 110 -75.9 29.3 -40.9 38.2
+Kutz P33 69 C15KC44 3 171.6 -61.6 27.9 -81 28.8
+Escavada Wash P3 4.3 P16EM03 3 115.8 -52.9 13.6 -38.2 359.8
+Escavada Wash P5 5.9 P16EM04 3 146.2 -57.1 14.7 -63 356.4
+Escavada Wash SS06 10 P16EM07 3 5 55.9 19.9 85.9 334.8
+Escavada Wash P9 12.5 P16EM08 3 167 -65.5 12.7 -74.9 37.1
+Escavada Wash SS07 13.75 P16EM09 3 161 -52.2 12.7 -74 336.6
+Escavada Wash P10 15 P16EM10 3 168.5 -52.6 35.7 -80.1 329.4
+Escavada Wash P11 16.6 P16EM11 3 167 -35.2 34.6 -69.9 290.7
+Escavada Wash P18 19.1 P16EM13 3 160.2 -53.3 14.9 -73.7 340.9
+Escavada Wash P19 20.5 P16EM14 3 171.5 -40.7 29.2 -75.3 284.9
+Escavada Wash P21 22 P16EM15 3 175.3 -60.8 22.3 -83.1 41.9
+Escavada Wash SS12 42 P16EM21 3 330.8 41.6 20 62.1 145.1
+Escavada Wash SS12 43.3 P16EM22 3 336.5 51.8 14.3 70.3 159
+Escavada Wash P33 52.5 P16EM28 3 1.6 52.3 25 86.6 49.1
+Escavada Wash P37 57 P16EM31 3 353 32.7 30.8 70.8 93.2
+Escavada Wash P39 58.5 P16EM32 3 336.5 49.5 35.1 69.6 153.3
+Escavada Wash P42 59 P16EM34 3 320.1 56.6 13.7 58.2 176.8
+Escavada Wash P40 59.5 P16EM33 3 5.4 61.9 14.2 81.8 281.2
+Escavada Wash SS15 59.5 P16EM35 3 352.4 62.7 4.5 80 219.3
+Escavada Wash SS16 61.5 P16EM37 3 353.8 34.9 20.4 72.4 92.3
+Escavada Wash P45 63 P16EM38 3 354.5 41.8 18.6 77.2 95.8
+Escavada Wash P47 64.5 P16EM39 3 0.8 56.6 13.9 88.7 281.1
+Escavada Wash P47 66 P16EM40 3 32.5 62.7 34.8 64 314.4
+Escavada Wash P48 67.5 P16EM41 3 241.4 86.4 8 32.3 245.1
+Escavada Wash SS21 75.5 P16EM45 3 154.9 -50.8 9.4 -68.7 337.7
+Escavada Wash P52 79 P16EM47 3 175.6 -58.7 18.1 -85.1 28.5
+Escavada Wash P53 81 P16EM48 3 165.4 -59.2 17.7 -77.8 6.1
+Escavada Wash P54 82 P16EM49 3 215.7 -57.6 33.5 -61.6 147.3
+Torreon West P22 29.4 C15TW01 3 185.8 -63.4 8.1 -80 97
+Torreon West P24 31.5 C15TW02 3 167 -55.5 16.3 -79.5 346.6
+Torreon West P29 43.2 C15TW19 3 341.7 51.9 34.6 74.5 155
+Torreon West P39 56.7 C15TW20 3 357.8 63.4 5.2 80.9 242.7
+Torreon West P40 61.4 C15TW21 3 352.4 64.3 30.8 78.4 225.4
+Torreon West P43 66.7 C15TW22 3 347.1 62.1 25.8 77.7 203.2
+Torreon West P49 72 C15TW23 3 358 51.2 22.8 85.6 95.1
+Torreon West P53 77.4 C15TW37 3 159 -42.3 32.1 -68.6 315.8
+Torreon East P7 27.75 C15ET03 3 189.7 -67 34.2 -74.6 97
+Torreon East P19 57 C15ET40 3 337.3 66.5 9.3 69 207.9
+Torreon East P22 61 C15ET38 3 173.8 -28.4 24.9 -68.4 269.2
+Torreon East P22 61.5 C15ET37 3 166.8 -56.4 20.6 -79.4 351.8
+Torreon East SS10 61.75 C15ET36 3 169 -37.3 24.9 -72.1 288.1
+Torreon East P23 63 C15ET21 3 138.4 -52.5 22.6 -55.9 350.2
+Torreon East P23 63.5 C15ET22 3 176.7 -36.9 19.2 -74.3 264.2
+Torreon East P23 64.5 C15ET24 3 209.1 -62.7 6.1 -66.4 133.7
+Torreon East P23 65 C15ET25 3 166.6 -56 23.8 -79.2 349.6
+Torreon East P24 65.2 C15ET26 3 184.9 -47.8 23.2 -81.8 221.2
+Torreon East P24 65.75 C15ET27 3 170.7 -75.2 23 -63.2 63.1
+Torreon East P24 66.25 C15ET28 3 145.1 -40.6 27 -57.3 329.4
+Torreon East P24 66.75 C15ET30 3 133 -47.6 25.5 -50 346
+Torreon East P24 67 C15ET31 3 141.6 -55.5 19.4 -59.1 354.3
+Torreon East P25 70 C15ET32 3 157.5 -60.4 13.5 -71.7 6.5
+Torreon East P26 71.5 C15ET33 3 152.3 -59.8 10.2 -67.9 3.3
+Torreon East P26 72.5 C15ET34 3 101.8 -67 8.1 -33.7 23.1
+
+### page_32
+SanJuanBasin,NewMexico,USA:Implicationsforbasinevolutionandmammalian 331
+APPENDIX3
+Summary of 40Ar/39Ar Results
+ID Power 40Ar/39Ar 37Ar/39Ar 36Ar/39Ar 39Ar K/Ca 40Ar* (%) Age (Ma) ±1σ (Ma)
+K
+(watts) (x 10-3) (x10-15mol)
+H16-SJ-11,Detrital Sanidine, J=0.0018728±0.03%, IC=1.010695±0.0017517, NM-291D, Lab#=65815, Argus VI
+39 4.5 18.96 0.0162 1.725 0.309 31.5 97.3 62.16 0.12
+65 4.5 18.60 0.0045 0.4969 0.794 113.3 99.2 62.174 0.047
+83 4.5 18.84 0.0110 1.252 0.819 46.3 98.0 62.231 0.048
+44 4.5 18.64 0.0032 0.5331 0.926 158.8 99.2 62.269 0.041
+80 4.5 18.58 0.0056 0.3124 0.986 91.0 99.5 62.272 0.039
+46 4.5 18.66 0.0052 0.5740 0.920 98.6 99.1 62.280 0.041
+08 4.5 18.70 0.0088 0.7001 0.861 58.2 98.9 62.286 0.043
+79 4.5 18.57 0.0072 0.2567 1.423 71.3 99.6 62.290 0.029
+72 4.5 18.66 0.0055 0.5750 0.699 92.1 99.1 62.300 0.052
+85 4.5 18.69 0.0045 0.6524 0.846 113.1 99.0 62.311 0.045
+06 4.5 18.73 0.0051 0.7722 1.257 99.7 98.8 62.340 0.032
+61 4.5 18.70 0.0098 0.6443 0.907 52.0 99.0 62.342 0.041
+04 4.5 18.84 0.0060 1.122 1.524 85.0 98.2 62.348 0.028
+09 4.5 18.60 0.0066 0.3011 1.438 77.2 99.5 62.356 0.029
+07 4.5 19.52 0.0055 3.361 0.802 93.5 94.9 62.394 0.050
+27 4.5 19.23 0.0115 2.397 0.592 44.5 96.3 62.399 0.066
+17 4.5 19.07 0.0045 1.853 1.214 114.6 97.1 62.400 0.034
+05 4.5 18.72 0.0046 0.6558 1.235 109.9 99.0 62.411 0.032
+03 4.5 18.62 0.0052 0.3196 2.411 98.7 99.5 62.414 0.018
+32 4.5 18.70 0.0073 0.5564 1.063 70.3 99.1 62.426 0.036
+52 4.5 18.76 0.0045 0.7667 0.577 114.5 98.8 62.427 0.061
+31 4.5 18.79 0.0089 0.8474 0.535 57.0 98.7 62.435 0.072
+24 4.5 18.62 0.0048 0.2894 1.283 106.8 99.5 62.439 0.030
+35 4.5 18.61 0.0071 0.2380 1.160 71.8 99.6 62.444 0.031
+77 4.5 18.60 0.0052 0.2157 1.745 98.5 99.7 62.446 0.023
+87 4.5 18.61 0.0061 0.2470 1.430 84.1 99.6 62.449 0.027
+54 4.5 18.73 0.0058 0.6516 0.903 88.4 99.0 62.456 0.042
+64 4.5 18.63 0.0046 0.2954 2.033 111.1 99.5 62.456 0.020
+67 4.5 18.72 0.0100 0.6020 1.038 50.8 99.1 62.459 0.039
+88 4.5 18.73 0.0111 0.6328 0.883 45.9 99.0 62.462 0.043
+66 4.5 18.78 0.0052 0.7859 1.447 97.5 98.8 62.464 0.027
+59 4.5 18.68 0.0065 0.4706 1.032 78.4 99.3 62.468 0.039
+71 4.5 18.67 0.0076 0.4394 0.986 67.3 99.3 62.469 0.040
+43 4.5 18.77 0.0037 0.7539 1.056 137.2 98.8 62.475 0.037
+56 4.5 18.91 0.0108 1.214 0.543 47.2 98.1 62.484 0.068
+26 4.5 18.67 0.0055 0.4128 2.265 92.6 99.3 62.484 0.019
+78 4.5 18.70 0.0053 0.5131 1.087 95.5 99.2 62.487 0.038
+12 4.5 18.69 0.0031 0.4843 1.988 164.7 99.2 62.490 0.021
+74 4.5 18.69 0.0040 0.4660 1.423 126.1 99.3 62.490 0.028
+23 4.5 18.75 0.0041 0.6532 1.549 124.3 99.0 62.494 0.027
+33 4.5 18.69 0.0051 0.4473 1.920 100.7 99.3 62.496 0.021
+19 4.5 18.73 0.0072 0.6112 0.991 71.1 99.0 62.500 0.039
+29 4.5 18.67 0.0032 0.3961 1.452 158.1 99.4 62.500 0.027
+25 4.5 18.78 0.0048 0.7506 2.293 106.6 98.8 62.501 0.019
+53 4.5 18.73 0.0057 0.5935 1.160 89.5 99.1 62.502 0.034
+82 4.5 18.82 0.0058 0.9105 1.509 87.8 98.6 62.502 0.029
+48 4.5 18.70 0.0051 0.4923 0.738 99.7 99.2 62.509 0.052
+34 4.5 18.67 0.0054 0.3885 1.140 94.2 99.4 62.512 0.035
+60 4.5 18.67 0.0027 0.3785 1.064 190.2 99.4 62.513 0.035
+22 4.5 18.67 0.0024 0.3638 0.885 216.5 99.4 62.516 0.042
+84 4.5 18.69 0.0068 0.4535 1.402 74.6 99.3 62.519 0.028
+86 4.5 18.63 0.0057 0.2374 1.349 88.8 99.6 62.524 0.029
+58 4.5 18.71 0.0048 0.4906 1.204 105.5 99.2 62.546 0.033
+30 4.5 18.85 0.0049 0.9480 1.043 104.5 98.5 62.555 0.039
+15 4.5 18.77 0.0047 0.6691 1.537 107.7 98.9 62.556 0.027
+41 4.5 18.69 0.0045 0.4059 1.698 113.2 99.4 62.557 0.024
+62 4.5 18.76 0.0031 0.6351 1.190 163.5 99.0 62.561 0.034
+63 4.5 18.75 0.0040 0.5922 1.375 126.9 99.1 62.563 0.029
+21 4.5 18.73 0.0044 0.5220 1.249 115.6 99.2 62.570 0.034
+18 4.5 18.74 0.0054 0.5593 1.357 94.3 99.1 62.577 0.029
+89 4.5 18.64 0.0055 0.2137 2.039 92.5 99.7 62.584 0.020
+68 4.5 18.74 0.0066 0.5386 1.298 77.4 99.2 62.603 0.030
+76 4.5 18.72 0.0033 0.4339 1.266 155.8 99.3 62.613 0.031
+45 4.5 18.73 0.0059 0.4501 1.904 87.1 99.3 62.647 0.022
+47 4.5 18.80 0.0032 0.6781 0.680 158.6 98.9 62.653 0.057
+
+### page_33
+332 C.Leslieandothers—High-resolutionmagnetostratigraphyoftheUpperNacimientoFormation,
+APPENDIX3
+(continued)
+ID Power 40Ar/39Ar 37Ar/39Ar 36Ar/39Ar 39Ar K/Ca 40Ar* (%) Age (Ma) ±1σ (Ma)
+K
+(watts) (x 10-3) (x10-15mol)
+H16-SJ-11,Detrital Sanidine, J=0.0018728±0.03%, IC=1.010695±0.0017517, NM-291D, Lab#=65815, Argus VI
+38 4.5 18.73 0.0056 0.4189 2.099 91.8 99.3 62.665 0.021
+69 4.5 18.79 0.0048 0.2733 1.730 105.5 99.6 63.018 0.024
+70 4.5 20.30 0.0062 0.2579 1.206 82.4 99.6 68.007 0.035
+51 4.5 20.48 0.0034 0.8047 1.137 149.2 98.8 68.075 0.036
+13 4.5 20.43 0.0059 0.6202 1.859 86.9 99.1 68.112 0.023
+73 4.5 20.36 0.0030 0.3138 1.392 169.0 99.5 68.156 0.031
+40 4.5 20.50 0.0040 0.4815 2.593 126.3 99.3 68.454 0.019
+57 4.5 20.55 0.0048 0.6314 0.965 105.3 99.1 68.473 0.044
+49 4.5 20.85 0.0019 0.3680 1.350 269.5 99.5 69.740 0.031
+75 4.5 21.06 0.0079 0.6135 0.830 64.5 99.1 70.172 0.049
+81 4.5 20.95 0.0044 0.2100 2.826 115.9 99.7 70.228 0.018
+55 4.5 22.94 0.0029 3.425 0.422 177.9 95.6 73.66 0.10
+02 4.5 32.49 0.0090 0.9612 1.675 56.6 99.1 107.18 0.18
+42 4.5 68.99 0.0201 1.217 0.965 25.4 99.5 221.32 0.70
+37 4.5 91.91 -0.0548 4.230 0.253 - 98.6 287.0 2.6
+11 4.5 109.5 0.0248 1.153 0.802 20.6 99.7 340.4 1.3
+10 4.5 130.2 -0.0010 1.411 0.958 - 99.7 398.4 1.5
+01 4.5 205.1 0.0556 3.279 0.195 9.2 99.5 592.6 4.4
+16 4.5 234.6 0.0151 6.574 0.532 33.8 99.2 662.1 3.9
+20 4.5 475.0 0.0112 1.869 0.701 45.5 99.9 1163.8 9.0
+50 4.5 501.0 0.0451 1.870 0.517 11.3 99.9 1210.4 9.7
+REFERENCES
+Archibald,J.D.,Clemens,W.A.,Gingerich,P.H.,Krause,D.W.,Lindsay,E.H.,andRose,K.D.,1987,First
+North American land mammal ages of the Cenozoic Era, in Woodburne, M. O., editor, Cenozoic
+mammalsofNorthAmerica:Berkeley,UniversityofCaliforniaPress,p.24–76.
+Atchley,S.C.,Nordt,L.C.,Dworkin,S.I.,Cleveland,D.M.,Mintz,J.S.,andHarlow,R.H.,2013,Alluvial
+stackingpatternanalysisandsequencestratigraphy:Conceptsandcasestudies,inDriese,S.G.,and
+Nordt,L.C.,editors,NewFrontiersinPaleopedologyandTerrestrialPaleoclimatology:SEPMSpecial
+Publication,v.104,p.109–129.
+Butler, R. F., and Lindsay, E. H., 1985, Mineralogy of Magnetic Minerals and Revised Magnetic Polarity
+StratigraphyofContinentalSediments,SanJuanBasin,NewMexico:TheJournalofGeology,v.93,n.5,
+p.535–554,https://doi.org/10.1086/628979
+Butler, R. F., and Taylor, L. H., 1978, A middle Paleocene paleomagnetic pole from the Nacimiento
+Formation,SanJuanBasin,NewMexico:Geology,v.6,n.8,p.495–498,https://doi.org/10.1130/0091-
+7613(1978)6(cid:4)495:AMPPPF(cid:6)2.0.CO;2
+Butler, R. F., Lindsay, E. H., Jacobs, L. L., and Johnson, N. M., 1977, Magnetiostratigraphy of the
+Cretaceous-Tertiary boundary in the San Juan Basin, New Mexico: Nature, v. 267, p. 318–323,
+https://doi.org/10.1038/267318a0
+Cande,S.C.,andKent,D.V.,1992,AnewgeomagneticpolaritytimescalefortheLateCretaceousand
+Cenozoic:JournalofGeophysicalResearch-SolidEarth,v.97,n.B10,p.13917–13951,https://doi.org/
+10.1029/92JB01202
+Cather,S.M.,2004,LaramideorogenyincentralandnorthernNewMexicoandsouthernColorado,in
+Mack, G. H., and Giles, K. A. editors, Geology of New Mexico: A geologic history: New Mexico
+GeologicalSociety,SpecialPublication11,p.202–248.
+Chapin,C.E.,andCather,S.M.,1981,EocenetectonicsandsedimentationintheColoradoPlateau-Rocky
+Mountainarea,inDickinson,W.R.,andPayne,W.D.,editors,RelationsofTectonicstoOreDepositsin
+theSouthernCordillera:ArizonaGeologicalSocietyDigest,v.14,p.173–198.
+Davis,A.J.,Peppe,D.J.,Atchley,S.C.,Williamson,T.E.,andFlynn,A.G.,2016,Climateandlandscape
+reconstructionoftheArroyoChijuillitaMemberoftheNacimientoFormation,SanJuanBasin,New
+Mexico: Providing environmental context to early Paleocene mammal evolution: Palaeogeography,
+Palaeoclimatology,Palaeoecology,v.463,p.27–44,https://doi.org/10.1016/j.palaeo.2016.09.011
+Dunlop,D.J.,andOzdemir,O.,1997,RockMagnetism.FundamentalsandFrontiers:NewYork,Cambrdige
+UniversityPress,573p.,https://doi.org/10.1017/CBO9780511612794
+Fisher,R.A.,1953,Dispersionofasphere:ProceedingsoftheRoyalSocietyofLondon,v.A217,n.1130,
+p.295–305,https://doi.org/10.1098/rspa.1953.0064
+Granger,W.,1917,NotesonPaleoceneandlowerEocenemammalhorizonsofnorthernNewMexicoand
+southernColorado:BulletinoftheAmericanMuseumofNaturalHistory,v.37,p.821–830,http://
+hdl.handle.net/2246/1736
+
+### page_34
+SanJuanBasin,NewMexico,USA:Implicationsforbasinevolutionandmammalian 333
+Guyodo,Y.,LaPara,T.M.,Anschutz,A.J.,Penn,R.L.,Banerjee,S.K.,Geiss,C.E.,andZanner,W.,2006,
+Rockmagnetic,chemicalandbacterialcommunityanalysisofamodernsoilfromNebraska:Earthand
+PlanetaryScienceLetters,v.251,n.1–2,p.168–178,https://doi.org/10.1016/j.epsl.2006.09.005
+Hobbs,K.M.,ms,2016,Sedimentation,pedogenesis,andpaleoclimateconditionsinthePaleoceneSan
+JuanBasin,NewMexico,U.S.A.:Albuquerque,NewMexico,UniversityofNewMexico,Ph.D.thesis,
+160p.
+Kirschvink,J.L.,1980,Theleast-squareslineandplaneandtheanalysisofpaleomagneticdata:Geophysical
+JournalInternational,v.62,n.3,p.699–718,https://doi.org/10.1111/j.1365-246X.1980.tb02601.x
+Kodama, K. P., 1997, A successful rock magnetic technique for correcting paleomagnetic inclination
+shallowing:CasestudyoftheNacimientoFormation,NewMexico:JournalofGeophysicalResearch-
+SolidEarth,v.102,n.B3,p.5193–5205,https://doi.org/10.1029/96JB03833
+Kuiper,K.F.,Deino,A.,Hilgen,F.J.,Krijgsman,W.,Renne,P.R.,andWijbrans,J.R.,2008,Synchronizing
+the rock clocks of Earth history: Science, v. 320, n. 5875, p. 500–504, https://doi.org/10.1126/
+science.1154339
+Lindsay,E.H.,Jacobs,L.L.,andButler,R.F.,1978,BiostratigraphyandmagnetostratigraphyofPaleocene
+terrestrialdeposits,SanJuanBasin,NewMexico:Geology,v.6,n.7,p.425–429,https://doi.org/10.1130/
+0091-7613(1978)6(cid:4)425:BAMOPT(cid:6)2.0.CO;2
+Lindsay,E.H.,Butler,R.F.,andJohnson,N.M.,1981,Magneticpolarityzonationandbiostratigraphyof
+LateCretaceousandPaleocenecontinentaldeposits,SanJuanBasin,NewMexico:AmericanJournalof
+Science,v.281,n.4,p.390–435,https://doi.org/10.2475/ajs.281.4.390
+Lofgren,D.L.,Lillegraven,J.A.,Clemens,W.A.,Gingerich,P.D.,andWilliamson,T.E.,2004,Paleocene
+Biochronology:ThePuercanThroughClarkforkianLandMammalAges,inWoodburne,M.O.,editor,
+Late Cretaceous and Cenozoic Mammals of North America: New York, Columbia University Press,
+p.43–105,https://doi.org/10.7312/wood13040-005
+Lowrie,W.,1990,Identificationofferromagneticmineralsinarockbycoercivityandunblockingtempera-
+ture properties: Geophysical Research Letters, v. 17, n. 2, p. 159–162, https://doi.org/10.1029/
+GL017i002p00159
+Matthew,W.D.,1937,PaleocenefaunasoftheSanJuanBasin,NewMexico:TransactionsofthePhilosophi-
+calSociety,v.30,p.1–510,https://doi.org/10.2307/1005521
+McFadden, P. L., and McElhinney, M. W., 1990, Classification of the reversal test in palaeomagnetism:
+Geophysical Journal International, v. 103, n. 3, p. 725–729, https://doi.org/10.1111/j.1365-
+246X.1990.tb05683.x
+Min, K., Mundil, R., Renne, P. R., and Ludwig, K. R., 2000, A test for systematic errors in 40Ar/39Ar
+geochronology through comparison with U–Pb analysis of a 1.1 Ga rhyolite: Geochimica et Cos-
+mochimicaActa,v.64,n.1,73–98,https://doi.org/10.1016/S0016-7037(99)00204-5
+Ogg,J.G.,2012,Geomagneticpolaritytimescale,inGradstein,F.M.,Ogg,J.G.,Schmitz,M.D.,andOgg,
+G.D.,editors,TheGeologicTimeScale:Oxford,UnitedKingdom,Elsevier,p.85–113,https://doi.org/
+10.1016/B978-0-444-59425-9.00005-6
+Osborn,H.F.,1929,ThetitanotheresofancientWyoming,Dakota,andNebraska:U.S.GeologicalSurvey,
+Monograph55,p.1–701.
+Russell, D. E., 1967, Le Paleocene continental d’Amerique du Nord: Memoires du Museum National
+d’HistoireNaturelle(NouvelleSeries),SeriesC,v.13,p.1–32.
+Sinclair,W.J.,andGranger,W.,1914,PaleocenedepositsoftheSanJuanBasin,NewMexico:American
+MuseumofNaturalHistoryBulletin,v.33,p.297–316.
+SoilSurveyStaff,1999,Soiltaxonomy:Abasicsystemofsoilclassificationformakingandinterpretingsoil
+surveys.U.S.DepartmentofAgriculture-NRCSAgricultureHandbook:Washington,U.S.Government
+PrintingOffice,869p.
+Steiger, R. H., and Jäger, E., 1977, Subcommission on geochronology: Convention on the use of decay
+constantsingeo-andcosmochronology:EarthandPlanetaryScienceLetters,v.36,n.3,p.359–362,
+https://doi.org/10.1016/0012-821X(77)90060-7
+Szalay,F.S.,andLucas,S.G.,1996,ThepostcranialmorphologyofPaleoceneChriacusandMixodectesand
+thephylogeneticrelationshipsofarchontanmammals:NewMexicoMuseumofNaturalHistoryand
+Science,v.7,p.1–47.
+Taylor,J.R.,1982,AnIntroductiontoErrorAnalysis:TheStudyofUncertaintiesinPhysicalMeasurements:
+MillValley,California,UniversityScienceBooks,270p.
+Taylor,L.H.,ms,1977,GeochronologyofTorrejoniansediments,NacimientoFormation,SanJuanBasin,
+NewMexico:Tucson,Arizona,UniversityofArizona,M.S.thesis,93p.
+Taylor,L.H.,ms,1984,ReviewofTorrejonianmammalsfromtheSanJuanBasin,NewMexico:Tucson,
+Arizona,UniversityofArizona,Ph.D.thesis,553p.
+Taylor,L.H.,andButler,R.F.,1980,Magnetic-polaritystratigraphyofTorrejoniansediments,Nacimiento
+Formation, San Juan Basin, New Mexico: American Journal of Science, v. 280, n. 2, p. 97–115,
+https://doi.org/10.2475/ajs.280.2.97
+Torsvik,T.H.,Mu¨ller,R.D.,VanderVoo,R.,Steinberger,B.,andGaina,C.,2008,Globalplatemotion
+frames:Towardaunifiedmodel:ReviewsofGeophysics,v.46,n.3,44p.,https://doi.org/10.1029/
+2007RG000227
+Tsentas,C.,1981,MammalianbiostratigraphyofthemiddlePaleocene(Torrejonian)strataoftheSanJuan
+Basin.NotesonTorreonWashandthestatusofthePantolambdaandDeltatheriumfaunal“zones”,in
+Lucas, S. G., Rigby, J. K., Jr., and Kues B. S., editors, Advances in San Juan Basin paleontology:
+Albuquerque,NewMexico,UniversityofNewMexicoPress,p.262–292.
+Watson,G.S.,1956,Atestforrandomness:RoyalAstronomicalSocietyGeophysicalSupplement:Monthly
+Notices,v.7,n.4,p.160–161,https://doi.org/10.1111/j.1365-246X.1956.tb05561.x
+Weissmann,G.S.,Hartley,A.J.,Nichols,G.J.,Scuderi,L.A.,Olsen,M.,Buehler,H.,andBanteah,R.,2010,
+
+### page_35
+334 C.Leslieandothers
+Fluvialforminmoderncontinentalsedimentarybasins:Distributivefluvialsystems:Geology,v.38,n.1,
+p.39–42,https://doi.org/10.1130/G30242.1
+Williamson, T. E., 1996, The beginning of the age of mammals in the San Juan Basin, New Mexico:
+Biostratigraphy and evolution of Paleocene mammals of the Nacimiento Formation: New Mexico
+MuseumofNaturalHistoryandScienceBulletin,v.8,p.1–141.
+Williamson,T.E.,andLucas,S.G.,1992,StratigraphyandmammalianbiostratigraphyofthePaleocene
+Nacimiento Formation, southern San Juan Basin, New Mexico: New Mexico Geological Society
+Guidebook,43rdFieldConference,SanJuanBasinIV,p.38–42.
+Williamson, T. E., Nichols, D. J., and Weil, A., 2008, Paleocene palynomorph assemblages from the
+Nacimiento Formation, San Juan Basin, New Mexico, and their biostratigraphic significance: New
+MexicoGeology,v.30,n.1,p.3–11.
+Wilson,R.W.,1956,AnewmultituberculatefromthePaleoceneTorrejonfaunaofNewMexico:Transac-
+tionsoftheKansasAcademyofScience,v.59,n.1,p.76–84.
+Wood,H.E.,Chaney,R.W.,Clark,J.,Colbert,E.H.,Jepsen,G.L.,Reeside,J.B.,Jr.,andStock,C.,1941,
+NomenclatureandcorrelationoftheNorthAmericanContinentalTertiary:BulletinoftheGeological
+SocietyofAmerica,v.52,n.1,p.1–48,https://doi.org/10.1130/GSAB-52-1

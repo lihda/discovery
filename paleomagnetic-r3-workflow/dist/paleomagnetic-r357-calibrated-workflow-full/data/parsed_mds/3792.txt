@@ -1,0 +1,1518 @@
+### page_1
+Precambrian Research 244 (2014) 192–206
+Contents lists available at ScienceDirect
+Precambrian Research
+jo ur nal home p ag e: www.elsevier.com/locate/precamres
+A palaeomagnetic and 40Ar/39Ar study of mafic dykes in southern
+Sweden: A new Early Neoproterozoic key-pole for the Baltic Shield
+and implications for Sveconorwegian and Grenville loops
+Sten-Åke Elminga,∗, Sergei A. Pisarevskyb,c, Paul Layerd, Göran Bylunde
+aDepartment of Civil, Environmental and Natural Resources Engineering, Luleå University of Technology, SE-07187 Luleå, Sweden
+bAustralian Research Council Centre of Excellence for Core to Crust Fluid Systems (CCFS) and the Institute for Geoscience Research (TIGeR),
+Department of Applied Geology, Curtain University, GPO Box U1987, Perth, WA 6845, Australia
+cSchool of Earth and Environment, University of Western Australia, 35 Stirling Highway, Crawley, WA 6009, Australia
+dGeophysical Institute, University of Alaska Fairbanks, AK, USA
+eDepartment of Geology, GeoBiosphere Science Centre, Lund University, Sölvegatan 12, SE-22362 Lund, Sweden
+a r t i c l e i n f o
+Article history:
+Received 2 March 2013
+Received in revised form 22 August 2013
+Accepted 5 December 2013
+Available online 25 December 2013
+Keywords:
+Palaeomagnetism
+Key
+a
+pole
+Neoproterozoic
+Mesoproterozoic
+Palaeogeography
+Baltica
+b s t r a c t
+We present the results of palaeomagnetic and40Ar/39Ar studies of the Proterozoic mafic dykes in the
+Norrköping and Falun areas of the southern Sweden. The primary remanence of two 939 ± 3 Ma dykes is
+supported by the rigorous baked contact test. The remanence direction of two other dykes, one of which
+was previously U–Pb dated at 946 ± 1 Ma is close to the reverse direction of 939 Ma dykes. Using these
+results together with previously published 935 ± 5 Ma palaeomagnetic data from the Göteborg-Slussen
+mafic dykes and some dykes from the Falun area we calculated the mean 946–935 Ma palaeopole for
+Baltica (0.9◦S, 240.7◦E, A95= 6.7), which can be qualified as the key pole. Using this pole together with
+other date we conclude that the Grenville and Sveconorwegian loops of Laurentian and Baltican Apparent
+Polar Wander Paths are temporary displaced by 100–150 m.y. We propose new palaeogeographic recons-
+tructions of Baltica and Laurentia at ca. 940 Ma and ca. 850 Ma. We also present two new Mesoproterozoic
+non-key poles from 1410 Ma and 1595 Ma dykes.
+© 2014 Elsevier B.V. All rights reserved.
+1. Introduction
+Assembly of continents into a late Precambrian superconti-
+nent, Rodinia, has been suggested in a number of studies (e.g.
+McMenamin and McMenamin, 1990; Dalziel, 1991, 1997; Hoffman,
+1991). Models of Rodinia are mostly based on ca. 1350–1000 Ma
+orogenic belts, tectonic links between mobile belts across the cra-
+tonic margins, global analyses of the balance of Neoproterozoic
+and Early Palaeozoic continental margins and some palaeomag-
+netic data. Early Neoproterozoic tectonic reconstructions suggest
+a connection between Baltica and Laurentia (e.g. Hoffman, 1991;
+Dalziel, 1991, 1997; Weil et al., 1998; Dalziel et al., 2000; Pisarevsky
+et al., 2003; Li et al., 2008) in Rodinia. Since palaeomagnetism
+is the only tool for reconstructing the latitudinal position and
+orientation of cratons it plays an important role for these recons-
+tructions. However, reliable palaeomagnetic data are sparse (e.g.
+Buchan et al., 2001) and more “key” palaeomagnetic poles, i.e. well
+dated poles that fulfill criteria for original magnetization, etc. (Van
+∗
+Corresponding author. Tel.: +46 920 491392; fax: +46 920491697.
+E-mail address: sten-ake.elming@ltu.se (S.-Å.
+der
+Elming).
+Voo, 1990; Buchan et al., 2000) are needed for testing the
+palaeogeographic reconstructions. Due to the often high contents
+of magnetite, fast cooling and thereby small magnetic grain sizes
+and stable remanent magnetizations, mafic dykes are often excel-
+lent recorders of the Earth magnetic field. Palaeomagnetic data
+from mafic dykes forms a significant part in the palaeomagnetic
+databases (e.g. McElhinny and Lock, 1996; Pesonen et al., 2003;
+Pisarevsky, 2005).
+In southern Sweden Early Neoproterozoic dyke swarms are
+widespread and have been the target for a large number of
+palaeomagnetic studies (e.g. Poorter, 1975; Patchett and Bylund,
+1977; Bylund, 1985, 1992; Bylund and Elming, 1992; Bylund and
+Pisarevsky, 2002; Pisarevsky and Bylund, 1998, 2006). Most of these
+studies are from dolerite dykes in the Protogine Zone (PZ; Fig. 1)
+that defines a metamorphic boundary that separates the Southwest
+Scandinavian province in the west from the Transscandinavian
+Igneous Belt (TIB; Patchett et al., 1987) and the Southern Sve-
+cofennian subprovince (SSv) in the east (e.g. Gaál and Gorbatschev,
+1987). The TIB and the Southwest Scandinavian province formed
+by crystal growth of the Baltic Shield with a westward younging
+during the TIB (ca. 1850–1670; Gorbatschev, 2004) and the Goth-
+ian period (1700–1550 Ma) (e.g. Åhäll and Larson, 2000; Andersen
+0301-9268/$ – see front matter © 2014 Elsevier B.V. All rights reserved.
+http://dx.doi.org/10.1016/j.precamres.2013.12.007
+
+### page_2
+S.-Å. Elming et al. / Precambrian Research 244 (2014) 192–206 193
+Fig. 1. The geology of the south-western part of the Fennoscandian Shield (a). The inlet in figure (a) marks the area where this study was concentrated on.
+et al., 2004, Högdahl et al., 2004). From the late Palaeoproterozoic
+time the continental margin of a suggested continuous Laurentia-
+Baltica was the location of long lived subduction and terranes’
+accretion (e.g. Åhäll et al., 2000; Karlström et al., 2001; Andersen
+et al., 2004; Bingen et al., 2008; Pisarevsky and Bylund, 2010).
+The Sveconorwegian (in Laurentia Grenvillian; ca. 1150–900 Ma)
+continent-continent collision resulted in deformation and meta-
+morphism of the Gothian orogen in Southwestern Sweden (e.g.
+Åhäll and Gower, 1997). The event resulted in a major deformation
+zone, the Mylonite Zone (Fig. 1; e.g. Gorbatschev, 1980), a zone that
+has been active during both Sveconorwegian thrusting and subse-
+quent phases of exhumation (e.g. Stephens et al., 1996; Berglund,
+1997).40Ar/39Ar hornblende ages from the Mylonite Zone indicate
+deformations as late as ca. 915 Ma ago (Page et al., 1996), while ca.
+40–70 km away from the Mylonite Zone two Sveconorwegian ages
+were identified, at 934–931 Ma and 1007–960 Ma, the younger ages
+suggested to be related to orogenic uplift. Deformation up to 40 km
+east of the Protogine Zone has been demonstrated from structural
+mapping (Wahlgren et al., 1994). Palaeomagnetic data older than
+ca. 900 Ma from southwestern Sweden should therefore be used
+with caution, since they may have been subjects to metamorphic
+overprints or tectonically disturbed and therefore not necessarily
+representing the Baltic Shield as a whole.
+Palaeomagnetic results from 935 ± 3 Ma mafic dykes (Göteborg-
+Slussen dykes; Fig. 1) in the Southwestern Scandinavian province,
+west of the Mylonite Zone, were presented by Pisarevsky and
+Bylund (2006). The data are of good quality, however, no full field
+test demonstrating an original magnetization was presented. Here
+we will present a new ca. 935 Ma-highly reliable pole for the Baltic
+Shield. This is based on new palaeomagnetic data fulfilling field
+test of primary magnetization and 40Ar/39Ar age determinations
+from mafic dykes in the eastern part of the Southern Svecofen-
+nian subprovince. This pole is compared and combined with the
+palaeomagnetic data from the 935 Ma dykes in the Southwest
+Scandinavian province and 946 Ma dykes from Dalarna. The
+combined
+new
+palaeomagnetic pole forms an important input to the
+discussion of the shape and timing of the Sveconorwegian Appar-
+ent Polar Wander Path (APWP) loop (e.g. Patchett and Bylund, 1977;
+Elming et al., 1993), which is similar in shape to the Grenville Loop
+in the Laurentia APWP (e.g. Hyodo and Dunlop, 1993; Weil et al.,
+1998) and has been a basis for palaeogeographic reconstruction of
+Baltica vs. Laurentia at 935 Ma.
+2. Geology, sampling and laboratory technique
+Mafic dykes in the southeastern part of the Southern Svecofen-
+nian subprovince (Figs. 1 and 2) comprise several dyke swarms,
+Fig. 2. Basic dykes in southern central Sweden (modified from Risku-Norja, 1992).
+Sampling localities for this study are marked by filled circles.
+
+### page_3
+194 S.-Å. Elming et al. / Precambrian Research 244 (2014) 192–206
+Fig. 3. The crossing dykes at site 1. The location of the collected samples for the palaeomagnetic analyses are marked by black dots and those also used for40Ar/39Ar whole
+rock dating are marked by a white cross in the black dot. Close to the sample 88 in dyke O1 a number of samples (152–156) have been collected close to each other at
+increasing distance from the younger dyke. In dyke O2 a fragment of the host rock is included and marked by the thin black line.
+predominantly trending in E–W directions, however, NW–SE, N–S
+and a few NE–SW trending dykes are also observed (Risku-Norja,
+1992). The dykes intrude gneissic and granitic rocks that were
+formed during the Svecofennian orogeny at 1.9–1.8 Ga ago. In the
+gneisses there are often amphibolite layers that have been inter-
+preted as intrusive sills from a late stage of the orogeny (Wikström,
+1975). There are two major groups of 1.9–1.8 Ga intrusive rocks, a
+synorogenic suite of granitic to ultrabasic composition and a sero-
+rogenic suite with mainly migmatite gneisses. The rocks have been
+deformed and sometimes fractured.
+The dykes are of tholeiitic to alkaline composition (Risku-Norja,
+1992) and they were intruded after the cratonization following the
+Svecofennian orogeny, thus distinctly different from intraorogenic
+Svecofennian dykes also found in the region. Importantly the stud-
+ied dykes are located relatively far from (>100 km), and to the east
+of the Protogine Zone and it is unlikely that they were influenced
+by late Sveconorwegian overprint. Trace elements data suggest that
+the dykes originate from a mantle source (Risku-Norja, 1992). E–W
+trending dykes, the Breven-Hällefors dykes (Bylund, 1985), have
+been dated at ca. 1595 ± 3 Ma (U–Pb, baddeleyite; Söderlund et al.,
+2005; Rejmyre, Fig. 2) and the N–S trending dykes probably belong
+to the subparallel Blekinge Dalarna Dolerites (BDD), which
+been
+have
+dated in the range 978–946 Ma (U–Pb baddeleyite; Söderlund
+et al., 2005). Apart from the Breven-Hällefors dykes no ages have
+been reported for dykes in the area of this study (Fig. 2).
+In this study 97 samples were collected from 8 mafic dykes
+(Figs. 1 and 2; localities 1–5) in the southeastern part of the South-
+ern Svecofennian subprovince and from one dyke (Falun, locality
+6; Fig. 1) north of this area. In one locality (locality 1; Fig. 3)
+samples were collected from two NE (N38◦E) trending dykes (Y1
+and Y2) that cut two NW (N53◦W) trending dykes (O1 and O2),
+which formed an excellent opportunity for baked contact tests. The
+younger Y1 and Y2 dykes are subvertical, while the O1 and O2 dip
+ca. 48◦to the SW. Chilled margins are observed in both generations
+of dykes in the contact to the gneiss and in for the younger dykes
+also in contact to the older dyke. The samples were collected from
+various parts of the dykes and for the baked contact tests in the
+older dykes at increasing distances from the younger dykes.
+Two other dykes, trending NW (localities 2 and 3, N50–60◦W),
+were sampled to the west of locality 1, at a distance of 14 km
+and 2 km, respectively (Fig. 2). Both dykes are ca. 1 m wide and
+subvertical. The dykes at sites 4 (Rejmyre) and 5 (Hällefors) are
+E–W trending and belong to the Breven-Hällefors dyke system. The
+Rejmyre dyke is ca. 15 m wide and located ca. 40 km northwest of
+
+### page_4
+S.-Å. Elming et al. / Precambrian Research 244 (2014) 192–206 195
+Table 1
+Summary of39Ar/40Ar whole rock ages of the dykes at site 1.
+Sample Unit Run Integrated age Plateau
+(Ma)
+(P),
+Weighted average
+(W) in
+Fractions 39Ar
+Ma
+release Mean square
+weighted
+deviation
+D96.99 Y1 dyke #1 959 ± 3 938 ± 4 (W) 8 45 2.9
+D99.99 Y1 dyke #1 967 ± 3 941 ± 6 (W) 10 46 4.4
+Average: 939 ± 3
+D158.01 O2 dyke #1 1517 ± 4 1417 ± 9 (W) 9 56 3.9
+D160.01 O2 dyke #1 1561 ± 5 1423 ± 6 (P) 8 52 1.6
+D162.01 O2 dyke #1 1478 ± 5 1397 ± 6 (P) 10 58 1.3
+Average: 1411 ± 9
+D93.99 Baked O1 dyke in contact with Y1 #1 1300 ± 4 1172 ± 10 (W) 4 34 3.8
+#2 1385 ± 4 1176 ± 14 (W) 3 32 12.4
+Average: 1178 ± 8
+D89.99 O1 0.95 m from Y1 #1 1354 ± 4 1385 ± 28 (W) 7 66 38.0
+#2 1299 ± 4 1376 ± 13 (W) 5 49 7.4
+Average: 1378 ± 12
+D88.99 O1 1.4 m from Y1 #1 1355 ± 4 1428 ± 22 (W) 4 49 26.1
+#2 1264 ± 4 1386 ± 15 (W) 3 31 8.1
+Average: 1399 ± 20
+For samples from the baked contact and hybrid zone in the dykes O1 there are two runs to check for reproducibility. The weighted averages refer to the weighted average of
+plateau-like steps.
+the locality 1. The rock at locality 5 forms a part the ca. 1 km wide
+Hällefors dolerite dyke and it is located ca. 60 km north–north–east
+of locality 1. Both dykes were sampled from their central parts.
+The last dyke included in this study (Falun, locality 6, Fig. 1) is
+situated north of the area described by Risku-Norja (1992). This
+dyke belongs to the 978–946 Ma old Blekinge Dalarna dolerite
+(BDD) dyke swarm (Solymon et al., 1992; Söderlund et al., 2005). In
+Dalarna different dykes in this swarm has previously been sampled
+for palaeomagnetic studies by Patchett and Bylund (1977), Bylund
+(1985) and Bylund and Elming (1992). Patchett and Bylund (1977)
+collected 10 samples at different locations along the same dyke as
+in locality 6 and here we collected 9 samples in a locality where that
+dyke has been dated at 945.7 ± 1.2 Ma (–-Pb baddeleyite; Söderlund
+et al., 2005).
+A portable rock coring drill was used for the sampling and the
+samples were oriented with sun and magnetic compasses.
+The intensity and direction of remanent magnetization was
+measured with a SQUID (2G-DC) magnetometer and the speci-
+mens were AF-demagnetized in steps of 5 mT up to 30 mT and in
+10 mT steps up to 120 mT. Thermal demagnetizations were per-
+formed using a Schonstedt (TDS1) oven at intervals of 50◦C up to
+500◦C and 10–30◦C for higher temperatures. The remanence vec-
+tors were defined by least square fit of vectors in 3-D space (Torsvik,
+1986; Torsvik et al., 1996) and by principle component analyses
+(Kirschvink, 1980). The magnetic susceptibility was measured on
+crushed specimens during heating and cooling using a (cid:2)appabridge
+(KLY-3 and CS-3, AGICO).
+Specimens from the palaeomagnetic samples were also sub-
+mitted for 40Ar/39Ar whole rock dating at the Geochronology
+laboratory at the University of Alaska, Fairbanks. The cores were
+crushed, washed and sieved to obtain small (∼0.5 mm) whole-
+rock chips for dating. The monitor mineral MMhb-1 (Samson and
+Alexander, 1987) with an age of 513.9 Ma (Lanphere and Dalrymple,
+2000) was used to monitor neutron flux (and calculate the irradi-
+ation parameter, J). The samples and standards were wrapped in
+aluminum foil and loaded into aluminum cans of 2.5 cm diame-
+ter and 6 cm height. The samples were irradiated in position 5c of
+the uranium enriched research reactor of McMaster University in
+Hamilton, Ontario, Canada for 20 MW-h.
+Upon their return from the reactor, the sample and monitors
+were loaded into 2 mm diameter holes in a copper tray that was
+then loaded in a ultra-high vacuum extraction line. The monitors
+were fused, and samples heated in a step-wise manner, using a 6-
+W argon-ion laser following the technique described in York et
+(1981),
+al.
+Layer et al. (1987) and Layer (2000). Argon purification was
+achieved using a liquid nitrogen cold trap and a SAES Zr–Al getter at
+400◦C. The samples were analyzed in a VG-3600 mass spectrom-
+eter at the Geophysical Institute, University of Alaska Fairbanks.
+The argon isotopes measured were corrected for system blank and
+mass discrimination, as well as calcium, potassium and chlorine
+interference reactions following procedures outlined in McDougall
+and Harrison (1999). System blanks generally were 2 × 10−16mol
+40Ar and 2 × 10−18mol36Ar, which are 10–50 times smaller than
+fraction volumes. Mass discrimination was monitored by running
+both calibrated air shots and a zero-age glass sample. These mea-
+surements were made on a weekly to monthly basis to check for
+changes in mass discrimination. Plateau ages (P in Table 1) were
+based on the criteria of three or more contiguous fractions (with
+a roughly constant Ca/K ratio) accounting for more than 50% gas
+release, having a Mean Square Weighted Deviation (MSWD) less
+than 2.5. For samples that show “plateau-like” segments, but not
+meet the criteria, a weighted average age of the plateau-like steps
+is calculated (W in Table 1). Some samples were run twice to check
+for reproducibility. A summary of all the40Ar/39Ar results is given
+in Table 1, with all ages quoted to the ±1 sigma level and calcu-
+lated using the constants of Steiger and Jaeger (1977). Integrated
+and plateau ages include error in the irradiation parameter (0.5%).
+3. 40Ar/39Ar age determinations
+Two samples from the “young” dyke Y1 (samples 96, 99; Fig. 3),
+three samples from the “old” dyke O2 (samples 158, 160, 162) and
+three samples from the contact (sample 93) and hybrid zone in dyke
+O2 (samples 88 and 89) were dated.
+The age spectra from the samples collected in the dyke Y1 (96
+and 99; Fig. 4) exhibit a slight amount of excess argon (anomalous
+old ages for the first steps) and do not meet the criteria for plateaus,
+but weighed mean ages for more than 45% of gas release are iden-
+tical with an average age of 939 ± 3 Ma (Table 1). For sample 99,
+7 fractions comprising 64% of gas release form a well-constrained
+isochron age of 941 ± 3 Ma (Fig. 4), confirming the weighted mean
+age 941 ± 6 Ma.
+The samples from the O2 dyke, which were collected at ca.
+15 m from the contact to younger dykes, show evidence of excess
+argon, especially in the high Ca/K steps. The average age from the
+three samples, two plateau ages and one weighted average age, is
+1411 ± 9 Ma.
+
+### page_5
+196 S.-Å. Elming et al. / Precambrian Research 244 (2014) 192–206
+Fig. 4. 40Ar/39Ar whole rock age data (Table 1) from the dykes at locality 1 (for location of the samples see Fig. 3). The Y (O) denotes dated samples from the young (old) dykes.
+Some samples are run twice to check for reproducibility. For dyke Y1 an isochron age (A) was defined, with fraction included in the calculation shown by the small arrows.
+This age supports the weighted average age of the dyke (C). Ages from the dyke O1 are determined for samples ca. 15 m away from the young dykes (B) and for samples in
+the contact to the dyke Y1, and at 0.95 m and 1.4 m from the contact to Y1(D).
+Sample 93 is collected from the baked contact in dyke O1 (Fig. 3)
+as part of a transect of samples collected at increasing distances
+from the contact to the young dyke Y1. Two runs of this sample
+give reproducible results with age spectra that are saddle-shaped,
+i.e. older at high and low 39Ar release due to excess argon. The
+youngest weighted average age in each saddle is ca. 1173 Ma, which
+means the sample was not totally reset by the intrusion of the dyke
+Y1, but still retains some of its older argon. The spectra steps up
+to an age of ca. 1800 Ma, but a correct age for the dyke is difficult
+to estimate from these data. The samples collected at 0.95 m (89)
+and 1.4 m (88) from the contact were run twice and with repro-
+ducible results. The first part of the spectrum from the sample at
+0.95 m is characterized by argon loss and very anomalous high Ca/K
+ratios, perhaps due to plagioclase microinclusions. The second part
+of the spectrum has low Ca/K ratios, reflecting the groundmass of
+the dyke, and an average age of 1378 ± 12 Ma. This age is about
+30 Ma younger than the age of the O2 dyke as determined on sam-
+ples outside the hybrid zone. That age difference could reflect either
+a different event or a small amount of argon loss due to the young
+dyke intrusion. The third part of the spectrum steps up to ages of ca.
+1700 Ma and probably reflects excess argon. The spectrum from the
+sample 88 is more or less identical to that of 89 and the weighted
+average age from two runs is 1399 ± 20 Ma, i.e. similar to the age
+of the sample 89. The amount of excess argon in the high temper-
+ature release is much lower than that from the samples collected
+in the contact to the cutting dyke and at 0.95 m from the contact,
+suggesting a relationship between excess argon and distance from
+the dyke
+4.
+contact.
+Palaeomagnetic results
+4.1. Locality 1, crossing dykes
+Samples were collected from the young dykes, the baked con-
+tacts and at increasing distance from the contact in the older dykes
+(O1 and O2). The characteristic remanent magnetization (ChRM) in
+the Y1 and Y2 dykes is isolated in a high coercivity (demagnetiz-
+ing fields 25–120 mT) and medium to high unblocking temperature
+(400–580◦C; Fig. 5a) range and the mean directions are not sig-
+nificantly different (Y1: decl. = 311.2◦, incl. = −43.3◦, ˛ =
+95
+5.7◦and
+Y2: decl. = 313.3◦, incl. = −40.7◦, ˛ =
+95
+7.4◦; Table 2; Fig. 7a). The
+remanent magnetization in samples from the baked older dykes,
+within ca. 0.3 m from the contact, is isolated after treatment in
+temperatures between 500 and 580◦C (Fig. 5c). The mean direc-
+tion (decl. = 311.5◦, incl. = −45.4◦; Table 2; Fig. 7a) is very well
+defined (˛ =
+95
+3.2◦) and not significantly different from the ChRM
+of the cutting dykes Y1 and Y2. In the samples collected in the
+hybrid zone (see Elming et al., 2009), at distances of 0.8–1.7 m
+from the contact, two components of magnetization were iso-
+lated. The first one (in O1 and O2: decl. = 344.3◦, incl. = −22.8◦)
+is isolated in the Tub range 300–530◦C, while the second one
+(O1, decl. = 173.7◦, incl. = 24.4◦; O2, decl. = 179.9◦, incl. = 10.8◦) is
+defined in higher unblocking temperature (500–580◦C) ranges.
+Outside the hybrid zone, in intermediate to high unblocking
+temperatures (Tub ≥ 450◦C), remanences with shallow negative
+to positive inclinations are identified and also traced in very
+high coercivities (130–160 mT; Fig. 5b). The mean directions of
+
+### page_6
+S.-Å. Elming et al. / Precambrian Research 244 (2014) 192–206 197
+Fig. 5. Examples of remanence behavior during AF and thermal demagnetizations. In orthogonal plots, open (closed) symbols show magnetization vector endpoints in the
+vertical (horizontal) plane; curves show changes in intensity during demagnetization. Stereoplots show upwards (downwards) pointing palaeomagnetic directions with
+open (closed) symbols.
+those remanences (O1: decl. = 168.5◦, incl. = 16.9◦; O2: decl = 169.9◦,
+incl = 23.0◦, Table 2) are not significantly different from the high
+Tub and coercivity components inside the hybrid zone. The high
+Tub-directions from the hybrid zone (H) and high coercivity and
+intermediate to high Tub-direction outside the hybrid zone (U)
+are combined for mean calculations (O1a (H + U); decl. = 172.6◦,
+incl. = 22.9◦; and O2b (H + U); decl. = 172.8◦, incl. = 19.7◦; Table 2;
+Fig. 7b). This exemplifies the “classical” positive contact test (Everitt
+and Clegg, 1962), i.e. distinct stable remanence directions in the
+cutting dyke, and two remanence components in the hybrid zone,
+one of which with a lower Tub similar to the ChRM of the cutting
+dyke and another with a higher Tub similar to the host’ ChRM.
+Outside the hybrid zone in one of the old dykes (O2) a low Tub
+and intermediate to high coercivity component is isolated with
+a direction (O2; decl. = 153.8◦, incl. = −29.5◦; Fig. 5b; Table 2) not
+identified earlier in these dykes. Possibly there is still a thermal
+influence from the young dyke outside the hybrid zone (>1.8 m from
+the contact) and this component may be an artifact combination
+the
+of
+“older” and “younger” components caused by overlapping of
+their Tub and coercivity spectra.
+4.2. Locality 2
+The Borg dyke carries a NRM (Fig. 6a; S2010.02) with a median
+destructive field (MDF, Dunlop and Özdemir, 1997) of ca. 15 mT.
+Three different components could be isolated, one erased in very
+low alternating field intensities (<20 mT) with a direction close to
+that of the present Earth field (PEF), a second of intermediate to
+high coercivity (decl. = 4.7◦, incl. = 16.2◦) and a third isolated after AF
+treatment in field higher than the previous components (>65 mT).
+The second component may be an artifact resulting from overlap-
+ping coercivity spectra expressed by the gradual change in direction
+along a great circle from the low to the highest coercivity direction.
+The mean remanence direction of the highest coercivity compo-
+nent (decl. = 181.5◦, incl. = 28.9◦, ˛ =
+95
+14.4◦; Table 2; Fig. 7b) is not
+
+### page_7
+198 S.-Å. Elming et al. / Precambrian Research 244 (2014) 192–206
+Fig. 6. Examples of remanence behavior during AF and thermal demagnetizations. In orthogonal plots, open (closed) symbols show magnetization vector endpoints in the
+vertical (horizontal) plane; curves show changes in intensity during demagnetization. Stereoplots show upwards (downwards) pointing palaeomagnetic directions with
+open (closed) symbols.
+significantly different from the ChRM of the dykes O1 and O2 (O1a
+and O2a; Table 2; Fig. 7b).
+4.3. Locality 3
+The coercivity of the NRM carried by the Marbystrand dyke
+is rather low with a MDF of 13–20 mT (Fig. 6b; S2011.02). After
+removing a soft and poorly defined part of the remanence a sta-
+ble component is isolated in AF higher than ca. 30 mT and a
+well defined mean ChRM direction is calculated (decl. = 127.5◦,
+incl. = 31.1◦, ˛ =
+95
+3.6◦; Table 2; Fig. 7a). Even though a stable rema-
+nence can be defined, the direction of remanence often
+along
+changes
+a great circle during AF demagnetization. Great circle anal-
+ysis reveal a direction of intersecting great circles (decl. = 128.7◦,
+incl. = 27.8◦) supporting the mean calculated from the stable rema-
+nence directions. The mean ChRM direction is antipodal to the
+ChRM directions of dykes Y1 and Y2, i.e. the reversal test is positive
+with classification C (McFadden and McElhinny, 1990).
+4.4. Locality 4
+The NRM of the dyke in Rejmyre (1595 ± 3 Ma, Söderlund et al.,
+2005), which forms part of the Breven-Hällefors system of dykes,
+is of very low coercivity and >90% of the magnetization is lost
+
+### page_8
+S.-Å. Elming et al. / Precambrian Research 244 (2014) 192–206 199
+2elbaT
+.nedewSlartnec-nrehtuosnisekydcfiamciozoretorPmorfatadcitengamoealapweN
+◦dnerT
+s tnemmoC
+) aM(e
+gA
+◦ 59A
+◦E.
+nolP
+◦N.
+talP
+◦59(cid:3)
+K
+◦.lcnI
+◦.lceD
+n
+/N
+◦nolG/◦talG
+k cor/edoc-ytilacoL
+E0.83
+3±939
+0.4
+0.932
+4.3−
+1.4
+0.37
+9.34−
+3.113
+a81/1
+33.61/85.85
+CB+1YekyD/1
+3 ±
+9 39
+6 .5
+3
+.932
+0.3
+7 .5
+7
+.35
+3 .34−
+2
+.113
+a31/1
+1 YekyD
+3±
+9 39
+3 .3
+4
+.832
+5 .4
+2 .3
+1
+.485
+4 .54−
+5
+.113
+a5/2
+)CB(tcatnocd
+ekaB
+E0.83
+1 Y
+sa∼
+0.7
+3
+.832
+5 .0
+4 .7
+5
+.92
+7 .04−
+3
+.313
+a41/1
+33.61/85.85
+2Yek
+yD/1
+C◦035–003=buT
+1 Ys
+a∼
+4 .6
+5
+.212
+4 .81
+3 .8
+9
+.03
+8 .22−
+3
+.443
+a11/2
+2Odna1Oni)
+H(
+dirbyH
+W0.32
+C◦085–005=
+b
+uT
+2 Os
+a∼
+2 .01
+0.402
+2 .91
+2 .31
+4
+.41
+9 .22
+6
+.271
+a01/1
+33.61/85.85
+)U+ H(
+a1 Oe
+kyD/1
+C
+◦085–005=
+b
+uT
+2Os
+a∼
+1 .41
+5
+.61
+4 .42
+7
+.371
+a8/1
+)H (1
+Oni
+dirbyH
+2Os
+a∼
+9 .61
+5
+.861
+a2/1
+)U(d
+irby
+hed
+is tuo1O
+W0.32
+butH/cHH
+9±11
+41
+3.9
+9.302
+0.12
+3.21
+7.41
+7 .91
+8
+.271
+a11/1
+33.61/85.85
+)U +H(a2
+OekyD
+/1
+C◦095–
+025=buT
+9 ± 1
+141
+3 .33
+7
+.41
+8 .01
+8
+.971
+a3/1
+)H (2
+Oni
+dirbyH
+cHH,C◦054≥
+b
+uT
+9 ± 1
+141
+8 .41
+0.51
+0.32
+9
+.961
+a8/1
+)U(d
+irby
+hed
+is tuo2O
+cHtnI,C◦00
+4–003
+=b
+uT
+9 ± 1
+141
+4.6
+9.132
+0.34
+9 .7
+7
+.05
+5 .92−
+8
+.351
+a8/1
+d irbyhe
+distuo
+2O
+W0.06
+8 .11
+1
+.691
+0 .61
+4 .41
+7
+.14
+9 .82
+5
+.181
+a4/1
+90.61/85.85
+groB /2
+W0
+.15
+desreveR
+0.3
+0.642
+3 .3
+6 .3
+9
+.202
+1 .13
+5
+.721
+a9/1
+8 4.61/16.85
+dnartsyb
+raM/3
+W
+–E
+bega1
+b3±5951
+3 .5
+8
+.191
+8 .22
+1 .7
+1
+.82
+3 .61
+0.481
+a61/1
+80.61/38.85
+erymjeR/4
+W–E
+6 .11
+7
+.371
+5 .81
+3 .51
+1
+.02
+7 .91−
+9
+.12
+a6/1
+8 4.61/41.95
+s rofelläH/5
+W0.82
+bega1
+b1±649
+6 .2
+3
+.242
+7 .1
+0.3
+5
+.092
+9 .73
+7
+.821
+a9/1
+85.51/95.06
+nulaF/6
+3±
+9 39
+9 .9
+1
+.142
+1 .0−
+8 .01
+7
+.131
+6 .83−
+6
+.013
+14/a3
+dnarts-ybraM,2Y,1Yn
+aeM/7
+9± 11
+41
+8 .7
+9
+.002
+8 .81
+0.01
+1.351
+9.32
+5.571
+52/a3
+groB,a2
+O,a
+1On
+aeM/8
+edutital=).nolP(.talP,ecnedfinoc%59foenocehtfoelgna-imes=59(cid:3),retemarapnoisicerprehcsiF=K,)noitanilcni(noitanilcednaem=).lcnI(.lceD,selpmas/setisforebmun=n/N,edutignoldnaedutitalcihpargoeg=nolG/talG
+.egacirtemoidar=ega,noitisopelopehtfoelcricecnedfinoc%59ehtfoelgna-imes=59A,selopcitengamoealap)lautriV(ehtfo)edutignol(
+.snoitaluclacnaemfoleveL
+a
+.)5002(.latednulredöSmorferasegaehT
+b
+Fig. 7. Site mean remanence directions and corresponding 95% confidence circles
+for the basic dykes at (a) the locality 1, the dykes Y1, Y2 and baked contact, the
+locality 3 (Marbystrand), and the locality 6 (Falun). (b) The site mean direction from
+the older dykes at locality 1, O1 and O2, cross cut by Y1 and Y2, and the ca. 1595 Ma
+Rejmyre and Hällefors dykes (localities 4 and 5, respectively).
+already at 10 mT demagnetizing fields. However, after removal
+of a soft remanence with a direction not far from that of the
+IGRF (decl. = 4.0◦, incl. = 72.0◦), a stable (MAD < 9◦) and well defined
+direction (mean: decl. = 184.0◦, incl. = 16.3◦, (cid:3) =
+95
+7.1◦) is isolated
+in AF higher than 25 mT (Fig. 6c; 174.01). This direction is not very
+different from those of dykes O1, O2 in locality 1 and that of the
+Borg dyke in locality 2 (Fig. 7b), but it is also nearly antipodal
+to the ChRM direction of the 1577 ± 12 Ma Föglö Sottunga dyke
+(Pesonen and Neuvonen, 1981; Suominen, 1991. This ChRM has
+been isolated only during AF demagnetization The Tub spectra of
+the remanence in this dyke is very wide and from the thermal
+demagnetization a direction is identified (decl. = 65.9◦; incl. = 65.8◦,
+(cid:3) =
+95
+14.0◦), which is not significantly different from that of
+the low coercivity remanence (decl. = 51.6◦, incl. = 67.2◦, ˛ =
+95
+7.7◦).
+4.5. Locality 5
+The Hällefors dyke carries a remanence with a large portion of
+low coercivity (MDF ca. 10 mT; Fig. 6d; B57.97), but also rather well
+defined (MAD < 8◦) high coercivity components that form a fairly
+well defined site mean (decl. = 21.9◦, incl. = −19.7◦, ˛ =
+95
+15.3◦).
+After changing the polarity of this site mean it is not significantly
+different from high coercivity and unblocking temperature compo-
+nents of the O1 and O2 dykes at locality 1 and from the site means
+in localities 2 and 4 (Fig. 7b).
+4.6. Locality 6
+The BDD dyke here has been dated at 946 ± 1 Ma (Söderlund
+et al., 2005). Well defined ChRM directions (MAD < 5◦) are iden-
+tified in this dyke after 40 mT AF demagnetizations (Fig. 6e).
+The site mean direction (decl. = 128.7◦, incl. = 37.9◦) is also well
+defined ((cid:3) =
+95
+3.0◦; Table 2; Fig. 7a) and have a polarity oppo-
+site to the directions of the ChRM of the Y1 and Y2 dykes at
+locality 1.
+5. Origin of magnetization and anisotropy of magnetic
+susceptibility
+The magnetization in the “young” dykes (Y1 and Y2) at local-
+ity 1 is carried by low-titanium titanomagnetite as indicated
+from unblocking temperatures (>ca. 530◦C) and susceptibility vs. temperature ((cid:2)–T) measurements (Curie temperature ca. 550◦C;
+Fig. 5a and 8a). This is true also for the baked contact of the “old”
+
+### page_9
+200 S.-Å. Elming et al. / Precambrian Research 244 (2014) 192–206
+Fig. 8. Magnetic susceptibility during heating and cooling of samples from the Y2
+and O2 dykes at site 1.
+dyke O1 at the same locality, however, the Curie temperature
+indicates a somewhat higher titanium content (Fig. 8b). The pres-
+ence of small, but noticeable, Hopkinson peaks in the (cid:2)–T curves
+indicate that the remanence is carried in part by highly stable
+single-domain particles. Since single-domain particles carry stable
+remanent magnetizations, this gives an additional evidence for a
+primary magnetization.
+The measurements of anisotropy of magnetic susceptibility
+(AMS) show a degree of anisotropy of 5–10% for the O1 and O2
+dykes, 3–7% for the Y1 and Y2 dykes and less than 10% for the Falun
+dyke, which is the usual for igneous rocks with a primary mag-
+netic fabric (Hrouda, 1982). The shape of the anisotropy ellipsoid
+is expressed by the shape parameter T (Jelinek, 1981), for which
+0 < T < 1 express oblate shaped ellipsoid and −1 < T < 0 express a pro-
+late ellipsoid. T values are here positive (T = 0.09–0.88), indicating
+that the magnetic fabric for the dykes is oblate, i.e. the dykes are
+magnetically foliated. We interpret the AMS data as a primary flow
+indicator (Knight and Walker, 1988; Tauxe et al., 1998). The AMS
+data reveal orientations of the foliation planes of the young dyke
+Y1 (strike 29◦E, dip 83◦) that are parallel to the dyke plane. Also for
+the O1 and O2 dykes the magnetic foliation planes (strike 217◦E,
+dip 46◦) are parallel to the dyke planes, which are thus not ver-
+tical but dip ca. 45◦to the southwest. This may suggest that these
+older dykes were initially inclined or that they have been tilted after
+intrusion.
+The Falun dyke is also magnetically foliated, with a subver-
+tical foliation plane (dip = 84◦NE) trending 332◦E, i.e. parallel to
+the trend of the dyke determined by geological mapping
+6.
+(SGU,
+1964).
+Discussion
+6.1. New 945–932 Ma high quality pole for Baltica
+The new 939 ± 3 Ma palaeomagnetic data from dykes Y1 and
+Y2 presented here is supported by rigorous baked contact test.
+There are several previously published ca. 970–910 Ma Baltican
+palaeopoles, some of them are precisely dated, but there were not
+a single one with proven primary ChRM (Table 3). However, the
+mean pole from just two dykes should be qualified as represent-
+ing a near instantaneous recording of the Earth’s magnetic field,
+and is not likely to have averaged palaeo-secular variation (PSV).
+To obtain a really valuable ‘key’ pole other palaeomagnetic results
+of similar age are needed.
+Pisarevsky and Bylund (2006) published a palaeomagnetic study
+of the four 935 ± 3 Ma (U–Pb baddeleyite; Hellström et al., 2004)
+Göteborg and Slussen dykes carrying bipolar ChRM directions very
+similar to that of Y1 and Y2 dykes.
+The 946 ± 1 Ma (U–Pb baddeleyite; Söderlund et al., 2005)
+Falun dyke carries almost the same ChRM direction (Locality 6;
+Plat = −1.7◦, Plon = 242.3◦, A =
+95
+2.6◦) as reversed Y1 and Y2 direc-
+tions. It is also similar to the previous study of the same Falun
+dyke by Patchett and Bylund (1977; Plat. = −6.1◦, Plon. = 237.6◦,
+A =
+95
+5.7◦), however somewhat better defined. Considering that
+the remanence directions of Patchett and Bylund (1977) were not
+defined using vector analysis and the mean direction was calculated
+from least scatter in magnetic directions during demagnetization,
+which was the best approach at the time, we use the new pole pre-
+sented here to represent the Falun dyke (locality 6, Table 2). Bylund
+and Elming (1992) and Bylund (1985) studied three dykes (Ander-
+sbro, Gällsjön and Ejen) located nearby and trending in the same
+direction as the Falun dyke. The ChRM directions are coherent and
+also very close to that of the Falun dyke Table 3; Fig. 7), which may
+argue for them being part of the same generation of dykes. The
+age difference between the Y1/Y2 dykes and BDD Falun dykes is
+relatively small (939 ± 3 and 946 ± 1 Ma).
+Importantly, the Y1/Y2 dykes in Norrköping area and Falun
+dykes are located ca. 90–100 km east of the Protogine zone, i.e.
+much further to the east than has been suggested for the limit
+of crystal reworking during the Svecororwegian (Wahlgren et al.,
+1994). K–Ar ages of biotite from southeast Sweden (Åberg, 1978)
+indicate that the K–Ar system started to close at ca. 1.55 Ma and was
+completed at ca. 1.40 Ma, i.e. the rocks were not reheated above
+ca. 300 ± 50◦C, the closure temperature for K–Ar in biotite. Fis-
+sion track studies (Tullborg et al., 1996) of subsidence and uplift
+from an area some 150 km south of the present study area, reveal
+temperatures of the present surface at 250 ± 50◦C at 820 ± 88 Ma.
+This resetting of the fission-track ages was interpreted related to
+sedimentary burial and uplift. This means that any tectonic disturb-
+ance or palaeomagnetic overprint related to the Sveconorwegian
+orogeny is unlikely.
+As will be shown later, the drift velocity of Baltica at that
+time was apparently low, which makes it reasonable to combine
+the Y1/Y2, Göteborg-Slussen and Falun area data and here we
+present a mean 946–935 Ma pole, based on 10 different dykes:
+Plat. = −0.9◦, Plon. = 240.7◦, A =
+95
+6.7◦(Table 3). The reversal test of
+McFadden and McElhinny (1990) is positive with classification C,
+(cid:3)/(cid:3) cr= 5.6◦/15.8◦.
+The ChRM direction of the Marbystrand dyke (locality 3) is also
+very close to the reversed Y1/Y2 direction (Fig. 7a). It is located
+only 2 km from them (Fig. 2), but has a significantly different trend,
+similar to the Breven-Hällefors swarm. However, the available
+palaeomagnetic directions from the latter are significantly differ-
+ent (Fig. 7b; Table 3) suggesting that the Marbystrand dyke may
+be related to the 939 ± 3 Ma magmatism. A combined pole based
+on eleven dykes (Y1, Y2, Marbystrand, Göteborg-Slussen and Falun
+
+### page_10
+S.-Å. Elming et al. / Precambrian Research 244 (2014) 192–206 201
+Table 3
+Poles combined for the new 946–935 Ma key pole for Baltica.
+# Used palaeopole N/n Plat.◦ Plon.◦ A95 ◦ Age (Ma) Reference
+1 Y1 dyke 1/18a −3.4 239.0 4.0 939 ± 3 This study
+2 Y2 dyke 1/14a −0.5 238.3 7.0 939 ± 3 This study
+3 Falun dyke 1/19a −1.7 242.3 2.6 946 ± 1 This study; Söderlund et al. (2005)
+4 Andersbo dyke 1/7a 1.0 229.0 7.3 946 ± 1 Bylund and Elming (1992)
+5 Gällsjön dyke 1/5a 18.0 241.0 8.5 946 ± 1 Bylund and Elming (1992)
+6 Ejen dyke 1/8a 6.0 248.0 6.7 946 ± 1 Bylund (1985)
+7 Tuve dyke 1/23a −14.0 237.9 3.7 935 ± 3 Pisarevsky and Bylund (2006) and Hellström et al. (2004)
+8 Small dyke 1/3a −13.9 235.8 8.8 935 ± 3 Pisarevsky and Bylund (2006) and Hellström et al. (2004)
+9 Hjuvik dyke 1/12a −3.3 246.9 10.3 935 ± 3 Pisarevsky and Bylund (2006) and Hellström et al. (2004)
+10 Slussen dyke 1/6a 3.2 248.5 9.2 935 ± 3 Pisarevsky and Bylund (1998)
+11 Mean 1–10 10a/115 −0.9 240.7 6.7 946–935 This study
+12 Marbystrand dyke 1/9a 3.3 246 3 ? This study
+13 Mean 1–10, 12 11a/124 −0.5 241.2 6.1 946–935 This study
+a Level of mean calculations.
+area BDD dykes) is calculated (Table 3) and the reversal test is also
+positive with classification C, (cid:3)/(cid:3) cr= 4.1◦/15.6◦. Both of these two
+combined poles (Table 3, entries 11 and 13) have quality factors (Q)
+of 7 (Van der Voo, 1990) and fulfill the criteria for a “key” palaeo-
+magnetic pole. That is: (1) the rocks are well dated; (2) the number
+of samples is sufficient and the statistical demands a fulfilled; (3)
+the samples have been adequately demagnetized; (4) field test con-
+strain the age of magnetization; (5) there is a structural control and
+tectonic coherence with craton involved; (6) there are both nor-
+mal and reversed magnetizations; (7) there is no resemblance to
+palaeomagnetic poles of younger Neoproterozoic (e.g. Pisarevsky
+et al., 2008) or Phanerozoic (e.g. Torsvik et al., 2012) ages.
+This combined pole also fulfills the criteria for a key palaeomag-
+netic pole used by Buchan et al. (2000), i.e. the age uncertainty is
+<±20 Ma, the remanence is properly isolated by AF and/or thermal
+demagnetizations, sufficient number of dykes to average out secu-
+lar variations, the pole is demonstrated primary through field and
+reversal tests and dykes of similar age from a broad geographic area
+yield consistent poles.
+6.2. New palaeopoles for 1595 ± 3 and 1411 ± 9 Ma
+The Hällefors A (entry 37, Table 4; Piper, 1980) and locality 5
+(Hällefors) poles most probably are from the same giant dyke. This
+dyke has a similar trend as the 1595 ± 3 Ma Rejmyre dyke (local-
+ity 4). ChRMs of two dykes are nearly antipodal (Table 2; Fig. 7b)
+and the palaeopoles are not significantly different from poles of the
+ca. 1570 Ma Kumlinge-Brändö and Föglö Sottunga dykes in Finland
+(Fig. 9; Table 4, entries 39–40). Hence we suggest that the Hälle-
+fors dyke belongs to the same magmatic event as the ca. 1595 Ma
+Rejmyre dyke. These two new VGPs are included to the Table 4
+(entries 36 and 38).
+Field observations and orientation of magnetic foliation plane
+indicate that the O1 and O2 dykes in site 1 are not vertical but
+dip ca. 45◦ to the southwest. Since there are no geological evi-
+dence for a post- 1411 ± 9 Ma and pre- 939 ± 3 Ma tilting, an initial
+inclined emplacement of the dyke is likely. The calculated pole
+positions (O1a: Plat. = 19.2◦, Plon. = 204.0◦ and O2a: Plat. = 21.0◦,
+Plon. = 203.9◦, Table 2) are not significantly different from the pole
+calculated from the dyke at locality 2 (Borg) and a mean ca. 1411 Ma
+pole (entry 23 in Table 2; Fig. 9) is calculated from the O1a, O2a
+dykes and the Borg dyke (locality 2) poles. This mean pole plots
+not so far from the ca. 1450–1470 Ma reference poles (Fig. 9;
+Table 4, entries 24–33), and the 10–15◦difference can be explained
+by 40–60 m.y. difference in age. Although only three dykes are
+included in the mean and secular variations are most probably not
+averaged out, this pole adds new data to the gap in reliable Baltica
+poles between ca. 1450 and 1270
+6.3.
+Ma.
+Sveconorwegian and Grenville loops and palaeogeographic
+implications
+There is a strong geological evidence for the close position
+of Baltica and Laurentia during almost the whole Neoproterozoic
+(e.g. Winchester, 1988; Gee et al., 1994; Fairchild and Hambrey,
+1995; Higgins et al., 2001). The match between the two conti-
+nents was in part based on the apparent similarity between the
+so-called Grenville and Sveconorwegian APWP (Apparent Polar
+Wander Path) loops. There were debates about the exact shapes
+and the direction of younging of the poles (clockwise vs. anti-
+clockwise loops; Fig. 10; e.g. Weil et al., 1998; Hyodo and Dunlop,
+1993; Elming et al., 1993; Pisarevsky and Bylund, 1998), but there
+was a general agreement about two important features. First,
+the “bottoms” of both loops were marked with palaeopoles of
+ca. 980–930 Ma (the poles with highest southern latitudes). Sec-
+ond, the near-equatorial parts of both loops are populated by ca.
+1000–1020 Ma poles and ca. 900–800 Ma poles.
+The southern-most part of the Laurentian (Grenville) loop was
+constrained by palaeopole from the Haliburton Intrusion A (Buchan
+and Dunlop, 1976), with age estimated by authors at 980 ± 10 Ma.
+Fig. 9. Mean pole position (23) for the “old” 1411 Ma dykes O1, O2 and Locality 2
+(Borg), together with the new 1595 Ma pole of Reymyre (36), both marked by the red
+confidence circle, and ca. 1400–1600 Ma reference poles for Baltica (pole numbers
+are as in Table 4).
+
+### page_11
+202
+S.-Å.
+Elming
+et
+al.
+/
+Precambrian
+Research
+244
+(2014)
+192–206
+Table 4
+1600–850 Ma palaeomagnetic poles from Baltica.
+# Pole N/n Plat.◦ Plon.◦ A95 ◦ Age (Ma) Q Reference
+9 Hunnedalen dykes 6a/79 −41.0 222.0 10.5 848 ± 27 4 Walderhaug et al. (1999)
+10 Egersund-Onga anorthosite 13a/67 −42.1 200.4 9.0 900, 969 ± 14 3 Brown and McEnroe (2004) and Walderhaug et al. (2007)
+11 Rogaland Ingneous Complex 5a/24 −46.0 238.0 18.1 869 ± 14 3 Walderhaug et al. (2007)
+12 Egersund anorthosite 76a/? −43.5 213.7 3.6 936–929 4 Walderhaug et al. (1999) and Stearn and Piper (1984)
+13 Brattön-Älgö Norite-Anorthosite Complex 11a/65 5.0 249.0 3.9 916 ± 11 3 Stearn and Piper (1984) and Scherstén et al. (2000)
+14 Mean 946–935 Ma Baltica pole 10a/105 −0.9 240.7 6.8 946–935 7 This study
+15 Tärnö-Fäjö dykes 4a/21 12.8 246.7 15.5 946–954 3 Patchett and Bylund (1992) and Söderlund et al. (2004, 2005)
+16 Nilstorp dyke 1/6a 9.0 239.0 8.1 966 ± 2 3 Patchett and Bylund (1992) and Söderlund et al. (2004)
+17 ES metamorphic 4a/47 −45.9 219.4 5.9 980–930 3 Pisarevsky and Bylund (1998)
+18 Laanila Ristijärvi 3a/54 −2.1 212.0 16.5 1042 ± 50 3 Mertanen et al., 1996
+19 Bamble Intrusion mean 4a/ 3.0 217.0 15.0 1100–1040 3 Brown and McEnroe (2004) and Walderhaug et al. (2007)
+20 Jämtland Complex 16a/145 −0.5 159.8 7.4 ca. 1247 4 Elming and Mattsson (2001) and Söderlund et al. (2006)
+21 Västerbotten-Ulvö- 32a/746 −5.0 159.2 3.4 1259–1256 4 Elming and Mattsson (2001) and Söderlund et al. (2006)
+22 Dalarna Complex 5a/53 5.9 160.4 10.2 1271–1264 4 Elming and Mattsson (2001) and Söderlund et al. (2006)
+23 Norrköping dykes 3a/25 18.8 200.9 7.8 1411 ± 9 4 This study (O1 + O2 + Borg dyke)
+24 Bunkris 1/8a 27.0 197.0 2.8 1462 ± 1 3 Bylund (1985) and Söderlund et al. (2005)
+25 Glysjön 1/6a 37.0 180.0 5.7 1461 ± 1 3 Bylund (1985) and Söderlund et al. (2005)
+26 Söndagsåsen 1/6a 29.0 196.0 5.3 1461 ± 1 2 Bylund and Elming (1992)
+27 Emåsjön 13a 1/7a 39.0 173.0 7.7 1461 ± 1 2 Bylund and Elming (1992)
+28 Harpsjön 14a 1/6a 31.0 157.0 1.7 1461 ± 1 2 Bylund and Elming (1992)
+29 Noppikoski 1/10a 33.0 178.0 9.9 1461 ± 1 2 Bylund and Elming (1992)
+30 Mean Dalarna (24–29) 6a/43 33.4 180.5 11.3 1461 4
+31 Tuna dykes 6a/38 20.6 170.5 9.5 1462–1461 4 Piper (1992)
+32 Valaam sill 9a/36 13.8 166.4 2.4 1458 +4/−3 4 Salminen and Pesonen (2007)
+33 Ladoga dolerite dykes 4a/12/278 15.2 177.6 5.5 1452 ± 12 6 Lubnina et al. (2010)
+34 Rödö basic dykes 6a/53 41.6 201.7 9.5 1513, 1497 5 Moakhar and Elming (2000)
+35 Ragunda Fm 15a/87 51.6 166.6 7.1 1505 4 Piper (1979)
+36 Rejmyre dyke 1/16a 22.8 191.8 5.3 1595 ± 3 3 This study; Söderlund et al., 2005
+37 Hällefors A 1/13a 27.0 167.0 6.7 As Rejmyre 3 Piper, 1980
+38 Hällefors B 1/6a 18.5 173.7 11.6 As Rejmyre 2 This study; Söderlund et al., 2005
+39 Kumlinge-Brändö 7a/25 12.2 182.0 6.7 1562–1590 4 Pesonen and Neuvonen (1981) and Suominen (1991)
+40 Föglö Sottunga 6a/25 27.8 187.5 9.0 1577 ± 12 4 Pesonen and Neuvonen (1981) and Suominen (1991)
+Pole numbers start from 9 in continuation to numbering in Table 2. Q = quality index (Van der Voo, 1990). See also footnotes to Table 2.
+
+### page_12
+S.-Å. Elming et al. / Precambrian Research 244 (2014) 192–206 203
+Fig. 10. The Grenvillian loop from (a) Weil et al. (2006; selected “A-poles” from Weil et al., 1998; Warnock et al., 2000) and (b) Hyodo and Dunlop, (1993; data from their
+Table 5). (c) The “Sveconorwegian” loop for Baltica in gray (e.g. Elming et al., 1993) and the new clockwise loop (hatched line) based on the key-pole presented here. Pole
+numbers are as in Table 4.
+Warnock et al. (2000) restudied this intrusion both geochrono-
+logically and palaeomagnetically and demonstrated, that the best
+estimate of the age of this magnetization is ca. 30–40 m.y. older,
+between 1030 and 1000 Ma.
+The southernmost part of the Baltica (Sveconorwegian) loop was
+constrained by several studies of the ca. 930 Ma Rogaland Igneous
+Complex (RIC) and related rocks (e.g. Table 4, entries 10–12). These
+poles are in an apparent contradiction with the new key pole,
+which is presented in this study, and all of them revealed steep
+upwards ChRM directions. Brown and McEnroe (2004) suggested
+a significant difference between the time of intrusion and the
+age of ChRM, suggesting the latter to be ca. 900 Ma. Walderhaug
+et al. (1999) presented a well-dated 848 Ma primary pole from
+the Hunnedalen dykes, which was very close to the poles from
+the Rogaland complex. Lately Walderhaug et al. (2007) obtained a
+869 ± 14 Ma40Ar/39Ar biotite age from a noritic dyke related to RIC
+and argued that it represents an uplift/cooling age, which better
+represents the age of the remanence in SW Norway. Palaeomag-
+netic studies of mostly undated >60 mafic dykes in the Protogine
+Zone in southern Sweden revealed that ChRM of all dykes south of
+the Ljungby – Alvesta road, i.e. south of the 57◦N latitude, is upward
+steep, like the RIC ChRM. Most of dykes north of this line are mag-
+netized with more shallow inclinations, similar to the BDD
+in
+dykes
+the Falun area. Pisarevsky and Bylund (1998) also found RIC-like
+remanence direction in the ca. 950–930 Ma metamorphic rocks in
+southern Sweden west of the Protogine Zone. Such geographically
+bound distribution of ChRM directions suggests a regional remag-
+netization event. The timing of this remagnetization is probably
+constrained by the ca. 870–850 Ma poles of Walderhaug et al. (1998,
+2007), but the mechanism is unclear. Page et al. (1996) reported a
+detailed40Ar/39Ar study in the Eastern Segment of the Sveconor-
+wegian orogen in southern Sweden. They did not find any ages
+younger than 915 Ma. Hence the ca. 870–850 Ma remagnetization
+event in southern Sweden, if occurred, should have been of a low-
+temperature nature. New studies are necessary.
+We agree with Walderhaug et al. (1998, 2007) and suggest that
+the real age of the southernmost palaeopoles constraining the Sve-
+conorwegian loop is likely to be ca. 870–850 Ma. If so, the Grenville
+and Sveconorwegian loops are not coeval – their age difference is
+ca. 150 Ma (Fig. 11). However, most poles used for the Grenville
+loop were from poorly dated metamorphic rocks with uncertain
+age of their remanence. Using only well-dated Laurentian poles,
+only the older, “downward” part of the Grenville loop is palaeo-
+magnetically constrained and there are no reliable Laurentian poles
+between 1000 and 790 Ma (Fig. 11; Table 5). On the other hand, Sve-
+conorwegian loop is poorly defined between ca. 1100 and 1000 Ma
+
+### page_13
+204 S.-Å. Elming et al. / Precambrian Research 244 (2014) 192–206
+Table 5
+Ca. 1090–1000 Ma Laurentian palaeomagnetic poles.
+Abbr Rockname Age (Ma) Plat (◦N) Plong (◦E) A95(◦) Q Reference
+LST Lake Shore Traps 1089–1085 22.2 180.8 4.5 5 Diehl and Haig (1994) and Davis and Paces (1990)
+FS Freda Sandstone 1080–1020 2.2 179.0 4.2 4 Henry et al. (1977) and Wingate et al. (2002)
+NS Nonesuch Shale 1080–1020 7.6 178.1 5.5 4 Henry et al. (1977) and Wingate et al. (2002)
+CS Chequamegon Sandst. 1050–990 −12.3 177.7 4.6 4 McCabe and Van der Voo (1983)
+JS Jacobsville Sandstone 1050–990 −10.0 184.0 4.2 5 Roy and Robertson (1978)
+HI Haliburton Intrusion 1030–1000 −32.6 141.9 6.3 3 Warnock et al. (2000)
+Abbr = abbreviations used in Fig. 11; see also footnotes to Table 2. Q = quality index (Van der Voo, 1990).
+by just two poles with very imprecise ages (Table 4, entries 18–19),
+but better between ca. 960–840 Ma (Fig. 11).
+In spite of this incompatibility of the two APWP loops, we still
+suggest the integrity of Laurentia and Baltica in the Neoprotero-
+zoic as it is shown in Fig. 12. First, there is a geological evidence for
+this reconstruction after ca. 1000 Ma (e.g. Li et al., 2008; Pisarevsky
+et al., 2008; Cawood et al., 2010 and references therein). In partic-
+ular, it is consistent with the existence of the long-lived Meso- to
+Neoproterozoic passive continental margin along the eastern and
+northeastern edge of Baltica. The eastern Greenland was also a pas-
+sive continental margin during most of Neoproterozoic (Li et al.,
+2008 and references therein), which is consistent with the recon-
+struction in Fig. 12. On the contrary, outcrops of Neoproterozoic
+sediments in western Scandinavia are fragmented and generally
+interpreted to represent non-marine environments in the middle
+of Laurentia-Baltica continent (Fig. 12; e.g. Winchester, 1988). Sec-
+ond, the coeval ca. 615 Ma poles from Laurentia and Baltica (Murthy
+et al., 1992; Kamo and Gower, 1994; Walderhaug et al., 2007) sup-
+port this reconstruction for the Early Ediacaran time and match the
+suggested model of the Late Ediacaran opening of the Iapetus ocean
+(e.g. Pisarevsky et al., 2008).
+Fig. 12 shows the palaeomagnetically permissive reconstruction
+of Laurentia and Baltica (the central part of Rodinia) at 940 and
+870 Ma. The closeness of ca. 960–920 Ma poles (Table 4; Fig. 10)
+suggests little movement of Laurentia – Batica in low latitudes
+(Fig. 12a). After ca. 910 Ma there was a quick southward movement
+Fig. 11. APWPs for Laurentia (gray) and Baltica (black) that form a part of the
+Grenville and Sveconorwegian loops. Note the age difference in the palaeomagnetic
+poles forming the two APWP. Baltican pole numbers are as in Table 4, Laurentian
+poles are marked as in Table
+Fig.
+5.
+12. The reconstructed positions of Laurentia-Baltics at: (a) ca. 965–915 Ma (Lau-
+rentia rotated to the absolute framework about a pole at 33.1◦N, 120.0◦W, −101.0◦;
+Baltica is rotated to Laurentia at 75.8◦N, 95.7◦W, −59.2◦) and (b) ca. 870–840 Ma
+(Laurentia rotated to the absolute framework about a pole at 19.6◦N, 156.5◦W,
+−130.1◦; Baltica is rotated to Laurentia as in (a)). Poles are numbered as in Table 4.
+Note the big change in latitudinal positions between the two time intervals.
+of the two, which resulted in the near-polar position of Baltica at
+ca. 870–850 Ma.
+7. Conclusions
+We obtained the first age determinations for mafic dykes in the
+southeastern part of the southern Svecofennian Subprovince.
+
+### page_14
+S.-Å. Elming et al. / Precambrian Research 244 (2014) 192–206 205
+The palaeomagnetic and geochronological study of the
+939 ± 3 Ma mafic dykes near Norrköping, Sweden revealed a pri-
+mary remanence supported by a rigorous contact test.
+Averaging this and previously published palaeomagnetic results
+on coeval mafic dykes in other areas provide a new 946–935 Ma key
+pole for Baltica. This primary pole is significantly different from the
+palaeopole of the ca. 930 Ma Rogaland Igneous Complex (RIC) and
+some coeval mafic and metamorphic rocks in southern Sweden. We
+support the previous suggestion of Walderhaug et al. (2007), that
+the remanence of RIC-related rocks in southern Norway is signifi-
+cantly younger than the time of the igneous event. We also suggest a
+low-temperature remagnetization event in southern Sweden after
+ca. 900 Ma.
+The new 946–935 Ma pole indicates that the distribution of
+poles in the “Sveconorwegian loop” was clockwise as has also been
+suggested for the Grenville loop of Laurentia.
+Palaeogeographic reconstructions demonstrate a slow low lati-
+tudinal drift of joint Laurentia – Baltica continents between ca. 960
+and 920 Ma and a quick movement towards the polar area by ca.
+870–850 Ma.
+The two new palaeopoles of ca. 1411 Ma and ca. 1595 Ma added
+to the palaeomagnetic database give new constrains to the appar-
+ent polar wander of Baltica.
+Acknowledgements
+The authors wish to thank Milan Vnuk for drafting the figures,
+Roger Lindfors for assistance in the laboratory and Eva Walldén
+for field assistance. This work was supported by the Swedish
+Research Council. Palaeogeographic reconstructions are made with
+free GPLATES software (http://www.gplates.org/). This is contribu-
+tion # 345 from the ARC Centre of Excellence for Core to Crust Fluid
+Systems (http://www.ccfs.mq.edu.au) and TIGeR publication # 485.
+References
+Åberg, G., 1978. Precambrian geochronology of south-eastern Sweden. Geologiska
+Föreningen I Stockholm Förhandlingar 100, 125–154.
+Åhäll, K.-I., Gower, C.F., 1997. The Gothian and Labradorian orogens: variations in
+accretionary tectonism along the late Paleoproterozoic Laurentia-Baltica mar-
+gin. Geologiska Föreningen Stockholm Förhandlingar 119, 181–191.
+Åhäll, K.-I., Larson, S.Å., 2000. Growth-related 1.85–1.55 Ga magmatism in the Baltic
+Shield; a review addressing the tectonic characteristics of the Svecofennian TIB
+1-related, and Gothian events. Geologiska Föreningen Stockholm Förhandlingar
+122, 193–206.
+Åhäll, K.-I., Connelly, J.N., Brewer, T.S., 2000. Episodic rapakivi magmatism due to
+distal orogensis: correlation of 1.69–1.50 Ga orogenic and inboard “anorogenic”
+events in the Baltic Shield. Geology 28, 823–826.
+Andersen, T., Griffin, W.L., Jackson, S.E., Knudsen, T.-L., Pearson, N.J., 2004. Mid-
+Proterozoic mamatic arc evolution at the southwest margin of the Baltic Shield.
+Lithos 73, 289–318.
+Berglund, J., (Ph.D. Thesis) 1997. Compressional and extensional ductile shearing
+along a terrane boundary in south-western Sweden. In: Berglund, J. (Ed.), Mid-
+Proterozoic Evolution in South-western Sweden. Göteborg University.
+Bingen, B., Andersson, J., Söderlund, U., Möller, S., 2008. The Mesoproterozoic in the
+Nordic countries. Episodes 31, 29–34.
+Brown, L.L., McEnroe, S.A., 2004. Palaeomagnetism of the Egersund-Ogna
+anorthosite, Rogaland, Norway, and the position of Fennoscandia in the late
+Proterozoic. Geophysical Journal International 158, 479–488.
+Buchan, K.L., Dunlop, D.J., 1976. Paleomagnetism of the Haliburton Intrusions: super-
+imposed magnetisations, metamorphism, and tectonics in the late Precambrian.
+Journal of Geophysical Research 81, 2951–2966.
+Buchan, K.L., Mertanen, S., Park, R.G., Pesonen, L.J., Elming, S.A., Abrahamsen, N.,
+Bylund, G., 2000. Comparing the drift of Laurentia and Baltica in the Proterozoic:
+the importance of key paleomagnetic poles. Tectonophysics 319, 167–198.
+Buchan, K.L., Ernst, R.E., Hamilton, M.A., Mertanen, S., Pesonen, L.J., Elming, S.Å., 2001.
+Rodinia: the evidence from integrated palaeomagnetism and U–Pb geochronol-
+ogy. Precambrian Research 110, 9–32.
+Bylund, G., 1985. Palaeomagnetism of middle Proterozoic basic intrusives in cen-
+tral Sweden and the Fennoscandian apparent polar wander path. Precambrian
+Research 28, 283–310.
+Bylund, G., 1992. Palaeomagnetism, mafic dykes and the Protogine Zone, southern
+Sweden. Tectonophysics 201,
+Bylund,
+49–63.
+G., Elming, S.-Å., 1992. The dala dolerites, central Sweden and their palaeo-
+magnetic signatures. Geologiska Föreningen Stockholm Förhandlingar 114,
+143–153.
+Bylund, G., Pisarevsky, S.A., 2002. Remagnetisation in Mesoproterozoic dykes from
+the Protogine Zone, southern Sweden and the Sveconorwegian Loop. Geologiska
+Föreningen Stockholm Förhandlingar 124, 11–18.
+Cawood, P.A., Strachan, R., Cutts, K., Kinny, P.D., Hand, M., Pisarevsky, S.A., 2010.
+Neoproterozoic orogeny along the margin of Rodinia: Valhalla Orogen, North
+Atlantic. Geology 38, 99–102.
+Dalziel, I.W.D., 1991. Pacific margins of Laurentia and east Antartica–Australia as a
+conjugate rift pair: evidence and implications. Geology 19, 598–601.
+Dalziel, I.W.D., 1997. Neoproterozoic–Paleozoic geography and tectonics: review,
+hypothesis, environmental speculations. GSA Bulletin 109, 16–42.
+Dalziel, I.W.D., Mosher, S., Gahagan, L.M., 2000. Laurentia-Kalahari collision and the
+assembly of Rodinia. Journal of Geology 198, 499–513.
+Davis, D.W., Paces, J.B., 1990. Time resolution of geologic events on the Keweenaw
+Peninsula and applications for development of the Midcontinent Rift system.
+Earth and Planetary Science Letters 97, 54–64.
+Diehl, J.F., Haig, T.D., 1994. A paleomagnetic study of the lava flows within the Cop-
+per Harbour Conglomerate, Michigan: new results and implications. Canadian
+Journal of Earth Sciences 31, 369–380.
+Dunlop, D.J., Özdemir, Ö., 1997. Rock Magnetism: Fundamentals and Frontiers.
+Cambridge University Press, Cambridge, pp. 573.
+Elming, S.Å., Pesonen, L.J., Leino, M.A.H., Khramov, A.N., Mikhailova, N.P., Krasnova,
+A.F., Mertanen, S., Bylund, G., Terho, M., 1993. The drift of the Fennoscandian and
+Ukrainian shields during the Precambrian: a palaeomagnetic analysis. Tectono-
+physics 223, 177–198.
+Elming, S.Å., Mattsson, H., 2001. Post Jotnian basic intrusions in the Fennoscandian
+shield and the break up of Baltica from Laurentia: a palaeomagnetic and AMS
+study. Precambrian Research 108, 215–236.
+Elming, S.-Å., Moakhar, M.O., Layer, P., Donadini, F., 2009. Uplift deduced from rema-
+nent magnetization of a Proterozoic basic dyke and the baked country rock in
+the Hoting area, Central Sweden: a palaeomagnetic and40Ar/39Ar study. Geo-
+physical Journal International 179, 59–78.
+Everitt, C.W.F., Clegg, J.A., 1962. A field test for palaeomagnetic stability. Geophysical
+Journal of the Royal Astronomical Society 6, 312–319.
+Fairchild, I.J., Hambrey, M.J., 1995. Vendian basin evolution in East Greenland and
+NE Svalbard. Precambrian Research 73, 217–233.
+Gaál, G., Gorbatschev, R., 1987. An outline of the Precambrian evolution of the Baltic
+Shield. Precambrian Research 35, 15–52.
+Gee, D.G., Björklund, L., Stølen, L.-K., 1994. Early Proterozoic basement in Ny Fries-
+land – implications for the Caledonian tectonics of Svalbard. Tectonophysics
+231, 171–182.
+Gorbatschev, R., 1980. The Precambrian development of southern Sweden. Geolo-
+giska Föreningen Stockholm Förhandlingar 110, 392–397.
+Gorbatschev, R., 2004. The Transscandinavian Igneous Belt – introduction and back-
+ground. In: Högdahl, K., Andersson, U.B., Eklund, O. (Eds.), The Transscandinavian
+Igneous Belt in Sweden: E Review o fits Character and Evolution. Geological
+Society of Finland Special Paper, vol. 37, p. 125.
+Henry, S.G., Mauk, F.J., Van der Voo, R., 1977. Paleomagnetism of the upper
+Keweenawan sediments: the Nonesuch Shale and Freda Sandstone. Canadian
+Journal of Earth Sciences 14, 1128–1138.
+Hellström, F.A., Johansson, Å., Larson, S.Å., 2004. Age and emplacement of late Sve-
+conorwegian monzogabbroic dykes, SW Sweden. Precambrian Research 128,
+39–55.
+Higgins, A.K., Smith, M.P., Soper, N.J., Leslie, A.G., Rasmussen, J.A., Sønderholm,
+M., 2001. The Neoproterozoic Hekla Sund Basin, eastern North Greenland: a
+pre-Iapetian extensional sequence thrust across its rift shoulders during the
+Caledonian orogeny. Journal of the Geological Society, London 158, 487–499.
+Hoffman, P.F., 1991. Did the breakout of Laurentia turn Gondwana inside out? Sci-
+ence 252, 1409–1412.
+Högdahl, K., Andersson, U.B., Eklund, O. (Eds.), 2004. The Transscandinavian Igneous
+Belt in Sweden: E Review o fits Character and Evolution. Geological Society of
+Finland Special Paper 37, p. 125.
+Hrouda, F., 1982. Magnetic anisotropy and its application in geology and geophysics.
+Geophysical Surveys 5, 37–82.
+Hyodo, H., Dunlop, D.J., 1993. Effect of anisotropy on the paleomagnetic contact test
+for a Grenvillian dike. Journal of Geophysical Research 98, 7997–8017.
+Jelinek, V., 1981. Characterisation of the magnetic fabric of rocks. Tectonophysics
+79, T63–T67.
+Kamo, S.L., Gower, C.F., 1994. Note: U–Pb baddeleyite dating clarifies age of charac-
+teristic paleomagnetic remanence of Long Range dykes, southeastern Labrador.
+Atlantic Geology 30, 259–262.
+Karlström, K.E., Åhäll, K.-I., Harlan, S.S., Williams, M.L., McLelland, J., Geissman, J.W.,
+2001. Long-lived (1.8–1.0 Ga) convergent orogeny in southern Laurentia, its
+extension to Australia and Baltica, and implications for refining Rodinia. Pre-
+cambrian Research 111, 5–30.
+Kirschvink, J.L., 1980. The least-square line and plane and the analysis of pale-
+omagnetic data. Geophysical Journal of the Royal Astronomical Society 62,
+699–718.
+Knight, M.D., Walker, G.P.L., 1988. Magma flow directions in dikes of the Koolau
+Complex, Oahu, determined from magnetic fabric studies. Journal of Geophysical
+Research 93, 4301–4319.
+Lanphere, M.A., Dalrymple, G.B., 2000. First-principles calibration of38Ar tracers:
+implications for the ages of40Ar/39Ar fluence monitors. U.S. Geological Survey
+Professional Paper 1621, pp. 10.
+
+### page_15
+206 S.-Å. Elming et al. / Precambrian Research 244 (2014) 192–206
+Layer, P.W., Hall, C.M., York, D., 1987. The derivation of40Ar/39Ar age spectra of single
+grains of hornblende and biotite by laser step heating. Geophysical Research
+Letters 14, 757–760.
+Layer, P.W., 2000.40Ar/39Ar age of the El’gygytgyn impact event, Chukotka, Russia.
+Meteoritics and Planetary Science 35, 591–600.
+Li, Z.X., Bogdanova, S.V., Collins, A., Davidson, A., De Waele, B., Ernst, R.E., Fitzsimons,
+I., Fuck, R., Gladkochub, D., Jacobs, J., Karlstrom, K., Lu, S., Milesi, J.-P., Myers, J.,
+Natapov, L., Pandit, M., Pease, V., Pisarevsky, S.A., Thrane, K., Vernikovsky, V.,
+2008. Assembly, configuration and break-up history of Rodinia. Precambrian
+Research 160, 179–210.
+Lubnina, N.V., Mertanen, S., Söderlund, U., Bogdanova, S., Vasilieva, T.I., Frank-
+Kamenetsky, D., 2010. A new key pole for the East European Craton at 1452 Ma:
+Palaeomagnetic and geochronological constraints from mafic rocks in the Lake
+Ladoga region (Russian Karelia). Precambrian Research 183, 442–462.
+McCabe, C., Van der Voo, R., 1983. Paleomagnetic results from the upper
+Keweenawan Chequamegon Sandstone: implications for red bed diagenesis and
+Late Precambrian apparent polar wander of North America. Canadian Journal of
+Earth Sciences 20, 105–112.
+McDougall, I., Harrison, T.M., 1999. Geochronology and Thermochronology by the
+40Ar/39Ar Method, 2nd ed. Oxford University Press, New York, pp. 269.
+McElhinny, M.W., Lock, J., 1996. IAGA paleomagnetic databases with Access. Surveys
+in Geophysics 17 (5), 575–591.
+McFadden, P.L., McElhinny, M.W., 1990. Classification of the reversal test in palaeo-
+magnetism. Geophysical Journal International 103, 725–729.
+McMenamin, M.A.S., McMenamin, D.L., 1990. The Emergence of Animals: The Cam-
+brian Breakthrough. Columbia University Press, New York, pp. 217.
+Mertanen, S., Pesonen, L.J., Huhma, H., 1996. Palaeomagnetism and Sm–Nd ages
+of the Neoproterozoic diabase dykes in Laanila and Kautokeino, northern
+Fennoscandia. In: Brewer, T.S. (Ed.), Precambrian Crustal Evolution in the North
+Atlantic Region, vol. 112. Geological Society London Special Publication, pp.
+331–358.
+Moakhar, M.O., Elming, S.-Å., 2000. A palaeomagnetic analysis of Rapakivi intrusions
+and related dykes in the Fennoscandian shield. Physics and Chemistry of the
+Earth (A) 25 (5), 489–494.
+Murthy, G., Gower, C., Tubrett, M., Pätzoald, R., 1992. Paleomagnetism of Eocambrian
+Long Range dykes and Double Mer Formation from Labrador, Canada. Canadian
+Journal of Earth Sciences 29, 1224–1234.
+Page, L.M., Möller, C., Johansson, L., 1996. 39Ar/40Ar geochronology across the
+Mylonite Zone and the Southwestern granulite Province in the Sveconorwegian
+orogeny of S. Sweden. Precambrian Research 79, 239–259.
+Patchett, P.J., Bylund, G., 1977. Age of Grenville Belt magnetization: Rb–Sr and
+palaeomagnetic evidence from Swedish dolerites. Earth and Planetary Science
+Letters 35, 92–104.
+Patchett, P.J., Gorbatschev, R., Todd, W., 1987. Origin of continental crust of
+1.9–1.7 Ga age, Nd isotopes in the Svecofennian orogenic terrains in Sweden.
+Precambrian Research 35, 145–160.
+Pesonen, L.J., Neuvonen, 1981. Palaeomagnetism of the Baltic shield – implications
+for Precambrian tectonics. In: Kröner, A. (Ed.), Precambrian Plate Tectonics. Else-
+vier, Amsterdam, pp. 623–648.
+Pesonen, J.L., Elming, S.-Å., Mertanen, S., Pisarevsky, S., DÁgrella-Filho, M.S., Meert,
+J.G., Schmidt, P.W., Abrahamsen, N., Bylund, G., 2003. Palaeomagnetic configu-
+ration of continents during the Proterozoic. Tectonophysics 375, 289–324.
+Piper, J.D.A., 1979. Palaeomagnetism of the Ragunda intrusion and dolerite dykes,
+central Sweden. Geologiska Föreningen Stockholm Förhandlingar 101, 139–148.
+Piper, J.D.A., 1980. A palaeomagnetic study of Svecofennian basic rocks: middle Pro-
+terozoic configuration of the Fennoscandian, Laurentian and Siberian Shields.
+Physics of the Earth and Planetary Interiors 23, 165–187.
+Piper, J.D.A., 1992. Palaeomagnetism of the Almunge alkaline complex and Tuna
+dykes, Sweden: mid-Proterozoic palaeopoles from the Fennoscandian Shield.
+Geologiska Föreningen Stockholm Förhandlingar 114, 291–297.
+Pisarevsky, S.A., 2005. New edition of the global palaeomagnetic database. EOS
+Transactions, American Geophysical Union 86, 170.
+Pisarevsky, S.A., Bylund, G., 1998. Palaeomagnetism of a key section of the Protogine
+Zone, southern Sweden. Geophysical Journal International 133, 185–200.
+Pisarevsky, S.A., Bylund, G., 2006. Palaeomagnetism of 935 Ma mafic dykes in south-
+ern Sweden and implications for the Sveconorwegian Loop. Geophysical Journal
+International 166, 1095–1104.
+Pisarevsky, S.A., Bylund, G., 2010. Paleomagnetism of 1780–1770 Ma mafic and com-
+posite intrusions of Småland (Sweden): implications for the Mesoproterozoic
+supercontinent. American Journal of Science 310, 1168–1186.
+Pisarevsky, S.A., Wingate, M.T.D., Powell, C., Johnson, Mc.A., Evans, S.D.D., 2003. Mod-
+els of Rodinia assembly and fragmentation. In: Yoshida, M., Windley, B.F. (Eds.),
+Proterozoic East Gondwana: Supercontinent Assembly and Breakup. Geological
+Society of London, Special Publications 206, 35–55.
+Pisarevsky, S.A., Murphy, J.B., Cawood, P.A., Collins, A.S., 2008. Late Neoproterozoic
+and Early Cambrian palaeogeography: models and problems. In: Pankhurst, R.J.,
+Trouw, R.A.J., Brito Neves, B.B., de Wit, M.J. (Eds.), West Gondwana: Pre-Cenozoic
+Correlations Across the South Atlantic Region. Geological Society of London,
+Special Publications 294, 9–31.
+Poorter, R.P.E., 1975. Palaeomagnetism of Precambrian rocks from southeast Norway
+and south Sweden. Physics of the Earth and Planetary Interior 10, 74–87.
+Risku-Norja, H., 1992. Geochemistry of the dolerite dykes in Södermanland, east-
+ern central Sweden. Geologiska Föreningen Stockholm Förhandlingar
+Roy,
+114,
+67–91.
+J.L., Robertson, W.A., 1978. Paleomagnetism of the Jacobsville Formation and
+the apparent polar path for the interval ∼1100 to ∼670 m.y. for North America.
+Journal of Geophysical Research 83, 1289–1304.
+Salminen, J., Pesonen, L.J., 2007. Palaeomagnetic and rock magnetic study of the
+Mesoproterozoic sill, Valaam island, Russian Karelia. Precambrian Research 159,
+212–230.
+Samson, S.D., Alexander, E.C., 1987. Calibration of the interlaboratory40Ar/39Ar dat-
+ing standard MMhb 1. Chemical Geology 66, 27–34.
+Scherstén, A., Årebäck, H., Cornell, D., Hoskin, P., Åberg, A., Armstrong, R., 2000.
+Dating mafic–ultramafic intrusions by ion-microprobing contact melt zircon:
+examples from SW Sweden. Contributions to Mineralogy and Petrology 139,
+115–125.
+SGU, 1964. Berggrundskarta Kopparbergs Län, norra bladet. Sveriges Geologiska
+Undersökning, Ser. Ca nr. 40.
+Söderlund, U., Patchett, J., Vervoort, P., Isachsen, J.D.C.E., 2004. The 176Lu decay
+constant determined by Lu–Hf and U–Pb isotope systematics of Precambrian
+mafic intrusions. Earth and Planetary Science Letters 219, 311–324.
+Söderlund, U., Isachsen, C.E., Bylund, G., Heaman, L., Patchett, P.J., Vervoort, J.D.,
+Andersson, U.B., 2005. U–Pb baddeleyite ages and Hf, Nd isotope chemistry con-
+straining repeated mafic magmatism in the Fennoscandian Shield from 1.6 to
+0.9 Ga. Contributions to Mineralogy and Petrology 150, 174–194.
+Söderlund, U., Elming, S.-Å., Ernst, R.E., Schissel, D., 2006. The Central Scandi-
+navian Dolerite Group-Protracted hotspot activity or back-arc magmatism?
+Constraints from U–Pb baddeleyite geochronology and Hf isotope data. Precam-
+brian Research 150, 136–152.
+Solymon, Z., Lindqvist, J.E., Johansson, I., 1992. The geochemistry, genesis, and
+geotectonic setting of Proterozoic mafic syke swarms in southern and central
+Sweden. Geologiska Föreningen I Stockholm Förhandlingar 114, 47–56.
+Stephens, M.B., Wahlgren, C.-H., Weijmars, R., Cruden, A.R., 1996. Left-lateral trans-
+pressive deformation and its tectonic implications, Sveconorwegian orogeny,
+Baltic Shield, southwestern Sweden. Precambrian Research 79, 261–279.
+Steiger, R.H., Jaeger, E., 1977. Subcommission on geochronology: convention on the
+use of decay constants in geo and cosmochronology. Earth and Planet Science
+Letters 36, 359–362.
+Stearn, J.E.F., Piper, J.D.A., 1984. Palaeomagnetism of the Sveconorwegian mobile
+belt of the Fennoscandian shield. Precambrian Research 23, 201–246.
+Suominen, V., 1991. The chronostratigraphy of southwestern Finland with special
+reference to Postjotnian and Subjotnian diabases. Geological Survey of Finland,
+Bulletin 356, 106.
+Tauxe, L., Gee, J.S., Staudigel, H., 1998. Flow directions in dikes from anisotropy of
+magnetic susceptibility data: the bootstrap way. Journal of Geophysical Research
+103, 17775–17970.
+Torsvik, T.H., 1986. Interactive Analysis of Palaeomagnetic Data, IAPD User Guide.
+University of Bergen, Bergen.
+Torsvik, T.H., Briden, J.C., Smethurst, M.A., 1996. Super IAPD Program. Geological
+Survey of Norway.
+Torsvik, T.H., Van der Voo, R., Preeden, U., Mac Niocaill, C., Steinberger, B., Dubrovine,
+P.V., van Hinsbergen, D.J.J., Domeier, M., Gaina, C., Tohver, E., Meert, J.G., McCaus-
+land, P.J.A., Cocks, L.R.M., 2012. Phanerozoic polar wander, palaeogeography and
+dynamics. Earth-Science Reviews 114, 325–368.
+Tullborg, E.-L., Larson, S.Å., Stiberg, J.-P., 1996. Subsidence and uplift of the present
+land surface in the southeastern part of the Fennoscandian Shield. Geologiska
+Föreningen I Stockholm Förhandlingar 118, 126–128.
+Wahlgren, C.-H., Cruden, A.R., Stephens, M.B., 1994. Kinematics of a major fan-
+like structure in the eastern part of the Sveconorwegian orogeny, Baltic Shield,
+south-central Sweden. Precambrian Research 70, 67–91.
+Van der Voo, R., 1990. The reliability of paleomagnetic data. Tectonophysics 184,
+1–9.
+Walderhaug, H.J., Torsvik, T.H., Eide, E.A., Sundvoll, B., Bingen, B., 1999. Geochronol-
+ogy and palaeomagnetism of the Hunnedalen dykes, SW Norway: implications
+for the Sveconorwegian apparent polar wander loop. Earth and Planetary Sci-
+ence Letters 169, 71–83.
+Walderhaug, H.J., Torsvik, T., Halvorsen, E., 2007. The Egersund dykes (SW Norway):
+a robust Early Ediacaran (Vendian) palaeomagnetic pole from Baltica. Geophys-
+ical Journal International 168, 935–948.
+Warnock, A.C., Kodama, K.P., Zeitler, P.K., 2000. Using thermochronometry and low-
+temperature demagnetization to accurately date Precambrian paleomagnetic
+poles. Journal of Geophysical Research 105, 19435–19453.
+Weil, A.B., Van der Voo, R., Mac Niocaill, C., Meert, J.G., 1998. The Proterozoic
+supercontinent Rodinia: paleomagnetically derived reconstructions for 1100 to
+800 Ma. Earth and Planetary Science Letters 154, 13–24.
+Weil, A.B., Geisman, J.W., Ashby, J.M., 2006. A new paleomagnetic pole for the Neo-
+proterozoic Uinta Mountain supergroup, Central Rocky Mountain States, USA.
+Precambrian Research 147, 234–259.
+Wikström, A., 1975. Beskrivning till berggrundskartan Norrköping NO. Sveriges
+Geologiska Undersökning, ser Af, Nr 112.
+Winchester, J.A., 1988. Later Proterozoic environments and tectonic evolution in the
+northern Atlantic lands. In: Winchester, J.A. (Ed.), Later Proterozoic Stratigraphy
+of the Northern Atlantic Regions. Blackie, Glasgow and London, pp. 253–270.
+Wingate, M.T.D., Pisarevsky, S.A., Evans, D.A.D., 2002. A revised Rodinia superconti-
+nent: no SWEAT, no AUSWUS. Terra Nova 14, 121–128.
+York, D., Hall, C.M., Yanase, Y., Hanes, J.A., Kenyon, W.J., 1981.40Ar/39Ar dating of
+terrestrial minerals with a continuous laser. Geophysical Research Letters 8,
+1136–1138.

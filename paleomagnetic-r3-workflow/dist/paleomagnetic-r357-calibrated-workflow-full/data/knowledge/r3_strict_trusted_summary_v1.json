@@ -1,0 +1,90 @@
+{
+  "schema_version": "r3_strict_trusted_summary_v1",
+  "status": "FROZEN_LABEL_FREE_KNOWLEDGE",
+  "purpose": "Aggregate only strict, study-owned, non-excluded R3 evidence instances from the frozen label-blind MIL bags into one bounded summary row per paper.",
+  "source_contract": {
+    "manifest_schema_version": "r3_evidence_mil_bags_manifest_v1",
+    "feature_schema_version": "r3_evidence_mil_bags_v1",
+    "receipt_schema_version": "r3_evidence_mil_bag_receipt_v1"
+  },
+  "strict_trusted_filter": {
+    "require_true_features": [
+      "trusted_any"
+    ],
+    "require_empty_receipt_fields": [
+      "exclusion_codes"
+    ],
+    "require_false_features": [
+      "support_blocked",
+      "event_external",
+      "event_future",
+      "event_method_negation"
+    ],
+    "conditional_requirements": [
+      {
+        "if_feature": "event_citation",
+        "then_true_feature": "event_own_likely"
+      }
+    ]
+  },
+  "summary": {
+    "aggregate_instance_features": [
+      "lexical_method_count_clip",
+      "lexical_diagnostic_count_clip",
+      "lexical_carrier_count_clip",
+      "lexical_bridge_count_clip",
+      "lexical_total_log",
+      "lexical_category_coverage",
+      "scale_sentence_window",
+      "scale_paragraph",
+      "section_methods",
+      "section_results",
+      "section_discussion",
+      "own_study_language",
+      "result_language",
+      "support_without_citation",
+      "event_first_person",
+      "event_passive_execution",
+      "event_procedure",
+      "event_result_verb",
+      "event_quantitative",
+      "event_figure_table",
+      "event_sample",
+      "event_own_strong",
+      "event_own_likely",
+      "event_score_scaled",
+      "trusted_method",
+      "trusted_diagnostic",
+      "trusted_carrier",
+      "trusted_bridge"
+    ],
+    "reducers": [
+      "mean",
+      "max"
+    ],
+    "appended_features": [
+      "strict_trusted_count_log1p",
+      "strict_trusted_fraction",
+      "strict_trusted_method_count_log1p",
+      "strict_trusted_diagnostic_count_log1p",
+      "strict_trusted_carrier_count_log1p",
+      "strict_trusted_bridge_count_log1p"
+    ],
+    "maximum_feature_count": 64,
+    "empty_bag_policy": "retain_zero_summary_and_set_available_false"
+  },
+  "source_refs": [
+    "R3_CRITERION_ATTACHMENT",
+    "DUNLOP_OZDEMIR_1997",
+    "TAUXE_ET_AL_2018",
+    "ILSE_TOMCZAK_WELLING_2018_ATTENTION_MIL"
+  ],
+  "runtime_boundary": {
+    "labels_read": false,
+    "pmagresult_or_rockmag_read": false,
+    "prior_predictions_read": false,
+    "evaluation_results_read": false,
+    "source_table_fields_read": false,
+    "identity_values_used_as_features": false
+  }
+}

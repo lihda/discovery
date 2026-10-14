@@ -1,0 +1,110 @@
+{
+  "schema_version": "r3_evidence_mil_v1",
+  "status": "FROZEN_LABEL_FREE_KNOWLEDGE",
+  "purpose": "Build bounded, auditable sentence-window and paragraph bags for document-level multiple-instance learning from original-paper text.",
+  "criterion_semantics": {
+    "practice_positive": "A study-owned rock-magnetic or magnetic-mineralogical method, diagnostic observation, carrier attribution, or remanence interpretation may support the practice-level mineralogy characterization decision.",
+    "counter_context": "Routine demagnetization alone, cited external work, and recommendations for future measurements must remain visible as counter-evidence instances.",
+    "bag_interpretation": "A paper is a bag and each retained original-text passage is an instance; downstream supervision may aggregate instances only after this bag freeze is complete."
+  },
+  "chunking": {
+    "scales": [
+      "sentence_window",
+      "paragraph",
+      "page_window",
+      "section_window"
+    ],
+    "sentence_radius": 1,
+    "paragraph_max_words": 180,
+    "page_window_words": 220,
+    "page_window_stride": 170,
+    "section_window_words": 260,
+    "section_window_stride": 210,
+    "max_chunks_per_document": 164,
+    "scale_quotas": {
+      "sentence_window": 96,
+      "paragraph": 64,
+      "page_window": 2,
+      "section_window": 2
+    }
+  },
+  "candidate_selection": {
+    "allowed_scales": [
+      "sentence_window",
+      "paragraph"
+    ],
+    "deduplication_key": "normalized_text_sha256",
+    "selection_order": [
+      "lexical_anchor",
+      "own_result_context",
+      "counter_evidence",
+      "uniform_fallback"
+    ],
+    "quotas": {
+      "lexical_anchor": 32,
+      "own_result_context": 16,
+      "counter_evidence": 8,
+      "uniform_fallback": 8
+    },
+    "max_instances_per_bag": 64,
+    "lexical_category_round_robin": [
+      "method",
+      "diagnostic",
+      "carrier",
+      "bridge"
+    ],
+    "own_result_sections": [
+      "methods",
+      "results",
+      "discussion",
+      "conclusion"
+    ]
+  },
+  "counter_pattern_groups": {
+    "demagnetization_only": [
+      "\\b(?:thermal|alternating[- ]field|AF)\\s+(?:cleaning|demagneti[sz](?:ation|ed|ing))\\b",
+      "\\bunblocking\\s+temperatures?\\b"
+    ],
+    "external_attribution": [
+      "\\b(?:previous|earlier|prior|other)\\s+(?:work|stud(?:y|ies)|authors?|investigations?)\\b",
+      "\\b(?:according\\s+to|reported\\s+by|as\\s+shown\\s+by)\\b"
+    ],
+    "future_recommendation": [
+      "\\b(?:future|further|additional)\\s+(?:work|stud(?:y|ies)|measurements?|experiments?|investigations?)\\b",
+      "\\b(?:should|could|needs?\\s+to|remains?\\s+to)\\s+be\\s+(?:measured|tested|investigated|examined|studied)\\b"
+    ]
+  },
+  "instance_features": {
+    "lexical_count_clip": 4,
+    "counter_count_clip": 4,
+    "word_count_log_reference": 180,
+    "section_classes": [
+      "abstract",
+      "introduction",
+      "geology",
+      "methods",
+      "results",
+      "discussion",
+      "conclusion",
+      "other"
+    ],
+    "include_primary_route_one_hot": true,
+    "include_eligible_route_one_hot": true
+  },
+  "source_refs": [
+    "R3_CRITERION_ATTACHMENT",
+    "DUNLOP_OZDEMIR_1997",
+    "TAUXE_ET_AL_2018",
+    "PATEL_ET_AL_ACL_2025_RETRIEVE_TO_EXPLAIN",
+    "ILSE_TOMCZAK_WELLING_2018_ATTENTION_MIL"
+  ],
+  "runtime_boundary": {
+    "labels_read": false,
+    "pmagresult_or_rockmag_read": false,
+    "prior_predictions_read": false,
+    "evaluation_results_read": false,
+    "target_context_used_only_for_alignment": true,
+    "resultno_used_only_for_alignment": true,
+    "refno_used_for_document_scope": true
+  }
+}

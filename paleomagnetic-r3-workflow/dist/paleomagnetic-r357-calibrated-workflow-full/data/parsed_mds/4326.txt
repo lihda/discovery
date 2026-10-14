@@ -1,0 +1,1160 @@
+### page_1
+Geophys.J.Int.(2023)234,1640–1654 https://doi.org/10.1093/gji/ggad166
+AdvanceAccesspublication2023April18
+GJIGeomagnetismandElectromagnetism
+Palaeosecular variation in Northern Patagonia recorded by 0–5 Ma
+Caviahue–Copahue lava flows
+Thiago R. Moncinhatto ,1 Wellington P. de Oliveira ,2 Mauricio B. Haag,3 Gelvam
+A. Hartmann ,2 Jairo F. Savian,3 Wilbor Poletti,4 Daniele Brandt,1 Carlos A. Sommer,3
+Alberto T. Caselli5 and Ricardo I.F. Trindade1
+1InstitutodeAstronomia,Geof´ısicaeCieˆnciasAtmosfe´ricas,UniversidadedeSa˜oPaulo,RuadoMata˜o1226,05508-900Sa˜oPaulo,SP,Brazil
+2InstitutodeGeocieˆncias,UniversidadeEstadualdeCampinas,RuaCarlosGomes250,13083-855Campinas,SP,Brazil.E-mail:oliveir@unicamp.br
+3InstitutodeGeocieˆncias,UniversidadeFederaldoRioGrandedoSul,Av.BentoGonc¸alves9500,91501-970PortoAlegre,RS,Brazil
+4InstitutodeCieˆnciaeTecnologia,UniversidadeFederaldosValesdoJequitinhonhaeMucuri,39100-000Diamantina,MG,Brazil
+5LaboratoriodeEstudioySeguimientodeVolcanesActivos,UniversidadNacionaldeRioNegro,Roca1242,8332G.Roca,RioNegro,Argentina
+Accepted2023April13.Received2023April5;inoriginalform2022December28
+SUMMARY
+Palaeosecularvariation(PSV)determinationsandstudiesofthegeometryoftheEarth’smain
+magnetic field provide important information about the field evolution, and to constrain nu-
+merical geodynamo models. Palaeomagnetic directional data from lava flows over the last
+fewmillionyearsisofparticularinterestbecausetheregionalandglobaltectoniceffectsare
+minimal. However, the distribution of this type of palaeomagnetic data is uneven where the
+SouthernHemisphereisthedestituteside.Therefore,thebetterknowledgeofthegeomagnetic
+field behaviour depends on the increased availability of high-quality data, especially in the
+Southern Hemisphere. A PSV and the time-averaged field (TAF) study was then performed
+in 0–5 Ma lava flows from the Caviahue–Copahue Volcanic Complex located in Northern
+Patagonia, Argentina (37◦0(cid:3)S, 71◦10(cid:3)W). The magnetic mineralogy of lava flows was in-
+vestigatedthroughthermomagneticsusceptibilitycurves,isothermalremanentmagnetization
+(IRM)acquisitioncurves,hysteresisloopsandfirst-orderreversalcurves(FORCs).Samples
+areessentiallycomprisedoftitanomagnetitewithdifferentTicontentsandmagneticdomain
+structures typical of vortex state particles. A total of 50 volcanic sites were sampled, which
+provided 42 reliable palaeomagnetic site-mean directions after alternating field and thermal
+demagnetization. From these 42 sites, 36 are of normal and 6 are of reversed polarity. The
+meandirectionfromnormal(reversed)sitesisD=356.2◦,I=−50.1◦,α =4.0◦andN=36
+95
+(D=176.5◦,I=59.5◦,α =14.1◦andN=6).Usingonlysite-leveldatawiththeprecision
+95
+parameterk≥100,weobtain26palaeomagneticsitesforPSVandTAFinvestigationsinthe
+studyregion.Thefiltereddatasethasameandirection(D=354.4◦,I=−53.2◦andα =5.1◦)
+95
+closetotheexpecteddirectionforageocentricaxialdipole(GAD)field(I =−57.3◦).The
+GAD
+palaeopole(Plat=84.4◦,Plon=229.1◦ andA =5.7◦)coincideswiththeEarth’sspinaxis
+95
+withinthe95percentconfidenceinterval.Virtualgeomagneticpolescatter(S =15.818.9 ◦ )
+andtheinclinationanomaly((cid:3)I =4.19.2◦ )arebothconsistentatthe95perce B ntconfid 1 e 1 n .8 ce
+−1.0
+levelwithrecentPSVandTAFmodels,respectively.Ourresultssupportthepresenceofsmall
+non-dipolefieldcontributions(<3percent)superimposedontheGADterm,asreportedby
+SouthAmericanstudiesatmidsouthernlatitudes.
+Key words: Palaeomagnetic secular variation; Palaeomagnetism; Rock and mineral mag-
+netism.
+theorderof105–106 yr,TAFgeometrycanbedescribedasafirst
+1 INTRODUCTION
+approximationbyageocentricaxialdipole(GAD).Thishypothesis
+An accurate diagnosis of the time-averaged palaeomagnetic field isacceptedbythepalaeomagneticcommunitywithapplicationsfor
+(TAF)anditssecularvariationisakeytoimproveourknowledge plate tectonic reconstructions over geological timescales (McEl-
+oftheEarth’smagneticfieldstructure.Overalongtimeintervalof hinny 2007; Tauxe 2010). However, for the past 10 Myr, recent
+1640 (cid:5)C TheAuthor(s)2023.PublishedbyOxfordUniversityPressonbehalfofTheRoyalAstronomicalSociety.
+Downloaded
+from
+https://academic.oup.com/gji/article/234/3/1640/7128998
+by
+Curtin
+University
+Library
+user
+on
+29
+April
+2026
+
+### page_2
+PalaeosecularvariationinNorthernPatagonia 1641
+studies of palaeosecular variation (PSV) suggest that the palaeo- geomagneticfieldmodelfittedtothe(cid:3)Idataallowsthedetermin-
+magnetic field has small non-GAD contributions, mainly due to ing the zonal quadrupole and octupole terms relative to the axial
+thepresenceofaxialquadrupolarandoctupolarcomponents(e.g. dipoleterm,basedonsphericalharmonicanalysis(McElhinnyetal.
+Johnson et al. 2008; Cromwell et al. 2018; Bono et al. 2020; de 1996). Some studies reveal the presence of non-dipolar contribu-
+Oliveira et al. 2021). On these timescales, information about the tionslessthan5percentoftheaxialdipoleforthe0–5Mainterval
+TAFstructurecanbeobtainedfrompalaeomagneticrecordsofvol- (e.g.Merrill&McElhinny1977;Schneider&Kent1990;McEl-
+canicandsedimentaryrocks.Particularly,lavaflowsarecommonly hinnyetal.1996;Johnsonetal.2008).Johnsonetal.(2008)suggest
+usedforstatisticalevaluationsofthepalaeomagneticfieldbecause contributionsof2–4percentforthequadrupolecomponentand1–
+they provide geologically instantaneous records in contrast to the 5 per cent for the octupolar component. de Oliveira et al. (2021)
+smoothedrecordinginsedimentarymaterials(Aubertetal.2010; proposedazonalTAFmodelforthe0–10Mainterval,withcontri-
+Hulotetal.2010). butionsof3.2and1.2percentforthezonalquadrupoleandoctupole
+The0–10Maintervalisofparticularinterestbecausetheregional terms,respectively.Asuggestedapproachforevaluatingthespatial
+andglobaltectoniceffectsaresmallandbecauseofthelargeavail- features(latitudinalandlongitudinalvariations)ofthepalaeomag-
+abilityofpalaeomagneticdatacomparedtoolderperiods(Johnson netic field includes non-zonal TAF contributions (e.g. Johnson &
+&McFadden2015).Palaeodirectionaldatarecordedbylavasflows Constable1995,1997;Hatakeyama&Kono2002;Cromwelletal.
+over the past 5 Myr were first compilated by McElhinny & Mer- 2018).However,detailsofthepalaeofieldmorphologyareaffected
+rill(1975)andthenupdatedbymanyPSVstudies(e.g.Quidelleur by the uneven spatial and temporal distributions of palaeomag-
+etal.1994;Johnson&Constable1996;McElhinny&McFadden neticdata.Thescarcityofpalaeomagneticdataisobservedatlow
+1997;Johnsonetal.2008).Thesedatabasesdifferbyinclusionof and high latitudes in both hemispheres, especially in the South-
+newdataandtheselectioncriteriaused,followingtheevolutionof ernHemispherethatcontributesonly35percentofthe0–10Ma
+modern palaeomagnetic laboratory methods. The current data set database (Cromwell et al. 2018; de Oliveira et al. 2021). There-
+waspresentedbydeOliveiraetal.(2021)thatincludespalaeodirec- fore,newpalaeodirectionalrecordsarecrucialforabetterunder-
+tionaldataofvolcanicrocksfromselectedpalaeomagneticstudies standingthespatialstructureandvariabilityofthepalaeomagnetic
+for the past 10 Myr. This data set provides improvements in the field.
+spatio-temporal coverage of high-quality data relative to the pre- Thisstudypresentsnewhigh-qualitypalaeomagneticdatafrom
+viousPSV10database(Cromwelletal.2018),whichwasusedto Pliocene–Holocene lava flows located in the Caviahue–Copahue
+constructnewPSVandTAFmodels. VolcanicField,northernPatagonia(Argentina).Moreover,weoffer
+StatisticalinvestigationsofPSVbehaviourprovideimportantin- newVGPscatterandinclinationanomalyestimatesandcompareto
+formationaboutthepalaeomagneticfieldevolution,andtoconstrain theSouthAmericanstudiesforthepast10Myr,inordertoverify
+numericalgeodynamomodels(e.g.Christensen&Olson2003;Coe thecompatibilityofPSVandTAFmodels.
+& Glatzmaier 2006; Davies et al. 2008; Christensen et al. 2010;
+Sprain et al. 2019; Biggin et al. 2020). PSV is commonly inves-
+tigatedbymeansoftheangulardispersionofvirtualgeomagnetic 2 GEOLOGICAL SETTING
+poles(VGPs)asafunctionoflatitude(Johnson&McFadden2015).
+TheCaviahue–CopahueVolcanicComplex(CCVC)islocatedin
+Model G (McFadden et al. 1988) has been widely used to assess
+the Andean Southern Volcanic Zone (SVZ) close to the Chile–
+latitudinalvariationofVGPdispersionoverPhanerozoictimes(e.g.
+Argentina border (37◦50(cid:3)S, 71◦10(cid:3)W, Fig. 1a). In this area, vol-
+Bigginetal.2008;Veikkolainen&Pesonen2014;deOliveiraetal.
+canism resulted from oblique subduction of the Nazca Plate un-
+2018;Doubrovineetal.2019;Francoetal.2019).Aninverserela-
+dertheSouthAmericanPlate(Stern2004).TheCCVCconsistsof
+tionshipbetweenVGPdispersionpatternandaveragegeomagnetic
+Pliocene–Holoceneeffusiveandexplosivevolcanicdepositsmainly
+reversalfrequencywassuggestedbysomestudies(McFaddenetal.
+basaltic andesite and rhyolite compositions (Mazzoni & Licitra
+1991;Bigginetal.2008).However,recentstudies(Doubrovineetal.
+2000;Varekampetal.2006).Avolcanictectonicdepression,des-
+2019;Handfordetal.2021)disputedthiscorrespondencefromnew
+ignatedasCaviahueCaldera,coversanareaofabout300km2and
+resultsofModelGparametersforPermian–Triassictransition(200–
+500kmdeep,whichwasdevelopedduringtheUpperPliocene(2
+264Ma),andsimilarityobservedinVGPdispersioncurvesbetween
+Ma;Folguera&Ramos2000).Itiscomposedofabundantpyroclas-
+periodswithnoreversals[CretaceousNormalSuperchron(84–126
+ticdepositsfoundbothinsideandoutsideofthecaldera(Linares
+Ma) and Permian–Carboniferous Reversed Superchron (262–318
+etal.1999;Folguera&Ramos2000;Haagetal.2021).Locatedat
+Ma)]and0–10Mainterval.Thelattercharacterizedbyahighre-
+thewesternmarginoftheCaviahueCaldera,theCopahueVolcano
+versal rate (∼ 4.8 Myr−1). Furthermore, Cromwell et al. (2018)
+comprisestheactivevolcaniccenterofthestudyarea(Fig.1b),and
+anddeOliveiraetal.(2021)suggestanequatorialPSVasymmetry,
+consistsoflavaflowswithages<1.2Ma(Linaresetal.1999).In
+withhigherVGPdispersionintheSouthernHemispherethanthe
+thisstudy,wefocusontheeffusivelavasfromfourgeologicalunits
+NorthernHemisphereforthepast10Myr.Itisworthmentioning
+of the CCVC: Cola de Zorro Formation, Las Mellizas Formation
+thatLinder&Gilder(2012)suggestedthatlatitudinaldependence
+(LowerandUpperlavas),TrolopeLavasandCopahueVolcano.An
+ofVGPdispersionmightbeamathematicalartefact,asaresultof
+overviewofeachgeologicalunitispresentedasfollows.
+thetransformationofdirectionstoVGPsandassumingalatitude-
+invariantbehaviourofdirectionscatter.Nonetheless,somestudies
+(e.g.Veikkolainen&Pesonen2014;Doubrovineetal.2019)donot
+2.1 ColadeZorroFormation
+supportthishypothesis.
+Anotherimportantaspectconcernswhetherthepalaeofieldstruc- TheeruptivehistoryoftheCCVCstartedwitheffusiveandpyroclas-
+tureisessentiallydipolarforthepastfewmillionyears,asdescribed ticeruptionsformedunderanextensionaltectonicregime(Folguera
+byGADhypothesis(Merrill&McFadden2003).Itispossibleto etal.2003),whosedepositsareassociatedwiththeColadeZorro
+investigatetheTAFstructurefromthelatitudinalbehaviourofin- Formation (Figs 2 and 3g). This unit is characterized by subhor-
+clination anomaly ((cid:3)I) data (McElhinny & McFadden 2000). A izontal basalt and andesite lava flows, generally interbedded with
+Downloaded
+from
+https://academic.oup.com/gji/article/234/3/1640/7128998
+by
+Curtin
+University
+Library
+user
+on
+29
+April
+2026
+
+### page_3
+1642 Moncinhattoetal.
+Figure1. (a)LocationmapofSouthAmericashowingthestudiedarea.(b)DigitalelevationmodelfrommodifiedgeologicalmapofCCVC(Melnicketal.
+2006).Thepointsindicatesampledsites.
+non-welded ignimbrites of andesitic composition (Melnick et al. trachyandesitecomposition(Figs 2and3f).Thesedepositswere
+2006).Itsvolcanicdepositsrangeinagefrom5.67to4.00Ma(see emplacedfrom1.63to0.82Ma(TableS1,SupportingInformation;
+TableS1,SupportingInformation),andcoversalargeareasituated Linaresetal.1999)and12rockcoreswereextracted.
+tothewestoftheCCVC(Mun˜oz&Stern1988;Linaresetal.1999).
+Inthisgeologicalformation72rockcoresweresampled.
+2.4 CopahueVolcano
+2.2 LasMellizas TheCopahueVolcanolavaflowsareassociatedwithsuccessivefis-
+sureandvolcaniceruptionsoverthelast1.2Ma(TableS1,Support-
+TheLasMellizasVolcanicSequencecomprisestwoeffusiveevents
+ingInformation;Mun˜oz&Stern1988;Linaresetal.1999).Several
+(LowerandUpperLavas)intercalatedbyanexplosiveone(LasMel-
+stratigraphicschemeshavebeenproposedforthisunit(e.g.Melnick
+lizasIgnimbrites).TheLowerLavasarerepresentedbycolumnar-
+etal.2006;Ba´ezetal.2020).Melnicketal.(2006)suggestedthree
+jointedlavasofbasaltictoandesiticcomposition,locallyinterbed-
+eruptivestages(Figs2and3a–c).(1)ThePre-glacialstage(1.2–0.7
+dedwithsedimentarydeposits(Figs2and3d).Thisunitisemplaced Ma),characterizedbyvoluminousbasaltictoandesiticlavaflows
+above the Cola de Zorro Formation and is widespread inside the
+that formed the main volcanic edifice. (2) The Syn-glacial stage
+Caviahue Caldera (Fig. 1b). In contrast, the Upper Lavas overlap
+(700–15ka)iscomposedofandesitictodaciticlavaflowsandsup-
+theLasMellizasIgnimbritesandarecomposedofbroadlyhomo-
+portingevidenceformagma–waterinteractions,includingpillow-
+geneous andesitic lava flows with subhorizontal foliation (Figs 2 lavas. (3) The Post-glacial stage (<15 ka) comprises basaltic–
+and3e).TheentireLasMellizassequenceisconstrainedbyK–Ar
+andesiticcompositionsandnoevidenceofglacialerosion.Recently,
+ages around 2.6 Ma (Table S1, Supporting Information; Linares
+however,Ba´ezetal.(2020)proposedamodelofglaciovolcanicevo-
+et al. 1999). A total of 184 rock core samples were taken in this
+lutionwithatleastnineflowunitsorganizedintotwosequences:the
+geologicalsequence.
+AncientandYoungsequences,separatedbyamajorerosiveepisode.
+Furthermore, the Copahue Volcano also includes historical erup-
+tionsduring1992,1995,2000and2012(Casellietal.2016),which
+2.3 TrolopeLavas
+involves ash, bombs and lithic fragments, besides rare lahar de-
+Situated in the northeast portion of CCVC, the Trolope Lavas posits(Melnicketal.2006).Forthisformation,136rockcoreswere
+comprisea200mthickeffusivesequenceofnearlyhomogeneous sampled.
+Downloaded
+from
+https://academic.oup.com/gji/article/234/3/1640/7128998
+by
+Curtin
+University
+Library
+user
+on
+29
+April
+2026
+
+### page_4
+PalaeosecularvariationinNorthernPatagonia 1643
+Geologic units and legend: Copahue Cavihaue Cavihaue
+Volcano Intra-caldera Extra-caldera
+Copahue Volcano stages
+Copahue volcano stages
+Cerro Bayo dome
+(< 15 ka - 1.0 Ma)
+Pucón Mahuida dome
+Pucón Mahuida dome
+Trolope lavas (1.0 Ma)
+Riscos Bayos ignimbrite
+Trolope Lavas
+Las Mellizas volcanic sequence (1.6 - 0.8 Ma)
+Upper lavas Upper lavas
+Ignimbrites Las Melizas volcanic
+Ignimbrites sequence (2.6 Ma)
+Lower lavas
+Lower lavas
+Cola de Zorro Formation
+Cerro Bayo
+dome (0.6 Ma)
+Trapa - Trapa Formation
+Riscos Bayos
+Ignimbrite
+Lavas (~ 2.0 Ma)
+Pillow lavas
+Cola de Zorro Fm.
+Ignimbrites/tuffs (5.6 - 4.0 Ma)
+Volcanic breccias Trapa-Trapa Fm.
+Unconformity (18 - 14 Ma)
+Figure2. StratigraphicchartoftheCaviahue–CopahueVolcanicField.ModifiedofMelnicketal.(2006).
+3 SAMPLING (FORC)diagramswereperformedononesmallchipsamplefrom
+selectedsitesusingaPrincetonMeasurementsCorporationvibrat-
+Wesampled50independentsitesduringtwofieldsessionsin2016
+ingsamplemagnetometer(VSM)MicroMag3900,withapplying
+Apriland2017February(Fig.1b).Palaeomagneticsampleswere
+fieldsofupto1Tatroomtemperature.FORCdiagramswereob-
+collected from four geological units within the study region (see
+tainedafter300reversalcurveswithanaveragingtimeof200ms.
+Section2).Recentglaciationsofferawealthexposureofeffusive
+A smoothing factor of 4 was applied to all FORC measurements
+volcanic deposits, allowing the sampling of extensively unaltered
+usingtheFORCinelsoftware(Harrison&Feinberg2008).Here,we
+bedrockoutcrops.Theseeffusiveflowscomprisethelast5Myrand
+provided new data from Copahue formation and rock magnetism
+present variable compositions, ranging from basaltic to andesitic
+datapublishedbyMoncinhattoetal.(2020).
+lavaflows(Varekampetal.2006;Folgueraetal.2016).Theages
+assignedtothesampledsiteswerebasedongeochronologicaland
+volcanostratigraphic studies (Linares et al. 1999; Melnick et al. 5 PALAEODIRECTION EXPERIMENTS
+2006), as reported in Table 1. Using a portable gasoline powered AND DATA ANALYSIS
+rockdrill,atleast10cores(2.5cmindiameterand∼12cminlength)
+Palaeodirection experiments were performed for the 50 sampled
+were taken from each site and oriented with a magnetic compass
+sitesusinga2GEnterprisesDCSQUIDmagnetometerhousedina
+andwhenpossibleusingasuncompass.Nosignificantdifference
+magneticallyshieldedroomwithabackgroundfieldlessthan500
+wasobservedbetweensunandmagneticcompassreadings.
+nT.About5–10specimens(1.1cminlength)persiteweresubjected
+tostepwisealternatingfielddemagnetization(AFD)in15stepsup
+to 100 mT. In addition, three samples per site were submitted to
+4 METHODS stepwisethermaldemagnetization(THD)in10stepsupto400◦C,
+followedby50◦Cstepsuntilheatingto600◦Corcompleteremoval
+4.1 Rockmagnetismmeasurements
+ofthenaturalremanentmagnetization(NRM).
+All palaeomagnetic and rockmagnetism measurements were car- DemagnetizationdatawereanalysedusingtheDemag-GUIpro-
+ried out in the Palaeomagnetism Laboratory of the University of gram that belongs to the PmagPy software package (Tauxe et al.
+Sa˜oPaulo(USPMag).From15representativesites,magneticmin- 2016). Characteristic remanent magnetization (ChRM) directions
+eralogyexperimentsweredonetoassessthemagneticcarriersand at the specimen level were determined using principal compo-
+magneticdomainstructures.Thetemperaturevariationofmagnetic nent analysis (PCA; Kirschvink 1980) from Zijderveld diagrams
+susceptibility(χ–Tdiagrams)wasmeasuredononesamplepersite (Zijderveld 1967). To estimate the best-fitting line of the ChRM
+usingaKLY4KappabridgecoupledwithaCS3furnace(AGICO). components,weconsideredatleastfiveconsecutivedemagnetiza-
+Heating–coolingcycleswereperformedinairfromroomtemper- tion steps converging to origin of the orthogonal projection, with
+atureupto600◦C.Theisothermalremanentmagnetization(IRM) a maximum angular deviation (MAD; Kirschvink 1980) and De-
+acquisitioncurves,hysteresisloops,andfirst-orderreversalcurves viationAngle(DANG;Tauxe&Staudigel2004)≤5◦.MADisa
+Downloaded
+from
+https://academic.oup.com/gji/article/234/3/1640/7128998
+by
+Curtin
+University
+Library
+user
+on
+29
+April
+2026
+
+### page_5
+1644 Moncinhattoetal.
+Figure3. ImagesofCCVCunitsfromdifferentsamplingsites.(a)CopahuePre-glacial,(b)CopahueSyn-glacial,(c)CopahuePost-glacial,(d)LasMellizas
+Lowerlavas,(e)LasMellizasUpperlavas,(f)Trolopelavasand(g)ColadeZorro.In(c)and(e),thecardandnotebookserveasscaleinthefield.CCVC=
+Caviahue–CopahueVolcanicComplex.
+measure of angular uncertainty of the best-fitting line and plane, primarycomponentofmagnetization.Asadoptedinthebest-fitting
+while DANG corresponds to the angle of the ChRM direction in lines, great circles with a MAD ≤ 5◦ were deemed acceptable.
+relation to the origin. Great circle fits (McFadden & McElhinny Site-meandirectionswerecalculatedusingFisherstatistics(Fisher
+1988)werecarriedoutwhenthesecondarycomponentoverlapsthe 1953).
+Downloaded
+from
+https://academic.oup.com/gji/article/234/3/1640/7128998
+by
+Curtin
+University
+Library
+user
+on
+29
+April
+2026
+
+### page_6
+PalaeosecularvariationinNorthernPatagonia 1645
+Table1. PalaeodirectionalresultsfromCaviahue–CopahueVolcanicField.
+Site Slat(◦N) Slon(◦E) n Dec(◦) Inc(◦) a95(◦) k Plat(◦N) Plon(◦E) P Age(Ma) Ref
+CP01 −37.95148 −70.8328 8 191.7 69.2 3.1 145 73.1 264.2 R 4.0–5.6 1
+CP02 −37.95150 −70.8363 7 196.9 70.7 2.6 252 69.5 260.8 R 4.0–5.6 1
+CP03 −37.95058 −70.8416 6 193.6 52.8 4.5 104 78.0 180.7 R 4.0–5.6 1
+CP04 −37.95049 −70.8420 6 191.6 60.5 6.9 45 80.4 224.3 R 4.0–5.6 1
+CP05 −37.95054 −70.8418 5 147.0 37.4 9.2 180 56.8 40.6 R 4.0–5.6 1
+CP06 −37.88233 −71.0650 9 344.8 −55.5 1.6 552 77.7 202.9 N 2.5–2.8 1
+CP10 −37.89397 −71.0584 9 356.5 −42.8 4.3 95 76.6 275.1 N 2.5–2.8 1
+CP17 −37.82789 −71.0279 9 9.6 −50.3 1.7 256 79.6 341.2 N 2.5–2.8 1
+CP19 −37.82845 −70.9683 8 25.4 −35.6 1.3 372 61.4 346.7 N 2.5–2.8 1
+CP20 −37.82228 −70.9233 7 163.8 56.2 2.5 209 77.1 18.8 R 4.0–5.6 1
+CP21 −37.88693 −71.0689 8 351.4 −47.7 6.2 69 78.4 248.2 N 2.5–2.8 1
+CP28 −37.86481 −71.0361 7 339.5 −48.7 4.5 84 71.1 218.7 N 2.5–2.8 1
+CP33 −37.86159 −71.0664 7 340.6 −54.9 1.9 257 74.2 201.9 N 2.5–2.8 1
+CP35 −37.81545 −71.1029 7 351.1 −54.3 2.3 179 82.2 218.8 N 0.7–1.2 2
+CP36 −37.81371 −71.1015 7 359.2 −59.0 3.7 136 87.9 126.4 N 0.7–1.2 2
+CP39 −37.88519 −71.0765 8 346.5 −49.9 5.1 92 76.8 227.8 N 2.5–2.8 1
+CP42 −37.87078 −70.9933 8 24.3 −54.2 5.0 43 70.2 17.3 N 2.5–2.8 1
+CP44 −37.84023 −71.0763 10 8.5 −38.1 13.0 13 72.0 315.4 N 2.5–2.8 1
+CP46 −37.93938 −71.0426 7 346.5 −52.2 3.2 115 77.9 219.9 N 4.0–5.6 1
+CP47 −37.90404 −71.0401 7 353.1 −36.9 3.5 107 71.7 268.0 N 2.5–2.8 1
+CP50 −37.97646 −70.7816 10 351.1 −59.7 2.3 159 82.6 175.9 N 4.0–5.6 1
+CP53 −37.84478 −71.1192 9 350.7 −34.9 5.9 56 69.7 262.8 N 0.7–1.2 2
+CP54 −37.84377 −71.1188 7 353.6 −54.8 3.4 149 84.3 223.0 N 0.7–1.2 2
+CP55 −37.88788 −71.1230 6 16.6 −43.3 7.8 51 71.1 341.7 N 0.7–1.2 2
+CP57 −37.84734 −71.1119 8 357.3 −30.9 1.9 280 68.7 281.8 N 0.7–1.2 2
+CP58 −37.85533 −71.1405 5 8.3 −35.0 6.1 72 70.1 312.4 N 0.015–0.7 2
+CP60 −37.84671 −71.1402 5 333.5 −61.4 5.0 125 69.3 177.4 N 0–0.015 2
+CP61 −37.82115 −71.0629 6 328.9 −52.6 3.6 155 64.4 199.9 N 2.5–2.8 1
+CP62 −37.82986 −70.9810 9 338.0 −55.7 3.1 111 72.4 197.4 N 2.5–2.8 1
+CP66 −37.84050 −70.9947 9 338.9 −60.0 2.2 199 73.4 181.8 N 2.5–2.8 1
+CP67 −37.84371 −70.9959 7 354.1 −55.2 2.7 215 84.8 221.3 N 2.5–2.8 1
+CP69 −37.78071 −71.0377 6 358.8 −54.9 2.4 255 87.4 266.3 N 2.5–2.8 1
+CP70 −37.78073 −71.0378 6 357.5 −60.1 7.3 22 86.2 139.1 N 2.5–2.8 1
+CP71 −37.79106 −71.0333 8 4.1 −40.9 3.8 77 75.2 303.8 N 2.5–2.8 1
+CP72 −37.81498 −71.0173 10 6.9 −45.6 1.8 222 77.8 319.3 N 2.5–2.8 1
+CP74 −37.86041 −71.0938 5 342.9 −43.5 11.6 27 70.9 234.7 N 0.015–0.7 2
+CP78 −37.85954 −71.1055 10 357.9 −65.6 2.5 125 79.9 117.0 N 0.7–1.2 2
+CP80 −37.85915 −71.1087 5 12.1 −40.6 5.8 29 72.0 327.6 N 0.7–1.2 2
+CP81 −37.84361 −71.1375 9 335.9 −67.9 5.6 86 68.5 153.6 N 0–0.015 2
+CP82 −37.84215 −71.1383 8 344.9 −58.5 3.8 82 78.1 187.6 N 0–0.015 2
+CP83 −37.84415 −71.1367 9 12.3 −25.5 2.3 206 63.2 316.2 N 0–0.015 2
+CP90 −37.87310 −71.0567 10 353.8 −48.4 1.7 287 80.1 255.9 N 2.5–2.8 1
+Notes:SlatandSlonaresitelatitudeandlongitude;nisnumberofspecimensusedinsitemeancalculations;DecandIncaredeclinationandand
+inclinationofsite-meandirection;α 95 istheradiusof95percentconfidencecone;kistheFisher(1953)precisionparameter;PlatandPlonare
+correspondingVGPlatitudeandVGPlongitude;Pisthegeomagneticpolarity:normal(N)andreversed(R);Agecorrespondstotheagerangeattributed
+toeachsiteandRefisthereference:1.Linaresetal.(1999);2.Melnicketal.(2006).
+5.1 Selectioncriteria McElhinny&McFadden2000),thismeansthattwodemagnetiza-
+tionprocedures(AFDandTHD)wereusedwithPCA.
+ForfurtherTAFandPSVanalysis,ourdatasetwasseparatedinto
+threegroupsaccordingtovaluesobtainedfornumberofspecimens
+per site (n) and Fisher precision parameter (k). This parameter is 5.2 Reversaltestandtransitionaldata
+definedasafunctionofnandthelengthoftheresultantvector(R):
+k=(n–1)/(n–R).Thefirstdatasetconsidersallsite-leveldata To evaluate whether two directions populations share a common
+meandirection,weusedthereversaltestproposedbyMcFadden&
+andothertwosubsetsaredifferentiatedbythekvaluesused.The
+McElhinny(1990,hereafterMM90)fornormalandreversedpolar-
+selectioncriteriaemployedforthethreedatasetsaresummarized
+itydatasets.Thistestprovidesaclassificationbasedontheangle
+below:
+θ between the two mean directions at the 95 per cent confidence
+level. A positive reversal test is labelled as A (θ ≤ 5◦), B (6◦ ≤
+(i)Noselectioncriteriaandanykandnvalueswereaccepted. θ ≤ 10◦), C (10◦ ≤ θ ≤ 20◦) and as indetermined for θ ≥ 20◦.
+(ii)CriteriaemployedbydeOliveiraetal.(2021)forupdated0–10
+AsimilartestsuggestedbyWatson(1983)alsowasappliedtothe
+Madatabase,withn≥5andk≥50.
+normalandreverseddatabasedonMonteCarlosimulation.MM90
+(iii)CriteriaproposedbyTauxeetal.(2003)thatassumesn≥5and
+andWatson’sVtestswereperformedusingthePmagPypackage
+k≥100.
+(https://earthref.org/PmagPy/).
+Ingeneral,transitionaldataarenotconsideredtoinvestigatethe
+These approaches will allow to examine whether the PSV and palaeofieldbehaviourduringstablepolarityperiods.Asaddressed
+TAFestimatesareinfluencedbyincorporatingoflow-qualitydata, byJohnson&McFadden(2015),theinclusionoftransitionalsites
+asreportedbysomestudies(e.g.Bigginetal.2008;Beharetal. canyieldanenhanceddispersionofdirectionaldata,andtherefore
+2019). It is worth mentioning that all palaeodirectional sites are canprovideinadequatePSVandTAFestimates.WeusedtheVan-
+assignedtothehighestdemagnetizationcodeequalto5(DC=5; damme(1994)methodtoidentifytransitionalsitesinourdatasets.
+Downloaded
+from
+https://academic.oup.com/gji/article/234/3/1640/7128998
+by
+Curtin
+University
+Library
+user
+on
+29
+April
+2026
+
+### page_7
+1646 Moncinhattoetal.
+An optimum cut-off angle (A) from the palaeomagnetic pole, is (Dunlop&O¨zdemir1997).SeeTableS2(SupportingInformation)
+determinedasfollows: formoredetails.
+A(◦)=1.8S (◦)+5◦. (1) IRM acquisition curves were classified in two groups as dis-
+B cussedabove.CurvesassociatedwithhighT andlowT present,
+c c
+AnrecursivemethodisappliedtocalculateAfromtheestimated respectively,asharpandsmoothchangewhensaturationmagneti-
+VGPdispersion(S ;seeSection5.3).VGPdatawithangulardevi- zationisreached(Fig.4b).Thesaturationfieldvalues(<350mT)
+B
+ationsgreaterthantheAvalueareremoved,thenS isrecalculated suggestthepresenceoflowcoercivityminerals,suchasmagnetite,
+B
+untiltherearenodatawithdeviationsgreaterthanthevalueobtained titanomagnetite and titanomaghemite (Dunlop & O¨zdemir 1997).
+fromeq.(1). Hysteresisloopsarenarrowforallsamplesandhavelowcoerciv-
+ity(B )values,rangingfrom6to20mT.Wasp-waistedmagnetic
+c
+behaviourisnotobserved,whichcouldindicateasmallcontribu-
+5.3 EstimatesofVGPdispersionandinclinationanomaly
+tionofparamagneticminerals,asshowninFig.4(c)forhysteresis
+Forthethreedatasetsdefinedbytheselectioncriteria,thebetween- loopofCP04site.FORCdiagramsaretypicalofvortexstategrains
+siteVGPdispersion(S B )fromNpalaeodirectionalsiteswascalcu- (Robertsetal.2014,2017;Lascuetal.2018)withB c valuesbelow
+latedtoassesspalaeosecularvariationintheareastudied,givenby 80mTandamoderatespreadofoutercontoursalongthevertical
+(e.g.Bigginetal.2008): (B u )axis.ExamplesofFORCdiagramsareshowninFigs4(d)–(g).
+(cid:2)
+(cid:3) (cid:6) (cid:7)
+S =
+(cid:3) (cid:4) 1 (cid:5)N
+(cid:3)2−
+Swi 2
+, (2)
+B N −1 i n 6.2 Palaeomagneticdirectional
+i=1 i
+where (cid:3) is the angular distance between the ith VGP and the ChRMdirectionswereeasilyidentifiedinmostspecimensforboth
+i
+AFDandTHDprocedures.Examplesofdemagnetizationplotsare
+mean VGP (palaeopole); and n is the number of specimens per
+i
+siteandS =81/K correspondstothewithin-siteVGPdispersion. reported in Fig. 5. Overall, ChRM components were isolated by
+wi i AFD between 20–100 mT and THD from 200◦C until complete
+K isdeterminedasfunctionofFisherprecisionparameter(k)of
+sit i e-meandirectionsandthesitepalaeolatitude(λ),following i Cox NRM demagnetization (∼600◦C), and defined from best-fitting
+i
+linesofthedemagnetizationdatadirectedtowardstheoriginofthe
+(1970):
+Zijdervelddiagrams(Figs5a–d).Insomecases,ChRMdirections
+8k
+K = i . (3) weredeterminedusingthegreatcirclemethod(McFadden&McEl-
+i 5+18sin2λ
+i
++9sin4λ
+i hinny1988)forremovalofsecondarycomponents,whicharenot
+ToquantifydirectionaldeviationswithrespecttotheGADfield, identifiable by linear segments in the demagnetization plots. The
+we calculated the inclination anomaly ((cid:3)I) from the three data statistical distribution of MAD and DANG estimates is shown in
+groups,whichisdeterminedbythedifferencebetweentheFisher Fig.6.Atotalof678specimenswerethermallyandAFdemagne-
+(1953)meaninclination(I )andtheexpectedGADinclination tized,ofwhich515specimensweredeterminedtheChRMdirection
+mean
+(I )usingthefollowingequation (Cox1975):
+withbest-fittinglines.Amongthese,433specimens(∼84percent)
+GAD
+have MAD and DANG values lower than 5◦. For the remaining
+(cid:3)I = I −I , (4)
+mean GAD 163 specimens, ChRM directions were obtained from best-fitting
+whereI isobtainedfromthemeanlatitude(λ¯)foragivendata greatcirclesofdemagnetizationdata,andonly50percentofthe
+set,defi G n A e D das: specimenshavevaluesofMAD ≤5◦.
+Eightsites(CP52,CP56,CP63–64,CP68,CP76–77,CP79)out
+I GAD =tan−1(2tanλ¯). (5) of the 50 sampled palaeomagnetic sites do not yield results from
+demagnetizationdiagramsanalysisduetohighscatteredpalaeodi-
+rections,andconsequently,site-leveldatahavenostatisticalsignif-
+6 RESULTS
+icance.Theobserveddispersioncanbecausedbysomegeological
+characteristics arising from devolatization (presence of vesicles)
+6.1 Rockmagnetism
+andbrecciation(resultedfrominteractionsbetweenlavaandice).
+Thermomagneticcurvesduringheatingcyclesfrom15sitespresent The 42 site-mean directions along with corresponding VGPs are
+two behaviour based on the Curie temperature (T ) properties summarized in Table 1. There are 36 sites with normal polarity
+c
+(Fig.4a).ThefirstiscategorizedashighT ,withasharpdecrease and 6 sites have reversed polarity. In the latter, all data are as-
+c inthemagneticsusceptibilitybetween500and600◦C(represented signedtotheColadeZorroFormation.Greatcirclefitswereused
+bydottedcurvesinFig.4a),whichindicatesthepresenceofpure only 15 per cent of the specimens to determine site-mean direc-
+magnetite or Ti-poor titanomagnetite (Dunlop & O¨zdemir 1997; tions.Equal-areastereographicprojectionsofsite-meandirections
+Evans&Heller2003).Thesecondrevealsthermomagneticcurves forthethreedatasetsdefinedbytheselectioncriteriondescribed
+(solidcurvesinFig.4a)withlowtransitiontemperaturesof180– in Section 5.1 are shown in Figs 7(a)–(c). The VGP distributions
+330◦C(categorizedaslowT ),whichistypicaloftitanomagnetite arerepresentedinthepolarprojectionmapsinFigs7(d)–(f).Itis
+c
+withhighTicontents.Bothpatternsofmagneticmineralogycor- noteworthythatallsitedirectionaldatawerecalculatedwithatleast
+roboratewiththescanningelectronmicroscopyresultsreportedby 5 or more specimens (see Table 1). Thus, we use only the Fisher
+Moncinhattoetal.(2020).OnlysamplesfromsitesCP03andCP21 precisionparameter,k,asacut-offvalueforfiltereddatasets.The
+havecurvesthatareremarkablydifferentfromothersamples.CP03 normalandreversedsite-meandirectionsforthethreegroupspass
+displaysahigherincreaseofmagneticsusceptibilityduringheating abootstrapreversaltest(Tauxe2010)atthe95percentconfidence
+process,andhasasinglemagneticphasewithT ∼574◦C.Con- level(Fig.S1,SupportingInformation),andWatson’sV-testwith
+c
+versely,sampleCP21showsasecondarytransitiontemperatureof Cclassification(Fig.8)ofMM90.Thisenablesthemeandirection
+∼330◦C,indicativeofoxidizedtitanomagnetiteortitanomaghemite and palaeopole to be determined by combining normal data and
+Downloaded
+from
+https://academic.oup.com/gji/article/234/3/1640/7128998
+by
+Curtin
+University
+Library
+user
+on
+29
+April
+2026
+
+### page_8
+PalaeosecularvariationinNorthernPatagonia 1647
+2.0
+1.5
+1.0
+0.5
+0.0
+0 100 200 300 400 500 600
+ytilibitpecsuS
+dezilamroN
+Temperature (°C)
+580
+°C
+Field (T)
+0.0 0.5 1.0
+1.0
+0.5
+0.0
+350
+mT
+Normalized
+Magnetization
+(a) (b) CP03
+High Tc
+1.0
+CP21
+Low Tc
+-1.0
+-1.0 Field (T) 1.0
+Normalized
+Moment
+(c)
+CP04
+40 40
+60 60
+50 50
+20 20
+40 40
+0 0
+30 30
+20 20
+-20 -20
+10 10
+CP01 CP06
+-40 0 -40 0
+0 20 40 60 80 100 0 20 40 60 80 100
+40 40
+60 60
+50 50
+20 20
+40 40
+0 30 0 30
+20 20
+-20 -20
+10 10
+CP60 CP39
+-40 0 -40 0
+0 20 40 60 80 100 0 20 40 60 80 100
+)Tm(
+uB
+mAm²/T²
+Bc (mT)
+)Tm(
+uB
+Bc (mT)
+mAm²/T²
+mAm²/T² mAm²/T²
+(d) (e)
+(f) (g)
+Figure4. Magneticmineralogymeasurements.(a)ThermomagneticcurvesgroupedaccordingtotheCurietemperature(Tc)properties:highTc(dottedcurve),
+lowTc(solidcurves),dashedcurves(sitesCP03andCP21)havedifferentcharacteristicsthantheothersgroups.(b)IRMacquisitioncurvesgroupedasin
+(a).(c)Hysteresiscycleswith(solidcurve)andwithout(dottedcurve)paramagneticcorrection.(d)–(g)ConventionalFORCdiagrams.IRM=isothermal
+remanentmagnetization.
+Downloaded
+from
+https://academic.oup.com/gji/article/234/3/1640/7128998
+by
+Curtin
+University
+Library
+user
+on
+29
+April
+2026
+
+### page_9
+1648 Moncinhattoetal.
+(a) CP82G5 (AFD) CP82F1 (THD) (b) CP01A5 (AFD) CP01I1 (THD)
+N Up N Up E E
+550°C
+100 mT
+350°C
+20 mT
+220°C
+10 mT
+W 100 mT W 600°C S Down S Down
+CP20F1 (AFD) CP20H2 (THD)
+(c) N (d) N
+N Up
+N Up
+E
+NRM E
+550°C
+110000 mmTT
+NRM
+20 mT 220°C
+Figure5. Examplesofdemagnetizationdiagrams.ZijderveldprojectionsobtainedfromAFDandTHDfor(a)normaland(b)reversedpolaritydirections.
+Zijderveld and stereographic projections of a reverse specimen during (c) AFD and (d) THD. ChRM = characteristic remanent magnetization, AFD =
+alternatingfielddemagnetizationandTHD=thermaldemagnetization.
+(a) Best-fit lines (b) Great circle fits (c) Best-fit lines
+MAD (º) MAD (º) DANG (º)
+snemiceps
+fo
+rebmuN
+Figure6. DistributionsofMADestimatesfrom(a)best-fittinglinesand(b)greatcirclefits,andfor(c)DANGestimatesfrombest-fittinglinesthatyielded
+ChRMdirections.MAD=maximumangulardeviation,DANG=deviationangleandChRM=characteristicremanentmagnetization.
+Downloaded
+from
+https://academic.oup.com/gji/article/234/3/1640/7128998
+by
+Curtin
+University
+Library
+user
+on
+29
+April
+2026
+
+### page_10
+PalaeosecularvariationinNorthernPatagonia 1649
+No criteria k≥50 k≥100
+(a) (b) (c)
+Up
+Down
+(d) (e) (f)
+60ºN 60ºN 60ºN
+30ºN 30ºN 30ºN
+Figure7. Stereographicprojectionsfornormal(opencircles)andreversed(filledcircles)site-meandirectionsfromthreedatasetswith(a)noselectioncriteria,
+(b)k≥50and(c)k≥100.Open(filled)trianglesindicatethenormal(reversed)meandirectionswiththeir95percentconfidencecircles.(d)–(f)Polar
+stereographicmapsofVGPpositionsforeachdataset.Solid(dashed)circlesrefertonormal(reversed)polarityVGPs.Thestarsrepresentthepalaeomagnetic
+poleswith95percentconfidencecircles.VGP=virtualgeomagneticpole.
+2.3
+:V
+s’nostaW
+8.7
+:V
+fo
+eulav
+lacitirC
+No criteria k ≥ 50 k ≥ 100
+MM90 test: “C” MM90 test: “C” MM90 test: “C”
+(θ = 14.5º) (θ = 17.8º) (θ = 17.4º)
+0.2
+:V
+s’nostaW
+4.8
+:V
+fo
+eulav
+lacitirC
+4.1
+:V
+s’nostaW
+7.7
+:V
+fo
+eulav
+lacitirC
+(a) (b) (c)
+Figure8. Watson(1983)V-testandMM90(McFadden&McElhinny1990)testresultsforthethreedatasetswith(a)noselectioncriteria,(b)k≥50and(c)
+k≥100.Thenormalandreverseddirectionsshareacommonmean,withaCclassification(seeSection5.2fordetails).
+antipodesofthereverseddata(Table2).Thethreedatasetscover (Plat = 84.3◦, Plon = 251.4◦ and A = 4.4◦) is not statistically
+95
+thesameagerangeof0.015–5.6Ma. compatiblewiththegeographicnorthpole(Fig.7d).Applyingthe
+Forthedatasetwithoutselectioncriteria(N=42sites),themean selectioncriteriak≥50,themeandirectionfornormal(reversed)
+directionfromnormal(reversed)sitesisD=356.2◦,I=−50.1◦,α polaritysitesisD=354.7◦,I=−50.4◦,α =4.2◦andN=31(D
+95 95
+=4.0◦andN=36(D=176.5◦,I=59.5◦,α =14.1◦andN=6). =173.5◦,I=59.0◦,α =17.7◦andN=5).WhenusingN=36
+95 95
+Theoverallmeandirection(D=356.2◦,I=−51.5◦andα =3.9◦) sites,themeandirection(D=354.6◦,I=−51.6◦andα =3.9◦)
+95 95
+doesnotcoincideatthe95percentconfidencelevelwithexpected andmeanVGP(Plat=83.5◦,Plon=240.1◦andA =4.7◦)donot
+95
+GADdirection(I =−57.3◦).Similarly,themeanVGPlocation overlapwiththepredictedGADdirectionandthegeographicnorth
+GAD
+Downloaded
+from
+https://academic.oup.com/gji/article/234/3/1640/7128998
+by
+Curtin
+University
+Library
+user
+on
+29
+April
+2026
+
+### page_11
+1650 Moncinhattoetal.
+Table2. Palaeomagneticmeandirectionsforthethreedatasets.
+Dataset N Slat(◦N) Slon(◦E) D(◦) I(◦) k α 95(◦) Plat(◦N) Plon(◦E) K A95(◦) SB(◦) SBl(◦) S
+B
+u (◦) (cid:3)I(◦) (cid:3)Ilo(◦) (cid:3)Iup(◦)
+Noselectioncriteria
+Alldata 42 −37.86 −71.03 356.2 −51.5 32.8 3.9 84.3 251.4 26.4 4.4 15.3 13.0 17.4 5.8 3.1 9.7
+Normal 36 −37.85 −71.06 356.1 −50.1 36.0 4.0 83.0 255.5 30.2 4.4 14.3 11.8 16.6 7.1 3.2 11.0
+Reverse 6 −37.93 −70.85 176.5 59.5 23.4 14.1 −86.1 303.4 15.8 17.4 19.8 11.9 27.9 2.2 −1.7 6.1
+k≥50
+Alldata 36 −37.86 −71.03 354.6 −51.6 32.7 4.2 83.5 240.1 27.0 4.7 15.4 12.9 17.9 5.7 1.5 9.9
+Normal 31 −37.85 −71.06 354.7 −50.4 36.6 4.3 82.4 245.8 31.8 4.7 14.1 11.3 16.4 6.8 2.6 11.0
+Reverse 5 −37.93 −70.86 173.5 59.0 19.7 17.7 −85.2 327.9 13.3 21.7 22.1 15.0 30.1 1.7 −2.5 5.9
+k≥100
+Alldata 26 −37.87 −71.01 354.4 −53.2 31.5 5.1 84.4 229.1 25.7 5.7 15.8 11.8 18.9 4.1 −1.0 9.2
+Normal 21 −37.85 −71.05 354.5 −51.8 35.7 5.4 83.2 238.3 31.6 5.7 14.2 10.5 17.9 5.5 0.4 10.6
+Reverse 5 −37.93 −70.86 173.5 59.0 19.7 17.7 −85.2 327.9 13.3 21.7 22.1 15.0 30.1 1.7 −3.4 6.8
+Notes:Nisthenumberofsites;SlatandSlonarethemeansitelatitudeandlongitude;DandIdenotethemeandeclinationandinclination;kandα 95arecorresponding95percent
+confidenceconeandFisher(1953)precisionparameterofthemeandirection;PlatandPlonarethelatitudeandlongitudeofthepalaeomagneticpole;KandA95arethe95percent
+confidenceconeandFisher(1953)precisionparameterofthepalaeomagneticpole;SBisthebetween-siteVGPdispersionwithitslower(SBl)andupper(S
+B
+u)95percentconfidence
+bounds;(cid:3)Iistheinclinationanomalywithlower((cid:3)Ilo)andupper((cid:3)Iup)95percentconfidencebounds.
+polewithinthe95percentconfidenceinterval,respectively(Table2 solve TAF structures in terms of zonal and non-zonal contribu-
+andFig.7e).Finally,thedatasetfilteredwithk≥100consistsof tions.ThislackofreliabledataismainlyobservedintheSouthern
+26 sites. Among these, the mean direction for normal sites (N = Hemisphere, where TAF and PSV approaches are supported by
+21) is D = 354.5◦, I = −51.8◦ and α = 5.4◦ and for reversed anunevenpalaeodirectiondatadistributionwhencomparedtothe
+95
+sites(N=5)isD=173.5◦,I=59.0◦andα =17.7◦.Themean NorthernHemisphere.Thecurrent0–10Madatabase(deOliveira
+95
+direction(D=354.4◦,I=−53.2◦ andα =5.1◦)fallscloseto etal.2021)comprises2543palaeodirectionaldatafromlavaflows,
+95
+theexpectedGADdirection,whereasthemeanVGP(Plat=84.4◦, ofwhich1447(65percent)arefromtheNorthernHemisphereand
+Plon=229.1◦ andA =5.7◦)isstatisticallyindistinguishableat only788(35percent)arefromtheSouthernHemisphere.InSouth
+95
+the 95 per cent confidence level with the geographic north pole America, palaeodirectional contributions began in 1994 with the
+(Fig.7f). workofCan˜o´n-Tapiaetal.(1994)followedbysomestudiesfrom
+No transtional sites are identified for the three data sets when the2000s(Leonhardtetal.2003;Mejiaetal.2004;Brownetal.
+applyingtheVandamme(1994)criterion.S and(cid:3)Iestimateswith 2004,2021;Opdykeetal.2006;Quidelleuretal.2009;Roperch
+B
+upper(Su and(cid:3)Iup)andlower(S and(cid:3)I )95percentconfidence et al. 2015; Sa´nchez-Duque et al. 2016; de Oliveira et al. 2022).
+B Bl lo
+bounds for each data group are presented in Table 2. Our data A summary of palaeomagnetic results from the current 0–10 Ma
+set with no selection criteria yields values of S =15.317.4 ◦ and database(deOliveiraetal.2021)andnewPSVstudiesisreported
+(cid:3)I =5.89.7 ◦ thatarenotstatisticallydifferentwith B inthe95 1 p 3. e 0 rcent inTable3andplottedinFig.10.
+3.1
+confidence limits compared to the estimates for data sets filtered AscanbeobservedinFigs10(a)and(b),datafromSouthAmer-
+withk≥50(S =15.417.9 ◦ and(cid:3)I =5.79.9 ◦ )andk≥100(S = ica(SA)coveringlatitudesbetween5–20◦Sarescarce.Therefore,
+15.818.9 ◦ and(cid:3) B I =4.19 1 .2 2◦ .9 ). 1.5 B futureTAFandPSVstudiesshouldconcentrateonacquiringnew
+11.8 −1.0
+palaeomagneticrecordsinthislatitudeband.Wehavefivestudies
+atlatitudes23–51◦S:threearefromArgentina(Brownetal.2004;
+7 DISCUSSION
+Mejia et al. 2004; Quidelleur et al. 2009) and two from Chile
+(Roperch et al. 2015; Brown et al. 2021). Inclination anomaly
+7.1 MagnetostratigraphyoftheCaviahue–Copahue
+estimates these studies are consistent at the 95 per cent confi-
+VolcanicField dence level with a GAD field ((cid:3)I = 0◦, Fig. 10b and Table 3).
+Sampledsitescoveranagerangeofapproximately5.6Ma(between All results are not also statistically different from predictions of
+0.015–5.6Ma),andcomprisethelastfourpolaritychrons(Brun- recent palaeomagnetic models: 0–10 Ma TAF (de Oliveira et al.
+hes,Gauss,MatuyamaandGilbert)duringtheLateMioceneand 2021),BCE19(Brandtetal.2020)andBB18-family(Bonoetal.
+theHolocene.AsshowninFig.9,themagneticpolarityofthesite- 2020)models.ForlowlatitudesinSAregion,therearefourstud-
+mean directions are in accordance with the geomagnetic polarity ies from Brazil (Leonhardt et al. 2003), Ecuador (Opdyke et al.
+time scale 2020 (GTPS2020) of Ogg (2020), taking into account 2006) and Colombia (Sa´nchez-Duque et al. 2016; de Oliveira
+theageintervalattributedtoeachsite,supportedbygeochronolog- etal.2022)thatyieldednegative(cid:3)Ivalueswithsignificantdevi-
+icalstudieslistedinTable1.Mostofpalaeodirectionalsiteshave ations from a GAD model, expect the study of de Oliveira et al.
+normalpolarityandareassociatedwiththelavaflowsfromMellizas (2022). In addition, note that inclination anomalies are statisti-
+SequenceandCopahueVolcano(Fig.9).Reversedpolaritydirec- cally compatible with the 0–10 Ma TAF and BB18.Z3 models,
+tionsarerecordedonlyforCP01-05andCP20sitesandrepresent considering the 95 per cent confidence intervals (Fig. 10b). Al-
+theColadeZorraformation. thoughSAinclinationanomaliespresentlocalpersistentdepartures
+from the predictions discussed above, regional data indicate con-
+sistencywiththe0–10Madatacompilationincludingourresults
+7.2 PreviousresultsfromSouthAmerica
+(Table2).
+In their recent compilation of palaeomagnetic data from volcanic RegardingthePSVestimates(Fig.10a),twostudiesatinterme-
+sites,Cromwelletal.(2018)anddeOliveiraetal.(2021)reinforced diatelatitudesfromArgentina(Mejiaetal.2004;Quidelleuretal.
+theneedofgloballydistributedhigh-qualitydata,inordertobetter 2009)areinagreementwithVGPdispersioncurvesoftheBCE19
+Downloaded
+from
+https://academic.oup.com/gji/article/234/3/1640/7128998
+by
+Curtin
+University
+Library
+user
+on
+29
+April
+2026
+
+### page_12
+PalaeosecularvariationinNorthernPatagonia 1651
+Copahue (Post-Glacial)
+Las Mellizas CP60, CP81, CP82, CP83
+Cola de Zorro CP06, CP10, CP17, CP19
+Copahue (Syn-Glacial)
+CP46, CP50 CP21, CP28, CP33, CP39
+CP42, CP44, CP47, CP61 CP35, CP36, CP58, CP74
+CP62, CP66, CP67, CP69
+CP01, CP02, CP03, CP04 Copahue (Pre-Glacial)
+CP70, CP71, CP72, CP90
+CP05, CP20 CP53, CP54, CP54, CP57
+CP78, CP80
+6 5 4 3 2 1 0
+GPTS2020
+GILBERT GAUSS MATUYAMA
+95.3 95.2 77.0 Age (Ma)
+GPTS2020
+BRUNHES
+Figure9. Magneticpolarityofthesampledsitescomparedtothegeomagneticpolaritytimescale2020(GPTS2020;Ogg2020).Theageintervalofeachsite
+(seeTable1)isrepresentedbyahorizontalline.Normal(reversed)polaritysitesareindicatedbyfilled(open)circles.
+Table3. MeanpalaeodirectionsfromSouthAmericanstudies.ReferencereferstothepalaeomagneticstudyconductedinSouthAmerica(seecolumnlocation).
+Nos Location Age(Ma) Slat(◦N) Slon(◦E) N D(◦) I(◦) α 95(◦) Plat(◦N) Plon(◦E) A95(◦) Su
+Bl
+(◦) (cid:3)I
+l
+u
+o
+p(◦) Reference
+1 Argentina 0.165–8.67 −51.39 289.25 36 357.4 −68.1 3.6 88.2 178.3 5.6 18.6 1 2 5 0 . . 5 7 0.2− 2.7 2.2 Mejiaetal.(2004)
+2 Argentina 0.034–7.86 −47.07 288.78 26 5.3 −63.9 5.6 86.2 36.1 7.7 21.3 1 2 7 3 . . 3 8 1.1− 6.4 3.8 Brownetal.(2004)
+3 Argentina 0.007–1.72 −36.14 290.85 30 357.3 −54.4 4.7 88.0 197.1 4.9 14.7 1 1 1 7 . . 1 7 1.2− 6.1 2.6 Quidelleuretal.(2009)
+4 Chile 0.00016–0.0051 −38.90 288.24 18 5.2 −55.0 4.4 85.6 342.9 4.9 11.3 8 1 . 2 7 .9 3.2− 7.5 0.2 Roperchetal.(2015)
+5 Chile 0.1–4.2 −23.30 292.20 39 358.9 −37.6 5.8 88.3 240.5 5.8 18.5 1 2 6 1 . . 0 9 −2.7− 3.1 8.5 Brownetal.(2021)
+6 Brazil 2.55–10.0 −4.32 327.74 36 358.9 −15.4 4.8 86.1 165.8 3.5 11.7 9 1 . 3 7 .5 −6.8− − 1 1 0 .9 .8 Leonhardtetal.(2003)
+7 Ecuador 0.0176–2.71 −0.48 281.76 45 0.6 −6.6 4.0 87.0 89.5 3.3 12.5 1 1 0 4 . . 5 1 −5.6− − 8 2 . . 6 5 Opdykeetal.(2006)
+8 Colombia 0–2.02 1.27 282.76 30 351.2 −3.4 6.2 80.7 173.1 5.2 15.2 1 1 2 7 . . 0 6 −5.9− 0.3 12.1 deOliveiraetal.(2022)
+9 Colombia 0–2.65 4.90 284.64 42 3.9 3.8 4.3 85.1 51.7 2.9 10.5 8 1 . 1 9 .9 −5.9− − 1 2 0 .2 .1 Sa´nchez-Duqueetal.(2016)
+Note:SeeTable2foracompletedescriptionofcolumnsAgeto(cid:3)I.
+(a) (b)
+0-10 Ma database
+Model G
+Model BCE19
+Model BB18
+Model BB18.Z3
+4
+2 2 3
+1 5 1
+3 8 5 7
+9
+7 6 8
+4 6 9 0-10 Ma database
+GAD Model
+0-10 Ma TAF Model
+Model BCE19
+Model BB18
+Model BB18.Z3
+South American paleomagnetic studies
+Argentina Chile Ecuador
+1. Mejia et al. (2004) 4. Roperch et al. (2015) 7. Opdyke et al. (2006)
+2. Brown et al. (2004) 5. Brown et al. (2021)
+3. Quidelleur et al. (2009) Colombia
+Brazil
+This study 8. de Oliveira et al. (2022)
+6. Leonhardt et al. (2003) 9. Sánchez-Duque et al. (2016)
+Figure10. Latitudinaldistributionof(a)VGPangulardispersion(SB)and(b)Inclinationanomaly((cid:3)I)fromupdated0–10Madatabase(deOliveiraetal.
+2021)filteredwithVandamme(1994)criterion.ThestarsrepresenttheSBand(cid:3)Iestimatesofthisstudy.NumberedcirclesindicatedatafromSouthAmerican
+studies,asreportedinTable3.
+Downloaded
+from
+https://academic.oup.com/gji/article/234/3/1640/7128998
+by
+Curtin
+University
+Library
+user
+on
+29
+April
+2026
+
+### page_13
+1652 Moncinhattoetal.
+andBB18models,andrevisedModelG(McFadden&McElhinny dispersion(S =15.818.9 ◦ )isinaccordancewithglobalPSVmod-
+B 11.8
+1988) suggested by de Oliveira et al. (2021). A low dispersion elsandSouthAmericanstudies,whichsuggeststhatPSVmodels
+(S B =11.7 9 1 . 3 7 .5 ◦ )isfoundforthedatasetofRoperchetal.(2015), areabletodescribethepalaeomagneticobservationsforthelatitude
+possiblyduetotheveryshorttimespan(historic)representedbythe rangeofthestudiedarea.
+sampledflows.ThestudiesbyBrownetal.(2004)andBrownetal. This study offers a new reliable data set for South America,
+(2021) have high VGP dispersion (S B =21.32 1 3 7 . . 8 3 ◦ and 18.5 1 2 6 1 . . 0 9 ◦ , where palaeomagnetic data coverage is particularly poor for the
+respectively). These values are only statistically compatible with past10Myr.Wereinforcetheneedforanupgraded0–10Madata
+ModelGwithinthe95percentconfidenceinterval(dashedcurve; set that meet modern laboratory protocols, not only in the South
+Fig.10a),theexceptionisthehighPSVfromChileat23◦S(Brown
+Americanregion,butfortheentireSouthernHemisphere.Improve-
+etal.2021).Interestingly,apronounceddispersionisdetectedata ments in the geographic distribution of directional and intensity
+similarlatitudefromSaintHelenaisland(S B =21.92 1 5 7 . . 1 9 ◦ )at18◦S data,accompaniedbyreliablegeochronologicstudiesareessential
+(Engbers et al. 2020) for the 8–10 Ma period, which suggests a todevelopanewgenerationofglobalTAFandPSVmodels.More-
+long-termanomalousgeomagneticfieldbehaviourintheSouthern over,acontinuouslatitudinalcoverageofpalaeomagneticdatamay
+Hemisphere,aspointedoutbysomeauthors(e.g.Panovskaetal. helptounderstandthelong-periodPSVandTAFasymmetriesand
+2019; Engbers et al. 2020; Brown et al. 2021; de Oliveira et al. toproperlydiscernwhetheritisanintrinsicfeatureofthegeomag-
+2021). The studies from Brazil (Leonhardt et al. 2003), Ecuador neticfield,orisanartefactduetothelowdistributionandquality
+(Opdykeetal.2006)andColombia(Sa´nchez-Duqueetal.2016) of the available palaeomagnetic data, especially in the Southern
+conformwithBB18modelsandModelG.TheexceptionisBCE19 Hemisphere.
+modelthatprovideslowerVGPdispersionestimatesrelativetoother
+PSVmodels.
+ACKNOWLEDGMENTS
+7.3 Time-averagedfieldandpalaeosecularvariation TheauthorsacknowledgethecommentsandsuggestionsofHarald
+Bo¨hnelandLaurieBrown,andtheeditorialworkofEduardPetro-
+Wenotethatinclinationanomaliesthisstudyhavepositivevalues
+vsky.ThisworkwassupportedbygrantsofConselhoNacionalde
+forthethreedatasets,buttheyarenotstatisticallydifferentfrom
+DesenvolvimentoCient´ıficoeTecnolo´gico(CNPq;150796/2022-6,
+eachother(seeTable2).UsingthedatabasefilteredwithTauxeetal.
+165161/2018-3, 425728/2018-8, 312737/2020-3). This work was
+(2003)criterion,weobtain(cid:3)I =4.19.2◦ (representedbystar)that
+−1.0 partially funded by grant 2022/03086-2 to GAH, Sa˜o Paulo Re-
+isstatisticallycompatibleatthe95percentconfidencelevelwith
+searchFoundation(FAPESP).Thisstudyhasbeen(partially)per-
+the predictions of 0–10 Ma TAF model and two Giant Gaussian
+formed at USPMag Lab at Instituto de Astronomia, Geof´ısica e
+Processmodels(BCE19andBB18models),asshowninFig.10(b).
+CieˆnciasAtmosfe´ricas(IAG)atUniversidadedeSa˜oPaulo(USP)
+Ourresultsaresuggestiveofthepresenceofnon-dipolefieldcon-
+fundedbyCAPES/FAPESP/CNPq.
+tributions, as reported by these models. In particular, for BCE19
+(dotted–dashed curve) and BB18 (dotted curve) models that as-
+sume an axial octupole contribution of ∼ 3 per cent of the axial DATA AVAILABILITY STATEMENT
+dipoleterm.
+The authors confirm that the data supporting the findings of this
+VGPdispersioncalculatedfollowingtheTauxeetal.(2003)cri-
+teriawithvalueof S =15.818.9 ◦ ,isstatisticallyindistinguishable studyareavailablewithinthepaperanditsSupportingInformation.
+B 11.8
+atthe95percentconfidencelevelcomparedtothedatasetswith-
+outselectioncriteriaandwithk≥50(seeTable2).Bycomparing
+REFERENCES
+theVGPdispersioncurvesfromBB18(Bonoetal.2020)models Aubert,J.,Tarduno,J.A.&Johnson,C.L.,2010.Observationsandmodels
+and Model G, our S B estimate fits these PSV models within the of the long-term evolution of Earth’s magnetic field, Space Sci. Rev.,
+95percentconfidencelimits(Fig.10a).Therefore,itsuggestthat 155(1–4),337–370.
+weadequatelysampledthepalaeosecularvariationduringthelast Ba´ez,A.D.,Ba´ez,W.,Caselli,A.T.,Martini,M.A.&Sommer,C.A.,2020.
+fivemillionyears. TheglaciovolcanicevolutionoftheCopahuevolcano,andeansouthern
+volcaniczone,Argentina-Chile,J.Volc.Geotherm.Res.,396,1–20.
+Behar,N.,Shaar,R.,Tauxe,L.,Asefaw,H.,Ebert,Y.,Heimann,A.,Kop-
+8 CONCLUSIONS pers,A.A.P.&Ron,H.,2019.Paleomagnetismandpaleosecularvari-
+ationsfromthePlio-PleistoceneGolanHeightsvolcanicplateau,Israel,
+Weprovidenewhigh-qualitypalaeomagneticdatafromtheCCVC
+Geochem.Geophys.Geosyst.,20(9),4319–4335.
+coveringthepast5Myr.Thedatasetconsistsof42palaeodirectional
+Biggin,A.J.,VanHinsbergen,D.J.J.,Langereis,C.G.,Straathof,G.B.&
+sitesfromlavaflows.Themagneticmineralogymeasurementssug- Deenen,M.H.L.,2008.GeomagneticsecularvariationintheCretaceous
+gest the dominance of titanomagnetite with variable Ti contents NormalSuperchronandintheJurassic,Phys.Earthplanet.Inter.,169(1–
+with domain structures characteristic of vortex state grains. We 4),3–19.
+obtain26palaeodirectionaldataafterapplyingthestrictselection Biggin,A.J.,Bono,R.K.,Meduri,D.G.,Sprain,C.J.,Davies,C.J.,Holme,R.
+criteria of k ≥ 100, which have a mean direction (D = 354.4◦, I &Doubrovine,P.V.,2020.Quantitativeestimatesofaveragegeomagnetic
+= −53.2◦ and α = 5.1◦) very close to the GAD field direction axialdipoledominanceindeepgeologicaltime,Nat.Commun.,11(1),
+95
+(D =0◦ andI =−57.3◦).Thepalaeomagmeticpole(Plat 1–9.
+GAD GAD
+=84.4◦,Plon=229.1◦,A =5.7◦)isstatisticallyindistinguish- Bono,R.K.,Biggin,A.J.,Holme,R.,Davies,C.J.,Meduri,D.G.&Bestard,
+95 J.,2020.CovariantGiantGaussianprocessmodelswithimprovedrepro-
+ableatthe95percentconfidencelevelwiththegeographicnorth
+pole. The inclination anomaly ((cid:3)I =4.19.2◦ ) is agreement with ductionofpalaeosecularvariation,Geochem.Geophys.Geosyst.,21(8),
+−1.0 1–15.
+predictionsof0–10MaTAFmodel,BCE19andBB18modelsat Brandt, D., Constable, C. & Ernesto, M., 2020. Giant Gaussian process
+the95percentconfidencelevel.Ourresultssupportnon-GADfield models of geomagnetic palaeosecular variation: a directional outlook,
+structuresdescribedbythesemodelsforthe0–10Maperiod.VGP Geophys.J.Int.,222(3),1526–1541.
+Downloaded
+from
+https://academic.oup.com/gji/article/234/3/1640/7128998
+by
+Curtin
+University
+Library
+user
+on
+29
+April
+2026
+
+### page_14
+PalaeosecularvariationinNorthernPatagonia 1653
+Brown, L., Singer, B.S. & Gorring, M.L., 2004. Paleomagnetism and Franco,D.R.,deOliveira,W.P.,deFreitas,F.B.V.,Takahashi,D.,daPonte
+40Ar/39Ar chronology of lavas from Meseta del Lago Buenos Aires, Neto,C.F.&Peixoto,I.M.C.,2019.Paleomagneticevidenceforinverse
+Patagonia,Geochem.Geophys.Geosyst.,5(1),1–21. correspondencebetweentherelativecontributionoftheaxialdipolefield
+Brown,L.,Singer,B.S.&Barquero-Molina,M.,2021.Paleomagnetismand andCMBheatfluxforthepast270Myr,Sci.Rep.,9(1),1–8.
+40Ar/39Ar chronology of ignimbrites and lava flows, Central Volcanic Haag,M.B.etal.,2021.AMSandrockmagnetismintheCaviahue-Copahue
+Zone,NorthernChile,J.SouthAmericanEarthSci.,106,1–18. VolcanicComplex(SouthernAndes):emissioncenter,flowdynamics,and
+Can˜o´n-Tapia, E., Herrero-Bervera, E. & Walker, G.P.L., 1994. Flow di- implicationstotheemplacementofnon-weldedPDCs,J.Volc.Geotherm.
+rections and paleomagnetic study of rocks from the Azufre Volcano, Res.,416,1–15.
+Argentina,J.Geomag.Geoelectr.,46(2),143–159. Handford,B.T.,Biggin,A.J.,Haldan,M.M.&Langereis,C.G.,2021.Ana-
+Caselli, A.T., Velez, M.L., Agusto, M., Liccioli, C. & Vaselli, O., 2016. lyzingTriassicandPermiangeomagneticpaleosecularvariationandthe
+PrehistorictohistoricvolcanicactivityatCopahuevolcano,inCopahue implicationsforancientfieldmorphology,Geochem.Geophys.Geosyst.,
+Volcano,pp.49–59,Springer. 22(11),1–22.
+Christensen,U.R.&Olson,P.,2003.Secularvariationinnumericalgeody- Harrison,R.J.&Feinberg,J.M.,2008.FORCinel:animprovedalgorithmfor
+namomodelswithlateralvariationsofboundaryheatflow,Phys.Earth calculatingfirst-orderreversalcurvedistributionsusinglocallyweighted
+planet.Inter.,138(1),39–54. regressionsmoothing,Geochem.Geophys.Geosyst.,9(5),1–11.
+Christensen,U.R.,Aubert,J.&Hulot,G.,2010.ConditionsforEarth-like Hatakeyama,T.&Kono,M.,2002.Geomagneticfieldmodelforthelast5
+geodynamomodels,Earthplanet.Sci.Lett.,296(3–4),487–496. My:time-averagedfieldandsecularvariation,Phys.Earthplanet.Inter.,
+Coe,R.S.&Glatzmaier,G.,2006.Symmetryandstabilityofthegeomag- 133(1–4),181–215.
+neticfield,Geophys.Res.Lett.,33(21),1–5. Hulot,G.,Finlay,C.C.,Constable,C.G.,Olsen,N.&Mandea,M.,2010.
+Cox,A.,1970.Latitudedependenceoftheangulardispersionofthegeo- TheMagneticFieldofPlanetEarth,SpaceSci.Rev.,152(1),159–222.
+magneticfield,Geophys.J.Int.,20(3),253–269. Johnson,C.L.&Constable,C.G.,1995.Thetime-averagedgeomagnetic
+Cox,A.,1975.Thefrequencyofgeomagneticreversalsandthesymmetry field as recorded by lava flows over the past 5 Myr, Geophys. J. Int.,
+ofthenondipolefield,Rev.Geophys.,13(3),35–51. 122(2),489–519.
+Cromwell,G.,Johnson,C.L.,Tauxe,L.,Constable,C.G.&Jarboe,N.A., Johnson,C.L.&Constable,C.G.,1996.Palaeosecularvariationrecorded
+2018. PSV10: A global data set for 0–10 Ma time-averaged field and bylavaflowsoverthepastfivemillionyears,Philos.Trans.R.Soc.Lond.
+paleosecularvariationstudies,Geochem.Geophys.Geosyst.,19(5),1533– Ser.A:Math.Phys.Eng.Sci.,354(1704),89–141.
+1558. Johnson,C.L.&Constable,C.G.,1997.Thetime-averagedgeomagnetic
+Davies,C.J.,Gubbins,D.,Willis,A.P.&Jimack,P.K.,2008.Time-averaged field: global and regional biases for 0–5 Ma, Geophys. J. Int., 131(3),
+paleomagneticfieldandsecularvariation:predictionsfromdynamoso- 643–666.
+lutionsbasedonlowermantleseismictomography,Phys.Earthplanet. Johnson,C.L.&McFadden,P.L.,2015.TheTime-averagedFieldandPale-
+Inter.,169(1–4),194–203. osecularVariation,Vol.5,pp.385–414,Elsevier,Oxford2ndedn.
+de Oliveira, W.P., Franco, D.R., Brandt, D., Ernesto, M., da Ponte Neto, Johnson,C.L.etal.,2008.Recentinvestigationsofthe0–5Mageomagnetic
+C.F., Zhao, X., de Freitas, F.B.V. & Martins, R.S., 2018. Behavior of fieldrecordedbylavaflows,Geochem.Geophys.Geosyst.,9(4),1–31.
+the paleosecular variation during the Permian-Carboniferous reversed Kirschvink,J.L.,1980.Theleast-squareslineandplaneandtheanalysisof
+Superchronandcomparisonstothelowreversalfrequencyintervalssince palaeomagneticdata,Geophys.J.Int.,62(3),699–718.
+Precambriantimes,Geochem.Geophys.Geosyst.,19(4),1035–1048. Lascu,I.,Einsle,J.F.,Ball,M.R.&Harrison,R.J.,2018.Thevortexstatein
+deOliveira,W.P.etal.,2021.Paleosecularvariationandthetime-averaged geologicmaterials:amicromagneticperspective,J.geophys.Res.:Solid
+geomagnetic field since 10 Ma, Geochem. Geophys. Geosyst., 22(10), Earth,123(9),7285–7304.
+1–23. Leonhardt,R.,Matzka,J.&Menor,E.A.,2003.Absolutepaleointensities
+deOliveira,W.P.,Hartmann,G.A.,Savian,J.F.,Nova,G.,Parra,M.,Big- and paleodirections of Miocene and Pliocene lavas from Fernando de
+gin, A.J. & Trindade, R.I.F., 2022. Paleosecular variation record from Noronha,Brazil,Phys.Earthplanet.Inter.,139(3–4),285–303.
+Pleistocene-Holocene lava flows in southern Colombia, Phys. Earth Linares,E.,Ostera,H.A.&Mas,L.,1999.Cronologiapotasio-argondel
+planet.Inter.,332,1–14. complejoefusivoCopahue-Caviahue,ProvinciadelNeuquen,Rev.Asoc.
+Doubrovine,P.V.,Veikkolainen,T.,Pesonen,L.J.,Piispa,E.,Ots,S.,Smirnov, Geol.Argentina,54(3),240–247.
+A.V.,Kulakov,E.V.&Biggin,A.J.,2019.Latitudedependenceofgeomag- Linder,J.&Gilder,S.A.,2012.Latitudedependencyofthegeomagnetic
+neticpaleosecularvariationanditsrelationtothefrequencyofmagnetic secular variation S parameter: a mathematical artifact, Geophys. Res.
+reversals:observationsfromtheCretaceousandJurassic,Geochem.Geo- Lett.,39(2),1–4.
+phys.Geosyst.,20(3),1240–1279. Mazzoni, L.A. & Licitra, D.T., 2000. Significado estratigra´fico y vol-
+Dunlop,D.J. &O¨zdemir,O., 1997.RockMagnetism: Fundamentalsand canolo´gicodedepo´sitosdeflujospirocla´sticosneo´genosconcomposicio´n
+Frontiers,CambridgeUniversityPress. intermediaenlazonadellagoCaviahue,ProvinciadelNeuque´n,Rev.
+Engbers,Y.A.,Biggin,A.J.&Bono,R.K.,2020.Elevatedpaleomagnetic Asoc.Geol.Argentina,55(3),247–249.
+dispersionatSaintHelenasuggestslong-livedanomalousbehaviorinthe McElhinny,M.W.&McFadden,P.L.,1997.Palaeosecularvariationoverthe
+SouthAtlantic,Proc.Natl.Acad.Sci.,117(31),18258–18263. past5Myrbasedonanewgeneralizeddatabase,Geophys.J.Int.,131(2),
+Evans,M.E.&Heller,F.,2003.EnvironmentalMagnetism:Principlesand 240–252.
+ApplicationsofEnviromagnetics,Elsevier. McElhinny, M.W. & McFadden, P.L., 2000. Paleomagnetism: Continents
+Fisher, R., 1953. Dispersion on a sphere, Proc. R. Soc. Lond, A217(5), andOceans,Vol.73,Elsevier.
+295–305. McElhinny,M.W.&Merrill,R.T.,1975.Geomagneticsecularvariationover
+Folguera,A.&Ramos,V.,2000.Controlestructuraldelvolca´nCopahue thepast5my,Rev.Geophys.,13(5),687–708.
+(38◦S-71◦O):implicanciastectonicasparaelarcovolcanicocuaternario McElhinny,M.W.,McFadden,P.L.&Merrill,R.T.,1996.Thetime-averaged
+(36-39◦S),Rev.Asoc.Geol.Argentina,53(3),229–244. paleomagnetic field 0–5 Ma, J. geophys. Res.: Solid Earth, 101(B11),
+Folguera,A.,Ramos,V.A.&Melnick,D.,2003.Recurrenciaeneldesarrollo 25007–25027.
+decuencasdeintraarco.:CordilleraNeuquina(37◦30’-38◦S),Rev.Asoc. McElhinny, M.W., 2007. Geocentric axial dipole hypothesis, in Encyclo-
+Geol.Argentina,58(1),3–19. pediaofGeomagnetismandPaleomagnetism,pp.Springer,Dordrecht.
+Folguera, A., Rojas Vera, E., Ve´lez, L., Tobal, J., Orts, D., Agusto, M., 281–286.
+Caselli, A. & Ramos, V.A., 2016. A review of the geology, structural McFadden,P.L.&McElhinny,M.W.,1988.Thecombinedanalysisofre-
+controls, and tectonic setting of Copahue volcano, Southern Volcanic magnetizationcirclesanddirectobservationsinpalaeomagnetism,Earth
+Zone,Andes,Argentina,inCopahueVolcano,pp.3–22,Springer. planet.Sci.Lett.,87(1–2),161–172.
+Downloaded
+from
+https://academic.oup.com/gji/article/234/3/1640/7128998
+by
+Curtin
+University
+Library
+user
+on
+29
+April
+2026
+
+### page_15
+1654 Moncinhattoetal.
+McFadden,P.L.&McElhinny,M.W.,1990.Classificationofthereversaltest Schneider,D.A.&Kent,D.V.,1990.Thetime-averagedpaleomagneticfield,
+inpalaeomagnetism,Geophys.J.Int.,103(3),725–729.(MM90) Rev.Geophys.,28(1),71–96.
+McFadden,P.L.,Merrill,R.T.&McElhinny,M.W.,1988.Dipole/quadrupole Sprain,C.J.,Biggin,A.J.,Davies,C.J.,Bono,R.K.&Meduri,D.G.,2019.
+familymodelingofpaleosecularvariation,J.geophys.Res.:SolidEarth, Anassessmentoflongdurationgeodynamosimulationsusingnewpale-
+93(B10),11583–11588. omagneticmodelingcriteria(QPM),Earthplanet.Sci.Lett.,526,1–13.
+McFadden,P.L.,Merrill,R.T.,McElhinny,M.W.&Lee,S.,1991.Reversals Stern,C.R.,2004.Activeandeanvolcanism:itsgeologicandtectonicsetting,
+of the Earth’s magnetic field and temporal variations of the dynamo Rev.geol.Chile,31(2),161–206.
+families,J.geophys.Res.:SolidEarth,96(B3),3923–3933. Tauxe, L., 2010. Essentials of Paleomagnetism, University of California
+Mejia,V.,Opdyke,N.D.,Vilas,J.F.,Singer,B.&Stoner,J.S.,2004.Plio- Press.
+Pleistocenetime-averagedfieldinsouthernPatagoniarecordedinlava Tauxe,L.,Constable,C.,Johnson,C.L.,Koppers,A.A.P.,Miller,W.R.&
+flows,Geochem.Geophys.Geosyst.,5(3),1–15. Staudigel,H.,2003.PaleomagnetismofthesouthwesternUSArecorded
+Melnick,D.,Folguera,A.&Ramos,V.A.,2006.Structuralcontrolonarc by0–5Maigneousrocks,Geochem.Geophys.Geosyst.,4(4),1–29.
+volcanism:theCaviahue–CopahueComplex,CentraltoPatagonianAn- Tauxe,L.etal.,2016.PmagPy:softwarepackageforpaleomagneticdata
+destransition(38◦S),J.SouthAmericanEarthSci.,22(1),66–88.
+analysisandabridgetotheMagneticsInformationConsortium(MagIC)
+Merrill,R.T.&McElhinny,M.W.,1977.Anomaliesinthetime-averaged Database,Geochem.Geophys.Geosyst.,17(6),2450–2463.
+paleomagnetic field and their implications for the lower mantle, Rev. Tauxe,L.&Staudigel,H.,2004.Strengthofthegeomagneticfieldinthe
+Geophys.,15(3),309–323. CretaceousNormalSuperchron:newdatafromsubmarinebasalticglass
+Merrill,R.T.&McFadden,P.L.,2003.Thegeomagneticaxialdipolefield oftheTroodosOphiolite,Geochem.Geophys.Geosyst.,5(2),1–16.
+assumption,Phys.Earthplanet.Inter.,139(3–4),171–185. Vandamme,D.,1994.Anewmethodtodeterminepaleosecularvariation,
+Moncinhatto,T.R.,Haag,M.B.,Hartmann,G.A.,Savian,J.F.,Poletti,W., Phys.Earthplanet.Inter.,85(1–2),131–142.
+Sommer, C.A., Caselli, A.T. & Trindade, R. I.F., 2020. Mineralogical Varekamp, J.C., deMoor, J.M., Merrill, M.D., Colvin, A.S., Goss, A.R.,
+controlonthemagneticanisotropyoflavasandignimbrites:acasestudy Vroon, P.Z. & Hilton, D.R., 2006. Geochemistry and isotopic char-
+intheCaviahue-Copahuefield(Argentina),Geophys.J.Int.,220(2),821– acteristics of the Caviahue-Copahue Volcanic Complex, Province of
+838. Neuque´n, Argentina, Spec. papers - Geol. Soc. Am., 407, 317. https:
+Mun˜oz,J.&Stern,C.R.,1988.TheQuaternaryvolcanicbeltofthesouth- //doi.org/10.1130/2006.2407(15).
+erncontinentalmarginofSouthAmerica:transversestructuralandpetro- Veikkolainen,T.&Pesonen,L.J.,2014.Palaeosecularvariation,fieldrever-
+chemicalvariationsacrossthesegmentbetween38◦Sand39◦S,J.South
+salsandthestabilityofthegeodynamointhePrecambrian,Geophys.J.
+AmericanEarthSci.,1(2),147–161. Int.,199(3),1515–1526.
+Ogg,J.G.,2020.Geomagneticpolaritytimescale,inGeologicTimeScale Watson,G.S.,1983.LargesampletheoryoftheLangevindistribution,J.
+2020,pp.159–192,Elsevier. Stat.Plan.Infer.,8(3),245–256.
+Opdyke,N.D.,Hall,M.,Mejia,V.,Huang,K.&Foster,D.A.,2006.Time- Zijderveld,J.D.A.,1967.ACDemagnetizationofRocks:AnalysisofResults,
+averagedfieldattheequator:resultsfromEcuador,Geochem.Geophys. Amsterdam,Elsevier.
+Geosyst.,7(11),1–16.
+Panovska,S.,Korte,M.&Constable,C.,2019.Onehundredthousandyears
+ofgeomagneticfieldevolution,Rev.Geophys.,57(4),1289–1337. SUPPORTING INFORMATION
+Quidelleur, X., Valet, J.-P., Courtillot, V. & Hulot, G., 1994. Long-term
+SupplementarydataareavailableatGJIonline.
+geometry of the geomagnetic field for the last five million years: an
+updatedsecularvariationdatabase,Geophys.Res.Lett.,21(15),1639– FigureS1.Bootstrapreversaltestsrepresentedbycumulativedis-
+1642. tributions of Cartesian components for three data sets defined by
+Quidelleur, X., Carlut, J., Tchilinguirian, P., Germa, A. & Gillot, P.-Y., theselectioncriteria:(a)Noselectioncriteria,(b)k≥50and(c)k
+2009.Paleomagneticdirectionsfrommid-latitudesitesinthesouthern ≥100.Curvedsolid(dashed)linesrefertothenormal(reversed)
+hemisphere(Argentina):contributiontotimeaveragedfieldmodels,Phys.
+polaritydirections.Verticalstraightlinesarethe95percentconfi-
+Earthplanet.Inter.,172(3–4),199–209.
+dencelimits.
+Roberts, A.P., Heslop, D., Zhao, X. & Pike, C.R., 2014. Understanding
+Table S1. K-Ar data from geochronological studies carried out
+finemagneticparticlesystemsthroughuseoffirst-orderreversalcurve
+diagrams,Rev.Geophys.,52(4),557–602. attheCCVC.Lithologies:andesite(AN);basaltic-andesite(BA);
+Roberts,A.P.etal.,2017.Resolvingtheoriginofpseudo-singledomain dacite(DA);daciticignimbrite(DI);traquiandesite(TA).Methods:
+magneticbehavior,J.geophys.Res.:SolidEarth,122(12),9534–9558. whole-rock(WR).
+Roperch,P.,Chauvin,A.,Lara,L.E.&Moreno,H.,2015.Secularvariation TableS2.Rockmagnetismdatafromthermomagneticsusceptibility
+oftheEarth’smagneticfieldandapplicationtopaleomagneticdatingof (χ(T))curves.
+historicallavaflowsinChile,Phys.Earthplanet.Inter.,242,65–78.
+Sa´nchez-Duque,A.,Mejia,V.,Opdyke,N.D.,Huang,K.&Rosales-Rivera, Pleasenote:OxfordUniversityPressisnotresponsibleforthecon-
+A., 2016. Plio-Pleistocene paleomagnetic secular variation and time- tent or functionality of any supporting materials supplied by the
+averagedfield:Ruiz-Tolimavolcanicchain,Colombia,Geochem.Geo- authors. Any queries (other than missing material) should be di-
+phys.Geosyst.,17(2),538–549. rectedtothecorrespondingauthorforthepaper.
+Downloaded
+from
+https://academic.oup.com/gji/article/234/3/1640/7128998
+by
+Curtin
+University
+Library
+user
+on
+29
+April
+2026

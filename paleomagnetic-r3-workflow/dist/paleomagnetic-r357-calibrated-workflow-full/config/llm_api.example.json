@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "provider": "openai_compatible_chat",
+  "base_url": "",
+  "base_url_env": "PALEOMAG_LLM_BASE_URL",
+  "chat_path": "/chat/completions",
+  "model": "",
+  "model_env": "PALEOMAG_LLM_MODEL",
+  "api_key_env": "PALEOMAG_LLM_API_KEY",
+  "api_key_required": true,
+  "timeout_seconds": 120,
+  "max_retries": 2,
+  "temperature": 0,
+  "max_output_tokens": 1200,
+  "max_input_chars": 120000,
+  "response_language": "zh-CN",
+  "use_json_response_format": true,
+  "supported_indicators": ["R3", "R5", "R7"]
+}
